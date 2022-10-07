@@ -36,6 +36,6 @@
 
 1. How many HTML tags are should be used for the most simple of web pages? 
 
-1. Write code for given web page. [Click here to view image](../images/html-img.png)
+1. Write code for given web page. [Click here to view image](images/html-img.png)
 
-1. Write a HTML FORM tags that outputs the following:[Click here to view image](../images/html-form.jpg)
+1. Write a HTML FORM tags that outputs the following:[Click here to view image](images/html-form.jpg)

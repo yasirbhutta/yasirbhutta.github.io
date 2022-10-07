@@ -17,6 +17,7 @@
 1. What are selectors in CSS? 
 
 1. Write a program to execute a JavaScript function using HTML onclick Event Attribute
+
 1. How can you apply CSS style using ID value? 
 
 1. Provide a style rule to display h1, h2 and h3 headings with a yellow color.
@@ -29,6 +30,7 @@
 P {colour: blue; background-colour: white; border-colour: red; border-left: solid}  
 BODY {colour: black; border-colour: green}
 ```  
+
 1. Provide a style rule to display the text of all paragraph elements belonging to the “highlight” class in red.
 
 1. Give an example of each CSS rule types to display h1, h2 and h3 headings with a red, green, yellow colors
