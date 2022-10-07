@@ -27,6 +27,7 @@
 <div> 
 </html> 
 ```
+
 1. Specify the code to create an unordered list for the following items: garlic, pepper, salt 
 
 1. What tag is used to define a link? Give an example of link ?
