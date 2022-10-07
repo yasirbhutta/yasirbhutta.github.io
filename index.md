@@ -2,5 +2,5 @@
 
 ## Courses
 
-- [CS-301 Introduction to Information and Comm. Technology]()
+- [CS-301 Introduction to Information and Comm. Technology](#courses)
 
