@@ -17,7 +17,6 @@
 - [Comments](https://yasirbhutta.blogspot.com/2022/09/learn-python-in-1-minute-comments.html)
 - [Indentation](https://yasirbhutta.blogspot.com/2022/09/learn-python-in-1-minute-python.html)
 - [Variables and Assignments](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-basic.html)
-  - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
 - User-defined Functions
 - Code Checked at Runtime
 - Variable Names
@@ -43,13 +42,15 @@
 
 #### Sequence Types
 
-- list
-- tuple
+- [list](https://yasirbhutta.blogspot.com/2022/10/15-python-lists-python-tips.html)
+  - [Python List Slicing](https://yasirbhutta.blogspot.com/2022/10/16-range-of-indexes-in-python-list.html)
+  - [Python Nested List](https://yasirbhutta.blogspot.com/2022/10/17-python-nested-list-python-tips.html)
+- Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
 - range
 
 #### Mapping Type
 
-- dic
+- [dic](https://yasirbhutta.blogspot.com/2022/10/18-python-mapping-types-dict-python-tips.html)
 
 #### Set Types
 
