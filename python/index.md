@@ -53,7 +53,7 @@
 
 #### Set Types
 
-- set
+- [set](https://yasirbhutta.blogspot.com/2022/10/18-python-set-types-set-python-for.html)
 - frozenset
 
 #### Boolean Types
