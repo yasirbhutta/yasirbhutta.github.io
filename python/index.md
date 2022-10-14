@@ -38,7 +38,7 @@
   - [How to Convert a Python integer to string](https://yasirbhutta.blogspot.com/2022/09/python-str-function-how-to-convert.html)
   - [Convert integer to octal and hexadecimal](https://yasirbhutta.blogspot.com/2022/09/python-tips-convert-integer-to-octal.html)
 - [float](https://yasirbhutta.blogspot.com/2022/09/python-numeric-types-float.html)
-- [commplex](https://yasirbhutta.blogspot.com/2022/09/14-python-numeric-types-complex.html)
+- [complex](https://yasirbhutta.blogspot.com/2022/09/14-python-numeric-types-complex.html)
 
 #### Sequence Types
 
@@ -46,7 +46,7 @@
   - [Python List Slicing](https://yasirbhutta.blogspot.com/2022/10/16-range-of-indexes-in-python-list.html)
   - [Python Nested List](https://yasirbhutta.blogspot.com/2022/10/17-python-nested-list-python-tips.html)
 - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
--[The range() Function](https://youtu.be/ZEVsokTGbwA)
+- [The range() Function](https://youtu.be/ZEVsokTGbwA)
 
 
 #### Mapping Type
@@ -74,14 +74,15 @@
 
 ### Control Flow
 
--[How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
--[Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
+- [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
+
+- [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 
 #### conditions
 
 #### loops
 
--[for loops](https://youtu.be/GIG0SudpPLI)  
+- [for loops](https://youtu.be/GIG0SudpPLI)  
 
 ### Python Sorting
 
