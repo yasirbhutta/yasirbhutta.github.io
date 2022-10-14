@@ -2,7 +2,7 @@
 
 ## Introduction to HTML
 
-1.  What is HTML? 
+1. What is HTML?
 
 1. Specify the code you would enter to mark the text “Welcome” as an h1 heading.
 

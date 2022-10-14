@@ -37,8 +37,8 @@
   - [How to Convert a Python String to int](https://yasirbhutta.blogspot.com/2022/09/python-int-function-how-to-convert.html)
   - [How to Convert a Python integer to string](https://yasirbhutta.blogspot.com/2022/09/python-str-function-how-to-convert.html)
   - [Convert integer to octal and hexadecimal](https://yasirbhutta.blogspot.com/2022/09/python-tips-convert-integer-to-octal.html)
-- float
-- commplex
+- [float](https://yasirbhutta.blogspot.com/2022/09/python-numeric-types-float.html)
+- [commplex](https://yasirbhutta.blogspot.com/2022/09/14-python-numeric-types-complex.html)
 
 #### Sequence Types
 
@@ -60,7 +60,7 @@
 #### Boolean Types
 
 - bool
-
+  
 #### Binary Types
 
 - bytes
@@ -72,6 +72,9 @@
 #### exercise
 
 ### Control Flow
+
+-[How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
+-[Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 
 #### conditions
 
