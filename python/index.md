@@ -80,6 +80,10 @@
 
 #### loops
 
+- [for loops](https://youtu.be/GIG0SudpPLI)
+  
+- [The range() Function](https://youtu.be/ZEVsokTGbwA)
+
 ### Python Sorting
 
 ### Modules
