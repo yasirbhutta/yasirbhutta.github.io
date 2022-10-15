@@ -46,7 +46,8 @@
   - [Python List Slicing](https://yasirbhutta.blogspot.com/2022/10/16-range-of-indexes-in-python-list.html)
   - [Python Nested List](https://yasirbhutta.blogspot.com/2022/10/17-python-nested-list-python-tips.html)
 - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
-- [The range() Function](https://youtu.be/ZEVsokTGbwA)
+- [range](https://yasirbhutta.blogspot.com/2022/10/15-python-sequence-type-range-python.html)
+  - [The range() Function](https://youtu.be/ZEVsokTGbwA)
 
 
 #### Mapping Type
