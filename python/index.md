@@ -81,7 +81,7 @@
   - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
   - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 - [for Statement](https://yasirbhutta.blogspot.com/2022/10/21-for-loops-in-python-python-tutorial.html)
-- while Statement
+- [while Statement](https://yasirbhutta.blogspot.com/2022/10/26-control-flow-statements-while.html)
 - [The Range() function](https://yasirbhutta.blogspot.com/2022/10/24-control-flow-statements-range.html)
 - The break Statement
 - The continue Statement
