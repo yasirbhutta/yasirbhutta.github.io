@@ -83,7 +83,7 @@
 - [for Statement](https://yasirbhutta.blogspot.com/2022/10/21-for-loops-in-python-python-tutorial.html)
 - [while Statement](https://yasirbhutta.blogspot.com/2022/10/26-control-flow-statements-while.html)
 - [The Range() function](https://yasirbhutta.blogspot.com/2022/10/24-control-flow-statements-range.html)
-- The break Statement
+- [The break Statement](https://yasirbhutta.blogspot.com/2022/10/27-control-flow-statements-break.html)
 - The continue Statement
 - The else Clauses on Loops
 - pass Statement
