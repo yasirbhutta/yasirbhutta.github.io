@@ -51,34 +51,44 @@ Managing Worksheets, Moving and Coping Sheets
 - Lecture #2:   File Management In Excel
                 Formatting In Excel – Session 1
 
-## Week 11	Assignment # 5
+## Week 11  Assignment # 5
 
 - Lecture #1:   Formatting In Excel – Session 2
 - Lecture #2:   Formulas and Functions
 
-Week 12	
-Lecture #1	Printing in Excel
+## Week 12
 
-Creating Charts in Excel
-Lecture #2	Data Analysis features in Excel 
-Week 13	Assignment # 6
-Lecture #1	Understanding MS Power Point
+- Lecture #1    Printing in Excel
+                Creating Charts in Excel
+- Lecture #2:   Data Analysis features in Excel 
 
-Text & Formatting in Power Point
-Lecture #2	Drawing, Slide Transitions, Playing the Presentation, Slide Animation
-Week 14	
-Lecture #1	Action Buttons, Slide Show Options, Insert Movie, Inserting Sound
-Lecture #2	Introduction to SPSS and its uses, file operations, Getting help, Data Editing features, Different Viewing patterns
-Week 15	
-Lecture #1	Data Transformation, Data Analysis, Graph theory
-Lecture #2	Utilities for Analysis, use of software for data analysis
-Week 16	Assignment # 6
-Lecture #1	Internet Address, DNS , WWW, Web Browser, URL , Web Server ,Search Engine , Type Of Web Pages, Web Casting
-Lecture #2	E- Commerce, 
+## Week 13  Assignment # 6
+
+- Lecture #1:   Understanding MS Power Point
+                Text & Formatting in Power Point
+- Lecture #2:   Drawing, Slide Transitions, Playing the Presentation, Slide Animation
+
+## Week 14
+
+- Lecture #1:   Action Buttons, Slide Show Options, Insert Movie, Inserting Sound
+- Lecture #2:   Introduction to SPSS and its uses, file operations, Getting help, Data Editing features, Different Viewing patterns
+
+## Week 15
+
+- Lecture #1:   Data Transformation, Data Analysis, Graph theory
+- Lecture #2:   Utilities for Analysis, use of software for data analysis
+
+## Week 16  Assignment # 6
+
+- Lecture #1:   Internet Address, DNS , WWW, Web Browser, URL , Web Server ,Search Engine , Type Of Web Pages, Web Casting
+- Lecture #2:   E- Commerce, 
 Web Publishing, E-mail, 
 Newsgroup & message board, Mailing List & Chat Rooms, 
 Types Of Email Accounts.
-Week 17	Assignment # 7
-Lecture #1	Web Searching, Chatting Using Messengers ( MSN Messenger , Yahoo Messenger , Google Talk) 
-Lecture #2	Revision
-Week 18	(Final Examination)
+
+## Week 17	Assignment # 7
+
+- Lecture #1:   Web Searching, Chatting Using Messengers ( MSN Messenger , Yahoo Messenger , Google Talk)
+- Lecture #2:   Revision
+
+## Week 18	(Final Examination)
