@@ -2,9 +2,9 @@
 
 ## Download Slides
 
-- [Journey Into The World of Computer Technology](https://docs.google.com/presentation/d/177kTAP6fhEf4GvwcGZgYj0N8Vhp2rbopE3dceADf3pc/edit?usp=sharing)
-- [Computer Hardware](https://docs.google.com/presentation/d/1E5gMv1BgxoyaUWuffuApPw11r2m6kEry0yFDYsAz0u0/edit?usp=sharing)
-- [MEMORY, STORAGE DEVICES & SOFTWARE'S](https://docs.google.com/presentation/d/168Rt_k1ufYWGKpRvX1oRmu4173FPSfCfQ7PbZMGwAas/edit?usp=sharing)
+- [Journey Into The World of Computer Technology](https://docs.google.com/presentation/d/177kTAP6fhEf4GvwcGZgYj0N8Vhp2rbopE3dceADf3pc/export?format=pdf)
+- [Computer Hardware](https://docs.google.com/presentation/d/1E5gMv1BgxoyaUWuffuApPw11r2m6kEry0yFDYsAz0u0/export?format=pdf)
+- [MEMORY, STORAGE DEVICES & SOFTWARE'S](https://docs.google.com/presentation/d/168Rt_k1ufYWGKpRvX1oRmu4173FPSfCfQ7PbZMGwAas/export?format=pdf)
   
 
 1.1.	What is computer? (Computer is basically a machine meant for computing, it is made up of many electronic and electrical components.)
