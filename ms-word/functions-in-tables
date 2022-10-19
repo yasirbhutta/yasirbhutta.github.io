@@ -1,0 +1,19 @@
+Function	Returns
+ABS(x)	The positive value of a number or formula, regardless of its actual positive or negative value.
+AND( x,y)	The value 1 if the logical expressions x and y are both true, or the value 0 (zero) if either expression is false.
+AVERAGE( )	The average of a list of values.
+COUNT( )	The number of items in a list.
+DEFINED(x)	The value 1 (true) if the expression x is valid, or the value 0 (false) if the expression cannot be computed.
+FALSE	0 (zero).
+INT(x)	The numbers to the left of the decimal place in the value or formula x.
+MIN( )	The smallest value in a list.
+MAX( )	The largest value in a list.
+MOD(x,y)	The remainder that results from dividing the value x by the value y a whole number of times.
+NOT(x)	The value 0 (zero) (false) if the logical expression x is true, or the value 1 (true) if the expression is false.
+OR(x,y)	The value 1 (true) if either or both logical expressions x and y are true, or the value 0 (zero) (false) if both expressions are false.
+PRODUCT( )	The result of multiplying a list of values. For example, the function
+{ = PRODUCT (1,3,7,9) } returns the value 189.
+ROUND(x,y)	The value of x rounded to the specified number of decimal places y; x can be either a number or the result of a formula.
+SIGN(x)	The value 1 if x is a positive value, or the value –1 if x is a negative value.
+SUM( )	The sum of a list of values or formulas.
+TRUE	1.
