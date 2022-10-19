@@ -1,4 +1,4 @@
-# Microsoft Excel | Microsoft Office
+# Microsoft Excel
 
 ## Download slides
 
