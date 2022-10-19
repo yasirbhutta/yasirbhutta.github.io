@@ -2,7 +2,7 @@
 
 ## Downloads
 
-- [Download - Computer Basics Slides](../computer-basics/index.md)
-- [Download - Microsoft Excel Slides](../ms-excel/index.md)
+- [Computer Basics Slides](../computer-basics/index.md)
+- [Microsoft Excel Slides](../ms-excel/index.md)
 
 ## [Course Contents](course-contents.md) 
