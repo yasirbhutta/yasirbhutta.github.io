@@ -1,5 +1,9 @@
 # Yasir Bhutta - yasirbhutta@gmail.com
 
+## Softwares
+
+- [Softwares](tools/index.md)
+  
 ## Courses
 
 - [Getting started with Python](python/index.md)
