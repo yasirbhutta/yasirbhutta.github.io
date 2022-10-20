@@ -1,4 +1,4 @@
-# Yasir Bhutta - yasirbhutta@gmail.com
+# Muhammad Yasir Bhutta
 
 ## Softwares
 
