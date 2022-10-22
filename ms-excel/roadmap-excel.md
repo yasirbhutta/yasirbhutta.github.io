@@ -12,7 +12,11 @@
 
 ## Rows and columns
 
+[Download - Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
+
 ## Cells
+
+[Download - Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
 
 ## Formatting
 
