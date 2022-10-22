@@ -2,7 +2,7 @@
 
 ## Computer Basics- MCQS
 
-***_____________ act as a file manager in windows operating system.***
+***Q. _____________ act as a file manager in windows operating system.***
 
 - My Computer
 - File Manager
