@@ -1,7 +1,7 @@
 # Microsoft Excel
 
 - [Online courses and trainings](courses-excel.md)
-- [Learning roading](roadmap-excel.md)
+- [Learning roadmap](roadmap-excel.md)
 
 ## Download slides
 
