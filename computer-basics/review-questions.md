@@ -18,3 +18,8 @@
 ### Software
 
 1. Define Application Software and System Software? Enlist 10 application software’s.
+
+### Windows
+
+1. What is the difference between Folders and Files?
+1. Write the procedure for creating new folder?
