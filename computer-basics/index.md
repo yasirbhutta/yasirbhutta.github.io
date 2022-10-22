@@ -1,5 +1,8 @@
 # Computer Basics
 
+- [MCQs](mcqs.md)
+  - [Review Questions](review-questions.md)
+
 ## Download Slides
 
 - [Journey Into The World of Computer Technology](https://docs.google.com/presentation/d/177kTAP6fhEf4GvwcGZgYj0N8Vhp2rbopE3dceADf3pc/export?format=pdf)
