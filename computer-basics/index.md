@@ -1,7 +1,7 @@
 # Computer Basics
 
 - [MCQs](mcqs.md)
-  - [Review Questions](review-questions.md)
+- [Review Questions](review-questions.md)
 
 ## Download Slides
 
