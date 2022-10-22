@@ -1,6 +1,8 @@
 # Microsoft Excel
 
--[Online courses and trainings]()
+- [Online courses and trainings](courses-excel.md)
+- [Learning roading](roadmap-excel.md)
+
 ## Download slides
 
 - [Basics - Microsoft Excel](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
