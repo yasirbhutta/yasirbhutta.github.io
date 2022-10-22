@@ -9,15 +9,9 @@
 - ***Window Explorer
 - ***None
 
-1. **The ending letters associated with a file and indicates the type of file are called ________**
+The ending letters associated with a file and indicates the type of file are called ________
 
-    >**a.** Folder
-
-    >**b.** File Name
-
-    >**c.** File Extension
-
-    >**d.** File Type
-
-
-
+*Folder
+*File Name
+*File Extension
+[()]File Type
