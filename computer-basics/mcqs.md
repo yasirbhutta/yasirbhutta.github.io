@@ -4,23 +4,23 @@
 
 1. **_____________ act as a file manager in windows operating system.**
 
->**a.** My Computer
+    >**a.** My Computer
 
->**b.** File Manager
+    >**b.** File Manager
 
->**c.** Window Explorer
+    >**c.** Window Explorer
 
->**d.** None
+    >**d.** None
 
 1. **The ending letters associated with a file and indicates the type of file are called ________**
 
->**a.** Folder
+    >**a.** Folder
 
->**b.** File Name
+    >**b.** File Name
 
->**c.** File Extension
+    >**c.** File Extension
 
->**c.** File Type
+    >**c.** File Type
 
 
 
