@@ -14,5 +14,4 @@
 - Folder
 - File Name
 - File Extension
-
-[()] File Type
+- File Type
