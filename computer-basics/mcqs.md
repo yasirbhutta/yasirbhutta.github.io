@@ -2,7 +2,32 @@
 
 ## Computer Basics- MCQS
 
+---
+***Q. Data generated after the processing of the data is called:***
+
+1. Process
+2. Information
+3. Command
+4. None
+
+---
+***Q. The instructions given to the computer is known as:***
+
+1. Statement
+2. Information
+3. Program
+4. Command
+
 ### Hardware
+
+---
+***Fill in the blanks***
+
+1. CPU have following two units: ___________ and___________.
+1. In computing, a _____________ is a device that optically scans images, printed text, handwriting, or an object, and converts it to a digital image
+
+
+
 
 ---
 ***Q. For permanent data storage, we use:***
@@ -39,8 +64,32 @@
 
 ### Software
 
+---
+***Fill in the blanks***
+
+1. The main types of software are ______ and ______.
+1. An __________________ is a set of program that manages all computer components and operations.
+
+---
+***Q. Following software is used for web browsing.***
+
+1. My Computer
+2. File Manager
+3. Google Chrome
+4. Microsoft Excel
+
+
 ### Windows
 
+---
+***Fill in the blanks***
+
+1. GUI stands for __________________.
+1. An _________ is a small graphic that represents a program, drive, folder or document.
+1. ____________ appears at the bottom of computer screen by default.
+1. An _________ is a small graphic that represents a program, drive, folder or document.
+
+---
 ***Q. _____________ act as a file manager in windows operating system.***
 
 1. My Computer
@@ -96,6 +145,13 @@
 3. Screen saver
 4. None
 
+---
+***Q. Which of the following is not an example of an operating system:***
+
+1. Linux
+2. Mac
+3. Windows 11
+4. Microsoft Word
 
 
 
