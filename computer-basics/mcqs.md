@@ -13,5 +13,5 @@
 
 - Folder
 - File Name
-- File Extension
+[[x]] File Extension
 [()] File Type
