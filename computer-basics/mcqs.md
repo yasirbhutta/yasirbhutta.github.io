@@ -9,7 +9,7 @@
 - Window Explorer
 - None
 
-**The ending letters associated with a file and indicates the type of file are called ________**
+### The ending letters associated with a file and indicates the type of file are called ________
 
 - Folder
 - File Name
