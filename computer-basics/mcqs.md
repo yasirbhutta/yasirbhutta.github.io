@@ -10,9 +10,10 @@
 4. None
 
 ---
-***The ending letters associated with a file and indicates the type of file are called ________***
+***Q. The ending letters associated with a file and indicates the type of file are called ________***
 
-- Folder
-- File Name
-- File Extension
-- File Type
+1. Folder
+2. File Name
+3. File Extension
+4. File Type
+
