@@ -1,5 +1,6 @@
 # Microsoft Excel
 
+-[Online courses and trainings]()
 ## Download slides
 
 - [Basics - Microsoft Excel](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
