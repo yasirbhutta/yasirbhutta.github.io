@@ -18,6 +18,8 @@
 
 [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
+- [Select a range of cells](https://youtu.be/rAqaieW0lVM)
+
 ## Formatting
 
 [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
