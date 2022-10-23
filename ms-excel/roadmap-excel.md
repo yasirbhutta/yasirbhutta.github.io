@@ -4,7 +4,7 @@
 
 ## Intro. to Excel
 
-[Download - Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
 - [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
@@ -12,31 +12,33 @@
 
 ## Rows and columns
 
-[Download - Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 ## Cells
 
-[Download - Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 ## Formatting
 
-[Download - Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas
 
-[Download - Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/export?format=pdf)
+[Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
 - [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
 
 ## Functions
 
-[Download - Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
+
+- [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
 
 ## Tables
 
 ## Charts
 
-[Download - Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/export?format=pdf)
+[Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
 
 ## PivotTables
 
@@ -45,3 +47,7 @@
 ## Linked dat types
 
 ## Get to know Power Query
+
+## Tips and Tricks
+
+- [How to: Populate a Dropdown List Based on Cells Value](https://youtube.com/shorts/qnrHaDbaPYw)
