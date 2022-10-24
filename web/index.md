@@ -1,2 +1,0 @@
-# Web System and Technologies
-
