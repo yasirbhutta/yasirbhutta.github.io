@@ -1,12 +1,12 @@
 # Ms Excel - Assignment 1
 
-Please prepare both sheets as templates given below:
+Please prepare both sheets as per samples given below:
 
 ## Sheet 1
 
 ![sheet1](images/Sale_Invoice1a.png)
 
-## Sheet3
+## Sheet 2
 
 ![sheet2](images/Sale_Invoice1b.png)
 
