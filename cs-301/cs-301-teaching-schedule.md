@@ -6,15 +6,15 @@
 - Lecture #1:   Introduction Of Computers
 - Lecture #2:   Hardware, I/O Devices
 
-## Week 2 
+## Week 2
 
-- Lecture #1:   Memory, Storage Devices, Software’s 
+- Lecture #1:   Memory, Storage Devices, Software’s
 - Lecture #2:   Information Technology, People and Communication, Data Processing, Bits ,Bytes and Words Windows Operating System and Managing Windows 2000/XP
 
 ## Week 3
 
 - Lecture #1:   Operating Systems, Functions of Operating Systems, Types of Operating Systems
-- Lecture #2:   Managing Files and Folders. 
+- Lecture #2:   Managing Files and Folders.
 
 ## Week 4
 

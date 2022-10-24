@@ -4,7 +4,7 @@
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Python Online Course](python-courses.md)
   
-## Python Learning Path for Beginners
+## Python Learning Roadmap for Beginners
 
 ### Installation & Getting Started
 
