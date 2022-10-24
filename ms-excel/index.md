@@ -2,6 +2,7 @@
 
 - [Online courses and trainings](courses-excel.md)
 - [Learning roadmap](roadmap-excel.md)
+- [Assignments](assignments/index.md)
 
 ## Download slides
 
