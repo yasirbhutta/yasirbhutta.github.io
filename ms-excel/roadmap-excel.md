@@ -44,6 +44,7 @@
   - [IF](https://youtu.be/hftoKkdWNRk)
   - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
   - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
+  - [More functions ...](functions.md)
 
 ## Tables
 
