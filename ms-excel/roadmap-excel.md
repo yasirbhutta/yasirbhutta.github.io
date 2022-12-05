@@ -6,9 +6,11 @@
 
 [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
+- Microsoft Excel Interface
 - [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
-- [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
 - [Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
+- [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
+- Select cells, ranges, rows, or columns
 
 ## Rows and columns
 
@@ -34,6 +36,9 @@
 
 [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
 
+- Cell references
+- [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
+- Coping formula
 - Most frequently used functions
   - [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
   - [MAX and MIN](https://youtu.be/v-HPGVPpEvE)
