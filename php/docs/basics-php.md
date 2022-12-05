@@ -80,7 +80,7 @@ echo "My boat is " . $coLOR . "<br>";
 
 ### Variables
 
-**Example 1**
+
 
 ```php
 <?php
@@ -93,9 +93,8 @@ echo "I love " . $txt . "!";
 
 ?>
 ```
-[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
+**Example 1**:[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
 
-**Example 2**
 
 ```php
 <?php
@@ -106,10 +105,7 @@ echo $x + $y;
 
 ?>
 ```
-[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
-
-**Example 3**
-
+**Example 2**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
 
 ```php
 <?php
@@ -124,7 +120,7 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
-[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
+**Example 3**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
 
 **Example 4**
 
