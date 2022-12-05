@@ -2,7 +2,8 @@
 
 ## PHP Basics
 
-[Download examples Codes](https://github.com/yasirbhutta/php-examples)
+- [Download PDF](basics-php.pdf)
+- [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
 ### Online PHP Editors
 
