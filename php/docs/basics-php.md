@@ -80,7 +80,7 @@ echo "My boat is " . $coLOR . "<br>";
 
 ### Variables
 
-**Example 5**
+**Example 1**
 
 ```php
 <?php
@@ -95,6 +95,51 @@ echo "I love " . $txt . "!";
 ```
 [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
 
+**Example 2**
+
+```php
+<?php
+
+$x = 5;
+$y = 4;
+echo $x + $y;
+
+?>
+```
+[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
+
+**Example 3**
+
+'''php
+<?php
+$x = 5; // global scope
+
+function myTest() {
+    // using x inside this function will generate an error
+    echo "<p>Variable x inside function is: $x</p>";
+} 
+myTest();
+
+echo "<p>Variable x outside function is: $x</p>";
+?>
+```
+[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
+
+**Example 4**
+
+```php
+<?php
+function myTest() {
+    $x = 5; // local scope
+    echo "<p>Variable x inside function is: $x</p>";
+} 
+myTest();
+
+// using x outside the function will generate an error
+echo "<p>Variable x outside function is: $x</p>";
+?>
+```
+[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
 
 
 
