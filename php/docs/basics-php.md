@@ -15,7 +15,7 @@ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open so
 - PHP files have extension ".php".
 
 
-```
+```php
 <!DOCTYPE html>
 <html>
  <head>
@@ -26,5 +26,15 @@ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open so
  </body>
 </html>
 
+```
+
+```php
+<?php
+// Show all information, defaults to INFO_ALL
+phpinfo();
+// Show just the module information.
+// phpinfo(8) yields identical results.
+phpinfo(INFO_MODULES);
+?>
 ```
 
