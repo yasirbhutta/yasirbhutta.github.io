@@ -4,6 +4,12 @@
 
 [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
+### Online PHP Editors
+
+- [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
+- [https://www.codingrooms.com/compiler/php/](https://www.codingrooms.com/compiler/php/
+)
+
 ### What is PHP
 
 PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
@@ -39,4 +45,55 @@ phpinfo();
 phpinfo(INFO_MODULES);
 ?>
 ```
+
+**Visual Studio Code - PHP Extension Pack**
+
+[https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
+
+**Example 3**
+
+```php
+<?php
+/* In PHP, all keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are NOT case-sensitive.*/
+
+ECHO "Hello World!<br>";
+echo "Hello World!<br>";
+EcHo "Hello World!<br>";
+?>
+```
+[GitHub Code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
+
+**Example 4**
+
+```php
+<?php
+// all variable names are case-sensitive.
+$color = "red";
+$COLOR="GREEN";
+echo "My car is " . $color . "<br>";
+echo "My house is " . $COLOR . "<br>";
+echo "My boat is " . $coLOR . "<br>";
+?>
+```
+[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php)
+
+### Variables
+
+**Example 5**
+
+```php
+<?php
+
+$txt = "W3Schools.com";
+echo "I love $txt!";
+// produce the same output
+echo "<br>";
+echo "I love " . $txt . "!";
+
+?>
+```
+[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
+
+
+
 
