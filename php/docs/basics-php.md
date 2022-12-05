@@ -14,6 +14,7 @@ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open so
 - PHP code are executed on the server, and the result is returned to the browser as plain HTML.
 - PHP files have extension ".php".
 
+**Example 1**
 
 ```php
 <!DOCTYPE html>
@@ -27,6 +28,7 @@ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open so
 </html>
 
 ```
+**Example 2**
 
 ```php
 <?php
