@@ -103,7 +103,23 @@ echo $x + $y;
 ```
 **Example 6**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
 
-#### global scope variable
+#### Local scope variable
+
+```php
+<?php
+function myTest() {
+    $x = 5; // local scope
+    echo "<p>Variable x inside function is: $x</p>";
+} 
+myTest();
+
+// using x outside the function will generate an error
+echo "<p>Variable x outside function is: $x</p>";
+?>
+```
+**Example 7:**[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
+
+#### Global scope variable
 
 ```php
 <?php
@@ -118,20 +134,69 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
-**Example 7**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
+**Example 8**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
 
-#### local scope variable
+```php
+<?php
+$x = 5; // global scope
+$y = 10;
+
+function myTest() {
+ global $x, $y;  // use global scope variable in function
+    $y = $x + $y;
+    
+}
+
+myTest();
+echo $y; // outputs 15
+?>
+```
+**Example 9**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-05.php)
+
+#### $GLOBALS
+
+An associative array containing references to all variables which are currently defined in the global scope of the script. The variable names are the keys of the array.
+
+**Example #1 $GLOBALS example**
+
+```php
+<?php
+$x = 5;
+$y = 10;
+
+function myTest() {
+    $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+} 
+
+myTest();
+echo $y; // outputs 15
+?>
+```
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-06.php)
+
+#### Static variable
+
+ A static int variable remains in memory while the program is running. A normal or auto variable is destroyed when a function call where the variable was declared is over. [1]
 
 ```php
 <?php
 function myTest() {
-    $x = 5; // local scope
-    echo "<p>Variable x inside function is: $x</p>";
-} 
-myTest();
+    static $x = 0;
+    echo $x . "<br \>";
+    $x++;
+}
 
-// using x outside the function will generate an error
-echo "<p>Variable x outside function is: $x</p>";
+myTest();
+myTest();
+myTest();
+myTest();
 ?>
 ```
-**Example 8:**[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
+**Example 11**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-07.php)
+
+### String functions
+
+
+### References
+
+1. [Static variables](https://www.geeksforgeeks.org/static-variables-in-c/)
