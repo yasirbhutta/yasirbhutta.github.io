@@ -5,6 +5,10 @@
 - [Download PDF](basics-php.pdf)
 - [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
+**Visual Studio Code - PHP Extension Pack**
+
+[https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
+
 ### Online PHP Editors
 
 - [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
@@ -33,7 +37,8 @@ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open so
  </body>
 </html>
 ```
-**Example 1**
+
+**Example #2 phpinfo example**
 
 ```php
 <?php
@@ -44,15 +49,12 @@ phpinfo();
 phpinfo(INFO_MODULES);
 ?>
 ```
-**Example 2**
 
-**Visual Studio Code - PHP Extension Pack**
+In PHP, all keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are NOT case-sensitive.
 
-[https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
-
+**Example #3 echo example**
 
 ```php
-In PHP, all keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are NOT case-sensitive.
 <?php
 
 ECHO "Hello World!<br>";
@@ -63,20 +65,28 @@ EcHo "Hello World!<br>";
 **Example 3:**[GitHub Code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
 
 
+
+### Variables
+
+
 all variable names are case-sensitive.
+
+**Example #1 variable example**
+
 ```php
 <?php
-// 
+
 $color = "red";
 $COLOR="GREEN";
 echo "My car is " . $color . "<br>";
 echo "My house is " . $COLOR . "<br>";
 echo "My boat is " . $coLOR . "<br>";
+
 ?>
 ```
-**Example 4:**[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php)
 
-### Variables
+**Example #2 variable example**
 
 ```php
 <?php
@@ -89,8 +99,9 @@ echo "I love " . $txt . "!";
 
 ?>
 ```
-**Example 5**:[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
 
+**Example #3 variable example**
 
 ```php
 <?php
@@ -101,9 +112,11 @@ echo $x + $y;
 
 ?>
 ```
-**Example 6**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
 
 #### Local scope variable
+
+**Example #1 local scope variable example**
 
 ```php
 <?php
@@ -117,9 +130,11 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
-**Example 7:**[GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
 
 #### Global scope variable
+
+**Example #1 global scope variable example**
 
 ```php
 <?php
@@ -134,7 +149,9 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
-**Example 8**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
+
+**Example #2 use global scope variable in function**
 
 ```php
 <?php
@@ -151,7 +168,7 @@ myTest();
 echo $y; // outputs 15
 ?>
 ```
-**Example 9**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-05.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-05.php)
 
 #### $GLOBALS
 
@@ -178,6 +195,8 @@ echo $y; // outputs 15
 
  A static int variable remains in memory while the program is running. A normal or auto variable is destroyed when a function call where the variable was declared is over. [1]
 
+**Example #1 static variable example**
+
 ```php
 <?php
 function myTest() {
@@ -200,3 +219,12 @@ myTest();
 ### References
 
 1. [Static variables](https://www.geeksforgeeks.org/static-variables-in-c/)
+
+
+
+**Muhammad Yasir Bhutta**
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
