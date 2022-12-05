@@ -110,7 +110,8 @@ echo $x + $y;
 
 **Example 3**
 
-'''php
+
+```php
 <?php
 $x = 5; // global scope
 
