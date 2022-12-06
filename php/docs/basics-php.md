@@ -19,24 +19,34 @@
 
 PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
+Further reading:<https://www.php.net/manual/en/intro-whatis.php>
+
 ### What is a PHP File?
 
 - PHP files can contain text, HTML, CSS, JavaScript, and PHP code.
 - PHP code are executed on the server, and the result is returned to the browser as plain HTML.
 - PHP files have extension ".php".
 
+**Example #1 an introductory example**
 
 ```php
 <!DOCTYPE html>
 <html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World</p>'; ?> 
- </body>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+
+        <?php
+            echo "Hi, I'm a PHP script!";
+        ?>
+
+    </body>
 </html>
+
 ```
+**phpinfo function**
+phpinfo — Outputs information about PHP's configuration[2]
 
 **Example #2 phpinfo example**
 
@@ -62,8 +72,7 @@ echo "Hello World!<br>";
 EcHo "Hello World!<br>";
 ?>
 ```
-**Example 3:**[GitHub Code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
-
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
 
 
 ### Variables
@@ -71,7 +80,7 @@ EcHo "Hello World!<br>";
 
 all variable names are case-sensitive.
 
-**Example #1 variable example**
+**Example #1 variable names**
 
 ```php
 <?php
@@ -86,7 +95,7 @@ echo "My boat is " . $coLOR . "<br>";
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php)
 
-**Example #2 variable example**
+**Example #2 disply of variable using echo statement**
 
 ```php
 <?php
@@ -211,7 +220,7 @@ myTest();
 myTest();
 ?>
 ```
-**Example 11**: [GitHub code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-07.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-07.php)
 
 ### String functions
 
@@ -219,6 +228,7 @@ myTest();
 ### References
 
 1. [Static variables](https://www.geeksforgeeks.org/static-variables-in-c/)
+2. [phpinfo - Manual - PHP](https://www.php.net/manual/en/function.phpinfo.php)
 
 
 
