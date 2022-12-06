@@ -19,7 +19,7 @@
 
 PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
-Further reading:<https://www.php.net/manual/en/intro-whatis.php>
+Further reading:[https://www.php.net/manual/en/intro-whatis.php](https://www.php.net/manual/en/intro-whatis.php)
 
 ### What is a PHP File?
 
@@ -77,8 +77,17 @@ EcHo "Hello World!<br>";
 
 ### Variables
 
+- Variables are used to store data, like string of text, numbers, etc. 
+- Variable values can change over the course of a script. 
+- In PHP, a variable does not need to be declared before adding a value to it. 
+- PHP automatically converts the variable to the correct data type, depending on its value
+- After declaring a variable it can be reused throughout the code.
+- The assignment operator (=) used to assign value to a variable.
+- all variable names are case-sensitive.
+  
+> In PHP variable can be declared as: **$var_name = value;**
 
-all variable names are case-sensitive.
+Further reading: [https://www.tutorialrepublic.com/php-tutorial/php-variables.php](https://www.tutorialrepublic.com/php-tutorial/php-variables.php)
 
 **Example #1 variable names**
 
@@ -123,7 +132,16 @@ echo $x + $y;
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
 
-#### Local scope variable
+#### Variable scope
+
+- The scope of a variable is the context within which it is defined. 
+- For the most part all PHP variables only have a single scope. 
+- This single scope spans included and required files as well.
+
+Further reading: [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php)
+
+
+##### Local scope variable
 
 **Example #1 local scope variable example**
 
@@ -141,9 +159,9 @@ echo "<p>Variable x outside function is: $x</p>";
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
 
-#### Global scope variable
+##### Global scope variable
 
-**Example #1 global scope variable example**
+**Example #2 global scope variable example**
 
 ```php
 <?php
@@ -160,7 +178,9 @@ echo "<p>Variable x outside function is: $x</p>";
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
 
-**Example #2 use global scope variable in function**
+**The global keyword**
+
+**Example #3 using global**
 
 ```php
 <?php
@@ -179,11 +199,12 @@ echo $y; // outputs 15
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-05.php)
 
-#### $GLOBALS
+**$GLOBALS**
 
-An associative array containing references to all variables which are currently defined in the global scope of the script. The variable names are the keys of the array.
-
-**Example #1 $GLOBALS example**
+- The $GLOBALS array is an associative array with the name of the global variable being the key and the contents of that variable being the value of the array element.
+- $GLOBALS exists in any scope, this is because $GLOBALS is a superglobal.
+  
+**Example #4 using $GLOBALS instead of global example**
 
 ```php
 <?php
@@ -200,11 +221,23 @@ echo $y; // outputs 15
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-06.php)
 
-#### Static variable
+**Using static variables** 
 
- A static int variable remains in memory while the program is running. A normal or auto variable is destroyed when a function call where the variable was declared is over. [1]
+- A static variable exists only in a local function scope, but it does not lose its value when program execution leaves this scope.
 
-**Example #1 static variable example**
+**Example #5 Example demonstrating need for static variables**
+
+```php
+<?php
+function test()
+{
+    $a = 0;
+    echo $a;
+    $a++;
+}
+?>
+```
+**Example #6 use of static variables**
 
 ```php
 <?php
