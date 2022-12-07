@@ -46,8 +46,7 @@ Further reading:
 
 ```
 
-**phpinfo function**
-phpinfo — Outputs information about PHP's configuration[2]
+phpinfo — Outputs information about PHP's configuration
 
 #### Example #2 phpinfo example
 
@@ -119,9 +118,10 @@ echo "I love " . $txt . "!";
 
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php/)
 
-**Example #3 variable example**
+#### Example #3 variable example
 
 ```php
 <?php
@@ -132,6 +132,7 @@ echo $x + $y;
 
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php/)
 
 #### Variable scope
@@ -142,10 +143,9 @@ echo $x + $y;
 
 Further reading: [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php/)
 
+Local scope variable
 
-##### Local scope variable
-
-**Example #1 local scope variable example**
+##### Example #1 local scope variable example
 
 ```php
 <?php
@@ -159,11 +159,12 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-04.php)
 
-##### Global scope variable
+Global scope variable
 
-**Example #2 global scope variable example**
+##### Example #2 global scope variable example
 
 ```php
 <?php
@@ -178,11 +179,12 @@ myTest();
 echo "<p>Variable x outside function is: $x</p>";
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-03.php)
 
-**The global keyword**
+The global keyword
 
-**Example #3 using global**
+##### Example #3 using global
 
 ```php
 <?php
@@ -199,14 +201,14 @@ myTest();
 echo $y; // outputs 15
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-05.php)
 
-**$GLOBALS**
+$GLOBALS - The $GLOBALS array is an associative array with the name of the global variable being the key and the contents of that variable being the value of the array element.
 
-- The $GLOBALS array is an associative array with the name of the global variable being the key and the contents of that variable being the value of the array element.
 - $GLOBALS exists in any scope, this is because $GLOBALS is a superglobal.
   
-**Example #4 using $GLOBALS instead of global example**
+##### Example #4 using $GLOBALS instead of global example
 
 ```php
 <?php
@@ -223,11 +225,11 @@ echo $y; // outputs 15
 ```
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-06.php)
 
-**Using static variables** 
+#### Using static variables
 
 - A static variable exists only in a local function scope, but it does not lose its value when program execution leaves this scope.
 
-**Example #5 Example demonstrating need for static variables**
+##### Example #5 Example demonstrating need for static variables
 
 ```php
 <?php
@@ -239,7 +241,8 @@ function test()
 }
 ?>
 ```
-**Example #6 use of static variables**
+
+##### Example #6 use of static variables
 
 ```php
 <?php
@@ -262,9 +265,9 @@ myTest();
 
 - [Download examples code](https://github.com/yasirbhutta/php-examples/blob/master/basics/string.php)
 
-**strlen**
+strlen
 
-**Example #1 Get The Lenght of a String**
+#### Example #1 Get The Lenght of a String
 
 ```php
 <?php
@@ -272,9 +275,10 @@ myTest();
     echo strlen("Hello world!"); // outputs 12
 ?>
 ```
-**str_word_count**
 
-**Example #2 Count The Number of Words in a String**
+str_word_count
+
+#### Example #2 Count The Number of Words in a String
 
 ```php
 <?php
@@ -282,9 +286,10 @@ myTest();
     echo str_word_count("Hello world!"); // outputs 2
 ?>
 ```
-**strrev**
 
-**Example #3 Reverse a String**
+strrev
+
+#### Example #3 Reverse a String
 
 ```php
 <?php
@@ -292,9 +297,10 @@ myTest();
     echo strrev("Hello world!"); // outputs !dlrow olleH
 ?>
 ```
-**strpos**
 
-**Example #4 Search For a Specific Text Within a String**
+strpos
+
+#### Example #4 Search For a Specific Text Within a String
 
 ```php
  <?php
@@ -305,7 +311,7 @@ myTest();
 
 str_replace
 
-**Example #5 Replace Text Within a String**
+#### Example #5 Replace Text Within a String
 
 ```php
 <?php
