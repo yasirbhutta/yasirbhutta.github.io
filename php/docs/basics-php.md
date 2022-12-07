@@ -349,6 +349,11 @@ echo '<h1>' .$x. '</h1>';
 
 ### define function
 
+define — Defines a named constant
+
+Further reading:
+    - [https://www.php.net/manual/en/function.define.php](https://www.php.net/manual/en/function.define.php)
+
 #### Example #1 Defines a named constant
 
 ```php
