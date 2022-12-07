@@ -12,14 +12,14 @@
 ### Online PHP Editors
 
 - [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
-- [https://www.codingrooms.com/compiler/php/](https://www.codingrooms.com/compiler/php/
-)
+- [https://www.codingrooms.com/compiler/php/](https://www.codingrooms.com/compiler/php/)
 
 ### What is PHP
 
 PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
-Further reading:[https://www.php.net/manual/en/intro-whatis.php](https://www.php.net/manual/en/intro-whatis.php)
+Further reading:
+    - [Intro. to PHP](https://www.php.net/manual/en/intro-whatis.php/)
 
 ### What is a PHP File?
 
@@ -45,6 +45,7 @@ Further reading:[https://www.php.net/manual/en/intro-whatis.php](https://www.php
 </html>
 
 ```
+
 **phpinfo function**
 phpinfo — Outputs information about PHP's configuration[2]
 
