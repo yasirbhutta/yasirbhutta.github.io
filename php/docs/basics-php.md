@@ -27,7 +27,7 @@ Further reading:
 - PHP code are executed on the server, and the result is returned to the browser as plain HTML.
 - PHP files have extension ".php".
 
-**Example #1 an introductory example**
+#### Example #1 an introductory example
 
 ```php
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ Further reading:
 **phpinfo function**
 phpinfo — Outputs information about PHP's configuration[2]
 
-**Example #2 phpinfo example**
+#### Example #2 phpinfo example
 
 ```php
 <?php
@@ -63,7 +63,7 @@ phpinfo(INFO_MODULES);
 
 In PHP, all keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are NOT case-sensitive.
 
-**Example #3 echo example**
+#### Example #3 echo example
 
 ```php
 <?php
@@ -90,7 +90,7 @@ EcHo "Hello World!<br>";
 
 Further reading: [https://www.tutorialrepublic.com/php-tutorial/php-variables.php](https://www.tutorialrepublic.com/php-tutorial/php-variables.php)
 
-**Example #1 variable names**
+#### Example #1 variable names
 
 ```php
 <?php
@@ -103,9 +103,10 @@ echo "My boat is " . $coLOR . "<br>";
 
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php/)
 
-**Example #2 disply of variable using echo statement**
+#### Example #2 disply of variable using echo statement
 
 ```php
 <?php
