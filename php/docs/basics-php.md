@@ -214,7 +214,7 @@ $y = 10;
 function myTest() {
     $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
 } 
-
+     
 myTest();
 echo $y; // outputs 15
 ?>
@@ -256,6 +256,60 @@ myTest();
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-07.php)
 
 ### String functions
+
+- [Download examples code](https://github.com/yasirbhutta/php-examples/blob/master/basics/string.php)
+
+**strlen**
+
+**Example #1 Get The Lenght of a String**
+
+```php
+<?php
+    echo "Length of a String: ";
+    echo strlen("Hello world!"); // outputs 12
+?>
+```
+**str_word_count**
+
+**Example #2 Count The Number of Words in a String**
+
+```php
+<?php
+    echo "<br /> Count Words: ";
+    echo str_word_count("Hello world!"); // outputs 2
+?>
+```
+**strrev**
+
+**Example #3 Reverse a String**
+
+```php
+<?php
+    echo "<br />Reverse a String: ";
+    echo strrev("Hello world!"); // outputs !dlrow olleH
+?>
+```
+**strpos**
+
+**Example #4 Search For a Specific Text Within a String**
+
+```php
+ <?php
+    echo "<br />Position: ";
+    echo strpos("Hello world!", "world"); // outputs 6
+?>
+```
+**str_replace**
+
+**Example #5 Replace Text Within a String**
+
+```php
+<?php
+    echo "<br />Replace: ";
+    echo str_replace("world", "PHP", "Hello world!"); // outputs Hello Dolly!
+?>
+```
+
 
 
 ### References
