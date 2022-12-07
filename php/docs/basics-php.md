@@ -72,8 +72,8 @@ echo "Hello World!<br>";
 EcHo "Hello World!<br>";
 ?>
 ```
-[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
 
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-01.php)
 
 ### Variables
 
