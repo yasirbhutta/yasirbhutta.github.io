@@ -255,6 +255,7 @@ myTest();
 myTest();
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-07.php)
 
 ### String functions
@@ -301,7 +302,8 @@ myTest();
     echo strpos("Hello world!", "world"); // outputs 6
 ?>
 ```
-**str_replace**
+
+str_replace
 
 **Example #5 Replace Text Within a String**
 
@@ -312,14 +314,151 @@ myTest();
 ?>
 ```
 
-### References
+### Comments
 
-1. [Static variables](https://www.geeksforgeeks.org/static-variables-in-c/)
-2. [phpinfo - Manual - PHP](https://www.php.net/manual/en/function.phpinfo.php)
+#### Example #1 Comments example
+
+```php
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// This is a single-line comment
+
+# This is also a single-line comment
+
+/*
+This is a multiple-lines comment block
+that spans over multiple
+lines
+*/
+
+// You can also use comments to leave out parts of a code line
+$x = 5 /* + 15 */ + 5;
+$name = "Muhammad Ahmad Nasir";
+echo "<h2>$name</h2>";
+echo '<h1>' .$x. '</h1>';
+?>
+
+</body>
+</html>
+```
+
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/comments.php)
+
+### define function
+
+#### Example #1 Defines a named constant
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - Contants</title>
+    </head>
+    <body>
+        <?php
+        // define(name, value, case-insensitive)
+        // case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false
+define("GREETING", "Welcome to Department of CS & IT!");
+
+function myTest() {
+    echo GREETING;
+}
+myTest();
+?> 
+    </body>
+</html>
+```
+
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/constants.php)
+
+### functions
+
+#### Example #1 Function examples
 
 
+'''php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>PHP - Functions</title>
+    </head>
+<body>
+    <?php
+// Syntax
+//
+/*function functionName() {
+    code to be executed;
+}*/
 
-**Muhammad Yasir Bhutta**
+//
+// Example1
+//
+function writeMsg() {
+    echo "Hello world!";
+}
+
+writeMsg(); // call the function
+
+//
+// Example2 - By Argument
+//
+ function familyName($fname) {
+     echo "$fname Nasir" . "<br>";
+ }
+
+familyName("Muhammad"); // call
+familyName("Ali");
+familyName("Zeeshan");
+
+// Example3 - By two arguments
+//
+//
+
+function familyName($fname, $year) {
+    echo "$fname. Born in $year <br>";
+}
+
+familyName("Muhammad Ali", "1975");
+familyName("Muhammad Nasir", "1978");
+familyName("Muhammad Hamza", "1983");*/
+
+//
+// Example 4 - Default Argument Value
+//
+
+function setHeight($minheight = 50) {
+    echo "The height is : $minheight <br>";
+}
+
+setHeight(350);
+setHeight(); // will use the default value of 50
+setHeight(135);
+setHeight(80);
+
+//
+// Example 5 - Returning Values
+//
+
+function sum($x, $y) {
+    $z = $x + $y;
+    return $z;
+}
+$i = sum(5, 10);
+echo "5 + 10 = " . $i . "<br>";
+echo "7 + 13 = " . sum(7, 13) . "<br>";
+
+?>
+    </body>
+</html>
+'''
+
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/functions.php)
+
+
+Muhammad Yasir Bhutta
 
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
