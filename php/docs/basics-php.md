@@ -383,8 +383,7 @@ myTest();
 
 #### Example #1 Function examples
 
-
-'''php
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -458,7 +457,7 @@ echo "7 + 13 = " . sum(7, 13) . "<br>";
 ?>
     </body>
 </html>
-'''
+```
 
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/functions.php)
 
