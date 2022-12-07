@@ -102,7 +102,7 @@ echo "My boat is " . $coLOR . "<br>";
 
 ?>
 ```
-[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/case-02.php/)
 
 **Example #2 disply of variable using echo statement**
 
@@ -117,7 +117,7 @@ echo "I love " . $txt . "!";
 
 ?>
 ```
-[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-01.php/)
 
 **Example #3 variable example**
 
@@ -130,7 +130,7 @@ echo $x + $y;
 
 ?>
 ```
-[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php)
+[Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-02.php/)
 
 #### Variable scope
 
@@ -138,7 +138,7 @@ echo $x + $y;
 - For the most part all PHP variables only have a single scope. 
 - This single scope spans included and required files as well.
 
-Further reading: [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php)
+Further reading: [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php/)
 
 
 ##### Local scope variable
@@ -309,8 +309,6 @@ myTest();
     echo str_replace("world", "PHP", "Hello world!"); // outputs Hello Dolly!
 ?>
 ```
-
-
 
 ### References
 
