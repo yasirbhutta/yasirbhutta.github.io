@@ -38,7 +38,7 @@ On phones only:
 
 **SMS:** Text Ahmmad "See you at 5."  
 **Emails:** Send an email.  
-**WhatsApp:** Send a WhatsApp message to Sam.
+**WhatsApp:** Send a WhatsApp message to Ali.
 
 #### Get around your device
 
@@ -56,6 +56,20 @@ On phones only:
 #### Get things done
 
 **Shopping:** Add cereal to my shopping list.
+
+#### Take, search & share photos
+
+- "Show me my photos from Multan"
+- "Take a selfie." Then say "share this with Ahmad"
+- "Take a picture in 10 seconds"
+
+#### Manage your phone’s settings
+
+- "Turn on the flashlight"
+- "Take a screenshot"
+- "Turn on Do Not Disturb"
+- "Turn on Bluetooth"
+
 
 ### Further reading
 
