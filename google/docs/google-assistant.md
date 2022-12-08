@@ -12,13 +12,13 @@
 
 #### Ask Google
 
-**Calculations:** What’s 20% of 80?
-**Dictionary:** What does "gorgeous" mean?
-**Translations:** How do I say "Nice to meet you" in French?
-**Unit conversions:** How many kilometers in a mile?
-**Search:** Search for summer vacation ideas.
-**Image search:** Find pictures of kittens.
-**Web answer:** How do you remove ink stains from a rug?
+**Calculations:** What’s 20% of 80?  
+**Dictionary:** What does "gorgeous" mean?  
+**Translations:** How do I say "Nice to meet you" in French?  
+**Unit conversions:** How many kilometers in a mile?  
+**Search:** Search for summer vacation ideas.  
+**Image search:** Find pictures of flower.  
+**Web answer:** How do you remove ink stains from a rug?  
 
 #### Play media
 
@@ -45,6 +45,19 @@ On phones only:
 **Emails:** Send an email.
 
 **WhatsApp:** Send a WhatsApp message to Sam.
+
+#### Get around your device
+
+**Change settings:** Turn on WiFi. Increase the volume. Decrease the brightness.
+**Control your phone:** Turn on the flashlight. Take a photo.
+Note: Whether Google Assistant can take a photo for you depends on your device manufacturer.
+Find things in your apps: Search for tablets on Amazon. Search for Kanye West on Twitter.
+Find photos: Show my pictures of the beach.
+Plan your day
+Alarms: Set an alarm for 7 a.m.
+Reservations: Make a reservation for 2 at [restaurant] on Friday.
+Get things done
+Shopping: Add cereal to my shopping list.
 
 ### Further reading
 
