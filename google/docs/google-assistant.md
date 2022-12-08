@@ -1,5 +1,7 @@
 # [Google](../docs/index.md)
 
+- [Google Services](../docs/index.md)
+
 ## Google Assistant
 
 ### What you can ask Google Assistant
@@ -51,7 +53,9 @@ On phones only:
 
 #### Plan your day
 
-**Alarms:** Set an alarm for 7 a.m.
+- **Alarms:** Set an alarm for 7 a.m.  
+- **Reminders:** Remind me in 1 hour  
+- **Timer:** Set timer for 5 minutes
 
 #### Get things done
 
@@ -70,7 +74,17 @@ On phones only:
 - "Turn on Do Not Disturb"
 - "Turn on Bluetooth"
 
+### Open apps
+
+- "Open Translate"
+- "Search for yoga classes on YouTube." Then say "Share this with mom"
+- "Find hotels in Lahore on Maps"
+- "[Artist name] on YouTube Music"
+- "Show me emails from ali on Gmail"
+
+
 
 ### Further reading
 
 - [What you can ask Google Assistant](https://support.google.com/assistant/answer/7172842?hl=en)
+
