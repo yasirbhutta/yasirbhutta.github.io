@@ -13,17 +13,11 @@
 #### Ask Google
 
 **Calculations:** What’s 20% of 80?
-
 **Dictionary:** What does "gorgeous" mean?
-
 **Translations:** How do I say "Nice to meet you" in French?
-
 **Unit conversions:** How many kilometers in a mile?
-
 **Search:** Search for summer vacation ideas.
-
 **Image search:** Find pictures of kittens.
-
 **Web answer:** How do you remove ink stains from a rug?
 
 #### Play media
