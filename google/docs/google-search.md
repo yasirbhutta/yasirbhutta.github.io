@@ -30,8 +30,7 @@
 
 ### weather
 
-- weather Multan
-- weather Lahore
+- For example, **weather Multan** or **weather Lahore**
 
 ## define
 
@@ -39,8 +38,7 @@ Google Search Keywords - define
 
 Put define in front of any word to see its definition.
 
-- define gorgeous
-- define character
+- For example, **define gorgeous** or **define character**
 
 ### Calculations
 
@@ -50,15 +48,17 @@ Enter a math equation like **3*9123**, or solve complex graphing equations.
 
 Enter any conversion, like **3 dollars in euros**.
 
-- To convert from meter to inches: 
-- To convert litre to ml
-- To convert cm to inches
-- To convert Fahrenheit to Centigrade
-- To convert number in Roman
+- To convert from meter to inches: **10.5 meter to inches**
+- To convert litre to ml: **10.6 liter in ml**
+- To convert cm to inches: **10 cm to inches**
+- To convert Fahrenheit to Centigrade: **100 f to c**
+- To convert number in Roman: **125 to roman**/////
 
 ### Quick facts
 
 Search for the name of a celebrity, location, movie, or song to find related information. 
+
+For example:
 
 - population pakistan
 - unemployment rate pakistan
@@ -68,7 +68,7 @@ Search for the name of a celebrity, location, movie, or song to find related inf
 
 Google finds images just as easily and lists them at the top, when you add image to the end of your search.
 
-- flower image
+-For example, **flower image**
 
 ### Expert search tips
 
@@ -89,7 +89,7 @@ At the bottom, click Advanced Search.
 
 Right after the word you're looking for, add the text imagesize:widthxheight. Make sure to add the dimensions in pixels.
 
-- Example: imagesize:500x400
+- Example: **imagesize:500x400**
 
 ### Common search techniques
 
@@ -97,7 +97,7 @@ Right after the word you're looking for, add the text imagesize:widthxheight. Ma
 
 Put @ in front of a word to search social media. 
 
-- For example: @twitter.
+- For example: **@twitter**.
 
 #### Search for a price
 
@@ -235,15 +235,17 @@ In the left panel: Scroll to find images related to your search.
 
 #### Inurl
 
-The modifier inurl only searches the web address of a page: give inurl:herbs
+The modifier inurl only searches the web address of a page: give **inurl:herbs
 
 #### link
 
-- Want to know how many links there are to a site? Try link:sitename – for example link:www.mozilla.org
+- Want to know how many links there are to a site? Try link:sitename – 
+- For example, **link:www.mozilla.org**
 
 #### map
 
-- Looking for a map? Just add map to the end of your query, 
+- Looking for a map? Just add map to the end of your query.
+- For example, **pakistan map** or **dera ghazi khan map**
 
 [https://trends.google.com/](https://trends.google.com/)
 
