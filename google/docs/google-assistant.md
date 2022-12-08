@@ -83,8 +83,7 @@ On phones only:
 - "[Artist name] on YouTube Music"
 - "Show me emails from ali on Gmail"
 
-
-
 ### Further reading
 
 - [What you can ask Google Assistant](https://support.google.com/assistant/answer/7172842?hl=en)
+- [Access Google Assistant with your voice](https://support.google.com/assistant/answer/7394306?hl=en&co=GENIE.Platform%3DAndroid)
