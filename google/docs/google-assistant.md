@@ -6,9 +6,8 @@
 
 #### Get local info
 
-**Weather:** What’s the weather today?
-
-**Food:** Find pizza restaurants nearby.
+**Weather:** What’s the weather today?  
+**Food:** Find pizza restaurants nearby.  
 
 #### Ask Google
 
@@ -26,12 +25,9 @@
 
 #### Have fun
 
-**Get to know your Assistant:** Do you dream? What's your favorite color?
-
-**Games: Let’s play a game.** Give me a trivia question.
-
-**Entertainment:** Tell me a joke. Tell me something interesting.
-
+**Get to know your Assistant:** Do you dream? What's your favorite color?  
+**Games:** Let’s play a game. Give me a trivia question.  
+**Entertainment:** Tell me a joke. Tell me something interesting.  
 **Animal facts:** Tell me about giraffes. What’s the animal of the day?
 
 #### Communicate
@@ -40,24 +36,26 @@
 
 On phones only:
 
-**SMS:** Text Ahmmad "See you at 5."
-
-**Emails:** Send an email.
-
+**SMS:** Text Ahmmad "See you at 5."  
+**Emails:** Send an email.  
 **WhatsApp:** Send a WhatsApp message to Sam.
 
 #### Get around your device
 
-**Change settings:** Turn on WiFi. Increase the volume. Decrease the brightness.
+**Change settings:** Turn on WiFi. Increase the volume. Decrease the brightness.  
 **Control your phone:** Turn on the flashlight. Take a photo.
-Note: Whether Google Assistant can take a photo for you depends on your device manufacturer.
-Find things in your apps: Search for tablets on Amazon. Search for Kanye West on Twitter.
-Find photos: Show my pictures of the beach.
-Plan your day
-Alarms: Set an alarm for 7 a.m.
-Reservations: Make a reservation for 2 at [restaurant] on Friday.
-Get things done
-Shopping: Add cereal to my shopping list.
+
+**Note:** Whether Google Assistant can take a photo for you depends on your device manufacturer.
+
+**Find things in your apps:** Search for tablets on Amazon. Search for Kanye West on Twitter  **Find photos:** Show my pictures of the multan.
+
+#### Plan your day
+
+**Alarms:** Set an alarm for 7 a.m.
+
+#### Get things done
+
+**Shopping:** Add cereal to my shopping list.
 
 ### Further reading
 
