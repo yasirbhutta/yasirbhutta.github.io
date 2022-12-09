@@ -87,3 +87,12 @@ On phones only:
 
 - [What you can ask Google Assistant](https://support.google.com/assistant/answer/7172842?hl=en)
 - [Access Google Assistant with your voice](https://support.google.com/assistant/answer/7394306?hl=en&co=GENIE.Platform%3DAndroid)
+
+Updated on: 09-Dec-2022
+
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)

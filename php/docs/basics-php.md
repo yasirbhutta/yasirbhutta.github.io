@@ -467,7 +467,6 @@ echo "7 + 13 = " . sum(7, 13) . "<br>";
 
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/functions.php)
 
-
 Muhammad Yasir Bhutta
 
 - [Web](https://yasirbhutta.github.io/)

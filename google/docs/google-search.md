@@ -252,3 +252,12 @@ The modifier inurl only searches the web address of a page: give **inurl:herbs
 ### Further reading
 
 - [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
+
+Updated on: 09-Dec-2022
+
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
