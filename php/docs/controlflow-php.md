@@ -80,11 +80,60 @@ switch ($favcolor) {
 
 ### for Statement
 
+- for loops are the most complex loops in PHP. They behave like their C counterparts. The syntax of a for loop is:
+
+.
 #### Syntax - for loop
 
->for (init counter; test counter; increment counter) {
-    code to be executed;
+for (expr1; expr2; expr3)
+    statement
+
+- The first expression (expr1) is evaluated (executed) once unconditionally at the beginning of the loop.
+- In the beginning of each iteration, expr2 is evaluated. If it evaluates to true, the loop continues and the nested statement(s) are executed. If it evaluates to false, the execution of the loop ends.
+- At the end of each iteration, expr3 is evaluated (executed)
+- Each of the expressions can be empty or contain multiple expressions separated by commas
+
+further reading:
+
+- [for - Manual -PHP](https://www.php.net/manual/en/control-structures.for.php)
+
+Consider the following examples. All of them display the numbers 1 through 10:
+
+    ```php
+<?php
+
+// example 1
+
+for ($i = 1; $i <= 10; $i++) {
+    echo $i;
 }
+
+// example 2
+
+for ($i = 1; ; $i++) {
+    if ($i > 10) {
+        break;
+    }
+    echo $i;
+}
+
+// example 3
+
+$i = 1;
+for (; ; ) {
+    if ($i > 10) {
+        break;
+    }
+    echo $i;
+    $i++;
+}
+
+// example 4
+
+for ($i = 1, $j = 0; $i <= 10; $j += $i, print $i, $i++);
+?>
+```
+
 
 #### Example #3 for loop example
 
