@@ -8,7 +8,7 @@
 
 #### Syntax - if statement
 
-    if (condition) {
+> if (condition) {
     code to be executed if this condition is true;
 } elseif (condition) {
     code to be executed if this condition is true;
@@ -82,7 +82,7 @@ switch ($favcolor) {
 
 #### Syntax - for loop
 
-for (init counter; test counter; increment counter) {
+>for (init counter; test counter; increment counter) {
     code to be executed;
 }
 
@@ -127,12 +127,9 @@ for ($x = 0; $x <= 10; $x++) {
 
 $colors = array("red", "green", "blue", "yellow","pink");
 
-foreach ($colors as $i) 
-
+foreach ($colors as $i)
 {
-
 echo "<h1 style=". "background-color:$i>" . $i ."</h1><br>";
-    
 }
 ?>
     </body>
@@ -143,7 +140,7 @@ echo "<h1 style=". "background-color:$i>" . $i ."</h1><br>";
 
 #### Syntax - while loop
 
-while (condition is true) {
+>while (condition is true) {
     code to be executed;
 }
 
@@ -159,7 +156,6 @@ while (condition is true) {
     <?php
 
 $x = 1;
-
 while($x <= 5) {
     echo "The number is: $x <br>";
     $x++;
@@ -175,9 +171,9 @@ while($x <= 5) {
 
 #### Syntax - dowhile loop
 
-do {
+>do {
     code to be executed;
-} while (condition is true); 
+} while (condition is true);
 
 #### Example #6 dowhile loop example
 
