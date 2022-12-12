@@ -6,7 +6,16 @@
 
 ### if Statement
 
-#### Syntax - if statement
+- The if construct is one of the most important features of many languages, PHP included.
+- It allows for conditional execution of code fragments. PHP features an if structure that is similar to that of C.
+- If statements can be nested infinitely within other if statements, which provides you with complete flexibility for conditional execution of the various parts of your program.
+
+#### Syntax - if Statement
+
+>if (expr)  
+  statement
+
+#### Syntax - if-elseif-else Statement
 
 > if (condition) {  
     code to be executed if this condition is true;  
@@ -16,7 +25,22 @@
     code to be executed if all conditions are false;  
 }  
 
-#### Example #1 IF example
+further reading:
+
+- [if - Manual - PHP](https://www.php.net/manual/en/control-structures.if.php)
+
+The following example would display a is bigger than b if $a is bigger than $b:
+
+#### Example #1 if example
+
+```php
+<?php
+if ($a > $b)
+  echo "a is bigger than b";
+?>
+```
+
+#### Example #2 IF example
 
 ```php
     <!DOCTYPE html>
@@ -48,7 +72,146 @@ if ($t < "10") {
 
 ### switch statement
 
+- The switch statement is similar to a series of IF statements on the same expression. 
+- In many occasions, you may want to compare the same variable (or expression) with many different values, and execute a different piece of code depending on which value it equals to. This is exactly what the switch statement is for.
+
+#### syntax
+
+#### Example #1 switch structure
+
+```php
+<?php
+// This switch statement:
+
+switch ($i) {
+    case 0:
+        echo "i equals 0";
+        break;
+    case 1:
+        echo "i equals 1";
+        break;
+    case 2:
+        echo "i equals 2";
+        break;
+}
+
+// Is equivalent to:
+
+if ($i == 0) {
+    echo "i equals 0";
+} elseif ($i == 1) {
+    echo "i equals 1";
+} elseif ($i == 2) {
+    echo "i equals 2";
+}
+?>
+```
+
 #### Example #2 switch example
+
+```php
+<?php
+switch ($i) {
+    case 0:
+        echo "i equals 0";
+    case 1:
+        echo "i equals 1";
+    case 2:
+        echo "i equals 2";
+}
+?>
+```
+
+The statement list for a case can also be empty, which simply passes control into the statement list for the next case.
+
+#### Example #3 switch with empty case example
+
+```php
+<?php
+switch ($i) {
+    case 0:
+    case 1:
+    case 2:
+        echo "i is less than 3 but not negative";
+        break;
+    case 3:
+        echo "i is 3";
+}
+?>
+```
+
+A special case is the default case. This case matches anything that wasn't matched by the other cases. For example:
+
+#### Example #4 default case
+
+```php
+<?php
+switch ($i) {
+    case 0:
+        echo "i equals 0";
+        break;
+    case 1:
+        echo "i equals 1";
+        break;
+    case 2:
+        echo "i equals 2";
+        break;
+    default:
+       echo "i is not equal to 0, 1 or 2";
+}
+?>
+```
+
+A case value may be given as an expression. However, that expression will be evaluated on its own and then loosely compared with the switch value. That means it cannot be used for complex evaluations of the switch value. For example:
+
+#### Example #5 switch example
+
+```php
+<?php
+$target = 1;
+$start = 3;
+
+switch ($target) {
+    case $start - 1:
+        print "A";
+        break;
+    case $start - 2:
+        print "B";
+        break;
+    case $start - 3:
+        print "C";
+        break;
+    case $start - 4:
+        print "D";
+        break;
+}
+
+// Prints "B"
+?>
+```
+
+It's possible to use a semicolon instead of a colon after a case like:
+
+#### Example #6 switch example
+
+```php
+<?php
+switch($equipments)
+{
+    case 'keyboard';
+    case 'mouse';
+    case 'motherboard';
+    case 'speaker';
+        echo 'Good choice';
+        break;
+    default;
+        echo 'Please make a new selection...';
+        break;
+}
+?>
+```
+
+#### Example #7 switch example
 
 ```php
     <!DOCTYPE html>
@@ -154,13 +317,41 @@ for ($x = 0; $x <= 10; $x++) {
 
 ### foreach Statement
 
+- The foreach construct provides an easy way to iterate over arrays.
+- foreach works only on arrays and objects, and will issue an error when you try to use it on a variable with a different data type or an uninitialized variable.
+
+There are two syntaxes:
+
 #### Syntax - foreach loop
 
->foreach ($array as $value) {
-    code to be executed;
-}
+>foreach (iterable_expression as $value)  
+    statement  
+foreach (iterable_expression as $key => $value)  
+    statement  
 
-#### Example #4 foreach loop example
+- The first form traverses the iterable given by iterable_expression. On each iteration, the value of the current element is assigned to $value.
+- The second form will additionally assign the current element's key to the $key variable on each iteration.
+
+Further reading:
+
+- [foreach - Manual - PHP](https://www.php.net/manual/en/control-structures.foreach.php)
+
+In order to be able to directly modify array elements within the loop precede $value with **&**. In that case the value will be assigned by reference.
+
+#### Example #1 foreach loop example
+
+```php
+<?php
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &$value) {
+    $value = $value * 2;
+}
+// $arr is now array(2, 4, 6, 8)
+unset($value); // break the reference with the last element
+?>
+```
+
+#### Example #2 foreach loop example
 
 ```php
     <!DOCTYPE html>
