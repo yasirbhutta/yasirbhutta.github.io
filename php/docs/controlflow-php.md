@@ -31,7 +31,7 @@
     echo "Minutes:" . date("i");
     echo "<br> Seconds:" . date("s") . "<br>";
 //
-// if..elseif..elese
+// if..elseif..else
 //
 $t = date("H");
 if ($t < "10") {
@@ -50,7 +50,7 @@ if ($t < "10") {
 
 #### Example #2 switch example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -84,7 +84,7 @@ switch ($favcolor) {
 
 #### Syntax - for loop
 
-for (expr1; expr2; expr3)
+>for (expr1; expr2; expr3)
     statement
 
 - The first expression (expr1) is evaluated (executed) once unconditionally at the beginning of the loop.
@@ -98,7 +98,7 @@ further reading:
 
 Consider the following examples. All of them display the numbers 1 through 10:
 
-    ```php
+```php
 <?php
 
 // example 1
@@ -133,10 +133,9 @@ for ($i = 1, $j = 0; $i <= 10; $j += $i, print $i, $i++);
 ?>
 ```
 
-
 #### Example #3 for loop example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -163,7 +162,7 @@ for ($x = 0; $x <= 10; $x++) {
 
 #### Example #4 foreach loop example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -188,13 +187,13 @@ echo "<h1 style=". "background-color:$i>" . $i ."</h1><br>";
 
 #### Syntax - while loop
 
->while (condition is true) {
-    code to be executed;
-}
+>while (condition is true) {  
+    code to be executed;  
+}  
 
 #### Example #5 while loop example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -219,13 +218,13 @@ while($x <= 5) {
 
 #### Syntax - dowhile loop
 
->do {
-    code to be executed;
-} while (condition is true);
+>do {  
+    code to be executed;  
+} while (condition is true);  
 
 #### Example #6 dowhile loop example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -242,19 +241,12 @@ do {
 // example2
 
 $x = 6;
-
 do {
     echo "The number is: $x <br>";
     $x++;
 } while ($x <= 5);
 ?>
-
     </body>
 </html>
 ```
 
-### The break Statement
-
-### The continue Statement
-
-### The try Statement

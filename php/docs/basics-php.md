@@ -5,7 +5,7 @@
 - [Download PDF](basics-php.pdf)
 - [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
-**Visual Studio Code - PHP Extension Pack**
+### Visual Studio Code - PHP Extension Pack
 
 [https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
 
@@ -36,14 +36,11 @@ Further reading:
         <title>Example</title>
     </head>
     <body>
-
         <?php
             echo "Hi, I'm a PHP script!";
         ?>
-
     </body>
 </html>
-
 ```
 
 phpinfo — Outputs information about PHP's configuration
