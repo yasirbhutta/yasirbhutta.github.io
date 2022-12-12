@@ -25,10 +25,6 @@
     code to be executed if all conditions are false;  
 }  
 
-further reading:
-
-- [if - Manual - PHP](https://www.php.net/manual/en/control-structures.if.php)
-
 The following example would display a is bigger than b if $a is bigger than $b:
 
 #### Example #1 if example
@@ -70,12 +66,14 @@ if ($t < "10") {
 </html>
 ```
 
+further reading:
+
+- [if - Manual - PHP](https://www.php.net/manual/en/control-structures.if.php)
+
 ### switch statement
 
-- The switch statement is similar to a series of IF statements on the same expression. 
+- The switch statement is similar to a series of IF statements on the same expression.
 - In many occasions, you may want to compare the same variable (or expression) with many different values, and execute a different piece of code depending on which value it equals to. This is exactly what the switch statement is for.
-
-#### syntax
 
 #### Example #1 switch structure
 
@@ -241,6 +239,10 @@ switch ($favcolor) {
 </html>
 ```
 
+further reading:
+
+- [switch - Manual - PHP](https://www.php.net/manual/en/control-structures.switch.php)
+
 ### for Statement
 
 - for loops are the most complex loops in PHP. They behave like their C counterparts. The syntax of a for loop is:
@@ -254,10 +256,6 @@ switch ($favcolor) {
 - In the beginning of each iteration, expr2 is evaluated. If it evaluates to true, the loop continues and the nested statement(s) are executed. If it evaluates to false, the execution of the loop ends.
 - At the end of each iteration, expr3 is evaluated (executed)
 - Each of the expressions can be empty or contain multiple expressions separated by commas
-
-further reading:
-
-- [for - Manual -PHP](https://www.php.net/manual/en/control-structures.for.php)
 
 Consider the following examples. All of them display the numbers 1 through 10:
 
@@ -315,6 +313,10 @@ for ($x = 0; $x <= 10; $x++) {
 </html>
 ```
 
+further reading:
+
+- [for - Manual -PHP](https://www.php.net/manual/en/control-structures.for.php)
+
 ### foreach Statement
 
 - The foreach construct provides an easy way to iterate over arrays.
@@ -331,10 +333,6 @@ foreach (iterable_expression as $key => $value)
 
 - The first form traverses the iterable given by iterable_expression. On each iteration, the value of the current element is assigned to $value.
 - The second form will additionally assign the current element's key to the $key variable on each iteration.
-
-Further reading:
-
-- [foreach - Manual - PHP](https://www.php.net/manual/en/control-structures.foreach.php)
 
 In order to be able to directly modify array elements within the loop precede $value with **&**. In that case the value will be assigned by reference.
 
@@ -432,8 +430,11 @@ foreach (array(1, 2, 3, 4, 5) as $v) {
     echo "$v\n";
 }
 ?>
-
 ```
+
+Further reading:
+
+- [foreach - Manual - PHP](https://www.php.net/manual/en/control-structures.foreach.php)
 
 ### while Statement
 
@@ -442,8 +443,8 @@ foreach (array(1, 2, 3, 4, 5) as $v) {
 >while (expr)  
     statement  
 
-- The meaning of a while statement is simple. It tells PHP to execute the nested statement(s) repeatedly, as long as the while expression evaluates to true. 
-- The value of the expression is checked each time at the beginning of the loop, so even if this value changes during the execution of the nested statement(s), execution will not stop until the end of the iteration (each time PHP runs the statements in the loop is one iteration). 
+- The meaning of a while statement is simple. It tells PHP to execute the nested statement(s) repeatedly, as long as the while expression evaluates to true.
+- The value of the expression is checked each time at the beginning of the loop, so even if this value changes during the execution of the nested statement(s), execution will not stop until the end of the iteration (each time PHP runs the statements in the loop is one iteration).
 - If the while expression evaluates to false from the very beginning, the nested statement(s) won't even be run once.
 - Like with the if statement, you can group multiple statements within the same while loop by surrounding a group of statements with curly braces, or by using the alternate syntax:
 
@@ -451,10 +452,6 @@ foreach (array(1, 2, 3, 4, 5) as $v) {
     statement  
     ...  
 endwhile;
-
-further reading:
-
-- [while - Manual - PHP](https://www.php.net/manual/en/control-structures.while.php)
 
 The following examples are identical, and both print the numbers 1 through 10:
 
@@ -501,6 +498,10 @@ while($x <= 5) {
     </body>
 </html>
 ```
+
+further reading:
+
+- [while - Manual - PHP](https://www.php.net/manual/en/control-structures.while.php)
 
 ### The do-while Statement
 

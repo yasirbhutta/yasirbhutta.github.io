@@ -12,7 +12,6 @@
 ### Online PHP Editors
 
 - [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
-- [https://www.codingrooms.com/compiler/php/](https://www.codingrooms.com/compiler/php/)
 
 ### What is PHP
 
