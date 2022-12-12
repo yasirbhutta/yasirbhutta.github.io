@@ -6,7 +6,7 @@
 
 ### if Statement
 
-#### Syntax
+#### Syntax - if statement
 
     if (condition) {
     code to be executed if this condition is true;
@@ -49,6 +49,8 @@ if ($t < "10") {
 
 ### switch statement
 
+#### Example #2 switch example
+
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -79,12 +81,137 @@ switch ($favcolor) {
 
 ### for Statement
 
+#### Syntax - for loop
+
+for (init counter; test counter; increment counter) {
+    code to be executed;
+}
+
+#### Example #3 for loop example
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - For Loop</title>
+    </head>
+    <body>
+    <?php
+
+for ($x = 0; $x <= 10; $x++) {
+    echo "The number is: $x <br>";
+} 
+?>
+    </body>
+</html>
+```
+
+### foreach Statement
+
+#### Syntax - foreach loop
+
+>foreach ($array as $value) {
+    code to be executed;
+}
+
+#### Example #4 foreach loop example
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - foreach</title>
+    </head>
+    <body>
+    
+    <?php
+
+$colors = array("red", "green", "blue", "yellow","pink");
+
+foreach ($colors as $i) 
+
+{
+
+echo "<h1 style=". "background-color:$i>" . $i ."</h1><br>";
+    
+}
+?>
+    </body>
+</html>
+```
+
 ### while Statement
+
+#### Syntax - while loop
+
+while (condition is true) {
+    code to be executed;
+}
+
+#### Example #5 while loop example
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - While Loop</title>
+    </head>
+    <body>
+    <?php
+
+$x = 1;
+
+while($x <= 5) {
+    echo "The number is: $x <br>";
+    $x++;
+}
+?>
+    </body>
+</html>
+```
+
+### The dowhile Statement
+
+- do while loop would execute its statements at least once, even if the condition is false the first time.
+
+#### Syntax - dowhile loop
+
+do {
+    code to be executed;
+} while (condition is true); 
+
+#### Example #6 dowhile loop example
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - Do While </title>
+    </head>
+    <body>
+    <?php
+/*$x = 1; 
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x <= 5);*/
+
+// example2
+
+$x = 6;
+
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x <= 5);
+?>
+
+    </body>
+</html>
+```
 
 ### The break Statement
 
 ### The continue Statement
-
-### The else Clauses on Loops
 
 ### The try Statement
