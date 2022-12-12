@@ -458,6 +458,8 @@ further reading:
 
 The following examples are identical, and both print the numbers 1 through 10:
 
+#### Example #1 while loop example
+
 ```php
 <?php
 /* example 1 */
@@ -478,7 +480,8 @@ while ($i <= 10):
 endwhile;
 ?>
 ```
-#### Example #5 while loop example
+
+#### Example #2 while loop example
 
 ```php
     <!DOCTYPE html>
@@ -499,17 +502,35 @@ while($x <= 5) {
 </html>
 ```
 
-### The dowhile Statement
+### The do-while Statement
 
-- do while loop would execute its statements at least once, even if the condition is false the first time.
+- do-while loops are very similar to while loops, except the truth expression is checked at the end of each iteration instead of in the beginning.
+- The main difference from regular while loops is that the first iteration of a do-while loop is guaranteed to run (the truth expression is only checked at the end of the iteration), whereas it may not necessarily run with a regular while loop (the truth expression is checked at the beginning of each iteration, if it evaluates to false right from the beginning, the loop execution would end immediately).
 
-#### Syntax - dowhile loop
+#### Syntax - do-while loop
 
 >do {  
     code to be executed;  
 } while (condition is true);  
 
-#### Example #6 dowhile loop example
+further reading:
+
+- [do-while - Manaual - PHP](https://www.php.net/manual/en/control-structures.do.while.php)
+
+#### Example #1 do-while loop example
+
+```php
+<?php
+$i = 0;
+do {
+    echo $i;
+} while ($i > 0);
+?>
+```
+
+The above loop would run one time exactly, since after the first iteration, when truth expression is checked, it evaluates to false ($i is not bigger than 0) and the loop execution ends.
+
+#### Example #2 dowhile loop example
 
 ```php
     <!DOCTYPE html>
@@ -537,3 +558,9 @@ do {
 </html>
 ```
 
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
