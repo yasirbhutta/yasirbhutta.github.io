@@ -73,9 +73,9 @@ EcHo "Hello World!<br>";
 
 ### Variables
 
-- Variables are used to store data, like string of text, numbers, etc. 
-- Variable values can change over the course of a script. 
-- In PHP, a variable does not need to be declared before adding a value to it. 
+- Variables are used to store data, like string of text, numbers, etc.
+- Variable values can change over the course of a script.
+- In PHP, a variable does not need to be declared before adding a value to it.
 - PHP automatically converts the variable to the correct data type, depending on its value
 - After declaring a variable it can be reused throughout the code.
 - The assignment operator (=) used to assign value to a variable.
@@ -133,8 +133,8 @@ echo $x + $y;
 
 #### Variable scope
 
-- The scope of a variable is the context within which it is defined. 
-- For the most part all PHP variables only have a single scope. 
+- The scope of a variable is the context within which it is defined.
+- For the most part all PHP variables only have a single scope.
 - This single scope spans included and required files as well.
 
 Further reading: [https://www.php.net/manual/en/language.variables.scope.php](https://www.php.net/manual/en/language.variables.scope.php/)
@@ -219,6 +219,7 @@ myTest();
 echo $y; // outputs 15
 ?>
 ```
+
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/var-06.php)
 
 #### Using static variables
