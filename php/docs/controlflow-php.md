@@ -18,7 +18,7 @@
 
 #### Example #1 IF example
 
-    ```php
+```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
