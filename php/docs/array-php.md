@@ -5,7 +5,7 @@
 
 ## Array PHP
 
-### Example #1 
+### Example #1
 
 ```php
 <!DOCTYPE html>
