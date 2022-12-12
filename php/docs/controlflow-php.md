@@ -82,7 +82,6 @@ switch ($favcolor) {
 
 - for loops are the most complex loops in PHP. They behave like their C counterparts. The syntax of a for loop is:
 
-.
 #### Syntax - for loop
 
 for (expr1; expr2; expr3)
