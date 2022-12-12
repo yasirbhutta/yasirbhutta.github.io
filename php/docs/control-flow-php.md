@@ -18,7 +18,7 @@
 
 #### Example #1 IF example
 
-```php
+    ```php
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -26,15 +26,14 @@
     </head>
     <body>
     <?php
- 
-// i for Minutes with leading zero, s for Seconds with leading zero
-echo "Minutes:" . date("i");
-echo "<br> Seconds:" . date("s") . "<br>";
+
+    // i for Minutes with leading zero, s for Seconds with leading zero
+    echo "Minutes:" . date("i");
+    echo "<br> Seconds:" . date("s") . "<br>";
 //
 // if..elseif..elese
 //
-$t = date("H"); 
-
+$t = date("H");
 if ($t < "10") {
     echo "Have a good morning!";
 } elseif ($t < "20") {
@@ -44,16 +43,16 @@ if ($t < "10") {
 }
 ?>
     </body>
-</html> 
+</html>
 ```
 
 ### switch statement
 
 #### Example #2 switch example
 
-```php
-<!DOCTYPE html>
-<html lang="en">
+    ```php
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
         <title>PHP - Switch</title>
     </head>
@@ -89,9 +88,9 @@ for (init counter; test counter; increment counter) {
 
 #### Example #3 for loop example
 
-```php
-<!DOCTYPE html>
-<html lang="en">
+    ```php
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
         <title>PHP - For Loop</title>
     </head>
@@ -100,7 +99,7 @@ for (init counter; test counter; increment counter) {
 
 for ($x = 0; $x <= 10; $x++) {
     echo "The number is: $x <br>";
-} 
+}
 ?>
     </body>
 </html>
@@ -116,9 +115,9 @@ for ($x = 0; $x <= 10; $x++) {
 
 #### Example #4 foreach loop example
 
-```php
-<!DOCTYPE html>
-<html lang="en">
+    ```php
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
         <title>PHP - foreach</title>
     </head>
@@ -150,9 +149,9 @@ while (condition is true) {
 
 #### Example #5 while loop example
 
-```php
-<!DOCTYPE html>
-<html lang="en">
+    ```php
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
         <title>PHP - While Loop</title>
     </head>
@@ -182,9 +181,9 @@ do {
 
 #### Example #6 dowhile loop example
 
-```php
-<!DOCTYPE html>
-<html lang="en">
+    ```php
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
         <title>PHP - Do While </title>
     </head>
