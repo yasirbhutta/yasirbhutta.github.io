@@ -1,0 +1,90 @@
+# PHP
+
+## Control Flow Statements
+
+- [Download examples code](https://github.com/yasirbhutta/php-examples/tree/master/basics)
+
+### if Statement
+
+#### Syntax
+
+    if (condition) {
+    code to be executed if this condition is true;
+} elseif (condition) {
+    code to be executed if this condition is true;
+} else {
+    code to be executed if all conditions are false;
+}
+
+#### Example #1 IF example
+
+```php
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>PHP - The if...elseif....else Statement</title>   
+    </head>
+    <body>
+    <?php
+ 
+// i for Minutes with leading zero, s for Seconds with leading zero
+echo "Minutes:" . date("i");
+echo "<br> Seconds:" . date("s") . "<br>";
+//
+// if..elseif..elese
+//
+$t = date("H"); 
+
+if ($t < "10") {
+    echo "Have a good morning!";
+} elseif ($t < "20") {
+    echo "Have a good day!";
+} else {
+    echo "Have a good night!";
+}
+?>
+    </body>
+</html> 
+```
+
+### switch statement
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PHP - Switch</title>
+    </head>
+    <body>
+    <?php
+$favcolor = "yellow";
+
+switch ($favcolor) {
+    case "red":
+        echo "Your favorite color is red!";
+        break;
+    case "blue":
+        echo "Your favorite color is blue!";
+        break;
+    case "green":
+        echo "Your favorite color is green!";
+        break;
+    default:
+        echo "Your favorite color is neither red, blue, nor green!";
+}
+?>
+    </body>
+</html>
+```
+
+### for Statement
+
+### while Statement
+
+### The break Statement
+
+### The continue Statement
+
+### The else Clauses on Loops
+
+### The try Statement
