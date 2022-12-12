@@ -5,13 +5,23 @@
 - [Download PDF](basics-php.pdf)
 - [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
-### Visual Studio Code - PHP Extension Pack
 
-[https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
+### Tools
 
-### Online PHP Editors
+#### Visual Studio Code
+
+Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+
+- [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- [Visual Studio Code - PHP Extension Pack](https://marketplace.visualstudio.com/items?itemName=xdebug.php-pack)
+
+#### Online PHP Editors
 
 - [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
+- [http://phpfiddle.org/](http://phpfiddle.org/)
+PhpFiddle provides Web IDE and execution environment for PHP/MySQL, and HTML/CSS/JavaScript coding online.
+- [http://phptester.net/](http://phptester.net/)
+Online PHP code tester
 
 ### What is PHP
 
@@ -25,6 +35,39 @@ Further reading:
 - PHP files can contain text, HTML, CSS, JavaScript, and PHP code.
 - PHP code are executed on the server, and the result is returned to the browser as plain HTML.
 - PHP files have extension ".php".
+
+### What Can PHP Do?
+
+- PHP can generate dynamic page content
+- PHP can create, open, read, write, delete, and close files on the server
+- PHP can collect form data
+- PHP can send and receive cookies
+- PHP can add, delete, modify data in your database
+- PHP can be used to control user-access
+- PHP can encrypt data
+
+With PHP you are not limited to output HTML. You can output images, PDF files, and even Flash movies. You can also output any text, such as XHTML and XML.
+
+#### Why PHP?
+
+- PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+- PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+- PHP supports a wide range of databases
+- PHP is free. Download it from the official PHP resource: www.php.net
+- PHP is easy to learn and runs efficiently on the server side
+
+### Install XAMPP Server
+
+XAMPP is the most popular PHP development environment. XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.
+
+- Download XAMPP server [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+- Install XAMPP server
+- Open XAMPP Control Panel
+  - Click on the **"Start"** button next to **"Apache"** to start your Apache Web server. When Apache is running, the word "Running" will appear next to it, highlighted in green
+  - Also start "MySQL" if your PHP scripts depend on a MySQL database to run.
+- Place your PHP files in the "htdocs" folder located under the "XAMMP" folder on your C: drive. The file path is "C:\xampp\htdocs" for your Web server.
+- Open your Web browser and enter "localhost" into the address box. type name of your PHP file.
+- Create any folders you need to test PHP files in under the "htdocs" folder. If you create a folder named "scripts," then use the address "localhost/scripts" to open them in your browser.
 
 #### Example #1 an introductory example
 
@@ -463,6 +506,12 @@ echo "7 + 13 = " . sum(7, 13) . "<br>";
 ```
 
 [Download example code](https://github.com/yasirbhutta/php-examples/blob/master/basics/functions.php)
+
+### References
+
+- [What is PHP?](http://php.net/manual/en/intro-whatis.php)
+- [PHP Tutorial," w3schools](http://www.w3schools.com/php/default.asp)
+- [PHP Manual](http://php.net/manual/en/index.php)
 
 Muhammad Yasir Bhutta
 
