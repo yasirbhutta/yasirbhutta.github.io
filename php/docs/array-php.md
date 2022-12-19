@@ -9,7 +9,6 @@
 - [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)
 - [Download examples code](https://github.com/yasirbhutta/php-examples/tree/master/basics)
 
-
 ### What is an Array?
 
 An array is a special variable, which can hold more than one value at a time.
@@ -68,7 +67,7 @@ for($x = 0; $x < $arrlength; $x++) {
 #### Associative Array
 
 - An array in PHP is actually an ordered map.
-- A map is a type that associates values to keys. 
+- A map is a type that associates values to keys.
 - This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more.
 - As array values can be other arrays, trees and multidimensional arrays are also possible.
 
@@ -141,7 +140,7 @@ echo "Ahmad is " . $age['ahmad'] . " years old.";
 - **current** — Return the current element in an array
 - Every array has an internal pointer to its "current" element, which is initialized to the first element inserted into the array.
 - The current() function simply returns the value of the array element that's currently being pointed to by the internal pointer.
-- It does not move the pointer in any way. 
+- It does not move the pointer in any way.
 - If the internal pointer points beyond the end of the elements list or the array is empty, current() returns false.
 
 ##### next
@@ -167,7 +166,7 @@ $mode = end($transport);     // $mode = 'plane';
 
 - **key** — Fetch a key from an array
 - **key()** returns the index element of the current array position.
-- The key() function simply returns the key of the array element that's currently being pointed to by the internal pointer. It does not move the pointer in any way. 
+- The key() function simply returns the key of the array element that's currently being pointed to by the internal pointer. It does not move the pointer in any way.
 - If the internal pointer points beyond the end of the elements list or the array is empty, key() returns null.
 
 ##### Example #1 key() example
