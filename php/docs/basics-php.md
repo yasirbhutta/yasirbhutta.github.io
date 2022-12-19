@@ -1,8 +1,10 @@
 # [PHP](../index.md)
 
+**updated on:** 19-Dec-2022
+
 ## PHP Basics
 
-- [Download PDF](basics-php.pdf)
+- [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)
 - [Download examples Codes](https://github.com/yasirbhutta/php-examples)
 
 ### Tools

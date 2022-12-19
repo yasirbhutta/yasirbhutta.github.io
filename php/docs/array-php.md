@@ -1,9 +1,14 @@
 # PHP
 
 - [PHP](../docs/index.md)
-- [Download examples code](https://github.com/yasirbhutta/php-examples/tree/master/arrays)
+
+**updated on:** 19-Dec-2022
 
 ## Array PHP
+
+- [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)
+- [Download examples code](https://github.com/yasirbhutta/php-examples/tree/master/basics)
+
 
 ### What is an Array?
 
