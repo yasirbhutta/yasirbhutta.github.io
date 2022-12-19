@@ -126,23 +126,6 @@ echo "Ahmad is " . $age['ahmad'] . " years old.";
     echo "<br>";
 }*/
 
-//
-// Example #2 Key() example
-//
-/*$array = array(
-    'fruit1' => 'apple',
-    'fruit2' => 'orange',
-    'fruit3' => 'grape',
-    'fruit4' => 'apple',
-    'fruit5' => 'apple');
-// this cycle echoes all associative array
-// key where value equals "apple"
-while ($fruit_name = current($array)) {  // current() - Return the current element in an array
-    if ($fruit_name == 'apple') {
-        echo key($array).'<br />';
-    }
-    next($array); // next() - Advance the internal array pointer of an array
-}*/
 ?>
     </body>
 </html>
@@ -182,7 +165,29 @@ $mode = end($transport);     // $mode = 'plane';
 - The key() function simply returns the key of the array element that's currently being pointed to by the internal pointer. It does not move the pointer in any way. 
 - If the internal pointer points beyond the end of the elements list or the array is empty, key() returns null.
 
-Further reading
+##### Example #1 key() example
+
+```php
+<?php
+$array = array(
+    'fruit1' => 'apple',
+    'fruit2' => 'orange',
+    'fruit3' => 'grape',
+    'fruit4' => 'apple',
+    'fruit5' => 'apple');
+
+// this cycle echoes all associative array
+// key where value equals "apple"
+while ($fruit_name = current($array)) {
+    if ($fruit_name == 'apple') {
+        echo key($array), "\n";
+    }
+    next($array);
+}
+?>
+```
+
+### Further reading
 
 - [Arrays - Manual - PHP](https://www.php.net/manual/en/language.types.array.php)
 - [current - Manual - PHP](https://www.php.net/manual/en/function.current.php)
