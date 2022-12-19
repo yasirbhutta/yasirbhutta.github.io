@@ -5,6 +5,20 @@
 
 ## Array PHP
 
+### What is an Array?
+
+An array is a special variable, which can hold more than one value at a time.
+
+### Create an Array in PHP
+
+In PHP, the array() function is used to create an array:
+
+### Array Types
+
+- **Indexed arrays** - Arrays with a numeric index
+- **Associative arrays** - Arrays with named keys
+- **Multidimensional arrays** - Arrays containing one or more arrays
+
 ### Example #1
 
 ```php
@@ -46,7 +60,47 @@ for($x = 0; $x < $arrlength; $x++) {
 </html>
 ```
 
-### Example #2
+#### Associative Array
+
+- An array in PHP is actually an ordered map.
+- A map is a type that associates values to keys. 
+- This type is optimized for several different uses; it can be treated as an array, list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more.
+- As array values can be other arrays, trees and multidimensional arrays are also possible.
+
+##### Syntax
+
+- Specifying with array()
+- An array can be created using the array() language construct. It takes any number of comma-separated key => value pairs as arguments.
+
+> array(  
+    key  => value,  
+    key2 => value2,  
+    key3 => value3,  
+    ...  
+)  
+
+**Note:** A short array syntax exists which replaces array() with [].
+
+#### Example #1 A simple array
+
+```php
+<?php
+$array = array(
+    "foo" => "bar",
+    "bar" => "foo",
+);
+
+// Using the short array syntax
+$array = [
+    "foo" => "bar",
+    "bar" => "foo",
+];
+?>
+```
+
+The key can either be an int or a string. The value can be of any type.
+
+#### Example #2
 
 ```php
 <!DOCTYPE html>
@@ -93,6 +147,47 @@ while ($fruit_name = current($array)) {  // current() - Return the current eleme
     </body>
 </html>
 ```
+
+##### current
+
+- **current** — Return the current element in an array
+- Every array has an internal pointer to its "current" element, which is initialized to the first element inserted into the array.
+- The current() function simply returns the value of the array element that's currently being pointed to by the internal pointer.
+- It does not move the pointer in any way. 
+- If the internal pointer points beyond the end of the elements list or the array is empty, current() returns false.
+
+##### next
+
+- **next** — Advance the internal pointer of an array
+- **next()** behaves like **current()**, with one difference.It advances the internal array pointer one place forward before returning the element value. That means it returns the next array value and advances the internal array pointer by one.
+- Returns the array value in the next place that's pointed to by the internal array pointer, or false if there are no more elements.
+
+##### Example #1 Example use of current(), next() and friends
+
+```php
+<?php
+$transport = array('foot', 'bike', 'car', 'plane');
+$mode = current($transport); // $mode = 'foot';
+$mode = next($transport);    // $mode = 'bike';
+$mode = next($transport);    // $mode = 'car';
+$mode = prev($transport);    // $mode = 'bike';
+$mode = end($transport);     // $mode = 'plane';
+?>
+```
+
+##### key
+
+- **key** — Fetch a key from an array
+- **key()** returns the index element of the current array position.
+- The key() function simply returns the key of the array element that's currently being pointed to by the internal pointer. It does not move the pointer in any way. 
+- If the internal pointer points beyond the end of the elements list or the array is empty, key() returns null.
+
+Further reading
+
+- [Arrays - Manual - PHP](https://www.php.net/manual/en/language.types.array.php)
+- [current - Manual - PHP](https://www.php.net/manual/en/function.current.php)
+- [next - Manual - PHP](https://www.php.net/manual/en/function.next.php)
+- [key - Manual - PHP](https://www.php.net/manual/en/function.key.php)
 
 Muhammad Yasir Bhutta
 
