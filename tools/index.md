@@ -26,6 +26,11 @@ Easily create screencasts, edit recorded videos, and upload to YouTube. No water
 
 - [Lightshot](https://app.prntscr.com/en/download.html)
 
+### Desktop sharing
+
+- [AnyDesk: The Fast Remote Desktop Application](https://anydesk.com/en)
+- [TeamViewer: The Remote Desktop Software](https://www.teamviewer.com/en/)
+
 ## Coding
 
 - [Web development tools](web-dev-tools.md)
@@ -52,24 +57,18 @@ FET is open source free software for automatically scheduling the timetable of a
 
 ### Educational Online Tools
 
-* [MentiMeter](https://www.mentimeter.com/) Give everyone a voice with the plan that’s right for you
+- [MentiMeter](https://www.mentimeter.com/) Give everyone a voice with the plan that’s right for you
 
 ### Project Management
 
-* [Redmine](https://www.redmine.org/)Redmine is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.
+- [Redmine](https://www.redmine.org/)Redmine is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.
 
 ### Virualization and BI
 
-* [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)Create rich, interactive reports with visual analytics at your fingertips—for free.
+- [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)Create rich, interactive reports with visual analytics at your fingertips—for free.
 
 ### Networking
 
-* [OpenLDAP](https://www.openldap.org/) OpenLDAP Software is an Open Source suite of directory software developed by the Internet community.
+- [OpenLDAP](https://www.openldap.org/) OpenLDAP Software is an Open Source suite of directory software developed by the Internet community.
 
-### Desktop sharing
-
-* [AnyDesk: The Fast Remote Desktop Application](https://anydesk.com/en)
-* [TeamViewer: The Remote Desktop Software](https://www.teamviewer.com/en/)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
