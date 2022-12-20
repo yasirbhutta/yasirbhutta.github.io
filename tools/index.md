@@ -1,11 +1,14 @@
 # Tools for students and faculty members
 
-
 ## General tools
 
 - [Random Password Generator](https://www.avast.com/random-password-generator)
 
 ## [Download Images, Audios and Videos ...](downloads.md)
+
+## Typing
+
+- [https://www.typing.com/](https://www.typing.com/)
 
 ## File conversion tools
 
