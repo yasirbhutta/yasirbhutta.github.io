@@ -6,6 +6,11 @@
 
 ## [Download Images, Audios and Videos ...](downloads.md)
 
+## Searching and Chatbot
+
+- [https://www.google.com/](https://www.google.com/)
+- [https://chat.openai.com/chat](https://chat.openai.com/chat)
+
 ## Typing
 
 - [https://www.typing.com/](https://www.typing.com/)

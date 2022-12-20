@@ -9,7 +9,47 @@
 - [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)
 - [Download examples code](https://github.com/yasirbhutta/php-examples/tree/master/forms)
 
-### Example #1 
+### $_GET
+
+- An associative array of variables passed to the current script via the URL parameters ( query string).  
+- Note that the array is not only populated for GET requests, but rather for all requests with a query string.
+
+#### Example #1 $_GET example
+
+```php
+<?php
+echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
+?>
+```
+
+Assuming the user entered http://example.com/?name=ahmad
+
+The above example will output something similar to:
+
+>Hello ahmad!
+
+Further reading
+
+- [$_GET - Manual - PHP](https://www.php.net/manual/en/reserved.variables.get.php)
+
+### $_POST
+
+- An associative array of variables passed to the current script via the HTTP POST method when using application/x-www-form-urlencoded or multipart/form-data as the HTTP Content-Type in the request.
+
+#### Example #1 $_POST example
+
+```php
+<?php
+echo 'Hello ' . htmlspecialchars($_POST["name"]) . '!';
+?>
+```
+
+Further reading
+
+- [$_POST - Manual - PHP](https://www.php.net/manual/en/reserved.variables.post.php)
+
+
+### Example #2
 
 ```html
 <html>
@@ -39,7 +79,8 @@ Your email address is: <?php echo $_GET["email"]; ?>
 </html>
 ```
 
-### Example #2
+
+#### Example #2
 
 welcome.html
 
@@ -80,7 +121,6 @@ Your email address is:
 
     </body>
 </html>
-
 ```
 
 ### Example #3
