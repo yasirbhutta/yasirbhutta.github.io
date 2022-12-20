@@ -1,29 +1,52 @@
 # Tools for students and faculty members
 
-## Tools
 
-Open source, free and online tools for students and faculty members of universities.
+## General tools
 
-- [Download Images, Audio and Videos]()
+- [Random Password Generator](https://www.avast.com/random-password-generator)
+
+## [Download Images, Audios and Videos ...](downloads.md)
+
+## File conversion tools
+
+- [Zamzar: Online file conversion](https://www.zamzar.com/)
+  Convert documents, images, videos & sound - 1100+ formats supported
+- [ASPOSE](https://www.aspose.app/)Online File Processing for PDF, Word, Excel, PowerPoint, Visio, Project, OneNote, OpenOffice, CAD, 3D formats
+
 ### Screen Recording
 
 - [Download the Loom](https://www.loom.com/download)
 - [Free Cam](https://www.freescreenrecording.com/)
 Easily create screencasts, edit recorded videos, and upload to YouTube. No watermark or time limits.
 
-### Development Tools
+## Screenshot
+
+- [Lightshot](https://app.prntscr.com/en/download.html)
+
+## Research
+
+- [Mendeley Reference Manager](https://www.mendeley.com/reference-management/reference-manager)
+ Mendeley Reference Manager simplifies your workflow, so you can focus on achieving your goals.
+
+## Online Classes
+
+- [ZoomIt](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
+  ZoomIt is a screen zoom and annotation tool for technical presentations that include application demonstrations.
+- [Microsoft Whiteboard](https://www.microsoft.com/en-ww/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
+
+## Development Tools
 
 - [Web development tools](web.html)
 - [Online editors](editor.html)
 
 ### Educational Softwares
 
-* [FET Free Timetabling Software](https://lalescu.ro/liviu/fet/)
+- [FET Free Timetabling Software](https://lalescu.ro/liviu/fet/)
 FET is open source free software for automatically scheduling the timetable of a school, high-school or university. It uses a fast and efficient timetabling algorithm. It is licensed under the GNU Affero General Public License version 3 or later.
 
-* [LimeSurvey](https://www.limesurvey.org/) Professional online surveys with LimeSurvey. The worldwide leading open source survey software as a professional SaaS solution or as a self-hosted Community Edition.
+- [LimeSurvey](https://www.limesurvey.org/) Professional online surveys with LimeSurvey. The worldwide leading open source survey software as a professional SaaS solution or as a self-hosted Community Edition.
 
-* [Koha](http://www.koha.org/) Koha is the first open-source Integrated Library System (ILS). In use worldwide, its development is steered by a growing community of libraries collaborating to achieve their technology goals. Koha's impressive feature set continues to evolve and expand to meet the needs of its user base.
+- [Koha](http://www.koha.org/) Koha is the first open-source Integrated Library System (ILS). In use worldwide, its development is steered by a growing community of libraries collaborating to achieve their technology goals. Koha's impressive feature set continues to evolve and expand to meet the needs of its user base.
 
 ### Educational Online Tools
 
