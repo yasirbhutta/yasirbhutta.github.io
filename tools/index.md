@@ -26,6 +26,10 @@ Easily create screencasts, edit recorded videos, and upload to YouTube. No water
 
 - [Lightshot](https://app.prntscr.com/en/download.html)
 
+## Coding
+
+- [Web development tools](web-dev-tools.md)
+
 ## Research
 
 - [Mendeley Reference Manager](https://www.mendeley.com/reference-management/reference-manager)
@@ -36,11 +40,6 @@ Easily create screencasts, edit recorded videos, and upload to YouTube. No water
 - [ZoomIt](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
   ZoomIt is a screen zoom and annotation tool for technical presentations that include application demonstrations.
 - [Microsoft Whiteboard](https://www.microsoft.com/en-ww/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
-
-## Development Tools
-
-- [Web development tools](web.html)
-- [Online editors](editor.html)
 
 ### Educational Softwares
 
