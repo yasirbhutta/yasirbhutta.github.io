@@ -45,15 +45,20 @@
   - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
   - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
   - [Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
-- New functions - Microsoft 365
-  - [Generate Serial # using sequence](https://youtu.be/gKds5egFFJI)
-  - [CHOOSECOL](https://youtu.be/ZzdTxA0Elqk)
-  - [How to: Filter data by using a formula in excel](https://youtu.be/B1nPF2OGkKI)
-  - [TEXTSPLIT: split cells / text strings by delimiter](https://youtu.be/hRr9YnZvK6w)
-- More Functions ...
-  - [TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
-  - [Display formula of cell as string in Excel](https://youtu.be/lUg8zYzisuk)
-  - [Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
+
+### New functions - Microsoft 365
+
+- [Find Employee using XLOOKUP function](https://youtu.be/vUCB2zLwG3g)
+- [Generate Serial # using sequence](https://youtu.be/gKds5egFFJI)
+- [CHOOSECOL](https://youtu.be/ZzdTxA0Elqk)
+- [How to: Filter data by using a formula in excel](https://youtu.be/B1nPF2OGkKI)
+- [TEXTSPLIT: split cells / text strings by delimiter](https://youtu.be/hRr9YnZvK6w)
+
+### More Functions
+
+- [TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
+- [Display formula of cell as string in Excel](https://youtu.be/lUg8zYzisuk)
+- [Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
 
 ### Errors
 
