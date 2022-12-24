@@ -1,5 +1,7 @@
 # Excel video training
 
+- [Youtube: Excel Playlist](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f)
+
 ## Quick start
 
 ## Intro. to Excel
