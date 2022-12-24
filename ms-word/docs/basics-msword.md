@@ -149,71 +149,43 @@ Open command is used to open an existing document to make changes, prints or add
 - In the folder list, locate and open the folder that contains the file.  
 - Click the file, and then click Open
 
-### Open a  file as a copy
+### Open a  file as a copy (Word, Excel, or PowerPoint)
 
 - Click **File > Open**.
 In the Look in list, click the folder, drive, that contains the file that you want to open. 
 In the folder list, locate and open the folder that contains the file. 
 Select the file that you want to open a copy of by clicking the arrow next to the Open button, and then clicking Open as Copy.
 
+### Rename file (Word, Excel, or PowerPoint)
 
+- Click **File > Open**.
+- In the Look in list, click the folder, drive, that contains the file that you want to rename.
+- In the folder list, locate and open the folder that contains the file that you want to rename.
+- Right-click the file that you want to rename, and then click Rename on the shortcut menu (right-click an item or press **SHIFT+F10**).
+- Type the new name, and then press **ENTER**.
 
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-28
+### Select multiple files
 
-Open as Copy
-yasirbhutta@gmail.com
-29
+Do one of the following:
 
-Open Read-Only
-yasirbhutta@gmail.com
-30
+- To select nonadjacent files in the Open dialog box, click one file, hold down **CTRL**, and then click each additional file.
+- To select adjacent files in the Open dialog box, click the first file in the sequence, hold down **SHIFT**, and then click the last file.
+- Mouse can be used to select multiple files.
 
-Rename file
-Click the File tab and then click Open. 
-In the Look in list, click the folder, drive, that contains the file that you want to rename. 
-In the folder list, locate and open the folder that contains the file that you want to rename. 
-Right-click the file that you want to rename, and then click Rename on the shortcut menu (right-click an item or press SHIFT+F10). 
-Type the new name, and then press ENTER. 
+**Tip**  If you select a file that you don't want, hold down **CTRL**, and then click the file again.
 
+### Closing a file (Word, Excel, or PowerPoint)
 
-
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-31
-
-Select multiple files
-Do one of the following: 
-To select nonadjacent files in the Open dialog box, click one file, hold down CTRL, and then click each additional file. 
-To select adjacent files in the Open dialog box, click the first file in the sequence, hold down SHIFT, and then click the last file. 
-Mouse can be used to select multiple files.
-Tip  If you select a file that you don't want, hold down CTRL, and then click the file again.
-
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-32
-
-Closing a file
 The process of unloading a document from computer memory is called closing document.
 When a word document is closed, it is only unloaded from memory. It remains stored in the file on the disk.
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-33
 
-Close a  File
-Click the File tab and then click Close. 
+- Click **File > Close**.
+
 OR
-Keyboard shortcut 
 
-
- 
-
-Word, Excel, or PowerPoint
-CTRL+F4
-yasirbhutta@gmail.com
-34
-
+> Keyboard shortcut  
+**CTRL+F4**
+ 
 Exiting Word
 The process of closing MS Word is called exiting Word.
 When the user exits word, all open files are closed.
