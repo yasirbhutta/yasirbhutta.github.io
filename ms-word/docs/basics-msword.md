@@ -76,7 +76,7 @@
 
 #### Status Bar
 
-- The status bar is a horizontal area at the bottom of the document window. 
+- The status bar is a horizontal area at the bottom of the document window.
 - It provides information about the current state of the documents.
 - Show current Page no and Total page
 - Language
@@ -109,71 +109,49 @@ Save Dialog Box
 
 ### Save a copy of file (Word, Excel, or PowerPoint)
 
-- Save as command is used to: Store another copy of an existing document with a different name or at different location.
-- Save a copy of file
-  - Click the **File tab** and then click **Save as**.
+Save as command is used to: Store another copy of an existing document with a different name or at different location.
+
+Save a copy of file
+
+- Click **File > Save As**.
 
 >Keyboard shortcut  
 F12
 
-Save a file to another format
-Click the Microsoft Office Button  ,     and then click Save as. 
-In the File name box, enter a new name for the file. 
-In the Save as type list, click the file format that you want to save the file in. 
-Click Save. 
+### Save a file to another format (Word, Excel, or PowerPoint)
 
+- Click **File > Save As**.
+- In the File name box, enter a new name for the file. 
+- In the Save as type list, click the file format that you want to save the file in. 
+- Click **Save.**
 
+### Save AutoRecover information automatically Word, Excel, or PowerPoint
 
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-21
-
-Save AutoRecover information automatically
-Click the Microsoft Office Button  ,     and then click Program Name Options (Word Options). 
-Click Save. 
-Select the Save AutoRecover information every check box. 
-In the minutes box, type or select a number to determine how often you want to save files. 
-
-
-
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-22
+- Click **File** and then click Program Name Options **(Word Options)**.
+- Click Save.
+- Select the Save AutoRecover information every check box.
+- In the minutes box, type or select a number to determine how often you want to save files.
 
 Word Options
-yasirbhutta@gmail.com
-23
 
 Word Options Dialog Box
-yasirbhutta@gmail.com
-24
 
-Open a file
-Open command is used to open an existing document to make changes, prints or add more information to it. 
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-25
+### Open a file (Word, Excel, or PowerPoint)
 
-Open a  file cont.
-Click the File tab and then click Open. 
+Open command is used to open an existing document to make changes, prints or add more information to it.
 
-Keyboard shortcut  
+- Click **File > Open**.
 
-Word, Excel, or PowerPoint
-CTRL+O
-26
-yasirbhutta@gmail.com
+>Keyboard shortcut  
+**CTRL+O**
 
-Open a file cont. 
-In the Look in list, click the folder, drive that contains the file that you want to open. 
-In the folder list, locate and open the folder that contains the file.  
-Click the file, and then click Open
+- In the Look in list, click the folder, drive that contains the file that you want to open. 
+- In the folder list, locate and open the folder that contains the file.  
+- Click the file, and then click Open
 
-yasirbhutta@gmail.com
-27
+### Open a  file as a copy
 
-Open a  file as a copy
-Click the File tab and then click Open. 
+- Click **File > Open**.
 In the Look in list, click the folder, drive, that contains the file that you want to open. 
 In the folder list, locate and open the folder that contains the file. 
 Select the file that you want to open a copy of by clicking the arrow next to the Open button, and then clicking Open as Copy.
