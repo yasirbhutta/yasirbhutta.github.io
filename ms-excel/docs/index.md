@@ -1,285 +1,72 @@
-# Microsoft Excel - Microsoft 365
+# Learning Roadmap for Microsoft Excel
 
-## Functions in Excel
+[Excel video Training](../video-training-excel.md)
 
-### Cell References
+## Quick start
 
-- A cell reference refers to a cell or a range of cells on a worksheet. 
-- It identifies a cell by referring to the row and column headings. When referring to a cell, enter the column letter followed by the row number Example
-- **A10** refers to the cell at the intersection of column A and row 10 
+## Intro. to Excel
 
-### Copying Formulae
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
-- When you copy a formula, Excel adjusts each cell reference in the formula relative to the position of the formula
-- That is, by default a copy operation maintains the same relationship relative to the new cell
+- Microsoft Excel Interface
+- [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
+- [Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
+- [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
+- Select cells, ranges, rows, or columns
 
-### Cell Reference
+## Rows and columns
 
-1. Relative
-2. Absolute
-3. Mixed
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
-#### Relative Cell Reference
+## Cells
 
-- In Excel, a relative cell reference identifies the location of a cell or group of cell.
-- By default, a spreadsheet cell reference is relative.
-- If copy the formula ,the reference automatically adjusts.  
+[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
-#### Absolute Cell References
+- [Select a range of cells](https://youtu.be/rAqaieW0lVM)
 
-- A reference to a particular cell or group of cells that does not change, even copy the reference to another cell.
-- An absolute cell reference consists of the column letter and row number surrounded by dollar sign($).
-- To place a $ sign before a Column letter and Row number of a Cell click on the cell that contains the absolute value and press F4 Key 
+## Formatting
 
-EXAMPLE: ABSOLUTE REFERENCE
+[Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
-EXAMPLE: ABSOLUTE REFERENCE
+## Formulas
 
-#### Mixed Cell Reference
+[Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
-- You create a mixed cell reference when you set either the column or row reference fixed instead of both being absolute
-- Absolute row reference -If a dollar sign were to precede only the row number, Example
-- **A$1**, then only the column reference changes relatively when the formula is copied
-- Absolute column reference -If a dollar sign precedes only the column letter, e.g. $A1, Excel will change only the row reference relative to the change in the formula location
+- [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
 
-### Named Cell Reference
+## Functions
 
-- A name is a meaningful shorthand that makes it easier to understand the purpose of a cell reference, constant, formula or table.
-- You can create a name that describes a cell or range. 
-- You can also use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows.
+[Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
+[Download - Handouts](../ms-excel/docs/functions-excel.md)
+- Cell references
+- [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
+- Coping formula
+- Most frequently used functions
+  - [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
+  - [MAX and MIN](https://youtu.be/v-HPGVPpEvE)
+  - [AVERAGE](https://youtu.be/WtETTSFaWSs)
+  - [PRODUCT](https://youtu.be/G-6sxw5Dvpw)
+  - [POWER](https://youtu.be/Brd7LkDfPXY)
+  - [COUNT](https://youtu.be/KHTWvRaorWs)
+  - [IF](https://youtu.be/hftoKkdWNRk)
+  - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
+  - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
+  - [More functions ...](../ms-excel/docs/functions-excel.md)
 
-Defined Names
+## Tables
 
-- **Formulas > Defined Names > Create from Selection**
+## Charts
 
-### Functions
+[Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
 
-- Excel has hundreds of predefined formulae known as Functions
-- Functions use specific arguments in a particular order or structure
-- The arguments of functions can be anything from numbers, text, logical values, or cell references
-- You can also have formulae or other functions as arguments in a function that are called nested functions.
+## PivotTables
 
-Functions ….
-The normal order for a function is:-
+## Share & co-author
 
-- Function Name,
-- The opening parenthesis
-- Arguments for the function separated by commas and closing parenthesis. 
+## Linked dat types
 
-#### 10 Most popluar functions
+## Get to know Power Query
 
-##### SUM
+## Tips and Tricks
 
-The SUM function adds values. You can add individual values, cell references or ranges or a mix of all three.
-
->For example:  
-=SUM(A2:A10) Adds the values in cells A2:10.  
-=SUM(A2:A10, C2:C10) Adds the values in cells A2:10, as well as cells C2:C10.  
-
-**Note:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
-
-Use AutoSum to sum numbers
-
-Further reading:
-
-- [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
-- [Use AutoSum to sum numbers - Microsoft Support](#)
-
-##### MAX
-
-Returns the largest value in a set of values.
-
->Syntax  
-MAX(number1, [number2], ...)
-
-The MAX function syntax has the following arguments:
-Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
-
-
-##### MIN
-
-Returns the smallest number in a set of values.
-
->**Syntax**  
-MIN(number1, [number2], ...)
-
-The MIN function syntax has the following arguments:
-Number1, number2, ...    Number1 is optional, subsequent numbers are optional. 1 to 255 numbers for which you want to find the minimum value.
-
-further reading:
-
-- [MAX function - Microsoft Support](#)
-- [MIN function - Microsoft Support](#)
-
-#### COUNT
-
-- The COUNT function counts the number of cells that contain numbers, and counts numbers within the list of arguments. 
-- Use the COUNT function to get the number of entries in a number field that is in a range or array of numbers.
-
-For example, you can enter the following formula to count the numbers in the range A1:A20: =COUNT(A1:A20). In this example, if five of the cells in the range contain numbers, the result is 5.
-
-further reading:
-
-- [COUNT function - Microsoft Support](#)
-
-##### POWER
-
-Returns the result of a number raised to a power.
-
->Syntax  
-POWER(number, power)
-
-The POWER function syntax has the following arguments:
-
-Number Required. The base number. It can be any real number.
-Power Required. The exponent to which the base number is raised.
-
-=POWER(5,2)
-Number
-Power
-
-further reading:
-
-- POWER function - Microsoft Support
-
-##### PRODUCT function
-
-- The PRODUCT function multiplies all the numbers given as arguments and returns the product.
-- The PRODUCT function is useful when you need to multiply many cells together.
-
-For example, the formula =PRODUCT(A1:A3, C1:C3) is equivalent to =A1 * A2 * A3 * C1 * C2 * C3.
-
-=Product(5,2)
-=Product(C6:E6)
-
-further reading: 
-
-- [PRODUCT function - Microsoft Support]()
-
-##### Average function
-
-- Returns the average (arithmetic mean) of the arguments.
-
-For example, if the range A1:A20 contains numbers, the formula =AVERAGE(A1:A20) returns the average of those numbers.
-
-further reading:
-
-- [AVERAGE function - Microsoft Support]
-
-##### IF function
-
-- The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
-- So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.
-
-For example, =IF(C2=”Yes”,1,2) says IF(C2 = Yes, then return a 1, otherwise return a 2).
-
-further reading:
-
-- [IF function - Microsoft Support](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
-
-##### NOW function
-
-The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.
-
-further reading:
-[NOW function - Microsoft Support](#)
-
-##### TODAY
-
-The TODAY function is useful when you need to have the current date displayed on a worksheet, regardless of when you open the workbook. 
-
-For example, if you know that someone was born in 1963, you might use the following formula to find that person's age as of this year's birthday:
-
-= YEAR( TODAY())-1963
-
-further reading:
-
-- [TODAY function - Microsoft Support](#)
-
-#### Change the case of Text
-
-**LOWER function:** Converts all uppercase letters in a text string to lowercase.
-
->Syntax  
-LOWER(text)
-
-The LOWER function syntax has the following arguments:
-
-Text Required. The text you want to convert to lowercase. LOWER does not change characters in text that are not letters.
-
-**UPPER function:** Converts text to uppercase.
-
->Syntax  
-UPPER(text)
-
-The UPPER function syntax has the following arguments:
-
-Text    Required. The text you want converted to uppercase. Text can be a reference or text string.
-
-**PROPER function:**
-
-further reading: 
-
-- [LOWER function - Microsoft Support](#)
-- [UPPER function - Microsoft Support](#)
-
-#### LEN function
-
-LEN returns the number of characters in a text string.
-
->Syntax  
-LEN(text)
-
-LENB(text)
-
-Text Required. The text whose length you want to find. Spaces count as characters.
-
-further reading: 
-
-- [LEN, LENB functions - Microsoft Support]
-
-#### COUNTIF function
-
-Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
-
-For example:
-
-=COUNTIF(A2:A5,"London")
-=COUNTIF(A2:A5,A4)
-
-further reading:
-
-- [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
-
-#### SUMIF function
-
-use the SUMIF function to sum the values in a range that meet criteria that you specify.
-
-For example, suppose that in a column that contains numbers, you want to sum only the values that are larger than 5. You can use the following formula: =SUMIF(B2:B25,">5")
-
->Syntax  
-SUMIF(range, criteria, [sum_range])
-
-further reading: 
-
-- [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
-
-### Formula Errors
-
-- "######"
-This error occurs when a column is not wide enough, or a negative date or time is used.
-- "# DIV / O!"
-A division by zero has occurred in the formula
-- "# N / A"
-A value is not available to the formula
-- "# Name"
-An unrecognizable range name is used in the formula
-"# Value!"
-An incorrect argument or operator is used in the formula
-- "# Ref"
-An invalid cell is referenced in the formula
-
-- #N/A
- 
-Note    You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
-
+- [How to: Populate a Dropdown List Based on Cells Value](https://youtube.com/shorts/qnrHaDbaPYw)

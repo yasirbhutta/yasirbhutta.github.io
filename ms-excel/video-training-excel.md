@@ -1,10 +1,8 @@
-# Learning Roadmap for Microsoft Excel
+# Excel video training
 
 ## Quick start
 
 ## Intro. to Excel
-
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - Microsoft Excel Interface
 - [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
@@ -14,27 +12,17 @@
 
 ## Rows and columns
 
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
-
 ## Cells
-
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - [Select a range of cells](https://youtu.be/rAqaieW0lVM)
 
 ## Formatting
 
-[Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
-
 ## Formulas
-
-[Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
 - [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
 
 ## Functions
-
-[Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
 
 - Cell references
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
@@ -49,13 +37,12 @@
   - [IF](https://youtu.be/hftoKkdWNRk)
   - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
   - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
-  - [More functions ...](functions.md)
+- Functions videos
+  - [More functions ...](../ms-excel/docs/functions-excel.md)
 
 ## Tables
 
 ## Charts
-
-[Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
 
 ## PivotTables
 
