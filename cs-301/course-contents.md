@@ -22,14 +22,14 @@
 
 ## The Internet
 
-- Browsers and Search Engines
+- [Browsers and Search Engines](../google/docs/google-search.md)
 - Email
 - Collaborative Computing and Social Networking
 - E-Commerce
 - IT Security
-   
+
 ## Microsoft Office
 
-- [Microsoft Word](#microsoft-office)
-- [Microsoft Excel](#microsoft-office)
-- [Microsoft Powerpoint](#microsoft-office)
+- [Microsoft Word](../ms-word/index.md)
+- [Microsoft Excel](../ms-excel/index.md)
+- [Microsoft Powerpoint](#)
