@@ -35,8 +35,11 @@
   - [POWER](https://youtu.be/Brd7LkDfPXY)
   - [COUNT](https://youtu.be/KHTWvRaorWs)
   - [IF](https://youtu.be/hftoKkdWNRk)
+  - [DAYS](https://youtu.be/1CRDkupdYrQ)
   - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
   - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
+- New functions - Microsoft 365
+  - [CHOOSECOL](https://youtu.be/ZzdTxA0Elqk)
 - Functions videos
   - [More functions ...](../ms-excel/docs/functions-excel.md)
 
@@ -53,5 +56,8 @@
 ## Get to know Power Query
 
 ## Tips and Tricks
+
+- [Insert copyright, registered and trademark symbols](https://youtu.be/Zf-VfFlCMYI)
+
 
 - [How to: Populate a Dropdown List Based on Cells Value](https://youtube.com/shorts/qnrHaDbaPYw)
