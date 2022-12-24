@@ -8,8 +8,8 @@
 - [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
 - [Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
 - [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
-
-- Select cells, ranges, rows, or columns
+- [Select cells, ranges, rows, or columns](https://youtu.be/rAqaieW0lVM)
+- [Pin a file to the recently used files list](https://youtu.be/6ilibWYrqBU)
 
 ## Rows and columns
 
@@ -21,10 +21,12 @@
 
 - [Format numbers as TEXT](https://youtu.be/9-ldmZ3Z8Iw)
 - [Converts a number from one measurement system to another](https://youtu.be/ilEpvXG1NO4)
+- [Show or hide gridlines on a worksheet](https://youtu.be/P1IJVvL9-zQ)
 
 ## Formulas
 
 - [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
+- [Enter formula in multiple cells using array formulas](https://youtu.be/T9kXiBI3Y7c)
 
 ## Functions
 
@@ -33,18 +35,25 @@
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
 - [Create an Absolute Reference](https://youtu.be/NDBp1p6g_4c)
 - Coping formula
-- Most frequently used functions
-  - [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
-  - [MAX and MIN](https://youtu.be/v-HPGVPpEvE)
-  - [AVERAGE](https://youtu.be/WtETTSFaWSs)
-  - [PRODUCT](https://youtu.be/G-6sxw5Dvpw)
-  - [POWER](https://youtu.be/Brd7LkDfPXY)
-  - [COUNT](https://youtu.be/KHTWvRaorWs)
-  - [IF](https://youtu.be/hftoKkdWNRk)
-  - [DAYS](https://youtu.be/1CRDkupdYrQ)
-  - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
-  - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
-  - [Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
+
+### Most frequently used functions
+
+- [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
+- [How to: Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
+- [MAX and MIN](https://youtu.be/v-HPGVPpEvE)
+- [AVERAGE](https://youtu.be/WtETTSFaWSs)
+- [PRODUCT](https://youtu.be/G-6sxw5Dvpw)
+- [POWER](https://youtu.be/Brd7LkDfPXY)
+- [COUNT](https://youtu.be/KHTWvRaorWs)
+- [COUNTA](https://youtu.be/0JCfxebwKa4)
+- [COUNTIF](https://youtu.be/Uv-j-N7wdTo)
+- [SUMIF](https://youtu.be/AX7DXRCoaf8)
+- [IF](https://youtu.be/hftoKkdWNRk)
+- [DAYS](https://youtu.be/1CRDkupdYrQ)
+- [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
+- [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
+- [Join First Name and Last Name | CONCAT function](https://youtu.be/6Puk_HhpFRM)
+- [Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
 
 ### New functions - Microsoft 365
 
@@ -59,6 +68,7 @@
 - [TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
 - [Display formula of cell as string in Excel](https://youtu.be/lUg8zYzisuk)
 - [Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
+- [Date](https://youtu.be/UpJluY3XY74)
 
 ### Errors
 
@@ -81,9 +91,15 @@
 - [Insert copyright, registered and trademark symbols](https://youtu.be/Zf-VfFlCMYI)
 - [How to: Populate a Dropdown List Based on Cells Value](https://youtube.com/shorts/qnrHaDbaPYw)
 - [Generate a sequence end with text](https://youtu.be/urzWGZDpGGk)
+- [Populate a Dropdown List Based on Cells Value](https://youtu.be/qnrHaDbaPYw)
 
 ## Excel Mobile App
 
 - [Install Excel App on android phone](https://youtu.be/Ii4pl4f6mS8)
+- [Apply cells border](https://youtu.be/okBLEJLE0t8)
+- [Merge & Center and Wrap text](https://youtu.be/DPYDYL4UT-0)
+- [Change Date Format](https://youtu.be/Cty8tgm7YtE)
 - [TOP 25 Tips to use Excel Mobile App](https://youtu.be/y9m36XLI4v4)
 - [Sort data in an Excel worksheet using Mobile App](https://youtu.be/4CMUby9WslY)
+- [Fill a column with a series](https://youtu.be/dMTVohW0ZCc)
+- [use a cards view](https://youtu.be/6qwfFHMSw98)
