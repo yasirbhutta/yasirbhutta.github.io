@@ -1,5 +1,7 @@
 # Microsoft Word - Microsoft 365
 
+Updated on: 24-Dec-2022
+
 ## Microsoft Word - Basics
 
 ### Word Processor
@@ -185,108 +187,75 @@ OR
 
 > Keyboard shortcut  
 **CTRL+F4**
- 
-Exiting Word
-The process of closing MS Word is called exiting Word.
-When the user exits word, all open files are closed.
-For unsaved files, word will ask the user to save them before exiting.
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-35
+
+### Exiting Word (Word, Excel, or PowerPoint)
+
+- The process of closing MS Word is called exiting Word. When the user exits word, all open files are closed.
+- For unsaved files, word will ask the user to save them before exiting.
 
 Exiting Word
-Click the Close Button on Control Box
+
+> Click the **Close Button** on **Control Box**
+
 OR
-Keyboard shortcut 
 
+>Keyboard shortcut  
+**ALT+F4**
 
- 
+### Document View of MS Word
 
-Word, Excel, or PowerPoint
-ALT+F4
-Close
-yasirbhutta@gmail.com
-36
+- The way a document is displayed in Word is called view.
+- Each view of the document displays specific details of the document.
+- Changing to a different view does not affect the contents of document.
 
-Document View of MS Word
-The way a document is displayed in Word is called view.
-Each view of the document displays specific details of the document.
-Changing to a different view does not affect the contents of document.
-yasirbhutta@gmail.com
-37
+#### Documents Views
 
-Documents Views
-Print Layout
-Full Screen Reading
-Web Layout
-Outline
-Draft
-yasirbhutta@gmail.com
-38
+- Print Layout
+- Full Screen Reading
+- Web Layout
+- Outline
+- Draft
 
-1. Print Layout
-View the document as it will be appear on printed Page.
-It displays all formatting, columns, header, footers etc.
-It takes more memory.
-yasirbhutta@gmail.com
-39
+##### Print Layout
 
-Print Layout View
-yasirbhutta@gmail.com
-40
+- View the document as it will be appear on printed Page.
+- It displays all formatting, columns, header, footers etc.
+- It takes more memory.
 
-1. Full Screen Reading
-View the document in full screen reading view in order to maximize the space available for reading or commenting on document. 
-yasirbhutta@gmail.com
-41
+##### Full Screen Reading
 
-Full Screen Reading
-yasirbhutta@gmail.com
-42
+- View the document in full screen reading view in order to maximize the space available for reading or commenting on document.
 
-3. Web Layout
-View the document as it would look as web page.
-All pages are displayed as one page.
-In this view, the user can see backgrounds.
+##### Web Layout
 
-yasirbhutta@gmail.com
-43
+- View the document as it would look as web page.
+- All pages are displayed as one page.
+- In this view, the user can see backgrounds.
 
-Web Layout 
-yasirbhutta@gmail.com
-44
+##### Outline View
 
-4. Outline View
-View the document as an outline and show the outlining tools.
-It does not display the boundaries, headers, footers etc.
-It can be used to move, copy and reorganize text by dragging headings. 
-yasirbhutta@gmail.com
-45
+- View the document as an outline and show the outlining tools.
+- It does not display the boundaries, headers, footers etc.
+- It can be used to move, copy and reorganize text by dragging headings. 
 
-5. Draft View
-View the document as a draft to quickly edit the text.
-Certain elements of document such as Headers and Footers will not be visible in this view. 
-The process of typing in this mode is quicker and easier.
-The normal view takes less memory.  
-yasirbhutta@gmail.com
-46
+##### Draft View
 
-Outline View
-yasirbhutta@gmail.com
-47
+- View the document as a draft to quickly edit the text.
+- Certain elements of document such as Headers and Footers will not be visible in this view.
+- The process of typing in this mode is quicker and easier.
+- The normal view takes less memory.  
 
-Draft View
-yasirbhutta@gmail.com
-48
+#### Change Document Views
 
-Change Document Views
-Status Bar > Document Views
-yasirbhutta@gmail.com
-49
+- **Status Bar > Document Views**
 
-Change Document Views Cont.
-View tab > Document Views group > Select View
-yasirbhutta@gmail.com
-50
+OR
 
-THANKS
+- View tab > Document Views group > Select View
+
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
