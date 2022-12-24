@@ -54,7 +54,7 @@
 - [DAYS](https://youtu.be/1CRDkupdYrQ)
 - [Change the case of text in excel](https://youtu.be/KHTWvRaorWs)
 - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
-- [Join First Name and Last Name | CONCAT function](https://youtu.be/6Puk_HhpFRM)
+- [Join First Name and Last Name - CONCAT function](https://youtu.be/6Puk_HhpFRM)
 - [Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
 
 ### New functions - Microsoft 365
