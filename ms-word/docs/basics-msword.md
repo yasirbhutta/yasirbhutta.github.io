@@ -123,8 +123,8 @@ F12
 ### Save a file to another format (Word, Excel, or PowerPoint)
 
 - Click **File > Save As**.
-- In the File name box, enter a new name for the file. 
-- In the Save as type list, click the file format that you want to save the file in. 
+- In the File name box, enter a new name for the file.
+- In the Save as type list, click the file format that you want to save the file in.
 - Click **Save.**
 
 ### Save AutoRecover information automatically Word, Excel, or PowerPoint
@@ -147,15 +147,15 @@ Open command is used to open an existing document to make changes, prints or add
 >Keyboard shortcut  
 **CTRL+O**
 
-- In the Look in list, click the folder, drive that contains the file that you want to open. 
+- In the Look in list, click the folder, drive that contains the file that you want to open.
 - In the folder list, locate and open the folder that contains the file.  
 - Click the file, and then click Open
 
 ### Open a  file as a copy (Word, Excel, or PowerPoint)
 
 - Click **File > Open**.
-In the Look in list, click the folder, drive, that contains the file that you want to open. 
-In the folder list, locate and open the folder that contains the file. 
+In the Look in list, click the folder, drive, that contains the file that you want to open.
+In the folder list, locate and open the folder that contains the file.
 Select the file that you want to open a copy of by clicking the arrow next to the Open button, and then clicking Open as Copy.
 
 ### Rename file (Word, Excel, or PowerPoint)
@@ -236,7 +236,7 @@ OR
 
 - View the document as an outline and show the outlining tools.
 - It does not display the boundaries, headers, footers etc.
-- It can be used to move, copy and reorganize text by dragging headings. 
+- It can be used to move, copy and reorganize text by dragging headings.
 
 ##### Draft View
 
@@ -251,7 +251,7 @@ OR
 
 OR
 
-- View tab > Document Views group > Select View
+- **View tab > Document Views group > Select View**
 
 Muhammad Yasir Bhutta
 
