@@ -28,8 +28,10 @@
 
 ## Functions
 
-- Cell references
+### Cell references
+
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
+- [Create an Absolute Reference](https://youtu.be/NDBp1p6g_4c)
 - Coping formula
 - Most frequently used functions
   - [Use of Sum function and AutoSum to sum numbers](https://youtu.be/o8aBs1Qr_8s)
@@ -44,6 +46,7 @@
   - [TODAY and NOW](https://youtu.be/9ETguwC7Jnk)
   - [Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
 - New functions - Microsoft 365
+  - [Generate Serial # using sequence](https://youtu.be/gKds5egFFJI)
   - [CHOOSECOL](https://youtu.be/ZzdTxA0Elqk)
   - [How to: Filter data by using a formula in excel](https://youtu.be/B1nPF2OGkKI)
   - [TEXTSPLIT: split cells / text strings by delimiter](https://youtu.be/hRr9YnZvK6w)
@@ -51,6 +54,10 @@
   - [TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
   - [Display formula of cell as string in Excel](https://youtu.be/lUg8zYzisuk)
   - [Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
+
+### Errors
+
+- [Top 4 Most Common Excel Errors](https://youtu.be/Rh0I5B-0uHM)  
 
 ## Tables
 
@@ -74,3 +81,4 @@
 
 - [Install Excel App on android phone](https://youtu.be/Ii4pl4f6mS8)
 - [TOP 25 Tips to use Excel Mobile App](https://youtu.be/y9m36XLI4v4)
+- [Sort data in an Excel worksheet using Mobile App](https://youtu.be/4CMUby9WslY)
