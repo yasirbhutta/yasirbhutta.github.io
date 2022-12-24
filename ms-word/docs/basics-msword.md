@@ -88,55 +88,33 @@
 - Click **New**.
 - Double-click on **Blank document**.
 
-Start a document from a template
-Word, Excel, or PowerPoint
-Click the File tab.
+### Start a document from a template (Word, Excel, or PowerPoint)
 
+- Click the **File tab**.
+- Click New.
+- Under **Available Templates**, do one of the following:
+  - Click **Sample Templates** to select a template that is available on your computer.
+- Double-click the template that you want.
 
+### Saving a file
 
-Click New. 
-Under Available Templates, do one of the following: 
-Click Sample Templates to select a template that is available on your computer. 
-Double-click the template that you want.
-yasirbhutta@gmail.com
-15
+- Save command is used to store a word document in a file on the disk.
 
-Saving a file
-Save command is used to store a word document in a file on the disk.
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-16
+- Click the **File tab** and then click **Save**.
 
-Saving a  file cont.
-Click the File tab and then click Save. 
-
-Keyboard shortcut  
-
-Word, Excel, or PowerPoint
+> Keyboard shortcut  
 CTRL+S
-yasirbhutta@gmail.com
-17
 
 Save Dialog Box
-yasirbhutta@gmail.com
-18
 
-Save a copy of file
-Save as command is used to:
-Store another copy of an existing document with a different name or at different location.
-Word, Excel, or PowerPoint
-yasirbhutta@gmail.com
-19
+### Save a copy of file (Word, Excel, or PowerPoint)
 
-Save a copy of file
-Click the File tab and then click Save as. 
+- Save as command is used to: Store another copy of an existing document with a different name or at different location.
+- Save a copy of file
+  - Click the **File tab** and then click **Save as**.
 
-Keyboard shortcut  
-
-Word, Excel, or PowerPoint
+>Keyboard shortcut  
 F12
-yasirbhutta@gmail.com
-20
 
 Save a file to another format
 Click the Microsoft Office Button  ,     and then click Save as. 
