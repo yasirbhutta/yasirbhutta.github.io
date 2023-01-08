@@ -4,3 +4,4 @@
 - [Control Flow Statements](controlflow-php.md)
 - [Arrays](array-php.md)
 - [Forms](form-php.md)
+- [PHP Connect to MYSQL](mysql-php.md)
