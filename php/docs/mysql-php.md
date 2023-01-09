@@ -4,7 +4,7 @@
 
 **updated on:** 08-Jan-2023
 
-## MYSQL
+## PHP Connect to MYSQL
 
 ### WHAT IS MYSQL?
 
@@ -44,8 +44,48 @@ PHP 5 and later can work with a MySQL database using:
 - PHPMyAdmin
 [Download](https://www.phpmyadmin.net/downloads/)
 -[https://www.heidisql.com/](https://www.heidisql.com/)
-- Navicat GUI | DB Admin Tool for MySQL, PostgreSQL
+-Navicat GUI | DB Admin Tool for MySQL, PostgreSQL
 [https://www.navicat.com/en/](https://www.navicat.com/en/)
+
+### mysqli
+
+- open a new connection to the MYSQL server.
+
+#### Parameters
+
+- hostname
+  - can either a host name or an IP address. The local host is assumed when passing the null value or the string "localhost" to this paramter.
+  - When possible, pipes will be used instead of the TCP/IP. The TCP/IP protocol is used if 
+    a host name and port number are provided together e.g. localhost:3308
+- username
+the MySQL user name.
+- password
+if not provided or null, the MySQL server will attempt to authenticate the user against 
+those user records which have no password only. This allows one username to be used
+with different permissions (depending on if a password is provided or not).
+- database
+if provided will specify the default database to be used when performing queries.
+- port
+specifies the port number to attempt to connect to the MySQL server.
+- socket
+Specifies the socket or named pipe that should be used.
+
+### mysqli::$connnect_error
+
+- Returns the error message from the last connection attempt.
+
+#### Parameters
+
+The function has no parameters
+
+#### Return Values
+
+A string that describes the error. null is returned if no error occured.
+
+### die
+
+- Output a message and terminate the current script.
+- Equivalent to exit().
 
 #### Example #1 Connect with mySQL
 
