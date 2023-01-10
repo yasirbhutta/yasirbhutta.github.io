@@ -128,6 +128,26 @@ idea to close the connection as soon as the script finishes performing all of it
 
 Returns true on sucess or false on failure.
 
+### === Operator in PHP
+
+- In PHP, the **==** is an comparison operator that checks if two values are equals. It returns a boolean value of 'true' if the values are equal, and 'false' if they are not.
+- On the other hand, '===' is also a comparision operator in PHP, but it is stricker than '=='. It checks not only if the values are equals, but also if they are of the same type. This means that '===' will only return 'true' if the values are equal and of the same type.
+
+```php
+$x = "10";
+$y = 10;
+
+if ($x==$y){
+    //this condition will be true
+}
+
+if ($x===$y){
+    // this condition will be false
+}
+```
+
+In above example, '$x' is a string and '$y' is an integer. when we use '==', the comparison is true becuase '$x' and '$y' have the same value, even though they are different types. However, when we use '===', the comparison is false because '$x' and '$y' are not the same type.
+
 #### Example #2 Create Database
 
 ```php
@@ -176,7 +196,36 @@ echo "Connected successfully with <strong> $dbname </strong> database<br>";
 ?>
 ```
 
-#### Example #4 Create Tables
+### include and require in PHP
+
+- The include and require expression includes evaluates the specified file.
+- When a file is included, the code it contains inherits the variable scope of the line on which the include occurs. Any variables available at that line in the calling file will be available within the called file, from that point foward. However, all functions and classes defined in the included file have the global scope.
+
+Basic include example
+
+vars.php
+
+```php
+<?php
+$color = 'green';
+$fruit = 'apply';
+?>
+```
+
+test.php
+
+```php
+<?php
+
+echo "A $color $fruit"; // A 
+
+include 'vars.php';
+
+echo "A $color $fruit"; // A green apple
+?>
+```
+
+#### Example  Create Tables
 
 ```php
 <?php include('conn-db.php');
