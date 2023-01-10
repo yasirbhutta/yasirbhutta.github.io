@@ -196,35 +196,6 @@ echo "Connected successfully with <strong> $dbname </strong> database<br>";
 ?>
 ```
 
-### include and require in PHP
-
-- The include and require expression includes evaluates the specified file.
-- When a file is included, the code it contains inherits the variable scope of the line on which the include occurs. Any variables available at that line in the calling file will be available within the called file, from that point foward. However, all functions and classes defined in the included file have the global scope.
-
-Basic include example
-
-vars.php
-
-```php
-<?php
-$color = 'green';
-$fruit = 'apply';
-?>
-```
-
-test.php
-
-```php
-<?php
-
-echo "A $color $fruit"; // A 
-
-include 'vars.php';
-
-echo "A $color $fruit"; // A green apple
-?>
-```
-
 #### Example  Create Tables
 
 ```php
@@ -270,6 +241,32 @@ PHP:require
 
 - require is identical to include except upon failure it will also produce a fatal E_COMPILE_ERROR level error.
 - In other words, it will halt the script whereas include only emits a warning (E_WARNING) which allows the script to continue.
+
+- When a file is included, the code it contains inherits the variable scope of the line on which the include occurs. Any variables available at that line in the calling file will be available within the called file, from that point foward. However, all functions and classes defined in the included file have the global scope.
+
+Basic include example
+
+vars.php
+
+```php
+<?php
+$color = 'green';
+$fruit = 'apply';
+?>
+```
+
+test.php
+
+```php
+<?php
+
+echo "A $color $fruit"; // A 
+
+include 'vars.php';
+
+echo "A $color $fruit"; // A green apple
+?>
+```
 
 #### Example #5 insert date in Employees table
 
