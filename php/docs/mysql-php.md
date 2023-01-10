@@ -106,6 +106,28 @@ echo "Connected successfully";
 ?>
 ```
 
+### mysqli::query
+
+- Performs a query on the database
+- Returns FALSE on failure. For successful SELECT, SHOW, DESCRIBE or EXPLAIN queries mysqli_query() will return a mysqli_result object. For other successful queries mysqli_query() will return TRUE.
+- The mysqli_result class: Represents the result set obtained from a query against the database.
+
+### mysqli::$error
+
+- Returns the last error message fo the most recent MySQLi function call that can succeed or fail.
+
+### mysqli::close
+
+- Closes a previously opened database connection.
+- Open non-persistent MySQL connections and result sets are automatically
+closed when their objects are destroyed.
+- Explicitly closing open connections and freeing result sets is optional. However, it's a good
+idea to close the connection as soon as the script finishes performing all of its database operations, if it still has a lot of processing to do after getting the results.
+
+#### Return Values
+
+Returns true on sucess or false on failure.
+
 #### Example #2 Create Database
 
 ```php
@@ -132,12 +154,6 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 ```
-
-### mysqli::query
-
-- Performs a query on the database
-- Returns FALSE on failure. For successful SELECT, SHOW, DESCRIBE or EXPLAIN queries mysqli_query() will return a mysqli_result object. For other successful queries mysqli_query() will return TRUE.
-- The mysqli_result class: Represents the result set obtained from a query against the database.
 
 file name is **conn-db.php**
 
