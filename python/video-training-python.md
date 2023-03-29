@@ -4,13 +4,38 @@
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Python Online Course](python-courses.md)
 
-## Tools
+### Installation & Getting Started
 
+- [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
+- [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
+- [Hello World](https://yasirbhutta.blogspot.com/2022/09/python-print-function.html)
 - [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
 
 ## Python Introduction
 
+### Language Introduction
+
+### Python source code
+
 ### Comments
+
+### Indentation
+
+### Variables and Assignments]
+
+### User-defined Functions
+
+### Code Checked at Runtime
+
+### Variable Names
+
+### More on Modules and their Namespaces
+
+### Online help, help(), and dir()
+
+### [Exercises](python-exercises.md)
+
+### [MCQs](python-mcqs.md)
 
 ## Variables
 
