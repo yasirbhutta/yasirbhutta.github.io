@@ -1,5 +1,6 @@
 # Python
 
+
 [Python Online Course](python-courses.md)
 
 ## Python Learning Path for Beginners
