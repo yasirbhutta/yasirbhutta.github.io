@@ -4,6 +4,10 @@
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Python Online Course](python-courses.md)
 
+## Tools
+
+- [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
+
 ## Python Introduction
 
 ### Comments
@@ -16,7 +20,9 @@
 
 ### Text Type
 
-str
+#### str
+
+
 
 ### Numeric Types
 
