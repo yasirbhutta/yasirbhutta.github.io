@@ -90,5 +90,18 @@ squared_numbers = map(lambda x : x **2 ,numbers)
 print(list(squared_numbers))
 
 ```
+[need to add details]
 
+### Example # 6
 
+```python
+def multiply(lambda(x,y):
+    retun x*y
+
+result = (lambda x,y : multiply(x,y))(5,3) 
+print(result) # Output: 15
+
+mult = lambda x,y : multiply(x,y)
+result = mult(6,2)
+print(result) # Output: 12
+```
