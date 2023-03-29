@@ -22,8 +22,6 @@
 
 #### str
 
-
-
 ### Numeric Types
 
 #### int

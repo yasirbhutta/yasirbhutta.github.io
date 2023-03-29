@@ -52,7 +52,6 @@
 - [range](https://yasirbhutta.blogspot.com/2022/10/15-python-sequence-type-range-python.html)
   - [The range() Function](https://youtu.be/ZEVsokTGbwA)
 
-
 #### Mapping Type
 
 - [dic](https://yasirbhutta.blogspot.com/2022/10/18-python-mapping-types-dict-python-tips.html)
@@ -114,4 +113,3 @@
 ### Modules
 
 #### Data Analysis
-
