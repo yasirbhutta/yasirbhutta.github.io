@@ -4,7 +4,7 @@
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Python Online Course](python-courses.md)
 
-### Installation & Getting Started
+## Installation & Getting Started
 
 - [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
@@ -14,6 +14,8 @@
 ## Python Introduction
 
 ### Language Introduction
+
+- [Python print() function](https://www.youtube.com/watch?v=a34qr0OfxjQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=107)
 
 ### Python source code
 
@@ -51,11 +53,14 @@
 
 #### int
 
-- [How to Convert a Python String to int](#)
+- [int variable](https://www.youtube.com/watch?v=Vhrk3vnw-2o&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=112)
+- [How to Convert a Python String to int](https://www.youtube.com/watch?v=MMzwcMEmq2A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=108)
 - [How to Convert a Python integer to string](#)
-- [Convert integer to octal and hexadecimal](#)
+- [Convert integer to octal and hexadecimal](https://www.youtube.com/watch?v=aXSQHSOCRqY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=109)
 
 #### float
+
+- [float variable](https://www.youtube.com/watch?v=1PdD1ssbgUo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=106)
 
 #### complex
 
@@ -73,12 +78,16 @@
 
 ### list
 
-- [Python List Slicing](#)
-- [Python Nested List](#)
+- [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
+- [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 
 ### tuple
 
+- [#1 Tuple Assignment](https://www.youtube.com/watch?v=ebhkBYgR7QI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=104)
+- [#2 Tuple Assignment](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
+
 ### dic
+
 ### set
 
 - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
@@ -116,7 +125,7 @@
 
 ## Python Sorting
 
-### Functions
+## Functions
 
 - [How to Add Two Numbers and Print the Result](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
 - [How to Find the Maximum Value in a List of Numbers](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
