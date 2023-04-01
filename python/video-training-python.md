@@ -41,6 +41,8 @@
 
 ## Variables
 
+- [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
+
 ## Operators
 
 ## Python Data Types
@@ -53,9 +55,10 @@
 
 #### int
 
+- [How to use int variable](https://www.youtube.com/watch?v=t1aQ9igm4gY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=101)
 - [int variable](https://www.youtube.com/watch?v=Vhrk3vnw-2o&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=112)
 - [How to Convert a Python String to int](https://www.youtube.com/watch?v=MMzwcMEmq2A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=108)
-- [How to Convert a Python integer to string](#)
+- [How to Convert a Python integer to string](https://www.youtube.com/watch?v=4b4F7LjvGmo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=102)
 - [Convert integer to octal and hexadecimal](https://www.youtube.com/watch?v=aXSQHSOCRqY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=109)
 
 #### float
@@ -74,38 +77,46 @@
 - bytearray
 - memoryview
 
-## Data Structures
+## Data Structures and Sequences
 
-### list
-
-- [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
-- [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
-
-### tuple
+### Tuple
 
 - [#1 Tuple Assignment](https://www.youtube.com/watch?v=ebhkBYgR7QI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=104)
 - [#2 Tuple Assignment](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 
-### dic
+### List
+
+- [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
+- [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
+- [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
+
+### Built-in Sequence Functions
+
+### dict
+
+- [Use of dict](https://www.youtube.com/watch?v=WOjUtknwLMQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=100)
+- [Python Dictionary with For Loop](https://www.youtube.com/watch?v=NNeZTEMNKhw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=99)
 
 ### set
+
+- [How to: Add or Remove Elements in a Set](https://www.youtube.com/watch?v=96f2SKK_QZk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=98)
+
+### List, Set and Dict Comprehensions
 
 - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
 - [range](https://yasirbhutta.blogspot.com/2022/10/15-python-sequence-type-range-python.html)
   - [The range() Function](https://youtu.be/ZEVsokTGbwA)
 
-#### Related Topics
-
-#### exercise
-
 ## Control Flow Statements
 
-### [if Statement]()
+### if Statement
 
 - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 
 ### for Statement
+
+- [For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
 
 ### while Statement
 
@@ -134,6 +145,12 @@
 - [Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+
+### Generators
+
+### Errors and Exception Handling
+
+- [Python Exception Handling run-time error : division by zero](https://www.youtube.com/watch?v=1fj8HifChyE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=93)
 
 ## Modules
 
