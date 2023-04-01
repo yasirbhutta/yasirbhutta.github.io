@@ -153,6 +153,12 @@
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
+### Anonymous (Lambda) Functions
+
+- [#1 How to: Use of Lambda function](https://www.youtube.com/watch?v=Z8Zeen4WwJQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
+- [#2 How to: Use of Lambda function](https://www.youtube.com/watch?v=N3UAUI6cEVA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
+- [How to: use a LAMBDA function as an argument in filter() and map()](https://www.youtube.com/watch?v=xUKmtRJBWuA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
+
 ### Generators
 
 ### Errors and Exception Handling
