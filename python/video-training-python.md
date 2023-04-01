@@ -45,7 +45,7 @@
 
 ## Operators
 
-## Python Data Types
+## Scalar Types
 
 ### Text Type
 
@@ -77,6 +77,38 @@
 - bytearray
 - memoryview
 
+## Control Flow Statements
+
+### if Statement
+
+- [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
+- [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
+
+### for Statement
+
+- [For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
+
+### while Statement
+
+- [Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
+
+### The Range() function
+
+- [The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
+- [Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
+
+### The break and continue Statement
+
+- [Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
+
+### The else Clauses on Loops
+
+### pass Statement
+
+### match Statement
+
+### The try Statement
+
 ## Data Structures and Sequences
 
 ### Tuple
@@ -89,6 +121,8 @@
 - [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
 - [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
+
+- [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
 ### Built-in Sequence Functions
 
@@ -106,33 +140,6 @@
 - Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
 - [range](https://yasirbhutta.blogspot.com/2022/10/15-python-sequence-type-range-python.html)
   - [The range() Function](https://youtu.be/ZEVsokTGbwA)
-
-## Control Flow Statements
-
-### if Statement
-
-- [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
-- [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
-
-### for Statement
-
-- [For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
-
-### while Statement
-
-### The Range() function
-
-### The break Statement
-
-### The continue Statement
-
-### The else Clauses on Loops
-
-### pass Statement
-
-### match Statement
-
-### The try Statement
 
 ## Python Sorting
 
