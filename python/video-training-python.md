@@ -21,9 +21,14 @@
 
 ### Comments
 
+- [A Comprehensive Guide to Single Line & Multi-Line Comments](https://www.youtube.com/watch?v=W7ixMGE2exc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=73)
+
 ### Indentation
 
 ### Variables and Assignments]
+
+- [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
+
 
 ### User-defined Functions
 
@@ -39,13 +44,11 @@
 
 ### [MCQs](python-mcqs.md)
 
-## Variables
-
-- [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 
 ## Operators
 
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
+- [Understand the OR operator](https://www.youtube.com/watch?v=laKpsLlq60I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=74)
 
 ## Scalar Types
 
@@ -103,6 +106,7 @@
 
 ### The break and continue Statement
 
+- [How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
 
 ### The else Clauses on Loops
@@ -142,12 +146,14 @@
 
 - [How to: Add or Remove Elements in a Set](https://www.youtube.com/watch?v=96f2SKK_QZk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=98)
 - [How to: Create Empty Set in Python](https://www.youtube.com/watch?v=nmI7BGXPA4I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=77)
+- [Find the Union of Two Sets in Python](https://www.youtube.com/watch?v=YDyCNYCUK9A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=72)
 
 ### List, Set and Dict Comprehensions
 
-- Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
-- [range](https://yasirbhutta.blogspot.com/2022/10/15-python-sequence-type-range-python.html)
-  - [The range() Function](https://youtu.be/ZEVsokTGbwA)
+- [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
+- [List Comprehension | Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
+
+- Python Challenge to test your knowledge [Quiz1](#) [Quiz2](#)
 
 ## Python Sorting
 
@@ -172,6 +178,7 @@
 ## Python Performance
 
 - [List vs Tuple Memory Usage Comparison using sys module](https://www.youtube.com/watch?v=UzTRPJM1i10&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
+- [Performance Comparison of For Loop vs List Comprehension](https://www.youtube.com/watch?v=sFhzlUagT5Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=69)
 
 ## Modules
 
