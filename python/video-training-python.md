@@ -10,6 +10,7 @@
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 - [Hello World](https://yasirbhutta.blogspot.com/2022/09/python-print-function.html)
 - [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
+- [Learn How to Copy Code from Social Media Images Like a Pro | Step-by-Step Tutorial | Google LENS](https://www.youtube.com/watch?v=s-bcxGPPxvE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
 ## Python Introduction
 
@@ -17,6 +18,8 @@
 
 - [Python print() function](https://www.youtube.com/watch?v=a34qr0OfxjQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=107)
 - [How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
+
+- [100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ### Comments
 
