@@ -10,7 +10,7 @@
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 - [Hello World](https://yasirbhutta.blogspot.com/2022/09/python-print-function.html)
 - [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
-- [Learn How to Copy Code from Social Media Images Like a Pro | Step-by-Step Tutorial | Google LENS](https://www.youtube.com/watch?v=s-bcxGPPxvE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
+- [Learn How to Copy Code from Social Media Images Like a Pro](https://www.youtube.com/watch?v=s-bcxGPPxvE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
 ## Python Introduction
 
@@ -166,10 +166,10 @@
 ### List, Set and Dict Comprehensions
 
 - [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
-- [List Comprehension | Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
-- [List Comprehension | How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
-- [List Comprehension | How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
--[List Comprehension | Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
+- [List Comprehension: Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
+- [List Comprehension: How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
+- [List Comprehension: How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
+-[List Comprehension: Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
 - Python Challenge to test your knowledge [Quiz1](#) [Quiz2](#)
 
 ## Python Sorting
