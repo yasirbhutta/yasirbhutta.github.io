@@ -45,11 +45,15 @@
 
 ## Operators
 
+- [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
+
 ## Scalar Types
 
 ### Text Type
 
 #### str
+
+- [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
 
 ### Numeric Types
 
@@ -107,21 +111,23 @@
 
 ### match Statement
 
-### The try Statement
-
 ## Data Structures and Sequences
 
 ### Tuple
 
 - [#1 Tuple Assignment](https://www.youtube.com/watch?v=ebhkBYgR7QI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=104)
 - [#2 Tuple Assignment](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
+-[How to create a tuple in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+- [How to create an Empty tuple and Single value tuple](https://www.youtube.com/watch?v=nGIWcYXj580&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
+- [How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
 
 ### List
 
 - [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
 - [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
-
+- [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
+- [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
 - [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
 ### Built-in Sequence Functions
@@ -130,10 +136,12 @@
 
 - [Use of dict](https://www.youtube.com/watch?v=WOjUtknwLMQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=100)
 - [Python Dictionary with For Loop](https://www.youtube.com/watch?v=NNeZTEMNKhw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=99)
+- [dictionary copy() method](https://www.youtube.com/watch?v=PXp9uzvKFdU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
 
 ### set
 
 - [How to: Add or Remove Elements in a Set](https://www.youtube.com/watch?v=96f2SKK_QZk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=98)
+- [How to: Create Empty Set in Python](https://www.youtube.com/watch?v=nmI7BGXPA4I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=77)
 
 ### List, Set and Dict Comprehensions
 
@@ -161,15 +169,17 @@
 
 ### Generators
 
-### Errors and Exception Handling
+## Python Performance
 
-- [Python Exception Handling run-time error : division by zero](https://www.youtube.com/watch?v=1fj8HifChyE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=93)
+- [List vs Tuple Memory Usage Comparison using sys module](https://www.youtube.com/watch?v=UzTRPJM1i10&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
 
 ## Modules
 
 ## Classes
 
 ## Error and Exception Handling
+
+- [Python Exception Handling run-time error : division by zero](https://www.youtube.com/watch?v=1fj8HifChyE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=93)
 
 ## File Handling
 
