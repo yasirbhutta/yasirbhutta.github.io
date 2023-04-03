@@ -13,11 +13,10 @@
 
 ## Python Introduction
 
-### Language Introduction
+### Print() Function
 
 - [Python print() function](https://www.youtube.com/watch?v=a34qr0OfxjQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=107)
-
-### Python source code
+- [How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
 
 ### Comments
 
@@ -27,8 +26,8 @@
 
 ### Variables and Assignments]
 
+- [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
-
 
 ### User-defined Functions
 
@@ -44,7 +43,6 @@
 
 ### [MCQs](python-mcqs.md)
 
-
 ## Operators
 
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
@@ -57,6 +55,7 @@
 #### str
 
 - [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
+- [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
 
 ### Numeric Types
 
@@ -76,8 +75,10 @@
 
 ### Boolean Types
 
-- bool
-  
+#### bool
+
+- [Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
+
 ### Binary Types
 
 - bytes
@@ -97,6 +98,8 @@
 
 ### while Statement
 
+- [Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
+- [Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
 - [Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
 
 ### The Range() function
@@ -122,6 +125,8 @@
 - [#1 Tuple Assignment](https://www.youtube.com/watch?v=ebhkBYgR7QI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=104)
 - [#2 Tuple Assignment](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 -[How to create a tuple in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+- [Learn how to print elements of a tuple](https://www.youtube.com/watch?v=MGgazFPSrS4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=32)
+- [How to Calculate the Sum of a Tuple Using a For Loop](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
 - [How to create an Empty tuple and Single value tuple](https://www.youtube.com/watch?v=nGIWcYXj580&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
 - [How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
 
@@ -132,13 +137,20 @@
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 - [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
 - [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
+- [List Index Function: Find the Index of an Element in a List](https://www.youtube.com/watch?v=thYJRk4huGE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
 - [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
 ### Built-in Sequence Functions
 
+- [#1 Python zip() Function](https://www.youtube.com/watch?v=7ix3cDWAsUc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=57)
+- [#2 Python Zip Function: Handling Lists with Different Numbers of Elements](https://www.youtube.com/watch?v=TOxTxP9x4ME&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=56)
+- [Python Iterators and Iterables: How to Loop Over Lists and Iterators](https://www.youtube.com/watch?v=D2YDffp1Oag&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=34)
+- [How to Iterate Over Tuples with the Enumerate Function](https://www.youtube.com/watch?v=QtjIK_knBLo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=31)
+
 ### dict
 
 - [Use of dict](https://www.youtube.com/watch?v=WOjUtknwLMQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=100)
+- [How to Print a Dictionary](https://www.youtube.com/watch?v=gAbLxC40Tgc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=40)
 - [Python Dictionary with For Loop](https://www.youtube.com/watch?v=NNeZTEMNKhw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=99)
 - [dictionary copy() method](https://www.youtube.com/watch?v=PXp9uzvKFdU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
 
@@ -152,10 +164,18 @@
 
 - [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
 - [List Comprehension | Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
-
+- [List Comprehension | How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
+- [List Comprehension | How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
+-[List Comprehension | Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
 - Python Challenge to test your knowledge [Quiz1](#) [Quiz2](#)
 
 ## Python Sorting
+
+- [List sort() Function](https://www.youtube.com/watch?v=qBBEjpyAJcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
+- [sorted() Function](https://www.youtube.com/watch?v=Ic58XdR9TS0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=55)
+- [Sorting a List of Colors by Length using Python's sorted() Function](https://www.youtube.com/watch?v=gt1YbVzwxXQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=54)
+- [How to Sort a List of Fruit Tuples](https://www.youtube.com/watch?v=mtN5WCXzXyo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=53)
+- [Sorting a List of Dictionaries by Age using Lambda Function](https://www.youtube.com/watch?v=dRNiLVkPtRg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=52)
 
 ## Functions
 
@@ -174,6 +194,9 @@
 - [How to: use a LAMBDA function as an argument in filter() and map()](https://www.youtube.com/watch?v=xUKmtRJBWuA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
 
 ### Generators
+
+- [How to Use Yield to Generate Values](https://www.youtube.com/watch?v=9p2zcdZD9Jk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25)
+- [Learn to Generate the Fibonacci Sequence in Python using Generators](https://www.youtube.com/watch?v=oSxiDMrbOV8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=17)
 
 ## Python Performance
 
