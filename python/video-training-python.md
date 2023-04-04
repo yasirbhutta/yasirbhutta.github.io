@@ -32,16 +32,6 @@
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 
-### User-defined Functions
-
-### Code Checked at Runtime
-
-### Variable Names
-
-### More on Modules and their Namespaces
-
-### Online help, help(), and dir()
-
 ### [Exercises](python-exercises.md)
 
 ### [MCQs](python-mcqs.md)
@@ -53,16 +43,12 @@
 
 ## Scalar Types
 
-### Text Type
-
-#### str
+### str
 
 - [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
 - [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
 
-### Numeric Types
-
-#### int
+### int
 
 - [How to use int variable](https://www.youtube.com/watch?v=t1aQ9igm4gY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=101)
 - [int variable](https://www.youtube.com/watch?v=Vhrk3vnw-2o&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=112)
@@ -70,23 +56,13 @@
 - [How to Convert a Python integer to string](https://www.youtube.com/watch?v=4b4F7LjvGmo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=102)
 - [Convert integer to octal and hexadecimal](https://www.youtube.com/watch?v=aXSQHSOCRqY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=109)
 
-#### float
+### float
 
 - [float variable](https://www.youtube.com/watch?v=1PdD1ssbgUo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=106)
 
-#### complex
-
-### Boolean Types
-
-#### bool
+### bool
 
 - [Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
-
-### Binary Types
-
-- bytes
-- bytearray
-- memoryview
 
 ## Control Flow Statements
 
