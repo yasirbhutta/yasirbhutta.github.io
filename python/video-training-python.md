@@ -12,6 +12,10 @@
 - [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
 - [Learn How to Copy Code from Social Media Images Like a Pro](https://www.youtube.com/watch?v=s-bcxGPPxvE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
+## [Exercises](python-exercises.md)
+
+## [MCQs](python-mcqs.md)
+
 ## Python Introduction
 
 ### Print() Function
@@ -33,10 +37,6 @@
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=gz4YuXmZvYo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=28)
-
-### [Exercises](python-exercises.md)
-
-### [MCQs](python-mcqs.md)
 
 ## Operators
 
