@@ -32,6 +32,8 @@
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=gz4YuXmZvYo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=28)
+
 ### [Exercises](python-exercises.md)
 
 ### [MCQs](python-mcqs.md)
@@ -40,6 +42,8 @@
 
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
 - [Understand the OR operator](https://www.youtube.com/watch?v=laKpsLlq60I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=74)
+
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9GVHZXNHBmc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26) [Quiz2](https://www.youtube.com/watch?v=FRa0r4UxyXM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=18) [Quiz3](https://www.youtube.com/watch?v=_cHsABqmmcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
 ## Scalar Types
 
@@ -63,6 +67,8 @@
 ### bool
 
 - [Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
+
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=fYpVM6Tqf50&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=20) [Quiz2](https://www.youtube.com/watch?v=uMtHVgPSymw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=8) [Quiz3](https://www.youtube.com/watch?v=6rZpvEfzWf4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
 
 ## Control Flow Statements
 
@@ -97,6 +103,8 @@
 
 ### match Statement
 
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+
 ## Data Structures and Sequences
 
 ### Tuple
@@ -116,6 +124,7 @@
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 - [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
 - [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
+- [Check if Data Structure is Empty Using 'not' Operator](https://www.youtube.com/watch?v=K4WUapBO_E0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 - [List Index Function: Find the Index of an Element in a List](https://www.youtube.com/watch?v=thYJRk4huGE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
 - [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
@@ -131,6 +140,7 @@
 - [Use of dict](https://www.youtube.com/watch?v=WOjUtknwLMQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=100)
 - [How to Print a Dictionary](https://www.youtube.com/watch?v=gAbLxC40Tgc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=40)
 - [Python Dictionary with For Loop](https://www.youtube.com/watch?v=NNeZTEMNKhw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=99)
+- [How to Merge Dictionaries with the '|' Operator](https://www.youtube.com/watch?v=ZJ9uidFIVhs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
 - [dictionary copy() method](https://www.youtube.com/watch?v=PXp9uzvKFdU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
 
 ### set
@@ -146,7 +156,8 @@
 - [List Comprehension: How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
 - [List Comprehension: How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
 -[List Comprehension: Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
-- Python Challenge to test your knowledge [Quiz1](#) [Quiz2](#)
+
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=x7zh_WqO1e4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21) [Quiz2](https://www.youtube.com/watch?v=rEDmm9ry7wE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5) [Quiz3](https://www.youtube.com/watch?v=ZWB4dfUYz1k&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)
 
 ## Python Sorting
 
@@ -165,6 +176,8 @@
 - [Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=k50czTu7vao&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=39) [Quiz2](https://www.youtube.com/watch?v=IZAT4_EQ6KM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=37) [Quiz3](https://www.youtube.com/watch?v=gkGpJfxsDew&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=16) [Quiz4](https://www.youtube.com/watch?v=k4KVCxU5oMg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12) [Quiz5](https://www.youtube.com/watch?v=VQT4Cllpf9M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=11)
 
 ### Anonymous (Lambda) Functions
 
@@ -198,9 +211,10 @@
 
 ## Python Utilities
 
-### Testing
+## Testing
 
-### Modules
+## Modules
 
-#### Data Analysis
+### Data Analysis
+
 
