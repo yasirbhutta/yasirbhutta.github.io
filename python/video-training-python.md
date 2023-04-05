@@ -35,6 +35,7 @@
 
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
+- [Asterisk (*) in Variable Assignment (New)](https://www.youtube.com/watch?v=xCwfASassNs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=3)
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=gz4YuXmZvYo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=28)
 
@@ -76,10 +77,12 @@
 
 - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
+- [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja) 
 
 ### for Statement
 
 - [For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
+- [Underscore to Ignore Values in for loop (New)](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
 ### while Statement
 
@@ -176,6 +179,7 @@
 - [Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=k50czTu7vao&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=39) [Quiz2](https://www.youtube.com/watch?v=IZAT4_EQ6KM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=37) [Quiz3](https://www.youtube.com/watch?v=gkGpJfxsDew&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=16) [Quiz4](https://www.youtube.com/watch?v=k4KVCxU5oMg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12) [Quiz5](https://www.youtube.com/watch?v=VQT4Cllpf9M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=11)
 
