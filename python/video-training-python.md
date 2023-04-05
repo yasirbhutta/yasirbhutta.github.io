@@ -217,4 +217,8 @@
 
 ### Data Analysis
 
+You can also follow mme on:
 
+YouTube:  [https://youtube.com/@yasirbhutta](https://youtube.com/@yasirbhutta)
+Facebook: [https://www.facebook.com/yasirbhutta786/](https://www.facebook.com/yasirbhutta786/)
+Twitter:  [https://twitter.com/yasirbhutta/](https://twitter.com/yasirbhutta/)
