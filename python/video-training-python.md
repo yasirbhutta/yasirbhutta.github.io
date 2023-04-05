@@ -44,7 +44,7 @@
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
 - [Understand the OR operator](https://www.youtube.com/watch?v=laKpsLlq60I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=74)
 
-- Python Challenge to test your knowledge [Quiz #1](https://www.youtube.com/watch?v=9GVHZXNHBmc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26) [Quiz #2](https://www.youtube.com/watch?v=FRa0r4UxyXM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=18) [Quiz #3](https://www.youtube.com/watch?v=_cHsABqmmcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9GVHZXNHBmc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26) \| [Quiz2](https://www.youtube.com/watch?v=FRa0r4UxyXM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=18) \| [Quiz3](https://www.youtube.com/watch?v=_cHsABqmmcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
 ## Scalar Types
 
@@ -77,7 +77,7 @@
 
 - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
-- [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja) 
+- [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
 ### for Statement
 
@@ -106,7 +106,7 @@
 
 ### match Statement
 
-- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ## Data Structures and Sequences
 
