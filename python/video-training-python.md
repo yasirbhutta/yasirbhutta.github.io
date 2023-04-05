@@ -143,7 +143,7 @@
 - [Use of dict](https://www.youtube.com/watch?v=WOjUtknwLMQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=100)
 - [How to Print a Dictionary](https://www.youtube.com/watch?v=gAbLxC40Tgc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=40)
 - [Python Dictionary with For Loop](https://www.youtube.com/watch?v=NNeZTEMNKhw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=99)
-- [How to Merge Dictionaries with the "|" Operator](https://www.youtube.com/watch?v=ZJ9uidFIVhs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
+- [How to Merge Dictionaries with the \| Operator](https://www.youtube.com/watch?v=ZJ9uidFIVhs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
 - [dictionary copy() method](https://www.youtube.com/watch?v=PXp9uzvKFdU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=82)
 
 ### set
