@@ -78,6 +78,7 @@
 - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 - [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [How to Write Single-Line Code Instead of If-Else Statements (New)](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
 ### for Statement
 
