@@ -36,6 +36,7 @@
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 - [Asterisk (*) in Variable Assignment (New)](https://www.youtube.com/watch?v=xCwfASassNs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=3)
+- [Local vs Global Variables in Python](https://www.youtube.com/watch?v=WvAsrn5A2ms&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 - Python Challenge to test your knowledge [Quiz #1](https://www.youtube.com/watch?v=gz4YuXmZvYo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=28)
 
@@ -43,7 +44,8 @@
 
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
 - [Understand the OR operator](https://www.youtube.com/watch?v=laKpsLlq60I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=74)
-
+- [Why You Should Avoid Using the 'not...is' Operator | Python Best Practices](https://www.youtube.com/watch?v=N2-zcfhrVQw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
+- [Why does -22 // 10 return -3?](https://www.youtube.com/watch?v=0M1qX4rUWZw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=10)
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9GVHZXNHBmc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26) \| [Quiz2](https://www.youtube.com/watch?v=FRa0r4UxyXM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=18) \| [Quiz3](https://www.youtube.com/watch?v=_cHsABqmmcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
@@ -53,7 +55,7 @@
 
 - [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
 - [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
-- [String swapcase() Method]()
+- [String swapcase() Method](https://www.youtube.com/watch?v=Lj-LxOx3HBI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26)
 
 ### int
 
@@ -131,6 +133,7 @@
 - [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
 - [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
 - [Check if Data Structure is Empty Using 'not' Operator](https://www.youtube.com/watch?v=K4WUapBO_E0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+- [Remove duplicate elements from a list](https://www.youtube.com/watch?v=RekQ2j4yzIQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
 - [List Index Function: Find the Index of an Element in a List](https://www.youtube.com/watch?v=thYJRk4huGE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
 - [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
@@ -140,6 +143,9 @@
 - [#2 Python Zip Function: Handling Lists with Different Numbers of Elements](https://www.youtube.com/watch?v=TOxTxP9x4ME&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=56)
 - [Python Iterators and Iterables: How to Loop Over Lists and Iterators](https://www.youtube.com/watch?v=D2YDffp1Oag&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=34)
 - [How to Iterate Over Tuples with the Enumerate Function](https://www.youtube.com/watch?v=QtjIK_knBLo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=31)
+- [Finding the maximum value in a list using a one-liner](https://www.youtube.com/watch?v=S-c7WrZSyaQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)
+- [Find the sum of all even numbers between 1 and 100 using a one-liner](https://www.youtube.com/watch?v=tOxaYOtN-8s&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=3)
+- [Counting the number of occurrences of an element in a list](https://www.youtube.com/watch?v=S2el4USCp5k&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
 ### dict
 
@@ -203,6 +209,14 @@
 - [Performance Comparison of For Loop vs List Comprehension](https://www.youtube.com/watch?v=sFhzlUagT5Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=69)
 
 ## Modules
+
+### calendar
+
+- [Print the calendar for a specific month](https://www.youtube.com/watch?v=wT8Tg6Yx4VM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
+
+### pandas
+
+- [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
 
 ## Classes
 
