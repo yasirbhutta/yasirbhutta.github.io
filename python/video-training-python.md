@@ -31,7 +31,9 @@
 
 ### Indentation
 
-### Variables and Assignments]
+### [Python Quiz #1 - Basics](https://forms.gle/eYSDpanUFDwd1rG76)
+
+## Variables and Assignments]
 
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
