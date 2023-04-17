@@ -44,6 +44,7 @@
 - [Calculating The Exponential Value](https://www.youtube.com/watch?v=V1mjWVtYX-M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=79)
 - [Understand the OR operator](https://www.youtube.com/watch?v=laKpsLlq60I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=74)
 
+
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9GVHZXNHBmc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26) \| [Quiz2](https://www.youtube.com/watch?v=FRa0r4UxyXM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=18) \| [Quiz3](https://www.youtube.com/watch?v=_cHsABqmmcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
 ## Scalar Types
@@ -52,6 +53,7 @@
 
 - [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
 - [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
+- [String swapcase() Method]()
 
 ### int
 
