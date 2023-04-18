@@ -77,7 +77,7 @@
 
 - [Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
 
-- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=fYpVM6Tqf50&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=20) [Quiz2](https://www.youtube.com/watch?v=uMtHVgPSymw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=8) [Quiz3](https://www.youtube.com/watch?v=6rZpvEfzWf4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
+>### [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
 
 ## Control Flow Statements
 
