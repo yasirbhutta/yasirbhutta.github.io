@@ -31,7 +31,7 @@
 
 ### Indentation
 
-### [Python Quiz #1 - Basics](https://forms.gle/eYSDpanUFDwd1rG76)
+>### [Python Quiz - Basics](https://forms.gle/eYSDpanUFDwd1rG76)
 
 ## Variables and Assignments]
 
@@ -41,6 +41,8 @@
 - [Local vs Global Variables in Python](https://www.youtube.com/watch?v=WvAsrn5A2ms&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 - Python Challenge to test your knowledge [Quiz #1](https://www.youtube.com/watch?v=gz4YuXmZvYo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=28)
+
+>### [Python Quiz - Variables](https://forms.gle/gRruQmVhzdEHgH8Z8)
 
 ## Operators
 
