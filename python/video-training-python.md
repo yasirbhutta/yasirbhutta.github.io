@@ -51,7 +51,6 @@
 - [Why You Should Avoid Using the 'not...is' Operator \| Python Best Practices](https://www.youtube.com/watch?v=N2-zcfhrVQw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
 - [Why does -22 // 10 return -3?](https://www.youtube.com/watch?v=0M1qX4rUWZw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=10)
 
-
 ## Scalar Types
 
 ### str
@@ -117,6 +116,8 @@
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ## Data Structures and Sequences
+
+> [Lecture Notes](docs/dss.md)
 
 ### Tuple
 
@@ -192,10 +193,11 @@
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
-
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=k50czTu7vao&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=39) [Quiz2](https://www.youtube.com/watch?v=IZAT4_EQ6KM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=37) [Quiz3](https://www.youtube.com/watch?v=gkGpJfxsDew&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=16) [Quiz4](https://www.youtube.com/watch?v=k4KVCxU5oMg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12) [Quiz5](https://www.youtube.com/watch?v=VQT4Cllpf9M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=11)
 
 ### Anonymous (Lambda) Functions
+
+> [Lecture Notes](docs/lambda.md)
 
 - [#1 How to: Use of Lambda function](https://www.youtube.com/watch?v=Z8Zeen4WwJQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
 - [#2 How to: Use of Lambda function](https://www.youtube.com/watch?v=N3UAUI6cEVA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
