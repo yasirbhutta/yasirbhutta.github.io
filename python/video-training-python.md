@@ -51,7 +51,7 @@
 - [Why You Should Avoid Using the 'not...is' Operator \| Python Best Practices](https://www.youtube.com/watch?v=N2-zcfhrVQw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
 - [Why does -22 // 10 return -3?](https://www.youtube.com/watch?v=0M1qX4rUWZw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=10)
 
-- [Python Quiz -Operators](https://forms.gle/gU97dPxstMocYFzP9)
+>### [Python Quiz -Operators](https://forms.gle/gU97dPxstMocYFzP9)
 
 ## Scalar Types
 
