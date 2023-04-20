@@ -13,7 +13,6 @@ The syntax of a lambda is
 
 > lambda arguments:express
 
-
 ### Example #1
 
 Following code is used to write the function to add 10 in given number.
