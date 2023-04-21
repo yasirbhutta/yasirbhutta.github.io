@@ -90,6 +90,8 @@
 - [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [How to Write Single-Line Code Instead of If-Else Statements (New)](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
+>### [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
+
 ### for Statement
 
 - [For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
