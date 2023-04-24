@@ -2,6 +2,8 @@
 
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [Whatsapp learning group - Python for Beginners](https://chat.whatsapp.com/FlCQToZdWPx6QwKarcmXmC)
+If you have any query about videos, please share in whatsapp group.
 - [Python Online Course](python-courses.md)
 
 ## Installation & Getting Started
