@@ -199,7 +199,7 @@
 - [How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
-- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=k50czTu7vao&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=39) [Quiz2](https://www.youtube.com/watch?v=IZAT4_EQ6KM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=37) [Quiz3](https://www.youtube.com/watch?v=gkGpJfxsDew&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=16) [Quiz4](https://www.youtube.com/watch?v=k4KVCxU5oMg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12) [Quiz5](https://www.youtube.com/watch?v=VQT4Cllpf9M&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=11)
+>### [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
 
 ### Anonymous (Lambda) Functions
 
