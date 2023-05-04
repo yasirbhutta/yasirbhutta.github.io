@@ -177,5 +177,35 @@ if a < b
                                 ```
                                 a is not equal to b
                                 a is not equal to b
-                                ```
-see
+                      ```
+                    ## example  
+calculate the area and circumference of a circle with a radius of 5 cm.
+
+% Define the radius
+r = 5;
+
+% Calculate the area and circumference
+area = pi * r^2;
+circumference = 2 * pi * r;
+
+% Display the results
+disp('Area of the circle: ');
+disp(area);
+disp('Circumference of the circle: ');
+disp(circumference);
+
+Example: Calculating the Mean and Standard Deviation of a Data Set
+
+% Define the data set
+data = [4, 8, 15, 16, 23, 42, 5, 9, 17, 29];
+
+% Calculate the mean
+mean_val = mean(data);
+disp(mean_val); % Output: 17.9
+
+% Calculate the standard deviation
+std_val = std(data);
+disp(std_val); % Output: 11.1423
+
+
+
