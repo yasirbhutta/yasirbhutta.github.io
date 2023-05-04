@@ -291,6 +291,8 @@ In this example, we define the dimensions of a rectangle (width and height), cal
 This is a simple example, but it demonstrates how to define variables, perform arithmetic operations, and display output in MATLAB.
 
 
+
+
 Sure, here's a real-life coding example of MATLAB for beginners:
 
 Problem Statement:
