@@ -4,7 +4,7 @@
 - [Learning roadmap](docs/index.md)
 - [Assignments](assignments/index.md)
 
-## [Review Questions](rq--word.md)
+## [Review Questions](rq-word.md)
 
 ## Download slides
 
