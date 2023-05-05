@@ -67,7 +67,7 @@ disp(z); % Output: 15
 
 2. Subtraction (-):
 
-```
+```matlab
 x = 10;
 y = 5;
 z = x - y;
@@ -76,7 +76,7 @@ disp(z); % Output: 5
 
 3. Multiplication (*):
 
-```
+```Matlab
 x = 2;
 y = 3;
 z = x * y;
