@@ -194,6 +194,104 @@ disp(area);
 disp('Circumference of the circle: ');
 disp(circumference);
 
+Sure, here's an example code in MATLAB to find the area of a circle:
+
+```matlab
+% Define the radius of the circle
+r = 5;
+
+% Calculate the area of the circle
+area = pi * r^2;
+
+% Display the result
+fprintf('The area of the circle with radius %.2f is %.2f.\n', r, area);
+```
+
+In this example, we define the radius of the circle as `r=5`. Then, we use the formula for the area of a circle, which is `pi * r^2`, to calculate the area. The `pi` function is a built-in MATLAB function that returns the value of pi (approximately 3.1416). Finally, we use the `fprintf` function to display the result, which is the area of the circle with two decimal places. 
+
+You can adjust the value of `r` to calculate the area of a circle with a different radius.
+
+Sure! Here's an example code in MATLAB to find the circumference of a rectangle:
+
+```matlab
+% Define the width and height of the rectangle
+w = 5;
+h = 10;
+
+% Calculate the circumference of the rectangle
+circumference = 2 * (w + h);
+
+% Display the result
+fprintf('The circumference of the rectangle with width %.2f and height %.2f is %.2f.\n', w, h, circumference);
+```
+
+In this example, we define the width and height of the rectangle as `w=5` and `h=10`, respectively. Then, we use the formula for the circumference of a rectangle, which is `2 * (width + height)`, to calculate the circumference. Finally, we use the `fprintf` function to display the result, which is the circumference of the rectangle with two decimal places. 
+
+You can adjust the values of `w` and `h` to calculate the circumference of a rectangle with different dimensions.
+
+Certainly! Here's an example code in MATLAB to find the area of a triangle:
+
+```matlab
+% Define the base and height of the triangle
+b = 6;
+h = 4;
+
+% Calculate the area of the triangle
+area = 0.5 * b * h;
+
+% Display the result
+fprintf('The area of the triangle with base %.2f and height %.2f is %.2f.\n', b, h, area);
+```
+
+In this example, we define the base and height of the triangle as `b=6` and `h=4`, respectively. Then, we use the formula for the area of a triangle, which is `0.5 * base * height`, to calculate the area. Finally, we use the `fprintf` function to display the result, which is the area of the triangle with two decimal places. 
+
+You can adjust the values of `b` and `h` to calculate the area of a triangle with different dimensions.
+
+Sure! Here's an example code in MATLAB to calculate the semiperimeter of a spherical triangle:
+
+```matlab
+% Define the three sides of the spherical triangle
+a = pi/6;  % in radians
+b = pi/4;  % in radians
+c = pi/3;  % in radians
+
+% Calculate the semiperimeter of the spherical triangle
+s = (a + b + c)/2;
+
+% Display the result
+fprintf('The semiperimeter of the spherical triangle with sides %.2f, %.2f, and %.2f is %.2f.\n', a, b, c, s);
+```
+
+In this example, we define the three sides of the spherical triangle as `a=pi/6`, `b=pi/4`, and `c=pi/3`, which are angles measured in radians. Then, we use the semiperimeter formula, which is `s = (a + b + c)/2`, to calculate the semiperimeter of the spherical triangle. 
+
+Finally, we use the `fprintf` function to display the result, which is the semiperimeter of the spherical triangle with two decimal places.
+
+You can adjust the values of `a`, `b`, and `c` to calculate the semiperimeter of a different spherical triangle.
+
+Sure, here's an example code in MATLAB to calculate the area of a triangle using Heron's formula:
+
+```matlab
+% Define the lengths of the sides of the triangle
+a = 5;
+b = 6;
+c = 7;
+
+% Calculate the semiperimeter of the triangle
+s = (a + b + c)/2;
+
+% Calculate the area of the triangle using Heron's formula
+A = sqrt(s * (s - a) * (s - b) * (s - c));
+
+% Display the result
+fprintf('The area of the triangle with sides %.2f, %.2f, and %.2f is %.2f.\n', a, b, c, A);
+```
+
+In this example, we define the lengths of the sides of the triangle as `a=5`, `b=6`, and `c=7`. Then, we use the semiperimeter formula, which is `s = (a + b + c)/2`, to calculate the semiperimeter of the triangle. Finally, we use Heron's formula, which is `A = sqrt(s * (s - a) * (s - b) * (s - c))`, to calculate the area of the triangle.
+
+The `sqrt` function is the square root function in MATLAB. The `fprintf` function is used to display the result, which is the area of the triangle with two decimal places.
+
+You can adjust the values of `a`, `b`, and `c` to calculate the area of a different triangle using Heron's formula.
+
 Example: Calculating the Mean and Standard Deviation of a Data Set
 
 % Define the data set
@@ -285,6 +383,174 @@ area = width * height;
 disp('The area of the rectangle is:');
 disp(area);
 ```
+
+Example 1: Matrix multiplication
+css
+Copy code
+% Define two matrices
+A = [1 2 3; 4 5 6; 7 8 9];
+B = [10 11 12; 13 14 15; 16 17 18];
+
+% Multiply matrices
+C = A * B;
+
+% Print result
+disp(C)
+
+Example 4: Generating a random number
+scss
+Copy code
+% Generate a random number between 0 and 1
+r = rand();
+
+% Print the random number
+disp(r);
+
+Example 5: Sorting an array
+scss
+Copy code
+% Define an array
+A = [5 2 9 3 7];
+
+% Sort the array
+sorted_A = sort(A);
+
+% Print the sorted array
+disp(sorted_A);
+
+Example 3: Finding the Roots of a Quadratic Equation
+
+% Define the coefficients a, b, and c of the quadratic equation ax^2 + bx + c = 0
+a = 1;
+b = 4;
+c = 3;
+
+% Calculate the roots of the quadratic equation using the quadratic formula
+x1 = (-b + sqrt(b^2 - 4*a*c)) / (2*a);
+x2 = (-b - sqrt(b^2 - 4*a*c)) / (2*a);
+
+% Display the roots
+disp(x1);
+disp(x2);
+
+Example 4: Generating random numbers
+
+% Generate a random number between 0 and 1
+x = rand();
+
+% Generate an array of random numbers between 0 and 1
+y = rand(1, 10);
+
+% Generate an array of random integers between 1 and 10
+z = randi([1, 10], 1, 10);
+
+% Display the results
+disp(x);
+disp(y);
+disp(z);
+
+Example 5: Reading and writing to files
+
+% Write some data to a file
+data = [1 2 3; 4 5 6; 7 8 9];
+dlmwrite('data.txt', data);
+
+% Read the data from the file
+data = dlmread('data.txt');
+
+% Display the data
+disp(data);
+
+Example 2: Looping through an array
+matlab
+Copy code
+array = [1, 2, 3, 4, 5];
+
+for i = 1:length(array)
+    disp(array(i));
+    end
+
+Example 5: Generating a random matrix
+matlab
+Copy code
+rows = 3;
+cols = 4;
+
+A = rand(rows, cols);
+
+disp(A);
+
+Example 1: Calculating the sum of an array of numbers
+
+matlab
+Copy code
+% Define the array of numbers
+numbers = [2 4 6 8 10];
+
+% Calculate the sum of the array using the sum() function
+total = sum(numbers);
+
+% Display the total
+disp(total);
+Vector Addition:
+
+To add two vectors in MATLAB, you can use the '+' operator. Here's an example:
+
+css
+Copy code
+a = [1, 2, 3];
+b = [4, 5, 6];
+c = a + b;
+This will create a new vector 'c' that contains the result of adding the corresponding elements of 'a' and 'b'. In this case, the result will be [5, 7, 9].
+
+Finding roots of a function:
+
+To find the roots of a function in MATLAB, you can use the 'roots' function. Here's an example:
+
+css
+Copy code
+p = [1, -4, 4];
+r = roots(p);
+This will find the roots of the polynomial p(x) = x^2 - 4x + 4, which has a double root at x = 2. The 'roots' function returns a vector of the roots, in this case [2, 2].
+
+
+Creating a vector of numbers from 1 to 10:
+matlab
+Copy code
+x = 1:10
+
+Creating a matrix of ones with 3 rows and 4 columns:
+matlab
+Copy code
+A = ones(3, 4)
+Defining a function that computes the area of a circle given its radius:
+matlab
+Copy code
+function area = circle_area(radius)
+    area = pi * radius^2;
+    end
+
+Finding the maximum value in a vector:
+matlab
+Copy code
+x = [1 5 3 8 2];
+max_val = max(x)
+Sorting a vector in descending order:
+matlab
+Copy code
+x = [1 5 3 8 2];
+sorted_x = sort(x, 'descend')
+
+Computing the sum of the first 10 positive integers:
+matlab
+Copy code
+sum = 0;
+for i = 1:10
+    sum = sum + i;
+    end
+
+
+
 
 In this example, we define the dimensions of a rectangle (width and height), calculate its area using the multiplication operator (`*`), and display the result using the `disp` function. 
 
@@ -503,5 +769,31 @@ x1 = (-b + sqrt(b^2-4*a*c))/(2*a);
 x2 = (-b - sqrt(b^2-4*a*c))/(2*a);
 disp(x1); % Output: -1
 disp(x2); % Output: -1
+
+Linear Regression: Linear regression is a common statistical technique used to model the relationship between two variables. In Matlab, the polyfit function can be used to perform linear regression. For example, you can use linear regression to model the relationship between a company's advertising spending and its sales revenue.
+
+% Generate sample data
+x = [1 2 3 4 5];
+y = [5 7 9 11 13];
+
+% Perform linear regression
+p = polyfit(x,y,1);
+
+% Plot the data and the linear regression line
+plot(x,y,'o')
+hold on
+plot(x,polyval(p,x))
+
+
+Principal Component Analysis: Principal component analysis (PCA) is a common technique used in data analysis to reduce the dimensionality of a dataset. In Matlab, the pca function can be used to perform PCA. For example, you can use PCA to reduce the dimensionality of a dataset representing customer purchases in a grocery store.
+
+% Generate sample data
+X = randn(100,3)*[1 0.5 0.1; 0.5 1 0.2; 0.1 0.2 1];
+
+% Perform PCA
+[coeff,score,latent] = pca(X);
+
+% Plot the first two principal components
+scatter(score(:,1),score(:,2))
 
 
