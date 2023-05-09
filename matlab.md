@@ -1,8 +1,10 @@
-Sure, here are some examples of arithmetic operators in MATLAB:
+# Constants, Variabless and Expressions
 
-## Arithmetic Operators
+## Operatorss
 
-### Addition (+):
+### Arithmetic Operators
+
+#### Addition (+):
 
 ```matlab
 x = 5;
@@ -11,7 +13,7 @@ z = x + y;
 disp(z); % Output: 15
 ```
 
-### Subtraction (-):
+#### Subtraction (-):
 
 ```matlab
 x = 10;
@@ -20,7 +22,7 @@ z = x - y;
 disp(z); % Output: 5
 ```
 
-### Multiplication (*):
+#### Multiplication (*):
 
 ```matlab
 x = 2;
@@ -29,7 +31,7 @@ z = x * y;
 disp(z); % Output: 6
 ```
 
-### Division (/):
+#### Division (/):
 
 ```matlab
 x = 6;
@@ -38,7 +40,7 @@ z = x / y;
 disp(z); % Output: 2
 ```
 
-### Exponentiation (^):
+#### Exponentiation (^):
 
 ```matlab
 x = 2;
@@ -47,7 +49,7 @@ z = x ^ y;
 disp(z); % Output: 8
 ```
 
-### Modulo (%):
+#### Modulo (%):
 
 ```matlab
 x = 7;
@@ -70,12 +72,12 @@ if a < b
 
 if b > a
     disp('b is greater than a');
-        end
-        ```
+end
+```
 
 Output:
 
-```
+```matlab
 a is less than b. b is greater than a
 ```
 
@@ -90,38 +92,40 @@ end
 
 if b >=a
     disp('b is greater than or equal to a');
-                end
-                ```
+end
+```
 
-                Output:
-                ```matlabb
-                a is less than or equal to b
-                b is greater than or equal to a
-                ```
+Output:
 
-                3. Equality (`==`) and Inequality (`~=`) operators:
+```matlab
+a is less than or equal to b.
+b is greater than or equal to a.
+```
 
-                ```
-                a = 5;
-                b = 7;
+=== Equality (`==`) and Inequality (`~=`) operators:
 
-                if a == b
-                    disp('a is equal to b');
+```matlab
+a = 5;
+b = 7;
+
+if a == b
+    disp('a is equal to b');
                     else
                         disp('a is not equal to b');
-                        end
+                    end
 
-                        if a ~= b
-                            disp('a is not equal to b');
-                            else
-                                disp('a is equal to b');
-                                end
-                                ```
+                    if a ~= b
+                        disp('a is not equal to b');
+                    else
+                        disp('a is equal to b');
+                    end
+```
 
-                                Output:
-                                ```
-                                a is not equal to b
-                                a is not equal to b
+Output:
+  
+```
+a is not equal to b.
+a is not equal to b
                       ```
                     ## example  
 calculate the area and circumference of a circle with a radius of 5 cm.
