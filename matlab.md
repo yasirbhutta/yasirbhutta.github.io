@@ -115,7 +115,7 @@ if a == b
                     end
 
                     if a ~= b
-                        disp('a is not equal to b');
+    disp('a is not equal to b');
                     else
                         disp('a is equal to b');
                     end
@@ -126,10 +126,11 @@ Output:
 ```
 a is not equal to b.
 a is not equal to b
-                      ```
-                    ## example  
+                    ```
+                    #### example  
 calculate the area and circumference of a circle with a radius of 5 cm.
 
+```matlab
 % Define the radius
 r = 5;
 
@@ -142,8 +143,9 @@ disp('Area of the circle: ');
 disp(area);
 disp('Circumference of the circle: ');
 disp(circumference);
+``|`
 
-Sure, here's an example code in MATLAB to find the area of a circle:
+#### Example:
 
 ```matlab
 % Define the radius of the circle
