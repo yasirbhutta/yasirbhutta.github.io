@@ -29,32 +29,32 @@ z = x * y;
 disp(z); % Output: 6
 ```
 
-4. Division (/):
+### Division (/):
 
-```
+```matlab
 x = 6;
 y = 3;
 z = x / y;
 disp(z); % Output: 2
 ```
 
-5. Exponentiation (^):
+### Exponentiation (^):
 
-```
+```matlab
 x = 2;
 y = 3;
 z = x ^ y;
 disp(z); % Output: 8
 ```
 
-6. Modulo (%):
+### Modulo (%):
 
-```
+```matlab
 x = 7;
 y = 3;
 z = mod(x,y);
 disp(z); % Output: 1
-```
+```b
 
 These are just a few examples, but there are many more arithmetic operators available in MATLAB.Sure, here are some examples of arithmetic operators in MATLAB:
 
