@@ -1,26 +1,28 @@
 Sure, here are some examples of arithmetic operators in MATLAB:
 
-1. Addition (+):
+## Arithmetic Operators
 
-```
+### Addition (+):
+
+```matlab
 x = 5;
 y = 10;
 z = x + y;
 disp(z); % Output: 15
 ```
 
-2. Subtraction (-):
+### Subtraction (-):
 
-```
+```matlab
 x = 10;
 y = 5;
 z = x - y;
 disp(z); % Output: 5
 ```
 
-3. Multiplication (*):
+### Multiplication (*):
 
-```
+```matlab
 x = 2;
 y = 3;
 z = x * y;
@@ -94,7 +96,7 @@ disp(z); % Output: 2
 
 5. Exponentiation (^):
 
-```
+```matlabb
 x = 2;
 y = 3;
 z = x ^ y;
