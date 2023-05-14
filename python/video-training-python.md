@@ -14,9 +14,7 @@ If you have any query about videos, please share in whatsapp group.
 - [How to: Install Jupyter Notebook on an Android device](https://www.youtube.com/watch?v=b2XNfD3xEwY)
 - [Learn How to Copy Code from Social Media Images Like a Pro](https://www.youtube.com/watch?v=s-bcxGPPxvE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=15)
 
-## [Exercises](python-exercises.md)
-
-## [MCQs](python-mcqs.md)
+>>## [Python Exercises](python-exercises.md)
 
 ## Python Introduction
 
