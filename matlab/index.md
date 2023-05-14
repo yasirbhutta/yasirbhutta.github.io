@@ -76,7 +76,7 @@ Output:
 a is not equal to b.
 a is not equal to b
                     ```
-                    #### example  
+#### example  
 
 Example: Calculating the Mean and Standard Deviation of a Data Set
 
@@ -118,57 +118,9 @@ For example, if you save the code in a file called `average.m`, you can run it b
 
 Sure, here's a simple MATLAB example for beginners:
 
-```
-% Compute the area of a circle
-r = 5; % radius of the circle
-A = pi * r^2; % area of the circle
-disp(A); % Output: 78.5398
-```
 
-This code defines a variable `r` to be the radius of a circle and uses the formula `A = pi * r^2` to compute its area. The `disp()` function is used to print the result to the console.
 
-This is a very simple example, but it demonstrates some of the basic concepts in MATLAB, such as variable assignment, mathematical operations, and function calls.
 
-You can modify this code to compute the area of a different shape or use different values for the radius. You can also explore other MATLAB functions and operations to perform more complex calculations and analyses.
-
-Sure, here's a simple MATLAB example for beginners that shows how to create a plot of a mathematical function:
-
-```
-% Define the x-values
-x = linspace(-10, 10, 100);
-
-% Define the function y = f(x)
-y = sin(x);
-
-% Create a plot of the function
-plot(x, y);
-
-% Add labels to the plot
-xlabel('x');
-ylabel('y');
-title('Plot of sin(x)');
-```
-
-In this example, we first define a set of x-values using the `linspace` function, which creates an array of 100 equally spaced values between -10 and 10. Then, we define a mathematical function `y = sin(x)` that we want to plot. We use the `plot` function to create a line plot of the function, with the x-values on the horizontal axis and the y-values on the vertical axis. Finally, we add labels to the plot using the `xlabel`, `ylabel`, and `title` functions.
-
-You can try running this code in MATLAB to see what the plot looks like. You can also experiment with different functions and different ranges of x-values to create different types of plots.
-
-Sure, here's a simple MATLAB example for beginners:
-
-```
-% This program calculates the area of a rectangle
-
-% Define the dimensions of the rectangle
-width = 5;
-height = 7;
-
-% Calculate the area of the rectangle
-area = width * height;
-
-% Display the result
-disp('The area of the rectangle is:');
-disp(area);
-```
 
 Example 1: Matrix multiplication
 css
@@ -183,14 +135,6 @@ C = A * B;
 % Print result
 disp(C)
 
-Example 4: Generating a random number
-scss
-Copy code
-% Generate a random number between 0 and 1
-r = rand();
-
-% Print the random number
-disp(r);
 
 Example 5: Sorting an array
 scss
@@ -204,20 +148,6 @@ sorted_A = sort(A);
 % Print the sorted array
 disp(sorted_A);
 
-Example 3: Finding the Roots of a Quadratic Equation
-
-% Define the coefficients a, b, and c of the quadratic equation ax^2 + bx + c = 0
-a = 1;
-b = 4;
-c = 3;
-
-% Calculate the roots of the quadratic equation using the quadratic formula
-x1 = (-b + sqrt(b^2 - 4*a*c)) / (2*a);
-x2 = (-b - sqrt(b^2 - 4*a*c)) / (2*a);
-
-% Display the roots
-disp(x1);
-disp(x2);
 
 Example 4: Generating random numbers
 
