@@ -155,3 +155,15 @@ In this example, we define the lengths of the sides of the triangle as `a=5`, `b
 The `sqrt` function is the square root function in MATLAB. The `fprintf` function is used to display the result, which is the area of the triangle with two decimal places.
 
 You can adjust the values of `a`, `b`, and `c` to calculate the area of a different triangle using Heron's formula.
+
+## factorial
+
+f = factorial(n) returns the product of all positive integers less than or equal to n, where n is a nonnegative integer value. If n is an array, then f contains the factorial of each value of n. The data type and size of f is the same as that of n.
+
+The factorial of n is commonly written in math notation using the exclamation point character as n!. Note that n! is not a valid MATLAB® syntax for calculating the factorial of n. [^1]
+
+## References
+
+- [^1]: [Factorial of input - MATLAB factorial - MathWorks](https://www.mathworks.com/help/matlab/ref/factorial.html)
+
+
