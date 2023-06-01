@@ -8,6 +8,7 @@
 
 - [Getting started with Python](python/video-training-python.md)
 - [Microsoft Excel](ms-excel/index.md)
+- [Getting started with PowerPoint](ms-powerpoint/docs/index.md)
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
 - [Web Development](web-dev/index.md)
 - [Google](google/docs/index.md)
