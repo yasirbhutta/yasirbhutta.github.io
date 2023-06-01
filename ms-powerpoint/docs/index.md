@@ -28,6 +28,10 @@ You can create your own custom templates and store them, reuse them, and share t
 
 ## Home tab
 
+### Clearn Formatting
+
+You can easily clear all formatting (such as bold, underline, italics, color, superscript, subscript, and more) from your text and return your text to its default formatting styles. [Read more ...](https://support.microsoft.com/en-us/office/clear-all-text-formatting-c094c4da-7f09-4cea-9a8d-c166949c9c80)
+
 ### Text rotation
 
 ### Layout
@@ -107,6 +111,14 @@ Types of SmartArt
 - Relationship
 - Matrix
 - Pyramid
+
+## Draw
+
+### Highlight your text
+
+Text highlighting in PowerPoint 2019 and newer versions lets you mark text in yellow or another highlighter color. [Read more...](https://support.microsoft.com/en-us/office/highlight-your-text-28623777-d955-4fcf-bbc5-a50051552219)
+
+> Draw tab > **Highlighter**
 
 ## Design tab
 
