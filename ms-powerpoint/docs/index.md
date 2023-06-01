@@ -59,6 +59,8 @@ You can create your own custom templates and store them, reuse them, and share t
 
 ### Pictures
 
+- Insert a picture in PowerPoint [Android](https://support.microsoft.com/en-us/office/insert-a-picture-in-powerpoint-5f7368d2-ee94-4b94-a6f2-a663646a07e1#OfficeVersion=Android)
+
 ### Videos
 
 #### Video
