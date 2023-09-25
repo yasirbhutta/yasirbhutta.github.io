@@ -3,9 +3,10 @@
 
 ## [MATLAB — Examples - MathWorks](https://www.mathworks.com/help/matlab/examples.html?category=index&exampleproduct=all&s_tid=CRUX_lftnav)
 
-## Matlab Examples
+## Matlab Notes
 
 - [Constants, Variables and Expressions](cve.md)
+- [Input Output Statements](ios.md)
 
 ### Relational operators in MATLAB:
 
