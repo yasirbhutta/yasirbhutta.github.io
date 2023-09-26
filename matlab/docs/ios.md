@@ -1,6 +1,6 @@
 # Input Output Statements
 
-[Download PDF](https://yasirbhutta.github.io/matlab/docs/ios.pdf)
+[Download PDF]()
 
 To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/ios.html](https://yasirbhutta.github.io/matlab/docs/ios.html)
@@ -20,6 +20,37 @@ To access the updated lecture notes, please click on the following link:
 ## Interactive Inputs
 
 ### Input Functions
+
+#### Example 1
+
+Write a MATLAB script to take input two numbers from users and output the sum of those numbers.
+
+```matlab
+% Prompt the user for two numbers
+num1 = input('Enter the first number: ');
+num2 = input('Enter the second number: ');
+
+% Calculate the sum of the two numbers
+sum = num1 + num2;
+
+% Output the sum to the user
+disp(sum)
+```
+
+#### Example 2
+
+Write a MATLAB script to take input name and age from users and display the name and age.
+
+```matlab
+% Prompt the user for their name and age
+name = input('Enter your name: ', 's');
+age = input('Enter your age: ');
+
+% Display the name and age to the user
+disp('Output of the code')
+disp(name)
+disp(age)
+```
 
 ### Keyboard Command
 
