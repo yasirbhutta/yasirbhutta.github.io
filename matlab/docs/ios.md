@@ -1,8 +1,19 @@
 # Input Output Statements
 
+[Download PDF](https://yasirbhutta.github.io/matlab/docs/ios.pdf)
+
+To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/matlab/docs/ios.html](https://yasirbhutta.github.io/matlab/docs/ios.html)
+
 ## Introduction
 
 ## Data Input
+
+### What is variable
+
+- A variable in programming language is a named storage location in computer memory.
+- It is used to store data that can be changed during the course of program execution.
+- Variables can be used to store any type of data, such as numbers, text, dates, and objects.
 
 ### Assignment Statement and Variable Declaration
 
