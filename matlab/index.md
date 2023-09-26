@@ -5,8 +5,8 @@
 
 ## Matlab Notes
 
-- [Constants, Variables and Expressions](cve.md)
-- [Input Output Statements](ios.md)
+- [Constants, Variables and Expressions](docs/cve.md)
+- [Input Output Statements](docs/ios.md)
 
 ### Relational operators in MATLAB:
 
