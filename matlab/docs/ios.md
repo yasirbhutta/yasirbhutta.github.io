@@ -26,13 +26,17 @@
 
 1. **What is the difference between declaring and initializing a variable?**
 
-**Answer:** Declaring a variable involves specifying its name and data type, while initializing a variable means giving it an initial value. Initialization usually follows declaration but is not always required.
+>**Answer:** Declaring a variable involves specifying its name and data type, while initializing a variable means giving it an initial value. Initialization usually follows declaration but is not always required.
 
-- In MATLAB, what happens if you try to access a variable that has not been declared or initialized?
-Answer: In MATLAB, trying to access an undeclared or uninitialized variable typically results in an error. MATLAB will display a message indicating that the variable is undefined.
-- What is a data type in MATLAB, and why is it important?
-Answer: A data type in MATLAB defines the kind of values a variable can hold and how those values are stored and manipulated. It's important because it affects memory usage, performance, and the operations that can be performed on the data.
-- How do you assign a new value to an existing variable in MATLAB?
+1. **In MATLAB, what happens if you try to access a variable that has not been declared or initialized?**
+
+**Answer:** In MATLAB, trying to access an undeclared or uninitialized variable typically results in an error. MATLAB will display a message indicating that the variable is undefined.
+
+1. **What is a data type in MATLAB, and why is it important?**
+
+**Answer:** A data type in MATLAB defines the kind of values a variable can hold and how those values are stored and manipulated. It's important because it affects memory usage, performance, and the operations that can be performed on the data.
+
+How do you assign a new value to an existing variable in MATLAB?
 Answer: In MATLAB, you can assign a new value to an existing variable simply by using the variable name followed by the new value. For example, x = 10; assigns the value 10 to the variable x.
 - What is an assignment statement in MATLAB, and what is its primary purpose?
 Answer: An assignment statement in MATLAB is used to assign a value to a variable. Its primary purpose is to store and manage data within a program.
