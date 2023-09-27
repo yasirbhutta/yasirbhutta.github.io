@@ -176,3 +176,54 @@ disp(result);
 #### What are some common use cases for using the pause keyword in MATLAB scripts or functions?
 
 #### Can you provide an example of using the pause function to create a timed delay in a MATLAB script?
+
+## MCQS
+
+1. **Which of the following is the correct extension of the Python file?**
+
+>**a.** .python
+>**b.**  .pl
+>**c.**  .p
+>**d.**  .py
+
+1. **What is the purpose of the input function in MATLAB?**
+
+>**a.** To display text on the console
+>**b.** To wait for a key press
+>**c.** To take user input from the console
+>**d.** To pause script execution
+
+2. **Which keyword is used in MATLAB for interactive debugging by pausing script execution and entering the debug mode?**
+
+>**a.** stop
+>**b.** keyboard
+>**c.** break
+>**d.** pause
+
+3. **What does the pause function in MATLAB do?**
+
+a. Stops the execution of the script
+b. Adds a delay in script execution
+c. Accepts keyboard input from the user
+d. Prints a message to the console
+
+4. **Which of the following is true about the input function in MATLAB?**
+
+a) It only accepts numerical input
+b) It always displays a message to the user
+c) It can accept both numerical and string input
+d. It cannot be used in MATLAB scripts
+
+6. **Which of the following is a correct usage of the input function in MATLAB?**
+
+a. input('Enter a number: ')
+b. keyboard('Please enter a number: ')
+c. pause('Enter a value: ')
+d. None
+
+7. **How can you specify the duration of a pause in seconds when using the pause function in MATLAB?**
+
+a. The pause function does not allow you to specify a duration.
+b. By passing the number of seconds as an argument: pause(2)
+c. By pressing a key on the keyboard
+d. By using a loop within the script
