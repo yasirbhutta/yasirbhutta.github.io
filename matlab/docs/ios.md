@@ -21,6 +21,8 @@ To access the updated lecture notes, please click on the following link:
 
 ### Input Functions
 
+[Video Tutorial: How to Create a New Script File Using MATLAB Mobile App](https://www.youtube.com/watch?v=_494zaRAIGo)
+
 #### Example 1
 
 Write a MATLAB script to take input two numbers from users and output the sum of those numbers.
@@ -54,7 +56,80 @@ disp(age)
 
 ### Keyboard Command
 
+#### Syntax
+
+```matlab
+keyboard
+```
+
+- keyboard pauses execution of a running program and gives control to the keyboard.
+- Place the keyboard function in a program at the location where you want MATLAB® to pause.
+- When the program pauses, the prompt in the Command Window changes to K>>, indicating that MATLAB is in debug mode.
+- You then can view or change the values of variables to see if the new values produce expected results.
+
+>**Tips**
+
+- To terminate debug mode and continue execution, use the dbcont command.
+- To terminate debug mode and exit the file without completing execution, use the dbquit command.
+
+#### Example 3
+
+```matlab
+% Perform some calculations
+a = 5;
+b = 10;
+c = a + b;
+    
+% Pause execution and enter debugging mode
+keyboard
+
+% Continue with more calculations
+d = c * 2;
+    
+% Return the result
+result = d;
+
+disp(result)
+```
+
+### Pause Command
+
+#### Syntax 
+
+```matlab
+pause(n)
+```
+
+- In MATLAB, the `pause` keyword is used to pause the execution of a script or function for a specified amount of time. 
+- It can be useful in various situations, such as creating delays in animations, giving users time to read messages, or controlling the timing of certain operations.
+
+#### Example 4
+
+```matlab
+a = 5;
+b = 10;
+
+c = a+b;
+disp('Sum');
+disp(c);
+
+pause(2)
+
+disp('Product');
+result = a * b;
+disp(result);
+
+pause(2)
+
+result = b/a;
+disp('Divide');
+disp(result);
+
+```
+
 ### menu Command
+
+## Reading/Storing File Data
 
 ## **Review Questions**
 
@@ -96,3 +171,8 @@ disp(age)
 
 >**Answer:** The clear command in MATLAB is used to remove variables from the workspace. It's related to variable declaration because it allows you to clean up the workspace and remove unused variables, which can help manage memory effectively.
 
+#### What is the purpose of the keyboard keyword in MATLAB, and how is it used in a script or function?
+
+#### What are some common use cases for using the pause keyword in MATLAB scripts or functions?
+
+#### Can you provide an example of using the pause function to create a timed delay in a MATLAB script?
