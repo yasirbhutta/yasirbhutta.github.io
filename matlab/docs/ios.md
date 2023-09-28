@@ -227,3 +227,11 @@ a. The pause function does not allow you to specify a duration.
 b. By passing the number of seconds as an argument: pause(2)
 c. By pressing a key on the keyboard
 d. By using a loop within the script
+
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
+

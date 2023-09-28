@@ -68,9 +68,45 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ### Insert a new worksheet
 
+- To view your sheets, tap the bottom left button on the toolbar.
+  
+![sheets-tab](img/sheets-tab.jpg)
+
+- To create a new sheet, tap the **+ icon** at the bottom of the screen
+
 ### Rename a worksheet
 
+1. To rename a sheet, tap the sheet name at the bottom of the screen
+2. Tap **'rename'**
+3. enter a new name
+
 ### Delete a worksheet
+
+1. To Delete a sheet, tap the sheet name at the bottom of the screen
+2. Tap **'Delete sheet'**
+3. Tap **OK Button**
+
+### Reorder sheets
+
+- To reorder sheets, tap and hold the sheet tab at the bottom of the screen and drag it to a new position.
+
+### Hide or unhide sheets
+
+- To hide or unhide a sheet, tap the three dots icon at the bottom of the screen and choose Hide or Unhide. Then select the sheets you want to hide or unhide1
+
+### Change sheet tab color
+
+### Duplicate sheet
+
+To duplicate a sheet in Excel mobile app, you can follow these steps1:
+
+- To view your sheets, tap the bottom left button on the toolbar.
+- A context menu will appear with the option to Duplicate or Delete.
+- Tap Duplicate to create a copy of the sheet.
+- To rename the sheet, double-tap on the tab and enter a new name.
+
+
+### Move sheet
 
 ## [Excel for Android touch guide](https://support.microsoft.com/en-au/office/excel-for-android-touch-guide-aef977da-6adf-4724-b054-8ca4bb1d7afb)
 
