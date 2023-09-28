@@ -66,24 +66,6 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ## [Excel for Android touch guide](https://support.microsoft.com/en-au/office/excel-for-android-touch-guide-aef977da-6adf-4724-b054-8ca4bb1d7afb)
 
-
-
-| To Select     | Do This       |
-| ------------- | ------------- |
-| A single cell | Tap any cell in your workbook to select it.|
-| A range of cells | Tap any cell in your workbook to select it. To extend the selection, drag the handles in any direction until the cell range you want is selected.|
-|All cells on a worksheet||
-|Nonadjacent cells or cell ranges||
-
-
-
-
-
-
-
-
-
-
 ## References
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)
