@@ -2,6 +2,8 @@
 
 [Download PDF](basics.pdf)
 
+- []
+
 To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
 
@@ -71,6 +73,8 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 ### Delete a worksheet
 
 ## [Excel for Android touch guide](https://support.microsoft.com/en-au/office/excel-for-android-touch-guide-aef977da-6adf-4724-b054-8ca4bb1d7afb)
+
+## [Excel for Android phones: Animated tips](https://support.microsoft.com/en-us/office/excel-for-android-phones-animated-tips-25aedb34-2379-4429-90ad-3fffc9cbee3b)
 
 ## References
 
