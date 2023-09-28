@@ -68,7 +68,7 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 - To view your sheets, tap the bottom left button on the toolbar.
   
-![sheets-tab](img/sheets-tab.jpg)
+![sheets-tab](img/sheets-tab300.jpg)
 
 - To create a new sheet, tap the **+ icon** at the bottom of the screen
 
