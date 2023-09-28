@@ -2,8 +2,6 @@
 
 [Download PDF](basics.pdf)
 
-- []
-
 To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
 
