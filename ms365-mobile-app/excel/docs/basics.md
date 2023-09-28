@@ -1,5 +1,11 @@
 # Microsoft Excel App: Basics
 
+[Download PDF](basics.pdf)
+
+To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
+
+
 ## Microsoft Excel
 
 Excel 2021 can be used to
