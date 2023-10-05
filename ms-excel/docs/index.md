@@ -6,12 +6,13 @@
 
 ## Intro. to Excel
 
+[Lecture Notes - Excel Basics](basics.md)
 [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - Microsoft Excel Interface
 - [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
 - [Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
-- [Manage Worksheets](https://youtu.be/4_WTHBDiAe0)
+- [Manage Worksheets - Windows](https://youtu.be/4_WTHBDiAe0)
 - Select cells, ranges, rows, or columns
 
 ## Rows and columns
@@ -26,6 +27,7 @@
 
 ## Formatting
 
+[Lecture Notes - Formaating](formatting.)
 [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas
@@ -37,7 +39,7 @@
 ## Functions
 
 [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
-[Download - Handouts](../ms-excel/docs/functions-excel.md)
+[Download - Handouts](functions-excel.md)
 - Cell references
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
 - Coping formula

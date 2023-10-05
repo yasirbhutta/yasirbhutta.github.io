@@ -129,7 +129,185 @@ disp(result);
 
 ### menu Command
 
+### fprintf command
+
+- fprintf() is a built-in function in MATLAB that is used to format and print data to the console.
+- It takes a variable number of arguments, the first of which is a format string that specifies how the data should be formatted. The remaining arguments are the data values that should be printed.
+- The format string is a sequence of characters that tells MATLAB how to format the data. It can include characters such as "%d" for integers, "%f" for floats, and "%s" for strings. The format string can also include other characters, such as spaces and commas, to control the appearance of the output.
+
+#### Syntax
+
+fprintf(text)
+fprintf(formatspec,var)
+
+fprintf(text) command displays formatted text centered on the icon .
+
+fprintf(formatspec,var) formats var as specified in formatSpec.
+
+#### Example: Display the text Hello
+
+```matlab
+fprintf('Hello');
+```
+
+#### Example: Display name
+
+```matlab
+name = 'Ali';
+fprintf('Your name is %s', name);
+
+```
+
+#### Example
+
+Convert the character a to an integer 97 and display it on the block icon.
+
+```matlab
+myvar = 'a'
+fprintf('hello = %d',myvar);
+```
+
+#### Example : Printing a number
+
+```matlab
+x = 10;
+fprintf('The value of x is %d\n', x);
+```
+
+This will print the following output to the command window:
+
+```
+The value of x is 10
+```
+
+#### Example: Printing multiple values
+
+```matlab
+x = 10;
+y = 20;
+fprintf('The values of x and y are %d and %d, respectively.\n', x, y);
+```
+
+This will print the following output to the command window:
+
+```
+The values of x and y are 10 and 20, respectively.
+```
+
+#### Example: Printing formatted values
+
+The `fprintf` function also supports a variety of formatting options that allow you to control how values are printed. For example, you can specify the precision of floating-point numbers, the width of fields, and the alignment of text.
+
+The following example shows how to print a floating-point number with two decimal places:
+
+```matlab
+x = 1.2345678;
+fprintf('The value of x is %.2f\n', x);
+```
+
+This will print the following output to the command window:
+
+```
+The value of x is 1.23
+```
+
+#### Example: Printing formatted string
+
+The following example shows how to print a string centered in a field of 20 characters:
+
+```matlab
+s = 'This is a string.';
+fprintf('%20s\n', s);
+```
+
+This will print the following output to the command window:
+
+```
+     This is a string.
+```
+
+#### Example: Sum of two numbers
+
+```matlab
+num1 = input('Enter first value');
+num2 = input('Enter second value');
+
+total = num1 + num2;
+
+fprintf('Sum of %d and %d is %d', num1, num2, total);
+```
+
+#### Example: use of line break in fprintf
+
+```matlab
+% Data Input
+name = input('Enter your name','s');
+city = input('Enter your city','s');
+age  = input('Enter your age');
+
+% Disply variables
+% \n is used for line bread
+fprintf('====== Student Details =====\n');
+fprintf('Name = %s \n', name);
+fprintf('City = %s \n', city);
+fprintf('Age = %d \n', age);
+```
+
 ## Reading/Storing File Data
+
+## Resources
+
+
+### MCQS
+
+1. **Which of the following is the correct extension of the Python file?**
+
+>**a.** .python
+>**b.**  .pl
+>**c.**  .p
+>**d.**  .py
+
+1. **What is the purpose of the input function in MATLAB?**
+
+>**a.** To display text on the console
+>**b.** To wait for a key press
+>**c.** To take user input from the console
+>**d.** To pause script execution
+
+2. **Which keyword is used in MATLAB for interactive debugging by pausing script execution and entering the debug mode?**
+
+>**a.** stop
+>**b.** keyboard
+>**c.** break
+>**d.** pause
+
+#### What does the pause function in MATLAB do?
+
+- a. Stops the execution of the script
+- b. Adds a delay in script execution
+- c. Accepts keyboard input from the user
+- d. Prints a message to the console
+
+#### Which of the following is true about the input function in MATLAB?
+
+a. It only accepts numerical input
+b. It always displays a message to the user
+c. It can accept both numerical and string input
+d. It cannot be used in MATLAB scripts
+
+1. **Which of the following is a correct usage of the input function in MATLAB?**
+
+a. input('Enter a number: ')
+b. keyboard('Please enter a number: ')
+c. pause('Enter a value: ')
+d. None
+
+6. **How can you specify the duration of a pause in seconds when using the pause function in MATLAB?**
+
+a. The pause function does not allow you to specify a duration.
+b. By passing the number of seconds as an argument: pause(2)
+c. By pressing a key on the keyboard
+d. By using a loop within the script
 
 ## **Review Questions**
 
@@ -176,57 +354,6 @@ disp(result);
 #### What are some common use cases for using the pause keyword in MATLAB scripts or functions?
 
 #### Can you provide an example of using the pause function to create a timed delay in a MATLAB script?
-
-## MCQS
-
-1. **Which of the following is the correct extension of the Python file?**
-
->**a.** .python
->**b.**  .pl
->**c.**  .p
->**d.**  .py
-
-1. **What is the purpose of the input function in MATLAB?**
-
->**a.** To display text on the console
->**b.** To wait for a key press
->**c.** To take user input from the console
->**d.** To pause script execution
-
-2. **Which keyword is used in MATLAB for interactive debugging by pausing script execution and entering the debug mode?**
-
->**a.** stop
->**b.** keyboard
->**c.** break
->**d.** pause
-
-3. **What does the pause function in MATLAB do?**
-
-a. Stops the execution of the script
-b. Adds a delay in script execution
-c. Accepts keyboard input from the user
-d. Prints a message to the console
-
-4. **Which of the following is true about the input function in MATLAB?**
-
-a) It only accepts numerical input
-b) It always displays a message to the user
-c) It can accept both numerical and string input
-d. It cannot be used in MATLAB scripts
-
-6. **Which of the following is a correct usage of the input function in MATLAB?**
-
-a. input('Enter a number: ')
-b. keyboard('Please enter a number: ')
-c. pause('Enter a value: ')
-d. None
-
-7. **How can you specify the duration of a pause in seconds when using the pause function in MATLAB?**
-
-a. The pause function does not allow you to specify a duration.
-b. By passing the number of seconds as an argument: pause(2)
-c. By pressing a key on the keyboard
-d. By using a loop within the script
 
 Muhammad Yasir Bhutta
 

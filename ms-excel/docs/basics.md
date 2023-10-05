@@ -1,14 +1,13 @@
 # Microsoft Excel App: Basics
 
-[Download PDF](basics.pdf)
+[Download PDF](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.pdf)
 
-To access the updated lecture notes, please click on the following link:
+**To access the updated lecture notes, please click on the following link:**
 [https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
-
 
 ## Microsoft Excel
 
-Excel 2021 can be used to
+Microsoft Excel can be used to
 
 - perform mathematical calculations
 - serve as powerful data management tools  
@@ -74,15 +73,21 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ### Rename a worksheet
 
-1. To rename a sheet, tap the sheet name at the bottom of the screen
-2. Tap **'rename'**
-3. enter a new name
+1. To view your sheets, tap the bottom left button on the toolbar.
+2. Then select the sheet you want to rename and tap on sheet tab again to open a context menu.
+3. Tap **'rename'**
+4. enter a new name
+
+or
+
+ To rename the sheet, double-tap on the tab and enter a new name.
 
 ### Delete a worksheet
 
-1. To Delete a sheet, tap the sheet name at the bottom of the screen
-2. Tap **'Delete sheet'**
-3. Tap **OK Button**
+1. To view your sheets, tap the bottom left button on the toolbar.
+2. Then select the sheet you want to delete and tap on sheet tab again to open a context menu.
+3. Tap **'Delete sheet'**
+4. Tap **OK Button**
 
 ### Reorder sheets
 
@@ -90,18 +95,24 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ### Hide or unhide sheets
 
-- To hide or unhide a sheet, tap the three dots icon at the bottom of the screen and choose Hide or Unhide. Then select the sheets you want to hide or unhide1
+1. To view your sheets, tap the bottom left button on the toolbar.
+2. Then select the sheet you want to hide and tap on sheet tab again to open a context menu.
+3. A context menu will appear with the option to hide or unhide a sheet.
+4. Tap **Hide**, to hide the sheet.
 
 ### Change sheet tab color
 
+1. To view your sheets, tap the bottom left button on the toolbar.
+2. Then select the sheet you want to change sheet tab color and tap on sheet tab again to open a context menu.
+3. Tap **Color**, to change the sheet tab color.
+
 ### Duplicate sheet
 
-To duplicate a sheet in Excel mobile app, you can follow these steps1:
+To duplicate a sheet in Excel mobile app, you can follow these steps:
 
-- To view your sheets, tap the bottom left button on the toolbar.
-- A context menu will appear with the option to Duplicate or Delete.
-- Tap Duplicate to create a copy of the sheet.
-- To rename the sheet, double-tap on the tab and enter a new name.
+1. To view your sheets, tap the bottom left button on the toolbar.
+2. A context menu will appear with the option to Duplicate.
+3. Tap **Duplicate** to create a copy of the sheet.
 
 
 ### Move sheet
@@ -113,3 +124,10 @@ To duplicate a sheet in Excel mobile app, you can follow these steps1:
 ## References
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)
+
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)

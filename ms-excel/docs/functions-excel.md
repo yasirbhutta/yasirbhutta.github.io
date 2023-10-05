@@ -95,7 +95,6 @@ MAX(number1, [number2], ...)
 The MAX function syntax has the following arguments:
 Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
 
-
 ##### MIN
 
 Returns the smallest number in a set of values.
