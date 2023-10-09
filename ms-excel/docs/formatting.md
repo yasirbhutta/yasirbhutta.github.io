@@ -5,7 +5,7 @@
 To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 
-> **Important: Keyboard shortcut keys can only be used in Windows, not in Android.
+> **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
 ## Formatting Commands in Excel Android App
 
@@ -26,9 +26,9 @@ Excel provides users with a pre-selected font that they may use when creating wo
 
 ### Font Size
 
-The font size or text size is a number that measures the size of characters (such as letters, numbers, and punctuation marks) on a screen or printed page 1. In computing and web design, font sizes can be defined in units of pixels (px), points (pt), or ems (em).[^2]
+-The font size or text size is a number that measures the size of characters (such as letters, numbers, and punctuation marks) on a screen or printed page 1. In computing and web design, font sizes can be defined in units of pixels (px), points (pt), or ems (em).[^2]
 
-In Microsoft Excel, changing the font size of your numbers and text can help your document to look more appealing and make it easier for the reader to digest the information.
+- In Microsoft Excel, changing the font size of your numbers and text can help your document to look more appealing and make it easier for the reader to digest the information.
 
 ### Bold
 
@@ -84,7 +84,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 ### Font Color
 
-- In Microsoft Excel, Font Color is a feature that allows you to change the color of the text in a cell or range of cells. [^10]
+- In Microsoft Excel, Font Color is a feature that allows you to change the color of the text in a cell or range of cells.[^10]
 
 ### Data Alignment
 
@@ -134,7 +134,7 @@ When you select a merged cell, the Merge and Center button  also appears selecte
 
 - In Microsoft Excel, Wrap Text is a feature that allows you to display the contents of a cell on multiple lines, rather than one long line.
 - This feature is useful when you have lengthy text in a cell that is difficult to read or when you want to fit more text into a smaller space.
-- By enabling Wrap Text, you can ensure that all the content is visible without having to adjust the column width or are left with text overflowing into neighboring cells. [^13] [^14]
+- By enabling Wrap Text, you can ensure that all the content is visible without having to adjust the column width or are left with text overflowing into neighboring cells. [^14] [^15]
 
 #### Wrap text automatically - Windows
 
@@ -338,8 +338,8 @@ In the Gridline color box, click the color you want.
 [11^]: [Align text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 [12^]: [How to align text in Excel](How to align text in Excel)
 [13^]: [What is the use of the ‘Merge and Center’ feature in MS Excel](https://edupepper.com/what-is-the-use-of-the-merge-and-center-feature-in-ms-excel/])
-[13^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
-[14^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)
+[14^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
+[15^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)
 
 ### Muhammad Yasir Bhutta
 
