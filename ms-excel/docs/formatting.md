@@ -155,7 +155,7 @@ To apply several formats in one step, and to make sure that cells have consisten
 
 #### Applying the percentage style
 
-##### Widows 
+##### Windows 
 
 1. Select the cell(s) containing the value(s) you want to format.
 2. Click on Percent style in Number group of Home tab.
