@@ -27,7 +27,7 @@
 
 ## Formatting
 
-[Lecture Notes - Formaating](formatting.md)
+[Lecture Notes - Formating](formatting.md)
 [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas

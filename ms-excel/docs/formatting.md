@@ -1,10 +1,9 @@
 # Microsoft Excel App: Formatting
 
-[Download PDF](ios.pdf)
+[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formatting.pdf)
 
 To access the updated lecture notes, please click on the following link:
-[https://yasirbhutta.github.io/matlab/docs/ios.html](https://yasirbhutta.github.io/matlab/docs/ios.html)
-
+[https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 
 > **Important: Keyboard shortcut keys can only be used in Windows, not in Android.
 
