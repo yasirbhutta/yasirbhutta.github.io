@@ -151,7 +151,7 @@ Multiplication table for 5
 10 * 5 = 50
 ```
 
-Muhammad Yasir Bhutta
+## Muhammad Yasir Bhutta
 
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
