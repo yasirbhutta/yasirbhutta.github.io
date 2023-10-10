@@ -279,65 +279,62 @@ An incorrect argument or operator is used in the formula
 An invalid cell is referenced in the formula
 
 - #N/A
- 
-Note    You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
 
+
+**Note: **You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
 
 ### Excercises
 
-**Exercise 6:**
+**Exercise 1:**
 
-* Create a new Excel worksheet.
-* In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
-* In cell A11, enter the following formula: `=SUM(A1:A10)`
-* Press Enter.
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=SUM(A1:A10)`
+- Press Enter.
 
 The result, 550, should appear in cell A11.
 
-**Exercise 7:**
+**Exercise 2:**
 
-* Create a new Excel worksheet.
-* In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
-* In cell A11, enter the following formula: `=AVERAGE(A1:A10)`
-* Press Enter.
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=AVERAGE(A1:A10)`
+- Press Enter.
 
 The result, 55, should appear in cell A11.
 
-**Exercise 8:**
+**Exercise 3:**
 
-* Create a new Excel worksheet.
-* In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
-* In cell A11, enter the following formula: `=MAX(A1:A10)`
-* Press Enter.
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=MAX(A1:A10)`
+- Press Enter.
 
 The result, 100, should appear in cell A11.
 
-**Exercise 9:**
+**Exercise 4:**
 
-* Create a new Excel worksheet.
-* In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
-* In cell A11, enter the following formula: `=MIN(A1:A10)`
-* Press Enter.
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=MIN(A1:A10)`
+- Press Enter.
 
 The result, 10, should appear in cell A11.
 
-**Exercise 10:**
+**Exercise 5:**
 
-* Create a new Excel worksheet.
-* In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
-* In cell A11, enter the following formula: `=IF(A1>A2,"A1 is greater than A2","A1 is not greater than A2")`
-* Press Enter.
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=IF(A1>A2,"A1 is greater than A2","A1 is not greater than A2")`
+- Press Enter.
 
 The result, "A1 is greater than A2", should appear in cell A11.
 
-These are just a few examples of Excel exercises to perform arithmetic operators. You can find many other exercises online and
+**Exercise 6: Power and Square Root**:
 
-
-Power and Square Root:
-
-In cell A1, enter a number, e.g., 4.
-In cell B1, calculate the square of the number using the formula =A1^2.
-In cell B2, calculate the square root of the number using the formula =SQRT(A1).
+- In cell A1, enter a number, e.g., 4.
+- In cell B1, calculate the square of the number using the formula `=A1^2`.
+- In cell B2, calculate the square root of the number using the formula `=SQRT(A1)`.
 
 Rounding:
 
