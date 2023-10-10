@@ -7,6 +7,7 @@
 
 - [Constants, Variables and Expressions](docs/cve.md)
 - [Input Output Statements](docs/ios.md)
+- [Flow Control Statements](docs/flow-control.md)
 
 ### Relational operators in MATLAB:
 

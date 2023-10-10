@@ -1,8 +1,8 @@
 # Input Output Statements
 
-[Download PDF](ios.pdf)
+- [Download PDF](https://yasirbhutta.github.io/matlab/docs/ios.pdf)
 
-To access the updated lecture notes, please click on the following link:
+- To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/ios.html](https://yasirbhutta.github.io/matlab/docs/ios.html)
 
 ## Introduction

@@ -6,29 +6,29 @@
 
 ## Intro. to Excel
 
-[Lecture Notes - Excel Basics](basics.md)
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
+- [Lecture Notes - Excel Basics](basics.md)
+- [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - Microsoft Excel Interface
-- [Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
-- [Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
+- [Video Tutorial: Enter data manually in worksheet cells](https://youtu.be/r84zUXFUIfc)
+- [Video Tutorial: Enter a dates or a time in a cell](https://youtu.be/-ov-M0AHxZI)
 - [Manage Worksheets - Windows](https://youtu.be/4_WTHBDiAe0)
 - Select cells, ranges, rows, or columns
 
 ## Rows and columns
 
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
+- [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 ## Cells
 
-[Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
+- [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - [Select a range of cells](https://youtu.be/rAqaieW0lVM)
 
 ## Formatting
 
-[Lecture Notes - Formating](formatting.md)
-[Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
+- [Lecture Notes - Formating](formatting.md)
+- [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas
 
