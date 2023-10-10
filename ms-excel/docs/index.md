@@ -27,12 +27,13 @@
 
 ## Formatting
 
-- [Lecture Notes - Formating](formatting.md)
+- [Lecture Notes - Formatming](formatting.md)
 - [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas
 
-[Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
+- [Lecture Notes - Formatming](formulas.md)
+- [Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
 - [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
 

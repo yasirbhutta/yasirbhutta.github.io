@@ -151,6 +151,14 @@ Multiplication table for 5
 10 * 5 = 50
 ```
 
+2. Write a MATLAB program that uses a for loop to print the numbers from 1 to 10.
+3. Create a MATLAB program that calculates the sum of all even numbers from 1 to 50 using a for loop.
+4. Write a for loop to print the even numbers from 1 to 100.
+5. Write a for loop to find the factorial of a given number.
+6. Write a for loop to find the prime numbers from 1 to 100.
+
+
+
 ## Muhammad Yasir Bhutta
 
 - [Web](https://yasirbhutta.github.io/)
