@@ -132,9 +132,12 @@ end
 1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
 
 **Example output:**
+
+```
 Enter a number: 5
 
 Multiplication table for 5
+
 
 1 * 5 = 5
 2 * 5 = 10
@@ -146,4 +149,11 @@ Multiplication table for 5
 8 * 5 = 40
 9 * 5 = 45
 10 * 5 = 50
+```
 
+Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
