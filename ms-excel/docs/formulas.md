@@ -141,15 +141,17 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Review Questions
 
-Beginner:
-
-1. What are the different types of Excel operators?
-2. What is the order of precedence for Excel operators?
-3. How do you use parentheses to control the order of operations in a formula?
-
-Intermediate:
-
-1. What is the difference between arithmetic operators, comparison operators, logical operators, and text operators?
+1. How can you multiply two numbers in Excel? Which operator do you use?
+2. What are the different types of Excel operators?
+3. What does the exponentiation operator (^) do in Excel, and how is it used?
+4. What is the order of precedence for Excel operators?
+5. How do you use parentheses to control the order of operations in a formula?
+6. What is Cell Address and explain the purpose of formula bar?
+7. What is the difference between arithmetic operators, comparison operators, logical operators, and text operators?
+8. How can you combine two or more text strings in Excel using an operator?
+9. How do you use the percent operator (%) in Excel to calculate percentages?
+10. What is the PEMDAS order of operations?
+11. What is the basic structure of a formula in Excel?
 
 ## Excercises
 
@@ -244,6 +246,16 @@ The result, 150, should appear in cell A3.
 
 - In cell A12, enter the original price (e.g., 50), and in cell B12, enter the discount percentage (e.g., 20%).
 - In cell C12, use the formula `=A12 - (A12 * B12)` to calculate the discounted price.
+
+
+Which of the following is the correct order of operations in Excel formulas?
+
+(A) Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+(B) Exponents, Multiplication, Division, Addition, Subtraction, Parentheses
+(C) Multiplication, Division, Addition, Subtraction, Parentheses, Exponents
+(D) Parentheses, Multiplication, Division, Addition, Subtraction, Exponents
+
+Answer: (A)
 
 ## References
 

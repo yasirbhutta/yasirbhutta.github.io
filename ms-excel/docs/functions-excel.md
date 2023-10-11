@@ -21,19 +21,18 @@
 
 #### Relative Cell Reference
 
-- In Excel, a relative cell reference identifies the location of a cell or group of cell.
+- A relative cell reference is a cell reference that changes when the formula is copied to a different cell.
 - By default, a spreadsheet cell reference is relative.
-- If copy the formula ,the reference automatically adjusts.  
+
+**For example,** if you enter the formula =A1+B1 into cell C1, and then copy that formula to cell D2, the formula will automatically change to `=A2+B2`. This is because Excel assumes that you want to add the corresponding cells in the new location.
 
 #### Absolute Cell References
 
-- A reference to a particular cell or group of cells that does not change, even copy the reference to another cell.
-- An absolute cell reference consists of the column letter and row number surrounded by dollar sign($).
-- To place a $ sign before a Column letter and Row number of a Cell click on the cell that contains the absolute value and press F4 Key 
-
-EXAMPLE: ABSOLUTE REFERENCE
-
-EXAMPLE: ABSOLUTE REFERENCE
+- An absolute cell reference is a cell reference that does not change when the formula is copied to a different cell.
+- To create an absolute cell reference, you need to prefix the cell reference with a dollar sign ($).
+- To place a $ sign before a Column letter and Row number of a Cell click on the cell that contains the absolute value and press **F4 Key**.
+  
+**For example,** if you enter the formula `=$A1+$B1` into cell C1, and then copy that formula to cell D2, the formula will remain the same. This is because Excel knows that you want to add the specific cells A1 and B1, regardless of where the formula is copied.
 
 #### Mixed Cell Reference
 
@@ -292,11 +291,30 @@ Beginner:
 3. What is the formula to count the number of cells in a range that contain a specific value?
 4. What is the formula to calculate the minimum or maximum value in a range of cells?
 5. What is the formula to round a number to a specific number of decimal places?
+6. What is function? Enlist some important functions of Excel?
+7. What is the difference between a relative cell reference and an absolute cell reference?
+8. How do you use the $ symbol to lock cell references in a formula?
+9. What is the use of Conditional Formatting?
+10. What is the use of Data Validation?
+11. What is the purpose of the comparison operators (e.g., <, >, =) in Excel, and how are they used in formulas?
+12. How can you use logical operators (AND, OR, NOT) in Excel formulas to perform conditional calculations?
+13. What is the ampersand operator (&) used for when working with cell references in Excel?
+14. Explain the use of the range operator (colon, :) in Excel and how it simplifies cell referencing.
+15. How can you use the IF function in Excel to perform conditional operations? How does it relate to operators?
+16. Explain how to use the CONCATENATE function and the operator for line breaks in Excel to create multi-line text.
+17. Describe the use of the CONCATENATE function versus the "&" operator for text manipulation in Excel
+18. What are some common functions used in Excel formulas?
+19. How would you write a formula to calculate the total sales for each product in a worksheet?
+20. How would you write a formula to count the number of cells in a range that contain the text "Apple"?
+21. What does the following formula do?
 
-Intermediate:
+```excel
+=IF(A1>B1,"A1 is greater than B1","A1 is less than or equal to B1")
+```
 
-6. What is the difference between a relative cell reference and an absolute cell reference?
-How do you use the $ symbol to lock cell references in a formula?
+What is conditional formatting, and how can you use it to highlight specific data in Excel?
+
+
 
 ### Excercises
 
@@ -363,4 +381,17 @@ In cell A1, enter the formula =RAND(). This will generate a random number betwee
 Drag the fill handle (the small square at the bottom-right corner of the cell) down to generate multiple random numbers.
 
 
+Which of the following is a valid formula?
+
+A. =SUM(A1:B1)/2
+B. =SUM(A1:B1) + 2
+C. =SUM(A1:B1) * 2
+D. All of the above
+
+Which of the following formulas will return the value 10?
+
+(A) =SUM(1, 2, 3, 4)
+(B) =AVERAGE(1, 2, 3, 4)
+(C) =MAX(1, 2, 3, 4)
+(D) =MIN(1, 2, 3, 4)
 

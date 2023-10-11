@@ -121,6 +121,17 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ## [Excel for Android phones: Animated tips](https://support.microsoft.com/en-us/office/excel-for-android-phones-animated-tips-25aedb34-2379-4429-90ad-3fffc9cbee3b)
 
+
+## Review Questions
+
+1. What is the difference between worksheet and Workbook?
+2. What is Active cell and explain the purpose of Name Box in MS Excel?
+3. 
+
+## Exercises
+
+## MCQs
+
 ## References
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)
