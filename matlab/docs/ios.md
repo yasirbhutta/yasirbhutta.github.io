@@ -131,7 +131,7 @@ disp(result);
 
 ### fprintf command
 
-- fprintf() is a built-in function in MATLAB that is used to format and print data to the console.
+- The fprintf command is used to format and display data on the command window or write data to a file.
 - It takes a variable number of arguments, the first of which is a format string that specifies how the data should be formatted. The remaining arguments are the data values that should be printed.
 - The format string is a sequence of characters that tells MATLAB how to format the data. It can include characters such as "%d" for integers, "%f" for floats, and "%s" for strings. The format string can also include other characters, such as spaces and commas, to control the appearance of the output.
 
@@ -140,9 +140,21 @@ disp(result);
 fprintf(text)
 fprintf(formatspec,var)
 
-fprintf(text) command displays formatted text centered on the icon .
+fprintf(text) command displays formatted text centered on the command window .
 
 fprintf(formatspec,var) formats var as specified in formatSpec.
+
+- **formatSpec** is a string that specifies the format of the output data.
+
+Here are some common format specifiers used with the fprintf command:
+
+| Format specifier | Description |
+|---|---|---|
+| %d | Integer |
+| %f | Floating-point number |
+| %c | Character |
+| %s | String |
+| \n | Newline character |
 
 #### Example: Display the text Hello
 
@@ -281,14 +293,16 @@ fprintf('Age = %d \n', age);
 >**c.** break
 >**d.** pause
 
-#### What does the pause function in MATLAB do?
+#### Input Command (MCQs)
+
+##### What does the pause function in MATLAB do?
 
 - a. Stops the execution of the script
 - b. Adds a delay in script execution
 - c. Accepts keyboard input from the user
 - d. Prints a message to the console
 
-#### Which of the following is true about the input function in MATLAB?
+##### Which of the following is true about the input function in MATLAB?
 
 a. It only accepts numerical input
 b. It always displays a message to the user
@@ -302,17 +316,200 @@ b. keyboard('Please enter a number: ')
 c. pause('Enter a value: ')
 d. None
 
-6. **How can you specify the duration of a pause in seconds when using the pause function in MATLAB?**
+##### Which of the following is true about the input function's behavior if the user enters non-numeric input when expecting a number?
+
+a) It displays an error message and terminates the program.
+b) It converts the input to a numeric value.
+c) It throws an error and crashes MATLAB.
+d) It loops until valid numeric input is provided.
+
+#### When using the input function to collect user input, how can you display a prompt message?
+
+a. There is no way to display a prompt message with input.
+b. By specifying the prompt message as an argument to the input function.
+c. By using the display function before calling input.
+d. By defining the prompt message as a variable.
+
+#### Pause and keyboard Commands (MCQs)
+
+##### What does the pause command do in MATLAB?
+
+a. Ends the program
+b. Pauses the program's execution for a specified duration
+c. Prompts the user for input
+d. Clears the command window
+
+##### How is the duration of the pause specified in the pause command?
+
+a. In seconds
+b. In milliseconds
+c. In minutes
+d. It is not possible to specify a duration
+
+##### What is the primary purpose of the keyboard command in MATLAB?
+
+a. To insert a physical keyboard into the program
+b. To pause program execution and enter the debug mode
+c. To display a virtual keyboard on the screen
+d. To display the program's source code
+
+In what scenarios might you use the keyboard command in MATLAB?
+a. To create interactive user interfaces
+b. To simulate keyboard input
+c. For debugging and inspecting variables during program execution
+d. To change the color of the command window
+
+##### How can you specify the duration of a pause in seconds when using the pause function in MATLAB?
 
 a. The pause function does not allow you to specify a duration.
 b. By passing the number of seconds as an argument: pause(2)
 c. By pressing a key on the keyboard
 d. By using a loop within the script
 
+#### fprintf Command
+
+##### What is the purpose of the fprintf function in MATLAB?
+
+a. To read data from a file
+b. To format and display output to the console or a file
+c. To accept input from the user
+d. To calculate mathematical expressions
+
+##### Which function is used to display formatted output in MATLAB?
+
+a) output
+b) printf
+c) print
+d) fprintf
+
+##### Which character is commonly used as a placeholder for inserting variable values within a formatted string when using fprintf?
+
+a) #
+b) $
+c) %
+d) @
+
+##### In fprintf formatting, the %d specifier is used for:
+
+a) Decimal (integer) values
+b) Floating-point values
+c) Characters
+d) Strings
+
+##### When using fprintf, the escape sequence \n is used for:
+
+a) Printing a backslash
+b) Printing a newline character
+c) Printing a tab character
+d) Printing a space
+
+##### In the fprintf function, what does the %f specifier typically represent?
+
+a) An integer
+b) A floating-point number
+c) A character
+d) A string
+
+##### When using fprintf, what does the format specifier %s represent?
+
+a) An integer
+b) A floating-point number
+c) A character
+d) A string
+
+##### Which of the following is the correct way to format a number using the fprintf command?
+
+a. fprintf('%.2f\n', number);
+b. fprintf('%s\n', number);
+c. fprintf('%c\n', number);
+d. fprintf('%d\n', number);
+
+##### Which of the following is the correct way to format the output of the fprintf command?
+
+(A) fprintf('%s', 'Hello, world!')
+(B) fprintf('%s', 'Hello, world!\n')
+(C) fprintf('%s', Hello, world!')
+
+##### Which of the following is the correct way to print a number to the console using the fprintf command?
+
+(A) fprintf('%d', 123)
+(B) fprintf('%s', 123.456)
+(C) fprintf(123.456e-10)
+(D) All of the above
+
+##### Which of the following is the correct way to print a string to the console using the fprintf command?
+
+(A) fprintf('%s', 'Hello, world!')
+(B) fprintf('%c', 'Hello, world!')
+(C) fprintf('%d', 'Hello, world!')
+(D) None of the above
+
+##### Which of the following is a valid format specifier for the fprintf command?
+
+A. %d
+B. %f
+C. %s
+D. All of the above
+
 ## **Review Questions**
 
-### Write note on Common Ways to Input Data in MATLAB?
+1. Write note on Common Ways to Input Data in MATLAB?
+2. What is the difference between the input and disp commands?
+3. How do you prompt the user for input?
+4. How do you use the input function to prompt the user for a string input?
+5. What is the purpose of the keyboard keyword in MATLAB, and how is it used in a script or function?
+6. What are some common use cases for using the pause keyword in MATLAB scripts or functions?
+7. Can you provide an example of using the pause function to create a timed delay in a MATLAB script?
+8. What is the difference between the input and fprintf commands?
+9. What is the purpose of the fprintf command in MATLAB?
+10. What is the syntax for using the fprintf command in MATLAB?
+11. Explain the role of format specifiers in fprintf. Provide examples of commonly used format specifiers.
+12. How can you print numerical values with a specific number of decimal places using fprintf?
+13. What is the difference between %s and %d format specifiers in fprintf? When and how would you use each?
+14. Explain how to create a newline character in the output file when using fprintf.
+15. What is the fprintf command used for?
+16. Give two examples of how to use the fprintf command.
+17. How do you print a string of text to the command window using the fprintf command?
+18. How do you print a numeric value to the command window using the fprintf command?
+19. Write a MATLAB script that uses the fprintf command to print the value of the variable x to the command window, formatted to display two decimal places.
 
+### What are some of the common mistakes people make when using the fprintf command?
+
+>**Answer:** Some of the common mistakes people make when using the fprintf command include:
+
+- Forgetting to specify the format specifier.
+- Using the wrong format specifier for the data type to be displayed.
+- Forgetting to enclose the format specifier in single quotes.
+- Forgetting to use the \n escape sequence to display a new line character.
+- Forgetting to close the file when writing data to a file using the fprintf command.
+
+### Write a MATLAB script that uses the fprintf command to print the following text to the command window:
+
+Hello, world
+
+### How can I display a new line character?
+
+>**Answer:** To display a new line character, you can use the \n escape sequence. For example, to print the following message to the command window:
+
+```matlab
+Hello,
+world!
+```
+
+You would use the following fprintf command:
+
+```matlab
+fprintf('Hello,\nworld!\n')
+```
+
+### What are some tips for using the fprintf command effectively?
+
+>**Answer:** Here are some tips for using the fprintf command effectively:
+
+> - Use the correct format specifier for the type of data you want to display or write to a file.
+> - Use newline characters (\n) to separate lines of output.
+> - Use comments to make your code more readable and maintainable.
+  
 ### What is a variable in computer programming?
 
 >**Answer:** A variable is a named storage location in a computer's memory that is used to hold data or values. It allows programmers to store and manipulate data within a program.
@@ -349,11 +546,13 @@ d. By using a loop within the script
 
 >**Answer:** The clear command in MATLAB is used to remove variables from the workspace. It's related to variable declaration because it allows you to clean up the workspace and remove unused variables, which can help manage memory effectively.
 
-#### What is the purpose of the keyboard keyword in MATLAB, and how is it used in a script or function?
+## Excercises
 
-#### What are some common use cases for using the pause keyword in MATLAB scripts or functions?
+1. Write a MATLAB script that prompts the user for their name and age, and then displays a greeting message that includes their name and age.
+2. Write a MATLAB script that prompts the user for two numbers, and then displays the sum, difference, product, and quotient of the two numbers.
+3. Write a MATLAB script that prompts the user for a vector of numbers, and then displays the maximum, minimum, mean, and median of the vector.
+4. 
 
-#### Can you provide an example of using the pause function to create a timed delay in a MATLAB script?
 
 Muhammad Yasir Bhutta
 
