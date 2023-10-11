@@ -25,21 +25,56 @@
   2. Comparison - compare two values.
   3. Reference -combine ranges of cells.
 
-### Arithmetic Operator
+### Arithmetic Operators
 
-|  Operation | Operator | Example |
+To perform basic mathematical operations such as addition, subtraction, or multiplication—or to combine numbers—and produce numeric results, use the arithmetic operators in this table. [^1]
+
+|  Meaning | Arithmetic Operator | Example |
 | --- | --- | --- |
-| Addition | + | =10+2 |
-| Subtraction | - | =6-2|
-| Negation | - | =-9|
-| Multiplication | * | =5*8|
-| Division | / | =27/9|
-| Percent | % | =550*3%|
-| Exponentiation | ^ | =5^2 (same 5*5)|
+| Addition | + (plus sign)| =10+2 |
+| Subtraction | - (minus sign) | =6-2|
+| Negation | - (minus sign) | =-9|
+| Multiplication | * (asterisk) | =5*8|
+| Division | / (forward slash)| =27/9|
+| Percent | % (percent sign)| =550*3%|
+| Exponentiation | ^ (caret)| =5^2 (same 5*5)|
+
+#### See Also
+
+- [Basic math in Excel](https://support.microsoft.com/en-us/office/video-basic-math-in-excel-2013-e05703f5-7150-44c1-8a52-307738266821#ID0EBBD=Transcript)
 
 ### Comparision Operators
 
+With the operators in the table below, you can compare two values. When two values are compared by using these operators, the result is a logical value either TRUE or FALSE. [^1]
+
+|Comparison operator | Meaning | Example|
+| --- | --- | --- |
+| = (equal sign)| Equal to | =A1=B1|
+| > (greater than sign) | Greater than | =A1>B1 |
+| < (less than sign) | Less than | =A1<B1 |
+| >= (greater than or equal to sign) | Greater than or equal to | =A1>=B1|
+| <= (less than or equal to sign) | Less than or equal to | =A1<=B1|
+| <> (not equal to sign) | Not equal to | =A1<>B1 |
+
+### Text concatenation operator
+
+Use the ampersand (&) to join, or concatenate, one or more text strings to produce a single piece of text.
+
+| Text operator | Meaning | Example |
+|---           |---    |--- |
+|& (ampersand) |Connects, or concatenates, two values to produce one continuous text value.| ="Muhammad"&" Ahmad"|
+
 ### Reference Operators
+
+Combine ranges of cells for calculations with these operators.
+
+| Reference operator | Meaning | Example |
+| --- | --- | --- |
+| : (colon) | Range operator, which produces one reference to all the cells between two references, including the two references. | =SUM(B5:B15)|
+| , (comma) | Union operator, which combines multiple references into one reference. | =SUM(B5:B15,D5:D15) |
+|(space) | Intersection operator, which produces a reference to cells common to the two references. | =SUM(B7:D7 C6:C8) |
+| # (pound) | The # symbol is used in several contexts: Used as part of an error name. Used to indicate insufficient space to render. In most cases, you can widen the column until the contents display properly. Spilled range operator, which is used to reference an entire range in a dynamic array formula. | #VALUE!, #####,  =SUM(A2#)|
+| @ (at) | Reference operator, which is used to indicate implicit intersection in a formula. | =@A1:A10 | =SUM(Table1[@[January]:[December]])|
 
 ## Operand
 
@@ -95,14 +130,17 @@ Here are some other examples of the PEMDAS order of operations in Excel:
 
 You can use parentheses in Excel to override the PEMDAS order of operations and change the order in which operations are performed. This can be useful for creating more complex formulas.
 
+Watch this video on [Operator order in Excel](https://support.microsoft.com/en-us/office/video-operator-order-in-excel-2013-4af9541b-1c79-41cb-a0cf-dbced6c9ae4e) to learn more.
+
 ## Creating a formula
 
 1. By placing an equal sign in the cell that is to hold the result and then pointing and clicking those cells that contain the operands.
 2. By writing the cell addresses of cells that you want to use for your calculation in your result cell
 
-[Video Tutorial: How to Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70?si=v_zE08edCBRU9Hsh)
+Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_zE08edCBRU9Hsh)
 
 ## Review Questions
+
 
 ## Excercises
 
@@ -197,6 +235,10 @@ The result, 150, should appear in cell A3.
 
 - In cell A12, enter the original price (e.g., 50), and in cell B12, enter the discount percentage (e.g., 20%).
 - In cell C12, use the formula `=A12 - (A12 * B12)` to calculate the discounted price.
+
+## References
+
+[^1:] [Calculation operators and precedence in Excel](https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a)
 
 ## Muhammad Yasir Bhutta
 
