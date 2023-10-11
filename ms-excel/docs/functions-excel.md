@@ -283,6 +283,21 @@ An invalid cell is referenced in the formula
 
 **Note: **You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
 
+### Review Questions
+
+Beginner:
+
+1. What is the formula to calculate the sum of a range of cells?
+2. What is the formula to calculate the average of a range of cells?
+3. What is the formula to count the number of cells in a range that contain a specific value?
+4. What is the formula to calculate the minimum or maximum value in a range of cells?
+5. What is the formula to round a number to a specific number of decimal places?
+
+Intermediate:
+
+6. What is the difference between a relative cell reference and an absolute cell reference?
+How do you use the $ symbol to lock cell references in a formula?
+
 ### Excercises
 
 **Exercise 1:**

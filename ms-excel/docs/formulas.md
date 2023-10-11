@@ -141,6 +141,15 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Review Questions
 
+Beginner:
+
+1. What are the different types of Excel operators?
+2. What is the order of precedence for Excel operators?
+3. How do you use parentheses to control the order of operations in a formula?
+
+Intermediate:
+
+1. What is the difference between arithmetic operators, comparison operators, logical operators, and text operators?
 
 ## Excercises
 
