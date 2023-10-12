@@ -133,7 +133,180 @@ for i = 1:5
 end
 ```
 
+## while loop
+
+- A while loop in MATLAB is a control flow statement that repeatedly executes a block of code until a specified condition is met.  [^1]
+- While loops can be used to implement a variety of algorithms, such as finding the sum of a series of numbers, searching for a specific element in a list, or performing some task until a certain condition is met.
+
+### Syntax
+
+The syntax for a while loop is as follows:
+
+```matlab
+while expression
+    statements
+end
+```
+
+The `expressio` is a logical expression that evaluates to `true` or `false`. If the expression evaluates to true, the statements in the loop body are executed. The loop then repeats, and the expression is evaluated again. This process continues until the expression evaluates to false, at which point the loop terminates.
+
+#### Example 1: Print "Hello, world!" to the console 10 times.
+
+```matlab
+i = 1;
+while i <= 10
+    disp('Hello, world!');
+    i = i + 1;
+end
+```
+
+#### Example 2: Print the numbers from 1 to 10
+
+```matlab
+% Initialize a variable
+i = 1;
+
+% While the variable i is less than or equal to 10, print the value of i to the console
+while i <= 10
+  fprintf('The value of i is: %d\n', i);
+
+  % Increment the variable i
+  i = i + 1;
+end
+```
+
+#### Example 3: Sum the numbers from 1 to 100.
+
+```matlab
+i = 1;
+sum = 0;
+while i <= 100
+    sum = sum + i;
+    i = i + 1;
+end
+disp(sum);
+```
+
+#### Example 4: Sum of  Even Numbers
+
+```matlab
+sum = 0;  % Initialize a variable to store the sum
+number = 2;  % Start with the first even number
+
+while number <= 20
+    sum = sum + number;  % Add the current number to the sum
+    number = number + 2;  % Increment to the next even number
+end
+
+fprintf('The sum of even numbers from 2 to 20 is: %d', sum);
+```
+
+#### Example 5: User Input Validation
+
+In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
+
+```matlab
+userInput = -1;  % Initialize the user input with an invalid value
+
+while userInput <= 0
+    userInput = input('Enter a positive number: ');
+
+    if userInput <= 0
+        disp('Invalid input. Please enter a positive number.');
+    end
+end
+
+disp(['You entered a valid positive number: ' num2str(userInput)]);
+```
+
+#### Example 6
+
+This example shows how to use a while loop to read a line of input from the user until they enter a blank line.
+
+```matlab
+inputStr = 'Start';
+while ~isempty(inputStr)
+  inputStr = input('Enter a line of text:', 's');
+end
+
+disp('You entered a blank line.')
+```
+
 ## Conditional Statements / Branches
+
+### if statement
+
+#### Example
+
+This example shows how to use a while loop to search for a specific element in an array.
+
+```matlab
+array = [1, 3, 5, 7, 9];
+elementToFind = 7;
+
+index = 1;
+
+while index <= length(array) && array(index) ~= elementToFind
+  index = index + 1;
+end
+
+if index > length(array)
+  disp('Element not found.')
+else
+  fprintf('Element found at index %d.', index);
+end
+```
+
+line-by-line explanation of the above MATLAB code example:
+
+```matlab
+array = [1, 3, 5, 7, 9];
+```
+
+This line creates an array named array containing the elements 1, 3, 5, 7, and 9. This array is used to search for a specific element.
+
+```matlab
+elementToFind = 7;
+```
+
+This line creates a variable called `elementToFind` and assigns it the value 7. This is the element that the code will search for in the `array`.
+
+```matlab
+index = 1;
+```
+
+This line initializes a variable index to 1. This variable will be used to keep track of the current index while searching for elementToFind.
+
+```matlab
+while index <= length(array) && array(index) ~= elementToFind
+  index = index + 1;
+end
+```
+
+This is the start of a while loop. It continues to execute as long as two conditions are met:
+
+1. `index` is less than or equal to the length of the `array`.
+2. The element at the current index of `array` (given by `array(index)`) is not equal to elementToFind.
+
+Inside the loop, the `index` is incremented by 1 in each iteration. This loop effectively searches for `elementToFind` in the `array`.
+
+```matlab
+if index > length(array)
+  disp('Element not found.')
+else
+  fprintf('Element found at index %d.', index);
+end
+```
+
+This is an if statement. If the `index` variable is greater than the length of the `array`, then the code displays the message "Element not found." Otherwise, the code displays the message "Element found at index %d.", where %d is the index of the `elementToFind`.
+
+To summarize, this code searches for elementToFind in the array using a while loop and reports whether the element was found or not. The result is displayed in the console.
+
+Output:
+
+```matlab
+Element found at index 4.
+```
 
 ## Review Questions
 
@@ -314,7 +487,10 @@ d. 3
 #### While loop
 
 - What is the difference between a for loop and a while loop?
-- 
+
+## References
+
+[^1] [while loop to repeat when condition is true - MATLAB while](https://www.mathworks.com/help/matlab/ref/while.html)
 
 ## Muhammad Yasir Bhutta
 

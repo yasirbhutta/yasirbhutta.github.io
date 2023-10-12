@@ -7,6 +7,31 @@
 
 ## Introduction
 
+## Comments
+
+- Comments in MATLAB are used to explain the code and make it more readable.
+- Comments are ignored by the MATLAB interpreter, so they do not affect the execution of the code.
+
+There are two ways to add comments in MATLAB:
+
+- **Single-line comments:** Start a single-line comment with a percent sign (%). Everything on the line after the percent sign is ignored by the MATLAB interpreter. For example:
+
+```matlab
+
+% This is a comment.
+
+```
+
+- **Block comments:** Start a block comment with a pair of curly braces (%{ and %}). Everything between the curly braces is ignored by the MATLAB interpreter. Block comments can be used to comment out multiple lines of code. For example:
+
+```matlab
+%{
+This is a block comment.
+It can be used to comment out multiple lines of code.
+%}
+
+```
+
 ## Data Input
 
 ### What is variable
@@ -131,7 +156,7 @@ disp(result);
 
 ### fprintf command
 
-- The fprintf command is used to format and display data on the command window or write data to a file.
+- The fprintf command is used to format and display data on the command window or write data to a file.[^1]
 - It takes a variable number of arguments, the first of which is a format string that specifies how the data should be formatted. The remaining arguments are the data values that should be printed.
 - The format string is a sequence of characters that tells MATLAB how to format the data. It can include characters such as "%d" for integers, "%f" for floats, and "%s" for strings. The format string can also include other characters, such as spaces and commas, to control the appearance of the output.
 
@@ -269,52 +294,44 @@ fprintf('Age = %d \n', age);
 
 ## Resources
 
-
 ### MCQS
 
-1. **Which of the following is the correct extension of the Python file?**
+> What is the purpose of the input function in MATLAB?
 
->**a.** .python
->**b.**  .pl
->**c.**  .p
->**d.**  .py
+1. [ ] To display text on the console
+2. [ ] To wait for a key press
+3. [x] To take user input from the console
+4. [ ] To pause script execution
 
-1. **What is the purpose of the input function in MATLAB?**
+> Which command is used in MATLAB for interactive debugging by pausing script execution and entering the debug mode?
 
->**a.** To display text on the console
->**b.** To wait for a key press
->**c.** To take user input from the console
->**d.** To pause script execution
-
-2. **Which keyword is used in MATLAB for interactive debugging by pausing script execution and entering the debug mode?**
-
->**a.** stop
->**b.** keyboard
->**c.** break
->**d.** pause
+1. [ ] stop
+2. [x] keyboard
+3. [ ] break
+4. [ ] pause
 
 #### Input Command (MCQs)
 
-##### What does the pause function in MATLAB do?
+> What does the pause function in MATLAB do?
 
-- a. Stops the execution of the script
-- b. Adds a delay in script execution
-- c. Accepts keyboard input from the user
-- d. Prints a message to the console
+1. [ ] Stops the execution of the script
+2. [x] Adds a delay in script execution
+3. [ ] Accepts keyboard input from the user
+4. [ ] Prints a message to the console
 
-##### Which of the following is true about the input function in MATLAB?
+> Which of the following is true about the input function in MATLAB?**
 
-a. It only accepts numerical input
-b. It always displays a message to the user
-c. It can accept both numerical and string input
-d. It cannot be used in MATLAB scripts
+1. [ ] It only accepts numerical input
+2. [ ] It always displays a message to the user
+3. [x] It can accept both numerical and string input
+4. [ ] It cannot be used in MATLAB scripts
 
-1. **Which of the following is a correct usage of the input function in MATLAB?**
+> Which of the following is a correct usage of the input function in MATLAB?
 
-a. input('Enter a number: ')
-b. keyboard('Please enter a number: ')
-c. pause('Enter a value: ')
-d. None
+1. [x] input('Enter a number: ')
+2. [ ] keyboard('Please enter a number: ')
+3. [ ] pause('Enter a value: ')
+4. [ ] None
 
 ##### Which of the following is true about the input function's behavior if the user enters non-numeric input when expecting a number?
 
@@ -551,7 +568,11 @@ fprintf('Hello,\nworld!\n')
 1. Write a MATLAB script that prompts the user for their name and age, and then displays a greeting message that includes their name and age.
 2. Write a MATLAB script that prompts the user for two numbers, and then displays the sum, difference, product, and quotient of the two numbers.
 3. Write a MATLAB script that prompts the user for a vector of numbers, and then displays the maximum, minimum, mean, and median of the vector.
-4. 
+
+## References
+
+[^1:] [MATLAB fprintf - MathWorks](https://www.mathworks.com/help/simulink/slref/fprintf.html)
+
 
 
 Muhammad Yasir Bhutta
