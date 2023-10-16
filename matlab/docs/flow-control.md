@@ -335,7 +335,7 @@ Element found at index 4.
 - **Infinite loops:** This occurs when the condition for the while loop is always true, which causes the loop to execute forever.
 - **Unreachable code:** This occurs when the code inside the while loop is never executed because the condition for the loop is never met.
 
-13.   What is the difference between a for loop and a while loop?
+13. What is the difference between a for loop and a while loop?
 
 **Answer:** A for loop is used to execute a block of code a fixed number of times. A while loop is used to execute a block of code repeatedly as long as a condition is true.
 
