@@ -39,7 +39,8 @@
 
 ## Functions
 
-[Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
+- [Lecture Notes - Functions](functions.md)
+- [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
 [Download - Handouts](functions-excel.md)
 - Cell references
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)

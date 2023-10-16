@@ -4,9 +4,13 @@
 
 - A formula is an equation that performs operations on a worksheet data.
 
+### See also
+
+- [Video Tutorial: Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70?si=mpqApcElM6A75MQn)
+
 ### Structure of a Formula
 
-- All the formula have to begin with an equal sign [=] 
+- All the formula have to begin with an equal sign [=]
 - The = sign is followed by the elements to be calculated [the operands]
 - Operands are separated by calculation operators
 
@@ -138,6 +142,8 @@ Watch this video on [Operator order in Excel](https://support.microsoft.com/en-u
 2. By writing the cell addresses of cells that you want to use for your calculation in your result cell
 
 Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_zE08edCBRU9Hsh)
+
+- [Video Tutorial: Enter formula in multiple cells using array formulas in excel](https://youtu.be/T9kXiBI3Y7c?si=t3oGXL71y0sUua2w)
 
 ## Review Questions
 

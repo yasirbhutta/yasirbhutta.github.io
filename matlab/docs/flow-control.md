@@ -506,6 +506,10 @@ end
 3. [ ] 1 2 4 5
 4. [ ] 3
 
+#### while loop
+
+
+
 ## References
 
 [^1] [while loop to repeat when condition is true - MATLAB while](https://www.mathworks.com/help/matlab/ref/while.html)

@@ -63,6 +63,8 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 - Cell borders that you apply on cell in sheets to appear on printed pages.
 - By using predefined border styles, you can quickly add a border around cells or ranges of cells. If predefined cell borders do not meet your needs, you can create a custom border.[^8]
 
+- [Video Tutorial: How to: Apply cells border | Microsoft Excel | Mobile App](https://youtu.be/okBLEJLE0t8?si=QM9lejQZ0l2YEFoA)
+
 #### Apply a predefined cell border
 
 ##### Windows
@@ -104,6 +106,8 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 - Merge and Center is a feature in Microsoft Excel that allows you to combine two or more cells into one cell and align the contents of the merged cells in the center.
 - This feature is useful when you want to create a label that spans multiple columns or rows, or when you want to merge cells containing text or numbers into a single cell.
 - You can't split an individual cell, but you can make it appear as if a cell has been split by merging the cells above it. [^3]
+
+- [Video Tutorial: Merge & Center and Wrap text in excel mobile app](https://youtu.be/DPYDYL4UT-0?si=lu_Wz1hzLhLFiTyj)
 
 #### Merge adjacent cells
 
@@ -171,6 +175,9 @@ To apply several formats in one step, and to make sure that cells have consisten
 - These number formats include:
   - currency, accounting, percentage, date, time, fraction, and scientific, as well as a few special formats.
 
+- [Video Tutorial: Format numbers as Text in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=XGShL-JggO1N_95C)
+- [Video Tutorial: Change Date Format](https://youtu.be/Cty8tgm7YtE?si=tqgGcZRxllmLD6RE)
+
 #### To Change a Cell's Number Format
 
 ##### Windows
@@ -227,6 +234,8 @@ To apply several formats in one step, and to make sure that cells have consisten
 #### Remove Table Style
 
 ## Card View
+
+- [Video Tutorial: How to: use a cards view in excel | Microsoft Excel | Mobile App](https://youtu.be/6qwfFHMSw98?si=i-1kf7rRvoHYE2YV)
 
 ## Insert & Delete
 

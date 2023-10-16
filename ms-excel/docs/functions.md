@@ -1,12 +1,17 @@
 # Microsoft Excel - Microsoft 365
 
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
+
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
+
 ## Functions in Excel
 
 ### Cell References
 
-- A cell reference refers to a cell or a range of cells on a worksheet. 
+- A cell reference refers to a cell or a range of cells on a worksheet.
 - It identifies a cell by referring to the row and column headings. When referring to a cell, enter the column letter followed by the row number Example
-- **A10** refers to the cell at the intersection of column A and row 10 
+- **A10** refers to the cell at the intersection of column A and row 10.
 
 ### Copying Formulae
 
@@ -33,6 +38,8 @@
 - To place a $ sign before a Column letter and Row number of a Cell click on the cell that contains the absolute value and press **F4 Key**.
   
 **For example,** if you enter the formula `=$A1+$B1` into cell C1, and then copy that formula to cell D2, the formula will remain the same. This is because Excel knows that you want to add the specific cells A1 and B1, regardless of where the formula is copied.
+
+- [Video Tutorial: Create an Absolute Reference in Excel](https://youtu.be/NDBp1p6g_4c?si=ULHKKtku6Ts6U_Zz)
 
 #### Mixed Cell Reference
 
@@ -63,7 +70,7 @@ The normal order for a function is:-
 
 - Function Name,
 - The opening parenthesis
-- Arguments for the function separated by commas and closing parenthesis. 
+- Arguments for the function separated by commas and closing parenthesis.
 
 #### 10 Most popluar functions
 
@@ -77,19 +84,28 @@ The SUM function adds values. You can add individual values, cell references or 
 
 **Note:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
 
-Use AutoSum to sum numbers
+**Use AutoSum to sum numbers**
+
+- [Video Tutorial: Use of Sum function and AutoSum to sum numbers | Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
 
 Further reading:
 
 - [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
-- [Use AutoSum to sum numbers - Microsoft Support](#)
+- Use AutoSum to sum numbers - Microsoft Support [[Windows]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706) [[Android]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android)
 
+##### Use of cell references in a formula
+
+- [Video Tutorial: Use cell refenences in a formul in Microsoft Excel](https://youtu.be/mdmYAOeGJoQ?si=xGxjvagLaCTQSlBp)
+  
 ##### MAX
 
 Returns the largest value in a set of values.
 
 >Syntax  
+
+```excel
 MAX(number1, [number2], ...)
+```
 
 The MAX function syntax has the following arguments:
 Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
@@ -99,15 +115,20 @@ Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1
 Returns the smallest number in a set of values.
 
 >**Syntax**  
+
+```excel
 MIN(number1, [number2], ...)
+```
 
 The MIN function syntax has the following arguments:
 Number1, number2, ...    Number1 is optional, subsequent numbers are optional. 1 to 255 numbers for which you want to find the minimum value.
 
+- [Video Tutorial: use of MAX() and MIN() functions in excel](https://youtu.be/v-HPGVPpEvE?si=Kah5qhLKiHNyhcW-)
+
 further reading:
 
-- [MAX function - Microsoft Support](#)
-- [MIN function - Microsoft Support](#)
+- [MAX function - Microsoft Support](https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098#:~:text=The%20MAX%20function%20syntax%20has,to%20find%20the%20maximum%20value.)
+- [MIN function - Microsoft Support](https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152#:~:text=The%20MIN%20function%20syntax%20has,to%20find%20the%20minimum%20value.)
 
 #### COUNT
 
@@ -116,43 +137,54 @@ further reading:
 
 For example, you can enter the following formula to count the numbers in the range A1:A20: =COUNT(A1:A20). In this example, if five of the cells in the range contain numbers, the result is 5.
 
+- [Video Tutorial: Count function in excel](https://youtu.be/KHTWvRaorWs?si=DveQ1O9i44SpHvjp)
+- [Video Tutorial: Use of COUNTA function](https://youtu.be/0JCfxebwKa4?si=fT9eBy3X1i5qmhER)
 further reading:
 
-- [COUNT function - Microsoft Support](#)
+- [COUNT function - Microsoft Support](https://support.microsoft.com/en-us/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c#:~:text=The%20COUNT%20function%20counts%20the,range%20or%20array%20of%20numbers.)
 
 ##### POWER
 
 Returns the result of a number raised to a power.
 
 >Syntax  
+
+```excel
 POWER(number, power)
+```
 
 The POWER function syntax has the following arguments:
 
 Number Required. The base number. It can be any real number.
 Power Required. The exponent to which the base number is raised.
 
+```excel
 =POWER(5,2)
-Number
-Power
+```
 
+- [Video Tutorial: Power function in excel](https://youtu.be/Brd7LkDfPXY?si=W8I3vV92mN6WE1Cl)
+  
 further reading:
 
-- POWER function - Microsoft Support
+- [POWER function - Microsoft Support](https://support.microsoft.com/en-au/office/power-function-d3f2908b-56f4-4c3f-895a-07fb519c362a)
 
 ##### PRODUCT function
 
 - The PRODUCT function multiplies all the numbers given as arguments and returns the product.
 - The PRODUCT function is useful when you need to multiply many cells together.
 
-For example, the formula =PRODUCT(A1:A3, C1:C3) is equivalent to =A1 * A2 * A3 * C1 * C2 * C3.
+For example, the formula =PRODUCT(A1:A3, C1:C3) is equivalent to `=A1 * A2 * A3 * C1 * C2 * C3`.
 
+```excel
 =Product(5,2)
 =Product(C6:E6)
+```
 
-further reading: 
+- [Video Tutorial: PRODUCT function in excel](https://youtu.be/G-6sxw5Dvpw?si=oZ4INRYwoIg223lc)
+  
+further reading:
 
-- [PRODUCT function - Microsoft Support]()
+- [PRODUCT function - Microsoft Support](https://support.microsoft.com/en-gb/office/product-function-8e6b5b24-90ee-4650-aeec-80982a0512ce#:~:text=Description,arguments%20and%20returns%20the%20product.)
 
 ##### Average function
 
@@ -160,16 +192,20 @@ further reading:
 
 For example, if the range A1:A20 contains numbers, the formula =AVERAGE(A1:A20) returns the average of those numbers.
 
+- [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
+
 further reading:
 
-- [AVERAGE function - Microsoft Support]
+- [AVERAGE function - Microsoft Support](https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)
 
 ##### IF function
 
 - The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
 - So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.
 
-For example, =IF(C2=”Yes”,1,2) says IF(C2 = Yes, then return a 1, otherwise return a 2).
+For example, `=IF(C2=”Yes”,1,2)` says IF(C2 = Yes, then return a 1, otherwise return a 2).
+
+- [Video Tutorial:Use of IF function in excel](https://youtu.be/hftoKkdWNRk?si=POM60zBSWg5tZ-i8)
 
 further reading:
 
@@ -180,19 +216,26 @@ further reading:
 The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.
 
 further reading:
-[NOW function - Microsoft Support](#)
+
+- [NOW function - Microsoft Support](https://support.microsoft.com/en-au/office/now-function-3337fd29-145a-4347-b2e6-20c904739c46)
 
 ##### TODAY
 
-The TODAY function is useful when you need to have the current date displayed on a worksheet, regardless of when you open the workbook. 
+The TODAY function is useful when you need to have the current date displayed on a worksheet, regardless of when you open the workbook.
 
 For example, if you know that someone was born in 1963, you might use the following formula to find that person's age as of this year's birthday:
 
-= YEAR( TODAY())-1963
+```excel
+= YEAR(TODAY())-1963
+```
+
+- [Video Tutorial: TODAY and NOW functions in excel](https://youtu.be/9ETguwC7Jnk?si=COwxFgKO5WBe1WKX)
 
 further reading:
 
-- [TODAY function - Microsoft Support](#)
+- [TODAY function - Microsoft Support](https://support.microsoft.com/en-au/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)
+- [Insert the current date and time in a cell - Microsoft Support](https://support.microsoft.com/en-gb/office/insert-the-current-date-and-time-in-a-cell-b5663451-10b0-40ab-9e71-6b0ce5768138)
+
 
 #### Change the case of Text
 
@@ -216,10 +259,13 @@ Text    Required. The text you want converted to uppercase. Text can be a refere
 
 **PROPER function:**
 
-further reading: 
+- [Change the case of text in excel](https://youtu.be/X38NcRn0PhM?si=pCO7K-DuBJKz5G9b)
 
-- [LOWER function - Microsoft Support](#)
-- [UPPER function - Microsoft Support](#)
+further reading:
+
+- [LOWER function - Microsoft Support](https://support.microsoft.com/en-us/office/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4#:~:text=The%20LOWER%20function%20syntax%20has,text%20that%20are%20not%20letters.)
+- [UPPER function - Microsoft Support](https://support.microsoft.com/en-gb/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6)
+- [Change the case of text - Microsoft Support](https://support.microsoft.com/en-gb/office/change-the-case-of-text-01481046-0fa7-4f3b-a693-496795a7a44d)
 
 #### LEN function
 
@@ -232,18 +278,22 @@ LENB(text)
 
 Text Required. The text whose length you want to find. Spaces count as characters.
 
-further reading: 
+further reading:
 
-- [LEN, LENB functions - Microsoft Support]
-
+- [LEN, LENB functions - Microsoft Support](https://support.microsoft.com/en-gb/office/len-lenb-functions-29236f94-cedc-429d-affd-b5e33d2c67cb#:~:text=LEN%20returns%20the%20number%20of,be%20available%20in%20all%20languages.)
+  
 #### COUNTIF function
 
 Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
 
 For example:
 
+```excel
 =COUNTIF(A2:A5,"London")
 =COUNTIF(A2:A5,A4)
+```
+
+- [Video Tutorial: Use of COUNTIF function in excel](https://youtu.be/Uv-j-N7wdTo?si=GjA232Ni4UVt0cEv)
 
 further reading:
 
@@ -258,11 +308,19 @@ For example, suppose that in a column that contains numbers, you want to sum onl
 >Syntax  
 SUMIF(range, criteria, [sum_range])
 
-further reading: 
+- [Video Tutorial: SUMIF function in excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
+  
+further reading:
 
 - [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
 
+#### Concat function
+
+- [Join First Name and Last Name in the Excel | CONCAT function](https://youtu.be/6Puk_HhpFRM?si=NjnKFCa6bBOsMJIH)
+
 ### Formula Errors
+
+- [Video Tutorial: Top 4 Most Common Excel Errors](https://youtu.be/Rh0I5B-0uHM?si=nv9OyoivwApx0ssf)
 
 - "######"
 This error occurs when a column is not wide enough, or a negative date or time is used.
@@ -279,8 +337,34 @@ An invalid cell is referenced in the formula
 
 - #N/A
 
+**Note:** You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
 
-**Note: **You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
+### New functions - Microsoft 365
+
+- [Find Employee using XLOOKUP function](https://youtu.be/vUCB2zLwG3g)
+- [Generate Serial # using sequence](https://youtu.be/gKds5egFFJI)
+- [CHOOSECOL](https://youtu.be/ZzdTxA0Elqk)
+- [How to: Filter data by using a formula in excel](https://youtu.be/B1nPF2OGkKI)
+- [TEXTSPLIT: split cells / text strings by delimiter](https://youtu.be/hRr9YnZvK6w)
+
+### More Functions
+
+- [Video Tutorial: Insert copyright, registered and trademark symbols | Microsoft Excel](https://youtu.be/Zf-VfFlCMYI?si=sHIXhL5g4aG1w4fi)
+- [Video Tutorial: Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
+- [Video Tutorial: DAYS](https://youtu.be/1CRDkupdYrQ)
+- [Video Tutorial: TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
+- [Video Tutorial: Display formula of cell as string in Excel](https://youtu.be/lUg8zYzisuk)
+- [Video Tutorial: Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
+- [Video Tutorial: Date](https://youtu.be/UpJluY3XY74)
+- [Video Tutorial: Generate Serial # using sequence in excel](https://youtu.be/gKds5egFFJI?si=JP4kFby1VPxJOb9i)
+- [Video Tutorial: Converts a number from one measurement system to another | Microsoft Excel](https://youtu.be/ilEpvXG1NO4?si=mXBMoNtCiPXuvu6j)
+- [Video Tutorial: Generate a sequence end with text | Microsoft Excel](https://youtu.be/urzWGZDpGGk?si=WGFdphwk0dSXT6XE)
+- [Video Tutorial: Format numbers as TEXT in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=q95ulIUXbHdmQxjs)
+- [Video Tutorial: Append data from multiple sheets into one sheet | Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
+
+
+- [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App | Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
+
 
 ### Review Questions
 
@@ -313,8 +397,6 @@ Beginner:
 ```
 
 What is conditional formatting, and how can you use it to highlight specific data in Excel?
-
-
 
 ### Excercises
 
@@ -395,3 +477,9 @@ Which of the following formulas will return the value 10?
 (C) =MAX(1, 2, 3, 4)
 (D) =MIN(1, 2, 3, 4)
 
+## Muhammad Yasir Bhutta
+
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
