@@ -318,12 +318,34 @@ Element found at index 4.
 6. What is the purpose of the continue statement in a for loop?
 7. How can you calculate the cumulative sum of elements in an array using a for loop?
 8. What happens if you forget to increment the loop variable in a for loop?
+9. What is a while loop and what is it used for?
+10. What is the syntax for a while loop in MATLAB?
+11. How can you use a while loop to perform a repetitive task until a certain condition is met?
+12. Give an example of a while loop in MATLAB.
+13. What are some tips for using while loops effectively?
+**Answer:** Here are some tips for using while loops effectively:
+
+- Use a while loop when you need to execute a block of code repeatedly as long as a condition is true.
+- Make sure to update the condition variable in the loop body.
+- Test your loops carefully to make sure that they are working as expected.
+
+12. What are some common mistakes to avoid when using while loops?
+**Answer:** Some common mistakes that people make when writing while loops in MATLAB include:
+
+- **Infinite loops:** This occurs when the condition for the while loop is always true, which causes the loop to execute forever.
+- **Unreachable code:** This occurs when the code inside the while loop is never executed because the condition for the loop is never met.
+
+13.   What is the difference between a for loop and a while loop?
+
+**Answer:** A for loop is used to execute a block of code a fixed number of times. A while loop is used to execute a block of code repeatedly as long as a condition is true.
 
 ### Coding Questions
 
 1. Write a MATLAB for loop that prints the numbers from 1 to 10 to the command window.
 2. Write a MATLAB for loop that calculates the sum of the numbers from 1 to 10.
-3. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
+3. Write a while loop that prints the numbers from 1 to 100.
+4. Write a while loop that calculates the sum of the first 100 even numbers.
+5. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
 
 **Example output:**
 
@@ -367,47 +389,47 @@ A for loop can be nested inside another for loop. (True)
 
 ### For loop
 
-#### What is the default increment value for a MATLAB for loop?
+> What is the default increment value for a MATLAB for loop?
 
-A. 1
-B. 2
-C. 10
-D. None of the above
+1. [x] 1
+2. [ ] 2
+3. [ ] 10
+4. [ ] None of the above
 
-#### Which of the following is the correct syntax for a for loop in MATLAB?
+> Which of the following is the correct syntax for a for loop in MATLAB?
 
-A. for i = 1:10 % code block end
-B. for i = 1:10 % code block endfor
-C. for i = 1:10 do
-D. for i = 1:10
+1. [ ] for i = 1:10 % code block endfor
+2. [ ] for i = 1:10 do
+3. [x] for i = 1:10 % code block end
+4. [ ] for i = 1:10
 
-#### What is the purpose of the increment expression in a for loop?
+> What is the purpose of the increment expression in a for loop?
 
-A. To set the initial value of the loop counter
-B. To specify the number of times the loop will iterate
-C. To determine the step size between iterations
-D. All of the above
+1. [ ] To set the initial value of the loop counter
+2. [ ] To specify the number of times the loop will iterate
+3. [x] To determine the step size between iterations
+4. [ ] All of the above
 
-#### In MATLAB, what is the primary purpose of a for loop?
+> In MATLAB, what is the primary purpose of a for loop?
 
-a. To create a sequence of numbers
-b. To execute a block of code repeatedly a specified number of times
-c. To check if a condition is true
-d. To perform mathematical calculations
+1. [ ] To create a sequence of numbers
+2. [x] To execute a block of code repeatedly a specified number of times
+3. [ ] To check if a condition is true
+4. [ ] To perform mathematical calculations
 
 #### What is the structure of a for loop in MATLAB?
 
-a. for i = 1:10
-b. repeat 10 times
-c. while i < 10
-d. if i = 1 to 10
+1. [x] for i = 1:10
+2. [ ] repeat 10 times
+3. [ ] while i < 10
+4. [ ] if i = 1 to 10
 
 #### How is the loop variable updated in a for loop?
 
-a. Automatically by MATLAB
-b. It is not updated
-c. Manually within the loop
-d. The loop variable cannot be changed
+1. [ ] Automatically by MATLAB
+2. [ ] It is not updated
+3. [ ] Manually within the loop
+4. [x] The loop variable cannot be changed
 
 #### What is the output of the following for loop?
 
@@ -417,12 +439,12 @@ for i = 1:5
 end
 ```
 
-a. 1 2 3 4 5
-b. 5 4 3 2 1
-c. 1 1 1 1 1
-d. No output is generated.
+1. [x] 1 2 3 4 5
+2. [ ] 5 4 3 2 1
+3. [ ] 1 1 1 1 1
+4. [ ] No output is generated.
 
-#### What is the expected output of the following MATLAB code?
+>What is the expected output of the following MATLAB code?
 
 ```matlab
 for i = 2:2:10
@@ -430,12 +452,12 @@ for i = 2:2:10
 end
 ```
 
-a. 2 4 6 8 10
-b. 1 3 5 7 9
-c. 2 4 8
-d. 2 4 6 10
+1. [ ] 2 4 6 8 10
+2. [ ] 1 3 5 7 9
+3. [ ] 2 4 8
+4. [x] 2 4 6 10
 
-#### What is the expected output of the following MATLAB code?
+>What is the expected output of the following MATLAB code?
 
 ```matlab
 sum = 0;
@@ -445,12 +467,12 @@ end
 disp(sum);
 ```
 
-a. 0
-b. 1
-c. 15
-d. 10
+1. [ ] 0
+2. [ ] 1
+3. [x] 15
+4. [ ] 10
 
-#### What is the expected output of the following MATLAB code?
+> What is the expected output of the following MATLAB code?
 
 ```matlab
 for i = 1:4
@@ -462,12 +484,12 @@ end
 
 ```
 
-a. 1 2
-b. 1 2 3 4
-c. 1 2 4
-d. 4
+1. [ ] 1 2
+2. [ ] 1 2 3 4
+3. [x] 1 2 4
+4. [ ] 4
 
-#### What is the expected output of the following MATLAB code?
+> What is the expected output of the following MATLAB code?
 
 ```matlab
 for i = 1:5
@@ -479,14 +501,10 @@ end
 
 ```
 
-a. 1 2 3 4 5
-b. 1 2
-c. 1 2 4 5
-d. 3
-
-#### While loop
-
-- What is the difference between a for loop and a while loop?
+1. [ ] 1 2 3 4 5
+2. [x] 1 2
+3. [ ] 1 2 4 5
+4. [ ] 3
 
 ## References
 
