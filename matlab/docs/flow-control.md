@@ -30,7 +30,7 @@ The loop counter variable is incremented by 1 after each iteration of the loop. 
 
 #### MATLAB Example: Printing "Hello, World!" Ten Times Using a for Loop
 
-Write a MATLAB program to print the string "Hello, world!" 10 times, using a for loop?
+**Question:** Write a MATLAB program to print the string "Hello, world!" 10 times, using a for loop?
 
 ```matlab
 for i = 1:10
@@ -40,7 +40,7 @@ end
 
 #### MATLAB Example: Print Numbers from 1 to 5
 
-Write a MATLAB for loop that prints the numbers from 1 to 5 to the command window?
+**Question:** Write a MATLAB program to print the numbers from 1 to 5, using a for loop?
 
 ```matlab
    for i = 1:5
@@ -50,7 +50,7 @@ end
 
 #### MATLAB Example: Print the numbers from 1 to 10
 
-Write a MATLAB for loop that prints the numbers from 1 to 10 to the command window?
+**Question:** Write a MATLAB program to print the numbers from 1 to 10, using a for loop?
 
 ```matlab
 % Print the numbers from 1 to 10 to the console.
