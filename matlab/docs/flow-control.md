@@ -170,7 +170,8 @@ end
 
 #### Example 2: Print numbers from 1 to 10 using while loop
 
-**Write a MATLAB program to print the numbers from 1 to 10, using a while loop?**
+**Question:** Write a MATLAB program to print the numbers from 1 to 10, using a while loop?
+>
 
 ```matlab
 % Initialize a variable
