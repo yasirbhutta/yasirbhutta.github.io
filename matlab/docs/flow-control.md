@@ -150,7 +150,7 @@ end
 
 The `expression` is a logical expression that evaluates to `true` or `false`. If the expression evaluates to true, the statements in the loop body are executed. The loop then repeats, and the expression is evaluated again. This process continues until the expression evaluates to false, at which point the loop terminates.
 
-#### Example 1: Print "Hello, world!" to the console 10 times
+#### Example 1: Print "Hello, world!" 10 times using while loop
 
 ```matlab
 i = 1;
@@ -160,7 +160,7 @@ while i <= 10
 end
 ```
 
-#### Example 2: Print the numbers from 1 to 10
+#### Example 2: Print numbers from 1 to 10 using while loop
 
 ```matlab
 % Initialize a variable
@@ -175,7 +175,7 @@ while i <= 10
 end
 ```
 
-#### Example 3: Sum the numbers from 1 to 100.
+#### Example 3: Sum of numbers from 1 to 100 using while loop
 
 ```matlab
 i = 1;
@@ -187,7 +187,7 @@ end
 disp(sum);
 ```
 
-#### Example 4: Sum of  Even Numbers
+#### Example 4: Sum of even numbers from 2 to 20 using while loop
 
 ```matlab
 sum = 0;  % Initialize a variable to store the sum
@@ -201,7 +201,18 @@ end
 fprintf('The sum of even numbers from 2 to 20 is: %d', sum);
 ```
 
-#### Example 5: User Input Validation
+#### Example: Square of numbers less than 5 using while loop
+
+```matlab
+i = 1;
+while i < 5
+    square = i ^ 2;
+    fprintf('Square of %d is %d \n', i, square);
+    i = i + 1;
+end
+```
+
+#### Example 5: User Input Validation - Validate positive number using while loop
 
 In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
 
@@ -233,6 +244,27 @@ end
 
 disp('You entered a blank line.')
 ```
+
+#### Example: Sum of given numbers till the number entered is zero
+
+```matlab
+% Initialize the sum
+sum = 0;
+
+% Prompt the user to enter a number
+number = input('Enter a number: ');
+
+% While the number entered is not zero, add the number to the sum and prompt the user to enter another number
+while number ~= 0
+    sum = sum + number;
+    number = input('Enter another number: ');
+end
+
+% Display the sum of the numbers
+fprintf('The sum of the numbers is: %d', sum);
+```
+
+This program works by initializing a variable sum to 0. Then, it prompts the user to enter a number. While the number entered is not zero, the program adds the number to the sum and prompts the user to enter another number. Finally, the program displays the sum of the numbers to the console.
 
 ## Conditional Statements / Branches
 
@@ -348,7 +380,12 @@ Element found at index 4.
 3. Write a while loop that prints the numbers from 1 to 100.
 4. Write a while loop that calculates the sum of the first 100 even numbers.
 5. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
+6. Write a MATLAB program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers to the console.
 
+### Challenging Coding questions
+
+- Write a MATLAB program to add all the even numbers entered by the user until the user enters zero. The program should display the sum of the even numbers to the console.
+  
 **Example output:**
 
 ```matlab
@@ -369,11 +406,11 @@ Multiplication table for 5
 10 * 5 = 50
 ```
 
-2. Write a MATLAB program that uses a for loop to print the numbers from 1 to 10.
-3. Create a MATLAB program that calculates the sum of all even numbers from 1 to 50 using a for loop.
-4. Write a for loop to print the even numbers from 1 to 100.
-5. Write a for loop to find the factorial of a given number.
-6. Write a for loop to find the prime numbers from 1 to 100.
+1. Write a MATLAB program that uses a for loop to print the numbers from 1 to 10.
+2. Create a MATLAB program that calculates the sum of all even numbers from 1 to 50 using a for loop.
+3. Write a for loop to print the even numbers from 1 to 100.
+4. Write a for loop to find the factorial of a given number.
+5. Write a for loop to find the prime numbers from 1 to 100.
 
 ## Multiple Choice
 
