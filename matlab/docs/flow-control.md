@@ -30,6 +30,8 @@ The loop counter variable is incremented by 1 after each iteration of the loop. 
 
 #### MATLAB Example: Printing "Hello, World!" Ten Times Using a for Loop
 
+Write a MATLAB program to print the string "Hello, world!" 10 times, using a for loop?
+
 ```matlab
 for i = 1:10
     disp('Hello, world!');
@@ -45,6 +47,8 @@ end
 ```
 
 #### MATLAB Example: Print the numbers from 1 to 10
+
+Write a MATLAB for loop that prints the numbers from 1 to 10 to the command window?
 
 ```matlab
 % Print the numbers from 1 to 10 to the console.
@@ -66,6 +70,8 @@ end
 ```
 
 #### MATLAB Example: Calculate the sum of the numbers from 1 to 100
+
+Write a MATLAB for loop that calculates the sum of the numbers from 1 to 100?
 
 ```matlab
 sum = 0;
@@ -162,6 +168,8 @@ end
 
 #### Example 2: Print numbers from 1 to 10 using while loop
 
+Write a while loop that prints the numbers from 1 to 10.?
+
 ```matlab
 % Initialize a variable
 i = 1;
@@ -234,7 +242,7 @@ disp(['You entered a valid positive number: ' num2str(userInput)]);
 
 #### Example 6
 
-This example shows how to use a while loop to read a line of input from the user until they enter a blank line.
+Write a MATLAB program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line." to the console?
 
 ```matlab
 inputStr = 'Start';
@@ -246,6 +254,8 @@ disp('You entered a blank line.')
 ```
 
 #### Example: Sum of given numbers till the number entered is zero
+
+Write a MATLAB program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers to the console?
 
 ```matlab
 % Initialize the sum
@@ -375,16 +385,13 @@ Element found at index 4.
 
 ### Coding Questions
 
-1. Write a MATLAB for loop that prints the numbers from 1 to 10 to the command window.
-2. Write a MATLAB for loop that calculates the sum of the numbers from 1 to 10.
-3. Write a while loop that prints the numbers from 1 to 100.
-4. Write a while loop that calculates the sum of the first 100 even numbers.
-5. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
-6. Write a MATLAB program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers to the console.
+1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
+2. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
 
 ### Challenging Coding questions
 
 - Write a MATLAB program to add all the even numbers entered by the user until the user enters zero. The program should display the sum of the even numbers to the console.
+- Write a while loop that calculates the sum of the first 100 even numbers.
   
 **Example output:**
 
