@@ -148,9 +148,9 @@ while expression
 end
 ```
 
-The `expressio` is a logical expression that evaluates to `true` or `false`. If the expression evaluates to true, the statements in the loop body are executed. The loop then repeats, and the expression is evaluated again. This process continues until the expression evaluates to false, at which point the loop terminates.
+The `expression` is a logical expression that evaluates to `true` or `false`. If the expression evaluates to true, the statements in the loop body are executed. The loop then repeats, and the expression is evaluated again. This process continues until the expression evaluates to false, at which point the loop terminates.
 
-#### Example 1: Print "Hello, world!" to the console 10 times.
+#### Example 1: Print "Hello, world!" to the console 10 times
 
 ```matlab
 i = 1;
@@ -206,9 +206,10 @@ fprintf('The sum of even numbers from 2 to 20 is: %d', sum);
 In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
 
 ```matlab
-userInput = -1;  % Initialize the user input with an invalid value
 
-while userInput <= 0
+userInput = 1;  % Initialize the user input with an invalid value
+
+while userInput >= 0
     userInput = input('Enter a positive number: ');
 
     if userInput <= 0
@@ -217,6 +218,7 @@ while userInput <= 0
 end
 
 disp(['You entered a valid positive number: ' num2str(userInput)]);
+
 ```
 
 #### Example 6
