@@ -40,6 +40,8 @@ end
 
 #### MATLAB Example: Print Numbers from 1 to 5
 
+Write a MATLAB for loop that prints the numbers from 1 to 5 to the command window?
+
 ```matlab
    for i = 1:5
        disp(i);
@@ -386,13 +388,7 @@ Element found at index 4.
 ### Coding Questions
 
 1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
-2. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
 
-### Challenging Coding questions
-
-- Write a MATLAB program to add all the even numbers entered by the user until the user enters zero. The program should display the sum of the even numbers to the console.
-- Write a while loop that calculates the sum of the first 100 even numbers.
-  
 **Example output:**
 
 ```matlab
@@ -413,11 +409,25 @@ Multiplication table for 5
 10 * 5 = 50
 ```
 
-1. Write a MATLAB program that uses a for loop to print the numbers from 1 to 10.
-2. Create a MATLAB program that calculates the sum of all even numbers from 1 to 50 using a for loop.
-3. Write a for loop to print the even numbers from 1 to 100.
-4. Write a for loop to find the factorial of a given number.
-5. Write a for loop to find the prime numbers from 1 to 100.
+2. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
+
+### Challenging Coding questions
+
+1. Write a MATLAB program to add all the even numbers entered by the user until the user enters zero. The program should display the sum of the even numbers to the console.
+2. Write a while loop that calculates the sum of the first 100 even numbers.
+3. Write a for loop to find the factorial of a given number.
+4. Write a for loop to find the prime numbers from 1 to 100.
+5. Write a MATLAB program to print the following pattern to the console, using a for loop:
+
+**Example output:**
+
+```output
+*
+**
+***
+****
+*****
+```
 
 ## Multiple Choice
 
