@@ -30,7 +30,7 @@ The loop counter variable is incremented by 1 after each iteration of the loop. 
 
 #### MATLAB Example: Printing "Hello, World!" Ten Times Using a for Loop
 
-**Question:** Write a MATLAB program to print the string "Hello, world!" 10 times, using a for loop?
+**Question:** Write a MATLAB program to print the string "Hello, world!" 10 times, using a for loop.
 
 ```matlab
 for i = 1:10
@@ -40,7 +40,7 @@ end
 
 #### MATLAB Example: Print Numbers from 1 to 5
 
-**Question:** Write a MATLAB program to print the numbers from 1 to 5, using a for loop?
+**Question:** Write a MATLAB program to print the numbers from 1 to 5, using a for loop.
 
 ```matlab
    for i = 1:5
@@ -50,7 +50,7 @@ end
 
 #### MATLAB Example: Print the numbers from 1 to 10
 
-**Question:** Write a MATLAB program to print the numbers from 1 to 10, using a for loop?
+**Question:** Write a MATLAB program to print the numbers from 1 to 10, using a for loop.
 
 ```matlab
 % Print the numbers from 1 to 10 to the console.
@@ -61,6 +61,8 @@ end
 ```
 
 #### MATLAB Example: Sum of Numbers from 1 to N
+
+**Question:** Write a MATLAB program to calculate the sum of the first N natural numbers using a for loop.
 
  ```matlab
    N = 10;
@@ -73,7 +75,7 @@ end
 
 #### MATLAB Example: Calculate the sum of the numbers from 1 to 100
 
-Write a MATLAB for loop that calculates the sum of the numbers from 1 to 100?
+**Question:** Write a MATLAB program to calculates the sum of the numbers from 1 to 100 using a for loop.
 
 ```matlab
 sum = 0;
@@ -85,6 +87,8 @@ disp(sum);
 
 #### MATLAB Example: Print Even Numbers from 1 to 10
 
+**Question:** Write a MATLAB program to display the even numbers from 2 to 10, inclusive, using a for loop.
+
  ```matlab
    for i = 2:2:10
        disp(i);
@@ -92,6 +96,8 @@ disp(sum);
 ```
 
 #### MATLAB Example: Print Sum of Even Numbers from 0 to 20
+
+**Question:** Write a MATLAB program to calculate the sum of the even numbers from 0 to 20 using a for loop.
 
 ```matlab
 sum = 0;
@@ -103,6 +109,8 @@ fprintf('sum %d', sum);
 
 #### MATLAB Example: Calculating the Sum of Elements in an Array
 
+**Question:** Write a MATLAB program to calculate the sum of the elements in an array using a for loop.
+
 ```matlab
 sum = 0;
 for arr1 = [1 5 7 6],
@@ -112,6 +120,8 @@ fprintf('sum = %d',sum)
 ```
 
 #### MATLAB Example: Displaying Elements of an Array Using a for Loop
+
+**Question:** Write a MATLAB program to display Elements of an Array Using a for Loop.
 
 ```matlab
    A = [10, 20, 30, 40, 50];
@@ -128,10 +138,14 @@ for k=1:inf
 end
 ```
 
+The `inf` keyword in MATLAB represents infinity, so the for loop will iterate forever. This means that the program will keep printing the numbers from 1 to infinity to the console until it is stopped.
+
 - A **nested loop** is a loop inside another loop. It is a powerful programming technique that can be used to solve a wide variety of problems.
 - We use nested loops when we need to iterate over multiple dimensions of data. For example, we might use a nested loop to print a two-dimensional array, or to search through a list of lists.
 
 #### Example: Nested Loops - Multiplication Table
+
+**Question:** Write a MATLAB program to display the multiplication table from 1 to 5, inclusive, using a nested for loop.
 
 ```matlab
 for i = 1:5
@@ -159,6 +173,8 @@ end
 The `expression` is a logical expression that evaluates to `true` or `false`. If the expression evaluates to true, the statements in the loop body are executed. The loop then repeats, and the expression is evaluated again. This process continues until the expression evaluates to false, at which point the loop terminates.
 
 #### Example 1: Print "Hello, world!" 10 times using while loop
+
+**Question:** Write a MATLAB program to print the string "Hello, world!" 10 times, using a while loop?
 
 ```matlab
 i = 1;
@@ -188,6 +204,8 @@ end
 
 #### Example 3: Sum of numbers from 1 to 100 using while loop
 
+**Question:** Write a MATLAB program to calculates the sum of the numbers from 1 to 100 using a while loop.
+
 ```matlab
 i = 1;
 sum = 0;
@@ -199,6 +217,8 @@ disp(sum);
 ```
 
 #### Example 4: Sum of even numbers from 2 to 20 using while loop
+
+**Question:** Write a MATLAB program to calculate the sum of the even numbers from 2 to 20 using a for loop.
 
 ```matlab
 sum = 0;  % Initialize a variable to store the sum
@@ -214,6 +234,8 @@ fprintf('The sum of even numbers from 2 to 20 is: %d', sum);
 
 #### Example: Square of numbers less than 5 using while loop
 
+**Question :** Write a MATLAB program to calculate the sum of the squares of the first 10 natural numbers using a while loop.
+
 ```matlab
 i = 1;
 while i < 5
@@ -223,29 +245,9 @@ while i < 5
 end
 ```
 
-#### Example 5: User Input Validation - Validate positive number using while loop
-
-In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
-
-```matlab
-
-userInput = 1;  % Initialize the user input with an invalid value
-
-while userInput >= 0
-    userInput = input('Enter a positive number: ');
-
-    if userInput <= 0
-        disp('Invalid input. Please enter a positive number.');
-    end
-end
-
-disp(['You entered a valid positive number: ' num2str(userInput)]);
-
-```
-
 #### Example 6
 
-Write a MATLAB program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line." to the console?
+**Question:** Write a MATLAB program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
 
 ```matlab
 inputStr = 'Start';
@@ -258,7 +260,7 @@ disp('You entered a blank line.')
 
 #### Example: Sum of given numbers till the number entered is zero
 
-Write a MATLAB program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers to the console?
+**Question:** Write a MATLAB program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
 
 ```matlab
 % Initialize the sum
@@ -282,6 +284,26 @@ This program works by initializing a variable sum to 0. Then, it prompts the use
 ## Conditional Statements / Branches
 
 ### if statement
+
+#### Example 5: User Input Validation - Validate positive number using while loop.
+
+In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
+
+```matlab
+
+userInput = 1;  % Initialize the user input with an invalid value
+
+while userInput >= 0
+    userInput = input('Enter a positive number: ');
+
+    if userInput <= 0
+        disp('Invalid input. Please enter a positive number.');
+    end
+end
+
+disp(['You entered a valid positive number: ' num2str(userInput)]);
+
+```
 
 #### Example
 
@@ -370,25 +392,49 @@ Element found at index 4.
 11. How can you use a while loop to perform a repetitive task until a certain condition is met?
 12. Give an example of a while loop in MATLAB.
 13. What are some tips for using while loops effectively?
-**Answer:** Here are some tips for using while loops effectively:
-
-- Use a while loop when you need to execute a block of code repeatedly as long as a condition is true.
-- Make sure to update the condition variable in the loop body.
-- Test your loops carefully to make sure that they are working as expected.
+>**Answer:** Here are some tips for using while loops effectively:
+>
+> - Use a while loop when you need to execute a block of code repeatedly as long as a condition is true.
+> - Make sure to update the condition variable in the loop body.
+> - Test your loops carefully to make sure that they are working as expected.
 
 12. What are some common mistakes to avoid when using while loops?
-**Answer:** Some common mistakes that people make when writing while loops in MATLAB include:
-
-- **Infinite loops:** This occurs when the condition for the while loop is always true, which causes the loop to execute forever.
-- **Unreachable code:** This occurs when the code inside the while loop is never executed because the condition for the loop is never met.
+> **Answer:** Some common mistakes that people make when writing while loops in MATLAB include:
+>
+> - **Infinite loops:** This occurs when the condition for the while loop is always true, which causes the loop to execute forever.
+> - **Unreachable code:** This occurs when the code inside the while loop is never executed because the condition for the loop is never met.
 
 13. What is the difference between a for loop and a while loop?
 
-**Answer:** A for loop is used to execute a block of code a fixed number of times. A while loop is used to execute a block of code repeatedly as long as a condition is true.
+>**Answer:** A for loop is used to execute a block of code a fixed number of times. A while loop is used to execute a block of code repeatedly as long as a condition is true.
+
+14. What are some of the potential dangers of using infinite loops in MATLAB programs?
+
+> **Answer:** Infinite loops can be dangerous because they can cause MATLAB programs to crash or become unresponsive.
 
 ### Coding Questions
 
 1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
+2. What is the problem with the following MATLAB program?
+
+```matlab
+for k=1:inf
+    disp(k)
+end
+```
+
+> **Answer:** The problem with the following MATLAB program is that it uses an infinite for loop. Infinite for loops will run forever, which can cause the program to crash or to consume all of the available memory.
+
+1. What is the output of the following MATLAB program?
+
+```matlab
+N = 10;
+sum = 0;
+for i = 1:N
+  sum = sum + i;
+end
+disp(sum);
+```
 
 **Example output:**
 
@@ -410,15 +456,17 @@ Multiplication table for 5
 10 * 5 = 50
 ```
 
-2. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
+1. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
 
 ### Challenging Coding questions
 
 1. Write a MATLAB program to add all the even numbers entered by the user until the user enters zero. The program should display the sum of the even numbers to the console.
 2. Write a while loop that calculates the sum of the first 100 even numbers.
 3. Write a for loop to find the factorial of a given number.
-4. Write a for loop to find the prime numbers from 1 to 100.
-5. Write a MATLAB program to print the following pattern to the console, using a for loop:
+4. Write a MATLAB program to find the sum of the squares of the first 10 natural numbers.
+5. Write a for loop to find the prime numbers from 1 to 100.
+6. Write a MATLAB program to calculate the average of the elements in an array using a for loop.
+7. Write a MATLAB program to print the following pattern to the console, using a for loop:
 
 **Example output:**
 
@@ -428,6 +476,17 @@ Multiplication table for 5
 ***
 ****
 *****
+```
+
+8. Modify the following MATLAB program to print the squares of all the even numbers from 2 to 10, inclusive.
+
+```matlab
+i = 1;
+while i < 5
+  square = i ^ 2;
+  fprintf('Square of %d is %d \n', i, square);
+  i = i + 1;
+end
 ```
 
 ## Multiple Choice
