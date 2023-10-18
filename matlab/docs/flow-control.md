@@ -513,6 +513,8 @@ True/False
 8. A MATLAB while loop can be used to repeat a block of code until a condition is met. (True/False)
 9. The condition for a MATLAB while loop must be a boolean expression. (True/False)
 10. If the condition for a MATLAB while loop is always true, the loop will execute infinitely. (True/False)
+11. A while loop in MATLAB can be nested inside another while loop. (True/False)
+12. 
 
 **For loop:**
 
@@ -691,6 +693,8 @@ end
 2. [ ] One time
 3. [ ] It will cause an error
 4. [ ] It depends on the loop structure
+
+
 
 ## References
 
