@@ -715,11 +715,11 @@ Drag the fill handle (the small square at the bottom-right corner of the cell) d
 1. [ ] =IF(logical_test, value_if_true, value_if_false)
 2. [ ] =IF(condition, value_if_true, value_if_false)
 3. [ ] =IF(logical_expression, value_if_true, value_if_false)
-4. [x] All of the above
+4. [ ] All of the above
 
 > What is the logical test in the IF function?
 
-1. [x] The condition that you want to evaluate.
+1. [ ] The condition that you want to evaluate.
 2. [ ] The value that you want to return if the logical test is true.
 3. [ ] The value that you want to return if the logical test is false
 4. [ ] None of the above.
