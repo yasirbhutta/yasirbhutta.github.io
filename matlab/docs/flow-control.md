@@ -514,7 +514,6 @@ True/False
 9. The condition for a MATLAB while loop must be a boolean expression. (True/False)
 10. If the condition for a MATLAB while loop is always true, the loop will execute infinitely. (True/False)
 11. A while loop in MATLAB can be nested inside another while loop. (True/False)
-12. 
 
 **For loop:**
 
