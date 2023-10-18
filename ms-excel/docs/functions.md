@@ -86,7 +86,7 @@ The SUM function adds values. You can add individual values, cell references or 
 
 **Use AutoSum to sum numbers**
 
-- [Video Tutorial: Use of Sum function and AutoSum to sum numbers | Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
+- [Video Tutorial: Use of Sum function and AutoSum to sum numbers - Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
 
 Further reading:
 
@@ -190,7 +190,7 @@ further reading:
 
 - Returns the average (arithmetic mean) of the arguments.
 
-For example, if the range A1:A20 contains numbers, the formula =AVERAGE(A1:A20) returns the average of those numbers.
+For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)` returns the average of those numbers.
 
 - [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
 
@@ -203,13 +203,26 @@ further reading:
 - The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
 - So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.
 
+![if syntax](img/if-syntax.gif)
+
+Formula that uses the IF function
+
+**logical_test:** The condition that you want to check.
+
+**value_if_true:** The value to return if the condition is True.
+
+**value_if_false:** The value to return if the condition is False.
+
 For example, `=IF(C2=”Yes”,1,2)` says IF(C2 = Yes, then return a 1, otherwise return a 2).
 
 - [Video Tutorial:Use of IF function in excel](https://youtu.be/hftoKkdWNRk?si=POM60zBSWg5tZ-i8)
 
-further reading:
+###### See also
 
-- [IF function - Microsoft Support](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- [IF function - Excel Help & Training](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
+- [Create conditional formulas - Microsoft Support](https://support.microsoft.com/en-gb/office/create-conditional-formulas-ca916c57-abd8-4b44-997c-c309b7307831)
+- [Using IF with AND, OR and NOT functions - Microsoft Support](https://support.microsoft.com/en-gb/office/using-if-with-and-or-and-not-functions-d895f58c-b36c-419e-b1f2-5c193a236d97)
+- [Video Tutorial: IF with AND and OR](https://support.microsoft.com/en-gb/office/video-if-with-and-and-or-2a47066d-85d8-4751-a59d-3c69d2931c3e)
 
 ##### NOW function
 
@@ -236,13 +249,15 @@ further reading:
 - [TODAY function - Microsoft Support](https://support.microsoft.com/en-au/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)
 - [Insert the current date and time in a cell - Microsoft Support](https://support.microsoft.com/en-gb/office/insert-the-current-date-and-time-in-a-cell-b5663451-10b0-40ab-9e71-6b0ce5768138)
 
-
 #### Change the case of Text
 
 **LOWER function:** Converts all uppercase letters in a text string to lowercase.
 
->Syntax  
+**Syntax:**
+
+```excel
 LOWER(text)
+```
 
 The LOWER function syntax has the following arguments:
 
@@ -250,8 +265,11 @@ Text Required. The text you want to convert to lowercase. LOWER does not change 
 
 **UPPER function:** Converts text to uppercase.
 
->Syntax  
+**Syntax:**
+
+```excel
 UPPER(text)
+```
 
 The UPPER function syntax has the following arguments:
 
@@ -271,8 +289,11 @@ further reading:
 
 LEN returns the number of characters in a text string.
 
->Syntax  
+**Syntax:**
+
+```excel
 LEN(text)
+```
 
 LENB(text)
 
