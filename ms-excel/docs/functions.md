@@ -84,12 +84,13 @@ The SUM function adds values. You can add individual values, cell references or 
 
 **Note:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
 
-**Use AutoSum to sum numbers**
+**Use AutoSum to sum numbers:**
 
 - [Video Tutorial: Use of Sum function and AutoSum to sum numbers - Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
 
-Further reading:
+**See also:**
 
+- [Sum Function - Excel Exercises](https://excelexercises.com/practice.html?lesson=1)
 - [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
 - Use AutoSum to sum numbers - Microsoft Support [[Windows]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706) [[Android]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android)
 
@@ -109,6 +110,8 @@ MAX(number1, [number2], ...)
 
 The MAX function syntax has the following arguments:
 Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
+
+
 
 ##### MIN
 
@@ -194,8 +197,9 @@ For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)
 
 - [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
 
-further reading:
+**See also:**
 
+- [AVERAGE function - Excel Exercises](https://excelexercises.com/practice.html?lesson=31)
 - [AVERAGE function - Microsoft Support](https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)
 
 ##### IF function
@@ -203,19 +207,98 @@ further reading:
 - The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
 - So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.
 
-![if syntax](img/if-syntax.gif)
+**Syntax:**
+
+Use the IF function, one of the [logical functions](https://support.microsoft.com/en-gb/office/logical-functions-reference-e093c192-278b-43f6-8c3a-b6ce299931f5), to return one value if a condition is true and another value if it's false. [^1]
+
+```excel
+IF(logical_test, value_if_true, [value_if_false])
+```
+
+For example:
+
+```excel
+=IF(A2>B2,"Over Budget","OK")
+=IF(A2=B2,B4-A4,"")
+```
 
 Formula that uses the IF function
 
-**logical_test:** The condition that you want to check.
+**logical_test (required):** The condition you want to test.
 
-**value_if_true:** The value to return if the condition is True.
+**value_if_true (required):** The value that you want returned if the result of logical_test is TRUE.
 
-**value_if_false:** The value to return if the condition is False.
+**value_if_false (optional):** The value that you want returned if the result of logical_test is FALSE.
 
 For example, `=IF(C2=”Yes”,1,2)` says IF(C2 = Yes, then return a 1, otherwise return a 2).
 
 - [Video Tutorial:Use of IF function in excel](https://youtu.be/hftoKkdWNRk?si=POM60zBSWg5tZ-i8)
+
+**Example:**
+
+```excel
+=IF(A1>10,"Greater than 10","Less than or equal to 10")
+```
+
+This formula checks if the value in cell A1 is greater than 10. If it is, the formula returns the text “Greater than 10”. If it’s not, the formula returns “Less than or equal to 10”.
+
+**Example:**
+
+```excel
+=IF(B1="Yes","Paid","Not Paid")
+```
+
+This formula checks if the value in cell B1 is “Yes”. If it is, the formula returns “Paid”. If it’s not, the formula returns “Not Paid”.
+
+**Example:**
+
+```excel
+=IF(C1>=100,"Pass","Fail")
+```
+
+This formula checks if the value in cell C1 is greater than or equal to 100. If it is, the formula returns “Pass”. If it’s not, the formula returns “Fail”.
+
+**Example:**
+
+the following formula will return "Over Budget" if the value in cell A2 is greater than the value in cell B2, otherwise it will return "OK":
+
+```excel
+=IF(A2>B2,"Over Budget","OK")
+```
+
+**Example:**
+
+the following formula will calculate the difference between the values in cell A2 and cell B2 if the value in cell A2 is greater than the value in cell B2, otherwise it will return 0:
+
+```excel
+=IF(A2>B2,A2-B2,0)
+```
+
+Here are some more examples of how to use the IF function:
+
+**Check if a cell is empty:**
+
+```excel
+=IF(A2="","Empty","Not empty")
+```
+
+**Check if a cell contains a specific value:**
+
+```excel
+=IF(A2="Apple","Apple found","Apple not found")
+```
+
+**Check if a date is before or after a certain date:**
+
+```excel
+=IF(A2<B2,"Date is before", "Date is after")
+```
+
+**Calculate a discount based on the amount of a purchase:**
+
+```excel
+=IF(A2>100,A2*0.1,A2*0.05)
+```
 
 ###### See also
 
@@ -390,7 +473,6 @@ An invalid cell is referenced in the formula
 
 - [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App | Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
 
-
 ### Review Questions
 
 Beginner:
@@ -421,13 +503,13 @@ Beginner:
 The IF function is used to perform conditional logic in Excel. It can be used to test a condition and return a different value depending on the outcome of the test.
 23. What is the difference between a logical test and a comparison operator?
 
-A logical test is a condition that is evaluated to TRUE or FALSE. A comparison operator is a symbol that is used to compare two values.
+**Answer:** A logical test is a condition that is evaluated to TRUE or FALSE. A comparison operator is a symbol that is used to compare two values.
 
 ```excel
 =IF(A1>B1,"A1 is greater than B1","A1 is less than or equal to B1")
 ```
 
-What is conditional formatting, and how can you use it to highlight specific data in Excel?
+24. What is conditional formatting, and how can you use it to highlight specific data in Excel? (Windows only)
 
 ### Excercises
 
@@ -476,85 +558,87 @@ The result, 10, should appear in cell A11.
 
 The result, "A1 is greater than A2", should appear in cell A11.
 
-**Exercise 6: Power and Square Root**:
+**Exercise 6:** Power and Square Root
 
 - In cell A1, enter a number, e.g., 4.
 - In cell B1, calculate the square of the number using the formula `=A1^2`.
 - In cell B2, calculate the square root of the number using the formula `=SQRT(A1)`.
 
-Rounding:
+**Exercise:** Rounding
 
-In cell A1, enter a decimal number, e.g., 7.85.
-In cell B1, round the number to the nearest whole number using the formula =ROUND(A1, 0).
-In cell B2, round the number to one decimal place using the formula =ROUND(A1, 1).
+- In cell A1, enter a decimal number, e.g., 7.85.
+- In cell B1, round the number to the nearest whole number using the formula =ROUND(A1, 0).
+- In cell B2, round the number to one decimal place using the formula =ROUND(A1, 1).
 
-Random Numbers:
+**Exercise:** Random Numbers
 
 In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1.
 Drag the fill handle (the small square at the bottom-right corner of the cell) down to generate multiple random numbers.
 
-What is the cell reference of the cell located at the intersection of column A and row 9?
+## Multiple Choice Questions
 
-(A) A9
-(B) 9A
-(C) A1
-(D) 1A
+> What is the cell reference of the cell located at the intersection of column A and row 9?
 
-What is the cell reference of the range of cells A1 to A10?
+1. [ ] A9
+2. [ ] 9A
+3. [ ] A1
+4. [ ] 1A
 
-(A) A1:A10
-(B) A1-A10
-(C) 1A:10A
-(D) 1A-10A
+> What is the cell reference of the range of cells A1 to A10?
 
-What is the cell reference of the cell located two rows below and one column to the right of cell B3?
+1. [ ] A1:A10
+2. [ ] A1-A10
+3. [ ] 1A:10A
+4. [ ] 1A-10A
 
-(A) C5
-(B) D5
-(C) C4
-(D) D4
+> What is the cell reference of the cell located two rows below and one column to the right of cell B3?
 
-Which of the following is a valid cell reference in Excel?
+1. [ ] C5
+2. [ ] D5
+3. [ ] C4
+4. [ ] D4
 
-(a) A10
-(b) 10A
-(c) AA1
-(d) 100
+> Which of the following is a valid cell reference in Excel?
 
-What does the $ symbol do when used in a cell reference in Excel?
+1. [ ] A10
+2. [ ] 10A
+3. [ ] AA1
+4. [ ] 100
 
-(a) It makes the cell reference absolute.
-(b) It makes the cell reference relative.
-(c) It makes the cell reference mixed.
-(d) It does nothing.
+> What does the $ symbol do when used in a cell reference in Excel?
 
-What is the difference between a relative cell reference and an absolute cell reference?
+1. [ ] It makes the cell reference absolute.
+2. [ ] It makes the cell reference relative.
+3. [ ] It makes the cell reference mixed.
+4. [ ] It does nothing.
 
-(a) A relative cell reference changes when the formula is copied to a different cell, while an absolute cell reference does not change.
-(b) An absolute cell reference changes when the formula is copied to a different cell, while a relative cell reference does not change.
-(c) There is no difference between a relative cell reference and an absolute cell reference.
-(d) Both relative and absolute cell references change when the formula is copied to a different cell.
+> What is the difference between a relative cell reference and an absolute cell reference?
 
-Which of the following is a valid mixed cell reference in Excel?
+1. [ ] A relative cell reference changes when the formula is copied to a different cell, while an absolute cell reference does not change.
+2. [ ] An absolute cell reference changes when the formula is copied to a different cell, while a relative cell reference does not change.
+3. [ ] There is no difference between a relative cell reference and an absolute cell reference.
+4. [ ] Both relative and absolute cell references change when the formula is copied to a different cell.
 
-(a) $A10
-(b) A$10
-(c) $A$10
-(d) 10A$10
+> Which of the following is a valid mixed cell reference in Excel?
 
-What is the cell reference of the cell two rows down and one column to the right of cell A1?
+1. [ ] $A10
+2. [ ] A$10
+3. [ ] $A$10
+4. [ ] 10A$10
 
-(a) B3
-(b) A3
-(c) B2
-(d) A2
+> What is the cell reference of the cell two rows down and one column to the right of cell A1?
 
-What is the cell reference for the range of cells from A1 to B10?
+1. [ ] B3
+2. [ ] A3
+3. [ ] B2
+4. [ ] A2
 
-(A) A1:B10
-(B) 1:10
-(C) A1-B10
-(D) A1*B10
+> What is the cell reference for the range of cells from A1 to B10?
+
+1. [ ] A1:B10
+2. [ ] 1:10
+3. [ ] A1-B10
+4. [ ] A1*B10
 
 > Which of the following is a valid formula?
 
@@ -570,96 +654,101 @@ What is the cell reference for the range of cells from A1 to B10?
 3. [ ] =MAX(1, 2, 3, 4)
 4. [ ] =MIN(1, 2, 3, 4)
 
-What is the function for finding the maximum value in a range of cells?
+> What is the function for finding the maximum value in a range of cells?
 
-(A) MAX()
-(B) MIN()
-(C) AVERAGE()
-(D) COUNT()
+1. [ ] MAX()
+2. [ ] MIN()
+3. [ ] AVERAGE()
+4. [ ] COUNT()
 
-What is the function for counting the number of cells in a range that contain a specific value?
+> What is the function for counting the number of cells in a range that contain a specific value?
 
-(A) COUNTIF()
-(B) COUNTA()
-(C) SUMIF()
-(D) VLOOKUP()
+1. [ ] COUNTIF()
+2. [ ] COUNTA()
+3. [ ] SUMIF()
+4. [ ] VLOOKUP()
 
-What is the function for rounding a number to a specified number of decimal places?
+> What is the function for rounding a number to a specified number of decimal places?
 
-(A) ROUND()
-(B) FLOOR()
-(C) CEILING()
-(D) TRUNC()
+1. [ ] ROUND()
+2. [ ] FLOOR()
+3. [ ] CEILING()
+4. [ ] TRUNC()
 
-The COUNTIF function is used to:
+> The COUNTIF function is used to:
 
-(A) Count the number of cells in a range that meet a certain criteria
-(B) Calculate the average of values in a range that meet a certain criteria
-(C) Find the maximum value in a range that meet a certain criteria
-(D) None of the above
+1. [ ] Count the number of cells in a range that meet a certain criteria
+2. [ ] Calculate the average of values in a range that meet a certain criteria
+3. [ ] Find the maximum value in a range that meet a certain criteria
+4. [ ] None of the above
 
-What is the function for calculating the average of a range of cells?
+> What is the function for calculating the average of a range of cells?
 
-(A) SUM
-(B) AVERAGE
-(C) MIN
-(D) MAX
+1. [ ] SUM
+2. [ ] AVERAGE
+3. [ ] MIN
+4. [ ] MAX
 
-What is the function for calculating the minimum value in a range of cells?
+> What is the function for calculating the minimum value in a range of cells?
 
-(A) SUM
-(B) AVERAGE
-(C) MIN
-(D) MAX
+1. [ ] SUM
+2. [ ] AVERAGE
+3. [ ] MIN
+4. [ ] MAX
 
-What is the function for counts the number of cells that are not empty in a range.
+> What is the function for counts the number of cells that are not empty in a range.
 
-(A) COUNTA
-(B) COUNTBLANK
-(C) COUNTIF
-(D) COUNTS
+1. [ ] COUNTA
+2. [ ] COUNTBLANK
+3. [ ] COUNTIF
+4. [ ] COUNTS
 
-What is the function for concatenating two or more text strings into a single text string?
+> What is the function for concatenating two or more text strings into a single text string?
 
-(A) MERGE
-(B) CONCAT
-(C) MIX
-(D) All of the above
+1. [ ] MERGE
+2. [ ] CONCAT
+3. [ ] MIX
+4. [ ] All of the above
 
-What is the syntax of the IF function?
+> What is the syntax of the IF function?
 
 1. [ ] =IF(logical_test, value_if_true, value_if_false)
 2. [ ] =IF(condition, value_if_true, value_if_false)
 3. [ ] =IF(logical_expression, value_if_true, value_if_false)
 4. [x] All of the above
 
-What is the logical test in the IF function?
+> What is the logical test in the IF function?
 
 1. [x] The condition that you want to evaluate.
 2. [ ] The value that you want to return if the logical test is true.
 3. [ ] The value that you want to return if the logical test is false
 4. [ ] None of the above.
 
-What is the value_if_true in the IF function?
+> What is the value_if_true in the IF function?
 
-(A) The value that you want to return if the logical test is true.
-(B) The condition that you want to evaluate.
-(C) The value that you want to return if the logical test is false.
-(D) None of the above.
+1. [ ] The value that you want to return if the logical test is true.
+2. [ ] The condition that you want to evaluate.
+3. [ ] The value that you want to return if the logical test is false
+4. [ ] None of the above.
 
-What is the value_if_false in the IF function?
+> What is the value_if_false in the IF function?
 
-(A) The condition that you want to evaluate.
-(B) The value that you want to return if the logical test is true.
-(C) The value that you want to return if the logical test is false.
-(D) None of the above.
+1. [ ] The condition that you want to evaluate.
+2. [ ] The value that you want to return if the logical test is true.
+3. [ ] The value that you want to return if the logical test is false
+4. [ ] None of the above.
 
-Which of the following is an example of an IF function?
+> Which of the following is an example of an IF function?
 
-(A) =IF(A1>B1, "Greater", "Less")
-(B) =IF(A1=B1, "Equal", "Not Equal")
-(C) =IF(A1<>B1, "Not Equal", "Equal")
-(D) All of the above
+1. [ ] =IF(A1>B1, "Greater", "Less")
+2. [ ] =IF(A1=B1, "Equal", "Not Equal")
+3. [ ] =IF(A1<>B1, "Not Equal", "Equal")
+4. [ ] All of the above
+
+## References
+
+[^1] [IF function - Excel Help & Training](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)]
+[^2] [Excel Exercises](https://excelexercises.com/)
 
 ## Muhammad Yasir Bhutta
 
