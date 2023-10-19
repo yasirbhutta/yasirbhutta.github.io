@@ -111,8 +111,6 @@ MAX(number1, [number2], ...)
 The MAX function syntax has the following arguments:
 Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
 
-
-
 ##### MIN
 
 Returns the smallest number in a set of values.
@@ -196,6 +194,7 @@ further reading:
 For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)` returns the average of those numbers.
 
 - [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
+
 
 **See also:**
 
@@ -311,7 +310,7 @@ Here are some more examples of how to use the IF function:
 
 The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.
 
-further reading:
+See also:
 
 - [NOW function - Microsoft Support](https://support.microsoft.com/en-au/office/now-function-3337fd29-145a-4347-b2e6-20c904739c46)
 
@@ -362,7 +361,7 @@ Text    Required. The text you want converted to uppercase. Text can be a refere
 
 - [Change the case of text in excel](https://youtu.be/X38NcRn0PhM?si=pCO7K-DuBJKz5G9b)
 
-further reading:
+See also:
 
 - [LOWER function - Microsoft Support](https://support.microsoft.com/en-us/office/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4#:~:text=The%20LOWER%20function%20syntax%20has,text%20that%20are%20not%20letters.)
 - [UPPER function - Microsoft Support](https://support.microsoft.com/en-gb/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6)
@@ -399,7 +398,7 @@ For example:
 
 - [Video Tutorial: Use of COUNTIF function in excel](https://youtu.be/Uv-j-N7wdTo?si=GjA232Ni4UVt0cEv)
 
-further reading:
+**see also:**
 
 - [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
 
@@ -417,7 +416,7 @@ SUMIF(range, criteria, [sum_range])
 
 - [Video Tutorial: SUMIF function in excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
   
-further reading:
+**See also:**
 
 - [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
 - [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
@@ -470,7 +469,6 @@ An invalid cell is referenced in the formula
 - [Video Tutorial: Format numbers as TEXT in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=q95ulIUXbHdmQxjs)
 - [Video Tutorial: Append data from multiple sheets into one sheet | Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
 
-
 - [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App | Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
 
 ### Review Questions
@@ -512,6 +510,10 @@ The IF function is used to perform conditional logic in Excel. It can be used to
 24. What is conditional formatting, and how can you use it to highlight specific data in Excel? (Windows only)
 
 ### Excercises
+
+**Excercise:**
+
+- Create a login on this website [https://excelexercises.com/](https://excelexercises.com/) and complete the practice exercises for all the Excel functions you have learned.
 
 **Exercise 1:**
 
@@ -564,6 +566,298 @@ The result, "A1 is greater than A2", should appear in cell A11.
 - In cell B1, calculate the square of the number using the formula `=A1^2`.
 - In cell B2, calculate the square root of the number using the formula `=SQRT(A1)`.
 
+**SUM FUNCTIONS (SUM, SUMIF):**
+
+**Exercise :** Calculate the total marks for each students.
+
+Sample Date:
+
+| Student | Math | Science | History |
+|---------|------|---------|---------|
+| Alice   | 85   | 90      | 75      |
+| Bob     | 70   | 88      | 80      |
+| Carol   | 92   | 76      | 85      |
+| David   | 78   | 82      | 70      |
+| Emma    | 90   | 85      | 92      |
+
+
+**Exercise:** Use the SUM function to calculate the total sales in the following table:
+
+| Month    | Sales |
+| -------- | ----- |
+| January  | 100   |
+| February | 120   |
+| March    | 150   |
+| April    | 180   |
+| May      | 210   |
+
+**Exercise:**  Use the `SUMIF` function to calculate the total sales for all products sold in the month of `January`.
+
+Sample Date:
+
+| Month    | Product Category | Sales |
+| -------- | ---------------- | ----- |
+| January  | Food             | 10    |
+| January  | Clothing         | 20    |
+| January  | Electronics      | 30    |
+| February | Food             | 20    |
+| February | Clothing         | 30    |
+| February | Electronics      | 40    |
+
+**Exercise:**  Use the `SUMIF` function to calculate the total sales of `Food` in the following table:
+
+| Month    | Product Category | Sales |
+| -------- | ---------------- | ----- |
+| January  | Food             | 10    |
+| January  | Clothing         | 20    |
+| January  | Electronics      | 30    |
+| February | Food             | 20    |
+| February | Clothing         | 30    |
+| February | Electronics      | 40    |
+
+**Exercise:** In the following table, calculate the total sales for all products sold on March 8th:
+
+| Date      | Product   | Sales |
+| --------- | --------- | ----- |
+| March 7th | Product A | 100   |
+| March 7th | Product B | 200   |
+| March 8th | Product C | 300   |
+| March 8th | Product D | 400   |
+
+**Exercise :** In the following table, calculate the total sales for all products sold to customers in the Pakistan:
+
+| Customer   | Country        | Sales |
+| ---------- | -------------- | ----- |
+| Customer A | Pakistan       | 100   |
+| Customer B | Canada         | 200   |
+| Customer C | United Kingdom | 300   |
+| Customer D | Pakistan       | 400   |
+
+**Exercise:** Use the SUM function to calculate the total bonus for employees who have achieved a score of 90 or higher in a test.
+
+| Employee | Test Score | Bonus |
+| -------- | ---------- | ----- |
+| Ali      | 85         | 100   |
+| Ahmad    | 92         | 150   |
+| Nasir    | 88         | 120   |
+| Hamza    | 95         | 180   |
+| Muhammad | 90         | 160   |
+
+**Exercise :** Use the SUMIF function to calculate the total sales for products whose names contain the word "Phone."
+
+| Product         | Sales |
+| --------------- | ----- |
+| SmartPhone 2020 | 1200  |
+| PhoneCase       | 1500  |
+| Tablet          | 1800  |
+| Basic Phone     | 1400  |
+| iPhone X        | 1600  |
+
+**Exercise :** Calculate the total expenses for the "Food" category using the SUMIF function.
+
+| Expense   | Category  | Amount |
+|-----------|-----------|--------|
+| Rent      | Housing   | 1000   |
+| Groceries | Food      | 350    |
+| Gas       | Transport | 75     |
+| Dining    | Food      | 200    |
+| Internet  | Utilities | 60     |
+
+**Exercise :** Calculate the total sales for Product A and Product C using the SUMIF function with multiple criteria. Use the following data:
+
+**Sample Data:**
+
+| Product   | Region | Sales |
+| --------- | ------ | ----- |
+| Product A | North  | 250   |
+| Product B | South  | 300   |
+| Product C | North  | 150   |
+| Product D | South  | 200   |
+| Product A | South  | 300   |
+| Product C | South  | 125   |
+
+**Solution:**
+
+```excel
+=SUMIF(A2:A7, "Product A", C2:C7) + SUMIF(A2:A7, "Product C", C2:C7)
+```
+
+**COUNT FUNCTIONS (COUNT, COUNTIF):**
+
+**Exercise :** Counting Numbers in a Range
+
+1. Open a new Excel worksheet.
+2. In column A, enter a list of numbers, including some blank cells and non-numeric values (e.g., A1: 5, A2: 10, A3: "Text," A4: 15, A5: 20, A6: Blank, A7: 25).
+3. In cell B1, use the COUNT function to count the number of cells in column A that contain numbers.
+4. The formula should be "=COUNT(A1:A7)." The result should be 4, as there are four numeric values in the range.
+
+**Exercise :** Basic COUNT Function
+
+1. Open a new Excel worksheet.
+2. In column A, enter a mix of numbers and text (e.g., A1: 5, A2: "Apple," A3: 10, A4: 15, A5: "Orange").
+3. In cell B1, use the COUNT function to count the number of numeric values in column A. Your formula should be like this: `=COUNT(A1:A5)`.
+
+**Exercise :** Counting Blank Cells
+
+1. Open a new Excel worksheet.
+2. Create a range of cells (e.g., A1:A10) where some cells have values, and others are blank.
+3. In cell B1, use the COUNTBLANK function to count the number of blank cells in the range (e.g., "=COUNTBLANK(A1:A10)").
+
+**Exercise :** Counting with Logical Operators
+
+1. Open a new Excel worksheet.
+2. Create a list of test scores in column A (e.g., A1: 85, A2: 92, A3: 78, A4: 65, A5: 99).
+3. In cell B1, use the COUNTIF function to count the number of scores greater than or equal to 90.
+4. The formula should be `=COUNTIF(A1:A5, ">=90")`.
+
+**Exercise :** Use the COUNTIF function to count the number of "Apples" in the list:
+
+| Column A     |
+| ------------ |
+| Bananas      |
+| Apples       |
+| Oranges      |
+| Apples       |
+| Grapes       |
+| Strawberries |
+| Apples       |
+
+**Exercise :** In the following table, count the number of cells in column B that contain the value "100".
+
+| Column A  | Column B |
+| --------- | -------- |
+| Product A | 100      |
+| Product B | 200      |
+| Product C | 300      |
+| Product D | 100      |
+
+**Exercise :** In the following table, count the number of cells in column B that contain a value that contains the letter "a":
+
+| Column A  | Column B |
+| --------- | -------- |
+| Product A | Apple    |
+| Product B | Banana   |
+| Product C | Carrot   |
+| Product D | Orange   |
+
+**Exercise :** In the following table, count the number of cells in column B that contain a value that starts with the letter "a":
+
+| Column A  | Column B |
+| --------- | -------- |
+| Product A | Apple    |
+| Product B | Banana   |
+| Product C | Carrot   |
+| Product D | Orange   |
+
+**Exercise :** In the following table, count the number of cells in column B that contain a value that ends with the letter "e":
+
+| Column A  | Column B |
+| --------- | -------- |
+| Product A | Apple    |
+| Product B | Banana   |
+| Product C | Carrot   |
+| Product D | Orange   |
+
+**STATISTICAL FUNCTIONS (AVERAGE, AVERAGEIF, MIN, MAX):**
+
+**Exercise :** Find the highest value in the following range of cells:
+
+```excel
+range: A1:A5
+
+values:
+
+10
+20
+30
+40
+50
+```
+
+**Exercise :** Find the highest value in the following range of cells, ignoring empty cells and text values:
+
+```excel
+A1:A5
+10
+Apple
+Bananas
+30
+50
+```
+
+**Exercise 1:** Calculate the average of the following numbers:
+
+1, 2, 3, 4, 5
+
+**Exercise :** Calculate the average of the numbers in the following range:
+
+```excel
+A1:A10
+```
+
+**Exercise :** Find the minimum value in the following range of cells:
+
+```excel
+A1:A10 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+```
+
+**Excercise :** Find the minimum value in the following range, but only include the values that are in the column B:
+
+| A | B  |
+| - | -- |
+| 1 | 2  |
+| 3 | 4  |
+| 5 | 6  |
+| 7 | 8  |
+| 9 | 10 |
+
+**Exercise :** Calculate the average of the numbers in the following range, excluding the first and last numbers:
+
+```excel
+A1:A10
+```
+
+**Exercise 2:** Calculate the average per month sales of the year, using the following data:
+
+A | B
+------- | --------
+**Month** | **Sales**
+January | 1000
+February | 1200
+March | 1100
+April | 1300
+May | 1400
+June | 1500
+July | 1600
+August | 1700
+September | 1800
+October | 1900
+November | 2000
+December | 2100
+
+**Exercise 3:** Calculate the average of the sales figures for all customers who have spent more than $1000, using the following data:
+
+Customer | Sales
+------- | --------
+Alice | 1000
+Bob | 1200
+Carol | 1100
+Dave | 1300
+Eve | 1400
+Frank | 1500
+George | 1600
+Henry | 1700
+Ian | 1800
+James | 1900
+Kate | 2000
+Lily | 2100
+
+**Exercise :** Calculate the average of the positive numbers in the following range:
+
+```excel
+A1:A10
+```
+
 **Exercise:** Rounding
 
 - In cell A1, enter a decimal number, e.g., 7.85.
@@ -574,6 +868,54 @@ The result, "A1 is greater than A2", should appear in cell A11.
 
 In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1.
 Drag the fill handle (the small square at the bottom-right corner of the cell) down to generate multiple random numbers.
+
+**LOGICIAL FUNCTIONS (IF, True/False, AND/OR):**
+
+**TEXT MANIPULATION FUNCTIONS (CONCATE, TEXTJOIN, UPPER, POWER, PROPER):**
+
+**Exercise :** Lowercase Conversion
+
+1. Create a new worksheet.
+2. In cell A1, type "PYTHON PROGRAMMING IS FUN."
+3. In cell B1, use the LOWER function to convert the text in cell A1 to lgowercase. The formula should look like this: =LOWER(A1). B1 should display "python programming is fun."
+
+**Exercise :** Proper Case Conversion
+
+1. Open a new Excel worksheet.
+2. In cell A1, type "muhammad ahmad."
+3. In cell B1, use the PROPER function to convert the text in cell A1 to proper case. The formula should look like this: =PROPER(A1). B1 should display "Muhammad Ahmad."
+
+**Exercise :** Change the following text to uppercase.
+
+```excel
+This is a sample text.
+```
+
+**Exercise:** Change the following text to lowercase.
+
+```excel
+THIS IS A SAMPLE TEXT.
+```
+
+**Exercise :** Change the following text to title case.
+
+```excel
+this is a sample text.
+```
+
+**Exercise :** Create a new column called "Title Case" and use the PROPER function to convert the text in Column A to title case.
+
+Sample Data:
+
+| **Good Habits**|
+| ------------ |
+| regular exercise|
+| healthy eating       |
+| adequate sleep      |
+| time management|
+| mindfulness and meditation|
+
+**DATE FUNCTIONS (TODAY, NOW, DATE):**
 
 ## Multiple Choice Questions
 
