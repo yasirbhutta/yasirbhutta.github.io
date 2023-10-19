@@ -488,7 +488,7 @@ Beginner:
 11. What is the purpose of the comparison operators (e.g., <, >, =) in Excel, and how are they used in formulas?
 12. How can you use logical operators (AND, OR, NOT) in Excel formulas to perform conditional calculations?
 13. What is the ampersand operator (&) used for when working with cell references in Excel?
-14. Explain the use of the range operator (colon, :) in Excel and how it simplifies cell referencing.
+14. Explain the use of the range operator ( colon, : ) in Excel and how it simplifies cell referencing.
 15. How can you use the IF function in Excel to perform conditional operations? How does it relate to operators?
 16. Explain how to use the CONCATENATE function and the operator for line breaks in Excel to create multi-line text.
 17. Describe the use of the CONCATENATE function versus the "&" operator for text manipulation in Excel
