@@ -490,7 +490,7 @@ Beginner:
 13. What is the ampersand operator (&) used for when working with cell references in Excel?
 14. Explain the use of the range operator ( colon, : ) in Excel and how it simplifies cell referencing.
 15. How can you use the IF function in Excel to perform conditional operations? How does it relate to operators?
-16. Explain how to use the CONCATENATE function and the operator for line breaks in Excel to create multi-line text.
+16. Explain how to use the CONCAT function and the operator for line breaks in Excel to create multi-line text.
 17. Describe the use of the CONCATENATE function versus the "&" operator for text manipulation in Excel
 18. What are some common functions used in Excel formulas?
 19. How would you write a formula to calculate the total sales for each product in a worksheet?
