@@ -141,7 +141,11 @@ Put .. between two numbers.
 
 - To search for web pages that have similar content to a given site,Put "related:" in front of a web address you already know.
 
-- For example, **related:cnn.com** or **related:freepik.com** or **related:facebook.com** 
+- For example, **related:cnn.com** or **related:freepik.com** or **related:facebook.com**
+
+- The Google search `info` keyword is a special keyword that allows you to get information about a particular website. To use it, simply type info: followed by the website's URL into the Google search bar.
+
+For example, to get information about the website wikipedia.org, you would type `info:wikipedia.org` into the search bar. Google would then return a page with information about the website, such as its title, description, page load speed, and other metrics.
 
 #### See Google’s cached version of a site
 
