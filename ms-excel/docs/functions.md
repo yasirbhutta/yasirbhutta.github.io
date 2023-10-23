@@ -195,7 +195,6 @@ For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)
 
 - [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
 
-
 **See also:**
 
 - [AVERAGE function - Excel Exercises](https://excelexercises.com/practice.html?lesson=31)
@@ -1097,6 +1096,7 @@ Sample Data:
 
 [^1] [IF function - Excel Help & Training](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
 [^2] [Excel Exercises](https://excelexercises.com/)
+[^3] [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
 
 ## Muhammad Yasir Bhutta
 
