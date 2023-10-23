@@ -53,7 +53,15 @@ Google Search Keywords - define
 
 Put define in front of any word to see its definition.
 
-- For example, **define gorgeous** or **define character**
+For example,
+
+```google
+define gorgeous
+```
+
+```google
+define character
+```
 
 ### Calculations
 
