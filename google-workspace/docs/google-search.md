@@ -110,13 +110,22 @@ Put $ in front of a number. For example: **camera $400**.
 
 #### Search hashtags
 
-Put # in front of a word. For example: **#islam**
+Put # in front of a word.
+For example:
+
+```google
+#islam**
+```
 
 #### Exclude words from your search
 
 Put - in front of a word you want to leave out.
 
-- For example, **jaguar speed -car**
+- For example, 
+
+```google
+jaguar speed -car
+```
 
 #### Search for an exact match
 
@@ -185,7 +194,7 @@ Websites with the image or a similar image
 
 - On your computer, go to a web browser.
 - Go to Google Images.
-- Click Search by image Google Lens. 
+- Click Search by image Google Lens.
 - Click Upload a file.
 - Select an image.
 - Click Open or Choose.
@@ -244,7 +253,7 @@ In the left panel: Scroll to find images related to your search.
 For example,
 
 ```googe
-intitle:herbs**
+intitle:herbs
 ```
 
 #### Inurl
@@ -257,7 +266,7 @@ The modifier inurl only searches the web address of a page: give **inurl:herbs
 - For example,
 
 ```google
-link:www.mozilla.org**
+link:www.mozilla.org
 ```
 
 #### map
