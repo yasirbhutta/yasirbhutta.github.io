@@ -37,7 +37,7 @@
 
 For example,
 
-```goog
+```google
 weather Multan 
 ```
 
