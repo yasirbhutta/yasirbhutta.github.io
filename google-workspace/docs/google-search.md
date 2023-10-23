@@ -1,9 +1,9 @@
 # Google Workspace
 
-- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
+- [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-search.pdf)
 
 - To access the updated lecture notes, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
+[https://yasirbhutta.github.io/google-workspace/docs/google-search.html](https://yasirbhutta.github.io/google-workspace/docs/google-search.html)
 
 - [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
@@ -240,7 +240,12 @@ In the left panel: Scroll to find images related to your search.
 #### intitle
 
 - Google has some very powerful, hidden search parameters, too. For example "intitle" only searches page titles.
-- For example, **intitle:herbs**
+  
+For example,
+
+```googe
+intitle:herbs**
+```
 
 #### Inurl
 
@@ -248,8 +253,12 @@ The modifier inurl only searches the web address of a page: give **inurl:herbs
 
 #### link
 
-- Want to know how many links there are to a site? Try link:sitename – 
-- For example, **link:www.mozilla.org**
+- Want to know how many links there are to a site? Try `link:sitename`
+- For example,
+
+```google
+link:www.mozilla.org**
+```
 
 #### map
 
@@ -258,14 +267,17 @@ The modifier inurl only searches the web address of a page: give **inurl:herbs
 
 [https://trends.google.com/](https://trends.google.com/)
 
-### Further reading
+### Review Questions
+
+### Multichoice Questions
+
+### References
 
 - [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-Updated on: 09-Dec-2022
-
 Muhammad Yasir Bhutta
 
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)

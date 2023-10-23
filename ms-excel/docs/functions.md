@@ -1089,7 +1089,7 @@ Sample Data:
 
 ## References
 
-[^1] [IF function - Excel Help & Training](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)]
+[^1] [IF function - Excel Help & Training](https://support.microsoft.com/en-us/office/if-function-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2)
 [^2] [Excel Exercises](https://excelexercises.com/)
 
 ## Muhammad Yasir Bhutta
