@@ -389,6 +389,12 @@ further reading:
 
 Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
 
+>Syntax
+
+```excel
+COUNTIF(range, criteria)
+```
+
 For example:
 
 ```excel
