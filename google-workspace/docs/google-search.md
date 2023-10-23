@@ -265,6 +265,22 @@ For example, to get information about the website wikipedia.org, you would type 
 - You can use the filetype: operator in Google Search to limit results to a specific file type or file extension.
 - For example, **filetype:pptx computer** will search for PPTX files and URLs ending in .pptx whose content contains the term "computer".
 
+```google
+filetype:pdf climate change report
+```
+
+```google
+filetype:xlsx financial statements
+```
+
+```google
+filetype:docx how to write a resume
+```
+
+```gogle
+filetype:pdf site:nasa.gov
+```
+
 Further reading:
 
 - [https://developers.google.com/search/docs/crawling-indexing/indexable-file-types](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types)
@@ -351,9 +367,17 @@ For example,
 intitle:herbs
 ```
 
+```google
+filetype:pptx intitle:social media marketing
+```
+
 #### Inurl
 
-The modifier inurl only searches the web address of a page: give **inurl:herbs
+The modifier inurl only searches the web address of a page: give 
+
+```google
+inurl:herbs
+```
 
 #### link
 
@@ -371,9 +395,29 @@ link:www.mozilla.org
 
 [https://trends.google.com/](https://trends.google.com/)
 
+[Google Scholar](https://scholar.google.com/): A comprehensive search engine for scholarly literature. Find academic papers, books, and other scholarly articles from a variety of sources.
+
+[Google News](https://news.google.com/): Google News is a news aggregator service developed by Google. It presents a continuous flow of links to articles organized from thousands of publishers and magazines. Google News is available as an app on Android, iOS, and the Web.
+
+[Google Maps](https://maps.google.com/): Find local businesses, view maps and get driving directions in Google Maps.
+
 ### Review Questions
 
-### Multichoice Questions
+1. What does the minus sign (-) do in a Google search query?
+2. How can I use Google to search for information on specific websites?
+3. What is the purpose of using quotation marks in a Google search query, and how can they enhance your search results?
+4. Explain how the use of the "site:" operator in a Google search query can help you narrow down your search to a specific website or domain.
+5. How can you use the "filetype:" operator in Google search to find specific types of files, such as PDFs or Word documents?
+6. Describe the significance of using the "intitle:" operator in a search query and provide an example of when you might use it.
+7. Explain the purpose of the "related:" operator in Google search and how it can be used to discover related websites.
+8. Describe the steps to use Google's "define:" operator to look up the definition of a word or term directly from the search bar.
+9. How can you use Google search to perform calculations, conversions, and unit conversions without leaving the search results page?
+10. How do you use the "intitle:" and "inurl:" search operators effectively in Google searches?
+11. How can you use Google to search for information on specific websites?
+
+### MCQs Questions
+
+
 
 ### References
 
