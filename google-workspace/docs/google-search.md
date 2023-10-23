@@ -1,4 +1,4 @@
-# Google Workspace
+# Google Search
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-search.pdf)
 
@@ -35,7 +35,17 @@
 
 ### weather
 
-- For example, **weather Multan** or **weather Lahore**
+For example,
+
+```goog
+weather Multan 
+```
+
+or
+
+```google
+weather Lahore
+```
 
 ## define
 
@@ -57,7 +67,7 @@ Enter any conversion, like **3 dollars in euros**.
 - To convert litre to ml: **10.6 liter in ml**
 - To convert cm to inches: **10 cm to inches**
 - To convert Fahrenheit to Centigrade: **100 f to c**
-- To convert number in Roman: **125 to roman**/////
+- To convert number in Roman: **125 to roman**
 
 ### Quick facts
 
