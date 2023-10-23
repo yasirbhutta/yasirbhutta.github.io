@@ -83,15 +83,27 @@ Search for the name of a celebrity, location, movie, or song to find related inf
 
 For example:
 
-- population pakistan
-- unemployment rate pakistan
-- unemployment rate china
+```google
+population pakistan
+```
+
+```google
+unemployment rate pakistan
+```
+
+```google
+unemployment rate china
+```
 
 ### image
 
 Google finds images just as easily and lists them at the top, when you add image to the end of your search.
 
--For example, **flower image**
+For example,
+
+```google
+flower image
+```
 
 ### Expert search tips
 
@@ -120,11 +132,29 @@ Right after the word you're looking for, add the text imagesize:widthxheight. Ma
 
 Put @ in front of a word to search social media. 
 
-- For example: **@twitter**.
+For example:
+
+```google
+@twitter
+```
+
+```google
+islam @twitter
+```
+
+```google
+islam @facebook
+```
 
 #### Search for a price
 
-Put $ in front of a number. For example: **camera $400**.
+Put $ in front of a number.
+
+For example:
+
+```google
+camera $400
+```
 
 #### Search hashtags
 
@@ -132,32 +162,54 @@ Put # in front of a word.
 For example:
 
 ```google
-#islam**
+#islam
 ```
 
 #### Exclude words from your search
 
 Put - in front of a word you want to leave out.
 
-- For example, 
+examples,
 
 ```google
 jaguar speed -car
+```
+
+or
+
+```google
+electric cars -Tesla
+```
+
+or
+
+```google
+best smartphones -Apple -Samsung
 ```
 
 #### Search for an exact match
 
 Put a word or phrase inside quotes.
 
-- For example, **"tallest building"**.
+For example, 
+  
+```google
+"tallest building"
+```
 
-- **"tallest * building"**
+```google
+"tallest * building"
+```
 
 #### Search within a range of numbers
 
 Put .. between two numbers.
 
-- For example, **camera $50..$100**.
+- For example,
+
+```google
+camera $50..$100**.
+```
 
 #### Combine searches
 
@@ -167,13 +219,38 @@ Put .. between two numbers.
 #### Search for a specific site …
 
 - Put "site:" in front of a site or domain.
-- For example, **site:youtube.com** or **site:.gov**.
+
+For example,
+
+```google
+site:youtube.com
+```
+
+```google
+site:.gov
+```
 
 #### Search for related sites
 
 - To search for web pages that have similar content to a given site,Put "related:" in front of a web address you already know.
 
-- For example, **related:cnn.com** or **related:freepik.com** or **related:facebook.com**
+- For example,
+
+```google
+related:cnn.com
+```
+
+or
+
+```google
+related:freepik.com
+```
+
+or
+
+```google
+related:facebook.com
+```
 
 - The Google search `info` keyword is a special keyword that allows you to get information about a particular website. To use it, simply type info: followed by the website's URL into the Google search bar.
 
