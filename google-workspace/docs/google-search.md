@@ -1,6 +1,11 @@
-# Google
+# Google Workspace
 
-- [Google Services](../docs/index.md)
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
+
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
+
+- [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
 
 ## How to Search on Google
