@@ -8,32 +8,113 @@
 - [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
 
-## How to Search on Google
+## Modules - Google Search
+
+### Module 1
+
+- Query
+- How Google Work
+- How to Search on Google
+- Flip a Coin
+- “I’m feeling lucky”
+
+### Module 2
+
+- Weather Searching
+- Performing Calculations on Google
+- Currency Conversions
+- Unit conversions
+
+### Module 3 - Search Operators
+
+- Search on Social Media
+- Search for a price
+- Searching Hashtags
+- Exclude words from your search
+- Search for an exact match
+
+### Module 4
+  
+- Searching within the range
+- Combine searches
+- Search with a Specific Site
+- Searching Related Websites
+- See Google’s cached version of a site
+- Search by file type
+- Top Results from Wikipedia
+- link Operator
+
+### Module 5
+
+- Stocks Operator
+- Map Operator
+- Define Operator
+- Quick facts
+- Image Search
+- Search Image with a URL
+- Search for an exact image size
+- Advanced Search Operators
+  - Intitle
+  - inurl
+  - Intext
+  
+## Module 1
+
+### How to Search on Google
 
 [https://www.google.com/](https://www.google.com/)
 
-### Tip 1: Start with the basics
+#### Tip 1: Start with the basics
 
 - No matter what you're looking for, start with a simple search like **where's the closest airport?**. You can always add a few descriptive words if necessary.
 - If you're looking for a place or product in a specific location, add the location.For example, **Multan**.
 
-### Tip 2: Search using your voice
+#### Tip 2: Search using your voice
 
 - To search with your voice, say **"Ok Google"** or **select the Microphone**
 
-### Tip 3: Choose words carefully
+#### Tip 3: Choose words carefully
 
 - When you're deciding what words to put in the search box, try to choose words that are likely to appear on the site you're looking for.
 - **For example,** instead of saying **my head hurts**, say **headache**, because that’s the word a medical site would use.
 
-### Tip 4: Don’t worry about the little things
+#### Tip 4: Don’t worry about the little things
 
 - Spelling: Google's spell checker automatically uses the most common spelling of a given word, whether or not you spell it correctly.
 - **Capitalization:** A search for New York Times is the same as a search for new york times.
 
-### Tip 5: Find quick answers
+#### Tip 5: Find quick answers
 
-### weather
+Search for the name of a celebrity, location, movie, or song to find related information. 
+
+For example:
+
+```google
+population pakistan
+```
+
+```google
+unemployment rate pakistan
+```
+
+```google
+unemployment rate china
+```
+
+### Flip a coin
+
+- To flip a coin in Google Search, simply type "flip a coin" in the search bar and click on the "Search" button. Google will then display a coin flipping animation, and the result will be either "Heads" or "Tails".
+- You can also flip a coin in Google Search using the following voice command: "Hey Google, flip a coin."
+- If you want to flip a coin more than once, you can simply click on the "Flip again" button.
+
+### “I’m feeling lucky”
+
+- click on "I'm feeling lucky" if you're searching for the site of a company or the official site of a product.
+- "I'm feeling lucky" sends you to the first search result.
+
+### Module 2
+
+### Weather Searching
 
 For example,
 
@@ -47,7 +128,235 @@ or
 weather Lahore
 ```
 
-## define
+### Calculations
+
+Enter a math equation like **3*9123**, or solve complex graphing equations.
+
+### Unit conversions
+
+Enter any conversion, like **3 dollars in euros**.
+
+- To convert from meter to inches: **10.5 meter to inches**
+- To convert litre to ml: **10.6 liter in ml**
+- To convert cm to inches: **10 cm to inches**
+- To convert Fahrenheit to Centigrade: **100 f to c**
+- To convert number in Roman: **125 to roman**
+
+## Module 3
+
+### Search social media
+
+Put @ in front of a word to search social media.
+
+For example:
+
+```google
+@twitter
+```
+
+```google
+islam @twitter
+```
+
+```google
+islam @facebook
+```
+
+### Search for a price
+
+Put $ in front of a number.
+
+For example:
+
+```google
+camera $400
+```
+
+### Search hashtags
+
+Put # in front of a word.
+For example:
+
+```google
+#islam
+```
+
+### Exclude words from your search
+
+Put - in front of a word you want to leave out.
+
+examples,
+
+```google
+jaguar speed -car
+```
+
+or
+
+```google
+electric cars -Tesla
+```
+
+or
+
+```google
+best smartphones -Apple -Samsung
+```
+
+### Search for an exact match
+
+Put a word or phrase inside quotes.
+
+For example,
+  
+```google
+"tallest building"
+```
+
+**Wild Card based Searching:**
+
+```google
+"tallest * building"
+```
+
+## Module 4
+
+### Search within a range of numbers
+
+Put .. between two numbers.
+
+- For example,
+
+```google
+camera $50..$100.
+```
+
+#### Combine searches
+
+- Put **"OR"** between each search query.
+- For example,
+  
+```google
+marathon OR race
+```
+
+### Search for a specific site
+
+- Put "site:" in front of a site or domain.
+
+For example,
+
+```google
+site:youtube.com
+```
+
+```google
+site:.gov
+```
+
+### Search for related sites
+
+- To search for web pages that have similar content to a given site,Put "related:" in front of a web address you already know.
+
+- For example,
+
+```google
+related:cnn.com
+```
+
+or
+
+```google
+related:freepik.com
+```
+
+or
+
+```google
+related:facebook.com
+```
+
+- The Google search `info` keyword is a special keyword that allows you to get information about a particular website. To use it, simply type info: followed by the website's URL into the Google search bar.
+
+For example, to get information about the website wikipedia.org, you would type `info:wikipedia.org` into the search bar. Google would then return a page with information about the website, such as its title, description, page load speed, and other metrics.
+
+### See Google’s cached version of a site
+
+- Put **"cache:"** in front of the site address.
+
+### Search by file type
+
+- You can use the filetype: operator in Google Search to limit results to a specific file type or file extension.
+- For example, **filetype:pptx computer** will search for PPTX files and URLs ending in .pptx whose content contains the term "computer".
+
+```google
+filetype:pdf climate change report
+```
+
+```google
+filetype:xlsx financial statements
+```
+
+```google
+filetype:docx how to write a resume
+```
+
+```gogle
+filetype:pdf site:nasa.gov
+```
+
+Further reading:
+
+- [https://developers.google.com/search/docs/crawling-indexing/indexable-file-types](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types)
+
+### Top Results from Wikipedia
+
+- Wikipedia is free encyclopedia that have more than 2.9 millions articles Add **"wikipedia"** to your Google search query to find the top results from Wikipedia.
+
+- For example,
+
+```google
+Computer wikipedia**
+```
+
+### link Operator
+
+- Want to know how many links there are to a site? Try `link:sitename`
+- For example,
+
+```google
+link:www.mozilla.org
+```
+
+## Module 5
+
+### Stocks Operator
+
+- Using this operator, we can find the trend of the stock market for a particular company for example, if we want to see what the stock market trend for the company “Apple” is, we can write the following query:
+
+```google
+stocks:aapl
+```
+
+#### Map Operator
+
+- Looking for a map? Just add map to the end of your query.
+
+For example,
+
+```google
+map:Lahore
+```
+
+```google
+pakistan map
+``````
+
+```google
+dera ghazi khan map
+```
+
+### define Operator
 
 Google Search Keywords - define
 
@@ -95,39 +404,7 @@ or
 synonym:gratitude
 ```
 
-### Calculations
-
-Enter a math equation like **3*9123**, or solve complex graphing equations.
-
-### Unit conversions
-
-Enter any conversion, like **3 dollars in euros**.
-
-- To convert from meter to inches: **10.5 meter to inches**
-- To convert litre to ml: **10.6 liter in ml**
-- To convert cm to inches: **10 cm to inches**
-- To convert Fahrenheit to Centigrade: **100 f to c**
-- To convert number in Roman: **125 to roman**
-
-### Quick facts
-
-Search for the name of a celebrity, location, movie, or song to find related information. 
-
-For example:
-
-```google
-population pakistan
-```
-
-```google
-unemployment rate pakistan
-```
-
-```google
-unemployment rate china
-```
-
-### image
+### Search image
 
 Google finds images just as easily and lists them at the top, when you add image to the end of your search.
 
@@ -137,9 +414,61 @@ For example,
 flower image
 ```
 
-### Expert search tips
+### Search Image with a URL
 
-#### Search Operators
+- On your computer, go to a web browser and access the website with the image you want to use
+- To copy the URL, right-click on the image and click Copy image address.
+- Go to Google Images.
+Click Search by image Google Lens and then Paste image link.
+In the text box, paste the URL and click Search.
+
+Tip: Browsers don't save the URLs you search within your browsing history. Google may store the URLs to make our products and services better.
+
+[https://images.google.com/](https://images.google.com/)
+
+#### Search for an exact image size
+
+Right after the word you're looking for, add the text imagesize:widthxheight. Make sure to add the dimensions in pixels.
+
+- Example:
+
+```google
+imagesize:500x400**
+```
+
+### Advanced Search Operators
+
+#### intitle
+
+- Google has some very powerful, hidden search parameters, too. For example "intitle" only searches page titles.
+  
+For example,
+
+```googe
+intitle:herbs
+```
+
+```google
+filetype:pptx intitle:social media marketing
+```
+
+#### Inurl
+
+The modifier inurl only searches the web address of a page: give 
+
+```google
+inurl:herbs
+```
+
+#### intext
+
+If we are interested to search anywhere in the body of the document, we can use intext operator, for example:
+
+```google
+intext: "Ghazi University admissions 2023”
+```
+
+### Search Operators
 
 - You can use symbols or words in your search to make your search results more precise.
 Google Search usually ignores punctuation that isn’t part of a search operator.
@@ -152,184 +481,8 @@ Go to Advanced Image Search.
 Use filters like region or file type to narrow your results.
 At the bottom, click Advanced Search.
 
-#### Search for an exact image size
-
-Right after the word you're looking for, add the text imagesize:widthxheight. Make sure to add the dimensions in pixels.
-
-- Example:
-
-```google
-imagesize:500x400**
-```
-
 ### Common search techniques
 
-#### Search social media
-
-Put @ in front of a word to search social media. 
-
-For example:
-
-```google
-@twitter
-```
-
-```google
-islam @twitter
-```
-
-```google
-islam @facebook
-```
-
-#### Search for a price
-
-Put $ in front of a number.
-
-For example:
-
-```google
-camera $400
-```
-
-#### Search hashtags
-
-Put # in front of a word.
-For example:
-
-```google
-#islam
-```
-
-#### Exclude words from your search
-
-Put - in front of a word you want to leave out.
-
-examples,
-
-```google
-jaguar speed -car
-```
-
-or
-
-```google
-electric cars -Tesla
-```
-
-or
-
-```google
-best smartphones -Apple -Samsung
-```
-
-#### Search for an exact match
-
-Put a word or phrase inside quotes.
-
-For example,
-  
-```google
-"tallest building"
-```
-
-```google
-"tallest * building"
-```
-
-#### Search within a range of numbers
-
-Put .. between two numbers.
-
-- For example,
-
-```google
-camera $50..$100.
-```
-
-#### Combine searches
-
-- Put **"OR"** between each search query.
-- For example, **marathon OR race**.
-
-#### Search for a specific site …
-
-- Put "site:" in front of a site or domain.
-
-For example,
-
-```google
-site:youtube.com
-```
-
-```google
-site:.gov
-```
-
-#### Search for related sites
-
-- To search for web pages that have similar content to a given site,Put "related:" in front of a web address you already know.
-
-- For example,
-
-```google
-related:cnn.com
-```
-
-or
-
-```google
-related:freepik.com
-```
-
-or
-
-```google
-related:facebook.com
-```
-
-- The Google search `info` keyword is a special keyword that allows you to get information about a particular website. To use it, simply type info: followed by the website's URL into the Google search bar.
-
-For example, to get information about the website wikipedia.org, you would type `info:wikipedia.org` into the search bar. Google would then return a page with information about the website, such as its title, description, page load speed, and other metrics.
-
-#### See Google’s cached version of a site
-
-- Put **"cache:"** in front of the site address.
-
-#### Search by file type
-
-- You can use the filetype: operator in Google Search to limit results to a specific file type or file extension.
-- For example, **filetype:pptx computer** will search for PPTX files and URLs ending in .pptx whose content contains the term "computer".
-
-```google
-filetype:pdf climate change report
-```
-
-```google
-filetype:xlsx financial statements
-```
-
-```google
-filetype:docx how to write a resume
-```
-
-```gogle
-filetype:pdf site:nasa.gov
-```
-
-Further reading:
-
-- [https://developers.google.com/search/docs/crawling-indexing/indexable-file-types](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types)
-
-#### Top Results from Wikipedia
-
-- Wikipedia is free encyclopedia that have more than 2.9 millions articles Add **"wikipedia"** to your Google search query to find the top results from Wikipedia.
-
-- For example,
-
-```google
-Computer wikipedia**
-```
 
 #### Search with an image on Google
 
@@ -359,17 +512,6 @@ Your results can include:
 - On your computer, find the file with the image you want to search with. Click the image.
 - Hold down the mouse, drag the image, and then drop it into the search box.
 
-#### Search with a URL
-
-- On your computer, go to a web browser and access the website with the image you want to use
-- To copy the URL, right-click on the image and click Copy image address.
-- Go to Google Images.
-Click Search by image Google Lens and then Paste image link.
-In the text box, paste the URL and click Search.
-
-Tip: Browsers don't save the URLs you search within your browsing history. Google may store the URLs to make our products and services better.
-
-[https://images.google.com/](https://images.google.com/)
 
 #### Search with an image from a website
 
@@ -394,46 +536,6 @@ At the top right, click Search inside image .
   - In the right panel: Scroll to find images related to the image that you clicked.
   - In the left panel: Scroll to find images related to your search.
 
-#### “I’m feeling lucky”
-
-- click on "I'm feeling lucky" if you're searching for the site of a company or the official site of a product.
-- "I'm feeling lucky" sends you to the first search result.
-
-#### intitle
-
-- Google has some very powerful, hidden search parameters, too. For example "intitle" only searches page titles.
-  
-For example,
-
-```googe
-intitle:herbs
-```
-
-```google
-filetype:pptx intitle:social media marketing
-```
-
-#### Inurl
-
-The modifier inurl only searches the web address of a page: give 
-
-```google
-inurl:herbs
-```
-
-#### link
-
-- Want to know how many links there are to a site? Try `link:sitename`
-- For example,
-
-```google
-link:www.mozilla.org
-```
-
-#### map
-
-- Looking for a map? Just add map to the end of your query.
-- For example, **pakistan map** or **dera ghazi khan map**
 
 [https://trends.google.com/](https://trends.google.com/)
 
