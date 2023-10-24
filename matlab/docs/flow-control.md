@@ -377,6 +377,46 @@ Output:
 Element found at index 4.
 ```
 
+## swtich Statement
+
+- Switch statements in MATLAB are similar to switch statements in other programming languages. They allow you to control the flow of your program by comparing a variable or expression to a set of values. If the variable or expression matches one of the values, the corresponding code block is executed. If there is no match, an optional default code block is executed.
+
+or
+
+- A switch statement in MATLAB is a way to choose which code to execute based on the value of a variable.
+
+```matlab
+switch switch_expression
+    case case_expression_1
+        statements_1
+    case case_expression_2
+        statements_2
+    ...
+    otherwise
+        statements_otherwise
+end
+```
+
+```matlab
+day = "Monday";
+
+% Switch statement
+switch day
+    case "Monday"
+        disp("Have a great week!");
+    case "Tuesday"
+        disp("Don't forget to water the plants!");
+    case "Wednesday"
+        disp("Hump day!");
+    case "Thursday"
+        disp("Almost there!");
+    case "Friday"
+        disp("TGIF!");
+    otherwise
+        disp("Have a great day!");
+end
+```
+
 ## Review Questions
 
 1. What is the purpose of a for loop in MATLAB?
@@ -392,23 +432,25 @@ Element found at index 4.
 11. How can you use a while loop to perform a repetitive task until a certain condition is met?
 12. Give an example of a while loop in MATLAB.
 13. What are some tips for using while loops effectively?
+
 >**Answer:** Here are some tips for using while loops effectively:
 >
 > - Use a while loop when you need to execute a block of code repeatedly as long as a condition is true.
 > - Make sure to update the condition variable in the loop body.
 > - Test your loops carefully to make sure that they are working as expected.
 
-12. What are some common mistakes to avoid when using while loops?
+14.  What are some common mistakes to avoid when using while loops?
+
 > **Answer:** Some common mistakes that people make when writing while loops in MATLAB include:
 >
 > - **Infinite loops:** This occurs when the condition for the while loop is always true, which causes the loop to execute forever.
 > - **Unreachable code:** This occurs when the code inside the while loop is never executed because the condition for the loop is never met.
 
-13. What is the difference between a for loop and a while loop?
+15. What is the difference between a for loop and a while loop?
 
 >**Answer:** A for loop is used to execute a block of code a fixed number of times. A while loop is used to execute a block of code repeatedly as long as a condition is true.
 
-14. What are some of the potential dangers of using infinite loops in MATLAB programs?
+16.  What are some of the potential dangers of using infinite loops in MATLAB programs?
 
 > **Answer:** Infinite loops can be dangerous because they can cause MATLAB programs to crash or become unresponsive.
 

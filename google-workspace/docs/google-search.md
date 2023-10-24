@@ -63,6 +63,38 @@ define gorgeous
 define character
 ```
 
+other related queries
+
+**Overview:**
+
+```google
+gratitude meaning
+```
+
+**Usage examples:**
+
+```google
+gratitude in a sentence
+```
+
+**Pronunciation:**
+
+```google
+pronounce gratitude
+```
+
+**Similar and opposite words:**
+
+```google
+synonyms of gratitude
+```
+
+or
+
+```google
+synonym:gratitude
+```
+
 ### Calculations
 
 Enter a math equation like **3*9123**, or solve complex graphing equations.
@@ -124,7 +156,11 @@ At the bottom, click Advanced Search.
 
 Right after the word you're looking for, add the text imagesize:widthxheight. Make sure to add the dimensions in pixels.
 
-- Example: **imagesize:500x400**
+- Example:
+
+```google
+imagesize:500x400**
+```
 
 ### Common search techniques
 
@@ -191,7 +227,7 @@ best smartphones -Apple -Samsung
 
 Put a word or phrase inside quotes.
 
-For example, 
+For example,
   
 ```google
 "tallest building"
@@ -208,7 +244,7 @@ Put .. between two numbers.
 - For example,
 
 ```google
-camera $50..$100**.
+camera $50..$100.
 ```
 
 #### Combine searches
@@ -289,17 +325,23 @@ Further reading:
 
 - Wikipedia is free encyclopedia that have more than 2.9 millions articles Add **"wikipedia"** to your Google search query to find the top results from Wikipedia.
 
-- For example, **Computer wikipedia**
+- For example,
+
+```google
+Computer wikipedia**
+```
 
 #### Search with an image on Google
 
 - You can learn more about an image or the objects around you with Google Lens. 
 - For example, you can take a photo of a plant and use it to search for info or other similar images.
 What you find when you search
+
 Your results can include:
-Search results for objects in the image
-Similar images
-Websites with the image or a similar image
+
+- Search results for objects in the image
+- Similar images
+- Websites with the image or a similar image
 
 #### Upload an image
 
@@ -309,13 +351,13 @@ Websites with the image or a similar image
 - Click Upload a file.
 - Select an image.
 - Click Open or Choose.
-Drag & drop an image
-rag & drop an image
-On your computer, go to a web browser.
-Go to Google Images.
-On your computer, find the file with the image you want to search with.
-Click the image.
-Hold down the mouse, drag the image, and then drop it into the search box.
+
+**Drag & drop an image:**
+
+- On your computer, go to a web browser.
+- Go to Google Images.
+- On your computer, find the file with the image you want to search with. Click the image.
+- Hold down the mouse, drag the image, and then drop it into the search box.
 
 #### Search with a URL
 
@@ -345,12 +387,12 @@ At the top right, click Search inside image .
 
 #### Find related images
 
-On your computer, go to images.google.com.
-Search for an image.
-Click an image.
-Find images:
-In the right panel: Scroll to find images related to the image that you clicked.
-In the left panel: Scroll to find images related to your search.
+- On your computer, go to images.google.com.
+- Search for an image.
+- Click an image.
+- Find images:
+  - In the right panel: Scroll to find images related to the image that you clicked.
+  - In the left panel: Scroll to find images related to your search.
 
 #### “I’m feeling lucky”
 
@@ -416,7 +458,17 @@ link:www.mozilla.org
 11. How can you use Google to search for information on specific websites?
 12. What is the Google search tip that you find most useful?
 
-### MCQs Questions
+### True/False
+
+1. Use the Google Translate search engine to translate web pages into other languages. True/False
+2. Use the site: operator to search for results of a specific file type. True/False
+3. Use the Google Bookmarks feature to save websites that you want to come back to later. True/False
+4. You can use quotation marks around a phrase to search for the exact words in that order. True/False
+5. Google offers advanced search operators like "filetype:" to find specific types of files (e.g., PDF, DOC) on the web. True/False
+6. You should use the plus sign (+) to include words in your search results. True/False
+7. Google's "Define:" operator can be used to look up definitions of words or phrases. True/False
+
+### Multiple Choice - Select the best answer
 
 > Which of the following Google Search tips is the most effective way to find a specific phrase or sentence?
 
@@ -516,8 +568,32 @@ Which feature allows you to search for books and publications on Google?
 3. [ ] A list of related searches
 4. [ ] Google Maps
 
+> How can you use Google search as a calculator?
+
+1. [ ] Type calc: followed by the expression
+2. [ ] Type math: followed by the equation
+3. [ ] Type the expression or equation directly
+4. [ ] Type solve: followed by the problem
+
+## Exercises
+
+1. Find the name of the first woman to win a Nobel Prize in Physics. Use the site: operator to limit your search to official Nobel Prize websites.
+2. What is the capital city of Pakistan? Use the define: operator to find the meaning of the word “capital” in the context of geography.
+3. Who is the author of the famous novel “The Catcher in the Rye”? Use the intitle: operator to find web pages that have the title of the novel in their title.
+4. What is the name of the largest bone in the human body? Use the filetype: operator to find a PDF document that contains a diagram of the human skeleton.
+5. What is the formula for calculating the area of a circle? Use the inurl: operator to find web pages that have the word “math” in their URL.
+6. What is the name of the national anthem of Pakistan? Use the cache: operator to view an older version of a web page, such as the Wikipedia page on Pakistan.
+7. What is the meaning of the word “”? Use the synonym: operator to find synonyms for a word in your query.
+8. What is the meaning of the word “Gratitude”? Use the synonym: operator to find synonyms for a word in your query.
+9. Use the site: operator to find articles about climate change from the New York Times website.
+10. Find a translation of the phrase "If you can dream it, you can do it." into 10 different languages.
+11. Find a scientific article about the benefits of exercise for mental health.
+
 ### References
 
+- [How to search on Google](https://support.google.com/websearch/answer/134479?hl=en)
+- [How to Google like a Pro – 10 Tips for More Effective Googling](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)
+- [36 Google Search tricks to find exactly what you're looking for](https://zapier.com/blog/advanced-google-search-tricks/)
 - [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
 
 Muhammad Yasir Bhutta
