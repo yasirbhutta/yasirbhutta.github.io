@@ -305,7 +305,7 @@ filetype:docx how to write a resume
 filetype:pdf site:nasa.gov
 ```
 
-Further reading:
+**See also :**
 
 - [https://developers.google.com/search/docs/crawling-indexing/indexable-file-types](https://developers.google.com/search/docs/crawling-indexing/indexable-file-types)
 
@@ -316,7 +316,7 @@ Further reading:
 - For example,
 
 ```google
-Computer wikipedia**
+Computer wikipedia
 ```
 
 ### link Operator
@@ -372,7 +372,7 @@ define gorgeous
 define character
 ```
 
-other related queries
+**other related queries :**
 
 **Overview:**
 
@@ -607,7 +607,7 @@ At the top right, click Search inside image .
 3. [ ] site:
 4. [ ] *
 
-Which of the following search operators can be used to exclude a word from your search results?
+> Which of the following search operators can be used to exclude a word from your search results?
 
 1. [ ] "
 2. [ ] +
@@ -635,7 +635,7 @@ Which of the following search operators can be used to exclude a word from your 
 3. [ ] To find results from a specific website
 4. [ ] To search for images with the specified keyword
 
-Which feature allows you to search for books and publications on Google?
+> Which feature allows you to search for books and publications on Google?
 
 1. [ ] Google Books
 2. [ ] Google News
@@ -691,14 +691,14 @@ Which feature allows you to search for books and publications on Google?
 10. Find a translation of the phrase "If you can dream it, you can do it." into 10 different languages.
 11. Find a scientific article about the benefits of exercise for mental health.
 
-### References
+## References
 
 - [How to search on Google](https://support.google.com/websearch/answer/134479?hl=en)
 - [How to Google like a Pro – 10 Tips for More Effective Googling](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)
 - [36 Google Search tricks to find exactly what you're looking for](https://zapier.com/blog/advanced-google-search-tricks/)
 - [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-Muhammad Yasir Bhutta
+## Social Links
 
 - [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
