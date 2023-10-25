@@ -6,7 +6,7 @@
 
 ## Intro. to Excel
 
-- [Lecture Notes - Excel Basics](basics.md)
+- [Handouts - Excel Basics](basics.md)
 - [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 - Microsoft Excel Interface
@@ -27,21 +27,20 @@
 
 ## Formatting
 
-- [Lecture Notes - Formatming](formatting.md)
+- [Handouts - Formatting in excel](formatting.md)
 - [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 ## Formulas
 
-- [Lecture Notes - Formatming](formulas.md)
+- [Handouts - Formulas in excel](formulas.md)
 - [Download](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
 - [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
 
 ## Functions
 
-- [Lecture Notes - Functions](functions.md)
+- [Handouts - Functions in excel](functions.md)
 - [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
-[Download - Handouts](functions-excel.md)
 - Cell references
 - [Use cell references in a formula](https://youtu.be/mdmYAOeGJoQ)
 - Coping formula
