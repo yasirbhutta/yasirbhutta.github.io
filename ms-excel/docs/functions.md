@@ -406,7 +406,7 @@ CONCAT(text1, [text2],…)
 
 For example, =CONCAT("The"," ","sun"," ","will"," ","come"," ","up"," ","tomorrow.") will return The sun will come up tomorrow.
 
-[Video Tutorial: Join First Name and Last Name in the Excel | CONCAT function](https://youtu.be/6Puk_HhpFRM?si=NjnKFCa6bBOsMJIH)
+[Video Tutorial: Join First Name and Last Name in the Excel - CONCAT function](https://youtu.be/6Puk_HhpFRM?si=NjnKFCa6bBOsMJIH)
 
 **See also:**
   
@@ -485,7 +485,7 @@ An invalid cell is referenced in the formula
 
 ### More Functions
 
-- [Video Tutorial: Insert copyright, registered and trademark symbols | Microsoft Excel](https://youtu.be/Zf-VfFlCMYI?si=sHIXhL5g4aG1w4fi)
+- [Video Tutorial: Insert copyright, registered and trademark symbols - Microsoft Excel](https://youtu.be/Zf-VfFlCMYI?si=sHIXhL5g4aG1w4fi)
 - [Video Tutorial: Find unique list of cities using Unique Function](https://youtu.be/dISzLBMgZF0)
 - [Video Tutorial: DAYS](https://youtu.be/1CRDkupdYrQ)
 - [Video Tutorial: TRANSPOSE function:Vertical range of cells as a horizontal range](https://youtu.be/81Lk7ke7UNw)
@@ -493,12 +493,12 @@ An invalid cell is referenced in the formula
 - [Video Tutorial: Array of text values from range of cells](https://youtu.be/Sa8qdcZ8vXc)
 - [Video Tutorial: Date](https://youtu.be/UpJluY3XY74)
 - [Video Tutorial: Generate Serial # using sequence in excel](https://youtu.be/gKds5egFFJI?si=JP4kFby1VPxJOb9i)
-- [Video Tutorial: Converts a number from one measurement system to another | Microsoft Excel](https://youtu.be/ilEpvXG1NO4?si=mXBMoNtCiPXuvu6j)
-- [Video Tutorial: Generate a sequence end with text | Microsoft Excel](https://youtu.be/urzWGZDpGGk?si=WGFdphwk0dSXT6XE)
+- [Video Tutorial: Converts a number from one measurement system to another - Microsoft Excel](https://youtu.be/ilEpvXG1NO4?si=mXBMoNtCiPXuvu6j)
+- [Video Tutorial: Generate a sequence end with text - Microsoft Excel](https://youtu.be/urzWGZDpGGk?si=WGFdphwk0dSXT6XE)
 - [Video Tutorial: Format numbers as TEXT in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=q95ulIUXbHdmQxjs)
-- [Video Tutorial: Append data from multiple sheets into one sheet | Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
+- [Video Tutorial: Append data from multiple sheets into one sheet - Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
 
-- [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App | Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
+- [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App - Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
 
 ### Review Questions
 
