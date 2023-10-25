@@ -37,7 +37,7 @@
 - To create an absolute cell reference, you need to prefix the cell reference with a dollar sign ($).
 - To place a $ sign before a Column letter and Row number of a Cell click on the cell that contains the absolute value and press **F4 Key**.
   
-**For example,** if you enter the formula `=$A1+$B1` into cell C1, and then copy that formula to cell D2, the formula will remain the same. This is because Excel knows that you want to add the specific cells A1 and B1, regardless of where the formula is copied.
+**For example,** if you enter the formula `=$A$1+$B$1` into cell C1, and then copy that formula to cell D2, the formula will remain the same. This is because Excel knows that you want to add the specific cells A1 and B1, regardless of where the formula is copied.
 
 - [Video Tutorial: Create an Absolute Reference in Excel](https://youtu.be/NDBp1p6g_4c?si=ULHKKtku6Ts6U_Zz)
 
