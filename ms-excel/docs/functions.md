@@ -931,6 +931,19 @@ THIS IS A SAMPLE TEXT.
 ```excel
 this is a sample text.
 ```
+
+**Exercise :** Create a new column called "Title Case" and use the PROPER function to convert the text in Column A to title case.
+
+Sample Data:
+
+| **Good Habits**|
+| ------------ |
+| regular exercise|
+| healthy eating       |
+| adequate sleep      |
+| time management|
+| mindfulness and meditation|
+
 **Exercise:**
 
 1. In cell D1, type the following formula:
@@ -971,25 +984,62 @@ Product name, quantity, price
 
 Sample Data:
 
-product Name | quantity | price
-------- | -------- |
-Apple | 100 | 5|
-Banana | 200 | 4|
-Orange | 300 | 3|
-
-**Exercise :** Create a new column called "Title Case" and use the PROPER function to convert the text in Column A to title case.
-
-Sample Data:
-
-| **Good Habits**|
-| ------------ |
-| regular exercise|
-| healthy eating       |
-| adequate sleep      |
-| time management|
-| mindfulness and meditation|
+|product Name | quantity | price|
+|---- | --- | ---|
+|Apple | 100 | 5|
+|Banana | 200 | 4|
+|Orange | 300 | 3|
 
 **DATE FUNCTIONS (TODAY, NOW, DATE):**
+
+**Exercise:** Calculate Age
+
+1. In cell A1, enter a birthdate (e.g., 01/15/1980).
+2. In cell B1, use the TODAY function to calculate the age. Subtract the birthdate in A1 from the current date (TODAY) and divide by 365.25 (accounting for leap years). The formula in B1 should look like this:
+
+```excel
+=(TODAY() - A1) / 365.25
+```
+
+The result in cell B1 will be the age in years.
+
+**Exercise :** Calculate Days Remaining
+
+1. In cell A1, enter a future date (e.g., 12/31/2023).
+2. In cell B1, use the TODAY function to calculate the number of days remaining until the date in A1. The formula in B1 should look like this:
+
+```excel
+=A1 - TODAY()
+```
+
+The result in cell B1 will be the number of days remaining until the future date.
+
+**Exercise:** Write the formula to find the date of the first day of the previous month.
+
+- Type the following forumula in any cell:
+  
+```excel
+=DATE(YEAR(TODAY()), MONTH(TODAY())-1, 1)
+```
+
+This formula calculates the date of the first day of the previous month. The DATE() function takes three arguments: the year, the month, and the day.
+
+In this case, we are using the YEAR() and MONTH() functions to get the current year and month, respectively. We then subtract 1 from the month to get the month of the previous month. Finally, we set the day to 1 to get the date of the first day of the previous month.
+
+**Exercise:** Calculate Elapsed Time
+
+You can use the NOW function to calculate the elapsed time between two events.
+
+1. In cell A5, type "Start Time:".
+2. In cell B5, enter a start time (e.g., "9:00 AM").
+3. In cell A6, type "End Time:".
+4. In cell B6, use the following formula to calculate the elapsed time between the start and end times:
+
+```excel
+=TEXT(NOW()-B5, "hh:mm")
+```
+
+This formula subtracts the start time in cell B5 from the current time provided by NOW and formats the result as "hh:mm".
 
 ## Multiple Choice Questions
 
@@ -1160,6 +1210,41 @@ Sample Data:
 2. [ ] =IF(A1=B1, "Equal", "Not Equal")
 3. [ ] =IF(A1<>B1, "Not Equal", "Equal")
 4. [ ] All of the above
+
+> Which of the following is the correct syntax for the SUMIF function?
+
+1. [ ] =SUMIF(range, criteria, sum_range)
+2. [ ] =SUMIF(criteria, range, sum_range)
+3. [ ] =SUMIF(sum_range, range, criteria)
+4. [ ] =SUMIF(range, criteria)
+
+>What is the purpose of the SUMIF function?
+
+1. [ ] To calculate the sum of all values in a range that meet a specified criterion
+2. [ ] To calculate the average of all values in a range that meet a specified criterion
+3. [ ] To count the number of values in a range that meet a specified criterion
+4. [ ] To find the maximum value in a range that meet a specified criterion
+
+>Which of the following formulas will return the sum of all cells in the range A1:A100 that are greater than $100?
+
+1. [ ] =SUMIF(A1:A100, ">100")
+2. [ ] =SUMIF(A1:A100, "100")
+3. [ ] =SUMIF(A1:A100, "A1:A100>100")
+4. [ ] =SUMIF(A1:A100, "A1:A100", ">100")
+
+>What is the purpose of the criteria argument in the SUMIF function?
+
+1. [ ] It specifies the range of cells to be summed.
+2. [ ] It defines the condition that determines which cells to include in the sum.
+3. [ ] It is the result of the summation.
+4. [ ] It is not required in the SUMIF function.
+
+>What does the COUNTIF function return if no cells meet the specified criteria?
+
+1. [ ] 0
+2. [ ] An error message
+3. [ ] #N/A
+4. [ ] A blank cell
 
 ## References
 
