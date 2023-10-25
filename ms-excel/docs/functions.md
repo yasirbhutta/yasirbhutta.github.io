@@ -390,10 +390,28 @@ LENB(text)
 
 Text Required. The text whose length you want to find. Spaces count as characters.
 
-further reading:
+**See also:**
 
 - [LEN, LENB functions - Microsoft Support](https://support.microsoft.com/en-gb/office/len-lenb-functions-29236f94-cedc-429d-affd-b5e33d2c67cb#:~:text=LEN%20returns%20the%20number%20of,be%20available%20in%20all%20languages.)
+
+#### Concat function - Combine text from two or more cells into one cell
+
+- The CONCAT function combines the text from multiple ranges and/or strings, but it doesn't provide delimiter or IgnoreEmpty arguments.
+
+**Syntax:**
+
+```excel
+CONCAT(text1, [text2],…)
+```
+
+For example, =CONCAT("The"," ","sun"," ","will"," ","come"," ","up"," ","tomorrow.") will return The sun will come up tomorrow.
+
+[Video Tutorial: Join First Name and Last Name in the Excel | CONCAT function](https://youtu.be/6Puk_HhpFRM?si=NjnKFCa6bBOsMJIH)
+
+**See also:**
   
+- [Excel Help & Training - Combine text from two or more cells into one cell](https://support.microsoft.com/en-us/office/combine-text-from-two-or-more-cells-into-one-cell-81ba0946-ce78-42ed-b3c3-21340eb164a6)
+
 #### COUNTIF function
 
 Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
@@ -435,10 +453,6 @@ SUMIF(range, criteria, [sum_range])
 
 - [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
 - [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
-
-#### Concat function
-
-- [Join First Name and Last Name in the Excel | CONCAT function](https://youtu.be/6Puk_HhpFRM?si=NjnKFCa6bBOsMJIH)
 
 ### Formula Errors
 
@@ -573,7 +587,7 @@ The result, 10, should appear in cell A11.
 - In cell A11, enter the following formula: `=IF(A1>A2,"A1 is greater than A2","A1 is not greater than A2")`
 - Press Enter.
 
-The result, "A1 is greater than A2", should appear in cell A11.
+The result, "A1 is not greater than A2", should appear in cell A11.
 
 **Exercise 6:** Power and Square Root
 
