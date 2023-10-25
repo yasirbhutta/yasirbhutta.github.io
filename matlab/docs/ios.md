@@ -160,7 +160,7 @@ disp(result);
 - It takes a variable number of arguments, the first of which is a format string that specifies how the data should be formatted. The remaining arguments are the data values that should be printed.
 - The format string is a sequence of characters that tells MATLAB how to format the data. It can include characters such as "%d" for integers, "%f" for floats, and "%s" for strings. The format string can also include other characters, such as spaces and commas, to control the appearance of the output.
 
-#### Syntax
+**Syntax:**
 
 fprintf(text)
 fprintf(formatspec,var)
@@ -333,142 +333,144 @@ fprintf('Age = %d \n', age);
 3. [ ] pause('Enter a value: ')
 4. [ ] None
 
-##### Which of the following is true about the input function's behavior if the user enters non-numeric input when expecting a number?
+> Which of the following is true about the input function's behavior if the user enters non-numeric input when expecting a number?
 
-a) It displays an error message and terminates the program.
-b) It converts the input to a numeric value.
-c) It throws an error and crashes MATLAB.
-d) It loops until valid numeric input is provided.
+1. [ ] It displays an error message and terminates the program.
+2. [ ] [ ] It converts the input to a numeric value.
+3. [ ] It throws an error and crashes MATLAB.
+4. [ ] It loops until valid numeric input is provided.
 
-#### When using the input function to collect user input, how can you display a prompt message?
+> When using the input function to collect user input, how can you display a prompt message?
 
-a. There is no way to display a prompt message with input.
-b. By specifying the prompt message as an argument to the input function.
-c. By using the display function before calling input.
-d. By defining the prompt message as a variable.
+1. [ ] There is no way to display a prompt message with input.
+2. [ ] By specifying the prompt message as an argument to the input function.
+3. [ ] By using the display function before calling input.
+4. [ ] By defining the prompt message as a variable.
 
 #### Pause and keyboard Commands (MCQs)
 
-##### What does the pause command do in MATLAB?
+> What does the pause command do in MATLAB?
 
-a. Ends the program
-b. Pauses the program's execution for a specified duration
-c. Prompts the user for input
-d. Clears the command window
+1. [ ] Ends the program
+2. [ ] Pauses the program's execution for a specified duration
+3. [ ] Prompts the user for input
+4. [ ] Clears the command window
 
-##### How is the duration of the pause specified in the pause command?
+> How is the duration of the pause specified in the pause command?
 
-a. In seconds
-b. In milliseconds
-c. In minutes
-d. It is not possible to specify a duration
+1. [x] In seconds
+2. [ ] In milliseconds
+3. [ ] In minutes
+4. [ ] It is not possible to specify a duration
 
-##### What is the primary purpose of the keyboard command in MATLAB?
+> What is the primary purpose of the keyboard command in MATLAB?
 
-a. To insert a physical keyboard into the program
-b. To pause program execution and enter the debug mode
-c. To display a virtual keyboard on the screen
-d. To display the program's source code
+1. [ ] To insert a physical keyboard into the program
+2. [ ] To pause program execution and enter the debug mode
+3. [x] To display a virtual keyboard on the screen
+4. [ ] To display the program's source code
 
-In what scenarios might you use the keyboard command in MATLAB?
-a. To create interactive user interfaces
-b. To simulate keyboard input
-c. For debugging and inspecting variables during program execution
-d. To change the color of the command window
+> In what scenarios might you use the keyboard command in MATLAB?
 
-##### How can you specify the duration of a pause in seconds when using the pause function in MATLAB?
+1. [ ] To create interactive user interfaces
+2. [ ] To simulate keyboard input
+3. [x] For debugging and inspecting variables during program execution
+4. [ ] To change the color of the command window
 
-a. The pause function does not allow you to specify a duration.
-b. By passing the number of seconds as an argument: pause(2)
-c. By pressing a key on the keyboard
-d. By using a loop within the script
+> How can you specify the duration of a pause in seconds when using the pause function in MATLAB?
+
+1. [ ] The pause function does not allow you to specify a duration.
+2. [x] By passing the number of seconds as an argument: pause(2)
+3. [ ]  By pressing a key on the keyboard
+4. [ ]  By using a loop within the script
 
 #### fprintf Command
 
-##### What is the purpose of the fprintf function in MATLAB?
+> What is the purpose of the fprintf function in MATLAB?
 
-a. To read data from a file
-b. To format and display output to the console or a file
-c. To accept input from the user
-d. To calculate mathematical expressions
+1. [ ] To read data from a file
+2. [x] To format and display output to the console or a file
+3. [ ] To accept input from the user
+4. [ ] To calculate mathematical expressions
 
-##### Which function is used to display formatted output in MATLAB?
+> Which function is used to display formatted output in MATLAB?
 
-a) output
-b) printf
-c) print
-d) fprintf
+1. [ ] output
+2. [ ] printf
+3. [ ] print
+4. [x] fprintf
 
-##### Which character is commonly used as a placeholder for inserting variable values within a formatted string when using fprintf?
+> Which character is commonly used as a placeholder for inserting variable values within a formatted string when using fprintf?
 
-a) #
-b) $
-c) %
-d) @
+1. [ ] #
+2. [ ] $
+3. [x] %
+4. [ ] @
 
-##### In fprintf formatting, the %d specifier is used for:
+> In fprintf formatting, the %d specifier is used for:
 
-a) Decimal (integer) values
-b) Floating-point values
-c) Characters
-d) Strings
+1. [x] Decimal (integer) values
+2. [ ] Floating-point values
+3. [ ] Characters
+4. [ ] Strings
 
-##### When using fprintf, the escape sequence \n is used for:
+> When using fprintf, the escape sequence \n is used for:
 
-a) Printing a backslash
-b) Printing a newline character
-c) Printing a tab character
-d) Printing a space
+1. [ ] Printing a backslash
+2. [x] Printing a newline character
+3. [ ] Printing a tab character
+4. [ ] Printing a space
 
-##### In the fprintf function, what does the %f specifier typically represent?
+> In the fprintf function, what does the %f specifier typically represent?
 
-a) An integer
-b) A floating-point number
-c) A character
-d) A string
+1. [ ] An integer
+2. [x] A floating-point number
+3. [ ] A character
+4. [ ] A string
 
-##### When using fprintf, what does the format specifier %s represent?
+> When using fprintf, what does the format specifier %s represent?
 
-a) An integer
-b) A floating-point number
-c) A character
-d) A string
+1. [ ] An integer
+2. [ ] A floating-point number
+3. [ ] A character
+4. [x] A string
 
-##### Which of the following is the correct way to format a number using the fprintf command?
+> Which of the following is the correct way to format a number using the fprintf command?
 
-a. fprintf('%.2f\n', number);
-b. fprintf('%s\n', number);
-c. fprintf('%c\n', number);
-d. fprintf('%d\n', number);
+1. [ ] fprintf('%.2f\n', number);
+2. [ ] fprintf('%s\n', number);
+3. [ ] fprintf('%c\n', number);
+4. [x] fprintf('%d\n', number);
 
-##### Which of the following is the correct way to format the output of the fprintf command?
+> Which of the following is the correct way to format the output of the fprintf command?
 
-(A) fprintf('%s', 'Hello, world!')
-(B) fprintf('%s', 'Hello, world!\n')
-(C) fprintf('%s', Hello, world!')
+1. [x] fprintf('%s', 'Hello, world!')
+2. [ ] fprintf('%s', 'Hello, world!\n')
+3. [ ] fprintf('%s', Hello, world!')
+4. [ ] None of the above
 
-##### Which of the following is the correct way to print a number to the console using the fprintf command?
+> Which of the following is the correct way to print a number using the fprintf command?
 
-(A) fprintf('%d', 123)
-(B) fprintf('%s', 123.456)
-(C) fprintf(123.456e-10)
-(D) All of the above
+1. [x] fprintf('%d', 123)
+2. [ ] fprintf('%s', 123.456)
+3. [ ] fprintf(123.456e-10)
+4. [ ] All of the above
 
-##### Which of the following is the correct way to print a string to the console using the fprintf command?
+> Which of the following is the correct way to print a string using the fprintf command?
 
-(A) fprintf('%s', 'Hello, world!')
-(B) fprintf('%c', 'Hello, world!')
-(C) fprintf('%d', 'Hello, world!')
-(D) None of the above
+1. [ ] fprintf('%s', 'Hello, world!')
+2. [ ] fprintf('%c', 'Hello, world!')
+3. [ ] fprintf('%d', 'Hello, world!')
+4. [ ] None of the above
 
-##### Which of the following is a valid format specifier for the fprintf command?
+> Which of the following is a valid format specifier for the fprintf command?
 
-A. %d
-B. %f
-C. %s
-D. All of the above
+1. [ ] %d
+2. [ ] %f
+3. [ ] %s
+4. [x] All of the above
 
-## **Review Questions**
+## Review Questions
 
 1. Write note on Common Ways to Input Data in MATLAB?
 2. What is the difference between the input and disp commands?
