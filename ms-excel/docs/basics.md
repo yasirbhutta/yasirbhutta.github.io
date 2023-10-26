@@ -5,6 +5,14 @@
 **To access the updated lecture notes, please click on the following link:**
 [https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
 
+## Module 1: Introduction to Excel
+
+- What is Excel?
+- When to use a spreadsheet
+- The Excel workbook and worksheet
+- Navigating around Excel
+- Entering and editing data
+
 ## Microsoft Excel
 
 Microsoft Excel can be used to
@@ -114,19 +122,16 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 2. A context menu will appear with the option to Duplicate.
 3. Tap **Duplicate** to create a copy of the sheet.
 
-
 ### Move sheet
 
 ## [Excel for Android touch guide](https://support.microsoft.com/en-au/office/excel-for-android-touch-guide-aef977da-6adf-4724-b054-8ca4bb1d7afb)
 
 ## [Excel for Android phones: Animated tips](https://support.microsoft.com/en-us/office/excel-for-android-phones-animated-tips-25aedb34-2379-4429-90ad-3fffc9cbee3b)
 
-
 ## Review Questions
 
 1. What is the difference between worksheet and Workbook?
 2. What is Active cell and explain the purpose of Name Box in MS Excel?
-3. 
 
 ## Exercises
 

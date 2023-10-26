@@ -5,6 +5,23 @@
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
 
+## Module 4: Functions in Excel - I
+
+- Cell reference type
+- Copying formula
+- What is Function and Its Structure
+- Functions: SUM, SUMIF
+- Use AutoSum to sum numbers
+
+## Module 5: Functions in Excel II
+
+- Functions: MIN, MAX, COUNT, COUNTA, COUNTIF, POWER, AVERAGE, PRODUCT
+
+## Module 6: Functions in Excel III
+
+- Referencing cells in formulas
+- Functions: IF, TODAY, NOW, LOWER, UPPER, PROPER, LEN
+
 ## Functions in Excel
 
 ### Cell References
@@ -48,16 +65,6 @@
 - **A$1**, then only the column reference changes relatively when the formula is copied
 - Absolute column reference -If a dollar sign precedes only the column letter, e.g. $A1, Excel will change only the row reference relative to the change in the formula location
 
-### Named Cell Reference
-
-- A name is a meaningful shorthand that makes it easier to understand the purpose of a cell reference, constant, formula or table.
-- You can create a name that describes a cell or range. 
-- You can also use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows.
-
-Defined Names
-
-- **Formulas > Defined Names > Create from Selection**
-
 ### Functions
 
 - Excel has hundreds of predefined formulae known as Functions
@@ -94,10 +101,25 @@ The SUM function adds values. You can add individual values, cell references or 
 - [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
 - Use AutoSum to sum numbers - Microsoft Support [[Windows]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706) [[Android]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android)
 
-##### Use of cell references in a formula
+#### SUMIF function
 
-- [Video Tutorial: Use cell refenences in a formul in Microsoft Excel](https://youtu.be/mdmYAOeGJoQ?si=xGxjvagLaCTQSlBp)
+use the SUMIF function to sum the values in a range that meet criteria that you specify.
+
+For example, suppose that in a column that contains numbers, you want to sum only the values that are larger than 5. You can use the following formula: =SUMIF(B2:B25,">5")
+
+>Syntax
+
+```excel
+SUMIF(range, criteria, [sum_range])
+```
+
+- [Video Tutorial: SUMIF function in excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
   
+**See also:**
+
+- [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
+- [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
+
 ##### MAX
 
 Returns the largest value in a set of values.
@@ -154,6 +176,29 @@ See Also
 
 - [COUNTA function - Microsoft Support](https://support.microsoft.com/en-gb/office/counta-function-7dc98875-d5c1-46f1-9a82-53f3219e2509#:~:text=The%20COUNTA%20function%20counts%20cells,does%20not%20count%20empty%20cells.)
 
+#### COUNTIF function
+
+Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
+
+>Syntax
+
+```excel
+COUNTIF(range, criteria)
+```
+
+For example:
+
+```excel
+=COUNTIF(A2:A5,"London")
+=COUNTIF(A2:A5,A4)
+```
+
+- [Video Tutorial: Use of COUNTIF function in excel](https://youtu.be/Uv-j-N7wdTo?si=GjA232Ni4UVt0cEv)
+
+**see also:**
+
+- [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
+
 ##### POWER
 
 Returns the result of a number raised to a power.
@@ -209,6 +254,10 @@ For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)
 
 - [AVERAGE function - Excel Exercises](https://excelexercises.com/practice.html?lesson=31)
 - [AVERAGE function - Microsoft Support](https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)
+
+##### Use of cell references in a formula
+
+- [Video Tutorial: Use cell refenences in a formul in Microsoft Excel](https://youtu.be/mdmYAOeGJoQ?si=xGxjvagLaCTQSlBp)
 
 ##### IF function
 
@@ -412,48 +461,6 @@ For example, =CONCAT("The"," ","sun"," ","will"," ","come"," ","up"," ","tomorro
   
 - [Excel Help & Training - Combine text from two or more cells into one cell](https://support.microsoft.com/en-us/office/combine-text-from-two-or-more-cells-into-one-cell-81ba0946-ce78-42ed-b3c3-21340eb164a6)
 
-#### COUNTIF function
-
-Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
-
->Syntax
-
-```excel
-COUNTIF(range, criteria)
-```
-
-For example:
-
-```excel
-=COUNTIF(A2:A5,"London")
-=COUNTIF(A2:A5,A4)
-```
-
-- [Video Tutorial: Use of COUNTIF function in excel](https://youtu.be/Uv-j-N7wdTo?si=GjA232Ni4UVt0cEv)
-
-**see also:**
-
-- [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
-
-#### SUMIF function
-
-use the SUMIF function to sum the values in a range that meet criteria that you specify.
-
-For example, suppose that in a column that contains numbers, you want to sum only the values that are larger than 5. You can use the following formula: =SUMIF(B2:B25,">5")
-
->Syntax
-
-```excel
-SUMIF(range, criteria, [sum_range])
-```
-
-- [Video Tutorial: SUMIF function in excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
-  
-**See also:**
-
-- [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
-- [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
-
 ### Formula Errors
 
 - [Video Tutorial: Top 4 Most Common Excel Errors](https://youtu.be/Rh0I5B-0uHM?si=nv9OyoivwApx0ssf)
@@ -499,6 +506,18 @@ An invalid cell is referenced in the formula
 - [Video Tutorial: Append data from multiple sheets into one sheet - Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
 
 - [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App - Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
+
+## Additional topics
+
+### Named Cell Reference
+
+- A name is a meaningful shorthand that makes it easier to understand the purpose of a cell reference, constant, formula or table.
+- You can create a name that describes a cell or range. 
+- You can also use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows.
+
+Defined Names
+
+- **Formulas > Defined Names > Create from Selection**
 
 ### Review Questions
 

@@ -1,5 +1,12 @@
 # Formulas in Excel
 
+## Module 3: Formulas in Excel
+
+- Understanding of the formulas
+- Using basic arithmetic operators
+- Comparision Operators
+- Text concatenation operator
+
 ## Formula
 
 - A formula is an equation that performs operations on a worksheet data.

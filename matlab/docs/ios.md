@@ -575,12 +575,9 @@ fprintf('Hello,\nworld!\n')
 
 [^1:] [MATLAB fprintf - MathWorks](https://www.mathworks.com/help/simulink/slref/fprintf.html)
 
-
-
 Muhammad Yasir Bhutta
 
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)
 - [Twitter](https://twitter.com/yasirbhutta)
-

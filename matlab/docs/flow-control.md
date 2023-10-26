@@ -285,7 +285,104 @@ This program works by initializing a variable sum to 0. Then, it prompts the use
 
 ### if statement
 
-#### Example 5: User Input Validation - Validate positive number using while loop.
+- The if statement in MATLAB is a conditional statement that allows you to execute a block of code only if a certain condition is met. 
+
+The general **syntax** of the if statement is as follows:
+
+```matlab
+if condition
+    statements
+end
+```
+
+The `condition` can be any logical expression. If the condition is evaluated to `true`, the block of `statements` is executed. Otherwise, the block of `statements` is skipped.
+
+Here is a simple example of an if statement in MATLAB:
+
+```matlab
+x = 10;
+
+if x > 5
+    disp('x is greater than 5.')
+end
+```
+
+This code will print the message "x is greater than 5." to the console.
+
+You can also use elseif statements to check for multiple conditions. The general **syntax** of the **elseif statement** is as follows:
+
+```matlab
+elseif condition
+    statements
+end
+```
+
+If the `condition` for the if statement is evaluated to `false`, the MATLAB interpreter will check the `condition` for the first elseif statement. If the condition for the elseif statement is evaluated to `true`, the corresponding block of `statements` is executed. Otherwise, the MATLAB interpreter will check the `condition` for the next elseif statement, and so on.
+
+Here is an example of an if statement with an elseif statement:
+
+```matlab
+x = 10;
+
+if x > 5
+    disp('x is greater than 5.')
+elseif x < 5
+    disp('x is less than 5.')
+end
+```
+
+This code will print the message "x is greater than 5." to the console.
+
+You can also use an else statement to check for all other conditions. The general syntax of the else statement is as follows:
+
+```matlab
+else
+    statements
+end
+```
+
+If all of the conditions for the if and elseif statements are evaluated to `false`, the block of `statements` in the else statement is executed.
+
+Here is an example of an if statement with an elseif statement and an else statement:
+
+```matlab
+x = 10;
+
+if x > 5
+    disp('x is greater than 5.')
+elseif x == 5
+    disp('x is equal to 5.')
+else
+    disp('x is less than 5.')
+end
+```
+
+This code will print the message "x is greater than 5." to the console.
+
+#### Example
+
+**Question:** Write a MATLAB program that takes a value for x as input and calculates y based on the following conditions:
+
+- If x is less than 5, calculate y = 2x + 1.
+- If x is 5 or greater, calculate y = 2x.
+Use the if-else statement for the conditional check. The program should display the result in the format "For x = [input value], y = [calculated value]."
+
+```matlab
+% Input value for x
+x = input('Enter a value for x: ');
+
+% Check the condition and calculate y accordingly
+if x < 5
+    y = 2 * x + 1;
+else
+    y = 2 * x;
+end
+
+% Display the result
+fprintf('For x = %d, y = %d \n', x, y);
+```
+
+#### Example 5: User Input Validation - Validate positive number using while loop
 
 In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
 
@@ -398,20 +495,37 @@ end
 ```
 
 ```matlab
+% Create a variable to store the selected color.
+selectedColor = input('Enter a color code (R, G, B): ', 's');
+
+% Write a switch statement with cases for each color that you want to support.
+switch selectedColor
+    case 'R'
+        fprintf('The selected color is Red.\n');
+    case 'G'
+        fprintf('The selected color is Green.\n');
+    case 'B'
+        fprintf('The selected color is Blue.\n');
+    otherwise
+        fprintf('Invalid color code.\n');
+end
+```
+
+```matlab
 day = "Monday";
 
 % Switch statement
 switch day
-    case "Monday"
+    case 1
         disp("Have a great week!");
-    case "Tuesday"
+    case 2
         disp("Don't forget to water the plants!");
-    case "Wednesday"
-        disp("Hump day!");
-    case "Thursday"
+    case 3
+        disp("Have a good day!");
+    case 4
         disp("Almost there!");
-    case "Friday"
-        disp("TGIF!");
+    case 5
+        disp("Have good ");
     otherwise
         disp("Have a great day!");
 end

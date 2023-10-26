@@ -7,7 +7,14 @@ To access the updated lecture notes, please click on the following link:
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
-## Formatting Commands in Excel Android App
+## Module 2: Formatting cells and ranges
+
+- Changing the font, font size, and font color
+- Aligning text
+- Applying borders and shading
+- Merging and splitting cells
+
+## Formatting Commands in Excel
 
 ### Font
 
@@ -65,16 +72,12 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 - [Video Tutorial: How to: Apply cells border | Microsoft Excel | Mobile App](https://youtu.be/okBLEJLE0t8?si=QM9lejQZ0l2YEFoA)
 
-#### Apply a predefined cell border
-
-##### Windows
+#### Apply a predefined cell border [Windows]
 
 1. On a worksheet, select the cell or range of cells.
 2. On the Home tab, in the Font group, To apply a new or different border style, click the arrow next to Borders , and then click a border style.
 
-#### Remove a cell border
-
-##### Windows
+#### Remove a cell border [Windows]
 
 1. On a worksheet, select the cell or range of cells that you want to remove a border from.
 2. On the Home tab, in the Font group, click the arrow next to Borders , and then click No Border.
@@ -92,9 +95,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 - In Microsoft Excel, data alignment refers to the position of data within a cell or range of cells.
 
-#### Align text in a cell [^11] [^12]
-
-##### Windows
+#### Align text in a cell [Windows] [^11] [^12] 
 
 1. Select the cell or range of cells that contains the data that you want to reposition.
 2. On the Home tab, in the Alignment group, do one or more of the following:
@@ -109,27 +110,23 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 - [Video Tutorial: Merge & Center and Wrap text in excel mobile app](https://youtu.be/DPYDYL4UT-0?si=lu_Wz1hzLhLFiTyj)
 
-#### Merge adjacent cells
-
-##### Windows
+#### Merge adjacent cells [Windows]
 
 1. Select two or more adjacent cells that you want to merge.
 2. On the Home tab, in the Alignment group, click Merge and Center.
 
-##### Android
+#### Merge adjacent cells [Android]
 
 1. Select the cells to merge.
 2. Tap **Merge & Center**.
 
-#### Unmerge cells
-
-##### Windows
+#### Unmerge cells [Windows]
 
 1. Select the merged cell.
 When you select a merged cell, the Merge and Center button  also appears selected in the Alignment group on the Home tab.
 2. To split the merged cell, click Merge and Center  .
 
-##### Android
+#### Unmerge cells [Android]
 
 1. Select the Merged Cell
 2. Tap again **Merge & Center**.
