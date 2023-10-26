@@ -13,6 +13,8 @@ To access the updated lecture notes, please click on the following link:
 - Aligning text
 - Applying borders and shading
 - Merging and splitting cells
+- Number format
+- Wrap text and Cell Style
 
 ## Formatting Commands in Excel
 
