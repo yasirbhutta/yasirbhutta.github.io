@@ -248,26 +248,33 @@ Types of system units:
 - A port is an interface on a computer to which other devices are connected.
 - It is used to connect peripheral devices with computer such as printers, keyboards or mouse.
 
-Types of ports:
+**USB (Universal Serial Bus):**
 
-- Serial ports
-- Parallel ports
-- USB port
+- USB is a type of port that is used to connect a wide variety of devices to a computer, including external hard drives, printers, scanners, and keyboards.
+- There are several types of USB ports available, including USB-A (Type A), USB-B (Type B), and USB-C (Type C) but but the most common type is the USB Type-A port. [^1] [^2]
 
-#### Serial ports
+**HDMI:**
 
-- A serial port is used to connect devices to the system unit.
-- A serial port transmits data on bit at a time
+- HDMI (High-Definition Multimedia Interface) is a type of port that is used to connect high-definition video and audio devices to a computer, such as monitors, televisions, and projectors.
+- HDMI ports are capable of carrying both high-definition video and audio signals over a single cable.
 
-#### Parallel Port
+**DisplayPort:**
 
-- Parallel port is used to connect devices that transfer many bits at a time.
-- Printers connect to computer using a parallel port.
+DisplayPort is another type of port that is used to connect high-definition video and audio devices to a computer. DisplayPort ports are similar to HDMI ports, but they offer some additional features, such as the ability to support multiple monitors over a single cable.
 
-#### USB Port
+**Ethernet:**
 
-- USB stands for Universal serial bus port.
-- USB port can connect more than 127 different peripheral devices with a single connector type.
+- Ethernet ports are used to connect computers to a network, such as a home network or a business network.
+- Ethernet ports use a standard RJ-45 connector.
+
+**VGA:**
+
+- VGA (Video Graphics Array) ports are used to connect analog monitors to a computer.
+- VGA ports are the oldest type of video port, but they are still commonly used on older computers and monitors.
+
+**Audio ports:**
+
+- Audio ports are used to connect speakers and microphones to a computer.
 
 ## True/False
 
@@ -290,126 +297,135 @@ Types of ports:
 
 ## Multiple Choice
 
-Which of the following is NOT a hardware component?
+> Which of the following is NOT a hardware component?
 
-A. Software
-B. CPU
-C. Motherboard
-D. RAM
+1. [ ] Software
+2. [ ] CPU
+3. [ ] Motherboard
+4. [ ] RAM
 
-Which of the following is the brain of the computer?
+> Which of the following is the brain of the computer?
 
-A. CPU
-B. Motherboard
-C. RAM
-D. Hard drive
+1. [ ] CPU
+2. [ ] Motherboard
+3. [ ] RAM
+4. [ ] Hard drive
 
-What does CPU stand for?
-a) Central Processing Unit
-b) Computer Power Unit
-c) Central Power Unit
-d) Central Peripheral Unit
+> What does CPU stand for?
 
-Which of the following is used to connect input and output devices to the computer?
+1. [ ] Central Processing Unit
+2. [ ] Computer Power Unit
+3. [ ] Central Power Unit
+4. [ ] Central Peripheral Unit
 
-A. Ports
-B. Buses
-C. Expansion cards
-D. All of the above
+> Which of the following is used to connect input and output devices to the computer?
 
-Which of the following is a type of input device?
+1. [ ] Ports
+2. [ ] Buses
+3. [ ] Expansion cards
+4. [x] All of the above
 
-A. Keyboard
-B. Mouse
-C. Scanner
-D. All of the above
+- **Ports** are physical connectors on the computer that allow input and output devices to be connected. Examples of ports include USB, HDMI, and Ethernet ports.
+- **Buses** are electrical pathways that allow data to be transferred between different components of the computer, including input and output devices. Examples of buses include the PCI Express bus and the USB bus.
+- **Expansion cards** are circuit boards that can be installed in the computer to add new capabilities, such as support for new input and output devices. Examples of expansion cards include graphics cards and sound cards.
 
-Which of the following is used to store data and programs that the CPU is currently using?
+> Which of the following is a type of input device?
 
-A. RAM
-B. ROM
-C. Hard drive
-D. Optical drive
+1. [ ] Keyboard
+2. [ ] Mouse
+3. [ ] Scanner
+4. [x] All of the above
 
-Which component supplies power to all the other components in a computer?
-a) CPU
-b) RAM
-c) PSU (Power Supply Unit)
-d) GPU
+> Which of the following is used to store data and programs that the CPU is currently using?
 
-Which of the following is an example of an input device?
-a) Monitor
-b) Keyboard
-c) Printer
-d) Speaker
+1. [x] RAM
+2. [ ] ROM
+3. [ ] Hard drive
+4. [ ] Optical drive
 
-Which port is commonly used to connect a keyboard and mouse to a computer?
-a) USB
-b) HDMI
-c) Ethernet
-d) VGA
+> Which component supplies power to all the other components in a computer?
 
-What is the purpose of a CPU heatsink and fan?
-a) To increase CPU performance
-b) To cool the motherboard
-c) To prevent the CPU from overheating
-d) To enhance graphics rendering
+1. [ ] CPU
+2. [ ] RAM
+3. [x] PSU (Power Supply Unit)
+4. [ ] GPU
 
-Which of the following is a type of output device?
+> Which of the following is an example of an input device?
 
-A. Monitor
-B. Printer
-C. Speakers
-D. All of the above
+1. [ ] Monitor
+2. [x] Keyboard
+3. [ ] Printer
+4. [ ] Speaker
 
-What is the primary function of a motherboard in a computer?
+> Which port is commonly used to connect a keyboard and mouse to a computer?
 
-A) Storing data
-B) Processing data
-C) Connecting and coordinating hardware components
-D) Displaying images on the screen
+1. [ ] USB
+2. [ ] HDMI
+3. [ ] Ethernet
+4. [x] VGA
 
-What is the main purpose of a power supply unit (PSU) in a computer?
+> What is the purpose of a CPU heatsink and fan?
 
-A) Cooling the components
-B) Providing electricity to the CPU
-C) Supplying power to all computer components
-D) Controlling the CPU speed
+1. [ ] To increase CPU performance
+2. [x] To cool the motherboard
+3. [ ] To prevent the CPU from overheating
+4. [ ] To enhance graphics rendering
 
-What is the purpose of an expansion slot on a motherboard?
+> Which of the following is a type of output device?
 
-A) To connect to the internet
-B) To increase CPU speed
-C) To add additional hardware components
-D) To improve display quality
+1. [ ] Monitor
+2. [ ] Printer
+3. [ ] Speakers
+4. [x] All of the above
 
-Which part of a computer is responsible for initializing the hardware and booting the operating system?
-a. CPU
-b. RAM
-c. BIOS
-d. GPU
+> What is the primary function of a motherboard in a computer?
 
-Which of the following is not an example of a common input/output port on a computer?
-a. USB
-b. HDMI
-c. WiFi
-d. Ethernet
+1. [ ] Storing data
+2. [ ] Processing data
+3. [x] Connecting and coordinating hardware components
+4. [ ] Displaying images on the screen
 
-What is the purpose of a CMOS battery on a motherboard?
-a) It powers the CPU.
-b) It maintains the system time and BIOS settings.
-c) It controls the GPU.
-d) It stores application data.
+> What is the main purpose of a power supply unit (PSU) in a computer?
 
-Answer: b) It maintains the system time and BIOS settings.
+1. [ ] Cooling the components
+2. [ ] Providing electricity to the CPU
+3. [x] Supplying power to all computer components
+4. [ ] Controlling the CPU speed
 
-What is a "driver" in the context of computer hardware?
-a. A person who operates the computer
-b. A piece of software that allows hardware to work with the operating system
-c. A hardware component in a computer
-d. A type of power supply unit
+> What is the purpose of an expansion slot on a motherboard?
 
+1. [ ] To connect to the internet
+2. [ ] To increase CPU speed
+3. [x] To add additional hardware components
+4. [ ] To improve display quality
 
+> Which part of a computer is responsible for initializing the hardware and booting the operating system?
+
+1. [ ] CPU
+2. [ ] RAM
+3. [x] BIOS
+4. [ ] GPU
+
+> Which of the following is not an example of a common input/output port on a computer?
+
+1. [ ] USB
+2. [ ] HDMI
+3. [x] WiFi
+4. [ ] Ethernet
+
+> hat is the purpose of a CMOS battery on a motherboard?
+
+1. [ ] It powers the CPU.
+2. [x] It maintains the system time and BIOS settings.
+3. [ ] It controls the GPU.
+4. [ ] It stores application data.
+
+> What is a "driver" in the context of computer hardware?
+
+1. [ ] A person who operates the computer
+2. [x] A piece of software that allows hardware to work with the operating system
+3. [ ] A hardware component in a computer
+4. [ ] A type of power supply unit
 
 ## Review Questions
 
@@ -433,6 +449,9 @@ d. A type of power supply unit
 
 ## References
 
+[^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+[^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
+
 - [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
@@ -441,3 +460,4 @@ d. A type of power supply unit
 - <http://en.wikipedia.org/wiki/Image_scanner>
 - <http://www.southerncompany.com/learningpower/glossary.aspx>
 - <http://en.wikipedia.org/wiki/Line_printer>
+  
