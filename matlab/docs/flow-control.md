@@ -218,7 +218,7 @@ disp(sum);
 
 #### Example 4: Sum of even numbers from 2 to 20 using while loop
 
-**Question:** Write a MATLAB program to calculate the sum of the even numbers from 2 to 20 using a for loop.
+**Question:** Write a MATLAB program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
 ```matlab
 sum = 0;  % Initialize a variable to store the sum
@@ -234,7 +234,7 @@ fprintf('The sum of even numbers from 2 to 20 is: %d', sum);
 
 #### Example: Square of numbers less than 5 using while loop
 
-**Question :** Write a MATLAB program to calculate the sum of the squares of the first 10 natural numbers using a while loop.
+**Question :** Write a program that prints the sum of the squares of all the numbers from 1 to 4, using a while loop.
 
 ```matlab
 i = 1;
@@ -571,26 +571,6 @@ end
 ### Coding Questions
 
 1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.
-2. What is the problem with the following MATLAB program?
-
-```matlab
-for k=1:inf
-    disp(k)
-end
-```
-
-> **Answer:** The problem with the following MATLAB program is that it uses an infinite for loop. Infinite for loops will run forever, which can cause the program to crash or to consume all of the available memory.
-
-1. What is the output of the following MATLAB program?
-
-```matlab
-N = 10;
-sum = 0;
-for i = 1:N
-  sum = sum + i;
-end
-disp(sum);
-```
 
 **Example output:**
 
@@ -610,6 +590,27 @@ Multiplication table for 5
 8 * 5 = 40
 9 * 5 = 45
 10 * 5 = 50
+```
+
+2. What is the problem with the following MATLAB program?
+
+```matlab
+for k=1:inf
+    disp(k)
+end
+```
+
+> **Answer:** The problem with the following MATLAB program is that it uses an infinite for loop. Infinite for loops will run forever, which can cause the program to crash or to consume all of the available memory.
+
+1. What is the output of the following MATLAB program?
+
+```matlab
+N = 10;
+sum = 0;
+for i = 1:N
+  sum = sum + i;
+end
+disp(sum);
 ```
 
 1. Write a MATLAB program to print the numbers from 1 to 10 in reverse order, using a for loop.
@@ -675,7 +676,7 @@ True/False
 
 > What is the default increment value for a MATLAB for loop?
 
-1. [ ] 1
+1. [x] 1
 2. [ ] 2
 3. [ ] 10
 4. [ ] None of the above
@@ -684,33 +685,33 @@ True/False
 
 1. [ ] for i = 1:10 % code block endfor
 2. [ ] for i = 1:10 do
-3. [ ] for i = 1:10 % code block end
+3. [x] for i = 1:10 % code block end
 4. [ ] for i = 1:10
 
 > What is the purpose of the increment expression in a for loop?
 
 1. [ ] To set the initial value of the loop counter
 2. [ ] To specify the number of times the loop will iterate
-3. [ ] To determine the step size between iterations
+3. [x] To determine the step size between iterations
 4. [ ] All of the above
 
 > In MATLAB, what is the primary purpose of a for loop?
 
 1. [ ] To create a sequence of numbers
-2. [ ] To execute a block of code repeatedly a specified number of times
+2. [x] To execute a block of code repeatedly a specified number of times
 3. [ ] To check if a condition is true
 4. [ ] To perform mathematical calculations
 
 > What is the structure of a for loop in MATLAB?
 
-1. [ ] for i = 1:10
+1. [x] for i = 1:10
 2. [ ] repeat 10 times
 3. [ ] while i < 10
 4. [ ] if i = 1 to 10
 
 > How is the loop variable updated in a for loop?
 
-1. [ ] Automatically by MATLAB
+1. [x] Automatically by MATLAB
 2. [ ] It is not updated
 3. [ ] Manually within the loop
 4. [ ] The loop variable cannot be changed
@@ -723,7 +724,7 @@ for i = 1:5
 end
 ```
 
-1. [ ] 1 2 3 4 5
+1. [x] 1 2 3 4 5
 2. [ ] 5 4 3 2 1
 3. [ ] 1 1 1 1 1
 4. [ ] No output is generated.
@@ -736,7 +737,7 @@ for i = 2:2:10
 end
 ```
 
-1. [ ] 2 4 6 8 10
+1. [x] 2 4 6 8 10
 2. [ ] 1 3 5 7 9
 3. [ ] 2 4 8
 4. [ ] 2 4 6 10
@@ -753,7 +754,7 @@ disp(sum);
 
 1. [ ] 0
 2. [ ] 1
-3. [ ] 15
+3. [x] 15
 4. [ ] 10
 
 > What is the expected output of the following MATLAB code?
@@ -770,7 +771,7 @@ end
 
 1. [ ] 1 2
 2. [ ] 1 2 3 4
-3. [ ] 1 2 4
+3. [x] 1 2 4
 4. [ ] 4
 
 > What is the expected output of the following MATLAB code?
@@ -786,7 +787,7 @@ end
 ```
 
 1. [ ] 1 2 3 4 5
-2. [ ] 1 2
+2. [x] 1 2
 3. [ ] 1 2 4 5
 4. [ ] 3
 
@@ -794,7 +795,7 @@ end
 
 > What is the purpose of a while loop?
 
-1. [ ] To execute a block of code repeatedly until a condition is met.
+1. [x] To execute a block of code repeatedly until a condition is met.
 2. [ ] To execute a block of code a specific number of times.
 3. [ ] To execute a block of code based on a user input.
 4. [ ] To execute a block of code in a specific order.
@@ -809,14 +810,14 @@ while i <= 5
 end
 ```
 
-1. [ ] 1 2 3 4 5
+1. [x] 1 2 3 4 5
 2. [ ] 1 1 1 1 1
 3. [ ] 2 3 4 5 6
 4. [ ] Infinite loop
 
 > What happens if a MATLAB while loop has a condition that is always true?
 
-1. [ ] The loop will execute infinitely.
+1. [x] The loop will execute infinitely.
 2. [ ] The loop will execute once.
 3. [ ] The loop will not execute.
 4. [ ] The program will crash.
@@ -825,12 +826,12 @@ end
 
 1. [ ] To exit the loop
 2. [ ] To close the MATLAB program
-3. [ ] To indicate the end of the loop code block
+3. [x] To indicate the end of the loop code block
 4. [ ] To display a message
 
 > Which of the following best describes the flow of control in a while loop?
 
-1. [ ] The loop condition is checked before each iteration.
+1. [x] The loop condition is checked before each iteration.
 2. [ ] The loop code is executed once, and then the condition is checked.
 3. [ ] The code inside the loop is executed a fixed number of times.
 4. [ ] The loop code runs only if the condition is false.
@@ -839,24 +840,23 @@ end
 
 1. [ ] The loop runs indefinitely, causing a program crash.
 2. [ ] The loop runs once, regardless of the condition.
-3. [ ] The loop is skipped, and the program continues.
+3. [x] The loop is skipped, and the program continues.
 4. [ ] The loop generates an error.
 
-> How many times will a while loop execute if the condition is initially false?
+> How many times a while loop execute if the condition is initially false?
 
-1. [ ] Zero times
+1. [x] Zero times
 2. [ ] One time
 3. [ ] It will cause an error
 4. [ ] It depends on the loop structure
-
-
 
 ## References
 
 [^1] [while loop to repeat when condition is true - MATLAB while](https://www.mathworks.com/help/matlab/ref/while.html)
 
-## Muhammad Yasir Bhutta
+## Social Links
 
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)
