@@ -568,6 +568,55 @@ end
 
 > **Answer:** Infinite loops can be dangerous because they can cause MATLAB programs to crash or become unresponsive.
 
+16. What is the difference between fprintf and disp in MATLAB?
+
+**Answer:**
+
+The main difference between `fprintf` and `disp` is that `fprintf` allows you to control the format of the output, while `disp` simply prints the output to the command window in a default format.
+
+- `fprintf` uses a format string to specify the format of the output. The format string can contain characters such as `%d` for integers, `%f` for floating-point numbers, and `%s` for strings. You can also use the format string to control the number of decimal places, the alignment of the output, and other formatting options.
+
+- `disp`, on the other hand, does not use a format string. It simply prints the output to the command window in a default format. The default format is to print one variable per line, with the variable value.
+
+Here is an example of how to use `fprintf` to control the format of the output:
+
+```matlab
+fprintf('The value of pi is %.2f.\n', pi);
+```
+
+This code will print the following output to the command window:
+
+```
+The value of pi is 3.14.
+```
+
+The `%.2f` format string tells `fprintf` to print the value of `pi` with two digits to the right of the decimal point.
+
+Here is an example of how to use `disp` to print the value of a variable:
+
+```matlab
+disp(pi);
+```
+
+This code will print the following output to the command window:
+
+```
+3.14159
+```
+
+`disp` simply prints the variable value.
+
+In general, you should use `fprintf` when you need to control the format of the output. You should use `disp` when you simply need to print the value of a variable to the command window.
+
+Here is a table that summarizes the key differences between `fprintf` and `disp`:
+
+| Feature | fprintf | disp |
+|---|---|---|
+| Controls the format of the output | Yes | No |
+| Uses a format string | Yes | No |
+| Default format | None | Prints the variable value |
+| Use cases | When you need to control the format of the output | When you simply need to print the value of a variable to the command window |
+
 ### Coding Questions
 
 1. Write a MATLAB program to get input from the user to display a table of a given number. The program should prompt the user to enter the number and then print a table showing the multiplication table for that number from 1 to 10.

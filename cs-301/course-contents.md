@@ -2,11 +2,17 @@
 
 ## Computer Definitions & Concepts
 
+- [Computer](../computer-basics/docs/computer.md)
+
+## Internet: Browsers and Search Engines
+
+- [Google Search](../google-workspace/docs/google-search.md)
+
 ## Hardware
 
-- Computer Systems & Components
-- Storage Devices
-- Number Systems
+- [Number Systems](../computer-basics/docs/number-systems.md)
+- [Computer Systems & Components](../computer-basics/docs/hardware.md)
+- [Storage Devices](../computer-basics/docs/storage-devices.md)
 
 ## Software
 
@@ -22,7 +28,7 @@
 
 ## The Internet
 
-- [Browsers and Search Engines](../google/docs/google-search.md)
+- [](../google/docs/google-search.md)
 - Email
 - Collaborative Computing and Social Networking
 - E-Commerce

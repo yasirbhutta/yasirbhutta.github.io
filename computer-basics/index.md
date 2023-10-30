@@ -1,5 +1,8 @@
 # Computer Basics
 
+- [Computer](docs/computer.md)
+- [Name Systems](docs/number-systems.md)
+
 - [MCQs](mcqs.md)
 - [Review Questions](review-questions.md)
 
