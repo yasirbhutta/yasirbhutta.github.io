@@ -28,7 +28,6 @@
 
 ## The Internet
 
-- [](../google/docs/google-search.md)
 - Email
 - Collaborative Computing and Social Networking
 - E-Commerce
@@ -36,6 +35,21 @@
 
 ## Microsoft Office
 
-- [Microsoft Word](../ms-word/index.md)
-- [Microsoft Excel](../ms-excel/index.md)
+### [Microsoft Exel](../ms-excel/index.md)
+
+- [Handouts - Excel Basics](../ms-excel/docs/basics.md)
+- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md)
+- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md)
+- [Handouts - Functions in excel](functions.md)
+
+### [Microsoft Word](../ms-word/index.md)
+
 - [Microsoft Powerpoint](#)
+
+## Social Links
+
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://x.com/yasirbhutta)

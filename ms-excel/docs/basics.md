@@ -128,6 +128,11 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ## [Excel for Android phones: Animated tips](https://support.microsoft.com/en-us/office/excel-for-android-phones-animated-tips-25aedb34-2379-4429-90ad-3fffc9cbee3b)
 
+## Online Courses and Trainings - Microsoft Excel
+
+- [Excel video training - Microsoft Support](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
+- [Microsoft Training](https://support.microsoft.com/en-us/training)
+
 ## Review Questions
 
 1. What is the difference between worksheet and Workbook?

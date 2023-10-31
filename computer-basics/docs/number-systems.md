@@ -1,21 +1,56 @@
-# Bits
+# Number System
 
-**Topics:**
+## Module 1: Bits
 
-- Basics
-- What Bits can represent
-- Bits units
+A bit is the smallest unit of information in a computer. It can be either 0 or 1. Bits are used to represent all of the data that is stored and processed on a computer, including text, images, audio, and video.
+
+- What is a bit?
+- How are bits represented?
+- How are bits used?
 - Patterns using Bits
-  
-## Basics
 
-- A bit can have two values: 0 or 1.
-- The binary number system is a base-2 number system that uses only two digits: 0 and 1. The binary number system is used to represent bits.
+Module 12: Boolean Operations
 
-### What Bits can represent
+Boolean operations are used to manipulate bits. The two most common Boolean operations are AND and OR. The AND operation returns 1 if both bits are 1, and 0 otherwise. The OR operation returns 1 if either bit is 1, and 0 otherwise.
 
-- Representing numbers, text, audio, video, image etc.
-- In Chip electric Charge 0/1
+Module 13: Hexadecimal Notation
+
+Hexadecimal notation is a way of representing numbers using 16 symbols instead of 10. The hexadecimal symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F.
+
+Module 14: Storing a Bit
+
+Bits are stored in memory using electrical charges. A bit is stored as a high voltage if it is a 1, and a low voltage if it is a 0.
+
+## Module 1: bits
+
+### What is a bit?
+
+- A bit is the smallest unit of information in a computer. 
+- It can be either 0 or 1. 
+- Bits are used to represent all of the data that is stored and processed on a computer, including text, images, audio, and video.
+
+### How are bits represented?
+
+- Bits can be represented in a variety of ways, including electronically, optically, and magnetically.
+- In most computers, bits are represented electronically using transistors.
+- A transistor is a semiconductor device that can be switched to either a conducting or non-conducting state. When a transistor is conducting, it represents a 1 bit. When a transistor is non-conducting, it represents a 0 bit.
+
+### How are bits used?
+
+Bits are used in a variety of ways in computers. For example, bits are used to:
+
+**Represent text characters:** Each character in the English alphabet is represented by a unique sequence of bits.
+**Represent images:** Images are represented by a grid of pixels. Each pixel is represented by a combination of red, green, and blue bits.
+**Represent audio:** Audio is represented by a series of samples. Each sample is represented by a combination of bits.
+**Represent video:** Video is represented by a series of images. Each image is represented by a grid of pixels. Each pixel is represented by a combination of red, green, and blue bits.
+Examples of bits in use
+
+Here are some examples of how bits are used in the real world:
+
+- When you type a letter on your keyboard, the computer converts the letter to a sequence of bits. These bits are then sent to the monitor, which displays the letter on the screen.
+- When you take a photo with your digital camera, the camera converts the image to a grid of pixels. Each pixel is represented by a combination of red, green, and blue bits. These bits are then stored on the camera's memory card.
+- When you listen to a song on your MP3 player, the player converts the song to a series of samples. Each sample is represented by a combination of bits. These bits are then played through the player's speakers.
+- When you watch a video on your computer, the computer converts the video to a series of images. Each image is represented by a grid of pixels. Each pixel is represented by a combination of red, green, and blue bits. These bits are then displayed on the computer's monitor.
 
 ## Units of measurement for storage data
 
@@ -51,6 +86,9 @@ Here are some examples of bit patterns:
 Bit patterns are a powerful tool for representing and manipulating information in computing.
 
 ## [ascii to binary converter](https://onlinebinarytools.com/convert-ascii-to-binary)
+
+
+
 
 ## Review Questions
 
