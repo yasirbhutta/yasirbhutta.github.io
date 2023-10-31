@@ -1,4 +1,6 @@
-# Control Statements
+# MATLAB for Beginners
+
+## Control Statements
 
 - [Download PDF](https://yasirbhutta.github.io/matlab/docs/flow-control.pdf)
 

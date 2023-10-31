@@ -87,8 +87,100 @@ Bit patterns are a powerful tool for representing and manipulating information i
 
 ## [ascii to binary converter](https://onlinebinarytools.com/convert-ascii-to-binary)
 
+### Module 2: Boolean Operations
 
+#### What are Boolean operations?**
 
+Boolean operations are logical operations that are used to manipulate bits. The two most common Boolean operations are AND and OR. The AND operation returns 1 if both bits are 1, and 0 otherwise. The OR operation returns 1 if either bit is 1, and 0 otherwise.
+
+#### Boolean expressions
+
+Boolean expressions are expressions that use Boolean operations to combine bits. Boolean expressions can be used to perform simple calculations on bits, such as checking if two bits are both equal to 1, or checking if a bit is equal to 0.
+
+#### Truth tables
+
+Truth tables are a way of representing the output of a Boolean expression for all possible combinations of inputs. Truth tables can be used to verify that a Boolean expression works as expected.
+
+#### Examples of Boolean expressions
+
+Here are some examples of Boolean expressions:
+
+- `A AND B`: This expression returns 1 if both bits A and B are equal to 1, and 0 otherwise.
+- `A OR B`: This expression returns 1 if either bit A or bit B is equal to 1, and 0 otherwise.
+- `NOT A`: This expression returns the opposite of bit A.
+- `(A AND B) OR C`: This expression returns 1 if either A AND B is equal to 1, or C is equal to 1, and 0 otherwise.
+
+#### Applications of Boolean operations
+
+Boolean operations are used in a variety of applications, including:
+
+- Digital logic: Boolean operations are used to design and implement digital logic circuits.
+- Computer programming: Boolean operations are used to write computer programs.
+- Databases: Boolean operations are used to perform complex queries on databases.
+- Search engines: Boolean operations are used to refine search results.
+
+### Module 3: Hexadecimal Notation
+
+#### What is hexadecimal notation?
+
+Hexadecimal notation is a way of representing numbers using 16 symbols instead of 10. The hexadecimal symbols are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F.
+
+#### Why use hexadecimal notation?
+
+Hexadecimal notation is a more compact way of representing binary numbers. For example, the binary number 1010101010101010 can be represented as the hexadecimal number 0xAAAA.
+
+#### How to convert between hexadecimal and binary
+
+To convert a hexadecimal number to binary, simply replace each hexadecimal digit with its corresponding binary equivalent. For example, to convert the hexadecimal number 0xAAAA to binary, we would replace the A digits with the binary number 1010, and we would replace the F digits with the binary number 1111. This would give us the binary number 1010101010101010.
+
+To convert a binary number to hexadecimal, simply group the binary digits into groups of four. Then, replace each group of four binary digits with its corresponding hexadecimal digit. For example, to convert the binary number 1010101010101010 to hexadecimal, we would group the binary digits into groups of four:
+
+```
+1010 1010 1010 1010
+```
+
+Then, we would replace each group of four binary digits with its corresponding hexadecimal digit:
+
+```
+AAAA
+```
+
+This would give us the hexadecimal number 0xAAAA.
+
+#### Applications of hexadecimal notation
+
+Hexadecimal notation is used in a variety of applications, including:
+
+- **Computer programming:** Hexadecimal notation is used to represent machine code and memory addresses.
+- **Electronics:** Hexadecimal notation is used to represent hexadecimal numbers in electronic circuits.
+- **Networking:** Hexadecimal notation is used to represent MAC addresses and IP addresses.
+- **Debugging:** Hexadecimal notation is used to debug computer programs and electronic circuits.
+
+### Module 14: Storing a Bit
+
+#### How are bits stored in memory?
+
+Bits are stored in memory using electrical charges. A bit is stored as a high voltage if it is a 1, and a low voltage if it is a 0.
+
+#### Types of memory
+
+There are two main types of memory in a computer: RAM and ROM. RAM stands for random-access memory. RAM is used to store data that is currently being used by the computer. ROM stands for read-only memory. ROM is used to store data that is permanent, such as the computer's BIOS.
+
+**RAM**
+
+RAM is made up of millions or even billions of tiny transistors. Each transistor can store a single bit of data. The transistors are arranged in a grid, and each transistor is addressed by a unique address.
+
+When the computer needs to access a bit of data in RAM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the transistor at that address. The transistor then switches to the appropriate state (high voltage or low voltage) to represent the bit of data.
+
+**ROM**
+
+ROM is made up of a series of interconnected cells. Each cell can store a single bit of data. The cells are arranged in a grid, and each cell is addressed by a unique address.
+
+When the computer needs to access a bit of data in ROM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the cell at that address. The cell then reads the bit of data and sends it back to the memory controller.
+
+**Conclusion**
+
+Bits are stored in memory using electrical charges. A bit is stored as a high voltage if it is a 1, and a low voltage if it is a 0. RAM is used to store data that is currently being used by the computer, while ROM is used to store data that is permanent.
 
 ## Review Questions
 
