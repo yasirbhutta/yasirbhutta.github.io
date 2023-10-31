@@ -25,8 +25,8 @@ Bits are stored in memory using electrical charges. A bit is stored as a high vo
 
 ### What is a bit?
 
-- A bit is the smallest unit of information in a computer. 
-- It can be either 0 or 1. 
+- A bit is the smallest unit of information in a computer.
+- It can be either 0 or 1.
 - Bits are used to represent all of the data that is stored and processed on a computer, including text, images, audio, and video.
 
 ### How are bits represented?
