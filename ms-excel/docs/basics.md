@@ -135,14 +135,16 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 - [Excel video training - Microsoft Support](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
 - [Microsoft Training](https://support.microsoft.com/en-us/training)
 
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+## Exercises
+
 ## Review Questions
 
 1. What is the difference between worksheet and Workbook?
 2. What is Active cell and explain the purpose of Name Box in MS Excel?
-
-## Exercises
-
-## MCQs
 
 ## References
 
