@@ -1,4 +1,11 @@
-# Formulas in Excel
+# Microsoft Excel - Microsoft 365
+
+## Formulas in Excel
+
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
+
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/ms-excel/docs/formulas.html](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
 
 ## Module 3: Formulas in Excel
 
@@ -86,6 +93,20 @@ Combine ranges of cells for calculations with these operators.
 |(space) | Intersection operator, which produces a reference to cells common to the two references. | =SUM(B7:D7 C6:C8) |
 | # (pound) | The # symbol is used in several contexts: Used as part of an error name. Used to indicate insufficient space to render. In most cases, you can widen the column until the contents display properly. Spilled range operator, which is used to reference an entire range in a dynamic array formula. | #VALUE!, #####,  =SUM(A2#)|
 | @ (at) | Reference operator, which is used to indicate implicit intersection in a formula. | =@A1:A10 | =SUM(Table1[@[January]:[December]])|
+
+#### Implicit intersection operator: @
+
+The implicit intersection operator was introduced as part of substantial upgrade to Excel's formula language to support dynamic arrays. Dynamic arrays bring significant new calculation ability and functionality to Excel. [^2]
+
+| Original formula | As seen in dynamic array Excel | Explanation                                                                                                  |
+| ---------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| \=SUM(A1:A10)    | \=SUM(A1:A10)                  | No change - No implicit intersection could occur, as the SUM function expects ranges or arrays.              |
+| \=A1+A2          | \=A1+A2                        | No change - No implicit intersection could occur.                                                            |
+| \=A1:A10         | \=@A1:A10                      | Implicit intersection will occur, and Excel will return the value associated with the row the formula is in. |
+
+**See Also:**
+
+- [Implicit intersection operator: @](https://support.microsoft.com/en-us/office/implicit-intersection-operator-ce3be07b-0101-4450-a24e-c1c999be2b34)
 
 ## Operand
 
@@ -260,7 +281,6 @@ The result, 150, should appear in cell A3.
 - In cell A12, enter the original price (e.g., 50), and in cell B12, enter the discount percentage (e.g., 20%).
 - In cell C12, use the formula `=A12 - (A12 * B12)` to calculate the discounted price.
 
-
 Which of the following is the correct order of operations in Excel formulas?
 
 (A) Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
@@ -273,9 +293,11 @@ Answer: (A)
 ## References
 
 [^1:] [Calculation operators and precedence in Excel](https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a)
+[^2] [Implicit intersection operator: @](https://support.microsoft.com/en-us/office/implicit-intersection-operator-ce3be07b-0101-4450-a24e-c1c999be2b34)
 
-## Muhammad Yasir Bhutta
+## Social Links
 
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)

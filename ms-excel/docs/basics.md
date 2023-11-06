@@ -1,4 +1,6 @@
-# Microsoft Excel App: Basics
+# Microsoft Excel - Microsoft 365
+
+## Microsoft Excel: Basics
 
 [Download PDF](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.pdf)
 
@@ -146,8 +148,9 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)
 
-Muhammad Yasir Bhutta
+## Social Links
 
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)
