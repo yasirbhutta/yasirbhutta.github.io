@@ -4,7 +4,7 @@
 
 [Download PDF](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.pdf)
 
-**To access the updated lecture notes, please click on the following link:**
+**To access the updated handouts, please click on the following link:**
 [https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
 
 ## Module 1: Introduction to Excel

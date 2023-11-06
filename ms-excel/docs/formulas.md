@@ -2,9 +2,9 @@
 
 ## Formulas in Excel
 
-- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.pdf)
 
-- To access the updated lecture notes, please click on the following link:
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formulas.html](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
 
 ## Module 3: Formulas in Excel
