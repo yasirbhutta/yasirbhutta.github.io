@@ -40,7 +40,7 @@
 - [Handouts - Excel Basics](../ms-excel/docs/basics.md)
 - [Handouts - Formatting in excel](../ms-excel/docs/formatting.md)
 - [Handouts - Formulas in excel](../ms-excel/docs/formulas.md)
-- [Handouts - Functions in excel](functions.md)
+- [Handouts - Functions in excel](../ms-excel/docs/functions.md)
 
 ### [Microsoft Word](../ms-word/index.md)
 

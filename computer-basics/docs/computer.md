@@ -1,7 +1,12 @@
 
 # Journey into the World Of Computers
 
-## Module 2
+[Download PDF](https://yasirbhutta.github.io/computer-basics/docs/computer.pdf)
+
+**To access the updated handouts, please click on the following link:**
+[https://yasirbhutta.github.io/computer-basics/docs/computer.html](https://yasirbhutta.github.io/computer-basics/docs/computer.html)
+
+## Module 1
 
 **Module Objectives:**
 
