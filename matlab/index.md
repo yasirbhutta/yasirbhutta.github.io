@@ -1,5 +1,5 @@
 
-# Matlab and Its Applicationss in Engineering
+# Matlab and Its Applications in Engineering
 
 ## [MATLAB — Examples - MathWorks](https://www.mathworks.com/help/matlab/examples.html?category=index&exampleproduct=all&s_tid=CRUX_lftnav)
 
