@@ -476,7 +476,7 @@ Output:
 Element found at index 4.
 ```
 
-## swtich Statement
+### swtich Statement
 
 - Switch statements in MATLAB are similar to switch statements in other programming languages. They allow you to control the flow of your program by comparing a variable or expression to a set of values. If the variable or expression matches one of the values, the corresponding code block is executed. If there is no match, an optional default code block is executed.
 
@@ -496,6 +496,10 @@ switch switch_expression
 end
 ```
 
+#### Example: MATLAB Program to Prompt User for Color Code and Print Corresponding Color Name
+
+**Question:**Write a MATLAB program that prompts the user to enter a color code (R, G, or B) and then prints the corresponding color name (Red, Green, or Blue) to the console. If the user enters an invalid color code, the program should print "Invalid color code."
+
 ```matlab
 % Create a variable to store the selected color.
 selectedColor = input('Enter a color code (R, G, B): ', 's');
@@ -512,6 +516,10 @@ switch selectedColor
         fprintf('Invalid color code.\n');
 end
 ```
+
+#### Example: MATLAB Program to Prompt User for Day of the Week and Print Appropriate Message
+
+**Questions:** Write a MATLAB program that prompts the user to enter a day of the week (Monday, Tuesday, Wednesday, Thursday, or Friday) and then prints a different message to the console depending on the day of the week that the user enters.
 
 ```matlab
 day = "Monday";
@@ -547,7 +555,14 @@ end
 10. What is the syntax for a while loop in MATLAB?
 11. How can you use a while loop to perform a repetitive task until a certain condition is met?
 12. Give an example of a while loop in MATLAB.
-13. What are some tips for using while loops effectively?
+13. What is the difference between an if statement and an else if statement?
+14. What is the syntax for an if statement?
+15. Give an example of an if statement.
+16. What is an if statement?
+17. What is the difference between an if statement and a switch statement?
+18. What is the syntax for a switch statement?
+19. What is the default case in a switch statement?
+20. What are some tips for using while loops effectively?
 
 >**Answer:** Here are some tips for using while loops effectively:
 >
@@ -696,7 +711,42 @@ The square of 10 is 100
 *****
 ```
 
-8. Modify the following MATLAB program to print the squares of all the even numbers from 2 to 10, inclusive.
+7. Write a MATLAB program that prompts the user to enter a number and then prints the following message to the console:
+
+"Even number" if the number is even.
+"Odd number" if the number is odd.
+9. Write a MATLAB program that prompts the user to enter a day of the week (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday) and then prints the following message to the console:
+
+"Weekday" if the day of the week is Monday through Friday.
+"Weekend" if the day of the week is Saturday or Sunday.
+
+10. Write a MATLAB program that prompts the user to enter a grade and then prints the following letter grade to the console:
+
+- "A" if the grade is 90 or higher.
+- "B" if the grade is 80-89.
+- "C" if the grade is 70-79.
+- "D" if the grade is 60-69.
+- "F" if the grade is below 60.
+
+11. Write a MATLAB program that prompts the user to enter a temperature and then prints the following message to the console:
+
+- "Cold" if the temperature is below 32 degrees Fahrenheit.
+- "Warm" if the temperature is between 32 and 85 degrees Fahrenheit.
+- "Hot" if the temperature is above 85 degrees Fahrenheit.
+12. Write a MATLAB program that prompts the user to enter a color (red, green, or blue) and then prints the following message to the console:
+
+- "Primary color" if the color is red, green, or blue.
+- "Secondary color" if the color is cyan, magenta, or yellow.
+- "Invalid color" if the user enters an invalid color.
+  
+13.  Write a MATLAB program that prompts the user to enter a number and then prints the corresponding word to the console. The words should be "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", and "Ten".
+14. Write a MATLAB program that prompts the user to enter a day of the week and then prints a different message to the console depending on the day of the week that the user enters. The messages should be "Have a great week!", "Don't forget to water the plants!", "Have a good day!", "Almost there!", "Have a good weekend!", and "Invalid day of the week.".
+
+15. Write a MATLAB program that prompts the user to enter a number between 1 and 100 and then prints whether the number is even or odd to the console.
+
+16. Write a MATLAB program that prompts the user to enter two numbers and then prints the larger number to the console.
+
+17. Modify the following MATLAB program to print the squares of all the even numbers from 2 to 10, inclusive.
 
 ```matlab
 i = 1;
@@ -722,6 +772,16 @@ True/False
 9. The condition for a MATLAB while loop must be a boolean expression. (True/False)
 10. If the condition for a MATLAB while loop is always true, the loop will execute infinitely. (True/False)
 11. A while loop in MATLAB can be nested inside another while loop. (True/False)
+12. The continue statement can be used to skip the rest of a loop iteration and start the next iteration.
+13. You can nest if statements within each other to create more complex conditional structures.
+14. A switch statement can have multiple default cases.
+15. The break statement can be used to exit a function.
+16. Switch statements can be used to control the flow of a program based on a single variable.
+17. Switch statements can only be used to handle a single case.
+18. In MATLAB, the if statement is used for conditional execution of code when a given expression is true.
+19. The if statement can be followed by an optional else block to specify code to execute when the condition is false.
+20. The switch statement is used to perform different actions based on the value of a single expression.
+21. The else block of an if statement is mandatory; you cannot have an if statement without an else block.
 
 **For loop:**
 
@@ -900,6 +960,126 @@ end
 2. [ ] One time
 3. [ ] It will cause an error
 4. [ ] It depends on the loop structure
+
+**if and switch:**
+
+> Which of the following is the correct syntax for an if statement in MATLAB?
+
+1. [ ] if (condition) { code }
+2. [ ] if condition: code
+3. [ ] if condition then code end
+4. [x] if condition code end
+
+> In a switch statement, what happens if none of the case conditions match the expression?
+
+1. [ ] An error is raised
+2. [ ] The program terminates
+3. [x] The default case is executed (if provided)
+4. [ ] The switch statement is ignored
+
+> In MATLAB, what is the keyword used to specify the default case in a switch statement?
+
+1. [ ] default
+2. [ ] case
+3. [x] otherwise
+4. [ ] break
+
+> In a MATLAB if statement, what happens if the condition is false and there is no else block?
+
+1. [ ] The program will execute the if block anyway.
+2. [ ] The program will execute the else block.
+3. [ ] The program will skip the if block.
+4. [x] The program will continue with the next statement after the if block.
+
+> In a for loop, what does the continue statement do in MATLAB?
+
+1. [ ] Exits the loop and continues with the next statement after the loop.
+2. [ ] Restarts the loop from the beginning.
+3. [x] Skips the current iteration and continues with the next iteration.
+4. [ ] Pauses the loop until a key is pressed.
+
+> Which keyword is used to end an if statement in MATLAB?
+
+1. [ ] endif
+2. [x] end
+3. [ ] done
+4. [ ] finish
+
+> In MATLAB, the switch statement is primarily used for:
+
+1. [ ] Creating loops
+2. [ ] Performing matrix operations
+3. [x] Handling multiple conditional cases
+4. [ ] Defining functions
+
+> In a switch statement in MATLAB, what happens if none of the cases match, and there is no otherwise block?
+
+1. [ ] An error is raised.
+2. [ ] The program terminates.
+3. [x] Execution continues to the code after the switch statement.
+4. [ ] The code inside the switch block is executed.
+
+> What is the difference between an if statement and a switch statement?
+
+1. [ ] An if statement can only be used to handle a single condition, while a switch statement can be used to handle multiple conditions.
+2. [x] An switch statement can only be used to control the flow of a program based on a single variable, while a if statement can be used to control the flow of a program based on multiple variables.
+3. [ ] An if statement can be used to exit a loop or switch statement early, while a switch statement cannot.
+4. [ ] An if statement can be used to skip the rest of the current iteration of a loop, while a switch statement cannot.
+
+**break and continue:**
+
+> In a MATLAB loop, what does the continue statement do?
+
+1. [ ] Stops the execution of the loop
+2. [x] Skips the current iteration of the loop and proceeds to the next one
+3. [ ] Repeats the current iteration of the loop
+4. [ ] Halts the loop and returns to the beginning
+
+> What is the purpose of the break statement in a loop?
+
+1. [ ] It exits the entire program
+2. [x] It terminates the loop and continues with the next statement
+3. [ ] It skips the current iteration and proceeds to the next one
+4. [ ] It repeats the current iteration
+
+> What does the following MATLAB code do?
+
+```matlab
+for i = 1:10
+    if i == 5
+        break;
+    end
+    disp(i);
+end
+```
+
+1. [ ] The code will print the numbers 1 to 10.
+2. [x] The code will print the numbers 1 to 4.
+3. [ ] The code will print the numbers 1 to 5.
+4. [ ] The code will print the numbers 6 to 10.
+
+> What does the following MATLAB code do?
+
+```matlab
+for i = 1:10
+    if i == 5
+        continue;
+    end
+    disp(i);
+end
+```
+
+1. [ ] The code will print the numbers 1 to 10.
+2. [x] The code will skip the number 5 and print the numbers 1, 2, 3, 4, 6, 7, 8, 9, and 10.
+3. [ ] The code will print the numbers 1 to 5 and then skip the rest of the numbers.
+4. [ ] The code will print the numbers 6 to 10 and then skip the rest of the numbers.
+
+> Which of the following will exit the loop early?
+
+1. [ ] for i = 1:10 if i == 5 continue; end disp(i); end
+2. [x] for i = 1:10 if i == 5 break; end disp(i); end
+3. [ ] for i = 1:10 if i == 5 return; end disp(i); end
+4. [ ] for i = 1:10 if i == 5 exit; end disp(i); end
 
 ## References
 
