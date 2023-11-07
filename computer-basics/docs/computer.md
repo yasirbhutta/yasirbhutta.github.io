@@ -67,7 +67,9 @@ Computer process data (input)into information (output) and often store the data 
 - The Computer needs processing instructions to be given to it for performing the computations.
 
 **Command:** The instruction given is known as a Command.
+
 **Program:** Set of Instructions.
+
 **Software:** Group of many related programs is a software.
 
 ### References
