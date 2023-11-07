@@ -1,5 +1,10 @@
 # Computer Hardware components
 
+[Download PDF](https://yasirbhutta.github.io/computer-basics/docs/hardware.pdf)
+
+**To access the updated handouts, please click on the following link:**
+[https://yasirbhutta.github.io/computer-basics/docs/hardware.html](https://yasirbhutta.github.io/computer-basics/docs/hardware.html)
+
 ## Computer Hardware
 
 - The physical parts of a computer are called hardware.
@@ -299,21 +304,21 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 > Which of the following is NOT a hardware component?
 
-1. [ ] Software
+1. [x] Software
 2. [ ] CPU
 3. [ ] Motherboard
 4. [ ] RAM
 
 > Which of the following is the brain of the computer?
 
-1. [ ] CPU
+1. [x] CPU
 2. [ ] Motherboard
 3. [ ] RAM
 4. [ ] Hard drive
 
 > What does CPU stand for?
 
-1. [ ] Central Processing Unit
+1. [x] Central Processing Unit
 2. [ ] Computer Power Unit
 3. [ ] Central Power Unit
 4. [ ] Central Peripheral Unit
@@ -449,9 +454,8 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 ## References
 
-[^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
-[^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
-
+- [^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+- [^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
 - [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
@@ -461,3 +465,10 @@ DisplayPort is another type of port that is used to connect high-definition vide
 - <http://www.southerncompany.com/learningpower/glossary.aspx>
 - <http://en.wikipedia.org/wiki/Line_printer>
   
+## Social Links
+
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)

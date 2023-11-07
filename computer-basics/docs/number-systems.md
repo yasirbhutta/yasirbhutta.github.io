@@ -1,5 +1,10 @@
 # Number System
 
+[Download PDF]([Download PDF](https://yasirbhutta.github.io/computer-basics/docs/number-systems.pdf))
+
+**To access the updated handouts, please click on the following link:**
+[https://yasirbhutta.github.io/computer-basics/docs/number-systems.html](https://yasirbhutta.github.io/computer-basics/docs/number-systems.html)
+
 ## Module 1: Bits
 
 A bit is the smallest unit of information in a computer. It can be either 0 or 1. Bits are used to represent all of the data that is stored and processed on a computer, including text, images, audio, and video.
@@ -64,15 +69,13 @@ Here are some examples of how bits are used in the real world:
 | 6       | Gigabyte | GB | 1024 MB(1 billion bytes) | 1 million pages |
 | 7       | Terabyte | TB | 1024 GB(1 trillion bytes) | 1 billion pages |
 
-## ASCII code
-
 ## Patterns Using Bits
 
-A bit pattern is a sequence of bits, which are the smallest unit of data in computing.A bit can have two values: 0 or 1. Bit patterns are used to represent all kinds of data, including numbers, letters, symbols, and images.
+- A bit pattern is a sequence of bits, which are the smallest unit of data in computing. A bit can have two values: 0 or 1. Bit patterns are used to represent all kinds of data, including numbers, letters, symbols, and images.
 
-Bit patterns can be of any length, but they are typically represented as strings of binary digits. For example, the bit pattern "01001101" represents the letter "A" in ASCII code. [^1]
+- Bit patterns can be of any length, but they are typically represented as strings of binary digits. For example, the bit pattern "01000001" represents the letter "A" in ASCII code. [^1]
 
-Bit patterns are used in a wide variety of computing applications. For example, they are used to store and transmit data, to encode and decode information, and to perform mathematical and logical operations.
+- Bit patterns are used in a wide variety of computing applications. For example, they are used to store and transmit data, to encode and decode information, and to perform mathematical and logical operations.
 
 ![bit pattern](https://b2600043.smushcdn.com/2600043/wp-content/uploads/2019/07/Image-Representing-Typical-Bit-Pattern.jpg?lossy=0&strip=1&webp=1)
 
@@ -85,13 +88,70 @@ Here are some examples of bit patterns:
 
 Bit patterns are a powerful tool for representing and manipulating information in computing.
 
-## [ascii to binary converter](https://onlinebinarytools.com/convert-ascii-to-binary)
+## ASCII code
+
+- ASCII stands for American Standard Code for Information Interchange. It is a character encoding system that uses a 7-bit or 8-bit binary code to represent characters.
+- ASCII is used in most computers and electronic devices to represent text, numbers, and other symbols.
+
+Each ASCII character is assigned a unique code. For example, the ASCII code for the letter "A" is 65. The ASCII code for the space character is 32.
+
+For example, to convert the letter "A" to binary code, you would follow these steps:
+
+- The ASCII code for the letter "A" is 65.
+- Write the ASCII code in decimal form: 65
+- Convert the decimal code to binary code: 01000001
+- Pad the binary code with zeros on the left to make it 8 bits long: 01000001
+
+The following table shows some common ASCII characters and their binary codes:
+
+| Character | ASCII Code | Binary Code |
+| --------- | ---------- | ----------- |
+| A         | 65         | 1000001     |
+| B         | 66         | 1000010     |
+| C         | 67         | 1000011     |
+| ...       | ...        | ...         |
+| Z         | 90         | 1011010     |
+| 0         | 48         | 110000      |
+| 1         | 49         | 110001      |
+| 2         | 50         | 110010      |
+| ...       | ...        | ...         |
+| 9         | 57         | 111001      |
+| space     | 32         | 100000      |
+| !         | 33         | 100001      |
+| "         | 34         | 100010      |
+| #         | 35         | 100011      |
+| ...       | ...        | ...         |
+| ~         | 126        | 1111110     |
+
+click on the following link to view complete table: [ASCII, decimal, hexadecimal, octal, and binary conversion table - IBM](https://www.ibm.com/docs/en/aix/7.3?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table)
+
+**Convert decimal code to binary code:**
+
+For example, to convert the decimal number 10 to binary code, we would do the following:
+
+```code
+10 / 2 = 5 Remainder: 0 (bit #1)
+5 / 2 = 2 Remainder: 1 (bit #2)
+2 / 2 = 1 Remainder: 0 (bit #3)
+1 / 2 = 0 Remainder: 1 (bit #4)
+```
+
+So, 10 (decimal) =  1010 (binary)
+
+**See also:**
+
+- [ascii to binary converter](https://onlinebinarytools.com/convert-ascii-to-binary)
+- [How to convert decimal to binary - rapidtables.com](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
+- [Binary to decimal - rapidtables.com](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
 ### Module 2: Boolean Operations
 
 #### What are Boolean operations?**
 
-Boolean operations are logical operations that are used to manipulate bits. The two most common Boolean operations are AND and OR. The AND operation returns 1 if both bits are 1, and 0 otherwise. The OR operation returns 1 if either bit is 1, and 0 otherwise.
+- Boolean operations are logical operations that are used to manipulate bits.
+- The two most common Boolean operations are AND and OR.
+- The AND operation returns 1 if both bits are 1, and 0 otherwise.
+- The OR operation returns 1 if either bit is 1, and 0 otherwise.
 
 #### Boolean expressions
 
@@ -100,6 +160,31 @@ Boolean expressions are expressions that use Boolean operations to combine bits.
 #### Truth tables
 
 Truth tables are a way of representing the output of a Boolean expression for all possible combinations of inputs. Truth tables can be used to verify that a Boolean expression works as expected.
+
+Example: Let’s create a truth table for the expression A AND B:
+
+A | B | A AND B
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
+In this example:
+
+- When A = 0 and B = 0, A AND B evaluates to 0.
+- When A = 1 and B = 1, A AND B evaluates to 1.
+
+Example: Let’s create a truth table for the expression A OR B:
+
+A | B | A OR B
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 1
+
+In this example:
+
+- When A = 0 and B = 0, A AND B evaluates to 0.
+- When A = 0 and B = 1, A AND B evaluates to 1.
 
 #### Examples of Boolean expressions
 
@@ -147,6 +232,15 @@ AAAA
 
 This would give us the hexadecimal number 0xAAAA.
 
+ Another example, to convert hexadecimal number `1E` to binary:
+
+1. Write down the hex number: We have 1E.
+2. Convert hex to decimal: The decimal equivalent of 1E is 30 (since 1E represents 16 + 14 = 30).
+Represent each digit in binary:
+3. 1 in binary is 0001.
+4. E in decimal is 14, which in binary is 1110.
+5. Combine the binary representations: 1E in binary is 00011110
+
 #### Applications of hexadecimal notation
 
 Hexadecimal notation is used in a variety of applications, including:
@@ -178,13 +272,7 @@ ROM is made up of a series of interconnected cells. Each cell can store a single
 
 When the computer needs to access a bit of data in ROM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the cell at that address. The cell then reads the bit of data and sends it back to the memory controller.
 
-**Conclusion**
-
-Bits are stored in memory using electrical charges. A bit is stored as a high voltage if it is a 1, and a low voltage if it is a 0. RAM is used to store data that is currently being used by the computer, while ROM is used to store data that is permanent.
-
 ## Review Questions
-
-1. 
 
 ## Excercises
 
@@ -198,4 +286,4 @@ Bits are stored in memory using electrical charges. A bit is stored as a high vo
 
 ## References
 
-[^1] [ASCII, decimal, hexadecimal, octal, and binary conversion table - IBM](https://www.ibm.com/docs/en/aix/7.2?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table)
+[^1] [ASCII, decimal, hexadecimal, octal, and binary conversion table - IBM](https://www.ibm.com/docs/en/aix/7.3?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table)
