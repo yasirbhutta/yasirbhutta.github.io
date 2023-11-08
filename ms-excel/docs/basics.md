@@ -137,7 +137,103 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ## True/False (Mark T for True and F for False)
 
+- A workbook is a collection of worksheets.
+- Rows are numbered from 1 to 1,048,576.
+- A worksheet is the intersection of a row and a column.
+- The active cell is the cell that is currently selected.
+- Excel is a powerful tool for data analysis.
+- A workbook is a collection of rows and columns.
+  
+
 ## Multiple Choice (Select the best answer)
+
+What type of data can be stored in an Excel cell?
+
+(a) Numbers
+(b) Text
+(c) Dates
+(d) All of the above
+
+What is a workbook?
+
+(a) A collection of worksheets
+(b) A single spreadsheet
+(c) A cell in a spreadsheet
+(d) A formula in a spreadsheet
+
+What is a worksheet?
+
+(a) A collection of workbooks
+(b) A single spreadsheet
+(c) A cell in a spreadsheet
+(d) A formula in a spreadsheet
+
+What are rows in a spreadsheet?
+
+(a) Horizontal divisions of the spreadsheet
+(b) Vertical divisions of the spreadsheet
+(c) Individual cells in the spreadsheet
+(d) Formulas in the spreadsheet
+
+What are columns in a spreadsheet?
+
+(a) Horizontal divisions of the spreadsheet
+(b) Vertical divisions of the spreadsheet
+(c) Individual cells in the spreadsheet
+(d) Formulas in the spreadsheet
+
+What is a cell in a spreadsheet?
+
+(a) A collection of workbooks
+(b) A single spreadsheet
+(c) The intersection of a row and column
+(d) A formula in a spreadsheet
+
+What is the address of a cell?
+
+(a) The name of the workbook
+(b) The name of the worksheet
+(c) The letter of the column and the number of the row
+(d) The formula in the cell
+
+What is the term used for a single page in an Excel workbook?
+(a) workbook
+(b) worksheet
+(c) row
+(d) column
+
+What is the unique identifier for a cell in a worksheet?
+(a) workbook
+(b) worksheet
+(c) row
+(d) cell address
+
+What are rows and columns?
+
+(a) Rows are horizontal divisions of a worksheet, and columns are vertical divisions of a worksheet.
+(b) Rows are vertical divisions of a worksheet, and columns are horizontal divisions of a worksheet.
+(c) Both rows and columns are horizontal divisions of a worksheet.
+(d) Both rows and columns are vertical divisions of a worksheet.
+
+How many columns are there in an Excel worksheet by default?
+A) 256
+B) 512
+C) 1,048,576
+D) 16,384
+
+How many rows are there in an Excel worksheet by default?
+A) 256
+B) 512
+C) 1,048,576
+D) 16,384
+
+In Excel, how many worksheets are there in a default workbook?
+
+a) 1
+b) 3
+c) 5
+d) 10
+
 
 ## Exercises
 

@@ -379,7 +379,18 @@ In the Gridline color box, click the color you want.
 ### Windows only
 
 1. How can you access the Format Cells dialog box in Excel to apply custom formatting?
-2. 
+   
+
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+What is the purpose of a cell format?
+
+(a) To change the appearance of a cell
+(b) To protect a cell from being changed
+(c) To add a formula to a cell
+(d) None of the above
 
 
 ## References

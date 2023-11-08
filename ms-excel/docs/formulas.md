@@ -177,6 +177,20 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Multiple Choice (Select the best answer)
 
+What is the correct syntax for entering a formula in Excel?
+
+(a) =formula_name(arguments)
+(b) =function(arguments)
+(c) formula_name(arguments)
+(d) function(arguments)
+
+What is a formula?
+
+(a) A rule that tells Excel how to calculate something
+(b) A cell in a spreadsheet
+(c) The address of a cell
+(d) A range of cells
+
 Which of the following is the correct order of operations in Excel formulas?
 
 (A) Parentheses, Exponents, Multiplication, Division, Addition, Subtraction

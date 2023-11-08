@@ -519,6 +519,38 @@ Defined Names
 
 - **Formulas > Defined Names > Create from Selection**
 
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+What is the symbol for a cell reference in Excel?
+
+(a) @
+(b) $
+(c) &
+(d) %
+
+What is a function?
+
+(a) A predefined formula that performs a specific calculation
+(b) A rule that tells Excel how to calculate something
+(c) A cell in a spreadsheet
+(d) The address of a cell
+
+What is the purpose of a function?
+
+(a) To perform a calculation
+(b) To create a chart
+(c) To filter data
+(d) None of the above
+
+What is a range of cells?
+
+(a) A group of adjacent cells
+(b) A single cell
+(c) A formula
+(d) The address of a cell
+
 ### Review Questions
 
 Beginner:
