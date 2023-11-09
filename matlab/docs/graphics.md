@@ -1,6 +1,11 @@
-# MATLAB
+# [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
 
 ## MATLAB Graphics
+
+- [Download PDF](https://yasirbhutta.github.io/matlab/docs/graphics.pdf)
+  
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/matlab/docs/graphics.html](https://yasirbhutta.github.io/matlab/docs/graphics.html)
 
 ### 2D Plots
 
@@ -146,75 +151,78 @@ title('Global Average Temperature from 1880 to 2022');
 
 ## Multiple Choice (Select the best answer)
 
-Which of the following functions is used to create a plot of a line?
-A. plot()
-B. stem()
-C. bar()
-D. pie()
+> Which of the following functions is used to create a plot of a line?
 
-Which of the following functions is used to create a plot of a bar graph?
-A. plot()
-B. stem()
-C. bar()
-D. pie()
+1. [x] plot()
+2. [ ] stem()
+3. [ ] bar()
+4. [ ] pie()
 
-Which of the following functions is used to create a plot of a pie chart?
-A. plot()
-B. stem()
-C. bar()
-D. pie()
+> Which of the following functions is used to create a plot of a bar graph?
 
-Which of the following is NOT a valid MATLAB graphics command?
+1. [ ] plot()
+2. [ ] stem()
+3. [x] bar()
+4. [ ] pie()
 
-(a) plot()
-(b) subplot()
-(c) log1p()
-(d) title()
+> Which of the following functions is used to create a plot of a pie chart?
 
-What is the purpose of the title() function?
+1. [ ] plot()
+2. [ ] stem()
+3. [ ] bar()
+4. [x] pie()
 
-(a) To label the axes of a plot
-(b) To create a new figure window
-(c) To add a title to a plot
-(d) To change the color of a plot
+> Which of the following is NOT a valid MATLAB graphics command?
 
-How can you create a subplot in MATLAB?
+1. [ ] plot()
+2. [ ] subplot()
+3. [x] log1pp()
+4. [ ] title()
 
-(a) Use the subplot() function.
-(b) Use the figure() function.
-(c) Use the plot() function.
-(d) Use the title() function.
+> What is the purpose of the title() function?
 
-What is the difference between a bar plot and a histogram?
+1. [ ] To label the axes of a plot
+2. [ ] To create a new figure window
+3. [x] To add a title to a plot
+4. [ ] To change the color of a plot
 
-(a) A bar plot is used to compare categorical data, while a histogram is used to visualize continuous data.
-(b) A bar plot is used to represent frequencies, while a histogram is used to represent probabilities.
-(c) A bar plot is used to show the distribution of data, while a histogram is used to compare means.
-(d) A bar plot is used to show the relationship between two variables, while a histogram is used to show the distribution of a single variable.
+> How can you create a subplot in MATLAB?
 
-Which of the following is NOT a valid MATLAB graphics function?
+1. [x] Use the subplot() function.
+2. [ ] Use the figure() function.
+3. [ ] Use the plot() function.
+4. [ ] Use the title() function.
 
-(a) plot()
-(b) bar()
-(c) pie()
-(d) histogram()
-(e) stem()
+> What is the difference between a bar plot and a histogram?
 
-Which of the following is the correct syntax for plotting a line graph of the function y = x^2?
+1. [x] A bar plot is used to compare categorical data, while a histogram is used to visualize continuous data.
+2. [ ] A bar plot is used to represent frequencies, while a histogram is used to represent probabilities.
+3. [ ] A bar plot is used to show the distribution of data, while a histogram is used to compare means.
+4. [ ] A bar histogram is used to show the relationship between two variables, while a plot is used to show the distribution of a single variable.
 
-(a) plot(x, y^2)
-(b) plot(x, x^2)
-(c) plot(y, x^2)
-(d) plot(x^2, y)
-(e) plot(y^2, x)
+> Which of the following is NOT a valid MATLAB graphics function?
 
-What is the purpose of the legend() function?
+1. [ ] plot()
+2. [ ] bar()
+3. [ ] pie()
+4. [x] histrogram()
+5. [ ] stem()
 
-(a) To label the x-axis of a graph
-(b) To label the y-axis of a graph
-(c) To add a title to a graph
-(d) To add a legend to a graph
-(e) To change the color of a line on a graph
+> Which of the following is the correct syntax for plotting a line graph of the function y = x^2?
+
+1. [ ] plot(x, y=x^2)
+2. [x] plot(x, x.^2)
+3. [ ] plot(y, x^2)
+4. [ ] plot(x^2, y)
+5. [ ] plot(y^2, x)
+
+> What is the purpose of the legend() function?
+
+1. [ ] To label the x-axis of a graph
+2. [ ] To label the y-axis of a graph
+3. [ ] To add a title to a graph
+4. [x] To add a legend to a graph
+5. [ ] To change the color of a line on a graph
 
 > What is the purpose of the xlabel() and ylabel() functions?
 
@@ -224,170 +232,173 @@ What is the purpose of the legend() function?
 4. [ ] To add a legend to a graph
 5. [ ] To change the color of a line on a graph
 
-Which of the following commands would you use to create a scatter plot of the data points (x, y)?
-
-(a) plot(x, y)
-(b) scatter(x, y)
-(c) plotxy(x, y)
-(d) scatterxy(x, y)
-
-Which of the following commands would you use to change the title of the current figure to 'My Figure'?
+> Which of the following commands would you use to change the title of the current figure to 'My Figure'?
 
 1. [x] title('My Figure')
-2. [x] set(gcf, 'Title', 'My Figure')
+2. [ ] sets(gcf, 'Title', 'My Figure')
 3. [ ] title(figure, 'My Figure')
-4. [ ] set(figure, 'Title', 'My Figure')
+4. [ ] sets(figure, 'Title', 'My Figure')
 
-Explanation: The title() function can be used to change the title of the current figure. The set() function can also be used to change the title of the current figure, but it requires more verbose syntax.
+> What is the command to create a 2-D line plot of x and y vectors in MATLAB?
 
-What is the command to add a title to a chart in MATLAB? A) title(‘text’) B) xlabel(‘text’) C) ylabel(‘text’) D) legend(‘text’)
+1. [x] plot(x,y)
+2. [ ] line(x,y)
+3. [ ] graph(x,y)
+4. [ ] draw(x,y)
 
-What is the command to create a 2-D line plot of x and y vectors in MATLAB? A) plot(x,y) B) line(x,y) C) graph(x,y) D) draw(x,y)
-
-What is the command to create a pie chart of a vector x in MATLAB? 
+> What is the command to create a pie chart of a vector x in MATLAB? 
 
 1. [ ] pie(x)
 2. [ ] pie3(x)
 3. [ ] piechart(x)
 4. [x] pie(x) and pie3(x)
 
-Which MATLAB function is used to label the axes of a figure?
+> Which MATLAB function is used to label the axes of a figure?
 
-(a) xlabel()
-(b) ylabel()
-(c) title()
-(d) legend()
+1. [ ] title()
+2. [ ] legend()
+3. [x] xlabel()
+4. [x] ylabel()
 
-What is the command to show the box outline around the axes in MATLAB? A) box on B) box off C) box show D) box hide
+> What is the command to show the box outline around the axes in MATLAB?
 
-What is the command to show the grid in a MATLAB figure?
+1. [ ] box off
+2. [ ] box show
+3. [x] box on
+4. [ ] box hide
 
-A) box on
-B) grid on
-C) grid off
-D) box show
-E) box hide
+> What is the command to show the grid in a MATLAB figure?
 
-Which MATLAB function is used to add text to a plot?
+1. [ ] box on
+2. [x] grid on
+3. [ ] grid off
+4. [ ] box show
+5. [ ] box hide
 
-(a) text()
-(b) label()
-(c) title()
-(d) legend()
+> Which MATLAB function is used to add text to a plot?
 
-How can you change the font color of the text in a plot?
+1. [x] text()
+2. [ ] label()
+3. [ ] title()
+4. [ ] legend()
 
-1 [x] Use the color property of the text() function.
-(b) Use the Color property of the current axes.
-(c) Use the Color property of the figure window.
-(d) Use the Color property of the current figure.
+> How can you change the font color of the text in a plot?
+
+1. [x] Use the color property of the text() function.
+2. [ ] Use the Color property of the current axes.
+3. [ ] Use the Color property of the figure window.
+4. [ ] Use the Color property of the current figure.
 
 **Code snippet:**
 
 ```matlab
-text(x, y, 'string', 'color', 'red');
+x = 1:10;
+y = 1:10;
+plot(x, y);
+text(6, 5, 'string', 'color', 'red');
 ```
 
-How can you position text relative to a specific data point in a plot?
+> How can you position text relative to a specific data point in a plot?
 
 1. [x] Use the x and y coordinates of the data point.
-(b) Use the DataPoints property of the text() function.
-(c) Use the handle property of the data point object.
-(d) Use the Position property of the text object.
+2. [ ] Use the DataPoints property of the text() function.
+3. [ ] Use the handle property of the data point object.
+4. [ ] Use the Position property of the text object.
 
-What is the primary purpose of the hold function in MATLAB plotting?
+> What is the primary purpose of the `hold` function in MATLAB plotting?
 
-(a) To clear the current plot window
-(b) To temporarily pause the execution of a plot command
-[x] To prevent subsequent plot commands from overwriting existing plots
-(d) To adjust the scaling of the plot axes
+1. [ ] To clear the current plot window
+2. [ ] To temporarily pause the execution of a plot command
+3. [x] To prevent subsequent plot commands from overwriting existing plots
+4. [ ] To adjust the scaling of the plot axes
 
-Which of the following statements correctly describes the behavior of the hold function when used in conjunction with the plot function?
+> Which of the following statements correctly describes the behavior of the `hold` function when used in conjunction with the plot function?
 
-(a) The hold function must be called before the plot function for it to have any effect.
-(b) The hold function must be called after the plot function for it to have any effect.
-[x] The hold function remains active until it is explicitly turned off using the hold off command.
-(d) The hold function only affects the current plot window and has no effect on subsequent plot windows.
+1. [ ] The hold function must be called before the plot function for it to have any effect.
+2. [ ] The hold function must be called after the plot function for it to have any effect.
+3. [x] The hold function remains active until it is explicitly turned off using the hold off command.
+4. [ ] The hold function only affects the current plot window and has no effect on subsequent plot windows.
 
-Which of the following scenarios would require the use of the hold function?
+> Which of the following scenarios would require the use of the `hold` function?
 
-(a) Plotting two different line graphs of separate data sets on the same axes
-(b) Plotting multiple curves representing different functions in the same plot window
-(c) Creating a scatter plot of data points along with a trend line
-[x] All of the above
+1. [ ] Plotting two different line graphs of separate data sets on the same axes
+2. [ ] Plotting multiple curves representing different functions in the same plot window
+3. [ ] Creating a scatter plot of data points along with a trend line
+4. [x] All of the above
 
-What are the two basic arguments required for the plot() function?
+> What are the two basic arguments required for the `plot()` function?
 
-[] x-coordinates and y-coordinates
-(b) x-axis label and y-axis label
-(c) figure window and axes labels
-(d) title and legend
+1. [x] x-coordinates and y-coordinates
+2. [ ] x-axis label and y-axis label
+3. [ ] figure window and axes labels
+4. [ ] title and legend
 
-What is the default line style used by the plot() function?
+> What is the default line style used by the `plot()` function?
 
-[x] Solid line (-)
-(b) Dashed line (--)
-(c) Dotted line (:)
-(d) Dot-dash line (- -)
+1. [x] Solid line (-)
+2. [ ] Dashed line (--)
+3. [ ] Dotted line (:)
+4. [ ] Dot-dash line (- -)
 
-What is the default line color used by the plot() function?
+> What is the default line color used by the `plot()` function?
 
-(a) Blue
-(b) Red
-(c) Green
-[x] Black
+1. [ ] Blue
+2. [ ] Red
+3. [ ] Green
+4. [x] Black
 
-Which line style is represented by the string '-.'?
+> Which line style is represented by the string '-.'?
 
-(a) Solid line
-(b) Dashed line
-(c) Dotted line
-[x] Dash-dotted line
+1. [ ] Solid line
+2. [ ] Dashed line
+3. [ ] Dotted line
+4. [ ] [x] Dash-dotted line
 
-What is the purpose of using different line styles in a plot?
+> What is the purpose of using different line styles in a plot?
 
-(a) To make the plot more visually appealing
-(b) To distinguish between different data sets in a plot
-(c) To increase the readability of the plot
-[x] All of the above
+1. [ ] To make the plot more visually appealing
+2. [ ] To distinguish between different data sets in a plot
+3. [ ] To increase the readability of the plot
+4. [x] All of the above
 
-How would you set the line style of a plot to be dashed?
+> How would you set the line style of a plot to be dashed?
 
-[x] plot(x, y, '--')
-(b) line(x, y, '--')
-(c) get(plot(x, y), 'LineStyle', '--')
-(d) style(plot(x, y), '--')
+1. [x] plot(x, y, '--')
+2. [ ] line(x, y, '--')
+3. [ ] get(plot(x, y), 'LineStyle', '--')
+4. [ ] style(plot(x, y), '--')
 
-How would you create a plot with two lines, one solid and one dashed?
+> How would you create a plot with two lines, one solid and one dashed?
 
-(a) plot(x1, y1, '-', x2, y2, '--')
-(b) line(x1, y1, '-', x2, y2, '--')
-(c) figure(plot(x1, y1), 'LineStyle', '-'), plot(x2, y2), 'LineStyle', '--')
-(d) style(plot(x1, y1), '-'), plot(x2, y2), 'LineStyle', '--')
+1. [ ] plot(x1, y1, '-', x2, y2, '--')
+2. [ ] line(x1, y1, '-', x2, y2, '--')
+3. [ ] figure(plot(x1, y1), 'LineStyle', '-'), plot(x2, y2), 'LineStyle', '--')
+4. [ ] style(plot(x1, y1), '-'), plot(x2, y2), 'LineStyle', '--')
 
-What is the default marker style for a line plot in MATLAB?
-[x] No marker
-(b) Circle (o)
-(c) Plus sign (+)
-(d) Asterisk (*)
+> What is the default marker style for a line plot in MATLAB?
+
+1. [x] No marker
+2. [ ] Circle (o)
+3. [ ] Plus sign (+)
+4. [ ] Asterisk (*)
 
 ## Exercises
 
 ## Review Questions
 
 - What is the syntax for adding text to a plot using the text() function?
-- What is the purpose of the plot() function in MATLAB?
-- What is the purpose of the grid() function in MATLAB?
-- What is the purpose of the axis() function in MATLAB?
-- What is the purpose of the xlabel() and ylabel() functions in MATLAB?
-- What is the purpose of the title() function in MATLAB?
-- What is the purpose of the legend() function in MATLAB?
+- What is the purpose of the `plot()` function in MATLAB?
+- What is the purpose of the `grid()` function in MATLAB?
+- What is the purpose of the `axis()` function in MATLAB?
+- What is the purpose of the `xlabel()` and `ylabel()` functions in MATLAB?
+- What is the purpose of the `title()` function in MATLAB?
+- What is the purpose of the `legend()` function in MATLAB?
 - What are some of the different line styles that can be used in MATLAB?
 - What are some of the different marker styles that can be used in MATLAB?
 - What is the difference between the hold on and hold off functions in MATLAB?
 - How do you use the line function in MATLAB?
 
-Answer:
+**Answer:**
 
 The line function is used to create a line plot in MATLAB. The syntax for the line function is as follows:
 
@@ -397,7 +408,7 @@ line(x, y)
 
 where x is a vector of x-coordinates and y is a vector of y-coordinates.
 
-- How do you plot a line in MATLAB using plot function?
+- How do you plot a line in MATLAB using `plot` function?
 
 **Answer:**
 
@@ -421,7 +432,7 @@ y = 1:10;
 plot(x, y, 'Color', 'red');
 ```
 
-- How do you add a title to a figure in MATLAB?
+- How do you add a `title` to a figure in MATLAB?
 
 Answer:
 
