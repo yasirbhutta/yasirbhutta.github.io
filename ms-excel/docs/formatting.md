@@ -374,13 +374,10 @@ In the Gridline color box, click the color you want.
 - How can you rotate text?
 - What is the purpose of the Font dialog box?
 
-
-
 ### Windows only
 
 1. How can you access the Format Cells dialog box in Excel to apply custom formatting?
    
-
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

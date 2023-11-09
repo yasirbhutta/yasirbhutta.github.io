@@ -144,7 +144,6 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 - Excel is a powerful tool for data analysis.
 - A workbook is a collection of rows and columns.
   
-
 ## Multiple Choice (Select the best answer)
 
 What type of data can be stored in an Excel cell?
@@ -233,7 +232,6 @@ a) 1
 b) 3
 c) 5
 d) 10
-
 
 ## Exercises
 
