@@ -25,7 +25,7 @@ The grid() function is used to add grid lines to a figure in MATLAB. Grid lines 
 
 he axis() function is used to set the limits of the axes in a figure in MATLAB. The axes are the horizontal and vertical lines that extend across the figure window.
 
-#### Axi Aspect Ration
+#### Axis Aspect Ration
 
 ### Multiple Plots
 
@@ -100,8 +100,6 @@ title('Global Average Temperature from 1880 to 2022');
 ```
 
 ### SUBPLOTS
-
-```matlab```
 
 ### Specialized 2D plots
 
