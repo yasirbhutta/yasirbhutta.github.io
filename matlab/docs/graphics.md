@@ -147,6 +147,13 @@ title('Global Average Temperature from 1880 to 2022');
 
 ## True/False (Mark T for True and F for False)
 
+- The MATLAB plot function plots data points as connected line segments. **True**
+- The MATLAB bar function plots the relationship between two variables.  **False**
+- The xlabel() and ylabel() functions are used to label the X-axis and Y-axis of the current plot, respectively. **True**.
+- The clf() function clears the current plot. **True**
+- The xlabel, ylabel, and title functions in MATLAB are used to add labels to a plot. **True**
+- You can customize the appearance of a plot in MATLAB by specifying various properties like line color, line style, and marker type. **True**
+
 ## Multiple Choice (Select the best answer)
 
 > Which of the following functions is used to create a plot of a line?
