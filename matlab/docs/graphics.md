@@ -15,6 +15,18 @@ The xlabel() and ylabel() functions are used to label the x and y axes in a figu
 
 The title() function is used to add a title to a figure in MATLAB. The title should provide a brief description of the plot.
 
+Example 3: Label the axes and add a title
+
+```matlab
+x = linspace(0, 10, 100);
+y = sin(x);
+
+plot(x, y);
+xlabel('X-axis');
+ylabel('Y-axis');
+title('Sine Wave');
+```
+
 #### Grid and Axex Box
 
 The grid() function is used to add grid lines to a figure in MATLAB. Grid lines can help to make it easier to interpret the data in a plot.
@@ -36,6 +48,21 @@ The plot() function is used to create a line plot in MATLAB. A line plot is a gr
 #### Using hold Command
 
 The hold function is used to prevent MATLAB from overwriting existing plots when creating new ones. By default, MATLAB overwrites existing plots when creating new ones. However, if you use the hold function before creating a new plot, MATLAB will add the new plot to the existing plot instead of overwriting it.
+
+Example 2: Plotting multiple lines on the same graph
+
+```matlab
+x = linspace(0, 10, 100);
+y1 = sin(x);
+y2 = cos(x);
+
+plot(x, y1, 'b');
+hold on;
+plot(x, y2, 'r');
+hold off;
+```
+
+This will plot two lines on the same graph, one blue and one red. The hold on and hold off functions are used to prevent the second line from overwriting the first line.
 
 #### Using line Command
 
@@ -111,13 +138,77 @@ title('Global Average Temperature from 1880 to 2022');
 
 #### bar
 
+Example 3: Plotting a bar graph
+
+```matlab
+x = categorical({'A', 'B', 'C'});
+y = [10, 20, 30];
+
+bar(x, y);
+```
+
+**Categorical Arrary:** categorical is a data type to store data with values from a finite set of discrete categories. For example, the syntax C = categorical({'R','G','B','B','G','B'}) creates a categorical array with six elements that belong to the categories R, G, or B.[^1]
+
+Download dataset `Population by Country` from [Datasets](../../datasets/index.md).
+
+##### Example
+
+```matlab
+% Specify the name of the CSV file
+filename = 'data1.csv';
+
+% Read the data from the CSV file into a table variable
+data = readtable(filename);
+
+% Convert the Country column to a categorical variable
+x = categorical(data.Country);
+
+% Generate a bar plot of the population data
+bar(x,data.Population);
+
+% Add a title and axis labels to the plot
+title('Population by Country');
+xlabel('Country');
+ylabel('Population');
+
+```
+
+**See also:**
+
+- [bar - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar.html)
+
 #### barh
 
-#### hist
+**See also:**
+
+
+#### histogram
+
+Example 4: Plotting a histogram
+
+```matlab
+x = randn(1000, 1);
+histogram(x);
+```
+
+**See also:**
+
+- [histogram - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html)
+- [Replace Discouraged Instances of hist and histc](https://www.mathworks.com/help/matlab/creating_plots/replace-discouraged-instances-of-hist-and-histc.html)
 
 #### rose
 
 #### pie
+
+Example 5: Plotting a pie chart
+
+```matlab
+X = [10 20 30];
+
+pie(X);
+```
+
+This will plot a pie chart with three slices, one for each value in the vector X. The size of each slice represents the proportion of that value to the total.
 
 #### stairs
 
@@ -129,11 +220,37 @@ title('Global Average Temperature from 1880 to 2022');
 
 #### plot3
 
+##### Example: Create 3-D Bar Graph from Vector Data
+
+```matlab
+% Create a vector of values to plot.
+z = [50 40 30 20 10];
+
+% Plot the 3-D bar graph.
+bar3(z);
+
+% Set the axes labels.
+xlabel('X Axis');
+ylabel('Y Axis');
+zlabel('Z Axis');
+
+% Set the title.
+title('My 3-D Bar Graph');
+```
+
+**See also:**
+
+- [bar3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar3.html)
+
 #### bar3
 
 #### bar3h
 
 #### pie3
+
+**See also:**
+
+- [pie3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/pie3.html)
 
 #### stem3
 
@@ -483,10 +600,11 @@ grid on;
 
 A 2D plot is used to visualize data that has two dimensions, such as height and weight. A 3D plot is used to visualize data that has three dimensions, such as height, weight, and depth.
 
-- What does the hold function do in MATLAB? 
+- What does the hold function do in MATLAB?
 
 ## References
 
+- [^1:] [Categorical Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlab/categorical-arrays.html)
 - [MATLAB Graphics](https://www.mathworks.com/help/matlab/graphics.html)
 - [MATLAB: Plotting - tutorialspoint](https://www.tutorialspoint.com/matlab/matlab_plotting.htm)
 

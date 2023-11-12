@@ -177,28 +177,194 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Multiple Choice (Select the best answer)
 
-What is the correct syntax for entering a formula in Excel?
-
-(a) =formula_name(arguments)
-(b) =function(arguments)
-(c) formula_name(arguments)
-(d) function(arguments)
-
 What is a formula?
 
-(a) A rule that tells Excel how to calculate something
-(b) A cell in a spreadsheet
-(c) The address of a cell
-(d) A range of cells
+1. [x] A rule that tells Excel how to calculate something
+2. [ ] A cell in a spreadsheet
+3. [ ] The address of a cell
+4. [ ] A range of cells
 
-Which of the following is the correct order of operations in Excel formulas?
+> Which of the following is the correct order of operations in Excel formulas?
 
-(A) Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
-(B) Exponents, Multiplication, Division, Addition, Subtraction, Parentheses
-(C) Multiplication, Division, Addition, Subtraction, Parentheses, Exponents
-(D) Parentheses, Multiplication, Division, Addition, Subtraction, Exponents
+1. [x] Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+2. [ ] Exponents, Multiplication, Division, Addition, Subtraction, Parentheses
+3. [ ] Multiplication, Division, Addition, Subtraction, Parentheses, Exponents
+4. [ ] Parentheses, Multiplication, Division, Addition, Subtraction, Exponents
 
-Answer: (A)
+> Which of the following operators has the highest precedence in Excel?
+
+1. [ ] Addition (+)
+2. [ ] Multiplication (*)
+3. [x] Exponentiation (^)
+4. [ ] Division (/)
+
+> What is the result of the following formula in Excel: 10 + 5 * 2?
+
+1. [x] 20
+2. [ ] 30
+3. [ ] 40
+4. [ ] 50
+
+> What is the purpose of using parentheses in an Excel formula?
+
+1. [x] To change the order of operations
+2. [ ] To group cells together
+3. [ ] To add comments to a formula
+4. [ ] To protect a formula from being changed
+
+> What is the purpose of using the PERCENTAGE (%) operator in Excel?
+
+1. [x] To calculate a percentage of a number
+2. [ ] To divide a number by 100
+3. [ ] To calculate the square root of a number
+4. [ ] To calculate the absolute value of a number
+
+> What is the correct syntax for adding two cells in Excel?
+
+1. [ ] =A1:A2
+2. [x] =A1+B2
+3. [ ] =A1+B2+C2
+4. [ ] =SUM(A1+B2)
+
+> What is the difference between an arithmetic operator and a relational operator?
+
+1. [x] An arithmetic operator performs a mathematical operation on two or more values, while a relational operator compares two values and returns a TRUE or FALSE value
+2. [ ] An arithmetic operator performs a mathematical operation on two or more values, while a relational operator compares two values and returns a number.
+3. [ ] An arithmetic operator performs a mathematical operation on two or more values, while a relational operator compares two values and returns a string.
+4. [ ] An arithmetic operator performs a mathematical operation on two or more values, while a relational operator compares two values and returns a date.
+
+> What is the correct way to enter a negative number in Excel?
+
+1. [x] Type the minus sign (-) before the number.
+2. [ ] Type the minus sign (-) after the number.
+3. [ ] Enclose the number in parentheses.
+4. [ ] Use the negative sign (-) button on the toolbar.
+
+> Which operator is used for division in Excel?
+
+1. [x] /
+2. [ ] *
+3. [ ] %
+4. [ ] ^
+
+> Which operator is used for exponentiation in Excel?
+
+1. [ ] **
+2. [x] ^
+3. [ ] *
+4. [ ] /
+
+> If A1 contains the value 20 and B1 contains the value 5, what is the result of the formula =A1-B1*2?
+
+1. [x] 10
+2. [ ] 0
+3. [ ] 30
+4. [ ] 15
+
+> In Excel, the ampersand (&) operator is used for:
+
+1. [ ] Multiplication
+2. [x] Concatenation
+3. [ ] Division
+4. [ ] Subtraction
+
+> Which of the following Excel formulas will result in the product of cells A1 and B1?
+
+1. [ ] =A1 + B1
+2. [x] =A1 * B1
+3. [ ] =A1 / B1
+4. [ ] =A1 - B1
+
+> If cell A1 contains the value 10 and cell A2 contains the value 3, what is the result of the formula =A1/A2?
+
+1. [ ] 7
+2. [x] 3.333
+3. [ ] 13
+4. [ ] 30
+
+> If cell B1 contains the value 8 and cell B2 contains the value 2, what is the result of the formula =B1^B2?
+
+1. [ ] 16
+2. [ ] 10
+3. [x] 64
+4. [ ] 4
+
+> If cell D1 contains the value 25 and cell D2 contains the value 5, what is the result of the formula =D1-D2?
+
+1. [x] 20
+2. [ ] 30
+3. [ ] 5
+4. [ ] 125
+
+> Which symbol is used for "equal to" in Excel?
+
+1. [x] =
+2. [ ] ==
+3. [ ] ===
+4. [ ] --
+
+> What is the result of the expression "=A1 > B1" if the value in cell A1 is 10 and in cell B1 is 5?
+
+1. [x] True
+2. [ ] False
+3. [ ] Error
+4. [ ] Not applicable
+
+> Which operator is used for "not equal to" in Excel?
+
+1. [ ] !=
+2. [x] <>
+3. [ ] ><
+4. [ ] /=
+
+> If cell C1 contains the formula "=A1<50", what does it mean?
+
+1. [ ] C1 is less than 50.
+2. [x] A1 is less than 50.
+3. [ ] A1 is equal to 50.
+4. [ ] A1 is greater than 50.
+
+> Which of the following is the correct syntax for "greater than or equal to" in Excel?
+
+1. [x] >=
+2. [ ] =>
+3. [ ] =<
+4. [ ] ->
+
+> What is the result of the expression "10 <= 5" in Excel?
+
+1. [ ] True
+2. [x] False
+3. [ ] Error
+4. [ ] Cannot be determined
+
+> What is the correct formula to determine if the value in cell A1 is equal to the text "Hello"?
+
+1. [ ] =A1>"Hello"
+2. [ ] =A1<="Hello"
+3. [ ] =A1<"Hello"
+4. [x] =A1="Hello"
+
+> Which of the following formulas will check if the value in cell A1 is not equal to the value in cell A2?
+
+1. [ ] =A1=A2
+2. [x] =A1<>A2
+3. [ ] =A1<A2
+4. [ ] =A1>A2
+
+> What is the result of the following formula: =A1>B1?
+
+1. [ ] False (if A1 is Not Equal to B1)
+2. [ ] Error (if A1 and B1 are equal)
+3. [x] True (if A1 is greater than B1)
+4. [ ] None of the above
+
+> What is the result of the following formula: =A1>=B1?
+
+1. [x] True (if A1 is greater than or equal to B1)
+2. [ ] False (if A1 is less than B1)
+3. [ ] Error (if A1 and B1 are equal)
+4. [ ] None of the above
 
 ## Exercises
 
