@@ -140,7 +140,8 @@ So, 10 (decimal) =  1010 (binary)
 
 **See also:**
 
-- [ascii to binary converter](https://onlinebinarytools.com/convert-ascii-to-binary)
+- [Convert ASCII to Binary - Online Binary Tools](https://onlinebinarytools.com/convert-ascii-to-binary)
+- [Convert Binary to ASCII - Online Binary Tools](https://onlinebinarytools.com/convert-binary-to-ascii)
 - [How to convert decimal to binary - rapidtables.com](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 - [Binary to decimal - rapidtables.com](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
