@@ -151,14 +151,14 @@ bar(x, y);
 
 Download dataset `Population by Country` from [Datasets](../../datasets/index.md).
 
-##### Example
+##### Example: Population Distribution by Country using bar charts
 
 ```matlab
 % Specify the name of the CSV file
 filename = 'data1.csv';
 
 % Read the data from the CSV file into a table variable
-data = readtable(filename);
+data = readtable(filename,'VariableNamingRule','preserve'); 
 
 % Convert the Country column to a categorical variable
 x = categorical(data.Country);
@@ -180,7 +180,6 @@ ylabel('Population');
 #### barh
 
 **See also:**
-
 
 #### histogram
 
