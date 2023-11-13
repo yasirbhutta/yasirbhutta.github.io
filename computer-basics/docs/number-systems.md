@@ -261,13 +261,13 @@ Bits are stored in memory using electrical charges. A bit is stored as a high vo
 
 There are two main types of memory in a computer: RAM and ROM. RAM stands for random-access memory. RAM is used to store data that is currently being used by the computer. ROM stands for read-only memory. ROM is used to store data that is permanent, such as the computer's BIOS.
 
-**RAM**
+**RAM:**
 
 RAM is made up of millions or even billions of tiny transistors. Each transistor can store a single bit of data. The transistors are arranged in a grid, and each transistor is addressed by a unique address.
 
 When the computer needs to access a bit of data in RAM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the transistor at that address. The transistor then switches to the appropriate state (high voltage or low voltage) to represent the bit of data.
 
-**ROM**
+**ROM:**
 
 ROM is made up of a series of interconnected cells. Each cell can store a single bit of data. The cells are arranged in a grid, and each cell is addressed by a unique address.
 
@@ -279,11 +279,11 @@ When the computer needs to access a bit of data in ROM, it sends the address of 
 
 1. Research the [ASCII code table](https://www.ibm.com/docs/en/aix/7.3?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table) and find the bit patterns for the letters "G", "o", "o", "d".
 2. Decode the following binary messages: "01000111 01110010 01100001 01110100 01101001 01110100 01110101 01100100 01100101".
-3. Write down the binary representation of the numbers 0 to 15.
+3. Write down the binary representation of the decimal numbers 0 to 15.
 4. Convert the following decimal numbers to binary: 25, 47, 100, and 128.
-5.  Write down the ASCII code for the letters "A" to "Z".
-6.  Write down the ASCII code for the numbers 0 to 9.
-7.  Write down the ASCII code for the following symbols: !, @, #, and $.
+5. Write down the ASCII code for the letters "A" to "Z".
+6. Write down the ASCII code for the numbers 0 to 9.
+7. Write down the ASCII code for the following symbols: !, @, #, and $.
 
 ## References
 

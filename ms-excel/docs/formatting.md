@@ -29,7 +29,7 @@ To access the updated lecture notes, please click on the following link:
   - **Script fonts** resemble handwritten text. They are often used for invitations, greeting cards, and other formal documents. Examples of script fonts include Brush Script, Calligraphy, and Freestyle Script.
   - **Decorative fonts** are designed to be eye-catching and decorative. They are often used for headlines, logos, and other graphic design elements. Examples of decorative fonts include Comic Sans, Trajan Pro, and Papyrus.
 
-Fonts are used in Excel to change the style and size of text and characters in a document 1. Changing the font of your numbers and text in an Excel worksheet can help your document to look more appealing and, at times, make it easier for the reader to digest the information 1.
+Fonts are used in Excel to change the style and size of text and characters in a document. Changing the font of your numbers and text in an Excel worksheet can help your document to look more appealing and, at times, make it easier for the reader to digest the information.
 
 Excel provides users with a pre-selected font that they may use when creating workbooks. A default font can play an important role in your document’s appearance and reader comprehension
 
@@ -97,7 +97,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 - In Microsoft Excel, data alignment refers to the position of data within a cell or range of cells.
 
-#### Align text in a cell [Windows] [^11] [^12] 
+#### Align text in a cell [Windows] [^11] [^12]
 
 1. Select the cell or range of cells that contains the data that you want to reposition.
 2. On the Home tab, in the Alignment group, do one or more of the following:
@@ -333,6 +333,137 @@ In the Gridline color box, click the color you want.
 
 ## Review Questions
 
+## Multiple Choice (Select the best answer)
+
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+> What is the purpose of a cell format?
+
+1. [x] To change the appearance of a cell
+2. [ ] To protect a cell from being changed
+3. [ ] To add a formula to a cell
+4. [ ] None of the above
+
+> Which of the following is NOT a valid font style in Excel?
+
+1. [ ] Bold
+2. [ ] Italic
+3. [ ] Underline
+4. [x] None of the above
+
+> Which of the following is NOT a valid number format in Excel?
+
+1. [ ] Currency
+2. [ ] Date
+3. [ ] Percentage
+4. [ ] Text
+5. [x] None of the above
+
+> What is the primary function of the Format Painter tool in Excel?
+
+1. [x] To copy and paste formatting from one cell or range of cells to another.
+2. [ ] To apply a specific font style to a selected range of cells.
+3. [ ] To adjust the alignment of text within cells.
+4. [ ] To change the border style of selected cells.
+
+> What is the advantage of using the Format Painter tool compared to manually applying formatting to multiple cells?
+
+1. [x] It saves time and effort when applying consistent formatting to multiple cells.
+2. [ ] It allows you to apply a wider range of formatting options than are available in the Format Cells dialog box.
+3. [ ] It ensures that all formatting is applied differently to all selected cells.
+4. [ ] It allows you to preview the formatting changes before applying them to the selected cells.
+
+> What happens to the contents of the other cells when you merge two or more cells?
+
+1. [ ] The contents of the other cells are copied to the merged cell.
+2. [ ] The contents of the other cells are moved to the merged cell.
+3. [x] Merging cells only keeps the upper-left value and discards other values
+4. [ ] The contents of the other cells remain unchanged.
+
+> What is the purpose of using Merge and Center in Excel?
+
+1. [ ] To combine two or more cells into a single cell.
+2. [ ] To center the text in a cell.
+3. [x] To do both of the above.
+4. [ ] Neither of the above.
+
+> What is the purpose of wrapping text in Excel?
+
+1. [x] To make text fit within the width of a cell
+2. [ ] To change the font of text
+3. [ ] To add a border to cells
+4. [ ] To protect cells from being edited
+
+> What happens when you wrap text in Excel?
+
+1. [ ] The text is moved to a different cell.
+2. [ ] The text is hidden.
+3. [x] The text is displayed on multiple lines within the same cell.
+4. [ ] The text is deleted.
+
+> What is the effect of wrapping text on the row height?
+
+1. [ ] The row height decreases.
+2. [x] The row height increases.
+3. [ ] The row height remains the same.
+4. [ ] The row height varies depending on the amount of text in the cell.
+
+> Which of the following is the default alignment for text in Excel cells?
+
+1. [x] Left
+2. [ ] Right
+3. [ ] Center
+4. [ ] Justify
+
+> Which of the following number formats is used to display numbers with decimal places?
+
+1. [ ] General
+2. [x] Number
+3. [ ] Currency
+4. [ ] Accounting
+
+> Which of the following number formats is used to display numbers as percentages?
+
+1. [ ] General
+2. [ ]Number
+3. [ ]Currency
+4. [x] Percentage
+
+> Which of the following number formats is used to display negative numbers in red?
+
+1. [ ] General
+2. [ ] Number
+3. [x] Currency
+4. [ ] Accounting
+
+> What is the default font in Excel?
+
+1. [ ] Arial
+2. [x] Calibri
+3. [ ] Times New Roman
+4. [ ] Courier New
+
+> How can you make a font bold in Excel?
+
+1. [ ] Use the keyboard shortcut Ctrl+D.
+2. [x] Use the keyboard shortcut Ctrl+B.
+3. Use the keyboard shortcut Ctrl+I.
+4. Use the keyboard shortcut Ctrl+U.
+
+> Which of the following font sizes is best for body text?
+
+1. [ ] 10
+2. [x] 12
+3. [ ] 14
+4. [ ] 16
+5. [ ] 18
+
+## Exercises
+
+## Review Questions
+
 1. What is the purpose of formatting in Excel, and why is it important?
 2. What is the difference between cell formatting and cell value?
 3. How do you apply formatting to a range of cells?
@@ -367,28 +498,13 @@ In the Gridline color box, click the color you want.
 32. How do you add a background color to a cell?
 33. What are cell styles?
 
-#### Windows only
+### Windows only
 
 - What is the keyboard shortcut for opening the Format Cells dialog box?
 - What is the keyboard shortcut for applying the Format Painter tool?
 - How can you rotate text?
-- What is the purpose of the Font dialog box?
-
-### Windows only
-
-1. How can you access the Format Cells dialog box in Excel to apply custom formatting?
-   
-## True/False (Mark T for True and F for False)
-
-## Multiple Choice (Select the best answer)
-
-What is the purpose of a cell format?
-
-(a) To change the appearance of a cell
-(b) To protect a cell from being changed
-(c) To add a formula to a cell
-(d) None of the above
-
+- What is the purpose of the Font dialog box? 
+- How can you access the Format Cells dialog box in Excel to apply custom formatting?
 
 ## References
 
@@ -408,8 +524,9 @@ What is the purpose of a cell format?
 [14^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
 [15^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)
 
-### Muhammad Yasir Bhutta
+## Social Links
 
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
 - [Web](https://yasirbhutta.github.io/)
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)

@@ -133,6 +133,7 @@ MAX(number1, [number2], ...)
 The MAX function syntax has the following arguments:
 Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
 
+
 ##### MIN
 
 Returns the smallest number in a set of values.
@@ -413,13 +414,13 @@ UPPER(text)
 
 The UPPER function syntax has the following arguments:
 
-Text    Required. The text you want converted to uppercase. Text can be a reference or text string.
+Text Required. The text you want converted to uppercase. Text can be a reference or text string.
 
 **PROPER function:**
 
-- [Change the case of text in excel](https://youtu.be/X38NcRn0PhM?si=pCO7K-DuBJKz5G9b)
+- [Video Tutorial: Change the case of text in excel](https://youtu.be/X38NcRn0PhM?si=pCO7K-DuBJKz5G9b)
 
-See also:
+**See also:**
 
 - [LOWER function - Microsoft Support](https://support.microsoft.com/en-us/office/lower-function-3f21df02-a80c-44b2-afaf-81358f9fdeb4#:~:text=The%20LOWER%20function%20syntax%20has,text%20that%20are%20not%20letters.)
 - [UPPER function - Microsoft Support](https://support.microsoft.com/en-gb/office/upper-function-c11f29b3-d1a3-4537-8df6-04d0049963d6)
@@ -512,7 +513,7 @@ An invalid cell is referenced in the formula
 ### Named Cell Reference
 
 - A name is a meaningful shorthand that makes it easier to understand the purpose of a cell reference, constant, formula or table.
-- You can create a name that describes a cell or range. 
+- You can create a name that describes a cell or range.
 - You can also use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows.
 
 Defined Names
