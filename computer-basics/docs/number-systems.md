@@ -276,7 +276,7 @@ When the computer needs to access a bit of data in ROM, it sends the address of 
 
 ## Excercises
 
-1. Research the [ASCII code table](https://www.ibm.com/docs/en/aix/7.2?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table) and find the bit patterns for the letters "G", "o", "o", "d".
+1. Research the [ASCII code table](https://www.ibm.com/docs/en/aix/7.3?topic=adapters-ascii-decimal-hexadecimal-octal-binary-conversion-table) and find the bit patterns for the letters "G", "o", "o", "d".
 2. Decode the following binary messages: "01000111 01110010 01100001 01110100 01101001 01110100 01110101 01100100 01100101".
 3. Write down the binary representation of the numbers 0 to 15.
 4. Convert the following decimal numbers to binary: 25, 47, 100, and 128.
