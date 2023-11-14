@@ -128,6 +128,35 @@ title('Global Average Temperature from 1880 to 2022');
 
 ### SUBPLOTS
 
+#### Example: Visualizing Daily Temperature Data with Subplots in MATLAB
+
+Download dataset `Daily Temperature (Dataset #2)` from [Datasets](../../datasets/index.md).
+
+```matlab
+% Specify the name of the CSV file
+filename = 'ds2.csv';
+
+% Read the data from the CSV file into a table variable
+data = readtable(filename,'VariableNamingRule','preserve'); 
+
+% Create the first subplot
+subplot(1, 2, 1);
+plot(data.dated, data.temperature);
+title('Daily Temperatures');
+xlabel('Date');
+ylabel('Temperature (C)');
+
+% Create the second subplot
+subplot(1, 2, 2);
+histogram(data.temperature);
+title('Temperature Distribution');
+xlabel('Temperature (C)');
+ylabel('Frequency');
+
+% Save the figure
+saveas(gcf, 'daily_temperatures.png');
+```
+
 ### Specialized 2D plots
 
 #### Logarithmic Plot Functions
@@ -155,7 +184,7 @@ Download dataset `Population by Country` from [Datasets](../../datasets/index.md
 
 ```matlab
 % Specify the name of the CSV file
-filename = 'data1.csv';
+filename = 'ds1.csv';
 
 % Read the data from the CSV file into a table variable
 data = readtable(filename,'VariableNamingRule','preserve'); 
@@ -208,6 +237,27 @@ pie(X);
 ```
 
 This will plot a pie chart with three slices, one for each value in the vector X. The size of each slice represents the proportion of that value to the total.
+
+#### Example: Visualizing Fruit Sales Distribution with Exploded Pie Chart
+
+```matlab
+% Define the fruit names and sales figures
+fruit_names = ["Apples", "Oranges", "Bananas", "Grapes", "Strawberries"];
+sales_figures = [120, 90, 150, 80, 60];
+
+% Define the explode vector to offset the "Bananas" slice
+explode = [0 0 1 0 0];
+
+% Create the pie chart and label the slices
+pie(sales_figures, explode, fruit_names);
+
+% Set the title of the pie chart
+title('Fruit Sales Pie Chart');
+```
+
+**See also:**
+
+- [MATLAB Tutorial: Visualizing Fruit Sales Distribution with Exploded Pie Chart](https://youtu.be/5X5gelyCgr4?si=mLjZtwFRrdv7pEhG)
 
 #### stairs
 
