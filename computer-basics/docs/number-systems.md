@@ -1,6 +1,6 @@
 # Number System
 
-[Download PDF]([Download PDF](https://yasirbhutta.github.io/computer-basics/docs/number-systems.pdf))
+[Download PDF](https://yasirbhutta.github.io/computer-basics/docs/number-systems.pdf)
 
 **To access the updated handouts, please click on the following link:**
 [https://yasirbhutta.github.io/computer-basics/docs/number-systems.html](https://yasirbhutta.github.io/computer-basics/docs/number-systems.html)
