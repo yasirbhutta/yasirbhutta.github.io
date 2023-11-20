@@ -138,6 +138,8 @@ For example, to convert the decimal number 10 to binary code, we would do the fo
 
 So, 10 (decimal) =  1010 (binary)
 
+click on the following link to covert decimal to binary using online tool: [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
+
 **See also:**
 
 - [Convert ASCII to Binary - Online Binary Tools](https://onlinebinarytools.com/convert-ascii-to-binary)
@@ -273,7 +275,75 @@ ROM is made up of a series of interconnected cells. Each cell can store a single
 
 When the computer needs to access a bit of data in ROM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the cell at that address. The cell then reads the bit of data and sends it back to the memory controller.
 
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+What does ASCII stand for?
+
+1. [x]  American Standard Code for Information Interchange
+2. [ ]  Applied Software Code for Information Technology
+3. [ ]  Advanced Security Code for Information Exchange
+4. [ ]  Automated System Code for Information Transfer
+
+What is the ASCII code for the letter "A"?
+
+1. [x]  65
+2. [ ]  97
+3. [ ]  101
+4. [ ]  114
+
+How would you convert the letter "B" to binary code using ASCII?
+
+1. [ ]  00100001
+2. [ ]  00100010
+3. [ ]  01000000
+4. [x]  01000010
+
+> Which unit of measurement is typically used to measure the storage capacity of a hard drive?
+
+1. [x] Gigabyte (GB)
+2. [ ] Terabyte (TB)
+3. [ ] Petabyte (PB)
+4. [ ] Exabyte (EB)
+
+> What is the relationship between a kilobit (Kb) and a kilobyte (KB)?
+
+1. [x] 1 Kb = 8 KB
+2. [ ] 1 Kb = 1024 KB
+3. [ ] 1 Kb = 1000 KB
+4. [ ] 1 Kb = 512 KB
+
+> Which of the following is the largest unit of data storage?
+
+1. [ ] Megabyte (MB)
+2. [ ] Kilobyte (KB)
+3. [ ] Gigabyte (GB)
+4. [x] Terabyte (TB)
+
+> Which unit is commonly used to measure the speed of data transfer?
+
+1. [ ] Hertz (Hz)
+2. [ ] Watts (W)
+3. [x] Bits per second (bps)
+4. [ ] Bytes per second (Bps)
+
+> Which of the following is equivalent to 1024 gigabytes?
+
+1. [x] 1 terabyte (TB)
+2. [ ] 1 petabyte (PB)
+3. [ ] 1 kilobyte (KB)
+4. [ ] 1 megabyte (MB)
+
 ## Review Questions
+
+1. Write the note on different units of measurement for data storage
+2. What is the most basic unit of data storage? How many bits are in a byte?
+3. Which unit of measurement is typically used to measure the storage capacity of a hard drive?
+4. List the prefixes used to form multiples of a byte, starting from kilobyte to terabyte. How many bytes are in each unit?
+6. What does ASCII stand for?
+7. What is the ASCII code for the letter "A"?
+8. How would you convert the letter "B" to binary code using ASCII?
 
 ## Excercises
 
