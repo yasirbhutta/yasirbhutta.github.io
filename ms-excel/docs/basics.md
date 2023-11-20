@@ -137,108 +137,122 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ## True/False (Mark T for True and F for False)
 
-- A workbook is a collection of worksheets.
-- Rows are numbered from 1 to 1,048,576.
-- A worksheet is the intersection of a row and a column.
-- The active cell is the cell that is currently selected.
-- Excel is a powerful tool for data analysis.
-- A workbook is a collection of rows and columns.
+- A workbook is a collection of worksheets. **True**
+- Rows are numbered from 1 to 1,048,576. **True**
+- A worksheet is the intersection of a row and a column. **False**
+- The active cell is the cell that is currently selected. **True**
+- Excel is a powerful tool for data analysis. **True**
   
 ## Multiple Choice (Select the best answer)
 
-What type of data can be stored in an Excel cell?
+> What type of data can be stored in an Excel cell?
 
-(a) Numbers
-(b) Text
-(c) Dates
-(d) All of the above
+1. [ ] Numbers
+2. [ ] Text
+3. [ ] Dates
+4. [x] All of the above
 
-What is a workbook?
+> What is a workbook?
 
-(a) A collection of worksheets
-(b) A single spreadsheet
-(c) A cell in a spreadsheet
-(d) A formula in a spreadsheet
+1. [x] A collection of worksheets
+2. [ ] A single spreadsheet
+3. [ ] A cell in a spreadsheet
+4. [ ] A formula in a spreadsheet
 
-What is a worksheet?
+>What is a worksheet?
 
-(a) A collection of workbooks
-(b) A single spreadsheet
-(c) A cell in a spreadsheet
-(d) A formula in a spreadsheet
+1. [ ]  A collection of workbooks
+2. [x]  A single spreadsheet
+3. [ ]  A cell in a spreadsheet
+4. [ ]  A formula in a spreadsheet
 
-What are rows in a spreadsheet?
+>What are rows in a spreadsheet?
 
-(a) Horizontal divisions of the spreadsheet
-(b) Vertical divisions of the spreadsheet
-(c) Individual cells in the spreadsheet
-(d) Formulas in the spreadsheet
+1. [x] Horizontal divisions of the spreadsheet
+2. [ ] Vertical divisions of the spreadsheet
+3. [ ] Individual cells in the spreadsheet
+4. [ ] Formulas in the spreadsheet
 
-What are columns in a spreadsheet?
+> What are columns in a spreadsheet?
 
-(a) Horizontal divisions of the spreadsheet
-(b) Vertical divisions of the spreadsheet
-(c) Individual cells in the spreadsheet
-(d) Formulas in the spreadsheet
+1. [ ]  Horizontal divisions of the spreadsheet
+2. [x]  Vertical divisions of the spreadsheet
+3. [ ]  Individual cells in the spreadsheet
+4. [ ]  Formulas in the spreadsheet
 
-What is a cell in a spreadsheet?
+> What is a cell in a spreadsheet?
 
-(a) A collection of workbooks
-(b) A single spreadsheet
-(c) The intersection of a row and column
-(d) A formula in a spreadsheet
+1. [ ]  A collection of workbooks
+2. [ ]  A single spreadsheet
+3. [x]  The intersection of a row and column
+4. [ ]  A formula in a spreadsheet
 
-What is the address of a cell?
+> What is the address of a cell?
 
-(a) The name of the workbook
-(b) The name of the worksheet
-(c) The letter of the column and the number of the row
-(d) The formula in the cell
+1. [ ]  The name of the workbook
+2. [ ]  The name of the worksheet
+3. [x]  The letter of the column and the number of the row
+4. [ ]  The formula in the cell
 
-What is the term used for a single page in an Excel workbook?
-(a) workbook
-(b) worksheet
-(c) row
-(d) column
+> What is the term used for a single page in an Excel workbook?
 
-What is the unique identifier for a cell in a worksheet?
-(a) workbook
-(b) worksheet
-(c) row
-(d) cell address
+1. [ ] workbook
+2. [x] worksheet
+3. [ ] row
+4. [ ] column
 
-What are rows and columns?
+> What is the unique identifier for a cell in a worksheet?
 
-(a) Rows are horizontal divisions of a worksheet, and columns are vertical divisions of a worksheet.
-(b) Rows are vertical divisions of a worksheet, and columns are horizontal divisions of a worksheet.
-(c) Both rows and columns are horizontal divisions of a worksheet.
-(d) Both rows and columns are vertical divisions of a worksheet.
+1. [ ] workbook
+2. [ ] worksheet
+3. [ ] row
+4. [x] cell address
 
-How many columns are there in an Excel worksheet by default?
-A) 256
-B) 512
-C) 1,048,576
-D) 16,384
+> What are rows and columns?
 
-How many rows are there in an Excel worksheet by default?
-A) 256
-B) 512
-C) 1,048,576
-D) 16,384
+1. [x] Rows are horizontal divisions of a worksheet, and columns are vertical divisions of a worksheet.
+2. [ ] Rows are vertical divisions of a worksheet, and columns are horizontal divisions of a worksheet.
+3. [ ] Both rows and columns are horizontal divisions of a worksheet.
+4. [ ] Both rows and columns are vertical divisions of a worksheet.
 
-In Excel, how many worksheets are there in a default workbook?
+> How many columns are there in an Excel worksheet by default?
 
-a) 1
-b) 3
-c) 5
-d) 10
+1. [ ] 256
+2. [ ] 512
+3. [ ] 1,048,576
+4. [x] 16,384
 
-## Exercises
+> How many rows are there in an Excel worksheet by default?
+
+1. [ ] 256
+2. [ ] 512
+3. [x] 1,048,576
+4. [ ] 16,384
+
+> In Excel, how many worksheets are there in a default workbook?
+
+1. [x] 1
+2. [ ] 3
+3. [ ] 5
+4. [ ] 10
 
 ## Review Questions
 
 1. What is the difference between worksheet and Workbook?
-2. What is Active cell and explain the purpose of Name Box in MS Excel?
+2. What is a workbook in Excel?
+3. What is a worksheet in Excel?
+4. What are some of the benefits of using Excel workbooks and worksheets?
+5. What is Active cell and explain the purpose of Name Box in MS Excel?
+6. What are the key components of an Excel worksheet, and how do they contribute to organizing and analyzing data within a workbook?
+7. Explain the process of adding, deleting, and renaming worksheets in an Excel workbook. How can these actions be beneficial in managing and organizing data?
+
+## Exercises
+
+1. How do you insert a new worksheet into a workbook?
+2. How do you delete a worksheet from a workbook?
+3. How do you rename a worksheet?
+4. How do you hide a worksheet?
+5. How do you unhide a worksheet?
 
 ## References
 
