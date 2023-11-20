@@ -309,7 +309,7 @@ How would you convert the letter "B" to binary code using ASCII?
 
 > What is the relationship between a kilobit (Kb) and a kilobyte (KB)?
 
-1. [x] 1 Kb = 8 KB
+1. [x] 8 Kb = 1 KB
 2. [ ] 1 Kb = 1024 KB
 3. [ ] 1 Kb = 1000 KB
 4. [ ] 1 Kb = 512 KB
