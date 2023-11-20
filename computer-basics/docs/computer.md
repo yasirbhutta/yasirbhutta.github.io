@@ -73,9 +73,86 @@ Computer process data (input)into information (output) and often store the data 
 
 **Command:** The instruction given is known as a Command.
 
-**Program:** Set of Instructions.
+**Program:** A set of instructions that tells a computer what to do.
 
-**Software:** Group of many related programs is a software.
+| Feature    | Command                                  | Program                                                |
+| ---------- | ---------------------------------------- | ------------------------------------------------------ |
+| Definition | A single instruction given to a computer | A set of instructions that tells a computer what to do |
+| Execution  | Executed immediately                     | Can be executed later                                  |
+| Purpose    | Performs a specific task                 | Can perform a variety of tasks                         |
+
+Here are some examples of commands and programs:
+
+**Commands:**
+
+- ls (list directory contents)
+- mkdir (create directory)
+- rm (remove file or directory)
+- ping (test network connectivity)
+- shutdown (shut down computer)
+
+**Programs:**
+
+- Microsoft Word (word processor)
+- Google Chrome (web browser)
+- Adobe Photoshop (image editing software)
+- VLC Media Player (video player)
+- Minecraft (video game)
+
+## Multiple Choice (Select the best answer)
+
+> What is the primary function of a computer?
+
+1. [ ] To store and process information
+2. [ ] To display information
+3. [ ] To perform calculations
+4. [x] All of the above
+
+> What is the fundamental difference between data and information?
+
+1. [ ] Data is processed, while information is raw.
+2. [x] Data is unorganized facts, while information is organized and processed data.
+3. [ ] Data and information are synonymous.
+4. [ ] Information is stored on computers, while data is stored on paper.
+
+> What are the characteristics of data?
+
+1. [x] Data is raw, unorganized, and has no inherent meaning.
+2. [ ] Data is processed, organized, and has meaning.
+3. [ ] Data is stored in a database.
+4. [ ] Data is displayed on a computer screen.
+
+> What is information?
+
+1. [ ] Information is raw data.
+2. [x] Information is processed data that has been organized and given meaning.
+3. [ ] Information is a type of computer program.
+4. [ ] Information is a type of hardware.
+
+> What is a process?
+
+1. [ ] A set of instructions that tell the computer what to do.
+2. [x] A computation done on data to generate a result.
+3. [ ] A way to organize and store data.
+4. [ ] A type of hardware device.
+
+> What is the definition of a command?
+
+1. [x] An instruction given to a computer to perform a specific task.
+2. [ ] A program that runs on a computer.
+3. [ ] A type of hardware component.
+4. [ ] A type of software application.
+
+> What is the difference between a command and a program?
+
+1. [ ] A command is a single instruction, while a program is a set of instructions.
+2. [ ] A command is executed immediately, while a program can be executed later.
+3. [ ] A command is used to perform a specific task, while a program can be used to perform a variety of tasks.
+4. [x] All of the above
+
+## Review Questions
+
+- What is a computer?
 
 ### References
 
