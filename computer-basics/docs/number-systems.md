@@ -138,7 +138,7 @@ For example, to convert the decimal number 10 to binary code, we would do the fo
 
 So, 10 (decimal) =  1010 (binary)
 
-click on the following link to covert decimal to binary using online tool: [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
+click on the following link to covert decimal to binary: [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
 **See also:**
 
