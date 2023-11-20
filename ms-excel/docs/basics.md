@@ -2,15 +2,15 @@
 
 ## Microsoft Excel: Basics
 
-[Download PDF](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.pdf)
+[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/basics.pdf)
 
 **To access the updated handouts, please click on the following link:**
-[https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html](https://yasirbhutta.github.io/ms365-mobile-app/excel/docs/basics.html)
+[https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
 
 ## Module 1: Introduction to Excel
 
 - What is Excel?
-- When to use a spreadsheet
+- When to use a spreadshe
 - The Excel workbook and worksheet
 - Navigating around Excel
 - Entering and editing data
