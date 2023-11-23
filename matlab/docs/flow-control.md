@@ -157,6 +157,10 @@ for i = 1:5
 end
 ```
 
+**See also:**
+
+- [MATLAB For Loop Tutorial:  Learn to Use For Loops in easy way](https://youtu.be/KoEVPRm_Z1c)
+
 ## while loop
 
 - A while loop in MATLAB is a control flow statement that repeatedly executes a block of code until a specified condition is met.  [^1]

@@ -33,6 +33,23 @@ The grid() function is used to add grid lines to a figure in MATLAB. Grid lines 
 
 #### Entering Text in a Plot
 
+##### Examples
+
+```matlab
+years = [1990, 1995, 2000, 2005, 2010, 2015, 2020];
+co2_emissions = [26.17, 26.61, 26.89, 27.46, 28.12, 29.08, 29.94]; 
+
+plot(years,co2_emissions,"ro-");
+
+title("Global CO2 Emissions from 1990 to 2020.");
+xlabel("Years");
+ylabel("CO2 Emissions (Billion metric tons per year");
+
+grid on;
+box off;
+
+```
+
 #### Axis Control
 
 he axis() function is used to set the limits of the axes in a figure in MATLAB. The axes are the horizontal and vertical lines that extend across the figure window.

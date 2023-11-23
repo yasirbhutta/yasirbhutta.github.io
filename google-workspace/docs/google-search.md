@@ -619,7 +619,7 @@ At the top right, click Search inside image .
 1. [ ] site:
 2. [ ] filetype:
 3. [ ] intitle:
-4. [ ] #
+4. [ ] quick:
 
 > Which Google operator can help you find the definition of a word?
 
