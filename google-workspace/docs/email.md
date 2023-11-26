@@ -13,24 +13,24 @@ Email, short for electronic mail, is a method of exchanging messages between peo
 
 ### Basic Components of an Email
 
-* **Subject Line:** A brief summary of the email's content.
-* **Recipient:** The person or group you are sending the email to.
-* **Salutation:** A greeting to the recipient, such as "Dear Mr./Ms. [Last Name]" or "Hello [First Name]".
-* **Body:** The main content of the email.
-* **Closing:** A polite closing phrase, such as "Sincerely," "Best regards," or "Thank you."
-* **Signature:** Your contact information, such as your name, email address, and phone number.
+- **Subject Line:** A brief summary of the email's content.
+- **Recipient:** The person or group you are sending the email to.
+- **Salutation:** A greeting to the recipient, such as "Dear Mr./Ms. [Last Name]" or "Hello [First Name]".
+- **Body:** The main content of the email.
+- **Closing:** A polite closing phrase, such as "Sincerely," "Best regards," or "Thank you."
+- **Signature:** Your contact information, such as your name, email address, and phone number.
 
 ### Basic Features of Email
 
-* **Composing and Sending Emails:** You can create new emails, type your message, and then send it to the recipient's email address.
+- **Composing and Sending Emails:** You can create new emails, type your message, and then send it to the recipient's email address.
 
-* **Replying to Emails:** When you receive an email, you can reply to it by adding your own message and sending it back to the original sender.
+- **Replying to Emails:** When you receive an email, you can reply to it by adding your own message and sending it back to the original sender.
 
-* **Forwarding Emails:** You can forward an email to another person by sending it to their email address.
+- **Forwarding Emails:** You can forward an email to another person by sending it to their email address.
 
-* **Attaching Files:** You can attach files, such as documents, images, or videos, to your emails.
+- **Attaching Files:** You can attach files, such as documents, images, or videos, to your emails.
 
-* **Creating Folders:** You can organize your emails by creating folders and moving emails into those folders.
+- **Creating Folders:** You can organize your emails by creating folders and moving emails into those folders.
 
 ### What is Gmail
 
@@ -45,7 +45,7 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 **See also:**
 
-* [Create a Gmail account](https://support.google.com/mail/answer/56256?hl=en&ref_topic=7065107&sjid=17155670430480394991-EU)
+- [Create a Gmail account](https://support.google.com/mail/answer/56256?hl=en&ref_topic=7065107&sjid=17155670430480394991-EU)
 
 #### Manage your Gmail account
 
