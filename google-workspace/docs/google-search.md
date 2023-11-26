@@ -2,7 +2,7 @@
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-search.pdf)
 
-- To access the updated lecture notes, please click on the following link:
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/google-workspace/docs/google-search.html](https://yasirbhutta.github.io/google-workspace/docs/google-search.html)
 
 - [Google Workspace](../docs/index.md)

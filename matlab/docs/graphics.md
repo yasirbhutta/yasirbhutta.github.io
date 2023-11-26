@@ -50,6 +50,10 @@ box off;
 
 ```
 
+**See also:**
+
+- [MATLAB Plot Tutorial: Make Your MATLAB Plots More Informative with Titles and Axis Labels](https://youtu.be/IoTQAIWDBJk)
+  
 #### Axis Control
 
 he axis() function is used to set the limits of the axes in a figure in MATLAB. The axes are the horizontal and vertical lines that extend across the figure window.
@@ -222,6 +226,7 @@ ylabel('Population');
 **See also:**
 
 - [bar - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar.html)
+- [Bar chart](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm)
 
 #### barh
 
@@ -229,7 +234,21 @@ ylabel('Population');
 
 #### histogram
 
-Example 4: Plotting a histogram
+A histogram is a data visualization tool that shows the frequency distribution of numerical data. It is a type of bar graph that displays the number of data points that fall within each of a series of intervals called bins. The bins are usually specified as consecutive, non-overlapping intervals of a variable. The height of each bar in the histogram represents the number of data points that fall within that bin.
+![Image of Histogram graph](https://www150.statcan.gc.ca/edu/power-pouvoir/c-g/c-g05-7-1-eng.png)
+
+Image Source: [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/histo/5214822-eng.htm](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/histo/5214822-eng.htm)
+
+Histograms are useful for visualizing the distribution of data, such as the distribution of heights of students in a class, the distribution of test scores, or the distribution of the time it takes to complete a task. They can also be used to compare the distributions of two or more datasets.
+
+Here are some of the key features of a histogram:
+
+- The bins are evenly spaced on the horizontal axis.
+- The height of each bar is proportional to the number of data points in the corresponding bin.
+- The total area of all the bars is equal to the total number of data points.
+- The histogram does not show the individual data points.
+
+##### Example 4: Plotting a histogram
 
 ```matlab
 x = randn(1000, 1);
@@ -673,6 +692,7 @@ A 2D plot is used to visualize data that has two dimensions, such as height and 
 - [^1:] [Categorical Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlab/categorical-arrays.html)
 - [MATLAB Graphics](https://www.mathworks.com/help/matlab/graphics.html)
 - [MATLAB: Plotting - tutorialspoint](https://www.tutorialspoint.com/matlab/matlab_plotting.htm)
+- [Statistics: Power from Data! - Statistics Canada](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm)
 
 ## Social Links
 
