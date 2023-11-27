@@ -6,7 +6,7 @@
   
 ## Courses
 
-- [Getting started with Python](python/video-training-python.md)
+- [Getting started with Python](python/)
 - [Matlab for Beginners](matlab/index.md)
 - [Microsoft 365 Mobile App](ms365-mobile-app/index.md)
 - [Microsoft Excel](ms-excel/index.md)
