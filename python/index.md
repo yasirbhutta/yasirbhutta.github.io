@@ -11,72 +11,20 @@
 - [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 - [Hello World](https://yasirbhutta.blogspot.com/2022/09/python-print-function.html)
-  
-### Python Language Basics
 
-- [Handouts](basics.md)
-- [Exercises](python-exercises.md)
-- [MCQs](python-mcqs.md)
-  
-### Python Data Types
+### Python Handouts
 
-#### Text Type
-
-- str
-
-#### Numeric Types
-
-- [int](https://yasirbhutta.blogspot.com/2022/09/python-numeric-types-int.html)
-  - [How to Convert a Python String to int](https://yasirbhutta.blogspot.com/2022/09/python-int-function-how-to-convert.html)
-  - [How to Convert a Python integer to string](https://yasirbhutta.blogspot.com/2022/09/python-str-function-how-to-convert.html)
-  - [Convert integer to octal and hexadecimal](https://yasirbhutta.blogspot.com/2022/09/python-tips-convert-integer-to-octal.html)
-- float
-- commplex
-
-#### Sequence Types
-
-- list
-- tuple
-- range
-
-#### Mapping Type
-
-- dic
-
-#### Set Types
-
-- set
-- frozenset
-
-#### Boolean Types
-
-- bool
-
-#### Binary Types
-
-- bytes
-- bytearray
-- memoryview
-
-#### Related Topics
-
-#### exercise
-
-### Control Flow
-
-#### conditions
-
-#### loops
-
-### Python Sorting
-
-### Modules
-
-### Functions
+- [Python Language Basics](docs/basics.md)
+- Operators
+- [Python Data Types](docs/data-types.md)
+- [Control Flow](docs/control-flow.md)
+- [Data Structures and Sequences](docs/dss.md)
+- [Python Sorting](docs/sorting.md)
+- [Functions](docs/functions.md)
+- [Error and Exception Handling](docs/error.md)
+- [Python Performance and Best practices](docs/best-practices.md)
 
 ### Classes
-
-### Error and Exception Handling
 
 ### File Handling
 
@@ -90,5 +38,7 @@
 
 ### Modules
 
-#### Data Analysis
-
+- [pandas](docs/modules/pandas.md)
+- [Numpy](docs/modules/numpy.md)
+- [calendar](docs/modules/calendar.md)
+  
