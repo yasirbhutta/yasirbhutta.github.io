@@ -16,11 +16,12 @@
 
 ## Software
 
-- Operating Systems
-- Programming
-- Application Software
+- [Software](../computer-basics/docs/software.md)
 
 ## Introduction to Programming
+
+- HTML
+- PYTHON
 
 ## Databases and Information Systems
 
@@ -28,7 +29,7 @@
 
 ## The Internet
 
-- Email
+- [Email](../google-workspace/docs/email.md)
 - Collaborative Computing and Social Networking
 - E-Commerce
 - IT Security
