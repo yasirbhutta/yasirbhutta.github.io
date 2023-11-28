@@ -2,7 +2,7 @@
 
 [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formatting.pdf)
 
-To access the updated lecture notes, please click on the following link:
+To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
@@ -101,7 +101,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 
 1. Select the cell or range of cells that contains the data that you want to reposition.
 2. On the Home tab, in the Alignment group, do one or more of the following:
-   - To change the vertical alignment of cell contents, click Top Align , Middle Align , or Bottom Align . 
+   - To change the vertical alignment of cell contents, click Top Align , Middle Align , or Bottom Align .
    - To change the horizontal alignment of cell contents, click Align Text Left , Center , or Align Text Right .
 
 ### Merge & Center
@@ -186,7 +186,7 @@ To apply several formats in one step, and to make sure that cells have consisten
 
 #### Working with the Comma Style
 
-##### Windows 
+##### Windows
 
 1. Select the cells containing the numbers you want to format.
 2. From the Home tab, click the Number dialog box launcher in the bottom-right corner of the Number group.
@@ -206,16 +206,12 @@ To apply several formats in one step, and to make sure that cells have consisten
 5. From the symbol list select Rs Urdu.
 6. Click OK.
 
-#### Applying the percentage style
-
-##### Windows 
+#### Applying the percentage style - Windows
 
 1. Select the cell(s) containing the value(s) you want to format.
 2. Click on Percent style in Number group of Home tab.
 
-#### Formatting Dates
-
-##### Windows
+#### Formatting Dates - Windows
 
 1. Enter a date into a cell.
 2. From the Home tab, click the Number dialog box launcher.
