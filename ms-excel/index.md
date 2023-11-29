@@ -19,8 +19,6 @@
 - [Handouts - Formulas in excel](docs/formulas.md)
 - [Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
-- [Create a simple formula in Excel](https://youtu.be/mKNp8MgTS70)
-
 ## Functions
 
 - [Handouts - Functions in excel](docs/functions.md)

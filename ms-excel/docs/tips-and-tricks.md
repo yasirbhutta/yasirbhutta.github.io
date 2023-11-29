@@ -13,7 +13,7 @@ Transposing data is the process of switching data from rows to columns or vice v
 
 **Tips:** The shortcut key for Paste Special is `CTRL+ALT+V`.
 
-- [Video Tutorial: Transpose (rotate) data from rows to columns or vice versa | Microsoft 365](https://youtu.be/jXg6-IsrXl4)
+- [Video Tutorial: Transpose (rotate) data from rows to columns or vice versa - Microsoft 365](https://youtu.be/jXg6-IsrXl4)
 - [Video Tutorial: TRANSPOSE function - Vertical range of cells as a horizontal range](https://youtube.com/shorts/81Lk7ke7UNw)
   - [Download a sample data workbook #1](https://1drv.ms/x/s!Atx7MPEilH2jgbcBJOuGyyfi9kEltw?e=WF0KSK)
   - [Download a sample data workbook #2](https://1drv.ms/x/s!Atx7MPEilH2jgbMlDUuBYMfFdX4Szg?e=kpRlo9)
