@@ -26,6 +26,10 @@ Transposing data is the process of switching data from rows to columns or vice v
 
 - [How to: Populate a Dropdown List Based on Cells Value](https://youtube.com/shorts/qnrHaDbaPYw)
 
+## Fill a column with a series in excel
+
+- [Video Tutorial: Excel Mobile - Fill a column with a series in excel](https://youtube.com/shorts/dMTVohW0ZCc)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
