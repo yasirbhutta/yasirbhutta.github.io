@@ -41,6 +41,21 @@ There are two main ways to transpose data in Excel:
 
 - [Video Tutorial: Excel Mobile - Fill a column with a series in excel](https://youtube.com/shorts/dMTVohW0ZCc)
 
+## Flash Fill in Excel
+
+Flash Fill is a feature in Excel that automatically fills in data based on patterns it recognizes in your existing data. It is a powerful tool that can save you a lot of time and effort, especially when working with large datasets.
+
+**Tips:** 'CTRL+E' is the shortcut for Flash Fill.
+
+Here are some examples of how to use Flash Fill:
+
+**Extracting data from text:** For example, suppose you have a column of text that contains email addresses. You can use Flash Fill to extract the email addresses from the text and put them in a separate column.
+
+**Combining text from multiple columns:** For example, suppose you have a list of first names in one column and a list of last names in another column. You can use Flash Fill to combine the first and last names into a single column.
+
+- [Video Tutorial: Flash Fill in Excel](https://youtu.be/0nc8a0HHR1A)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcDDRjXEURQFPQC-A?e=lygGpR)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
