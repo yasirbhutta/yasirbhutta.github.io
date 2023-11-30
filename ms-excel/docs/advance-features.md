@@ -45,6 +45,17 @@ Data validation is a feature in Microsoft Excel that allows you to restrict the 
 - [Create a PivotTable to analyze worksheet data - Microsoft Support](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 - [Overview of PivotTables and PivotCharts - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-pivottables-and-pivotcharts-527c8fa3-02c0-445a-a2db-7794676bce96)
 
+### Repeat specific rows or columns on every printed page
+
+Repeating rows or columns on every printed page, also known as setting print titles, can be helpful when you have a large worksheet that spans multiple pages. This ensures that your headers or labels are always visible on each page, making it easier to read and understand your data.
+
+- [Video Tutorial:Repeat specific rows or columns on every printed page](https://youtu.be/IsLVaEf77KI)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcEL2bWTzt2TVVUPw?e=49GrSD)
+
+**See also:**
+
+- [Repeat specific rows or columns on every printed page](https://support.microsoft.com/en-us/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
