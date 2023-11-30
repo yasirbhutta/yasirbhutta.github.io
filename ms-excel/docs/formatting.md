@@ -5,6 +5,8 @@
 To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 
+[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
 ## Module 2: Formatting cells and ranges

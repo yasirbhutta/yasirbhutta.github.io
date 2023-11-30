@@ -1,9 +1,11 @@
 # Microsoft Excel - Microsoft 365
 
-- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
+[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
 
-- To access the updated handouts, please click on the following link:
+To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
+
+[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
 ## Module 4: Functions in Excel - I
 

@@ -7,6 +7,8 @@
 To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/advance-features.html](https://yasirbhutta.github.io/ms-excel/docs/advance-features.html)
 
+[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+
 ## Conditional Formatting
 
 Conditional formatting is a feature in Microsoft Excel that allows you to highlight cells based on specific conditions. You can use it to make patterns and trends in your data more apparent. For example, you can use conditional formatting to highlight cells that contain values which meet a certain condition, such as cells that contain a value greater than 100.
