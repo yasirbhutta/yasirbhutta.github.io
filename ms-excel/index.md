@@ -26,12 +26,6 @@
 - [Handouts - Functions in excel](docs/functions.md)
 - [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
   
-## Tables
-
-## Charts
-
-- [Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
-
 ## Tips and Tricks
 
 - [Handouts - Excel Tips and Tricks](docs/tips-and-tricks.md)
@@ -39,9 +33,15 @@
 ## Advance Features: Conditional Formatting, Data Validation PivotTables
 
 - [Handouts: Advance Features in excel](docs/advance-features.md)
-  
+
+## Charts
+
+- [Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
+
+## Tables
+
 ## Share & co-author
 
-## Linked dat types
+## Linked data types
 
 ## Get to know Power Query

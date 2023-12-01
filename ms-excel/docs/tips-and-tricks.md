@@ -53,7 +53,7 @@ Here are some examples of how to use Flash Fill:
 
 **Combining text from multiple columns:** For example, suppose you have a list of first names in one column and a list of last names in another column. You can use Flash Fill to combine the first and last names into a single column.
 
-- [Video Tutorial: Flash Fill in Excel](https://youtu.be/0nc8a0HHR1A)
+- [Video: Flash Fill in Excel](https://youtu.be/0nc8a0HHR1A)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcDDRjXEURQFPQC-A?e=lygGpR)
 
 ## True/False (Mark T for True and F for False)

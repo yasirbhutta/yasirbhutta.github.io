@@ -54,7 +54,7 @@ Repeating rows or columns on every printed page, also known as setting print tit
 
 **See also:**
 
-- [Repeat specific rows or columns on every printed page](https://support.microsoft.com/en-us/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409)
+- [Repeat specific rows or columns on every printed page - Microsoft Support](https://support.microsoft.com/en-us/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409)
 
 ### Set or clear a print area on a worksheet
 

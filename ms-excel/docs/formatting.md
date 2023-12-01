@@ -74,7 +74,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 - Cell borders that you apply on cell in sheets to appear on printed pages.
 - By using predefined border styles, you can quickly add a border around cells or ranges of cells. If predefined cell borders do not meet your needs, you can create a custom border.[^8]
 
-- [Video Tutorial: How to: Apply cells border | Microsoft Excel | Mobile App](https://youtu.be/okBLEJLE0t8?si=QM9lejQZ0l2YEFoA)
+- [Video: How to: Apply cells border -Excel Mobile App](https://youtu.be/okBLEJLE0t8?si=QM9lejQZ0l2YEFoA)
 
 #### Apply a predefined cell border [Windows]
 
@@ -112,7 +112,7 @@ Keyboard shortcut: **Ctrl+5**.[^5]
 - This feature is useful when you want to create a label that spans multiple columns or rows, or when you want to merge cells containing text or numbers into a single cell.
 - You can't split an individual cell, but you can make it appear as if a cell has been split by merging the cells above it. [^3]
 
-- [Video Tutorial: Merge & Center and Wrap text in excel mobile app](https://youtu.be/DPYDYL4UT-0?si=lu_Wz1hzLhLFiTyj)
+- [Video: Merge & Center and Wrap text in excel mobile app](https://youtu.be/DPYDYL4UT-0?si=lu_Wz1hzLhLFiTyj)
 
 #### Merge adjacent cells [Windows]
 
@@ -176,8 +176,8 @@ To apply several formats in one step, and to make sure that cells have consisten
 - These number formats include:
   - currency, accounting, percentage, date, time, fraction, and scientific, as well as a few special formats.
 
-- [Video Tutorial: Format numbers as Text in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=XGShL-JggO1N_95C)
-- [Video Tutorial: Change Date Format](https://youtu.be/Cty8tgm7YtE?si=tqgGcZRxllmLD6RE)
+- [Video: Format numbers as Text in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=XGShL-JggO1N_95C)
+- [Video: Change Date Format](https://youtu.be/Cty8tgm7YtE?si=tqgGcZRxllmLD6RE)
 
 #### To Change a Cell's Number Format
 
@@ -232,7 +232,7 @@ To apply several formats in one step, and to make sure that cells have consisten
 
 ## Card View
 
-- [Video Tutorial: How to: use a cards view in excel | Microsoft Excel | Mobile App](https://youtu.be/6qwfFHMSw98?si=i-1kf7rRvoHYE2YV)
+- [Video Tutorial: How to: use a cards view in excel - Excel Mobile App](https://youtu.be/6qwfFHMSw98?si=i-1kf7rRvoHYE2YV)
 
 ## Insert & Delete
 
@@ -425,8 +425,8 @@ In the Gridline color box, click the color you want.
 > Which of the following number formats is used to display numbers as percentages?
 
 1. [ ] General
-2. [ ]Number
-3. [ ]Currency
+2. [ ] Number
+3. [ ] Currency
 4. [x] Percentage
 
 > Which of the following number formats is used to display negative numbers in red?
@@ -447,8 +447,8 @@ In the Gridline color box, click the color you want.
 
 1. [ ] Use the keyboard shortcut Ctrl+D.
 2. [x] Use the keyboard shortcut Ctrl+B.
-3. Use the keyboard shortcut Ctrl+I.
-4. Use the keyboard shortcut Ctrl+U.
+3. [ ] Use the keyboard shortcut Ctrl+I.
+4. [ ] Use the keyboard shortcut Ctrl+U.
 
 > Which of the following font sizes is best for body text?
 
@@ -501,7 +501,7 @@ In the Gridline color box, click the color you want.
 - What is the keyboard shortcut for opening the Format Cells dialog box?
 - What is the keyboard shortcut for applying the Format Painter tool?
 - How can you rotate text?
-- What is the purpose of the Font dialog box? 
+- What is the purpose of the Font dialog box?
 - How can you access the Format Cells dialog box in Excel to apply custom formatting?
 
 ## References
