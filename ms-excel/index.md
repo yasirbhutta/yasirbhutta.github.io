@@ -8,7 +8,7 @@
 
 ## Intro. to Excel
 
-- [Handouts - Excel Basics](basics.md)
+- [Handouts - Excel Basics](docs/basics.md)
 - [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
 
 ## Formatting
