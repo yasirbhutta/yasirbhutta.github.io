@@ -56,6 +56,17 @@ Repeating rows or columns on every printed page, also known as setting print tit
 
 - [Repeat specific rows or columns on every printed page](https://support.microsoft.com/en-us/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409)
 
+### Set or clear a print area on a worksheet
+
+A print area is one or more ranges of cells that you designate to print when you don't want to print the entire worksheet. When you print a worksheet after defining a print area, only the print area is printed. You can add cells to expand the print area as needed, and you can clear the print area to print the entire worksheet. [^1]
+
+- [Video Tutorial: Set or clear a print area on a worksheet](https://youtu.be/jOipJlsMT2g)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcFp7GESoyX-nFubg?e=7OQuRc)
+
+**See also:**
+
+- [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
@@ -65,6 +76,8 @@ Repeating rows or columns on every printed page, also known as setting print tit
 ## Review Questions
 
 ## References
+
+[^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
 
 ## Social Links
 
