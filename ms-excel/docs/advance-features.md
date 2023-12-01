@@ -23,7 +23,7 @@ Conditional formatting is a feature in Microsoft Excel that allows you to highli
 
 Data validation is a feature in Microsoft Excel that allows you to restrict the type of data or the values that users enter into a cell. You can use data validation to create a dropdown list, restrict the length of the text, or limit the cell to accept only whole numbers or decimal numbers, among other things.
 
-- [Video Tutorial: Apply data validation to cells - Microsoft Excel](https://youtu.be/GT6Um8hsDuo?si=0IYQeqZYUG32JlbW)
+- [Video: Apply data validation to cells - Microsoft Excel](https://youtu.be/GT6Um8hsDuo?si=0IYQeqZYUG32JlbW)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbZ-_YTCVotfLk4YxA?e=gsoIrn)
 
 **See also:**
@@ -37,7 +37,7 @@ Data validation is a feature in Microsoft Excel that allows you to restrict the 
 - PivotTable is a powerful feature in Microsoft Excel that allows you to summarize, analyze, and present data in a meaningful way.
 - It enables you to extract insights from large datasets by creating a summary table that aggregates, groups, and filters data based on your requirements.
 
-- [Video Tutorial: Create a PivotTable in excel](https://youtu.be/iSu1YmQ2Bq4)
+- [Video: Create a PivotTable in excel](https://youtu.be/iSu1YmQ2Bq4)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcAV6huDcaN9YIjAQ?e=mIcLjT)
 
 **See also:**
@@ -49,7 +49,7 @@ Data validation is a feature in Microsoft Excel that allows you to restrict the 
 
 Repeating rows or columns on every printed page, also known as setting print titles, can be helpful when you have a large worksheet that spans multiple pages. This ensures that your headers or labels are always visible on each page, making it easier to read and understand your data.
 
-- [Video Tutorial:Repeat specific rows or columns on every printed page](https://youtu.be/IsLVaEf77KI)
+- [Video: Repeat specific rows or columns on every printed page](https://youtu.be/IsLVaEf77KI)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcEL2bWTzt2TVVUPw?e=49GrSD)
 
 **See also:**
@@ -60,7 +60,7 @@ Repeating rows or columns on every printed page, also known as setting print tit
 
 A print area is one or more ranges of cells that you designate to print when you don't want to print the entire worksheet. When you print a worksheet after defining a print area, only the print area is printed. You can add cells to expand the print area as needed, and you can clear the print area to print the entire worksheet. [^1]
 
-- [Video Tutorial: Set or clear a print area on a worksheet](https://youtu.be/jOipJlsMT2g)
+- [Video: Set or clear a print area on a worksheet](https://youtu.be/jOipJlsMT2g)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcFp7GESoyX-nFubg?e=7OQuRc)
 
 **See also:**
@@ -87,8 +87,8 @@ Types of Filters in Excel
 
 **Filter by custom criteria:** This filter provides more flexibility, enabling you to define complex criteria using logical operators (AND, OR, NOT) and comparisons (equal to, greater than, less than).
 
-[Video: Sort and Filter data in a range](#)
-[Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcG7L3YX_tdi538MQ?e=iyUBOO)
+- [Video: Sort and Filter data in a range - Microsoft Excel](https://youtu.be/WhLNiqlRBpE)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcG7L3YX_tdi538MQ?e=iyUBOO)
 
 **See also:**
 
@@ -104,10 +104,6 @@ Types of Filters in Excel
 
 ## Review Questions
 
-## References
-
-[^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
-
 ## Social Links
 
 - [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
@@ -116,3 +112,6 @@ Types of Filters in Excel
 - [Facebook](https://www.facebook.com/yasirbhutta786)
 - [Twitter](https://twitter.com/yasirbhutta)
   
+## References
+
+[^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)

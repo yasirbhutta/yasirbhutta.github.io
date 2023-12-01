@@ -19,14 +19,14 @@ There are two main ways to transpose data in Excel:
 
 **Using the Paste Special Feature:**
 
-- [Video Tutorial: Transpose (rotate) data from rows to columns or vice versa - Microsoft 365](https://youtu.be/jXg6-IsrXl4)
+- [Video: Transpose (rotate) data from rows to columns or vice versa - Microsoft 365](https://youtu.be/jXg6-IsrXl4)
   - [Download a sample data workbook #1](https://1drv.ms/x/s!Atx7MPEilH2jgbcBJOuGyyfi9kEltw?e=WF0KSK)
 
 **Tips:** The shortcut key for Paste Special is `CTRL+ALT+V`.
 
 **Using the TRANSPOSE Function:**
 
-- [Video Tutorial: TRANSPOSE function - Vertical range of cells as a horizontal range](https://youtube.com/shorts/81Lk7ke7UNw)
+- [Video: TRANSPOSE function - Vertical range of cells as a horizontal range](https://youtube.com/shorts/81Lk7ke7UNw)
   - [Download a sample data workbook #2](https://1drv.ms/x/s!Atx7MPEilH2jgbMlDUuBYMfFdX4Szg?e=kpRlo9)
 
 **See also:**
@@ -39,7 +39,7 @@ There are two main ways to transpose data in Excel:
 
 ## Fill a column with a series in excel
 
-- [Video Tutorial: Excel Mobile - Fill a column with a series in excel](https://youtube.com/shorts/dMTVohW0ZCc)
+- [Video: Excel Mobile - Fill a column with a series in excel](https://youtube.com/shorts/dMTVohW0ZCc)
 
 ## Flash Fill in Excel
 
