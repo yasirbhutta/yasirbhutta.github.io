@@ -13,10 +13,14 @@ To access the updated handouts, please click on the following link:
 
 Conditional formatting is a feature in Microsoft Excel that allows you to highlight cells based on specific conditions. You can use it to make patterns and trends in your data more apparent. For example, you can use conditional formatting to highlight cells that contain values which meet a certain condition, such as cells that contain a value greater than 100.
 
+- [Video: Use conditional formatting to highlight information](https://youtu.be/6yez2xC5yeA)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbZ-_YTCVotfLk4YxA?e=61dsLg)
+
 **See also:**
 
 - [Use conditional formatting to highlight information - Microsoft Support](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f)
 - [Download: Conditional formatting examples in Excel](https://download.microsoft.com/download/e/4/0/e4089f75-cdb0-4658-9d34-bfa3f7b48815/Conditional%20Formatting%20examples.xlsx)
+- [Video: Use conditional formatting - Microsoft Support](https://support.microsoft.com/en-us/office/video-use-conditional-formatting-03ab07da-1564-4913-b69f-2b1a370c8910)
 - [Conditional Formatting - Excel Easy](https://www.excel-easy.com/data-analysis/conditional-formatting.html)
 
 ## Data Validation

@@ -10,6 +10,10 @@
 - The physical parts of a computer are called hardware.
 - The user can see and touch hardware. computer is a collection of several different parts
 
+![computer](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system.png)
+
+Image source: [wikimedia.org](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system)
+
 **Types of computer hardware:**
 
 - **Internal hardware:** Internal hardware is the hardware that is located inside the computer case. It includes the following components:
@@ -28,6 +32,10 @@ Other types of computer hardware include:
 - Power supply unit (PSU): The PSU provides power to all of the other components in the computer.
 - Cooling system: The cooling system keeps the computer from overheating.
 - Case/System Unit: The case houses all of the internal components of the computer and protects them from damage.
+
+**See also:**
+
+- [Video: Computer Basics- Inside a Computer](https://youtu.be/HB4I2CgkcCo?si=rexzU0om0nweOy0r)
 
 ### Input Devices
 
@@ -56,10 +64,10 @@ Other types of computer hardware include:
 
 #### Mouse
 
-- Mouse is a pointing device. 
-- It controls the pointer on the screen. 
+- Mouse is a pointing device.
+- It controls the pointer on the screen.
 - Pointer on the screen is used to apply different commands.
-- Mouse mostly have two buttons. 
+- Mouse mostly have two buttons.
 
 #### Trackball
 
@@ -69,7 +77,7 @@ Other types of computer hardware include:
 
 - A touchpad or trackpad is a flat surface.
 - The movement of the finger moves the cursor on the screen.
-- A touch pad also has one or more buttons. These button work like mouse buttons. 
+- A touch pad also has one or more buttons. These button work like mouse buttons.
 - Most used in laptop/notebooks.
 
 #### Touchscreen
@@ -109,7 +117,7 @@ Other types of computer hardware include:
 
 ##### Bar Code Scanner
 
-A barcode reader (or barcode scanner) is an electronic device for reading barcodes printed on various surfaces. 
+A barcode reader (or barcode scanner) is an electronic device for reading barcodes printed on various surfaces.
 
 #### Audio Input Devices
 
@@ -138,7 +146,7 @@ There are several types of computer monitors:
 ##### LCD (liquid crystal display) monitors
 
 - LCD monitors are the most common type of monitor available today.
-- They are thin, lightweight, and energy-efficient. 
+- They are thin, lightweight, and energy-efficient.
 - LCD monitors use liquid crystals to create images on the screen.
 
 ##### LED (light-emitting diode) monitors
@@ -146,6 +154,12 @@ There are several types of computer monitors:
 - LED monitors are a type of LCD monitor that uses light-emitting diodes (LEDs) as the backlight instead of fluorescent lamps.
 - LEDs are more energy-efficient and have a longer lifespan than fluorescent lamps.
 - LED monitors also tend to have better image quality than LCD monitors, with higher contrast ratios and brighter colors.
+
+![contrast ratios](https://res.cloudinary.com/buyavprojectorscreen/image/upload/v1677791377/blog-images/contrast-ratio-explained/pasted_image_0.png)
+
+Image source:[https://www.projectorscreen.com/](https://res.cloudinary.com/buyavprojectorscreen/image/upload/v1677791377/blog-images/contrast-ratio-explained/pasted_image_0.png)
+
+The contrast ratio (CR) is a property of a display system, defined as the ratio of the luminance of the brightest shade (white) to that of the darkest shade (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display. [^3]
 
 ##### CRT (cathode ray tube) monitors
 
@@ -161,8 +175,6 @@ There are several types of computer monitors:
 Or
 
 - Printers take the information from the CPU and print it on paper.
-
-Printer Types
 
 #### Speakers
 
@@ -180,7 +192,7 @@ Printer Types
 
 ### CPU or Processor
 
-- CPU stands for central process unit.
+- CPU stands for `Central Processing Unit`.
 - It is the brain of the computer.
 - It is also called processor.
 - CPU continually receives instructions to execute. CPU performs all operations according to the given instructions. It executes instructions and tells other parts of computer what to do.
@@ -196,17 +208,17 @@ CPU consists of two main units:
 
 It Consists Two units:
 
-**Arithmetic Unit :** Arithmetic unit of the ALU performs basic arithmetic functions such as additions, subtraction, multiplications and division.
-**Logic Unit :** Logic unit of the ALU performs logical operations like comparing two data items to find which data item is greater than ,equal to or less than the other.
+**Arithmetic Unit :** Arithmetic unit of the ALU `performs basic arithmetic functions` such as additions, subtraction, multiplications and division.
+**Logic Unit :** Logic unit of the ALU `performs logical operations` like comparing two data items to find which data item is greater than ,equal to or less than the other.
 
 #### Control Unit
 
 - It controls all activities of computer system.
-- It is also called the supervisor of the computer.
+- It is also called the `supervisor` of the computer.
 
 ### Motherboard
 
-- The motherboard is  main circuit board of a computer, usually containing the central processing unit and main system memory as well as circuitry that controls the disk drives, keyboard, monitor, and other peripheral devices.
+- The motherboard is `main circuit board` of a computer, usually containing the central processing unit and main system memory as well as circuitry that controls the disk drives, keyboard, monitor, and other peripheral devices.
 - It is also known as a mainboard, baseboard, system board.
 
 **Buses:** Buses on a motherboard are electrical pathways that allow different components on the motherboard to communicate with each other.
@@ -240,7 +252,7 @@ Types of system units:
 
 #### Power Supply
 
-- Power supply is used to provide electric circuit to different computer hardware components. Like Motherboard, Hard disk, CD Rom 
+- Power supply is used to provide electric circuit to different computer hardware components. Like Motherboard, Hard disk, CD Rom.
 
 #### Uninterrupted Power Supply
 
@@ -456,6 +468,7 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 - [^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
 - [^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
+- [^3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
 - [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
