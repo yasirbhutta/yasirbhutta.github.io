@@ -341,11 +341,127 @@ title('My 3-D Bar Graph');
 
 #### meshgrid
 
+In MATLAB, the meshgrid function is used `to create two matrices from two vectors`. Each element of the first matrix represents one value from the first vector, and each element of the second matrix represents one value from the second vector. This is useful for `creating grids of data points`, which can then be used for plotting or other calculations.
+
+```matlab
+x = linspace(1,3,3);
+y = linspace(2,10,5);
+[X,Y] = meshgrid(x,y);
+disp(X);
+disp(Y);
+```
+
+**Explanation:**
+
+1. linspace(1,3,3): This line creates a vector x with 3 equally spaced elements between 1 and 3 (inclusive). So, x = [1 2 3].
+2. linspace(2,10,5): This line creates a vector y with 5 equally spaced elements between 2 and 10 (inclusive). So, y = [2 4 6 8 10].
+3. [X,Y] = meshgrid(x,y): This line uses the meshgrid function to create two matrices X and Y from the vectors x and y.
+   - Each element of X is a copy of the vector x. The number of rows in X is equal to the length of y (5), and the number of columns in X is equal to the length of x (3).
+   - Each element of Y is a copy of the vector y. The number of rows in Y is equal to the length of y (5), and the number of columns in Y is equal to the length of x (3).
+
+**Output:**
+
+```output
+X =
+
+   1   2   3
+   1   2   3
+   1   2   3
+   1   2   3
+   1   2   3
+
+Y =
+
+   2   2   2   2   2
+   4   4   4   4   4
+   6   6   6   6   6
+   8   8   8   8   8
+  10  10  10  10  10
+```
+
+**Application of meshgrid:**
+
+- Plotting surfaces: mesh(X,Y,Z) where Z is a function of X and Y
+
 #### mesh
+
+```matlab
+x = -3:0.1:3;
+y = x;
+[X,Y] = meshgrid(x);
+
+F = X.^2 + Y.^3;
+mesh(X,Y,F);
+```
+
+```matlab
+x = linspace(0,10,20);
+y = linspace(-5,5,30);
+
+[X,Y] = meshgrid(x,y);
+
+% Example function: Z = sin(x)*cos(y)
+Z = sin(X).*cos(Y);
+
+% Plot the mesh using the generated X, Y, and Z matrices
+mesh(X, Y, Z);
+
+% Customize the plot with labels, title, and colormap
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+title('Mesh Plot of sin(x)*cos(y)');
+colormap('jet');
+```
+
+**colormap('jet'):** Set the colormap to 'jet' for a visually appealing gradient.
+
+**See also:**
+
+- [mash - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/mesh.html)
+- [colormap - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/colormap.html)
 
 #### surf
 
+```matlab
+x = -3:0.1:3;
+y = x;
+[X,Y] = meshgrid(x);
+
+F = X.^2 + Y.^3;
+surf(X,Y,F);
+```
+
+```matlab
+x = -3:0.1:3;
+y = x;
+[X,Y] = meshgrid(x);
+
+F=sqrt(X.^2 + Y.^2)
+surf(X,Y,F);
+```
+
 #### contour and contour3
+
+#### 3D Cone Using surf and meshgrid:
+
+This method involves creating two matrices, one for the radius of the cone at different heights and another for the angle. Then, you use meshgrid to combine these matrices into 3D grids and use surf to plot the surface.
+
+```matlab
+r = linspace(0, 1, 50);
+th = linspace(0, 2*pi, 50);
+[theta,z] = meshgrid(th,r);
+radius = 1 - z;
+x = radius .* cos(theta);
+y = radius .* sin(theta);
+
+surf(x, y, z);
+
+title("3D cones");
+xlabel("x axis");
+ylabel("y axis");
+zlabel("z axis")
+```
 
 ## True/False (Mark T for True and F for False)
 

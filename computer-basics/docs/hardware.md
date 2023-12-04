@@ -36,6 +36,7 @@ Other types of computer hardware include:
 **See also:**
 
 - [Video: Computer Basics- Inside a Computer](https://youtu.be/HB4I2CgkcCo?si=rexzU0om0nweOy0r)
+- [Video: What are internal components of CPU? Animated E learning Video](https://youtu.be/s_Jv2k27A9U?si=9Z5QPUnhgAsF3tsb)
 
 ### Input Devices
 
