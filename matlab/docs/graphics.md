@@ -443,6 +443,59 @@ F=sqrt(X.^2 + Y.^2)
 surf(X,Y,F);
 ```
 
+```matlab
+% Create a grid of x and y values
+[x, y] = meshgrid(-5:0.1:5, -5:0.1:5);
+
+% Define a function for the surface (example: a 3D Gaussian)
+z = exp(-(x.^2 + y.^2) / 5) .* sin(x) .* cos(y);
+
+% Create the surf plot
+figure;
+surf(x, y, z);
+
+% Customize the plot
+title('3D Surface Plot with Gaussian Function');
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+colormap('parula'); % You can change the colormap
+colorbar; % Display colorbar
+
+% Optionally, add additional features like grid and rotate the plot
+grid on;
+rotate3d on;
+```
+
+##### Plotting a sphere
+
+```matlab
+% Define the sphere parameters
+[X, Y, Z] = sphere(50);
+
+% Create the surface plot
+surf(X, Y, Z);
+axis equal
+```
+
+##### Plotting a cylinder
+
+```matlab
+% Define the cylinder parameters
+[X, Y, Z] = cylinder(50, 20);
+
+% Create the mesh and surface plot
+surf(X, Y, Z);
+```
+
+This code will create a cylinder with a height of 20 and a radius of 50. The cylinder function generates a 3D array of points that represent the surface of the cylinder. The surf function then plots the surface using these points.
+
+**See also:**
+
+- [sphere - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/sphere.html)
+- [surf - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/surf.html)
+
+
 #### contour and contour3
 
 #### 3D Cone Using surf and meshgrid:
@@ -464,6 +517,8 @@ xlabel("x axis");
 ylabel("y axis");
 zlabel("z axis")
 ```
+
+
 
 ## True/False (Mark T for True and F for False)
 
