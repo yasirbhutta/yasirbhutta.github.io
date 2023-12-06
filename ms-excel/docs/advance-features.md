@@ -100,6 +100,26 @@ Types of Filters in Excel
 - [Sort data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/sort-data-in-a-range-or-table-62d0b95d-2a90-4610-a6ae-2e545c4a4654)
 - [Filter data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e)
 
+## Additional Topics
+
+### Table
+
+An Excel table is a structured collection of data that is organized in rows and columns. It is a powerful tool that can be used to organize, analyze, and manage data. Tables are easy to create and use, and they offer a variety of features that make them ideal for working with large datasets. [^2]
+
+**Benefits of using Excel tables:**
+
+**Structured data:** Tables make it easy to organize and manage data in a structured way. This makes it easy to find and analyze the data you need.
+**Automatic formatting:** Tables automatically apply formatting to your data, making it easy to read and understand.
+**Data integrity:** Tables automatically protect your data from errors, such as accidental deletions or changes.
+**Data analysis:** Tables include a variety of features that make it easy to analyze your data, such as filters, sorting, and totals.
+**Visualizations:** Tables can be easily converted into charts and other visualizations, which can help you to understand your data more clearly.
+
+**See also:**
+
+- [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
+- [Total the data in an Excel table - Excel Help & Training](https://support.microsoft.com/en-us/office/total-the-data-in-an-excel-table-6944378f-a222-4449-93d8-474386b11f20)
+- [Use calculated columns in an Excel table - Microsoft Support](https://support.microsoft.com/en-us/office/use-calculated-columns-in-an-excel-table-873fbac6-7110-4300-8f6f-aafa2ea11ce8)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
@@ -119,3 +139,5 @@ Types of Filters in Excel
 ## References
 
 [^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
+[^2]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
+

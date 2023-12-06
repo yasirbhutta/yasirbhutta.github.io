@@ -131,6 +131,7 @@ Outut Devices
 
 - The hardware components that are used to receive information from the computer are called output devices.
 - Output devices take information from the computer and convert it in a form that is understandable by the users.
+- Output devices are hardware components that receive data from a computer and translate it into a format that can be understood by humans.
 
 #### Hard Copy & Soft Copy
 

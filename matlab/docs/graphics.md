@@ -305,6 +305,8 @@ title('Fruit Sales Pie Chart');
 
 #### plot3
 
+#### bar3
+
 ##### Example: Create 3-D Bar Graph from Vector Data
 
 ```matlab
@@ -326,8 +328,6 @@ title('My 3-D Bar Graph');
 **See also:**
 
 - [bar3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar3.html)
-
-#### bar3
 
 #### bar3h
 
@@ -372,16 +372,18 @@ X =
 
 Y =
 
-   2   2   2   2   2
-   4   4   4   4   4
-   6   6   6   6   6
-   8   8   8   8   8
-  10  10  10  10  10
+   2   2   2
+   4   4   4
+   6   6   6
+   8   8   8
+  10  10  10
 ```
 
 **Application of meshgrid:**
 
 - Plotting surfaces: mesh(X,Y,Z) where Z is a function of X and Y
+
+Calculus: In calculus, particularly in multivariable calculus, the concept of a surface is used when dealing with functions of two variables. The graph of a function of two variables (such as z = f(x, y)) can be thought of as a surface in three-dimensional space.
 
 #### mesh
 
