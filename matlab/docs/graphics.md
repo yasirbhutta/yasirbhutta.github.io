@@ -467,6 +467,33 @@ grid on;
 rotate3d on;
 ```
 
+```matlab
+x = -10:0.2:10;
+y = x;
+% Define a grid of X and Y values
+[X, Y] = meshgrid(x);
+
+% Define a function for the surface (e.g., a saddle-shaped surface)
+Z = 0.1 * (X.^2 - Y.^2);
+
+% Create a 3D surface plot
+surf(X, Y, Z);
+
+% Add labels and a title
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+title('Saddle-Shaped Surface Plot');
+
+% Display a color bar and change the color.
+colorbar;
+colormap("cool");
+```
+
+**Output:**
+
+![surf1](img/surf1.png)
+
 ##### Plotting a sphere
 
 ```matlab
