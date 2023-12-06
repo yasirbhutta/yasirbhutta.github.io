@@ -484,7 +484,7 @@ axis equal
 % Define the cylinder parameters
 [X, Y, Z] = cylinder(50, 20);
 
-% Create the mesh and surface plot
+% Create surface plot
 surf(X, Y, Z);
 ```
 
