@@ -494,6 +494,58 @@ colormap("cool");
 
 ![surf1](img/surf1.png)
 
+#### Example: Cone
+
+```matlab
+x = -10:0.2:10;
+y = x;
+
+% Define a matrix of X and Y values
+[X, Y] = meshgrid(x);
+
+% Define the surface function for a cone
+Z = sqrt(X.^2 + Y.^2);
+
+% Create a 3D surface plot of the cone
+surf(X, Y, Z);
+
+% Add labels and a title
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+title('Cone Surface Plot');
+
+% Display a color bar and change the color.
+colorbar;
+colormap("cool");
+```matlab
+
+#### Example: Hyperboloid
+
+```matlab
+x = -10:0.2:10;
+y = x;
+
+% Define a matrix of X and Y values
+[X, Y] = meshgrid(x);
+
+% Define the surface function for a hyperboloid
+Z = X.^2 + Y.^2 - 1;
+
+% Create a 3D surface plot of the hyperboloid
+surf(X, Y, Z);
+
+% Add labels and a title
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+title('Hyperboloid Surface Plot');
+
+% Display a color bar and change the color.
+colorbar;
+colormap("cool");
+```
+
 ##### Plotting a sphere
 
 ```matlab
@@ -522,7 +574,6 @@ This code will create a cylinder with a height of 20 and a radius of 50. The cyl
 - [sphere - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/sphere.html)
 - [surf - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/surf.html)
 
-
 #### contour and contour3
 
 #### 3D Cone Using surf and meshgrid:
@@ -544,8 +595,6 @@ xlabel("x axis");
 ylabel("y axis");
 zlabel("z axis")
 ```
-
-
 
 ## True/False (Mark T for True and F for False)
 
@@ -790,6 +839,16 @@ text(6, 5, 'string', 'color', 'red');
 4. [ ] Asterisk (*)
 
 ## Exercises
+
+- Write the MATLAB code to create a surf plot of the function f(x, y) = sin(x) + cos(y) over the domain [-5, 5] in both the x and y directions and vectors have 100 values?
+- Write a MATLAB script that generates a 3D surface plot of a saddle-shaped surface using the provided code as a reference. The script should include the following:
+  - Define a vector x with values ranging from -10 to 10 in increments of 0.2.
+  - Create a grid of X and Y values using the meshgrid() function.
+  - Define a function for the surface using the provided formula Z = 0.1 * (X.^2 - Y.^2).
+  - Generate a 3D surface plot using the surf() function.
+  - Add appropriate labels and a title to the plot.
+  - Display a color bar and change the colormap to "cool".
+
 
 ## Review Questions
 

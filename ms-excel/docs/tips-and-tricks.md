@@ -56,6 +56,13 @@ Here are some examples of how to use Flash Fill:
 - [Video: Flash Fill in Excel](https://youtu.be/0nc8a0HHR1A)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcDDRjXEURQFPQC-A?e=lygGpR)
 
+## Quick Analysis in excel
+
+Quick Analysis in Excel is a powerful tool that helps you explore and visualize your data quickly and easily
+
+[Video: Quick Analysis in Excel](https://youtu.be/2uS9EYZmoio)
+
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

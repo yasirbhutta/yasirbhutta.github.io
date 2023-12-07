@@ -114,11 +114,21 @@ An Excel table is a structured collection of data that is organized in rows and 
 **Data analysis:** Tables include a variety of features that make it easy to analyze your data, such as filters, sorting, and totals.
 **Visualizations:** Tables can be easily converted into charts and other visualizations, which can help you to understand your data more clearly.
 
+[Video: How to Make Tables in Excel: Easy Step-by-Step Guide](https://youtu.be/JYpzqXRoSsg)
+
+**Use slicers to filter data:**
+
+A slicer in Excel is a powerful tool that allows you to filter data in a table or pivot table with ease. It provides a visual and interactive way to explore your data and focus on specific segments.
+
+- [Video: Use slicers to filter data](https://youtu.be/-M85zd1uEVI)
+
 **See also:**
 
 - [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
+- [Create and format tables - Excel Help & Training](https://support.microsoft.com/en-us/office/create-and-format-tables-e81aa349-b006-4f8a-9806-5af9df0ac664)
 - [Total the data in an Excel table - Excel Help & Training](https://support.microsoft.com/en-us/office/total-the-data-in-an-excel-table-6944378f-a222-4449-93d8-474386b11f20)
 - [Use calculated columns in an Excel table - Microsoft Support](https://support.microsoft.com/en-us/office/use-calculated-columns-in-an-excel-table-873fbac6-7110-4300-8f6f-aafa2ea11ce8)
+- [Use slicers to filter data - Excel Help & Training](https://support.microsoft.com/en-us/office/use-slicers-to-filter-data-249f966b-a9d5-4b0f-b31a-12651785d29d)
 
 ## True/False (Mark T for True and F for False)
 
@@ -140,4 +150,3 @@ An Excel table is a structured collection of data that is organized in rows and 
 
 [^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
 [^2]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
-
