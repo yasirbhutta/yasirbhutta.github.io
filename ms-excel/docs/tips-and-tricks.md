@@ -77,6 +77,16 @@ Formulas with cell references can be difficult to understand, especially for com
 - [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
 - [Names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/names-in-formulas-fc2935f9-115d-4bef-a370-3aa8bb4c91f1)
 
+### Gridlines on a worksheet
+
+#### Show or hide gridlines on a worksheet
+
+**See also:**
+
+- [Show or hide gridlines on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/show-or-hide-gridlines-on-a-worksheet-3ef5aacb-4539-4ad5-9945-5ed53772dc4d)
+- [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)
+
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
