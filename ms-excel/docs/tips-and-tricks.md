@@ -58,20 +58,32 @@ Here are some examples of how to use Flash Fill:
 
 ## Quick Analysis in excel
 
-Quick Analysis in Excel is a powerful tool that helps you explore and visualize your data quickly and easily
+Quick Analysis in Excel is a powerful tool that helps you explore and visualize your data quickly and easily.
 
-[Video: Quick Analysis in Excel](https://youtu.be/2uS9EYZmoio)
+- [Video: Quick Analysis in Excel](https://youtu.be/2uS9EYZmoio)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcckn3jIhGpSkVGmw?e=4ye3sw)
 
+## Define and use names in formulas
+
+By using names, you can make your formulas much easier to understand and maintain. You can define a name for a cell range, function, constant, or table.[^1]
+
+Formulas with cell references can be difficult to understand, especially for complex calculations. Using names for cell ranges or tables makes them much easier to understand, especially for others using your workbook.
+
+- [Video: Define and use names in formulas - Learn the Basics Quickly](https://youtu.be/-GJzZ2588qU)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcbykRuA7MfWzyBBg?e=8yOOhL)
+
+**See also:**
+
+- [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
+- [Names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/names-in-formulas-fc2935f9-115d-4bef-a370-3aa8bb4c91f1)
 
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
 
-## Exercises
+## Practical Exercises
 
 ## Review Questions
-
-## References
 
 ## Social Links
 
@@ -80,3 +92,7 @@ Quick Analysis in Excel is a powerful tool that helps you explore and visualize 
 - [Youtube](https://www.youtube.com/yasirbhutta)
 - [Facebook](https://www.facebook.com/yasirbhutta786)
 - [Twitter](https://twitter.com/yasirbhutta)
+
+## References
+
+[^1:] [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
