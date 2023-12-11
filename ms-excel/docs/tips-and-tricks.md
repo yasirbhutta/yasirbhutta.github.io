@@ -81,11 +81,6 @@ Formulas with cell references can be difficult to understand, especially for com
 
 #### Show or hide gridlines on a worksheet
 
-**See also:**
-
-- [Show or hide gridlines on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/show-or-hide-gridlines-on-a-worksheet-3ef5aacb-4539-4ad5-9945-5ed53772dc4d)
-- [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)
-
 
 ## True/False (Mark T for True and F for False)
 

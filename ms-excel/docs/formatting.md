@@ -309,17 +309,15 @@ The selected picture is repeated to fill the sheet.
 - Click the worksheet that is displayed with a sheet background. Make sure that only one worksheet is selected.
 - On the Page Layout tab, in the Page Setup group, click Delete Background.
 
-### Show or hide gridlines on a Worksheet
+### Gridlines on a Worksheet
 
-- Gridlines are the faint lines that appear around cells in Excel 2007. They are used to distinguish cells on the worksheet.
+- Gridlines are the faint lines that appear around cells in Excel. They are used to distinguish cells on the worksheet.
 
-#### Change the color of gridlines in a worksheet - Windows
+[Video: Excel Gridlines - Show, Hide, Change Color](https://youtu.be/UNqY5ebh-uA)
 
-- Click the Microsoft Office Button , and then click Excel Options. 
-- In the Advanced category, under Display options for this worksheet, make sure that the Show gridlines check box is selected. 
-In the Gridline color box, click the color you want.
+#### Show or Hide gridlines on a worksheet
 
-#### Hide gridlines on a worksheet - Windows
+#### Hide gridlines on a worksheet
 
 - Select one or more worksheets.
 - On the View tab, in the Show/Hide group, clear the Gridlines check box.
@@ -328,6 +326,18 @@ In the Gridline color box, click the color you want.
 
 - Select one or more worksheets.
 - On the View tab, in the Show/Hide group, select the Gridlines check box.
+
+#### Change the color of gridlines in a worksheet
+
+- Click the Microsoft Office Button, and then click Excel Options.
+- In the Advanced category, under Display options for this worksheet, make sure that the Show gridlines check box is selected. 
+In the Gridline color box, click the color you want.
+
+**See also:**
+
+- [Show or hide gridlines on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/show-or-hide-gridlines-on-a-worksheet-3ef5aacb-4539-4ad5-9945-5ed53772dc4d)
+- [Change the color of gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-gridlines-in-a-worksheet-980f3978-91d1-4ff6-bd12-a17c1b5b12ed)
+- [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)
 
 ## Review Questions
 
@@ -504,7 +514,15 @@ In the Gridline color box, click the color you want.
 - What is the purpose of the Font dialog box?
 - How can you access the Format Cells dialog box in Excel to apply custom formatting?
 
-## References
+## Social Links
+
+- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
+- [Web](https://yasirbhutta.github.io/)
+- [Youtube](https://www.youtube.com/yasirbhutta)
+- [Facebook](https://www.facebook.com/yasirbhutta786)
+- [Twitter](https://twitter.com/yasirbhutta)
+
+## References and Bibliography
 
 [^1]: [WhatTheFont](https://www.myfonts.com/pages/whatthefont)
 [^2]: [Font size - Computer Hope](https://www.computerhope.com/jargon/f/font-size.htm)
@@ -522,10 +540,4 @@ In the Gridline color box, click the color you want.
 [14^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
 [15^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)
 
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+[Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
