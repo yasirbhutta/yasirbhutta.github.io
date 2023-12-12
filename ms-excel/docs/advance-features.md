@@ -1,5 +1,7 @@
 # Excel
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
+
 ## Advance Features in Excel
 
 [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/advance-features.pdf)

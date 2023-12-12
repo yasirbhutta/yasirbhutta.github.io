@@ -1,5 +1,7 @@
 # [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
+
 - [Download PDF](https://yasirbhutta.github.io/matlab/docs/functions.pdf)  
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/graphics.html](https://yasirbhutta.github.io/matlab/docs/functions.html)
@@ -122,6 +124,11 @@ The variable `minVal` will now contain the value 1.
 ## Multiple Choice (Select the best answer)
 
 ## Exercises
+
+- Write a function sum3(num1,num3,num3) that takes three numbers as input and returns the sum.
+- Write a function sumSquares(x) that takes a vector of numbers as input and returns the sum of their squares.
+- Write a function isEven(x) that takes a number as input and returns true if it is even, and false otherwise.
+- Write a function avgPositive(data) that takes a list of numbers as input and returns the average of all positive numbers in the list.
 
 ## Review Questions
 

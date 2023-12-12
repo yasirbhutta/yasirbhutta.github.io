@@ -1,5 +1,7 @@
 # Microsoft Excel - Microsoft 365
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
+
 ## Formulas in Excel
 
 - [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.pdf)
@@ -450,14 +452,14 @@ The result, 150, should appear in cell A3.
 - In cell A5, enter a number (e.g., 15), and in cell B5, enter another number (e.g., 6).
 - In cell C5, use the formula `=(A5 + B5) * (A5 - B5)` to perform addition and subtraction inside parentheses before multiplying.
 
-**Exercise 10: Discount calculation**
+**Exercise 10:** Discount calculation
 
 - In cell A1, enter the total sales amount, e.g., 5000.
 - In cell A2, enter the percentage discount, e.g., 10%.
 - In cell B1, calculate the discount amount using the formula `=A1 * A2`.
 - In cell B2, calculate the final discounted price using the formula `=A1 - B1`.
 
-**Exercise 11: Discount calculation**
+**Exercise 11:** Discount calculation
 
 - In cell A12, enter the original price (e.g., 50), and in cell B12, enter the discount percentage (e.g., 20%).
 - In cell C12, use the formula `=A12 - (A12 * B12)` to calculate the discounted price.
@@ -476,15 +478,7 @@ The result, 150, should appear in cell A3.
 10. What is the PEMDAS order of operations?
 11. What is the basic structure of a formula in Excel?
 
-## References
+## References and Bibliography
 
 - [^1:] [Calculation operators and precedence in Excel](https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a)
 - [^2] [Implicit intersection operator: @](https://support.microsoft.com/en-us/office/implicit-intersection-operator-ce3be07b-0101-4450-a24e-c1c999be2b34)
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)

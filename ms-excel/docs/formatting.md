@@ -1,11 +1,11 @@
 # Microsoft Excel App: Formatting
 
-[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formatting.pdf)
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-To access the updated handouts, please click on the following link:
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formatting.pdf)
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
-
-[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
@@ -513,14 +513,6 @@ In the Gridline color box, click the color you want.
 - How can you rotate text?
 - What is the purpose of the Font dialog box?
 - How can you access the Format Cells dialog box in Excel to apply custom formatting?
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
 
 ## References and Bibliography
 
