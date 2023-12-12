@@ -1,19 +1,17 @@
-# Excel
+# Microsoft Excel: Tips and Tricks
 
-## Tips and Tricks
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.pdf)
-
-To access the updated handouts, please click on the following link:
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.pdf)
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.html](https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.html)
+- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
-[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
-
-### Transpose (rotate) data from rows to columns or vice versa
+## Transpose (rotate) data from rows to columns or vice versa
 
 Transposing data is the process of switching data from rows to columns or vice versa. This is often done to make the data easier to read or to improve the layout of a spreadsheet.
 
-#### How to Transpose Data in Excel
+### How to Transpose Data in Excel
 
 There are two main ways to transpose data in Excel:
 
@@ -85,14 +83,6 @@ Formulas with cell references can be difficult to understand, especially for com
 
 ## Review Questions
 
-## Social Links
+## References and Bibliography
 
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
-
-## References
-
-[^1:] [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
+- [^1:] [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)

@@ -106,11 +106,11 @@ An Excel table is a structured collection of data that is organized in rows and 
 
 **Benefits of using Excel tables:**
 
-**Structured data:** Tables make it easy to organize and manage data in a structured way. This makes it easy to find and analyze the data you need.
-**Automatic formatting:** Tables automatically apply formatting to your data, making it easy to read and understand.
-**Data integrity:** Tables automatically protect your data from errors, such as accidental deletions or changes.
-**Data analysis:** Tables include a variety of features that make it easy to analyze your data, such as filters, sorting, and totals.
-**Visualizations:** Tables can be easily converted into charts and other visualizations, which can help you to understand your data more clearly.
+- **Structured data:** Tables make it easy to organize and manage data in a structured way. This makes it easy to find and analyze the data you need.
+- **Automatic formatting:** Tables automatically apply formatting to your data, making it easy to read and understand.
+- **Data integrity:** Tables automatically protect your data from errors, such as accidental deletions or changes.
+- **Data analysis:** Tables include a variety of features that make it easy to analyze your data, such as filters, sorting, and totals.
+- **Visualizations:** Tables can be easily converted into charts and other visualizations, which can help you to understand your data more clearly.
 
 [Video: How to Make Tables in Excel: Easy Step-by-Step Guide](https://youtu.be/JYpzqXRoSsg)
 
@@ -135,16 +135,8 @@ A slicer in Excel is a powerful tool that allows you to filter data in a table o
 ## Exercises
 
 ## Review Questions
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
   
-## References
+## References and Bibliography
 
-[^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
-[^2]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
+- [^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
+- [^2]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
