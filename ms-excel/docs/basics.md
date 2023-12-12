@@ -1,15 +1,11 @@
-# Microsoft Excel - Microsoft 365
+# Microsoft Excel: Basics
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-## Microsoft Excel: Basics
-
-[Download PDF](https://yasirbhutta.github.io/ms-excel/docs/basics.pdf)
-
-**To access the updated handouts, please click on the following link:**
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/basics.pdf)
+- **To access the updated handouts, please click on the following link:**
 [https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
-
-[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
 ## Module 1: Introduction to Excel
 
