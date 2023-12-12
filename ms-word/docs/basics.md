@@ -1,8 +1,12 @@
 # Microsoft Word - Microsoft 365
 
-Updated on: 24-Dec-2022
-
 ## Microsoft Word - Basics
+
+- [Slides: Basics](https://docs.google.com/presentation/d/138bNXKPcVcxXlqbLDA4aUjn54owi1aC8PemkBnRwkqw/edit?usp=sharing)
+- [Download: Handouts PDF](#)
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/matlab/docs/flow-control.html](#)
+
 
 ### Word Processor
 
