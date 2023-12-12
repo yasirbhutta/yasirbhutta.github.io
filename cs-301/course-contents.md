@@ -45,6 +45,14 @@
 
 ### [Microsoft Word](../ms-word/index.md)
 
+- [Microsoft Word Basics](../ms-word/docs/basics.md)
+- [Character Formatting](../ms-word/docs/character-formatting.md)
+- [Paragraph Formatting](../ms-word/docs/paragraph-formatting.md)
+- [Text Editing in Documents](../ms-word/docs/stylish.md)
+- [Stylish Formatting & Features](../ms-word/docs/stylish.md)
+- [Page Formatting](../ms-word/docs/page-formatting.md)
+
+
 - [Microsoft Powerpoint](#)
 
 ## Social Links

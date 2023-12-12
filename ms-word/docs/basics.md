@@ -7,7 +7,6 @@
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/flow-control.html](#)
 
-
 ### Word Processor
 
 - Word processor is a type of application software that used to create all kinds of text documents.
