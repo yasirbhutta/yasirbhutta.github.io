@@ -8,10 +8,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Functions
 
-H~2~O
-X^2^
-
-A ==function== is a self-contained block of code that performs a specific task and can be called upon multiple times within your program. In MATLAB, functions can be defined using the function keyword followed by the function name, input arguments (optional), output arguments (optional), and the function body. Here's the basic structure:
+A function is a self-contained block of code that performs a specific task and can be called upon multiple times within your program. In MATLAB, functions can be defined using the function keyword followed by the function name, input arguments (optional), output arguments (optional), and the function body. Here's the basic structure:
 
 ```matlab
 function [output_arguments] = function_name(input_arguments)
@@ -36,7 +33,7 @@ end
 
 **Example - Simple function to square a number:**
 
-```MATLAB
+```matlab
 function square(x)
   result = x * x;
 end
@@ -44,7 +41,7 @@ end
 
 This function takes a number as input and returns its square. You can call the function like this:
 
-```MATLAB
+```matlab
 y = square(5);
 ```
 
@@ -52,7 +49,7 @@ The variable `y` will now contain the value 25.
 
 **Example - Function to calculate the area of a rectangle:**
 
-```MATLAB
+```matlab
 function area = rectangleArea(width, height)
   area = width * height;
 end
@@ -60,7 +57,7 @@ end
 
 This function takes the width and height of a rectangle as inputs and returns its area. You can call the function like this:
 
-```MATLAB
+```matlab
 area = rectangleArea(3, 4);
 ```
 
@@ -68,7 +65,7 @@ The variable `area` will now contain the value 12.
 
 **Example - Function to convert Celsius to Fahrenheit:**
 
-```MATLAB
+```matlab
 function fahrenheit = celsiusToFahrenheit(celsius)
   fahrenheit = (celsius * 9/5) + 32;
 end
@@ -76,7 +73,7 @@ end
 
 This function takes a temperature in Celsius as input and returns the equivalent temperature in Fahrenheit. You can call the function like this:
 
-```MATLAB
+```matlab
 fahrenheit = celsiusToFahrenheit(20);
 ```
 
@@ -84,7 +81,7 @@ The variable `fahrenheit` will now contain the value 68.
 
 **Example - Calculates the area of a circle:**
 
-```matalb
+```matlab
 function area = circle_area(radius)
   % Calculate the area of a circle
   area = pi * radius^2;
@@ -102,7 +99,7 @@ disp(['The area of the circle is:', num2str(my_area)]);
 
 **4. Function to find the minimum value in a list:**
 
-```MATLAB
+```matlab
 function minValue = findMin(data)
   minValue = data(1);
   for i = 2:length(data)
@@ -115,7 +112,7 @@ end
 
 This function takes a list of numbers as input and returns the smallest number in the list. You can call the function like this:
 
-```MATLAB
+```matlab
 data = [5, 1, 8, 3];
 minVal = findMin(data);
 ```
