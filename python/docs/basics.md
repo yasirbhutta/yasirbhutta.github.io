@@ -1,13 +1,12 @@
-# Python
+# Python: Language Basics
 
-## Python Language Basics
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-[Download PDF](https://yasirbhutta.github.io/python/docs/basics.pdf)
-
-**To access the updated handouts, please click on the following link:**
+- [Download PDF](https://yasirbhutta.github.io/python/docs/basics.pdf)
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
 
-### [Language Introduction]
+## [Language Introduction]
 
 - Python is a high-level, general-purpose programming language.
 - It is known for its clear syntax, readability, and versatility.
@@ -31,6 +30,8 @@ sep: The separator to use between objects. The default separator is a space.
 end: The character or string to print at the end of the output. The default is a newline character (\n).
 file: The file to write the output to. The default is the console.
 flush: Whether to flush the output buffer immediately. The default is False.
+
+[Video: Use of print() function in python](https://youtu.be/RSSSyqw79_M)
 
 #### Example 1
 
@@ -138,12 +139,4 @@ Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-
 
 ## Review Questions
 
-## References
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+## References and Bibliography
