@@ -8,7 +8,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Functions
 
-A function is a self-contained block of code that performs a specific task and can be called upon multiple times within your program. In MATLAB, functions can be defined using the function keyword followed by the function name, input arguments (optional), output arguments (optional), and the function body. Here's the basic structure:
+H~2~O
+X^2^
+
+A ==function== is a self-contained block of code that performs a specific task and can be called upon multiple times within your program. In MATLAB, functions can be defined using the function keyword followed by the function name, input arguments (optional), output arguments (optional), and the function body. Here's the basic structure:
 
 ```matlab
 function [output_arguments] = function_name(input_arguments)
@@ -157,4 +160,4 @@ Enter an integer: 4
 
 ## References and Bibliography
 
-- [Declare function name, inputs, and outputs - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/function.html#d126e545467)
+- [Declare function name, inputs, and outputs - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/function.html)
