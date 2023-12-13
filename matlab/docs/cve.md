@@ -1,4 +1,6 @@
-# Matlab - Constants, Variables and Expressions
+# MATLAB for Beginners - Constants, Variables and Expressions
+
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
 ## Operators
 
@@ -224,6 +226,14 @@ f = factorial(n) returns the product of all positive integers less than or equal
 
 The factorial of n is commonly written in math notation using the exclamation point character as n!. Note that n! is not a valid MATLAB® syntax for calculating the factorial of n. [^1]
 
-## References
+## True/False (Mark T for True and F for False)
 
-[^1]: [Factorial of input - MATLAB factorial - MathWorks](https://www.mathworks.com/help/matlab/ref/factorial.html)
+## Multiple Choice (Select the best answer)
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography
+
+- [^1]: [Factorial of input - MATLAB factorial - MathWorks](https://www.mathworks.com/help/matlab/ref/factorial.html)
