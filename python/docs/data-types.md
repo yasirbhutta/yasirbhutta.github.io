@@ -1,8 +1,12 @@
-# Python
+# Python: Data Types
 
-## Python Data Types
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-### Scalar Types
+- [Download PDF](https://yasirbhutta.github.io/python/docs/data-types.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
+
+## Scalar Types
 
 ### str
 
@@ -10,7 +14,7 @@
 - [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
 - [String swapcase() Method](https://www.youtube.com/watch?v=Lj-LxOx3HBI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26)
 
->### [Python Quiz -String](https://forms.gle/jqt6TRSumvZQgahA8)
+- [Python Quiz -String](https://forms.gle/jqt6TRSumvZQgahA8)
 
 ### int
 
@@ -36,7 +40,7 @@
 
 - [Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
 
->### [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
+- [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
 
 ## True/False (Mark T for True and F for False)
 
@@ -46,12 +50,6 @@
 
 ## Review Questions
 
-## References
+## References and Bibliography
 
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+- [Built-in Types - Python 3.12.1 documentation](https://docs.python.org/3/library/stdtypes.html)
