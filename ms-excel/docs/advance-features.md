@@ -21,7 +21,7 @@ Conditional formatting is a feature in Microsoft Excel that allows you to highli
 - [Video: Use conditional formatting - Microsoft Support](https://support.microsoft.com/en-us/office/video-use-conditional-formatting-03ab07da-1564-4913-b69f-2b1a370c8910)
 - [Conditional Formatting - Excel Easy](https://www.excel-easy.com/data-analysis/conditional-formatting.html)
 
-## Data Validation
+## Data Validation {#data-validation}
 
 Data validation is a feature in Microsoft Excel that allows you to restrict the type of data or the values that users enter into a cell. You can use data validation to create a dropdown list, restrict the length of the text, or limit the cell to accept only whole numbers or decimal numbers, among other things.
 
