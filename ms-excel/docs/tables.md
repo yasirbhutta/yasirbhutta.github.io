@@ -46,4 +46,4 @@ A slicer in Excel is a powerful tool that allows you to filter data in a table o
 
 ## References and Bibliography
 
--[^1]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
+[^1]: [Overview of Excel tables - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c)
