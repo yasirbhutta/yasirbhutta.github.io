@@ -55,6 +55,8 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ## Enter data manually in worksheet cells
 
+[Video: How to: Enter data manually in worksheet cells | Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
+
 ### Number as Text
 
 - A single quote (or an apostrophe) is used to signify Text in Excel. 
@@ -69,9 +71,9 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
   
 **Tip:** To enter the current time, press CTRL+SHIFT+; (semicolon).
 
-[Video Tutorial: How to: Enter data manually in worksheet cells | Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
-
 ## Managing Sheet
+
+[Video: How to Manage Worksheets in excel](https://youtu.be/4_WTHBDiAe0)
 
 ### Insert a new worksheet
 
@@ -254,6 +256,6 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 4. How do you hide a worksheet?
 5. How do you unhide a worksheet?
 
-## References
+## References and Bibliography
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)

@@ -578,6 +578,28 @@ This code will create a cylinder with a height of 20 and a radius of 50. The cyl
 
 #### contour and contour3
 
+**Example:**
+
+```matlab
+[X,Y] = meshgrid(-2:.2:2,-2:.2:3);
+Z = X.*exp(-X.^2-Y.^2);
+
+contour(X,Y,Z);
+colormap jet;
+```
+
+**Example:**
+
+```matlab
+[X,Y] = meshgrid([-2:.25:2]);
+Z = X.*exp(-X.^2-Y.^2);
+contour3(X,Y,Z,30)
+surf(X,Y,Z)
+
+view(-15,25);
+colormap cool;
+```
+
 #### 3D Cone Using surf and meshgrid:
 
 This method involves creating two matrices, one for the radius of the cone at different heights and another for the angle. Then, you use meshgrid to combine these matrices into 3D grids and use surf to plot the surface.
@@ -597,6 +619,71 @@ xlabel("x axis");
 ylabel("y axis");
 zlabel("z axis")
 ```
+
+## Quadric Surface
+
+**Example:** Plot quadric surface with the equation yz=1
+�
+```matlab
+
+% Define the grid
+[x, y] = meshgrid(-10:0.1:10, -10:0.1:10);
+
+% Define the height of the surface
+z = 1./y;
+
+% Create the surface plot
+mesh(x, y, z);
+
+% Set axis labels
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+
+% Set the view for better visualization
+view(45, 30);
+
+% Title of the plot
+title('Quadric Surface: yz = 1');
+
+% Set color map
+colormap("cool");
+
+% Display a colorbar
+colorbar;
+
+```
+
+**Example:** Plot quadric surface with the equation x^2 + 4*y^2
+
+```matlab
+% Generate meshgrid
+[X, Y] = meshgrid(-2:0.1:2, -1:0.1:1);
+
+% Calculate z values based on the function
+Z = X.^2 + 4*Y.^2;
+
+% Create the surface plot
+surf(X, Y, Z);
+
+% Set axis labels and title
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+
+title('Quadric Surface: x^2 + 4*y^2');
+
+% Adjust lighting and shading for better visualization
+lighting gouraud;
+shading interp;
+
+% Rotate the plot for a better view (optional)
+view(45, 20);
+```
+
+**See also:**
+
+- [MATLAB Function Reference - northwestern.edu](http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/func_b41.html)
 
 ## True/False (Mark T for True and F for False)
 
@@ -948,17 +1035,10 @@ A 2D plot is used to visualize data that has two dimensions, such as height and 
 
 - What does the hold function do in MATLAB?
 
-## References
+## References and Bibliography
 
 - [^1:] [Categorical Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlab/categorical-arrays.html)
 - [MATLAB Graphics](https://www.mathworks.com/help/matlab/graphics.html)
 - [MATLAB: Plotting - tutorialspoint](https://www.tutorialspoint.com/matlab/matlab_plotting.htm)
 - [Statistics: Power from Data! - Statistics Canada](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm)
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+- [Quadric Surfaces - LibreText](https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/12%3A_Vectors_in_Space/12.06%3A_Quadric_Surfaces)

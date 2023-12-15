@@ -30,6 +30,8 @@ Data validation is a feature in Microsoft Excel that allows you to restrict the 
 
 **See also:**
 
+- [Video: Unique Drop Down Lists that Automatically Update with New Values](https://youtu.be/VkzkMEEI3K0)
+  - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcvDG4OpnUKOD1odg?e=1OF6ik)
 - [Apply data validation to cells - Microsoft Support](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)
 - [More on data validation - Microsoft Support](https://support.microsoft.com/en-us/office/more-on-data-validation-f38dee73-9900-4ca6-9301-8a5f6e1f0c4c)
 - [Excel Data Validation Guide - EXCELJET](https://exceljet.net/articles/excel-data-validation-guide)
