@@ -1,6 +1,8 @@
-# Learning Roadmap for Microsoft Excel
+# Learn Microsoft Excel
 
-[Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
+- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
 [Excel video Training](../video-training-excel.md)
 
@@ -26,6 +28,10 @@
 - [Handouts - Functions in excel](docs/functions.md)
 - [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
   
+## Tables
+
+- [Handouts - Tables](docs/tables.md)
+
 ## Tips and Tricks
 
 - [Handouts - Excel Tips and Tricks](docs/tips-and-tricks.md)
@@ -37,8 +43,6 @@
 ## Charts
 
 - [Slides](https://docs.google.com/presentation/d/1mwoqCXAtQsQ7cdvLuVIv0y1qBwSwsOBCeqeWJ4i1Wps/)
-
-## Tables
 
 ## Share & co-author
 
