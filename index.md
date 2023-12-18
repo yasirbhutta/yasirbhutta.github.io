@@ -6,12 +6,15 @@
   
 ## Courses
 
-- [Getting started with Python](python/)
-- [Matlab for Beginners](matlab/index.md)
-- [Microsoft 365 Mobile App](ms365-mobile-app/index.md)
-- [Microsoft Excel](ms-excel/index.md)
-- [Getting started with PowerPoint](ms-powerpoint/docs/index.md)
+- Microsoft 365
+  - [Microsoft Excel](ms-excel/index.md)
+  - [Microsoft Word](ms-word/index.md)
+  - [Microsoft PowerPoint](ms-powerpoint/docs/index.md)
+- Coding
+  - [Getting started with Python](python/)
+  - [Matlab for Beginners](matlab/index.md)
+  - [Web Development](web-dev/index.md)
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
-- [Web Development](web-dev/index.md)
-- [Google](google/docs/index.md)
+- Google Workspace
+  - [Google](google/docs/index.md)
   
