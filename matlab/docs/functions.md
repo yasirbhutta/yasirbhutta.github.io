@@ -151,6 +151,9 @@ Enter an integer: 4
 4 * 10 = 40
 ```
 
+- Write a function `findMax(data)` that takes a list of numbers as input and returns the maximum value in the list.
+- Write a function `findSum(data)` that takes a list of numbers as input and returns the sum of allthe numbers in the list.
+- Write a function `findProduct(data)` that takes a list of numbers as input and returns the product of all the numbers in the list.
 - Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
 
 ## Review Questions

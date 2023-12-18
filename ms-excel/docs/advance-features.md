@@ -102,7 +102,14 @@ Types of Filters in Excel
 
 ## Additional Topics
 
+### Excel Labs
 
+**See Also:**
+
+- [Excel Labs, a Microsoft Garage project](https://appsource.microsoft.com/en-us/product/office/wa200003696?tab=overview)
+- [A new way to debug formulas from Excel Labs](https://techcommunity.microsoft.com/t5/excel-blog/a-new-way-to-debug-formulas-from-excel-labs/ba-p/4003231)
+- [Advanced Formula Environment is becoming Excel Labs, a Microsoft Garage Project!](https://techcommunity.microsoft.com/t5/excel-blog/advanced-formula-environment-is-becoming-excel-labs-a-microsoft/ba-p/3736518)
+  
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
@@ -113,5 +120,6 @@ Types of Filters in Excel
   
 ## References and Bibliography
 
-- [^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
+- [The Microsoft Garage](https://www.microsoft.com/en-us/garage/)
 
+[^1]: [Set or clear a print area on a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/set-or-clear-a-print-area-on-a-worksheet-27048af8-a321-416d-ba1b-e99ae2182a7e)
