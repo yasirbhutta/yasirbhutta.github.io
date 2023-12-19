@@ -63,9 +63,8 @@ there are two more sub-layers of the primary storage, besides main large-capacit
 - Provides large capacity (250GB, 320GB, 500GB ,750GB, 1TB, 2TB and more.)
 - It is primary media for storing data and programs.
 
-![hard disk](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Laptop-hard-drive-exposed_remix_transparent.png/512px-Laptop-hard-drive-exposed_remix_transparent.png)
-
-Image source: [File:Laptop-hard-drive-exposed.jpg by Evan-AmosDerivative work: AGreuet (talk · contribs), CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Laptop-hard-drive-exposed_remix_transparent.png)
+![hard disk](images/harddisk.jpg)
+Image by: [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm">Freepik)
 
 **See also:**
 
@@ -79,6 +78,9 @@ Image source: [File:Laptop-hard-drive-exposed.jpg by Evan-AmosDerivative work: A
 - They are used for copying or carrying data from one machine to the other.
 - Floppies are commonly found in two sizes namely 5.1/4“ and 3.5”
 
+![floppy disk](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Floppy_disk_%28back%29.jpg/512px-Floppy_disk_%28back%29.jpg)
+Image by: [Ivan Radic, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Floppy_disk_(back).jpg)
+
 #### Flash memory devices
 
 Flash memory devices use `electronic circuits` to store data. These devices include USB flash drives, solid-state drives (SSDs), and SD cards.
@@ -88,6 +90,9 @@ Flash memory devices use `electronic circuits` to store data. These devices incl
 - A solid-state drive (SSD) is a new generation of storage device that replaces a traditional hard disk drive (HDD).
 - SSDs use flash memory, which is much faster than the magnetic platters used in HDDs.
 - This makes SSDs ideal for applications that require fast access to data, such as operating systems, applications, and games.
+
+![ssd](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2017_Dysk_SSD_ADATA_SX900_128GB.jpg/512px-2017_Dysk_SSD_ADATA_SX900_128GB.jpg)
+Image by: Jacek Halicki, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
   
 SSDs also have a number of other advantages over HDDs, including:
 
@@ -110,13 +115,15 @@ Here are some of the things you can do with an SSD:
 - USB flash drives are small and portable, and they can be used to store a variety of data, including documents, photos, and music.
 - Storage capacities can range from 8 GB to 2 TB with steady improvements in size and price per capacity.
 
+![usb flash drive](images/usb_flash_drive_512x.jpg)
+
 ##### SD cards
 
 SD cards are a type of flash memory card that is used in digital cameras and other devices.
 
-Virtual Memory
-When your computer is running low on RAM and more is needed immediately, Windows uses hard drive space to simulate system RAM. This is known as virtual memory, and is often called the paging file. 
-The default size of the virtual memory page file (named pagefile.sys) created during installation is 1.5 times the amount of RAM on your computer.
+![sd card](images/sd_card.jpg)
+
+Image by:[]"https://www.freepik.com/free-vector/chip_2921376.htm#query=sd%20card&position=4&from_view=search&track=ais&uuid=e68beed9-6211-4599-b0c9-0cd2bbb9d538">Image by rawpixel.com</a> on Freepik
 
 #### Optical storage devices
 

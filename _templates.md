@@ -27,3 +27,17 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## Review Questions
 
 ## References and Bibliography
+
+Folders
+
+images: for images
+Image by: [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm">Freepik)
+
+docs: handouuts for pages
+
+Images
+
+Sizes
+small: 256 width
+large: 512 width
+

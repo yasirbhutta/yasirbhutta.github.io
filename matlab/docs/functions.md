@@ -31,7 +31,28 @@ end
 
 **Important:** This declaration statement must be the first executable line of the function. Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores.
 
-**Example - Simple function to square a number:**
+**Example #1:** Addition Function
+
+```matlab
+% This function adds two numbers together and returns the sum.
+function sumResult = addNumbers(a, b)
+    % Define the input arguments:
+    % - a: The first number to be added (numerical value)
+    % - b: The second number to be added (numerical value)
+    
+    % Perform addition and store the result in a variable.
+    sumResult = a + b;
+end
+```
+
+This function takes two numbers as input and returns their sum. You can call the function like this:
+
+```matlab
+y = AddNumbers(4,9);
+disp(y);
+```
+
+**Example #2:** Simple function to square a number
 
 ```matlab
 function result = square(x)
@@ -43,11 +64,12 @@ This function takes a number as input and returns its square. You can call the f
 
 ```matlab
 y = square(5);
+disp(y);
 ```
 
 The variable `y` will now contain the value 25.
 
-**Example - Function to calculate the area of a rectangle:**
+**Example #3:** Function to calculate the area of a rectangle
 
 ```matlab
 function area = rectangleArea(width, height)
@@ -63,7 +85,63 @@ area = rectangleArea(3, 4);
 
 The variable `area` will now contain the value 12.
 
-**Example - Function to convert Celsius to Fahrenheit:**
+**Example #4:** Area of a Triangle
+
+```matlab
+function area = calculateTriangleArea(base, height)
+    % Calculates the area of a triangle given its base and height
+    
+    area = 0.5 * base * height;
+end
+```
+
+**Example #5:** Calculates the area of a circle
+
+```matlab
+function area = circle_area(radius)
+  % Calculate the area of a circle
+  area = pi * radius^2;
+end
+```
+
+You can call the function like this:
+
+```matlab
+% Example usage
+radius = 5;
+my_area = circle_area(radius);
+dispg(['The area of the circle is:', num2str(my_area)]);
+```
+
+**Example #6:** Area and Perimeter of a Rectangle
+
+```matlab
+function [area, perimeter] = rectangleProperties(length, width)
+    % Calculates the area and perimeter of a rectangle
+    
+    % Area
+    area = length * width;
+    
+    % Perimeter
+    perimeter = 2 * (length + width);
+    
+    % Display results
+    fprintf('Area: %f\n', area);
+    fprintf('Perimeter: %f\n', perimeter);
+end
+```
+
+**Example #7:** Power Function
+
+```matlab
+function result = powerFunction(base, exponent)
+    % Calculates the power of a number
+    
+    result = base ^ exponent;
+end
+```
+
+**Example #8:** Function to convert Celsius to Fahrenheit
 
 ```matlab
 function fahrenheit = celsiusToFahrenheit(celsius)
@@ -79,25 +157,47 @@ fahrenheit = celsiusToFahrenheit(20);
 
 The variable `fahrenheit` will now contain the value 68.
 
-**Example - Calculates the area of a circle:**
+**Example #9:** positive or negative number
+
+function takes a number as input and returns a string indicating whether it is positive, negative, or zero.
 
 ```matlab
-function area = circle_area(radius)
-  % Calculate the area of a circle
-  area = pi * radius^2;
+function output = positive_or_negative(x)
+  % This function determines whether a number is positive, negative, or zero.
+  %
+  % Args:
+  %   x: A number (integer or float).
+  %
+  % Returns:
+  %   A string indicating whether the number is positive, negative, or zero.
+
+  if x > 0
+    output = 'positive';
+  elseif x < 0
+    output = 'negative';
+  else
+    output = 'zero';
+  end
 end
 ```
 
-You can call the function like this:
+Code Explanation:
+
+1. Takes a single input argument x, which can be any numeric type.
+2. Uses an if statement to check the value of x:
+   - If x is greater than 0, the function returns the string "positive".
+   - If x is less than 0, the function returns the string "negative".
+   - Otherwise, the function returns the string "zero".
+
+Example Usage:
 
 ```matlab
-% Example usage
-radius = 5;
-my_area = circle_area(radius);
-disp(['The area of the circle is:', num2str(my_area)]);
+number = 5;
+result = positive_or_negative(number);
+disp(result); % This will print "positive"
 ```
 
-**4. Function to find the minimum value in a list:**
+**Example #10:** Function to find the minimum value in a list:**
 
 ```matlab
 function minValue = findMin(data)
@@ -118,6 +218,93 @@ minVal = findMin(data);
 ```
 
 The variable `minVal` will now contain the value 1.
+
+## Intermediate
+
+**Example #11:** Factorial Calculator
+
+```matlab
+function fact = factorialCalc(n)
+    % Calculates the factorial of a non-negative integer
+    
+    if n == 0
+        fact = 1;
+    else
+        fact = 1;
+        for i = 1:n
+            fact = fact * i;
+        end
+    end
+```
+
+**Example #12:** Fibonacci Sequence Generator
+
+```matlab
+function fibSeq = fibonacci(n)
+    % Generates the first n terms of the Fibonacci sequence
+    
+    fibSeq = zeros(1, n);
+    fibSeq(1) = 0;
+    fibSeq(2) = 1;
+    
+    for i = 3:n
+        fibSeq(i) = fibSeq(i-1) + fibSeq(i-2);
+    end
+end
+```
+
+**Example #13:** Least common multiple (LCM)
+
+This function takes two positive integers as input and returns their LCM using the Euclidean algorithm.
+
+```matlab
+function lcm = leastCommonMultiple(a, b)
+  if a == 0 || b == 0
+    lcm = 0;
+  else
+    while b ~= 0
+      tmp = b;
+      b = mod(a, b);
+      a = tmp;
+    end
+    lcm = a;
+  end
+end
+
+```
+
+**Example #14:** Function for Grade Conversion
+
+```matlab
+function grade = grade_converter(score)
+
+if score < 0 || score > 100
+    error('Score must be between 0 and 100');
+end
+
+if score >= 90
+    grade = 'A';
+elseif score >= 80
+    grade = 'B';
+elseif score >= 70
+    grade = 'C';
+elseif score >= 60
+    grade = 'D';
+else
+    grade = 'F';
+end
+
+end
+```
+
+**Example Usage:**
+
+```matlab
+score = 85;
+grade = grade_converter(score);
+
+fprintf('Score: %d, Grade: %s', score,grade)
+```
 
 ## True/False (Mark T for True and F for False)
 
