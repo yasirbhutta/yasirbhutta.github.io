@@ -34,7 +34,7 @@ end
 **Example - Simple function to square a number:**
 
 ```matlab
-function square(x)
+function result = square(x)
   result = x * x;
 end
 ```

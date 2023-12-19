@@ -3,6 +3,7 @@
 - [Python Online Course](python-courses.md)
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
+- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
 ## Python Learning Path for Beginners
 

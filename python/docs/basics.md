@@ -16,7 +16,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### How To Use Print() Function in Python
 
-- The print() function is one of the most fundamental and versatile functions in Python.
 - It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.
 
 Here is the basic syntax of the print() function:

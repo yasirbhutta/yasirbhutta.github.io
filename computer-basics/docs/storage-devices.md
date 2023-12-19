@@ -1,36 +1,33 @@
-# Computer Basics
+# Computer Basics: Computer Data Storage Devices
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-## Computer Data Storage Devices
-
-[Download PDF](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.pdf)
-
-**To access the updated handouts, please click on the following link:**
+- [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.pdf)
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html)
 
-### Data Storage Device
+## Data Storage Device
 
 - A data storage device is a device for storing information (data).
 
 **Computer data Storage:** Capability of the computer to remember data is called computer data storage or memory.
 
-### Hierarchy of storage
+## Hierarchy of storage
 
 - Primary Storage
 - Secondary Storage
 
-#### Primary storage
+### Primary storage
 
-##### Random Access Memory(RAM)
+#### Random Access Memory(RAM)
 
 - It is also called main memory or Direct Access Memory.
 - A program must be loaded into RAM before execution.
-- It is the only one directly accessible to the CPU. CPU continuously reads instructions stored there and executes them.   
-- RAM is a volatile memory as the information or instructions stored in it will be lost if the power is switched off. 
+- It is the only one directly accessible to the CPU. CPU continuously reads instructions stored there and executes them.
+- RAM is a volatile memory as the information or instructions stored in it will be lost if the power is switched off.
 RAM
 
-##### Processor Cache & Register
+#### Processor Cache & Register
 
 there are two more sub-layers of the primary storage, besides main large-capacity RAM:
 
@@ -38,7 +35,7 @@ there are two more sub-layers of the primary storage, besides main large-capacit
 
 **Processor Cache:** is an intermediate stage between ultra-fast registers and much slower main memory. The data and instructions that are most recently or most frequently used by CPU are stored in cache.
 
-#### Secondary Storage
+### Secondary Storage
 
 - Secondary memory (or secondary storage) is the slowest and cheapest form from primary memory.
 - It cannot be processed directly by the CPU. It must first be copied into primary storage (also known as RAM).
@@ -54,20 +51,44 @@ there are two more sub-layers of the primary storage, besides main large-capacit
 - `Reading:` The process of copying data, instructions or information from storage medium to memory is called reading.
 - `Writing:` The process of copying data, instructions or information from memory to storage medium is called writing.
 
-##### Hard Disk
+#### Magnetic storage devices
+
+- use `magnetic fields` to store data. These devices include hard disk drives (HDDs) and floppy disks.
+
+##### Hard disk drives (HDDs)
 
 - Hard disk is a type of magnetic disk.
 - Several circular disks are coated with a magnetic material.
 - Mostly fixed inside the system unit.
-- Provides large capacity (250GB, 320GB, 500GB ,750GB, 1000GB,2000GB and more.)
+- Provides large capacity (250GB, 320GB, 500GB ,750GB, 1TB, 2TB and more.)
 - It is primary media for storing data and programs.
+
+![hard disk](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Laptop-hard-drive-exposed_remix_transparent.png/512px-Laptop-hard-drive-exposed_remix_transparent.png)
+
+Image source: [File:Laptop-hard-drive-exposed.jpg by Evan-AmosDerivative work: AGreuet (talk · contribs), CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Laptop-hard-drive-exposed_remix_transparent.png)
+
+**See also:**
+
+- [Magnetic storage - Wikipedia](https://en.wikipedia.org/wiki/Magnetic_storage)
+
+#### Floppy Disk
+
+- Floppy disks are a less common type of storage device
+- It is magnetic disc medium.
+- The capacity of floppy disks is 1.44 MB.
+- They are used for copying or carrying data from one machine to the other.
+- Floppies are commonly found in two sizes namely 5.1/4“ and 3.5”
+
+#### Flash memory devices
+
+Flash memory devices use `electronic circuits` to store data. These devices include USB flash drives, solid-state drives (SSDs), and SD cards.
 
 ##### solid-state drive (SSD)
 
 - A solid-state drive (SSD) is a new generation of storage device that replaces a traditional hard disk drive (HDD).
 - SSDs use flash memory, which is much faster than the magnetic platters used in HDDs.
-- This makes SSDs ideal for applications that require fast access to data, such as operating systems, applications, and games. 
-
+- This makes SSDs ideal for applications that require fast access to data, such as operating systems, applications, and games.
+  
 SSDs also have a number of other advantages over HDDs, including:
 
 - They are more resistant to shocks and vibrations.
@@ -84,26 +105,36 @@ Here are some of the things you can do with an SSD:
 - Increase the lifespan of your computer.
 - Reduce noise pollution.
 
+##### USB flash drive
 
-USB flash drive
-USB flash drives are typically removable and rewritable, much smaller than a floppy disk, and most weigh less than an ounce (30 g).
-Storage capacities can range from 64 MB to 256 GB with steady improvements in size and price per capacity.
+- USB flash drives are small and portable, and they can be used to store a variety of data, including documents, photos, and music.
+- Storage capacities can range from 8 GB to 2 TB with steady improvements in size and price per capacity.
+
+##### SD cards
+
+SD cards are a type of flash memory card that is used in digital cameras and other devices.
+
 Virtual Memory
 When your computer is running low on RAM and more is needed immediately, Windows uses hard drive space to simulate system RAM. This is known as virtual memory, and is often called the paging file. 
 The default size of the virtual memory page file (named pagefile.sys) created during installation is 1.5 times the amount of RAM on your computer.
 
-#### Optical Disk
+#### Optical storage devices
+
+- Optical storage devices use `lasers` to store data.
+- Optical storage devices are relatively `inexpensive` and `portable`.
 
 Optical Disk uses laser technology to read and write data.
 
 **Categories:**
 
-- CD
-- DVD
+- CDs
+- DVDs
+- Blu-ray Discs (BDs)
 
 ##### Compact Discs (CD)
 
-- Standard CDs have a diameter of 120 mm and can hold up to 80 minutes of uncompressed audio (700 MB of data).
+- CDs are the oldest type of optical storage device and have a capacity of up to 700MB.
+  
 **Types:**
 `CD-ROM:` Compact disk with read only memory
 `CD-W:` Compact disk for write once and read many times(WORM).  It then becomes a read only disk.
@@ -119,12 +150,10 @@ Optical Disk uses laser technology to read and write data.
 `DVD-W:` Digital Video Disk which can be written to one time.  It then becomes read only.
 `DVD-RW:` Digital Video Disk which can be rewritten many time.
 
-#### Floppy Disk
+##### Blu-ray Discs (BDs)
 
-- It is magnetic disc medium.
-- The capacity of floppy disks is 1.44 MB.
-- They are used for copying or carrying data from one machine to the other.
--Floppies are commonly found in two sizes namely 5.1/4 “ and 3.5”
+-BDs have a capacity of up to 128GB.
+
 
 ## True/False (Mark T for True and F for False)
 
