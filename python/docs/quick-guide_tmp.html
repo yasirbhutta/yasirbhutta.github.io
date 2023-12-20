@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>quick-guide.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="python---quick-guide-for-ultimate-python-beginners">Python - Quick Guide for Ultimate Python Beginner's</h1>
+<p>Connect with me: <a href="https://www.youtube.com/yasirbhutta">Youtube</a> | <a href="https://www.linkedin.com/in/yasirbhutta/">LinkedIn</a> | <a href="https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c">WhatsApp Channel</a> | <a href="https://yasirbhutta.github.io/">Web</a> | <a href="https://www.facebook.com/yasirbhutta786">Facebook</a> | <a href="https://twitter.com/yasirbhutta">Twitter</a></p>
+<ul>
+<li><a href="https://yasirbhutta.github.io/python/docs/quick-guide.pdf">Download PDF</a></li>
+<li>To access the updated handouts, please click on the following link:
+<a href="https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html">https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html</a></li>
+<li><a href="../resources.md">Pyton Resources: Books, Websites, Tutorials</a></li>
+</ul>
+<h2 id="what-is-python">What is Python</h2>
+<ul>
+<li>Python is a high-level, general-purpose programming language.</li>
+<li>It is known for its clear syntax, readability, and versatility.</li>
+<li>Python is widely used for <code>web development</code>, <code>data science</code>, <code>machine learning</code>, and <code>automation</code>.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+<li>Install Python: Download and install it from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.</li>
+<li>Choose a text editor: A program to write code, like <a href="https://code.visualstudio.com/docs/python/python-tutorial">Visual Studio Code</a>, <a href="https://jupyter.org/install">Jupyter Notebook</a>, <code>PyCharm</code>, or even a simple text editor like <code>Notepad</code>.</li>
+<li>Text editor for Android: <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">Pydroid 3 - IDE for Python 3</a>
+<ul>
+<li><a href="https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv">Video: How to: Install Jupyter Notebook on an Android device</a></li>
+</ul>
+</li>
+<li>Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.</li>
+</ul>
+<h2 id="basics">Basics</h2>
+<h3 id="python-source-code">Python source code</h3>
+<blockquote>
+<p><strong>Important:</strong> Python source code files always use the <code>.py</code> extension.</p>
+</blockquote>
+<h3 id="how-to-use-print-function-in-python">How To Use Print() Function in Python</h3>
+<ul>
+<li>It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.</li>
+</ul>
+<p><strong>Example #1:</strong></p>
+<pre class="hljs"><code><div>message = <span class="hljs-string">'Python is fun'</span>
+
+<span class="hljs-comment"># print the string message</span>
+print(message)
+</div></code></pre>
+<p><strong>Output:</strong></p>
+<pre class="hljs"><code><div>Python is fun
+</div></code></pre>
+<p><strong>Example #2:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Print a string:</span>
+print(<span class="hljs-string">"Hello, World!"</span>)
+
+<span class="hljs-comment"># Print a number:</span>
+print(<span class="hljs-number">10</span>)
+
+<span class="hljs-comment"># Print a variable:</span>
+x = <span class="hljs-number">5</span>
+print(x)
+
+<span class="hljs-comment"># Print multiple objects on the same line:</span>
+print(<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"World"</span>)
+
+<span class="hljs-comment"># Print multiple objects on separate lines:</span>
+print(<span class="hljs-string">"Hello"</span>)
+print(<span class="hljs-string">"World"</span>)
+
+<span class="hljs-comment"># Print with a custom separator:</span>
+print(<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"World"</span>, sep=<span class="hljs-string">", "</span>)
+
+<span class="hljs-comment"># Print with a custom ending character:</span>
+print(<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"World"</span>, end=<span class="hljs-string">"!"</span>)
+</div></code></pre>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Y13CX7-zzcQ&amp;list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&amp;index=51">Video: How to print multiple lines</a></li>
+<li><a href="https://www.youtube.com/watch?v=QpqnHtD76BI&amp;list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&amp;index=7">Video: 100 times &quot;hello world&quot; without loop</a></li>
+</ul>
+<h3 id="variables">Variables</h3>
+<ul>
+<li>Storage containers for data (numbers, text, etc.).</li>
+</ul>
+<h4 id="what-is-a-variable">What is a variable</h4>
+<ul>
+<li>A variable is a named storage location in a computer's memory that is used to hold data or values. It allows programmers to store and manipulate data within a program.</li>
+</ul>
+<p><strong>Purpose:</strong> Variables provide a way to store and manage data that can be used and manipulated throughout a program. They make programs more flexible and allow for dynamic data storage.</p>
+<p><strong>Assignment statement:</strong> in Python is used to assign a value to a variable. Its primary purpose is to store and manage data within a program.</p>
+<p><strong>Imagine variables as labeled boxes:</strong></p>
+<ul>
+<li>You have boxes for storing different things (numbers, words, etc.).</li>
+<li>Each box has a name (label) to identify what's inside.</li>
+<li>You can put things in, take them out, and change what's inside.</li>
+</ul>
+<p><strong>Example #3:</strong> Storing a name</p>
+<pre class="hljs"><code><div>name = <span class="hljs-string">"Muhammad Hamza"</span>
+print(name)
+</div></code></pre>
+<p><strong>Example #4:</strong> Tracking a score:</p>
+<pre class="hljs"><code><div>score = <span class="hljs-number">0</span>
+score = score + <span class="hljs-number">10</span> <span class="hljs-comment"># adds 10 to the score</span>
+print(score)
+</div></code></pre>
+<p><strong>Example #5:</strong> Remembering a favorite color</p>
+<pre class="hljs"><code><div>favorite_color = <span class="hljs-string">"blue"</span> <span class="hljs-comment">#stores "blue"  in variable</span>
+print(favorite_color)
+</div></code></pre>
+<p><strong>Example #6:</strong> Calculating the area of a rectangle</p>
+<pre class="hljs"><code><div>length = <span class="hljs-number">10</span>
+width = <span class="hljs-number">5</span>
+
+<span class="hljs-comment"># calculates the area</span>
+area = length * width
+print(area)
+</div></code></pre>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li><strong><a href="https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT">Choose meaningful names</a>:</strong> Use names that describe what the variable stores (e.g., pizza_slices instead of x).</li>
+<li><strong>Assign values using =:</strong> The equals sign is used to put a value into a variable.</li>
+<li><strong>Change values:</strong> You can update a variable's value later in your code.</li>
+<li><strong>Use variables in calculations and operations:</strong> Variables can be used just like regular numbers or text in expressions.</li>
+<li><strong>Think of variables as placeholders:</strong> They hold information that can change as your program runs.</li>
+</ul>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="variables.md">Variables in Python</a></li>
+</ul>
+<h3 id="types-of-data">Types of Data</h3>
+<ul>
+<li>Numbers (integers, floats), strings (text), booleans (True/False)</li>
+</ul>
+<h4 id="string-str">String (str)</h4>
+<ul>
+<li>Stores text or characters.</li>
+<li>Enclosed in single or double quotes.</li>
+</ul>
+<p><strong>Example #7:</strong></p>
+<pre class="hljs"><code><div>name = <span class="hljs-string">"Ahmad"</span>
+greeting = <span class="hljs-string">'Hello, world!'</span>
+favorite_song = <span class="hljs-string">"Let It Go"</span>  <span class="hljs-comment"># Double quotes can also contain single quotes</span>
+</div></code></pre>
+<h4 id="integer-int">Integer (int)</h4>
+<ul>
+<li>Stores whole numbers (without decimals).</li>
+<li>Used for counting and representing quantities.</li>
+</ul>
+<p><strong>Example #8:</strong></p>
+<pre class="hljs"><code><div>age = <span class="hljs-number">25</span>
+num_pets = <span class="hljs-number">3</span>
+lucky_number = <span class="hljs-number">7</span>
+</div></code></pre>
+<h4 id="float-float">Float (float)</h4>
+<ul>
+<li>Stores decimal numbers.</li>
+<li>Used for representing precise measurements or values with fractions</li>
+</ul>
+<p><strong>Example #9:</strong></p>
+<pre class="hljs"><code><div>height = <span class="hljs-number">1.70</span>  <span class="hljs-comment"># meters</span>
+price = <span class="hljs-number">19.99</span>
+distance = <span class="hljs-number">3.14159</span>  <span class="hljs-comment"># Pi</span>
+</div></code></pre>
+<h4 id="boolean-bool">Boolean (bool)</h4>
+<ul>
+<li>Stores True or False values.</li>
+<li>Used for representing logical conditions or decisions.</li>
+</ul>
+<p><strong>Example #10:</strong></p>
+<pre class="hljs"><code><div>is_hungry = <span class="hljs-literal">True</span>
+is_raining = <span class="hljs-literal">False</span>
+has_finished = <span class="hljs-literal">True</span>
+</div></code></pre>
+<h4 id="key-points">Key Points</h4>
+<ul>
+<li>Each data type has specific purposes and operations.</li>
+<li>Python automatically determines the data type when you assign a value.</li>
+<li>You can check the data type using the type() function:</li>
+</ul>
+<pre class="hljs"><code><div>print(type(name))  <span class="hljs-comment"># Output: &lt;class 'str'&gt;</span>
+print(type(age))  <span class="hljs-comment"># Output: &lt;class 'int'&gt;</span>
+print(type(height))  <span class="hljs-comment"># Output: &lt;class 'float'&gt;</span>
+print(type(is_hungry))  <span class="hljs-comment"># Output: &lt;class 'bool'&gt;</span>
+</div></code></pre>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="https://youtu.be/6fXy1ZpQc8c?si=CjWxHfsAXp1B0-sy">Video: Use of type() function in Python</a></li>
+</ul>
+<h3 id="operators">Operators</h3>
+<ul>
+<li>Perform calculations and comparisons (e.g., +, -, *, /, ==, !=).</li>
+</ul>
+<p><strong>1. Arithmetic Operators:</strong></p>
+<ul>
+<li>Used for performing basic mathematical calculations.</li>
+<li>Operators: <code>+</code> (addition), <code>-</code> (subtraction), <code>*</code> (multiplication), <code>/</code> (division), <code>//</code> (floor division), <code>%</code> (modulo), <code>**</code> (exponentiation)</li>
+</ul>
+<p><strong>Example #11:</strong></p>
+<pre class="hljs"><code><div>result = <span class="hljs-number">10</span> + <span class="hljs-number">5</span>  <span class="hljs-comment"># Addition</span>
+difference = <span class="hljs-number">15</span> - <span class="hljs-number">7</span>  <span class="hljs-comment"># Subtraction</span>
+product = <span class="hljs-number">4</span> * <span class="hljs-number">6</span>  <span class="hljs-comment"># Multiplication</span>
+quotient = <span class="hljs-number">12</span> / <span class="hljs-number">3</span>  <span class="hljs-comment"># Division</span>
+integer_quotient = <span class="hljs-number">17</span> // <span class="hljs-number">4</span>  <span class="hljs-comment"># Floor division</span>
+remainder = <span class="hljs-number">25</span> % <span class="hljs-number">4</span>  <span class="hljs-comment"># Modulo</span>
+square = <span class="hljs-number">5</span> ** <span class="hljs-number">2</span>  <span class="hljs-comment"># Exponentiation</span>
+</div></code></pre>
+<p><strong>2. Comparison Operators:</strong></p>
+<ul>
+<li>Used to compare values and return a Boolean result (True or False).</li>
+<li>Operators: <code>==</code> (equal to), <code>!=</code> (not equal to), <code>&gt;</code> (greater than), <code>&lt;</code> (less than), <code>&gt;=</code> (greater than or equal to), <code>&lt;=</code> (less than or equal to)</li>
+</ul>
+<p><strong>Example #12:</strong></p>
+<pre class="hljs"><code><div>is_equal = <span class="hljs-number">7</span> == <span class="hljs-number">7</span>  <span class="hljs-comment"># True</span>
+is_greater = <span class="hljs-number">12</span> &gt; <span class="hljs-number">9</span>  <span class="hljs-comment"># True</span>
+is_less_or_equal = <span class="hljs-number">5</span> &lt;= <span class="hljs-number">5</span>  <span class="hljs-comment"># True</span>
+</div></code></pre>
+<h3 id="input-and-output">Input and Output</h3>
+<ul>
+<li>Get user input with input() and display output with print().</li>
+</ul>
+<p><strong>While I can't create physical handouts, I can provide you with a comprehensive guide to Python input and output, suitable for learning and reference:</strong></p>
+<p><strong>Input in Python:</strong></p>
+<ul>
+<li>
+<p><strong>The <code>input()</code> function:</strong></p>
+<ul>
+<li>Takes a prompt as an argument (optional)</li>
+<li>Reads user input from the keyboard</li>
+<li>Returns the input as a string</li>
+</ul>
+</li>
+<li>
+<p><strong>Example #13:</strong></p>
+</li>
+</ul>
+<pre class="hljs"><code><div>name = input(<span class="hljs-string">"Enter your name: "</span>)
+age = int(input(<span class="hljs-string">"Enter your age: "</span>))  <span class="hljs-comment"># Convert string input to integer</span>
+</div></code></pre>
+<p><strong>Output in Python:</strong></p>
+<ul>
+<li>
+<p><strong>The <code>print()</code> function:</strong></p>
+<ul>
+<li>Prints values to the console</li>
+<li>Can display multiple values, separated by commas</li>
+<li>Can format output using string methods</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples:</strong></p>
+</li>
+</ul>
+<pre class="hljs"><code><div>print(<span class="hljs-string">"Hello, world!"</span>)
+print(<span class="hljs-string">"Your name is"</span>, name, <span class="hljs-string">"and you are"</span>, age, <span class="hljs-string">"years old."</span>)
+print(<span class="hljs-string">"The answer is:"</span>, <span class="hljs-number">42</span>)
+</div></code></pre>
+<h2 id="control-flow">Control Flow</h2>
+<h3 id="conditional-statements">Conditional Statements</h3>
+<h4 id="if-statement">if statement</h4>
+<ul>
+<li>
+<p>The if statement in MATLAB is a conditional statement that allows you to execute a block of code only if a certain condition is met.</p>
+</li>
+<li>
+<p>Make decisions using <code>if</code>, <code>elif</code>, and <code>else</code> statements.</p>
+</li>
+</ul>
+<p>The general <strong>syntax</strong> of the if statement is as follows:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> condition
+    statements
+</div></code></pre>
+<p>The <code>condition</code> can be any logical expression. If the condition is evaluated to <code>true</code>, the block of <code>statements</code> is executed. Otherwise, the block of <code>statements</code> is skipped.</p>
+<p>Here is a simple example of an if statement in MATLAB:</p>
+<p><strong>Example #14:</strong></p>
+<pre class="hljs"><code><div>x = <span class="hljs-number">10</span>
+
+<span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">'x is greater than 5.'</span>)
+</div></code></pre>
+<p>This code will print the message <code>x is greater than 5.</code> to the console.</p>
+<p>You can also use <code>elif</code> statements to check for multiple conditions. The general <strong>syntax</strong> of the <strong>elif statement</strong> is as follows:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">elif</span> condition
+    statements
+end
+</div></code></pre>
+<p>If the <code>condition</code> for the if statement is evaluated to <code>false</code>, the python interpreter will check the <code>condition</code> for the first elif statement. If the condition for the elif statement is evaluated to <code>true</code>, the corresponding block of <code>statements</code> is executed. Otherwise, the python interpreter will check the <code>condition</code> for the next elif statement, and so on.</p>
+<p>Here is an example of an if statement with an elif statement:</p>
+<p><strong>Example #15:</strong></p>
+<pre class="hljs"><code><div>x = <span class="hljs-number">3</span>
+
+<span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">'x is greater than 5.'</span>)
+<span class="hljs-keyword">elif</span> x &lt; <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">'x is less than 5.'</span>)
+</div></code></pre>
+<p>This code will print the message &quot;x is less than 5.&quot; to the console.</p>
+<p>You can also use an else statement to check for all other conditions. The general syntax of the else statement is as follows:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">else</span>
+    statements
+end
+</div></code></pre>
+<p>If all of the conditions for the if and elseif statements are evaluated to <code>false</code>, the block of <code>statements</code> in the <code>else</code> statement is executed.</p>
+<p>Here is an example of an if statement with an <code>elif</code> statement and an <code>else</code> statement:</p>
+<p><strong>Example #16:</strong></p>
+<pre class="hljs"><code><div>x = <span class="hljs-number">2</span>
+
+<span class="hljs-keyword">if</span> x &gt; <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">'x is greater than 5.'</span>)
+<span class="hljs-keyword">elif</span> x == <span class="hljs-number">5</span>:
+    print(<span class="hljs-string">'x is equal to 5.'</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">'x is less than 5.'</span>)
+</div></code></pre>
+<p>This code will print the message &quot;x is less than 5.&quot; to the console.</p>
+<h3 id="loops">Loops</h3>
+<ul>
+<li>Repeat actions using <code>for</code> and <code>while</code> loops.</li>
+</ul>
+<h4 id="for-loop">for loop</h4>
+<ul>
+<li>A for loop in Python is a programming statement that repeats a block of code a certain number of times.</li>
+</ul>
+<p><strong>Example #17:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">5</span>):
+    print(i)
+</div></code></pre>
+<p><strong>Example #18:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">5</span>):
+    print(<span class="hljs-string">"Python"</span>)
+</div></code></pre>
+<h4 id="while-loop">while loop</h4>
+<ul>
+<li>A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.</li>
+</ul>
+<p><strong>Example #19:</strong> Counting Up to a Number:</p>
+<pre class="hljs"><code><div>count = <span class="hljs-number">1</span>  <span class="hljs-comment"># Start counting at 1</span>
+<span class="hljs-keyword">while</span> count &lt;= <span class="hljs-number">10</span>:  <span class="hljs-comment"># Keep counting as long as we're less than or equal to 10</span>
+    print(count)  <span class="hljs-comment"># Print the current number</span>
+    count += <span class="hljs-number">1</span>  <span class="hljs-comment"># Add 1 to the count for the next round</span>
+</div></code></pre>
+<h2 id="truefalse-mark-t-for-true-and-f-for-false">True/False (Mark T for True and F for False)</h2>
+<h2 id="multiple-choice-select-the-best-answer">Multiple Choice (Select the best answer)</h2>
+<h2 id="exercises">Exercises</h2>
+<h2 id="review-questions">Review Questions</h2>
+<h2 id="references-and-bibliography">References and Bibliography</h2>
+
+</body>
+</html>

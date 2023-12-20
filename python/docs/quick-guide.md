@@ -21,7 +21,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
 - Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.
 
-## Basic Building Blocks
+## Basics
 
 ### Python source code
 
@@ -31,14 +31,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.
 
-#### Example 1
+**Example #1:**
 
 ```python
 message = 'Python is fun'
 
 # print the string message
 print(message)
-
 ```
 
 **Output:**
@@ -47,7 +46,7 @@ print(message)
 Python is fun
 ```
 
-#### Example 2
+**Example #2:**
 
 ```python
 # Print a string:
@@ -72,7 +71,6 @@ print("Hello", "World", sep=", ")
 
 # Print with a custom ending character:
 print("Hello", "World", end="!")
-
 ```
 
 **See also:**
@@ -98,14 +96,14 @@ print("Hello", "World", end="!")
 - Each box has a name (label) to identify what's inside.
 - You can put things in, take them out, and change what's inside.
 
-**Example:** Storing a name
+**Example #3:** Storing a name
 
 ```python
 name = "Muhammad Hamza"
 print(name)
 ```
 
-**Example:** Tracking a score:
+**Example #4:** Tracking a score:
 
 ```python
 score = 0
@@ -113,14 +111,14 @@ score = score + 10 # adds 10 to the score
 print(score)
 ```
 
-**Example:** Remembering a favorite color
+**Example #5:** Remembering a favorite color
 
 ```python
 favorite_color = "blue" #stores "blue"  in variable
 print(favorite_color)
 ```
 
-**Example:** Calculating the area of a rectangle
+**Example #6:** Calculating the area of a rectangle
 
 ```python
 length = 10
@@ -152,7 +150,7 @@ print(area)
 - Stores text or characters.
 - Enclosed in single or double quotes.
 
-**Example:**
+**Example #7:**
 
 ```python
 name = "Ahmad"
@@ -165,7 +163,7 @@ favorite_song = "Let It Go"  # Double quotes can also contain single quotes
 - Stores whole numbers (without decimals).
 - Used for counting and representing quantities.
 
-**Example:**
+**Example #8:**
 
 ```python
 age = 25
@@ -178,7 +176,7 @@ lucky_number = 7
 - Stores decimal numbers.
 - Used for representing precise measurements or values with fractions
 
-**Example:**
+**Example #9:**
 
 ```python
 height = 1.70  # meters
@@ -191,7 +189,7 @@ distance = 3.14159  # Pi
 - Stores True or False values.
 - Used for representing logical conditions or decisions.
 
-**Example:**
+**Example #10:**
 
 ```python
 is_hungry = True
@@ -220,9 +218,70 @@ print(type(is_hungry))  # Output: <class 'bool'>
 
 - Perform calculations and comparisons (e.g., +, -, *, /, ==, !=).
 
+**1. Arithmetic Operators:**
+
+- Used for performing basic mathematical calculations.
+- Operators: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `//` (floor division), `%` (modulo), `**` (exponentiation)
+
+**Example #11:**
+
+```python
+result = 10 + 5  # Addition
+difference = 15 - 7  # Subtraction
+product = 4 * 6  # Multiplication
+quotient = 12 / 3  # Division
+integer_quotient = 17 // 4  # Floor division
+remainder = 25 % 4  # Modulo
+square = 5 ** 2  # Exponentiation
+```
+
+**2. Comparison Operators:**
+
+- Used to compare values and return a Boolean result (True or False).
+- Operators: `==` (equal to), `!=` (not equal to), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to)
+
+**Example #12:**
+
+```python
+is_equal = 7 == 7  # True
+is_greater = 12 > 9  # True
+is_less_or_equal = 5 <= 5  # True
+```
+
 ### Input and Output
 
 - Get user input with input() and display output with print().
+
+**While I can't create physical handouts, I can provide you with a comprehensive guide to Python input and output, suitable for learning and reference:**
+
+**Input in Python:**
+
+- **The `input()` function:**
+  - Takes a prompt as an argument (optional)
+  - Reads user input from the keyboard
+  - Returns the input as a string
+  
+- **Example #13:**
+  
+```python
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))  # Convert string input to integer
+```
+
+**Output in Python:**
+
+- **The `print()` function:**
+  - Prints values to the console
+  - Can display multiple values, separated by commas
+  - Can format output using string methods
+
+- **Examples:**
+
+```python
+print("Hello, world!")
+print("Your name is", name, "and you are", age, "years old.")
+print("The answer is:", 42)
+```
 
 ## Control Flow
 
@@ -245,6 +304,8 @@ The `condition` can be any logical expression. If the condition is evaluated to 
 
 Here is a simple example of an if statement in MATLAB:
 
+**Example #14:**
+
 ```python
 x = 10
 
@@ -265,6 +326,8 @@ end
 If the `condition` for the if statement is evaluated to `false`, the python interpreter will check the `condition` for the first elif statement. If the condition for the elif statement is evaluated to `true`, the corresponding block of `statements` is executed. Otherwise, the python interpreter will check the `condition` for the next elif statement, and so on.
 
 Here is an example of an if statement with an elif statement:
+
+**Example #15:**
 
 ```python
 x = 3
@@ -289,6 +352,8 @@ If all of the conditions for the if and elseif statements are evaluated to `fals
 
 Here is an example of an if statement with an `elif` statement and an `else` statement:
 
+**Example #16:**
+
 ```python
 x = 2
 
@@ -310,14 +375,14 @@ This code will print the message "x is less than 5." to the console.
 
 - A for loop in Python is a programming statement that repeats a block of code a certain number of times.
 
-**Example:**
+**Example #17:**
 
 ```python
 for i in range(5):
     print(i)
 ```
 
-**Example:**
+**Example #18:**
 
 ```python
 for i in range(5):
@@ -328,7 +393,7 @@ for i in range(5):
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
-**Example:** Counting Up to a Number:
+**Example #19:** Counting Up to a Number:
 
 ```python
 count = 1  # Start counting at 1
