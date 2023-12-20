@@ -9,4 +9,8 @@
 - 50-60 characters
 - title tag formatting
   - Sentence case
-  - Title case 
+  - Title case
+
+Short videos
+
+- 34 seconds

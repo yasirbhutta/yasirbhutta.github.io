@@ -18,7 +18,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - A for loop in MATLAB is a programming statement that repeats a block of code a certain number of times.
 - They are used in a wide variety of applications, such as mathematical computations, data processing, and graphical plotting.
 
-### Syntax - for loop
+**Syntax:**
 
 ```matlab
 for variable = expression
@@ -390,7 +390,7 @@ end
 fprintf('For x = %d, y = %d \n', x, y);
 ```
 
-#### Example 5: User Input Validation - Validate positive number using while loop
+**Example #5:** User Input Validation - Validate positive number using while loop
 
 In this example, a while loop is used to repeatedly ask the user for a positive number until a valid input is provided.
 
@@ -410,7 +410,7 @@ disp(['You entered a valid positive number: ' num2str(userInput)]);
 
 ```
 
-#### Example
+**Example:**
 
 This example shows how to use a while loop to search for a specific element in an array.
 

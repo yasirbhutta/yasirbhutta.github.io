@@ -561,7 +561,7 @@ fprintf('Hello,\nworld!\n')
 
 >**Answer:** An assignment statement in MATLAB is used to assign a value to a variable. Its primary purpose is to store and manage data within a program.
 
-### Explain the difference between the = operator and the == operator in MATLAB.
+### Explain the difference between the = operator and the == operator in MATLAB
 
 >**Answer:** The = operator is used for assignment, setting the value of a variable. The == operator is used for comparison and checks if two values are equal.
 
