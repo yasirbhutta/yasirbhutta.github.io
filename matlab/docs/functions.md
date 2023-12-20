@@ -1,4 +1,4 @@
-# [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
+# [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/): Functions
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -29,7 +29,10 @@ end
 - **% Function body:** This is the main part of your function, where you write the code that performs the desired task. You can use any MATLAB commands and functions within the function body.
 - **end:** This marks the end of your function definition.
 
-**Important:** This declaration statement must be the first executable line of the function. Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores.
+> **Important:**
+> 
+> - This declaration statement must be the first executable line of the function. Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores.
+> - While it's not strictly required, matching the function name and file name in MATLAB is a commonly followed and recommended practice for function files (m-files containing only function definitions).
 
 **Example #1:** Addition Function
 
