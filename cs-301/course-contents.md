@@ -21,7 +21,7 @@
 ## Introduction to Programming
 
 - HTML
-- PYTHON
+- [Python: Quick Guide](/python/docs/quick-guide.md)
 
 ## Databases and Information Systems
 
