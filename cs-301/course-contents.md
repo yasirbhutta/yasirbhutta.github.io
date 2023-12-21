@@ -1,5 +1,7 @@
 # Course Contents | CS-301 Into. to ICT
 
+- [Resources: Books, Websites, Tutorials](resources.md)
+
 ## Computer Definitions & Concepts
 
 - [Computer](../computer-basics/docs/computer.md)
