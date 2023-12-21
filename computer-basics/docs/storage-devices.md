@@ -27,6 +27,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - RAM is a volatile memory as the information or instructions stored in it will be lost if the power is switched off.
 RAM
 
+![ram](images/ram_512x.jpg)
+Image by [Freepik](https://www.freepik.com/free-photo/it-person-repairing-hardware-equipment-s_2944515.htm#query=ram%20primary%20memory&position=11&from_view=search&track=ais&uuid=e289623e-4318-4d74-a39d-29b1694c1ccd)
+
 #### Processor Cache & Register
 
 there are two more sub-layers of the primary storage, besides main large-capacity RAM:
@@ -34,6 +37,9 @@ there are two more sub-layers of the primary storage, besides main large-capacit
 **Processor Register:** are located inside the processor. Each register typically holds a word of data (often 32 or 64 bits). Registers are technically among the fastest of all forms of computer data storage.
 
 **Processor Cache:** is an intermediate stage between ultra-fast registers and much slower main memory. The data and instructions that are most recently or most frequently used by CPU are stored in cache.
+
+![processor](images/processor.jpg)
+Image by [Pixabay](https://www.pexels.com/photo/pen-technology-computer-pc-40879/)
 
 ### Secondary Storage
 
@@ -63,8 +69,8 @@ there are two more sub-layers of the primary storage, besides main large-capacit
 - Provides large capacity (250GB, 320GB, 500GB ,750GB, 1TB, 2TB and more.)
 - It is primary media for storing data and programs.
 
-![hard disk](images/harddisk.jpg)
-Image by: [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm">Freepik)
+![hard disk](images/harddisk_512x.jpg)
+Image by [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm">Freepik)
 
 **See also:**
 
@@ -79,7 +85,8 @@ Image by: [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-
 - Floppies are commonly found in two sizes namely 5.1/4“ and 3.5”
 
 ![floppy disk](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Floppy_disk_%28back%29.jpg/512px-Floppy_disk_%28back%29.jpg)
-Image by: [Ivan Radic, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Floppy_disk_(back).jpg)
+
+Image by [Ivan Radic, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Floppy_disk_(back).jpg)
 
 #### Flash memory devices
 
@@ -92,7 +99,8 @@ Flash memory devices use `electronic circuits` to store data. These devices incl
 - This makes SSDs ideal for applications that require fast access to data, such as operating systems, applications, and games.
 
 ![ssd](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2017_Dysk_SSD_ADATA_SX900_128GB.jpg/512px-2017_Dysk_SSD_ADATA_SX900_128GB.jpg)
-Image by: Jacek Halicki, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+
+Image by Jacek Halicki, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
   
 SSDs also have a number of other advantages over HDDs, including:
 
@@ -115,7 +123,8 @@ Here are some of the things you can do with an SSD:
 - USB flash drives are small and portable, and they can be used to store a variety of data, including documents, photos, and music.
 - Storage capacities can range from 8 GB to 2 TB with steady improvements in size and price per capacity.
 
-![usb flash drive](images/usb_flash_drive_512x.jpg)
+![usb flash drive](images/usb_flash_drive_256x.jpg)
+Image by Freepik
 
 ##### SD cards
 
@@ -123,7 +132,7 @@ SD cards are a type of flash memory card that is used in digital cameras and oth
 
 ![sd card](images/sd_card.jpg)
 
-Image by:[]"https://www.freepik.com/free-vector/chip_2921376.htm#query=sd%20card&position=4&from_view=search&track=ais&uuid=e68beed9-6211-4599-b0c9-0cd2bbb9d538">Image by rawpixel.com</a> on Freepik
+Image by [rawpixel.com](https://www.freepik.com/free-vector/chip_2921376.htm#query=sd%20card&position=4&from_view=search&track=ais&uuid=e68beed9-6211-4599-b0c9-0cd2bbb9d538) on Freepik
 
 #### Optical storage devices
 
@@ -160,7 +169,6 @@ Optical Disk uses laser technology to read and write data.
 ##### Blu-ray Discs (BDs)
 
 -BDs have a capacity of up to 128GB.
-
 
 ## True/False (Mark T for True and F for False)
 

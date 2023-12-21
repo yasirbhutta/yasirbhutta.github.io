@@ -1,9 +1,9 @@
 # Computer Hardware components
 
-[Download PDF](https://yasirbhutta.github.io/computer-basics/docs/hardware.pdf)
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-**To access the updated handouts, please click on the following link:**
-[https://yasirbhutta.github.io/computer-basics/docs/hardware.html](https://yasirbhutta.github.io/computer-basics/docs/hardware.html)
+- [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/hardware.pdf)
+- To access the updated handouts, please click on the following link:<https://yasirbhutta.github.io/computer-basics/docs/hardware.html>
 
 ## Computer Hardware
 
@@ -222,6 +222,9 @@ It Consists Two units:
 
 - The motherboard is `main circuit board` of a computer, usually containing the central processing unit and main system memory as well as circuitry that controls the disk drives, keyboard, monitor, and other peripheral devices.
 - It is also known as a mainboard, baseboard, system board.
+
+![motherboard image](images/motherboard_512x.jpg)
+Image by [macrovector](https://www.freepik.com/free-vector/system-plate-pc-isometric-illustration-with-semiconductor-elements-slots-microchips-capacitors-diodes-transistors_7496526.htm#query=ram%20primary%20memory&position=18&from_view=search&track=ais&uuid=fa5ec5b5-0f6c-45d6-b8ec-a91050618307) on Freepik
 
 **Buses:** Buses on a motherboard are electrical pathways that allow different components on the motherboard to communicate with each other.
 

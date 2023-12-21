@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>storage-devices.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="computer-basics-computer-data-storage-devices">Computer Basics: Computer Data Storage Devices</h1>
+<p>Connect with me: <a href="https://www.youtube.com/yasirbhutta">Youtube</a> | <a href="https://www.linkedin.com/in/yasirbhutta/">LinkedIn</a> | <a href="https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c">WhatsApp Channel</a> | <a href="https://yasirbhutta.github.io/">Web</a> | <a href="https://www.facebook.com/yasirbhutta786">Facebook</a> | <a href="https://twitter.com/yasirbhutta">Twitter</a></p>
+<ul>
+<li><a href="https://yasirbhutta.github.io/computer-basics/docs/storage-devices.pdf">Download PDF</a></li>
+<li>To access the updated handouts, please click on the following link:
+<a href="https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html">https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html</a></li>
+</ul>
+<h2 id="data-storage-device">Data Storage Device</h2>
+<ul>
+<li>A data storage device is a device for storing information (data).</li>
+</ul>
+<p><strong>Computer data Storage:</strong> Capability of the computer to remember data is called computer data storage or memory.</p>
+<h2 id="hierarchy-of-storage">Hierarchy of storage</h2>
+<ul>
+<li>Primary Storage</li>
+<li>Secondary Storage</li>
+</ul>
+<h3 id="primary-storage">Primary storage</h3>
+<h4 id="random-access-memoryram">Random Access Memory(RAM)</h4>
+<ul>
+<li>It is also called main memory or Direct Access Memory.</li>
+<li>A program must be loaded into RAM before execution.</li>
+<li>It is the only one directly accessible to the CPU. CPU continuously reads instructions stored there and executes them.</li>
+<li>RAM is a volatile memory as the information or instructions stored in it will be lost if the power is switched off.
+RAM</li>
+</ul>
+<p><img src="file:///d:/OneDrive - Higher Education Commission/Documents/GitHub/yasirbhutta.github.io/computer-basics/docs/images/ram_512x.jpg" alt="ram">
+Image by <a href="https://www.freepik.com/free-photo/it-person-repairing-hardware-equipment-s_2944515.htm#query=ram%20primary%20memory&amp;position=11&amp;from_view=search&amp;track=ais&amp;uuid=e289623e-4318-4d74-a39d-29b1694c1ccd">Freepik</a></p>
+<h4 id="processor-cache--register">Processor Cache &amp; Register</h4>
+<p>there are two more sub-layers of the primary storage, besides main large-capacity RAM:</p>
+<p><strong>Processor Register:</strong> are located inside the processor. Each register typically holds a word of data (often 32 or 64 bits). Registers are technically among the fastest of all forms of computer data storage.</p>
+<p><strong>Processor Cache:</strong> is an intermediate stage between ultra-fast registers and much slower main memory. The data and instructions that are most recently or most frequently used by CPU are stored in cache.</p>
+<p><img src="file:///d:/OneDrive - Higher Education Commission/Documents/GitHub/yasirbhutta.github.io/computer-basics/docs/images/processor.jpg" alt="processor">
+Image by <a href="https://www.pexels.com/photo/pen-technology-computer-pc-40879/">Pixabay</a></p>
+<h3 id="secondary-storage">Secondary Storage</h3>
+<ul>
+<li>Secondary memory (or secondary storage) is the slowest and cheapest form from primary memory.</li>
+<li>It cannot be processed directly by the CPU. It must first be copied into primary storage (also known as RAM).</li>
+<li>Secondary memory devices include magnetic disks like hard disks and floppy disks ; optical disks such as CDROMs and DVD; and magnetic tapes.</li>
+</ul>
+<p><strong>Reason To USE Storage Devices:</strong></p>
+<ul>
+<li>The main memory of a computer system is not permanent. This means that data and programs lost when computer is shut down or power is turned off.</li>
+<li>The main memory of computer has limited storage capacity.</li>
+</ul>
+<p><strong>Imp. Functions of Storage Devices:</strong></p>
+<ul>
+<li><code>Reading:</code> The process of copying data, instructions or information from storage medium to memory is called reading.</li>
+<li><code>Writing:</code> The process of copying data, instructions or information from memory to storage medium is called writing.</li>
+</ul>
+<h4 id="magnetic-storage-devices">Magnetic storage devices</h4>
+<ul>
+<li>use <code>magnetic fields</code> to store data. These devices include hard disk drives (HDDs) and floppy disks.</li>
+</ul>
+<h5 id="hard-disk-drives-hdds">Hard disk drives (HDDs)</h5>
+<ul>
+<li>Hard disk is a type of magnetic disk.</li>
+<li>Several circular disks are coated with a magnetic material.</li>
+<li>Mostly fixed inside the system unit.</li>
+<li>Provides large capacity (250GB, 320GB, 500GB ,750GB, 1TB, 2TB and more.)</li>
+<li>It is primary media for storing data and programs.</li>
+</ul>
+<p><img src="file:///d:/OneDrive - Higher Education Commission/Documents/GitHub/yasirbhutta.github.io/computer-basics/docs/images/harddisk_512x.jpg" alt="hard disk">
+Image by <a href="%22https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm%22%3EFreepik">Freepik</a></p>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Magnetic_storage">Magnetic storage - Wikipedia</a></li>
+</ul>
+<h4 id="floppy-disk">Floppy Disk</h4>
+<ul>
+<li>Floppy disks are a less common type of storage device</li>
+<li>It is magnetic disc medium.</li>
+<li>The capacity of floppy disks is 1.44 MB.</li>
+<li>They are used for copying or carrying data from one machine to the other.</li>
+<li>Floppies are commonly found in two sizes namely 5.1/4“ and 3.5”</li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Floppy_disk_%28back%29.jpg/512px-Floppy_disk_%28back%29.jpg" alt="floppy disk"></p>
+<p>Image by <a href="https://commons.wikimedia.org/wiki/File:Floppy_disk_(back).jpg">Ivan Radic, CC BY 2.0 <a href="https://creativecommons.org/licenses/by/2.0">https://creativecommons.org/licenses/by/2.0</a>, via Wikimedia Commons</a></p>
+<h4 id="flash-memory-devices">Flash memory devices</h4>
+<p>Flash memory devices use <code>electronic circuits</code> to store data. These devices include USB flash drives, solid-state drives (SSDs), and SD cards.</p>
+<h5 id="solid-state-drive-ssd">solid-state drive (SSD)</h5>
+<ul>
+<li>A solid-state drive (SSD) is a new generation of storage device that replaces a traditional hard disk drive (HDD).</li>
+<li>SSDs use flash memory, which is much faster than the magnetic platters used in HDDs.</li>
+<li>This makes SSDs ideal for applications that require fast access to data, such as operating systems, applications, and games.</li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2017_Dysk_SSD_ADATA_SX900_128GB.jpg/512px-2017_Dysk_SSD_ADATA_SX900_128GB.jpg" alt="ssd"></p>
+<p>Image by Jacek Halicki, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0">https://creativecommons.org/licenses/by-sa/4.0</a>, via Wikimedia Commons</p>
+<p>SSDs also have a number of other advantages over HDDs, including:</p>
+<ul>
+<li>They are more resistant to shocks and vibrations.</li>
+<li>They have a longer lifespan than HDDs.</li>
+<li>They are silent in operation.</li>
+</ul>
+<p>As a result of these advantages, SSDs are becoming increasingly popular for use in laptops, desktops, and even servers.</p>
+<p>Here are some of the things you can do with an SSD:</p>
+<ul>
+<li>Speed up your computer's boot time.</li>
+<li>Improve the performance of your applications.</li>
+<li>Make your computer more responsive.</li>
+<li>Increase the lifespan of your computer.</li>
+<li>Reduce noise pollution.</li>
+</ul>
+<h5 id="usb-flash-drive">USB flash drive</h5>
+<ul>
+<li>USB flash drives are small and portable, and they can be used to store a variety of data, including documents, photos, and music.</li>
+<li>Storage capacities can range from 8 GB to 2 TB with steady improvements in size and price per capacity.</li>
+</ul>
+<p><img src="file:///d:/OneDrive - Higher Education Commission/Documents/GitHub/yasirbhutta.github.io/computer-basics/docs/images/usb_flash_drive_256x.jpg" alt="usb flash drive">
+Image by Freepik</p>
+<h5 id="sd-cards">SD cards</h5>
+<p>SD cards are a type of flash memory card that is used in digital cameras and other devices.</p>
+<p><img src="file:///d:/OneDrive - Higher Education Commission/Documents/GitHub/yasirbhutta.github.io/computer-basics/docs/images/sd_card.jpg" alt="sd card"></p>
+<p>Image by <a href="https://www.freepik.com/free-vector/chip_2921376.htm#query=sd%20card&amp;position=4&amp;from_view=search&amp;track=ais&amp;uuid=e68beed9-6211-4599-b0c9-0cd2bbb9d538">rawpixel.com</a> on Freepik</p>
+<h4 id="optical-storage-devices">Optical storage devices</h4>
+<ul>
+<li>Optical storage devices use <code>lasers</code> to store data.</li>
+<li>Optical storage devices are relatively <code>inexpensive</code> and <code>portable</code>.</li>
+</ul>
+<p>Optical Disk uses laser technology to read and write data.</p>
+<p><strong>Categories:</strong></p>
+<ul>
+<li>CDs</li>
+<li>DVDs</li>
+<li>Blu-ray Discs (BDs)</li>
+</ul>
+<h5 id="compact-discs-cd">Compact Discs (CD)</h5>
+<ul>
+<li>CDs are the oldest type of optical storage device and have a capacity of up to 700MB.</li>
+</ul>
+<p><strong>Types:</strong>
+<code>CD-ROM:</code> Compact disk with read only memory
+<code>CD-W:</code> Compact disk for write once and read many times(WORM).  It then becomes a read only disk.
+<code>CD-RW:</code> Compact disk which you may read and rewrite many times.</p>
+<h5 id="digital-video-diskdvd">Digital Video Disk(DVD)</h5>
+<ul>
+<li>DVDs are of the same dimensions as compact discs (CDs), but store more than six times as much data. Allows up to 17 gigabytes of storage (from 4.7 GB to 17 GB).</li>
+</ul>
+<p>*<em>Types:</em></p>
+<p><code>DVD ROM:</code> Digital Video Disk which is read only.
+<code>DVD-W:</code> Digital Video Disk which can be written to one time.  It then becomes read only.
+<code>DVD-RW:</code> Digital Video Disk which can be rewritten many time.</p>
+<h5 id="blu-ray-discs-bds">Blu-ray Discs (BDs)</h5>
+<p>-BDs have a capacity of up to 128GB.</p>
+<h2 id="truefalse-mark-t-for-true-and-f-for-false">True/False (Mark T for True and F for False)</h2>
+<h2 id="multiple-choice-select-the-best-answer">Multiple Choice (Select the best answer)</h2>
+<h2 id="exercises">Exercises</h2>
+<h2 id="review-questions">Review Questions</h2>
+<h2 id="references-and-bibliography">References and Bibliography</h2>
+
+</body>
+</html>

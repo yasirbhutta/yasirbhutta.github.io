@@ -31,9 +31,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 Folders
 
 images: for images
-Image by: [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm">Freepik)
+Image by [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-illustration_25560978.htm)
 
-docs: handouuts for pages
+docs: handouts for pages
 
 Images
 
