@@ -1,18 +1,19 @@
-# Computer Hardware components
+# Computer Basics - Hardware components
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/hardware.pdf)
-- To access the updated handouts, please click on the following link:<https://yasirbhutta.github.io/computer-basics/docs/hardware.html>
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/computer-basics/docs/hardware.html](https://yasirbhutta.github.io/computer-basics/docs/hardware.html)
 
 ## Computer Hardware
 
 - The physical parts of a computer are called hardware.
 - The user can see and touch hardware. computer is a collection of several different parts
 
-![computer](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system.png)
+![computer](https://upload.wikimedia.org/wikipedia/commons/7/7e/The_typical_desktop_computer_system.png)
 
-Image source: [wikimedia.org](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system)
+Image by [wikimedia.org](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system)
 
 **Types of computer hardware:**
 
@@ -156,10 +157,6 @@ There are several types of computer monitors:
 - LED monitors are a type of LCD monitor that uses light-emitting diodes (LEDs) as the backlight instead of fluorescent lamps.
 - LEDs are more energy-efficient and have a longer lifespan than fluorescent lamps.
 - LED monitors also tend to have better image quality than LCD monitors, with higher contrast ratios and brighter colors.
-
-![contrast ratios](https://res.cloudinary.com/buyavprojectorscreen/image/upload/v1677791377/blog-images/contrast-ratio-explained/pasted_image_0.png)
-
-Image source:[https://www.projectorscreen.com/](https://res.cloudinary.com/buyavprojectorscreen/image/upload/v1677791377/blog-images/contrast-ratio-explained/pasted_image_0.png)
 
 The contrast ratio (CR) is a property of a display system, defined as the ratio of the luminance of the brightest shade (white) to that of the darkest shade (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display. [^3]
 
@@ -471,10 +468,6 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 ## References
 
-- [^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
-- [^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
-- [^3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
-- [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
 - <http://en.wikipedia.org/wiki/Touchscreen>
@@ -482,11 +475,9 @@ DisplayPort is another type of port that is used to connect high-definition vide
 - <http://en.wikipedia.org/wiki/Image_scanner>
 - <http://www.southerncompany.com/learningpower/glossary.aspx>
 - <http://en.wikipedia.org/wiki/Line_printer>
-  
-## Social Links
 
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+- [^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+- [^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
+- [^3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
+- [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
+  

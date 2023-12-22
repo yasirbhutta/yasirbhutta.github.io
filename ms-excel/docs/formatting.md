@@ -6,6 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+- [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 

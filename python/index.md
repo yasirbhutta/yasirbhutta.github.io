@@ -29,6 +29,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Error and Exception Handling](docs/error.md)
 - [Python Performance and Best practices](docs/best-practices.md)
 
+- [Python in Excel](docs/python-excel.md)
+
 ### Modules
 
 - [pandas](docs/modules/pandas.md)

@@ -2,43 +2,20 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/index.pdf)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
 [Excel video Training](../video-training-excel.md)
 
-## Quick start
+## Learn Microsoft Excel
 
-## Intro. to Excel
-
-- [Handouts - Excel Basics](docs/basics.md)
-- [Slides](https://docs.google.com/presentation/d/1-oWKNYhwev6poBhf6dLddANeshmkWca3LLHaaG9zYyo/)
-
-## Formatting
-
-- [Handouts - Formatting in excel](docs/formatting.md)
-- [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
-
-## Formulas
-
-- [Handouts - Formulas in excel](docs/formulas.md)
-- [Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
-
-## Functions
-
-- [Handouts - Functions in excel](docs/functions.md)
-- [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
-  
-## Tables
-
-- [Handouts - Tables](docs/tables.md)
-
-## Tips and Tricks
-
-- [Handouts - Excel Tips and Tricks](docs/tips-and-tricks.md)
-
-## Advance Features: Conditional Formatting, Data Validation PivotTables
-
-- [Handouts: Advance Features in excel](docs/advance-features.md)
+- [Introduction to Excel](docs/basics.md)
+- [Formatting in Excel](docs/formatting.md)
+- [Formulas in excel](docs/formulas.md)
+- [Functions](docs/functions.md)
+- [Tables in Excel](docs/tables.md)
+- [Tips and Tricks](docs/tips-and-tricks.md)
+- [Advance Features: Conditional Formatting, Data Validation PivotTables](docs/advance-features.md)
 
 ## Charts
 
@@ -49,3 +26,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## Linked data types
 
 ## Get to know Power Query
+
+- [Python in Excel](docs/python-excel.md)
+
