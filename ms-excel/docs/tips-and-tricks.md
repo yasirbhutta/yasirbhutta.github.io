@@ -85,6 +85,8 @@ Formulas with cell references can be difficult to understand, especially for com
 
 ## True/False (Mark T for True and F for False)
 
+- You can copy values like sum, average, and count directly from the status bar in Excel for Windows by simply clicking on them. [True or False]
+
 ## Multiple Choice (Select the best answer)
 
 ## Practical Exercises
