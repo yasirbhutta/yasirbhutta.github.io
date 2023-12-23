@@ -75,6 +75,14 @@ Formulas with cell references can be difficult to understand, especially for com
 - [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
 - [Names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/names-in-formulas-fc2935f9-115d-4bef-a370-3aa8bb4c91f1)
 
+## Copy values quickly from the status bar
+
+- [Video: Copy values quickly from the status bar](https://youtu.be/beDE-DM3e2k)
+
+**See also:**
+
+- [Copy values quickly from the status bar in Excel for Windows - Microsoft 365 Insider](https://insider.microsoft365.com/blog/copy-values-quickly-from-the-status-bar-in-excel-for-windows)
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

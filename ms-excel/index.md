@@ -25,7 +25,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Linked data types
 
-## Get to know Power Query
-
+- [Get to know Power Query](docs/power-query.md)
 - [Python in Excel](docs/python-excel.md)
 
