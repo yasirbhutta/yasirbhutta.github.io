@@ -1,5 +1,7 @@
 # template
 
+[Pyton Resources: Books, Websites, Tutorials]
+
 **Important:**
 **Tips:**
 for shortcut keys
@@ -40,4 +42,15 @@ Images
 Sizes
 small: 256 width
 large: 512 width
+
+
+# Microsoft Excel Resources: Books, Trainings and online resources
+
+## Books
+
+## Free Excel training online
+
+## Youtube Channel
+
+## Websites
 
