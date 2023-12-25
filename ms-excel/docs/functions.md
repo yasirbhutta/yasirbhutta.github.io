@@ -99,6 +99,8 @@ The SUM function adds values. You can add individual values, cell references or 
 
 - [Video Tutorial: Use of Sum function and AutoSum to sum numbers - Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
 
+> **Tips:** [Click here to learn  Copy values quickly from the status bar](https://youtu.be/beDE-DM3e2k)
+
 **See also:**
 
 - [Sum Function - Excel Exercises](https://excelexercises.com/practice.html?lesson=1)

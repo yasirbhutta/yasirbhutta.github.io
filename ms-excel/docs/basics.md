@@ -71,7 +71,11 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
   - To enter a date, use a slash mark or a hyphen to separate the parts of a date; for example, type 9/5/2002 or 5-Sep-2002.
   - To enter a time that is based on the 12-hour clock, enter the time followed by a space, and then type a or p after the time; for example, 9:00 p.
   
-**Tip:** To enter the current time, press CTRL+SHIFT+; (semicolon).
+> **Tip:** To enter the current time, press CTRL+SHIFT+; (semicolon).
+
+**See also:**
+
+- [Control Automatic Data Conversions in Excel](https://youtu.be/ZaL8KlQWIPI)
 
 ## Managing Sheet
 

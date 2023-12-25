@@ -104,6 +104,8 @@ Types of Filters in Excel
 
 ### Excel Labs
 
+- [What is Excel Labs | Try experimental features in Excel for Windows ](https://youtu.be/hzsWwESgO2Y)
+
 **See Also:**
 
 - [Excel Labs, a Microsoft Garage project](https://appsource.microsoft.com/en-us/product/office/wa200003696?tab=overview)
