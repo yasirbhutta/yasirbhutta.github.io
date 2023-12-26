@@ -134,6 +134,86 @@ Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-
 
 ## Multiple Choice (Select the best answer)
 
+1. Which of the following is the correct syntax for the print statement in Python?
+
+a) print text
+b) println text
+c) echo text
+
+What will be the output of the following code?
+
+```python
+print("Hello, world!")
+```
+a) Hello
+b) world
+c) Hello, world!
+d) There will be no output.
+
+How can you print multiple values on a single line in Python?
+
+a) Use commas to separate the values within the print statement.
+b) Use semicolons to separate the values within the print statement.
+c) Use the + operator to concatenate the values before printing.
+d) Create a list of the values and print the list.
+
+Which of the following statements will print the value of the variable x?
+
+a) print(x)
+b) print "x"
+c) println(x)
+d) echo x
+
+What is the purpose of the sep argument in the print function?
+
+a) To specify the separator between multiple values printed on the same line.
+b) To specify the end character for the printed line.
+c) To specify the file to which the output should be printed.
+d) To specify the format of the output.
+
+ What is the purpose of the end argument in the print function?
+
+a) To specify the separator between multiple values printed on the same line.
+b) To specify the end character for the printed line.
+c) To specify the file to which the output should be printed.
+d) To specify the format of the output.
+
+How can you print a string without a newline character?
+
+a) print(string, end="")
+b) print(string, sep="")
+c) print(string + "")
+d) print(string; "")
+
+**Comments:**
+
+What is the primary purpose of comments in Python code?
+a) To execute instructions for the computer
+b) To temporarily disable lines of code
+c) To make the code more readable and understandable for humans
+d) To create errors for debugging
+
+Which of the following is the correct syntax for a single-line comment in Python?
+a) // This is a comment
+b) /* This is a comment */
+c) # This is a comment
+d) { This is a comment }
+
+How can you create a multi-line comment in Python?
+
+a) Using triple single quotes (''')
+b) Using triple double quotes (""")
+c) Using backslash () at the end of each line
+d) Using the comment keyword
+
+What happens when you run code that includes comments?
+a) The comments are executed along with the code.
+b) The comments are ignored by the Python interpreter.
+c) The comments are displayed as output.
+d) The comments are converted into machine code.
+
+
+
 ## Exercises
 
 ## Review Questions

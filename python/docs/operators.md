@@ -95,3 +95,11 @@ is_missing = 2 not in numbers  # True
 - These are less common in general-purpose programming, but useful in certain domains like low-level programming or cryptography.
 
 
+
+
+What is the difference between == and = in Python?
+
+a) == is the comparison operator, = is the assignment operator
+b) == is the assignment operator, = is the comparison operator
+c) They are the same operator
+d) There is no difference

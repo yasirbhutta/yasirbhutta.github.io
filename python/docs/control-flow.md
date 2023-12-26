@@ -48,8 +48,243 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Multiple Choice (Select the best answer)
 
+**for loop:**
+
+What is the correct syntax for a for loop in Python?
+a) for (int i = 0; i < 10; i++):
+b) for i in range(10):
+c) for i = 0 to 9:
+d) for i in 10:
+
+What will be the output of the following code?
+
+```python
+for i in range(5):
+  print(i * 2)
+```
+
+a) 0 1 2 3 4
+b) 2 4 6 8 10
+c) 10 8 6 4 2
+d) 0 2 4 6 8
+
+How many times will the following loop execute?
+
+for i in [1, 2, 3, 3]:
+  print("Hello")
+
+a) 3
+b) 4
+c) 1
+d) Infinitely
+
+What is the primary purpose of a for loop in Python?
+a. To define a function
+b. To iterate over a sequence
+c. To create a conditional statement
+d. To perform mathematical operations
+
+In Python, what does the range() function do when used in a for loop?
+a. Generates a sequence of numbers
+b. Defines a list
+c. Calculates the average
+d. Determines the length of a string
+
+How is the syntax for a for loop in Python?
+a. for x in range(10):
+b. while x < 10:
+c. loop for x in 10:
+d. for x = 0; x < 10; x++:
+
+In a for loop, what is the role of the loop variable?
+a. It is used to define the loop
+b. It holds the result of the loop
+c. It is the counter for the loop iterations
+d. It is optional and can be omitted
+
+Which of the following is the correct way to iterate over elements in a list using a for loop?
+a. for item in my_list:
+b. for i = 0; i < len(my_list):
+c. for element = my_list:
+d. for (i, item) in enumerate(my_list):
+
+How can you iterate over both the index and elements of a list using a for loop?
+a. for i in my_list:
+b. for (i, element) in enumerate(my_list):
+c. for element in range(my_list):
+d. for index, element in my_list:
+
+What is the output of the following code?
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for x in numbers:
+    print(x * 2)
+```
+
+a. 2 4 6 8 10
+b. 1 2 3 4 5
+c. 1 4 9 16 25
+d. 2 4 8 16 32
+
+**while loop**
+
+What is the output of the following code?
+
+```python
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+```
+(a) 0 1 2
+(b) 0 1
+(c) 1 2 3
+(d) The code will run indefinitely.
+
+What will happen if you try to modify the loop variable within the body of a while loop?
+
+(a) The loop will continue as normal.
+(b) The loop will terminate immediately.
+(c) The loop may behave unexpectedly, depending on how the variable is modified.
+(d) The loop will always run indefinitely.
+
+What is the correct syntax for a while loop in Python?
+
+(a) while (condition):
+(b) while condition {
+(c) while condition:
+(d) while (condition) {
+
+What is the output of the following code?
+
+```python
+x = 10
+while x > 0:
+    print(x)
+    x -= 2
+```
+
+(a) 10 8 6 4 2
+(b) 9 7 5 3 1
+(c) 10 9 8 7 6
+(d) The code will run indefinitely.
+
+What is the purpose of the else clause in a while loop?
+
+(a) To execute a block of code if the loop condition is never true.
+(b) To execute a block of code if the loop completes without being terminated by a break statement.
+(c) To execute a block of code if the loop encounters an error.
+(d) The else clause cannot be used with a while loop.
+
+**if statement:**
+
+Which of the following correctly represents the syntax of an if statement in Python?
+a) if condition { block of code }
+b) if(condition) { block of code }
+c) if condition: block of code
+d) if condition: block of code
+
+What is the syntax for a simple if statement in Python?
+a. if x == 10:
+b. for x in range(10):
+c. while x < 10:
+d. if (x == 10) then:
+
+What is the purpose of the else block in an if statement?
+
+a) To execute a code block when the if condition is True
+b) To execute a code block when the if condition is False
+c) To create an infinite loop
+d) To define a function
+
+What happens when none of the conditions in an if-elif-else chain are True, and there is no else block?
+
+a) The program raises an error.
+b) The program executes the first if block.
+c) The program executes the last elif block.
+d) The program does nothing and continues to the next statement.
+
+What will be the output of the following code?
+
+
+```python
+x = 10
+y = 5
+if x > y:
+    print("x is greater than y")
+```
+
+a) "x is greater than y"
+b) "x is less than y"
+c) Nothing will be printed
+d) An error will occur
+
+What happens if none of the conditions in an if-elif chain are True, and there is no else block?
+
+a) The program raises an error
+b) The program executes the first if block
+c) The program does nothing and continues to the next statement
+d) The program executes the last elif block
+
+Which of the following statements is True about indentation in Python?
+
+a) Indentation is optional
+b) Indentation is used to define code blocks
+c) Indentation is four spaces wide
+d) Both b and c
+
+What will be the output of the following code?
+
+```python
+number = 10
+if number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
+```
+
+Which of the following is the correct way to compare if two variables are equal in an if statement?
+a. if x equals 5:
+b. if x == 5:
+c. if x = 5:
+d. if x := 5:
+
+What does the following code snippet do?
+
+```python
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+```
+
+a. Prints "Positive" if x is greater than 0, "Negative" if x is less than 0, and "Zero" if x is 0.
+b. Prints "Positive" if x is less than 0, "Negative" if x is greater than 0, and "Zero" if x is 0.
+c. Prints "Positive" if x is 0, "Negative" if x is greater than 0, and "Zero" if x is less than 0.
+d. Causes an error because the conditions are conflicting.
+
+
+How can you check if a value is NOT equal to 10 in an if statement?
+
+a. if x != 10:
+b. if x <> 10:
+c. if x =! 10:
+d. if x not 10:
+
 ## Exercises
 
 ## Review Questions
 
+**for loop:**
+- What is the difference between a for loop and a while loop in Python?
+- Can you use a for loop to iterate over a string?
+
+**if statement:**
+
+- Can you have multiple elif blocks in an if-elif-else statement?
+- What is the purpose of nesting if statements?
 ## References and Bibliography
