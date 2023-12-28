@@ -213,7 +213,6 @@ c) The comments are displayed as output.
 d) The comments are converted into machine code.
 
 
-
 ## Exercises
 
 ## Review Questions
