@@ -134,6 +134,10 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ### Move sheet
 
+**See also:**
+
+- [Hide or Unhide worksheets - Microsoft Support](https://support.microsoft.com/en-au/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
+
 ## [Excel for Android touch guide](https://support.microsoft.com/en-au/office/excel-for-android-touch-guide-aef977da-6adf-4724-b054-8ca4bb1d7afb)
 
 ## [Excel for Android phones: Animated tips](https://support.microsoft.com/en-us/office/excel-for-android-phones-animated-tips-25aedb34-2379-4429-90ad-3fffc9cbee3b)
