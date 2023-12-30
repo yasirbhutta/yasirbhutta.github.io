@@ -7,6 +7,17 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.html](https://yasirbhutta.github.io/ms-excel/docs/tips-and-tricks.html)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
+## Modules - Tips and Tricks
+### Module 1
+- [Transpose (rotate) data from rows to columns or vice versa](#transpose-rotate-data-from-rows-to-columns-or-vice-versa)
+- [Populate a Dropdown List Based on Cells Value](#populate-a-dropdown-list-based-on-cells-value)
+- [Fill a column with a series in excel](#fill-a-column-with-a-series-in-excel)
+- [Flash Fill in Excel](#flash-fill-in-excel)
+### Module 2
+- [Quick Analysis in excel](#quick-analysis-in-excel)
+- [Define and use names in formulas](#define-and-use-names-in-formulas)
+- [Copy values quickly from the status bar](#copy-values-quickly-from-the-status-bar)
+
 ## Transpose (rotate) data from rows to columns or vice versa
 
 Transposing data is the process of switching data from rows to columns or vice versa. This is often done to make the data easier to read or to improve the layout of a spreadsheet.

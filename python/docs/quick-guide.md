@@ -1,11 +1,28 @@
-# Python - Quick Guide for Ultimate Python Beginner's
+# [Python](https://yasirbhutta.github.io/python/) - Quick Guide for Ultimate Python Beginner's
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhut ta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/python/docs/quick-guide.pdf)
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html](https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html)
-- [Pyton Resources: Books, Websites, Tutorials](../resources.md)
+- [Pyton Resources: Books, Websites, Tutorials](https://yasirbhutta.github.io/python/resources.html)
+
+## Modules - Quick Guide for Ultimate Python Beginner's
+### Module 1
+- [What is Python](#what-is-python)
+- [Getting Started](#getting-started)
+- [How To Use Print() Function in Python](#how-to-use-print-function-in-python)
+### Module 2
+- [Variables](#variables)
+- [Types of Data](#types-of-data)
+### Module 3
+- [Operators](#operators)
+- [Input and Output](#input-and-output)
+### Module 4
+- [if statement](#if-statement) 
+- [for loop](#for-loop)
+### Module 5
+- [while loop](#while-loop)
 
 ## What is Python
 
@@ -21,13 +38,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
 - Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.
 
-## Basics
-
-### Python source code
-
 > **Important:** Python source code files always use the `.py` extension.
 
-### How To Use Print() Function in Python
+## How To Use Print() Function in Python
 
 - It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.
 
@@ -78,7 +91,7 @@ print("Hello", "World", end="!")
 - [Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
 - [Video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
-### Variables
+## Variables
 
 - Storage containers for data (numbers, text, etc.).
 
@@ -141,11 +154,11 @@ print(area)
 
 - [Variables in Python](variables.md)
   
-### Types of Data
+## Types of Data
 
 - Numbers (integers, floats), strings (text), booleans (True/False)
 
-#### String (str)
+### String (str)
 
 - Stores text or characters.
 - Enclosed in single or double quotes.
@@ -251,8 +264,6 @@ is_less_or_equal = 5 <= 5  # True
 ### Input and Output
 
 - Get user input with input() and display output with print().
-
-**While I can't create physical handouts, I can provide you with a comprehensive guide to Python input and output, suitable for learning and reference:**
 
 **Input in Python:**
 

@@ -7,6 +7,21 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/ms-excel/docs/advance-features.html](https://yasirbhutta.github.io/ms-excel/docs/advance-features.html)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
+## Modules - Advance features
+
+### Module 1
+
+- Conditional Formatting
+- Data Validation
+
+### Module 2
+
+- PivotTable
+- Repeat specific rows or columns on every printed page
+  - Set or clear a print area on a worksheet
+- Additional Topics
+  - Excel Labs
+
 ## Conditional Formatting
 
 Conditional formatting is a feature in Microsoft Excel that allows you to highlight cells based on specific conditions. You can use it to make patterns and trends in your data more apparent. For example, you can use conditional formatting to highlight cells that contain values which meet a certain condition, such as cells that contain a value greater than 100.
@@ -49,7 +64,7 @@ Data validation is a feature in Microsoft Excel that allows you to restrict the 
 - [Create a PivotTable to analyze worksheet data - Microsoft Support](https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 - [Overview of PivotTables and PivotCharts - Microsoft Support](https://support.microsoft.com/en-us/office/overview-of-pivottables-and-pivotcharts-527c8fa3-02c0-445a-a2db-7794676bce96)
 
-### Repeat specific rows or columns on every printed page
+## Repeat specific rows or columns on every printed page
 
 Repeating rows or columns on every printed page, also known as setting print titles, can be helpful when you have a large worksheet that spans multiple pages. This ensures that your headers or labels are always visible on each page, making it easier to read and understand your data.
 

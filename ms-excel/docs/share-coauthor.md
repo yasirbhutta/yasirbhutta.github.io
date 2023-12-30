@@ -1,6 +1,4 @@
-# Excel: Share & co-author
-
-# Microsoft Excel: Advance Features in Excel
+# [Microsoft Excel](../index.md): Share & co-author
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -9,12 +7,21 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/ms-excel/docs/share-coauthor.html](https://yasirbhutta.github.io/ms-excel/docs/share-coauthor.html)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
   
+## Modules - Share & co-author
+### Module 1
+- Share a section of a workbook
+- Protect a sheet
+- Protect a workbook
+- Protect an Excel file
+
 
 ## Share a section of a workbook
 
 - [Video: Share a section of a workbook](https://youtu.be/IhTR4sGPS_U)
   
 ## Protect a sheet
+
+[Video: How to: Protect a worksheet](https://youtu.be/6gHNzdlgWps)
 
 **See also:
 

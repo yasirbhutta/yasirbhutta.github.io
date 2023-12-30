@@ -1,9 +1,18 @@
+# Microsoft Excel: Sort and Filter
 
-# Microsoft Excel
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-## Module 7: Sort and Filter
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/sort-filter.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/ms-excel/docs/sort-filter.html](https://yasirbhutta.github.io/ms-excel/docs/sort-filter.html)
+- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
-### Sort & Filter
+## Modules - Sort & Filter
+### Module 1
+- [Introduction to Sort & Filter](#sort--filter)
+- [Slicer to Filter Data](#slicer-to-filter-data)
+
+## Sort & Filter
 
 Sorting in Excel is a process of arranging data in a specific order, either ascending or descending. It allows you to organize and analyze your data more effectively.
 
@@ -26,9 +35,27 @@ Types of Filters in Excel
 - [Video: Sort and Filter data in a range - Microsoft Excel](https://youtu.be/WhLNiqlRBpE)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcG7L3YX_tdi538MQ?e=iyUBOO)
 
+**Using the filter Function:**
+
+- [Video: How to: Filter data by using a formula in excel](https://youtube.com/shorts/B1nPF2OGkKI)
+
+## Slicer to Filter Data
+
+- [Video: Use Slicers to Filter Data](https://youtu.be/-M85zd1uEVI)
+  
 **See also:**
 
 - [Video: Sort data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/video-sort-data-in-a-range-or-table-ffb9fcb0-b9cb-48bf-a15c-8bec9fd3a472)
 - [Sort data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/sort-data-in-a-range-or-table-62d0b95d-2a90-4610-a6ae-2e545c4a4654)
 - [Filter data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e)
 
+
+## True/False (Mark T for True and F for False)
+
+## Multiple Choice (Select the best answer)
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography

@@ -9,7 +9,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
   
 
-## Module 4: Functions in Excel - I
+## Modules - Functions
+
+### Module 1: Functions in Excel - I
 
 - Cell reference type
 - Copying formula
@@ -17,11 +19,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - Functions: SUM, SUMIF
 - Use AutoSum to sum numbers
 
-## Module 5: Functions in Excel II
+### Module 2: Functions in Excel II
 
 - Functions: MIN, MAX, COUNT, COUNTA, COUNTIF, POWER, AVERAGE, PRODUCT
 
-## Module 6: Functions in Excel III
+### Module 3: Functions in Excel III
 
 - Referencing cells in formulas
 - Functions: IF, TODAY, NOW, LOWER, UPPER, PROPER, LEN

@@ -1,7 +1,9 @@
-# [Python](index.md): Resources
+# Python: Resources
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+- [Download PDF](https://yasirbhutta.github.io/python/resources.pdf)
+  
 ## Books
 
 - Automate the Boring Stuff with Python - Practical Programming for Total Beginners by Al Sweigart [website](https://www.amazon.com/gp/product/1593275994/) \| [ebook](https://automatetheboringstuff.com/) (free to read)
@@ -9,6 +11,18 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Python for Data Analysis, 3E](https://amzn.to/3DyLaJc) \| [ebook](https://wesmckinney.com/book) (free to read)
   
+## Online Courses
+
+- [Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+- [Google's Python Class](https://developers.google.com/edu/python)
+- [Python Code Examples – Sample Script Coding Tutorial for Beginners](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/)
+- [Python Tutorial - W3Schools](https://www.w3schools.com/python/)
+- [Python for beginners - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
+
+## Online Tutorials
+
+- [Python - Code with Harry](https://www.codewithharry.com/tutorial/python/)
+
 **See also:**
 
 - [Beginners Guide and Download - python docs](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
