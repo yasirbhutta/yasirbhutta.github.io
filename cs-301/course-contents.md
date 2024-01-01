@@ -32,7 +32,7 @@
 ## The Internet
 
 - [Email](../google-workspace/docs/email.md)
-- Collaborative Computing and Social Networking
+- [Collaborative Computing and Social Networking](../social-media/docs/linkedin.md)
 - E-Commerce
 - IT Security
 

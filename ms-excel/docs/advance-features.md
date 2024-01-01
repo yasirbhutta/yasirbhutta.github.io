@@ -11,15 +11,15 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### Module 1
 
-- Conditional Formatting
-- Data Validation
+- [Conditional Formatting](#conditional-formatting)
+- [Data Validation](#data-validation)
 
 ### Module 2
 
-- PivotTable
-- Repeat specific rows or columns on every printed page
+- [Pivot Table](#pivottable)
+- [Repeat specific rows or columns on every printed page](#repeat-specific-rows-or-columns-on-every-printed-page)
   - Set or clear a print area on a worksheet
-- Additional Topics
+- [Additional Topics](#additional-topics)
   - Excel Labs
 
 ## Conditional Formatting
@@ -36,7 +36,7 @@ Conditional formatting is a feature in Microsoft Excel that allows you to highli
 - [Video: Use conditional formatting - Microsoft Support](https://support.microsoft.com/en-us/office/video-use-conditional-formatting-03ab07da-1564-4913-b69f-2b1a370c8910)
 - [Conditional Formatting - Excel Easy](https://www.excel-easy.com/data-analysis/conditional-formatting.html)
 
-## Data Validation {#data-validation}
+## Data Validation
 
 Data validation is a feature in Microsoft Excel that allows you to restrict the type of data or the values that users enter into a cell. You can use data validation to create a dropdown list, restrict the length of the text, or limit the cell to accept only whole numbers or decimal numbers, among other things.
 
