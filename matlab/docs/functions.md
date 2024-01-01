@@ -311,11 +311,97 @@ fprintf('Score: %d, Grade: %s', score,grade)
 
 ## True/False (Mark T for True and F for False)
 
+- Functions can only return one output value. True or False
+- The order of arguments matters when calling a function. True or False
+- Variables defined within a function are local to that function. True or False
+- MATLAB functions can only be called from other functions, not from script files. True or False
+  
+
 ## Multiple Choice (Select the best answer)
+
+> What is the purpose of the "function" keyword in MATLAB?
+a. Declares a variable
+b. Defines a loop
+c. Marks the beginning of a function
+d. Specifies a data type
+
+> How can you return multiple values from a MATLAB function?
+a. Use a semicolon between values
+b. Separate values with commas
+c. Enclose values in square brackets
+d. Use square brackets and commas
+
+> What is the purpose of input arguments in a MATLAB function?
+a. They define the function's name
+b. They determine the output of the function
+c. They provide values for computation within the function
+d. They are optional and not necessary
+
+> Which command is used to call a function in MATLAB?
+a. call
+b. run
+c. execute
+d. The function name itself
+
+> What is the primary difference between a function and a script in MATLAB?
+a) Functions can return values, while scripts cannot.
+b) Functions have their own workspace, while scripts share the base workspace.
+c) Functions can be called multiple times, while scripts can only run once.
+d) All of the above.
+
+> What happens if you try to call a function with fewer arguments than it expects?
+a) The function calls the input function to prompt for missing values.
+b) The function uses default values for missing arguments.
+c) The function generates an error.
+d) The function uses random values for missing arguments.
+
+> How do you define a function in MATLAB?
+a. for
+b. function
+c. if
+d. while
+
+> How is a function file named in MATLAB typically saved?
+1. [ ] With a ".m" extension
+2. [ ] With a ".mat" extension
+3. [ ] With a ".func" extension
+4. [ ] Without any file extension
+
+> In MATLAB, what is the role of the "end" keyword inside a function?
+1. [ ] Marks the end of the function definition
+2. [ ] Specifies the end of a loop or conditional statement
+3. [ ] Ends the execution of the entire script
+4. [ ] Indicates the end of a variable assignment
+
+> How can you call a MATLAB function that is saved in a separate file?
+1. [ ] Use the "call" command
+2. [ ] Execute the function file directly
+3. [ ] Import the function into the script
+4. [ ] Use the function name in the script
+
+> What is the output of the following MATLAB code snippet?
+
+```matlab
+function result = multiply_numbers(a, b)
+    result = a * b;
+end
+
+x = 3;
+y = 4;
+z = multiply_numbers(x, y);
+disp(z);
+```
+
+1. [ ] 7
+2. [ ] 12
+3. [ ] 1
+4. [ ] 0
+
 
 ## Exercises
 
 - Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
+- Write a function that calculates the area of a circle, given its radius.
 - Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
 - Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
 - Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
@@ -347,6 +433,17 @@ Enter an integer: 4
 - Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
 
 ## Review Questions
+
+- What is a function in MATLAB?
+- How do you define a function in MATLAB? Provide an example.
+- How do you define a function in MATLAB? What are the essential components of a function definition?
+- How do functions return output values?
+- What is the difference between a function and a script in MATLAB?
+- Describe the process of calling a function, including argument passing and return value handling.
+- What happens if you try to call a function with the wrong number of arguments?
+- How can you create plots within a function and display them to the user?
+- How can you pass plotting options as arguments to functions to customize visualizations?
+- Demonstrate how to pass multiple input arguments and return multiple output values.
 
 ## References and Bibliography
 

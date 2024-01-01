@@ -19,6 +19,12 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 **Skills & Endorsements:** Add your skills and get endorsements from your connections. This helps recruiters find you and assess your qualifications.
 **Recommendations:** Ask professors, mentors, or employers for recommendations to add credibility to your profile.
 
+**See also:**
+
+- [Sign up to join LinkedIn with your Google login credentials](https://www.linkedin.com/help/linkedin/answer/a1424202)
+- [Sign up to join LinkedIn](https://www.linkedin.com/help/linkedin/answer/a1338223/signing-up-to-join-linkedin)
+- [Sign in and out of your account](https://www.linkedin.com/help/linkedin/answer/a1335211)
+  
 ## Networking Like a Pro
 
 **Connect with people you know:** Start by adding classmates, professors, family members, and friends.
@@ -34,3 +40,8 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 **Get your profile noticed by recruiters:** Use relevant keywords in your profile and engage with company pages to increase your visibility.
 **Follow company updates:** Stay informed about job openings and company news by following companies you're interested in.
 **Prepare for interviews:** Use LinkedIn to research the company and the interviewer to make a good impression.
+
+**See also:**
+
+- [Find Pakistan Jobs, Internships, Jobs Near Me](https://pk.linkedin.com/jobs)
+- [How to Get a Job Through LinkedIn: The Complete Guide 2024](https://www.linkedin.com/pulse/how-get-job-through-linkedin-complete-guide-deep-kumar/)

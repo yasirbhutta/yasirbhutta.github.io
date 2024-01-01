@@ -2,7 +2,7 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.pdf)
+- [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/software.pdf)
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/software.html](https://yasirbhutta.github.io/computer-basics/docs/software.html)
 - [Slides: Software](https://docs.google.com/presentation/d/168Rt_k1ufYWGKpRvX1oRmu4173FPSfCfQ7PbZMGwAas/edit?usp=sharing)
@@ -46,10 +46,11 @@ Some examples of system software are:
 **Example:**
 
 - [Microsoft 365](https://www.microsoft365.com/): Used for documentation, prepare spread sheets and presentation etc.
-- Corel Draw: Corel Draw is an commercial software that used for picture drawing, editing and also used for publication.
+- [Corel Draw](https://www.coreldraw.com/en/): Corel Draw is an commercial software that used for picture drawing, editing and also used for publication.
 Corel Draw.
-- Google Chrome: Used for web page browsing
-- Microsoft Team: Used for Video, Audio and Text based chat. Other popular chatting software's are Microsoft Team, Google Meet, WhatsApp, [Zoom](https://zoom.us/) etc
+- [Google Chrome](https://www.google.com/intl/en_pk/chrome/): Used for web page browsing
+- [Microsoft Team](https://teams.microsoft.com/): Used for Video, Audio and Text based chat. Other popular chatting software's are Microsoft Team, Google Meet, WhatsApp, [Zoom](https://zoom.us/) etc
+  - [Microsoft Team Demo](https://teamsdemo.office.com/)
 - Adobe Reader: Used to view adobe PDF files.
 - [GIMP](https://www.gimp.org/): This free and open-source image manipulation software is a powerful alternative to Photoshop, making it a popular choice for hobbyists and professionals alike.
 - [CapCut](https://www.capcut.com/): Free all-in-one video editor for everyone to create anything anywhere
