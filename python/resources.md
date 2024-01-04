@@ -21,6 +21,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Online Tutorials
 
+- [Python Tutorial for Beginners - YouTube](https://bit.ly/3z9744q)
 - [Python - Code with Harry](https://www.codewithharry.com/tutorial/python/)
 
 **See also:**
