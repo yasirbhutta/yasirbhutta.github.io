@@ -300,6 +300,10 @@ end
 end
 ```
 
+## Using the '@' Operator
+
+**Anonymous function:** An anonymous function is a function that is not stored in a program file, but is associated with a variable whose data type is function_handle. Anonymous functions can accept multiple inputs and return one output. They can contain only a single executable statement. [^1]
+
 **Example Usage:**
 
 ```matlab
@@ -309,13 +313,44 @@ grade = grade_converter(score);
 fprintf('Score: %d, Grade: %s', score,grade)
 ```
 
+**Syntax:**
+
+```matlab
+function_handle = @(input_arguments) expression
+```
+**Example #:** Basic Anonymous function
+
+```matlab
+square = @(x) x^2;  % Function to square a number
+
+result = square(5);  % Call the function, result will be 25
+```
+
+**Example #:** Anonymous Function with Multiple Inputs
+
+```matlab
+g = @(x, y) x + y;
+
+sumResult = g(3, 5);  % Evaluating the function with x=3 and y=5
+```
+
+**Example #:** Using Built-in Functions with Anonymous Functions
+
+```matlab
+h = @(a, b) sqrt(a^2 + b^2);
+
+hypotenuse = h(3, 4);  % Evaluating the hypotenuse of a right triangle
+```
+
 ## True/False (Mark T for True and F for False)
 
-- Functions can only return one output value. True or False
-- The order of arguments matters when calling a function. True or False
-- Variables defined within a function are local to that function. True or False
-- MATLAB functions can only be called from other functions, not from script files. True or False
-  
+- Functions can only return one output value. **True or False**
+- The order of arguments matters when calling a function. **True or False**
+- Variables defined within a function are local to that function. **True or False**
+- MATLAB functions can only be called from other functions, not from script files. **True or False**
+- Anonymous functions can accept multiple input arguments, but they can only directly return a single output value in MATLAB. **True or False**
+- 
+
 
 ## Multiple Choice (Select the best answer)
 
@@ -397,6 +432,31 @@ disp(z);
 3. [ ] 1
 4. [ ] 0
 
+> Which of the following correctly defines an anonymous function in MATLAB?
+
+1. [ ] function_name = @(input_arguments) expression
+2. [ ] function function_name(input_arguments) expression
+3. [ ] anonymous_func = function(input_arguments) expression
+4. [ ] function(input_arguments) expression
+
+> What is the output of the following code?
+
+```matlab
+square = @(x) x^2;
+result = square(4);
+disp(result);
+```
+1. [ ] 2
+2. [ ] 4
+3. [ ] 8
+4. [ ] 16
+
+> Which of the following is a valid way to create an anonymous function with two input arguments?
+
+1. [ ] myfun = @(x, y) x * y;
+2. [ ] myfun = function(x, y) x * y;
+3. [ ] myfun(x, y) = x * y;
+4. [ ] myfun = inline('x * y', 'x', 'y');
 
 ## Exercises
 
@@ -448,3 +508,7 @@ Enter an integer: 4
 ## References and Bibliography
 
 - [Declare function name, inputs, and outputs - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/function.html)
+
+
+- [^1]: [Anonymous Functions - Mathworks](https://www.mathworks.com/help/matlab/matlab_prog/anonymous-functions.html)
+  

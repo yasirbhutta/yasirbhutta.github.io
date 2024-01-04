@@ -1,5 +1,7 @@
 # Course Contents | CS-301 Into. to ICT
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
 - [Resources: Books, Websites, Tutorials](resources.md)
 
 ## Computer Definitions & Concepts
@@ -23,7 +25,7 @@
 ## Introduction to Programming
 
 - HTML
-- [Python: Quick Guide](/python/docs/quick-guide.md)
+- [Python: Quick Guide](../python/docs/quick-guide.md) \| [Download PDF](../python/docs/quick-guide.pdf)
 
 ## Databases and Information Systems
 
@@ -57,10 +59,4 @@
 
 - [Microsoft Powerpoint](#)
 
-## Social Links
 
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://x.com/yasirbhutta)
