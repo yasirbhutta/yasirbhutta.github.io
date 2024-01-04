@@ -6,7 +6,89 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/control-flow.html](https://yasirbhutta.github.io/python/docs/control-flow.html)
 
-## if Statement
+### Conditional Statements
+
+#### if statement
+
+- The if statement in MATLAB is a conditional statement that allows you to execute a block of code only if a certain condition is met.
+
+- Make decisions using `if`, `elif`, and `else` statements.
+
+The general **syntax** of the if statement is as follows:
+
+```python
+if condition
+    statements
+```
+
+The `condition` can be any logical expression. If the condition is evaluated to `true`, the block of `statements` is executed. Otherwise, the block of `statements` is skipped.
+
+Here is a simple example of an if statement in MATLAB:
+
+**Example #:**
+
+```python
+x = 10
+
+if x > 5:
+    print('x is greater than 5.')
+```
+
+This code will print the message `x is greater than 5.` to the console.
+
+You can also use `elif` statements to check for multiple conditions. The general **syntax** of the **elif statement** is as follows:
+
+```python
+elif condition
+    statements
+end
+```
+
+If the `condition` for the if statement is evaluated to `false`, the python interpreter will check the `condition` for the first elif statement. If the condition for the elif statement is evaluated to `true`, the corresponding block of `statements` is executed. Otherwise, the python interpreter will check the `condition` for the next elif statement, and so on.
+
+Here is an example of an if statement with an elif statement:
+
+**Example #:**
+
+```python
+x = 3
+
+if x > 5:
+    print('x is greater than 5.')
+elif x < 5:
+    print('x is less than 5.')
+```
+
+This code will print the message "x is less than 5." to the console.
+
+You can also use an else statement to check for all other conditions. The general syntax of the else statement is as follows:
+
+```python
+else
+    statements
+end
+```
+
+If all of the conditions for the if and elseif statements are evaluated to `false`, the block of `statements` in the `else` statement is executed.
+
+Here is an example of an if statement with an `elif` statement and an `else` statement:
+
+**Example #:**
+
+```python
+x = 2
+
+if x > 5:
+    print('x is greater than 5.')
+elif x == 5:
+    print('x is equal to 5.')
+else:
+    print('x is less than 5.')
+```
+
+This code will print the message "x is less than 5." to the console.
+
+**See also:**
 
 - [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
@@ -15,12 +97,137 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
 
-## for Statement
+
+## loops
+
+- There are two ways to create loops in Python: with the for-loop and the while-loop.
+
+- Repeat actions using `for` and `while` loops.
+
+### for loop
+
+- A for loop in Python is a programming statement that repeats a block of code a fixed number of times.
+- The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
+- The Python for statement iterates over the members of a sequence in order, executing the block each time. 
 
 - [Video: For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
-- [Video: Underscore to Ignore Values in for loop (New)](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+  
 
-## while Statement
+**Syntax:**
+
+- **variable** is a loop counter variable that is initialized to the value of expression at the start of the loop.
+
+**Example #:** Print Numbers from 1 to 5
+
+Question: Write a MATLAB program to print the numbers from 1 to 5, using a for loop.
+
+**Example #:**
+
+```python
+for i in range(6):
+    print(i)
+```
+
+**Example #:** Printing "Building the future, one line at a time." 5 Times Using a for Loop
+
+**Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
+
+**Example #:**
+
+```python
+for i in range(5):
+    print("Building the future, one line at a time.")
+```
+
+**Example #:** Sum of Numbers from 1 to N
+
+Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
+
+```python
+N = 10
+sum = 0
+for i in range(1,N+1):
+    sum = sum + i
+print(f"Sum = {sum}")
+```
+
+**Example #:** Print Even Numbers from 2 to 10
+
+**Question:** Write a Python program to display the even numbers from 2 to 10, inclusive, using a for loop.
+
+```python
+sum = 0
+for i in range(2,11):
+    if i%2 == 0:
+        sum +=i
+        print(i)
+print(f"Sum of even numbers: {sum}")
+```
+
+**Example #:** Strings as an iterable
+
+```python
+string = "python is versatile"
+for x in string:
+    print(x)
+```
+
+**Example #:** Lists as an iterable
+
+```python
+collection = ['python', 5, 'd']
+for x in collection:
+    print(x)
+```
+
+**Example #:** Loop over Lists of lists
+
+```python
+list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for list in list_of_lists:
+    for x in list:
+        print(x)
+```
+
+- A **nested loop** is a loop inside another loop. It is a powerful programming technique that can be used to solve a wide variety of problems.
+
+**Example #:** Nested Loops - Multiplication Tables
+
+```python
+for i in range(1, 11):
+    print(f"Multiplication table of {i}")
+    for j in range(1, 11):
+        print('%d * %d = %d' % (i, j, i*j))
+```
+
+**See also:**
+ 
+- [Video: Underscore to Ignore Values in for loop (New)](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+- [For loop - Python wiki](https://wiki.python.org/moin/ForLoop)
+
+#### while loop
+
+- A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
+
+**Example #:** Counting Up to a Number:
+
+```python
+count = 1  # Start counting at 1
+while count <= 10:  # Keep counting as long as we're less than or equal to 10
+    print(count)  # Print the current number
+    count += 1  # Add 1 to the count for the next round
+```
+
+**Example :** While loop from 1 to infinity, therefore running forever.
+
+```python
+x = 1
+while True:
+    print("To infinity and beyond! We're getting close, on %d now!" % (x))
+    x += 1
+```
+
+**See also:**
 
 - [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
 - [Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
@@ -33,10 +240,27 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### The break and continue Statement
 
+**Example #:**
+
+```python
+for x in range(3):
+    if x == 1:
+        break
+```
+
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
 
-### The else Clauses on Loops
+## The else Clauses on Loops
+
+**Example #:** for..else
+
+```python
+for x in range(3):
+    print(x)
+else:
+    print('Final x = %d' % (x))
+```
 
 ### pass Statement
 
@@ -289,3 +513,5 @@ d. if x not 10:
 - What is the purpose of nesting if statements?
 - 
 ## References and Bibliography
+
+[^1]: In Python, an iterable object is an object that you can loop over using a "for" loop. It's any object that can return its elements one at a time.
