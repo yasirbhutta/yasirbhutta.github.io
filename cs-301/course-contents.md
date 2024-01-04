@@ -10,17 +10,17 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Internet: Browsers and Search Engines
 
-- [Google Search](../google-workspace/docs/google-search.md)
+- [Google Search](../google-workspace/docs/google-search.md) \| [Download PDF](../google-workspace/docs/google-search.pdf)
 
 ## Hardware
 
 - [Number Systems](../computer-basics/docs/number-systems.md)
-- [Computer Systems & Components](../computer-basics/docs/hardware.md)
-- [Storage Devices](../computer-basics/docs/storage-devices.md)
+- [Computer Systems & Components](../computer-basics/docs/hardware.md) \| [Download PDF](../computer-basics/docs/hardware.pdf)
+- [Storage Devices](../computer-basics/docs/storage-devices.md) \| [Download PDF](../computer-basics/docs/storage-devices.pdf)
 
 ## Software
 
-- [Software](../computer-basics/docs/software.md)
+- [Software](../computer-basics/docs/software.md) \| [Download PDF](../computer-basics/docs/software.pdf)
 
 ## Introduction to Programming
 
@@ -33,8 +33,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## The Internet
 
-- [Email](../google-workspace/docs/email.md)
-- [Collaborative Computing and Social Networking](../social-media/docs/linkedin.md)
+- [Email](../google-workspace/docs/email.md) \| [Download PDF] (../google-workspace/docs/email.md) 
+- [Collaborative Computing and Social Networking](../social-media/docs/socialmedia.md) \| [Download PDF] (../google-workspace/docs/email.md)
 - E-Commerce
 - IT Security
 
@@ -42,10 +42,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### [Microsoft Exel](../ms-excel/index.md)
 
-- [Handouts - Excel Basics](../ms-excel/docs/basics.md)
-- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md)
-- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md)
-- [Handouts - Functions in excel](../ms-excel/docs/functions.md)
+- [Handouts - Excel Basics](../ms-excel/docs/basics.md) \| [Download PDF](../ms-excel/docs/basics.pdf)
+- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [Download PDF](../ms-excel/docs/formatting.pdf)
+- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [Download PDF](../ms-excel/docs/formulas.pdf)
+- [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [Download PDF](../ms-excel/docs/functions.pdf)
 
 ### [Microsoft Word](../ms-word/index.md)
 
@@ -55,7 +55,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Text Editing in Documents](../ms-word/docs/stylish.md)
 - [Stylish Formatting & Features](../ms-word/docs/stylish.md)
 - [Page Formatting](../ms-word/docs/page-formatting.md)
-
 
 - [Microsoft Powerpoint](#)
 
