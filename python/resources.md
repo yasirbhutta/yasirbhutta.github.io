@@ -17,7 +17,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Google's Python Class](https://developers.google.com/edu/python)
 - [Python Code Examples – Sample Script Coding Tutorial for Beginners](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/)
 - [Python Tutorial - W3Schools](https://www.w3schools.com/python/)
-- [Python for beginners - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
+- [Python for beginners - Training \| Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
 
 ## Online Tutorials
 

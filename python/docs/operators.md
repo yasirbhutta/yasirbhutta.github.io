@@ -95,11 +95,93 @@ is_missing = 2 not in numbers  # True
 - These are less common in general-purpose programming, but useful in certain domains like low-level programming or cryptography.
 
 
-
-
 What is the difference between == and = in Python?
 
 a) == is the comparison operator, = is the assignment operator
 b) == is the assignment operator, = is the comparison operator
 c) They are the same operator
 d) There is no difference
+
+Which operator is used to raise a number to a power?
+a. **
+b. ^
+c. pow()
+d. ** and ^ are both correct
+
+What is the result of the expression 3 + 5 * 2 in Python?
+a. 16
+b. 13
+c. 11
+d. 26
+
+What is the purpose of the % operator in Python?
+a. Exponential
+b. Modulus
+c. Floor Division
+d. Addition
+
+What is the output of 45 // 7?
+a. 5.0
+b. 6
+c. 5
+d. 6.428571428571429
+
+Which operator adds a value to a variable?
+a. +=
+b. -=
+c. *=
+d. /=
+
+What is the output of x = 10; x //= 3?
+a. 3
+b. 3.33
+c. 3.5
+d. 4
+
+Which operator checks if two values are greater than or equal to each other?
+a. >
+b. <=
+c. >=
+d. <
+
+What is the result of 5 <= 5?
+a. True
+b. False
+c. 5
+d. None of the above
+
+Which operator returns True if both operands are True?
+a. and
+b. or
+c. not
+d. xor
+
+What is the output of not (True and False)?
+a. True
+b. False
+c. None
+d. Error
+
+Which operator checks if a value is present in a sequence?
+a. in
+b. not in
+c. Both in and not in
+d. None of the above
+
+What is the output of 4 in [1, 3, 4]?
+a. True
+b. False
+c. 4
+d. Error
+
+Which operator checks if two objects refer to the same memory location?
+a. ==
+b. is
+c. is not
+d. Both is and is not
+
+What is the result of x = [1, 2]; y = x; x is y?
+a. True
+b. False
+c. [1, 2]
+d. None of the above

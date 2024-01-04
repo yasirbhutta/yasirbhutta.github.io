@@ -87,9 +87,8 @@ with open("output.txt", "w") as f:
 
 ### Comments
 
-- Comments in Python are non-executable lines of code that are used to explain or document the code.
-- They are ignored by the Python interpreter when the code is executed. 
 - Comments are important for making code more readable and understandable, especially for other programmers who may need to read or modify the code.
+- Comments in Python are non-executable lines of code and ignored by the Python interpreter when the code is executed. 
 
 There are two main types of comments in Python:
 
@@ -134,11 +133,12 @@ Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-
 
 ## Multiple Choice (Select the best answer)
 
-1. Which of the following is the correct syntax for the print statement in Python?
 
-a) print text
-b) println text
-c) echo text
+> Which of the following is the correct syntax for the print statement in Python?
+
+a) print ("text")
+b) println ("text")
+c) echo ("text")
 
 What will be the output of the following code?
 

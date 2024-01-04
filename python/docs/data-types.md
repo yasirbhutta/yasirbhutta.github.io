@@ -44,6 +44,75 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## True/False (Mark T for True and F for False)
 
+Which data type is used to represent decimal numbers in Python?
+a. int
+b. float
+c. complex
+d. str
+
+Which of the following is an example of a boolean value in Python?
+a. "True"
+b. 1
+c. 3.14
+d. False
+
+Which scalar data type is used to represent textual data in Python?
+a. str
+b. char
+c. text
+d. string
+
+What is the default type of a numerical literal without a decimal point in Python?
+a. int
+b. float
+c. complex
+d. bool
+
+Which of the following is NOT a scalar data type in Python?
+a. Integer
+b. Float
+c. String
+d. List
+
+What is the output of type(42)?
+a. int
+b. float
+c. str
+d. None
+
+ What is the result of 3 + 4.5?
+a. 7
+b. 7.5
+c. Error
+d. None of the above
+
+How do you create a string in Python?
+a. Using single quotes (')
+b. Using double quotes (")
+c. Both a and b
+d. None of the above
+
+What is the result of 5 > 3 and not (2 == 2)?
+a. True
+b. False
+c. Error
+d. None of the above
+
+Which of the following is a valid boolean value in Python?
+a. True
+b. False
+c. 0
+d. All of the above
+
+What is the output of str(3.14)?
+a. 3.14
+b. '3.14'
+c. Error
+d. None of the above
+
+
+
+
 ## Multiple Choice (Select the best answer)
 
 ## Exercises

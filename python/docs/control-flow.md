@@ -183,7 +183,7 @@ Which of the following correctly represents the syntax of an if statement in Pyt
 a) if condition { block of code }
 b) if(condition) { block of code }
 c) if condition: block of code
-d) if condition: block of code
+
 
 What is the syntax for a simple if statement in Python?
 a. if x == 10:
@@ -211,7 +211,7 @@ What will be the output of the following code?
 ```python
 x = 10
 y = 5
-if x > y:
+if x < y:
     print("x is greater than y")
 ```
 
@@ -287,4 +287,5 @@ d. if x not 10:
 
 - Can you have multiple elif blocks in an if-elif-else statement?
 - What is the purpose of nesting if statements?
+- 
 ## References and Bibliography
