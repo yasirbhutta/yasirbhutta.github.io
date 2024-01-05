@@ -6,15 +6,31 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
 
-## [Language Introduction]
+- [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [Download Example Code](https://github.com/yasirbhutta/python-examples)
+- [Pyton Resources: Books, Websites, Tutorials](resources.md)
+- [Python Tools](tools.md)
+- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
+
+
+## What is Python
 
 - Python is a high-level, general-purpose programming language.
 - It is known for its clear syntax, readability, and versatility.
 - Python is widely used for `web development`, `data science`, `machine learning`, and `automation`.
 
-### Python source code
+## Getting Started
 
-### How To Use Print() Function in Python
+- Install Python: Download and install it from <https://www.python.org/downloads/>.
+- Choose a text editor: A program to write code, like [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial), [Jupyter Notebook](https://jupyter.org/install), `PyCharm`, or even a simple text editor like `Notepad`.
+- Text editor for Android: [Pydroid 3 - IDE for Python 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
+  - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
+- Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.
+
+> **Important:** Python source code files always use the `.py` extension.
+
+
+## How To Use Print() Function in Python
 
 - It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.
 
@@ -32,7 +48,7 @@ flush: Whether to flush the output buffer immediately. The default is False.
 
 [Video: Use of print() function in python](https://youtu.be/RSSSyqw79_M)
 
-#### Example 1
+**Example #1:**
 
 ```python
 message = 'Python is fun'
@@ -48,7 +64,7 @@ print(message)
 Python is fun
 ```
 
-#### Example 2
+**Example #2:**
 
 ```python
 # Print a string:
@@ -82,10 +98,10 @@ with open("output.txt", "w") as f:
 
 **See also:**
 
-- [Python Tutorial: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
-- [Python Tutorial: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+- [Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
+- [Video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
-### Comments
+## Comments
 
 - Comments are important for making code more readable and understandable, especially for other programmers who may need to read or modify the code.
 - Comments in Python are non-executable lines of code and ignored by the Python interpreter when the code is executed. 
@@ -111,23 +127,25 @@ print("Hello, World!")
 
 **See also:**
 
-- [Python Tutorial: A Comprehensive Guide to Single Line & Multi-Line Comments](https://www.youtube.com/watch?v=W7ixMGE2exc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=73)
+- [Video: A Comprehensive Guide to Single Line & Multi-Line Comments](https://www.youtube.com/watch?v=W7ixMGE2exc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=73)
 
-### Indentation
+## Indentation
 
-### [Variables and Assignments]
+Indentation is a very important concept in Python. It refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.
 
-Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple.html) [example2](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-assignment-tuple_22.html)
+For example, consider the following code snippet:
 
-### User-defined Functions
+```python
+if True:
+    print("True")
+else:
+    print("False")
+```
 
-### Code Checked at Runtime
+**See also:**
 
-### Variable Names
-
-### More on Modules and their Namespaces
-
-### Online help, help(), and dir()
+- [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
+- [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
 
 ## True/False (Mark T for True and F for False)
 
@@ -136,85 +154,90 @@ Tuple [example1,](https://yasirbhutta.blogspot.com/2022/09/python-variables-and-
 
 > Which of the following is the correct syntax for the print statement in Python?
 
-a) print ("text")
-b) println ("text")
-c) echo ("text")
+1. [ ] print ("text")
+2. [ ] println ("text")
+3. [ ] echo ("text")
 
-What will be the output of the following code?
+> What will be the output of the following code?
 
 ```python
 print("Hello, world!")
 ```
-a) Hello
-b) world
-c) Hello, world!
-d) There will be no output.
+1. [ ] Hello
+2. [ ] world
+3. [ ] Hello, world!
+4. [ ] There will be no output.
 
-How can you print multiple values on a single line in Python?
+> How can you print multiple values on a single line in Python?
 
-a) Use commas to separate the values within the print statement.
-b) Use semicolons to separate the values within the print statement.
-c) Use the + operator to concatenate the values before printing.
-d) Create a list of the values and print the list.
+1. [ ] Use commas to separate the values within the print statement.
+2. [ ] Use semicolons to separate the values within the print statement.
+3. [ ] Use the + operator to concatenate the values before printing.
+4. [ ] Create a list of the values and print the list.
 
-Which of the following statements will print the value of the variable x?
+> Which of the following statements will print the value of the variable x?
 
-a) print(x)
-b) print "x"
-c) println(x)
-d) echo x
+1. [ ] print(x)
+2. [ ] print "x"
+3. [ ] println(x)
+4. [ ] echo x
 
-What is the purpose of the sep argument in the print function?
+> What is the purpose of the sep argument in the print function?
 
-a) To specify the separator between multiple values printed on the same line.
-b) To specify the end character for the printed line.
-c) To specify the file to which the output should be printed.
-d) To specify the format of the output.
+1. [ ] To specify the separator between multiple values printed on the same line.
+2. [ ] To specify the end character for the printed line.
+3. [ ] To specify the file to which the output should be printed.
+4. [ ] To specify the format of the output.
 
- What is the purpose of the end argument in the print function?
+> What is the purpose of the end argument in the print function?
 
-a) To specify the separator between multiple values printed on the same line.
-b) To specify the end character for the printed line.
-c) To specify the file to which the output should be printed.
-d) To specify the format of the output.
+1. [ ] To specify the separator between multiple values printed on the same line.
+2. [ ] To specify the end character for the printed line.
+3. [ ] To specify the file to which the output should be printed.
+4. [ ] To specify the format of the output.
 
-How can you print a string without a newline character?
+> How can you print a string without a newline character?
 
-a) print(string, end="")
-b) print(string, sep="")
-c) print(string + "")
-d) print(string; "")
+1. [ ] print(string, end="")
+2. [ ] print(string, sep="")
+3. [ ] print(string + "")
+4. [ ] print(string; "")
 
 **Comments:**
 
-What is the primary purpose of comments in Python code?
-a) To execute instructions for the computer
-b) To temporarily disable lines of code
-c) To make the code more readable and understandable for humans
-d) To create errors for debugging
+> What is the primary purpose of comments in Python code?
 
-Which of the following is the correct syntax for a single-line comment in Python?
-a) // This is a comment
-b) /* This is a comment */
-c) # This is a comment
-d) { This is a comment }
+1. [ ] To execute instructions for the computer
+2. [ ] To temporarily disable lines of code
+3. [ ] To make the code more readable and understandable for humans
+4. [ ] To create errors for debugging
 
-How can you create a multi-line comment in Python?
+> Which of the following is the correct syntax for a single-line comment in Python?
 
-a) Using triple single quotes (''')
-b) Using triple double quotes (""")
-c) Using backslash () at the end of each line
-d) Using the comment keyword
+1. [ ] // This is a comment
+2. [ ] /* This is a comment */
+3. [ ] # This is a comment
+4. [ ] { This is a comment }
 
-What happens when you run code that includes comments?
-a) The comments are executed along with the code.
-b) The comments are ignored by the Python interpreter.
-c) The comments are displayed as output.
-d) The comments are converted into machine code.
+> How can you create a multi-line comment in Python?
 
+1. [ ] Using triple single quotes (''')
+2. [ ] Using triple double quotes (""")
+3. [ ] Using backslash () at the end of each line
+4. [ ] Using the comment keyword
+
+> What happens when you run code that includes comments?
+
+1. [ ] The comments are executed along with the code.
+2. [ ] The comments are ignored by the Python interpreter.
+3. [ ] The comments are displayed as output.
+4. [ ] The comments are converted into machine code.
 
 ## Exercises
 
 ## Review Questions
 
 ## References and Bibliography
+
+- [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
+- [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)

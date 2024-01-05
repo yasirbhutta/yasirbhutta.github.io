@@ -209,13 +209,111 @@ for i in range(1, 11):
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
-**Example #:** Counting Up to a Number:
+**Example #:** Print numbers from 1 to 10 using while loop
+
+Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
 ```python
 count = 1  # Start counting at 1
 while count <= 10:  # Keep counting as long as we're less than or equal to 10
     print(count)  # Print the current number
     count += 1  # Add 1 to the count for the next round
+```
+
+**Example #:** Print "Hello, world!" 5 times using while loop
+
+Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
+
+```python
+i = 1
+while i <= 10:
+    print('Hello, world!')
+    i += 1
+```
+
+**Example #:** Sum of numbers from 1 to 100 using while loop
+
+Question: Write a MATLAB program to calculates the sum of the numbers from 1 to 100 using a while loop.
+
+```python
+i = 1
+sum = 0
+
+while i <= 100:
+    sum += i
+    i += 1 
+
+print(f'Sum = {sum}');
+```
+
+**Example #:** Sum of even numbers from 2 to 20 using while loop
+
+Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
+
+```python
+sum = 0  # Initialize a variable to store the sum
+number = 1  
+
+while number <= 20:
+    if number%2 == 0:
+      sum += number  # Add the current number to the sum
+    number += 1
+
+print(f'The sum of even numbers from 1 to 20 is: {sum}')
+
+```
+
+**Example:** Square of numbers less than 5 using while loop
+
+Question : Write a program that prints the sum of the squares of all the numbers from 1 to 4, using a while loop.
+
+```python
+i = 1
+while i < 5:
+    square = i ** 2
+    print(f'Square of {i} is {square}')
+    i += 1
+```
+
+**Output:**
+
+```python
+Square of 1 is 1
+Square of 2 is 4
+Square of 3 is 9
+Square of 4 is 16
+```
+
+**Example #:**
+
+Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
+
+```python
+inputStr = 'Start';
+
+while inputStr != "":
+  inputStr = input("Enter a line of text:")
+
+print('You entered a blank line.')
+```
+
+**Example:** Sum of given numbers till the number entered is zero
+
+Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
+
+```python
+sum = 0; # Initialize the sum
+
+# Prompt the user to enter a number
+number = int(input('Enter a number: ')) # int() Convert string input to integer
+
+# While the number entered is not zero, add the number to the sum and prompt the user to enter another number
+while number != 0:
+    sum += number
+    number = int(input('Enter another number: ')) # int() Convert string input to integer
+    
+# Display the sum of the numbers
+print(f'The sum of the numbers is: {sum}')
 ```
 
 **Example :** While loop from 1 to infinity, therefore running forever.
