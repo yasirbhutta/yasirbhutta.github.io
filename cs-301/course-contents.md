@@ -35,8 +35,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## The Internet
 
-- [Email](../google-workspace/docs/email.md) \| [Download PDF] (../google-workspace/docs/email.pdf) 
-- [Collaborative Computing and Social Networking](../social-media/docs/socialmedia.md) \| [Download PDF] (../google-workspace/docs/email.pdf)
+- [Email](../google-workspace/docs/email.md) \| [Download PDF](../google-workspace/docs/email.pdf) 
+- [Collaborative Computing and Social Networking](../social-media/docs/socialmedia.md) \| [Download PDF](../google-workspace/docs/email.pdf)
 - E-Commerce
 - IT Security
 
