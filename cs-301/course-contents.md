@@ -31,6 +31,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Networks, Data Communication
 
+- [Networking Basics](../computer-basics/docs/networks.md) \| [Download PDF](../computer-basics/docs/networks.pdf)
+
 ## The Internet
 
 - [Email](../google-workspace/docs/email.md) \| [Download PDF] (../google-workspace/docs/email.md) 
