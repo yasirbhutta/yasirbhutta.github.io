@@ -663,15 +663,18 @@ if x < y:
 - What is a variable?
 - How do you display the text "Hello, world!" in the console?
 - How do you ask the user to enter their name and store it in a variable?
-- What is the difference between a for loop and a while loop in Python?
 - What are the symbols for addition, subtraction, multiplication, and division in Python?
 - What is the difference between the division operator (/) and the floor division operator (//)?
 - What is the modulus operator (%) used for?
 - What are the operators used to compare values (e.g., greater than, less than, equal to)?
 - How do you create a variable in Python?
 - What are the common data types in Python?
+
+**Control Flow:**
+
 - How do you create a for loop that iterates from 1 to 10 using the range() function?
 - What is the purpose of an if statement?
+- What is the difference between a for loop and a while loop in Python?
 
 ## References and Bibliography
 
