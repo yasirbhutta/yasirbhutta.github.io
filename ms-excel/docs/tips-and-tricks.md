@@ -94,6 +94,10 @@ Formulas with cell references can be difficult to understand, especially for com
 
 - [Copy values quickly from the status bar in Excel for Windows - Microsoft 365 Insider](https://insider.microsoft365.com/blog/copy-values-quickly-from-the-status-bar-in-excel-for-windows)
 
+## Additional Topics
+
+
+
 ## True/False (Mark T for True and F for False)
 
 - You can copy values like sum, average, and count directly from the status bar in Excel for Windows by simply clicking on them. [True or False]

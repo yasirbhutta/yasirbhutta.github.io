@@ -340,9 +340,21 @@ In the Gridline color box, click the color you want.
 - [Change the color of gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-gridlines-in-a-worksheet-980f3978-91d1-4ff6-bd12-a17c1b5b12ed)
 - [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)
 
-## Review Questions
 
-## Multiple Choice (Select the best answer)
+## Additional Topics
+
+### Adjust Text in Column
+
+**See also:** 
+
+- [Change the column width and row height - Microsoft Support](https://support.microsoft.com/en-au/office/change-the-column-width-and-row-height-72f5e3cc-994d-43e8-ae58-9774a0905f46)
+- [Change the column width or row height in Excel - Excel Help & Training](https://support.microsoft.com/en-au/office/change-the-column-width-or-row-height-in-excel-4c0b8edc-4fb6-4af0-9374-7a953f48527b)
+
+### Fit more text in column headings
+
+**See also:**
+
+- [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
 
 ## True/False (Mark T for True and F for False)
 

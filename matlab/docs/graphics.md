@@ -339,7 +339,6 @@ title('My 3-D Bar Graph');
 
 - [pie3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/pie3.html)
 
-#### stem3
 
 #### meshgrid
 
@@ -427,6 +426,8 @@ colormap('jet');
 
 #### surf
 
+**Example #1:**
+
 ```matlab
 x = -3:0.1:3;
 y = x;
@@ -435,6 +436,7 @@ y = x;
 F = X.^2 + Y.^3;
 surf(X,Y,F);
 ```
+**Example #2:**
 
 ```matlab
 x = -3:0.1:3;
@@ -444,6 +446,7 @@ y = x;
 F=sqrt(X.^2 + Y.^2)
 surf(X,Y,F);
 ```
+**Example #3:** 3D Gaussian
 
 ```matlab
 % Create a grid of x and y values
@@ -468,6 +471,8 @@ colorbar; % Display colorbar
 grid on;
 rotate3d on;
 ```
+
+**Example #4:** saddle-shaped surface
 
 ```matlab
 x = -10:0.2:10;
@@ -496,7 +501,7 @@ colormap("cool");
 
 ![surf1](img/surf1.png)
 
-#### Example: Cone
+**Example #5:** 3D surface plot of the cone
 
 ```matlab
 x = -10:0.2:10;
@@ -520,9 +525,9 @@ title('Cone Surface Plot');
 % Display a color bar and change the color.
 colorbar;
 colormap("cool");
-```matlab
+```
 
-#### Example: Hyperboloid
+**Example #6:** Hyperboloid
 
 ```matlab
 x = -10:0.2:10;
