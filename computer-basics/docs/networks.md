@@ -58,6 +58,7 @@ Image source:[cloudflare.com](https://www.cloudflare.com/learning/network-layer/
 - Unlike a router, a switch only sends data to the single device it is intended for (which may be another switch, a router, or a user's computer), not to networks of multiple devices.
 
 ![image](images/network-switch-with-cables_512x.jpg)
+
 Image by [victor217](https://www.freepik.com/free-photo/network-switch-with-cables_902013.htm#query=network%20switches&position=0&from_view=search&track=ais&uuid=cdaf5dd0-21d6-4bab-bf91-f89e3a022611) on Freepik
 
 **See also:**
@@ -152,7 +153,7 @@ A WAN, or wide area network, is a collection of connected LANs. It is a widespre
 - [What Is a LAN? - cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html)
 - [What is a LAN (local area network)? - cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-lan/)
 - [What Is a WAN? Wide-Area Network - cisco.com](https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html)
-- [What is a wide area network (WAN)?](https://www.cloudflare.com/learning/network-layer/what-is-a-wan/)
+- [What is a wide area network (WAN)?](https://www.cloudflare.com/learning/network-layer/what-is-a-wan)
 - [What is a network switch? - cloudflare.com](https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/)
-- [What is a router? - https://www.cloudflare.com/](https://www.cloudflare.com/learning/network-layer/what-is-a-router/)
+- [What is a router? - www.cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-router/)
 - [Internet Basics: What is the Internet? - GCFGlobal](https://edu.gcfglobal.org/en/internetbasics/what-is-the-internet/1/)
