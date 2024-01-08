@@ -1,23 +1,21 @@
-# [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
+# [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/): MATLAB Graphics
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-## MATLAB Graphics
 
 - [Download PDF](https://yasirbhutta.github.io/matlab/docs/graphics.pdf)
   
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/graphics.html](https://yasirbhutta.github.io/matlab/docs/graphics.html)
 
-### 2D Plots
+## 2D Plots
 
-#### Printing Labels
+### Printing Labels
 
 The xlabel() and ylabel() functions are used to label the x and y axes in a figure in MATLAB. The labels should describe the data that is being plotted on each axis.
 
 The title() function is used to add a title to a figure in MATLAB. The title should provide a brief description of the plot.
 
-Example 3: Label the axes and add a title
+**Example #:** Label the axes and add a title
 
 ```matlab
 x = linspace(0, 10, 100);
@@ -29,13 +27,13 @@ ylabel('Y-axis');
 title('Sine Wave');
 ```
 
-#### Grid and Axex Box
+### Grid and Axex Box
 
 The grid() function is used to add grid lines to a figure in MATLAB. Grid lines can help to make it easier to interpret the data in a plot.
 
-#### Entering Text in a Plot
+### Entering Text in a Plot
 
-##### Examples
+**Example #:**
 
 ```matlab
 years = [1990, 1995, 2000, 2005, 2010, 2015, 2020];
@@ -54,25 +52,25 @@ box off;
 
 **See also:**
 
-- [MATLAB Plot Tutorial: Make Your MATLAB Plots More Informative with Titles and Axis Labels](https://youtu.be/IoTQAIWDBJk)
+- [Video: Make Your MATLAB Plots More Informative with Titles and Axis Labels](https://youtu.be/IoTQAIWDBJk)
   
-#### Axis Control
+### Axis Control
 
 he axis() function is used to set the limits of the axes in a figure in MATLAB. The axes are the horizontal and vertical lines that extend across the figure window.
 
-#### Axis Aspect Ration
+### Axis Aspect Ration
 
 ### Multiple Plots
 
-#### Using plot Command
+### Using plot Command
 
 The plot() function is used to create a line plot in MATLAB. A line plot is a graphical representation of a set of data points connected by a line.
 
-#### Using hold Command
+### Using hold Command
 
 The hold function is used to prevent MATLAB from overwriting existing plots when creating new ones. By default, MATLAB overwrites existing plots when creating new ones. However, if you use the hold function before creating a new plot, MATLAB will add the new plot to the existing plot instead of overwriting it.
 
-Example 2: Plotting multiple lines on the same graph
+**Example #** Plotting multiple lines on the same graph
 
 ```matlab
 x = linspace(0, 10, 100);
@@ -87,11 +85,11 @@ hold off;
 
 This will plot two lines on the same graph, one blue and one red. The hold on and hold off functions are used to prevent the second line from overwriting the first line.
 
-#### Using line Command
+### Using line Command
 
 ### Style Options
 
-#### Example
+**Example #1:**
 
 ```matlab
 x = 1:1:10;
@@ -105,7 +103,7 @@ line(x,y2);
 line(x,y3);
 ```
 
-#### Example: Plotting Two Functions on the Same Graph in MATLAB
+**Example #2:** Plotting Two Functions on the Same Graph in MATLAB
 
 ```matlab
 x = 1:1:10;
@@ -122,7 +120,7 @@ axis([0 12 0 45]);
 
 The legend() function is used to create a legend for a figure in MATLAB. A legend is a key that explains which line or curve corresponds to which data set.
 
-### Example
+**Example #1:**
 
 ```matlab
 % Real world data example
@@ -151,7 +149,7 @@ title('Global Average Temperature from 1880 to 2022');
 
 ### SUBPLOTS
 
-#### Example: Visualizing Daily Temperature Data with Subplots in MATLAB
+**Example #1:** Visualizing Daily Temperature Data with Subplots in MATLAB
 
 Download dataset `Daily Temperature (Dataset #2)` from [Datasets](../../datasets/index.md).
 
@@ -180,17 +178,11 @@ ylabel('Frequency');
 saveas(gcf, 'daily_temperatures.png');
 ```
 
-### Specialized 2D plots
+### area
 
-#### Logarithmic Plot Functions
+### bar
 
-#### polar
-
-#### area
-
-#### bar
-
-Example 3: Plotting a bar graph
+**Example #1:** Plotting a bar graph
 
 ```matlab
 x = categorical({'A', 'B', 'C'});
@@ -203,7 +195,7 @@ bar(x, y);
 
 Download dataset `Population by Country` from [Datasets](../../datasets/index.md).
 
-##### Example: Population Distribution by Country using bar charts
+**Example #2:** Population Distribution by Country using bar charts
 
 ```matlab
 % Specify the name of the CSV file
@@ -222,19 +214,18 @@ bar(x,data.Population);
 title('Population by Country');
 xlabel('Country');
 ylabel('Population');
-
 ```
 
 **See also:**
 
 - [bar - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar.html)
-- [Bar chart](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm)
+- [Bar chart - statcan.gc.ca](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm)
 
-#### barh
+### barh
 
 **See also:**
 
-#### histogram
+### histogram
 
 A histogram is a data visualization tool that shows the frequency distribution of numerical data. It is a type of bar graph that displays the number of data points that fall within each of a series of intervals called bins. The bins are usually specified as consecutive, non-overlapping intervals of a variable. The height of each bar in the histogram represents the number of data points that fall within that bin.
 ![Image of Histogram graph](https://www150.statcan.gc.ca/edu/power-pouvoir/c-g/c-g05-7-1-eng.png)
@@ -250,7 +241,7 @@ Here are some of the key features of a histogram:
 - The total area of all the bars is equal to the total number of data points.
 - The histogram does not show the individual data points.
 
-##### Example 4: Plotting a histogram
+**Example #1:** Plotting a histogram
 
 ```matlab
 x = randn(1000, 1);
@@ -260,13 +251,13 @@ histogram(x);
 **See also:**
 
 - [histogram - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html)
-- [Replace Discouraged Instances of hist and histc](https://www.mathworks.com/help/matlab/creating_plots/replace-discouraged-instances-of-hist-and-histc.html)
+- [Replace Discouraged Instances of hist and histc = Mathworks Help Center](https://www.mathworks.com/help/matlab/creating_plots/replace-discouraged-instances-of-hist-and-histc.html)
 
-#### rose
+### rose
 
-#### pie
+### pie
 
-Example 5: Plotting a pie chart
+**Example #:1** Plotting a pie chart
 
 ```matlab
 X = [10 20 30];
@@ -276,7 +267,7 @@ pie(X);
 
 This will plot a pie chart with three slices, one for each value in the vector X. The size of each slice represents the proportion of that value to the total.
 
-#### Example: Visualizing Fruit Sales Distribution with Exploded Pie Chart
+**Example #2** Visualizing Fruit Sales Distribution with Exploded Pie Chart
 
 ```matlab
 % Define the fruit names and sales figures
@@ -295,21 +286,15 @@ title('Fruit Sales Pie Chart');
 
 **See also:**
 
-- [MATLAB Tutorial: Visualizing Fruit Sales Distribution with Exploded Pie Chart](https://youtu.be/5X5gelyCgr4?si=mLjZtwFRrdv7pEhG)
+- [Video: Visualizing Fruit Sales Distribution with Exploded Pie Chart](https://youtu.be/5X5gelyCgr4?si=mLjZtwFRrdv7pEhG)
 
-#### stairs
+## 3D Plots
 
-#### stem
+### plot3
 
-#### compass
+### bar3
 
-### 3D Plots
-
-#### plot3
-
-#### bar3
-
-##### Example: Create 3-D Bar Graph from Vector Data
+**Example #1** Create 3-D Bar Graph from Vector Data
 
 ```matlab
 % Create a vector of values to plot.
@@ -331,18 +316,20 @@ title('My 3-D Bar Graph');
 
 - [bar3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/bar3.html)
 
-#### bar3h
+### bar3h
 
-#### pie3
+### pie3
 
 **See also:**
 
 - [pie3 - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/pie3.html)
 
 
-#### meshgrid
+### meshgrid
 
 In MATLAB, the meshgrid function is used `to create two matrices from two vectors`. Each element of the first matrix represents one value from the first vector, and each element of the second matrix represents one value from the second vector. This is useful for `creating grids of data points`, which can then be used for plotting or other calculations.
+
+**Example #1:**
 
 ```matlab
 x = linspace(1,3,3);
@@ -386,7 +373,9 @@ Y =
 
 Calculus: In calculus, particularly in multivariable calculus, the concept of a surface is used when dealing with functions of two variables. The graph of a function of two variables (such as z = f(x, y)) can be thought of as a surface in three-dimensional space.
 
-#### mesh
+### mesh
+
+**Example #1:**
 
 ```matlab
 x = -3:0.1:3;
@@ -396,6 +385,8 @@ y = x;
 F = X.^2 + Y.^3;
 mesh(X,Y,F);
 ```
+
+**Example #2:**
 
 ```matlab
 x = linspace(0,10,20);
@@ -416,15 +407,46 @@ zlabel('Z');
 title('Mesh Plot of sin(x)*cos(y)');
 colormap('jet');
 ```
-
 **colormap('jet'):** Set the colormap to 'jet' for a visually appealing gradient.
+
+**Example #3:** Plot quadric surface with the equation yz=1
+
+```matlab
+
+% Define the grid
+[x, y] = meshgrid(-10:0.1:10, -10:0.1:10);
+
+% Define the height of the surface
+z = 1./y;
+
+% Create the surface plot
+mesh(x, y, z);
+
+% Set axis labels
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+
+% Set the view for better visualization
+view(45, 30);
+
+% Title of the plot
+title('Quadric Surface: yz = 1');
+
+% Set color map
+colormap("cool");
+
+% Display a colorbar
+colorbar;
+
+```
 
 **See also:**
 
 - [mash - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/mesh.html)
 - [colormap - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/colormap.html)
 
-#### surf
+### surf
 
 **Example #1:**
 
@@ -446,7 +468,7 @@ y = x;
 F=sqrt(X.^2 + Y.^2)
 surf(X,Y,F);
 ```
-**Example #3:** 3D Gaussian
+**Example #3:** 3D Surface Plot with Gaussian Function
 
 ```matlab
 % Create a grid of x and y values
@@ -472,7 +494,7 @@ grid on;
 rotate3d on;
 ```
 
-**Example #4:** saddle-shaped surface
+**Example #4:** Saddle-Shaped Surface Plot
 
 ```matlab
 x = -10:0.2:10;
@@ -527,7 +549,7 @@ colorbar;
 colormap("cool");
 ```
 
-**Example #6:** Hyperboloid
+**Example #6:** Create a 3D surface plot of the hyperboloid
 
 ```matlab
 x = -10:0.2:10;
@@ -553,59 +575,7 @@ colorbar;
 colormap("cool");
 ```
 
-##### Plotting a sphere
-
-```matlab
-% Define the sphere parameters
-[X, Y, Z] = sphere(50);
-
-% Create the surface plot
-surf(X, Y, Z);
-axis equal
-```
-
-##### Plotting a cylinder
-
-```matlab
-% Define the cylinder parameters
-[X, Y, Z] = cylinder(50, 20);
-
-% Create surface plot
-surf(X, Y, Z);
-```
-
-This code will create a cylinder with a height of 20 and a radius of 50. The cylinder function generates a 3D array of points that represent the surface of the cylinder. The surf function then plots the surface using these points.
-
-**See also:**
-
-- [sphere - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/sphere.html)
-- [surf - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/surf.html)
-
-#### contour and contour3
-
-**Example:**
-
-```matlab
-[X,Y] = meshgrid(-2:.2:2,-2:.2:3);
-Z = X.*exp(-X.^2-Y.^2);
-
-contour(X,Y,Z);
-colormap jet;
-```
-
-**Example:**
-
-```matlab
-[X,Y] = meshgrid([-2:.25:2]);
-Z = X.*exp(-X.^2-Y.^2);
-contour3(X,Y,Z,30)
-surf(X,Y,Z)
-
-view(-15,25);
-colormap cool;
-```
-
-#### 3D Cone Using surf and meshgrid:
+**Example #7:** 3D Cone Using surf and meshgrid
 
 This method involves creating two matrices, one for the radius of the cone at different heights and another for the angle. Then, you use meshgrid to combine these matrices into 3D grids and use surf to plot the surface.
 
@@ -625,41 +595,39 @@ ylabel("y axis");
 zlabel("z axis")
 ```
 
-## Quadric Surface
+**See also:**
 
-**Example:** Plot quadric surface with the equation yz=1
-�
+- [surf - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/surf.html)
+
+## Additional Topics
+
+### contour and contour3
+
+**Example #**
+
 ```matlab
+[X,Y] = meshgrid(-2:.2:2,-2:.2:3);
+Z = X.*exp(-X.^2-Y.^2);
 
-% Define the grid
-[x, y] = meshgrid(-10:0.1:10, -10:0.1:10);
-
-% Define the height of the surface
-z = 1./y;
-
-% Create the surface plot
-mesh(x, y, z);
-
-% Set axis labels
-xlabel('X-axis');
-ylabel('Y-axis');
-zlabel('Z-axis');
-
-% Set the view for better visualization
-view(45, 30);
-
-% Title of the plot
-title('Quadric Surface: yz = 1');
-
-% Set color map
-colormap("cool");
-
-% Display a colorbar
-colorbar;
-
+contour(X,Y,Z);
+colormap jet;
 ```
 
-**Example:** Plot quadric surface with the equation x^2 + 4*y^2
+**Example #**
+
+```matlab
+[X,Y] = meshgrid([-2:.25:2]);
+Z = X.*exp(-X.^2-Y.^2);
+contour3(X,Y,Z,30)
+surf(X,Y,Z)
+
+view(-15,25);
+colormap cool;
+```
+
+### Quadric Surface
+
+**Example #** Plot quadric surface with the equation x^2 + 4*y^2
 
 ```matlab
 % Generate meshgrid
@@ -686,9 +654,21 @@ shading interp;
 view(45, 20);
 ```
 
+## Plotting a cylinder
+
+```matlab
+% Define the cylinder parameters
+[X, Y, Z] = cylinder(50, 20);
+
+% Create surface plot
+surf(X, Y, Z);
+```
+
+This code will create a cylinder with a height of 20 and a radius of 50. The cylinder function generates a 3D array of points that represent the surface of the cylinder. The surf function then plots the surface using these points.
+
 **See also:**
 
-- [MATLAB Function Reference - northwestern.edu](http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/func_b41.html)
+- [sphere - MathWorks Help Center](https://www.mathworks.com/help/matlab/ref/sphere.html)
 
 ## True/False (Mark T for True and F for False)
 
@@ -1042,8 +1022,10 @@ A 2D plot is used to visualize data that has two dimensions, such as height and 
 
 ## References and Bibliography
 
-- [^1:] [Categorical Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlab/categorical-arrays.html)
 - [MATLAB Graphics](https://www.mathworks.com/help/matlab/graphics.html)
 - [MATLAB: Plotting - tutorialspoint](https://www.tutorialspoint.com/matlab/matlab_plotting.htm)
 - [Statistics: Power from Data! - Statistics Canada](https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm)
 - [Quadric Surfaces - LibreText](https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/12%3A_Vectors_in_Space/12.06%3A_Quadric_Surfaces)
+- [MATLAB Function Reference - northwestern.edu](http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/func_b41.html)
+
+- [^1:] [Categorical Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlab/categorical-arrays.html)
