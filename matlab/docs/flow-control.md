@@ -528,22 +528,24 @@ end
 **Questions:** Write a MATLAB program that prompts the user to enter a day of the week (Monday, Tuesday, Wednesday, Thursday, or Friday) and then prints a different message to the console depending on the day of the week that the user enters.
 
 ```matlab
-day = "Monday";
+% Prompt the user to enter the day of the week as a number (1-7)
+day = input('Enter day of the week (1-7): ');
 
-% Switch statement
+% Switch statement to display a different message based on the entered day
+% Each case represents a different day of the week
 switch day
-    case 1
-        disp("Have a great week!");
-    case 2
-        disp("Don't forget to water the plants!");
-    case 3
-        disp("Have a good day!");
-    case 4
-        disp("Almost there!");
-    case 5
-        disp("Have good ");
-    otherwise
-        disp("Have a great day!");
+   case 1  % Monday
+       disp("Have a great week!");
+   case 2  % Tuesday
+       disp("Don't forget to water the plants!");
+   case 3  % Wednesday
+       disp("Have a good day!");
+   case 4  % Thursday
+       disp("Almost there!");
+   case 5  % Friday
+       disp("Have a good weekend!");  % Fixed the incomplete message
+   otherwise  % Catch any days not explicitly listed (e.g., weekends)
+       disp("Have a great day!");
 end
 ```
 

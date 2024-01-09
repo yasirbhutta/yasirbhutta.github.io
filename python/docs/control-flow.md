@@ -115,7 +115,7 @@ This code will print the message "x is less than 5." to the console.
 
 **Syntax:**
 
-- **variable** is a loop counter variable that is initialized to the value of expression at the start of the loop.
+
 
 **Example #:** Print Numbers from 1 to 5
 
