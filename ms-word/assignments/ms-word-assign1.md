@@ -31,6 +31,9 @@
 
 1. Upload your completed resume (DOCS format or PDF format) to your Google Classroom assignment.
 
+## Resources:
+
+[Use a template to create a resume - Microsoft Support](https://support.microsoft.com/en-us/office/use-a-template-to-create-a-resume-6053fbbb-94d8-471e-9957-49f4e7ab6fb8)
 
 
 
