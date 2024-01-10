@@ -1,6 +1,6 @@
 ## Assignment: Programming Fundamentals Adventure!
 
-[Download PDF](matlab-assign1.md)
+[Download PDF](matlab-assign1.pdf)
 
 **Objective:** Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in programming fundamentals. 
 
