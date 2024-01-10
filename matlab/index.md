@@ -12,9 +12,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Flow Control Statements](docs/flow-control.md) \| [Download PDF](docs/flow-control.pdf)
 - [Functions](docs/functions.md) \| [Download PDF](docs/functions.pdf)
 
-## MATLAB Resources
+## Resources
 
 - [MATLAB Online Courses](courses.md)
 - [MATLAB Tools](tools.md)
 - [MATLAB Books](books.md)
 - [MATLAB — Examples - MathWorks](https://www.mathworks.com/help/matlab/examples.html?category=index&exampleproduct=all&s_tid=CRUX_lftnav)
+
+## Assignments
+
+- [Assignment: Programming Fundamentals Adventure!](assignments/matlab-assign1.md)
