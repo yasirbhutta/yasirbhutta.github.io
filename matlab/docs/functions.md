@@ -51,7 +51,7 @@ end
 This function takes two numbers as input and returns their sum. You can call the function like this:
 
 ```matlab
-y = AddNumbers(4,9);
+y = addNumbers(4,9);
 disp(y);
 ```
 

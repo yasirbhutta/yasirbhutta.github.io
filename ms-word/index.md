@@ -11,3 +11,7 @@
 - [Stylish Formatting & Features](docs/stylish.md)
 - [Page Formatting](docs/page-formatting.md)
 - [Advance Features](docs/advance-features.md)
+
+## Assignments
+
+- [Microsoft Word Assignment: Building a Professional Resume](assignments/ms-word-assign1.md)

@@ -45,3 +45,7 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 
 - [Find Pakistan Jobs, Internships, Jobs Near Me](https://pk.linkedin.com/jobs)
 - [How to Get a Job Through LinkedIn: The Complete Guide 2024](https://www.linkedin.com/pulse/how-get-job-through-linkedin-complete-guide-deep-kumar/)
+
+## Assignments 
+
+- [LinkedIn Assignment: Building Your Professional Network](../assignments/linkedin-assign1.md)
