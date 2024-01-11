@@ -1,6 +1,8 @@
 
 # Microsoft Excel Resources: Books, Trainings and online resources
 
+- [Download PDF](https://yasirbhutta.github.io/ms-excel/resources.pdf)
+  
 ## Books
 
 ## Free Excel training online

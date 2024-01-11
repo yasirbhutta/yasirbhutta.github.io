@@ -414,6 +414,11 @@ for i in range(5):
     print("Python")
 ```
 
+**See also:**
+
+- [Video: Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
+- [Video: String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
+
 #### while loop
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.

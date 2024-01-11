@@ -1,6 +1,13 @@
 # template
 
-[Pyton Resources: Books, Websites, Tutorials]
+## [Pyton Resources: Books, Websites, Tutorials]
+### Books
+### Online Courses and Trainings
+### Youtube Channel
+### Websites
+
+**See also:**
+
 
 **Important:**
 **Tips:**
