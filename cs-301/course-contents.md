@@ -15,23 +15,24 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## Hardware
 
 - [Number Systems](../computer-basics/docs/number-systems.md)
-- [Computer Systems & Components](../computer-basics/docs/hardware.md) \| [Download PDF](../computer-basics/docs/hardware.pdf)
-- [Storage Devices](../computer-basics/docs/storage-devices.md) \| [Download PDF](../computer-basics/docs/storage-devices.pdf)
+- [Computer Systems & Components](../computer-basics/docs/hardware.md) \| [PDF](../computer-basics/docs/hardware.pdf)
+- [Storage Devices](../computer-basics/docs/storage-devices.md) \| [PDF](../computer-basics/docs/storage-devices.pdf)
 
 ## Software
 
-- [Software](../computer-basics/docs/software.md) \| [Download PDF](../computer-basics/docs/software.pdf)
+- [Software](../computer-basics/docs/software.md) \| [PDF](../computer-basics/docs/software.pdf)
 
 ## Introduction to Programming
 
-- HTML
-- [Python: Quick Guide](../python/docs/quick-guide.md) \| [Download PDF](../python/docs/quick-guide.pdf)
+- [Python: Quick Guide](../python/docs/quick-guide.md) \| [PDF](../python/docs/quick-guide.pdf)
 
 ## Databases and Information Systems
 
+- [Introduction to Database](../computer-basics/docs/database.md) \| [PDF](../computer-basics/docs/database.pdf)
+
 ## Networks, Data Communication
 
-- [Networking Basics](../computer-basics/docs/networks.md) \| [Download PDF](../computer-basics/docs/networks.pdf)
+- [Networking Basics](../computer-basics/docs/networks.md) \| [PDF](../computer-basics/docs/networks.pdf)
 
 ## The Internet
 
@@ -44,10 +45,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### [Microsoft Exel](../ms-excel/index.md)
 
-- [Handouts - Excel Basics](../ms-excel/docs/basics.md) \| [Download PDF](../ms-excel/docs/basics.pdf)
-- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [Download PDF](../ms-excel/docs/formatting.pdf)
-- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [Download PDF](../ms-excel/docs/formulas.pdf)
-- [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [Download PDF](../ms-excel/docs/functions.pdf)
+- [Handouts - Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
+- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
+- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
+- [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
 
 ### [Microsoft Word](../ms-word/index.md)
 
@@ -58,8 +59,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Stylish Formatting & Features](../ms-word/docs/stylish.md)
 - [Page Formatting](../ms-word/docs/page-formatting.md)
 
-- [Microsoft Powerpoint](#)
-
+## Microsoft Powerpoint
+  - [Microsoft Powerpoint Basics](../ms-powerpoint/docs/basics.md)
 
 ## Assignments
 
