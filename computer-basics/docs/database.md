@@ -1,6 +1,10 @@
 # Computer Basics: Database
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/database.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/computer-basics/docs/database.html](https://yasirbhutta.github.io/computer-basics/docs/database.html)
 
 ## Database Basics
 
@@ -52,18 +56,92 @@
 
 **See also:**
 
-- [Access video training](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
+- [Access video training - Microsoft Support](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
 - [What is Microsoft Access? - Database.Guide](https://database.guide/what-is-microsoft-access/)
 
 ## True/False (Mark T for True and F for False)
 
+- A database is an organized collection of data stored electronically on a computer system. **True/False**
+- Databases are only used to store customer information. **True/False**
+- Relational databases store data in tables. **True/False**
+- SQL is a programming language used to create websites. **True/False**
+- SQL is a language used to communicate with and manipulate data within a database. **True/False**
+
 ## Multiple Choice (Select the best answer)
 
+> Which of the following is NOT a type of database?
+
+1. [ ] Relational
+2. [ ] Non-relational
+3. [ ] Spreadsheet
+
+> What is the purpose of database design?
+
+1. [ ] To make the database look pretty
+2. [ ] To create a database that is efficient and meets the needs of the users
+3. [ ] To store as much data as possible
+4. [ ] None of the above
+
+> Which of the following is NOT a characteristic of a database?
+
+1. [ ] Organized collection of data
+2. [ ] Stored electronically on a computer system
+3. [ ] Duplicates information across different files
+4. [ ] Allows easy searching and retrieval of data
+
+> Which type of database stores data in tables with rows and columns?
+
+1. [ ] Relational
+2. [ ] Non-relational
+3. [ ] Hierarchical
+4. [ ] Graph
+
+> What is the process of identifying data relationships, normalizing data, and creating a database schema called?
+
+1. [ ] Querying of Database
+2. [ ] Programming
+3. [ ] Optimization of Database
+4. [ ] Database Design
+
+> Which software program facilitates the creation, management, and access of databases?
+
+1. [ ] Word processor
+2. [ ] Web browser
+3. [ ] Database management system (DBMS)
+4. [ ] Operating system
+
+> Which of the following statements is NOT true about Microsoft Access?
+
+1. [ ] It is a relational database management system
+2. [ ] It combines a graphical user interface with a database engine.
+3. [ ] It is primarily used for enterprise-level applications.
+4. [ ] It offers various tools for data analysis and reporting.
+
+> What is the primary function of a database query?
+
+1. [ ] Create new data in the database
+2. [ ] Modify existing data in the database
+3. [ ] Delete data from the database
+4. [ ] Retrieve specific data from the database
+
 ## Exercises
+
+- Write an SQL query to select all customers from a table named 'customers'.
+
+**Answer:**
+
+```sql
+select * from customers;
+```
 
 ## Review Questions
 
 - What is a database?
+- Explain the difference between relational and non-relational databases.
+- Describe the steps involved in database design.
+- What are the different types of databases?
+- What are the advantages of using a database?
+- What is the role of a database management system (DBMS)?
 
 ## References and Bibliography
 
