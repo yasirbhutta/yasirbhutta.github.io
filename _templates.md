@@ -1,10 +1,17 @@
 # template
 
+Books: "Code: The Hidden Language of Computer Hardware and Software" by Charles Petzold, "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin, "Weapons of Math Destruction: How Big Data Creates Massive Inequality and Traps Us All" by Cathy O'Neil
+Websites: Khan Academy Computer Programming course, W3Schools, Stack Overflow
+Articles and research papers: IEEE publications, ACM Digital Library, MIT Technology Review
+Online courses and tutorials: Coursera, edX, Udacity
+Podcasts and documentaries: CodeNewbie, Software Engineering Daily, The Social Dilemma
+
 ## [Pyton Resources: Books, Websites, Tutorials]
 ### Books
-### Online Courses and Trainings
-### Youtube Channel
 ### Websites
+### Articles and research papers:
+### Online Courses and tutorials
+### Podcasts and documentaries
 
 **See also:**
 
