@@ -165,3 +165,6 @@ Corel Draw.
 ## References and Bibliography
 
 - [Computer hardware and software - opentextbc.ca](https://opentextbc.ca/computerstudies/chapter/computer-hardware-and-software/)
+- Open Source Guides: [https://opensource.guide/](https://opensource.guide/)
+- Open Source Initiative: [https://opensource.org/](https://opensource.org/)
+- Free Software Foundation: [https://www.fsf.org/](https://www.fsf.org/)
