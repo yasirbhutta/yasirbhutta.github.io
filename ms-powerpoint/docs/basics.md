@@ -103,7 +103,7 @@ Following shape types are available:
 
 Smart
 
-Types of SmartArt
+**Types of SmartArt:**
 
 - List
 - Process
@@ -139,10 +139,9 @@ In PowerPoint, you can add a solid or gradient color, a pattern, or an image as 
 
 - Transitions are special effects used to present a slide.
 - Transitions can be used to set the way each slide appears on the screen.
-- We can change the transitions within a presentation for special effects.
 - The speed of a transition can also be varied.
 
-Types
+**Types:**
 
 - Subtle
 - Exciting
@@ -160,6 +159,10 @@ Types
 - We can animate the title, picture, text, charts and any other graphics on a slide.
 - For example a slide may first appear on screen with only Title description. Each bulleted point can appear one after another gradullay on the slide.
 
+- **Entrance Effects:** These animations make an element in PowerPoint `appear`. Examples include fly-in, wipe, shape, wheel, zoom and many more.
+- **Emphasis Effects:** These animations `highlight an element` in PowerPoint. Examples include Fill Color, Font Color, Line Color spin, and many more.
+- **Exit Effects:** These animations make an element in PowerPoint `disappear`. Examples include fly-out, Bounce and many more.
+
 - ### Entrance Effects
 
 - ### Emphasis Effects
@@ -175,6 +178,10 @@ Types
 ### Effect Options Color Property
 
 ## Slide Show
+
+**Tips:**
+- To start a slide show from the beginning, press `F5`.
+- To end a slide show in PowerPoint, press `Esc`
 
 ### From Begining
 
