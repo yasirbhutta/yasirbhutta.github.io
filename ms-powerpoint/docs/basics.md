@@ -163,12 +163,6 @@ In PowerPoint, you can add a solid or gradient color, a pattern, or an image as 
 - **Emphasis Effects:** These animations `highlight an element` in PowerPoint. Examples include Fill Color, Font Color, Line Color spin, and many more.
 - **Exit Effects:** These animations make an element in PowerPoint `disappear`. Examples include fly-out, Bounce and many more.
 
-- ### Entrance Effects
-
-- ### Emphasis Effects
-
-- ### Exit Effects
-
 **See also:**
 
 - [Animate text or objects - Microsoft Support](https://support.microsoft.com/en-us/office/animate-text-or-objects-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6)
@@ -209,70 +203,88 @@ In PowerPoint, you can add a solid or gradient color, a pattern, or an image as 
 
 ### Fit to Window
 
+## Templates
+
+A pre-designed layout for slides with formatting, colors, fonts, and content; save time and create consistent presentations
+
+## Placeholders
+
+Dotted-line containers on slide layouts for holding content; organize content easily and keep slides consistent
+
 ## True/False (Mark T for True and F for False)
+
+- Templates can include content for your presentation. **True or False**
+- Animations can only be applied to text. **True or False**
+- You can start a slide show from the beginning by pressing Ctrl+S. **True or False**
+- PowerPoint is a part of Microsoft Office suite. **True or False**
+- You can embed a YouTube video directly into a PowerPoint slide. **True or False**
+- The 'Transition' tab in PowerPoint is used to control the movement between slides. **True or False**
+- SmartArt is a feature in PowerPoint that allows you to create graphical representations of information. **True or False**
 
 ## Multiple Choice (Select the best answer)
 
-What are slide transitions in PowerPoint?
+> What are slide transitions in PowerPoint?
 
-A) Effects applied to slide elements
-B) Ways to switch between slides
-C) Formatting options for text
-D) Animation effects for shapes
+1. [ ] Effects applied to slide elements
+2. [ ] Ways to switch between slides
+3. [ ] Formatting options for text
+4. [ ] Animation effects for shapes
 
-What is the difference between entrance and exit animations?
+> What is the difference between entrance and exit animations?
 
-A) Entrance animations appear when a slide starts; exit animations appear when it ends
-B) Entrance animations are for text; exit animations are for images
-C) Entrance animations move objects onto the slide; exit animations move objects off the slide
-D) Entrance animations are for images; exit animations are for text
+1. [ ] Entrance animations appear when a slide starts; exit animations appear when it ends
+2. [ ] Entrance animations are for text; exit animations are for images
+3. [ ] Entrance animations move objects onto the slide; exit animations move objects off the slide
+4. [ ] Entrance animations are for images; exit animations are for text
 
-How do you add a new slide to a presentation?
+> How do you add a new slide to a presentation?
 
-A) Ctrl + S
-B) Insert > New Slide
-C) File > New Slide
-D) Home > Add Slide
+1. [ ] Ctrl + S
+2. [ ] Insert > New Slide
+3. [ ] File > New Slide
+4. [ ] Home > Add Slide
 
-What is the purpose of the "Save As" option in PowerPoint?
-A) Save the current presentation.
-B) Save a copy of the presentation with a different name or location.
-C) Save the presentation as a template.
-D) Save the presentation for online sharing.
+> What is the purpose of the "Save As" option in PowerPoint?
 
-How do you insert a new slide in PowerPoint?
+1. [ ] Save the current presentation.
+2. [ ] Save a copy of the presentation with a different name or location.
+3. [ ] Save the presentation as a template.
+4. [ ] Save the presentation for online sharing.
 
-a) Click the "Insert" tab and choose "New Slide."
-b) Right-click anywhere on the slide and select "New Slide."
-c) Press the Ctrl+N keyboard shortcut.
-d) Click the "+" button at the bottom of the slide pane.
+> How do you insert a new slide in PowerPoint?
 
-What is the file extension for a PowerPoint presentation?
+1. [ ] Click the "Insert" tab and choose "New Slide."
+2. [ ] Right-click anywhere on the slide and select "New Slide."
+3. [ ] Press the Ctrl+N keyboard shortcut.
+4. [ ] Click the "+" button at the bottom of the slide pane.
 
-a) .docx
-b) .pptx
-c) .pdf
-d) .xlsx
+> What is the file extension for a PowerPoint presentation?
 
-What are some alternatives to PowerPoint?
+1. [ ] .docx
+2. [ ] .pptx
+3. [ ] .pdf
+4. [ ] .xlsx
 
-a) Google Slides
-b) Keynote
-c) LibreOffice Impress
-d) All of the above
+> What are some alternatives to PowerPoint?
 
-What is the shortcut key to start a slideshow from the beginning?
-a) F5 
-b) Ctrl+S
-c) Esc
-d) Alt+Enter
+1. [ ] Google Slides
+2. [ ] Keynote
+3. [ ] LibreOffice Impress
+4. [ ] All of the above
 
-How can you add animations to text or objects on a slide?
-a) Use the Animations tab (Correct)
-b) Right-click and choose "Animate"
-c) Add them during the slideshow presentation
-d) They are not possible in PowerPoint
+> What is the shortcut key to start a slideshow from the beginning?
 
+1. [ ] F5 
+2. [ ] Ctrl+S
+3. [ ] Esc
+4. [ ] Alt+Enter
+
+> How can you add animations to text or objects on a slide?
+
+1. [ ] Use the Animations tab
+2. [ ] Right-click and choose "Animate"
+3. [ ] Add them during the slideshow presentation
+4. [ ] They are not possible in PowerPoint
 
 ## Exercises
 
@@ -290,6 +302,8 @@ d) They are not possible in PowerPoint
 - Explain the difference between entrance and exit animations.
 - What are some alternatives to PowerPoint?
 - Explain the difference between "Save" and "Save As."
+- What is a PowerPoint template and how can you use it?
+- What are placeholders and how are they helpful? 
 - What is the shortcut for ending a slideshow?
 - What is the shortcut for start a slideshow?
 

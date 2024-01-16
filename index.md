@@ -9,7 +9,7 @@
 - Microsoft 365
   - [Microsoft Excel](ms-excel/index.md)
   - [Microsoft Word](ms-word/index.md)
-  - [Microsoft PowerPoint](ms-powerpoint/docs/index.md)
+  - [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
 - Coding
   - [Getting started with Python](python/)
   - [Matlab for Beginners](matlab/index.md)
