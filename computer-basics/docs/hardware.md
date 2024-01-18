@@ -452,9 +452,34 @@ DisplayPort is another type of port that is used to connect high-definition vide
 - What are the different types of input and output devices?
 - What is the motherboard and what is its function?
 - What is the CPU and what does it do?
-- What is the difference between a single-core and a multi-core CPU?
+
+**Answer:**
+
+A single-core CPU has only one processing unit, while a multi-core CPU has multiple processing units. In other words, a single-core CPU can only execute one instruction at a time, while a multi-core CPU can execute multiple instructions simultaneously. [read more...](https://www.networkworld.com/article/971425/single-core-vs-multi-core-cpus.html)
+
 - What is the clock speed of a CPU?
+
+**Answer:**
+
+The clock speed of a processor refers to the number of cycles it can execute per second, essentially acting like its heartbeat. It's measured in hertz (Hz), with common units being:
+
+**MHz (megahertz):** Millions of cycles per second. Used for older processors.
+**GHz (gigahertz):** Billions of cycles per second. Standard for modern processors, ranging from around 2 GHz to 4 GHz or even higher.
+
 - What is the difference between a 32-bit and a 64-bit CPU?
+
+**Answer:**
+
+Data Handling:
+
+- 32-bit CPU: Can process 32 bits of data at a time, which equals 4 bytes. 
+- 64-bit CPU: Can process 64 bits of data at a time, which equals 8 bytes. This allows them to handle much larger numbers and complex calculations more efficiently.
+
+Memory Access:
+
+- 32-bit CPU: Can address a maximum of 4GB of RAM (random access memory). This means they can only use up to 4GB of RAM at a time.
+64-bit CPU: Can address a vast amount of RAM, theoretically up to 18 quintillion gigabytes. In practice, the actual limit depends on the specific CPU and operating system, but it's significantly higher than 32-bit CPUs.
+
 - What is the cache memory of a CPU?
 - What are some of the things to consider when choosing a CPU?
 - What are the different types of monitors?

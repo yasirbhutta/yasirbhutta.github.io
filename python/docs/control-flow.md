@@ -202,7 +202,9 @@ for i in range(1, 11):
 
 **See also:**
  
-- [Video: Underscore to Ignore Values in for loop (New)](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+- [Video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
+- [Video: 6 Ways to use List in For loop in Python](https://www.youtube.com/watch?v=-FErgsl9njQ)
+- [Video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 - [Video: Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
 - [Video: String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
 - [For loop - Python wiki](https://wiki.python.org/moin/ForLoop)
