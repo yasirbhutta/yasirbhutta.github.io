@@ -90,10 +90,10 @@ This code will print the message "x is less than 5." to the console.
 
 **See also:**
 
-- [How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
-- [Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
-- [Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
-- [How to Write Single-Line Code Instead of If-Else Statements (New)](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
+- [Video: Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
+- [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
 
@@ -115,7 +115,17 @@ This code will print the message "x is less than 5." to the console.
 
 **Syntax:**
 
+```python
+for item in iterable:
+    # code block
+```
 
+`iterable` is a sequence of elements such as a list, tuple, dictionary, set, or string. item is a variable that takes on the value of each element in the sequence, one at a time. The code block is executed once for each element in the sequence.
+
+**range() function:** 
+
+- We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
+- We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
 
 **Example #:** Print Numbers from 1 to 5
 
@@ -212,6 +222,15 @@ for i in range(1, 11):
 #### while loop
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
+
+**Syntax:**
+
+```python
+while condition:
+    # code block
+```
+
+Here, condition is a boolean expression that is evaluated before each iteration of the loop. If the condition is `True`, the code block is executed. The loop continues to execute as long as the condition remains True.
 
 **Example #:** Print numbers from 1 to 10 using while loop
 
