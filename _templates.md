@@ -38,6 +38,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Multiple Choice (Select the best answer)
 
+## Fill in the Blanks
+
 ## Exercises
 
 ## Review Questions
