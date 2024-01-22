@@ -1,8 +1,14 @@
 # Video Training Python
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
+- [Download PDF](#)  
+- To access the updated handouts, please click on the following link:
+[index.html](../yasirbhutta.github.io/index.md)
+
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
-- [Python Online Course](python-courses.md)
+
 
 ## Installation & Getting Started
 
@@ -20,7 +26,6 @@
 
 - [Python print() function](https://www.youtube.com/watch?v=a34qr0OfxjQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=107)
 - [How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
-
 - [100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ### Comments
@@ -31,7 +36,7 @@
 
 >### [Python Quiz - Basics](https://forms.gle/eYSDpanUFDwd1rG76)
 
-## Variables and Assignments]
+## Variables and Assignments
 
 - [Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=59)
 - [Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
