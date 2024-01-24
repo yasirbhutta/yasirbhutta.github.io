@@ -158,6 +158,7 @@ Optical Disk uses laser technology to read and write data.
 
 ##### Digital Video Disk(DVD)
 
+- The DVD (common abbreviation for Digital Video Disc or Digital Versatile Disc)
 - DVDs are of the same dimensions as compact discs (CDs), but store more than six times as much data. Allows up to 17 gigabytes of storage (from 4.7 GB to 17 GB).
 
 **Types:*
@@ -172,10 +173,91 @@ Optical Disk uses laser technology to read and write data.
 
 ## True/False (Mark T for True and F for False)
 
+- Processor registers are the fastest form of computer storage. (True)
+- The CPU can directly access data stored in secondary storage. (False)
+- Secondary storage devices are more expensive than primary storage devices. (Generally True)
+- Optical disks, like CDs and DVDs, can only be read, not written to. (False)
+- Solid-state drives (SSDs) are faster than traditional hard disk drives (HDDs). (True)
+- The main reason to use storage devices is for permanent data storage. (True)
+- The acronym RAM stands for Random Access Memory. (True)
+- The acronym HDD stands for Hard Disk Drive. (True)
+- The acronym SSD stands for Solid-State Drive. (True)
+- The acronym CD-ROM stands for Compact Disc Read-Only Memory. (True)
+- The acronym DVD stands for Digital Video Disc. (True)
+
 ## Multiple Choice (Select the best answer)
+
+> Which of the following is NOT a secondary storage device?
+
+1. [ ] Hard disk drive (HDD)
+2. [ ] Solid-state drive (SSD)
+3. [ ] Random Access Memory (RAM)
+4. [ ] Floppy disk
+
+> What is the main reason to use storage devices?
+
+1. [ ] To increase the processing power of the CPU
+2. [ ] To make computers more portable
+3. [ ] To store data and programs permanently
+4. [ ] To connect to the internet
+
+> What is the capacity of a typical CD?
+
+1. [ ] 8 GB to 2 TB
+2. [ ] 1.44 MB
+3. [ ] Up to 700MB
+4. [ ] Up to 128GB
+
+> Which of the following is NOT a type of optical storage device?
+
+1. [ ] CD
+2. [ ] DVD
+3. [ ] Blu-ray Disc
+4. [ ] Hard disk drive
+
+> Which type of storage is directly accessible by the CPU and volatile, meaning information is lost when powered off?
+
+1. [ ] Hard Disk Drive (HDD)
+2. [ ] Solid-State Drive (SSD)
+3. [ ] Random Access Memory (RAM)
+4. [ ] Optical Disc
+
+> What is the main purpose of secondary storage?
+
+1. [ ] Provide temporary storage for actively used data and instructions
+2. [ ] Hold large amounts of data permanently, even when the computer is off
+3. [ ] Enhance the processing power of the CPU
+4. [ ] Connect to the internet
+
+> Which secondary storage device offers the fastest access speeds?
+
+1. [ ] Hard Disk Drive (HDD)
+2. [ ] Solid-State Drive (SSD)
+3. [ ] USB Flash Drive
+4. [ ] Optical Disc
+
+> What are some factors to consider when choosing between RAM and SSD for your computer?
+
+1. [ ] Cost, data access speed, storage capacity, and portability
+2. [ ] Brand of the device, size of the computer case, and operating system used
+3. [ ] Color of the device and whether it comes with a carrying case
+4. [ ] None of the above
 
 ## Exercises
 
 ## Review Questions
 
+- Explain the difference between primary and secondary storage.
+- What are the advantages and disadvantages of using HDDs?
+- Describe the different types of optical storage devices and their capacities.
+- How has flash memory technology changed the way we store data?
+- What are some of the future trends in data storage?
+- What is RAM (Random Access Memory)?
+- What is an SSD?
+- What are the advantages of SSDs over HDDs?
+- What is the difference between primary and secondary storage?
+- Give examples of primary and secondary storage devices?
+
 ## References and Bibliography
+
+Computer Basics: Computer Data Storage Devices. https://github.com/topics/data-storage

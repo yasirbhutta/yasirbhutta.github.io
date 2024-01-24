@@ -432,7 +432,7 @@ DisplayPort is another type of port that is used to connect high-definition vide
 3. [x] WiFi
 4. [ ] Ethernet
 
-> hat is the purpose of a CMOS battery on a motherboard?
+> What is the purpose of a CMOS battery on a motherboard?
 
 1. [ ] It powers the CPU.
 2. [x] It maintains the system time and BIOS settings.

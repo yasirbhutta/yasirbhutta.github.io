@@ -14,8 +14,8 @@ Microsoft PowerPoint
 
 **Total MCQS (06 marks 0.5x12):**
 
-- 3x from mid topics
-  - 2x from Google Search
+- 1x from mid topics
+  - 1x from Google Search
   - 1x from Binary Search
 - 1x from software
 - 2x from hardare
@@ -23,7 +23,8 @@ Microsoft PowerPoint
 - 2x from Python
 - 2x from Micosoft Powerpoint
 - 1x from Microsoft Word
-
+- 1x from social media
+  
 **Short Questions (14 marks 2x7):**
 
 - 1x short question for mid topics
