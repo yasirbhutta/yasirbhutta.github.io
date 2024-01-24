@@ -378,10 +378,10 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 > Which port is commonly used to connect a keyboard and mouse to a computer?
 
-1. [ ] USB
+1. [x] USB
 2. [ ] HDMI
 3. [ ] Ethernet
-4. [x] VGA
+4. [ ] VGA
 
 > What is the purpose of a CPU heatsink and fan?
 
