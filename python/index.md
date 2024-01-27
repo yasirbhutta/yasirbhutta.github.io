@@ -39,7 +39,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Numpy](docs/modules/numpy.md)
 - [calendar](docs/modules/calendar.md)
 
-### Classes
+### [Classes](docs/classes.md)
 
 ### File Handling
 
