@@ -8,9 +8,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
-- [Pyton Resources: Books, Websites, Tutorials](resources.md)
-- [Python Tools](tools.md)
-- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
+- [Pyton Resources: Books, Websites, Tutorials](../resources.md)
+- [Python Tools](../tools.md)
+- [Python - Quick Guide for Ultimate Python Beginner's](quick-guide.md)
 
 ## Classes
 
