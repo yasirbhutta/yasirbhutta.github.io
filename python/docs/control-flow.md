@@ -407,11 +407,27 @@ else:
 
 **for loop:**
 
-What is the correct syntax for a for loop in Python?
-a) for (int i = 0; i < 10; i++):
-b) for i in range(10):
-c) for i = 0 to 9:
-d) for i in 10:
+> What is the output of the following code?
+
+```python
+fruits = ["Apple", "Banana", "Cherry"]
+for i, fruit in enumerate(fruits):
+    if i == 1:
+        print(fruit)
+```
+1. [ ] Apple
+2. [ ] Banana
+3. [ ] Cherry
+4. [ ] Error
+
+related video: [https://youtu.be/-FErgsl9njQ](https://youtu.be/-FErgsl9njQ)
+
+> What is the correct syntax for a for loop in Python?
+
+1. [ ] for (int i = 0; i < 10; i++):
+2. [ ] for i in range(10):
+3. [ ] for i = 0 to 9:
+4. [ ] for i in 10:
 
 What will be the output of the following code?
 

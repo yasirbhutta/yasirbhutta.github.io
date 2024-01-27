@@ -34,6 +34,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Facebook](https://www.facebook.com/yasirbhutta786)
 - [Twitter](https://twitter.com/yasirbhutta)
 
+## Key Terms
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
