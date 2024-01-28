@@ -14,6 +14,14 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Classes
 
+- Classes act as blueprints for creating objects.
+
+**What are instance attributes?:**
+
+- Unique to each instance (object) of a class.
+- Store data specific to that object.
+- Defined within the __init__() constructor method, using the self parameter.
+
 **Example #:**
 
 ```python
@@ -39,6 +47,15 @@ print(student1.name)
 student1.info()
 student2.info()
 ```
+
+**Key Points:**
+
+- Classes act as blueprints for creating objects.
+- Objects are instances of classes, each with their own attributes (data) and methods (behaviors).
+- The `__init__()` method initializes objects when they're created.
+- Methods are functions defined within a class that operate on the object's data.
+- `self` is used to access the object's attributes and methods within its methods.
+
 
 **Example #:**
 
