@@ -139,14 +139,15 @@ Imagine the internet as a massive highway system, but instead of cars, it's data
 ## Review Questions
 
 - What is a wide area network (WAN)?
+
+**Answer:**
+A WAN, or wide area network, is a collection of connected LANs. It is a widespread network of local networks. A WAN can be any size, even thousands of miles wide; it is not restricted to a given area.
 - What is a LAN (local area network)?
 - What is a Network switch?
 - What is a router?
 - What is the difference between a LAN and a WAN?
 
-**Answer:**
 
-A WAN, or wide area network, is a collection of connected LANs. It is a widespread network of local networks. A WAN can be any size, even thousands of miles wide; it is not restricted to a given area.
 
 ## References and Bibliography
 
