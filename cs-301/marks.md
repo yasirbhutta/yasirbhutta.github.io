@@ -19,7 +19,7 @@ Microsoft PowerPoint
   - 1x from Binary Search
 - 1x from software
 - 2x from hardare
-- 1x from storage devices
+- 1x from Database/Network basics
 - 2x from Python
 - 2x from Micosoft Powerpoint
 - 1x from Microsoft Word

@@ -386,8 +386,8 @@ DisplayPort is another type of port that is used to connect high-definition vide
 > What is the purpose of a CPU heatsink and fan?
 
 1. [ ] To increase CPU performance
-2. [x] To cool the motherboard
-3. [ ] To prevent the CPU from overheating
+2. [ ] To cool the motherboard
+3. [x] To prevent the CPU from overheating
 4. [ ] To enhance graphics rendering
 
 > Which of the following is a type of output device?

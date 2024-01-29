@@ -153,6 +153,7 @@ Corel Draw.
 ## Review Questions
 
 - Explain the difference between hardware and software.
+- What is software and explain its different types.
 - What are the two main types of software? Briefly describe each one.
 - Why is software essential for a computer to function?
 - List three examples of system software and explain their roles.

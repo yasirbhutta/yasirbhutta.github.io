@@ -569,7 +569,7 @@ Beginner:
 3. What is the formula to count the number of cells in a range that contain a specific value?
 4. What is the formula to calculate the minimum or maximum value in a range of cells?
 5. What is the formula to round a number to a specific number of decimal places?
-6. What is function? Enlist some important functions of Excel?
+6. What is the function in Microsoft Excel? Enlist some important functions?
 7. What is the difference between a relative cell reference and an absolute cell reference?
 8. How do you use the $ symbol to lock cell references in a formula?
 9. What is the use of Conditional Formatting?

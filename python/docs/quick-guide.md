@@ -668,7 +668,7 @@ if x < y:
 - What is a variable?
 - How do you display the text "Hello, world!" in the console?
 - How do you ask the user to enter their name and store it in a variable?
-- What are the symbols for addition, subtraction, multiplication, and division in Python?
+- What are the operators used for addition, multiplication, floor division, and exponentiation in Python and provide an example of each operation?
 - What is the difference between the division operator (/) and the floor division operator (//)?
 - What is the modulus operator (%) used for?
 - What are the operators used to compare values (e.g., greater than, less than, equal to)?
