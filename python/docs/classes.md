@@ -22,7 +22,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Store data specific to that object.
 - Defined within the __init__() constructor method, using the self parameter.
 
-**Example #:**
+[Video: How to Create a Class](https://youtu.be/zVYzk_gnTY4)
+
+**Example #:** How to create a Class 
 
 ```python
 # Class Definition
@@ -100,6 +102,21 @@ print(student2.get_grade())  # Output: 11
 
 ```
 
+**Class and Instance Attributes in Python:**
+
+- In Python, class attributes are the variables defined directly in the class that are shared by all objects of the class. 
+- Instance attributes are attributes or properties attached to an instance of a class. Instance attributes are defined in the constructor using the `self` parameter. 
+ 
+The following table lists the difference between class attribute and instance attribute:
+
+| Class Attribute | Instance Attribute |
+| --- | --- |
+| Defined directly inside a class. | Defined inside a constructor using the `self` parameter. |
+| Shared across all objects. | Specific to object. |
+| Accessed using class name as well as using object with dot notation, e.g. `classname.class_attribute` or `object.class_attribute`. | Accessed using object dot notation e.g. `object.instance_attribute`. |
+| Changing value by using `classname.class_attribute = value` will be reflected to all the objects. | Changing value of instance attribute will not be reflected to other objects. |
+
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
@@ -115,3 +132,4 @@ print(student2.get_grade())  # Output: 11
 ## References and Bibliography
 
 - [Classes - Python documentation](https://docs.python.org/3/tutorial/classes.html)
+- [Python Attributes – Class and Instance Attribute Examples - freecodecamp.org](https://www.freecodecamp.org/news/python-attributes-class-and-instance-attribute-examples/)
