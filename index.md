@@ -10,6 +10,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Microsoft Excel](ms-excel/index.md)
 - [Microsoft Word](ms-word/index.md)
 - [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
+- [Microsoft Teams](teams/index.md)
 ## Google Workspace
 - [How to search on Google](google-workspace/docs/google-search.md)
 - [Gmail](google-workspace/docs/email.md)
