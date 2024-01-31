@@ -22,7 +22,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Store data specific to that object.
 - Defined within the __init__() constructor method, using the self parameter.
 
-[Video: How to Create a Class](https://youtu.be/zVYzk_gnTY4)
+**Python Class Example:** [Video: How to Create a Class](https://youtu.be/zVYzk_gnTY4)
 
 **Example #:** How to create a Class 
 
@@ -116,6 +116,7 @@ The following table lists the difference between class attribute and instance at
 | Accessed using class name as well as using object with dot notation, e.g. `classname.class_attribute` or `object.class_attribute`. | Accessed using object dot notation e.g. `object.instance_attribute`. |
 | Changing value by using `classname.class_attribute = value` will be reflected to all the objects. | Changing value of instance attribute will not be reflected to other objects. |
 
+**Python Class Example:** [Video: How to Create a Class and Instance Attributes in Python](https://youtu.be/tNARiqDveP4)
 
 ## Key Terms
 

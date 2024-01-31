@@ -6,6 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Microsoft Excel Resources: Books, Trainings and online resources](resources.md)
 
 - [Excel video Training](video-training-excel.md)
+- [Excel Assignments](assignments/index.md)
 
 ## Learn Microsoft Excel
 
