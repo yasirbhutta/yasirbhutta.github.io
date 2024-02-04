@@ -882,7 +882,7 @@ text(6, 5, 'string', 'color', 'red');
 1. [ ] Solid line
 2. [ ] Dashed line
 3. [ ] Dotted line
-4. [ ] [x] Dash-dotted line
+4. [x] Dash-dotted line
 
 > What is the purpose of using different line styles in a plot?
 

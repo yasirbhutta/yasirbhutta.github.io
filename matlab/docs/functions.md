@@ -504,6 +504,7 @@ Enter an integer: 4
 - How can you create plots within a function and display them to the user?
 - How can you pass plotting options as arguments to functions to customize visualizations?
 - Demonstrate how to pass multiple input arguments and return multiple output values.
+- Define an anonymous function in MATLAB and provide an example to explain its usage.
 
 ## References and Bibliography
 

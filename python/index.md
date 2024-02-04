@@ -23,15 +23,15 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)
 - [Data Types](docs/data-types.md)
-- [Operators](docs/operators.md)
 - [Control Flow](docs/control-flow.md)
 - [Functions](docs/functions.md)
 - [Data Structures and Sequences](docs/dss.md)
 - [Python Sorting](docs/sorting.md)
 - [Error and Exception Handling](docs/error.md)
 - [Python Performance and Best practices](docs/best-practices.md)
-
 - [Python in Excel](docs/python-excel.md)
+
+### [Classes](docs/classes.md)
 
 ### Modules
 
@@ -39,7 +39,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Numpy](docs/modules/numpy.md)
 - [calendar](docs/modules/calendar.md)
 
-### [Classes](docs/classes.md)
+
 
 ### File Handling
 

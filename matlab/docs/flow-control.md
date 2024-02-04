@@ -568,7 +568,8 @@ end
 17. What is the difference between an if statement and a switch statement?
 18. What is the syntax for a switch statement?
 19. What is the default case in a switch statement?
-20. What are some tips for using while loops effectively?
+20. What is the syntax for a switch statement in MATLAB, and provide an example that demonstrates its usage?
+21. What are some tips for using while loops effectively?
 
 >**Answer:** Here are some tips for using while loops effectively:
 >
