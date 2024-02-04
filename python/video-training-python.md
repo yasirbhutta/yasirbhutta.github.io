@@ -272,7 +272,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Python in Excel
 
+- [Handouts: Python in Excel](docs/python-excel.md)
+
 ## Classes - Object Oriented Programming
+
+- [Handouts: Classes](docs/classes.md)
 
 - [How to Create a Class in Python](https://youtu.be/zVYzk_gnTY4)
 - [Python Attributes: Class and Instance Attribute Example](https://youtu.be/tNARiqDveP4)
@@ -283,6 +287,24 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Handouts: Numpy](docs/modules/numpy.md)
 
+- [#1 NumPy | How to Create 1D, 2D, and 3D Arrays in NumPy](https://youtu.be/08PDFhQhnNg)
+- [#2 NumPy | Python NumPy Array Creation Methods Explained | Zeros, Ones, Empty, Arange, and Linspace](https://youtu.be/PI4UegrAYxs)
+- [#3 NumPy | Python Array Dimensions: Understanding Shape and Size  @yasirbhutta](https://youtu.be/UIGM_suK5cI)
+- [#4 Python NumPy Tutorial: Reshape an Array](https://youtu.be/pNqam8PzQ0M)
+- [#5 Python NumPy Tutorial: Indexing and Slicing](https://youtu.be/iIL2YIWecMI)
+- [#6 Python NumPy Tutorial: Vertically and Horizontally Stack Arrays with vstack and hstack](https://youtu.be/td_2hlU3FFM)
+- [#7 Python NumPy Tutorial: Mastering Arithmetic and Logical Operations for Efficient Data Processing](https://youtu.be/i3WWayfEc6Q)
+- [#8 NumPy | Matrix Multiplication using NumPy in Python](https://youtu.be/6IAOoMDbxMM)
+- [#9 NumPy | Matrix Transpose using NumPy in Python](https://youtu.be/sF6aK9edzBQ)
+- [#10 NumPy | Inverse of a Matrix in Python with NumPy](https://youtu.be/u4jBU1DYSPU)
+- [#11 Python NumPy: How to Find Unique Values in an Array](https://youtu.be/eEKAB7-FiAo)
+- [#14 Python NumPy Tutorial: 3 Ways to Use a Random Generator](https://youtu.be/1dbYOiQWauk)
+
+**Numpy in Python examples:**
+
+- [How to Handle Missing Values in NumPy with Masked Arrays](https://youtu.be/zPeU2QDRFug)
+- [Generate a Random Number Between 0 and 1 in #Python with #NumPy](https://youtube.com/shorts/t_7xqImRUpo)
+
 ### pandas
 
 - [Handouts: pandas](docs/modules/pandas.md)
@@ -290,6 +312,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
 
 ### calendar
+
+[Handouts: calendar](docs/modules/calendar.md)
 
 - [Print the calendar for a specific month](https://www.youtube.com/watch?v=wT8Tg6Yx4VM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
   
