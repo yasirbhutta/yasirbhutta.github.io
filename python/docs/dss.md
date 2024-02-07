@@ -59,6 +59,7 @@ A nested tuple is a tuple that contains one or more tuples as element.
 # but they can contain mutable objects
 ```
 #### Unpacking tuples
+
 #### Tuple methods
 
 
@@ -72,6 +73,8 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - [How to create an Empty tuple and Single value tuple](https://www.youtube.com/watch?v=nGIWcYXj580&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
 - [How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
 
+- [Exercise #11: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45)
+- 
 ### List
 
 - [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
@@ -83,6 +86,8 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - [Remove duplicate elements from a list](https://www.youtube.com/watch?v=RekQ2j4yzIQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
 - [List Index Function: Find the Index of an Element in a List](https://www.youtube.com/watch?v=thYJRk4huGE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
 - [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+- **Python set examples:**
+- [How to Find Duplicates in a List using Set and List Functions](https://www.youtube.com/watch?v=FgTrz4h9YV8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=46)
 
 ### Built-in Sequence Functions
 
@@ -107,6 +112,8 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - [How to: Add or Remove Elements in a Set](https://www.youtube.com/watch?v=96f2SKK_QZk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=98)
 - [How to: Create Empty Set in Python](https://www.youtube.com/watch?v=nmI7BGXPA4I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=77)
 - [Find the Union of Two Sets in Python](https://www.youtube.com/watch?v=YDyCNYCUK9A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=72)
+
+
 
 ### List, Set and Dict Comprehensions
 

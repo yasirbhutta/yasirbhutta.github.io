@@ -50,6 +50,8 @@ student1.info()
 student2.info()
 ```
 
+[Video: Python Classes - What is Class Constructor](https://youtube.com/shorts/eeat2bsZFL0)
+
 **Key Points:**
 
 - Classes act as blueprints for creating objects.

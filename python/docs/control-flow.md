@@ -210,13 +210,17 @@ for i in range(1, 11):
         print('%d * %d = %d' % (i, j, i*j))
 ```
 
-**See also:**
- 
+**for loop examples:**
+
 - [Video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
 - [Video: 6 Ways to use List in For loop in Python](https://www.youtube.com/watch?v=-FErgsl9njQ)
 - [Video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
-- [Video: Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
-- [Video: String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
+- [How to Print Multiplication Tables in Python](https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
+- [String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
+- [Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
+  
+**Further reading:**
+ 
 - [For loop - Python wiki](https://wiki.python.org/moin/ForLoop)
 
 #### while loop
@@ -348,6 +352,11 @@ while True:
     x += 1
 ```
 
+**while loop examples:**
+
+- [How to Count Digits in a Positive Integer using Python](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
+- [How to Count Occurrence of a Specific Digit in a Number using Python](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
+  
 **See also:**
 
 - [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
