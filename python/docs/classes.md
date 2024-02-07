@@ -126,6 +126,57 @@ The following table lists the difference between class attribute and instance at
 
 ## Multiple Choice (Select the best answer)
 
+> What keyword is used to define a class in Python?
+1. [ ] object
+2. [ ] class
+3. [ ] define
+4. [ ] declare
+
+> What is the correct way to create an object instance of a class?
+1. [ ] Calling the class definition directly
+2. [ ] Assigning the class name to a variable
+3. [ ] Using the new keyword
+4. [ ] Calling the class name with parentheses
+
+What will be the output?
+
+```python
+class Dog:
+  name = "Unknown"
+
+  def bark(self):
+    print("Woof!")
+
+dog1 = Dog()
+dog1.name = "Buddy"
+dog2 = Dog()
+
+print(dog1.name, dog2.name)
+```
+
+1. [ ] Buddy Unknown
+2. [ ] Unknown Unknown
+3. [ ] Buddy Buddy
+4. [ ] It depends on the dog breed
+  
+> What is the purpose of the self parameter in a method?
+1. [ ] To store the method name
+2. [ ] To refer to the current object instance
+3. [ ] To pass data to other methods
+4. [ ] All of the above
+
+> What is the primary purpose of a class constructor?
+1. [ ] To define the name of the class
+2. [ ] To initialize the object's data members
+3. [ ] To allocate memory for the object
+4. [ ] All of the above
+
+> What is the purpose of the __init__ method in a Python class?
+1. [ ] To define static properties
+2. [ ] To store the object's type
+3. [ ] To initialize the object's attributes
+4. [ ] To compare objects for equality
+
 ## Fill in the Blanks
 
 ## Exercises
