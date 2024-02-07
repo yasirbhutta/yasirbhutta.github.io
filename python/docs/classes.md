@@ -126,7 +126,7 @@ The following table lists the difference between class attribute and instance at
 
 ## Multiple Choice (Select the best answer)
 
-> What keyword is used to define a class in Python?
+> What keyword is used to define a class in Python? [[related video]](https://youtu.be/zVYzk_gnTY4)
 1. [ ] object
 2. [ ] class
 3. [ ] define

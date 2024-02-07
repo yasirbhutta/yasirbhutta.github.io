@@ -534,9 +534,9 @@ What will happen if you try to modify the loop variable within the body of a whi
 What is the correct syntax for a while loop in Python?
 
 (a) while (condition):
-(b) while condition {
+(b) while condition {}
 (c) while condition:
-(d) while (condition) {
+(d) while (condition) {}
 
 What is the output of the following code?
 
