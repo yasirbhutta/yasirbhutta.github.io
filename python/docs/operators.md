@@ -95,6 +95,9 @@ is_missing = 2 not in numbers  # True
 - These are less common in general-purpose programming, but useful in certain domains like low-level programming or cryptography.
 
 
+**Python operators examples:**
+- [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
+
 What is the difference between == and = in Python?
 
 a) == is the comparison operator, = is the assignment operator

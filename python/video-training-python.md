@@ -110,6 +110,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 **7. Bitwise Operators:**
 
+**Python operators examples:**
+- [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
+
 >[Python Quiz -Operators](https://forms.gle/gU97dPxstMocYFzP9)
 
 ## Functions
