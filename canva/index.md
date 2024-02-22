@@ -3,13 +3,9 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+## What is Canva and why is it useful?
 
-Introduction (5-10 minutes):
-
-Welcome and introduction
-Briefly discuss the learning objectives
-What is Canva and why is it useful?
-Quick tour of the Canva interface
+## Canva APP interface
 
 ## Designing basics
 
