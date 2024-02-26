@@ -212,6 +212,22 @@ lookfor
 - What is the workspace in MATLAB, and what is its purpose?
 - What is the primary function of the command window in MATLAB
 - What is the purpose of the command history?
+- What is the purpose of the semicolon (;) and the comment symbol (%) in MATLAB code?
+
+**Answer:**
+
+**Semicolon (;):**
+
+- Separates statements: Primarily, the semicolon separates multiple statements on a single line. Each statement after the semicolon is executed independently. For example:
+
+```matlab
+a = 5; b = a^2;
+```
+Suppresses output: When placed at the end of a line, the semicolon suppresses the output of that specific line in the command window. This is useful if you want to perform calculations but don't need to see the intermediate results. 
+
+**Comment symbol (%):**
+
+Marks non-executable text: Anything following the percent sign (%) on the same line is considered a comment and is ignored by MATLAB during execution. This allows you to add notes, explanations, or reminders within your code, improving readability and maintainability.
 
 ## References and Bibliography
 
