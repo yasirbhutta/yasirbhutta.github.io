@@ -11,8 +11,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 ## Word Processor
 
 - Word processor is a type of application software that used to create all kinds of text documents.
-- It can also be used to add images, sound, charts in documents.
-
+  
 ## Advantages of Word Processor Over Typewriter
 
 - A document can be changed without retyping the entire document.
@@ -286,61 +285,61 @@ OR
 
 ## Multiple Choice (Select the best answer)
 
-Which of the following is NOT an advantage of a word processor compared to a typewriter?
+> Which of the following is NOT an advantage of a word processor compared to a typewriter?
 
- a) Edit documents without retyping the entire thing
- b) Insert images, sounds, and charts into documents
- c) Save documents for future use
- All of the above
+ 1. [ ] Edit documents without retyping the entire thing
+ 2. [ ] Insert images, sounds, and charts into documents
+ 3. [ ] Save documents for future use
+ 4. [ ] All of the above
 
- What is the MAIN purpose of Microsoft Word?
+ > What is the MAIN purpose of Microsoft Word?
 
- a) To create presentations
- b) To browse the internet
- c) To manage email
- d) To create and edit text documents
+ 1. [ ] To create presentations
+ 2. [ ] To browse the internet
+ 3. [ ] To manage email
+ 4. [ ] To create and edit text documents
 
-What keyboard shortcut can be used to save a document?
+> What keyboard shortcut can be used to save a document?
 
- a) Ctrl+P
- b) Ctrl+S
- c) Ctrl+O
- d) Ctrl+F
+ 1. [ ] Ctrl+P
+ 2. [ ] Ctrl+S
+ 3. [ ] Ctrl+O
+ 4. [ ] Ctrl+F
 
-What is the difference between "Save" and "Save As" commands?
+> What is the difference between "Save" and "Save As" commands?
 
- a) "Save" creates a new document, while "Save As" saves an existing one.
- b) "Save" saves the document with the current name, while "Save As" allows you to choose a new name or location.
- c) "Save" is only available for new documents, while "Save As" can be used for both new and existing documents.
- d) There is no difference; they both do the same thing.
+ 1. [ ] "Save" creates a new document, while "Save As" saves an existing one.
+ 2. [ ] "Save" saves the document with the current name, while "Save As" allows you to choose a new name or location.
+ 3. [ ] "Save" is only available for new documents, while "Save As" can be used for both new and existing documents.
+ 4. [ ] There is no difference; they both do the same thing.
 
-Which document view displays the document as it will appear when printed?
+> Which document view displays the document as it will appear when printed?
 
- a) Full Screen Reading
- b) Web Layout
- c) Outline
- d) Print Layout
+ 1. [ ] Full Screen Reading
+ 2. [ ] Web Layout
+ 3. [ ] Outline
+ 4. [ ] Print Layout
 
-Where can you find the current page number and total word count in a Word document?
+> Where can you find the current page number and total word count in a Word document?
 
- a) On the Title bar
- b) In the status bar
- c) On the Ribbon
- d) In the File menu
+ 1. [ ] On the Title bar
+ 2. [ ] In the status bar
+ 3. [ ] On the Ribbon
+ 4. [ ] In the File menu
 
- The Quick Access Toolbar in Word provides:
+ > The Quick Access Toolbar in Word provides:
 
- a) A customizable list of frequently used commands.
- b) Access to all menus and options in the Ribbon.
- c) Information about the current document.
- d) Options for saving and closing files.
+ 1. [ ] A customizable list of frequently used commands.
+ 2. [ ] Access to all menus and options in the Ribbon
+ 3. [ ] Information about the current document.
+ 4. [ ] Options for saving and closing files.
 
- When using "Save As," you can:
+ > When using "Save As," you can:
 
- a) Create a new document with the same name as an existing one.
- b) Save a copy of an existing document with a different name or location.
- c) Choose a file format different from the original document.
- d) All of the above.
+ 1. [ ] Create a new document with the same name as an existing one.
+ 2. [ ] Save a copy of an existing document with a different name or location.
+ 3. [ ] Choose a file format different from the original document.
+ 4. [ ] All of the above.
 
 ## Fill in the Blanks
 
@@ -371,8 +370,6 @@ Where can you find the current page number and total word count in a Word docume
 **. Holding down the _____ key allows you to select multiple non-consecutive files in the Open dialog box.**
 (Answer: Ctrl) 
 
-
-
 ## Exercises
 
 ## Review Questions
@@ -381,6 +378,7 @@ Where can you find the current page number and total word count in a Word docume
 - List some examples of documents you can create using Microsoft Word.
 - Briefly describe the purpose of Microsoft Word.
 - What is the Ribbon and how does it organize commands?
+- What are the advantages of Word Processor Over Typewriter?
 Identify the functions of the following elements in the Word interface:
   - Quick Access Toolbar
   - Rulers
@@ -397,7 +395,5 @@ Identify the functions of the following elements in the Word interface:
   - Print Layout
   - Read Mode
   - Web Layout
-
-
-
+  
 ## References and Bibliography
