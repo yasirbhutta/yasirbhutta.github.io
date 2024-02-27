@@ -912,6 +912,48 @@ text(6, 5, 'string', 'color', 'red');
 3. [ ] Plus sign (+)
 4. [ ] Asterisk (*)
 
+> How can you add a colorbar to a surface plot created with surf in MATLAB?
+1. [ ] Using the color function
+2. [ ] Using the colorbar function
+3. [ ] By specifying a colormap argument in surf
+4. [ ] Both b and c
+
+> When generating a surface plot with surf, which of the following options provides information about the color values used?
+1. [ ] The function arguments within surf
+2. [ ] The axis labels automatically generated
+3. [ ] The legend displayed by default
+4. [ ] The colorbar function specifically designed for this purpose
+
+> What is the purpose of the meshgrid() function when creating 3D plots in MATLAB?
+1. [ ] It generates a grid of points for plotting 2D data.
+2. [ ] It generates a mesh for 3D surface plots.
+3. [ ] It creates a color map for 3D plots.
+4. [ ] It calculates the gradient of a function.
+
+> Which function is used to customize the appearance of a 3D plot, such as changing colors?
+1. [ ] colorplot
+2. [ ] customize3D
+3. [ ] colormap
+4. [ ] plot3D
+
+> Which function in MATLAB is used to add labels and titles to a 3D plot?
+1. [ ] xlabel(), ylabel(), zlabel(), title()
+2. [ ] legend()
+3. [ ] text()
+4. [ ] annotation()
+
+> Which MATLAB function is used to create 3D histograms or bar plots?
+1. [ ] hist()
+2. [ ] bar3()
+3. [ ] histogram()
+4. [ ] bar()
+
+> Which function is used to create multiple 3D plots in the same figure window?
+1. [ ] subplot()
+2. [ ] figure()
+3. [ ] hold()
+4. [ ] plot3()
+
 ## Exercises
 
 - Write the MATLAB code to create a surf plot of the function f(x, y) = sin(x) + cos(y) over the domain [-5, 5] in both the x and y directions and vectors have 100 values?
@@ -922,7 +964,6 @@ text(6, 5, 'string', 'color', 'red');
   - Generate a 3D surface plot using the surf() function.
   - Add appropriate labels and a title to the plot.
   - Display a color bar and change the colormap to "cool".
-
 
 ## Review Questions
 
@@ -935,7 +976,19 @@ text(6, 5, 'string', 'color', 'red');
 - What is the purpose of the `legend()` function in MATLAB?
 - What are some of the different line styles that can be used in MATLAB?
 - What are some of the different marker styles that can be used in MATLAB?
+- Explain the difference between the plot3, and surf functions in MATLAB for visualizing 3D data.
+- Write the basic syntax for creating a 3D plot using plot3 in MATLAB.
+- How can you create a surface plot using the surf function in MATLAB? 
+- Generate a 3D plot of a mathematical function of two variables (e.g., z = x^2 + y^2).
+- Visualize 3D data from a file (e.g., CSV, MAT) in MATLAB using appropriate functions.
 - What is the difference between the hold on and hold off functions in MATLAB?
+- What functions in MATLAB can be used to create 3D plots?
+- How can you plot a 3D surface from a set of x, y, and z data points?
+- What is the purpose of the meshgrid() function when creating 3D plots?
+- Describe the process of creating a 3D histogram or bar plot in MATLAB.
+- Create a 3D surface plot of the equation z = sin(x)cos(y) for x and y values ranging from -pi to pi.
+- How do you add labels and titles to a 3D plot in MATLAB?
+- Explain how to use the colorbar function to add a color legend to a 3D surface plot created with surf
 - How do you use the line function in MATLAB?
 
 **Answer:**
