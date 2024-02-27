@@ -5,7 +5,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Matlab Handouts
 
-- Introduction to MATLAB [web](docs/matlab-basics.md) \| [pdf](docs/matlab-basics.md)
+- Introduction to MATLAB [web](docs/matlab-basics.md) \| [pdf](docs/matlab-basics.pdf)
 - Constants, Variables and Expressions [web](docs/cve.md) \| [pdf](docs/cve.pdf)
 - [Operators](docs/operators.md) \| [Download PDF](docs/operators.pdf)
 - [Input Output Statements](docs/ios.md) \| [Download PDF](docs/ios.pdf)

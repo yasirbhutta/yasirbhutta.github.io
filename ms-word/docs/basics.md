@@ -1,18 +1,19 @@
-# Microsoft Word - Microsoft 365
+# Microsoft Word - Microsoft 365: Basics
 
-## Microsoft Word - Basics
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-- [Slides: Basics](https://docs.google.com/presentation/d/138bNXKPcVcxXlqbLDA4aUjn54owi1aC8PemkBnRwkqw/edit?usp=sharing)
-- [Download: Handouts PDF](#)
-- To access the updated lecture notes, please click on the following link:
-[https://yasirbhutta.github.io/matlab/docs/flow-control.html](#)
+- [Download: Handouts PDF](https://yasirbhutta.github.io/ms-word/docs/basics.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/ms-word/docs/basics.html](https://yasirbhutta.github.io/ms-word/docs/basics.html)
+- [Youtube Playlist to learn Microsoft Word](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+- [Slides](https://docs.google.com/presentation/d/138bNXKPcVcxXlqbLDA4aUjn54owi1aC8PemkBnRwkqw/edit?usp=sharing)
 
-### Word Processor
+## Word Processor
 
 - Word processor is a type of application software that used to create all kinds of text documents.
 - It can also be used to add images, sound, charts in documents.
 
-### Advantages of Word Processor Over Typewriter
+## Advantages of Word Processor Over Typewriter
 
 - A document can be changed without retyping the entire document.
 - If there is a typing mistake, it can be corrected easily.
@@ -20,25 +21,20 @@
 - The text can be duplicated easily without type it again.
 - A document can be save for future use.
 
-### Microsoft Word
+## Microsoft Word
 
 - Microsoft Word is a word-processing program that provides the facilities for documentation.
 - It can be used to create and type letters, reports, newsletters, brochures etc.
 
-### Use of MS Word for Office Work
+**Use of MS Word for Office Work:**
 
-1. Preparing Memorandums
-1. Preparing Faxex
-1. Preparing Notices
-1. Preparing Applications
-1. Preparing Letter
-1. Preparing Reports
-1. Preparing Resumes
-1. Preparing Calendar
-1. Preparing Meeting Agendas
-1. Preparing Legal Pleading
+- Preparing Letter
+- Building Reports
+- Resumes
+- Preparing Calendar
+- Meeting Agendas
 
-### PARTS OF WORD INTERFACE
+## PARTS OF WORD INTERFACE
 
 - Quick Access Toolbar
 - Cursor
@@ -50,7 +46,7 @@
 - Zoom Slide
 - Working Area
 
-#### Ribbon
+**Ribbon:**
 
 - The menus and toolbars have been replaced with the Ribbon
 - **Tab** Each tab relates to a type of activity, such as writing or laying out a page.
@@ -71,13 +67,22 @@
 
 #### Scroll Bars
 
-- Scroll bars are used to move in the document.
-- The browse buttons is used to move through a document in different ways. The default setting is by page.
-  - Scroll Up Arrow
-  - Scroll Button
-  - Scroll Down Arrow
-  - Browse Buttons
-  - Browse Selector
+## Scroll Bars in Microsoft Word
+
+Microsoft Word uses scroll bars to navigate through documents that extend beyond the current window size. There are two main scroll bars:
+
+**1. Vertical Scroll Bar:**
+
+* Located on the **right** side of the document window.
+* Clicking and dragging the scroll bar **thumb** up or down moves the document content vertically.
+* Clicking the **arrows** at the top or bottom of the scroll bar moves the document one page up or down, respectively.
+* Using the **mouse wheel** while hovering over the document also scrolls vertically.
+
+**2. Horizontal Scroll Bar (Optional):**
+
+* Located **below** the document window (might not be visible by default).
+* Appears only when the document content extends beyond the window width.
+* Works similarly to the vertical scroll bar for horizontal navigation.
 
 #### Status Bar
 
@@ -114,7 +119,7 @@ Save Dialog Box
 
 ### Save a copy of file (Word, Excel, or PowerPoint)
 
-Save as command is used to: Store another copy of an existing document with a different name or at different location.
+Save as command is used to store another copy of an existing document with a different name or at different location.
 
 Save a copy of file
 
@@ -213,52 +218,186 @@ OR
 
 #### Documents Views
 
+- Focus
+- Read Mode
 - Print Layout
-- Full Screen Reading
 - Web Layout
-- Outline
-- Draft
 
-##### Print Layout
 
-- View the document as it will be appear on printed Page.
-- It displays all formatting, columns, header, footers etc.
-- It takes more memory.
+These terms refer to different **view modes** in Microsoft Word, each serving a specific purpose:
 
-##### Full Screen Reading
+**1. Focus:**
 
-- View the document in full screen reading view in order to maximize the space available for reading or commenting on document.
+* Ideal for **reading and reviewing** documents with fewer distractions.
+* Hides most formatting options and menus, maximizing the document content on the screen.
+* Great for focusing on the content without the clutter of editing tools.
 
-##### Web Layout
+**2. Read Mode:**
 
-- View the document as it would look as web page.
-- All pages are displayed as one page.
-- In this view, the user can see backgrounds.
+* Similar to Focus, but offers additional features:
+    * Text automatically reflows to fit the window size, improving readability on various devices.
+    * Offers text-to-speech functionality for listening to the document content.
+    * Allows adjusting font size and background color for a personalized reading experience.
 
-##### Outline View
+**3. Print Layout:**
 
-- View the document as an outline and show the outlining tools.
-- It does not display the boundaries, headers, footers etc.
-- It can be used to move, copy and reorganize text by dragging headings.
+* The **default view** in Word, showing the document exactly as it would appear when printed.
+* Displays headers, footers, page breaks, and margins as they will be in the printed version.
+* Best suited for **editing and formatting** documents with precise control over layout and appearance.
 
-##### Draft View
+**4. Web Layout:**
 
-- View the document as a draft to quickly edit the text.
-- Certain elements of document such as Headers and Footers will not be visible in this view.
-- The process of typing in this mode is quicker and easier.
-- The normal view takes less memory.  
+* Displays the document similar to how it might appear on a **web page**.
+* May adjust layout and formatting to optimize for web viewing.
+* Useful for **reviewing and editing documents** intended for online publishing.
 
-#### Change Document Views
+In essence, choosing the right view mode depends on your current task:
 
-- **Status Bar > Document Views**
+* **Reading and reviewing:** Focus or Read Mode
+* **Editing and formatting:** Print Layout
+* **Preparing for online viewing:** Web Layout
+
+**Change Document Views:**
+
+**Status Bar > Document Views**
 
 OR
 
-- **View tab > Document Views group > Select View**
+**View tab > Document Views group > Select View**
 
-Muhammad Yasir Bhutta
+## Key Terms
 
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+## True/False (Mark T for True and F for False)
+
+**1. A typewriter offers greater editing flexibility compared to a word processor.** (False)
+
+**2. Microsoft Word is primarily used for creating presentations.** (False)
+
+**3. The Ribbon in Word replaces the traditional menu bar and toolbars.** (True)
+
+**4. You can only save a document once in Microsoft Word.** (False)
+
+**5. Double-clicking a Word file is the only way to open it.** (False)
+
+**6. Print Layout view hides formatting elements like headers and footers.** (False)
+
+**10. Holding down the Shift key allows you to select a range of consecutive files in the Open dialog box.** (True)
+
+
+## Multiple Choice (Select the best answer)
+
+Which of the following is NOT an advantage of a word processor compared to a typewriter?
+
+ a) Edit documents without retyping the entire thing
+ b) Insert images, sounds, and charts into documents
+ c) Save documents for future use
+ All of the above
+
+ What is the MAIN purpose of Microsoft Word?
+
+ a) To create presentations
+ b) To browse the internet
+ c) To manage email
+ d) To create and edit text documents
+
+What keyboard shortcut can be used to save a document?
+
+ a) Ctrl+P
+ b) Ctrl+S
+ c) Ctrl+O
+ d) Ctrl+F
+
+What is the difference between "Save" and "Save As" commands?
+
+ a) "Save" creates a new document, while "Save As" saves an existing one.
+ b) "Save" saves the document with the current name, while "Save As" allows you to choose a new name or location.
+ c) "Save" is only available for new documents, while "Save As" can be used for both new and existing documents.
+ d) There is no difference; they both do the same thing.
+
+Which document view displays the document as it will appear when printed?
+
+ a) Full Screen Reading
+ b) Web Layout
+ c) Outline
+ d) Print Layout
+
+Where can you find the current page number and total word count in a Word document?
+
+ a) On the Title bar
+ b) In the status bar
+ c) On the Ribbon
+ d) In the File menu
+
+ The Quick Access Toolbar in Word provides:
+
+ a) A customizable list of frequently used commands.
+ b) Access to all menus and options in the Ribbon.
+ c) Information about the current document.
+ d) Options for saving and closing files.
+
+ When using "Save As," you can:
+
+ a) Create a new document with the same name as an existing one.
+ b) Save a copy of an existing document with a different name or location.
+ c) Choose a file format different from the original document.
+ d) All of the above.
+
+## Fill in the Blanks
+
+**1. A _____ is a type of software application used to create and edit text documents.**
+(Answer: word processor)
+
+**2. Microsoft Word is a _____ program that allows users to create various documents.**
+(Answer: word-processing)
+
+**3. The _____ bar provides a customizable list of frequently used commands in Word.**
+(Answer: Quick Access)
+
+**4. You can use the _____ and _____ rulers to adjust formatting elements in your document.**
+(Answer: horizontal, vertical)
+
+**5. The _____ bar displays information about the current state of your document, such as page number and word count.**
+(Answer: status)
+
+**6. To create a new blank document, you can click the _____ tab and select "New."**
+(Answer: File)
+
+**7. Saving a document with a different name or location is done through the _____ command.**
+(Answer: Save As)
+
+**8. The _____ view displays the document as it will appear when printed.**
+(Answer: Print Layout)
+
+**. Holding down the _____ key allows you to select multiple non-consecutive files in the Open dialog box.**
+(Answer: Ctrl) 
+
+
+
+## Exercises
+
+## Review Questions
+
+- What is a word processor?
+- List some examples of documents you can create using Microsoft Word.
+- Briefly describe the purpose of Microsoft Word.
+- What is the Ribbon and how does it organize commands?
+Identify the functions of the following elements in the Word interface:
+  - Quick Access Toolbar
+  - Rulers
+  - Title bar
+  - Scroll bars
+  - Status bar
+- Describe the steps involved in creating a new blank document in Word.
+- How can you save a document using the keyboard shortcut?
+- Explain the difference between "Save" and "Save As" commands.
+- Explain the difference between closing a file and exiting Word.
+- What are different document views available in Word?
+- Briefly describe the purpose and features of each document view:
+  - Focus
+  - Print Layout
+  - Read Mode
+  - Web Layout
+
+
+
+## References and Bibliography
