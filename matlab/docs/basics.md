@@ -191,12 +191,6 @@ lookfor
 3. [ ] Deletes all files in the current directory
 4. [ ] Exits MATLAB session
 
-> What does the "doc" command do in MATLAB?
-1. [ ] Displays the content of a variable
-2. [ ] Opens the MATLAB documentation browser with the specified topic
-3. [ ] Clears the current command window
-4. [ ] Executes a predefined MATLAB script
-
 ## Fill in the Blanks
 
 - The keyword ________ displays all currently defined variables in the workspace. (who)
