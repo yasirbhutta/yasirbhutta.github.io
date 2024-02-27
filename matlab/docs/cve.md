@@ -110,9 +110,6 @@ Remember, choosing the appropriate method depends on your specific needs and the
 
 ## constants and Variables
 
-
-
-
 ## Operators
 
 ### Arithmetic Operators
