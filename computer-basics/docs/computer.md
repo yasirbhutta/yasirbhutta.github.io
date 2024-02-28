@@ -16,11 +16,11 @@
 
 ### What is a Computer?
 
-> A computer is a programmable device for processing, storing, and displaying information. [^1]
+> A computer is a programmable device for processing, storing, and displaying information. [1]
 
 or
 
-> Computer is an electronic device for storing and analyzing information fed into it, for calculation, or for controlling machinery automatically (Oxford Dictionary)
+> An electronic machine that can store, organize and find information, do processes with numbers and other data, and control other machines [Oxford Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/computer)
 
 ![Personal computer system](https://cdn.britannica.com/61/74061-004-9EAD20C7/computer-peripherals-images-laser-printer-inkjet-layout.jpg?s=1500x700&q=85)
 
@@ -39,7 +39,7 @@ Computers are used in almost every field of human activity today. Some of the mo
 
 ### Data and Information
 
-Computer process data (input)into information (output) and often store the data and resulting information for further use
+Computer process data (input) into information (output) and often store the data and resulting information for further use.
 
 #### What is a Data?
 
@@ -53,7 +53,7 @@ Computer process data (input)into information (output) and often store the data 
 
 #### What is a Process?
 
-- the computation done on the data to generate result is called Process. It could be any arithmetic  or logical operation done on the data.
+- The computation done on the data to generate result is called Process. It could be any arithmetic  or logical operation done on the data.
 
 **Examples:**
 
@@ -65,7 +65,7 @@ Computer process data (input)into information (output) and often store the data 
 #### What is Information?
 
 - Information is defined as classified or organized data that has some `meaningful` value for the user.
-- Information is also the `processed data` used to make decisions and take action. [^3]
+- Information is also the `processed data` used to make decisions and take action. [3]
   
 ### How The Computer Process?
 
@@ -156,6 +156,7 @@ Here are some examples of commands and programs:
 
 ### References
 
-[^1] [Computer - Encyclopedia Britannica](https://www.britannica.com/technology/computer)
-[^2] [http://en.wikipedia.org/wiki/Computer](http://en.wikipedia.org/wiki/Computer)
-[^3] [What Is Data: Types of Data, and How to Analyze Data? - Simplilearn](https://www.simplilearn.com/what-is-data-article)
+[1]D. Hemmendinger, “computer | History, Networking, Operating Systems, & Facts,” Encyclopædia Britannica. Dec. 28, 2023. Available: https://www.britannica.com/technology/computer
+[2]“Computer,” Wikipedia, May 17, 2021. http://en.wikipedia.org/wiki/Computer
+[3]Simplilearn, “What is Data: Types of Data, and How To Analyze Data?,” Simplilearn.com, Mar. 03, 2020. <https://www.simplilearn.com/what-is-data-article>
+‌
