@@ -10,28 +10,21 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 
 ## Word Processor
 
-- Word processor is a type of application software that used to create all kinds of text documents.
+- A word processor is a software application used for creating, editing, formatting, and printing text documents.
   
 ## Advantages of Word Processor Over Typewriter
 
-- A document can be changed without retyping the entire document.
-- If there is a typing mistake, it can be corrected easily.
-- It is easy to insert word, sentence or paragraph in the middle of a document.
-- The text can be duplicated easily without type it again.
-- A document can be save for future use.
+- A document can be `changed without retyping` the entire document.
+- If there is a typing mistake, it can be `corrected easily`.
+- It is easy to `insert word, sentence or paragraph` in the middle of a document.
+- The text can be `duplicated` easily without type it again.
+- A document can be `save` for future use.
 
 ## Microsoft Word
 
-- Microsoft Word is a word-processing program that provides the facilities for documentation.
+- Microsoft Word is a widely used word processor developed by Microsoft. 
+- It's part of the Microsoft Office suite.
 - It can be used to create and type letters, reports, newsletters, brochures etc.
-
-**Use of MS Word for Office Work:**
-
-- Preparing Letter
-- Building Reports
-- Resumes
-- Preparing Calendar
-- Meeting Agendas
 
 ## PARTS OF WORD INTERFACE
 
@@ -44,6 +37,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - Document View
 - Zoom Slide
 - Working Area
+
+![Word Interface](https://media.gcflearnfree.org/content/5690213b4ba91213b0054eb9_01_08_2016/start_interface_background.png)
+Image by: [gcflearnfree.org](https://edu.gcfglobal.org/en/word2016/getting-started-with-word/1/)
 
 **Ribbon:**
 
@@ -137,7 +133,7 @@ F12
 ### Save AutoRecover information automatically Word, Excel, or PowerPoint
 
 - Click **File** and then click Program Name Options **(Word Options)**.
-- Click Save.
+- Click `Save`.
 - Select the Save AutoRecover information every check box.
 - In the minutes box, type or select a number to determine how often you want to save files.
 
