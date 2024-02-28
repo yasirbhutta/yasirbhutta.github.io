@@ -2,7 +2,6 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-
 ## Data Types
 
 ## Data Types in MATLAB
@@ -38,12 +37,36 @@ In MATLAB, data types define the kind of information a variable can store and th
 
 **2. Character and String Data Types:**
     * **Character:**
-        - Stores a single character as a numeric code corresponding to its position in the Unicode character set.
-        - Used for representing individual characters like letters, numbers, and symbols.
+        - Type: char
+        - A character array is a sequence of individual characters stored one after another in memory. Each character takes 2 bytes of storage, typically representing a single letter, number, or symbol.
+        - **Use Cases:**
+          - Used for storing short pieces of text where individual characters matter, such as filenames, captions, or labels.
+          - Useful for manipulating individual characters within the array using indexing and string functions.
     * **String:**
-        - An array of characters, allowing you to represent groups of characters as text.
-        - Used for storing and manipulating textual data like words, sentences, or paragraphs.
+        - Type: string
+        - A string array is a container that holds text data with additional features and functionalities. Internally, it uses a more complex structure than char arrays, leading to a slightly larger memory footprint.
+        - Used for storing and manipulating textual data like words, sentences, or paragraphs. 
+        - **Use Cases:**
+          - Used for storing text data in a more versatile way.
+          - Offers built-in functions for various string operations like concatenation, searching, and comparison.
+          - Can hold text of any length without requiring padding or pre-allocation.
 
+**Example #:** Creating char and string
+
+```matlab
+% char array
+myChar = 'Hello';
+
+% string
+myString = "Hello World!";
+```
+
+**Example #:** Accessing elements
+
+```matlab
+% Accessing first character of char array (individual character)
+firstChar = myChar(1);
+```
 **3. Logical Data Type:**
     * Represents logical values, either `true` or `false`.
     * Used for conditional statements and Boolean operations.
@@ -81,12 +104,12 @@ The output will show columns like "Name," "Size," and "Class," allowing you to c
 
 **3. `isa` function:**
 
-This function allows you to check if a variable belongs to a specific data type. It returns `true` if the variable is of the specified type and `false` otherwise.
+This function allows you to check if a variable belongs to a specific data type. It returns `1` if the variable is of the specified type and `0` otherwise.
 
 ```matlab
 number = 10;
-is_integer = isa(number, 'int32');
-disp(is_integer); % Output: true
+is_integer = isa(number, 'double');
+disp(is_integer); % Output: 1
 ```
 
 **4. Built-in functions for specific types:**
@@ -94,9 +117,9 @@ disp(is_integer); % Output: true
 Certain data types have dedicated functions that return information about them. For example, `ischar` checks for characters, `isfloat` checks for floating-point numbers, and `islogical` checks for logical values.
 
 ```matlab
-text = "This is a string";
-is_char = ischar(text);
-disp(is_char); % Output: true
+myChar = 'This is a string';
+is_char = ischar(myChar);
+disp(is_char); % Output: 1
 ```
 
 **Choosing the best method:**
@@ -107,6 +130,63 @@ disp(is_char); % Output: true
 * **Specific type functions** are helpful when working with particular data types and need additional information beyond just the basic class.
 
 Remember, choosing the appropriate method depends on your specific needs and the context of your code.
+
+## Type Conversion
+
+Some common MATLAB functions used to change data types:
+
+**1. `cast`:** This is the most versatile function for converting data between various numeric types. It takes two arguments:
+
+* **The data to be converted:** This can be any variable or expression that evaluates to a numerical value.
+* **The desired data type:** Specify the new data type using a string like 'double', 'int32', 'single', etc.
+
+```matlab
+% Convert a double to an integer
+convertedInt = cast(12.34, 'int32');
+
+% Convert a string to a double
+convertedDouble = cast('3.14', 'double');
+```
+
+**2. `str2num`:** This function converts a string containing numeric characters to a numeric array. It automatically handles things like decimal points and scientific notation.
+
+```matlab
+myString = '100,000';
+convertedNumber = str2num(myString);  % Converts to a double
+```
+
+**3. `str2double`:** This function is similar to `str2num` but specifically converts a string to a double-precision floating-point number.
+
+```matlab
+myString = '3.14159';
+convertedDouble = str2double(myString);
+```
+
+**4. `num2str`:** This function converts a numeric value to a string representation. You can optionally specify the format of the string using format specifiers.
+
+```matlab
+number = 12345.678;
+convertedString = num2str(number);  % Default format
+
+% Convert with two decimal places
+formattedString = num2str(number, '%0.2f');
+```
+
+**5. `logical`:** This function converts any value to a logical type (true or false).
+
+```matlab
+value = 0;
+convertedLogical = logical(value);  % False
+
+value = -5;
+convertedLogical = logical(value);  % True
+```
+
+**Additional points:**
+
+* These functions might not always be successful, especially when converting between incompatible data types. 
+* Always check the documentation for each function to understand its limitations and potential errors.
+* Consider using `is*` functions like `isnumeric` or `ischar` to check the data type before conversion to avoid errors.
 
 ## constants and Variables
 
