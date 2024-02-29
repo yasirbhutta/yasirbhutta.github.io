@@ -7,6 +7,20 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   
 ## What is Canva and why is it useful?
 
+**Canva** is a versatile graphic design platform that empowers users to create professional visual content without requiring extensive graphic design skills.[1] Here's why it's useful:
+
+1. **Easy-to-Use Interface**: Canva's drag-and-drop interface simplifies the design process. You can customize thousands of templates effortlessly, making it accessible even for beginners.
+
+2. **Wide Range of Templates**: Canva provides pre-designed templates for various purposes, such as social media posts, invitations, business cards, posters, websites, and multimedia presentations. These templates serve as a starting point for your designs.
+
+3. **Royalty-Free Assets**: Canva offers an extensive library of royalty-free photos, videos, and audio files. You can easily incorporate these assets into your projects without worrying about copyright issues.
+
+4. **Magic Studio AI Tools**: Canva's AI-powered tools, known as the "Magic Studio," allow you to generate new content or edit existing designs creatively. These features enhance your design possibilities.
+
+5. **Customization Controls**: You can adjust typefaces, colors, and other design elements within Canva. It also enables you to create custom templates tailored to your specific needs.
+
+6. **Affordability**: Unlike complex professional tools like Adobe Photoshop or Illustrator, Canva has a gentle learning curve and is significantly more affordable. You can start using Canva for free or opt for a paid plan starting at just $14.99 per month.
+
 ## Canva APP interface
 
 ## Designing basics
@@ -179,3 +193,6 @@ By exploring these features and experimenting with different options, you can el
 ## Review Questions
 
 ## References and Bibliography
+
+[1]“Getting started with Canva,” www.canva.com. https://www.canva.com/learn/how-to-canva-beginners-guide/ (accessed Feb. 29, 2024).
+‌
