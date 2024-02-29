@@ -1,4 +1,6 @@
-## Canva Assignment: Create a YouTube Thumbnail!
+# Canva Assignment: Create a YouTube Thumbnail!
+
+- [Download PDF](assign1.pdf)
 
 **Objective:** Design a YouTube thumbnail using a Canva template, following best practices for clarity and appeal.
 
