@@ -75,9 +75,101 @@ By exploring these features and experimenting with different options, you can el
 
 ## True/False (Mark T for True and F for False)
 
+1. Canva offers a free plan with access to all design features. 
+2. Using the "Lock" feature prevents you from accidentally selecting or editing an element.
+
+**Answer Key (True/False):**
+
+1. False
+2. True
+
 ## Multiple Choice (Select the best answer)
 
+> What is the primary focus of Canva?
+
+1. [ ] Project management
+2. [ ] Graphic design
+3. [ ] Web development
+4. [ ] Coding
+
+> Canva offers a free plan. Is it true?
+
+1. [ ] No, Canva only has a paid subscription.
+2. [ ] Yes, a free plan with limited features is available.
+3. [ ] All features are free, but there is a usage limit.
+4. [ ] You need to pay after a 30-day trial.
+
+> What is a benefit of using Canva templates?
+
+1. [ ] They are all free, even for commercial use.
+2. [ ] They require specific design skills to modify.
+3. [ ] They provide a starting point and can save time.
+4. [ ] Only professional designers can use them.
+
+> Which of the following CANNOT be done to text in Canva?
+
+1. [ ] Change the font
+2. [ ] Adjust the line spacing
+3. [ ] Add a gradient effect
+4. [ ] Rotate the text
+
+> Which tool in Canva allows you to change the alignment of text (left, center, right)?
+
+1. [ ] Text size slider
+2. [ ] Font family dropdown
+3. [ ] Text alignment icon (three horizontal lines)
+4. [ ] Color picker
+
+> What is the purpose of the "Line spacing" option in Canva?
+
+1. [ ] To change the font color
+2. [ ] To adjust the space between lines of text
+3. [ ] To underline the text
+4. [ ] To increase the text width
+
+ > What tool in Canva allows you to change the font style (bold, italic, underline)? [Mobile App]
+
+1. [ ] Color picker
+2. [ ] Text box outline settings
+3. [ ] Format options panel
+4. [ ] Layer control panel
+
+> How can you increase the line spacing between paragraphs in Canva?
+
+1. [ ] Use the "Decrease Indent" option
+2. [ ] Click and drag the space between paragraphs
+3. [ ] Change the font family
+4. [ ] Adjust the "Line spacing" setting
+
+> What does the "Nudge" feature in Canva allow you to do?
+
+1. [ ] Change the color of an element
+2. [ ] Resize an element by dragging its corners
+3. [ ] Move an element precisely by small increments
+4. [ ] Duplicate an element onto the design
+
+> Which option in Canva allows you to set the exact position of an element using numerical values?
+
+1. [ ] The "Align" menu
+2. [ ] The "Position" property panel
+3. [ ] The "Layer" control panel
+4. [ ] The "Effects" tab
+
+> When creating a social media post in Canva, which animation technique is most effective to grab attention?
+
+1. [ ] Subtle text fade-in
+2. [x] Bold element zoom-in
+3. [ ] Complex element rotation
+4. [ ] Gradual background color change
+
 ## Fill in the Blanks
+
+1. To change the font size in Canva, you can use the _____________ slider.
+
+
+**Answer Key:**
+
+1. Text size
 
 ## Exercises
 

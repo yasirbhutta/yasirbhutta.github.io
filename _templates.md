@@ -38,9 +38,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## True/False (Mark T for True and F for False)
 
+**Answer Key (True/False):**
+
 ## Multiple Choice (Select the best answer)
 
 ## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
 
 ## Exercises
 
