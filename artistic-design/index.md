@@ -1,7 +1,7 @@
 
 # Artistic Design and Computer Graphics
 
-[Canva](../canva/index.md)
+[Getting started with Canva](../canva/index.md)
 
 ## Assignments
 
