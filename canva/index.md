@@ -166,8 +166,7 @@ By exploring these features and experimenting with different options, you can el
 
 1. To change the font size in Canva, you can use the _____________ slider.
 
-
-**Answer Key:**
+**Answer Key (Fill in the Blanks):**
 
 1. Text size
 
