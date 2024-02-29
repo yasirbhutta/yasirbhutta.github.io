@@ -85,6 +85,30 @@ Canva offers a variety of text formatting features to help you create visually a
 
 By exploring these features and experimenting with different options, you can elevate your text presentation in your Canva designs and create impactful visuals that stand out.
 
+## Elements in Canva
+
+## Image Features
+
+**Add Image:**
+**Replace:**
+**Style:**
+**Effects:**
+**Filters:**
+**Adjust:**
+**Crop:**
+**Flip:**
+**Animate:**
+**Set image as Background:**
+**Delete Background:**
+
+## Manages Pages
+
+**Add page:**
+**Duplicate:**
+**Delete:**
+
+
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
@@ -194,5 +218,5 @@ By exploring these features and experimenting with different options, you can el
 
 ## References and Bibliography
 
-[1]“Getting started with Canva,” www.canva.com. https://www.canva.com/learn/how-to-canva-beginners-guide/ (accessed Feb. 29, 2024).
+[1]“Getting started with Canva,” www.canva.com. [https://www.canva.com/learn/how-to-canva-beginners-guide/](https://www.canva.com/learn/how-to-canva-beginners-guide/) (accessed Feb. 29, 2024).
 ‌
