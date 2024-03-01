@@ -38,7 +38,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - Zoom Slide
 - Working Area
 
-[Video: Word: Getting Started](https://www.youtube.com/watch?v=j-ZAVHk5SaU)
+[Video: Getting Started - word](https://www.youtube.com/watch?v=j-ZAVHk5SaU)
 
 ![Word Interface](https://media.gcflearnfree.org/content/5690213b4ba91213b0054eb9_01_08_2016/start_interface_background.png)
 Image by: [gcflearnfree.org](https://edu.gcfglobal.org/en/word2016/getting-started-with-word/1/)
@@ -90,6 +90,8 @@ Microsoft Word uses scroll bars to navigate through documents that extend beyond
 - Show total pages, words and paragraphs of document
 
 ### Create New File (Word, Excel, or PowerPoint)
+
+[video: Creating and Opening Documents - word](https://youtu.be/PafCMUVH_OA?feature=shared)
 
 - Click the **File tab**.
 - Click **New**.
