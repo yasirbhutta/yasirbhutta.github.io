@@ -23,7 +23,39 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Canva APP interface
 
+## 01. Opening Canva for the first time [video](https://www.canva.com/designschool/courses/canva-101/?lesson=opening-canva-for-the-first-time)
+
+**Key learnings:**
+- Welcome and introduction
+- Canva is made for you
+- The first page you’ll see whenever you sign into Canva
+- The different menus on the home page
+
+## 02. Using and customizing templates [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-customizing-templates)
+
+**Key learnings:**
+- How beginning with a template is easier
+- How the interface changes when you enter a template
+- How to edit templates and make them your own 
+- Organizing pages
+
+## 03. Using search and personalizing the editor [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-search-and-personalizing-the-editor)
+
+## 04. Uploading and using photos
+
+## 05. Using and editing elements
+
+## 06. Finding fonts and using text
+
+## 07. Uploading and editing video and audio
+
+## 08. Sharing and collaborating on designs
+
+## 09. Saving and organizing documents
+
+
 ## Designing basics
+
 
 Choosing templates and layouts
 Adding text and fonts
@@ -218,5 +250,5 @@ By exploring these features and experimenting with different options, you can el
 
 ## References and Bibliography
 
-[1]“Getting started with Canva,” www.canva.com. [https://www.canva.com/learn/how-to-canva-beginners-guide/](https://www.canva.com/learn/how-to-canva-beginners-guide/) (accessed Feb. 29, 2024).
+[1]“Training: Canva for Beginners,” www.canva.com. [https://www.canva.com/designschool/courses/canva-101/](https://www.canva.com/designschool/courses/canva-101/) (accessed Feb. 29, 2024).
 ‌
