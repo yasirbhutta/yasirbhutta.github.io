@@ -182,7 +182,7 @@ By exploring these features and experimenting with different options, you can el
 
 ## Elements in Canva
 
-## Image Features
+## Image Editing
 
 **Add Image:**
 **Replace:**

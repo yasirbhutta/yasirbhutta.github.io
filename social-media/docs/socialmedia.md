@@ -6,11 +6,24 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/social-media/docs/linkedin.pdf](https://yasirbhutta.github.io/social-media/docs/linkedin.pdf)
 
-## Get You Started
+
+## What is Social media
+
+- Social media refers to online platforms and apps that allow users to connect with each other, share information and ideas, and build communities. 
+
+Here are some examples of popular social media platforms:
+
+**Social networking:** Facebook, Instagram, Twitter, LinkedIn
+**Media sharing:** YouTube, TikTok, Pinterest
+**Messaging:** WhatsApp, Telegram
+
+## LinkedIn
+
+### Get You Started
 
 LinkedIn is a powerful tool for students, offering a platform to build your professional network, showcase your skills and achievements, and explore career opportunities. But navigating this professional social media platform can be daunting at first. These handouts will guide you through the basics of creating a strong LinkedIn profile, networking effectively, and landing your dream internship or job.
 
-## Building Your Profile
+### Building Your Profile
 
 **Headline:** This is your first impression, so make it count! Craft a clear and concise headline that summarizes your skills and goals. (e.g., "Marketing Student | Passionate about social media and branding" or "Computer Science Major | Seeking web development internship")
 **Profile Picture:** Use a professional headshot that shows your face clearly. Avoid selfies, group shots, or inappropriate images.
@@ -25,7 +38,7 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 - [Sign up to join LinkedIn](https://www.linkedin.com/help/linkedin/answer/a1338223/signing-up-to-join-linkedin)
 - [Sign in and out of your account](https://www.linkedin.com/help/linkedin/answer/a1335211)
   
-## Networking Like a Pro
+### Networking Like a Pro
 
 **Connect with people you know:** Start by adding classmates, professors, family members, and friends.
 **Join relevant groups:** Find groups related to your interests, industry, or school. This is a great way to connect with professionals and learn about career opportunities.
@@ -33,7 +46,7 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 **Reach out to professionals:** Don't be afraid to connect with people you don't know but admire. Send a personalized message introducing yourself and explaining your interest in their work.
 **Participate in online events:** Attend webinars, workshops, and conferences hosted by LinkedIn or other professional organizations.
 
-## Job Hunting on LinkedIn
+### Job Hunting on LinkedIn
 
 **Use the advanced search function:** Filter your search by job title, company, location, and other criteria to find relevant opportunities.
 **Apply directly through LinkedIn:** Many companies allow you to apply for jobs directly on their LinkedIn pages.
@@ -46,6 +59,6 @@ LinkedIn is a powerful tool for students, offering a platform to build your prof
 - [Find Pakistan Jobs, Internships, Jobs Near Me](https://pk.linkedin.com/jobs)
 - [How to Get a Job Through LinkedIn: The Complete Guide 2024](https://www.linkedin.com/pulse/how-get-job-through-linkedin-complete-guide-deep-kumar/)
 
-## Assignments 
+### Assignments 
 
 - [LinkedIn Assignment: Building Your Professional Network](../assignments/linkedin-assign1.md)

@@ -91,7 +91,7 @@ Microsoft Word uses scroll bars to navigate through documents that extend beyond
 
 ### Create New File (Word, Excel, or PowerPoint)
 
-[video: Creating and Opening Documents - word](https://youtu.be/PafCMUVH_OA?feature=shared)
+[video: Create a new Word document \| Microsoft](https://youtu.be/TTAkyQfuIk8?feature=shared)
 
 - Click the **File tab**.
 - Click **New**.
@@ -104,6 +104,10 @@ Microsoft Word uses scroll bars to navigate through documents that extend beyond
 - Under **Available Templates**, do one of the following:
   - Click **Sample Templates** to select a template that is available on your computer.
 - Double-click the template that you want.
+
+**See also:**
+
+- [video: How to use the resume template in Word \| Microsoft](https://youtu.be/gvyUZ6LoLzE?feature=shared)
 
 ### Saving a file
 
