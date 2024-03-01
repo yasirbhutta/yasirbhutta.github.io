@@ -23,7 +23,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Canva APP interface
 
-## 01. Opening Canva for the first time [video](https://www.canva.com/designschool/courses/canva-101/?lesson=opening-canva-for-the-first-time)
+## 01. Opening Canva for the first time [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=opening-canva-for-the-first-time)
 
 **Key learnings:**
 - Welcome and introduction
@@ -41,21 +41,79 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## 03. Using search and personalizing the editor [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-search-and-personalizing-the-editor)
 
-## 04. Uploading and using photos
+**Key learnings:**
+- Canva is big – use search.
+- Searching from the home page
+- Searching within the editor
+- Advanced search and filters
+- Tab personalization
 
-## 05. Using and editing elements
+## 04. Uploading and using photos [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=uploading-and-using-photos)
 
-## 06. Finding fonts and using text
+**Key learnings:**
+- Using your own imagery
+- Creating a design from ‘Edit Photo’
+- Uploading your own images
+- Photo editing and effects
+- Downloading and sharing
 
-## 07. Uploading and editing video and audio
+## 05. Using and editing elements [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
 
-## 08. Sharing and collaborating on designs
+**Key learnings:**
+What’s in the Elements tab?
+Lines
+Shapes
+Graphics
+Charts
+Frames
+Grids
 
-## 09. Saving and organizing documents
+## 06. Finding fonts and using text [video](https://www.canva.com/designschool/courses/canva-101/?lesson=finding-fonts-and-using-text)
 
+**Key learnings:**
 
+- Adding text to a page
+- Finding and searching fonts
+- Basic text styling
+- Using text and style tabs
+- Experimenting with text effects
+
+## 07. Uploading and editing video and audio [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=uploading-and-using-photos)
+
+**Key learnings:**
+Using your own imagery
+Creating a design from ‘Edit Photo’
+Uploading your own images
+Photo editing and effects
+Downloading and sharing
+
+## 08. Sharing and collaborating on designs [video](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
+
+**Key learnings:**
+- Inviting others to collaborate on designs
+- Assigning permissions for edit or view access
+- Adding comments and assigning tasks
+- Sharing links
+
+## 09. Saving and organizing documents [video](https://www.canva.com/designschool/courses/canva-101/?lesson=saving-and-organizing-documents)
+
+**Key learnings:**
+- Who can access my designs?
+- Saving to a folder
+- Creating, rearranging and deleting - folders
+- Sorting and starring folders
+- Team page
+- Saving as template (Pro only)
+
+## 10. What’s next? [video](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
+
+**Key learnings:**
+- Where can I get more help?
+- I want to study more! 
+- What is Design Circle and how can I use it?
+- Canva Space sounds interesting, what is it?
+  
 ## Designing basics
-
 
 Choosing templates and layouts
 Adding text and fonts
