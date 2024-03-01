@@ -105,6 +105,13 @@ Downloading and sharing
 - Team page
 - Saving as template (Pro only)
 
+## Magic Studio
+
+**Key learnings:**
+- Text to Image
+
+
+
 ## 10. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 
 **Key learnings:**
