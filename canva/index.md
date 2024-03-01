@@ -110,8 +110,6 @@ Downloading and sharing
 **Key learnings:**
 - Text to Image
 
-
-
 ## 10. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 
 **Key learnings:**
