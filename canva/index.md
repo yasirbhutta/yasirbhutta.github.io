@@ -31,7 +31,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - The first page you’ll see whenever you sign into Canva
 - The different menus on the home page
 
-## 02. Using and customizing templates [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-customizing-templates)
+## 02. Using and customizing templates [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-customizing-templates)
 
 **Key learnings:**
 - How beginning with a template is easier
@@ -39,7 +39,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - How to edit templates and make them your own 
 - Organizing pages
 
-## 03. Using search and personalizing the editor [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-search-and-personalizing-the-editor)
+## 03. Using search and personalizing the editor [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-search-and-personalizing-the-editor)
 
 **Key learnings:**
 - Canva is big – use search.
@@ -57,18 +57,18 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Photo editing and effects
 - Downloading and sharing
 
-## 05. Using and editing elements [video](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
+## 05. Using and editing elements [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
 
 **Key learnings:**
-What’s in the Elements tab?
-Lines
-Shapes
-Graphics
-Charts
-Frames
-Grids
+- What’s in the Elements tab?
+- Lines
+- Shapes
+- Graphics
+- Charts
+- Frames
+- Grids
 
-## 06. Finding fonts and using text [video](https://www.canva.com/designschool/courses/canva-101/?lesson=finding-fonts-and-using-text)
+## 06. Finding fonts and using text [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=finding-fonts-and-using-text)
 
 **Key learnings:**
 
@@ -87,7 +87,7 @@ Uploading your own images
 Photo editing and effects
 Downloading and sharing
 
-## 08. Sharing and collaborating on designs [video](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
+## 08. Sharing and collaborating on designs [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
 
 **Key learnings:**
 - Inviting others to collaborate on designs
@@ -95,7 +95,7 @@ Downloading and sharing
 - Adding comments and assigning tasks
 - Sharing links
 
-## 09. Saving and organizing documents [video](https://www.canva.com/designschool/courses/canva-101/?lesson=saving-and-organizing-documents)
+## 09. Saving and organizing documents [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=saving-and-organizing-documents)
 
 **Key learnings:**
 - Who can access my designs?
@@ -105,7 +105,7 @@ Downloading and sharing
 - Team page
 - Saving as template (Pro only)
 
-## 10. What’s next? [video](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
+## 10. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 
 **Key learnings:**
 - Where can I get more help?
