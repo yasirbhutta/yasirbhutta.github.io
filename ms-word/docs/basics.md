@@ -272,43 +272,46 @@ OR
 
 ## True/False (Mark T for True and F for False)
 
-**1. A typewriter offers greater editing flexibility compared to a word processor.** (False)
+1. A typewriter offers greater editing flexibility compared to a word processor.
+2. Microsoft Word is primarily used for creating presentations.
+3. The Ribbon in Word replaces the traditional menu bar and toolbars.
+4. You can only save a document once in Microsoft Word.
+5. Double-clicking a Word file is the only way to open it.
+6. Print Layout view hides formatting elements like headers and footers.
+7. Holding down the Shift key allows you to select a range of consecutive files in the Open dialog box.
 
-**2. Microsoft Word is primarily used for creating presentations.** (False)
+**Answer Key (True/False):**
 
-**3. The Ribbon in Word replaces the traditional menu bar and toolbars.** (True)
-
-**4. You can only save a document once in Microsoft Word.** (False)
-
-**5. Double-clicking a Word file is the only way to open it.** (False)
-
-**6. Print Layout view hides formatting elements like headers and footers.** (False)
-
-**10. Holding down the Shift key allows you to select a range of consecutive files in the Open dialog box.** (True)
-
-
+1. False.
+2. False.
+3. True.
+4. False
+5. False
+6. False
+7. True
+   
 ## Multiple Choice (Select the best answer)
 
-> Which of the following is NOT an advantage of a word processor compared to a typewriter?
+**1. Which of the following is NOT an advantage of a word processor compared to a typewriter?**
 
- 1. [ ] Edit documents without retyping the entire thing
- 2. [ ] Insert images, sounds, and charts into documents
- 3. [ ] Save documents for future use
- 4. [ ] All of the above
+1. [ ] Edit documents without retyping the entire thing
+2. [ ] Insert images, sounds, and charts into documents
+3. [ ] Save documents for future use
+4. [ ] All of the above
 
- > What is the MAIN purpose of Microsoft Word?
+> What is the MAIN purpose of Microsoft Word?
 
- 1. [ ] To create presentations
- 2. [ ] To browse the internet
- 3. [ ] To manage email
- 4. [ ] To create and edit text documents
+1. [ ] To create presentations
+2. [ ] To browse the internet
+3. [ ] To manage email
+4. [ ] To create and edit text documents
 
 > What keyboard shortcut can be used to save a document?
 
- 1. [ ] Ctrl+P
- 2. [ ] Ctrl+S
- 3. [ ] Ctrl+O
- 4. [ ] Ctrl+F
+1. [ ] Ctrl+P
+2. [ ] Ctrl+S
+3. [ ] Ctrl+O
+4. [ ] Ctrl+F
 
 > What is the difference between "Save" and "Save As" commands?
 
@@ -347,32 +350,27 @@ OR
 
 ## Fill in the Blanks
 
-**1. A _____ is a type of software application used to create and edit text documents.**
-(Answer: word processor)
+1. A _____ is a type of software application used to create and edit text documents.
+2. Microsoft Word is a _____ program that allows users to create various documents.
+3. The _____ bar provides a customizable list of frequently used commands in Word.
+4. You can use the _____ and _____ rulers to adjust formatting elements in your document.
+5. The _____ bar displays information about the current state of your document, such as page number and word count.
+6. To create a new blank document, you can click the _____ tab and select "New."
+7. Saving a document with a different name or location is done through the _____ command.
+8. The _____ view displays the document as it will appear when printed.
+9. Holding down the _____ key allows you to select multiple non-consecutive files in the Open dialog box.
+ 
+**Answer Key (Fill in the Blanks):**
 
-**2. Microsoft Word is a _____ program that allows users to create various documents.**
-(Answer: word-processing)
-
-**3. The _____ bar provides a customizable list of frequently used commands in Word.**
-(Answer: Quick Access)
-
-**4. You can use the _____ and _____ rulers to adjust formatting elements in your document.**
-(Answer: horizontal, vertical)
-
-**5. The _____ bar displays information about the current state of your document, such as page number and word count.**
-(Answer: status)
-
-**6. To create a new blank document, you can click the _____ tab and select "New."**
-(Answer: File)
-
-**7. Saving a document with a different name or location is done through the _____ command.**
-(Answer: Save As)
-
-**8. The _____ view displays the document as it will appear when printed.**
-(Answer: Print Layout)
-
-**. Holding down the _____ key allows you to select multiple non-consecutive files in the Open dialog box.**
-(Answer: Ctrl) 
+1. word processor
+2. word processor
+3. Quick Access
+4. horizontal, vertical
+5. status
+6. File
+7. Save As
+8. Print Layout
+9. Ctrl
 
 ## Exercises
 
