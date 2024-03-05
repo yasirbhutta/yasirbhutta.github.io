@@ -19,37 +19,37 @@ In MATLAB, data types define the kind of information a variable can store and th
   - **Representation:** Uses 32 bits for storage, offering faster calculations and less memory usage compared to double-precision.
   - **Type:** single
   - **Range:** Approximately `-3.4e+38` to `3.4e+38`.
-        - **Precision:** Provides 6-7 decimal digits of precision.
-        - **Applications:** Suitable when memory efficiency is a concern, and required precision is not as high as double-precision.
+    - **Precision:** Provides 6-7 decimal digits of precision.
+    - **Applications:** Suitable when memory efficiency is a concern, and required precision is not as high as double-precision.
 - **Integer data types:**
-        - **Storage:** Use a specific number of bits to store whole numbers (integers) without decimal points, offering efficient memory usage and speed for integer operations.
-        - **Types:**
-            - `int8`: Signed, 8-bit integer (-128 to 127)
-            - `uint8`: Unsigned, 8-bit integer (0 to 255)
-            - `int16`: Signed, 16-bit integer (-32768 to 32767)
-            - `uint16`: Unsigned, 16-bit integer (0 to 65535)
-            - `int32`: Signed, 32-bit integer (-2147483648 to 2147483647)
-            - `uint32`: Unsigned, 32-bit integer (0 to 4294967295)
-        - **Applications:** For representing and manipulating whole numbers, particularly when memory or speed is critical.
+  - **Storage:** Use a specific number of bits to store whole numbers (integers) without decimal points, offering efficient memory usage and speed for integer operations.
+    - **Types:**
+      - `int8`: Signed, 8-bit integer (-128 to 127)
+      - `uint8`: Unsigned, 8-bit integer (0 to 255)
+      - `int16`: Signed, 16-bit integer (-32768 to 32767)
+      - `uint16`: Unsigned, 16-bit integer (0 to 65535)
+      - `int32`: Signed, 32-bit integer (-2147483648 to 2147483647)
+      - `uint32`: Unsigned, 32-bit integer (0 to 4294967295)
+  - **Applications:** For representing and manipulating whole numbers, particularly when memory or speed is critical.
 - **Complex numbers:**
-        - **Representation:** Combine real and imaginary parts, using double-precision floating-point elements for storage.
-        - **Applications:** Used in calculations involving complex mathematical concepts like electrical engineering, signal processing, and wave mechanics.
+  - **Representation:** Combine real and imaginary parts, using double-precision floating-point elements for storage.
+  - **Applications:** Used in calculations involving complex mathematical concepts like electrical engineering, signal processing, and wave mechanics.
 
 **2. Character and String Data Types:**
-    - **Character:**
-        - Type: char
-        - A character array is a sequence of individual characters stored one after another in memory. Each character takes 2 bytes of storage, typically representing a single letter, number, or symbol.
-        - **Use Cases:**
-          - Used for storing short pieces of text where individual characters matter, such as filenames, captions, or labels.
-          - Useful for manipulating individual characters within the array using indexing and string functions.
-    - **String:**
-        - Type: string
-        - A string array is a container that holds text data with additional features and functionalities. Internally, it uses a more complex structure than char arrays, leading to a slightly larger memory footprint.
-        - Used for storing and manipulating textual data like words, sentences, or paragraphs. 
-        - **Use Cases:**
-          - Used for storing text data in a more versatile way.
-          - Offers built-in functions for various string operations like concatenation, searching, and comparison.
-          - Can hold text of any length without requiring padding or pre-allocation.
+- **Character:**
+  - Type: char
+  - A character array is a sequence of individual characters stored one after another in memory. Each character takes 2 bytes of storage, typically representing a single letter, number, or symbol.
+  - **Use Cases:**
+    - Used for storing short pieces of text where individual characters matter, such as filenames, captions, or labels.
+    - Useful for manipulating individual characters within the array using indexing and string functions.
+  - **String:**
+    - Type: string
+    - A string array is a container that holds text data with additional features and functionalities. Internally, it uses a more complex structure than char arrays, leading to a slightly larger memory footprint.
+    - Used for storing and manipulating textual data like words, sentences, or paragraphs. 
+    - **Use Cases:**
+      - Used for storing text data in a more versatile way.
+      - Offers built-in functions for various string operations like concatenation, searching, and comparison.
+      - Can hold text of any length without requiring padding or pre-allocation.
 
 **Example #:** Creating char and string
 
@@ -68,9 +68,9 @@ myString = "Hello World!";
 firstChar = myChar(1);
 ```
 **3. Logical Data Type:**
-    * Represents logical values, either `true` or `false`.
-    * Used for conditional statements and Boolean operations.
-    * 
+- Represents logical values, either `true` or `false`.
+- Used for conditional statements and Boolean operations.
+
 **Choosing the Right Data Type:**
 
 Consider these factors when selecting a data type:
@@ -137,8 +137,8 @@ Some common MATLAB functions used to change data types:
 
 **1. `cast`:** This is the most versatile function for converting data between various numeric types. It takes two arguments:
 
-* **The data to be converted:** This can be any variable or expression that evaluates to a numerical value.
-* **The desired data type:** Specify the new data type using a string like 'double', 'int32', 'single', etc.
+- **The data to be converted:** This can be any variable or expression that evaluates to a numerical value.
+- **The desired data type:** Specify the new data type using a string like 'double', 'int32', 'single', etc.
 
 ```matlab
 % Convert a double to an integer
@@ -150,9 +150,9 @@ convertedDouble = cast('3.14', 'double');
 
 **Additional points:**
 
-* These functions might not always be successful, especially when converting between incompatible data types. 
-* Always check the documentation for each function to understand its limitations and potential errors.
-* Consider using `is*` functions like `isnumeric` or `ischar` to check the data type before conversion to avoid errors.
+- These functions might not always be successful, especially when converting between incompatible data types. 
+- Always check the documentation for each function to understand its limitations and potential errors.
+- Consider using `is*` functions like `isnumeric` or `ischar` to check the data type before conversion to avoid errors.
 
 ## constants and Variables
 
@@ -218,9 +218,7 @@ disp(z); % Output: 1
 **Example #2.2 from book** [2]
 **Example #2.3 from book** [2]
 
-### Relational Operators
-
-## Relational Operators in MATLAB (Beginner Level)
+### Relational Operators in MATLAB
 
 In MATLAB, relational operators help you compare values and create logical expressions that evaluate to either `true` (1) or `false` (0). These logical expressions are crucial for making decisions and controlling program flow in your code.
 
@@ -301,7 +299,6 @@ Relational operators are fundamental for various tasks in MATLAB:
 
 * Always enclose variable names and numerical values in single quotes when using them in strings. 
 * Use parentheses to group complex logical expressions for proper evaluation.
-
 
 
 ### Example: ``` Calculates the area of a rectangle
@@ -393,7 +390,32 @@ Finally, we use the `disp` function to display the result, which is the semiperi
 
 You can adjust the values of `a`, `b`, and `c` to calculate the semiperimeter of a different spherical triangle.
 
-### Example: Calculate the area of a triangle using Heron's formula:
+## BUILT-IN FUNCTIONS
+
+- In MATLAB, a built-in function is a pre-written piece of code that's included as part of the software itself. 
+- These functions perform various tasks and are essential for mathematical computations, data analysis, visualization, and more.
+
+Key points about built-in functions:
+
+- **Part of MATLAB executable:** Built-in functions are compiled directly into MATLAB and run very efficiently. You can't access or modify their source code.
+- **Wide range of functionality:** MATLAB offers a vast collection of built-in functions covering areas like:
+  - Mathematical operations (e.g., sine, cosine, addition, multiplication)
+  - Matrix manipulation (e.g., creating matrices, finding eigenvalues)
+  - Data analysis (e.g., sorting, filtering, statistics)
+  - Plotting and visualization (e.g., creating graphs, charts)
+  - File I/O (reading and writing data)
+- **Using built-in functions:**  Just type the function name followed by parentheses in the MATLAB command window. You can provide input arguments within the parentheses, and the function will perform the operation and return output.
+
+For instance, the `sin(pi/2)` function calculates the sine of pi/2 and returns the value (which is 1).
+
+**Finding out if a function is built-in:**
+
+- Use the `which` command followed by the function name. If it's built-in, it will return the location within MATLAB where the function is stored.
+- Even though you can't see the source code, MATLAB provides extensive documentation for built-in functions. This documentation explains what the function does, how to use it with different arguments, and what outputs it produces. You can access this documentation directly from the command window using the `help` command followed by the function name (e.g., `help sin`).
+
+**Example 2.4:** from book
+
+**Example:** Calculate the area of a triangle using Heron's formula:
 
 ```matlab
 % Define the lengths of the sides of the triangle
@@ -413,12 +435,11 @@ disp(A)
 
 In this example, we define the lengths of the sides of the triangle as `a=5`, `b=6`, and `c=7`. Then, we use the semiperimeter formula, which is `s = (a + b + c)/2`, to calculate the semiperimeter of the triangle. Finally, we use Heron's formula, which is `A = sqrt(s * (s - a) * (s - b) * (s - c))`, to calculate the area of the triangle.
 
-The `sqrt` function is the square root function in MATLAB. The `fprintf` function is used to display the result, which is the area of the triangle with two decimal places.
+The `sqrt` function is the square root function in MATLAB. The `disp` function is used to display the result, which is the area of the triangle with two decimal places.
 
 You can adjust the values of `a`, `b`, and `c` to calculate the area of a different triangle using Heron's formula.
 
-### 
-### Example: Finding the Roots of a Quadratic Equation
+**Example:** Finding the Roots of a Quadratic Equation
 
 ```matlab
 % Define the coefficients a, b, and c of the quadratic equation ax^2 + bx + c = 0
@@ -435,15 +456,57 @@ disp(x1);
 disp(x2);
 ```
 
-## factorial
-
-f = factorial(n) returns the product of all positive integers less than or equal to n, where n is a nonnegative integer value. If n is an array, then f contains the factorial of each value of n. The data type and size of f is the same as that of n.
-
-The factorial of n is commonly written in math notation using the exclamation point character as n!. Note that n! is not a valid MATLAB® syntax for calculating the factorial of n. [^1]
+## Key Terms
 
 ## True/False (Mark T for True and F for False)
 
+**Answer Key (True/False):**
+
 ## Multiple Choice (Select the best answer)
+
+What is the output of 5 / 2?
+a) 2.5
+b) 2 (integer division)
+c) Error (division by zero)
+d) Depends on variable types
+
+How do you calculate the remainder of a division in MATLAB?
+a) /
+b) mod
+c) rem
+d) floor
+
+Which operator raises a number to a power?
+a) *
+b) ^
+c) .
+d) floor
+
+What is the output of -3 ^ 2?
+a) -9
+b) 9
+c) Error (negative base)
+d) Depends on variable types
+
+Which relational operator returns TRUE if the operands are equal?
+
+a) > (greater than)
+b) < (less than)
+c) == (equal to)
+d) != (not equal to)
+
+What is the output of the following code? 5 ~= 7
+
+a) 0
+b) 1
+c) Error
+d) Depends on variable values
+
+
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
 
 ## Exercises
 
