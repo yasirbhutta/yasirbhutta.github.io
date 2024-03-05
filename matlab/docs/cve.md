@@ -9,19 +9,19 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 In MATLAB, data types define the kind of information a variable can store and the operations allowed on them. Choosing the correct data type is crucial for optimizing memory usage, calculation accuracy, and code efficiency. Here's a breakdown of the various data types available:
 
 **1. Numeric Data Types:**
-    * **Double-precision floating-point (default):**
-        - **Representation:** Uses 64 bits for storage, offering a balance between precision and memory usage.
-        - **Type:** double
-        - **Range:** Approximately `-1.7e+308` to `1.7e+308`.
-        - **Precision:** Generally provides 15-16 decimal digits of precision.
-        - **Applications:** Suitable for most general-purpose calculations due to its balanced characteristics.
-    * **Single-precision floating-point:**
-        - **Representation:** Uses 32 bits for storage, offering faster calculations and less memory usage compared to double-precision.
-        - **Type:** single
-        - **Range:** Approximately `-3.4e+38` to `3.4e+38`.
+- **Double-precision floating-point (default):**
+  - **Representation:** Uses 64 bits for storage, offering a balance between precision and memory usage.
+  - **Type:** double
+  - **Range:** Approximately `-1.7e+308` to `1.7e+308`.
+  - **Precision:** Generally provides 15-16 decimal digits of precision.
+  - **Applications:** Suitable for most general-purpose calculations due to its balanced characteristics.
+- **Single-precision floating-point:**
+  - **Representation:** Uses 32 bits for storage, offering faster calculations and less memory usage compared to double-precision.
+  - **Type:** single
+  - **Range:** Approximately `-3.4e+38` to `3.4e+38`.
         - **Precision:** Provides 6-7 decimal digits of precision.
         - **Applications:** Suitable when memory efficiency is a concern, and required precision is not as high as double-precision.
-    * **Integer data types:**
+- **Integer data types:**
         - **Storage:** Use a specific number of bits to store whole numbers (integers) without decimal points, offering efficient memory usage and speed for integer operations.
         - **Types:**
             - `int8`: Signed, 8-bit integer (-128 to 127)
@@ -31,18 +31,18 @@ In MATLAB, data types define the kind of information a variable can store and th
             - `int32`: Signed, 32-bit integer (-2147483648 to 2147483647)
             - `uint32`: Unsigned, 32-bit integer (0 to 4294967295)
         - **Applications:** For representing and manipulating whole numbers, particularly when memory or speed is critical.
-    * **Complex numbers:**
+- **Complex numbers:**
         - **Representation:** Combine real and imaginary parts, using double-precision floating-point elements for storage.
         - **Applications:** Used in calculations involving complex mathematical concepts like electrical engineering, signal processing, and wave mechanics.
 
 **2. Character and String Data Types:**
-    * **Character:**
+    - **Character:**
         - Type: char
         - A character array is a sequence of individual characters stored one after another in memory. Each character takes 2 bytes of storage, typically representing a single letter, number, or symbol.
         - **Use Cases:**
           - Used for storing short pieces of text where individual characters matter, such as filenames, captions, or labels.
           - Useful for manipulating individual characters within the array using indexing and string functions.
-    * **String:**
+    - **String:**
         - Type: string
         - A string array is a container that holds text data with additional features and functionalities. Internally, it uses a more complex structure than char arrays, leading to a slightly larger memory footprint.
         - Used for storing and manipulating textual data like words, sentences, or paragraphs. 
@@ -75,10 +75,10 @@ firstChar = myChar(1);
 
 Consider these factors when selecting a data type:
 
-* **Range of values:** Choose a type that can accommodate the minimum and maximum values you need.
-* **Required precision:** Select a type with sufficient precision to handle the level of accuracy needed.
-* **Memory constraints:** If memory is limited, consider using efficient data types like integers when appropriate.
-* **Functionality:** Choose the type that best suits the intended operations you'll perform on the data.
+- **Range of values:** Choose a type that can accommodate the minimum and maximum values you need.
+- **Required precision:** Select a type with sufficient precision to handle the level of accuracy needed.
+- **Memory constraints:** If memory is limited, consider using efficient data types like integers when appropriate.
+- **Functionality:** Choose the type that best suits the intended operations you'll perform on the data.
 
 In MATLAB, there are several ways to check the data type of a variable:
 
@@ -124,10 +124,10 @@ disp(is_char); % Output: 1
 
 **Choosing the best method:**
 
-* **`class` function** is the simplest and most versatile option for quickly determining the data type of a variable.
-* **`whos` command** is useful when you need to see a complete list of variables and their attributes, not just the data type.
-* **`isa` function** is beneficial for checking if a variable belongs to a specific type, often used in conditional statements.
-* **Specific type functions** are helpful when working with particular data types and need additional information beyond just the basic class.
+- **`class` function** is the simplest and most versatile option for quickly determining the data type of a variable.
+- **`whos` command** is useful when you need to see a complete list of variables and their attributes, not just the data type.
+- **`isa` function** is beneficial for checking if a variable belongs to a specific type, often used in conditional statements.
+- **Specific type functions** are helpful when working with particular data types and need additional information beyond just the basic class.
 
 Remember, choosing the appropriate method depends on your specific needs and the context of your code.
 
@@ -146,40 +146,6 @@ convertedInt = cast(12.34, 'int32');
 
 % Convert a string to a double
 convertedDouble = cast('3.14', 'double');
-```
-
-**2. `str2num`:** This function converts a string containing numeric characters to a numeric array. It automatically handles things like decimal points and scientific notation.
-
-```matlab
-myString = '100,000';
-convertedNumber = str2num(myString);  % Converts to a double
-```
-
-**3. `str2double`:** This function is similar to `str2num` but specifically converts a string to a double-precision floating-point number.
-
-```matlab
-myString = '3.14159';
-convertedDouble = str2double(myString);
-```
-
-**4. `num2str`:** This function converts a numeric value to a string representation. You can optionally specify the format of the string using format specifiers.
-
-```matlab
-number = 12345.678;
-convertedString = num2str(number);  % Default format
-
-% Convert with two decimal places
-formattedString = num2str(number, '%0.2f');
-```
-
-**5. `logical`:** This function converts any value to a logical type (true or false).
-
-```matlab
-value = 0;
-convertedLogical = logical(value);  % False
-
-value = -5;
-convertedLogical = logical(value);  % True
 ```
 
 **Additional points:**
@@ -248,6 +214,96 @@ z = mod(x,y);
 disp(z); % Output: 1
 ```
 
+**Example #2.1 from book** [2]
+**Example #2.2 from book** [2]
+**Example #2.3 from book** [2]
+
+### Relational Operators
+
+## Relational Operators in MATLAB (Beginner Level)
+
+In MATLAB, relational operators help you compare values and create logical expressions that evaluate to either `true` (1) or `false` (0). These logical expressions are crucial for making decisions and controlling program flow in your code.
+
+Here's a table summarizing the most common relational operators:
+
+| Operator | Description | Example |
+|---|---|---|
+| `==` | Equal to | `a == 5` checks if `a` is equal to 5 |
+| `~=` | Not equal to | `b ~= 3` checks if `b` is not equal to 3 |
+| `<` | Less than | `c < 10` checks if `c` is less than 10 |
+| `>` | Greater than | `d > 2` checks if `d` is greater than 2 |
+| `<=` | Less than or equal to | `e <= 0` checks if `e` is less than or equal to 0 |
+| `>=` | Greater than or equal to | `f >= 7.5` checks if `f` is greater than or equal to 7.5 |
+
+**Using Relational Operators in Expressions**
+
+You can combine relational operators with numerical values and variables to create logical expressions. Here are some examples:
+
+```matlab
+age = 20;
+isAdult = age >= 18;  % Checks if age is 18 or older (true)
+
+grade = 85;
+passedExam = grade > 70;  % Checks if grade is greater than 70 (true)
+
+accountBalance = 100;
+needsRefill = accountBalance < 50;  % Checks if balance is below 50 (false)
+```
+
+**Example:**String Comparisons
+```matlab
+name = "Ali";
+isFirstName = name == "Ali";  % Checks if name is exactly "Alice" (true)
+
+fruit = "apple";
+isFavorite = fruit ~= "banana";  % Checks if fruit is not "banana" (true)
+```
+**Important:** String comparisons in MATLAB are case-sensitive. "Ali" is not the same as "ali".
+
+**Logical Operators (and, or, not)**
+
+MATLAB provides additional operators to combine logical expressions:
+
+* `&` (AND): Both conditions must be true for the overall expression to be true.
+* `|` (OR): At least one condition must be true for the overall expression to be true.
+* `~` (NOT): Inverts the truth value of the expression.
+
+Here's an example:
+
+```matlab
+temperature = 30;
+isHot = temperature > 25;
+isSunny = true;
+
+goSwimming = isHot & isSunny;  % Only true if both hot and sunny (false)
+
+goForWalk = isHot | ~isSunny;  % True if hot or not sunny (true)
+```
+
+**Example :** Combining Relational Operators
+```matlab
+age = 16;
+isTeenager = age >= 13 & age <= 19;  % Checks if age is between 13 and 19 (true)
+
+accountBalance = 40;
+needsRefill = accountBalance < 50 | ~isAdult;  % Needs refill if below 50 OR not adult (true)
+```
+
+**Applications of Relational Operators**
+
+Relational operators are fundamental for various tasks in MATLAB:
+
+* **Conditional Statements:** Use `if`, `else if`, and `end` statements with logical expressions to control program flow based on conditions.
+* **Loops:** Utilize `while` and `for` loops with logical expressions to repeat code as long as a condition remains true.
+* **Data Filtering:** Employ logical expressions to select specific data points from matrices or arrays that meet certain criteria.
+
+**Remember:**
+
+* Always enclose variable names and numerical values in single quotes when using them in strings. 
+* Use parentheses to group complex logical expressions for proper evaluation.
+
+
+
 ### Example: ``` Calculates the area of a rectangle
 
 ```matlab
@@ -291,10 +347,10 @@ h = 10;
 circumference = 2 * (w + h);
 
 % Display the result
-fprintf('The circumference of the rectangle with width %.2f and height %.2f is %.2f.\n', w, h, circumference);
+disp(circumference)
 ```
 
-In this example, we define the width and height of the rectangle as `w=5` and `h=10`, respectively. Then, we use the formula for the circumference of a rectangle, which is `2 * (width + height)`, to calculate the circumference. Finally, we use the `fprintf` function to display the result, which is the circumference of the rectangle with two decimal places. 
+In this example, we define the width and height of the rectangle as `w=5` and `h=10`, respectively. Then, we use the formula for the circumference of a rectangle, which is `2 * (width + height)`, to calculate the circumference. Finally, we use the `disp` function to display the result, which is the circumference of the rectangle with two decimal places. 
 
 You can adjust the values of `w` and `h` to calculate the circumference of a rectangle with different dimensions.
 
@@ -309,10 +365,10 @@ h = 4;
 area = 0.5 * b * h;
 
 % Display the result
-fprintf('The area of the triangle with base %.2f and height %.2f is %.2f.\n', b, h, area);
+disp(area)
 ```
 
-In this example, we define the base and height of the triangle as `b=6` and `h=4`, respectively. Then, we use the formula for the area of a triangle, which is `0.5 * base * height`, to calculate the area. Finally, we use the `fprintf` function to display the result, which is the area of the triangle with two decimal places.
+In this example, we define the base and height of the triangle as `b=6` and `h=4`, respectively. Then, we use the formula for the area of a triangle, which is `0.5 * base * height`, to calculate the area. Finally, we use the `disp` function to display the result, which is the area of the triangle with two decimal places.
 
 You can adjust the values of `b` and `h` to calculate the area of a triangle with different dimensions.
 
@@ -333,7 +389,7 @@ fprintf('The semiperimeter of the spherical triangle with sides %.2f, %.2f, and 
 
 In this example, we define the three sides of the spherical triangle as `a=pi/6`, `b=pi/4`, and `c=pi/3`, which are angles measured in radians. Then, we use the semiperimeter formula, which is `s = (a + b + c)/2`, to calculate the semiperimeter of the spherical triangle.
 
-Finally, we use the `fprintf` function to display the result, which is the semiperimeter of the spherical triangle with two decimal places.
+Finally, we use the `disp` function to display the result, which is the semiperimeter of the spherical triangle with two decimal places.
 
 You can adjust the values of `a`, `b`, and `c` to calculate the semiperimeter of a different spherical triangle.
 
@@ -352,7 +408,7 @@ s = (a + b + c)/2;
 A = sqrt(s * (s - a) * (s - b) * (s - c));
 
 % Display the result
-fprintf('The area of the triangle with sides %.2f, %.2f, and %.2f is %.2f.\n', a, b, c, A);
+disp(A)
 ```
 
 In this example, we define the lengths of the sides of the triangle as `a=5`, `b=6`, and `c=7`. Then, we use the semiperimeter formula, which is `s = (a + b + c)/2`, to calculate the semiperimeter of the triangle. Finally, we use Heron's formula, which is `A = sqrt(s * (s - a) * (s - b) * (s - c))`, to calculate the area of the triangle.
@@ -361,36 +417,7 @@ The `sqrt` function is the square root function in MATLAB. The `fprintf` functio
 
 You can adjust the values of `a`, `b`, and `c` to calculate the area of a different triangle using Heron's formula.
 
-### Example: How to create a plot of a mathematical function
-
-```matlab
-% Define the x-values
-x = linspace(-10, 10, 100);
-
-% Define the function y = f(x)
-y = sin(x);
-
-% Create a plot of the function
-plot(x, y);
-
-% Add labels to the plot
-xlabel('x');
-ylabel('y');
-title('Plot of sin(x)');
-```
-
-In this example, we first define a set of x-values using the `linspace` function, which creates an array of 100 equally spaced values between -10 and 10. Then, we define a mathematical function `y = sin(x)` that we want to plot. We use the `plot` function to create a line plot of the function, with the x-values on the horizontal axis and the y-values on the vertical axis. Finally, we add labels to the plot using the `xlabel`, `ylabel`, and `title` functions.
-
-### Example: Generating a random number
-
-```matlab
-% Generate a random number between 0 and 1
-r = rand();
-
-% Print the random number
-disp(r);
-```
-
+### 
 ### Example: Finding the Roots of a Quadratic Equation
 
 ```matlab
@@ -424,4 +451,5 @@ The factorial of n is commonly written in math notation using the exclamation po
 
 ## References and Bibliography
 
+[1] Raj Kumar Bansal, A. K. Goel, and Manoj Kumar Sharma, MATLAB and its applications in engineering : [based iôn MATLAB 7.5 (R2007b)]. Delhi: Pearson, 2012.
 - [^1]: [Factorial of input - MATLAB factorial - MathWorks](https://www.mathworks.com/help/matlab/ref/factorial.html)
