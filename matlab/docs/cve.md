@@ -458,53 +458,110 @@ disp(x2);
 
 ## True/False (Mark T for True and F for False)
 
+1. The isa function is a reliable way to check if a variable belongs to a specific data type.
+2. Using appropriate data types in your code can improve memory usage and code efficiency.\
+3. The exponentiation operator in MATLAB is represented by the `**`.
+
 **Answer Key (True/False):**
+
+1. True
+2. True
+3. False
 
 ## Multiple Choice (Select the best answer)
 
-What is the output of 5 / 2?
-a) 2.5
-b) 2 (integer division)
-c) Error (division by zero)
-d) Depends on variable types
+> Which data type is best suited for storing precise scientific calculations that require a wide range of values?
+1. char
+2. int8
+3. double
+4. string
 
-How do you calculate the remainder of a division in MATLAB?
-a) /
-b) mod
-c) rem
-d) floor
+> What is the output of the following code: cast('100', 'uint8')?
+1. 100
+2. '100'
+3. Error
+4. 100.0
 
-Which operator raises a number to a power?
-a) *
-b) ^
-c) .
-d) floor
+> What is the advantage of using string data types compared to character arrays for storing text data?
 
-What is the output of -3 ^ 2?
-a) -9
-b) 9
-c) Error (negative base)
-d) Depends on variable types
+1. Strings can only store a fixed length of text.
+2. Strings offer built-in functions for various string operations. (Correct Answer)
+3. Strings require less memory than character arrays.
+4. There's no significant difference for short text data.
 
-Which relational operator returns TRUE if the operands are equal?
+> When working with memory limitations and calculations involving whole numbers, what data type is a good choice?
+1. single
+2. uint16 (Correct Answer)
+3. string
+4. complex
 
-a) > (greater than)
-b) < (less than)
-c) == (equal to)
-d) != (not equal to)
+> What is the output of 5 / 2?
+1. 2.5
+2. 2 (integer division)
+3. Error (division by zero)
+4. Depends on variable types
 
-What is the output of the following code? 5 ~= 7
+> What data type is used to represent complex numbers in MATLAB?
+1. Integers
+2. Doubles
+3. Characters
+4. Complex
 
-a) 0
-b) 1
-c) Error
-d) Depends on variable values
+> Which data type in MATLAB is used to represent true or false values?
+1. Logical
+2. Boolean
+3. Binary
+4. Bitwise
+   
+> What function is used to determine the data type of a variable in MATLAB?
+1. typeOf
+2. typeof
+3. class
+4. dtype
 
+> How do you calculate the remainder of a division in MATLAB?
+1. /
+2. mod
+3. rem
+4. floor
 
+> Which operator raises a number to a power?
+1. *
+2. ^
+3. .
+4. floor
+
+> What is the output of -3 ^ 2?
+1. -9
+2. 9
+3. Error (negative base)
+4. Depends on variable types
+
+> Which relational operator returns TRUE if the operands are equal?
+1. `>` (greater than)
+2. `<` (less than)
+3. `==` (equal to)
+4. `!=` (not equal to)
+
+> What is the output of the following code? 5 ~= 7
+1. 0
+2. 1
+3. Error
+4. Depends on variable values
 
 ## Fill in the Blanks
 
+1. The whos command displays a list of all currently defined variables in your workspace, including their name, size, and __________.
+2. Logical data types in MATLAB can hold two values: _________ and __________.
+3. In MATLAB, the maximum value that can be represented by the uint8 data type is ___________..
+4. The maximum value that can be represented by the int16 data type in MATLAB is ___________.
+
 **Answer Key (Fill in the Blanks):**
+
+1. Class (data type)
+2. true (1) , false (0)
+3. 255
+4. 32767
 
 ## Exercises
 
