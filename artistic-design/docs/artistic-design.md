@@ -1,11 +1,12 @@
 
-
 # Introduction to Artistic Design
 
    * Elements and principles of design
    * Color theory and application
    * Typography and hierarchy
    * Design thinking process
+
+- [Download PDF](artistic-design.pdf)
 
 Module 1: Introduction to Artistic Design
  * Elements of Design: Line, shape, color, texture, space, value, form
@@ -23,7 +24,7 @@ Module 2: Color theory and application
 
 Here are the key aspects of color theory:
 
-**1. The Color Wheel:**
+### 1. The Color Wheel
 
 The color wheel is a fundamental tool in color theory. It is a circular diagram that organizes colors based on their relationships to each other. The most common color wheel includes 12 hues:
 
@@ -38,36 +39,41 @@ This is the traditional color wheel used by artists for mixing paints and pigmen
 
 - **Primary colors:** Red, yellow, and blue are the primary colors because they cannot be created by mixing other colors.
 ![Image of Primary colors on color wheel](https://www.color-meanings.com/wp-content/uploads/color-wheel-primary-secondary-tertiary-colors-1536x1209.png).
-Image by: [www.color-meanings.com](https://www.color-meanings.com/primary-secondary-tertiary-colors/)
+Image source: [www.color-meanings.com](https://www.color-meanings.com/primary-secondary-tertiary-colors/)
 
 - **Secondary colors:** Orange, green, and purple are created by mixing two primary colors in equal proportions. secondary colors are created by mixing any two primary colors.  For example, mixing red and yellow creates orange, yellow and blue creates green, and red and blue creates purple.
 - **Tertiary colors:** These are created by mixing a primary and a secondary color. There are six tertiary colors: red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.
 
 **2. RGB (Red Green Blue) Color Wheel:**
 
-This color wheel is used for light and digital applications such as TVs, computers, and smartphones.  In the RGB model, the primary colors are red, green, and blue, and secondary colors are created by adding light together.  For instance, red and green light combined creates yellow light, while blue and green light combined creates cyan light.  Mixing all three primary colors of light together creates white light.
+  - This color wheel is used for light and digital applications such as TVs, computers, and smartphones.
+  - The color system that best matches the human eye is the red-green-blue color system.
 
 - [Color Wheel Calculator \| Canva Colors](https://www.canva.com/colors/color-wheel/)
+- [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
 
-Primary, secondary and tertiary colors [2]
+**Primary, secondary and tertiary colors** [2]
 
 There are 12 main colors on the color wheel. In the RGB color wheel, these hues are red, orange, yellow, chartreuse green, green, spring green, cyan, azure, blue, violet, magenta and rose.
 
 The color wheel can be divided into primary, secondary and tertiary colors.
 
-Primary colors in the RGB color wheel are the colors that, added together, create pure white light. These colors are red, green and blue.
+**Primary colors** in the RGB color wheel are the colors that, added together, create pure white light. These colors are red, green and blue.
 
 In the RYB color wheel, primary colors are colors that can’t be mixed from other colors. There are three primary colors: red, yellow, and blue.
 
-Secondary colors are colors that result from mixing two primary colors. There are three secondary colors. In the RGB color wheel, these are cyan, magenta and yellow. When you mix light, red and green make yellow, green and blue make cyan, and blue and red make magenta.
+![rgb color wheel](https://wtamu.edu/~cbaird/sq/images/rgb_color_wheel.png)
+Image by: [wtamu.edu](https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/)
+
+**Secondary colors** are colors that result from mixing two primary colors. There are three secondary colors. In the RGB color wheel, these are `cyan`, `magenta` and `yellow`. When you mix light, red and green make `yellow`, green and blue make `cyan`, and blue and red make `magenta`.
 
 In the RYB color wheel, the secondary colors are purple (red mixed with blue), orange (red mixed with yellow), and green (yellow mixed with blue).
 
-Tertiary colors are colors made by combining a secondary color with a primary color. There are six tertiary colors. In the RGB color wheel these are orange, chartreuse green, spring green, azure, violet and rose.
+**Tertiary colors** are colors made by combining a secondary color with a primary color. There are six tertiary colors. In the RGB color wheel these are `orange`, `chartreuse green`, `spring green`, `azure`, `violet` and `rose`.
 
 In the RYB color wheel, the tertiary colors are red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.
 
-**2. Color Relationships:**
+### 2. Color Relationships
 
 Color theory defines different relationships between colors based on their positions on the color wheel:
 
@@ -172,6 +178,47 @@ By understanding the principles of color theory, you can make informed decisions
 
 ## Multiple Choice (Select the best answer)
 
+Which of the following is NOT a primary color?
+
+(a) Red
+(b) Green
+(c) Purple
+(d) Yellow
+
+Mixing equal parts of red and yellow creates:
+
+(a) Orange
+(b) Blue
+(c) Green
+(d) Black
+
+Making a color lighter by adding white creates a:
+
+(a) Shade
+(b) Tint
+(c) Tone
+(d) Hue
+
+Colors directly opposite each other on the color wheel are called:
+
+(a) Analogous colors
+(b) Complementary colors
+(c) Tertiary colors
+(d) Warm colors
+
+What is the primary color model used in digital design and printing?
+a) RGB
+b) CMYK
+c) HSV
+d) Pantone
+
+In the RGB color model, mixing red and green produces which color?
+a) Blue
+b) Yellow
+c) Magenta
+d) Cyan
+
+
 ## Fill in the Blanks
 
 **Answer Key (Fill in the Blanks):**
@@ -180,11 +227,21 @@ By understanding the principles of color theory, you can make informed decisions
 
 ## Review Questions
 
+- What is a color wheel, and what does it represent?
+- What are primary colors on a color wheel? Can you mix other colors using only primaries?
+- How are secondary colors created on a color wheel?
+- What are complementary colors? How can you find them on a color wheel?
+- What are the three main properties of color: hue, saturation, and value?
+- How can you adjust the value of a color to create shades, tones, and tints?
+- What is the difference between a warm color and a cool color?
+
 ## References and Bibliography
 
 [1] B. Software, “Rules of Color Combination,” amadine.com. [https://amadine.com/useful-articles/rules-of-color-combination](https://amadine.com/useful-articles/rules-of-color-combination)
 [2] Canva, “Color wheel - color theory and calculator | canva colors,” Canva’s Design Wiki, 2019. [https://www.canva.com/colors/color-wheel/](https://www.canva.com/colors/color-wheel/)
 [3] Adobe, “What are Primary, Secondary & Tertiary Colors? | Adobe,” www.adobe.com. https://www.adobe.com/creativecloud/design/discover/secondary-colors.html
+[4] C. Baird, “Why are red, yellow, and blue the primary colors in painting but computer screens use red, green, and blue?,” Science Questions with Surprising Answers, Jan. 22, 2015. https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/
+‌
 ‌
 ‌
 ‌

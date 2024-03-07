@@ -56,6 +56,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Uploading your own images
 - Photo editing and effects
 - Downloading and sharing
+- 
 
 ## 05. Using and editing elements [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
 
@@ -81,11 +82,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## 07. Uploading and editing video and audio [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=uploading-and-using-photos)
 
 **Key learnings:**
-Using your own imagery
-Creating a design from ‘Edit Photo’
-Uploading your own images
-Photo editing and effects
-Downloading and sharing
+- Using your own imagery
+- Creating a design from ‘Edit Photo’
+- Uploading your own images
+- Photo editing and effects
+- Downloading and sharing
 
 ## 08. Sharing and collaborating on designs [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
 
@@ -398,6 +399,27 @@ By exploring these features and experimenting with different options, you can el
 3. [ ] Complex element rotation
 4. [ ] Gradual background color change
 
+What is the main purpose of Canva's Magic Eraser tool?
+
+A) Adding special effects to images
+B) Removing specific elements from images
+C) Enhancing image contrast
+D) Creating animations
+
+What does Canva's Magic Edit feature allow users to do?
+
+A) Automatically edit text in images
+B) Enhance image colors
+C) Modify existing elements in images
+D) Edit multiple elements in a design simultaneously
+
+What does Canva's Text to Image feature enable users to do?
+
+A) Convert images to text format
+B) Automatically generate images from text
+C) Add text to existing images
+D) Convert images into vector graphics
+
 ## Fill in the Blanks
 
 1. To change the font size in Canva, you can use the _____________ slider.
@@ -408,11 +430,21 @@ By exploring these features and experimenting with different options, you can el
 
 ## Exercises
 
+- What does BG Remover do? (Remove the background from an image)
+- What does Magic Eraser do? (Erase unwanted objects from a photo)
+- What does Magic Edit do? (Uses AI to modify specific areas of a photo)
+
 ## Assignments
 
 - [Canva Assignment: Create a YouTube Thumbnail!](assignments/assign1.md)
 
 ## Review Questions
+
+1. What is the primary function of `BG Remover` in Canva?
+2. How does `Magic Eraser tool` work in Canva?
+3. Describe the purpose of `Magic Expand` feature in Canva.
+4. What is the purpose of using `Text to Image` in Canva?
+5. What is the purpose of using `Magic Edit` in Canva?
 
 ## References and Bibliography
 
