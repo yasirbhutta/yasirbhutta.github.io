@@ -108,7 +108,110 @@ Downloading and sharing
 ## Magic Studio
 
 **Key learnings:**
-- Text to Image
+- BG Remover
+- Magic Eraser
+- Magic Expand
+- Magic Edit
+
+### 1. BG Remover
+
+- BG Remover in Canva is a tool that automatically removes the background from your photos and videos. 
+- This can be useful for creating cutouts, placing images on new backgrounds, or designing transparent logos.
+
+**How to apply BG Remover in the Canva mobile app:**
+
+1. Select your image: Open your Canva project and tap on the image you want to edit.
+2. Access Effects:  At the bottom of the screen, you'll see a toolbar with various editing options. Tap on "Effects".
+3. Apply BG Remover:  Within the Effects menu,  find "BG Remover" and tap on it.
+4. Let Canva work its magic: The app will automatically process the image and remove the background.
+
+### 2. Magic Eraser
+
+Magic Eraser is a tool in Canva that lets you easily remove unwanted objects or people from your photos. It's a handy feature for sprucing up your images for designs. 
+
+**How to use it on the Canva mobile app:**
+
+1. **Add your image:** Open the Canva app and add the image you want to edit to your design.
+
+2. **Access Edit photo:** Tap on the image to open the editing options. Then, select "Edit photo".
+
+3. **Find Magic Eraser:**  At the bottom editor toolbar, locate "Effects". Among the effects options, you'll see "Magic Eraser".
+
+4. **Adjust brush size (optional):**  There's a brush size slider you can use to adjust how precise your erasing will be. Make the brush bigger for larger objects and smaller for finer details.
+
+5. **Brush over the object:** Simply brush over the object you want to entfernen (German for "to remove") from your photo. A purple overlay will indicate the area the Magic Eraser will target.
+
+6. **Wait for processing:** After brushing over the object, Canva will process the edit and remove the object from your image.
+
+### 3. Magic Expand 
+
+- Magic Expand is a cool feature in Canva that uses artificial intelligence (AI) to expand your images  without losing quality. This means you can fix awkward framing, use zoomed-in photos, or even convert a vertical picture into a horizontal one.
+
+**How to apply Magic Expand in the Canva mobile app:**
+
+1. Select your image: Open your Canva project and tap on the image you want to edit.
+2. Access Effects:  At the bottom of the screen, you'll see a toolbar with various editing options. Tap on **Effects**.
+4. You'll see **Magic Expand** as one of the effects. Tap on it.
+5. Now you have two ways to choose how much to expand:
+    * **Pre-set sizes:** Select from options like "Whole Page" or other aspect ratios.
+    * **Freeform:** Drag the crop handles on the image preview to define the specific area you want to Fill.
+6. Once you're happy with the selection, tap the **Magic Expand** button.
+7. Canva will take a moment to process the image using AI and generate the expanded version.
+
+### 4. Magic Edit
+
+- Magic Edit is a powerful tool in Canva that uses artificial intelligence to modify your photos.  With Magic Edit, you can:
+
+* Add elements to your photos: Imagine placing a flock of birds in the sky or adding a cat to your living room picture – all within the app.
+* Replace objects: Not a fan of the background in your photo? Replace it with a beach scene or a cityscape.
+* Modify existing elements: Change the color of your car or adjust the lighting in a portrait.
+
+**How to use Magic Edit on the Canva mobile app:**
+
+1. Open your Canva project and select the photo you want to edit.
+2. Tap on "Effects" at the bottom of your screen.
+3. Choose "Magic Edit" from the effects options. (Keep in mind Magic Edit is currently in beta testing).
+4. Use the brush tool to carefully mark the area you want to modify. There's also a toggle to select the entire image if needed.
+5. Describe what you want to add, replace, or modify in the selected area. Be specific with your wording for better results.
+6. Tap "Generate" and wait for Canva's AI to work its magic.
+7. Choose the result you like best and tap "Done" to apply the edit.
+
+## Text to Image or Magic Media 
+
+- Canva offers a powerful feature called Text to Image, which lets you generate images based on descriptions you provide
+- It's part of a suite of AI image generation tools within Canva called Magic Media. 
+   
+**How to use it on the Canva mobile app:**
+
+**1. Accessing Magic Media:**
+
+* Open your Canva mobile app and start a new design project or open an existing one.
+
+* Tap on the **"Apps"** icon on the bottom toolbar. This will display various apps you can integrate with your design.
+
+* In the search bar within the Apps menu, type in **"Magic Media"**. 
+
+* Select the **"Magic Media"** app.
+
+**2. Describing your image:**
+
+* Once Magic Media opens, you'll see a text box where you can enter your description for the image you want to generate. Be clear and detailed in your description, including things like objects, colors, style, and mood.
+
+* You can also choose an artistic style for the image from options like watercolor, filmic, neon, and more.
+
+**3. Generating the image:**
+
+* Once you're happy with your description and chosen style, tap on the **"Generate Image"** button.
+
+* Canva's AI will then process your request and generate an image based on your description.
+
+**4. Using and refining the image:**
+
+* After a short wait, you'll see a few variations of the image based on your prompt. Choose the one that best suits your needs.
+
+* You can further refine the image by editing it within Canva. Add elements, apply filters, and adjust properties to get the perfect image for your project.
+
+Canva's Text to Image is a great way to spark creativity and overcome creative blocks. With a few descriptive words, you can generate unique images that can be used in presentations, social media posts, or any other visual design project.
 
 ## 10. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 

@@ -181,8 +181,11 @@ By understanding the principles of color theory, you can make informed decisions
 ## Review Questions
 
 ## References and Bibliography
+
 [1] B. Software, “Rules of Color Combination,” amadine.com. [https://amadine.com/useful-articles/rules-of-color-combination](https://amadine.com/useful-articles/rules-of-color-combination)
 [2] Canva, “Color wheel - color theory and calculator | canva colors,” Canva’s Design Wiki, 2019. [https://www.canva.com/colors/color-wheel/](https://www.canva.com/colors/color-wheel/)
+[3] Adobe, “What are Primary, Secondary & Tertiary Colors? | Adobe,” www.adobe.com. https://www.adobe.com/creativecloud/design/discover/secondary-colors.html
+‌
 ‌
 ‌
 
