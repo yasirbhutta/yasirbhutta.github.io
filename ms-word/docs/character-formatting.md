@@ -2,19 +2,19 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](character-formatting.pdf)  
+- [Download PDF](https://yasirbhutta.github.io/ms-word/docs/character-formatting.pdf)  
 - To access the updated handouts, please click on the following link:
-[index.html](../yasirbhutta.github.io/index.md)
+[https://yasirbhutta.github.io/ms-word/docs/character-formatting.html](https://yasirbhutta.github.io/ms-word/docs/character-formatting.html)
 - [Slides: Character Formatting](https://docs.google.com/presentation/d/1JP1pVsfH7LCQFsPPylfEDseQY_CEZGdzHc2RC2dRBpg/edit?usp=sharing)
 
 ## Formatting
-
 - The process of defining the appearance of a document is called formatting. It includes the following options:
   - Changing the font and font size of text
   - Applying boarder and shadings
   - Adding picture and graphics etc.
 
 **Types Of Formatting:** 
+
 There are three types of formatting:
 
 1. Character Formatting
@@ -28,24 +28,24 @@ There are three types of formatting:
 3. Page Formatting
    - Page formatting: The formatting applied on page is called page formatting.
    - It includes the following: Page Size, Margins, Page Orientation, Headers and Footer
+  
 ## 1. CHARACTER FORMATTING
-
 ### 1.1. Font
-●	The appearance of text in the document is called font or typeface.
-●	 Fonts are used to make the text of different styles and sizes.
+- The appearance of text in the document is called font or typeface.
+- Fonts are used to make the text of different styles and sizes.
 Fonts by Category
 http://www.fontpool.com/categories/
 Change the Font
-
 ### 1.2 Font Size
 - Size of text is document is called Font Size.
 - Font size is measured in points.
-- There are 72 points in an inch.
+- There are `72` points in an inch.
 
 **Change Font Size**
 - Click on the Arrow sign of Font Size in Font group
 
 OR
+
 Keyboard shortcut for Grow Font: **CTRL+SHIFT + >**
 Keyboard shortcut for Shrink Font: **CTRL+SHIFT + <**
 
@@ -55,27 +55,32 @@ Keyboard shortcut for Shrink Font: **CTRL+SHIFT + <**
 ![font style](img/font-style.png)
 
 **Change Font Style:**
-- On the Home tab, in the Font group, click Font Style
+- On the **Home** tab, in the **Font** group, click **Font Style**
+
+![font](img/font-logical-group.png)
 
 **Underline words, but not the spaces between them:**
 - Select the text that you want to underline. 
 - On the Home tab, click the Font Dialog Box Launcher, and then click the Font tab. 
 - In the Underline style box, click `Words only`.
-
 ### 1.4. Font Color
-●	Font color is used to change the color of the text.
+- Font color is used to change the color of the text.
 
 **Change Font Color:**
-•	On the Home tab, in the Font group, click Font Color
+- On the Home tab, in the Font group, click Font Color
+
+![font](img/font-logical-group.png)
 
 ### 1.5. Text Highlight Color
-●	Make text look like it was marked with highlighter pen
+- Make text look like it was marked with highlighter pen
 
 **Text Highlight Color:**
-•	On the Home tab, in the Font group, click Text Highlight Color
+- On the **Home** tab, in the **Font** group, click **Text Highlight** Color
+
+![font](img/font-logical-group.png)
 
 ### 1.6. Subscript
-●	Create small letters below the text baseline
+- Create small letters below the text baseline
 
 H2O
 Change Subscript
@@ -114,11 +119,11 @@ OR
 - Small letters are call lower case letters.
 
 Character Case
-•	Select the text
-•	Press **Shift + F3** until the required case is achieved.
+- Select the text
+- Press **Shift + F3** until the required case is achieved.
 OR 
-•	Select the text
-•	Home tab > Font group > Change Case
+- Select the text
+- **Home tab > Font group > Change Case**
 
 ![font](img/font-logical-group.png)
 
@@ -127,7 +132,7 @@ OR
 - Clear formatting command clear all the formatting from the selection and leave only plain text.
 
 **Clear Formatting:**
-•	On the **Home** tab, in the **Font** group, click Clear All Formatting
+- On the **Home** tab, in the **Font** group, click Clear All Formatting
 
 ![font](img/font-logical-group.png)
 
@@ -136,11 +141,11 @@ OR
 - The font dialog box can be used to apply different formatting option on the text
 
 Font Dialog Box
-●	Click on the Arrow sign of Font group
-
+- Click on the Arrow sign of Font group
 
 OR
-●	Keyboard shortcut: **CTRL+D**
+
+Keyboard shortcut: **CTRL+D**
 
 ![font dialog box](img/font-dialogbox.png) 
 Font Dialog Box
@@ -158,6 +163,7 @@ Font Dialog Box
 
 Character spacing
 Changing Character Spacing
+
 ### 1.12. Mini Toolbar
 - When we select text, we can show or hide a handy, miniature, semitransparent toolbar called the Mini toolbar
 ●	To use toolbar, click any of the available command.
