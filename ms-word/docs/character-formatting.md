@@ -186,21 +186,134 @@ Format Painter
 
 ## Key Terms
 
+Font
+Font size
+Font style
+Character spacing
+Kerning
+Mini toolbar
+Format painter
+
 ## True/False (Mark T for True and F for False)
 
+1. Bold and italic are considered the same type of character formatting.
+2. Character spacing refers to the distance between lines of text in a paragraph.
+3. The format painter tool allows you to copy formatting from one text section and apply it to another. 
+4. Clearing formatting removes all character styles/formatting and returns the text to its default settings.
+5. Strikethrough formatting is used to highlight important text.
+
 **Answer Key (True/False):**
+1. False
+2. False
+3. True
+4. True
+5. False
 
 ## Multiple Choice (Select the best answer)
 
+> Which of the following is NOT a type of formatting in Microsoft Word?
+1. [ ] Character formatting
+2. [ ] Paragraph formatting
+3. [ ] Document formatting
+4. [ ] Page formatting
+
+> Which keyboard shortcut can be used to increase the font size?
+1. [ ] CTRL+F
+2. [ ] CTRL+SHIFT+>
+3. [ ] ALT+S
+4. [ ] CTRL+B
+
+> What does the Font Style option in Microsoft Word allow you to do?
+1. [ ] Change the font color
+2. [ ] Change the font size
+3. [ ] Bold, italicize, or underline text
+4. [ ] Adjust line spacing
+
+> Which command is used to change the color of text in Microsoft Word?
+1. [ ] Font Size
+2. [ ] Font Style
+3. [ ] Font Color
+4. [ ] Text Highlight Color
+
+> What is the purpose of the Subscript feature in Microsoft Word?
+1. [ ] To create small letters above the line of text
+2. [ ] To draw a line through the middle of selected text
+3. [ ] To create small letters below the text baseline
+4. [ ] To change the font case
+
+> How can you access the Font Dialog Box in Microsoft Word?
+1. [ ] Click on the Arrow sign of Font group
+2. [ ] Press CTRL+D
+3. [ ] Both a and b
+4. [ ] None of the above
+
+> What is the function of the Mini Toolbar in Microsoft Word?
+1. [ ] To provide access to frequently used commands
+2. [ ] To change the page size
+3. [ ] To show or hide formatting marks
+4. [ ] To insert page breaks
+
+> Which of the following is NOT a component of character formatting?
+1. [ ] Font style
+2. [ ] Paragraph alignment
+3. [ ] Font color
+4. [ ] Font size
+
+> What unit is used to measure font size in Microsoft Word documents?
+1. [ ] Pixels
+2. [ ] Points
+3. [ ] Inches
+4. [ ] Millimeters
+
+> What is the result of pressing Shift + F3 on selected text in Microsoft Word?
+1. [ ] It applies subscript formatting.
+2. [ ] It changes the case of the text.
+3. [ ] It applies superscript formatting.
+4. [ ] It clears all formatting.
+
+> Which feature would you use to make text look like it was marked with a highlighter pen?
+1. [ ] Font Color
+2. [ ] Text Highlight Color
+3. [ ] Font Style
+4. [ ] Clear Formatting
+
 ## Fill in the Blanks
+1. The process of customizing the appearance of a document, including fonts and colors, is called __________.
+2. A small toolbar that appears when you select text, offering formatting options, is called the __________. 
+3. The _____________ tool lets you copy formatting from one text section and apply it elsewhere.
+4. Clearing formatting removes all character styles, returning the text to its _____________ settings. 
 
 **Answer Key (Fill in the Blanks):**
+1. formatting
+2. mini toolbar
+3. format painter
+4. default
 
 ## Exercises
 
+- Format a selected text in Microsoft Word to make it bold and underline.
+- Change the font size of a paragraph to 14 points.
+- Apply subscript to the text "H2O".
+- Copy formatting from one sentence to another using the Format Painter tool.
+
 ## Review Questions
 
+- What is formatting?
+- Briefly explain the difference between character formatting and paragraph formatting.
+- What is the purpose of using subscript and superscript formatting?
+- How can you access the Font dialog box to explore more character formatting options?
+- Describe the difference between character formatting, paragraph formatting, and page formatting.
+- What are the common font styles used in document editing? How do you apply them?
+- Explain the function of the "Clear Formatting" command in Microsoft Word.
+- Describe the steps to access and use the Font Dialog Box in Microsoft Word.
+
 ## References and Bibliography
+
+[1] “Word: Formatting Text,” GCFGlobal.org. [https://edu.gcfglobal.org/en/word/formatting-text/1/](https://edu.gcfglobal.org/en/word/formatting-text/1/)
+[2] “Format your Word document,” support.microsoft.com. [https://support.microsoft.com/en-us/office/format-your-word-document-fb9ef2d6-e2ad-4721-abc1-55f88864617f](https://support.microsoft.com/en-us/office/format-your-word-document-fb9ef2d6-e2ad-4721-abc1-55f88864617f)
+
+‌
+‌
 
 
 
