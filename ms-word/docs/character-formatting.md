@@ -102,8 +102,7 @@ OR
 
 OR
 - Keyboard shortcut: **CTRL+Shift++** 
-
- 
+- 
 ### 1.8. Strikethrough
 - Draw a line through the middle of the selected text.
 
@@ -118,6 +117,12 @@ OR
 - Capital letters are called upper case letters.
 - Small letters are call lower case letters.
 
+**Sentence case:** It changes the first  character of sentence to upper case and all other characters to the lower case.
+**lower case:** it changes all characters to lowercase
+**UPPER CASE:** IT CHANGES ALL CHARACTERS TO UPPER CASE.	
+**Capitalize Each Word:** It Changes The First Characters Of Each Word To Uppercase And All Other Characters To Lowercase.
+**tOGGLE cASE:** iT sWITCHES uPPERCASE tO lOWERCASE aND vICE vERSA.
+
 Character Case
 - Select the text
 - Press **Shift + F3** until the required case is achieved.
@@ -125,16 +130,20 @@ OR
 - Select the text
 - **Home tab > Font group > Change Case**
 
-![font](img/font-logical-group.png)
+![change case](img/change-case.png)
 
 # 1.10. Clear Formatting
 
 - Clear formatting command clear all the formatting from the selection and leave only plain text.
 
 **Clear Formatting:**
-- On the **Home** tab, in the **Font** group, click Clear All Formatting
+- On the **Home** tab, in the **Font** group, click **Clear All Formatting**
 
 ![font](img/font-logical-group.png)
+
+OR
+
+Press **Ctrl + Spacebar** to clear character formatting (such as bold, font, and font size) from selected text 2.
 
 # 1.11. Using Font Dialog Box
 
