@@ -83,7 +83,11 @@ Color theory defines different relationships between colors based on their posit
 Image by: [closetomyheart.com](https://blog.closetomyheart.com/2018/01/11/color-theory-complementary-colors-and-how-to-use-them/)
 
 ![complementary color](https://amadine.com/assets/img/articles/rules-of-color-combination/complementary-color-scheme@2x.png)
-Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
+Image source: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
+
+* **Monochromatic:** Three shades, tones and tints of one base color. Provides a subtle and conservative color combination. This is a versatile color combination that is easy to apply to design projects for a harmonious look.
+![monochromatic](https://static-cse.canva.com/_next/static/assets/monochromatic-colors_w1356xh780_d67493d899ff06e8423933ed0b6d5f62835d5b0bbebad4c0085ef99b4f2423a3.png)
+Image source: [www.canva.com](https://www.canva.com/colors/color-wheel/) 
 
 * **Analogous colors:** These are colors that are next to each other on the color wheel. They create a harmonious and cohesive feeling when used together.
 ![Image of Analogous colors on color wheel](https://amadine.com/assets/img/articles/rules-of-color-combination/analogous-color-scheme@2x.png)
@@ -92,6 +96,11 @@ Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combi
 * **Triadic colors:** These are three colors that are evenly spaced on the color wheel. They create a vibrant and dynamic feel when used together.
 ![Image of Triadic colors on color wheel](https://amadine.com/assets/img/articles/rules-of-color-combination/triadic-color-scheme@2x.png)
 Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
+
+* **Tetradic:**
+Four colors that are evenly spaced on the color wheel. Tetradic color schemes are bold and work best if you let one color be dominant, and use the others as accents. The more colors you have in your palette, the more difficult it is to balance.
+![Tetradic](https://static-cse.canva.com/_next/static/assets/tetradic-colors_w1356xh780_b4f150eaf1b5f705f63b62c121c6794ef60fe0baff6a1bcef2eadcbd681bbbed.png)
+Image source: [www.canva.com](https://www.canva.com/colors/color-wheel/) 
 
 **2. Warm and cool colors:**
 
@@ -117,6 +126,29 @@ A tone is created by combining black and white—or grey—with a base hue. Like
 
 ![shades, tints and tones](https://amadine.com/assets/img/articles/rules-of-color-combination/shades-tints-tones@2x.png)
 Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
+
+## CMYK Color Model
+
+**The Subtractive Power of CMYK:**
+
+Unlike our computer screens that use light to create colors (RGB model), printing uses ink. CMYK is a subtractive color model, which means it works by subtracting colors from white light. 
+
+**CMY Inks and Reflected Light:**
+
+* **Cyan (C):** Cyan ink absorbs red light and reflects blue and green, creating a cyan color.
+* **Magenta (M):** Magenta ink absorbs green light and reflects blue and red, creating a magenta color.
+* **Yellow (Y):** Yellow ink absorbs blue light and reflects red and green, creating a yellow color.
+
+**Mixing and Matching:**
+
+Just like mixing paints, combining CMY inks creates new colors. Here's a sneak peek:
+
+* Cyan + Magenta = Blue
+* Cyan + Yellow = Green
+* Magenta + Yellow = Red
+* Combining all three (CMY) creates a dark, muddy color, so...
+
+**Black Ink and Limitations:** By combining CMY inks, we can create a variety of colors. However, perfect black is difficult to achieve by just subtracting colors. That's why black (K) is often added as a separate ink in CMYK. This ensures sharp blacks and richer overall colors.
 
 **4. Hue, Saturation and Luminance:**
 

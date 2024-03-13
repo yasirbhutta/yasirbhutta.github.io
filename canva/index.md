@@ -79,6 +79,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Using text and style tabs
 - Experimenting with text effects
 
+
 ## 07. Uploading and editing video and audio [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=uploading-and-using-photos)
 
 **Key learnings:**

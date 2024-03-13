@@ -454,6 +454,98 @@ disp(x1);
 disp(x2);
 ```
 
+## pi (π) 
+
+Absolutely, pi (π) is a well-known mathematical constant that represents the ratio of a circle's circumference to its diameter. It's an irrational number, meaning it cannot be expressed as a simple fraction and its decimal representation never repeats or terminates.
+
+In MATLAB, pi is represented by the built-in constant `pi`. You can directly use it in your calculations:
+
+```matlab
+result = pi;
+disp(result);  % This will display 3.1416
+```
+
+Here are some examples of how `pi` can be used in MATLAB:
+
+* Calculate the area of a circle:
+
+```matlab
+radius = 5;
+area = pi * radius^2;
+disp(area);  % This will display the area of the circle
+```
+
+* Calculate the circumference of a circle:
+
+```matlab
+radius = 5;
+circumference = 2 * pi * radius;
+disp(circumference);  % This will display the circumference of the circle
+```
+
+## log10 
+
+In MATLAB, you can compute the base-10 logarithm (common logarithm) using the built-in function `log10`. Here's how:
+
+**Syntax:**
+
+```matlab
+Y = log10(X)
+```
+
+**Explanation:**
+
+* `Y`: This represents the output variable that will store the base-10 logarithm of the elements in `X`.
+* `X`: This can be a numeric variable, a vector, a matrix, or even a symbolic expression. `log10` operates element-wise on the elements of `X`.
+
+**Examples:**
+
+1. Calculate the base-10 logarithm of 100:
+
+```matlab
+result = log10(100);
+disp(result);  % This will display 2
+```
+
+* MATLAB also provides functions for calculating logarithms with other bases like `log2` (base-2 logarithm) and `log` (natural logarithm, base-e).
+
+**See also:**
+- MATLAB documentation for `log10` for more details and specific examples: [https://www.mathworks.com/help/matlab/ref/log10.html](https://www.mathworks.com/help/matlab/ref/log10.html)
+
+
+## exp
+
+The `exp` function in MATLAB is used to calculate the exponential of a number. An exponential term refers to a value raised to a power, where the base is Euler's number "e" (approximately 2.71828).
+
+Here's how `exp` works in MATLAB:
+
+**Syntax:**
+
+```matlab
+Y = exp(X)
+```
+
+**Explanation:**
+
+* `Y`: This represents the output variable that will store the exponential result.
+* `X`: This can be a numeric variable, a vector, a matrix, or even a symbolic expression. `exp` operates element-wise on the elements of `X`.
+
+**What it Does:**
+
+* `exp(X)` calculates the base-e exponential (e raised to the power of X) for each element in `X`.
+
+**Examples:**
+
+1. Calculate the exponential of 2:
+
+```matlab
+result = exp(2);
+disp(result);  % This will display approximately 7.3891
+```
+
+**See also:**
+- MATLAB documentation for `exp` for more details and specific examples: [https://www.mathworks.com/help/matlab/ref/exp.html](https://www.mathworks.com/help/matlab/ref/exp.html)
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
