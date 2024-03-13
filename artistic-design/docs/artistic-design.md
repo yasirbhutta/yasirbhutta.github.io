@@ -85,15 +85,18 @@ Image by: [closetomyheart.com](https://blog.closetomyheart.com/2018/01/11/color-
 ![complementary color](https://amadine.com/assets/img/articles/rules-of-color-combination/complementary-color-scheme@2x.png)
 Image source: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
 
-* **Monochromatic:** Three shades, tones and tints of one base color. Provides a subtle and conservative color combination. This is a versatile color combination that is easy to apply to design projects for a harmonious look.
+* **Monochromatic:** Three shades, tones and tints of one base color. Provides a subtle and conservative color combination. This is a versatile color combination that is easy to apply to design projects for a `harmonious look`.
+  
 ![monochromatic](https://static-cse.canva.com/_next/static/assets/monochromatic-colors_w1356xh780_d67493d899ff06e8423933ed0b6d5f62835d5b0bbebad4c0085ef99b4f2423a3.png)
 Image source: [www.canva.com](https://www.canva.com/colors/color-wheel/) 
 
-* **Analogous colors:** These are colors that are next to each other on the color wheel. They create a harmonious and cohesive feeling when used together.
+* **Analogous colors:** These are colors that are next to each other on the color wheel. They create a `harmonious` and `cohesive` feeling when used together.
+  
 ![Image of Analogous colors on color wheel](https://amadine.com/assets/img/articles/rules-of-color-combination/analogous-color-scheme@2x.png)
 Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
 
-* **Triadic colors:** These are three colors that are evenly spaced on the color wheel. They create a vibrant and dynamic feel when used together.
+* **Triadic colors:** These are three colors that are evenly spaced on the color wheel. They create a `vibrant` and `dynamic feel` when used together.
+* 
 ![Image of Triadic colors on color wheel](https://amadine.com/assets/img/articles/rules-of-color-combination/triadic-color-scheme@2x.png)
 Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combination)
 
