@@ -163,7 +163,7 @@ Just like mixing paints, combining CMY inks creates new colors:
 
 **Black Ink and Limitations:** By combining CMY inks, we can create a variety of colors. However, perfect black is difficult to achieve by just subtracting colors. That's why black (K) is often added as a separate ink in CMYK. This ensures sharp blacks and richer overall colors.
 
-## Hue, Saturation and Luminance
+## Hue, Saturation and Lightness
 
 - Hue, Saturation, and lightness (HSL) are three fundamental properties used to `describe` and `manipulate` color. 
 - They work together to create the vast spectrum of colors we perceive.
@@ -182,7 +182,7 @@ A `hue` is basically any color on the color wheel. When you are using a color wh
 **3. Lightness:**
 
 * Represents the **brightness** or **lightness** of the color.
-* Increasing luminance makes a color **brighter**, while decreasing luminance makes it **darker**.
+* Increasing Lightness makes a color **brighter**, while decreasing Lightness makes it **darker**.
 * This controls how light or dark the color is. `0% is black`, `100% is white`, and `50% is the middle ground`.
   
 [HSL Calculator \| w3schools](https://www.w3schools.com/colors/colors_hsl.asp)
