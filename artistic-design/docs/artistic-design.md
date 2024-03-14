@@ -134,17 +134,22 @@ Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combi
 
 **The Subtractive Power of CMYK:**
 
-Unlike our computer screens that use light to create colors (RGB model), printing uses ink. CMYK is a subtractive color model, which means it works by subtracting colors from white light. 
+Unlike our computer screens that use light to create colors (RGB model), printing uses ink. CMYK is a subtractive color model, which means it works by subtracting colors from white light.
+
+![cmyk color model](https://plumgroveinc.com/wp-content/uploads/featured-cmyk-color-versus-rgb-color-1280x730-thegem-blog-default.jpg)
+Image source: [plumgroveinc.com](https://plumgroveinc.com/what-is-cmyk-color/)
+
+**Subtractive Color Model:** White light contains a spectrum of all colors. When light hits an object, some wavelengths are absorbed and others are reflected. The reflected wavelengths determine the color we perceive. In printing, inks work by subtracting specific wavelengths of light.
 
 **CMY Inks and Reflected Light:**
 
-* **Cyan (C):** Cyan ink absorbs red light and reflects blue and green, creating a cyan color.
-* **Magenta (M):** Magenta ink absorbs green light and reflects blue and red, creating a magenta color.
-* **Yellow (Y):** Yellow ink absorbs blue light and reflects red and green, creating a yellow color.
+* **Cyan (C):** Cyan ink `absorbs` red light and `reflects` blue and green, creating a cyan color.
+* **Magenta (M):** Magenta ink `absorbs` green light and `reflects` blue and red, creating a magenta color.
+* **Yellow (Y):** Yellow ink `absorbs` blue light and `reflects` red and green, creating a yellow color.
 
 **Mixing and Matching:**
 
-Just like mixing paints, combining CMY inks creates new colors. Here's a sneak peek:
+Just like mixing paints, combining CMY inks creates new colors:
 
 * Cyan + Magenta = Blue
 * Cyan + Yellow = Green
@@ -209,54 +214,109 @@ By understanding the principles of color theory, you can make informed decisions
 
 ## True/False (Mark T for True and F for False)
 
+1. A tint is created by adding black to a base color.
+2. Primary colors are red, yellow, and blue in both the RYB and RGB color models.
+3. Complementary colors sit directly opposite each other on the color wheel and create high contrast.
+4. Warm colors include blue, green, and purple.
+5. Monochromatic color schemes use three shades of one base color.
+6. Mixing cyan and magenta in the RGB color model produces yellow.
+7. Tertiary colors are created by mixing a primary and a secondary color.
+8. Adding black to a base hue creates a tint of that color.
+9. Analogous colors are directly opposite each other on the color wheel.
+10. Warm colors are typically associated with coolness, like water.
+11. Secondary colors are created by mixing a primary and a tertiary color.
+
 **Answer Key (True/False):**
+
+1. False
+2. False
+3. True
+4. False
+5. True
+6. False (RGB stands for Red, Green, and Blue. These are the primary colors in this system, meaning they cannot be created by mixing other colors.)
+7. True
+8. False 
+9. False
+10. False
+11. False
 
 ## Multiple Choice (Select the best answer)
 
-Which of the following is NOT a primary color?
+> Which of the following is NOT a primary color?
 
-(a) Red
-(b) Green
-(c) Purple
-(d) Yellow
+1. [ ] Red
+2. [ ] Green
+3. [ ] Purple
+4. [ ] Yellow
 
-Mixing equal parts of red and yellow creates:
+> Mixing equal parts of red and yellow creates:
 
-(a) Orange
-(b) Blue
-(c) Green
-(d) Black
+1. [ ] Orange
+2. [ ] Blue
+3. [ ] Green
+4. [ ] Black
 
-Making a color lighter by adding white creates a:
+> Making a color lighter by adding white creates a:
+1. [ ] Shade
+2. [ ] Tint
+3. [ ] Tone
+4. [ ] Hue
 
-(a) Shade
-(b) Tint
-(c) Tone
-(d) Hue
+> Colors directly opposite each other on the color wheel are called:
+1. [ ] Analogous colors
+2. [ ] Complementary colors
+3. [ ] Tertiary colors
+4. [ ] Warm colors
 
-Colors directly opposite each other on the color wheel are called:
+> What is the primary color model used in digital design and printing?
+1. [ ] RGB
+2. [ ] CMYK
+3. [ ] HSV
+4. [ ] Pantone
 
-(a) Analogous colors
-(b) Complementary colors
-(c) Tertiary colors
-(d) Warm colors
+> In the RGB color model, mixing red and green produces which color?
+1. [ ] Blue
+2. [ ] Yellow
+3. [ ] Magenta
+4. [ ] Cyan
 
-What is the primary color model used in digital design and printing?
-a) RGB
-b) CMYK
-c) HSV
-d) Pantone
+> In the RGB color model, mixing red and green produces which color?
+1. [ ] Blue
+2. [ ] Yellow
+3. [ ] Magenta
+4. [ ] Cyan
 
-In the RGB color model, mixing red and green produces which color?
-a) Blue
-b) Yellow
-c) Magenta
-d) Cyan
+> Which property of color refers to the intensity or purity of the color?
+1. [ ] Hue
+2. [ ] Saturation
+3. [ ] Luminance
+4. [ ] Value
 
+> The color wheel used in subtractive color mixing (like printing) is:
+1. [ ] RYB (Red, Yellow, Blue)
+2. [ ] RGB (Red, Green, Blue)
+3. [ ] CMYK (Cyan, Magenta, Yellow, Black)
+4. [ ] HSL (Hue, Saturation, Luminance)
+
+> Which of the following is NOT a primary color according to the RYB color model?
+1. [ ] Red
+2. [ ] Yellow
+3. [ ] Green 
+4. [ ] Blue
 
 ## Fill in the Blanks
 
+1. A __________ is a circular diagram that organizes colors based on their relationships to each other. 
+2. The three primary colors in the traditional RYB color model are __________ , __________ , and __________ .
+3. __________ colors are created by mixing two primary colors in equal proportions. 
+4. __________ colors are often associated with feelings of warmth and energy, while __________ colors evoke feelings of calmness and tranquility. 
+
 **Answer Key (Fill in the Blanks):**
+
+1. color wheel
+2. red, yellow, blue
+3. Secondary
+4. warm, cool
 
 ## Exercises
 
@@ -269,7 +329,11 @@ d) Cyan
 - What are the three main properties of color: hue, saturation, and value?
 - How can you adjust the value of a color to create shades, tones, and tints?
 - What is the difference between a warm color and a cool color?
-
+- Can you describe the relationship between the colors of light absorbed by each ink and the color we perceive in CYMK color model?
+- What does CMYK stand for and explain it?
+- Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added
+- What is Subtractive Color Model?
+  
 ## References and Bibliography
 
 [1] B. Software, “Rules of Color Combination,” amadine.com. [https://amadine.com/useful-articles/rules-of-color-combination](https://amadine.com/useful-articles/rules-of-color-combination)
