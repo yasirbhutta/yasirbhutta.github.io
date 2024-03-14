@@ -175,14 +175,15 @@ A `hue` is basically any color on the color wheel. When you are using a color wh
 
 * Refers to the **intensity or purity** of the color.
 * A highly saturated color is **vibrant and bold**, while a less saturated color appears **muted or washed out**.
-* Increasing saturation is like adding more pigment to a color, making it richer and more intense. Decreasing saturation makes it closer to gray.
+* Increasing saturation is like adding more pigment to a color, making it richer and more intense. Decreasing saturation makes it closer to `gray`.
+* A saturation of 0% gives you a gray shade, while 100% is the full, rich color.
 
 **3. Luminance:**
 
 * Represents the **brightness** or **lightness** of the color.
 * Increasing luminance makes a color **brighter**, while decreasing luminance makes it **darker**.
-* Imagine adding white to a color to make it lighter and black to make it darker.
-
+* This controls how light or dark the color is. 0% is black, 100% is white, and 50% is the middle ground.
+  
 [HSL Calculator \| w3schools](https://www.w3schools.com/colors/colors_hsl.asp)
 
 ![HSL](https://static-cse.canva.com/_next/static/assets/hue-saturation-luminance_w1324xh780_efbe0b7b36a442313e16eb9678a65e0bdd61ccd8a3a1b64a4a1f44b0d4c08e6e.png)
@@ -212,8 +213,6 @@ Color theory is applied in various fields, including:
 * **Fashion and interior design:** Color choices play a significant role in creating a specific mood and atmosphere in clothing and living spaces.
 * **Marketing and advertising:** Businesses use color to influence consumer behavior and brand perception.
 * **User interface (UI) design:** Color plays a crucial role in making interfaces intuitive and user-friendly.
-
-By understanding the principles of color theory, you can make informed decisions about color choices in your own creative endeavors, whether it's painting, designing a website, or choosing clothes.
 
 ## Key Terms
 
@@ -339,6 +338,8 @@ By understanding the principles of color theory, you can make informed decisions
 - Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added
 - What is Subtractive Color Model?
 - What is CMYK Color?
+- What are the Applications of Color Theory?
+- What is HSL and explain it?
   
 ## References and Bibliography
 
