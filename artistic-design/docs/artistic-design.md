@@ -8,6 +8,11 @@
 
 - [Download PDF](artistic-design.pdf)
 
+**Tools:**
+- [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+- [Color Wheel Calculator \| Canva Colors](https://www.canva.com/colors/color-wheel/)
+- [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
+
 Module 1: Introduction to Artistic Design
  * Elements of Design: Line, shape, color, texture, space, value, form
  * Principles of Design: Balance, contrast, emphasis, hierarchy, pattern, rhythm, unity
@@ -333,6 +338,7 @@ By understanding the principles of color theory, you can make informed decisions
 - What does CMYK stand for and explain it?
 - Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added
 - What is Subtractive Color Model?
+- What is CMYK Color?
   
 ## References and Bibliography
 
