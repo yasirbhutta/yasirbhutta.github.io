@@ -314,7 +314,7 @@ By understanding the principles of color theory, you can make informed decisions
 1. A __________ is a circular diagram that organizes colors based on their relationships to each other. 
 2. The three primary colors in the traditional RYB color model are __________ , __________ , and __________ .
 3. __________ colors are created by mixing two primary colors in equal proportions. 
-4. __________ colors are often associated with feelings of warmth and energy, while __________ colors evoke feelings of calmness and tranquility. 
+4. __________ colors are often associated with feelings of warmth and energy, while __________ colors evoke feelings of mind coolness. 
 
 **Answer Key (Fill in the Blanks):**
 

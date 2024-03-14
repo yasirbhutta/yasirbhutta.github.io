@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>artistic-design.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #800;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+  color: #008;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #660;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #080;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+  color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #606;
+}
+
+.hljs-attribute,
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9B703F
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="introduction-to-artistic-design">Introduction to Artistic Design</h1>
+<ul>
+<li>Elements and principles of design</li>
+<li>Color theory and application</li>
+<li>Typography and hierarchy</li>
+<li>Design thinking process</li>
+</ul>
+<ul>
+<li><a href="artistic-design.pdf">Download PDF</a></li>
+</ul>
+<p><strong>Tools:</strong></p>
+<ul>
+<li><a href="https://color.adobe.com/create/color-wheel">Adobe Color Wheel</a></li>
+<li><a href="https://www.canva.com/colors/color-wheel/">Color Wheel Calculator | Canva Colors</a></li>
+<li><a href="https://www.rapidtables.com/web/color/RGB_Color.html">RGB Color Codes Chart</a></li>
+</ul>
+<p>Module 1: Introduction to Artistic Design</p>
+<ul>
+<li>Elements of Design: Line, shape, color, texture, space, value, form</li>
+<li>Principles of Design: Balance, contrast, emphasis, hierarchy, pattern, rhythm, unity</li>
+</ul>
+<p>Module 2: Color theory and application</p>
+<h2 id="color-theory-and-its-application">Color theory and its application</h2>
+<ul>
+<li>
+<p>Color theory is the study of how humans perceive color and how colors interact with each other. It delves into the science of light and color, the psychology of color perception, and the practical applications of color in various fields.</p>
+</li>
+<li>
+<p>Color theory is like a secret code for understanding colors. It teaches us two things:</p>
+<ul>
+<li><strong>How we see colors:</strong> This includes how our eyes and brains work together to make us see all the different colors around us.</li>
+<li><strong>How colors work together:</strong> Some colors look good next to each other, while others clash. Color theory helps us pick colors that look great together.</li>
+</ul>
+</li>
+</ul>
+<p>Here are the key aspects of color theory:</p>
+<h3 id="1-the-color-wheel">1. The Color Wheel</h3>
+<p>The color wheel is a fundamental tool in color theory. It is a circular diagram that organizes colors based on their relationships to each other. The most common color wheel includes 12 hues:</p>
+<p>There are two main types of color wheels used in different contexts:</p>
+<ul>
+<li><a href="https://color.adobe.com/create/color-wheel">Adobe Color Wheel</a></li>
+</ul>
+<p><strong>1. RYB (Red Yellow Blue) Color Wheel:</strong></p>
+<p>This is the traditional color wheel used by artists for mixing paints and pigments. The primary colors are red, yellow, and blue.</p>
+<ul>
+<li>
+<p><strong>Primary colors:</strong> Red, yellow, and blue are the primary colors because they cannot be created by mixing other colors.
+<img src="https://www.color-meanings.com/wp-content/uploads/color-wheel-primary-secondary-tertiary-colors-1536x1209.png" alt="Image of Primary colors on color wheel">.
+Image source: <a href="https://www.color-meanings.com/primary-secondary-tertiary-colors/">www.color-meanings.com</a></p>
+</li>
+<li>
+<p><strong>Secondary colors:</strong> Orange, green, and purple are created by mixing two primary colors in equal proportions. secondary colors are created by mixing any two primary colors.  For example, mixing red and yellow creates orange, yellow and blue creates green, and red and blue creates purple.</p>
+</li>
+<li>
+<p><strong>Tertiary colors:</strong> These are created by mixing a primary and a secondary color. There are six tertiary colors: red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.</p>
+</li>
+</ul>
+<p><strong>2. RGB (Red Green Blue) Color Wheel:</strong></p>
+<ul>
+<li>
+<p>This color wheel is used for light and digital applications such as TVs, computers, and smartphones.</p>
+</li>
+<li>
+<p>The color system that best matches the human eye is the red-green-blue color system.</p>
+</li>
+<li>
+<p><a href="https://www.canva.com/colors/color-wheel/">Color Wheel Calculator | Canva Colors</a></p>
+</li>
+<li>
+<p><a href="https://www.rapidtables.com/web/color/RGB_Color.html">RGB Color Codes Chart</a></p>
+</li>
+</ul>
+<p><strong>Primary, secondary and tertiary colors</strong> [2]</p>
+<p>There are 12 main colors on the color wheel. In the RGB color wheel, these hues are red, orange, yellow, chartreuse green, green, spring green, cyan, azure, blue, violet, magenta and rose.</p>
+<p>The color wheel can be divided into primary, secondary and tertiary colors.</p>
+<p><strong>Primary colors</strong> in the RGB color wheel are the colors that, added together, create pure white light. These colors are red, green and blue.</p>
+<p>In the RYB color wheel, primary colors are colors that can’t be mixed from other colors. There are three primary colors: red, yellow, and blue.</p>
+<p><img src="https://wtamu.edu/~cbaird/sq/images/rgb_color_wheel.png" alt="rgb color wheel">
+Image by: <a href="https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/">wtamu.edu</a></p>
+<p><strong>Secondary colors</strong> are colors that result from mixing two primary colors. There are three secondary colors. In the RGB color wheel, these are <code>cyan</code>, <code>magenta</code> and <code>yellow</code>. When you mix light, red and green make <code>yellow</code>, green and blue make <code>cyan</code>, and blue and red make <code>magenta</code>.</p>
+<p>In the RYB color wheel, the secondary colors are purple (red mixed with blue), orange (red mixed with yellow), and green (yellow mixed with blue).</p>
+<p><strong>Tertiary colors</strong> are colors made by combining a secondary color with a primary color. There are six tertiary colors. In the RGB color wheel these are <code>orange</code>, <code>chartreuse green</code>, <code>spring green</code>, <code>azure</code>, <code>violet</code> and <code>rose</code>.</p>
+<p>In the RYB color wheel, the tertiary colors are red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.</p>
+<h3 id="2-color-relationships">2. Color Relationships</h3>
+<p>Color theory defines different relationships between colors based on their positions on the color wheel:</p>
+<ul>
+<li><strong>Complementary colors:</strong> These are colors directly opposite each other on the color wheel. They create high contrast and visual interest when used together.</li>
+</ul>
+<p><img src="https://i0.wp.com/blog.closetomyheart.com/wp-content/uploads/2018/01/ctmh-colorwheel.jpg" alt="Image of Complementary colors on color wheel">
+Image by: <a href="https://blog.closetomyheart.com/2018/01/11/color-theory-complementary-colors-and-how-to-use-them/">closetomyheart.com</a></p>
+<p><img src="https://amadine.com/assets/img/articles/rules-of-color-combination/complementary-color-scheme@2x.png" alt="complementary color">
+Image source: <a href="https://amadine.com/useful-articles/rules-of-color-combination">amadine.com</a></p>
+<ul>
+<li><strong>Monochromatic:</strong> Three shades, tones and tints of one base color. Provides a subtle and conservative color combination. This is a versatile color combination that is easy to apply to design projects for a <code>harmonious look</code>.</li>
+</ul>
+<p><img src="https://static-cse.canva.com/_next/static/assets/monochromatic-colors_w1356xh780_d67493d899ff06e8423933ed0b6d5f62835d5b0bbebad4c0085ef99b4f2423a3.png" alt="monochromatic">
+Image source: <a href="https://www.canva.com/colors/color-wheel/">www.canva.com</a></p>
+<ul>
+<li><strong>Analogous colors:</strong> These are colors that are next to each other on the color wheel. They create a <code>harmonious</code> and <code>cohesive</code> feeling when used together.</li>
+</ul>
+<p><img src="https://amadine.com/assets/img/articles/rules-of-color-combination/analogous-color-scheme@2x.png" alt="Image of Analogous colors on color wheel">
+Image by: <a href="https://amadine.com/useful-articles/rules-of-color-combination">amadine.com</a></p>
+<ul>
+<li><strong>Triadic colors:</strong> These are three colors that are evenly spaced on the color wheel. They create a <code>vibrant</code> and <code>dynamic feel</code> when used together.</li>
+<li></li>
+</ul>
+<p><img src="https://amadine.com/assets/img/articles/rules-of-color-combination/triadic-color-scheme@2x.png" alt="Image of Triadic colors on color wheel">
+Image by: <a href="https://amadine.com/useful-articles/rules-of-color-combination">amadine.com</a></p>
+<ul>
+<li><strong>Tetradic:</strong>
+Four colors that are evenly spaced on the color wheel. Tetradic color schemes are bold and work best if you let one color be dominant, and use the others as accents. The more colors you have in your palette, the more difficult it is to balance.
+<img src="https://static-cse.canva.com/_next/static/assets/tetradic-colors_w1356xh780_b4f150eaf1b5f705f63b62c121c6794ef60fe0baff6a1bcef2eadcbd681bbbed.png" alt="Tetradic">
+Image source: <a href="https://www.canva.com/colors/color-wheel/">www.canva.com</a></li>
+</ul>
+<p><strong>2. Warm and cool colors:</strong></p>
+<p>Warm colors are the colors from red through to yellow. These colors are said to bring to mind warmth, like the sun.</p>
+<p>Cool colors are the colors from blue to green and purple. These colors are said to bring to mind coolness, like water. [2]</p>
+<p><img src="https://static-cse.canva.com/_next/static/assets/warm-cool-colors_w1324xh780_c98a518614243fd65bee1f65299cb560a69e4eb386b7eeb157f43e3415661b15.png" alt="warm and cool colors">
+Image by: <a href="https://www.canva.com/colors/color-wheel/">www.canva.com</a></p>
+<p><strong>3. Shades, Tints and Tones:</strong></p>
+<p>You can create shades, tints and tones of a color by adding black, grey and white to a base hue.</p>
+<p>Shade
+A shade is created by adding black to a base hue, darkening the color. This creates a deeper, richer color. Shades can be quite dramatic and can be overpowering.</p>
+<p>Tint
+A tint is created by adding white to a base hue, lightening the color. This can make a color less intense, and is useful when balancing more vivid color combinations.</p>
+<p>Tones
+A tone is created by combining black and white—or grey—with a base hue. Like tints, tones are subtler versions of the original color. Tones are less likely to look pastel, and can reveal complexities not apparent in the base color. [2]</p>
+<p><img src="https://amadine.com/assets/img/articles/rules-of-color-combination/shades-tints-tones@2x.png" alt="shades, tints and tones">
+Image by: <a href="https://amadine.com/useful-articles/rules-of-color-combination">amadine.com</a></p>
+<h2 id="cmyk-color-model">CMYK Color Model</h2>
+<p><strong>The Subtractive Power of CMYK:</strong></p>
+<p>Unlike our computer screens that use light to create colors (RGB model), printing uses ink. CMYK is a subtractive color model, which means it works by subtracting colors from white light.</p>
+<p><img src="https://plumgroveinc.com/wp-content/uploads/featured-cmyk-color-versus-rgb-color-1280x730-thegem-blog-default.jpg" alt="cmyk color model">
+Image source: <a href="https://plumgroveinc.com/what-is-cmyk-color/">plumgroveinc.com</a></p>
+<p><strong>Subtractive Color Model:</strong> White light contains a spectrum of all colors. When light hits an object, some wavelengths are absorbed and others are reflected. The reflected wavelengths determine the color we perceive. In printing, inks work by subtracting specific wavelengths of light.</p>
+<p><strong>CMY Inks and Reflected Light:</strong></p>
+<ul>
+<li><strong>Cyan (C):</strong> Cyan ink <code>absorbs</code> red light and <code>reflects</code> blue and green, creating a cyan color.</li>
+<li><strong>Magenta (M):</strong> Magenta ink <code>absorbs</code> green light and <code>reflects</code> blue and red, creating a magenta color.</li>
+<li><strong>Yellow (Y):</strong> Yellow ink <code>absorbs</code> blue light and <code>reflects</code> red and green, creating a yellow color.</li>
+</ul>
+<p><strong>Mixing and Matching:</strong></p>
+<p>Just like mixing paints, combining CMY inks creates new colors:</p>
+<ul>
+<li>Cyan + Magenta = Blue</li>
+<li>Cyan + Yellow = Green</li>
+<li>Magenta + Yellow = Red</li>
+<li>Combining all three (CMY) creates a dark, muddy color, so...</li>
+</ul>
+<p><strong>Black Ink and Limitations:</strong> By combining CMY inks, we can create a variety of colors. However, perfect black is difficult to achieve by just subtracting colors. That's why black (K) is often added as a separate ink in CMYK. This ensures sharp blacks and richer overall colors.</p>
+<p><strong>4. Hue, Saturation and Luminance:</strong></p>
+<p>Hue, Saturation, and Luminance (HSL) are three fundamental properties used to describe and manipulate color. They work together to create the vast spectrum of colors we perceive:</p>
+<p><strong>1. Hue:</strong></p>
+<p>A <code>hue</code> is basically any color on the color wheel. When you are using a color wheel or a color picker, you can adjust the saturation and luminance of a hue. [2]</p>
+<p><strong>2. Saturation:</strong></p>
+<ul>
+<li>Refers to the <strong>intensity or purity</strong> of the color.</li>
+<li>A highly saturated color is <strong>vibrant and bold</strong>, while a less saturated color appears <strong>muted or washed out</strong>.</li>
+<li>Increasing saturation is like adding more pigment to a color, making it richer and more intense. Decreasing saturation makes it closer to gray.</li>
+</ul>
+<p><strong>3. Luminance:</strong></p>
+<ul>
+<li>Represents the <strong>brightness</strong> or <strong>lightness</strong> of the color.</li>
+<li>Increasing luminance makes a color <strong>brighter</strong>, while decreasing luminance makes it <strong>darker</strong>.</li>
+<li>Imagine adding white to a color to make it lighter and black to make it darker.</li>
+</ul>
+<p><a href="https://www.w3schools.com/colors/colors_hsl.asp">HSL Calculator | w3schools</a></p>
+<p><img src="https://static-cse.canva.com/_next/static/assets/hue-saturation-luminance_w1324xh780_efbe0b7b36a442313e16eb9678a65e0bdd61ccd8a3a1b64a4a1f44b0d4c08e6e.png" alt="HSL">
+Image by: <a href="https://www.canva.com/colors/color-wheel/">www.canva.com</a>
+These three properties are often used in conjunction to represent and manipulate colors in various applications such as:</p>
+<ul>
+<li><strong>Image editing software:</strong> Programs like Photoshop and Lightroom use HSL sliders to adjust specific colors within an image.</li>
+<li><strong>UI and web design:</strong> HSL values can be used to define color schemes for websites and applications.</li>
+<li><strong>3D graphics and animation:</strong> HSL helps create and control color variations in 3D models and animations.</li>
+</ul>
+<p>Understanding HSL is crucial for manipulating and working with colors effectively in various creative and technical fields.</p>
+<p><strong>5. Color Psychology:</strong></p>
+<p>Colors are not just visual elements; they also evoke emotions and associations. Understanding the psychology of color is crucial for using color effectively in various applications. For example:</p>
+<ul>
+<li><strong>Red:</strong> Associated with energy, passion, excitement, and danger.</li>
+<li><strong>Yellow:</strong> Associated with happiness, optimism, creativity, and caution.</li>
+<li><strong>Blue:</strong> Associated with peace, trust, reliability, and sadness.</li>
+<li><strong>Green:</strong> Associated with nature, growth, harmony, and freshness.</li>
+</ul>
+<p><strong>6. Applications of Color Theory:</strong></p>
+<p>Color theory is applied in various fields, including:</p>
+<ul>
+<li><strong>Art and design:</strong> Artists and designers use color theory to create visually appealing and meaningful compositions.</li>
+<li><strong>Fashion and interior design:</strong> Color choices play a significant role in creating a specific mood and atmosphere in clothing and living spaces.</li>
+<li><strong>Marketing and advertising:</strong> Businesses use color to influence consumer behavior and brand perception.</li>
+<li><strong>User interface (UI) design:</strong> Color plays a crucial role in making interfaces intuitive and user-friendly.</li>
+</ul>
+<p>By understanding the principles of color theory, you can make informed decisions about color choices in your own creative endeavors, whether it's painting, designing a website, or choosing clothes.</p>
+<h2 id="key-terms">Key Terms</h2>
+<h2 id="truefalse-mark-t-for-true-and-f-for-false">True/False (Mark T for True and F for False)</h2>
+<ol>
+<li>A tint is created by adding black to a base color.</li>
+<li>Primary colors are red, yellow, and blue in both the RYB and RGB color models.</li>
+<li>Complementary colors sit directly opposite each other on the color wheel and create high contrast.</li>
+<li>Warm colors include blue, green, and purple.</li>
+<li>Monochromatic color schemes use three shades of one base color.</li>
+<li>Mixing cyan and magenta in the RGB color model produces yellow.</li>
+<li>Tertiary colors are created by mixing a primary and a secondary color.</li>
+<li>Adding black to a base hue creates a tint of that color.</li>
+<li>Analogous colors are directly opposite each other on the color wheel.</li>
+<li>Warm colors are typically associated with coolness, like water.</li>
+<li>Secondary colors are created by mixing a primary and a tertiary color.</li>
+</ol>
+<p><strong>Answer Key (True/False):</strong></p>
+<ol>
+<li>False</li>
+<li>False</li>
+<li>True</li>
+<li>False</li>
+<li>True</li>
+<li>False (RGB stands for Red, Green, and Blue. These are the primary colors in this system, meaning they cannot be created by mixing other colors.)</li>
+<li>True</li>
+<li>False</li>
+<li>False</li>
+<li>False</li>
+<li>False</li>
+</ol>
+<h2 id="multiple-choice-select-the-best-answer">Multiple Choice (Select the best answer)</h2>
+<blockquote>
+<p>Which of the following is NOT a primary color?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox0"><label for="checkbox0">Red</label></li>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">Green</label></li>
+<li><input type="checkbox" id="checkbox2"><label for="checkbox2">Purple</label></li>
+<li><input type="checkbox" id="checkbox3"><label for="checkbox3">Yellow</label></li>
+</ol>
+<blockquote>
+<p>Mixing equal parts of red and yellow creates:</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">Orange</label></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">Blue</label></li>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">Green</label></li>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7">Black</label></li>
+</ol>
+<blockquote>
+<p>Making a color lighter by adding white creates a:</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">Shade</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">Tint</label></li>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10">Tone</label></li>
+<li><input type="checkbox" id="checkbox11"><label for="checkbox11">Hue</label></li>
+</ol>
+<blockquote>
+<p>Colors directly opposite each other on the color wheel are called:</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox12"><label for="checkbox12">Analogous colors</label></li>
+<li><input type="checkbox" id="checkbox13"><label for="checkbox13">Complementary colors</label></li>
+<li><input type="checkbox" id="checkbox14"><label for="checkbox14">Tertiary colors</label></li>
+<li><input type="checkbox" id="checkbox15"><label for="checkbox15">Warm colors</label></li>
+</ol>
+<blockquote>
+<p>What is the primary color model used in digital design and printing?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox16"><label for="checkbox16">RGB</label></li>
+<li><input type="checkbox" id="checkbox17"><label for="checkbox17">CMYK</label></li>
+<li><input type="checkbox" id="checkbox18"><label for="checkbox18">HSV</label></li>
+<li><input type="checkbox" id="checkbox19"><label for="checkbox19">Pantone</label></li>
+</ol>
+<blockquote>
+<p>In the RGB color model, mixing red and green produces which color?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox20"><label for="checkbox20">Blue</label></li>
+<li><input type="checkbox" id="checkbox21"><label for="checkbox21">Yellow</label></li>
+<li><input type="checkbox" id="checkbox22"><label for="checkbox22">Magenta</label></li>
+<li><input type="checkbox" id="checkbox23"><label for="checkbox23">Cyan</label></li>
+</ol>
+<blockquote>
+<p>In the RGB color model, mixing red and green produces which color?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox24"><label for="checkbox24">Blue</label></li>
+<li><input type="checkbox" id="checkbox25"><label for="checkbox25">Yellow</label></li>
+<li><input type="checkbox" id="checkbox26"><label for="checkbox26">Magenta</label></li>
+<li><input type="checkbox" id="checkbox27"><label for="checkbox27">Cyan</label></li>
+</ol>
+<blockquote>
+<p>Which property of color refers to the intensity or purity of the color?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox28"><label for="checkbox28">Hue</label></li>
+<li><input type="checkbox" id="checkbox29"><label for="checkbox29">Saturation</label></li>
+<li><input type="checkbox" id="checkbox30"><label for="checkbox30">Luminance</label></li>
+<li><input type="checkbox" id="checkbox31"><label for="checkbox31">Value</label></li>
+</ol>
+<blockquote>
+<p>The color wheel used in subtractive color mixing (like printing) is:</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox32"><label for="checkbox32">RYB (Red, Yellow, Blue)</label></li>
+<li><input type="checkbox" id="checkbox33"><label for="checkbox33">RGB (Red, Green, Blue)</label></li>
+<li><input type="checkbox" id="checkbox34"><label for="checkbox34">CMYK (Cyan, Magenta, Yellow, Black)</label></li>
+<li><input type="checkbox" id="checkbox35"><label for="checkbox35">HSL (Hue, Saturation, Luminance)</label></li>
+</ol>
+<blockquote>
+<p>Which of the following is NOT a primary color according to the RYB color model?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox36"><label for="checkbox36">Red</label></li>
+<li><input type="checkbox" id="checkbox37"><label for="checkbox37">Yellow</label></li>
+<li><input type="checkbox" id="checkbox38"><label for="checkbox38">Green</label></li>
+<li><input type="checkbox" id="checkbox39"><label for="checkbox39">Blue</label></li>
+</ol>
+<h2 id="fill-in-the-blanks">Fill in the Blanks</h2>
+<ol>
+<li>A __________ is a circular diagram that organizes colors based on their relationships to each other.</li>
+<li>The three primary colors in the traditional RYB color model are __________ , __________ , and __________ .</li>
+<li>__________ colors are created by mixing two primary colors in equal proportions.</li>
+<li>__________ colors are often associated with feelings of warmth and energy, while __________ colors evoke feelings of mind coolness.</li>
+</ol>
+<p><strong>Answer Key (Fill in the Blanks):</strong></p>
+<ol>
+<li>color wheel</li>
+<li>red, yellow, blue</li>
+<li>Secondary</li>
+<li>warm, cool</li>
+</ol>
+<h2 id="exercises">Exercises</h2>
+<h2 id="review-questions">Review Questions</h2>
+<ul>
+<li>What is a color wheel, and what does it represent?</li>
+<li>What are primary colors on a color wheel? Can you mix other colors using only primaries?</li>
+<li>How are secondary colors created on a color wheel?</li>
+<li>What are complementary colors? How can you find them on a color wheel?</li>
+<li>What are the three main properties of color: hue, saturation, and value?</li>
+<li>How can you adjust the value of a color to create shades, tones, and tints?</li>
+<li>What is the difference between a warm color and a cool color?</li>
+<li>Can you describe the relationship between the colors of light absorbed by each ink and the color we perceive in CYMK color model?</li>
+<li>What does CMYK stand for and explain it?</li>
+<li>Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added</li>
+<li>What is Subtractive Color Model?</li>
+<li>What is CMYK Color?</li>
+</ul>
+<h2 id="references-and-bibliography">References and Bibliography</h2>
+<p>[1] B. Software, “Rules of Color Combination,” amadine.com. <a href="https://amadine.com/useful-articles/rules-of-color-combination">https://amadine.com/useful-articles/rules-of-color-combination</a>
+[2] Canva, “Color wheel - color theory and calculator | canva colors,” Canva’s Design Wiki, 2019. <a href="https://www.canva.com/colors/color-wheel/">https://www.canva.com/colors/color-wheel/</a>
+[3] Adobe, “What are Primary, Secondary &amp; Tertiary Colors? | Adobe,” www.adobe.com. https://www.adobe.com/creativecloud/design/discover/secondary-colors.html
+[4] C. Baird, “Why are red, yellow, and blue the primary colors in painting but computer screens use red, green, and blue?,” Science Questions with Surprising Answers, Jan. 22, 2015. https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/
+‌
+‌
+‌
+‌</p>
+
+</body>
+</html>
