@@ -29,7 +29,7 @@ Module 2: Color theory and application
 
 Here are the key aspects of color theory:
 
-### 1. The Color Wheel
+## 1. The Color Wheel
 
 The color wheel is a fundamental tool in color theory. It is a circular diagram that organizes colors based on their relationships to each other. The most common color wheel includes 12 hues:
 
@@ -38,7 +38,7 @@ There are two main types of color wheels used in different contexts:
 
 - [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 
-**1. RYB (Red Yellow Blue) Color Wheel:**
+## 1. RYB (Red Yellow Blue) Color Model
 
 This is the traditional color wheel used by artists for mixing paints and pigments. The primary colors are red, yellow, and blue.
 
@@ -49,7 +49,7 @@ Image source: [www.color-meanings.com](https://www.color-meanings.com/primary-se
 - **Secondary colors:** Orange, green, and purple are created by mixing two primary colors in equal proportions. secondary colors are created by mixing any two primary colors.  For example, mixing red and yellow creates orange, yellow and blue creates green, and red and blue creates purple.
 - **Tertiary colors:** These are created by mixing a primary and a secondary color. There are six tertiary colors: red-orange, yellow-orange, yellow-green, blue-green, blue-violet, and red-violet.
 
-**2. RGB (Red Green Blue) Color Wheel:**
+## 2. RGB (Red Green Blue) Color Model
 
   - This color wheel is used for light and digital applications such as TVs, computers, and smartphones.
   - The color system that best matches the human eye is the red-green-blue color system.
@@ -137,9 +137,9 @@ Image by: [amadine.com](https://amadine.com/useful-articles/rules-of-color-combi
 
 ## CMYK Color Model
 
-**The Subtractive Power of CMYK:**
-
-Unlike our computer screens that use light to create colors (RGB model), printing uses ink. CMYK is a subtractive color model, which means it works by subtracting colors from white light.
+- The CMYK color model, also known as the four-color process, is a subtractive color model used in `color printing`. 
+- It stands for `Cyan`, `Magenta`, `Yellow`, and `Key (Black)`. 
+- Unlike the `additive RGB model` used in `digital displays`, where colors are created by adding different intensities of light, the CMYK model works by `subtracting` varying amounts of light from white to create colors.
 
 ![cmyk color model](https://plumgroveinc.com/wp-content/uploads/featured-cmyk-color-versus-rgb-color-1280x730-thegem-blog-default.jpg)
 Image source: [plumgroveinc.com](https://plumgroveinc.com/what-is-cmyk-color/)
@@ -163,9 +163,10 @@ Just like mixing paints, combining CMY inks creates new colors:
 
 **Black Ink and Limitations:** By combining CMY inks, we can create a variety of colors. However, perfect black is difficult to achieve by just subtracting colors. That's why black (K) is often added as a separate ink in CMYK. This ensures sharp blacks and richer overall colors.
 
-**4. Hue, Saturation and Luminance:**
+## Hue, Saturation and Luminance
 
-Hue, Saturation, and Luminance (HSL) are three fundamental properties used to describe and manipulate color. They work together to create the vast spectrum of colors we perceive:
+- Hue, Saturation, and lightness (HSL) are three fundamental properties used to `describe` and `manipulate` color. 
+- They work together to create the vast spectrum of colors we perceive.
 
 **1. Hue:**
 
@@ -176,13 +177,13 @@ A `hue` is basically any color on the color wheel. When you are using a color wh
 * Refers to the **intensity or purity** of the color.
 * A highly saturated color is **vibrant and bold**, while a less saturated color appears **muted or washed out**.
 * Increasing saturation is like adding more pigment to a color, making it richer and more intense. Decreasing saturation makes it closer to `gray`.
-* A saturation of 0% gives you a gray shade, while 100% is the full, rich color.
+* A saturation of `0%` gives you a `gray` shade, while `100%` is the `full, rich color`.
 
-**3. Luminance:**
+**3. Lightness:**
 
 * Represents the **brightness** or **lightness** of the color.
 * Increasing luminance makes a color **brighter**, while decreasing luminance makes it **darker**.
-* This controls how light or dark the color is. 0% is black, 100% is white, and 50% is the middle ground.
+* This controls how light or dark the color is. `0% is black`, `100% is white`, and `50% is the middle ground`.
   
 [HSL Calculator \| w3schools](https://www.w3schools.com/colors/colors_hsl.asp)
 
@@ -196,7 +197,7 @@ These three properties are often used in conjunction to represent and manipulate
 
 Understanding HSL is crucial for manipulating and working with colors effectively in various creative and technical fields.
 
-**5. Color Psychology:**
+## Color Psychology
 
 Colors are not just visual elements; they also evoke emotions and associations. Understanding the psychology of color is crucial for using color effectively in various applications. For example:
 
@@ -205,7 +206,7 @@ Colors are not just visual elements; they also evoke emotions and associations. 
 * **Blue:** Associated with peace, trust, reliability, and sadness.
 * **Green:** Associated with nature, growth, harmony, and freshness.
 
-**6. Applications of Color Theory:**
+## Applications of Color Theory
 
 Color theory is applied in various fields, including:
 
@@ -216,6 +217,25 @@ Color theory is applied in various fields, including:
 
 ## Key Terms
 
+- Color Wheel
+- Primary Colors
+- Secondary Colors
+- Complementary Colors
+- Warm Colors
+- Monochromatic
+- Hue
+- Saturation
+- CMYK Color Model
+- Shades, Tints, and Tones
+- Subtractive Color Model
+- RGB Color Model
+- Analogous Colors
+- Triadic Colors
+- Tetradic Colors
+- Color Psychology
+- Applications of Color Theory
+- Color Theory
+  
 ## True/False (Mark T for True and F for False)
 
 1. A tint is created by adding black to a base color.
@@ -307,6 +327,48 @@ Color theory is applied in various fields, including:
 2. [ ] Yellow
 3. [ ] Green 
 4. [ ] Blue
+
+> What does CMYK stand for?
+1. [ ] Cyan, Magenta, Yellow, Key Black
+2. [ ] Cerulean, Maroon, Yellow, Khaki
+3. [ ] Cranberry, Mauve, Yellow, Khol
+4. [ ] Crimson, Magenta, Yellow, Key
+
+> CMYK is a color model used primarily for:
+1. [ ] Displaying colors on computer screens
+2. [ ] Creating colors on webpages
+3. [ ] Mixing paints for artistic purposes
+4. [ ] Printing inks for physical media
+
+> CMY are considered:
+1. [ ] Primary colors (additive)
+2. [ ] Primary colors (subtractive)
+3. [ ] Secondary colors
+4. [ ] Tertiary colors
+
+> Combining equal parts of Cyan, Magenta, and Yellow in CMYK will typically result in:
+1. [ ] Pure white
+2. [ ] A vibrant blue
+3. [ ] A dark brown
+4. [ ] Black (although true black is often achieved with "Key" black)
+
+> Why is "Key" black included in CMYK even though mixing CMY can create a dark color?
+1. [ ] To save ink by using less CMY combination
+2. [ ] To achieve deeper, richer blacks than CMY mixing allows
+3. [ ] To represent pure white in printing
+4. [ ] Because black is a primary color in subtractive mixing
+
+> HSL stands for:
+1. [ ] Hue, Saturation, Lightness
+2. [ ] Highlighting, Saturation, Luminescence
+3. [ ] Hexadecimal, Saturation, Luminance
+4. [ ] Hue, Shade, Ligh
+
+> In HSL, a Lightness value of 0% represents:
+1. [ ] Pure white
+2. [ ] The specific hue at its most vibrant
+3. [ ] Black
+4. [ ] A shade of the chosen hue
 
 ## Fill in the Blanks
 
