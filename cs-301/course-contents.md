@@ -64,5 +64,5 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [ICT: Presentation Topics](docs/topics.md)
 - [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
-- [Microsoft Word Assignment: Building a Professional Resume](assignments/ms-word-assign1.md)
+- [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
 
