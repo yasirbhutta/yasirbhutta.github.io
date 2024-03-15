@@ -50,8 +50,6 @@ Other types of computer hardware include:
   - Touchpad
   - Touchscreen
   - Joystick
-  - Pointing stick
-  - Light pen
 - Imaging and Video input devices
   - Webcam
   - Image scanner
@@ -75,6 +73,9 @@ Other types of computer hardware include:
 
 - A trackball is a pointing device consisting of a ball to move the cursor on the screen.
 
+![trackball](https://upload.wikimedia.org/wikipedia/en/8/84/Touch_mouse.jpg)
+Image source: [wikipedia.org](https://en.wikipedia.org/wiki/File:Touch_mouse.jpg)
+
 #### Touchpad
 
 - A touchpad or trackpad is a flat surface.
@@ -91,16 +92,6 @@ Other types of computer hardware include:
 - A joystick consists of a base and a stick.
 - The most common use of a joystick is for playing computer games.
   
-#### Pointing Stick
-
-- Pointing stick is a pressure-sensitive device.
-- It exits between keys on the keyboard.
-- By moving pointing stick, pointer move on the screen.
-
-#### Light Pen
-
-- A lightpen is a device similar to a touch screen, but uses a special light sensitive pen instead of the finger, which allows for more accurate screen input.
-
 #### Imaging and Video input devices
 
 ##### Web Cams
@@ -112,27 +103,47 @@ Other types of computer hardware include:
 
 - In computing, a scanner is a device that optically scans images, printed text, handwriting, or an object, and converts it to a digital image. [6]
 
+How it works:
+
+**Light It Up:** The scanner shines a light onto the document you placed on it.
+**Capturing the Reflection:** A sensor captures the reflected light, which creates information about the colors and brightness of the image.
+**Building the Digital Image:** This information is converted into a digital format, like a JPG or PDF file.
+
 ##### Fingerprint Scanner
 
 - Fingerprint scanner is used to scan the fingerprint of human.
 - Fingerprints are one of many forms of biometrics used to identify an individual and verify their identity.
 
-##### Bar Code Scanner
+##### Barcode reader
 
 A barcode reader (or barcode scanner) is an electronic device for reading barcodes printed on various surfaces.
+
+How it works:
+
+**Reading the Stripes:** It uses a light source and sensor to scan the barcode.
+**Decoding the Message:** The scanner translates the pattern of bars and spaces into electrical signals.
+**Understanding the Code:** A decoder chip then figures out the data hidden in the barcode.
+**Sending the Information:** Finally, it sends this information, like a product code, to a computer.
 
 #### Audio Input Devices
 
 ##### Microphone
 
-- A device that converts sound into electrical wave for the purpose of transmitting or recording.[7]
-Outut Devices
+- A microphone is a piece of computer hardware that converts sound waves into electrical signals. These electrical signals can then be used by the computer to record sound, or to use voice recognition software.
+
+Microphones are essential for a variety of tasks on a computer, including:
+
+- Recording audio for podcasts, videos, or music
+- Using video conferencing software to chat with friends, family, or colleagues
+- Using voice recognition software to dictate text or control your computer with your voice
+
+Most computers have a built-in microphone, but you can also purchase external microphones that offer better sound quality. 
+
 
 ### Output Devices
 
 - The hardware components that are used to receive information from the computer are called output devices.
 - Output devices take information from the computer and convert it in a form that is understandable by the users.
-- Output devices are hardware components that receive data from a computer and translate it into a format that can be understood by humans.
 
 #### Hard Copy & Soft Copy
 
@@ -175,9 +186,21 @@ Or
 
 - Printers take the information from the CPU and print it on paper.
 
+**Types of the Printers:**
+
+- **Inkjet printers:** Affordable and good for home use, offering decent print quality for documents and photos.
+- **Laser printers:** Known for their fast printing speed and crisp text output, ideal for high-volume printing needs.
+- **Dot-matrix printers:** Less common today, they were known for their reliability and ability to print multiple carbon copies, but with noisier operation and lower print quality.
+
 #### Speakers
 
-- Output devices that receive signals from the computer’s sound card to play music, narration, or sound effects.
+- A computer speaker, also sometimes called a multimedia speaker, is a type of output device for your computer. 
+- Its main function is to convert electrical signals from your computer into audible sound waves that you can hear.
+
+There are different types of computer speakers available, each catering to various needs:
+
+- **External speakers:** These are the most common type. They come in various sizes and configurations, from simple two-speaker stereo systems to surround sound setups for an immersive audio experience.
+- **Built-in speakers:** Many laptops and monitors have built-in speakers for basic audio output. While convenient, they typically offer lower sound quality compared to external speakers.
 
 #### Headphone
 
@@ -189,6 +212,18 @@ Or
 - A device that projects computer output onto a larger screen.
 - Widely used in classrooms and auditoriums etc
 
+How they work:
+
+**Input:** Connects to your computer, laptop, smartphone, or other devices through various ports like HDMI, VGA, or even wirelessly.
+**Processing:** Receives the digital data, which can be presentations, videos, images, or even your computer screen itself.
+**Projection:** Uses a powerful light source and a lens system to project an enlarged image of the received data onto the screen.
+
+**Data projectors are commonly used for:**
+
+- **Presentations:** Businesses and educators often use them to display presentations, charts, and other visual aids for a larger audience.
+- **Movies and entertainment:** They can be used for home entertainment to watch movies or play video games on a bigger screen.
+- **Public displays:** In some cases, they might be used for public displays of information or advertising in spaces like airports or train stations.
+
 ### CPU or Processor
 
 - CPU stands for `Central Processing Unit`.
@@ -196,19 +231,32 @@ Or
 - It is also called processor.
 - CPU continually receives instructions to execute. CPU performs all operations according to the given instructions. It executes instructions and tells other parts of computer what to do.
 
+**what the CPU does:**
+
+- **Fetches instructions:** The CPU retrieves instructions from the computer's memory (RAM) one at a time. These instructions tell the CPU what operations to perform.
+- **Decodes instructions:** The CPU deciphers the instructions, breaking them down into simpler steps it can understand.
+- **Executes instructions:** The CPU carries out the decoded instructions, which can involve performing mathematical calculations, making logical decisions, or moving data between different parts of the computer.
+**Controls other components:** The CPU communicates with and controls other parts of the computer, such as memory, storage devices, and input/output (I/O) devices like your keyboard or mouse.
+
+The performance of your CPU significantly impacts how fast your computer can run programs and perform tasks. Here are some key factors that affect CPU performance:
+
+- **Clock speed:** Measured in Gigahertz (GHz), it indicates the number of cycles the CPU can perform per second. Higher clock speeds generally mean faster performance.
+- **Number of cores:** Modern CPUs typically have multiple cores, allowing them to handle multiple tasks simultaneously. More cores can improve performance for multitasking and programs that can leverage multiple cores.
+- **Cache:** A small amount of high-speed memory built into the CPU that stores frequently accessed data and instructions. Faster access to this data can improve processing speed.
+
 CPU consists of two main units:
 
-- ALU ( Arithmetic and logic Unit)
-- CU ( Control Unit)
+- **ALU ( Arithmetic and logic Unit)**
+- **CU ( Control Unit)**
 
 #### ALU (Arithmetic and Logic Unit)
 
 - ALU is a part of CPU. Actual  execution of the instructions takes place in this part.
 
-It Consists Two units:
+It Consists two units:
 
-**Arithmetic Unit :** Arithmetic unit of the ALU `performs basic arithmetic functions` such as additions, subtraction, multiplications and division.
-**Logic Unit :** Logic unit of the ALU `performs logical operations` like comparing two data items to find which data item is greater than ,equal to or less than the other.
+- **Arithmetic Unit :** Arithmetic unit of the ALU `performs basic arithmetic functions` such as additions, subtraction, multiplications and division.
+- **Logic Unit :** Logic unit of the ALU `performs logical operations` like comparing two data items to find which data item is greater than ,equal to or less than the other.
 
 #### Control Unit
 
@@ -219,6 +267,13 @@ It Consists Two units:
 
 - The motherboard is `main circuit board` of a computer, usually containing the central processing unit and main system memory as well as circuitry that controls the disk drives, keyboard, monitor, and other peripheral devices.
 - It is also known as a mainboard, baseboard, system board.
+
+**Motherboard's key functions:**
+
+- **Connectivity:** It provides sockets and slots for essential components like the CPU, RAM (memory), graphics card, storage drives (hard drive or SSD), and other peripherals.
+- **Communication:** The motherboard has electrical pathways (buses) that enable all these components to transfer data and instructions between each other.
+- **Control Center:** It houses the chipset, a group of specialized chips that manage communication between different parts and control functions like USB ports, audio, and network connectivity.
+- **Power Delivery:** The motherboard distributes power from the power supply unit (PSU) to all the connected components.
 
 ![motherboard image](images/motherboard_512x.jpg)
 Image by [macrovector](https://www.freepik.com/free-vector/system-plate-pc-isometric-illustration-with-semiconductor-elements-slots-microchips-capacitors-diodes-transistors_7496526.htm#query=ram%20primary%20memory&position=18&from_view=search&track=ais&uuid=fa5ec5b5-0f6c-45d6-b8ec-a91050618307) on Freepik

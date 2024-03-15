@@ -407,8 +407,8 @@ Color theory is applied in various fields, including:
 
 [1] B. Software, “Rules of Color Combination,” amadine.com. [https://amadine.com/useful-articles/rules-of-color-combination](https://amadine.com/useful-articles/rules-of-color-combination)
 [2] Canva, “Color wheel - color theory and calculator | canva colors,” Canva’s Design Wiki, 2019. [https://www.canva.com/colors/color-wheel/](https://www.canva.com/colors/color-wheel/)
-[3] Adobe, “What are Primary, Secondary & Tertiary Colors? | Adobe,” www.adobe.com. https://www.adobe.com/creativecloud/design/discover/secondary-colors.html
-[4] C. Baird, “Why are red, yellow, and blue the primary colors in painting but computer screens use red, green, and blue?,” Science Questions with Surprising Answers, Jan. 22, 2015. https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/
+[3] Adobe, “What are Primary, Secondary & Tertiary Colors? | Adobe,” www.adobe.com. [https://www.adobe.com/creativecloud/design/discover/secondary-colors.html](https://www.adobe.com/creativecloud/design/discover/secondary-colors.html)
+[4] C. Baird, “Why are red, yellow, and blue the primary colors in painting but computer screens use red, green, and blue?,” Science Questions with Surprising Answers, Jan. 22, 2015. [https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/](https://www.wtamu.edu/~cbaird/sq/2015/01/22/why-are-red-yellow-and-blue-the-primary-colors-in-painting-but-computer-screens-use-red-green-and-blue/)
 ‌
 ‌
 ‌
