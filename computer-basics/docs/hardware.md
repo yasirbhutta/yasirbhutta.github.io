@@ -151,9 +151,14 @@ Most computers have a built-in microphone, but you can also purchase external mi
 
 **Soft Copy:** technical information stored in a computer’s memory or shown on a screen rather than printed on paper.
 
-#### Monitor
+#### 1. Monitor
 
-- A computer monitor is an electronic device that shows pictures.
+A computer monitor is an essential output device for a computer. It visually displays the information processed by the computer, allowing you to see text, images, videos, and graphics.  
+
+- **Displays Information:** Monitors translate the electronic signals from the computer's graphics card into a visual format on the screen.
+- **Types of Monitors:** Modern monitors are typically flat-panel displays, using technologies like LCD (Liquid Crystal Display) with LED backlight. Older monitors used CRT (Cathode Ray Tube) technology.
+- **Connection to Computer:** Monitors connect to the computer through various ports like HDMI, DisplayPort, DVI, or VGA.
+- **Resolution:** Monitors come in various sizes and resolutions, which determine the sharpness and detail of the displayed image.
 
 There are several types of computer monitors:
 
@@ -167,7 +172,7 @@ There are several types of computer monitors:
 
 - LED monitors are a type of LCD monitor that uses light-emitting diodes (LEDs) as the backlight instead of fluorescent lamps.
 - LEDs are more energy-efficient and have a longer lifespan than fluorescent lamps.
-- LED monitors also tend to have better image quality than LCD monitors, with higher contrast ratios and brighter colors.
+- LED monitors also tend to have `better image quality than LCD monitors`, with higher `contrast ratios` and `brighter colors`.
 
 The contrast ratio (CR) is a property of a display system, defined as the ratio of the luminance of the brightest shade (white) to that of the darkest shade (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display. [^3]
 
@@ -178,21 +183,17 @@ The contrast ratio (CR) is a property of a display system, defined as the ratio 
 - CRT monitors are also known for their excellent image quality and wide viewing angles.
 - CRT monitors are no longer commonly used, but they are still available for some specialized applications.
 
-#### Printer
+#### 2. Printer
 
 - A printer is an output device that prints characters, symbols and graphics on paper. The Printed output is called hard copy.
-
-Or
-
-- Printers take the information from the CPU and print it on paper.
 
 **Types of the Printers:**
 
 - **Inkjet printers:** Affordable and good for home use, offering decent print quality for documents and photos.
-- **Laser printers:** Known for their fast printing speed and crisp text output, ideal for high-volume printing needs.
-- **Dot-matrix printers:** Less common today, they were known for their reliability and ability to print multiple carbon copies, but with noisier operation and lower print quality.
+- **Laser printers:** Laser printers use toner for fast prints at a lower cost per page, ideal for high-volume black and white printing.
+- **Dot-matrix printers:** Less common today, they were known for their reliability and ability to print multiple carbon copies, but with `noisier operation` and `lower print quality`.
 
-#### Speakers
+#### 3. Speakers
 
 - A computer speaker, also sometimes called a multimedia speaker, is a type of output device for your computer. 
 - Its main function is to convert electrical signals from your computer into audible sound waves that you can hear.
@@ -202,12 +203,12 @@ There are different types of computer speakers available, each catering to vario
 - **External speakers:** These are the most common type. They come in various sizes and configurations, from simple two-speaker stereo systems to surround sound setups for an immersive audio experience.
 - **Built-in speakers:** Many laptops and monitors have built-in speakers for basic audio output. While convenient, they typically offer lower sound quality compared to external speakers.
 
-#### Headphone
+#### 4. Headphone
 
 - A headphone is designed to hear the sound on a computer system.
 - Headphones is a pair of small loudspeakers.
 
-#### Data Projector
+#### 5. Data Projector
 
 - A device that projects computer output onto a larger screen.
 - Widely used in classrooms and auditoriums etc
