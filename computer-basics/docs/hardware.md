@@ -247,8 +247,8 @@ The performance of your CPU significantly impacts how fast your computer can run
 
 CPU consists of two main units:
 
-- **ALU ( Arithmetic and logic Unit)**
-- **CU ( Control Unit)**
+- **ALU (Arithmetic and logic Unit)**
+- **CU (Control Unit)**
 
 #### ALU (Arithmetic and Logic Unit)
 
