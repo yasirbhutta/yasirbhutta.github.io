@@ -10,7 +10,7 @@
 
 ## Generating Row Vectors with Even Spacing in MATLAB
 
-- **a. linspace**
+### **a. linspace**
 Linspace in MATLAB is a function used to generate a row vector containing **evenly spaced values** between two specified endpoints. 
 
 **Syntax:**
@@ -30,7 +30,8 @@ Linspace in MATLAB is a function used to generate a row vector containing **even
 **See also:**
 - **MATLAB Documentation:** [https://www.mathworks.com/help/matlab/ref/linspace.html](https://www.mathworks.com/help/matlab/ref/linspace.html)
 
-- **b. logspace**
+
+### **b. logspace**
 In MATLAB, the `logspace` function is used to generate a row vector containing **logarithmically spaced values** between two specified points. It's the logarithmic counterpart of the `linspace` function you saw earlier.
 
 **Syntax:**
