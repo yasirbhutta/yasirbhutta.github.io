@@ -59,9 +59,9 @@ Image source: [www.color-meanings.com](https://www.color-meanings.com/primary-se
 
 **Primary, secondary and tertiary colors** [2]
 
-There are 12 main colors on the color wheel. In the RGB color wheel, these hues are red, orange, yellow, chartreuse green, green, spring green, cyan, azure, blue, violet, magenta and rose.
+There are `12 main colors` on the color wheel. In the `RGB` color wheel, these hues are red, orange, yellow, chartreuse green, green, spring green, cyan, azure, blue, violet, magenta and rose.
 
-The color wheel can be divided into primary, secondary and tertiary colors.
+The color wheel can be divided into `primary`, `secondary` and `tertiary` colors.
 
 **Primary colors** in the RGB color wheel are the colors that, added together, create pure white light. These colors are red, green and blue.
 
@@ -402,6 +402,15 @@ Color theory is applied in various fields, including:
 - What is CMYK Color?
 - What are the Applications of Color Theory?
 - What is HSL and explain it?
+- What does RGB stand for?
+- How are different colors created in the RGB model?
+- What are some common applications of the RGB color model?
+- How are different colors created in the RGB model?
+- What does RYB stand for in the RYB color model?
+- What are the three primary colors in the RYB model? 
+- What are the secondary colors formed by mixing primary colors in the RYB model? 
+- How do the primary colors of the RYB model differ from the primary colors in the RGB model used for light?
+- In what field is the RYB color model primarily used?
   
 ## References and Bibliography
 
