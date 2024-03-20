@@ -2,6 +2,11 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+- [Download PDF](https://yasirbhutta.github.io/matlab/docs/cve.pdf)
+
+- To access the updated lecture notes, please click on the following link:
+[https://yasirbhutta.github.io/matlab/docs/cve.html](https://yasirbhutta.github.io/matlab/docs/cve.html)
+
 ## Data Types in MATLAB
 
 In MATLAB, data types define the kind of information a variable can store and the operations allowed on them. Choosing the correct data type is crucial for optimizing memory usage, calculation accuracy, and code efficiency. Here's a breakdown of the various data types available:
@@ -657,7 +662,29 @@ disp(result);  % This will display approximately 7.3891
 
 ## Exercises
 
+- Write MATLAB code to calculate the area of a rectangle and circle, given their width, height, and radius.
+- Write MATLAB code to calculate the circumference of a rectangle, given its width and height.
+- Write MATLAB code to find the roots of a quadratic equation using the quadratic formula.
+
 ## Review Questions
+
+1. What are the different data types available in MATLAB?
+2. How can you check the data type of a variable in MATLAB? (Explain at least three methods)
+3. How are character and string data types represented and used in MATLAB?
+4. Which data type would you use to store the following:
+   - The age of a person (integer or floating-point?)
+   - A person's name
+   - The result of a mathematical calculation that involves decimals
+5. How can you convert a variable from one data type to another in MATLAB?
+6. List and describe the common arithmetic operators in MATLAB.
+7. Explain how relational operators are used in MATLAB and provide examples.
+8. What are logical operators (AND, OR, NOT) used for in MATLAB?
+9. How do you combine relational and logical operators to create complex expressions?
+10. What is the purpose of the factorial function in MATLAB, and how is it used?
+11. What is the default numeric data type in MATLAB?
+12. Discuss the advantages of using string arrays over character arrays.
+13. How can you check the data type of a variable in MATLAB?
+14. Describe the cast function in MATLAB and its purpose.
 
 ## References and Bibliography
 
