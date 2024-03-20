@@ -4,7 +4,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Download PDF](https://yasirbhutta.github.io/matlab/docs/cve.pdf)
 
-- To access the updated lecture notes, please click on the following link:
+- To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/matlab/docs/cve.html](https://yasirbhutta.github.io/matlab/docs/cve.html)
 
 ## Data Types in MATLAB
