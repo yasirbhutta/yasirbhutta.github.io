@@ -14,7 +14,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 **Important:** In MATLAB, the concept of conjugate refers to the complex conjugate of a number or element within a matrix. The complex conjugate of a complex number is a new number with the same real part but the imaginary part negated.
 
-I'd be glad to help you with accessing elements of vectors in MATLAB!
 
 ## Vectors in MATLAB
 
