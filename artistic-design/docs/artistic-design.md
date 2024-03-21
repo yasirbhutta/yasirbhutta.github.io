@@ -215,6 +215,13 @@ Color theory is applied in various fields, including:
 * **Marketing and advertising:** Businesses use color to influence consumer behavior and brand perception.
 * **User interface (UI) design:** Color plays a crucial role in making interfaces intuitive and user-friendly.
 
+## Typography in Graphic Design
+
+- The power of typography in graphic design
+- Exploring different types of fonts and their histories
+- Choosing the right font for a project
+- Principles of good typography: hierarchy, balance, and readability
+
 ## Key Terms
 
 - Color Wheel
