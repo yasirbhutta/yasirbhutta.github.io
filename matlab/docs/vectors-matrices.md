@@ -301,9 +301,6 @@ matrix_comma = [1, 4, 7; 2, 5, 8; 3, 6, 9]
 matrix_space = [1 4 7; 2 5 8; 3 6 9]
 ```
 
-In MATLAB, you can create matrices by entering elements directly. Here are some examples:
-
-
 **Example #:** Creating a 4x2 Matrix
 ```matlab
 C = [2, 4; 6, 8; 10, 12; 14, 16];
@@ -353,6 +350,71 @@ This creates a 5x1 column vector `F` with elements:
 - [Creating Matrices and Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlabmobile/ug/creating-matrices-and-arrays.html)
   
 ### Matrix Indexing in MATLAB
+
+In MATLAB, indexing into matrices allows you to access and manipulate specific elements, rows, columns, or subsets of a matrix. Here are some examples of matrix indexing in MATLAB:
+
+**Example #:** Accessing single elements:
+```matlab
+A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+element = A(2, 3); % Accesses the element in the second row and third column
+disp(element); % Displays: 6
+```
+
+**Example #:** Accessing entire rows or columns:
+```matlab
+A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+row = A(2, :); % Accesses the entire second row
+disp(row); % Displays: 4 5 6
+
+column = A(:, 3); % Accesses the entire third column
+disp(column); % Displays: 3 6 9
+```
+
+**Example #:** Assigning values to specific elements:
+```matlab
+A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+A(1, 2) = 10; % Assigns the value 10 to the element in the first row and second column
+disp(A); % Displays the updated matrix
+
+% Resulting matrix:
+% 1  10  3
+% 4   5  6
+% 7   8  9
+```
+
+**Example #:** Indexing with linear indices:
+```matlab
+A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+linear_index = [1, 4, 7]; % Linear indices of elements to access
+elements = A(linear_index); % Accesses elements using linear indices
+disp(elements); % Displays elements corresponding to linear indices
+```
+The Output of the code is:
+```
+1     2     3
+```
+
+**Example #:** Indexing with logical arrays:
+```matlab
+A = [1, 2, 3; 10, 5, 1; 4, 8, 9];
+logical_index = A > 5; % Creates a logical array indicating elements greater than 5
+disp(logical_index); % Displays the logical array
+
+% Resulting logical array:
+% 0   0   0
+% 1   0   0
+% 0   1   1
+
+% Using logical array to access elements
+elements_gt_5 = A(logical_index);
+disp(elements_gt_5); % Displays elements greater than 5
+
+% Output
+% 10
+% 8
+% 9
+```
+
 
 
 ## Key Terms
