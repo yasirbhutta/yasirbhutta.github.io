@@ -73,6 +73,10 @@ There are two main ways to access individual elements within a vector:
 - Use `end` as an index to refer to the last element: `myVector(end)`.
 - The colon operator is versatile for selecting elements or creating new vectors.
 
+**See also:**
+
+- [Matrix Indexing in MATLAB - MathWorks Docs](https://www.mathworks.com/company/technical-articles/matrix-indexing-in-matlab.html)
+
 ## Generating Row Vectors with Even Spacing in MATLAB
 
 ### **a. linspace**
@@ -257,13 +261,98 @@ v = [-10, 5, -18, 3, -12];
 rem_result = rem(v, 4);  % Remainder considering sign of dividend
 disp(rem_result)  % Output: -2 1 -2 3 -0
 ```
+## Matrices
 
-**In essence:**
+### Creating Matrices: Entering elements directly
 
-* Use `rem` if you want the remainder to have the same sign as the dividend.
-* Use `mod` if you prefer a non-negative remainder between 0 and the divisor minus one.
+**Example #:** Creating a 2x2 Matrix
 
-Both functions work effectively for modulo operations on vectors in MATLAB. Choose the one that best suits your specific needs based on the desired sign of the remainder.
+```matlab
+A = [1 2; 3 4];
+disp(A);
+```
+This creates a 2x2 matrix `A` with elements:
+```
+1  2
+3  4
+```
+
+**Example #:** Creating a 3x3 Matrix
+```matlab
+% Create a 3x3 matrix
+matrix = [1 2 3; 4 5 6; 7 8 9]
+```
+
+**Example #:** Create a 2x3 matrix
+
+```matlab
+C = [1 2 3; 4 5 6]
+```
+
+**Example #:** Specifying elements with spaces or commas
+
+Elements within a row can be separated by either commas ( , ) or spaces. Both notations achieve the same result.
+
+```matlab
+% Using commas
+matrix_comma = [1, 4, 7; 2, 5, 8; 3, 6, 9]
+
+% Using spaces
+matrix_space = [1 4 7; 2 5 8; 3 6 9]
+```
+
+In MATLAB, you can create matrices by entering elements directly. Here are some examples:
+
+
+**Example #:** Creating a 4x2 Matrix
+```matlab
+C = [2, 4; 6, 8; 10, 12; 14, 16];
+```
+This creates a 4x2 matrix `C` with elements:
+```
+2   4
+6   8
+10  12
+14  16
+```
+
+**Example #:** Creating a 3x4 Matrix
+```matlab
+D = [1, 2, 3, 4; 5, 6, 7, 8; 9, 10, 11, 12];
+```
+This creates a 3x4 matrix `D` with elements:
+```
+1   2   3   4
+5   6   7   8
+9   10  11  12
+```
+
+**Example #:** Creating a 1x5 Row Vector
+```matlab
+E = [1, 2, 3, 4, 5];
+```
+This creates a 1x5 row vector `E` with elements:
+```
+1   2   3   4   5
+```
+
+**Example #:** Creating a 5x1 Column Vector:
+```matlab
+F = [6; 7; 8; 9; 10];
+```
+This creates a 5x1 column vector `F` with elements:
+```
+6
+7
+8
+9
+10
+```
+
+**See also:**
+- [Creating Matrices and Arrays - MathWorks Help Center](https://www.mathworks.com/help/matlabmobile/ug/creating-matrices-and-arrays.html)
+  
+### Matrix Indexing in MATLAB
 
 
 ## Key Terms
