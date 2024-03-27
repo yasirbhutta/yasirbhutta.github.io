@@ -39,6 +39,24 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - How to edit templates and make them your own 
 - Organizing pages
 
+In Canva, a template refers to a pre-designed layout or framework that serves as a starting point for creating various types of visual content, including presentations, posters, social media graphics, documents, and more. Templates are designed by professional graphic designers and cover a wide range of purposes and styles.
+
+Canva offers an extensive library of templates across different categories, such as business, education, marketing, events, social media, and personal projects. Each template comes with placeholder text, images, and graphic elements that users can easily customize to suit their specific needs.
+
+Key features of templates in Canva include:
+
+1. **Ease of Use**: Templates are designed to be user-friendly, allowing individuals with little to no design experience to create professional-looking graphics quickly and easily.
+
+2. **Customization Options**: Users can customize templates by replacing placeholder text, images, and other elements with their own content. Canva provides a wide range of customization options, including text styles, fonts, colors, and graphic effects.
+
+3. **Variety**: Canva offers a diverse selection of templates to cater to different purposes, industries, and design preferences. Users can find templates for everything from business presentations to wedding invitations.
+
+4. **Consistency**: Using templates helps maintain visual consistency across various projects and ensures that branding elements are applied consistently.
+
+5. **Time-Saving**: Templates save time by eliminating the need to start from scratch when creating visual content. Users can simply choose a template that fits their needs and customize it to create a unique design in minutes.
+
+Overall, templates in Canva are valuable tools for individuals, businesses, educators, and organizations looking to create professional-quality graphics efficiently and effectively.
+
 ## 03. Using search and personalizing the editor [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-search-and-personalizing-the-editor)
 
 **Key learnings:**
@@ -56,7 +74,40 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Uploading your own images
 - Photo editing and effects
 - Downloading and sharing
-- 
+
+## Image Editing in Canva
+
+**Add Image:** This lets you upload your own photos or illustrations to your design. You can drag and drop them from your computer or choose from Canva's library of stock photos and illustrations (both free and premium).
+
+**Replace:** This allows you to easily replace an existing image with a different one. Simply select the image you want to replace and choose the new image you want to use.
+
+**Style:**  This section offers pre-designed styles you can apply to your image with a single click. These styles can include adjustments to color, brightness, contrast, and sometimes even add textures or effects. 
+
+**Effects:** This lets you add various special effects to your images, like blur, glow, sharpen, orvignette (fading the edges).
+
+**Filters:**  Canva offers a wide range of filters that can completely change the look and feel of your image. These filters can add vintage tones, black and white effects, artistic styles, and more.
+
+**Adjust:** This section provides granular control over your image's properties. You can adjust brightness, contrast, saturation, exposure, and other settings to fine-tune the look of your image.
+
+**Crop:** This tool allows you to select a specific portion of your image to keep and remove the rest. You can choose from pre-set crop ratios or manually define the area you want to keep.
+
+**Flip:** This lets you flip your image horizontally or vertically, which can be helpful for mirroring an object or correcting the orientation.
+
+**Animate:**  Canva offers basic animation features. You can use this to add subtle animations like fades or zooms to your images.
+
+**Set image as Background:** This allows you to place your image behind other elements in your design, essentially making it the background layer.
+
+**Delete Background:** This powerful feature, using AI, can automatically remove the background from your image. This is useful for creating cutouts of people, objects, or logos to use in your designs.
+
+## Managing Pages
+
+**Add page:** This lets you add new pages to your design project. This is useful for creating multi-page documents like presentations, brochures, or reports.
+
+**Duplicate:** This allows you to quickly create a copy of an existing page in your design. This can be helpful if you want to create variations of a layout or experiment with different content.
+
+**Delete:** This option allows you to remove unwanted pages from your design project. Make sure you don't need the page before deleting it!
+
+
 
 ## 05. Using and editing elements [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
 
@@ -68,6 +119,51 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Charts
 - Frames
 - Grids
+
+The Elements tab in Canva refers to a section within the Canva design interface where users can find a wide variety of graphic elements to enhance their designs. These elements include shapes, lines, graphics, icons, stickers, charts, and more. The Elements tab provides users with access to a vast library of visual assets that they can easily drag and drop into their designs.
+
+In the Elements tab of Canva, users can access a variety of assets to enhance their designs. Here's an explanation of each category:
+
+Canva categorizes design elements into different sections within the Elements tab to help you organize and find the objects you need for your project. Here's a breakdown of what each category offers:
+
+**Lines:**
+
+* These are basic lines you can add to your design. 
+* They come in various thicknesses, colors, and styles (solid, dotted, dashed).
+* Use lines to create dividers, borders, arrows, highlights, or for any other purpose where a simple straight line is needed.
+
+**Shapes:**
+
+* This category provides a wide variety of pre-made shapes you can insert into your design. 
+* You'll find basic geometric shapes (squares, circles, triangles), stars, speech bubbles, arrows, and many more creative options.
+* Shapes are often used for backgrounds, buttons, icons, diagrams, and other design elements.
+
+**Graphics:**
+
+* This section offers a collection of illustrations, icons, and other decorative elements. 
+* Canva provides a vast library with various themes and styles, allowing you to find graphics that match your design concept. 
+* You can use graphics to add visual interest, represent concepts, or enhance the overall aesthetic of your project.
+
+**Charts:**
+
+* This category allows you to create data visualizations like bar charts, pie charts, line graphs, and more. 
+* You can import your data or use the provided templates. 
+* Charts are essential for presenting information in a clear and visually appealing way.
+
+**Frames:**
+
+* Frames act as containers for other design elements like images, text, or graphics. 
+* They come in various styles and shapes, offering a way to group content together or add a decorative touch. 
+* You can use frames to create photo collages, product mockups, or highlight specific content within your design.
+
+**Grids:**
+
+* Grids are invisible layouts that help you structure and organize your design elements. 
+* They provide a framework for aligning objects and maintaining a consistent visual hierarchy. 
+* Grids are particularly useful for creating layouts for presentations, posters, or multi-page documents.
+
+By understanding the purpose of each category in the Elements tab, you can efficiently navigate Canva and find the right elements to bring your design vision to life.
+
 
 ## 06. Finding fonts and using text [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=finding-fonts-and-using-text)
 
@@ -91,11 +187,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 **Class Activity #1**
 
-1. Search single line "happy life" quotes using CoPilot.
-2. Select "TikTok Videos" template in Canva
-3. Add selected quote in video.
-4. Download final vide.
-    
+1. Search for single-line "happy life" quotes using CoPilot.
+2. Select the "TikTok Videos" template in Canva.
+3. Add the selected quote to the video.
+4. Download the final video.
+   
 
 ## 08. Sharing and collaborating on designs [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
 
@@ -295,25 +391,6 @@ By exploring these features and experimenting with different options, you can el
 
 ## Elements in Canva
 
-## Image Editing
-
-**Add Image:**
-**Replace:**
-**Style:**
-**Effects:**
-**Filters:**
-**Adjust:**
-**Crop:**
-**Flip:**
-**Animate:**
-**Set image as Background:**
-**Delete Background:**
-
-## Manages Pages
-
-**Add page:**
-**Duplicate:**
-**Delete:**
 
 
 
@@ -442,6 +519,7 @@ D) Convert images into vector graphics
 - What does BG Remover do? (Remove the background from an image)
 - What does Magic Eraser do? (Erase unwanted objects from a photo)
 - What does Magic Edit do? (Uses AI to modify specific areas of a photo)
+- 
 
 ## Assignments
 
@@ -449,11 +527,25 @@ D) Convert images into vector graphics
 
 ## Review Questions
 
-1. What is the primary function of `BG Remover` in Canva?
-2. How does `Magic Eraser tool` work in Canva?
-3. Describe the purpose of `Magic Expand` feature in Canva.
-4. What is the purpose of using `Text to Image` in Canva?
-5. What is the purpose of using `Magic Edit` in Canva?
+1. What is a Canva Template, and what are its key features?
+2. What are the main purposes of using the Elements tab in Canva?
+3. Can you differentiate between free and premium elements in the Elements tab? How?
+   
+**Answer:**
+
+There are two key ways to tell free elements apart from premium elements in Canva's Elements tab:
+
+1. **Look for the crown symbol:**  Free elements will have a simple icon, while premium elements will be marked with a small crown (♛) in the bottom right corner. This crown signifies that a license fee is required to use the element.
+
+2. **Hover over the element:** When you hover your cursor over an element, a small tooltip appears. This tooltip will display information about the element, including whether it's free or a premium element. It'll simply say "Free" or have a crown icon (♛) next to it.
+
+By using these methods, you can easily identify which elements are free to use and which ones require a purchase or a Canva Pro/Teams subscription for unlimited access.
+
+4. What is the primary function of `BG Remover` in Canva?
+5. How does `Magic Eraser tool` work in Canva?
+6. Describe the purpose of `Magic Expand` feature in Canva.
+7. What is the purpose of using `Text to Image` in Canva?
+8. What is the purpose of using `Magic Edit` in Canva?
 
 ## References and Bibliography
 

@@ -308,12 +308,109 @@ The header or footers are removed from the entire document.
 
 ## Multiple Choice (Select the best answer)
 
-What is the difference between portrait and landscape orientation in a document?
+What are page margins in Microsoft Word?
 
-a) Portrait is wider than it is tall, while landscape is taller than it is wide
-b) Portrait is used for formal documents, while landscape is used for creative projects
-c) Portrait is the default orientation, while landscape requires changing a setting
-d) All of the above
+a) The space between the text and the binding
+b) The blank space around the edges of a page
+c) The area where headers and footers are placed
+d) Lines that guide the placement of text
+
+ What are two reasons why page margins are important in a document?
+
+a) To improve readability and appearance
+b) To ensure enough space for hole punches
+c) To save ink during printing
+d) To make the document look wider
+
+What is the default page orientation in Microsoft Word?
+
+a) Landscape
+b) Portrait
+c) Continuous
+d) Sectioned
+
+Which of the following is NOT a way to change the page orientation in Microsoft Word?
+
+a) Using the Page Layout tab
+b) Using the Layout dialog box
+c) Clicking the File menu and selecting "Orientation"
+d) Right-clicking on the document and selecting "Change Orientation"
+
+What are headers and footers in Microsoft Word?
+
+a) Areas at the top and bottom of the page for repeated information
+b) Styles applied to the beginning and end of paragraphs
+c) Sections where different page margins can be used
+d) Special characters inserted to control page breaks
+
+What does page formatting in Microsoft Word refer to?
+
+A. Adding text and images to a document
+B. Setting font styles and sizes
+C. Controlling the overall layout and appearance of pages
+D. Checking spelling and grammar errors
+
+What are the two main options for page orientation in Microsoft Word?
+
+A. Portrait and landscape
+B. Horizontal and vertical
+C. Standard and wide
+D. Letter and A4
+
+What is the default page size in Microsoft Word?
+
+A. A4
+B. Legal
+C. Letter (8.5" x 11")
+D. Custom
+
+Which of the following is NOT a predefined margin setting in Microsoft Word?
+
+a) Normal
+b) Wide
+c) Narrow
+d) Custom
+
+Which of the following commands is used to adjust the blank space around the edges of a page?
+
+a) Line Spacing
+b) Paragraph Formatting
+c) Font Size
+d) Margins
+
+What are the two types of page breaks you can insert in Word?
+
+a) Soft Breaks and Hard Breaks
+b) Section Breaks and Column Breaks
+c) Line Breaks and Paragraph Breaks
+d) Header Breaks and Footer Breaks
+
+What is the difference between a Soft Page Break and a Hard Page Break in Microsoft Word?
+
+a) Soft Page Break is for even pages and Hard Page Break is for odd pages.
+b) Soft Page Break is inserted automatically by Word, while Hard Page Break is inserted manually.
+c) Soft Page Break adds a line break, while Hard Page Break starts a new page.
+d) Soft Page Break is for headers and footers, while Hard Page Break is for body text.
+
+How can you control the spacing between lines of text in Microsoft Word?
+
+a) By adjusting the font size
+b) By using the Line Spacing options
+c) Through the Paragraph Indentation settings
+d) There is no specific control for line spacing.
+
+Which command allows you to create multiple columns for text layout in your document?
+
+a) Tabs
+b) Columns
+c) Merge Cells
+d) Text Wrapping
+
+What is the shortcut key to insert a page break in Microsoft Word?
+a) Ctrl + Enter
+b) Ctrl + P
+c) Ctrl + B
+d) Ctrl + Shift + Enter
 
 ## Fill in the Blanks
 
