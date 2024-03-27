@@ -89,6 +89,14 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Photo editing and effects
 - Downloading and sharing
 
+**Class Activity #1**
+
+1. Search single line "happy life" quotes using CoPilot.
+2. Select "TikTok Videos" template in Canva
+3. Add selected quote in video.
+4. Download final vide.
+    
+
 ## 08. Sharing and collaborating on designs [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=sharing-and-collaborating-on-designs)
 
 **Key learnings:**

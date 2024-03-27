@@ -55,6 +55,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Microsoft Word Basics](../ms-word/docs/basics.md)
 - [Character Formatting](../ms-word/docs/character-formatting.md)
 - [Paragraph Formatting](../ms-word/docs/paragraph-formatting.md)
+- [Page Formatting](../ms-word/docs/page-formatting.md)
 - [Text Editing in Documents](../ms-word/docs/stylish.md)
 
 ## Microsoft Powerpoint

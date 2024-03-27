@@ -300,3 +300,27 @@ Click Remove Header or Remove Footer.
 
 The header or footers are removed from the entire document.
 
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+What is the difference between portrait and landscape orientation in a document?
+
+a) Portrait is wider than it is tall, while landscape is taller than it is wide
+b) Portrait is used for formal documents, while landscape is used for creative projects
+c) Portrait is the default orientation, while landscape requires changing a setting
+d) All of the above
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography

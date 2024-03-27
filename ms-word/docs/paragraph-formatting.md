@@ -175,12 +175,54 @@ Tabs dialog box
 Lab Assignment
 Prepare 
 
-Lab Assignment Cont. 
-Prepare 
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+Which of the following is NOT a type of paragraph alignment available in Microsoft Word?
+
+a) Left-aligned
+b) Centered
+c) Underlined
+d) Justified
+
+What is the purpose of indentation in paragraphs?
+
+a) To change the font size
+b) To control the spacing between lines
+c) To adjust the distance of the paragraph from the margins
+d) To create bulleted or numbered lists
+
+What is the default alignment for text in a paragraph in Microsoft Word?
+A) Right alignment
+B) Center alignment
+C) Justified alignment
+D) Left alignment
+
+How can you remove extra space from the left of an entire paragraph in Microsoft Word?
+A) Increase Indent
+B) Decrease Indent
+C) Line spacing
+D) Paragraph spacing
+
+What does the "RAND(X,Y)" function in Microsoft Word do?
+A) Inserts random text into the document
+B) Inserts random numbers into the document
+C) Inserts random dates into the document
+D) Inserts random formulas into the document
 
 
-Lab Assignment Cont. 
-Prepare 
 
+## Fill in the Blanks
 
-The END
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography
