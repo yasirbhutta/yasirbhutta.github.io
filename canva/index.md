@@ -185,6 +185,48 @@ By understanding the purpose of each category in the Elements tab, you can effic
 - Photo editing and effects
 - Downloading and sharing
 
+### How to Make Videos in Canva Mobile App
+
+**1. Choose your video format:**
+
+* Open the Canva app and tap on the "+" button at the bottom corner.
+* In the pop-up menu, select "Video."
+
+**2. Pick a template (optional):**
+
+* Canva offers various video templates for different purposes like social media posts, presentations, or ads. 
+* Browse the selection and tap on a template that suits your needs.
+* You can also choose "Blank video" for a fresh start.
+
+**3. Add your video clips:**
+
+* There are two ways to include videos in your project:
+   * **Upload your own videos:** Tap the "+" button again and select "Videos" to choose clips from your phone's gallery.
+   * **Use Canva videos:** Tap on the "Elements" tab at the bottom and scroll down to "Videos." Here you'll find free and premium video clips offered by Canva.
+
+**4. Edit and customize:**
+
+* Once you have your video clips on the canvas, you can edit them in various ways:
+   * `Trim or cut` unwanted parts using the editing tools on the timeline.
+   * Adjust `playback speed`, add `transitions between clips`, and `duplicate` them if needed.
+
+* You can further customize your video by adding:
+   * Text overlays: Tap on the "Text" tab and choose from a variety of fonts and styles for your titles, captions, or messages.
+   * Images and graphics: Explore the "Elements" tab to find illustrations, icons, shapes, and more to enhance your video.
+   * Music and sound effects: Tap on the "Audio" tab to browse royalty-free music tracks and sound effects to add background music or sound design.
+
+**5. Download and share:**
+
+* When you're happy with your video post, tap the "Share" button at the top right corner.
+* Choose how you want to share your video: save it to your phone's camera roll, share it directly to social media platforms, or send it via messaging apps.
+
+Here are some additional tips for creating video posts in Canva mobile app:
+
+* Pay attention to video length, especially if you're sharing it on social media platforms that have specific time limits for videos.
+* Experiment with different fonts, colors, and layouts to create a visually appealing video.
+* Use Canva's animation features to add movement and life to your text and graphics.
+
+
 **Class Activity #1**
 
 1. Search for single-line "happy life" quotes using CoPilot.
