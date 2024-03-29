@@ -124,12 +124,72 @@ In MATLAB, the `logspace` function is used to generate a row vector containing *
 ## Vector Functions
 
 ### 1. sum(x)
+
+```matlab
+v = [1, 2, 3, 4, 5];
+total_sum = sum(v);
+disp(total_sum)  % Output: 15
+```matlab
+
 ### 2. mean(x)
+
+```matlab
+v = [4, 6, 7, 3, 5];
+average_value = mean(v);
+disp(average_value)  % Output: 5
+```
+
 ### 3. length(x)
+
+```matlab
+v = [1, 2, 3, 4, 5];
+vector_length = length(v);
+disp(vector_length)  % Output: 5
+```
 ### 4. max(x)
-### 5. min(x)
+
+**Example #:** Finding the maximum element
+
+```matlab
+v = [1, 5, 2, 8, 3];
+max_element = max(v);
+disp(max_element)  % Output: 8
+```
+
+### 5. min
+
+**Example #:** Finding the minimum element
+
+```matlab
+v = [5, 2, 8, 1, 3];
+minimum_value = min(v);
+disp(minimum_value)  % Output: 1
+
+```
+
 ### 6. prod(x)
+
+**Example #:** Product of all elements
+
+```matlab
+v = [2, 3, 4, 1];
+total_product = prod(v);
+disp(total_product)  % Output: 24
+```
+
 ### 7. sign(x)
+
+- The sign function in MATLAB is useful for determining the sign (positive, negative, or zero) of elements in vectors and arrays.
+
+**Example #:** Finding the sign of each element:
+
+```matlab
+v = [1, -2, 0, 3.5, -4];
+element_signs = sign(v);
+disp(element_signs)  % Output:  1  -1   0   1  -1
+```
+This code creates a vector v and uses sign(v) to determine the sign of each element. The results are stored in element_signs. The output shows 1 for positive values, -1 for negative values, and 0 for zero.
+
 ### 8. find(x)
 
 - The `find` function in MATLAB is a versatile tool for finding specific elements or their indices within a vector. 
@@ -179,10 +239,83 @@ disp(equal_to_2)  % Output: 2
 Remember, the `find` function is a powerful tool for manipulating vectors in MATLAB. Explore the documentation [https://www.mathworks.com/help/matlab/ref/find.html](https://www.mathworks.com/help/matlab/ref/find.html) for more details and advanced usage scenarios.
 
 ### 9. fix(x)
+
+**Example #:** Fixing all elements in a vector
+
+```matlab
+v = [-2.5 1.8 4.3 -7.1];
+fixed_v = fix(v);
+disp(fixed_v)  % Output: -2  1  4  -7
+```
+This code creates a vector v with decimal values. fix(v) applies the fix function to each element, rounding them towards zero and storing the result in fixed_v.
+
 ### 10. floor
+
+The floor function in MATLAB is useful for rounding down elements in vectors (and arrays) to the nearest integer less than or equal to that element. 
+
+**Important:** floor always rounds down towards negative infinity, regardless of the sign of the input value.
+
+**Example #:** Rounding down elements in a vector
+
+```matlab
+v = [1.5, 2.8, 3.1, 4.9, 5.2];
+floored_vector = floor(v);
+disp(floored_vector)  % Output: 1  2  3  4  5
+```
+
+**Example #:** Rounding down negative decimals
+
+```matlab
+v = [-1.5, 2.8, -3.1, 4.9, -5.2];
+floored_vector = floor(v);
+disp(floored_vector)  % Output: -2  2  -4  4  -6
+```
+
 ### 11. ceil
+
+**Important point:** ceil always rounds up towards positive infinity.
+
+**Example #:** Rounding towards positive infinity
+
+```matlab
+v = [-1.5, 2.8, -3.1, 4.9, -5.2];
+ceiling_vector = ceil(v);
+disp(ceiling_vector)  % Output: -1  3  -3  5  -5
+```
+In this example, ceil(v) rounds each element in v towards positive infinity. So:
+
+- Negative decimals are rounded up to the nearest negative integer (closer to zero).
+- Positive decimals are rounded up to the nearest positive integer.
+
 ### 12. round
+
+**Example #:** Rounding to nearest integers
+
+```matlab
+v = [1.5, 2.8, -3.7, 4.9, -5.2];
+rounded_vector = round(v);
+disp(rounded_vector)  % Output: 2  3  -4  5  -5
+```
+
 ### 13. sort
+
+**Example #:** Sorting in ascending order (default)
+
+```matlab
+v = [5, 1, 4, 2, 3];
+sorted_vector = sort(v);
+disp(sorted_vector)  % Output: 1  2  3  4  5
+```
+This code creates a vector v and uses sort(v) to sort its elements in ascending order. The result is stored in sorted_vector.
+
+**Example #:** Sorting in descending order
+You can specify 'descend' as the second argument to sort in descending order:
+
+```matlab
+sorted_descending = sort(v, 'descend');
+disp(sorted_descending)  % Output: 5  4  3  2  1
+```
+
 ### 14. mod
 
 The `mod` function in MATLAB is useful for finding the remainder after element-wise division of vectors. Here are some examples of how to use it with vectors:
