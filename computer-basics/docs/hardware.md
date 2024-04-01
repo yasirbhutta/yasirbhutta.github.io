@@ -351,30 +351,48 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 - Audio ports are used to connect speakers and microphones to a computer.
 
-## True/False
 
-- A printer is an input device because it produces a physical copy of digital information.
-- USB and HDMI are examples of common types of computer ports.
-- Monitors are used to input data into the computer.
-- Buses on a motherboard have no role in data transmission between the CPU and RAM.
-- The motherboard is also known as the central processing unit (CPU).
-- The CMOS battery on a motherboard is responsible for maintaining the system time and BIOS settings, even when the computer is turned off.
-- The PSU (Power Supply Unit) in a computer converts alternating current (AC) to direct current (DC) to power the components.
-- Input devices, such as keyboards and mice, are used to send data to the computer.
-- The BIOS (Basic Input/Output System) is software that is permanently stored on a computer's motherboard.
-- Network cards are used to connect computers to a network.
-- Power supplies are used to cool the CPU and other components of the computer.
-- Software is the physical components of a computer.
-- Ports are used to connect input and output devices to a computer.
-- The data bus is responsible for transmitting data between the CPU and RAM.
-- Buses on a motherboard are responsible for connecting components within a computer, facilitating communication.
-- A USB (Universal Serial Bus) port on a motherboard is considered a type of bus.
+## True/False (Mark T for True and F for False)
 
+1. A printer is an input device because it produces a physical copy of digital information.
+2. USB and HDMI are examples of common types of computer ports.
+3. Monitors are used to input data into the computer.
+4. Buses on a motherboard have no role in data transmission between the CPU and RAM.
+5. The motherboard is also known as the central processing unit (CPU).
+6. The CMOS battery on a motherboard is responsible for maintaining the system time and BIOS settings, even when the computer is turned off.
+7. Input devices, such as keyboards and mice, are used to send data to the computer.
+8. The BIOS (Basic Input/Output System) is software that is permanently stored on a computer's motherboard.
+9.  Network cards are used to connect computers to a network.
+10. Power supplies are used to cool the CPU and other components of the computer.
+11. Software is the physical components of a computer.
+12. Ports are used to connect input and output devices to a computer.
+13. The data bus is responsible for transmitting data between the CPU and RAM.
+14. Buses on a motherboard are responsible for connecting components within a computer, facilitating communication.
+15. A USB (Universal Serial Bus) port on a motherboard is considered a type of bus.
+
+**Answer Key (True/False):**
+
+1. False
+2. True
+3. False
+4. False
+5. False
+6. True
+7. True
+8. True
+9. True
+10. False
+11. False
+12. True
+13. True
+14. True
+15. False
+    
 ## Multiple Choice
 
 > Which of the following is NOT a hardware component?
 
-1. [x] Software
+1. [x] Word
 2. [ ] CPU
 3. [ ] Motherboard
 4. [ ] RAM
