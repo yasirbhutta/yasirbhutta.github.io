@@ -358,7 +358,7 @@ Magic Eraser is a tool in Canva that lets you easily remove unwanted objects or 
 
 Canva's Text to Image is a great way to spark creativity and overcome creative blocks. With a few descriptive words, you can generate unique images that can be used in presentations, social media posts, or any other visual design project.
 
-## 11. infographics
+## 11. infographics [Video](https://www.youtube.com/watch?v=36SIUe_mOZU)
 
 Infographics are a powerful tool for communicating information in a visually appealing and easy-to-understand way. They combine text, data visualizations like charts and graphs, and images to present complex information quickly and clearly.
 
@@ -371,6 +371,68 @@ Infographics are a powerful tool for communicating information in a visually app
 - **Clearer communication:** Infographics can help to break down complex topics into simpler, easier-to-understand pieces.
 
 - **Enhanced brand awareness:** Infographics can be a great way to promote your brand and its products or services.
+
+**How to make an infographic using canva:**
+
+**1. Choose a Template:**
+
+* Open Canva and search for "Infographics" to browse their library.
+* They offer a wide range of templates for various topics and styles. Use the search filters to narrow down your options based on theme, color, or layout.
+
+**2. Customize the Template:**
+
+* Once you have a template, you can personalize it completely. Change the text, fonts, and colors to match your brand or content.
+* Most templates include placeholder text and images. Replace them with your own information and visuals.
+
+**3. Enhance with Design Elements:**
+
+* Canva offers a vast library of free and paid design elements to elevate your infographic. 
+* You can add icons, illustrations, charts, and graphs to represent your data visually.
+
+**4. Perfect and Share:**
+
+* Play around with the layout and positioning of elements to create a clear and balanced infographic. 
+* Once you're happy with the design, save and share it! You can download it as an image, PDF, or even post it directly to social media.
+
+**Using charts** [2]
+
+**Step 1: Add a chart to your design:**
+
+**Mobile:***
+1. On your  **Home screen**, create or open an existing design.
+2. From the toolbar at the bottom of the editor, tap  **Charts**. If you can’t find it, select  Apps first, and then  **Charts**.
+3. To add a chart to your design, tap on it from the options.
+
+**Step 2: Enter or import your chart data**
+
+**Mobile:**
+
+Data
+
+Under Data, tap on the fields to input the label and corresponding data. To remove data, tap on Clear data.
+
+**Adding rows**
+
+- To add a new row, tap on the last row and you’ll see a new row is added automatically.
+
+Depending on your chosen chart, tap on Settings for additional options on presenting your data.
+
+**Importing data**
+
+Use a CSV file to import your data. On your computer, you can also connect to Google Sheets to use spreadsheet data.
+
+Tap  Upload CSV, and select the file from your device to upload.
+
+Note: For now, you can only import up to 1000 rows and 100 columns of data.
+
+**Step 3: Edit chart colours and style**
+
+**See also:**
+
+- Canva's guide on creating infographics: [https://www.canva.com/create/infographics/](https://www.canva.com/create/infographics/)
+- A YouTube video tutorial on using Canva for infographics: [YouTube how to create infographic using canva](https://www.youtube.com/watch?v=36SIUe_mOZU)
+- [Using charts - canva](https://www.canva.com/help/charts/)
+- How to make an infographic - ultimate guide: [https://www.canva.com/learn/how-to-make-an-infographic/](https://www.canva.com/learn/how-to-make-an-infographic/)
 
 ## 12. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 
@@ -602,4 +664,6 @@ By using these methods, you can easily identify which elements are free to use a
 ## References and Bibliography
 
 [1]“Training: Canva for Beginners,” www.canva.com. [https://www.canva.com/designschool/courses/canva-101/](https://www.canva.com/designschool/courses/canva-101/) (accessed Feb. 29, 2024).
+[2]“Using charts,” Canva. [https://www.canva.com/help/charts/](https://www.canva.com/help/charts/) (accessed Apr. 03, 2024).
+‌
 ‌
