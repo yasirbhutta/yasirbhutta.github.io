@@ -107,8 +107,6 @@ Overall, templates in Canva are valuable tools for individuals, businesses, educ
 
 **Delete:** This option allows you to remove unwanted pages from your design project. Make sure you don't need the page before deleting it!
 
-
-
 ## 05. Using and editing elements [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=using-and-editing-elements)
 
 **Key learnings:**
@@ -226,7 +224,6 @@ Here are some additional tips for creating video posts in Canva mobile app:
 * Experiment with different fonts, colors, and layouts to create a visually appealing video.
 * Use Canva's animation features to add movement and life to your text and graphics.
 
-
 **Class Activity #1**
 
 1. Search for single-line "happy life" quotes using CoPilot.
@@ -253,7 +250,7 @@ Here are some additional tips for creating video posts in Canva mobile app:
 - Team page
 - Saving as template (Pro only)
 
-## Magic Studio
+## 10. Magic Studio
 
 **Key learnings:**
 - BG Remover
@@ -361,7 +358,21 @@ Magic Eraser is a tool in Canva that lets you easily remove unwanted objects or 
 
 Canva's Text to Image is a great way to spark creativity and overcome creative blocks. With a few descriptive words, you can generate unique images that can be used in presentations, social media posts, or any other visual design project.
 
-## 10. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
+## 11. infographics
+
+Infographics are a powerful tool for communicating information in a visually appealing and easy-to-understand way. They combine text, data visualizations like charts and graphs, and images to present complex information quickly and clearly.
+
+**Benefits of using infographics:**
+
+- **Improved information retention:** People are more likely to remember information presented in an infographic than text alone.
+
+- **Increased engagement:** Infographics are more engaging than text-heavy content, which can help to capture and hold readers' attention.
+
+- **Clearer communication:** Infographics can help to break down complex topics into simpler, easier-to-understand pieces.
+
+- **Enhanced brand awareness:** Infographics can be a great way to promote your brand and its products or services.
+
+## 12. What’s next? [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=whats-next)
 
 **Key learnings:**
 - Where can I get more help?
@@ -385,6 +396,8 @@ Flyers and posters
 Logos and branding materials
 Infographics
 Video editing (if using Canva Pro)
+
+
 
 ## Additional features (optional, based on time):
 
@@ -432,9 +445,6 @@ Canva offers a variety of text formatting features to help you create visually a
 By exploring these features and experimenting with different options, you can elevate your text presentation in your Canva designs and create impactful visuals that stand out.
 
 ## Elements in Canva
-
-
-
 
 ## Key Terms
 

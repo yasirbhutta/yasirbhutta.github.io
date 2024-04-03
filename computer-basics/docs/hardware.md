@@ -522,9 +522,24 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 ## Review Questions
 
-- What is the difference between hardware and software?
 - What are the different types of input and output devices?
+- What is the function of input devices? Give some examples.
+- What is the function of output devices? Give some examples.
+- Differentiate between a pointing device and a touchscreen.
 - What is the motherboard and what is its function?
+
+**Basics:**
+
+- What is the difference between hardware and software?
+- What are the two main categories of computer hardware? Briefly describe each category.
+  
+**Input and Output Devices:**
+
+- What are the different types of monitors?
+- What are the different types of printers?
+  
+**Central Processing Unit (CPU):**
+
 - What is the CPU and what does it do?
 
 **Answer:**
@@ -554,18 +569,25 @@ Memory Access:
 - 32-bit CPU: Can address a maximum of 4GB of RAM (random access memory). This means they can only use up to 4GB of RAM at a time.
 64-bit CPU: Can address a vast amount of RAM, theoretically up to 18 quintillion gigabytes. In practice, the actual limit depends on the specific CPU and operating system, but it's significantly higher than 32-bit CPUs.
 
-- What is the cache memory of a CPU?
-- What are some of the things to consider when choosing a CPU?
-- What are the different types of monitors?
-- What are the different types of printers?
-- What is the power supply and what does it do?
-- What is a graphics card and what does it do?
-- What are the different types of ports on a computer?
+**Motherboard:**
+
+- What is the motherboard and what is its function in a computer?
+- What are some of the key components connected to the motherboard?
 - What is the purpose of a motherboard in a computer, and what components are typically connected to it?
+- What is the cache memory of a CPU?
+- What is the CPU and what is its role in a computer system?
+- What are some of the things to consider when choosing a CPU?
+ 
+**Other Components:**
+
+- What is the function of a power supply unit (PSU)?
+- What is a graphics card and when might you need one?
+- What are some different types of computer ports, and what devices do they connect to?
+- What is a network card (NIC) and how does it function?
 - What is the purpose of the CMOS battery in a computer, and what happens if it fails?
 - What is a network card (NIC), and how does it facilitate network connectivity in a computer?
-
-## References
+  
+## References and Bibliography
 
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
