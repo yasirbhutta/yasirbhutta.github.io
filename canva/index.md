@@ -362,6 +362,14 @@ Canva's Text to Image is a great way to spark creativity and overcome creative b
 
 Infographics are a powerful tool for communicating information in a visually appealing and easy-to-understand way. They combine text, data visualizations like charts and graphs, and images to present complex information quickly and clearly.
 
+Infographics are a versatile tool that can be used for various purposes, including:
+
+- Presenting complex data
+- Simplifying scientific concepts
+- Telling a story
+- Raising awareness
+- Promoting a product or service
+
 **Benefits of using infographics:**
 
 - **Improved information retention:** People are more likely to remember information presented in an infographic than text alone.
@@ -396,12 +404,18 @@ Infographics are a powerful tool for communicating information in a visually app
 
 **Using charts** [2]
 
+Charts are useful for representing data in presentations, documents, and other designs.
+
 **Step 1: Add a chart to your design:**
 
 **Mobile:***
 1. On your  **Home screen**, create or open an existing design.
 2. From the toolbar at the bottom of the editor, tap  **Charts**. If you can’t find it, select  Apps first, and then  **Charts**.
-3. To add a chart to your design, tap on it from the options.
+3. Next, Choose from different chart styles:
+   - Bar charts
+   - Line and dot charts
+   - Pie charts
+   - Infographic charts
 
 **Step 2: Enter or import your chart data**
 
@@ -426,6 +440,10 @@ Tap  Upload CSV, and select the file from your device to upload.
 Note: For now, you can only import up to 1000 rows and 100 columns of data.
 
 **Step 3: Edit chart colours and style**
+
+- Adjust chart colors using the editor toolbar.
+- Apply brand colors if brand control is enabled for your team.
+- Copy and apply colors across different charts.
 
 **See also:**
 
