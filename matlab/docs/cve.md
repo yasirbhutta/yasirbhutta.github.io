@@ -148,7 +148,7 @@ Some common MATLAB functions used to change data types:
 convertedInt = cast(12.34, 'int32');
 
 % Convert a string to a double
-convertedDouble = cast('3.14', 'double');
+convertedDouble = cast("100", 'double');
 ```
 
 **Additional points:**
@@ -573,7 +573,7 @@ disp(result);  % This will display approximately 7.3891
 3. double
 4. string
 
-> What is the output of the following code: cast('100', 'uint8')?
+> What is the output of the following code: cast("100", 'double')?
 1. 100
 2. '100'
 3. Error
@@ -581,14 +581,14 @@ disp(result);  % This will display approximately 7.3891
 
 > What is the advantage of using string data types compared to character arrays for storing text data?
 
-1. Strings can only store a fixed length of text.
-2. Strings offer built-in functions for various string operations. (Correct Answer)
-3. Strings require less memory than character arrays.
-4. There's no significant difference for short text data.
+1. [ ] Strings can only store a fixed length of text.
+2. [ ] Strings offer built-in functions for various string operations.
+3. [ ] Strings require less memory than character arrays.
+4. [ ] There's no significant difference for short text data.
 
 > When working with memory limitations and calculations involving whole numbers, what data type is a good choice?
 1. single
-2. uint16 (Correct Answer)
+2. uint16
 3. string
 4. complex
 
@@ -605,8 +605,8 @@ disp(result);  % This will display approximately 7.3891
 4. Complex
 
 > Which data type in MATLAB is used to represent true or false values?
-1. Logical
-2. Boolean
+1. logical
+2. complex
 3. Binary
 4. Bitwise
    
@@ -618,7 +618,7 @@ disp(result);  % This will display approximately 7.3891
 
 > How do you calculate the remainder of a division in MATLAB?
 1. /
-2. mod
+2. mode
 3. rem
 4. floor
 

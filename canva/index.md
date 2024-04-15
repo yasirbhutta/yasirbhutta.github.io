@@ -445,6 +445,39 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 - Apply brand colors if brand control is enabled for your team.
 - Copy and apply colors across different charts.
 
+**Class Activity:**
+
+- Create bar chart and line chart using Canva 
+
+**Example Datasets:** 
+
+1. Monthly Online Store Revenue
+
+| Month          | Revenue |
+| -------------- | ------- |
+| April 2023     | 10500 |
+| May 2023       | 12800 |
+| June 2023      | 11200 |
+| July 2023      | 8500  |
+| August 2023    | 9200  |
+| September 2023 | 13000 |
+| October 2023   | 15200 |
+| November 2023  | 22000 |
+| December 2023  | 28500 |
+| January 2024   | 14700 |
+| February 2024  | 11000 |
+| March 2024     | 12100 |
+
+2. Quarterly Customer Satisfaction Ratings
+
+| Quarter | Rating (out of 5) |
+| ------- | ----------------- |
+| Q1 2023 | 3.8               |
+| Q2 2023 | 4.1               |
+| Q3 2023 | 3.6               |
+| Q4 2023 | 4.3               |
+
+
 **See also:**
 
 - Canva's guide on creating infographics: [https://www.canva.com/create/infographics/](https://www.canva.com/create/infographics/)
