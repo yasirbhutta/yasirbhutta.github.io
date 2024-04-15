@@ -152,38 +152,82 @@ Optical Disk uses laser technology to read and write data.
 - CDs are the oldest type of optical storage device and have a capacity of up to 700MB.
   
 **Types:**
-`CD-ROM:` Compact disk with read only memory
-`CD-W:` Compact disk for write once and read many times(WORM).  It then becomes a read only disk.
-`CD-RW:` Compact disk which you may read and rewrite many times.
+
+- `CD-ROM:` Compact disk with read only memory
+- `CD-W:` Compact disk for write once and read many times(WORM).  It then becomes a read only disk.
+- `CD-RW:` Compact disk which you may read and rewrite many times.
 
 ##### Digital Video Disk(DVD)
 
 - The DVD (common abbreviation for Digital Video Disc or Digital Versatile Disc)
 - DVDs are of the same dimensions as compact discs (CDs), but store more than six times as much data. Allows up to 17 gigabytes of storage (from 4.7 GB to 17 GB).
 
-**Types:*
+**Types:**
 
-`DVD ROM:` Digital Video Disk which is read only.
-`DVD-W:` Digital Video Disk which can be written to one time.  It then becomes read only.
-`DVD-RW:` Digital Video Disk which can be rewritten many time.
+- `DVD ROM:` Digital Video Disk which is read only.
+- `DVD-W:` Digital Video Disk which can be written to one time.  It then becomes read only.
+- `DVD-RW:` Digital Video Disk which can be rewritten many time.
 
 ##### Blu-ray Discs (BDs)
 
 -BDs have a capacity of up to 128GB.
 
+## Additional topics
+
+## Flash memory
+
+Flash memory is a type of computer storage that combines the best of two worlds:
+
+- **Non-volatile:** Like a hard drive, it retains data even when the power is off. This makes it ideal for storing important files, documents, and programs.
+- **Rewritable:** Unlike a hard drive, you can erase and rewrite data on flash memory multiple times. This makes it useful for portable devices like USB drives and memory cards, where you frequently add, remove, or update files.
+
+**How it works:**
+
+* **Flash memory chips** are made up of tiny cells that store data using electrical charges.
+* These cells use transistors called **floating-gate transistors**.
+* The amount of charge in the floating gate determines whether a bit is stored as 0 or 1.
+
+There are two main types of flash memory:
+
+- **NAND flash:** This is the most common type, found in USB drives, memory cards, and solid-state drives (SSDs). It's faster for writing large amounts of data but has a limited number of erase cycles.
+- **NOR flash:** This type is less common but offers faster read speeds and more erase cycles. It's often used for storing code that needs to be accessed quickly, such as the BIOS in a computer.
+
+Here are some of the advantages of flash memory:
+
+- **Portable:**  Due to its small size and lightweight design, it's perfect for mobile devices.
+- **Durable:** Flash memory is more resistant to physical shock and vibration compared to hard drives.
+- **Fast:** Flash memory can read and write data much faster than traditional hard drives.
+- **Low power consumption:** Flash memory uses less power than hard drives, making it ideal for laptops and other battery-powered devices.
+
+Overall, flash memory is a versatile and reliable storage solution for various electronic devices.
+
 ## True/False (Mark T for True and F for False)
 
-- Processor registers are the fastest form of computer storage. (True)
-- The CPU can directly access data stored in secondary storage. (False)
-- Secondary storage devices are more expensive than primary storage devices. (Generally True)
-- Optical disks, like CDs and DVDs, can only be read, not written to. (False)
-- Solid-state drives (SSDs) are faster than traditional hard disk drives (HDDs). (True)
-- The main reason to use storage devices is for permanent data storage. (True)
-- The acronym RAM stands for Random Access Memory. (True)
-- The acronym HDD stands for Hard Disk Drive. (True)
-- The acronym SSD stands for Solid-State Drive. (True)
-- The acronym CD-ROM stands for Compact Disc Read-Only Memory. (True)
-- The acronym DVD stands for Digital Video Disc. (True)
+1. Processor registers are the fastest form of computer storage. 
+2. The CPU can directly access data stored in secondary storage. 
+3. Secondary storage devices are more expensive than primary storage devices. 
+4. Optical disks, like CDs and DVDs, can only be read, not written to. 
+5. Solid-state drives (SSDs) are faster than traditional hard disk drives (HDDs). 
+6. The main reason to use secondary storage devices is for permanent data storage. 
+7. The acronym RAM stands for Random Access Memory. 
+8. The acronym HDD stands for Hard Disk Drive. 
+9. The acronym SSD stands for Solid-State Drive. 
+10. The acronym CD-ROM stands for Compact Disc Read-Only Memory. 
+11. The acronym DVD stands for Digital Video Disc. 
+
+**Answer Key (True/False):**
+
+1. True
+2. False
+3. True
+4. False
+5. True
+6. True
+7. True
+8. True
+9. True
+10. True
+11. True
 
 ## Multiple Choice (Select the best answer)
 

@@ -528,6 +528,7 @@ The Output of the code is:
 ```
 
 **Example #:** Indexing with logical arrays:
+
 ```matlab
 A = [1, 2, 3; 10, 5, 1; 4, 8, 9];
 logical_index = A > 5; % Creates a logical array indicating elements greater than 5
@@ -548,7 +549,79 @@ disp(elements_gt_5); % Displays elements greater than 5
 % 9
 ```
 
+## Concatenation of Matrices
 
+**Using square brackets ([]):**
+
+- This is a simpler approach for basic concatenation.
+- Use commas (,) to concatenate matrices horizontally (side-by-side). The matrices must have the same number of rows.
+- Use semicolons (;) to concatenate matrices vertically (on top of each other). The matrices must have the same number of columns.
+
+**Example #:** Horizontal concatenation:
+
+```matlab
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+
+% Using square brackets
+C = [A, B];
+
+disp(C);
+```
+
+**Example #:** Vertical concatenation
+
+```matlab
+A = [1 2; 3 4];
+B = [5 6; 7 8; 9 10];
+
+% Using square brackets
+C = [A; B];
+
+disp(C);
+```
+
+**Example #**
+
+```matlab
+% Creating two matrices
+A = [1 2 3; 4 5 6];
+B = [7 8 9; 10 11 12];
+
+% Vertical concatenation
+C = [A; B];
+disp(C);
+```
+**Output:**
+
+```matlab
+1     2     3
+4     5     6
+7     8     9
+10    11    12
+
+```
+
+**Example #:** Mixed Concatenation (Combination of Vertical and Horizontal)
+
+```matlab
+% Creating matrices
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+C = [9 10 11 12];
+
+% Horizontal concatenation of A and B, followed by vertical concatenation with C
+D = [A B; C];
+disp(D);
+```
+
+**Output:**
+
+```matlab
+1     2     5     6
+3     4     7     8
+9    10    11    12
+```
 
 ## Key Terms
 
