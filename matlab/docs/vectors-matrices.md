@@ -623,6 +623,203 @@ disp(D);
 9    10    11    12
 ```
 
+## Special matrices
+
+### 1. zeros
+### 2. ones
+### 3. eye
+### 4. rand
+### 5. rands
+### 6. vender
+### 7. diag
+
+## Functions related to matrices
+
+### 1. det
+### 2. rank
+
+**Example #:**
+
+```matlab
+% Create a 3x3 matrix A
+A = [[1, 2, 3], [2, 4, 6], [0, 0, 0]];
+
+% Calculate the rank of matrix A
+% Rank represents the maximum number of linearly independent rows/columns
+rank_of_A = rank(A);
+
+% Display the rank of matrix A
+disp(['The rank of matrix A is: ', num2str(rank_of_A)]);
+```
+### 3. trace
+The most common use of trace in MATLAB is to calculate the sum of the elements on the main diagonal of a square matrix.
+
+**Example #:**
+```matlab
+% Define a square matrix
+A = [1 2 3; 4 5 6; 7 8 9];
+
+% Calculate the trace of A (sum of diagonal elements)
+trace_of_A = trace(A);
+
+% Display the result
+disp(['The trace of A is: ', num2str(trace_of_A)]);
+```
+### 4. inv
+
+### 5. norm
+
+The `norm` function in MATLAB calculates the norm of a vector or matrix. The norm represents the **magnitude or size** of the mathematical object. There are different types of norms depending on the value of a second argument (p) you provide to the function.
+
+Here's a breakdown of how `norm` works in MATLAB:
+
+**Syntax:**
+
+```matlab
+norm(X)
+norm(X, p)
+```
+
+- `X` is the vector or matrix for which you want to find the norm.
+- `p` (optional) specifies the type of norm:
+    * If omitted (p is empty), `norm` calculates the **2-norm** (Euclidean norm) for vectors and the **maximum singular value** (operator norm) for matrices (which approximates the 2-norm for matrices).
+   
+- n = norm(X,p) returns the p-norm of matrix X, where p is 1, 2, or Inf:
+  - If p = 1, then n is the maximum absolute column sum of the matrix.
+  - If p = 2, then n is approximately max(svd(X)). This value is equivalent to norm(X).
+  - If p = Inf, then n is the maximum absolute row sum of the matrix.
+
+**Examples:**
+
+1. **2-norm (Euclidean norm) of a vector:**
+
+**Important:** The Euclidean norm of a square matrix is the square root of the sum of all the squares of the elements.
+
+   ```matlab
+   v = [1 2 3];
+   vector_norm = norm(v);
+   disp(['The 2-norm (Euclidean norm) of v is: ', num2str(vector_norm)])
+   ```
+
+2. **1-norm of a matrix:**
+
+**Important:** The 1-norm of a square matrix is the maximum of the absolute column sums. [2]
+
+   ```matlab
+   A = [1 2; 3 4];
+   matrix_norm_1 = norm(A, 1);
+   disp(['The 1-norm of A is: ', num2str(matrix_norm_1)])
+   ```
+
+3. **Infinity norm of a matrix:**
+
+**Important:** The infinity-norm of a square matrix is the maximum of the absolute row sums.
+
+   ```matlab
+   B = [5 0; -1 2];
+   matrix_norm_inf = norm(B, Inf);
+   disp(['The infinity norm of B is: ', num2str(matrix_norm_inf)])
+   ```
+
+
+
+
+
+**In summary:**
+
+* `norm` calculates the norm of a vector or matrix.
+* The type of norm depends on the second argument (p).
+* By default (p omitted), it calculates the 2-norm for vectors and the maximum singular value for matrices.
+
+**See also:**
+- [Vector and matrix norms - MATLAB norm](https://www.mathworks.com/help/matlab/ref/norm.html)
+- https://www.sciencedirect.com/topics/mathematics/euclidean-norm
+- https://bathmash.github.io/HELM/30_4_mtrx_norms-web/30_4_mtrx_norms-webse1.html
+  
+### 6. transpose
+
+In MATLAB, you can transpose a matrix using two main methods:
+
+1. **Single Quote ('):**
+
+   This is the most common and concise way to find the transpose. The single quote symbol (') is appended to the matrix name. The transpose operation swaps the rows and columns of the original matrix.
+
+   Here's the syntax:
+
+   ```matlab
+   B = A'  % ' denotes transpose
+   ```
+
+   * `A` is the original matrix.
+   * `B` is the resulting transposed matrix.
+
+2. **`transpose` function:**
+
+   This function offers an alternative way to achieve the transpose. It's functionally equivalent to the single quote method.
+
+   Here's the syntax:
+
+   ```matlab
+   B = transpose(A)
+   ```
+
+**Important Notes:**
+
+* Both methods create a **new** matrix (`B`) containing the transposed elements. They don't modify the original matrix (`A`).
+* This operation works for matrices of any dimension (not just square matrices).
+
+**Example:**
+
+```matlab
+% Define a matrix
+A = [1 2 3; 4 5 6];
+
+% Find the transpose using single quote
+B = A';
+
+% Find the transpose using transpose function
+C = transpose(A);
+
+% Display the original and transposed matrices
+disp('Original matrix A:');
+disp(A);
+
+disp('Transposed matrix B (using single quote):');
+disp(B);
+
+disp('Transposed matrix C (using transpose function):');
+disp(C);
+```
+
+**This code will output:**
+
+```
+Original matrix A:
+  1  2  3
+  4  5  6
+
+Transposed matrix B (using single quote):
+  1  4
+  2  5
+  3  6
+
+Transposed matrix C (using transpose function):
+  1  4
+  2  5
+  3  6
+```
+
+As you can see, both methods produce the same transposed matrix.
+
+### 7. x = A\b
+### 8. poly
+### 9. eig
+### 10. eigs
+### 11. orth
+
+
+
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
@@ -646,4 +843,6 @@ disp(D);
 ## References and Bibliography
 
 [1] “M.2 Matrix Arithmetic | STAT ONLINE,” PennState: Statistics Online Courses. https://online.stat.psu.edu/statprogram/reviews/matrix-algebra/arithmetic
+[2] “Matrix norms,” bathmash.github.io. https://bathmash.github.io/HELM/30_4_mtrx_norms-web/30_4_mtrx_norms-webse1.html (accessed Apr. 16, 2024).
+‌
 ‌

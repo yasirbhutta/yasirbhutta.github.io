@@ -295,12 +295,17 @@ Overall, flash memory is a versatile and reliable storage solution for various e
 - What are the advantages and disadvantages of using HDDs?
 - Describe the different types of optical storage devices and their capacities.
 - How has flash memory technology changed the way we store data?
-- What are some of the future trends in data storage?
 - What is RAM (Random Access Memory)?
 - What is an SSD?
 - What are the advantages of SSDs over HDDs?
 - What is the difference between primary and secondary storage?
 - Give examples of primary and secondary storage devices?
+- What is the main purpose of secondary storage devices?
+- Explain the function of optical storage devices in computer systems.
+- What factors contribute to the increasing popularity of SSDs over HDDs?
+- Differentiate between primary and secondary storage, providing examples of each type and their respective functions in a computer system.
+- Explain the concept of optical storage devices and their utilization in computer systems. Provide examples and describe their capacities.
+- How does flash memory technology revolutionize data storage compared to traditional magnetic storage? Discuss the benefits and applications of flash memory devices such as USB flash drives and solid-state drives (SSDs).
 
 ## References and Bibliography
 
