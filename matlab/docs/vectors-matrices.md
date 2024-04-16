@@ -642,7 +642,7 @@ disp(D);
 
 ```matlab
 % Create a 3x3 matrix A
-A = [[1, 2, 3], [2, 4, 6], [0, 0, 0]];
+A = [1, 2, 3; 2, 4, 6; 0, 0, 0];
 
 % Calculate the rank of matrix A
 % Rank represents the maximum number of linearly independent rows/columns
