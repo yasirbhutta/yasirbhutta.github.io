@@ -611,24 +611,24 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 
 **Example Datasets:** 
 
-1. Monthly Online Store Revenue
+1. **Monthly Online Store Revenue**
 
 | Month          | Revenue |
 | -------------- | ------- |
 | April 2023     | 10500 |
 | May 2023       | 12800 |
-| June 2023      | 11200 |
-| July 2023      | 8500  |
-| August 2023    | 9200  |
-| September 2023 | 13000 |
-| October 2023   | 15200 |
-| November 2023  | 22000 |
-| December 2023  | 28500 |
-| January 2024   | 14700 |
-| February 2024  | 11000 |
-| March 2024     | 12100 |
+| Jun 2023      | 11200 |
+| Jul 2023      | 8500  |
+| Aug 2023    | 9200  |
+| Sep 2023 | 13000 |
+| Oct 2023   | 15200 |
+| Nov 2023  | 22000 |
+| Dec 2023  | 28500 |
+| Jan 2024   | 14700 |
+| Feb 2024  | 11000 |
+| Mar 2024     | 12100 |
 
-2. Quarterly Customer Satisfaction Ratings
+2. **Quarterly Customer Satisfaction Ratings**
 
 | Quarter | Rating (out of 5) |
 | ------- | ----------------- |
@@ -636,7 +636,6 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 | Q2 2023 | 4.1               |
 | Q3 2023 | 3.6               |
 | Q4 2023 | 4.3               |
-
 
 **See also:**
 
@@ -660,7 +659,6 @@ Adding text and fonts
 Using images and graphics (free and paid options)
 Working with colors and backgrounds
 Resizing and positioning elements
-
 
 ## Additional features (optional, based on time):
 
