@@ -813,7 +813,80 @@ As you can see, both methods produce the same transposed matrix.
 
 ### 7. x = A\b
 ### 8. poly
+
+**Example #:** Finding the Characteristic Polynomial of a Matrix:
+
+If you provide a square matrix (A), the poly function will return the coefficients of the characteristic polynomial of that matrix. The characteristic polynomial is a polynomial whose roots are the eigenvalues of the matrix.
+
+```matlab
+A = [1 2; 3 4];
+p = poly(A);
+disp(p);  % This will display the coefficients of the characteristic polynomial
+```
+
 ### 9. eig
+
+The `eig` function in MATLAB is a powerful tool for working with eigenvalues and eigenvectors. Here's a detailed explanation of its functionalities:
+
+**What it does:**
+
+* The `eig` function computes the eigenvalues and eigenvectors of a square matrix.
+
+**Inputs:**
+
+* The primary input to `eig` is a square matrix (`A`).
+
+**Outputs:**
+
+* `eig` can return two or three outputs depending on how you use it:
+    * `e = eig(A)`: This returns a column vector containing the eigenvalues of `A`.
+    * `[V, D] = eig(A)`: This returns two matrices:
+        * `V`: A matrix whose columns are the eigenvectors of `A`. Each column corresponds to an eigenvalue in the diagonal matrix `D`.
+        * `D`: A diagonal matrix containing the eigenvalues of `A` on its main diagonal. (The order of eigenvalues in `D` corresponds to the columns in `V`).
+   
+**Understanding Eigenvalues and Eigenvectors:**
+
+Before diving deeper into `eig`, it's crucial to understand eigenvalues (λ) and eigenvectors (v) of a matrix:
+
+* **Eigenvalue (λ):** A scalar value associated with a square matrix. It represents the scaling factor when a particular eigenvector is multiplied by the matrix.
+* **Eigenvector (v):** A non-zero vector that, when multiplied by the matrix, gets scaled by the eigenvalue but doesn't change direction.
+
+**Eigenvalue Equation:**
+
+Mathematically, this relationship is expressed by the equation Av = λv, where:
+
+- A represents the matrix that defines the linear transformation.
+- v represents the eigenvector.
+- λ represents the eigenvalue.
+
+
+**`eig` Examples:**
+
+Here are some examples of how to use `eig` in MATLAB:
+
+1. **Finding Eigenvalues:**
+
+   ```matlab
+   A = [2 1; 1 3];
+   e = eig(A);
+   disp(e);  % This will display the eigenvalues of A
+   ```
+
+2. **Finding Eigenvalues and Eigenvectors:**
+
+   ```matlab
+   A = [4 -1; 2 1];
+   [V, D] = eig(A);
+   disp(V);  % This will display the eigenvectors as columns of V
+   disp(D);  % This will display the eigenvalues on the diagonal of D
+   ```
+
+**See also:**
+
+* For more advanced usage and detailed information, refer to the official MATLAB documentation: [https://www.mathworks.com/help/matlab/ref/eig.html](https://www.mathworks.com/help/matlab/ref/eig.html)
+
+
+
 ### 10. eigs
 ### 11. orth
 
