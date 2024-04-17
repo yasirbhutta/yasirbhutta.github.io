@@ -358,7 +358,167 @@ Magic Eraser is a tool in Canva that lets you easily remove unwanted objects or 
 
 Canva's Text to Image is a great way to spark creativity and overcome creative blocks. With a few descriptive words, you can generate unique images that can be used in presentations, social media posts, or any other visual design project.
 
-## 11. infographics [Video](https://www.youtube.com/watch?v=36SIUe_mOZU)
+## Creating specific content (choose relevant options based on your audience):
+
+- Social media graphics (e.g., Facebook posts, Instagram stories)
+- Presentations
+- Flyers and posters
+- Logos and branding materials
+- Infographics
+- Video editing (if using Canva Pro)
+
+### 1. Social media graphics
+
+Canva is a great tool for creating eye-catching social media graphics for your handouts. Here's how to get started:
+
+**Choosing a Template or Starting Fresh:**
+
+* **Templates:** Canva offers a vast library of social media templates pre-sized for different platforms like Facebook, Instagram, or Twitter. Browse the templates and choose one that suits your message and visual style.
+* **Blank Canvas:** If you prefer more control, you can start with a blank canvas and customize the size according to your needs.
+
+**Adding Visuals:**
+
+* **Photos & Illustrations:** Canva provides a large selection of free and paid stock photos and illustrations. Choose visuals that are relevant to your handout topic and grab attention.
+* **Uploads:** You can also upload your own photos, logos, or illustrations to personalize your graphics.
+
+**Text & Branding:**
+
+- **Text & Fonts:**  Canva offers a variety of fonts. Choose one that is clear, readable, and reflects your brand identity. 
+- **Branding:** Maintain consistency with your social media post overall look by incorporating your brand colors and logos into the graphic.
+
+**Canva Tips:**
+
+- **Keep it Simple:** Don't overcrowd your graphic. Use clear concise text and a focused visual.
+- **Color Palette:** Choose a color scheme that complements your brand and grabs attention. 
+- **Alignment & Balance:** Arrange elements in a way that is pleasing to the eye. Use Canva's alignment tools to help you achieve balance.
+
+**See also:**
+
+* To learn more about creating social media graphics with Canva, you can check out their guide: [https://www.canva.com/social-media/](https://www.canva.com/social-media/)
+* If you're new to Canva, there are many helpful tutorials on YouTube that can walk you through the basics: YouTube: [https://www.youtube.com/](https://www.youtube.com/) 
+
+### 2. Presentations with Canva
+
+**Canva mobile app**
+
+**1. Open Canva and Choose a Format:**
+
+* Launch the Canva app and tap the "+" button to start a new project.
+* Select "Presentations" from the project type options.
+
+**2. Pick a Template (Optional):**
+
+* Canva offers a vast collection of presentation templates. Explore and choose one that suits your topic and style.
+* You can also tap "Blank presentation" for a clean canvas to design from scratch.
+
+**3. Design Your Slides:**
+
+* Tap the "+" icon on the bottom bar to add a new slide.
+* Explore the various design elements at the bottom:
+    * **Text:** Add titles, body text, and bullet points using the "Text" tab. Choose clear fonts and adjust sizes for readability.
+    * **Photos & Illustrations:** Tap "Photos" to explore free and paid stock options or upload your own images.
+    * **Backgrounds:** Select a background color, gradient, or pattern from the "Background" tab. Keep it professional and avoid overwhelming visuals.
+* Tap and hold any element to adjust its position, size, or rotation.
+
+**4. Enhance Your Slides (Optional):**
+
+* Tap the "Elements" tab to access additional design elements like icons, charts, and lines.
+* Explore the "Animations" tab to add subtle animations to text and images for a more dynamic presentation.
+
+**5. Refine and Organize:**
+
+* Organize or reorder your slides by dragging and dropping.
+* Tap on a slide thumbnail to access options like duplicate, delete, or hide the slide.
+
+**6. Presenting and Sharing:**
+
+* Once finished, tap the "Present" button on the top right to enter presentation mode and swipe through your slides.
+* To share your presentation, tap the three dots on the top right corner and choose from options like downloading as PDF, PNG, or MP4, or sharing a link.
+
+**Canva Mobile App Tips:**
+
+* **Simple and Clear:**  Focus on clear concise text and avoid cluttering slides with information overload.
+* **Mobile-Friendly Design:**  Use visuals optimized for mobile viewing and avoid tiny text.
+* **Save Often:**  Tap the "Save" button frequently to avoid losing your work. 
+
+By following these steps and leveraging Canva's mobile app features, you can create impactful presentations on the go!
+
+### 3. Flyers and posters
+
+Creating flyers and posters on the Canva mobile app is a breeze! Here's how to get started:
+
+**1. Launch the App and Choose Format:**
+
+* Open the Canva mobile app and tap the "+" button to create a new project.
+* In the project type options, select "Flyers" or "Posters" depending on your need. Flyers are typically used for smaller announcements, while posters are for larger-scale information displays.
+
+**2. Pick a Template (Optional):**
+
+* Canva offers a rich collection of flyer and poster templates. Browse the options and choose one that aligns with your message and desired visual style.
+* If you prefer more control over the design, you can tap "Blank" to start with a fresh canvas.
+
+**3. Design Your Flyer/Poster:**
+
+* Explore the design tools at the bottom of the screen:
+    * **Text:** Tap "Text" to add titles, body text, or call to action phrases. Choose clear fonts and adjust sizes for readability.
+    * **Photos & Illustrations:** Tap "Photos" to access Canva's library of free and paid stock options or upload your own images. 
+    * **Backgrounds:**  Select a background color, gradient, or pattern from the "Background" tab. Keep it visually appealing but avoid overwhelming the message.
+
+* Tap and hold any element to edit its position, size, or rotation.
+
+**4. Enhance Your Design (Optional):**
+
+* Tap the "Elements" tab to access additional design elements like lines, shapes, and icons. These can add visual interest and structure to your flyer/poster.
+* Experiment with the "Effects" tab (if available on your app version) to add subtle filters or adjustments to your visuals.
+
+**5. Finalize and Share:**
+
+* Once you're happy with your design, tap on the top right corner.
+* Choose how you want to use your flyer/poster:
+    * **Download:** Tap "Share" and select an option like PDF, PNG, or JPG for printing or sharing electronically.
+    * **Share Online:** Choose "Share link" to generate a link to your design that you can share via social media or email.
+
+**Canva Mobile App Tips:**
+
+* **Focus on Clarity:** Flyers and posters need to be easily readable from a distance. Use large, bold fonts and concise text.
+* **Attention-grabbing Visuals:** Choose high-quality visuals that are relevant to your message and grab attention.
+* **Call to Action:**  Include a clear call to action that tells viewers what you want them to do next (visit website, attend event, etc.).
+
+### 4. Logos and branding materials
+
+Creating logos and branding materials on the Canva mobile app is a convenient way to establish a visual identity for yourself or your project. Here's how to get started:
+
+**1. Design Your Logo:**
+
+* Open the Canva mobile app and tap the "+" button to create a new project.
+* Select "Logos" from the project type options.
+
+* **Choose a Template (Optional):** Browse through Canva's library of logo templates and pick one that resonates with your brand concept.
+
+* **Design from Scratch (Optional):** If you prefer more control, tap "Blank" to start with a fresh canvas.
+
+* **Build Your Logo:** Explore the design elements at the bottom:
+   * **Text:** Add your brand name or initials using the "Text" tab. Choose clear, readable fonts that complement your brand image.
+   * **Graphics:** Tap "Photos" to explore free and paid icons, illustrations, or upload your own logo elements.
+   * **Shapes & Lines:** Utilize basic shapes and lines from the "Elements" tab to create a unique logo design.
+
+* **Refine and Edit:** Tap and hold any element to adjust its position, size, color, or transparency.
+
+**2. Building Your Brand Identity:**
+
+Canva doesn't offer direct project creation for branding materials on mobile, but you can utilize saved logos and color schemes to ensure consistency across designs. Here's how:
+
+* **Create Other Designs:** Once you have your logo,  use the "+" button to create new projects for flyers, posters, social media graphics, etc.
+* **Upload Your Logo:** In your new design project, tap "Photos" and select "Uploads" to access your saved logo and incorporate it into your design.
+* **Color Palette:** If you have a specific color scheme in mind, note the color codes from your logo design. You can then manually choose these colors from the color picker within Canva when designing other branding materials.
+
+**Canva Mobile App Tips:**
+
+* **Simplicity is Key:** Logos and branding elements should be clear, recognizable, and work well at various sizes.
+* **Color Psychology:** Consider the emotions and associations evoked by different colors when choosing your brand colors.
+* **Brand Consistency:** Maintain a consistent visual language across all your branding materials using the same logo, color scheme, and fonts.
+
+### 4. infographics [Video](https://www.youtube.com/watch?v=36SIUe_mOZU)
 
 Infographics are a powerful tool for communicating information in a visually appealing and easy-to-understand way. They combine text, data visualizations like charts and graphs, and images to present complex information quickly and clearly.
 
@@ -500,16 +660,6 @@ Adding text and fonts
 Using images and graphics (free and paid options)
 Working with colors and backgrounds
 Resizing and positioning elements
-
-## Creating specific content (choose relevant options based on your audience):
-
-Social media graphics (e.g., Facebook posts, Instagram stories)
-Presentations
-Flyers and posters
-Logos and branding materials
-Infographics
-Video editing (if using Canva Pro)
-
 
 
 ## Additional features (optional, based on time):

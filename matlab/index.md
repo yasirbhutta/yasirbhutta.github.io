@@ -7,7 +7,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - Introduction to MATLAB [web](docs/basics.md) \| [pdf](docs/basics.pdf)
 - Constants, Variables and Expressions [web](docs/cve.md) \| [pdf](docs/cve.pdf)
-- Vectors and Matrices [web](docs/vectors-matrices.md)
+- Vectors and Matrices [web](docs/vectors-matrices.md) \| [pdf](docs/vectors-matrices.pdf)
 - Operators [web](docs/operators.md) \| [PDF](docs/operators.pdf)
 - [Input Output Statements](docs/ios.md) \| [Download PDF](docs/ios.pdf)
 - [Graphics](docs/graphics.md) \| [Download PDF](docs/graphics.pdf)
@@ -23,4 +23,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Assignments
 
+- [Topics for presentation](docs/matlab-topics.md)
 - [Assignment: Programming Fundamentals Adventure!](assignments/matlab-assign1.md)
+- 
