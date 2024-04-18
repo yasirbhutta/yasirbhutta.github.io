@@ -665,11 +665,11 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 
 **Class Activity:**
 
-- Create bar chart and line chart using Canva 
-
 **Example Datasets:** 
 
 1. **Monthly Online Store Revenue**
+
+- Create bar chart and line chart using Canva
 
 | Month          | Revenue |
 | -------------- | ------- |
@@ -688,12 +688,18 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 
 2. **Quarterly Customer Satisfaction Ratings**
 
+- Create pictogram
+
 | Quarter | Rating (out of 5) |
 | ------- | ----------------- |
-| Q1 2023 | 3.8               |
-| Q2 2023 | 4.1               |
-| Q3 2023 | 3.6               |
-| Q4 2023 | 4.3               |
+| Q1 2023 | 4            |
+| Q2 2023 | 3            |
+| Q3 2023 | 2            |
+| Q4 2023 | 5            |
+
+**Chart output:**
+
+![pictogram](docs/img/pictogram.png)
 
 **See also:**
 
