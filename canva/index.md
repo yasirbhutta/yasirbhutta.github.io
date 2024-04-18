@@ -771,11 +771,35 @@ By exploring these features and experimenting with different options, you can el
 
 1. Canva offers a free plan with access to all design features. 
 2. Using the "Lock" feature prevents you from accidentally selecting or editing an element.
+3. Canva is only for creating presentations? 
+4. Sharing a design in Canva gives everyone edit access.
+5. Canva collaboration features require a paid subscription.
+6. You can only import your own photos into Canva. 
+7. You can only use your own photos and graphics in Canva.
+8. Collaboration features in Canva let you work on a design with others in real-time.
+9. Canva only allows you to create static images.
+10. Collaboration features allow for real-time editing with multiple users.
+11. Uploading your own photos and graphics is not possible in Canva.
+12. Canva provides a library of free stock photos and illustrations.
+13. All design elements within the library are guaranteed to be copyright-free.
+14. Canva offers basic animation tools for creating simple motion graphics.
 
 **Answer Key (True/False):**
 
 1. False
 2. True
+3. False - Canva allows you to create a variety of designs, including presentations, social media graphics, posters, documents, and more.
+4. False - You can control the permission level for shared designs, allowing view only, comment, or edit access.
+5. False - Basic collaboration features like inviting others to edit your design are available in the free version of Canva.
+6. False - Canva offers a large library of free stock photos, illustrations, and icons you can use in your designs.
+7. False - Canva provides a vast library of free stock photos, illustrations, and icons you can use in your designs.
+8. (True) - Collaboration tools allow multiple people to edit the same design simultaneously and see each other's changes.
+9. False - You can also create animations and short videos.
+10. True
+11. False
+12. True
+13. (False) - It's important to check the license of each element before using it commercially.
+14. True
 
 ## Multiple Choice (Select the best answer)
 
@@ -799,6 +823,101 @@ By exploring these features and experimenting with different options, you can el
 2. [ ] They require specific design skills to modify.
 3. [ ] They provide a starting point and can save time.
 4. [ ] Only professional designers can use them.
+
+> Which of the following is NOT a type of design you can create in Canva?
+
+1. [ ] Presentations
+2. [ ] Spreadsheets
+3. [ ] Social media graphics
+4. [ ] Posters
+
+> What type of design projects can you create with Canva?
+
+1. [ ] Presentations only
+2. [ ] Social media posts only
+3. [ ] Infographics only
+4. [ ] All of the above
+
+> Which of the following statements about Canva is true?
+
+1. [ ] All Canva templates and elements are free to use.
+2. [ ] Canva is a professional-grade photo editing software.
+3. [ ] You cannot upload your own images to use in Canva.
+4. [ ] Canva allows you to collaborate on designs with others.
+
+> Where can you find pre-designed shapes and illustrations in Canva?
+
+1. [ ] The Text panel
+2. [ ] The Photos panel
+3. [ ] The Elements panel
+4. [ ] The Templates folder
+
+> What can you create using Canva?
+
+1. [ ] Spreadsheets
+2. [ ] All of the following: social media posts, presentations, infographics 
+3. [ ] Code
+4. [ ] Music
+
+> Where can you find pre-designed templates in Canva?
+
+1. [ ] In the settings menu
+2. [ ] In the search bar 
+3. [ ] By creating a new project
+4. [ ] You cannot use templates in Canva.
+
+> Is it possible to upload your own images to use in Canva?
+
+1. [ ] No, you can only use stock photos.
+2. [ ] Yes 
+3. [ ] Yes, but only with a paid subscription.
+4. [ ] Uploading images is a complex process.
+
+> What does the "Elements" panel in Canva allow you to access?
+
+1. [ ] Fonts and text styles
+2. [ ] Pre-designed illustrations, icons, and shapes 
+3. [ ] Your uploaded photos
+4. [ ] Collaboration features
+
+> Can you collaborate with others on a design in Canva?
+
+1. [ ] No, designs are private by default.
+2. [ ] Yes, you can share designs and allow others to edit them. 
+3. [ ] Collaboration requires a paid subscription.
+4. [ ] Collaboration is only possible in person.
+
+> In what format can you download your finished Canva design?
+
+1. [ ] Only as a Canva file.
+2. [ ] Multiple formats including PNG, JPG, and PDF. 
+3. [ ] Uploading is the only option.
+4. [ ] Sharing the design link is the only way to share it.
+
+> What is the main advantage of using Canva compared to complex design software?
+
+1. [ ] It requires a powerful computer.
+2. [ ] It has a steeper learning curve.
+3. [ ] It is user-friendly and accessible for beginners. 
+4. [ ] It offers fewer design features.
+
+> Which of the following file formats does Canva support for export?
+1. [ ] PDF, DO, MP4
+2. [ ] JPG, PNG, PDF
+3. [ ] XLSX, PSD, GIF
+4. [ ] MP3, MOV, BMP
+
+> Which tool in Canva allows you to remove the background from an image?
+1. [ ] Eraser
+2. [ ] Magic Resize
+3. [ ] Background(BG) Remover
+4. [ ] Crop tool
+
+> What is the purpose of Canva's "Templates" feature?
+1. [ ] To create custom fonts
+2. [ ] To save and reuse design layouts
+3. [ ] To record audio narration
+4. [ ] To generate mathematical equations
 
 > Which of the following CANNOT be done to text in Canva?
 
@@ -849,58 +968,104 @@ By exploring these features and experimenting with different options, you can el
 3. [ ] The "Layer" control panel
 4. [ ] The "Effects" tab
 
-> When creating a social media post in Canva, which animation technique is most effective to grab attention?
+> What is the main purpose of Canva's Magic Eraser tool?
 
-1. [ ] Subtle text fade-in
-2. [x] Bold element zoom-in
-3. [ ] Complex element rotation
-4. [ ] Gradual background color change
+1. [ ] Adding special effects to images
+2. [ ] Removing specific elements from images
+3. [ ] Enhancing image contrast
+4. [ ] Creating animations
 
-What is the main purpose of Canva's Magic Eraser tool?
+> What does Canva's Magic Edit feature allow users to do?
 
-A) Adding special effects to images
-B) Removing specific elements from images
-C) Enhancing image contrast
-D) Creating animations
+1. [ ] Automatically edit text in images
+2. [ ] Enhance image colors
+3. [ ] odify existing elements in images
+4. [ ] Edit multiple elements in a design simultaneously
 
-What does Canva's Magic Edit feature allow users to do?
+> What does Canva's Text to Image feature enable users to do?
 
-A) Automatically edit text in images
-B) Enhance image colors
-C) Modify existing elements in images
-D) Edit multiple elements in a design simultaneously
+1. [ ] Convert images to text format
+2. [ ] Automatically generate images from text
+3. [ ] Add text to existing images
+4. [ ] Convert images into vector graphics
 
-What does Canva's Text to Image feature enable users to do?
+> Which feature in Canva allows you to collaborate with team members or clients on a design project?
+1. [ ] Share Button
+2. [ ] Team Templates
+3. [ ] Design Folders
+4. [ ] Commenting
 
-A) Convert images to text format
-B) Automatically generate images from text
-C) Add text to existing images
-D) Convert images into vector graphics
+> Which of the following elements can you animate in Canva?
+1. [ ] Text
+2. [ ] Images
+3. [ ] Icons
+4. [ ] All of the above
+
+> Which of the following is NOT a design type available in Canva?
+1. [ ] Presentation
+2. [ ] Social Media Post
+3. [ ] Video Editing
+4. [ ] Flyer
+
+> Can users access their Canva account from the mobile app?
+1. [ ] Yes, by logging in with their Canva credentials
+2. [ ] No, Canva accounts are only accessible from the website
+3. [ ] Only if they have a premium subscription
+4. [ ] Only if they have an enterprise account
+
+>What is the difference between a "Folder" and a "Team" in Canva?
+
+1. [ ] Folders are for organizing your designs, while Teams are for collaborating with others.
+2. [ ] Folders can only store images, while Teams can store any design project.
+3. [ ] There is no difference, both are used for the same purpose.
+4. [ ] Folders are for paid users only, while Teams are available for everyone.
 
 ## Fill in the Blanks
 
 1. To change the font size in Canva, you can use the _____________ slider.
+2. Canva offers a library of pre-designed layouts called ________ to jumpstart your design process.
+3. You can add visual interest to your design with pre-made illustrations and icons found in the ________ panel.
+4. Canva allows you to collaborate on designs with others by sending a _______ link. 
+5. The _______ tool removes the background of an image, allowing you to easily place it on top of another design.
+6. Canva's _______ feature helps you maintain consistent branding by storing your company's logos and color palettes.
+7. You can add animations to your design elements to create a more dynamic and engaging presentation using the _______ tab.
+8. You're designing a presentation and want to add a smooth transition effect between slides. What feature can you utilize? ...
+9. You accidentally deleted a text box you were working on. How can you quickly restore it? ...
+10. You want to download your design in a format suitable for professional printing. What file format should you choose? ...
+11. You need to create a high-quality infographic with various data points. What tool can help you visualize this data effectively? ...
+12. You're collaborating on a design project with a friend. How can you allow them to edit your work with you? ...
+13. You're designing a social media post and want to add a pre-made illustration of a cat.  Where would you find this element? ...
+14. You want to create a visually appealing presentation for your next class. What Canva feature would be the best starting point? ...
 
 **Answer Key (Fill in the Blanks):**
 
 1. Text size
+2. Templates
+3. Elements
+4. Shareable
+5. BG remover
+6. Brand Kits
+7. Animate
+8. Page Transitions
+9. Undo/Redo function
+10. PDF (Print)
+11. Charts (within the Elements panel)
+12. Share a link with edit access
+13. Elements panel
+14. Templates
 
 ## Exercises
 
 - What does BG Remover do? (Remove the background from an image)
 - What does Magic Eraser do? (Erase unwanted objects from a photo)
 - What does Magic Edit do? (Uses AI to modify specific areas of a photo)
-- 
-
-## Assignments
-
-- [Canva Assignment: Create a YouTube Thumbnail!](assignments/assign1.md)
-
+  
 ## Review Questions
 
-1. What is a Canva Template, and what are its key features?
-2. What are the main purposes of using the Elements tab in Canva?
-3. Can you differentiate between free and premium elements in the Elements tab? How?
+1. What is Canva?
+2. What is a Canva Template, and what are its key features?
+3. What are the main purposes of using the Elements tab in Canva?
+4. Can you differentiate between free and premium elements in the Elements tab? How?
    
 **Answer:**
 
@@ -912,15 +1077,32 @@ There are two key ways to tell free elements apart from premium elements in Canv
 
 By using these methods, you can easily identify which elements are free to use and which ones require a purchase or a Canva Pro/Teams subscription for unlimited access.
 
-4. What is the primary function of `BG Remover` in Canva?
-5. How does `Magic Eraser tool` work in Canva?
-6. Describe the purpose of `Magic Expand` feature in Canva.
-7. What is the purpose of using `Text to Image` in Canva?
-8. What is the purpose of using `Magic Edit` in Canva?
+5. What is the primary function of `BG Remover` in Canva?
+6. How does `Magic Eraser tool` work in Canva?
+7. Describe the purpose of `Magic Expand` feature in Canva.
+8. What is the purpose of using `Text to Image` in Canva?
+9. What is the purpose of using `Magic Edit` in Canva?
+10. Briefly describe the core functionalities of Canva?
+11. What are some design elements offered by Canva? 
+12. Can you edit photos within Canva? Briefly describe some editing functionalities. 
+13. What are some collaboration features offered by Canva? 
+14. What is the benefit of using Canva templates?
+15. Can you customize Canva templates? How?
+16. What are the different ways to access Canva (web browser, mobile app)?
+17. How can you use Canva to create social media graphics or presentations?
+18. How can you search and filter elements in Canva?
+19. In what formats can you download your designs from Canva? (JPG, PNG, PDF, SVG)
+How can you share your Canva designs with others? (Social media, email, link)
+1.  How does Canva help with finding the right template? 
+**Answer:**
+Search bar with keywords and categories
+
 
 ## References and Bibliography
 
 [1]“Training: Canva for Beginners,” www.canva.com. [https://www.canva.com/designschool/courses/canva-101/](https://www.canva.com/designschool/courses/canva-101/) (accessed Feb. 29, 2024).
 [2]“Using charts,” Canva. [https://www.canva.com/help/charts/](https://www.canva.com/help/charts/) (accessed Apr. 03, 2024).
 ‌
-‌
+‌## Assignments
+
+- [Canva Assignment: Create a YouTube Thumbnail!](assignments/assign1.md)
