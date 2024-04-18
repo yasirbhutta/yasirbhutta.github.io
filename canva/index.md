@@ -240,6 +240,64 @@ Here are some additional tips for creating video posts in Canva mobile app:
 - Adding comments and assigning tasks
 - Sharing links
 
+### What is Sharing and Collaboration?
+
+In Canva, sharing and collaboration are features that allow you to work with others on your designs. 
+
+**Sharing:**
+
+Sharing your designs in Canva gives you control over how others can interact with your work. You can grant them different permission levels:
+
+**View only:** This is the most restrictive option, and it allows viewers to see the design but not make any changes. It's a good choice for presentations or sharing drafts for feedback.
+
+**Comment:** Viewers with this permission can see the design and leave comments with suggestions or questions directly on the design. This is a great way to gather input from others without giving them editing control.
+
+**Edit:** This permission level allows viewers to make changes to the design itself. It's ideal for collaborative projects where multiple people need to contribute to the final product.
+
+**Collaboration:**
+
+* This takes sharing a step further, allowing you to work on a design with others in real-time. 
+* You can invite people to edit your design using their email addresses.
+* Everyone with editing access can see changes made by others as they happen.
+* Collaboration features also include:
+    * **Commenting and suggesting:** Leave feedback directly on the design for others to see.
+    * **Version history:** Track changes made to the design and revert to previous versions if needed.
+
+**Benefits of Sharing and Collaboration:**
+
+* Get feedback and improve your designs from others.
+* Combine the creative strengths of different people.
+* Work on projects together, even if you're not in the same location.
+
+
+### How to Share Designs in Canva mobile app
+
+To Share your designs in the Canva mobile app, Follow these steps to get started:
+
+**1. Open your design:** Navigate to the specific design you want to share within the Canva mobile app.
+
+**2. Find the Share icon:** Look for the "Share" icon in the top corner of your editing screen. It typically resembles an arrow pointing upwards.
+
+**3. Choose your sharing method:** Tapping the "Share" icon will reveal several sharing options. Here are the two main methods:
+
+   * **Share link:** This lets you create a link that others can use to access your design. You have control over who can access the link and what level of permission they have:
+        * **Select "Share link"**: This option appears within the sharing menu.
+        * **Choose who can access:**  There are dropdown menus where you can define who can see the link: "Only you can access" (default), "Only your team" (for Canva Teams users), or "Anyone with the link".
+        * **Set permission level:** Another dropdown menu allows you to choose the permission level for those accessing the link: "view only," "comment," or "edit." 
+        * **Copy link or send via email:** Once you've set permissions, tap "Copy link" to share the link directly or tap "Send" to share the link via email with specific recipients.
+
+   * **Share directly to social media or messaging apps:** This lets you share your design directly to platforms like Facebook, Instagram, or messaging apps installed on your device.
+        * **Select the app:** Swipe through the available apps or tap "More apps" to see all options. 
+        * **Connect and grant access (if needed):** For the first time using an app with Canva, you might need to log in and grant Canva access to share the design.
+        * **Choose account and add a caption (optional):** Depending on the app, you might need to select the account you want to share from and add a caption for your post.
+
+**4. Share away!**  After choosing your method and setting permissions, you're ready to share your design with others!
+
+**Important Tips:**
+
+* You can always change the permissions for a shared link later by going back to the design, tapping "Share," and editing the link settings.
+* Remember, some social media platforms might have limitations on what kind of content you can share directly (e.g., size restrictions).
+
 ## 09. Saving and organizing documents [[video]](https://www.canva.com/designschool/courses/canva-101/?lesson=saving-and-organizing-documents)
 
 **Key learnings:**
