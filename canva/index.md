@@ -503,7 +503,21 @@ By following these steps and leveraging Canva's mobile app features, you can cre
 
 ### 3. Flyers and posters
 
-Creating flyers and posters on the Canva mobile app is a breeze! Here's how to get started:
+Canva is a great tool for designing both flyers and posters, but there are some key differences between the two formats to consider before you start creating. Here's a breakdown:
+
+**Flyers:**
+
+- **Size:** Flyers are typically smaller, around standard letter size (8.5" x 11") or a half-page (5.5" x 8.5").
+- **Purpose:** Flyers are meant to be handed out or placed in areas with high foot traffic. They are good for quick bursts of information or advertising a specific event or promotion.  
+- **Design:** Flyers should be attention-grabbing and easy to read at a glance. Use bold headlines, clear calls to action, and high-quality visuals.
+
+**Posters:**
+
+- **Size:** Posters are much larger and designed to be seen from a distance. Common sizes include 18" x 24" or even larger.
+- **Purpose:** Posters are ideal for grabbing attention in high-traffic areas and promoting events, announcements, or branding. 
+- **Design:** Posters can have more complex designs with detailed images and text. Since they're viewed from farther away, readability is still important, but you have more space to be creative.
+
+**To flyers and posters on the Canva mobile app, Follow these steps:**
 
 **1. Launch the App and Choose Format:**
 
