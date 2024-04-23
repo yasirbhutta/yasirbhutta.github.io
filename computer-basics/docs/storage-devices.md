@@ -298,6 +298,7 @@ Overall, flash memory is a versatile and reliable storage solution for various e
 - What is RAM (Random Access Memory)?
 - What is an SSD?
 - What are the advantages of SSDs over HDDs?
+- What is SSD and Discuss the advantages of SSDs compared to Hard Disk Drives (HDDs) for use in personal computers.
 - What is the difference between primary and secondary storage?
 - Give examples of primary and secondary storage devices?
 - What is the main purpose of secondary storage devices?

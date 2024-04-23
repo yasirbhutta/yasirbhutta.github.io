@@ -225,4 +225,6 @@ D) Inserts random formulas into the document
 
 ## Review Questions
 
+- Describe four common paragraph formatting options in Microsoft Word and explain their uses. Additionally, identify the keyboard shortcuts for the following document management functions: creating a new file, saving, saving as, and closing a document.
+
 ## References and Bibliography

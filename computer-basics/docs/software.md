@@ -162,6 +162,7 @@ Corel Draw.
 - What is the difference between system software and application software?
 - Give examples of application software commonly used in different fields (e.g., education, business, entertainment).
 - Discuss the advantages and disadvantages of using open-source application software.
+- Define software and differentiate between two main categories of software with specific examples for each category.
 
 ## References and Bibliography
 

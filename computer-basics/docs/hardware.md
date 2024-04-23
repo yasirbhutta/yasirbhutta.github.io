@@ -527,6 +527,7 @@ DisplayPort is another type of port that is used to connect high-definition vide
 - What is the function of output devices? Give some examples.
 - Differentiate between a pointing device and a touchscreen.
 - What is the motherboard and what is its function?
+- Write note on input devices and output devices and examples of four devices with usage of each type?
 
 **Basics:**
 
