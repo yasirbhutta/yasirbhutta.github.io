@@ -677,6 +677,53 @@ Note: For now, you can only import up to 1000 rows and 100 columns of data.
 - Apply brand colors if brand control is enabled for your team.
 - Copy and apply colors across different charts.
 
+**Chart categories:**
+- In Canva, you can find a variety of chart categories to suit different data visualization needs.  available :
+
+## Unveiling Canva's Chart Arsenal: A Deep Dive
+
+Canva empowers you to transform data into impactful visuals with a variety of charts. Let's delve deeper into the categories you mentioned:
+
+**1. Bar Charts (Your Familiar Favorites):**
+
+- **Best for:** Comparing categories. 
+- **Imagine this:** Visualizing sales figures by region, website traffic by source, or project completion status.
+- **Subtypes:**
+    * **Stacked Bar Charts:** Showcase parts of a whole. Imagine a budget breakdown with spending categories stacked on top of each other. 
+  
+- *2. Line and Dot Charts (Tracking Trends with Precision):**
+
+- **Line Charts:** Ideal for showcasing trends over time. 
+- **Think of:** Stock price fluctuations, website traffic growth over months, or temperature variations throughout the year.
+- **Dot Charts:** Useful for highlighting specific data points along a timeline. 
+- **For instance:** Plotting key milestones in a project timeline or tracking website conversions at different points in the user journey.
+- **Tip:** Keep the number of lines in line charts manageable (pun intended!) for better readability.
+
+**3. Interactive Charts (Engaging Your Audience):**
+
+- **Canva Pro Feature:** Bring your charts to life with interactivity (available with Canva Pro).
+- **Imagine this:** Viewers can hover over data points to reveal additional information, filter data subsets, or zoom in for a closer look.
+- **Perfect for:** Complex datasets or when you want to encourage audience engagement.
+
+**4. Pie Charts (Slicing Up the Whole Story):**
+
+- **Best for:** Displaying proportions of a whole. 
+- **Think of:** Budget breakdowns (think slices of a pie!), survey results with different answer choices, or market share distribution.
+* **Tip:** Up to 5 categories for optimal clarity. For more data points, consider a donut chart (with a hole in the center) to avoid a cluttered chart.
+
+**5. Infographic Charts (The Art of Data Storytelling):**
+
+- **Canva's Specialty:** Combine charts, graphs, text, and images to create compelling infographics.
+- **Imagine this:** Telling a data-driven story about a social issue, product launch, or scientific discovery. 
+- **Infographics** use a blend of visual elements to explain complex information in an engaging way.
+
+**6. Other Chart Options (Canva's Hidden Gems):**
+
+- **Area Charts:** Similar to line charts, but emphasize the magnitude of change over time. 
+  - **Use them for:** Sales figures over a period, website user engagement, or revenue growth.
+- **Scatter Charts:** Explore relationships between two variables. 
+   - **Think of:** Analyzing customer satisfaction scores vs. purchase history, or exam grades vs. study hours.
+  
 **Class Activity:**
 
 **Example Datasets:** 
@@ -1082,7 +1129,7 @@ By exploring these features and experimenting with different options, you can el
   
 ## Review Questions
 
-1. What is Canva?
+1. What is Canva and why is it useful?
 2. What is a Canva Template, and what are its key features?
 3. What are the main purposes of using the Elements tab in Canva?
 4. Can you differentiate between free and premium elements in the Elements tab? How?
@@ -1091,9 +1138,9 @@ By exploring these features and experimenting with different options, you can el
 
 There are two key ways to tell free elements apart from premium elements in Canva's Elements tab:
 
-1. **Look for the crown symbol:**  Free elements will have a simple icon, while premium elements will be marked with a small crown (♛) in the bottom right corner. This crown signifies that a license fee is required to use the element.
+- **Look for the crown symbol:**  Free elements will have a simple icon, while premium elements will be marked with a small crown (♛) in the bottom right corner. This crown signifies that a license fee is required to use the element.
 
-2. **Hover over the element:** When you hover your cursor over an element, a small tooltip appears. This tooltip will display information about the element, including whether it's free or a premium element. It'll simply say "Free" or have a crown icon (♛) next to it.
+- **Hover over the element:** When you hover your cursor over an element, a small tooltip appears. This tooltip will display information about the element, including whether it's free or a premium element. It'll simply say "Free" or have a crown icon (♛) next to it.
 
 By using these methods, you can easily identify which elements are free to use and which ones require a purchase or a Canva Pro/Teams subscription for unlimited access.
 

@@ -50,39 +50,88 @@ Windows (98,2000, XP, Vista, 7, 8, 10,11),Linux (Ubuntu), Macintosh
   
 ### 2. Application Software
 
-- The software, which has been developed to perform specific task is called application software. 
+Application software is any program that allows you to perform a specific task on your computer. There are many different types of application software available, each designed for a specific purpose. Here are some of the most common types:
+
+* **Word processing software:** This type of software is used to create and edit text documents. Popular word processing applications include Microsoft Word, Apple Pages, and Google Docs.
+![Image of Microsoft Word application software](https://upload.wikimedia.org/wikipedia/de/3/36/Word_mac_16.27.png)
+Image source: [wikimedia.org](https://upload.wikimedia.org/wikipedia/de/3/36/Word_mac_16.27.png)
+[Image of Apple Pages]
+![Image of Google Docs application software](images/google-docs.png)
+
+* **Spreadsheet software:** This type of software is used to create and manipulate spreadsheets, which are grids of cells used to store and organize data. Popular spreadsheet applications include Microsoft Excel, Apple Numbers, and Google Sheets.
+
+![Image of Microsoft Excel application software](https://cdn.britannica.com/29/147629-050-71369707/Screenshot-Microsoft-Excel.jpg)
+Image source: [britannica.com](https://cdn.britannica.com/29/147629-050-71369707/Screenshot-Microsoft-Excel.jpg)
+
+- **Presentation software:** This type of software is used to create presentations, which are slide shows that can be used to give talks or presentations. Popular presentation applications include Microsoft PowerPoint, Apple Keynote, and Google Slides.
+  
+[Image of Microsoft PowerPoint application software]
+[Image of Apple Keynote application software]
+[Image of Google Slides application software]
+
+- **Multimedia software:** This type of software is used to create, edit, and play multimedia files, such as audio, video, and images. Popular multimedia applications include Adobe Photoshop, VLC media player, and Windows Media Player.
+  
+[Image of Adobe Photoshop application software]
+![Image of VLC media player application software](images/vlcplayer.png)
+[VLC Media Player](https://www.videolan.org/vlc/): This free and open-source media player can play virtually any audio or video format, making it a popular choice for users worldwide.
+
+Image source: [wikipedia.org](https://en.wikipedia.org/wiki/VLC_media_player#/media/File:VLC_media_player_3.0.12_(released_in_2021-01).png)
+
+- **Web browsers:** This type of software is used to access the internet. Popular web browsers include Google Chrome, Mozilla Firefox, and Apple Safari.
+[Image of Google Chrome application software]
+- [Google Chrome](https://www.google.com/intl/en_pk/chrome/): Used for web page browsing
+[Image of Mozilla Firefox application software]
+
+- **Database software:** This type of software is used to create and manage databases, which are collections of data that can be organized and accessed electronically. Popular database applications include Microsoft Access and MySQL.
+
+![Image of Microsoft Access application software](images/access.jpg)
+
+- **Email clients:** This type of software is used to send and receive email. Popular email clients include Microsoft Outlook, Apple Mail, and Mozilla Thunderbird.
+
+[Image of Microsoft Outlook application software]
+[Image of Apple Mail application software]
+[Image of Mozilla Thunderbird application software]
+
+- **Games:** Games are a type of application software that is designed for entertainment purposes. There are many different types of games available, including puzzle games, action games, and strategy games.
+
+- **Educational software:** This type of software is designed to help people learn. Educational software can be used for a variety of purposes, such as learning a new language, studying math, or preparing for a test.
+
+- **Financial software:** This type of software is used to manage finances. Financial software can be used for a variety of purposes, such as tracking income and expenses, budgeting, and investing.
+
+- **Creative software:** This type of software is used to create creative content, such as music, videos, and images. Creative software can be used for a variety of purposes, such as graphic design, video editing, and music production.
   
 **Example:**
 
 - [Microsoft 365](https://www.microsoft365.com/): Used for documentation, prepare spread sheets and presentation etc.
 - [Corel Draw](https://www.coreldraw.com/en/): Corel Draw is an commercial software that used for picture drawing, editing and also used for publication.
 Corel Draw.
-- [Google Chrome](https://www.google.com/intl/en_pk/chrome/): Used for web page browsing
 - [Microsoft Team](https://teams.microsoft.com/): Used for Video, Audio and Text based chat. Other popular chatting software's are Microsoft Team, Google Meet, WhatsApp, [Zoom](https://zoom.us/) etc
   - [Microsoft Team Demo](https://teamsdemo.office.com/)
 - Adobe Reader: Used to view adobe PDF files.
 - [GIMP](https://www.gimp.org/): This free and open-source image manipulation software is a powerful alternative to Photoshop, making it a popular choice for hobbyists and professionals alike.
 - [CapCut](https://www.capcut.com/): Free all-in-one video editor for everyone to create anything anywhere
-- [VLC Media Player](https://www.videolan.org/vlc/): This free and open-source media player can play virtually any audio or video format, making it a popular choice for users worldwide.
+- 
 
 ## Open Source Software vs Proprietary Software
 
 ### Open Source Software (OSS)
 
-**Open Code:** The source code is publicly available for anyone to see, modify, and redistribute.
-**Collaborative Development:** Anyone can contribute to the software's development by fixing bugs, adding features, and improving functionality.
-**Cost-Effective:** Often free or significantly cheaper than proprietary software, reducing costs for individuals and organizations.
-**Transparency:** Openness of code builds trust and allows users to verify what the software does.
-**Security:** Large community involvement can lead to faster bug fixes and improved security.
+- **Open Code:** The source code is publicly available for anyone to see, modify, and redistribute.
+- **Collaborative Development:** Anyone can contribute to the software's development by fixing bugs, adding features, and improving functionality.
+- **Cost-Effective:** Often free or significantly cheaper than proprietary software, reducing costs for individuals and organizations.
+- **Transparency:** Openness of code builds trust and allows users to verify what the software does.
+- **Security:** Large community involvement can lead to faster bug fixes and improved security.
+
 **Examples:** Linux operating system, Firefox web browser, LibreOffice productivity suite, WordPress content management system.
 
 ### Proprietary Software
 
-**Closed Code:** The source code is kept secret, only accessible to the software's developer or owner.
-**Controlled Development:** Development is limited to the software company's employees or contracted developers.
-**Costly:** Usually licenses require purchase or subscription fees, potentially leading to higher overall costs.
-**Black Box:** Users trust the software to work as advertised without knowing how it does so.
-**Security:** May be slower to fix bugs as updates rely solely on the developer.
+- **Closed Code:** The source code is kept secret, only accessible to the software's developer or owner.
+- **Controlled Development:** Development is limited to the software company's employees or contracted developers.
+- **Costly:** Usually licenses require purchase or subscription fees, potentially leading to higher overall costs.
+- **Black Box:** Users trust the software to work as advertised without knowing how it does so.
+- **Security:** May be slower to fix bugs as updates rely solely on the developer.
+
 **Examples:** Microsoft Windows operating system, Adobe Photoshop editing software, Microsoft Office productivity suite, QuickBooks accounting software.
 
 ## True/False (Mark T for True and F for False)

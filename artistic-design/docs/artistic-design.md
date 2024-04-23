@@ -395,20 +395,10 @@ Color theory is applied in various fields, including:
 
 ## Review Questions
 
+**RYB, RGB Color Models:**
 - What is a color wheel, and what does it represent?
 - What are primary colors on a color wheel? Can you mix other colors using only primaries?
 - How are secondary colors created on a color wheel?
-- What are complementary colors? How can you find them on a color wheel?
-- What are the three main properties of color: hue, saturation, and value?
-- How can you adjust the value of a color to create shades, tones, and tints?
-- What is the difference between a warm color and a cool color?
-- Can you describe the relationship between the colors of light absorbed by each ink and the color we perceive in CYMK color model?
-- What does CMYK stand for and explain it?
-- Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added
-- What is Subtractive Color Model?
-- What is CMYK Color?
-- What are the Applications of Color Theory?
-- What is HSL and explain it?
 - What does RGB stand for?
 - How are different colors created in the RGB model?
 - What are some common applications of the RGB color model?
@@ -418,6 +408,27 @@ Color theory is applied in various fields, including:
 - What are the secondary colors formed by mixing primary colors in the RYB model? 
 - How do the primary colors of the RYB model differ from the primary colors in the RGB model used for light?
 - In what field is the RYB color model primarily used?
+  
+**Color Relationships:**
+- What is the difference between a warm color and a cool color?
+- What are complementary colors? How can you find them on a color wheel?
+   
+**CMYK:**
+- What is CMYK Color?
+- What does CMYK stand for and explain it?
+- Describe the CMY color model used in printing, including the function of each color (CMY) and why black (K) is often added
+- Can you describe the relationship between the colors of light absorbed by each ink and the color we perceive in CYMK color model?
+- What is Subtractive Color Model?
+- Briefly explain the difference between subtractive and additive color models.
+- How does CMYK work to create different colors in printing?
+- Why is black ink a separate component in CMYK, instead of being created by mixing CMY inks?
+
+**HSL**
+- What is HSL and explain it?
+- What are the three main properties of color: hue, saturation, and value?
+  
+- What are the Applications of Color Theory?
+- Briefly explain the difference between a shade, tint, and tone.
   
 ## References and Bibliography
 
