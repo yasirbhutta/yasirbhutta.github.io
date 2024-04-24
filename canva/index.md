@@ -877,210 +877,210 @@ By exploring these features and experimenting with different options, you can el
 3. [ ] Web development
 4. [ ] Coding
 
-> Canva offers a free plan. Is it true?
+> **2. Canva offers a free plan. Is it true?**
 
 1. [ ] No, Canva only has a paid subscription.
 2. [ ] Yes, a free plan with limited features is available.
 3. [ ] All features are free, but there is a usage limit.
 4. [ ] You need to pay after a 30-day trial.
 
-> What is a benefit of using Canva templates?
+> **3. What is a benefit of using Canva templates?**
 
 1. [ ] They are all free, even for commercial use.
 2. [ ] They require specific design skills to modify.
 3. [ ] They provide a starting point and can save time.
 4. [ ] Only professional designers can use them.
 
-> Which of the following is NOT a type of design you can create in Canva?
+> **4. Which of the following is NOT a type of design you can create in Canva?**
 
 1. [ ] Presentations
 2. [ ] Spreadsheets
 3. [ ] Social media graphics
 4. [ ] Posters
 
-> What type of design projects can you create with Canva?
+> **5. What type of design projects can you create with Canva?**
 
 1. [ ] Presentations only
 2. [ ] Social media posts only
 3. [ ] Infographics only
 4. [ ] All of the above
 
-> Which of the following statements about Canva is true?
+> **6. Which of the following statements about Canva is true?**
 
 1. [ ] All Canva templates and elements are free to use.
 2. [ ] Canva is a professional-grade photo editing software.
 3. [ ] You cannot upload your own images to use in Canva.
 4. [ ] Canva allows you to collaborate on designs with others.
 
-> Where can you find pre-designed shapes and illustrations in Canva?
+> **7. Where can you find pre-designed shapes and illustrations in Canva?**
 
 1. [ ] The Text panel
 2. [ ] The Photos panel
 3. [ ] The Elements panel
 4. [ ] The Templates folder
 
-> What can you create using Canva?
+> **8. What can you create using Canva?**
 
 1. [ ] Spreadsheets
 2. [ ] All of the following: social media posts, presentations, infographics 
 3. [ ] Code
 4. [ ] Music
 
-> Where can you find pre-designed templates in Canva?
+> **9. Where can you find pre-designed templates in Canva?**
 
 1. [ ] In the settings menu
 2. [ ] In the search bar 
 3. [ ] By creating a new project
 4. [ ] You cannot use templates in Canva.
 
-> Is it possible to upload your own images to use in Canva?
+> **10. Is it possible to upload your own images to use in Canva?**
 
 1. [ ] No, you can only use stock photos.
 2. [ ] Yes 
 3. [ ] Yes, but only with a paid subscription.
 4. [ ] Uploading images is a complex process.
 
-> What does the "Elements" panel in Canva allow you to access?
+> **11. What does the "Elements" panel in Canva allow you to access?**
 
 1. [ ] Fonts and text styles
 2. [ ] Pre-designed illustrations, icons, and shapes 
 3. [ ] Your uploaded photos
 4. [ ] Collaboration features
 
-> Can you collaborate with others on a design in Canva?
+> **12. Can you collaborate with others on a design in Canva?**
 
 1. [ ] No, designs are private by default.
 2. [ ] Yes, you can share designs and allow others to edit them. 
 3. [ ] Collaboration requires a paid subscription.
 4. [ ] Collaboration is only possible in person.
 
-> In what format can you download your finished Canva design?
+> **13. In what format can you download your finished Canva design?**
 
 1. [ ] Only as a Canva file.
 2. [ ] Multiple formats including PNG, JPG, and PDF. 
 3. [ ] Uploading is the only option.
 4. [ ] Sharing the design link is the only way to share it.
 
-> What is the main advantage of using Canva compared to complex design software?
+> **14. What is the main advantage of using Canva compared to complex design software?**
 
 1. [ ] It requires a powerful computer.
 2. [ ] It has a steeper learning curve.
 3. [ ] It is user-friendly and accessible for beginners. 
 4. [ ] It offers fewer design features.
 
-> Which of the following file formats does Canva support for export?
+> **15. Which of the following file formats does Canva support for export?**
 1. [ ] PDF, DO, MP4
 2. [ ] JPG, PNG, PDF
 3. [ ] XLSX, PSD, GIF
 4. [ ] MP3, MOV, BMP
 
-> Which tool in Canva allows you to remove the background from an image?
+> **16. Which tool in Canva allows you to remove the background from an image?**
 1. [ ] Eraser
 2. [ ] Magic Resize
 3. [ ] Background(BG) Remover
 4. [ ] Crop tool
 
-> What is the purpose of Canva's "Templates" feature?
+> **17. What is the purpose of Canva's "Templates" feature?**
 1. [ ] To create custom fonts
 2. [ ] To save and reuse design layouts
 3. [ ] To record audio narration
 4. [ ] To generate mathematical equations
 
-> Which of the following CANNOT be done to text in Canva?
+> **18. Which of the following CANNOT be done to text in Canva?**
 
 1. [ ] Change the font
 2. [ ] Adjust the line spacing
 3. [ ] Add a gradient effect
 4. [ ] Rotate the text
 
-> Which tool in Canva allows you to change the alignment of text (left, center, right)?
+> **19. Which tool in Canva allows you to change the alignment of text (left, center, right)?**
 
 1. [ ] Text size slider
 2. [ ] Font family dropdown
 3. [ ] Text alignment icon (three horizontal lines)
 4. [ ] Color picker
 
-> What is the purpose of the "Line spacing" option in Canva?
+> **20. What is the purpose of the "Line spacing" option in Canva?**
 
 1. [ ] To change the font color
 2. [ ] To adjust the space between lines of text
 3. [ ] To underline the text
 4. [ ] To increase the text width
 
- > What tool in Canva allows you to change the font style (bold, italic, underline)? [Mobile App]
+ > **21. What tool in Canva allows you to change the font style (bold, italic, underline)?** [Mobile App]
 
 1. [ ] Color picker
 2. [ ] Text box outline settings
 3. [ ] Format options panel
 4. [ ] Layer control panel
 
-> How can you increase the line spacing between paragraphs in Canva?
+> **22. How can you increase the line spacing between paragraphs in Canva?**
 
 1. [ ] Use the "Decrease Indent" option
 2. [ ] Click and drag the space between paragraphs
 3. [ ] Change the font family
 4. [ ] Adjust the "Line spacing" setting
 
-> What does the "Nudge" feature in Canva allow you to do?
+> **23. What does the "Nudge" feature in Canva allow you to do?**
 
 1. [ ] Change the color of an element
 2. [ ] Resize an element by dragging its corners
 3. [ ] Move an element precisely by small increments
 4. [ ] Duplicate an element onto the design
 
-> Which option in Canva allows you to set the exact position of an element using numerical values?
+> **24. Which option in Canva allows you to set the exact position of an element using numerical values?**
 
 1. [ ] The "Align" menu
 2. [ ] The "Position" property panel
 3. [ ] The "Layer" control panel
 4. [ ] The "Effects" tab
 
-> What is the main purpose of Canva's Magic Eraser tool?
+> **25. What is the main purpose of Canva's Magic Eraser tool?**
 
 1. [ ] Adding special effects to images
 2. [ ] Removing specific elements from images
 3. [ ] Enhancing image contrast
 4. [ ] Creating animations
 
-> What does Canva's Magic Edit feature allow users to do?
+> **26. What does Canva's Magic Edit feature allow users to do?**
 
 1. [ ] Automatically edit text in images
 2. [ ] Enhance image colors
 3. [ ] odify existing elements in images
 4. [ ] Edit multiple elements in a design simultaneously
 
-> What does Canva's Text to Image feature enable users to do?
+> **27. What does Canva's Text to Image feature enable users to do?**
 
 1. [ ] Convert images to text format
 2. [ ] Automatically generate images from text
 3. [ ] Add text to existing images
 4. [ ] Convert images into vector graphics
 
-> Which feature in Canva allows you to collaborate with team members or clients on a design project?
+> **28. Which feature in Canva allows you to collaborate with team members or clients on a design project?**
 1. [ ] Share Button
 2. [ ] Team Templates
 3. [ ] Design Folders
 4. [ ] Commenting
 
-> Which of the following elements can you animate in Canva?
+> **29. Which of the following elements can you animate in Canva?**
 1. [ ] Text
 2. [ ] Images
 3. [ ] Icons
 4. [ ] All of the above
 
-> Which of the following is NOT a design type available in Canva?
+> **30. Which of the following is NOT a design type available in Canva?**
 1. [ ] Presentation
 2. [ ] Social Media Post
 3. [ ] Video Editing
 4. [ ] Flyer
 
-> Can users access their Canva account from the mobile app?
+> **31. Can users access their Canva account from the mobile app?**
 1. [ ] Yes, by logging in with their Canva credentials
 2. [ ] No, Canva accounts are only accessible from the website
 3. [ ] Only if they have a premium subscription
 4. [ ] Only if they have an enterprise account
 
->What is the difference between a "Folder" and a "Team" in Canva?
+> **32. What is the difference between a "Folder" and a "Team" in Canva?**
 
 1. [ ] Folders are for organizing your designs, while Teams are for collaborating with others.
 2. [ ] Folders can only store images, while Teams can store any design project.
@@ -1089,7 +1089,7 @@ By exploring these features and experimenting with different options, you can el
 
 ## Fill in the Blanks
 
-1. To change the font size in Canva, you can use the _____________ slider.
+1. To change the font size in Canva, you can use the __________ slider.
 2. Canva offers a library of pre-designed layouts called ________ to jumpstart your design process.
 3. You can add visual interest to your design with pre-made illustrations and icons found in the ________ panel.
 4. Canva allows you to collaborate on designs with others by sending a _______ link. 
