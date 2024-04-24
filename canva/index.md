@@ -870,7 +870,7 @@ By exploring these features and experimenting with different options, you can el
 
 ## Multiple Choice (Select the best answer)
 
-> What is the primary focus of Canva?
+> **1. What is the primary focus of Canva?**
 
 1. [ ] Project management
 2. [ ] Graphic design
