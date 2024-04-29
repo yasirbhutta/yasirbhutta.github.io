@@ -16,7 +16,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Online Courses and tutorials
 
-- Python video training: [web](video-training-python.md) \| [pdf](video-training-python.pdf) 
+- Python video training: [web](video-training-python.md) \| [pdf](video-training-python.pdf)
+- [Code in Place - Stanford University](https://codeinplace.stanford.edu)
 - [Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
 - [Google's Python Class](https://developers.google.com/edu/python)
 - [Python Code Examples – Sample Script Coding Tutorial for Beginners](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/)
