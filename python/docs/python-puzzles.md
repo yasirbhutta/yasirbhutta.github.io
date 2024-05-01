@@ -2,6 +2,8 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+- [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+
 Here are a few Python code examples with errors to help you understand common mistakes and debugging:
 
 ## Syntax Error
@@ -55,8 +57,8 @@ print(f"Hello, {lastname}")  # lastname not defined
 
 ```python
 for item in list:
-    print(item)  # Incorrect indentation
-print("Loop finished")
+    print(item)
+      print("Loop finished")
 ```
 
 **Error:** This code will result in an `IndentationError: expected indent` because the `print` statement inside the loop is not indented correctly.
