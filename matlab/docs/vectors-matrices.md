@@ -901,6 +901,51 @@ Here are some examples of how to use `eig` in MATLAB:
 
 ## Multiple Choice (Select the best answer)
 
+How can you access the second element (value 2) of a vector named myVector?
+
+a)  myVector(2)  Correct
+b)  myVector[2]
+c)  myVector.get(2)
+
+What is the function in MATLAB used to generate a row vector with evenly spaced values between two specified endpoints?
+
+a)  linspace  Correct
+b)  arange
+c)  logspace
+
+How can you create a 2x3 matrix in MATLAB?
+
+a)  matrix = [[1, 2, 3]; [4, 5, 6]]  Correct
+b)  matrix = (1, 2, 3; 4, 5, 6)
+c)  matrix = [1 2 3; 4:6]
+
+ How can you create a row vector containing 5 evenly spaced values between 2 and 10 in MATLAB?
+
+a) vector = [2:10]
+b) vector = linspace(2, 10) ✔
+c) vector = ones(1, 5) * 2 + 8
+d) vector = zeros(1, 5) + 2
+
+What is the output of the following code?
+
+Matlab
+v = [1 -2 3.5];
+element_signs = sign(v);
+disp(element_signs)
+Use code with caution.
+content_copy
+a) [1 1 1]
+b) [1 -1 3.5]
+c) [1 -2 3.5]
+d) [1 -1 3] 
+
+How can you concatenate two matrices A and B horizontally (side-by-side) in MATLAB?
+
+a) C = A + B
+b) C = A * B
+c) C = [A, B] ✔
+d) C = vertcat(A, B)
+
 ## Fill in the Blanks
 
 **Answer Key (Fill in the Blanks):**
@@ -912,6 +957,59 @@ Here are some examples of how to use `eig` in MATLAB:
 3. Experiment with the colon operator to create sub-vectors with different intervals.
 
 ## Review Questions
+
+## Review Questions for MATLAB: Vectors and Matrices
+
+**Concepts:**
+
+1. What are vectors in MATLAB? How are they different from matrices?
+2. Explain one-based indexing in MATLAB. 
+3. How can you create vectors using square brackets and the colon operator?
+4. Describe the functionalities of the following functions related to vectors:
+    - sum
+    - mean
+    - length
+    - max
+    - min
+    - prod
+    - sign
+    - find
+    - fix
+    - floor
+    - ceil
+    - round
+    - sort
+    - mod
+    - rem
+
+**Matrices:**
+
+5. How can you create matrices in MATLAB by entering elements directly?
+6. Explain different ways to specify elements within a row (commas vs. spaces).
+7. How do you access single elements, entire rows or columns, and specific elements using linear indices in matrices?
+8. Describe matrix concatenation using square brackets ([]).
+9. What are some special matrices you can create in MATLAB (zeros, ones, eye, etc.)?
+
+**Matrix Functions:**
+
+10. Explain the purpose of the following functions related to matrices:
+    - det
+    - rank
+    - trace
+    - inv
+    - norm
+    - transpose
+
+**Additional Questions:**
+
+11. What are some resources available to learn more about MATLAB and its functionalities (documentation, tutorials, etc.)?
+12. Describe a practical scenario where you might use vectors and matrices in MATLAB.
+
+**Challenge Questions:**
+
+13. Write a MATLAB script that takes two vectors as input and calculates their inner product (dot product).
+14.  Write a MATLAB script that creates a random 5x5 matrix and finds the eigenvalues and eigenvectors of the matrix.
+
 
 ## References and Bibliography
 
