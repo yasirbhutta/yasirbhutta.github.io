@@ -40,7 +40,7 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 - By default, Microsoft Excel provides one worksheet in a workbook.
 - Calculations can be made based on data from multiple worksheets.
 - Each Worksheet has a tab.
-- T0 activate a particular sheet, you can click on its respective tab.
+- To activate a particular sheet, you can click on its respective tab.
 
 ### Columns & Rows
 
@@ -57,7 +57,7 @@ A Microsoft Excel workbook is a file that contains one or more worksheets that y
 
 ## Enter data manually in worksheet cells
 
-[Video: How to: Enter data manually in worksheet cells | Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
+[Video: How to: Enter data manually in worksheet cells \| Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
 
 ### Number as Text
 
