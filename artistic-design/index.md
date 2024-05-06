@@ -6,6 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## Contents
 - Introduction to Artistic Design [[web]](docs/artistic-design.md) \| [pdf](https://yasirbhutta.github.io/artistic-design/docs/artistic-design.pdf)
 - Getting started with Canva [[web]](../canva/index.md) \| [pdf](https://yasirbhutta.github.io/canva/index.pdf)
+- Getting started with CapCut [[web]](../capcut/index.md)
 
 ## Assignments
 
