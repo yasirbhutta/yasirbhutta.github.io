@@ -623,6 +623,62 @@ disp(D);
 9    10    11    12
 ```
 
+**Class Activity**
+
+**Creating Matrices with Different Sizes:**
+
+- The size of a matrix is determined by its rows and columns. Let's create matrices of different sizes:
+  - Create a 3x4 matrix named D with elements 1 to 12.
+  - Create a 1x5 row vector named E.
+  - Create a 5x1 column vector named F.
+  - Use `disp(D)`, `disp(E)`, and `disp(F)` to view their outputs.
+
+**Accessing Single Elements:**
+
+- We can access specific elements within a matrix using row and column indices.
+  - Create a matrix A like before (e.g., A = [1 2; 3 4]).
+  - How can you access the element in the second row and third column of A?
+  - Write the code to access that element and display its value using disp().
+  - Accessing Rows and Columns:
+
+- We can access entire rows or columns at once.
+- Write the code to access the second row and third column of A and display them using disp().
+
+- Use matrix indexing to perform the following tasks:
+  - Access the element in the second row and third column of matrix M1.
+  - Extract the entire second row of matrix M2.
+  - Change the element in the third row and second column of matrix M3 to 5.
+
+**Modifying Elements:**
+
+- We can change specific values within the matrix.
+  - Write the code to change the element in the first row and second column of A to the value 10.
+  - Use disp(A) again to see the updated matrix.
+
+**Horizontal Concatenation:**
+
+- Concatenation allows us to combine matrices.
+  - Create two matrices A and B with some example values (e.g., 2x2 matrices).
+  - How can you join them horizontally (side-by-side)? 
+  - Write the code and use disp() to see the result.
+
+**Vertical Concatenation:**
+
+- We can also join matrices vertically (on top of each other).
+- Create new matrices A and B with different dimensions (e.g., A is 3x2, B is 2x2).
+- Write the code to concatenate them vertically and use disp() to see the outcome.
+
+**Mixed Concatenation:**
+
+- Create matrices X = [1 2; 3 4] and Y = [5 6; 7 8].
+- How can we combine these matrices horizontally (side-by-side)? (Hint: Use ,)
+- Now, let's combine them vertically (on top of each other). (Hint: Use ;)
+
+- We can combine horizontal and vertical concatenation.
+- Create three matrices A, B, and C with different sizes.
+- Write the code to join A and B horizontally, then concatenate the result vertically with C. 
+- Use disp() to see the final matrix.
+
 ## Special matrices
 
 ### 1. zeros
@@ -720,10 +776,6 @@ norm(X, p)
    matrix_norm_inf = norm(B, Inf);
    disp(['The infinity norm of B is: ', num2str(matrix_norm_inf)])
    ```
-
-
-
-
 
 **In summary:**
 
@@ -989,6 +1041,10 @@ d) C = vertcat(A, B)
 7. How do you access single elements, entire rows or columns, and specific elements using linear indices in matrices?
 8. Describe matrix concatenation using square brackets ([]).
 9. What are some special matrices you can create in MATLAB (zeros, ones, eye, etc.)?
+10. What are the different methods for creating matrices in MATLAB?
+11. How do you access specific elements in a matrix using indexing?
+12. When is horizontal concatenation preferable over vertical concatenation?
+13. Can you explain the concept of mixed concatenation with an example?
 
 **Matrix Functions:**
 
