@@ -19,6 +19,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Microsoft Excel
 
+Microsoft Excel is an electronic spreadsheet program developed by Microsoft. It’s widely used for storing, organizing, and manipulating data. 
+
 Microsoft Excel can be used to
 
 - perform mathematical calculations
@@ -26,45 +28,83 @@ Microsoft Excel can be used to
 - create different charts and graphs
 - retrieve data from external data sources and use it in worksheets
 
-## Excel Mobile App: Interface
+![Microsoft Excel](img/interface.png)
+Microsoft Excel: Interface
 
-## Workbooks
+## Excel Mobile App: 
 
-A Microsoft Excel workbook is a file that contains one or more worksheets that you can use to organize various kinds of related information.
 
-## Worksheets
+1. **Worksheets and Workbooks:**
 
-- The primary document that you use in Excel to store and work with data. Also called a spreadsheet.
-- A worksheet is always stored in a workbook.
-- A worksheet consists of cells that are organized into columns and rows.
-- By default, Microsoft Excel provides one worksheet in a workbook.
-- Calculations can be made based on data from multiple worksheets.
-- Each Worksheet has a tab.
-- To activate a particular sheet, you can click on its respective tab.
 
-### Columns & Rows
+- **Workbooks**
 
-- Each column and row of a worksheet has a unique name
-- Each column carries a letter of the alphabet as its name while a row is numbered
-- A worksheet consist of 16384 columns and more than one million rows.[^1]
+- A Microsoft Excel workbook is a file that contains one or more worksheets that you can use to organize various kinds of related information.
 
-### Cells
+- **Worksheets**
+  - The primary document that you use in Excel to store and work with data. Also called a spreadsheet.
+  - A worksheet is always stored in a workbook.
+  - A worksheet consists of cells that are organized into columns and rows.
+  - By default, Microsoft Excel provides one worksheet in a workbook.
+  - Calculations can be made based on data from multiple worksheets.
+  - Each Worksheet has a tab.
+  - To activate a particular sheet, you can click on its respective tab.
 
-- Cell is the intersection of a column & a row.
-- An active cell is the cell in which you can enter and edit data.
-- Each cell also has a unique address.
-- The address of any cell is the combination of its column letter and row number.
+- **Columns & Rows**
+  - Each column and row of a worksheet has a unique name
+  - Each column carries a letter of the alphabet as its name while a row is numbered
+  - A worksheet consist of 16384 columns and more than one million rows.[^1]
+
+- **Cells**
+  - Cell is the intersection of a column & a row.
+  - An active cell is the cell in which you can enter and edit data.
+
+2. **Cell References**:
+   - Cells are identified by their **cell references**, which combine the column letter and row number (e.g., A3, B6, AA345).
+   - You can store various types of data in cells, including numbers, text, dates, times, and Boolean values.
+
+3. **Formulas and Functions**:
+   - **Formulas** allow you to perform calculations using data from other cells. Start a formula by typing an equal sign (=) in the cell where you want the result.
+   - Formulas can include cell references and built-in **functions** (predefined calculations). Functions simplify complex tasks, such as finding averages, sums, or specific information in large tables of data.
+
+4. **Features**:
+   - Excel offers powerful features, including:
+     - **Calculation capabilities**: Perform arithmetic, statistical, and financial calculations.
+     - **Graphing tools**: Create charts and graphs to visualize data.
+     - **Pivot tables**: Analyze and summarize data from large datasets.
+     - **Visual Basic for Applications (VBA)**: A macro programming language for automating tasks.
+
+5. **Integration**:
+   - Excel is part of the **Microsoft 365 suite**, which includes other productivity tools like Word, PowerPoint, and Outlook.
+
+**Microsoft Excel's availability: **:
+
+1. **Desktop Version 💻**:
+   - **Microsoft Excel** is available as a desktop application for both **Windows** and **Mac** operating systems.
+   - Users can install Excel on their personal computers or workstations to create, edit, and analyze spreadsheets.
+
+2. **Mobile Version 📱**:
+   - **Microsoft Excel** is also available as a **mobile app** for smartphones and tablets.
+   - You can download the Excel app from app stores (such as **Google Play Store** for Android devices or the **Apple App Store** for iOS devices).
+   - The mobile app allows you to view, edit, and collaborate on Excel files while on the go.
+
+3. **Online Version (Excel Online) 🌐**:
+   - **Excel Online** is the web-based version of Excel.
+   - It runs in a web browser (such as **Microsoft Edge**, **Google Chrome**, or **Mozilla Firefox**).
+   - Users can access Excel Online through their **Microsoft OneDrive** or **Microsoft 365** accounts.
+   - Excel Online provides basic spreadsheet functionality and allows collaboration with others in real time.
+   - [Microsoft 365 for the web](https://www.microsoft365.com/)
 
 ## Enter data manually in worksheet cells
 
 [Video: How to: Enter data manually in worksheet cells \| Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
 
-### Number as Text
+**Number as Text**
 
 - A single quote (or an apostrophe) is used to signify Text in Excel. 
 - A number entered with the leading apostrophe is treated as Text and (generally) cannot be used in calculations.
 
-### Enter a dates or a time in a cell
+**Enter a dates or a time in a cell**
 
 - On the worksheet, click a cell.
 - Type a date or time as follows:
