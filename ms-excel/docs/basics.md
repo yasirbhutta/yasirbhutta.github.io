@@ -77,7 +77,7 @@ Microsoft Excel: Interface
 5. **Integration**:
    - Excel is part of the **Microsoft 365 suite**, which includes other productivity tools like Word, PowerPoint, and Outlook.
 
-**Microsoft Excel's availability: **:
+**Microsoft Excel's availability:**
 
 1. **Desktop Version 💻**:
    - **Microsoft Excel** is available as a desktop application for both **Windows** and **Mac** operating systems.

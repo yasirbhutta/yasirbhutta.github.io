@@ -942,8 +942,119 @@ Here are some examples of how to use `eig` in MATLAB:
 ### 10. eigs
 ### 11. orth
 
+## Matrix and Array Operations
 
+### Arithmetic Operations
 
+**Matrix Creation**
+
+```matlab
+A = [1 2 3; 4 5 6];
+B = [7 8; 9 10; 11 12];
+```
+**1. Addition (+):**
+`Important:` A + B is valid if A and B are matrices of the same size.
+
+```matlab
+C_add = A + B;
+disp(C_add);
+```
+
+**2. Subtraction (-):**
+`Important:` A - B is valid if A and B are matrices of the same size.
+
+```matlab
+C_sub = A - B;
+disp(C_sub);
+```
+**3. Multiplication (*):**
+`Important:` A * B is valid if number of columns of A = number of rows of B.
+
+```matlab
+C_mul = A * B;
+disp(C_mul);
+```
+**4. Exponentiation (^)**
+`Important:` A^2 is valid if A is square and it equals A*A.
+
+```matlab
+C_exp = A^2;
+disp(C_exp);
+```
+**5. Right division (/):**
+`Important:` A/B is valid if A and B are  of the same size and is equal to AB^-1^ for the same size square matrices A and B.
+
+```matlab
+C_div_right = A / B;
+disp(C_div_right);
+```
+**6. Left division (\\):**
+`Important:` A\B is valid if A and B are  of the same size and is equal to A^-1^B for the same size square matrices A and B.
+
+```matlab
+C_div_left = A / B;
+disp(C_div_left);
+```
+
+**Class Activity:**
+
+An example that combines the concepts of creating matrices, performing matrix multiplication, and solving a linear equation system using MATLAB:
+
+**Problem Statement:**
+
+We have a system of linear equations:
+
+* 3x + y = 2
+* 2x - y = 5
+
+We want to find the values of x and y using MATLAB.
+
+**Solution Steps:**
+
+1. **Create Matrices:**
+
+   - Open MATLAB and type the following code to define the coefficient matrix (A) and constant vector (b):
+
+   ```matlab
+   A = [3 1; 2 -1];
+   b = [2; 5];
+   ```
+
+   Here, A represents the coefficients of x and y in each equation, and b represents the constant values on the right side.
+
+2. **Solve the System:**
+
+   - Use the backslash (`\`) operator to solve the system for the variable vector (x). MATLAB will calculate the inverse of A (which is required for solving) and multiply it with b to find x.
+
+   ```matlab
+   x = A \ b;
+   disp(x);
+   ```
+
+3. **Interpret the Results:**
+
+   - Run the code. MATLAB will display the solution vector x:
+
+   ```
+   x =
+
+     1.0000
+     2.0000
+   ```
+
+   This indicates that x = 1 and y = 2 satisfy the system of equations.
+
+**Explanation:**
+
+The backslash operator (`\`) is a convenient way to solve linear systems in MATLAB. It performs the following steps behind the scenes:
+
+1. Inverts the coefficient matrix (A^-1).
+2. Multiplies the inverse with the constant vector (A^-1 * b).
+3. Returns the resulting vector, which contains the solution values for the variables (x).
+
+**See also**
+
+[How to Multiply Matrices - mathsisfun.com](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
 
 ## Key Terms
 
