@@ -229,3 +229,6 @@ Step by Step guide: [Text to AI voice over generator](https://www.capcut.com/res
 
 Step by Step guide: [How to Overlay a Video on a Video with CapCut](https://www.capcut.com/resource/overlay-video-on-video)
 
+
+https://youtu.be/DI-ziBV87Ho?si=eQIZbuVbJE7lrCP_
+
