@@ -14,7 +14,7 @@
     * Control Flow Statements (if/else, loops)
     * Functions
     * Debugging Techniques
-    * any other related topic
+    * [any other related topic](../docs/matlab-topics.md)
 * **Slides:** Minimum of 10 slides.
 * **Content:** Each slide should clearly explain a sub-topic within your chosen concept. Use concise language, bullet points, and visuals to effectively communicate.
 * **Visuals:** Include relevant images, diagrams, screenshots, charts or even short animations and transitions to enhance understanding and keep the audience engaged.

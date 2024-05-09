@@ -24,5 +24,5 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 ## Assignments
 
 - [Topics for presentation](docs/matlab-topics.md)
-- [Assignment: Programming Fundamentals Adventure!](assignments/matlab-assign1.md)
+- [Presentation guidelines](assignments/matlab-assign1.md)
 - 
