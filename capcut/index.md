@@ -219,6 +219,19 @@ Now you have two separate clips!
     - **Task B:** Combine trimming and splitting to create a completely different narrative from your original clip.
     - **Task C:** Reverse Reel: Split your clip into small sections and then rearrange them in reverse order to create a unique rewind effect.
 
+**Class Activity 2:**
+   - **Edit Your Video:** Import your footage into the video editing software. Trim the clips to the best moments and arrange them in a way that tells your story. Add transitions, effects, and titles and subtitles.
+   - **Audio:** Record audio for the clip
+   - **Finalize:** Watch your video and make any final adjustments. Keep the total runtime at or below 30 second.
+   - **Share:** Present your video to the class and upload in Teams. Discuss what story you were trying to tell and any challenges you faced.
+
+   - **Videos for Editing**
+   1. [School bag - pexels.com](https://www.pexels.com/video/children-walking-on-a-paved-pathway-with-their-backpacks-3191109/)
+   2. [Smart Phone - pexels.com](https://www.pexels.com/video/smartphone-mobile-phone-mobile-cell-phone-4201543/)
+   3. [Markup - pexels.com](https://www.pexels.com/video/woman-with-eyeshadow-holding-makeup-product-7291977/)
+   4. [Vegetables - pexels.com](https://www.pexels.com/video/old-woman-buying-variety-of-vegetables-2016731/)
+   5. [Video: Glass of Water - pexels.com](https://www.pexels.com/video/pouring-a-glass-of-water-2311965/)
+
 ## CapCut AI Voiceover Generator
 
 CapCut is a robust text to voice over generator that is making waves in the content creation world, offering an easy way for anyone to add a professional touch to their videos.
