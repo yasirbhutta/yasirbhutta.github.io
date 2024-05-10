@@ -1,13 +1,22 @@
-# print function
-print("Hello World");
+import pandas as pd
+import mysql.connector
 
-a = 5;
-print("Hello");
-print("World");
+# Establish connection
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="abc1234",
+    database="library"
+)
 
-print("Hello", "World",sep=",",end="\n\n");
+# Define your SQL query
+sql = "SELECT * FROM books"  # Replace with your specific query
 
-print("Hello", "World",end="!");
+# Read the results into a DataFrame
+df = pd.read_sql(sql, mydb)  # mydb is the connection object
 
-with open("output1.txt","w") as f:
-    print("Hello World",file=f);
+# Close the connection
+mydb.close()
+
+# Now you can work with the data in your DataFrame (df)
+print(df.head())  # View the first few rows
