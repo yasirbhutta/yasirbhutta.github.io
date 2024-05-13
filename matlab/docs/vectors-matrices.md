@@ -996,6 +996,107 @@ C_div_left = A / B;
 disp(C_div_left);
 ```
 
+Converting a set of algebraic equations into matrix form (Ax = b) involves representing the system of equations in a more compact and efficient way. Here's how to do it:
+
+**1. Define Your Equations:**
+
+Start by writing your set of algebraic equations in a clear and consistent format. Make sure all the variables are defined and used consistently across the equations.
+
+For example, consider a system with two equations and two variables (x and y):
+
+* Equation 1: 2x + 3y = 5
+* Equation 2: x - y = 1
+
+**2. Create the Coefficient Matrix (A):**
+
+- The coefficient matrix (A) will have dimensions mxn, where m is the number of equations and n is the number of variables.
+- In each row of A, you'll place the coefficients of the corresponding variables from the equation.
+- If a variable doesn't appear in an equation, its corresponding coefficient in A will be 0.
+
+For our example:
+
+```
+A = [  2   3  ]  (row 1: coefficients from equation 1)
+    [  1  -1  ]  (row 2: coefficients from equation 2)
+```
+
+**3. Create the Variables Vector (x):**
+
+- The variables vector (x) is a column vector with size mx1 (same number of rows as equations).
+- It lists all the variables in the same order they appear in the equations.
+
+For our example:
+
+```
+x = [  x  ]
+    [  y  ]
+```
+
+**4. Create the Constants Vector (b):**
+
+- The constants vector (b) is also a column vector with size mx1.
+- It lists the constant values on the right side of each equation.
+
+For our example:
+
+```
+b = [  5  ]
+    [  1  ]
+```
+
+**5. Combine into Matrix Equation (Ax = b):**
+
+Finally, the matrix equation representing the system is:
+
+```
+A * x = b
+```
+
+In our example:
+
+```
+[  2   3  ] * [  x  ] = [  5  ]
+[  1  -1  ]   [  y  ]   [  1  ]
+```
+
+**Generalization:**
+
+This process can be extended to any system of linear equations with multiple variables and equations. Just remember to follow the same structure for creating the coefficient matrix, variables vector, and constants vector based on your specific system.
+
+Once you've converted your set of algebraic equations into matrix form (Ax = b), there are several methods to solve for the unknown variables (represented by the vector x). Here are three common approaches in MATLAB:
+
+**1. Using the `\` Operator (Backslash):**
+
+The backslash operator (`\`) is a convenient way to solve linear systems of equations in MATLAB. It provides a direct solution for x:
+
+```matlab
+% Assuming you have already defined A, b (from your system of equations)
+
+x = A \ b;
+
+% Display the solution vector
+disp('Solution (x):')
+disp(x)
+```
+
+**2. Using the `linsolve` Function:**
+
+The `linsolve` function offers more control over the solution process. It takes two arguments:
+
+* The coefficient matrix (A)
+* The constants vector (b)
+
+```matlab
+% Assuming you have already defined A, b
+
+x = linsolve(A, b);
+
+% Display the solution vector
+disp('Solution (x):')
+disp(x)
+```
+
+
 **Class Activity:**
 
 An example that combines the concepts of creating matrices, performing matrix multiplication, and solving a linear equation system using MATLAB:
