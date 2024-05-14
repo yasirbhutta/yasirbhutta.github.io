@@ -139,5 +139,4 @@ import pandas as pd
 # Replace with your connection string details
 connection_string = "mysql+mysqlconnector://yourusername:yourpassword@host/yourdatabase"
 df = pd.read_sql(sql, connection_string)
-
 ```
