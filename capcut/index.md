@@ -284,7 +284,7 @@ There are two main types of stickers you'll typically find in video editing soft
 
 **Class Activity:**
 
-- **Task #1:**
+- **Task A:**
   1. Generate Caption from Above audio.
   2. Apply Animations on All Captions **Border pop-up I**. 
 
@@ -358,7 +358,80 @@ After adding the final touch-ups to the video, download or share it with the aud
 1. [Video of mother carring her daughter - pexels.com](https://www.pexels.com/video/video-of-mother-carrying-her-daughter-4812074/)
 2. [Rabbits in the bed - pexels.com](https://www.pexels.com/video/rabbits-in-the-bed-6846016/)
 3. [Video of a building interior - pexels.com](https://www.pexels.com/video/video-of-a-building-interior-6587490/)
+
+## Class Activity: Creating a Mini-Documentary with CapCut
+
+This activity lets students create a short documentary using CapCut, showcasing their creativity and storytelling skills.
+
+**Materials:**
+
+* Smartphone with CapCut installed
+* Photos (10) related to the documentary topic (e.g., historical event, scientific process etc)
+
+**Instructions:**
+
+1. **Import Photos and Add Transitions:**
+    - Open CapCut and tap "New Project."
+    - Import all 10 photos into the project.
+    - Tap on a photo and select "Transitions." Choose an appealing transition effect (e.g., Dissolve, Zoom) to connect the photos smoothly.
+
+2. **Zoom in with Keyframes:**
+    - Select a group photo where you want to zoom in on a specific person.
+    - **How to use keyframes in Mobil App:**
+      - Tap the photo and choose "Edit."
+      - Drag the white line on the timeline to the point where you want the zoom to start. 
+      - Tap the "Keyframes" icon (diamond)
+      - Drag the white line to the end of the clip and Tap the "Keyframes" icon (diamond)
+      - Pinch your fingers on the preview window to zoom in on the desired person to achieve the desired effect
+
+3. **Add Subtitles:**
+    - Tap on a photo and select "Text." 
+    - Choose a subtitle style and type a short description or key point related to the photo.
+    -  Adjust the position and duration of the subtitle as needed. Repeat for all photos.
+    -  
+4. **Record Voiceover:**
+    - Tap the Audio and select "Record" 
+    - Record your voiceover narration, following your script and keeping the pace consistent with the photos and transitions.
+
+5. **Finalize and Export:**
+    - Add background music (optional) using the "Audio" button. 
+    - Preview your mini-documentary and make any adjustments.
+    - Export the finished video by tapping the arrow icon and choosing the desired resolution.
+
+## Class Activity: CapCut Feature Tutorial 
+
+This activity is designed to help you learn and showcase a cool CapCut feature by creating a short tutorial video. 
+
+**Materials:**
+
+* Smartphones with CapCut App installed
+* Short video clips
+
+**Steps:**
+
+1. **Pick a Feature:** 
+    - Adding Text & Titles
+    - Using Text-to-Speech
+    - Applying Transitions & Effects 
+    - Speed Adjustments (Slow-Mo & Fast-Mo)
+    - Keyframe Editing
+    - Adding Stickers & Overlays
+    - Any other feature
+2. **Teams:** Form two student teams. Each team will create a tutorial video focusing on a single chosen feature.
+3. **Plan Your Tutorial:**  
+    * **Script:** Each team writes a short script outlining the steps to use their chosen feature. Consider incorporating a mix of subtitles and text-to-speech.
+4. **Filming & Editing:**  
+    - **Filming:** Students can film short video clips showcasing the chosen feature in action. 
+    - **Editing in CapCut:** Use CapCut to edit your footage.
+      -  **Subtitles:** Use clear and concise subtitles to explain each step. 
+      -  **Text-to-Speech:** Add Text-to-Speech narration for further explanation.
+      -  **Keyframes:** Utilize keyframes to highlight specific moments or adjustments.  
+      -  **Title:** Don't forget to add a catchy title using the video title feature!
+      -  **Stickers** Enhance your video with `Emphasis` stickers.
   
+[Sample Video](https://youtu.be/b2XNfD3xEwY?si=oCU2pfuTjcenzwuy)
+1. **Class Presentations:** Each team presents their tutorial video to the class. Encourage classmates to ask questions and share their own CapCut tips.
+
 ### **Slow Motion & Speed Control:** Create dramatic slow-motion effects or speed things up.
 ### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
 ### **Video Stabilization:** Fix shaky footage for a professional touch.
@@ -366,9 +439,9 @@ After adding the final touch-ups to the video, download or share it with the aud
 ## **Module 5: Audio & Music**
 
 ### **Adding Background Music:** Set the mood with royalty-free music or your own tunes.
+
 **Sounds:**
 **Extract:**
-**Text to Speech:**
 **Isolate voice:**
 
 **See also:**
