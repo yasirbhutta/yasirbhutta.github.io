@@ -1,5 +1,11 @@
 # Learn CAPCUT
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
+- [Download PDF](#)  
+- To access the updated Class Notes of CapCut, please click on the following link:
+[index.html](../yasirbhutta.github.io/index.md)
+
 ## CapCut Editing Mastery: From Beginner to Pro!
 
 This course will transform you from a CapCut newbie to a confident video editor! We'll explore all the key features to create engaging and polished content for social media or any project.
@@ -231,6 +237,152 @@ Now you have two separate clips!
    3. [Markup - pexels.com](https://www.pexels.com/video/woman-with-eyeshadow-holding-makeup-product-7291977/)
    4. [Vegetables - pexels.com](https://www.pexels.com/video/old-woman-buying-variety-of-vegetables-2016731/)
    5. [Video: Glass of Water - pexels.com](https://www.pexels.com/video/pouring-a-glass-of-water-2311965/)
+
+### Merging & Arranging Clips  
+- Learn to combine clips seamlessly and structure your video.
+
+### Adding Text & Stickers
+- Enhance your videos with titles, captions, and fun graphics.
+
+**Add Text**
+**Stickers**
+
+- Stickers in video editing software are graphic elements you can add to your videos to enhance their visual appeal and convey information in a fun or informative way. They function like digital stickers you might use on photos but with the added benefit of animation in some cases.
+
+Here's a breakdown of what stickers offer in video editing:
+
+- **Visual Interest:** Stickers can add a playful or decorative touch to your video, grabbing attention and making it more visually engaging.
+- **Highlight Information:** You can use stickers to point out key elements in your video, add emphasis to specific parts, or illustrate concepts in a creative way.
+- **Brand Identity:** Stickers can incorporate your brand logo or mascot, subtly reinforcing your brand identity throughout the video.
+- **Emotional Impact:** Stickers can be used to convey emotions or humor, depending on the design and how you use them in your video.
+
+There are two main types of stickers you'll typically find in video editing software:
+
+1.  **Static Stickers:** These are simple graphic images that don't move. They come in a wide variety of designs, from emojis and smileys to thematic stickers related to holidays, hobbies, or specific topics.
+
+2.  **Animated Stickers:** These stickers incorporate animation, adding movement and bringing your visuals to life. This can be anything from simple animations like a bouncing emoji to more complex animations that interact with your video content.
+
+**Text to Speech:**
+
+- Text-to-speech (TTS) in video editing software allows you to convert written text into a voiceover that you can add to your video. This is a helpful feature for various scenarios:
+
+**Creating a Voiceover:** If you don't want to record your own voiceover narration, TTS can generate a voice to read your script.
+**Multiple Languages:** You can create videos with voiceovers in different languages using TTS options with various language support.
+**Adding Emphasis or Narration:** TTS can be used for specific parts of your video, like adding narration to text overlays or highlighting key points.
+
+**Auto Captions:**
+
+- Autocaption in video editing is a feature that automatically generates captions (or subtitles) for your videos based on the audio content. This is a fantastic tool for several reasons:
+
+**Accessibility:** It makes your videos more accessible to viewers who are deaf or hard of hearing, allowing them to follow along with the dialogue.
+**Non-English Speakers:** Captions can also be helpful for viewers who speak a different language from the one spoken in the video.
+**Watching Without Sound:** Captions are useful for people watching your video in situations where they can't turn on the sound, like on public transportation or in a library.
+
+[Download audio to practice Auto Captions](docs/audio/audio%20for%20autocaption.mp3)
+
+**How to Apply Animations on Captions:**
+
+**Class Activity:**
+
+- **Task #1:**
+  1. Generate Caption from Above audio.
+  2. Apply Animations on All Captions **Border pop-up I**. 
+
+
+**See also:**
+
+- [Online Generative Voice AI tool](https://elevenlabs.io/)
+
+**Text template**
+**Auto lyrics**
+**Draw**
+**Basic:**
+
+**Aspect ratio:**
+
+Aspect ratio is the proportional relationship between the width and height of a rectangle. It's expressed as a colon-separated pair of numbers like width:height (e.g., 16:9, 4:3).
+Common aspect ratios are used in various fields such as photography, videography, and graphic design.  For instance, a 16:9 aspect ratio is ideal for widescreen TVs and monitors, while a 4:3 ratio is suitable for standard-definition TVs and presentations.
+
+Capcut allows you to choose from various aspect ratios to suit your video editing needs. The app supports popular ratios like 16:9 (widescreen), 9:16 (ideal for TikTok and Instagram stories), 4:3 (standard definition TV), 1:1 (square format for social media posts), and more.
+
+**Speed:**
+**Volume:**
+**video Quality:**
+
+## **Module 3: Effects & Transitions**
+
+### **Level Up with Transitions:** 
+- Apply smooth transitions for a polished look.
+
+###**Eye-catching Effects:** Discover various effects to add personality and style.
+
+**Animations:**
+**Transform:**
+**Auto reframe:**
+**Filters**
+**Camera tracking:**
+**Remove BG:**
+**Retouch:**
+
+**Module 4: Advanced CapCut Techniques**
+
+### **Keyframe Animations:** 
+
+Keyframing is a feature that allows you to create motion graphics and smooth animation. To create a motion sequence, you need to define your object's starting and ending points. These markers are referred to as the keyframes. Use CapCut to employ video keyframes with our easy-to-use user interface. Besides keyframe effects, you can add speed curve to smooth your video clips. Learn more: [Keyframe Animations - capcut.com](https://www.capcut.com/tools/keyframe-animation)
+
+Here are some examples of how keyframes can be used in CapCut:
+
+ - Zoom in on a clip: You can use keyframes to create a zooming effect, where you gradually enlarge a specific part of your clip. This can be used to draw attention to a particular detail or create a sense of focus.
+
+ - Rotate text: Keyframes can be used to rotate text elements in your CapCut project. This can be a fun way to add dynamism to your text overlays or create a more playful l[ook.
+
+ - Fade in or out an image: You can use keyframes to control the opacity of an image overlay in your CapCut project. This allows you to fade an image in or out smoothly, creating a more polished look.
+
+ - Create a bouncing effect: Keyframes can be used to animate the position of an element in your CapCut project, allowing you to create bouncing or moving elements. This can be a great way to add a touch of whimsy to your video.
+
+ - Animate color changes: Keyframes can also be used to animate the color of elements in your CapCut project. This can be used to create a color shift effect or to match the colors of your video to the mood or theme you're going for.
+
+**How to add keyframes in CapCut?**
+
+**Step 1: Start a new project**
+Access CapCut's well-rounded editor via a web browser. Click 'Create new video' and select the appropriate ratio for your project. Upload relevant media to the cloud or start with stock videos and add them to the multitrack editor. 
+
+**Step 2: Add keyframes to video**
+Select a video clip on the multitrack editor and go to the 'Basic' tab in the upper-right corner. Click the keyframe icon to add it to the clips as you want, and then adjust the parameters for perfect animation. Want to make your video stand out? Make the best of other robust editing tools. For instance, apply a speed curve to make your action movie gripping and thrilling.
+
+**Step 3: Export and share**
+After adding the final touch-ups to the video, download or share it with the audience with just one click. Be it for online presentations, team reviews, or social media promotion, CapCut has you covered.
+
+**Videos for the the practice of keyframes:**
+
+1. [Video of mother carring her daughter - pexels.com](https://www.pexels.com/video/video-of-mother-carrying-her-daughter-4812074/)
+2. [Rabbits in the bed - pexels.com](https://www.pexels.com/video/rabbits-in-the-bed-6846016/)
+3. [Video of a building interior - pexels.com](https://www.pexels.com/video/video-of-a-building-interior-6587490/)
+  
+### **Slow Motion & Speed Control:** Create dramatic slow-motion effects or speed things up.
+### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
+### **Video Stabilization:** Fix shaky footage for a professional touch.
+
+## **Module 5: Audio & Music**
+
+### **Adding Background Music:** Set the mood with royalty-free music or your own tunes.
+**Sounds:**
+**Extract:**
+**Text to Speech:**
+**Isolate voice:**
+
+**See also:**
+
+- [Download Free Sound Effects - pixabay.com](https://pixabay.com/sound-effects/search/free%20sound/)
+- [Download Sound Effects Educatinal - chosic.com](https://www.chosic.com/free-music/educational/)
+
+### **Sound Effects & Voiceovers:**  Incorporate sound effects and voiceovers for a richer experience.
+**Record:**
+
+**Module 6: Export & Sharing**
+
+- **Exporting Your Masterpiece:** Choose the perfect video format and resolution for your needs.
+- **Sharing on Social Media:** Learn to export and share your creations on popular platforms.
 
 ## CapCut AI Voiceover Generator
 
