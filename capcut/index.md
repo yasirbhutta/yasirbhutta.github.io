@@ -249,15 +249,12 @@ Now you have two separate clips!
 **Add Text**
 
 ![text template](docs/img/text_template_512.png)
-**CapCut Desktop: Text Template**
 
 **Stickers**
 
 - Stickers in video editing software are graphic elements you can add to your videos to enhance their visual appeal and convey information in a fun or informative way. They function like digital stickers you might use on photos but with the added benefit of animation in some cases.
 
 ![stickers](docs/img/stickers_512.png)
-
-**CapCut Desktop: Stickers**
 
 Here's a breakdown of what stickers offer in video editing:
 
@@ -349,7 +346,6 @@ Here's a breakdown of what auto reframe does:
 **Saves Time:** It automates the resizing process, eliminating the need for manual cropping and zooming, which can be tedious.
 **Adapts for Different Platforms:** Social media platforms like Instagram, TikTok, and YouTube have different aspect ratio requirements. Auto reframe helps you easily reformat your video for each platform without losing the core content.
 **Focuses on the Subject:** CapCut's auto reframe (especially in the Pro version for PC) often uses artificial intelligence to detect the main subject in your video (people, objects) and prioritizes keeping that subject in the frame during resizing.
-
 
 **Filters**
 
