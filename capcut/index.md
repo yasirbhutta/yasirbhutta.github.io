@@ -6,6 +6,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated Class Notes of CapCut, please click on the following link:
 [index.html](../yasirbhutta.github.io/index.md)
 
+[CapCut Slides](https://docs.google.com/presentation/d/16RD9W0v63801hLUyVx0jZZJwusgCxpZLqV9IpZb-YdI/edit?usp=sharing)
+
 ## CapCut Editing Mastery: From Beginner to Pro!
 
 This course will transform you from a CapCut newbie to a confident video editor! We'll explore all the key features to create engaging and polished content for social media or any project.
@@ -317,12 +319,83 @@ Capcut allows you to choose from various aspect ratios to suit your video editin
 ###**Eye-catching Effects:** Discover various effects to add personality and style.
 
 **Animations:**
+
+- CapCut provides a library of pre-built animations you can apply to your text, stickers, and other elements. These animations can add things like fly-in effects, bounces, zooms, and more.
+
+Learn more: [Animations](https://www.capcut.com/create/animation-maker)
+
+**How can I create animated videos?**
+
+CapCut is a video editor that can be used to create animated videos. Here are three steps to create an animated video using CapCut:
+1. Choose your animation style: CapCut offers different animation styles to choose from, such as motion graphics, 2D animation, and more.
+2. Create your animation: Use CapCut's animation tools to create your desired animation. You can add text, shapes, and images to create a visually appealing animation.
+3. Export and share: Once you've finished creating your animated video, export it in the desired format and share it on your preferred platform, such as YouTube or Instagram.
+
 **Transform:**
 **Auto reframe:**
+
+Auto reframe in CapCut is a feature that helps you adjust your video's aspect ratio to fit different social media platforms or project requirements. It essentially crops and resizes your video automatically, keeping the important content in focus.
+
+Here's a breakdown of what auto reframe does:
+
+**Saves Time:** It automates the resizing process, eliminating the need for manual cropping and zooming, which can be tedious.
+**Adapts for Different Platforms:** Social media platforms like Instagram, TikTok, and YouTube have different aspect ratio requirements. Auto reframe helps you easily reformat your video for each platform without losing the core content.
+**Focuses on the Subject:** CapCut's auto reframe (especially in the Pro version for PC) often uses artificial intelligence to detect the main subject in your video (people, objects) and prioritizes keeping that subject in the frame during resizing.
+
+
 **Filters**
+
+Filters in CapCut are essentially preset color adjustments that you can apply to your videos to completely transform their look and feel. They offer a quick and easy way to achieve specific visual styles or moods in your editing.
+
+Here's a breakdown of what filters do in CapCut:
+
+- **Change Color Style:** Filters can dramatically alter the color palette of your video. This can involve making it warmer, cooler, more vibrant, or even black and white.
+- **Set the Mood:** Different filters can evoke various moods or atmospheres. For instance, a vintage filter might create a nostalgic feel, while a neon filter might lend an energetic vibe.
+- **Theme Enhancement:** Filters can help you achieve a particular theme for your video. Maybe you're going for a cinematic look or a dreamy aesthetic - filters can provide a starting point for that.
+
+**Benefits of using filters in CapCut:**
+
+- **Simple and Efficient:** Applying filters is a quick and effortless way to enhance your videos without needing advanced color grading techniques.
+- **Diverse Range:** CapCut offers a wide variety of filters, from subtle adjustments to dramatic effects, allowing you to explore different creative directions.
+- **Customization:** While filters provide presets, you often have the option to fine-tune the intensity of the filter to achieve the exact look you desire.
+  
 **Camera tracking:**
+
+CapCut's camera tracking isn't quite like physically moving a camera in the real world. Instead, it's a powerful **motion tracking** feature that utilizes artificial intelligence (AI). Here's how it works:
+
+- **Tracks Objects:** You select a specific object (person, animal, item) in your video footage. 
+- **AI Analyzes Movement:** CapCut's AI then tracks the movement of that chosen object throughout the video. 
+- **Synchronized Effects:** This allows you to effortlessly add text, stickers, overlays, or even other video clips that will stay locked onto the tracked object. They'll move and adjust their position to seamlessly follow the object as it moves in your footage.
+
+**Benefits of Camera Tracking in CapCut:**
+
+- **Dynamic and Engaging Videos:** By having elements move in sync with objects, you can create a more dynamic and visually interesting video compared to static overlays.
+- **Simplified Editing:**  Motion tracking saves time and effort.  Instead of manually animating elements to follow the object, CapCut automates it.
+- **Creative Possibilities:**  This feature opens doors to creative applications. Imagine text bubbles appearing above someone's head as they talk, or a product logo hovering next to a highlighted item.
+  
 **Remove BG:**
+
+CapCut's "Remove Background" feature allows you to remove the background from your videos or images, essentially making your subject transparent. This can be useful for various creative editing purposes:
+
+- **Placing your subject on a new background:** You can replace the original background with a solid color, another video clip, or an image to create a completely new scene for your subject.
+- **Creating overlays:** By removing the background, you can isolate your subject and use it as an overlay on top of another video. This is useful for things like picture-in-picture effects or creating composite scenes.
+- **Green screen effect (limited):** By removing the background, you can achieve a similar effect if you filmed your subject in front of a green screen. You can then replace the green background with any other desired background image or video.
+
 **Retouch:**
+
+In CapCut, the retouch feature allows you to specifically enhance the appearance of faces in your videos. It essentially offers a set of beauty adjustments to smoothen skin, brighten features, and refine facial contours. 
+
+**What retouch does in CapCut:**
+
+- **Smooth Skin:** This reduces the appearance of wrinkles, blemishes, and imperfections, giving the skin a smoother and more even look. You can adjust the intensity of the smoothing effect to achieve a natural or more airbrushed appearance.
+- **Skin Tone Adjustment:**  You can subtly change the overall skin tone of the face in the video. This might involve making it brighter, cooler, or warmer depending on your preference.
+- **Facial Feature Refinement:**  CapCut offers options to adjust specific facial features like eyes (making them appear bigger) or slimming the face. It's important to use these adjustments sparingly to maintain a natural look.
+
+**Benefits of Using Retouch in CapCut:**
+
+- **Quick Enhancements:** It's a convenient way to improve the overall look of faces in your videos, particularly for minor imperfections or uneven skin tones.
+- **Non-destructive Editing:**  CapCut's retouch adjustments are non-destructive, meaning the original video footage remains untouched. You can always revert the changes if needed.
+- **Easy to Use:**  The retouch interface is user-friendly with sliders and options clearly labeled. It's a good option for beginners who want to add a touch of polish to their videos.
 
 **Module 4: Advanced CapCut Techniques**
 
@@ -441,8 +514,56 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
 ### **Adding Background Music:** Set the mood with royalty-free music or your own tunes.
 
 **Sounds:**
-**Extract:**
+**Extract Audio:**
+
+The audio extract feature in CapCut is a handy tool that allows you to isolate and save the audio portion from a video clip within your editing project. This extracted audio can then be used for various purposes:
+
+* **Separate Audio Editing:**  Extracting the audio lets you edit it independently from the video. You can trim unwanted parts, adjust volume levels, add effects, or even create a standalone audio file. 
+* **Replacing Original Audio:** Perhaps you don't like the original audio in your video clip. You can extract it, remove it from the video, and then replace it with a different audio track like music, sound effects, or your own narration.
+* **Creating Audio Overlays:**  If you have a video with existing audio but want to add another audio layer on top (like commentary), extracting audio from another clip can provide that additional audio track. 
+
+Here's how to use the audio extract feature in CapCut:
+
+1. **Import your video clip:** Add the video containing the audio you want to extract to your CapCut project timeline.
+2. **Locate the video clip:**  On the timeline, tap on the video clip to select it.
+3. **Access the audio extraction options:** There are two main ways to access the extract audio feature depending on your device:
+    - **Mobile app:** Tap on the audio track (the waveform) below the video clip. You should see an "Extract audio" option displayed.
+    - **PC version:** Right-click on the video clip in the timeline and select "Extract audio" from the context menu.
+4. **Extracted audio track:** Once you choose "Extract audio," CapCut will process the video and create a separate audio track containing the extracted audio. This new audio track will appear in your timeline alongside the original video clip.
+
+**Here are some additional things to keep in mind about audio extract:**
+
+* **Original video is muted:**  When you extract the audio, the original video clip itself will be muted. You can choose to keep it in the timeline for reference or delete it if you no longer need the video portion.
+* **Extracted audio format:** The extracted audio will be saved in a commonly used audio format like AAC, which is compatible with most devices and editing software.
+* **Multiple extractions:** You can extract audio from multiple video clips in your project following the same steps.
+
 **Isolate voice:**
+
+The "Isolate Voice" feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos. Here's what it does:
+
+**Function:** It utilizes advanced audio processing algorithms to try and isolate the vocal track from the rest of the audio in your video clip. 
+
+**Benefits:**
+
+* **Karaoke Creation:** Isolate the voice and remove the background music to create a karaoke-style version of your video song.
+* **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand.
+* **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music. 
+
+**How it Works:**
+
+1. **Import your video:** Add the video containing the audio you want to isolate to your CapCut project.
+2. **Access "Isolate Voice":** Locate the audio track (the waveform) below the video clip. You should see an "Edit" or "Adjust" option. Tap on it. 
+3. **Choose "Isolate Voice":** Within the audio editing options, you'll find an "Isolate Voice" function (depending on your CapCut version, the wording might be slightly different).
+4. **Processing and Results:** CapCut will analyze the audio and attempt to separate the vocals. This processing might take a few seconds depending on the video length.
+5. **Two Options:** Once processing is complete, CapCut will present you with two choices:
+    - **Keep Vocal:** This keeps the isolated vocals and removes the background music. 
+    - **Keep Background Music:** This removes the vocals and keeps the background music (essentially creating an instrumental track).
+
+**Keep in mind:**
+
+* **Accuracy may vary:** The effectiveness of isolating vocals depends on the complexity of the original audio. Clean recordings with clear separation between vocals and music will yield better results. 
+* **Not perfect isolation:**  Background noise or instruments with similar frequencies to vocals might be partially removed alongside the vocals. 
+* **Limited adjustments:**  CapCut's "Isolate Voice" is a one-click function and doesn't offer advanced controls to fine-tune the separation process. 
 
 **See also:**
 
@@ -450,7 +571,31 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
 - [Download Sound Effects Educatinal - chosic.com](https://www.chosic.com/free-music/educational/)
 
 ### **Sound Effects & Voiceovers:**  Incorporate sound effects and voiceovers for a richer experience.
+
 **Record:**
+
+In CapCut, "Sound recording" refers to the functionality that allows you to record your own voice directly within the app and add it as a narration or commentary track to your vid eo project.  Here's a breakdown of how it works:
+
+**Using Sound Recording in CapCut:**
+
+1. **Access the Recording Feature:** 
+   - **Mobile app:** Within the `audio` options, tap on the function labeled `Record` (represented by a microphone icon). 
+   - **PC version:** Click on the `Voiceover` (represented by a microphone icon), usually located on the timeline or toolbar. 
+2. **Positioning the Playhead:**  It's helpful to position the playhead on the timeline where you want your voiceover to start in the video. This ensures your narration is synchronized with the visuals.
+3. **Tap to Record:** Tap the record button once. This might initiate a countdown before recording starts, allowing you to prepare. Tap the button again to stop recording.
+4. **Preview and Editing:** Once you've recorded your voiceover, you can preview it by playing back the video. CapCut allows you to edit the recording like any other audio track in your project. You can trim unwanted parts, adjust volume levels, or even add effects like echo or reverb.
+
+**Benefits of Sound Recording in CapCut:**
+
+- **Convenience:**  It eliminates the need for a separate audio recording device. You can narrate and edit your video entirely within CapCut.
+- **Synchronization:**  Easily aligning your narration with the visuals is simpler compared to recording externally and then importing the audio track.
+- **Multiple Takes:**  If you make a mistake during recording, you can simply re-record that section within CapCut without needing to re-record the entire video.
+
+**Tips:**
+
+- **Device Microphone:** The recording quality will depend on the microphone on your device (phone or tablet). Using an external microphone can improve audio quality if needed.
+- **Background Noise:**  Minimizing background noise in your recording environment is recommended for clearer narration.
+- **Script or Outline:**  Having a script or outline for your narration can help you stay focused and ensure you cover all the desired points during recording.
 
 **Module 6: Export & Sharing**
 
