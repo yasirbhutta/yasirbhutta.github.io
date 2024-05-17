@@ -247,9 +247,17 @@ Now you have two separate clips!
 - Enhance your videos with titles, captions, and fun graphics.
 
 **Add Text**
+
+![text template](docs/img/text_template_512.png)
+**CapCut Desktop: Text Template**
+
 **Stickers**
 
 - Stickers in video editing software are graphic elements you can add to your videos to enhance their visual appeal and convey information in a fun or informative way. They function like digital stickers you might use on photos but with the added benefit of animation in some cases.
+
+![stickers](docs/img/stickers_512.png)
+
+**CapCut Desktop: Stickers**
 
 Here's a breakdown of what stickers offer in video editing:
 
