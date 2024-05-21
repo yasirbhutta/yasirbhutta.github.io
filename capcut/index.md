@@ -316,6 +316,16 @@ Capcut allows you to choose from various aspect ratios to suit your video editin
 **Volume:**
 **video Quality:**
 
+**Effects:**
+
+1. **Video effects**
+
+- Video effects refer to visual enhancements or alterations applied to video footage during the editing process. These effects can transform the look and feel of a video, adding creativity, mood, and impact.
+
+2. **Body effects**
+
+- Body effects refer to visual enhancements or animations applied to the human body within a video. These effects can add creativity, style, and impact to your clips. 
+
 ## **Module 3: Effects & Transitions**
 
 ### **Level Up with Transitions:** 
@@ -512,6 +522,17 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
 ### **Slow Motion & Speed Control:** Create dramatic slow-motion effects or speed things up.
 ### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
 ### **Video Stabilization:** Fix shaky footage for a professional touch.
+
+### Text behind object / Overlays
+
+
+[Sample videos for practice overlays]
+
+- [mon and daughter walking on dirt road - pexels.com](https://www.pexels.com/video/mom-and-daughter-walking-on-dirt-road-4812188/)
+
+**See also:**
+
+- [Advanced CapCut Tutorial: How To Make Pro Level Edits](https://www.youtube.com/watch?v=TnnQRfQafVA)
 
 ## **Module 5: Audio & Music**
 
