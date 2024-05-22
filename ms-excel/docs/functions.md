@@ -74,28 +74,31 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 ### Functions
 
 - Excel has hundreds of predefined formulae known as Functions
-- Functions use specific arguments in a particular order or structure
-- The arguments of functions can be anything from numbers, text, logical values, or cell references
-- You can also have formulae or other functions as arguments in a function that are called nested functions.
+- Functions use specific `arguments` in a particular order or structure
+  - The arguments of functions can be anything from numbers, text, logical values, or cell references
+  - You can also have formulae or other functions as arguments in a function that are called nested functions.
 
 Functions ….
 The normal order for a function is:-
 
-- Function Name,
-- The opening parenthesis
-- Arguments for the function separated by commas and closing parenthesis.
+- `Function Name`,
+- The opening `parenthesis (`
+- `Arguments` for the function separated by commas and `closing parenthesis )`.
 
 #### 10 Most popluar functions
 
-##### SUM
+##### 1. SUM
 
-The SUM function adds values. You can add individual values, cell references or ranges or a mix of all three.
+- The SUM function adds values. 
+- You can add individual values, cell references or ranges or a mix of all three.
 
 >For example:  
+
+```
 =SUM(A2:A10) Adds the values in cells A2:10.  
 =SUM(A2:A10, C2:C10) Adds the values in cells A2:10, as well as cells C2:C10.  
-
-**Note:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
+```
+**Tip:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
 
 **Use AutoSum to sum numbers:**
 
@@ -121,12 +124,13 @@ For example, suppose that in a column that contains numbers, you want to sum onl
 SUMIF(range, criteria, [sum_range])
 ```
 
-- [Video Tutorial: SUMIF function in excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
+- [Video: How to use the SUMIF function in Microsoft Excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
   
 **See also:**
 
 - [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
 - [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
+- [Video: How to use the SUMIF function in Microsoft Excel - Microsoft 365](https://www.youtube.com/watch?v=7395LUP9dsk)
 
 ##### MAX
 

@@ -523,15 +523,39 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
 ### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
 ### **Video Stabilization:** Fix shaky footage for a professional touch.
 
-### Text behind object / Overlays
+### Overlays
 
+In CapCut, overlays are essentially extra layers of visuals that you can add on top of your main video clip. These overlays can be anything from text and stickers to images, animations, or even other video clips.
+
+**Text behind object:**
+
+Achieving a "text behind object" effect in CapCut with overlays involves a two-step process:
+
+1. **Adding the Text:**
+
+  * Start by importing your video clip into CapCut.
+  * Tap on the "Text" option and write your desired text.
+  * Customize the text using the available options for font, size, color, and animation (if desired).
+  * Position the text where you want it to appear behind the object in the video.
+
+2. **Creating the Overlay with Background Removal:**
+
+  There are two main approaches for this step:
+
+    **a) Overlay with a Duplicate Video (Works best for static objects):**
+    **b) Overlay with an Image (More flexible for various objects):**
 
 [Sample videos for practice overlays]
 
 - [mon and daughter walking on dirt road - pexels.com](https://www.pexels.com/video/mom-and-daughter-walking-on-dirt-road-4812188/)
+- (https://www.pexels.com/search/videos/human%20in%20nature/)
+
+
+**Video in Text:***
 
 **See also:**
 
+- [3 Ways To Add Text Behind OBJECTS in CapCut 2024 (NOT Only Humans)](https://www.youtube.com/watch?v=rk2JciT0GS0)
 - [Advanced CapCut Tutorial: How To Make Pro Level Edits](https://www.youtube.com/watch?v=TnnQRfQafVA)
 
 ## **Module 5: Audio & Music**
