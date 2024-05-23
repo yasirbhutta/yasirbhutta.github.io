@@ -316,7 +316,9 @@ Capcut allows you to choose from various aspect ratios to suit your video editin
 **Volume:**
 **video Quality:**
 
-**Effects:**
+## **Module 3: Effects & Transitions**
+
+### Effects
 
 1. **Video effects**
 
@@ -326,7 +328,9 @@ Capcut allows you to choose from various aspect ratios to suit your video editin
 
 - Body effects refer to visual enhancements or animations applied to the human body within a video. These effects can add creativity, style, and impact to your clips. 
 
-## **Module 3: Effects & Transitions**
+**Videos for the practice of Effects:**
+
+- [Video: Man Stand - pexels.com](https://www.pexels.com/search/videos/man%20stand/)
 
 ### **Level Up with Transitions:** 
 - Apply smooth transitions for a polished look.
@@ -347,6 +351,7 @@ CapCut is a video editor that can be used to create animated videos. Here are th
 3. Export and share: Once you've finished creating your animated video, export it in the desired format and share it on your preferred platform, such as YouTube or Instagram.
 
 **Transform:**
+
 **Auto reframe:**
 
 Auto reframe in CapCut is a feature that helps you adjust your video's aspect ratio to fit different social media platforms or project requirements. It essentially crops and resizes your video automatically, keeping the important content in focus.
@@ -517,10 +522,11 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
       -  **Stickers** Enhance your video with `Emphasis` stickers.
   
 [Sample Video](https://youtu.be/b2XNfD3xEwY?si=oCU2pfuTjcenzwuy)
+
 1. **Class Presentations:** Each team presents their tutorial video to the class. Encourage classmates to ask questions and share their own CapCut tips.
 
 ### **Slow Motion & Speed Control:** Create dramatic slow-motion effects or speed things up.
-### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
+
 ### **Video Stabilization:** Fix shaky footage for a professional touch.
 
 ### Overlays
@@ -545,18 +551,35 @@ Achieving a "text behind object" effect in CapCut with overlays involves a two-s
     **a) Overlay with a Duplicate Video (Works best for static objects):**
     **b) Overlay with an Image (More flexible for various objects):**
 
-[Sample videos for practice overlays]
-
-- [mon and daughter walking on dirt road - pexels.com](https://www.pexels.com/video/mom-and-daughter-walking-on-dirt-road-4812188/)
-- (https://www.pexels.com/search/videos/human%20in%20nature/)
-
 
 **Video in Text:***
+
+
+**Sample videos for practice overlays:**
+
+- [mon and daughter walking on dirt road - pexels.com](https://www.pexels.com/video/mom-and-daughter-walking-on-dirt-road-4812188/)
+- [Video: Flowing water - pexels.com](https://www.pexels.com/video/flowing-water-1291114/)
+- [Video: Sunset view at the sea - pexels.com](https://www.pexels.com/video/sunset-view-at-the-sea-8346425/)
+
 
 **See also:**
 
 - [3 Ways To Add Text Behind OBJECTS in CapCut 2024 (NOT Only Humans)](https://www.youtube.com/watch?v=rk2JciT0GS0)
 - [Advanced CapCut Tutorial: How To Make Pro Level Edits](https://www.youtube.com/watch?v=TnnQRfQafVA)
+- [How to Overlay a Video on a Video with CapCut - capcut.com](https://www.capcut.com/resource/overlay-video-on-video)
+
+### **Green Screen Editing:** Unleash your creativity with chroma key (green screen) editing.
+
+**Sample videos for practice Green Screen:**
+
+1. [A beautiful beach - pexels.com](https://www.pexels.com/video/a-beautiful-beach-with-turquoise-water-1739010/)
+2. [Video: Cabs passing through the streets - pexels.com](https://www.pexels.com/video/cabs-passing-through-the-streets-of-new-york-city-5834623/)
+
+**See also
+
+- [How to Remove Green Screen on Capcut PC](https://www.youtube.com/watch?v=zDsEoEKDrrA)
+- [Video: Green Screen WITHOUT a Green Screen on Mobile! CapCut Background Removal](https://www.youtube.com/watch?v=17QZwUN1o7s)
+- [How to Do a Green Screen in CapCut | Chroma Key](https://www.youtube.com/watch?v=KpHyqKoNOjs)
 
 ## **Module 5: Audio & Music**
 
@@ -594,7 +617,7 @@ The "Isolate Voice" feature in CapCut is a relatively new and powerful tool desi
 
 **Benefits:**
 
-* **Karaoke Creation:** Isolate the voice and remove the background music to create a karaoke-style version of your video song.
+* **Karaoke Creation:** Isolate the voice and  the background music to create a karaoke-style version of your video song.
 * **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand.
 * **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music. 
 
@@ -613,6 +636,9 @@ The "Isolate Voice" feature in CapCut is a relatively new and powerful tool desi
 * **Accuracy may vary:** The effectiveness of isolating vocals depends on the complexity of the original audio. Clean recordings with clear separation between vocals and music will yield better results. 
 * **Not perfect isolation:**  Background noise or instruments with similar frequencies to vocals might be partially removed alongside the vocals. 
 * **Limited adjustments:**  CapCut's "Isolate Voice" is a one-click function and doesn't offer advanced controls to fine-tune the separation process. 
+
+
+**Creating Karaoke Tracks: **This involves taking an existing song and producing a version specifically for karaoke use. This means removing the lead vocals while keeping the instrumental backing track. This can be done through various methods, like live instrument recording or using MIDI instruments.
 
 **See also:**
 
@@ -657,10 +683,4 @@ CapCut is a robust text to voice over generator that is making waves in the cont
 
 Step by Step guide: [Text to AI voice over generator](https://www.capcut.com/resource/ai-voiceover-generator-free)
 
-## How to Overlay a Video on a Video with CapCut
-
-Step by Step guide: [How to Overlay a Video on a Video with CapCut](https://www.capcut.com/resource/overlay-video-on-video)
-
-
-https://youtu.be/DI-ziBV87Ho?si=eQIZbuVbJE7lrCP_
 

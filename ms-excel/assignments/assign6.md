@@ -1,5 +1,9 @@
 ## Microsoft Excel Assignment: Sales Analysis
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
+- [Download PDF](assign6.pdf)  
+
 This assignment will help you practice using basic Excel functions and formatting to analyze sales data.
 
 **Scenario:** You are a sales manager for a company that sells electronics. You are provided with a spreadsheet containing sales data for the past quarter. Your task is to analyze this data and answer some questions to gain insights into sales performance.
