@@ -581,6 +581,13 @@ Achieving a "text behind object" effect in CapCut with overlays involves a two-s
 - [Video: Green Screen WITHOUT a Green Screen on Mobile! CapCut Background Removal](https://www.youtube.com/watch?v=17QZwUN1o7s)
 - [How to Do a Green Screen in CapCut | Chroma Key](https://www.youtube.com/watch?v=KpHyqKoNOjs)
 
+
+### Tracking
+
+**videos to practice tracking:**
+
+- [Video: A man running happily in a sand - pexels.com](https://www.pexels.com/video/a-man-running-happily-in-a-sand-hill-of-the-dessert-3015482/)
+
 ## **Module 5: Audio & Music**
 
 ### **Adding Background Music:** Set the mood with royalty-free music or your own tunes.
