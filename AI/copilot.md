@@ -33,6 +33,10 @@ Create a quiz for 5th grade math
 ```
 
 ```
+Generate a 6-question quiz on the lifecycle of a frog for 3rd graders
+```
+
+```
 Create a lesson plan that covers the topic of the water cycle for a 5th-grade science class, including a hands-on experiment.
 ```
 

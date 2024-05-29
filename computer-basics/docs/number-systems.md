@@ -78,7 +78,7 @@ Here are some examples of how bits are used in the real world:
 
 - Bit patterns are used in a wide variety of computing applications. For example, they are used to store and transmit data, to encode and decode information, and to perform mathematical and logical operations.
 
-![bit pattern](https://b2600043.smushcdn.com/2600043/wp-content/uploads/2019/07/Image-Representing-Typical-Bit-Pattern.jpg?lossy=0&strip=1&webp=1)
+![bit pattern](images/Image-Representing-Typical-Bit-Pattern.jpg)
 
 Image source: [engineersgarage.com](https://www.engineersgarage.com/programmable-bit-pattern-generator/)
 
