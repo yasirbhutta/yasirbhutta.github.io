@@ -426,7 +426,7 @@ In CapCut, the retouch feature allows you to specifically enhance the appearance
 - Effects
 - Bubble
 
-**Text to Speech:**
+### Text to Speech
 
 - Text-to-speech (TTS) in video editing software allows you to convert written text into a voiceover that you can add to your video. This is a helpful feature for various scenarios:
 
@@ -434,7 +434,7 @@ In CapCut, the retouch feature allows you to specifically enhance the appearance
 **Multiple Languages:** You can create videos with voiceovers in different languages using TTS options with various language support.
 **Adding Emphasis or Narration:** TTS can be used for specific parts of your video, like adding narration to text overlays or highlighting key points.
 
-**Text Style:**
+### Text Style
 
 - Text style in CapCut refers to the overall visual appearance of your added text. It encompasses several elements you can customize to make your text stand out:
 
@@ -444,31 +444,168 @@ In CapCut, the retouch feature allows you to specifically enhance the appearance
 **Alignment:** Choose how your text is positioned within the video frame. Options include left, center, or right alignment.
 **Opacity:** Control the transparency of your text. A higher opacity makes the text more solid, while a lower opacity creates a see-through effe
 
-**Text Animations:**
+### Text Animations
 
-CapCut offers a variety of text animations to add life and excitement to your videos. Here's a breakdown of the different types of text animations available:
+- CapCut offers a variety of text animations to add life and excitement to your videos. Here's a breakdown of the different types of text animations available:
 
 Entrance and Exit Animations:
 
 **Fade In/Out:** A classic animation where the text gradually appears or disappears.
 **Fly In/Out:** Text enters or exits the frame from a specific direction (top, bottom, sides) with a smooth motion.
 **Zoom In/Out:** Text enlarges or shrinks to create an emphasis or dramatic effect.
+
 Movement Animations:
 
-**Bounce:** Text bounces playfully on the screen.
 **Typewriter:** Simulates the effect of a typewriter with each letter appearing individually.
 **Slide In:** Text slides horizontally or vertically into the frame.
 
-Other Animations:
+### Lasting Text
 
-**Pop:** Text suddenly appears with a slight jump or zoom effect.
-**Shake:** Text shakes slightly for a playful or humorous touch.
-**Underline/Strikethrough Animations:** Add a dynamic underline or strikethrough effect to your text.
+- In CapCut, "Lasting Text" refers to a feature that allows you to display text throughout your entire video clip, or for a significant portion of it, without manually adjusting the duration. 
+- It's essentially a shortcut to avoid having to stretch the text box all the way to the end of the video timeline.
+
+**Benefits of Lasting Text:**
+
+**Convenience:** Saves you time compared to manually dragging the text box on the timeline to match the video length.
+**Consistency:** Ensures your text remains visible throughout the video without the risk of accidentally shortening it during editing.
+**Watermarking:** Useful for adding permanent text overlays like watermarks or credits that appear throughout your video.
 
 ## Module: Video Editing
-## Module: Audio Editing
+
+**Key Learning:**
+
+### Transform
+### Auto reframe
+### Speed
+### Animation
+### Adjustment
+
+## Module 5: Audio & Music**
+
+**Key Learning:**
+
+1. Basic
+   - Volume
+   - Fade in
+   - Fade out
+2. Record
+3. Extract Audio
+4. Isolate voice
+5. Enhance voice
+6. Reduce noice
+7. Adding Background Music: Set the mood with royalty-free music or your own tunes.
+
+### 1. Basic
+### 2. Record
+
+In CapCut, "Sound recording" refers to the functionality that allows you to record your own voice directly within the app and add it as a narration or commentary track to your vid eo project.  Here's a breakdown of how it works:
+
+**Using Sound Recording in CapCut:**
+
+1. **Access the Recording Feature:** 
+   - **Mobile app:** Within the `audio` options, tap on the function labeled `Record` (represented by a microphone icon). 
+   - **PC version:** Click on the `Voiceover` (represented by a microphone icon), usually located on the timeline or toolbar. 
+2. **Positioning the Playhead:**  It's helpful to position the playhead on the timeline where you want your voiceover to start in the video. This ensures your narration is synchronized with the visuals.
+3. **Tap to Record:** Tap the record button once. This might initiate a countdown before recording starts, allowing you to prepare. Tap the button again to stop recording.
+4. **Preview and Editing:** Once you've recorded your voiceover, you can preview it by playing back the video. CapCut allows you to edit the recording like any other audio track in your project. You can trim unwanted parts, adjust volume levels, or even add effects like echo or reverb.
+
+**Benefits of Sound Recording in CapCut:**
+
+- **Convenience:**  It eliminates the need for a separate audio recording device. You can narrate and edit your video entirely within CapCut.
+- **Synchronization:**  Easily aligning your narration with the visuals is simpler compared to recording externally and then importing the audio track.
+- **Multiple Takes:**  If you make a mistake during recording, you can simply re-record that section within CapCut without needing to re-record the entire video.
+
+**Tips:**
+
+- **Device Microphone:** The recording quality will depend on the microphone on your device (phone or tablet). Using an external microphone can improve audio quality if needed.
+- **Background Noise:**  Minimizing background noise in your recording environment is recommended for clearer narration.
+- **Script or Outline:**  Having a script or outline for your narration can help you stay focused and ensure you cover all the desired points during recording.
+
+### Extract Audio
+
+- The audio extract feature in CapCut is a handy tool that allows you to isolate and save the audio portion from a video clip within your editing project. This extracted audio can then be used for various purposes:
+
+* **Separate Audio Editing:**  Extracting the audio lets you edit it independently from the video. You can trim unwanted parts, adjust volume levels, add effects, or even create a standalone audio file. 
+* **Replacing Original Audio:** Perhaps you don't like the original audio in your video clip. You can extract it, remove it from the video, and then replace it with a different audio track like music, sound effects, or your own narration.
+* **Creating Audio Overlays:**  If you have a video with existing audio but want to add another audio layer on top (like commentary), extracting audio from another clip can provide that additional audio track. 
+
+Here's how to use the audio extract feature in CapCut:
+
+1. **Import your video clip:** Add the video containing the audio you want to extract to your CapCut project timeline.
+2. **Locate the video clip:**  On the timeline, tap on the video clip to select it.
+3. **Access the audio extraction options:** There are two main ways to access the extract audio feature depending on your device:
+    - **Mobile app:** Tap on the audio track (the waveform) below the video clip. You should see an "Extract audio" option displayed.
+    - **PC version:** Right-click on the video clip in the timeline and select "Extract audio" from the context menu.
+4. **Extracted audio track:** Once you choose "Extract audio," CapCut will process the video and create a separate audio track containing the extracted audio. This new audio track will appear in your timeline alongside the original video clip.
+
+**Here are some additional things to keep in mind about audio extract:**
+
+* **Original video is muted:**  When you extract the audio, the original video clip itself will be muted. You can choose to keep it in the timeline for reference or delete it if you no longer need the video portion.
+* **Extracted audio format:** The extracted audio will be saved in a commonly used audio format like AAC, which is compatible with most devices and editing software.
+* **Multiple extractions:** You can extract audio from multiple video clips in your project following the same steps.
+
+### Isolate voice
+
+The "Isolate Voice" feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos. Here's what it does:
+
+**Function:** It utilizes advanced audio processing algorithms to try and isolate the vocal track from the rest of the audio in your video clip. 
+
+**Benefits:**
+
+* **Karaoke Creation:** Isolate the voice and  the background music to create a karaoke-style version of your video song.
+* **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand.
+* **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music. 
+
+**How it Works:**
+
+1. **Import your video:** Add the video containing the audio you want to isolate to your CapCut project.
+2. **Access "Isolate Voice":** Locate the audio track (the waveform) below the video clip. You should see an "Edit" or "Adjust" option. Tap on it. 
+3. **Choose "Isolate Voice":** Within the audio editing options, you'll find an "Isolate Voice" function (depending on your CapCut version, the wording might be slightly different).
+4. **Processing and Results:** CapCut will analyze the audio and attempt to separate the vocals. This processing might take a few seconds depending on the video length.
+5. **Two Options:** Once processing is complete, CapCut will present you with two choices:
+    - **Keep Vocal:** This keeps the isolated vocals and removes the background music. 
+    - **Keep Background Music:** This removes the vocals and keeps the background music (essentially creating an instrumental track).
+
+**Keep in mind:**
+
+* **Accuracy may vary:** The effectiveness of isolating vocals depends on the complexity of the original audio. Clean recordings with clear separation between vocals and music will yield better results. 
+* **Not perfect isolation:**  Background noise or instruments with similar frequencies to vocals might be partially removed alongside the vocals. 
+* **Limited adjustments:**  CapCut's "Isolate Voice" is a one-click function and doesn't offer advanced controls to fine-tune the separation process. 
+
+
+**Creating Karaoke Tracks: **This involves taking an existing song and producing a version specifically for karaoke use. This means removing the lead vocals while keeping the instrumental backing track. This can be done through various methods, like live instrument recording or using MIDI instruments.
+
+### 5. Enhance voice
+
+- In CapCut, "Enhance Voice" is a feature designed to improve the audio quality of your video's voice track. It utilizes artificial intelligence (AI) to automatically refine and potentially enhance the voice clarity in your video.
+
+**Benefits of Using Enhance Voice:**
+
+**Improved Clarity:** By reducing background noise and echo, "Enhance Voice" can make your video's dialogue or narration sound clearer and more professional.
+**Easier Listening:** A potentially boosted voice volume can improve the listening experience for viewers.
+
+### 6. Reduce noise
+
+In CapCut, "Reduce Noise" is a feature that helps you improve the audio quality of your videos by specifically targeting and minimizing unwanted background sounds. It utilizes audio processing algorithms to make the main audio content (dialogue, music) stand out.
+
+**Benefits of Reduce Noise in CapCut:**
+
+**Enhanced Clarity:** By reducing background noise like hums, hisses, wind, or traffic sounds, CapCut's "Reduce Noise" helps your video's audio become cleaner and easier to understand.
+**Improved Listening Experience:** With less distraction from unwanted sounds, viewers can focus on the dialogue or music in your video, leading to a more enjoyable experience.
+**Professional Touch:** Cleaner audio can elevate the overall quality of your CapCut video, making it sound more professional and polished.
+
+**See also:**
+
+- [Download Free Sound Effects - pixabay.com](https://pixabay.com/sound-effects/search/free%20sound/)
+- [Download Sound Effects Educatinal - chosic.com](https://www.chosic.com/free-music/educational/)
+
+### **Sound Effects & Voiceovers:**  Incorporate sound effects and voiceovers for a richer experience.
 
 ## Advance Editing Techniques
+
+### Remove BG
+### Mask
+### Retouch
 
 **Module 4: Advanced CapCut Techniques**
 
@@ -478,15 +615,13 @@ Keyframing is a feature that allows you to create motion graphics and smooth ani
 
 Here are some examples of how keyframes can be used in CapCut:
 
- - Zoom in on a clip: You can use keyframes to create a zooming effect, where you gradually enlarge a specific part of your clip. This can be used to draw attention to a particular detail or create a sense of focus.
+ - **Zoom in on a clip:** You can use keyframes to create a zooming effect, where you gradually enlarge a specific part of your clip. This can be used to draw attention to a particular detail or create a sense of focus.
 
- - Rotate text: Keyframes can be used to rotate text elements in your CapCut project. This can be a fun way to add dynamism to your text overlays or create a more playful l[ook.
+ - **Rotate text:** Keyframes can be used to rotate text elements in your CapCut project. This can be a fun way to add dynamism to your text overlays or create a more playful l[ook.
 
- - Fade in or out an image: You can use keyframes to control the opacity of an image overlay in your CapCut project. This allows you to fade an image in or out smoothly, creating a more polished look.
+ - **Fade in or out an image**: You can use keyframes to control the opacity of an image overlay in your CapCut project. This allows you to fade an image in or out smoothly, creating a more polished look.
 
- - Create a bouncing effect: Keyframes can be used to animate the position of an element in your CapCut project, allowing you to create bouncing or moving elements. This can be a great way to add a touch of whimsy to your video.
-
- - Animate color changes: Keyframes can also be used to animate the color of elements in your CapCut project. This can be used to create a color shift effect or to match the colors of your video to the mood or theme you're going for.
+ - **Create a bouncing effect:** Keyframes can be used to animate the position of an element in your CapCut project, allowing you to create bouncing or moving elements. This can be a great way to add a touch of whimsy to your video.
 
 **How to add keyframes in CapCut?**
 
@@ -635,103 +770,11 @@ Achieving a "text behind object" effect in CapCut with overlays involves a two-s
 - [Video: Green Screen WITHOUT a Green Screen on Mobile! CapCut Background Removal](https://www.youtube.com/watch?v=17QZwUN1o7s)
 - [How to Do a Green Screen in CapCut | Chroma Key](https://www.youtube.com/watch?v=KpHyqKoNOjs)
 
-
 ### Tracking
 
 **videos to practice tracking:**
 
 - [Video: A man running happily in a sand - pexels.com](https://www.pexels.com/video/a-man-running-happily-in-a-sand-hill-of-the-dessert-3015482/)
-
-## **Module 5: Audio & Music**
-
-### **Adding Background Music:** Set the mood with royalty-free music or your own tunes.
-
-**Sounds:**
-**Extract Audio:**
-
-The audio extract feature in CapCut is a handy tool that allows you to isolate and save the audio portion from a video clip within your editing project. This extracted audio can then be used for various purposes:
-
-* **Separate Audio Editing:**  Extracting the audio lets you edit it independently from the video. You can trim unwanted parts, adjust volume levels, add effects, or even create a standalone audio file. 
-* **Replacing Original Audio:** Perhaps you don't like the original audio in your video clip. You can extract it, remove it from the video, and then replace it with a different audio track like music, sound effects, or your own narration.
-* **Creating Audio Overlays:**  If you have a video with existing audio but want to add another audio layer on top (like commentary), extracting audio from another clip can provide that additional audio track. 
-
-Here's how to use the audio extract feature in CapCut:
-
-1. **Import your video clip:** Add the video containing the audio you want to extract to your CapCut project timeline.
-2. **Locate the video clip:**  On the timeline, tap on the video clip to select it.
-3. **Access the audio extraction options:** There are two main ways to access the extract audio feature depending on your device:
-    - **Mobile app:** Tap on the audio track (the waveform) below the video clip. You should see an "Extract audio" option displayed.
-    - **PC version:** Right-click on the video clip in the timeline and select "Extract audio" from the context menu.
-4. **Extracted audio track:** Once you choose "Extract audio," CapCut will process the video and create a separate audio track containing the extracted audio. This new audio track will appear in your timeline alongside the original video clip.
-
-**Here are some additional things to keep in mind about audio extract:**
-
-* **Original video is muted:**  When you extract the audio, the original video clip itself will be muted. You can choose to keep it in the timeline for reference or delete it if you no longer need the video portion.
-* **Extracted audio format:** The extracted audio will be saved in a commonly used audio format like AAC, which is compatible with most devices and editing software.
-* **Multiple extractions:** You can extract audio from multiple video clips in your project following the same steps.
-
-**Isolate voice:**
-
-The "Isolate Voice" feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos. Here's what it does:
-
-**Function:** It utilizes advanced audio processing algorithms to try and isolate the vocal track from the rest of the audio in your video clip. 
-
-**Benefits:**
-
-* **Karaoke Creation:** Isolate the voice and  the background music to create a karaoke-style version of your video song.
-* **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand.
-* **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music. 
-
-**How it Works:**
-
-1. **Import your video:** Add the video containing the audio you want to isolate to your CapCut project.
-2. **Access "Isolate Voice":** Locate the audio track (the waveform) below the video clip. You should see an "Edit" or "Adjust" option. Tap on it. 
-3. **Choose "Isolate Voice":** Within the audio editing options, you'll find an "Isolate Voice" function (depending on your CapCut version, the wording might be slightly different).
-4. **Processing and Results:** CapCut will analyze the audio and attempt to separate the vocals. This processing might take a few seconds depending on the video length.
-5. **Two Options:** Once processing is complete, CapCut will present you with two choices:
-    - **Keep Vocal:** This keeps the isolated vocals and removes the background music. 
-    - **Keep Background Music:** This removes the vocals and keeps the background music (essentially creating an instrumental track).
-
-**Keep in mind:**
-
-* **Accuracy may vary:** The effectiveness of isolating vocals depends on the complexity of the original audio. Clean recordings with clear separation between vocals and music will yield better results. 
-* **Not perfect isolation:**  Background noise or instruments with similar frequencies to vocals might be partially removed alongside the vocals. 
-* **Limited adjustments:**  CapCut's "Isolate Voice" is a one-click function and doesn't offer advanced controls to fine-tune the separation process. 
-
-
-**Creating Karaoke Tracks: **This involves taking an existing song and producing a version specifically for karaoke use. This means removing the lead vocals while keeping the instrumental backing track. This can be done through various methods, like live instrument recording or using MIDI instruments.
-
-**See also:**
-
-- [Download Free Sound Effects - pixabay.com](https://pixabay.com/sound-effects/search/free%20sound/)
-- [Download Sound Effects Educatinal - chosic.com](https://www.chosic.com/free-music/educational/)
-
-### **Sound Effects & Voiceovers:**  Incorporate sound effects and voiceovers for a richer experience.
-
-**Record:**
-
-In CapCut, "Sound recording" refers to the functionality that allows you to record your own voice directly within the app and add it as a narration or commentary track to your vid eo project.  Here's a breakdown of how it works:
-
-**Using Sound Recording in CapCut:**
-
-1. **Access the Recording Feature:** 
-   - **Mobile app:** Within the `audio` options, tap on the function labeled `Record` (represented by a microphone icon). 
-   - **PC version:** Click on the `Voiceover` (represented by a microphone icon), usually located on the timeline or toolbar. 
-2. **Positioning the Playhead:**  It's helpful to position the playhead on the timeline where you want your voiceover to start in the video. This ensures your narration is synchronized with the visuals.
-3. **Tap to Record:** Tap the record button once. This might initiate a countdown before recording starts, allowing you to prepare. Tap the button again to stop recording.
-4. **Preview and Editing:** Once you've recorded your voiceover, you can preview it by playing back the video. CapCut allows you to edit the recording like any other audio track in your project. You can trim unwanted parts, adjust volume levels, or even add effects like echo or reverb.
-
-**Benefits of Sound Recording in CapCut:**
-
-- **Convenience:**  It eliminates the need for a separate audio recording device. You can narrate and edit your video entirely within CapCut.
-- **Synchronization:**  Easily aligning your narration with the visuals is simpler compared to recording externally and then importing the audio track.
-- **Multiple Takes:**  If you make a mistake during recording, you can simply re-record that section within CapCut without needing to re-record the entire video.
-
-**Tips:**
-
-- **Device Microphone:** The recording quality will depend on the microphone on your device (phone or tablet). Using an external microphone can improve audio quality if needed.
-- **Background Noise:**  Minimizing background noise in your recording environment is recommended for clearer narration.
-- **Script or Outline:**  Having a script or outline for your narration can help you stay focused and ensure you cover all the desired points during recording.
 
 **Module 6: Export & Sharing**
 
