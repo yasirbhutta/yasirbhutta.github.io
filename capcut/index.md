@@ -248,9 +248,15 @@ Now you have two separate clips!
 
 **Add Text**
 
+Adding text in CapCut is a way to overlay words or phrases onto your video project. This lets you include titles, captions, explanations, or any other message you want viewers to see.
+
+**Customization:** You can type your own text and choose from various fonts, colors, and styles.
+**Positioning and Timing:** Control where the text appears on the screen and for how long it stays visible.
+**Animation:** Liven up your text with animations to grab attention.
+
 ![text template](docs/img/text_template_512.png)
 
-**Stickers**
+**Stickers:**
 
 - Stickers in video editing software are graphic elements you can add to your videos to enhance their visual appeal and convey information in a fun or informative way. They function like digital stickers you might use on photos but with the added benefit of animation in some cases.
 
@@ -268,14 +274,6 @@ There are two main types of stickers you'll typically find in video editing soft
 1.  **Static Stickers:** These are simple graphic images that don't move. They come in a wide variety of designs, from emojis and smileys to thematic stickers related to holidays, hobbies, or specific topics.
 
 2.  **Animated Stickers:** These stickers incorporate animation, adding movement and bringing your visuals to life. This can be anything from simple animations like a bouncing emoji to more complex animations that interact with your video content.
-
-**Text to Speech:**
-
-- Text-to-speech (TTS) in video editing software allows you to convert written text into a voiceover that you can add to your video. This is a helpful feature for various scenarios:
-
-**Creating a Voiceover:** If you don't want to record your own voiceover narration, TTS can generate a voice to read your script.
-**Multiple Languages:** You can create videos with voiceovers in different languages using TTS options with various language support.
-**Adding Emphasis or Narration:** TTS can be used for specific parts of your video, like adding narration to text overlays or highlighting key points.
 
 **Auto Captions:**
 
@@ -415,6 +413,62 @@ In CapCut, the retouch feature allows you to specifically enhance the appearance
 - **Quick Enhancements:** It's a convenient way to improve the overall look of faces in your videos, particularly for minor imperfections or uneven skin tones.
 - **Non-destructive Editing:**  CapCut's retouch adjustments are non-destructive, meaning the original video footage remains untouched. You can always revert the changes if needed.
 - **Easy to Use:**  The retouch interface is user-friendly with sliders and options clearly labeled. It's a good option for beginners who want to add a touch of polish to their videos.
+
+## Module: Text Editing
+
+**Key Learning:**
+
+- Text to speech
+- Style
+- Animations
+- Basic
+- Lasting text
+- Effects
+- Bubble
+
+**Text to Speech:**
+
+- Text-to-speech (TTS) in video editing software allows you to convert written text into a voiceover that you can add to your video. This is a helpful feature for various scenarios:
+
+**Creating a Voiceover:** If you don't want to record your own voiceover narration, TTS can generate a voice to read your script.
+**Multiple Languages:** You can create videos with voiceovers in different languages using TTS options with various language support.
+**Adding Emphasis or Narration:** TTS can be used for specific parts of your video, like adding narration to text overlays or highlighting key points.
+
+**Text Style:**
+
+- Text style in CapCut refers to the overall visual appearance of your added text. It encompasses several elements you can customize to make your text stand out:
+
+**Font:** This is the typeface used for your text. CapCut offers a variety of fonts to choose from, ranging from classic to modern styles.
+**Color:** Select a color for your text that complements your video's theme and background.
+**Size and Scale:** Adjust the size of your text to ensure it's readable and visually balanced within the video frame.
+**Alignment:** Choose how your text is positioned within the video frame. Options include left, center, or right alignment.
+**Opacity:** Control the transparency of your text. A higher opacity makes the text more solid, while a lower opacity creates a see-through effe
+
+**Text Animations:**
+
+CapCut offers a variety of text animations to add life and excitement to your videos. Here's a breakdown of the different types of text animations available:
+
+Entrance and Exit Animations:
+
+**Fade In/Out:** A classic animation where the text gradually appears or disappears.
+**Fly In/Out:** Text enters or exits the frame from a specific direction (top, bottom, sides) with a smooth motion.
+**Zoom In/Out:** Text enlarges or shrinks to create an emphasis or dramatic effect.
+Movement Animations:
+
+**Bounce:** Text bounces playfully on the screen.
+**Typewriter:** Simulates the effect of a typewriter with each letter appearing individually.
+**Slide In:** Text slides horizontally or vertically into the frame.
+
+Other Animations:
+
+**Pop:** Text suddenly appears with a slight jump or zoom effect.
+**Shake:** Text shakes slightly for a playful or humorous touch.
+**Underline/Strikethrough Animations:** Add a dynamic underline or strikethrough effect to your text.
+
+## Module: Video Editing
+## Module: Audio Editing
+
+## Advance Editing Techniques
 
 **Module 4: Advanced CapCut Techniques**
 
