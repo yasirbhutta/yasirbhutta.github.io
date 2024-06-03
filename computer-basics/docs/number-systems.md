@@ -141,6 +141,36 @@ So, 10 (decimal) =  1010 (binary)
 
 click on the following link to covert decimal to binary: [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
+
+**How to convert a binary number to decimal step by step with an example:**
+
+**Method 1: Using place values and powers of 2**
+
+**1. Identify the binary number:** Let's use the binary number **1101** as an example.
+
+**2. Understand place values:** In binary, each digit represents a power of 2. Starting from the rightmost digit, the powers of 2 increase as you move left (2^0, 2^1, 2^2, and so on).
+
+**3. Assign values based on position:** 
+   * If a binary digit is **1**, it contributes the value according to its position (power of 2).
+   * If a binary digit is **0**, it contributes nothing (0 times any power of 2 is 0).
+
+**4. Multiply and sum:** 
+   * Multiply each binary digit by its corresponding power of 2.
+   * Add all the products together. The sum will be the decimal equivalent.
+
+**Steps applied to the example:**
+
+**Binary number:** 1101
+
+* **Rightmost digit (1):** 1 x 2^0 = 1
+* **Second digit (0):** 0 x 2^1 = 0 (doesn't contribute)
+* **Third digit (1):** 1 x 2^2 = 4
+* **Leftmost digit (1):** 1 x 2^3 = 8
+
+**5. Sum the products:** 1 (rightmost) + 0 + 4 + 8 = 13 (decimal)
+
+**Therefore, 1101 (binary) is equal to 13 (decimal).**
+
 **See also:**
 
 - [Convert ASCII to Binary - Online Binary Tools](https://onlinebinarytools.com/convert-ascii-to-binary)
@@ -167,11 +197,13 @@ Truth tables are a way of representing the output of a Boolean expression for al
 
 Example: Let’s create a truth table for the expression A AND B:
 
-A | B | A AND B
-0 | 0 | 0
-0 | 1 | 0
-1 | 0 | 0
-1 | 1 | 1
+|A | B | A AND B|
+|---| --- |---|
+|0 | 0 | 0|
+|0 | 1 | 0|
+|1 | 0 | 0|
+|1 | 1 | 1|
+
 In this example:
 
 - When A = 0 and B = 0, A AND B evaluates to 0.
@@ -179,16 +211,17 @@ In this example:
 
 Example: Let’s create a truth table for the expression A OR B:
 
-A | B | A OR B
-0 | 0 | 0
-0 | 1 | 1
-1 | 0 | 1
-1 | 1 | 1
+|A | B | A OR B|
+|---|---|---|
+|0 | 0 | 0|
+|0 | 1 | 1|
+|1 | 0 | 1|
+|1 | 1 | 1|
 
 In this example:
 
-- When A = 0 and B = 0, A AND B evaluates to 0.
-- When A = 0 and B = 1, A AND B evaluates to 1.
+- When A = 0 and B = 0, A OR B evaluates to 0.
+- When A = 0 and B = 1, A OR B evaluates to 1.
 
 #### Examples of Boolean expressions
 
@@ -218,6 +251,25 @@ Hexadecimal notation is a way of representing numbers using 16 symbols instead o
 
 Hexadecimal notation is a more compact way of representing binary numbers. For example, the binary number 1010101010101010 can be represented as the hexadecimal number 0xAAAA.
 
+| Hex | Binary |
+| --- | ------ |
+| 0   | 0000   |
+| 1   | 0001   |
+| 2   | 0010   |
+| 3   | 0011   |
+| 4   | 0100   |
+| 5   | 0101   |
+| 6   | 0110   |
+| 7   | 0111   |
+| 8   | 1000   |
+| 9   | 1001   |
+| A   | 1010   |
+| B   | 1011   |
+| C   | 1100   |
+| D   | 1101   |
+| E   | 1110   |
+| F   | 1111   |
+
 #### How to convert between hexadecimal and binary
 
 To convert a hexadecimal number to binary, simply replace each hexadecimal digit with its corresponding binary equivalent. For example, to convert the hexadecimal number 0xAAAA to binary, we would replace the A digits with the binary number 1010, and we would replace the F digits with the binary number 1111. This would give us the binary number 1010101010101010.
@@ -236,14 +288,38 @@ AAAA
 
 This would give us the hexadecimal number 0xAAAA.
 
+**How to convert hex to binary:**
+
  Another example, to convert hexadecimal number `1E` to binary:
 
 1. Write down the hex number: We have 1E.
-2. Convert hex to decimal: The decimal equivalent of 1E is 30 (since 1E represents 16 + 14 = 30).
+2. Convert hex to decimal: The decimal equivalent of 1E is 30 (since 1E represents (1*16^1) + (14*16^0) = 30).
 Represent each digit in binary:
 3. 1 in binary is 0001.
 4. E in decimal is 14, which in binary is 1110.
 5. Combine the binary representations: 1E in binary is 00011110
+
+How to convert hexadecimal to decimal step by step with an example:
+
+**Steps:**
+
+1. **Identify the hexadecimal number:** Let's use **D3A5** (hex) as an example.
+
+2. **Assign decimal values to hexadecimal digits:** Remember, A = 10, B = 11, C = 12, D = 13, E = 14, and F = 15. In our example:
+    * D = 13
+    * 3 = 3
+    * A = 10
+    * 5 = 5
+
+3. **Multiply each digit by its place value (power of 16):**
+    - **D** (13) is in the 16^3 (4096) place: 13 * 16^3 = 53248
+    - **3** (3) is in the 16^2 (256) place: 3 * 16^2 = 768
+    - **A** (10) is in the 16^1 (16) place: 10 * 16^1 = 160
+    - **5** (5) is in the 16^0 (1) place: 5 * 16^0 = 5
+
+4. **Sum the products:** Add the results from step 3: 53,248 (D) + 768 (3) + 160 (A) + 5 (5) = 54,181
+
+**Therefore, D3A5 (hex) is equal to 54,181 (decimal).**
 
 #### Applications of hexadecimal notation
 
