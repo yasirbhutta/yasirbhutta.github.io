@@ -7,6 +7,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [index.html](../yasirbhutta.github.io/index.md)
 
 
+**Polynomial:** A polynomial is an expression consisting of variables (usually denoted by x) raised to non-negative integer powers (like x^2, x^3, etc.), combined with coefficients (numerical values) using addition, subtraction, and multiplication.
+
 ## 4.6 Polynomial Multiplication
 
 **Example:** Multiply 2x^2 × 3x
@@ -31,6 +33,27 @@ The polynomial is **6x^3**
 - [Multiplying Polynomials - byjus.com](https://byjus.com/maths/multiplying-polynomials/)
 - [Multiplying Polynomials - libretexts.org](https://math.libretexts.org/Bookshelves/Algebra/Beginning_Algebra/05%3A_Polynomials_and_Their_Operations/5.04%3A_Multiplying_Polynomials)
 
+## 4.7 Polynomial DIVISION
+
+**See also:**
+
+- [Polynomial division - byjus.com](https://byjus.com/maths/polynomial-division/)
+
+
+## 4.8 Formulation of polynomial equation
+
+## 4.9 Characteristic polynomial of a matrix
+
+The characteristic polynomial, in linear algebra, is a polynomial associated with a square matrix. It has several key properties:
+
+**Eigenvalue Relationship:** The eigenvalues of the matrix are the values that make the characteristic polynomial equal to zero. In other words, the roots of the polynomial correspond to the eigenvalues.
+**Degree and Size:** The characteristic polynomial is a polynomial of degree n, where n is the dimension of the square matrix. This implies that an n x n matrix can have at most n distinct eigenvalues.
+
+## 4.11 Polynomial Integration
+
+**Polynomial:** A polynomial is an expression consisting of variables (usually denoted by x) raised to non-negative integer powers (like x^2, x^3, etc.), combined with coefficients (numerical values) using addition, subtraction, and multiplication.
+
+**Derivative:** In calculus, the derivative of a function represents the instantaneous rate of change of that function at a specific point. For polynomials, it tells you how fast the polynomial's value changes as its input (x) changes.
 
 ## Key Terms
 
