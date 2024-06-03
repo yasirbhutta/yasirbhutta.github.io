@@ -139,6 +139,19 @@ For example, to convert the decimal number 10 to binary code, we would do the fo
 
 So, 10 (decimal) =  1010 (binary)
 
+Another example, to convert the decimal number 15 to binary code
+
+| Division<br>by 2 | Quotient | Remainder
+
+(Digit) | Bit # |
+| ---------------- | -------- | ------------------ | ----- |
+| (15)/2           | 7        | 1                  | 0     |
+| (7)/2            | 3        | 1                  | 1     |
+| (3)/2            | 1        | 1                  | 2     |
+| (1)/2            | 0        | 1                  | 3     |
+
+So, 15 (decimal) =  1111 (binary)
+
 click on the following link to covert decimal to binary: [https://www.rapidtables.com/convert/number/decimal-to-binary.html](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 
 
