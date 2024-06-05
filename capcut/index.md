@@ -1063,7 +1063,59 @@ Which feature in CapCut allows you to remove the background from a video?
 
 **Answer Key (Fill in the Blanks):**
 
-## Exercises
+## Class Activities
+
+### CapCut Practice Activity
+
+#### Objective:
+
+To familiarize yourself with CapCut's features and improve your video editing skills.
+
+#### Materials Needed:
+
+- CapCut app installed on your device
+- Video clips (at least 5 different clips, 10-20 seconds each)
+- Images (at least 5 different images)
+- Music file or audio clips
+- Text script or any text you want to use
+- Stickers and effects available within CapCut
+
+#### Steps:
+
+1. **Basic Editing**
+    - **Importing Media:** Open CapCut and start a new project. Import your video clips and images.
+    - **Trimming and Splitting:** Trim the beginning and end of a video clip. Split one clip into two parts.
+    - **Adjusting Speed:** Slow down one video clip and speed up another.
+
+2. **Audio Editing**
+    - **Adding Music:** Import a music file and add it to your project. Adjust the length of the music to match your video.
+    - **Voiceover:** Record a voiceover for one part of your video.
+    - **Audio Effects:** Apply an audio effect to your voiceover.
+
+3. **Text and Titles**
+    - **Adding Text:** Add a title to the beginning of your video. Choose a font, size, and color.
+    - **Text Animation:** Apply an animation to your text (e.g., fade in, slide, bounce).
+    - **Subtitles:** Add subtitles to one of your clips. Sync the text with the audio.
+
+4. **Transitions**
+    - **Adding Transitions:** Apply different transitions between each video clip. Experiment with at least three different types of transitions (e.g., dissolve, swipe, cube).
+
+5. **Effects and Filters**
+    - **Applying Filters:** Add a filter to one of your video clips.
+    - **Effects:** Apply an effect (e.g., glitch, blur, VHS) to a different clip.
+    - **Keyframe Animation:** Use keyframes to animate a filter effect.
+
+6. **Stickers and Overlays**
+    - **Adding Stickers:** Add a sticker to one of your video clips. Adjust its duration and position.
+    - **Overlay Images:** Overlay an image onto your video. Adjust its size and position.
+
+7. **Advanced Editing**
+    - **Green Screen Effect:** If you have a green screen clip, use the Chroma Key feature to remove the background and replace it with another video or image.
+    - **Masking:** Use the Mask feature to create a split-screen effect with two video clips.
+
+8. **Exporting**
+    - **Export Settings:** Choose the appropriate resolution and frame rate for your project.
+    - **Exporting:** Export your completed video and save it to your device.
 
 ## Review Questions
 
