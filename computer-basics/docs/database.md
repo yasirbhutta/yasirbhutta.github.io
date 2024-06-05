@@ -52,12 +52,20 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Microsoft Access
 
-**Microsoft Access** is a database management system (DBMS) from Microsoft that combines the relational Access Database Engine (ACE) with a graphical user interface and software-development tools.
+**Microsoft Access** is a **database management system (DBMS)** developed by Microsoft. It combines the **relational Access Database Engine (ACE)** with a **graphical user interface (GUI)** and software-development tools. Here's what you can do with Microsoft Access:
+
+1. **Create Databases**: You can build databases quickly using templates, even if you're not a developer.
+2. **Data Management**: Easily find, report on, and manipulate data stored in Access.
+3. **Forms**: Create rich data entry forms.
+4. **Data Import/Export**: Import, transform, and export data from various sources¹².
 
 **See also:**
 
-- [Access video training - Microsoft Support](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
+- [Video: What is Access? - Microsoft Support](https://support.microsoft.com/en-us/office/video-what-is-access-f2338765-ff59-4cfc-b8ba-74059fcb1874)
+- [Microsoft Access - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Access)
 - [What is Microsoft Access? - Database.Guide](https://database.guide/what-is-microsoft-access/)
+- [Access video training - Microsoft Support](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
+- [What is Microsoft Access? Database Management Simplified - Simplilearn](https://www.simplilearn.com/what-is-microsoft-access-article)
 
 ## True/False (Mark T for True and F for False)
 

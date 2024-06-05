@@ -63,6 +63,136 @@ The characteristic polynomial, in linear algebra, is a polynomial associated wit
 
 ## Multiple Choice (Select the best answer)
 
+> In MATLAB, how are polynomial coefficients stored?
+
+- (a) As a column vector with powers in ascending order.
+- (b) As a row vector with powers in descending order.
+- (c) As a matrix with coefficients on the diagonal.
+- (d) None of the above.
+
+> How can you evaluate a polynomial for a specific input value in MATLAB?
+
+- (a) By directly substituting the value into the polynomial - expression.
+- (b) Using the polyval(p, x) function, where p is the polynomi- al object and x is the input value. ** <-- Correct Answer**
+- (c) The roots(p) function cannot be used for evaluation.
+- (d) None of the above.
+
+> Which function is used for polynomial multiplication in MATLAB?
+
+- (a) mult(p1, p2)
+- (b) polyprod(p1, p2)
+- (c) conv(p1, p2) ** <-- Correct Answer (Convolution is used for poly- nomial multiplication)**
+- (d) None of the above.
+
+> How are polynomial coefficients stored in a MATLAB variable?
+- a) As a column vector with powers in ascending order.
+- b) As a row vector with powers in descending order. CORRECT
+- c) As a matrix with rows representing coefficients and columns - representing powers.
+- d) None of the above.
+
+> Which MATLAB function evaluates a polynomial for a specific input value?
+- a) poly(p)
+- b) polyder(p)
+- c) polyint(p)
+- d) polyval(p, x) CORRECT (where x is the input value)
+
+> The following code snippet p = [2 1 -3]; polyval(p, 2) will evaluate to:
+- a) The value of x where the polynomial equals 2.
+- b) The derivative of the polynomial evaluated at x = 2.
+- c) The integral of the polynomial from 0 to 2.
+- d) The value of the polynomial when x = 2. CORRECT (p = [2 1 -3] represents a polynomial, polyval evaluates it at x = 2)
+
+> Which MATLAB function finds the derivative of a polynomial p?
+- a) polydiv(p)
+- b) polyint(p)
+- c) polyder(p) CORRECT
+- d) polyval(p, 1)
+
+> When defining a polynomial with missing terms (e.g., x^3 + 2x + 1), you should:
+- a) Leave gaps in the coefficient vector.
+- b) Insert zeros at the corresponding positions in the vector. - CORRECT
+- c) Define separate polynomials for each term.
+- d) It is not possible to define such polynomials in MATLAB.
+
+> Which function is used to find the roots of a polynomial in MATLAB?
+
+- A) polyfit
+- B) roots
+- C) polyval
+- D) conv
+
+> Which function evaluates a polynomial for a given set of x values?
+
+- A) polyfit
+- B) polyval
+- C) polyder
+- D) conv
+
+> What does the polyder function do?
+
+- A) Finds the derivative of a polynomial
+- B) Integrates a polynomial
+- C) Multiplies two polynomials
+- D) Fits a polynomial to data
+
+> Given p = [2 -4 3], what is the result of polyval(p, 2)?
+
+- A) 1
+- B) 3
+- C) 0
+- D) 2
+
+> To perform polynomial division, which function is used in MATLAB?
+
+- A) deconv
+- B) conv
+- C) polyval
+- D) roots
+
+> Which MATLAB command converts a vector of roots back to polynomial coefficients?
+
+- A) roots
+- B) poly
+- C) polyval
+- D) conv
+
+> What is the result of the MATLAB command polyval([1 -4 4], 3)?
+
+- A) 5
+- B) 7
+- C) 4
+- D) 1
+
+> Given p = [1 -6 11 -6], what command finds its roots?
+
+- A) poly(p)
+- B) polyfit(p)
+- C) roots(p)
+- D) polyval(p)
+
+> Given a polynomial p = [2 0 -5 1], how can you find its value at x = -1?
+
+- A) polyval(p, -1)
+- B) polyfit(p, -1)
+- C) conv(p, -1)
+- D) roots(p, -1)
+
+> How do you add two polynomials in MATLAB?
+
+- A) Add their coefficient vectors
+- B) Use conv() function
+- C) Use polyval() fu- nction
+- D) Add them directl- y
+
+> What is the degree of the polynomial represented by the coefficient vector [4, 0, 2, 1]?
+
+- A) 3
+- B) 2
+- C) 4
+- D) 1
+
+The degree of polynomials in one variable is the highest power of the variable in the algebraic expression. For example, in the following equation: x2+2x+4. The degree of the equation is 2 . i.e. the highest power of variable in the equation. [Learn more ...](https://www.toppr.com/guides/maths/polynomials/degree-of-polynomials/)
+
 ## Fill in the Blanks
 
 **Answer Key (Fill in the Blanks):**
