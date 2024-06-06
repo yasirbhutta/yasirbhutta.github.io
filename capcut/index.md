@@ -1423,7 +1423,7 @@ Which tool in CapCut can be used to add pre-designed stickers to a video?
 - C) Sticker
 - D) Overlay
 
-How can you apply a blur effect to a part of a video in CapCut?
+How can you apply a blur effect to a video in CapCut?
 
 - A) Use the 'Filter' tool
 - B) Use the 'Effects' tool
@@ -1437,13 +1437,19 @@ Which CapCut feature allows you to combine multiple clips into one video?
 - C) Split
 - D) Overlay
 
-Which feature in CapCut allows you to add a border around your video?
+Which option in CapCut lets you create a border around your video using an image?
 
 - A) Overlay
-- B) Effects
+- B) Background 
 - C) Border
 - D) Frame
 
+Which option in CapCut lets you create a border around your video?
+
+- A) Overlay
+- B) Animations
+- C) Video Effects **correct**
+- D) Frame
 
 Which feature in CapCut allows you to remove the background from a video?
 
