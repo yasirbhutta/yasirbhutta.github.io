@@ -240,13 +240,42 @@ Now you have two separate clips!
    4. [Vegetables - pexels.com](https://www.pexels.com/video/old-woman-buying-variety-of-vegetables-2016731/)
    5. [Video: Glass of Water - pexels.com](https://www.pexels.com/video/pouring-a-glass-of-water-2311965/)
 
-### Merging & Arranging Clips  
-- Learn to combine clips seamlessly and structure your video.
+### Arranging Clips  
+
+- Arranging clips in CapCut refers to the process of  placing your video clips in the specific order you want them to appear in your final video.
+
+**How to arrange clips in CapCut:**
+
+1. **Import Your Clips:**
+   - Open CapCut and start a new project.
+   - Tap the "+" icon and select "Videos" or "Photos" depending on your clips.
+   - Choose the clips you want to arrange in your video.
+
+2. **Drag and Drop to Arrange:**
+   - Once imported, the clips will appear as thumbnails on the timeline at the bottom. 
+   - Make sure no clip is currently selected (no white border around it).
+   - Simply tap and hold a clip, then drag it to the desired position on the timeline. 
+   - Release your finger to place it in the new order.
+
+3. **Ordering and Overlaying:**
+   - You can arrange clips in any order by dragging them on the timeline. 
+   - Placing clips one after another creates a continuous sequence.
+   - Dragging a clip on top of another creates an overlay effect, useful for picture-in-picture or text.
+
+4. **Preview and Refine:**
+   - Use the play button in the preview window to see how your arranged clips flow. 
+   - You can further edit your video by adding transitions (tap "+" between clips), text, filters, or music.
+
+**Tips:**
+
+* Tap and hold one clip, then tap others to select multiple clips for simultaneous movement.
+* Zoom in on the timeline using two fingers for more precise editing.
+   
 
 ### Adding Text & Stickers
 - Enhance your videos with titles, captions, and fun graphics.
 
-**Add Text**
+**Add Text:**
 
 Adding text in CapCut is a way to overlay words or phrases onto your video project. This lets you include titles, captions, explanations, or any other message you want viewers to see.
 
@@ -290,29 +319,160 @@ There are two main types of stickers you'll typically find in video editing soft
 **Class Activity:**
 
 - **Task A:**
-  1. Generate Caption from Above audio.
+  1. Generate Caption from Above audio. [Download Audio](docs/audio/audio%20for%20autocaption.mp3)
   2. Apply Animations on All Captions **Border pop-up I**. 
-
 
 **See also:**
 
 - [Online Generative Voice AI tool](https://elevenlabs.io/)
 
 **Text template**
-**Auto lyrics**
-**Draw**
-**Basic:**
 
-**Aspect ratio:**
+- In CapCut, a popular video editing app, a "text template" refers to pre-designed text layouts and animations that users can easily add to their videos. These templates simplify the process of adding stylish and dynamic text to videos, enhancing the overall visual appeal without requiring advanced design skills. 
+
+To apply a text template in the CapCut mobile app, follow these steps:
+
+1. **Open CapCut**: Launch the CapCut app on your mobile device.
+
+2. **Create a New Project**:
+   - Tap on the **"+" (plus)** button to create a new project.
+   - Select the video or photos you want to edit and tap **"Add"**.
+
+3. **Access Text Options**:
+   - Once your video is loaded into the timeline, tap on the **"Text"** button at the bottom of the screen.
+
+4. **Choose a Text Template**:
+   - Tap on **"Text Template"** to view the available templates.
+   - Browse through the different categories and templates to find one that suits your video.
+
+5. **Apply the Text Template**:
+   - Tap on the template you want to use. It will be automatically added to your video timeline.
+
+6. **Edit the Text**:
+   - Tap on the text on the timeline to select it.
+   - Tap on the text on the video preview to edit the content. You can type in your desired text.
+
+7. **Adjust the Duration**:
+   - To adjust the duration of the text, drag the edges of the text layer on the timeline to set when the text appears and disappears in your video.
+
+8. **Preview Your Changes**:
+   - Tap the play button to preview how the text looks in your video. Make any necessary adjustments.
+
+9.  **Save Your Video**:
+    - Once you’re satisfied with your video, tap the **"Export"** button at the top right corner.
+    - Choose the export settings and save your video to your device.
+
+### Draw
+
+- The "Draw" feature in CapCut is a tool that allows users to add hand-drawn elements directly onto their videos. 
+- This can include freehand drawings, annotations, shapes, and other artistic touches. 
+- It is a versatile feature for adding personalized and creative elements to your video content.
+
+### Aspect ratio
 
 Aspect ratio is the proportional relationship between the width and height of a rectangle. It's expressed as a colon-separated pair of numbers like width:height (e.g., 16:9, 4:3).
 Common aspect ratios are used in various fields such as photography, videography, and graphic design.  For instance, a 16:9 aspect ratio is ideal for widescreen TVs and monitors, while a 4:3 ratio is suitable for standard-definition TVs and presentations.
 
 Capcut allows you to choose from various aspect ratios to suit your video editing needs. The app supports popular ratios like 16:9 (widescreen), 9:16 (ideal for TikTok and Instagram stories), 4:3 (standard definition TV), 1:1 (square format for social media posts), and more.
 
-**Speed:**
-**Volume:**
-**video Quality:**
+### Speed
+
+The "Speed" feature in CapCut is a tool that allows users to adjust the playback speed of their video clips. This can be used to create various effects, such as slow motion or fast motion, which can enhance the storytelling and visual impact of a video. Here’s an overview of what you can do with the speed feature and how to use it:
+
+### Key Features of the Speed Tool in CapCut:
+
+1. **Speed Adjustment**:
+   - Users can increase or decrease the playback speed of video clips.
+   - Speed adjustments can range from very slow (e.g., 0.1x) to very fast (e.g., 10x).
+
+2. **Curve Speed**:
+   - The "Curve" speed option allows for more advanced speed adjustments where users can create speed ramps. This means you can gradually change the speed at different points in the clip, creating smooth transitions between slow and fast motion.
+
+### How to Use the Speed Feature in CapCut:
+
+1. **Open CapCut**:
+   - Launch the CapCut app on your mobile device.
+
+2. **Create or Open a Project**:
+   - Tap on the **"+" (plus)** button to create a new project or open an existing one.
+   - Add the video clip you want to edit to the timeline.
+
+3. **Select the Video Clip**:
+   - Tap on the video clip in the timeline that you want to adjust the speed of.
+
+4. **Access the Speed Tool**:
+   - Tap on the **"Speed"** button at the bottom of the screen.
+
+5. **Choose Speed Adjustment Type**:
+   - Select either **"Normal"** or **"Curve"** based on your preference.
+
+Normal Speed Adjustment:
+   - **Normal**: Adjust the slider to increase or decrease the speed. Moving the slider to the left slows down the video, while moving it to the right speeds it up.
+
+1. **Preview the Changes**:
+   - After adjusting the speed, play back the video to see how it looks. Make any necessary adjustments to achieve the desired effect.
+
+2. **Apply the Changes**:
+   - Once you are satisfied with the speed adjustment, tap the checkmark or **"OK"** button to apply the changes.
+
+3. **Save Your Video**:
+   - When you have finished editing your video, tap the **"Export"** button at the top right corner.
+   - Choose your export settings and save the video to your device.
+
+**videos to practice Speed:**
+
+- [Video: A man running happily in a sand - pexels.com](https://www.pexels.com/video/a-man-running-happily-in-a-sand-hill-of-the-dessert-3015482/)
+
+### Volume
+
+- The "Volume" feature in CapCut allows users to adjust the audio levels of their video clips. This feature is essential for balancing sound, emphasizing certain parts of the audio, or muting clips. Here’s an overview of what you can do with the volume feature and how to use it:
+
+### Key Features of the Volume Tool in CapCut:
+
+1. **Volume Adjustment**:
+   - Users can increase or decrease the volume of the audio in their video clips.
+   - The volume can be set to a percentage of the original sound, ranging from 0% (mute) to 200% (amplified sound).
+
+2. **Mute Audio**:
+   - Users can mute the audio entirely if they don’t want any sound from the original video clip.
+
+### How to Use the Volume Feature in CapCut:
+
+1. **Open CapCut**:
+   - Launch the CapCut app on your mobile device.
+
+2. **Create or Open a Project**:
+   - Tap on the **"+" (plus)** button to create a new project or open an existing one.
+   - Add the video clip you want to edit to the timeline.
+
+3. **Select the Video Clip**:
+   - Tap on the video clip in the timeline that you want to adjust the volume for.
+
+4. **Access the Volume Tool**:
+   - Tap on the **"Volume"** button at the bottom of the screen.
+
+5. **Adjust the Volume**:
+   - Use the slider to increase or decrease the volume of the audio. Moving the slider to the left lowers the volume, while moving it to the right increases it.
+   - Set the volume to 0% to mute the audio or up to 200% to amplify it.
+
+6. **Fade In and Fade Out**:
+   - If you want to add fade-in or fade-out effects, look for the fade options in the volume settings.
+   - Adjust the duration of the fade-in or fade-out as desired.
+
+7. **Separate Audio (Optional)**:
+   - If you want to edit the audio separately, tap on the clip, then tap on the **"Extract Audio"** or **"Separate Audio"** option to separate the audio from the video. This allows you to move or edit the audio independently.
+
+8. **Preview the Changes**:
+   - After adjusting the volume, play back the video to hear how the audio sounds. Make any necessary adjustments to achieve the desired audio balance.
+
+9. **Apply the Changes**:
+   - Once you are satisfied with the volume adjustments, tap the checkmark or **"OK"** button to apply the changes.
+
+10. **Save Your Video**:
+    - When you have finished editing your video, tap the **"Export"** button at the top right corner.
+    - Choose your export settings and save the video to your device.
+
+Using the volume feature in CapCut helps ensure your video's audio is clear and balanced, enhancing the overall viewing experience.
 
 ## **Module 3: Effects & Transitions**
 
@@ -390,30 +550,6 @@ CapCut's camera tracking isn't quite like physically moving a camera in the real
 - **Simplified Editing:**  Motion tracking saves time and effort.  Instead of manually animating elements to follow the object, CapCut automates it.
 - **Creative Possibilities:**  This feature opens doors to creative applications. Imagine text bubbles appearing above someone's head as they talk, or a product logo hovering next to a highlighted item.
   
-**Remove BG:**
-
-CapCut's "Remove Background" feature allows you to remove the background from your videos or images, essentially making your subject transparent. This can be useful for various creative editing purposes:
-
-- **Placing your subject on a new background:** You can replace the original background with a solid color, another video clip, or an image to create a completely new scene for your subject.
-- **Creating overlays:** By removing the background, you can isolate your subject and use it as an overlay on top of another video. This is useful for things like picture-in-picture effects or creating composite scenes.
-- **Green screen effect (limited):** By removing the background, you can achieve a similar effect if you filmed your subject in front of a green screen. You can then replace the green background with any other desired background image or video.
-
-**Retouch:**
-
-In CapCut, the retouch feature allows you to specifically enhance the appearance of faces in your videos. It essentially offers a set of beauty adjustments to smoothen skin, brighten features, and refine facial contours. 
-
-**What retouch does in CapCut:**
-
-- **Smooth Skin:** This reduces the appearance of wrinkles, blemishes, and imperfections, giving the skin a smoother and more even look. You can adjust the intensity of the smoothing effect to achieve a natural or more airbrushed appearance.
-- **Skin Tone Adjustment:**  You can subtly change the overall skin tone of the face in the video. This might involve making it brighter, cooler, or warmer depending on your preference.
-- **Facial Feature Refinement:**  CapCut offers options to adjust specific facial features like eyes (making them appear bigger) or slimming the face. It's important to use these adjustments sparingly to maintain a natural look.
-
-**Benefits of Using Retouch in CapCut:**
-
-- **Quick Enhancements:** It's a convenient way to improve the overall look of faces in your videos, particularly for minor imperfections or uneven skin tones.
-- **Non-destructive Editing:**  CapCut's retouch adjustments are non-destructive, meaning the original video footage remains untouched. You can always revert the changes if needed.
-- **Easy to Use:**  The retouch interface is user-friendly with sliders and options clearly labeled. It's a good option for beginners who want to add a touch of polish to their videos.
-
 ## Module: Text Editing
 
 **Key Learning:**
@@ -474,29 +610,97 @@ Movement Animations:
 
 **Key Learning:**
 
+- Transform
+- Auto reframe
+- Speed
+- Adjustment
+
 ### Transform
+
+- The transform feature in CapCut is a powerful tool that allows users to manipulate the size, rotation and mirror of video clips and images. This feature is essential for achieving precise control over how visual elements appear within the frame, providing greater creative flexibility in video editing.
+
+### Key Functions of the Transform Feature
+
+1. **Rotation:**
+   - You can rotate the video clip or image to any angle. This can add dynamic movement to your video or help align elements that are not perfectly horizontal or vertical.
+
+2. **Mirror**
+- The mirror options in the transform feature of CapCut allow users to flip their video clips or images either horizontally or vertically. This can be useful correcting the orientation of footage, or adding creative variations to your videos.
+
+3. **Resize:**
+   - The scale function allows you to resize the video clip or image. You can make it larger or smaller to fit your desired layout. This is particularly useful for zooming in on specific details or creating picture-in-picture effects.
+
+### Practical Applications of the Transform Feature
+
+- **Reframing Shots:** If your original footage wasn't framed perfectly, you can use the position and scale functions to adjust the composition.
+- **Dynamic Movement:** By keyframing transformations (position, scale, rotation), you can create animations and movements within your video. For example, you can simulate a camera pan or zoom.
+
 ### Auto reframe
-### Speed
-### Animation
+
+The auto reframe feature in CapCut is a time-saving tool that helps you adjust your video's aspect ratio automatically. It's particularly useful for adapting videos shot in landscape mode (widescreen) to portrait mode (vertical), which is popular for platforms like TikTok and Instagram Stories.
+
+**Benefits of Using Auto Reframe:**
+
+- **Saves Time:**  Skip the manual cropping and zooming process, letting CapCut handle the resizing efficiently.
+- **Optimized for Different Platforms:**  Easily create videos in the perfect aspect ratio for various social media platforms without compromising the content.
+- **Maintains Focus:**  Ensures your viewers' attention stays on the key elements of your video.
+
+**Using Auto Reframe in CapCut:**
+
+1. **Import Your Clip:** Add the video you want to resize to your CapCut project timeline.
+
+2. **Select the Clip:** Tap on the clip on the timeline.
+
+3. **Access Auto Reframe:** Look for the "Auto Reframe" option within the editing tools. 
+
+4. **Choose Aspect Ratio:**  Select the desired aspect ratio from the available presets (portrait, square, etc.) or choose "Custom" to define specific dimensions.
+
+5. **Preview and Adjust (Optional):**  Play the preview to see how the auto reframe worked. You can make minor adjustments by dragging the frame within the preview window if needed.
+
 ### Adjustment
+
+The adjustment feature in CapCut is a powerful tool that allows you to fine-tune the visual appearance of your videos. It essentially acts like a digital toolbox for manipulating various aspects of how your video looks. Here's a breakdown of what the adjustment feature offers:
+
+**Color and Light Controls:**
+
+* **Brightness:** Adjust the overall brightness of your video, making it darker or brighter.
+* **Contrast:** Enhance the difference between light and dark areas, creating a more dramatic or defined look.
+* **Saturation:** Control the intensity of colors in your video. Increased saturation makes colors more vivid, while decreasing it creates a more muted tone.
+* **Sharpen:**  Sharpen the edges in your video, making details appear crisper. 
+* **Highlights & Shadows:**  Independently adjust the brightness of highlights (brightest areas) and shadows (darkest areas) for better exposure control.
+
+**Additional Adjustments:**
+
+* **Temperature:**  Shift the overall color temperature of your video, making it appear cooler (bluer) or warmer (redder).
+* **Tint:**  Add a subtle color cast to your video, like a greenish or pinkish tint.
+* **Exposure:**  Adjust the overall light exposure of your video, similar to adjusting brightness but with more nuanced control.
+
+**Using the Adjustment Feature:**
+
+1. **Import Your Clip:** Add the video clip you want to adjust to your CapCut project timeline.
+
+2. **Access Adjustments:** Tap on the clip on the timeline to see the editing options on the right side. Locate the "Adjust" icon and Tap on it.
+
+3. **Explore Controls:** You'll see sliders for each adjustment option (brightness, contrast, etc.). Drag the sliders left or right to achieve the desired effect.
+
+4. **Preview and Refine:**  Use the play button in the preview window to see how your adjustments affect the video.  Continue refining the settings until you're satisfied with the look.
+
+**Tips:**
+
+- Tap the video in preview window to see the original video without adjustment.
 
 ## Module 5: Audio & Music**
 
 **Key Learning:**
 
-1. Basic
-   - Volume
-   - Fade in
-   - Fade out
-2. Record
-3. Extract Audio
-4. Isolate voice
-5. Enhance voice
-6. Reduce noice
-7. Adding Background Music: Set the mood with royalty-free music or your own tunes.
+1. Record
+2. Extract Audio
+3. Isolate voice
+4. Enhance voice
+5. Reduce noice
+6. Adding Background Music: Set the mood with royalty-free music or your own tunes.
 
-### 1. Basic
-### 2. Record
+### 1. Record
 
 In CapCut, "Sound recording" refers to the functionality that allows you to record your own voice directly within the app and add it as a narration or commentary track to your vid eo project.  Here's a breakdown of how it works:
 
@@ -521,7 +725,7 @@ In CapCut, "Sound recording" refers to the functionality that allows you to reco
 - **Background Noise:**  Minimizing background noise in your recording environment is recommended for clearer narration.
 - **Script or Outline:**  Having a script or outline for your narration can help you stay focused and ensure you cover all the desired points during recording.
 
-### Extract Audio
+### 2. Extract Audio
 
 - The audio extract feature in CapCut is a handy tool that allows you to isolate and save the audio portion from a video clip within your editing project. This extracted audio can then be used for various purposes:
 
@@ -544,7 +748,7 @@ Here's how to use the audio extract feature in CapCut:
 * **Extracted audio format:** The extracted audio will be saved in a commonly used audio format like AAC, which is compatible with most devices and editing software.
 * **Multiple extractions:** You can extract audio from multiple video clips in your project following the same steps.
 
-### Isolate voice
+### 3. Isolate voice
 
 The "Isolate Voice" feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos. Here's what it does:
 
@@ -572,10 +776,9 @@ The "Isolate Voice" feature in CapCut is a relatively new and powerful tool desi
 * **Not perfect isolation:**  Background noise or instruments with similar frequencies to vocals might be partially removed alongside the vocals. 
 * **Limited adjustments:**  CapCut's "Isolate Voice" is a one-click function and doesn't offer advanced controls to fine-tune the separation process. 
 
+**Creating Karaoke Tracks:** This involves taking an existing song and producing a version specifically for karaoke use (Karaoke is a form of interactive entertainment where people sing along to pre-recorded instrumental accompaniments of popular songs, using a microphone). This means removing the lead vocals while keeping the instrumental backing track. This can be done through various methods, like live instrument recording or using MIDI instruments.
 
-**Creating Karaoke Tracks: **This involves taking an existing song and producing a version specifically for karaoke use. This means removing the lead vocals while keeping the instrumental backing track. This can be done through various methods, like live instrument recording or using MIDI instruments.
-
-### 5. Enhance voice
+### 4. Enhance voice
 
 - In CapCut, "Enhance Voice" is a feature designed to improve the audio quality of your video's voice track. It utilizes artificial intelligence (AI) to automatically refine and potentially enhance the voice clarity in your video.
 
@@ -584,9 +787,10 @@ The "Isolate Voice" feature in CapCut is a relatively new and powerful tool desi
 **Improved Clarity:** By reducing background noise and echo, "Enhance Voice" can make your video's dialogue or narration sound clearer and more professional.
 **Easier Listening:** A potentially boosted voice volume can improve the listening experience for viewers.
 
-### 6. Reduce noise
+### 5. Reduce noise
 
-In CapCut, "Reduce Noise" is a feature that helps you improve the audio quality of your videos by specifically targeting and minimizing unwanted background sounds. It utilizes audio processing algorithms to make the main audio content (dialogue, music) stand out.
+- In CapCut, "Reduce Noise" is a feature that helps you improve the audio quality of your videos by specifically targeting and minimizing unwanted background sounds. 
+- It utilizes audio processing algorithms to make the main audio content (dialogue, music) stand out.
 
 **Benefits of Reduce Noise in CapCut:**
 
@@ -603,15 +807,180 @@ In CapCut, "Reduce Noise" is a feature that helps you improve the audio quality 
 
 ## Advance Editing Techniques
 
+### Background
+
+## CapCut Background Feature: Colors, Images, and Blur
+
+The background feature in CapCut allows you to transform the backdrop of your videos, adding creativity and enhancing visual impact. Here's a breakdown of the color, image, and blur options within this feature:
+
+**Background Features in CapCut: Color, Image, and Blur Options**
+
+In CapCut, the background feature offers users versatile options to customize the backdrop of their video clips, enhancing visual appeal and storytelling. This feature includes color, image, and blur options, each serving distinct purposes to elevate the overall presentation. Here's a breakdown of these options:
+
+**1. Color Background:**
+
+- The color background option allows users to select a solid color as the backdrop for their video clips.
+- Users can choose from a wide range of colors to match the mood, theme, or branding of their video projects.
+
+**2. Image Background:**
+
+- With the image background option, users can import custom images to serve as the backdrop for their video clips.
+- This feature enables users to add depth, context, or visual interest to their videos by incorporating relevant images as backgrounds.
+
+**3. Blur Background:**
+
+- The blur background option applies a blur effect to the backdrop of video clips, drawing focus to the foreground subjects or creating a cinematic aesthetic.
+- This feature is particularly useful for removing distractions from the background or achieving a shallow depth of field effect.
+
 ### Remove BG
+
+In CapCut, "Remove BG" stands for "Remove Background." It's a tool that helps you remove the background from an image or video clip. This allows you to:
+
+* **Place your subject on a new background:** Once the background is removed, you can add a solid color background, another image, or even another video clip behind your subject. This is useful for creating a cleaner look or placing your subject in a different environment.
+* **Focus on the main element:** Removing the background can help draw attention to the main subject of your video, making it stand out more.
+
+When using CapCut's "Remove Background" feature, you can choose from three methods:
+
+**Auto Removal:** This is the quickest option, ideal for videos with a clear subject standing out from the background.
+**Custom Removal:** This method gives you more control, allowing you to refine the edges of your subject for a polished look.
+**Chroma Key:** This is best suited for videos filmed with a green screen background, allowing for precise removal of the green color.
+   
+**Background Removal Options in CapCut: Auto Removal vs. Custom Removal vs. Chroma Key:**
+
+CapCut offers three main background removal options: Auto Removal, Custom Removal, and Chroma Key. Each has its strengths and weaknesses depending on your video content:
+
+**1. Auto Removal:**
+
+* **Pros:** This is the simplest and fastest option. It's ideal for videos with a clear distinction between the subject and the background, like someone standing in front of a solid color wall. 
+* **Cons:** Auto Removal might not be precise and can remove parts of your subject with complex edges (like hair) or if the background color blends slightly with the subject.  
+
+**2. Custom Removal:**
+
+* **Pros:** This option gives you more control over the background removal process. You can use a brush tool to manually define the areas you want to keep (subject) and remove (background). This allows for a more accurate cut, especially for subjects with intricate details.
+* **Cons:**  Custom Removal requires more time and effort compared to Auto Removal. It can be tedious for complex backgrounds or long videos.
+
+**3. Chroma Key:**
+
+* **Pros:**  Chroma Key is best suited for videos filmed specifically with a green screen background. It removes a specific color (usually green) very effectively, leaving your subject transparent for you to place on a new background. 
+* **Cons:** Chroma Key requires filming with a green screen (or a similar solid color background) beforehand. This adds an extra setup step compared to using the footage you already have. 
+
+**Here's a quick table to summarize:**
+
+| Feature | Best For | Pros | Cons |
+|---|---|---|---|
+| Auto Removal | Simple backgrounds, clear contrast | Fast, easy to use | Might remove parts of the subject |
+| Custom Removal | Complex backgrounds, intricate details | Precise control over removal | Time-consuming for complex videos |
+| Chroma Key | Green screen footage | Very clean removal of specific color | Requires green screen filming  |
+
+**Choosing the Right Option:**
+
+* If you have a simple video with a clean background, Auto Removal is a good starting point.
+* If your video has a complex background or needs a very precise cut, use Custom Removal.
+* If you specifically filmed your video with a green screen, Chroma Key is the way to go.
+
+Here's how CapCut's "Remove BG" tool works:
+
+* **For Images / Videos:**  
+  1. Import your image into CapCut.
+  2. Tap on the image in the timeline.
+  3. Look for the menu at the bottom with options like "Adjust," "Filters," etc.  
+  4. Select "Remove BG"
+  5. Choose Auto removal or Custom removal or Chroma key.
+
+**Keep in mind:**
+
+*  "Remove BG" works best with videos that have a clear contrast between the subject and the background. If the subject and background have similar colors, it might be difficult to achieve a clean removal.
+*  The "Auto Cutout" feature is a good starting point, but you might need to refine the edges of the cutout for a more polished look. 
+  
 ### Mask
+
+The mask feature in CapCut is a powerful tool that allows users to apply various effects to specific parts of their video. This can include adding overlays, hiding or revealing parts of the video, or creating custom shapes and patterns to enhance the visual appeal.
+
+CapCut is a popular video editing app that offers a variety of features to enhance video creation. One of these features is the "mask" feature, which allows users to apply different shapes and effects to their video clips, creating interesting visual effects by hiding or revealing parts of the video.
+
+### Mask Feature in CapCut
+
+The mask feature enables users to create custom shapes and effects on their video clips. This can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays. Here's a breakdown of the specific mask options available in CapCut:
+
+1. **Horizontal Mask:**
+   - The horizontal mask allows you to create a horizontal split or gradient across your video. You can adjust the position and width of the mask to reveal or hide parts of the video horizontally. This is useful for creating split-screen effects or gradual transitions from one clip to another.
+
+2. **Circle Mask:**
+   - The circle mask creates a circular cutout on your video. You can adjust the size and position of the circle to focus on a specific part of the video. This is useful for highlighting subjects or creating a vignette effect (The vignette effect is a technique used in photography and editing to create a darkening of the edges or corners of an image.).
+
+3. **Rectangle Mask:**
+   - The rectangle mask allows you to create a rectangular cutout on your video. You can adjust the size, position, and aspect ratio of the rectangle to reveal or hide parts of the video. This is often used for framing subjects or creating split-screen effects.
+
+4. **Heart Mask:**
+   - The heart mask creates a heart-shaped cutout on your video. You can adjust the size and position of the heart to highlight specific parts of the video. This is commonly used for romantic or sentimental effects.
+
+5. **Invert Option:**
+   - The invert option allows you to invert the selected mask shape. Instead of showing the area inside the mask, it hides the area inside and shows everything outside the mask. This can create unique visual effects by reversing the mask's function.
+
+**What can you do with masking in CapCut?**
+
+- **Creative Effects:** Masks can be used to create artistic and visually appealing effects in your videos. For example, you can use the circle mask to create a spotlight effect on a subject.
+- **Transitions:** By animating masks, you can create smooth transitions between different video clips. For instance, a horizontal mask can slide from left to right to reveal the next clip.
+- **Emphasis:** Masks can help emphasize specific parts of your video. For example, a heart mask can be used to highlight a couple in a romantic scene.
+- **Split-Screen:** Using rectangle or horizontal masks, you can create split-screen effects to show multiple videos simultaneously.
+
+By utilizing these mask options, CapCut users can enhance their video editing capabilities and add a professional touch to their creations.
+
 ### Retouch
 
-**Module 4: Advanced CapCut Techniques**
+The retouch feature in CapCut is a set of tools designed to enhance the appearance of faces in your videos. It allows you to make adjustments that can smooth out skin, remove blemishes, brighten features, and even apply virtual makeup. 
 
-### **Keyframe Animations:** 
+CapCut's retouch feature offers separate options for both face and body, allowing you to enhance specific areas of your videos. Here's a breakdown of what you can do:
 
-Keyframing is a feature that allows you to create motion graphics and smooth animation. To create a motion sequence, you need to define your object's starting and ending points. These markers are referred to as the keyframes. Use CapCut to employ video keyframes with our easy-to-use user interface. Besides keyframe effects, you can add speed curve to smooth your video clips. Learn more: [Keyframe Animations - capcut.com](https://www.capcut.com/tools/keyframe-animation)
+**1. Face Retouch:**
+
+## CapCut Face Retouch: Unveiling Face, Reshape, and Makeup Options
+
+CapCut's retouch feature allows you to enhance facial features in your videos. Let's delve into the specific functionalities within the "Face," "Reshape," and "Makeup" options:
+
+**I. Face:**
+
+This section focuses on overall skin tone and texture adjustments:
+
+- **Smoothing:** This tool reduces the appearance of wrinkles, fine lines, and blemishes. You can control the intensity for a natural-looking smoothening or a more airbrushed effect. 
+- **Skin Tone:** Here, you can even out skin tone and adjust its overall color. This is useful for correcting lighting issues or achieving a specific look, like a light tan.
+- **Whiten Teeth:** Brighten teeth for a whiter and more radiant smile in your videos.
+
+**II. Reshape:**
+
+This section allows for subtle adjustments to facial features:
+
+- **Slim Face:** This tool helps to slightly narrow the jawline for a slimmer facial appearance. Use it cautiously to avoid an unnatural look.
+- **Enlarge Eyes:** Want to make your eyes appear bigger? This tool allows for subtle enlargement but be mindful of maintaining realistic proportions.
+- **Sharpen Nose:** This tool can slightly refine the bridge of the nose. Again, subtlety is key here.
+
+**III. Makeup (Limited):**
+
+While not as extensive as dedicated makeup apps, CapCut offers basic virtual makeup options:
+
+- **Lipstick:** Apply lipstick in various colors to enhance your look. Choose a shade that complements your skin tone and the overall style of your video.
+- **Blush:** Add a touch of blush to bring color to your cheeks. Experiment with different shades and intensities to find the perfect look.
+- **Eyeshadow:** Apply basic eyeshadow colors to enhance your eyes. While CapCut doesn't offer extensive options, you can still create a simple and stylish look.
+
+**2. Body Retouch:**
+
+* **Smooth:** Similar to the face option, this smooths out skin imperfections on the body, like cellulite or stretch marks. Use it subtly to avoid an unnatural look.
+* **Brighten:** This brightens the overall skin tone of the body, making it appear lighter.
+* **Slim:** This tool allows you to slim down specific body areas like the waist, legs, or arms. Be careful not to overdo it, as it can distort the natural proportions.
+
+**Here are some general tips for using CapCut's retouch feature:**
+
+* **Start with Subtle Adjustments:**  Always begin with minimal adjustments and gradually increase them until you achieve the desired effect.
+* **Focus on Enhancement, Not Alteration:**  The goal is to enhance natural features, not completely change someone's appearance. 
+* **Consider Lighting:**  Poor lighting can make retouching more difficult. If possible, try to film in good lighting conditions.
+* **Review Before Exporting:**  Always preview your edits before finalizing your video to ensure the retouching looks natural.
+
+## Module 4: Advanced CapCut Techniques*
+
+### Keyframe Animations 
+
+- Keyframing is a feature that allows you to create motion graphics and smooth animation. 
+- To create a motion sequence, you need to define your object's starting and ending points. These markers are referred to as the keyframes. Learn more: [Keyframe Animations - capcut.com](https://www.capcut.com/tools/keyframe-animation)
 
 Here are some examples of how keyframes can be used in CapCut:
 
@@ -720,29 +1089,38 @@ This activity is designed to help you learn and showcase a cool CapCut feature b
 
 ### Overlays
 
-In CapCut, overlays are essentially extra layers of visuals that you can add on top of your main video clip. These overlays can be anything from text and stickers to images, animations, or even other video clips.
+- In CapCut, overlays are essentially extra layers of visuals that you can add on top of your main video clip. 
+- These overlays can be anything from text and stickers to images, animations, or even other video clips.
 
-**Text behind object:**
+**1. Text behind object:**
+
+- In CapCut, "text behind object" refers to a technique where you make text appear behind an object in your video. 
 
 Achieving a "text behind object" effect in CapCut with overlays involves a two-step process:
 
-1. **Adding the Text:**
+**I. Adding the Text:**
 
   * Start by importing your video clip into CapCut.
   * Tap on the "Text" option and write your desired text.
   * Customize the text using the available options for font, size, color, and animation (if desired).
   * Position the text where you want it to appear behind the object in the video.
 
-2. **Creating the Overlay with Background Removal:**
+**II. Creating the Overlay with Background Removal:**
 
   There are two main approaches for this step:
 
     **a) Overlay with a Duplicate Video (Works best for static objects):**
     **b) Overlay with an Image (More flexible for various objects):**
 
+**2. Video in Text:***
 
-**Video in Text:***
+- In CapCut, "video in text" refers to a video editing technique where you display a video clip inside the letters of text. This can create a cool visual effect, especially if the video content complements the text.
 
+There isn't a built-in feature for this in CapCut, but you can achieve it with a two-step process:
+
+1. **Create Text with a Green Background:** First, you add text and customize it to fill the screen. Use a solid green color for the background. 
+
+2. **Import Video & Apply Chroma Key:** Then, import your video clip and place it on a new track above the text. Use the Chroma Key effect to remove the green background, essentially making the text transparent and revealing the video underneath. You can further refine the effect by adjusting the Chroma Key intensity and adding a shadow to the text.
 
 **Sample videos for practice overlays:**
 
@@ -771,6 +1149,23 @@ Achieving a "text behind object" effect in CapCut with overlays involves a two-s
 - [How to Do a Green Screen in CapCut | Chroma Key](https://www.youtube.com/watch?v=KpHyqKoNOjs)
 
 ### Tracking
+
+- The tracking feature in CapCut is a powerful tool that allows you to automatically attach text, graphics, or effects to a moving object within your video footage. 
+- This creates a dynamic and visually interesting effect, keeping those elements glued to the object as it moves throughout the clip.
+
+**Using the Tracking Feature in CapCut:**
+
+1. **Import Your Clip:** Add the video clip containing the object you want to track to your CapCut project timeline.
+
+2. **Select Text/Graphic/Effect:** Choose the element you want to track, such as adding text, an emoji, or a special effect.
+
+3. **Access Tracking:** Tap on the element you added on the timeline. Look for the "Tracking" option (usually an icon with a target symbol) in Editing Tools
+
+4. **Select Object to Track:** A window will appear showing your video clip. Use the bullseye icon to pinpoint the object you want the element to follow.
+
+5. **Refine Tracking (Optional):**  CapCut's AI will automatically track the object. 
+
+6. **Preview and Adjust:** Use the play button in the preview window to see how the tracking works. Make adjustments to the element's position or the tracking path if necessary.
 
 **videos to practice tracking:**
 
@@ -807,7 +1202,7 @@ Split screen effect in Capcut
 What is the process of separating the vocal track from a song, leaving the instrumental music behind?
 
 - a) Audio mixing
-- b) Vocal isolation
+- b) Isolate voice
 - c) Sound equalization
 - d) Track duplication
 
@@ -828,7 +1223,7 @@ CapCut offers a library of pre-made video templates to simplify the editing proc
 Which feature of CapCut allows you to remove the background from a video?
 
 - A) Chromakey
-- B) Background Eraser
+- B) Remove BG
 - C) Overlay
 - D) Masking
 
@@ -1010,7 +1405,7 @@ Which tool would you use to highlight a specific part of your video in CapCut?
 Which feature in CapCut allows you to remove the background from a video?
 
 - A) Chromakey
-- B) Background Remover
+- B) Background
 - C) Overlay
 - D) Masking
 
