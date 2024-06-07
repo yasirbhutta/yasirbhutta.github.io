@@ -1412,7 +1412,7 @@ Which feature in CapCut allows you to remove the background from a video?
 Which feature in CapCut helps in creating a mirror effect in a video?
 
 - A) Transition
-- B) Mirror
+- B) Transform 
 - C) Effects
 - D) Overlay
 
@@ -1426,7 +1426,7 @@ Which tool in CapCut can be used to add pre-designed stickers to a video?
 How can you apply a blur effect to a video in CapCut?
 
 - A) Use the 'Filter' tool
-- B) Use the 'Effects' tool
+- B) Use the 'Effects' tool **Correct**
 - C) Use the 'Blur' tool
 - D) Use the 'Crop' tool
 
@@ -1461,6 +1461,8 @@ Which feature in CapCut allows you to remove the background from a video?
 **Photos:**
 
 ## Fill in the Blanks
+
+
 
 **Answer Key (Fill in the Blanks):**
 
@@ -1520,100 +1522,93 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 ## Review Questions
 
-**Basic Features and Tools:**
+**CapCut Basics & Interface:** Introduction, Interface, Templates, Import Video 
 
-**Advanced Editing Techniques:**
+- What is CapCut, and what are its primary uses?
+- What are the benefits of using the timeline view in CapCut?
+- How do you import media files into CapCut for editing?
+- Analyze the strengths and limitations of using templates in CapCut for video creation. When might a template be a good choice, and when might it hinder creativity?
 
-**Audio Editing**
+**Editing Fundamentals:** Trimming & Splitting, Arrange Clips, Adding Text & Stickers, Draw, Aspect ratio, Speed, Volume
 
-- Describe the process of adding background music to a video in CapCut.
+- Explain the process of trimming a video clip in CapCut.
+- What is the difference between the 'Split' and 'Trim' tools in CapCut?
+- How can you organize and manage multiple video projects in CapCut?
+- Describe the process of adding a freehand drawing to a video clip in CapCut.
+- Differentiate between aspect ratios (e.g., 16:9 vs. 9:16) and their impact on video composition and audience targeting.
 - How can you adjust the volume of an audio track in CapCut?
-- What is the function of the 'Fade In' and 'Fade Out' audio effects in CapCut?
+- What is the purpose of the volume feature in CapCut?
+- What steps should be followed to access and use the volume tool in CapCut?
+  
 
-**Visual Effects and Filters**
+**Text Editing:** Text to speech,Text Style, Text Animations, Basics,Lasting text, Effects, Bubble
+
+- What is the primary purpose of the Text-to-Speech (TTS) feature in CapCut?
+- How can you access the TTS feature within CapCut?
+- Describe the steps to convert written text into speech using CapCut's TTS feature.
+- How do you add text to a video in CapCut?
+- What customization options are available for text in CapCut (e.g., font, size, color)?
+- Explain how to create animated text effects using CapCut
+- Explain how CapCut's text-to-speech functionality can improve the accessibility of your videos for viewers with hearing impairments.
+- How can you create a slow-motion effect in a video clip using CapCut?
+- What is the primary purpose of the lasting text feature in CapCut?
+- How can you enable lasting text for a video project in CapCut?
+- Describe the difference between lasting text and regular text duration adjustments.
+
+
+**Video Editing:** Transform, Auto reframe, Speed, Reverse Camera tracking, Adjust
+
+- What are the primary functions of the transform feature in CapCut?
+- What steps are involved in mirroring a video clip or image horizontally or vertically in CapCut?
+- Explain the steps to rotate a video clip in CapCut. Why might this be necessary in video editing?
+- How can you apply a reverse effect to a video clip in CapCut?
+- Explain the process and benefits of using the 'Speed' adjustment tool in CapCut.
+- How can the 'Adjust' tool in CapCut be used to fine-tune the color and tone of a video?
+- What is the primary purpose of the Auto Reframe feature in CapCut?
+- What is the purpose of the camera tracking feature in CapCut?
+- Give an example of how camera tracking can be used in a promotional video.
+
+**Visual Effects and Filters:** Effects, Filters
 
 - What types of visual effects are available in CapCut, and how can they be applied to a video?
 - How can you use filters in CapCut to change the mood or tone of a video?
 - Explain the use of the 'Blur' effect in CapCut and provide an example of its application.
+- Describe how to use the 'Effects' feature to add visual interest to a video. What are some common visual effects available in CapCut, and how can they be applied effectively?
+- Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?
 
-**Text and Titles**
-- How do you add text to a video in CapCut?
-- What customization options are available for text in CapCut (e.g., font, size, color)?
-- Explain how to create animated text effects using CapCut.
-
-**Transitions and Animations**
+**Transitions and Animations:** Transitions, Animations
 
 - What are transitions, and how do they enhance video editing in CapCut?
 - Describe the steps to add a transition between two clips in CapCut.
 - How can you use the animation feature to create dynamic movements in CapCut?
+- Discuss the use of 'Transitions' in CapCut. How do transitions contribute to the overall flow and professional appearance of a video? Provide examples of different types of transitions and their ideal usage.
+- How can CapCut's 'Animation' feature be used to animate text or objects within a video? Describe the steps involved and provide an example of a simple animation you could create.
 
-**Advanced Features**
+**Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
 
+- Describe the process of adding background music to a video in CapCut.
+- What is the function of the 'Fade In' and 'Fade Out' audio effects in CapCut?
+- - Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
+- Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
+
+**Advanced Editing Techniques:** Background, Remove BG, Mask, Retouch
+
+- Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. 
 - What is the 'Masking' tool in CapCut, and how can it be used creatively in video projects?
-- Describe the process of using the 'Blending' feature to combine two video layers.
-- How can you apply a reverse effect to a video clip in CapCut?
-
-**CapCut Features in Depth**
-
-- Describe how to use the 'Effects' feature to add visual interest to a video in CapCut.
-- Explain the process and benefits of using the 'Speed' adjustment tool in CapCut.
-- How can the 'Adjust' tool in CapCut be used to fine-tune the color and tone of a video?
 - What is the purpose of the 'Background' feature in CapCut, and how can it be used effectively?
-- Discuss how to create a split-screen effect in CapCut and provide a practical example.
-- Explain the steps to rotate a video clip in CapCut. Why might this be necessary in video editing?
+- Discuss how masking and chroma keying can be used in CapCut to create visually compelling edits.
 
-**User Interface and Workflow**
+**Advanced CapCut Techniques:** Keyframe Animations, Overlays, Tracking
 
-- How is the user interface of CapCut designed to facilitate video editing for beginners?
-- What are the benefits of using the timeline view in CapCut?
-- How can you organize and manage multiple video projects in CapCut?
+- Explain how the 'Keyframe' feature works in CapCut and provide an example of its use in a video project.
+- What are keyframes, and how can they be used in CapCut to animate video elements?
+- What is the purpose of the 'Overlay' feature in CapCut, and how can it be used creatively in a video project? Provide a detailed example.
+- Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
 
-**CapCut and Collaboration**
-
-- Can CapCut projects be shared for collaborative editing? If so, how?
-- What are some best practices for collaborative video editing in CapCut?
-  
 **Exporting and Sharing**
 
 - What export settings should be used in CapCut for high-quality social media videos?
 - Describe the process of exporting a video from CapCut and uploading it to YouTube.
-- How can you optimize a video edited in CapCut for different social media platforms (e.g., aspect ratio, resolution)?
-
-- Differentiate between aspect ratios (e.g., 16:9 vs. 9:16) and their impact on video composition and audience targeting.
-- Explain the concept of keyframing and its applications for creating dynamic visual effects within CapCut.
-- Explain how the 'Keyframe' feature works in CapCut and provide an example of its use in a video project.
-- Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. 
-Compare and contrast the 'Trim' and 'Split' tools in CapCut. Provide examples of when you might use each tool.
-
-**Basics:**
-
-- What is CapCut, and what are its primary uses?
-- How do you import media files into CapCut for editing?
-- Discuss the role of 'Text' and 'Titles' in video editing. How can CapCut be used to add and customize text elements in a video? Provide an example of an effective use of text in a video.
-- Explain the process of trimming a video clip in CapCut.
-- What is the difference between the 'Split' and 'Trim' tools in CapCut?
-
-
-**Video:**
-
-- Discuss the concept of pacing in video editing and how CapCut tools like trimming and speed adjustments can be used to control the flow of information in your video.
-- Analyze the strengths and limitations of using templates in CapCut for video creation. When might a template be a good choice, and when might it hinder creativity?
-- What is the purpose of the 'Overlay' feature in CapCut, and how can it be used creatively in a video project? Provide a detailed example.
-- Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?
-- Discuss the use of 'Transitions' in CapCut. How do transitions contribute to the overall flow and professional appearance of a video? Provide examples of different types of transitions and their ideal usage.
-- Describe how to use the 'Effects' feature to add visual interest to a video. What are some common visual effects available in CapCut, and how can they be applied effectively?
-- What are the steps to creating a split-screen effect in CapCut? In what scenarios might this effect be particularly useful?
-- How can CapCut's 'Animation' feature be used to animate text or objects within a video? Describe the steps involved and provide an example of a simple animation you could create.
-- Discuss how masking and chroma keying can be used in CapCut to create visually compelling edits.
 - Discuss the various export options available in CapCut.
-- What are keyframes, and how can they be used in CapCut to animate video elements?
-- Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
-- How can you create a slow-motion effect in a video clip using CapCut?
-
-**Voice:**
-
-- Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
-- Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
-- Explain how CapCut's text-to-speech functionality can improve the accessibility of your videos for viewers with hearing impairments.
-
+  
 ## References and Bibliography
