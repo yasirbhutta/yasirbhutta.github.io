@@ -1446,7 +1446,7 @@ How can you apply a blur effect to a video in CapCut?
 - C) Use the 'Blur' tool
 - D) Use the 'Crop' tool
 
-Which CapCut feature allows you to combine multiple clips into one video?
+Which CapCut feature allows you to merge multiple clips into one video?
 
 - A) Trim
 - B) Merge
@@ -1466,13 +1466,6 @@ Which option in CapCut lets you create a border around your video?
 - B) Animations
 - C) Video Effects **correct**
 - D) Frame
-
-Which feature in CapCut allows you to remove the background from a video?
-
-- A) Chromakey
-- B) Background Eraser
-- C) Overlay
-- D) Masking
 
 **Photos:**
 
