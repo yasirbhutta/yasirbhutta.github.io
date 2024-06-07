@@ -1191,7 +1191,23 @@ Split screen effect in Capcut
 
 ## True/False (Mark T for True and F for False)
 
+1. CapCut is only available for mobile devices and not for computers.
+2. Trimming and splitting are the same in CapCut.
+3. The background removal feature in CapCut allows you to remove the background from a video.
+4. The Chroma Key feature is used for adding subtitles in CapCut.
+5. You cannot adjust the volume of background music in CapCut.
+6. CapCut allows you to save the video to your device or directly share it on social media platforms.
+7. Keyframe animation is an advanced feature available in CapCut.
+
 **Answer Key (True/False):**
+
+1. False
+2. False
+3. True
+4. False
+5. False
+6. True
+7. True
 
 ## Multiple Choice (Select the best answer)
 
@@ -1462,9 +1478,34 @@ Which feature in CapCut allows you to remove the background from a video?
 
 ## Fill in the Blanks
 
+1. CapCut is a free, all-in-one __________ tool available for mobile devices and computers.
+2. The ________ in CapCut is the main workspace where you arrange and edit your video project. 
+3. Trimming and splitting in CapCut are two different ways to __________ or edit your video clips.
+4. To create a border around your video in CapCut, you use the __________ option.
+5. The __________ feature in CapCut allows you to remove the background from a video.
+6. The __________ Key feature is used for green screen editing in CapCut.
+7. The ________ feature can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays.
+8. The Voiceover feature allows you to _______ a voiceover for one part of your video.
+9. CapCut allows you to save the video to your device or directly share it on _______ platforms.
+10. To create smooth transitions between clips, you can apply __________.
+11. Splitting a long clip into smaller sections can make _____ or rearranging them easier.
+12. Using _____ templates can help you create trendy videos quickly.
 
 
 **Answer Key (Fill in the Blanks):**
+
+1. Video Editing
+2. Timeline
+3. Shorten
+4. Video Effects
+5. Remove BG
+6. Chroma
+7. Mask
+8. Record
+9. Social media
+10. Transitions
+11. Editing
+12. Trending
 
 ## Class Activities
 
