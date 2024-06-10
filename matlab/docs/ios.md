@@ -166,12 +166,15 @@ disp(result);
 
 **Syntax:**
 
+```matlab
 fprintf(text)
+
 fprintf(formatspec,var)
 
 fprintf(text) command displays formatted text centered on the command window .
 
 fprintf(formatspec,var) formats var as specified in formatSpec.
+```
 
 - **formatSpec** is a string that specifies the format of the output data.
 
