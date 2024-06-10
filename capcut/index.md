@@ -495,6 +495,12 @@ Using the volume feature in CapCut helps ensure your video's audio is clear and 
 
 ###**Eye-catching Effects:** Discover various effects to add personality and style.
 
+**Class Activity:**
+
+- **Task A:** Apply blur effects on clip1
+- **Task B:** Apply "Retro > Rolling Film" effect on clip2
+- **Task C:** Apply "Lens > Zoom lens" effect on clips3
+  
 **Animations:**
 
 - CapCut provides a library of pre-built animations you can apply to your text, stickers, and other elements. These animations can add things like fly-in effects, bounces, zooms, and more.
@@ -508,8 +514,6 @@ CapCut is a video editor that can be used to create animated videos. Here are th
 2. Create your animation: Use CapCut's animation tools to create your desired animation. You can add text, shapes, and images to create a visually appealing animation.
 3. Export and share: Once you've finished creating your animated video, export it in the desired format and share it on your preferred platform, such as YouTube or Instagram.
 
-**Transform:**
-
 **Auto reframe:**
 
 Auto reframe in CapCut is a feature that helps you adjust your video's aspect ratio to fit different social media platforms or project requirements. It essentially crops and resizes your video automatically, keeping the important content in focus.
@@ -520,7 +524,7 @@ Here's a breakdown of what auto reframe does:
 **Adapts for Different Platforms:** Social media platforms like Instagram, TikTok, and YouTube have different aspect ratio requirements. Auto reframe helps you easily reformat your video for each platform without losing the core content.
 **Focuses on the Subject:** CapCut's auto reframe (especially in the Pro version for PC) often uses artificial intelligence to detect the main subject in your video (people, objects) and prioritizes keeping that subject in the frame during resizing.
 
-**Filters**
+### Filters
 
 Filters in CapCut are essentially preset color adjustments that you can apply to your videos to completely transform their look and feel. They offer a quick and easy way to achieve specific visual styles or moods in your editing.
 
@@ -535,6 +539,10 @@ Here's a breakdown of what filters do in CapCut:
 - **Simple and Efficient:** Applying filters is a quick and effortless way to enhance your videos without needing advanced color grading techniques.
 - **Diverse Range:** CapCut offers a wide variety of filters, from subtle adjustments to dramatic effects, allowing you to explore different creative directions.
 - **Customization:** While filters provide presets, you often have the option to fine-tune the intensity of the filter to achieve the exact look you desire.
+
+**Class activity:**
+
+**Task A:** Apply Black and White Filter on video clip (Filters > Mono > BW1, BW2, BW3) 
   
 **Camera tracking:**
 
@@ -613,6 +621,7 @@ Movement Animations:
 - Transform
 - Auto reframe
 - Speed
+- Freeze
 - Adjustment
 
 ### Transform
@@ -688,6 +697,16 @@ The adjustment feature in CapCut is a powerful tool that allows you to fine-tune
 **Tips:**
 
 - Tap the video in preview window to see the original video without adjustment.
+
+### Freeze
+
+- The freeze feature in CapCut is used to isolate a single frame from your video and hold it for a specific duration, essentially creating a still image within your video clip. 
+
+**This is useful for:**
+
+- Highlighting a specific moment in your video
+- Adding emphasis or creating a pause for dramatic effect
+- Creating a clone effect by duplicating the frozen frame
 
 ## Module 5: Audio & Music**
 
@@ -1215,259 +1234,358 @@ Split screen effect in Capcut
 **Video:** 
 **Audio:**
 
-What is the process of separating the vocal track from a song, leaving the instrumental music behind?
+1. What is the process of separating the vocal track from a song, leaving the instrumental music behind?
 
 - a) Audio mixing
 - b) Isolate voice
 - c) Sound equalization
 - d) Track duplication
 
-Which of the following is NOT a basic editing function available in CapCut?
+2. Which of the following is NOT a basic editing function available in CapCut?
 
 - a. Trimming video clips
 - b. Adding video overlays
 - c. Adjusting video speed (slow motion/fast motion)
 - d. Live streaming directly from the app
 
-CapCut offers a library of pre-made video templates to simplify the editing process. These templates typically include:
+3. CapCut offers a library of pre-made video templates to simplify the editing process. These templates typically include:
 
 - a. Only basic video transitions
 - b. Only pre-selected music tracks
 - c. A combination of transitions, effects, text styles, and music
 - d. None of the above, templates are just blank video projects
 
-Which feature of CapCut allows you to remove the background from a video?
+4. Which feature of CapCut allows you to remove the background from a video?
 
 - A) Chromakey
 - B) Remove BG
 - C) Overlay
 - D) Masking
 
-In CapCut, which tool is used to speed up or slow down video playback?
+5. In CapCut, which tool is used to speed up or slow down video playback?
 
 - A) Animation
 - B) Speed
 - C) Transition
 - D) Filter
 
-What is the primary function of the ‘Overlay’ feature in CapCut?
+6. What is the primary function of the ‘Overlay’ feature in CapCut?
 
 - A) To add text to the video
 - B) To add another video or image on top of the main video
 - C) To apply filters to the video
 - D) To adjust the video’s brightness and contrast
 
-Which CapCut feature is used to apply predefined movements to text or objects?
+7. Which CapCut feature is used to apply predefined movements to text or objects?
 
 - A) Animation
 - B) Keyframe
 - C) Transition
 - D) Motion Blur
 
-What does the ‘Keyframe’ feature in CapCut allow you to do?
+8. What does the ‘Keyframe’ feature in CapCut allow you to do?
 
 - A) Apply color grading to the video
 - B) Create smooth transitions between video clips
 - C) Adjust specific points for animations within the video
 - D) Add subtitles to the video
 
-How can you split a video clip into two parts in CapCut?
+9. How can you split a video clip into two parts in CapCut?
 
 - A) By using the ‘Trim’ tool
 - B) By using the ‘Split’ tool
 - C) By using the ‘Cut’ tool
 - D) By using the ‘Crop’ tool
 
-What does the ‘Effects’ feature in CapCut primarily do?
+10. What does the ‘Effects’ feature in CapCut primarily do?
 
 - A) Adds text to the video
 - B) Adds sound effects
 - C) Adds visual effects like glitches, blurs, and lighting effects
 - D) Adjusts the speed of the video
 
-Which CapCut feature allows you to create smooth transitions between video clips?
+11. Which CapCut feature allows you to create smooth transitions between video clips?
 
 - A) Transition
 - B) Animation
 - C) Filter
 - D) Speed
 
-How can you add subtitles to your video in CapCut?
+12. How can you add subtitles to your video in CapCut?
 
 - A) Using the ‘Text’ tool
 - B) Using the ‘Overlay’ tool
 - C) Using the ‘Effects’ tool
 - D) Using the ‘Speed’ tool
 
-Which feature in CapCut allows you to stabilize shaky footage?
+13. Which feature in CapCut allows you to stabilize shaky footage?
 
 - A) Speed
 - B) Stabilize
 - C) Transition
 - D) Trim
 
-Which CapCut feature can be used to create a green screen effect?
+14. Which CapCut feature can be used to create a green screen effect?
 
 - A) Chromakey
 - B) Background Blur
 - C) Masking
 - D) Overlay
 
-How can you adjust the brightness and contrast of a video in CapCut?
+15. How can you adjust the brightness and contrast of a video in CapCut?
 
 - A) Using the ‘Filter’ tool
 - B) Using the ‘Effects’ tool
 - C) Using the ‘Adjustment’ tool
 - D) Using the ‘Split’ tool
 
-How can you add a voiceover to your video in CapCut?
+16. How can you add a voiceover to your video in CapCut?
 
 - A) Using the ‘Music’ tab
 - B) Using the ‘Text’ tab
 - C) Using the ‘Voiceover’ tool
 - D) Using the ‘Effects’ tab
 
-Which feature in CapCut allows you to create a picture-in-picture effect?
+17. Which feature in CapCut allows you to create a picture-in-picture effect?
 
 - A) Overlay
 - B) Split
 - C) Trim
 - D) Keyframe
 
-What is the purpose of the ‘Masking’ feature in CapCut?
+18. What is the purpose of the ‘Masking’ feature in CapCut?
 
 - A) To apply filters
 - B) To hide or reveal parts of the video
 - C) To add text
 - D) To change video speed
 
-Which tool in CapCut lets you adjust the audio levels of your video?
+19. Which tool in CapCut lets you adjust the audio levels of your video?
 
 - A) Music
 - B) Audio
 - C) Volume
 - D) Effects
 
-How can you reverse a video clip in CapCut?
+20. How can you reverse a video clip in CapCut?
 
 - A) Using the ‘Reverse’ tool
 - B) Using the ‘Speed’ tool
 - C) Using the ‘Split’ tool
 - D) Using the ‘Overlay’ tool
 
-Which feature in CapCut allows you to apply predefined visual effects to your video?
+21. Which feature in CapCut allows you to apply predefined visual effects to your video?
 
 - A) Transition
 - B) Effects
 - C) Filter
 - D) Overlay
 
-Which tool would you use to create slow-motion effects in CapCut?
+22. Which tool would you use to create slow-motion effects in CapCut?
 
 - A) Speed
 - B) Transition
 - C) Overlay
 - D) Animation
 
-What does the ‘Trim’ tool in CapCut allow you to do?
+23. What does the ‘Trim’ tool in CapCut allow you to do?
 
 - A) Add music
 - B) Cut out parts of the video from the beginning or end
 - C) Add text
 - D) Adjust speed
 
-Which CapCut feature helps you to split a video into multiple parts?
+24. Which CapCut feature helps you to split a video into multiple parts?
 
 - A) Trim
 - B) Split
 - C) Cut
 - D) Crop
 
-What is the main purpose of the ‘Text’ feature in CapCut?
+25. What is the main purpose of the ‘Text’ feature in CapCut?
 
 - A) To change video speed
 - B) To add subtitles or titles
 - C) To apply color effects
 - D) To trim the video
 
-Which feature allows you to adjust the opacity of an overlay in CapCut?
+26. Which feature allows you to adjust the opacity of an overlay in CapCut?
 
 - A) Filter
 - B) Effects
 - C) Opacity
 - D) Transition
 
-How can you apply a black and white effect to your video in CapCut?
+27. How can you apply a black and white effect to your video in CapCut?
 
 - A) Using the ‘Trim’ tool
 - B) Using the ‘Effects’ tool
 - C) Using the ‘Filter’ tool
 - D) Using the ‘Split’ tool
 
-Which feature in CapCut allows you to change the aspect ratio of your video?
+28. Which feature in CapCut allows you to change the aspect ratio of your video?
 
 - A) Trim
 - B) Crop
 - C) Aspect Ratio
 - D) Overlay
 
-Which tool would you use to highlight a specific part of your video in CapCut?
+29. Which tool would you use to highlight a specific part of your video in CapCut?
 
 - A) Masking
 - B) Trim
 - C) Overlay
 - D) Effects
 
-Which feature in CapCut allows you to remove the background from a video?
+30. Which feature in CapCut allows you to remove the background from a video?
 
 - A) Chromakey
 - B) Background
 - C) Overlay
 - D) Masking
 
-Which feature in CapCut helps in creating a mirror effect in a video?
+31. Which feature in CapCut helps in creating a mirror effect in a video?
 
 - A) Transition
 - B) Transform 
 - C) Effects
 - D) Overlay
 
-Which tool in CapCut can be used to add pre-designed stickers to a video?
+32. Which tool in CapCut can be used to add pre-designed stickers to a video?
 
 - A) Text
 - B) Effects
 - C) Sticker
 - D) Overlay
 
-How can you apply a blur effect to a video in CapCut?
+33. How can you apply a blur effect to a video in CapCut?
 
 - A) Use the 'Filter' tool
 - B) Use the 'Effects' tool **Correct**
 - C) Use the 'Blur' tool
 - D) Use the 'Crop' tool
 
-Which CapCut feature allows you to merge multiple clips into one video?
+34. Which CapCut feature allows you to merge multiple clips into one video?
 
 - A) Trim
 - B) Merge
 - C) Split
 - D) Overlay
 
-Which option in CapCut lets you create a border around your video using an image?
+35. Which option in CapCut mobile app is used to create a border around your video using an image?
 
 - A) Overlay
-- B) Background 
+- B) Background **correct**
 - C) Border
 - D) Frame
 
-Which option in CapCut lets you create a border around your video?
+36. Which option in CapCut is used to create a border around your video?
+
+- A) Overlay
+- B) Background **correct**
+- C) Video Effects  
+- D) Frame
+
+37. Which option in CapCut lets you create a Frame around your video?
 
 - A) Overlay
 - B) Animations
 - C) Video Effects **correct**
 - D) Frame
 
-**Photos:**
+38. Cupcut is developed by which company?
+
+a) Google
+b) Apple
+c) ByteDance
+d) Adobe
+
+39. How can you duplicate a video clip in Cupcut?
+
+- a) Tap the clip and select "Duplicate" from the menu. **Correct**
+- b) Right-click the clip (if using on PC) and choose "Duplicate."
+- c) Hold the clip and drag it to the side while creating a copy.
+- d) There is no way to duplicate clips in Cupcut.
+
+40. How can you reduce background noise from a video clip in Cupcut?
+
+- a) Use the "Reduce noise" tool available in the audio editing menu. **Correct**
+- b) Apply an audio filter specifically designed for noise cancellation.
+- c) Lower the volume of the background music track.
+- d) Manually edit and remove unwanted audio segments.
+
+41. What is the function of the "Chroma Key" effect in Cupcut?
+
+- a) Removes a specific color from the video clip, creating a green screen effect.
+- b) Adjusts the color balance of the video to achieve a warmer or cooler tone.
+- c) Inverts the colors of the video clip, creating a negative image effect.
+- d) Applies a blurring effect to specific areas within the video frame.
+
+42. What does the "Picture-in-Picture" (PIP) feature allow you to do in Cupcut?
+- a) Overlay a smaller video clip on top of another video clip.
+- b) Resize and reposition a single video clip within the frame.
+- c) Split the video screen into multiple sections for displaying multiple clips.
+- d) Combine multiple photos into a single collage image.
+
+43. What does the "Text-to-Speech" feature in Cupcut allow you to do?
+- a) Convert written text into spoken narration automatically.
+- b) Add captions or subtitles to your video based on an audio track.
+- c) Change the pitch and speed of existing voiceover recordings.
+- d) Synchronize text overlays with the rhythm of the background music.
+
+44. What is the purpose of the "Trends" section in Cupcut's effects library?
+- a) Showcases popular and trending visual effects used by creators.
+- b) Offers a selection of filters and transitions.
+- c) Provides tutorials and guides on using different effects.
+- d) All of the above
+
+45. How can you use keyframes to create a zooming effect on a video clip in Cupcut?
+- a) Set keyframes to define the starting and ending zoom levels.
+- b) Apply a pre-made zoom animation template to the clip.
+- c) There is no way to create a zooming effect in Cupcut.
+- d) All of the above
+
+46. What does splitting an audio clip do in Capcut?
+- a) Silences a specific section within the audio clip.
+- b) Separates the audio clip into two independent clips.
+- c) Increases the overall volume of the selected audio segment.
+- d) Creates a looping effect for the audio clip to play continuously.
+
+47. What is the purpose of using text captions or subtitles in Capcut?
+- a) To add decorative text elements to enhance the video's visual appeal.
+- b) To improve accessibility by providing text representation of the audio dialogue.
+- c) To hide unwanted elements within the video frame by covering them with text.
+- d) To create a countdown timer or progress indicator for the video.
+
+48. How can you import video clips into a new Capcut project?
+- a) Tap the "+" button on timeline and choose "Videos" from the media library.
+- b) Use "Add Video" button
+- c) There is no option to import videos, you can only record them within the app.
+- d) Both A and B
+
+49. What does the "Freeze Frame" effect do in Capcut?
+- a) Creates a still image from a specific frame within the video clip.
+- b) Duplicates a short video clip and extends its duration significantly to simulate a pause.
+- c) Gradually slows down the video playback speed until it comes to a complete stop.
+- d) There is no way to create a true freeze frame effect in Capcut.
+
+50. How can you create a video collage or split-screen effect in Capcut?
+- a) Use the pre-made video templates with a collage layout.
+- b) Import multiple video clips and layer them on the timeline with adjusted sizes and positions.
+- c) Apply a chroma key effect to remove the background from one video and overlay it on another.
+- A & B **Correct**
+
+1.  What is the advantage of using masks in Capcut video editing? 
+- a) Applies a specific shape or outline that reveals or hides certain areas of the video content. 
+- b) Creates a picture-in-picture effect by placing a smaller video clip on top of the main video.
+- c) Animates specific elements within the video frame to draw attention to them.
+- d) Controls the depth of field effect, blurring the background for a more cinematic look.
+
+1.  What are some creative green screen editing techniques you can use in Capcut?
+- a) Replace the green screen background with a static image or another video clip.
+- b) Superimpose yourself or other elements onto a virtual background environment.
+- c) Animate the green screen background to create a moving or changing scene.
+- d) All of the above
 
 ## Fill in the Blanks
 
@@ -1483,6 +1601,8 @@ Which option in CapCut lets you create a border around your video?
 10. To create smooth transitions between clips, you can apply __________.
 11. Splitting a long clip into smaller sections can make _____ or rearranging them easier.
 12. Using _____ templates can help you create trendy videos quickly.
+13. To reduce unwanted background noise from a video clip in Capcut, you can use the built-in _____ tool.
+14. Capcut offers a _____ effect that creates a blurred background effect, making the foreground subject stand out.
 
 
 **Answer Key (Fill in the Blanks):**
@@ -1499,6 +1619,8 @@ Which option in CapCut lets you create a border around your video?
 10. Transitions
 11. Editing
 12. Trending
+13. Reduce noise
+14. Blur  (eg. Blur>Hazy)
 
 ## Class Activities
 
@@ -1589,7 +1711,6 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 - How can you enable lasting text for a video project in CapCut?
 - Describe the difference between lasting text and regular text duration adjustments.
 
-
 **Video Editing:** Transform, Auto reframe, Speed, Reverse Camera tracking, Adjust
 
 - What are the primary functions of the transform feature in CapCut?
@@ -1621,8 +1742,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 **Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
 
 - Describe the process of adding background music to a video in CapCut.
-- What is the function of the 'Fade In' and 'Fade Out' audio effects in CapCut?
-- - Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
+- Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
 - Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
 
 **Advanced Editing Techniques:** Background, Remove BG, Mask, Retouch
