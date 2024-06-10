@@ -43,7 +43,7 @@ Image source: [pynetlabs.com](https://www.pynetlabs.com/what-is-lan-local-area-n
 
 ![wan](images/wan_512.png)
 
-Image source:[cloudflare.com](https://www.cloudflare.com/learning/network-layer/what-is-a-wan)
+Image source: [cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-wan)
 
 **See also:**
 
@@ -105,49 +105,211 @@ Image Source: [cloudinary.com](https://dev.to/jryther/how-does-the-internet-work
 
 Imagine the internet as a massive highway system, but instead of cars, it's data packets zipping back and forth. These packets carry information like emails, videos, and website content. Here's the basic flow:
 
-**Your Action:** You search for something online, type an email, or watch a video.
-**Data Breakdown:** Your device converts your action into digital data and breaks it into smaller packets.
-**Addressing:** Each packet gets a unique IP address, like a street address, identifying its origin and destination.
-**Routing:** Routers, acting as traffic cops, guide the packets through the network of interconnected computers and cables.
-**Reaching the Destination:** The packets arrive at the targeted server (a computer storing the information you requested).
-**Reassembly:** The server reassembles the packets back into the original data.
-**Delivery:** You receive the information on your device – website content loads, email displays, or video plays.
+- **Your Action:** You search for something online, type an email, or watch a video.
+- **Data Breakdown:** Your device converts your action into digital data and breaks it into smaller packets.
+- **Addressing:** Each packet gets a unique IP address, like a street address, identifying its origin and destination.
+- **Routing:** Routers, acting as traffic cops, guide the packets through the network of interconnected computers and cables.
+- **Reaching the Destination:** The packets arrive at the targeted server (a computer storing the information you requested).
+- **Reassembly:** The server reassembles the packets back into the original data.
+- **Delivery:** You receive the information on your device – website content loads, email displays, or video plays.
 
 **Accessing the Internet:**
 
-**Connection:** Wi-Fi, Ethernet cable, cellular data, or satellite.
-**Device:** Smartphone, computer, tablet, smart TV, etc.
-**Internet Service Provider (ISP):** A company that grants you access to the internet for a fee.
+- **Connection:** Wi-Fi, Ethernet cable, cellular data, or satellite.
+- **Device:** Smartphone, computer, tablet, smart TV, etc.
+- **Internet Service Provider (ISP):** A company that grants you access to the internet for a fee.
 
 **Ways to Connect:**
 
-**Wi-Fi:** Most convenient, connects wirelessly to a router.
-**Ethernet:** Faster and more reliable, uses cables for direct connection.
-**Cellular Data:** Access the internet anywhere with mobile network coverage.
-**Satellite:** Reaches remote areas but can be slower and expensive.
+- **Wi-Fi:** Most convenient, connects wirelessly to a router.
+- **Ethernet:** Faster and more reliable, uses cables for direct connection.
+- **Cellular Data:** Access the internet anywhere with mobile network coverage.
+- **Satellite:** Reaches remote areas but can be slower and expensive.
 
 **See also:**
 
 - [Internet Basics: What is the Internet? - GCFGlobal](https://edu.gcfglobal.org/en/internetbasics/what-is-the-internet/1/)
 
+
+## Network topology
+
+Network topology refers to the arrangement of different elements (links, nodes, etc.) in a computer network. There are several types of network topologies, each with its own advantages and disadvantages. Here, we'll discuss some common network topologies:
+
+### 1. **Bus Topology**
+In a bus topology, all devices are connected to a single central cable, known as the bus or backbone. Data sent by any device travels along the bus and is received by all devices, but only the intended recipient accepts and processes the message.
+
+**Advantages:**
+- Easy to install and extend.
+- Requires less cable than other topologies.
+
+**Disadvantages:**
+- If the main cable fails, the entire network goes down.
+- Difficult to troubleshoot.
+
+### 2. **Star Topology**
+In a star topology, all devices are connected to a central hub or switch. Each device has a dedicated point-to-point connection to the hub/switch.
+
+**Advantages:**
+- Easy to install and manage.
+- Failure of one device doesn’t affect the others.
+- Easy to detect and isolate faults.
+
+**Disadvantages:**
+- Requires more cable than bus topology.
+- If the central hub fails, the entire network is inoperative.
+- Can be expensive due to the hub/switch and cabling costs.
+
+### 3. **Ring Topology**
+In a ring topology, each device is connected to two other devices, forming a circular network structure. Data travels in one direction (or both directions in a dual-ring topology) and passes through each device until it reaches its destination.
+
+**Advantages:**
+- Data packets travel at high speed.
+- No data collisions (because of the unidirectional flow).
+
+**Disadvantages:**
+- A failure in any cable or device breaks the loop and can disable the entire network.
+- Difficult to troubleshoot and reconfigure.
+
+### 4. **Mesh Topology**
+In a mesh topology, each device is connected to every other device in the network. This can be a full mesh (every device is connected to every other device) or a partial mesh (some devices are connected to all, while others are connected to only a few).
+
+**Advantages:**
+- Provides high redundancy and reliability.
+- Failure of one link doesn't affect the entire network.
+
+**Disadvantages:**
+- Expensive due to the large number of cables and ports required.
+- Complex installation and maintenance.
+
+### Conclusion
+
+Each network topology has its own specific use cases, advantages, and drawbacks. The choice of topology depends on factors like the size and scale of the network, budget, desired performance, and ease of maintenance. Understanding the characteristics of each topology helps in designing efficient and robust networks.
+
 ## True/False (Mark T for True and F for False)
 
+1. A star topology connects each node directly to a central hub.
+2. Wi-Fi is a standard for wired networking.
+3. The main function of a firewall is to monitor and control incoming and outgoing network traffic.
+4. HTTPS is used for secure communication over a computer network.
+5. HTTP is used for secure communication over a computer network.
+6. In a bus topology, all devices are connected to a single central cable.
+7. A mesh topology has a central hub where all nodes are connected.
+8. Ethernet is a standard for wireless networking.
+
+**Answers:**
+
+1. True
+2. False
+3. True
+4. True
+5. False
+6. True
+7. False
+8. False
+   
 ## Multiple Choice (Select the best answer)
+
+What is the primary function of a network in computing?
+
+A. To store large amounts of data
+B. To enable communication between different devices
+C. To execute complex mathematical operations
+D. To manage user authentication and authorization
+
+Which of the following topologies connects each node to a central hub?
+
+A. Ring topology
+B. Mesh topology
+C. Star topology
+D. Bus topology
+
+Which type of network is typically used within a single building or campus?
+
+A. WAN (Wide Area Network)
+B. LAN (Local Area Network)
+C. MAN (Metropolitan Area Network)
+D. PAN (Personal Area Network)
+
+Which device is used to connect different networks together?
+
+A. Switch
+B. Hub
+C. Router
+D. Repeater
+
+What does the acronym "IP" stand for in networking?
+
+A. Internet Protocol
+B. Internal Program
+C. Interface Packet
+D. Interconnected Process
+
+Which of the following is a wireless networking standard?
+
+A. Ethernet
+B. Token Ring
+C. Wi-Fi
+D. Fiber Optic
+
+Which device regenerates and amplifies signals in a network?
+
+A. Router
+B. Hub
+C. Repeater
+D. Switch
+
+What is the primary function of a firewall in a network?
+
+A. To manage user passwords
+B. To encrypt data
+C. To monitor and control incoming and outgoing network traffic
+D. To provide a wireless connection
+
+What type of network spans a large geographic area, such as a city or country?
+
+A. LAN
+B. WAN
+C. PAN
+D. CAN
+
+What does SSL stand for?
+
+A. Secure Socket Layer
+B. Standard Security Layer
+C. Secure Shell Layer
+D. Simple Secure Layer
+
+Which type of network cable uses light to transmit data?
+
+A. Coaxial cable
+B. Twisted pair cable
+C. Fiber optic cable
+D. Ethernet cable
 
 ## Exercises
 
 ## Review Questions
 
-- What is a wide area network (WAN)?
-
-**Answer:**
-A WAN, or wide area network, is a collection of connected LANs. It is a widespread network of local networks. A WAN can be any size, even thousands of miles wide; it is not restricted to a given area.
-- What is a LAN (local area network)?
-- What is a Network switch?
-- What is a router?
-- What is the difference between a LAN and a WAN?
-
-
+1. What is a Computer Network?
+2. What is a wide area network (WAN)?
+   - **Answer:** A WAN, or wide area network, is a collection of connected LANs. It is a widespread network of local networks. A WAN can be any size, even thousands of miles wide; it is not restricted to a given area.
+3. What is a LAN (local area network)?
+4. What is a Network switch?
+5. What is a router?
+6. What is the difference between a LAN and a WAN?
+7. Can you explain what the internet is and how it allows computers to connect and share information?
+8. What is Internet?
+9. Explain how the Internet works.
+10. What is network topology and why is it important?
+11. Describe the star topology.
+12. What are the advantages and disadvantages of a bus topology?
+13. What are the advantages and disadvantages of Star Topology
+14. What are the benefits of a mesh topology?
+15. What are the advantages and disadvantages of Mesh Topology
+16. What is TCP/IP and why is it significant in networking
+17. What are some common ways to connect to the internet?
+18. What is the primary function of a firewall in a network
+    - **Answer:** The primary function of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules.
 
 ## References and Bibliography
 
