@@ -1680,22 +1680,25 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 **CapCut Basics & Interface:** Introduction, Interface, Templates, Import Video 
 
-1. What is CapCut, and what are its primary uses?
-**Answer:** CapCut is a free, all-in-one video editing tool available for mobile devices (Android and iOS) and computers (Windows and Mac). It allows you to create and edit videos with a variety of features, making it popular for social media content.
-**Use Cases:**
-- **Social Media Content:** Ideal for creating engaging videos for platforms like TikTok, Instagram Reels, and YouTube.
-- **Personal Projects:** Perfect for editing personal videos such as vlogs, travel videos, and family events.
-- **Professional Use:** Suitable for professional content creators, marketers, and influencers looking to produce high-quality videos efficiently.
-2. What are the benefits of using the timeline view in CapCut?
-**Answer:** The timeline in CapCut is the main workspace where you arrange and edit your video project. It’s essentially a visual representation of your video’s structure and timing. Benefits are given below:
-- **Displaying and Arranging Clips:** When you import videos, photos, or audio files into your project, Each clip appears as a separate block. By dragging and repositioning the clip blocks on the timeline, you determine the order in which they appear in your final video.
-- **Editing Clip length:** You can adjust the clip’s length by dragging its edges on the timeline. 
-- **Previewing and Playback:** The timeline has a playhead (usually a vertical white line) that indicates the current playback position.
-- **Multiple tracks:** The timeline typically has multiple tracks. This allows you to layer different elements of your video project, such as separate video clips, audio tracks, and text overlays.
-- **Editing tools:** The timeline provides access to various editing tools. 
+1. **What is CapCut, and what are its primary uses?**
+   
+   - **Answer:** CapCut is a free, all-in-one video editing tool available for mobile devices (Android and iOS) and computers (Windows and Mac). It allows you to create and edit videos with a variety of features, making it popular for social media content.
+   **Use Cases:**
+     - **Social Media Content:** Ideal for creating engaging videos for platforms like TikTok, Instagram Reels, and YouTube.
+     - **Personal Projects:** Perfect for editing personal videos such as vlogs, travel videos, and family events.
+     - **Professional Use:** Suitable for professional content creators, marketers, and influencers looking to produce high-quality videos efficiently.
+  
+2. **What are the benefits of using the timeline view in CapCut?**
+   
+   - **Answer:** The timeline in CapCut is the main workspace where you arrange and edit your video project. It’s essentially a visual representation of your video’s structure and timing. Benefits are given below:
+     - **Displaying and Arranging Clips:** When you import videos, photos, or audio files into your project, Each clip appears as a separate block. By dragging and repositioning the clip blocks on the timeline, you determine the order in which they appear in your final video.
+     - **Editing Clip length:** You can adjust the clip’s length by dragging its edges on the timeline. 
+     - **Previewing and Playback:** The timeline has a playhead (usually a vertical white line) that indicates the current playback position.
+     - **Multiple tracks:** The timeline typically has multiple tracks. This allows you to layer different elements of your video project, such as separate video clips, audio tracks, and text overlays.
+     - **Editing tools:** The timeline provides access to various editing tools. 
 
-1. How do you import media files into CapCut for editing?
-2. nalyze the strengths and limitations of using templates in CapCut for video creation. When might a template be a good choice, and when might it hinder creativity?
+3. How do you import media files into CapCut for editing?
+4. nalyze the strengths and limitations of using templates in CapCut for video creation. When might a template be a good choice, and when might it hinder creativity?
 
 **Editing Fundamentals:** Trimming & Splitting, Arrange Clips, Adding Text & Stickers, Draw, Aspect ratio, Speed, Volume
 
