@@ -1973,4 +1973,17 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       2.  **Frame Rate:** This controls video smoothness. Opt for 30fps for standard viewing or 60fps for a super-smooth, high-motion experience.
       3.  **Bitrate:** This impacts compression and file size. Higher bitrates offer better quality but larger files. Experiment to find a balance between quality and shareability.
 
+** ----**
+
+- How to Apply black and white (BW) filter in Capcut?
+
+  - **Answer:** To apply a black and white (BW) filter in CapCut:
+    1. Select the video clip in the timeline.
+    2. Tap on "Filters" in the toolbar and select "Mono"
+    3. Choose a black and white filter (BW1, BW2, BW3) from the options provided.
+    4. Adjust the intensity as desired, then export the video.
+
 ## References and Bibliography
+
+[1]“Tips, tricks and tutorials about editing video online,” www.capcut.com. [https://www.capcut.com/resource/](https://www.capcut.com/resource/)
+‌
