@@ -1832,23 +1832,56 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 **Visual Effects and Filters:** Effects, Filters
 
-- What types of visual effects are available in CapCut, and how can they be applied to a video?
-- How can you use filters in CapCut to change the mood or tone of a video?
-- Explain the use of the 'Blur' effect in CapCut and provide an example of its application.
-- Describe how to use the 'Effects' feature to add visual interest to a video. What are some common visual effects available in CapCut, and how can they be applied effectively?
-- Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?
+23. What types of visual effects are available in CapCut, and how can they be applied to a video?
+
+    - **Answers** In CapCut, the following types of the effects are available.
+      1. **Video effects** refer to visual enhancements or alterations applied to video footage during the editing process. These effects can transform the look and feel of a video, adding creativity, mood, and impact.
+      2. **Body effects** refer to visual enhancements or animations applied to the human body within a video. These effects can add creativity, style, and impact to your clips.
+
+
+24. Explain the use of the 'Blur' effect in CapCut and provide an example of its application.
+
+   - **Answer:** The 'Blur' effect in CapCut is used to obscure or soften specific parts of a video. **For example**, you can apply it to blur out sensitive information like license plates or faces in a crowd. Follow these steps to apply "Blur" effect
+     1. Tap on 'Effects,' choose 'Video effects' 
+     2. Search "blur" to find the available options
+     3. Pick the blur effect that suits your needs and apply it!
+   - This ensures privacy or directs focus to the main subject, enhancing the video's quality and message.
+ 
+25. Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?
+
+    - **Answer:** Filters in CapCut are essentially preset color adjustments that you can apply to your videos to completely transform their look and feel. They offer a quick and easy way to achieve specific visual styles or moods in your editing.
+      - **Change Color Style:** Filters can dramatically alter the color palette of your video. This can involve making it warmer, cooler, more vibrant, or even black and white.
+      - **Set the Mood:** Different filters can evoke various moods or atmospheres. For instance, a vintage filter might create a nostalgic feel, while a neon filter might lend an energetic vibe.
+      - **Theme Enhancement:** Filters can help you achieve a particular theme for your video. Maybe you’re going for a cinematic look or a dreamy aesthetic - filters can provide a starting point for that.
 
 **Transitions and Animations:** Transitions, Animations
 
-- What are transitions, and how do they enhance video editing in CapCut?
-- Describe the steps to add a transition between two clips in CapCut.
-- How can you use the animation feature to create dynamic movements in CapCut?
-- Discuss the use of 'Transitions' in CapCut. How do transitions contribute to the overall flow and professional appearance of a video? Provide examples of different types of transitions and their ideal usage.
-- How can CapCut's 'Animation' feature be used to animate text or objects within a video? Describe the steps involved and provide an example of a simple animation you could create.
+26. What are transitions, and how do they enhance video editing in CapCut?
+
+    - **Answer:** Transitions in CapCut are effects used to seamlessly connect two video clips. They enhance editing by smoothing the flow between scenes, adding polish and professionalism. Transitions can vary from simple fades to more dynamic effects, enriching the visual storytelling experience.
+
+26. Describe the steps to add a transition between two clips in CapCut.
+
+    - **Answer:** To add a transition between two clips in CapCut:
+      1. Place the clips on the timeline adjacent to each other.
+      2. Tap on the "transition" icon between the clips.
+      3. Choose the desired transition effect from the options available.
+
+   
+27.  What is the purpose of Animations of video in CapCut? 
+
+     - **Answer:** CapCut provides a library of pre-built animations you can apply to your text, stickers, and other elements. These animations can add things like fly-in effects, bounces, zooms, and more.
+
+28. How can you use the Animations feature on video in CapCut?
+
+    - **Answer:** To use the Animations feature in CapCut:
+      1. Select the video clip in the timeline.
+      2. Tap on "Animations" in the toolbar.
+      3. Choose from various animation presets.
+      4. Apply the selected animation to add dynamic movement or effects to the video.
 
 **Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
 
-- Describe the process of adding background music to a video in CapCut.
 - Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
 - Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
 
@@ -1862,6 +1895,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 **Advanced CapCut Techniques:** Keyframe Animations, Overlays, Tracking
 
 - Explain how the 'Keyframe' feature works in CapCut and provide an example of its use in a video project.
+  
 - What are keyframes, and how can they be used in CapCut to animate video elements?
 - What is the purpose of the 'Overlay' feature in CapCut, and how can it be used creatively in a video project? Provide a detailed example.
 - Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
