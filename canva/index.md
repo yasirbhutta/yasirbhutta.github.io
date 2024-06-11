@@ -7,7 +7,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   
 ## What is Canva and why is it useful?
 
-**Canva** is a versatile graphic design platform that empowers users to create professional visual content without requiring extensive graphic design skills.[1] Here's why it's useful:
+**Canva** is a versatile graphic design platform that empowers users to create professional visual content without requiring extensive graphic design skills.[1] 
+
+Here's why it's useful:
 
 1. **Easy-to-Use Interface**: Canva's drag-and-drop interface simplifies the design process. You can customize thousands of templates effortlessly, making it accessible even for beginners.
 

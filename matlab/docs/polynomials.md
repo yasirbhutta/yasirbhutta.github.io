@@ -59,7 +59,16 @@ The characteristic polynomial, in linear algebra, is a polynomial associated wit
 
 ## True/False (Mark T for True and F for False)
 
+1. In MATLAB, polynomial coefficients are stored as a row vector with powers in ascending order. 
+2. The conv function in MATLAB is used for polynomial division. 
+3. The polyder function in MATLAB is used to find the integral of a polynomial. (T/F)
+
+
 **Answer Key (True/False):**
+
+1. False
+2. False
+3. False
 
 ## Multiple Choice (Select the best answer)
 
@@ -199,6 +208,16 @@ The degree of polynomials in one variable is the highest power of the variable i
 
 ## Exercises
 
+1. Define a polynomial \( p(x) = 3x^4 - 2x^3 + x - 5 \) in MATLAB and find its value at \( x = 2 \).
+2. Use the `conv` function to multiply the polynomials \( 2x^2 + 3x + 1 \) and \( x^2 - 2x + 4 \).
+3. Find the roots of the polynomial \( x^3 - 6x^2 + 11x - 6 \) using MATLAB.
+4. Given the polynomial \( p(x) = 4x^3 - 3x^2 + 2x - 1 \), find its derivative using MATLAB.
+
+These questions cover key concepts about polynomials in MATLAB, ensuring a comprehensive review of the material provided.
+
 ## Review Questions
+
+- What is the purpose of evaluating a polynomial at a specific value? Describe how the polyval function is used in MATLAB for this purpose.
+- What are the roots of a polynomial, and why are they significant? How does MATLAB's roots function find the roots of a polynomial?
 
 ## References and Bibliography
