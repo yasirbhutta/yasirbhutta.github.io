@@ -1882,28 +1882,95 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 **Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
 
-- Explain the concept of vocal isolation in audio recordings.  In the context of vocal isolation, differentiate between the goals of "keeping vocals" and "removing vocals."
-- Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
+29.  Explain the concept of vocal isolation in audio recordings and its benefits.
+
+    - **Answer:** The “Isolate Voice” feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos.
+    - Benefits:
+      - **Karaoke Creation:** Isolate the voice and the background music to create a karaoke-style version of your video song.
+      - **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand
+      - **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music.
+  
+30. Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
+
+    - **Answer:**
+      - Advantages of CapCut's text-to-speech:
+        1. Saves time and effort, especially for lengthy scripts.
+        2. Consistent and professional-sounding narration.
+      - **Disadvantages:**
+        1. Lack of emotion and personalization.
+        2. Limited expressiveness compared to a human voiceover.
+31. What is Reduce noise in CapCut.
+
+    - **Answer:** In CapCut, “Reduce Noise” is a feature that helps you improve the audio quality of your videos by specifically targeting and minimizing unwanted background sounds. It utilizes audio processing algorithms to make the main audio content (dialogue, music) stand out.
 
 **Advanced Editing Techniques:** Background, Remove BG, Mask, Retouch
 
-- Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. 
-- What is the 'Masking' tool in CapCut, and how can it be used creatively in video projects?
-- What is the purpose of the 'Background' feature in CapCut, and how can it be used effectively?
-- Discuss how masking and chroma keying can be used in CapCut to create visually compelling edits.
+32.  What is Chroma key in CapCut.
+
+    - **Answer:** Chroma key in CapCut is a feature that allows users to replace a specific color (usually green or blue) in a video with another image or video. It's commonly used for creating visual effects like placing actors in different backgrounds or adding virtual sets. Adjustments can be made to fine-tune the keying process for optimal results.
+  
+33.  Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. 
+
+    - **Answer:** To apply a chroma key effect in CapCut:
+      1. Import the video clip with the green or blue background.
+      2. Select the clip, Tap "Remove BG" in the toolbar and  Select "Chroma Key".
+      3. Adjust the settings to key out the desired color
+      4. Replace the background with another image or video, and refine as needed for a seamless composite.
+
+34.  What is the 'Masking' tool in CapCut and available mask options.
+
+    - **Answer:** The mask feature enables users to create custom shapes and effects on their video clips. This can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays. Available mask options in CapCut:
+      - Horizontal Mask
+      - Circle Mask
+      - Rectangle Mask
+      - Heart Mask
+
+35.  What is the purpose of the 'Background' feature in CapCut and availble options.
+
+     - **Answer:** The background feature in CapCut allows you to transform the backdrop of your videos, adding creativity and enhancing visual impact. Available options within this feature:
+       - **Color Background:** The color background option allows users to select a solid color as the backdrop for their video clips.
+       - **Image Background:** With the image background option, users can add images to serve as the backdrop for their video clips.
+       - **Blur Background:** The blur background option applies a blur effect to the backdrop of video clips, drawing focus to the foreground subjects
 
 **Advanced CapCut Techniques:** Keyframe Animations, Overlays, Tracking
 
-- Explain how the 'Keyframe' feature works in CapCut and provide an example of its use in a video project.
-  
-- What are keyframes, and how can they be used in CapCut to animate video elements?
-- What is the purpose of the 'Overlay' feature in CapCut, and how can it be used creatively in a video project? Provide a detailed example.
-- Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
+36. What are keyframes, and how can they be used in CapCut to animate video elements?
+
+  - **Answer:** Keyframing is a feature that allows you to create motion graphics and smooth animation. To create a motion sequence, you need to define your object’s starting and ending points.These markers are referred to as the keyframes. 
+  - **Use Cases:**
+    - Zoom in on a clip
+    - Rotate text
+    - Fade in or out an image
+    - Create a bouncing effect
+    - 
+37. Explain how the 'Keyframe' feature works in CapCut.
+
+    - **Answer:** The 'Keyframe' feature in CapCut allows users to create dynamic animations by setting key points for specific attributes, such as position, scale, and opacity. 
+      - Users can define the starting and ending values for these attributes at different points in the timeline, and CapCut automatically generates smooth transitions between them. 
+      - This enables precise control over the movement, transformation, and appearance of elements in the video, enhancing visual storytelling and creativity.
+
+38. What is the purpose of the 'Overlay' feature in CapCut and its use cases?
+
+    - **Answer:** In CapCut, overlays are essentially extra layers of visuals that you can add on top of your main video clip. These overlays can be anything from text and stickers to images, animations, or even other video clips.
+    - **Use Case:**
+      - **Text behind object:** refers to a technique where you make text appear behind an object in your video.
+      - **Video in Text:** refers to a video editing technique where you display a video clip inside the letters of text. 
+
+39. Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
+
+    - **Answer:** To use the 'Overlay' feature for a picture-in-picture effect in CapCut:
+      1. Select the main video clip in the timeline.
+      2.  Tap on "Overlay" and choose "Add Overlay."
+      3.  Select the picture or video you want to overlay.
+      4.  Adjust the size, position, and duration of the overlay as desired.
 
 **Exporting and Sharing**
 
-- What export settings should be used in CapCut for high-quality social media videos?
-- Describe the process of exporting a video from CapCut and uploading it to YouTube.
-- Discuss the various export options available in CapCut.
-  
+40. Discuss the various export options available in CapCut.
+
+    - **Answer:** CapCut offers flexibility when finalizing your video. 
+      1.  **Resolution:** This determines video quality and file size. Choose from options like 720p for social media or 4K for ultra-high definition, keeping your target platform's recommendations in mind.
+      2.  **Frame Rate:** This controls video smoothness. Opt for 30fps for standard viewing or 60fps for a super-smooth, high-motion experience.
+      3.  **Bitrate:** This impacts compression and file size. Higher bitrates offer better quality but larger files. Experiment to find a balance between quality and shareability.
+
 ## References and Bibliography
