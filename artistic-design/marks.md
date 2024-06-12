@@ -11,7 +11,7 @@
 - 3x from mid topics
   - 1x MCQS from Color Theory
   - 2x MCQS Canva
-- 9x from Canva
+- 9x from CapCut
   - 1x True / False
   - 2x Fill in the blanks
   - 6x MCQs
