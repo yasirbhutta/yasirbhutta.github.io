@@ -11,7 +11,7 @@ Microsoft Excel
 Microsoft PowerPoint
 
 
-**Total MCQS (06 marks 0.5x12):**
+**Total Objective (06 marks 0.5x12):**
 
 (1x True/False + 2x fill in the blanks + 9x MCQs)
 
@@ -28,8 +28,8 @@ Microsoft PowerPoint
 **Short Questions (14 marks 2x7):**
 
 - 1x short question for mid topics
-  - 1x from Microsoft Hardware
-- 2x from Number System
+  - 1x from Hardware
+- 2x from Number Systems
 - 1x from Database
 - 1x from Network basics
 - 2x from Microsoft Excel
