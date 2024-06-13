@@ -1678,7 +1678,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 ## Review Questions
 
-**CapCut Basics & Interface:** Introduction, Interface, Templates, Import Video 
+### **CapCut Basics & Interface:** Introduction, Interface, Templates, Import Video 
 
 1. **What is CapCut, and what are its primary uses?**
    
@@ -1705,7 +1705,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
      - **Strengths**: Templates in CapCut streamline video creation by providing pre-designed structures, making it quick and easy to produce polished content, especially for beginners or time-sensitive projects
      - **Limitations**: Relying on templates can restrict creative freedom and result in less unique content, as many users might use the same designs.
   
-**Editing Fundamentals:** Trimming & Splitting, Arrange Clips, Adding Text & Stickers, Draw, Aspect ratio, Speed, Volume
+### **Editing Fundamentals:** Trimming & Splitting, Arrange Clips, Adding Text & Stickers, Draw, Aspect ratio, Speed, Volume
 
 4. Explain the process of trimming a video clip in CapCut.
    
@@ -1714,11 +1714,13 @@ To familiarize yourself with CapCut's features and improve your video editing sk
      - **Step 2:** Drag the white handles at the beginning or end of the clip to shorten it.
        - Drag the left handle to remove the beginning.
        - Drag the right handle to remove the ending.
+
 5. **What is the difference between the 'Split' and 'Trim' tools in CapCut?**
    
    - **Answer:** In CapCut, the 'Split' and 'Trim' tools serve different functions in video editing:
      - **Split Tool:** The 'Split' tool is used to divide a video clip into two or more separate segments at a specified point. This allows for precise edits, such as inserting transitions, effects, or additional clips between segments.
      - **Trim Tool:** The 'Trim' tool is used to shorten a video clip by removing unwanted portions from the beginning or end of the clip. This is useful for cutting out unnecessary footage and focusing on the desired content.
+
 6. **Describe the process of adding a freehand drawing to a video clip in CapCut.**
    
    - **Answer:**  To add a freehand drawing to a video clip in CapCut:
@@ -1728,18 +1730,24 @@ To familiarize yourself with CapCut's features and improve your video editing sk
      - **Step 4:**Adjust the duration and position of the drawing overlay as needed.
   
 7. **Differentiate between aspect ratios (e.g., 16:9 vs. 9:16) and their impact on video composition and audience targeting.**
+
    - **Answer:**
      - **16:9 (Landscape):** Widely used for TV and YouTube, providing a broad field of view ideal for expansive scenes and balanced storytelling. Targets audiences on desktops and TVs.
      - **9:16 (Portrait):** Optimized for mobile platforms like TikTok and Instagram Stories, emphasizing vertical composition and close-ups. Perfect for mobile users and short-form content.
    - In CapCut, use 16:9 for traditional, detailed narratives and 9:16 for engaging, quick-view mobile content.
+
 8. **How can you adjust the volume of an audio track in CapCut?**
+   
    - **Answer:** To adjust the volume of an audio track in CapCut, select the audio clip in the timeline, then tap the "Volume" option. Use the slider to increase or decrease the volume level as needed. Preview the changes by playing the video and make further adjustments if necessary.
+
 9.  **What is the purpose of the volume feature in CapCut?**
+   
    - **Answer:** The volume feature in CapCut allows you to adjust the loudness of audio tracks, ensuring that dialogue, music, and sound effects are balanced. This helps create a cohesive audio experience, enhancing the overall quality of the video.
   
-**Text Editing:** Text to speech,Text Style, Text Animations, Basics,Lasting text, Effects, Bubble
+### **Text Editing:** Text to speech,Text Style, Text Animations, Basics,Lasting text, Effects, Bubble
 
 10. What is the primary purpose of the Text-to-Speech (TTS) feature in CapCut?
+    
     - **Answer:** Text-to-speech (TTS) in video editing software allows you to convert written text into a voiceover that you can add to your video. This is a helpful feature for various scenarios:
       - **Creating a Voiceover:** TTS can generate a voice to read your script. 
       - **Emphasis or Narration:** TTS can be used for specific parts of your video, like adding narration to text overlays or highlighting key points.
@@ -1759,19 +1767,20 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       - **Step 2:** Enter your desired text and tap the "Text-to-Speech" button.
       - **Step 3:** Choose a voice style from the available options.
   
-13. What customization options are available for text in CapCut?
+13. **What customization options are available for text in CapCut?**
+    
     - **Answer:** In CapCut, you can customize text with the following options:
-    - **1. Font**: Choose from a variety of fonts to match your video's style.
-    - **2. Size**: Adjust the text size to make it larger or smaller.
-    - **3. Color**: Select any color for the text to enhance visibility and aesthetics.
-    - **4. Style**: Apply bold, italic, underline, and other text styles.
-    - **5. Animation**: Add text animations for dynamic effects.
-    - **6. Shadow**: Add shadow effects to create depth.
-    - **7. Background**: Apply a background color or highlight to the text.
-    - **8. Spacing**: Adjust letter and line spacing for better readability.
-    - **9. Opacity**: Change the text's opacity for transparency effects.
+      - **1. Font**: Choose from a variety of fonts to match your video's style.
+      - **2. Size**: Adjust the text size to make it larger or smaller.
+      - **3. Color**: Select any color for the text to enhance visibility and aesthetics.
+      - **4. Style**: Apply bold, italic, underline, and other text styles.
+      - **5. Animation**: Add text animations for dynamic effects.
+      - **6. Shadow**: Add shadow effects to create depth.
+      - **7. Background**: Apply a background color or highlight to the text.
+      - **8. Spacing**: Adjust letter and line spacing for better readability.
+      - **9. Opacity**: Change the text's opacity for transparency effects.
   
-14. Explain how to create animated text effects using CapCut
+14. **Explain how to create animated text effects using CapCut**
 
     - **Answer:** To create animated text effects in CapCut:
       - **Step 1:** Add text to your video by selecting the "Text" option and entering your desired text.
@@ -1779,7 +1788,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       - **Step 3:** Choose from the available animation options, such as "In," "Out," or "Loop."
       - **Step 4:** Adjust the duration and style of the animation to fit your video.
 
-15. How can you create a slow-motion effect in a video clip using CapCut?
+15. **How can you create a slow-motion effect in a video clip using CapCut?**
 
     - **Answer:** To create a slow-motion effect in a video clip using CapCut:
       1. Select the video clip in the timeline.
@@ -1787,33 +1796,33 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       3. Choose "Normal" and adjust the slider to slow down the clip.
       4. Preview and fine-tune the effect to achieve the desired slow-motion result.
 
-16. What is the primary purpose of the lasting text feature in CapCut?
+16. **What is the primary purpose of the lasting text feature in CapCut?**
 
     - **Anwer:** The primary purpose of the lasting text feature in CapCut is to keep text displayed on the screen for a specified duration, ensuring it remains visible throughout that period. This feature is useful for providing continuous information, emphasizing key points, or maintaining branding consistency in your videos without the need for manual adjustments.
 
-17. Describe the difference between lasting text and regular text duration adjustments.
+17. **Describe the difference between lasting text and regular text duration adjustments.**
 
    - **Answer** The difference between lasting text and regular text duration adjustments in CapCut lies in their behavior within the timeline:
      - **Regular Text Duration Adjustments**: Sets a specific duration for text to appear and disappear within the timeline, allowing for flexibility in timing.
      - **Lasting Text**: Keeps the text visible for a specified duration without automatic fade-out, ensuring continuous visibility for persistent on-screen information or branding.
 
-**Video Editing:** Transform, Auto reframe, Speed, Reverse Camera tracking, Adjust
+### **Video Editing:** Transform, Auto reframe, Speed, Reverse Camera tracking, Adjust
 
-18. What are the primary functions of the transform feature in CapCut?
+18. **What are the primary functions of the transform feature in CapCut?**
 
-- **Answer:** The transform feature in CapCut serves several primary functions:
-  - **Rotate:** Rotates the element clockwise or counterclockwise.
-  - **Mirror:** Mirroring flips the video horizontally or vertically, creating a mirrored effect.
-  - **Resize:** Resize your clip
+   - **Answer:** The transform feature in CapCut serves several primary functions:
+      - **Rotate:** Rotates the element clockwise or counterclockwise.
+      - **Mirror:** Mirroring flips the video horizontally or vertically, creating a mirrored effect.
+      - **Resize:** Resize your clip
 
-19. How can you apply a reverse effect to a video clip in CapCut?
+19. **How can you apply a reverse effect to a video clip in CapCut?**
 
    - **Answer:** To apply a reverse effect to a video clip in CapCut:
      1. Select the video clip in the timeline.
      2. Choose the "Reverse" option to play the clip backward
      3. Preview and adjust as needed before finalizing the effect.
 
-20. How can the 'Adjust' tool in CapCut be used to fine-tune the color and tone of a video?
+20. **How can the 'Adjust' tool in CapCut be used to fine-tune the color and tone of a video?**
 
    - **Answer:** Using the 'Adjust' tool in CapCut:
      1. Tap on 'Adjust.'
@@ -1821,25 +1830,25 @@ To familiarize yourself with CapCut's features and improve your video editing sk
      3. Adjust the duration on timeline
      4. Preview changes and apply adjustments to achieve the desired look.
 
-21. What is the primary purpose of the Auto Reframe feature in CapCut?
+21. **What is the primary purpose of the Auto Reframe feature in CapCut?**
 
    - **Answer:** Auto reframe in CapCut is a feature that helps you adjust your video’s aspect ratio to fit different social media platforms or project requirements. It essentially crops and resizes your video automatically, keeping the important content in focus.
 
-22. What is the purpose of the camera tracking feature in CapCut and Give an example of how camera tracking can be used in a promotional video.
+22. **What is the purpose of the camera tracking feature in CapCut and Give an example of how camera tracking can be used in a promotional video.**
 
    - **Answer:**   CapCut's camera tracking operates as a digital spotlight, autonomously following subjects in your video—whether faces, bodies, or customized objects—and tracking their movements effortlessly.
      - **Use case** Imagine a cooking tutorial. Camera tracking could follow your hand as you chop vegetables. 
 
-**Visual Effects and Filters:** Effects, Filters
+### **Visual Effects and Filters:** Effects, Filters
 
-23. What types of visual effects are available in CapCut, and how can they be applied to a video?
+23. **What types of visual effects are available in CapCut, and how can they be applied to a video?**
 
     - **Answers** In CapCut, the following types of the effects are available.
       1. **Video effects** refer to visual enhancements or alterations applied to video footage during the editing process. These effects can transform the look and feel of a video, adding creativity, mood, and impact.
       2. **Body effects** refer to visual enhancements or animations applied to the human body within a video. These effects can add creativity, style, and impact to your clips.
 
 
-24. Explain the use of the 'Blur' effect in CapCut and provide an example of its application.
+24. **Explain the use of the 'Blur' effect in CapCut and provide an example of its application.**
 
    - **Answer:** The 'Blur' effect in CapCut is used to obscure or soften specific parts of a video. **For example**, you can apply it to blur out sensitive information like license plates or faces in a crowd. Follow these steps to apply "Blur" effect
      1. Tap on 'Effects,' choose 'Video effects' 
@@ -1847,20 +1856,20 @@ To familiarize yourself with CapCut's features and improve your video editing sk
      3. Pick the blur effect that suits your needs and apply it!
    - This ensures privacy or directs focus to the main subject, enhancing the video's quality and message.
  
-25. Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?
+25. **Explain the significance of the 'Filter' feature in CapCut. How can applying different filters enhance the mood or theme of a video?**
 
     - **Answer:** Filters in CapCut are essentially preset color adjustments that you can apply to your videos to completely transform their look and feel. They offer a quick and easy way to achieve specific visual styles or moods in your editing.
       - **Change Color Style:** Filters can dramatically alter the color palette of your video. This can involve making it warmer, cooler, more vibrant, or even black and white.
       - **Set the Mood:** Different filters can evoke various moods or atmospheres. For instance, a vintage filter might create a nostalgic feel, while a neon filter might lend an energetic vibe.
       - **Theme Enhancement:** Filters can help you achieve a particular theme for your video. Maybe you’re going for a cinematic look or a dreamy aesthetic - filters can provide a starting point for that.
 
-**Transitions and Animations:** Transitions, Animations
+### **Transitions and Animations:** Transitions, Animations
 
-26. What are transitions, and how do they enhance video editing in CapCut?
+26. **What are transitions, and how do they enhance video editing in CapCut?**
 
     - **Answer:** Transitions in CapCut are effects used to seamlessly connect two video clips. They enhance editing by smoothing the flow between scenes, adding polish and professionalism. Transitions can vary from simple fades to more dynamic effects, enriching the visual storytelling experience.
 
-26. Describe the steps to add a transition between two clips in CapCut.
+26. **Describe the steps to add a transition between two clips in CapCut.**
 
     - **Answer:** To add a transition between two clips in CapCut:
       1. Place the clips on the timeline adjacent to each other.
@@ -1868,11 +1877,11 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       3. Choose the desired transition effect from the options available.
 
    
-27.  What is the purpose of Animations of video in CapCut? 
+27.  **What is the purpose of Animations of video in CapCut? **
 
      - **Answer:** CapCut provides a library of pre-built animations you can apply to your text, stickers, and other elements. These animations can add things like fly-in effects, bounces, zooms, and more.
 
-28. How can you use the Animations feature on video in CapCut?
+28. **How can you use the Animations feature on video in CapCut?**
 
     - **Answer:** To use the Animations feature in CapCut:
       1. Select the video clip in the timeline.
@@ -1880,19 +1889,19 @@ To familiarize yourself with CapCut's features and improve your video editing sk
       3. Choose from various animation presets.
       4. Apply the selected animation to add dynamic movement or effects to the video.
 
-**Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
+### **Audio & Music:** Record, Extract Audio, Isolate voice, Enhance voice, Reduce noice, Auto Captions Adding Background Music
 
-29.  Explain the concept of vocal isolation in audio recordings and its benefits.
+29.  **Explain the concept of vocal isolation in audio recordings and its benefits.**
 
-    - **Answer:** The “Isolate Voice” feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos.
-    - Benefits:
+   - **Answer:** The “Isolate Voice” feature in CapCut is a relatively new and powerful tool designed to separate vocals from the background music or instrumental tracks in your videos.
+   - **Benefits:**
       - **Karaoke Creation:** Isolate the voice and the background music to create a karaoke-style version of your video song.
       - **Focus on Vocals:** If your video features someone speaking with background music, isolating the voice can make their speech clearer and easier to understand
       - **Creative Remixes:** You can use the isolated vocals to create remixes or mashups by combining them with different backing music.
   
-30. Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.
+30. **Discuss the advantages and disadvantages of using CapCut's text-to-speech feature compared to recording your own voiceover.**
 
-    - **Answer:**
+   - **Answer:**
       - Advantages of CapCut's text-to-speech:
         1. Saves time and effort, especially for lengthy scripts.
         2. Consistent and professional-sounding narration.
@@ -1903,38 +1912,39 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
     - **Answer:** In CapCut, “Reduce Noise” is a feature that helps you improve the audio quality of your videos by specifically targeting and minimizing unwanted background sounds. It utilizes audio processing algorithms to make the main audio content (dialogue, music) stand out.
 
-**Advanced Editing Techniques:** Background, Remove BG, Mask, Retouch
+### **Advanced Editing Techniques:** Background, Remove BG, Mask, Retouch
 
-32.  What is Chroma key in CapCut.
+32.  **What is Chroma key in CapCut.**
 
-    - **Answer:** Chroma key in CapCut is a feature that allows users to replace a specific color (usually green or blue) in a video with another image or video. It's commonly used for creating visual effects like placing actors in different backgrounds or adding virtual sets. Adjustments can be made to fine-tune the keying process for optimal results.
+   - **Answer:** Chroma key in CapCut is a feature that allows users to replace a specific color (usually green or blue) in a video with another image or video. It's commonly used for creating visual effects like placing actors in different backgrounds or adding virtual sets. Adjustments can be made to fine-tune the keying process for optimal results.
   
-33.  Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. 
+33.  **Discuss the steps involved in applying a chroma key effect to a video clip in CapCut. **
 
-    - **Answer:** To apply a chroma key effect in CapCut:
+   - **Answer:** To apply a chroma key effect in CapCut:
       1. Import the video clip with the green or blue background.
       2. Select the clip, Tap "Remove BG" in the toolbar and  Select "Chroma Key".
       3. Adjust the settings to key out the desired color
       4. Replace the background with another image or video, and refine as needed for a seamless composite.
 
-34.  What is the 'Masking' tool in CapCut and available mask options.
+34. **What is the 'Masking' tool in CapCut and available mask options.**
 
-    - **Answer:** The mask feature enables users to create custom shapes and effects on their video clips. This can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays. Available mask options in CapCut:
+   - **Answer:** The mask feature enables users to create custom shapes and effects on their video clips. This can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays. Available mask options in CapCut:
+  
       - Horizontal Mask
       - Circle Mask
       - Rectangle Mask
       - Heart Mask
 
-35.  What is the purpose of the 'Background' feature in CapCut and availble options.
+35.  **What is the purpose of the 'Background' feature in CapCut and availble options.**
 
      - **Answer:** The background feature in CapCut allows you to transform the backdrop of your videos, adding creativity and enhancing visual impact. Available options within this feature:
        - **Color Background:** The color background option allows users to select a solid color as the backdrop for their video clips.
        - **Image Background:** With the image background option, users can add images to serve as the backdrop for their video clips.
        - **Blur Background:** The blur background option applies a blur effect to the backdrop of video clips, drawing focus to the foreground subjects
 
-**Advanced CapCut Techniques:** Keyframe Animations, Overlays, Tracking
+### **Advanced CapCut Techniques:** Keyframe Animations, Overlays, Tracking
 
-36. What are keyframes, and how can they be used in CapCut to animate video elements?
+36. **What are keyframes, and how can they be used in CapCut to animate video elements?**
 
   - **Answer:** Keyframing is a feature that allows you to create motion graphics and smooth animation. To create a motion sequence, you need to define your object’s starting and ending points.These markers are referred to as the keyframes. 
   - **Use Cases:**
@@ -1943,20 +1953,20 @@ To familiarize yourself with CapCut's features and improve your video editing sk
     - Fade in or out an image
     - Create a bouncing effect
     - 
-37. Explain how the 'Keyframe' feature works in CapCut.
+37. **Explain how the 'Keyframe' feature works in CapCut.**
 
     - **Answer:** The 'Keyframe' feature in CapCut allows users to create dynamic animations by setting key points for specific attributes, such as position, scale, and opacity. 
       - Users can define the starting and ending values for these attributes at different points in the timeline, and CapCut automatically generates smooth transitions between them. 
       - This enables precise control over the movement, transformation, and appearance of elements in the video, enhancing visual storytelling and creativity.
 
-38. What is the purpose of the 'Overlay' feature in CapCut and its use cases?
+38. **What is the purpose of the 'Overlay' feature in CapCut and its use cases?**
 
     - **Answer:** In CapCut, overlays are essentially extra layers of visuals that you can add on top of your main video clip. These overlays can be anything from text and stickers to images, animations, or even other video clips.
     - **Use Case:**
       - **Text behind object:** refers to a technique where you make text appear behind an object in your video.
       - **Video in Text:** refers to a video editing technique where you display a video clip inside the letters of text. 
 
-39. Explain how to use the 'Overlay' feature to add a picture-in-picture effect.
+39. **Explain how to use the 'Overlay' feature to add a picture-in-picture effect.**
 
     - **Answer:** To use the 'Overlay' feature for a picture-in-picture effect in CapCut:
       1. Select the main video clip in the timeline.
@@ -1966,7 +1976,7 @@ To familiarize yourself with CapCut's features and improve your video editing sk
 
 **Exporting and Sharing**
 
-40. Discuss the various export options available in CapCut.
+40. **Discuss the various export options available in CapCut.**
 
     - **Answer:** CapCut offers flexibility when finalizing your video. 
       1.  **Resolution:** This determines video quality and file size. Choose from options like 720p for social media or 4K for ultra-high definition, keeping your target platform's recommendations in mind.
