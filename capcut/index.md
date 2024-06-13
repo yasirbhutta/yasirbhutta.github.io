@@ -2,9 +2,9 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](index.pdf)  
+- [Download PDF](https://yasirbhutta.github.io/capcut/index.pdf)  
 - To access the updated Class Notes of CapCut, please click on the following link:
-[index.html](../yasirbhutta.github.io/index.md)
+[https://yasirbhutta.github.io/capcut/index.html](https://yasirbhutta.github.io/capcut/index.html)
 
 [CapCut Slides](https://docs.google.com/presentation/d/16RD9W0v63801hLUyVx0jZZJwusgCxpZLqV9IpZb-YdI/edit?usp=sharing)
 
