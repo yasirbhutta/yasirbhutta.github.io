@@ -1592,7 +1592,7 @@ d) Adobe
 1. CapCut is a free, all-in-one __________ tool available for mobile devices and computers.
 2. The ________ in CapCut is the main workspace where you arrange and edit your video project. 
 3. Trimming and splitting in CapCut are two different ways to __________ or edit your video clips.
-4. To create a border around your video in CapCut, you use the __________ option.
+4. To create a frame around your video in CapCut, you use the __________ option.
 5. The __________ feature in CapCut allows you to remove the background from a video.
 6. The __________ Key feature is used for green screen editing in CapCut.
 7. The ________ feature can be used to focus on a specific part of the video, create split-screen effects, or add creative overlays.
