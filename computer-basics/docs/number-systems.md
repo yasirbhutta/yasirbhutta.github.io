@@ -434,6 +434,8 @@ How would you convert the letter "B" to binary code using ASCII?
 6. What does ASCII stand for?
 7. What is the ASCII code for the letter "A"?
 8. How would you convert the letter "B" to binary code using ASCII?
+9. How can you convert the letter "B" (ASCII value 66) and the decimal number 15 to their binary representations?
+10. Explain the concept of ASCII and how it relates to representing characters digitally. Convert the letter "B" to its binary equivalent, given that it has an ASCII value of 66 and a decimal value of 15.
 
 ## Excercises
 

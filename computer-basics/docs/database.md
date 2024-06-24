@@ -150,6 +150,7 @@ select * from customers;
 - What are the different types of databases?
 - What are the advantages of using a database?
 - What is the role of a database management system (DBMS)?
+- Define a database and write a note on Microsoft Access.
 
 ## References and Bibliography
 

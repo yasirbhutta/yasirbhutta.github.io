@@ -574,22 +574,23 @@ Beginner:
 4. What is the formula to calculate the minimum or maximum value in a range of cells?
 5. What is the formula to round a number to a specific number of decimal places?
 6. What is the function in Microsoft Excel? Enlist some important functions?
-7. What is the difference between a relative cell reference and an absolute cell reference?
-8. How do you use the $ symbol to lock cell references in a formula?
-9. What is the use of Conditional Formatting?
-10. What is the use of Data Validation?
-11. What is the purpose of the comparison operators (e.g., <, >, =) in Excel, and how are they used in formulas?
-12. How can you use logical operators (AND, OR, NOT) in Excel formulas to perform conditional calculations?
-13. What is the ampersand operator (&) used for when working with cell references in Excel?
-14. Explain the use of the range operator ( colon, : ) in Excel and how it simplifies cell referencing.
-15. How can you use the IF function in Excel to perform conditional operations? How does it relate to operators?
-16. Explain how to use the CONCAT function and the operator for line breaks in Excel to create multi-line text.
-17. Describe the use of the CONCAT function versus the "&" operator for text manipulation in Excel
-18. What are some common functions used in Excel formulas?
-19. How would you write a formula to calculate the total sales for each product in a worksheet?
-20. How would you write a formula to count the number of cells in a range that contain the text "Apple"?
-21. What does the following formula do?
-22. What is the IF function used for?
+7. Explain the purpose, syntax, and provide an example for each of the following Microsoft Excel functions: SUM, COUNT, SUMIF, and POWER.
+8. What is the difference between a relative cell reference and an absolute cell reference?
+9. How do you use the $ symbol to lock cell references in a formula?
+10. What is the use of Conditional Formatting?
+11. What is the use of Data Validation?
+12. What is the purpose of the comparison operators (e.g., <, >, =) in Excel, and how are they used in formulas?
+13. How can you use logical operators (AND, OR, NOT) in Excel formulas to perform conditional calculations?
+14. What is the ampersand operator (&) used for when working with cell references in Excel?
+15. Explain the use of the range operator ( colon, : ) in Excel and how it simplifies cell referencing.
+16. How can you use the IF function in Excel to perform conditional operations? How does it relate to operators?
+17. Explain how to use the CONCAT function and the operator for line breaks in Excel to create multi-line text.
+18. Describe the use of the CONCAT function versus the "&" operator for text manipulation in Excel
+19. What are some common functions used in Excel formulas?
+20. How would you write a formula to calculate the total sales for each product in a worksheet?
+21. How would you write a formula to count the number of cells in a range that contain the text "Apple"?
+22. What does the following formula do?
+23. What is the IF function used for?
 
 The IF function is used to perform conditional logic in Excel. It can be used to test a condition and return a different value depending on the outcome of the test.
 23. What is the difference between a logical test and a comparison operator?

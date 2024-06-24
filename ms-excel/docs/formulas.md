@@ -469,14 +469,15 @@ The result, 150, should appear in cell A3.
 1. How can you multiply two numbers in Excel? Which operator do you use?
 2. What are the different types of Excel operators?
 3. What does the exponentiation operator (^) do in Excel, and how is it used?
-4. What is the order of precedence for Excel operators?
-5. How do you use parentheses to control the order of operations in a formula?
-6. What is Cell Address and explain the purpose of formula bar?
-7. What is the difference between arithmetic operators, comparison operators, logical operators, and text operators?
-8. How can you combine two or more text strings in Excel using an operator?
-9. How do you use the percent operator (%) in Excel to calculate percentages?
-10. What is the PEMDAS order of operations?
-11. What is the basic structure of a formula in Excel?
+4. Explain the purpose of the following arithmetic operators in Microsoft Excel and provide examples for each: /, ^, *, %.
+5. What is the order of precedence for Excel operators?
+6. How do you use parentheses to control the order of operations in a formula?
+7. What is Cell Address and explain the purpose of formula bar?
+8. What is the difference between arithmetic operators, comparison operators, logical operators, and text operators?
+9. How can you combine two or more text strings in Excel using an operator?
+10. How do you use the percent operator (%) in Excel to calculate percentages?
+11. What is the PEMDAS order of operations?
+12. What is the basic structure of a formula in Excel?
 
 ## References and Bibliography
 

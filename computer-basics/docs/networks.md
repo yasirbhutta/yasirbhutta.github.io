@@ -294,21 +294,23 @@ D. Ethernet cable
 2. What is a wide area network (WAN)?
    - **Answer:** A WAN, or wide area network, is a collection of connected LANs. It is a widespread network of local networks. A WAN can be any size, even thousands of miles wide; it is not restricted to a given area.
 3. What is a LAN (local area network)?
-4. What is a Network switch?
-5. What is a router?
-6. What is the difference between a LAN and a WAN?
-7. Can you explain what the internet is and how it allows computers to connect and share information?
-8. What is Internet?
-9. Explain how the Internet works.
-10. What is network topology and why is it important?
-11. Describe the star topology.
-12. What are the advantages and disadvantages of a bus topology?
-13. What are the advantages and disadvantages of Star Topology
-14. What are the benefits of a mesh topology?
-15. What are the advantages and disadvantages of Mesh Topology
-16. What is TCP/IP and why is it significant in networking
-17. What are some common ways to connect to the internet?
-18. What is the primary function of a firewall in a network
+4. Write a note on Local Area Networks (LAN) and Wide Area Networks (WAN).
+5. What is a Network switch?
+6. What is a router?
+7. What is the difference between a LAN and a WAN?
+8. Can you explain what the internet is and how it allows computers to connect and share information?
+9. What is Internet?
+10. Explain how the Internet works.
+11. What is network topology and why is it important?
+12. Describe the star topology.
+13. What are the advantages and disadvantages of a bus topology?
+14. What are the advantages and disadvantages of Star Topology
+15. Define Star Topology and discuss its advantages and disadvantages.
+16. What are the benefits of a mesh topology?
+17. What are the advantages and disadvantages of Mesh Topology
+18. What is TCP/IP and why is it significant in networking
+19. What are some common ways to connect to the internet?
+20. What is the primary function of a firewall in a network
     - **Answer:** The primary function of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules.
 
 ## References and Bibliography
