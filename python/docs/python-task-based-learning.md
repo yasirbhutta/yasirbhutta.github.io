@@ -6,6 +6,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated class notes, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/python-task-based-learning.html](https://yasirbhutta.github.io/python/docs/python-task-based-learning.html)
 
+
+Want to learn python: Join our free WhatsApp group [https://chat.whatsapp.com/ELxD2pjrjZsFejcu91ZVHQ](https://chat.whatsapp.com/ELxD2pjrjZsFejcu91ZVHQ)
+
 ## Module 1: Getting Started
    
 ### Lesson 1: Python IDE Installation
