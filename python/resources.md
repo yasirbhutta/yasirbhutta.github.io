@@ -25,6 +25,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Python for beginners - Training \| Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
 - [Python Tutorial for Beginners - YouTube](https://bit.ly/3z9744q)
 - [Python - Code with Harry](https://www.codewithharry.com/tutorial/python/)
+- [Introduction to Python - Microsoft Education](https://vscodeedu.com/courses/intro-to-python)
 
 ## Podcasts and documentaries
 

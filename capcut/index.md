@@ -1993,6 +1993,9 @@ To familiarize yourself with CapCut's features and improve your video editing sk
     3. Choose a black and white filter (BW1, BW2, BW3) from the options provided.
     4. Adjust the intensity as desired, then export the video.
 
+- Describe the "Remove BG" feature in CapCut and explain its three options: Auto Removal, Custom Removal, and Chroma Key.
+- Define a keyframe, list its use cases, and describe the process of creating a keyframe animation in CapCut.
+
 ## References and Bibliography
 
 [1]“Tips, tricks and tutorials about editing video online,” www.capcut.com. [https://www.capcut.com/resource/](https://www.capcut.com/resource/)
