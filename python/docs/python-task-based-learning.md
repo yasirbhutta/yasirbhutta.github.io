@@ -43,6 +43,11 @@ There are several excellent Python IDEs available, each with its own strengths a
 3. Replit (Online, Desktop, Mobile)
 4. Google Colab (Online) 
 
+**Tips:**
+
+- Try out a few different IDEs to see which one you like best. 
+- Online Facebook survey: [What is the best Python tool/IDE for beginners to learn coding?](https://www.facebook.com/share/p/TkMtfWqJG31Hkvww/)
+
 **Task 2: Installation Process**
 
 - Install your chosen IDE on your device or use any online/cloud-based tools.
@@ -52,10 +57,10 @@ There are several excellent Python IDEs available, each with its own strengths a
 **Windows:**
 1. Install [Python from python.org](https://www.python.org/downloads/). Use the Download Python button that appears first on the page to download the latest version. [Learn more ...](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter)
 2. Visit the VS Code download page: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-2. Download the installer for your operating system.
-3. Run the installer and follow the on-screen instructions.
-4. Once installed, open VS Code.
-5. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)(search for "Python" in the Extensions panel).
+3. Download the installer for your operating system.
+4. Run the installer and follow the on-screen instructions.
+5. Once installed, open VS Code.
+6. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)(search for "Python" in the Extensions panel).
 
 **Task 3: Verification and Running a Python Program**
 
