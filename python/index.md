@@ -16,9 +16,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
-- [Hello World](https://yasirbhutta.blogspot.com/2022/09/python-print-function.html)
 
-### Python Handouts
+
+### Python Class Notes
 
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)

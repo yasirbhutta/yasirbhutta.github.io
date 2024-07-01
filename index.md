@@ -4,6 +4,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Coding
 - [Getting started with Python](python/)
+  - [Python for Beginners: Task-Based Learning Made Easy](python/docs/python-task-based-learning.md)
 - [Matlab for Beginners](matlab/index.md)
 - [Web Development](web-dev/index.md)
 ## Microsoft 365
