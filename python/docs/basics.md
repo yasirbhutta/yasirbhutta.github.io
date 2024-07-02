@@ -41,6 +41,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 The `print` function is used to output text or variables to the console. or to a file.
 
+[Video: Use of print() function in python](https://youtu.be/RSSSyqw79_M)
+
 **Syntax:**
 
 ```python
@@ -121,6 +123,9 @@ message = 'Python is fun'
 # print the string message
 print(message)
 
+# Task 4.3: print a string variable
+message = "How are you?"
+print(message)
 
 ```
 ## Task 5: String Formatting
@@ -177,97 +182,13 @@ Create variables for your name, age, and favorite hobby, then print a sentence u
 #### Exercise 4: Output to a File
 Write a program that prints a summary of your week (e.g., tasks completed, hours worked) to a text file.
 
----
+#### Exercise 5: 100 times "hello world" without loop
 
-## How To Use Print() Function in Python
+[related video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
-- 
+#### Exercise 6: 100 times "hello world" without loop
 
-Here is the basic syntax of the print() function:
-
-```pthon
-print(object1, object2, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-```
-
-object1, object2, ...: The objects to be printed. These can be strings, numbers, variables, or any other Python object.
-sep: The separator to use between objects. The default separator is a space.
-end: The character or string to print at the end of the output. The default is a newline character (\n).
-file: The file to write the output to. The default is the console.
-flush: Whether to flush the output buffer immediately. The default is False.
-
-[Video: Use of print() function in python](https://youtu.be/RSSSyqw79_M)
-
-**Example #1:**
-
-```python
-message = 'Python is fun'
-
-# print the string message
-print(message)
-
-```
-
-**Output:**
-
-```code
-Python is fun
-```
-
-**Example #2:**
-
-```python
-# Print a string:
-print("Hello, World!")
-
-# Print a number:
-print(10)
-
-# Print a variable:
-x = 5
-print(x)
-
-# Print multiple objects on the same line:
-print("Hello", "World")
-
-# Print multiple objects on separate lines:
-print("Hello")
-print("World")
-
-# Print with a custom separator:
-print("Hello", "World", sep=", ")
-
-# Print with a custom ending character:
-print("Hello", "World", end="!")
-
-```
-
-**Task 1:** Printing Variables
-
-```
-message = "How are you?"
-print(message)
-```
-
-
-**Task #1:** 100 times "hello world" without loop
-
-related video: [video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
-
-**Task #2:** How to print multiple lines
-
-related video: [How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
-
-
-**Task: 3** Save text in file
-
-```
-#Print to a file:
-with open("output.txt", "w") as f:
-    print("Hello, World!", file=f)
-```
-
-- 
-- [Video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+[Related Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
 
 ## Comments
 
