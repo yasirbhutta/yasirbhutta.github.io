@@ -427,10 +427,11 @@ How would you convert the letter "B" to binary code using ASCII?
 
 ## Review Questions
 
-1. Write the note on different units of measurement for data storage
-2. What is the most basic unit of data storage? How many bits are in a byte?
-3. Which unit of measurement is typically used to measure the storage capacity of a hard drive?
-4. List the prefixes used to form multiples of a byte, starting from kilobyte to terabyte. How many bytes are in each unit?
+1. Define a bit, explain how bits are represented, and describe their uses.
+2. Write the note on different units of measurement for data storage
+3. What is the most basic unit of data storage? How many bits are in a byte?
+4. Which unit of measurement is typically used to measure the storage capacity of a hard drive?
+5. List the prefixes used to form multiples of a byte, starting from kilobyte to terabyte. How many bytes are in each unit?
 6. What does ASCII stand for?
 7. What is the ASCII code for the letter "A"?
 8. How would you convert the letter "B" to binary code using ASCII?

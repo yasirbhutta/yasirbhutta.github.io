@@ -13,11 +13,15 @@
 ## 3. Jupyter Notebook
    
 ## 4. Pydroid 3 - IDE for Python 3 **(Recommended)** [Mobile App]
+
+- Pydroid 3 is an IDE (Integrated Development Environment) for Android devices that allows you to write and run Python code on your phone or tablet. It's a great tool for learning Python or for working on small Python projects on the go.
+
    - [Dowload](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
    - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
 
-## 5. Replit – Build software faster **(Recommended)** [Online, Desktop, Mobile] 
+## 5. Replit – Build software faster **(Recommended)** [Online, Desktop, Mobile(Android, iOS)] 
 Replit is an AI-powered software development & deployment platform for building, sharing, and shipping software fast.
+
    -  [Online Replit](https://replit.com/)
    -  [Download Replit Desktop App](https://replit.com/desktop)
 
@@ -32,15 +36,23 @@ Replit offers a convenient online IDE that supports multiple programming languag
 ## 6. Google Colab **(Recommnded)** [Online]
 Colab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more.
 
-To open Google Colab, follow these steps:
+**To open Google Colab, follow these steps:**
 
-1. **Visit the Website**: Go to [https://colab.google/](https://colab.google/) in your web browser.
-2. **Sign In**: If you are not already signed in with your Google account, sign in with your credentials. If you don't have a Google account, you will need to create one.
-3. **Create or Open a Notebook**: Once signed in, you can create a new notebook by clicking on "File" > "New notebook" or open an existing notebook from your Google Drive or GitHub.
-4. **Start Using Colab**: Google Colab provides a Jupyter notebook environment that allows you to write and execute Python code directly in your browser. You can also install additional libraries, upload files, and collaborate with others in real-time.
-5. **Save Your Work**: Your notebooks are automatically saved to your Google Drive. You can also download them locally or share them with others.
+   1. **Visit the Website**: Go to [https://colab.google/](https://colab.google/) in your web browser.
+   2. **Sign In**: If you are not already signed in with your Google account, sign in with your credentials. If you don't have a Google account, you will need to create one.
+   3. **Create or Open a Notebook**: Once signed in, you can create a new notebook by clicking on "File" > "New notebook" or open an existing notebook from your Google Drive or GitHub.
+   4. **Start Using Colab**: Google Colab provides a Jupyter notebook environment that allows you to write and execute Python code directly in your browser. You can also install additional libraries, upload files, and collaborate with others in real-time.
+   5. **Save Your Work**: Your notebooks are automatically saved to your Google Drive. You can also download them locally or share them with others.
 
 Google Colab is particularly useful for data analysis, machine learning, and research projects as it provides free access to GPUs and TPUs for computation.
+
+## 7. Kaggle's Code
+
+Kaggle's Code is a platform where users can write, run, and share code, particularly for data science and machine learning projects. It provides an interactive environment to collaborate on code, explore datasets, and build models. You can find various notebooks and scripts created by the community, participate in coding competitions, and learn from others' work.
+
+   - [https://www.kaggle.com/code](https://www.kaggle.com/code)
+   - [How to Use Kaggle - Notebooks](https://www.kaggle.com/docs/notebooks)
+
 
 1. [https://www.online-python.com/](https://www.online-python.com/)
 2. [https://onecompiler.com/](https://onecompiler.com/python/)
