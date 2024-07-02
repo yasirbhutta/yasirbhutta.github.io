@@ -29,7 +29,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 > **Important:** Python source code files always use the `.py` extension.
 
-## Python `print` Function Class Notes
+## Lesson 1: Python `print` Function
 
 ### Objectives
 - Understand the basic usage of the `print` function.
