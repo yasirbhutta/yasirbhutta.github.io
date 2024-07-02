@@ -29,10 +29,159 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 > **Important:** Python source code files always use the `.py` extension.
 
+## Python `print` Function Class Notes
+
+### Objectives
+- Understand the basic usage of the `print` function.
+- Learn how to print different data types.
+- Explore advanced `print` function features like formatting and special characters.
+- Practice printing in various tasks.
+
+### Introduction to `print`
+
+The `print` function is used to output text or variables to the console. or to a file.
+
+**Syntax:**
+
+```python
+print(value1, value2, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+```
+
+**Parameters:**
+- `value1, value2, ...`: The values to be printed. Multiple values can be separated by commas.
+- `sep`: (Optional) Specifies how to separate multiple values. Default is a space `' '`.
+- `end`: (Optional) Specifies what to print at the end. Default is a newline character `'\n'`.
+- `file`: (Optional) Specifies the file where to print. Default is `sys.stdout` (console).
+- `flush`: (Optional) Specifies whether to forcibly flush the stream. Default is `False`.
+
+### Task 1: Basic Printing
+
+**Instructions:**
+1. Print a simple message.
+2. Print multiple items separated by commas.
+
+**Examples**
+```python
+# Task 1.1: Print a simple message
+print("Hello, world!")
+
+# Task 1.2: Print multiple items
+print("Hello", "world", 2024)
+```
+
+## Task 2: Printing Different Data Types
+
+### Instructions
+1. Print integers, floats, and strings.
+
+### Examples
+
+```python
+# Task 2.1: Print different data types
+print(42)
+print(3.14159)
+print("This is a string")
+
+```
+
+## Task 3: Using `sep` and `end` Parameters
+
+### Instructions
+1. Change the separator between printed items.
+2. Change the ending character of a print statement.
+
+### Examples
+```python
+# Task 3.1: Change the separator
+print("apple", "banana", "cherry", sep=", ")
+
+# Task 3.2: Change the ending character
+print("Hello", end=" ")
+print("world!")
+
+# Task 3.3: Print with a custom ending character:
+print("Hello", "World", end="!")
+
+```
+
+## Task 4: Print Variables
+
+### Instructions
+- print variables values using print function
+
+```python
+
+# Task 4.1: print a integer variable
+x = 5
+print(x)
+
+# Task 4.2: print a string variable
+message = 'Python is fun'
+
+# print the string message
+print(message)
+
+
+```
+## Task 5: String Formatting
+
+### Instructions
+1. Use f-strings (formatted string literals) for the same purpose.
+
+### Examples
+```python
+# Task 5.1: Use f-strings
+name = "Ahmad"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+```
+
+## Task 6: Printing Special Characters
+
+### Instructions
+1. Print a newline character within a string.
+2. Print a tab character within a string.
+
+### Examples
+```python
+# Task 6.1: Print a newline character
+print("Hello\nWorld")
+
+# Task 6.2: Print a tab character
+print("Hello\tWorld")
+```
+
+## Task 7: Printing to a File
+
+### Instructions
+1. Print a message to a text file instead of the console.
+
+### Examples
+```python
+# Task 7.1: Print to a file
+with open("output.txt", "w") as file:
+    print("Hello, file!", file=file)
+```
+
+### Practice Exercises
+
+#### Exercise 1: Print Your Favorite Quote
+Print your favorite quote, ensuring proper formatting.
+
+#### Exercise 2: Create a Simple Receipt
+Print a simple receipt with items and prices, properly aligned using tab characters.
+
+#### Exercise 3: Use Variables in Print Statements
+Create variables for your name, age, and favorite hobby, then print a sentence using these variables.
+
+#### Exercise 4: Output to a File
+Write a program that prints a summary of your week (e.g., tasks completed, hours worked) to a text file.
+
+---
 
 ## How To Use Print() Function in Python
 
-- It is used to display text to the console, or to a file. The print() function can take one or more arguments, and it can be used to format text in a variety of ways.
+- 
 
 Here is the basic syntax of the print() function:
 
@@ -90,15 +239,34 @@ print("Hello", "World", sep=", ")
 # Print with a custom ending character:
 print("Hello", "World", end="!")
 
-# Print to a file:
-with open("output.txt", "w") as f:
-    print("Hello, World!", file=f)
-
 ```
 
-**See also:**
+**Task 1:** Printing Variables
 
-- [Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
+```
+message = "How are you?"
+print(message)
+```
+
+
+**Task #1:** 100 times "hello world" without loop
+
+related video: [video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+
+**Task #2:** How to print multiple lines
+
+related video: [How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
+
+
+**Task: 3** Save text in file
+
+```
+#Print to a file:
+with open("output.txt", "w") as f:
+    print("Hello, World!", file=f)
+```
+
+- 
 - [Video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ## Comments
