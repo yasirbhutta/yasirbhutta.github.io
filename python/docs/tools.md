@@ -42,7 +42,7 @@ Replit offers a convenient online IDE that supports multiple programming languag
 
 **See also:** 
 
-- [Introduction to the Workspace](https://docs.replit.com/replit-workspace/introduction-to-workspace)
+- [Introduction to the Workspace - Replit Docs](https://docs.replit.com/replit-workspace/introduction-to-workspace)
 
 ## 6. Google Colab **(Recommnded)** [Online]
 Colab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more.

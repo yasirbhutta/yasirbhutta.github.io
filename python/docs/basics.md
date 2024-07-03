@@ -334,6 +334,39 @@ print("Hello, world!")
 3. [ ] print(string + "")
 4. [ ] print(string; "")
 
+What is the output of the following code?
+
+name = "Alice"
+age = 30
+print("My name is", name, "and I am", age, "years old.")
+
+a) My name is Alice and I am 30 years old. (Correct)
+b) My name is Aliceand I am 30years old. (No separation)
+c) Alice 30 (Values printed without labels)
+d) An error (Incorrect syntax)
+
+3. How can you format a string in Python to insert variables directly within it?
+
+a) Using string concatenation with the + operator (Limited control)
+b) Using the format method (Less readable for complex formatting)
+c) Using f-strings (Correct)
+d) All of the above (f-strings are generally preferred)
+
+Which of the following statements is NOT valid for the print function in Python?
+
+a) print("Hello, world!")
+b) print(5 + 3) (prints the result of the expression)
+c) print() (prints an empty line)
+d) print(x, y, sep=",") (prints x and y with a comma separator)
+
+How can you prevent a newline character from being printed at the end of the output in Python?
+
+a) By using a semicolon at the end of the print statement (this is not valid Python syntax)
+b) Using the end argument within the print function and setting it to an empty string ("")
+c) Specifying a special flag in the function call
+d) There's no way to suppress the newline character
+
+
 **Comments:**
 
 > What is the primary purpose of comments in Python code?
