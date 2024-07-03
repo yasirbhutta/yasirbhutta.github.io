@@ -228,7 +228,7 @@ Write a program that prints a summary of your week (e.g., tasks completed, hours
 
 [related video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
-#### Exercise 6: 100 times "hello world" without loop
+#### Exercise 6: How to print multiple lines
 
 [Related Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
 
