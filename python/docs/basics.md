@@ -156,6 +156,37 @@ print("Hello\nWorld")
 print("Hello\tWorld")
 ```
 
+```python
+# Task 6.3: Print a tab character
+
+print("Name\tAge\tCity")
+print("Alice\t30\tNew York")
+print("Bob\t25\tLos Angeles")
+```
+
+Output:
+```
+Name    Age    City
+Alice   30     New York
+Bob     25     Los Angeles
+```
+In this example, `\t` is used to align the columns of text.
+
+In Python, the `\t` character is a special escape sequence that represents a horizontal tab. When used in the `print` function or any other string operation, it inserts a tab space in the output. This can be particularly useful for formatting text to make it more readable.
+
+ `\t` can be combined with other string manipulation techniques, such as f-strings
+
+```python
+
+# Task 6.4: Print a tab character with f-strings
+
+name = "Alice"
+age = 30
+city = "New York"
+
+print(f"{name}\t{age}\t{city}")
+```
+
 ## Task 7: Printing to a File
 
 ### Instructions
@@ -167,6 +198,17 @@ print("Hello\tWorld")
 with open("output.txt", "w") as file:
     print("Hello, file!", file=file)
 ```
+When you use the instruction with open("output.txt", "w") as file in Python, the file is created in the current working directory of your program. On an Android system, this could be different depending on the environment where the code is executed (e.g., a specific app's data directory, a shared storage location, etc.). 
+
+To determine the exact path, you can use the os module to get the current working directory:
+
+```python
+import os
+
+print(os.getcwd())
+```
+
+Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations.
 
 ### Practice Exercises
 
