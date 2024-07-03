@@ -12,11 +12,13 @@
    - [Download Visual Studio Code](https://code.visualstudio.com/download) 
    - [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
    - VS code for Web: To open VS Code for web, you can simply visit the URL [https://vscode.dev/](https://vscode.dev/) in your web browser. This web-based version of VS Code allows you to code directly in your browser without needing to install any software locally.
+  
 ## 2. PyCharm
+   
    - [Download PyCharm: The Python IDE for data - JetBrains](https://www.jetbrains.com/pycharm/download/?section=windows)
 
 ## 3. Jupyter Notebook
-   
+
 ## 4. Pydroid 3 - IDE for Python 3 **(Recommended)** [Mobile App]
 
 - Pydroid 3 is an IDE (Integrated Development Environment) for Android devices that allows you to write and run Python code on your phone or tablet. It's a great tool for learning Python or for working on small Python projects on the go.
