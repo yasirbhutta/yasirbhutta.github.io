@@ -1,9 +1,9 @@
 # Python: Tools or IDE
 
 
-- [Download PDF](https://yasirbhutta.github.io/python/docs/tools.html)
+- [Download PDF](https://yasirbhutta.github.io/python/docs/tools.pdf)
 - To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/tools.pdf](https://yasirbhutta.github.io/python/docs/tools.pdf)
+[https://yasirbhutta.github.io/python/docs/tools.html](https://yasirbhutta.github.io/python/docs/tools.html)
 
 
 - Install Python: Download and install it from <https://www.python.org/downloads/>.
