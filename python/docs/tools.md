@@ -1,7 +1,12 @@
 # Python: Tools or IDE
 
-- Install Python: Download and install it from <https://www.python.org/downloads/>.
 
+- [Download PDF](https://yasirbhutta.github.io/python/docs/tools.html)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/python/docs/tools.pdf](https://yasirbhutta.github.io/python/docs/tools.pdf)
+
+
+- Install Python: Download and install it from <https://www.python.org/downloads/>.
 
 ## 1. Visual Studio Code **(Recommended)** [Online, Desktop]
    - [Download Visual Studio Code](https://code.visualstudio.com/download) 
@@ -32,6 +37,10 @@ Replit is an AI-powered software development & deployment platform for building,
 3. **Access Replit**: Once signed in, you can access the Replit online coding environment directly from the homepage. You can create new projects, explore existing ones, or start coding right away in various programming languages.
 4. **Start Coding**: Click on "Start Coding" or create a new project to begin coding in the browser.
 Replit offers a convenient online IDE that supports multiple programming languages and allows for collaborative coding as well.
+
+**See also:** 
+
+- [Introduction to the Workspace](https://docs.replit.com/replit-workspace/introduction-to-workspace)
 
 ## 6. Google Colab **(Recommnded)** [Online]
 Colab notebooks allow you to combine executable code and rich text in a single document, along with images, HTML, LaTeX and more.
