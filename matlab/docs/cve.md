@@ -690,3 +690,7 @@ disp(result);  % This will display approximately 7.3891
 
 [1] Raj Kumar Bansal, A. K. Goel, and Manoj Kumar Sharma, MATLAB and its applications in engineering : [based iôn MATLAB 7.5 (R2007b)]. Delhi: Pearson, 2012.
 - [^1]: [Factorial of input - MATLAB factorial - MathWorks](https://www.mathworks.com/help/matlab/ref/factorial.html)
+
+
+Describe the class function in MATLAB and its purpose with at least two examples
+

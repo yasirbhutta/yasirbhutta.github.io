@@ -1285,3 +1285,4 @@ d) C = vertcat(A, B)
 [2] “Matrix norms,” bathmash.github.io. https://bathmash.github.io/HELM/30_4_mtrx_norms-web/30_4_mtrx_norms-webse1.html (accessed Apr. 16, 2024).
 ‌
 ‌
+How can you create an evenly spaced row vector without using any built-in functions and explain how the `linspace` function works, and provide an example.
