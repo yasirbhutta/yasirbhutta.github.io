@@ -187,3 +187,29 @@ Enter an integer: 4
 ## Review Questions
 
 ## References and Bibliography
+
+**Which of the following will cause a syntax error due to incorrect indentation in Python?**
+
+A)
+```python
+print("Hello World!")
+```
+
+B)
+```python
+def my_function():
+print("Hello World!")
+```
+
+C)
+```python
+if x == 10:
+    print("x is 10")
+```
+
+D)
+```python
+x = 10
+```
+
+*Answer:* B

@@ -241,6 +241,11 @@ print("Hello World!"
    - **Syntax Error**: The error was due to a missing closing parenthesis.
    - **Correction**: Adding the closing parenthesis at the end of the print statement fixes the syntax error.
 
+**Syntax error:**
+
+- A syntax error in programming occurs when the code violates the rules of the programming language's syntax. 
+- This means that the code's structure and commands do not conform to the expected format that the interpreter or compiler requires to successfully read and execute the code.
+
 ### Practice Exercises
 
 #### Exercise 1: Print Your Favorite Quote
@@ -396,6 +401,39 @@ a) By using a semicolon at the end of the print statement (this is not valid Pyt
 b) Using the end argument within the print function and setting it to an empty string ("")
 c) Specifying a special flag in the function call
 d) There's no way to suppress the newline character
+
+**What is a syntax error in Python?**
+
+A) An error caused by incorrect logic in the code.
+B) An error detected when the code violates the rules of the Python language.
+C) An error that occurs during runtime.
+D) An error caused by a variable not being defined.
+
+**Identify the error in the following code snippet:**
+
+```python
+prin("Hello World!")
+```
+
+A) Incorrect variable name
+B) Missing colon
+C) Misspelled keyword
+D) Missing parenthesis
+
+
+**Hint** NameError: name 'prin' is not defined.
+
+
+**What should be done to correct the syntax error in the following code?**
+
+```python
+print("Hello World!"
+```
+
+A) Add a closing quotation mark.
+B) Add a closing parenthesis.
+C) Add a colon at the end.
+D) Indent the line correctly.
 
 
 **Comments:**

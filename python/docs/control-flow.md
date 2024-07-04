@@ -673,3 +673,39 @@ d. if x not 10:
 ## References and Bibliography
 
 [^1]: In Python, an iterable object is an object that you can loop over using a "for" loop. It's any object that can return its elements one at a time.
+
+
+**Which of the following correctly fixes the syntax error in the code below?**
+
+```python
+if x == 10  # Missing colon
+    print("x is 10")
+```
+
+A) Remove the comment.
+B) Add a colon after `if x == 10`.
+C) Add parentheses around `x == 10`.
+D) Indent the print statement correctly.
+
+**Which of the following will NOT cause a syntax error in Python?**
+
+A)
+```python
+1st_variable = 10
+```
+
+B)
+```python
+if x == 10:
+print("x is 10")
+```
+
+C)
+```python
+print("Hello World!"
+```
+
+D)
+```python
+print "Hello World!)
+```
