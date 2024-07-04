@@ -210,6 +210,37 @@ print(os.getcwd())
 
 Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations.
 
+## Task 8: Understanding Syntax Errors in Python
+
+### Objective:
+Learn about syntax errors in Python by examining and correcting a sample code snippet.
+
+### Instructions:
+1. **Review the Code Snippet**: Look at the provided Python code and identify any syntax errors.
+2. **Identify the Error**: Understand what a syntax error is and why it occurs.
+3. **Correct the Code**: Fix the syntax error in the code snippet.
+4. **Explanation**: Write a brief explanation of what the syntax error was and how you corrected it.
+
+### Code Snippet:
+```python
+print("Hello World!"
+```
+
+### Steps:
+1. **Review the Code Snippet**: Look carefully at the code snippet above.
+2. **Identify the Error**:
+   - A syntax error occurs when the Python interpreter finds code that does not conform to the rules of the Python language.
+   - The provided code snippet has a syntax error because it has an unmatched parenthesis.
+3. **Correct the Code**:
+   - To fix the error, ensure all parentheses are properly closed.
+   - The corrected code should look like this:
+     ```python
+     print("Hello World!")
+     ```
+4. **Explanation**:
+   - **Syntax Error**: The error was due to a missing closing parenthesis.
+   - **Correction**: Adding the closing parenthesis at the end of the print statement fixes the syntax error.
+
 ### Practice Exercises
 
 #### Exercise 1: Print Your Favorite Quote
