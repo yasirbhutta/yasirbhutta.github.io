@@ -298,9 +298,30 @@ print("Hello, World!")
 
 ## Indentation
 
-Indentation is a very important concept in Python. It refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.
+In Python, indentation refers to the use of whitespace (spaces or tabs) to denote block-level structure in the code. Python uses indentation to define the scope of code blocks, such as:
 
-For example, consider the following code snippet:
+- Function definitions
+- Loops (for, while)
+- Conditional statements (if, elif, else)
+- Exception handling (try, except)
+
+In Python, indentation is mandatory and is used to determine the grouping of statements. The number of spaces used for indentation is not fixed, but it's standard to use 4 spaces for each level of indentation. Read more: [Indentation - PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/#indentation)
+
+Here's an example:
+```python
+if True:
+    print("Hello")  # This line is indented with 4 spaces
+    print("World")  # This line is also indented with 4 spaces
+```
+In this example, the two print statements are indented with 4 spaces, indicating that they are part of the if block.
+
+Python's indentation system has several benefits, including:
+
+- Improved readability: Indentation makes the code structure clear and easy to read.
+- Reduced errors: Indentation helps avoid errors caused by mismatched braces or parentheses.
+- Simplified syntax: Python's indentation system eliminates the need for explicit block delimiters like braces or keywords.
+
+Another example, consider the following code snippet:
 
 ```python
 if True:
@@ -318,6 +339,7 @@ else:
 
 ## Multiple Choice (Select the best answer)
 
+**print function**
 
 > Which of the following is the correct syntax for the print statement in Python?
 
@@ -465,6 +487,95 @@ D) Indent the line correctly.
 2. [ ] The comments are ignored by the Python interpreter.
 3. [ ] The comments are displayed as output.
 4. [ ] The comments are converted into machine code.
+
+**Indentation:**
+
+> What is the purpose of indentation in Python?
+1. [ ] To define code blocks
+2. [ ] To define functions
+3. [ ] To define variables
+4. [ ] To print output
+
+Answer: a) To define code blocks
+
+> Which of the following is a correct way to indent code in Python?
+- a) Using tabs
+- b) Using spaces
+- c) Using both tabs and spaces
+- d) Using neither tabs nor spaces
+
+Answer: b) Using spaces (Python recommends using 4 spaces for indentation)
+
+> What happens if you don't indent your code in Python?
+- a) It will run correctly
+- b) It will throw a syntax error
+- c) It will print an error message
+- d) It will ignore the code
+  
+Answer: b) In Python, improper indentation specifically results in an IndentationError. While a syntax error is a broad category for any error in the syntax, an IndentationError is a specific type of syntax error related to incorrect indentation.
+
+1. What is the indentation error in the following code?
+```
+if True:
+  print("True")
+    print("False")
+```
+- a) Missing indentation
+- b) Extra indentation
+- c) Incorrect indentation
+- d) No error
+
+Answer: b) Extra indentation (the second print statement has extra indentation)
+
+What is the result of indenting a line of code in Python?
+- a) It turns into a comment.
+- b) It turns into a string.
+- c) It joins the previous block.
+- d) It joins the next block.
+
+Answer: c) It becomes part of the previous block
+
+> What is the standard number of spaces used for indentation in Python?
+a) 2 spaces
+b) 4 spaces
+c) 6 spaces
+d) 8 spaces
+
+Answer: b) 4 spaces (although this can be adjusted in some editors)
+
+> Which of the following code snippets is correctly indented?
+
+```
+a) if True:
+  print("True")
+    print("False")
+
+b) if True:
+    print("True")
+    print("False")
+
+c) if True:
+     print("True")
+  print("False")
+
+d) if True:
+  print("True")
+      print("False")
+```
+Answer: b) 
+
+```python
+ if True:
+    print("True")
+    print("False")
+```
+
+> In Python, indentation is used to define __________ in the code.
+
+- A) Loops
+- B) Functions
+- C) Classes
+- D) Blocks of code
 
 ## Exercises
 
