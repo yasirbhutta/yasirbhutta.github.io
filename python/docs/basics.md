@@ -351,7 +351,7 @@ Error message: `IndentationError: unexpected indent`"
 **Answer Key (True/False):**
 
 1. True
-2. 
+   
 ## Multiple Choice (Select the best answer)
 
 **print function**
