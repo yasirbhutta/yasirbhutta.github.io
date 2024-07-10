@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>basics.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #800;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+  color: #008;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #660;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #080;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+  color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #606;
+}
+
+.hljs-attribute,
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9B703F
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="python-language-basics">Python: Language Basics</h1>
+<p>Connect with me: <a href="https://www.youtube.com/yasirbhutta">Youtube</a> | <a href="https://www.linkedin.com/in/yasirbhutta/">LinkedIn</a> | <a href="https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c">WhatsApp Channel</a> | <a href="https://yasirbhutta.github.io/">Web</a> | <a href="https://www.facebook.com/yasirbhutta786">Facebook</a> | <a href="https://twitter.com/yasirbhutta">Twitter</a></p>
+<ul>
+<li>
+<p><a href="https://yasirbhutta.github.io/python/docs/basics.pdf">Download PDF</a></p>
+</li>
+<li>
+<p>To access the updated handouts, please click on the following link:
+<a href="https://yasirbhutta.github.io/ms-excel/docs/basics.html">https://yasirbhutta.github.io/ms-excel/docs/basics.html</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja">Python Playlist on Youtube</a></p>
+</li>
+<li>
+<p><a href="https://github.com/yasirbhutta/python-examples">Download Example Code</a></p>
+</li>
+<li>
+<p><a href="resources.md">Pyton Resources: Books, Websites, Tutorials</a></p>
+</li>
+<li>
+<p><a href="tools.md">Python Tools</a></p>
+</li>
+<li>
+<p><a href="docs/quick-guide.md">Python - Quick Guide for Ultimate Python Beginner's</a></p>
+</li>
+</ul>
+<h2 id="what-is-python">What is Python</h2>
+<ul>
+<li>Python is a high-level, general-purpose programming language.</li>
+<li>It is known for its clear syntax, readability, and versatility.</li>
+<li>Python is widely used for <code>web development</code>, <code>data science</code>, <code>machine learning</code>, and <code>automation</code>.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+<li>Install Python: Download and install it from <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.</li>
+<li>Choose a text editor: A program to write code, like <a href="https://code.visualstudio.com/docs/python/python-tutorial">Visual Studio Code</a>, <a href="https://jupyter.org/install">Jupyter Notebook</a>, <code>PyCharm</code>, or even a simple text editor like <code>Notepad</code>.</li>
+<li>Text editor for Android: <a href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">Pydroid 3 - IDE for Python 3</a>
+<ul>
+<li><a href="https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv">Video: How to: Install Jupyter Notebook on an Android device</a></li>
+</ul>
+</li>
+<li>Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.</li>
+</ul>
+<blockquote>
+<p><strong>Important:</strong> Python source code files always use the <code>.py</code> extension.</p>
+</blockquote>
+<h2 id="lesson-1-python-print-function">Lesson 1: Python <code>print</code> Function</h2>
+<h3 id="objectives">Objectives</h3>
+<ul>
+<li>Understand the basic usage of the <code>print</code> function.</li>
+<li>Learn how to print different data types.</li>
+<li>Explore advanced <code>print</code> function features like formatting and special characters.</li>
+<li>Practice printing in various tasks.</li>
+</ul>
+<h3 id="introduction-to-print">Introduction to <code>print</code></h3>
+<p>The <code>print</code> function is used to output text or variables to the console. or to a file.</p>
+<p><a href="https://youtu.be/RSSSyqw79_M">Video: Use of print() function in python</a></p>
+<p><strong>Syntax:</strong></p>
+<pre class="hljs"><code><div>print(value1, value2, ..., sep=<span class="hljs-string">' '</span>, end=<span class="hljs-string">'\n'</span>, file=sys.stdout, flush=<span class="hljs-literal">False</span>)
+</div></code></pre>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>value1, value2, ...</code>: The values to be printed. Multiple values can be separated by commas.</li>
+<li><code>sep</code>: (Optional) Specifies how to separate multiple values. Default is a space <code>' '</code>.</li>
+<li><code>end</code>: (Optional) Specifies what to print at the end. Default is a newline character <code>'\n'</code>.</li>
+<li><code>file</code>: (Optional) Specifies the file where to print. Default is <code>sys.stdout</code> (console).</li>
+<li><code>flush</code>: (Optional) Specifies whether to forcibly flush the stream. Default is <code>False</code>.</li>
+</ul>
+<h3 id="task-1-basic-printing">Task 1: Basic Printing</h3>
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Print a simple message.</li>
+<li>Print multiple items separated by commas.</li>
+</ol>
+<p><strong>Examples</strong></p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 1.1: Print a simple message</span>
+print(<span class="hljs-string">"Hello, world!"</span>)
+
+<span class="hljs-comment"># Task 1.2: Print multiple items</span>
+print(<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"world"</span>, <span class="hljs-number">2024</span>)
+</div></code></pre>
+<h2 id="task-2-printing-different-data-types">Task 2: Printing Different Data Types</h2>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Print integers, floats, and strings.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 2.1: Print different data types</span>
+print(<span class="hljs-number">42</span>)
+print(<span class="hljs-number">3.14159</span>)
+print(<span class="hljs-string">"This is a string"</span>)
+
+</div></code></pre>
+<h2 id="task-3-using-sep-and-end-parameters">Task 3: Using <code>sep</code> and <code>end</code> Parameters</h2>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Change the separator between printed items.</li>
+<li>Change the ending character of a print statement.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 3.1: Change the separator</span>
+print(<span class="hljs-string">"apple"</span>, <span class="hljs-string">"banana"</span>, <span class="hljs-string">"cherry"</span>, sep=<span class="hljs-string">", "</span>)
+
+<span class="hljs-comment"># Task 3.2: Change the ending character</span>
+print(<span class="hljs-string">"Hello"</span>, end=<span class="hljs-string">" "</span>)
+print(<span class="hljs-string">"world!"</span>)
+
+<span class="hljs-comment"># Task 3.3: Print with a custom ending character:</span>
+print(<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"World"</span>, end=<span class="hljs-string">"!"</span>)
+
+</div></code></pre>
+<h2 id="task-4-print-variables">Task 4: Print Variables</h2>
+<h3 id="instructions">Instructions</h3>
+<ul>
+<li>print variables values using print function</li>
+</ul>
+<pre class="hljs"><code><div>
+<span class="hljs-comment"># Task 4.1: print a integer variable</span>
+x = <span class="hljs-number">5</span>
+print(x)
+
+<span class="hljs-comment"># Task 4.2: print a string variable</span>
+message = <span class="hljs-string">'Python is fun'</span>
+
+<span class="hljs-comment"># print the string message</span>
+print(message)
+
+<span class="hljs-comment"># Task 4.3: print a string variable</span>
+message = <span class="hljs-string">"How are you?"</span>
+print(message)
+
+</div></code></pre>
+<h2 id="task-5-string-formatting">Task 5: String Formatting</h2>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Use f-strings (formatted string literals) for the same purpose.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 5.1: Use f-strings</span>
+name = <span class="hljs-string">"Ahmad"</span>
+age = <span class="hljs-number">30</span>
+print(<span class="hljs-string">f"My name is <span class="hljs-subst">{name}</span> and I am <span class="hljs-subst">{age}</span> years old."</span>)
+</div></code></pre>
+<h2 id="task-6-printing-special-characters">Task 6: Printing Special Characters</h2>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Print a newline character within a string.</li>
+<li>Print a tab character within a string.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 6.1: Print a newline character</span>
+print(<span class="hljs-string">"Hello\nWorld"</span>)
+
+<span class="hljs-comment"># Task 6.2: Print a tab character</span>
+print(<span class="hljs-string">"Hello\tWorld"</span>)
+</div></code></pre>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 6.3: Print a tab character</span>
+
+print(<span class="hljs-string">"Name\tAge\tCity"</span>)
+print(<span class="hljs-string">"Alice\t30\tNew York"</span>)
+print(<span class="hljs-string">"Bob\t25\tLos Angeles"</span>)
+</div></code></pre>
+<p>Output:</p>
+<pre class="hljs"><code><div>Name    Age    City
+Alice   30     New York
+Bob     25     Los Angeles
+</div></code></pre>
+<p>In this example, <code>\t</code> is used to align the columns of text.</p>
+<p>In Python, the <code>\t</code> character is a special escape sequence that represents a horizontal tab. When used in the <code>print</code> function or any other string operation, it inserts a tab space in the output. This can be particularly useful for formatting text to make it more readable.</p>
+<p><code>\t</code> can be combined with other string manipulation techniques, such as f-strings</p>
+<pre class="hljs"><code><div>
+<span class="hljs-comment"># Task 6.4: Print a tab character with f-strings</span>
+
+name = <span class="hljs-string">"Alice"</span>
+age = <span class="hljs-number">30</span>
+city = <span class="hljs-string">"New York"</span>
+
+print(<span class="hljs-string">f"<span class="hljs-subst">{name}</span>\t<span class="hljs-subst">{age}</span>\t<span class="hljs-subst">{city}</span>"</span>)
+</div></code></pre>
+<h2 id="task-7-printing-to-a-file">Task 7: Printing to a File</h2>
+<h3 id="instructions">Instructions</h3>
+<ol>
+<li>Print a message to a text file instead of the console.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Task 7.1: Print to a file</span>
+<span class="hljs-keyword">with</span> open(<span class="hljs-string">"output.txt"</span>, <span class="hljs-string">"w"</span>) <span class="hljs-keyword">as</span> file:
+    print(<span class="hljs-string">"Hello, file!"</span>, file=file)
+</div></code></pre>
+<p>When you use the instruction with open(&quot;output.txt&quot;, &quot;w&quot;) as file in Python, the file is created in the current working directory of your program. On an Android system, this could be different depending on the environment where the code is executed (e.g., a specific app's data directory, a shared storage location, etc.).</p>
+<p>To determine the exact path, you can use the os module to get the current working directory:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> os
+
+print(os.getcwd())
+</div></code></pre>
+<p>Regarding file closure, when you use the <code>with</code> statement to open a file, Python automatically takes care of closing the file for you once the block of code under the <code>with</code> statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations.</p>
+<h2 id="task-8-understanding-syntax-errors-in-python">Task 8: Understanding Syntax Errors in Python</h2>
+<h3 id="objective">Objective:</h3>
+<p>Learn about syntax errors in Python by examining and correcting a sample code snippet.</p>
+<h3 id="instructions">Instructions:</h3>
+<ol>
+<li><strong>Review the Code Snippet</strong>: Look at the provided Python code and identify any syntax errors.</li>
+<li><strong>Identify the Error</strong>: Understand what a syntax error is and why it occurs.</li>
+<li><strong>Correct the Code</strong>: Fix the syntax error in the code snippet.</li>
+<li><strong>Explanation</strong>: Write a brief explanation of what the syntax error was and how you corrected it.</li>
+</ol>
+<h3 id="code-snippet">Code Snippet:</h3>
+<pre class="hljs"><code><div>print(<span class="hljs-string">"Hello World!"</span>
+</div></code></pre>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li><strong>Review the Code Snippet</strong>: Look carefully at the code snippet above.</li>
+<li><strong>Identify the Error</strong>:
+<ul>
+<li>A syntax error occurs when the Python interpreter finds code that does not conform to the rules of the Python language.</li>
+<li>The provided code snippet has a syntax error because it has an unmatched parenthesis.</li>
+</ul>
+</li>
+<li><strong>Correct the Code</strong>:
+<ul>
+<li>To fix the error, ensure all parentheses are properly closed.</li>
+<li>The corrected code should look like this:<pre class="hljs"><code><div>print(<span class="hljs-string">"Hello World!"</span>)
+</div></code></pre>
+</li>
+</ul>
+</li>
+<li><strong>Explanation</strong>:
+<ul>
+<li><strong>Syntax Error</strong>: The error was due to a missing closing parenthesis.</li>
+<li><strong>Correction</strong>: Adding the closing parenthesis at the end of the print statement fixes the syntax error.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Syntax error:</strong></p>
+<ul>
+<li>A syntax error in programming occurs when the code violates the rules of the programming language's syntax.</li>
+<li>This means that the code's structure and commands do not conform to the expected format that the interpreter or compiler requires to successfully read and execute the code.</li>
+</ul>
+<h3 id="practice-exercises">Practice Exercises</h3>
+<h4 id="exercise-1-print-your-favorite-quote">Exercise 1: Print Your Favorite Quote</h4>
+<p>Print your favorite quote, ensuring proper formatting.</p>
+<h4 id="exercise-2-create-a-simple-receipt">Exercise 2: Create a Simple Receipt</h4>
+<p>Print a simple receipt with items and prices, properly aligned using tab characters.</p>
+<h4 id="exercise-3-use-variables-in-print-statements">Exercise 3: Use Variables in Print Statements</h4>
+<p>Create variables for your name, age, and favorite hobby, then print a sentence using these variables.</p>
+<h4 id="exercise-4-output-to-a-file">Exercise 4: Output to a File</h4>
+<p>Write a program that prints a summary of your week (e.g., tasks completed, hours worked) to a text file.</p>
+<h4 id="exercise-5-100-times-%22hello-world%22-without-loop">Exercise 5: 100 times &quot;hello world&quot; without loop</h4>
+<p><a href="https://www.youtube.com/watch?v=QpqnHtD76BI&amp;list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&amp;index=7">related video: 100 times &quot;hello world&quot; without loop</a></p>
+<h4 id="exercise-6-how-to-print-multiple-lines">Exercise 6: How to print multiple lines</h4>
+<p><a href="https://www.youtube.com/watch?v=Y13CX7-zzcQ&amp;list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&amp;index=51">Related Video: How to print multiple lines</a></p>
+<h2 id="comments">Comments</h2>
+<ul>
+<li>Comments are important for making code more readable and understandable, especially for other programmers who may need to read or modify the code.</li>
+<li>Comments in Python are non-executable lines of code and ignored by the Python interpreter when the code is executed.</li>
+</ul>
+<p>There are two main types of comments in Python:</p>
+<ul>
+<li><strong>Single-line comments:</strong> These comments start with the hash symbol (#) and extend to the end of the line.</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-comment"># This is a single-line comment</span>
+print(<span class="hljs-string">"Hello, World!"</span>)
+</div></code></pre>
+<ul>
+<li><strong>Multi-line comments:</strong> These comments are enclosed in triple quotes (&quot;&quot;&quot; or ''').</li>
+</ul>
+<pre class="hljs"><code><div><span class="hljs-string">"""
+This is a multi-line comment.
+It can span multiple lines of code.
+"""</span>
+print(<span class="hljs-string">"Hello, World!"</span>)
+</div></code></pre>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=W7ixMGE2exc&amp;list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&amp;index=73">Video: A Comprehensive Guide to Single Line &amp; Multi-Line Comments</a></li>
+</ul>
+<h2 id="indentation">Indentation</h2>
+<p>In Python, indentation refers to the use of whitespace (spaces or tabs) to denote block-level structure in the code. Python uses indentation to define the scope of code blocks, such as:</p>
+<ul>
+<li>Function definitions</li>
+<li>Loops (for, while)</li>
+<li>Conditional statements (if, elif, else)</li>
+<li>Exception handling (try, except)</li>
+</ul>
+<p>In Python, indentation is mandatory and is used to determine the grouping of statements. The number of spaces used for indentation is not fixed, but it's standard to use 4 spaces for each level of indentation. Read more: <a href="https://peps.python.org/pep-0008/#indentation">Indentation - PEP 8 – Style Guide for Python Code</a></p>
+<p>Here's an example:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:
+    print(<span class="hljs-string">"Hello"</span>)  <span class="hljs-comment"># This line is indented with 4 spaces</span>
+    print(<span class="hljs-string">"World"</span>)  <span class="hljs-comment"># This line is also indented with 4 spaces</span>
+</div></code></pre>
+<p>In this example, the two print statements are indented with 4 spaces, indicating that they are part of the if block.</p>
+<p>Python's indentation system has several benefits, including:</p>
+<ul>
+<li>Improved readability: Indentation makes the code structure clear and easy to read.</li>
+<li>Reduced errors: Indentation helps avoid errors caused by mismatched braces or parentheses.</li>
+<li>Simplified syntax: Python's indentation system eliminates the need for explicit block delimiters like braces or keywords.</li>
+</ul>
+<p>Another example, consider the following code snippet:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:
+    print(<span class="hljs-string">"True"</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">"False"</span>)
+</div></code></pre>
+<p><strong>Task:</strong> Please correct the following Python code:</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:
+  print(<span class="hljs-string">"True"</span>)
+    print(<span class="hljs-string">"False"</span>)
+</div></code></pre>
+<p>Error message: <code>IndentationError: unexpected indent</code>&quot;</p>
+<p><strong>See also:</strong></p>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/indentation-in-python/">Indentation in Python - geeksforgeeks.org</a></li>
+<li><a href="https://www.askpython.com/python/python-indentation">Indentation in Python (With Examples) - askpython.com</a></li>
+</ul>
+<h2 id="truefalse-mark-t-for-true-and-f-for-false">True/False (Mark T for True and F for False)</h2>
+<ol>
+<li>An indentation error in Python is considered a syntax error.</li>
+</ol>
+<p><strong>Answer Key (True/False):</strong></p>
+<ol>
+<li>True</li>
+<li></li>
+</ol>
+<h2 id="multiple-choice-select-the-best-answer">Multiple Choice (Select the best answer)</h2>
+<p><strong>print function</strong></p>
+<blockquote>
+<p>Which of the following is the correct syntax for the print statement in Python?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox0"><label for="checkbox0">print (&quot;text&quot;)</label></li>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">println (&quot;text&quot;)</label></li>
+<li><input type="checkbox" id="checkbox2"><label for="checkbox2">echo (&quot;text&quot;)</label></li>
+</ol>
+<blockquote>
+<p>What will be the output of the following code?</p>
+</blockquote>
+<pre class="hljs"><code><div>print(<span class="hljs-string">"Hello, world!"</span>)
+</div></code></pre>
+<ol>
+<li><input type="checkbox" id="checkbox3"><label for="checkbox3">Hello</label></li>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">world</label></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">Hello, world!</label></li>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">There will be no output.</label></li>
+</ol>
+<blockquote>
+<p>How can you print multiple values on a single line in Python?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7">Use commas to separate the values within the print statement.</label></li>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">Use semicolons to separate the values within the print statement.</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">Use the + operator to concatenate the values before printing.</label></li>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10">Create a list of the values and print the list.</label></li>
+</ol>
+<blockquote>
+<p>Which of the following statements will print the value of the variable x?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox11"><label for="checkbox11">print(x)</label></li>
+<li><input type="checkbox" id="checkbox12"><label for="checkbox12">print &quot;x&quot;</label></li>
+<li><input type="checkbox" id="checkbox13"><label for="checkbox13">println(x)</label></li>
+<li><input type="checkbox" id="checkbox14"><label for="checkbox14">echo x</label></li>
+</ol>
+<blockquote>
+<p>What is the purpose of the sep argument in the print function?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox15"><label for="checkbox15">To specify the separator between multiple values printed on the same line.</label></li>
+<li><input type="checkbox" id="checkbox16"><label for="checkbox16">To specify the end character for the printed line.</label></li>
+<li><input type="checkbox" id="checkbox17"><label for="checkbox17">To specify the file to which the output should be printed.</label></li>
+<li><input type="checkbox" id="checkbox18"><label for="checkbox18">To specify the format of the output.</label></li>
+</ol>
+<blockquote>
+<p>What is the purpose of the end argument in the print function?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox19"><label for="checkbox19">To specify the separator between multiple values printed on the same line.</label></li>
+<li><input type="checkbox" id="checkbox20"><label for="checkbox20">To specify the end character for the printed line.</label></li>
+<li><input type="checkbox" id="checkbox21"><label for="checkbox21">To specify the file to which the output should be printed.</label></li>
+<li><input type="checkbox" id="checkbox22"><label for="checkbox22">To specify the format of the output.</label></li>
+</ol>
+<blockquote>
+<p>How can you print a string without a newline character?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox23"><label for="checkbox23">print(string, end=&quot;&quot;)</label></li>
+<li><input type="checkbox" id="checkbox24"><label for="checkbox24">print(string, sep=&quot;&quot;)</label></li>
+<li><input type="checkbox" id="checkbox25"><label for="checkbox25">print(string + &quot;&quot;)</label></li>
+<li><input type="checkbox" id="checkbox26"><label for="checkbox26">print(string; &quot;&quot;)</label></li>
+</ol>
+<p>What is the output of the following code?</p>
+<p>name = &quot;Alice&quot;
+age = 30
+print(&quot;My name is&quot;, name, &quot;and I am&quot;, age, &quot;years old.&quot;)</p>
+<p>a) My name is Alice and I am 30 years old. (Correct)
+b) My name is Aliceand I am 30years old. (No separation)
+c) Alice 30 (Values printed without labels)
+d) An error (Incorrect syntax)</p>
+<ol start="3">
+<li>How can you format a string in Python to insert variables directly within it?</li>
+</ol>
+<p>a) Using string concatenation with the + operator (Limited control)
+b) Using the format method (Less readable for complex formatting)
+c) Using f-strings (Correct)
+d) All of the above (f-strings are generally preferred)</p>
+<p>Which of the following statements is NOT valid for the print function in Python?</p>
+<p>a) print(&quot;Hello, world!&quot;)
+b) print(5 + 3) (prints the result of the expression)
+c) print() (prints an empty line)
+d) print(x, y, sep=&quot;,&quot;) (prints x and y with a comma separator)</p>
+<p>How can you prevent a newline character from being printed at the end of the output in Python?</p>
+<p>a) By using a semicolon at the end of the print statement (this is not valid Python syntax)
+b) Using the end argument within the print function and setting it to an empty string (&quot;&quot;)
+c) Specifying a special flag in the function call
+d) There's no way to suppress the newline character</p>
+<p><strong>What is a syntax error in Python?</strong></p>
+<p>A) An error caused by incorrect logic in the code.
+B) An error detected when the code violates the rules of the Python language.
+C) An error that occurs during runtime.
+D) An error caused by a variable not being defined.</p>
+<p><strong>Identify the error in the following code snippet:</strong></p>
+<pre class="hljs"><code><div>prin(<span class="hljs-string">"Hello World!"</span>)
+</div></code></pre>
+<p>A) Incorrect variable name
+B) Missing colon
+C) Misspelled keyword
+D) Missing parenthesis</p>
+<p><strong>Hint</strong> NameError: name 'prin' is not defined.</p>
+<p><strong>What should be done to correct the syntax error in the following code?</strong></p>
+<pre class="hljs"><code><div>print(<span class="hljs-string">"Hello World!"</span>
+</div></code></pre>
+<p>A) Add a closing quotation mark.
+B) Add a closing parenthesis.
+C) Add a colon at the end.
+D) Indent the line correctly.</p>
+<p><strong>Comments:</strong></p>
+<blockquote>
+<p>What is the primary purpose of comments in Python code?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox27"><label for="checkbox27">To execute instructions for the computer</label></li>
+<li><input type="checkbox" id="checkbox28"><label for="checkbox28">To temporarily disable lines of code</label></li>
+<li><input type="checkbox" id="checkbox29"><label for="checkbox29">To make the code more readable and understandable for humans</label></li>
+<li><input type="checkbox" id="checkbox30"><label for="checkbox30">To create errors for debugging</label></li>
+</ol>
+<blockquote>
+<p>Which of the following is the correct syntax for a single-line comment in Python?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox31"><label for="checkbox31">// This is a comment</label></li>
+<li><input type="checkbox" id="checkbox32"><label for="checkbox32">/* This is a comment */</label></li>
+<li><input type="checkbox" id="checkbox33"><label for="checkbox33"># This is a comment</label></li>
+<li><input type="checkbox" id="checkbox34"><label for="checkbox34">{ This is a comment }</label></li>
+</ol>
+<blockquote>
+<p>How can you create a multi-line comment in Python?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox35"><label for="checkbox35">Using triple single quotes (''')</label></li>
+<li><input type="checkbox" id="checkbox36"><label for="checkbox36">Using triple double quotes (&quot;&quot;&quot;)</label></li>
+<li><input type="checkbox" id="checkbox37"><label for="checkbox37">Using backslash () at the end of each line</label></li>
+<li><input type="checkbox" id="checkbox38"><label for="checkbox38">Using the comment keyword</label></li>
+</ol>
+<blockquote>
+<p>What happens when you run code that includes comments?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox39"><label for="checkbox39">The comments are executed along with the code.</label></li>
+<li><input type="checkbox" id="checkbox40"><label for="checkbox40">The comments are ignored by the Python interpreter.</label></li>
+<li><input type="checkbox" id="checkbox41"><label for="checkbox41">The comments are displayed as output.</label></li>
+<li><input type="checkbox" id="checkbox42"><label for="checkbox42">The comments are converted into machine code.</label></li>
+</ol>
+<p><strong>Indentation:</strong></p>
+<blockquote>
+<p>What is the purpose of indentation in Python?</p>
+</blockquote>
+<ol>
+<li><input type="checkbox" id="checkbox43"><label for="checkbox43">To define code blocks</label></li>
+<li><input type="checkbox" id="checkbox44"><label for="checkbox44">To define functions</label></li>
+<li><input type="checkbox" id="checkbox45"><label for="checkbox45">To define variables</label></li>
+<li><input type="checkbox" id="checkbox46"><label for="checkbox46">To print output</label></li>
+</ol>
+<p>Answer: a) To define code blocks</p>
+<blockquote>
+<p>Which of the following is a correct way to indent code in Python?</p>
+</blockquote>
+<ul>
+<li>a) Using tabs</li>
+<li>b) Using spaces</li>
+<li>c) Using both tabs and spaces</li>
+<li>d) Using neither tabs nor spaces</li>
+</ul>
+<p>Answer: b) Using spaces (Python recommends using 4 spaces for indentation)</p>
+<blockquote>
+<p>What happens if you don't indent your code in Python?</p>
+</blockquote>
+<ul>
+<li>a) It will run correctly</li>
+<li>b) It will throw a syntax error</li>
+<li>c) It will print an error message</li>
+<li>d) It will ignore the code</li>
+</ul>
+<p>Answer: b) In Python, improper indentation specifically results in an IndentationError. While a syntax error is a broad category for any error in the syntax, an IndentationError is a specific type of syntax error related to incorrect indentation.</p>
+<ol>
+<li>What is the indentation error in the following code?</li>
+</ol>
+<pre class="hljs"><code><div>if True:
+  print(&quot;True&quot;)
+    print(&quot;False&quot;)
+</div></code></pre>
+<ul>
+<li>a) Missing indentation</li>
+<li>b) Extra indentation</li>
+<li>c) Incorrect indentation</li>
+<li>d) No error</li>
+</ul>
+<p>Answer: b) Extra indentation (the second print statement has extra indentation)</p>
+<blockquote>
+<p>What is the standard number of spaces used for indentation in Python?
+a) 2 spaces
+b) 4 spaces
+c) 6 spaces
+d) 8 spaces</p>
+</blockquote>
+<p>Answer: b) 4 spaces</p>
+<blockquote>
+<p>Which of the following code snippets is correctly indented?</p>
+</blockquote>
+<pre class="hljs"><code><div>a) if True:
+  print(&quot;True&quot;)
+    print(&quot;False&quot;)
+
+b) if True:
+    print(&quot;True&quot;)
+    print(&quot;False&quot;)
+
+c) if True:
+     print(&quot;True&quot;)
+  print(&quot;False&quot;)
+
+d) if True:
+  print(&quot;True&quot;)
+      print(&quot;False&quot;)
+</div></code></pre>
+<p>Answer: b)</p>
+<pre class="hljs"><code><div> <span class="hljs-keyword">if</span> <span class="hljs-literal">True</span>:
+    print(<span class="hljs-string">"True"</span>)
+    print(<span class="hljs-string">"False"</span>)
+</div></code></pre>
+<blockquote>
+<p>In Python, indentation is used to define __________ in the code.</p>
+</blockquote>
+<ul>
+<li>A) Loops</li>
+<li>B) Functions</li>
+<li>C) Classes</li>
+<li>D) Blocks of code</li>
+</ul>
+<h2 id="exercises">Exercises</h2>
+<h2 id="review-questions">Review Questions</h2>
+<h2 id="references-and-bibliography">References and Bibliography</h2>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/indentation-in-python/">Indentation in Python - geeksforgeeks.org</a></li>
+<li><a href="https://www.askpython.com/python/python-indentation">Indentation in Python (With Examples) - askpython.com</a></li>
+</ul>
+
+</body>
+</html>

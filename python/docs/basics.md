@@ -330,13 +330,29 @@ else:
     print("False")
 ```
 
+**Task:** Please correct the following Python code:
+
+```python
+if True:
+  print("True")
+    print("False")
+```
+Error message: `IndentationError: unexpected indent`"
+
 **See also:**
 
 - [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
 - [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
 
+
 ## True/False (Mark T for True and F for False)
 
+1. An indentation error in Python is considered a syntax error.
+
+**Answer Key (True/False):**
+
+1. True
+2. 
 ## Multiple Choice (Select the best answer)
 
 **print function**
@@ -527,21 +543,13 @@ if True:
 
 Answer: b) Extra indentation (the second print statement has extra indentation)
 
-What is the result of indenting a line of code in Python?
-- a) It turns into a comment.
-- b) It turns into a string.
-- c) It joins the previous block.
-- d) It joins the next block.
-
-Answer: c) It becomes part of the previous block
-
 > What is the standard number of spaces used for indentation in Python?
 a) 2 spaces
 b) 4 spaces
 c) 6 spaces
 d) 8 spaces
 
-Answer: b) 4 spaces (although this can be adjusted in some editors)
+Answer: b) 4 spaces 
 
 > Which of the following code snippets is correctly indented?
 
