@@ -60,6 +60,7 @@ print(area)
 **Key Points:**
 
 - **[Choose meaningful names](https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT):** Use names that describe what the variable stores (e.g., pizza_slices instead of x).
+  - [video: Meaningful Variable Names \| Python Best Practices](https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT)
 - **Assign values using =:** The equals sign is used to put a value into a variable.
 - **Change values:** You can update a variable's value later in your code.
 - **Use variables in calculations and operations:** Variables can be used just like regular numbers or text in expressions.
