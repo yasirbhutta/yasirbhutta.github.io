@@ -7,11 +7,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
 
 
-[Video: Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c)
+
 
 ## Data Types in Python
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
+
+[Video: Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c)
 
 Here are some of the fundamental built-in data types in Python:
 
@@ -67,9 +69,7 @@ is_raining = True
 if is_raining:
     print("Bring an umbrella!")
 ```
-**See also:**
 
-- [Variables in Python](https://youtu.be/6fXy1ZpQc8c?si=t4EpseIbXWFujxe8)
 **Why Use Data Types?**
 
 Data types are essential in Python for several reasons:
