@@ -354,8 +354,10 @@ Error message: `IndentationError: unexpected indent`"
    
 ## Multiple Choice (Select the best answer)
 
+
 **print function**
 
+[video:Can You Guess the Output of this Python Code? | print Quiz](https://youtu.be/WD92M8WXRZM?si=1FgSE-5Vr1aFCVR-)
 > Which of the following is the correct syntax for the print statement in Python?
 
 1. [ ] print ("text")

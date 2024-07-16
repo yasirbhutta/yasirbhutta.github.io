@@ -24,6 +24,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Each box has a name (label) to identify what's inside.
 - You can put things in, take them out, and change what's inside.
 
+[video:Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM)
+[video: Meaningful Variable Names \| Python Best Practices](https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT)
+[video: Asterisk (*) in Variable Assignment](https://www.youtube.com/watch?v=xCwfASassNs)
+
 **Example #1:** Storing a name
 
 ```python
@@ -266,6 +270,8 @@ Each time, the type of `x` changes dynamically to match the type of the value as
 3.  equals (=)
    
 ## Exercises
+
+- [Python Exercise: Calculate the Area of a Circle with Radius](https://www.youtube.com/watch?v=QoECA8v_2tQ)
 
 ## Review Questions
 
