@@ -42,6 +42,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Multiple Choice (Select the best answer)
 
+**Answer key (Mutiple Choice):**
+
 ## Fill in the Blanks
 
 **Answer Key (Fill in the Blanks):**
