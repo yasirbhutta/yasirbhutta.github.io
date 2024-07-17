@@ -318,8 +318,8 @@ user_age = input("Enter your age: ")
 print("Hello", user_name + ", you are", user_age, "years old.")
 ```
 6. Calculate the Area of a Circle with Radius [Example Solution](https://www.youtube.com/watch?v=QoECA8v_2tQ)
-7. How to Swap Variables Without a Third Variable in Python.
-8.  How to assign multiple values to multiple variables.
+7. How to Swap Variables Without a Third Variable in Python. [Example Solution](https://youtu.be/CVy3A48WXeE)
+8.  How to assign multiple values to multiple variables. [Example Solution](https://youtu.be/ur8rkDPzuSU)
 
 ## Review Questions
 
