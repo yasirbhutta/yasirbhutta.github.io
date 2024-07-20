@@ -100,6 +100,7 @@ Each time, the type of `x` changes dynamically to match the type of the value as
 **Example 6**: [How to assign multiple values to multiple variables?](https://youtu.be/ur8rkDPzuSU)
 **Example 7:** [How to Swap Variables Without a Third Variable in Python](https://youtu.be/CVy3A48WXeE)
 **Example 8:** [Calculate the Area of a Circle with Radius](https://www.youtube.com/watch?v=QoECA8v_2tQ)
+**Example 9:** [Python Variable Names: Case-Sensitive? Avoid This Coding Mistake!](https://youtu.be/hEoVi5hZHVg)
 
 **Key Points:**
 
