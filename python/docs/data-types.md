@@ -80,6 +80,9 @@ Data types are essential in Python for several reasons:
 * **Readability:** Using appropriate data types makes code easier to understand. It's clear what kind of data a variable holds and how it can be used.
 * **Performance:** Python can optimize certain operations based on the data type. For example, mathematical calculations on integers are faster than on floats.
 
+## Dynamic Typing
+Python is a dynamically typed language. This means that the Python interpreter does type checking only as code runs, and the type of a variable is allowed to change over its lifetime.[1]
+
 - [Python Quiz -String](https://forms.gle/jqt6TRSumvZQgahA8)
 - [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
 
@@ -87,69 +90,175 @@ Data types are essential in Python for several reasons:
 
 ## True/False (Mark T for True and F for False)
 
+1. In Python, the type of a variable is determined at runtime.
+
 **Answer Key (True/False):**
+
+1. True
 
 ## Multiple Choice (Select the best answer)
 
-1. Which data type is used to represent decimal numbers in Python?
-- a. int
-- b. float
-- c. complex
-- d. str
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
 
-2. Which of the following is an example of a boolean value in Python?
-- a. "True"
-- b. 1
-- c. 3.14
-- d. False
+2. **Which of the following is not a scalar data type in Python?**
+   - A) bool
+   - B) int
+   - C) float
+   - D) list
+      
+3. Which data type is used to represent decimal numbers in Python?
+    - A) int
+    - B) float
+    - C) complex
+    - D) str
 
-3. Which scalar data type is used to represent textual data in Python?
+4. Which of the following is an example of a boolean value in Python?
+   - a. "True"
+   - b. 1
+   - c. 3.14
+   - d. False
+
+5. Which scalar data type is used to represent textual data in Python?
 - a. str
 - b. char
 - c. text
 - d. string
-
-4. What is the default type of a numerical literal without a decimal point in Python?
+  
+6. What is the default type of a numerical literal without a decimal point in Python?
 - a. int
 - b. float
 - c. complex
 - d. bool
 
-5. Which of the following is NOT a scalar data type in Python?
-- a. Integer
-- b. Float
-- c. String
-- d. List
+7. **What is the result of the expression type("Hello, World!") in Python?**
+    - A) <class 'str'>
+    - B) <class 'bool'>
+    - C) <class 'int'>
+    - D) <class 'float'>
 
-6. What is the output of type(42)?
-- a. int
-- b. float
-- c. str
-- d. None
+8.  What is the output of type(42)?
+    - A) <class 'str'>
+    - B) <class 'bool'>
+    - C) <class 'int'>
+    - D) <class 'float'>
 
-7. What is the result of 3 + 4.5?
+9. What is the result of 3 + 4.5?
 - a. 7
 - b. 7.5
 - c. Error
 - d. None of the above
 
-8. How do you create a string in Python?
-- a. Using single quotes (')
-- b. Using double quotes (")
-- c. Both a and b
-- d. None of the above
+10. How do you create a string in Python?
+    - A) Using single quotes (')
+    - B) Using double quotes (")
+    - C) Both a and b
+    - D) None of the above
 
-9. Which of the following is a valid boolean value in Python?
+11. Which of the following is a valid boolean value in Python?
 - a. True
 - b. False
 - c. 0
 - d. All of the above
 
-10. What is the output of str(3.14)?
+12.  What is the output of str(3.14)?
 - a. 3.14
 - b. '3.14'
 - c. Error
 - d. None of the above
+
+13. What is the result of the following expression?
+
+```python
+type(3 + 4.0)
+```
+    - A) <class 'str'>
+    - B) <class 'bool'>
+    - C) <class 'int'>
+    - D) <class 'float'>
+
+14. Which of the following is a correct way to declare a complex number in Python?
+    - A) a = 3 + 4j
+    - B) a = 3.4j
+    - C) a = 3 + 4i
+    - D) a = 3 + 4
+
+15. Which function can be used to convert a float to an integer in Python?
+    - A) float()
+    - B) int()
+    - C) str()
+    - D) bool()
+
+16. Which of the following statements is true regarding dynamic typing in Python?
+    - A) Variables can only be assigned values of the same type.
+    - B) The type of a variable is determined at runtime based on the value it holds.
+    - C) Variables must be declared with a specific type.
+    - D) Once a variable is assigned a type, it cannot be changed.
+
+17. In Python, what happens if you assign a new value of a different type to a variable?
+    - A) Python will raise a type error.
+    - B) Python will change the variable's type to match the new value.
+    - C) Python will ignore the new value.
+    - D) Python will convert the value to the original type.
+
+18. What is the output of the following code?
+
+```python
+x = 10
+x = "Hello"
+print(type(x))
+```
+    - A) <class 'int'>
+    - B) <class 'str'>
+    - C) <class 'bool'>
+    - D) <class 'floa   - t'>
+
+19. What is the result of the following code?
+
+```python
+x = 5
+x = 5.0
+x = True
+x = "Python"
+print(x)
+```
+    - A) 5
+    - B) 5.0
+    - C) True
+    - D) Python
+
+20. What is the main advantage of dynamic typing in Python?
+    - A) Faster execution time.
+    - B) More flexibility in code.
+    - C) Improved error detection at compile-time.
+    - D) Reduced memory usage.
+
+21. Which of the following best describes a dynamically typed language?
+    - A) Type checking is performed during code compilation.
+    - B) Type checking is deferred until program execution.
+    - C) Type checking is not performed at all.
+    - D) Types are always explicitly declared by the programmer.
+
+22. In Python, which of the following is true about variable assignment?
+    - A) The type of the variable is determined when the variable is first assigned a value.
+    - B) The type of the variable is determined at compile-time.
+    - C) Variables must be explicitly typed before assignment.
+    - D) Variables cannot change type once assigned.
+
+23. What is the output of the following code?
+
+```python
+x = "10"
+x = int(x) + 2
+print(x)
+```
+    - A) "102"
+    - B) 102
+    - C) 12
+    - D) "12"
 
 ## Fill in the Blanks
 
@@ -169,4 +278,9 @@ Data types are essential in Python for several reasons:
 
 ## References and Bibliography
 
-- [Built-in Types - Python 3.12.1 documentation](https://docs.python.org/3/library/stdtypes.html)
+[1]R. Python, “Dynamic vs Static – Real Python,” realpython.com. https://realpython.com/lessons/dynamic-vs-static/
+[2]Python Software Foundation, “Built-in Types — Python 3.12.1 documentation,” Python.org, 2019. https://docs.python.org/3/library/stdtypes.html
+[3]“PEP 526 – Syntax for Variable Annotations | peps.python.org,” peps.python.org. https://peps.python.org/pep-0526/
+‌
+‌
+‌

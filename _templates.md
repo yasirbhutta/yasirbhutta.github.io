@@ -42,6 +42,12 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Multiple Choice (Select the best answer)
 
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
+
 **Answer key (Mutiple Choice):**
 
 ## Fill in the Blanks
