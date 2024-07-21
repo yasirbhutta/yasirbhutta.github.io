@@ -26,6 +26,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Control Flow](docs/control-flow.md)
 - [Functions](docs/functions.md)
 - [Data Structures and Sequences](docs/dss.md)
+- [String Methods](docs/str-methods.md)
 - [Built-in Functions](docs/built_in_functions.md)
 - [Python Sorting](docs/sorting.md)
 - [Error and Exception Handling](docs/error.md)

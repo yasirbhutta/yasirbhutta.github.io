@@ -75,7 +75,7 @@ if is_raining:
 Data types are essential in Python for several reasons:
 
 - **Memory Management:** Different data types use memory in different ways. Knowing the type helps Python allocate the right amount of memory. For example, an integer requires less space than a string or a list. 
-  - [video: How to Get the Size of an Object in Bytes | Python Tutorial for Beginners](https://www.youtube.com/watch?v=xslkhvLNssg)
+  - [video: How to Get the Size of an Object in Bytes \| Python Tutorial for Beginners](https://www.youtube.com/watch?v=xslkhvLNssg)
 - **Type Safety:** Data types help prevent errors by ensuring operations are compatible with the data being used. You can't add a string to an integer, for instance.
 * **Readability:** Using appropriate data types makes code easier to understand. It's clear what kind of data a variable holds and how it can be used.
 * **Performance:** Python can optimize certain operations based on the data type. For example, mathematical calculations on integers are faster than on floats.
@@ -194,7 +194,7 @@ type(3 + 4.0)
 
 16. Which of the following statements is true regarding dynamic typing in Python?
     - A) Variables can only be assigned values of the same type.
-    - B) The type of a variable is determined at runtime based on the value it holds.
+    - B) The data type of a variable is determined at runtime based on the value it holds.
     - C) Variables must be declared with a specific type.
     - D) Once a variable is assigned a type, it cannot be changed.
 
@@ -266,15 +266,139 @@ print(x)
 
 ## Exercises
 
-- [Find Occurrences in Strings Effortlessly with Python's Count Method](https://www.youtube.com/watch?v=jWl8oWwEnzA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=75)
-- [How to Replace the Second Occurrence of a Character in a String](https://www.youtube.com/watch?v=N7r1L5qpVKw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=38)
-- [String swapcase() Method](https://www.youtube.com/watch?v=Lj-LxOx3HBI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=26)
+### Exercise 1: Variable Assignment and Basic Operations
+1. Assign the value `5` to a variable named `x`.
+2. Assign the value `10` to a variable named `y`.
+3. Assign the sum of `x` and `y` to a variable named `sum_xy`.
+4. Print the value of `sum_xy`.
 
-**Python str examples:**
-- [How to Reverse a String in Python](https://www.youtube.com/watch?v=oD9Sfa-9uHU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=44)
-- [Generate Random 4-Digit PIN Code in Python](https://www.youtube.com/watch?v=93S_k3QIOAw)
+**Solution:**
+```python
+x = 5
+y = 10
+sum_xy = x + y
+print("Sum of x and y:", sum_xy)
+```
+
+### Exercise 2: Working with Different Data Types
+1. Assign a floating-point number to a variable named `pi`.
+2. Assign a string to a variable named `greeting`.
+3. Assign a boolean value to a variable named `is_active`.
+4. Print the types and values of `pi`, `greeting`, and `is_active`.
+
+**Solution:**
+```python
+pi = 3.14
+greeting = "Hello, World!"
+is_active = True
+
+print("Type of pi:", type(pi), "Value:", pi)
+print("Type of greeting:", type(greeting), "Value:", greeting)
+print("Type of is_active:", type(is_active), "Value:", is_active)
+```
+
+### Exercise 3: String Concatenation
+1. Assign your first name to a variable named `first_name`.
+2. Assign your last name to a variable named `last_name`.
+3. Concatenate `first_name` and `last_name` with a space in between and assign the result to a variable named `full_name`.
+4. Print the value of `full_name`.
+
+**Solution:**
+```python
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print("Full name:", full_name)
+```
+
+### Exercise 4: Boolean Operations
+1. Assign the value `True` to a variable named `is_sunny`.
+2. Assign the value `False` to a variable named `is_raining`.
+3. Create a new variable named `can_go_outside` that is `True` if `is_sunny` is `True` and `is_raining` is `False`.
+4. Print the value of `can_go_outside`.
+
+**Solution:**
+```python
+is_sunny = True
+is_raining = False
+can_go_outside = is_sunny and not is_raining
+print("Can go outside:", can_go_outside)
+```
+
+### Exercise 5: Type Conversion
+1. Assign the string `"123"` to a variable named `num_str`.
+2. Convert `num_str` to an integer and assign it to a variable named `num_int`.
+3. Print the type and value of `num_int`.
+
+**Solution:**
+```python
+num_str = "123"
+num_int = int(num_str)
+print("Type of num_int:", type(num_int), "Value:", num_int)
+```
 
 ## Review Questions
+
+**Basic Data Types**
+
+1. What are the basic data types in Python?
+   - **Answer:** Python's basic data types include:
+     1. **Numbers:** Integers (`int`), floating-point numbers (`float`), and complex numbers (`complex`).
+     2. **Text:** Strings (`str`) to represent sequences of characters.
+     3. **Logical Values:** Booleans (`bool`) for True or False.
+
+2. How do you create a string in Python? Give an example.
+3. What is the difference between an integer and a float in Python?
+4. How do you convert a string to an integer in Python?
+5. What function would you use to find the type of a variable in Python?
+6.  What is the purpose of the type() function in Python?
+
+**Boolean and None**
+
+6. What are the Boolean values in Python?
+7. What does the None type represent in Python?
+   - **Answer:** In Python, the None type represents the absence of a value or a null value. It is a built-in constant that is used to denote a lack of value or a null reference.
+   - ### Characteristics of `None`
+     1. **Singleton**: `None` is a singleton in Python, meaning there is only one instance of `None` in a Python runtime. All occurrences of `None` point to the same object.
+    ```python
+    a = None
+    b = None
+    print(a is b)  # Output: True
+    ```
+
+     2. **Type**: The type of `None` is `NoneType`.
+    ```python
+    print(type(None))  # Output: <class 'NoneType'>
+    ```
+     3. **Boolean Context**: `None` is treated as `False` in a boolean context.
+    ```python
+    if not None:
+        print("None is considered False")  # Output: None is considered False
+    ```
+    - ### Checking for `None`
+    - To check if a variable is `None`, use the `is` operator, as it checks for identity.
+        ```python
+        variable = None
+        if variable is None:
+            print("Variable is None")  # Output: Variable is None
+        ```
+8. How do you check if a variable is None?
+
+   - **Answer:** To check if a variable is None in Python, you should use the is operator. The is operator checks for identity, meaning it checks whether two references point to the same object. Since None is a singleton in Python (there is only one instance of None in a Python runtime), using is is the correct and most efficient way to check for None.
+
+```python
+variable = None
+
+if variable is None:
+    print("Variable is None")
+```
+
+**Type Casting**
+
+1.  How do you convert an integer to a string in Python?
+2.  What is the result of int('123.45')?
+3.  What does the str() function do?
+4.  How do you safely convert a string to a float, considering the possibility of invalid input?
 
 ## References and Bibliography
 
