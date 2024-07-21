@@ -24,6 +24,18 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Each box has a name (label) to identify what's inside.
 - You can put things in, take them out, and change what's inside.
 
+## Variable names
+
+In Python, valid variable names must adhere to the following rules:
+
+- **Begin with a letter or an underscore:** The first character of a variable name must be a letter (a-z, A-Z) or an underscore (_).
+
+- **Followed by letters, digits, or underscores:** After the first character, the variable name can contain letters, digits (0-9), or underscores.
+
+- **Case-sensitive:** Variable names are case-sensitive. For example, myVariable and myvariable would be considered different variables.
+
+- **No reserved keywords:** Variable names cannot be Python reserved keywords (e.g., if, for, while, class, etc.).
+
 [video:Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM)
 [video: Meaningful Variable Names \| Python Best Practices](https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT)
 [video: Asterisk (*) in Variable Assignment](https://www.youtube.com/watch?v=xCwfASassNs)
@@ -60,47 +72,11 @@ width = 5
 area = length * width
 print(area)
 ```
-## Understanding Dynamic Variables in Python with Examples
 
-**Important:** In Python, variables are dynamic, meaning they can change types during the execution of a program. This flexibility allows you to assign a value of any type to a variable and later reassign it to a value of a different type without any issues. This dynamic nature of variables is due to Python being a dynamically typed language.
-
-**Example #5:** Dynamic Variables in Python
-
-```python
-# Initial assignment of an integer value
-x = 10
-print(x)  # Output: 10
-print(type(x))  # Output: <class 'int'>
-
-# Reassigning a string value to the same variable
-x = "Hello, World!"
-print(x)  # Output: Hello, World!
-print(type(x))  # Output: <class 'str'>
-
-# Reassigning a list to the same variable
-x = [1, 2, 3]
-print(x)  # Output: [1, 2, 3]
-print(type(x))  # Output: <class 'list'>
-
-# Reassigning a float value to the same variable
-x = 3.14
-print(x)  # Output: 3.14
-print(type(x))  # Output: <class 'float'>
-```
-
-In this example:
-
-1. `x` is initially assigned an integer value of `10`.
-2. `x` is then reassigned a string value `"Hello, World!"`.
-3. `x` is later reassigned a list `[1, 2, 3]`.
-4. Finally, `x` is reassigned a float value `3.14`.
-
-Each time, the type of `x` changes dynamically to match the type of the value assigned to it. This flexibility is one of the powerful features of Python, allowing for more concise and adaptable code.
-
-**Example 6**: [How to assign multiple values to multiple variables?](https://youtu.be/ur8rkDPzuSU)
-**Example 7:** [How to Swap Variables Without a Third Variable in Python](https://youtu.be/CVy3A48WXeE)
-**Example 8:** [Calculate the Area of a Circle with Radius](https://www.youtube.com/watch?v=QoECA8v_2tQ)
-**Example 9:** [Python Variable Names: Case-Sensitive? Avoid This Coding Mistake!](https://youtu.be/hEoVi5hZHVg)
+**Example 5**: [How to assign multiple values to multiple variables?](https://youtu.be/ur8rkDPzuSU)
+**Example 6:** [How to Swap Variables Without a Third Variable in Python](https://youtu.be/CVy3A48WXeE)
+**Example 7:** [Calculate the Area of a Circle with Radius](https://www.youtube.com/watch?v=QoECA8v_2tQ)
+**Example 8:** [Python Variable Names: Case-Sensitive? Avoid This Coding Mistake!](https://youtu.be/hEoVi5hZHVg)
 
 **Key Points:**
 
