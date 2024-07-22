@@ -354,6 +354,135 @@ Error message: `IndentationError: unexpected indent`"
    
 ## Multiple Choice (Select the best answer)
 
+**Python**
+
+1. **What is Python?**
+   - A) A type of snake
+   - B) A high-level programming language
+   - C) A web browser
+   - D) An operating system
+
+   **Answer: B) A high-level programming language**
+
+2. **Which of the following is a popular Integrated Development Environment (IDE) for Python?**
+   - A) Visual Studio Code
+   - B) Microsoft Word
+   - C) Adobe Photoshop
+   - D) Google Chrome
+
+   **Answer: A) Visual Studio Code**
+
+3. **Which tool is used for managing and installing Python packages?**
+   - A) pip
+   - B) npm
+   - C) yarn
+   - D) gem
+
+   **Answer: A) pip**
+
+4. **What does IDE stand for in the context of Python programming?**
+   - A) Integrated Development Environment
+   - B) Integrated Data Environment
+   - C) Internal Development Engine
+   - D) Internet Development Environment
+
+   **Answer: A) Integrated Development Environment**
+
+5. **What is the purpose of virtual environments in Python?**
+   - A) To provide a web-based interface for Python development
+   - B) To create isolated environments for different Python projects
+   - C) To compile Python code into machine code
+   - D) To improve the speed of Python code execution
+
+   **Answer: B) To create isolated environments for different Python projects**
+
+6. **Which tool is used for version control in Python projects?**
+   - A) Git
+   - B) Docker
+   - C) Kubernetes
+   - D) Jenkins
+
+   **Answer: A) Git**
+
+7. **What is Jupyter Notebook primarily used for in the Python ecosystem?**
+   - A) Web development
+   - B) Writing and sharing code, visualizations, and text
+   - C) Game development
+   - D) Mobile app development
+
+   **Answer: B) Writing and sharing code, visualizations, and text**
+
+8. **Who created Python and in which year?** [1]
+   - A) James Gosling in 1995
+   - B) Guido van Rossum in 1991
+   - C) Bjarne Stroustrup in 1983
+   - D) Dennis Ritchie in 1972
+
+   **Answer: B) Guido van Rossum in 1991**
+
+9.  **Which of the following features is a key characteristic of Python?**
+   - A) Statically typed
+   - B) Compiled language
+   - C) Interpreted language
+   - D) Requires manual memory management
+
+   **Answer: C) Interpreted language**
+
+10. **What is the purpose of the virtual environment tool in Python?**
+   - A) To create virtual machines
+   - B) To manage and isolate project-specific dependencies
+   - C) To design virtual reality experiences
+   - D) To develop mobile applications
+   
+   **Answer: B) To manage and isolate project-specific dependencies**
+
+11. **What is the Python Package Index (PyPI)?**
+   - A) A text editor for Python
+   - B) A library for machine learning
+   - C) A repository of software for the Python programming language
+   - D) An IDE for Python development
+   
+   **Answer: C) A repository of software for the Python programming language**
+
+12. **What is `pip` in Python?**
+   - A) A text editor
+   - B) A package installer
+   - C) A version control system
+   - D) A web framework
+
+   **Answer: B) A package installer**
+
+13. **Which tool is commonly used for creating virtual environments in Python?**
+   - A) npm
+   - B) pip
+   - C) venv
+   - D) docker
+
+   **Answer: C) venv**
+
+14. **Which Integrated Development Environment (IDE) is specifically designed for Python development?**
+   - A) Visual Studio
+   - B) IntelliJ IDEA
+   - C) PyCharm
+   - D) Eclipse
+
+   **Answer: C) PyCharm**
+
+15. **Which of the following is true about Python?**
+   - A) Python is a compiled language
+   - B) Python is a low-level programming language
+   - C) Python supports object-oriented programming
+   - D) Python does not support modules
+   
+   **Answer: C) Python supports object-oriented programming**
+
+16. **Which of the following is NOT a feature of Python?**
+   - A) Interpreted language
+   - B) Compiled language
+   - C) High-level language
+   - D) Object-oriented language
+
+   **Answer: B) Compiled language**
 
 **print function**
 
@@ -415,38 +544,38 @@ name = "Alice"
 age = 30
 print("My name is", name, "and I am", age, "years old.")
 
-a) My name is Alice and I am 30 years old. (Correct)
-b) My name is Aliceand I am 30years old. (No separation)
-c) Alice 30 (Values printed without labels)
-d) An error (Incorrect syntax)
+- a) My name is Alice and I am 30 years old. (Correct)
+- b) My name is Aliceand I am 30years old. (No separation)
+- c) Alice 30 (Values printed without labels)
+- d) An error (Incorrect syntax)
 
 3. How can you format a string in Python to insert variables directly within it?
 
-a) Using string concatenation with the + operator (Limited control)
-b) Using the format method (Less readable for complex formatting)
-c) Using f-strings (Correct)
-d) All of the above (f-strings are generally preferred)
+- a) Using string concatenation with the + operator (Limited control)
+- b) Using the format method (Less readable for complex formatting)
+- c) Using f-strings (Correct)
+- d) All of the above (f-strings are generally preferred)
 
 Which of the following statements is NOT valid for the print function in Python?
 
-a) print("Hello, world!")
-b) print(5 + 3) (prints the result of the expression)
-c) print() (prints an empty line)
-d) print(x, y, sep=",") (prints x and y with a comma separator)
+- a) print("Hello, world!")
+- b) print(5 + 3) (prints the result of the expression)
+- c) print() (prints an empty line)
+- d) print(x, y, sep=",") (prints x and y with a comma separator)
 
 How can you prevent a newline character from being printed at the end of the output in Python?
 
-a) By using a semicolon at the end of the print statement (this is not valid Python syntax)
-b) Using the end argument within the print function and setting it to an empty string ("")
-c) Specifying a special flag in the function call
-d) There's no way to suppress the newline character
+- a) By using a semicolon at the end of the print statement (this is not valid Python syntax)
+- b) Using the end argument within the print function and setting it to an empty string ("")
+- c) Specifying a special flag in the function call
+- d) There's no way to suppress the newline character
 
 **What is a syntax error in Python?**
 
-A) An error caused by incorrect logic in the code.
-B) An error detected when the code violates the rules of the Python language.
-C) An error that occurs during runtime.
-D) An error caused by a variable not being defined.
+- A) An error caused by incorrect logic in the code.
+- B) An error detected when the code violates the rules of the Python language.
+- C) An error that occurs during runtime.
+- D) An error caused by a variable not being defined.
 
 **Identify the error in the following code snippet:**
 
@@ -454,10 +583,10 @@ D) An error caused by a variable not being defined.
 prin("Hello World!")
 ```
 
-A) Incorrect variable name
-B) Missing colon
-C) Misspelled keyword
-D) Missing parenthesis
+- A) Incorrect variable name
+- B) Missing colon
+- C) Misspelled keyword
+- D) Missing parenthesis
 
 
 **Hint** NameError: name 'prin' is not defined.
@@ -469,11 +598,10 @@ D) Missing parenthesis
 print("Hello World!"
 ```
 
-A) Add a closing quotation mark.
-B) Add a closing parenthesis.
-C) Add a colon at the end.
-D) Indent the line correctly.
-
+- A) Add a closing quotation mark.
+- B) Add a closing parenthesis.
+- C) Add a colon at the end.
+- D) Indent the line correctly.
 
 **Comments:**
 
@@ -588,10 +716,134 @@ Answer: b)
 
 ## Exercises
 
+Sure, here are some exercises about print functions, indentation, and comments in Python:
+
+### Print Functions
+
+1. **Basic Printing**
+   - Write a Python program to print the following:
+     ```
+     Hello, World!
+     ```
+   
+   **Solution:**
+   ```python
+   print("Hello, World!")
+   ```
+
+2. **Printing Variables**
+   - Create two variables, `name` and `age`, and print them using the `print` function. Use the variables to print the following:
+     ```
+     My name is John and I am 25 years old.
+     ```
+
+   **Solution:**
+   ```python
+   name = "John"
+   age = 25
+   print("My name is", name, "and I am", age, "years old.")
+   ```
+
+3. **Formatted Strings**
+   - Use an f-string to print the following using the variables `name` and `age`:
+     ```
+     My name is John and I am 25 years old.
+     ```
+
+   **Solution:**
+   ```python
+   name = "John"
+   age = 25
+   print(f"My name is {name} and I am {age} years old.")
+   ```
+
+### Indentation
+
+4. **Correct Indentation**
+   - The following code has incorrect indentation. Fix it so that it runs correctly:
+     ```python
+     def greet(name):
+     print(f"Hello, {name}!")
+
+     greet("Alice")
+     ```
+
+   **Solution:**
+   ```python
+   def greet(name):
+       print(f"Hello, {name}!")
+
+   greet("Alice")
+   ```
+
+5. **Conditional Indentation**
+   - Write a Python program that checks if a number is positive, negative, or zero and prints the result. Ensure proper indentation is used.
+   
+   **Solution:**
+   ```python
+   number = int(input("Enter a number: "))
+
+   if number > 0:
+       print("The number is positive.")
+   elif number < 0:
+       print("The number is negative.")
+   else:
+       print("The number is zero.")
+   ```
+
+### Comments
+
+6. **Single-Line Comments**
+   - Add comments to the following code explaining each line:
+     ```python
+     name = "Alice"
+     age = 30
+     print(f"{name} is {age} years old.")
+     ```
+
+   **Solution:**
+   ```python
+   # Assign the string "Alice" to the variable 'name'
+   name = "Alice"
+   
+   # Assign the integer 30 to the variable 'age'
+   age = 30
+   
+   # Print the name and age using an f-string
+   print(f"{name} is {age} years old.")
+   ```
+
+7. **Multi-Line Comments**
+   - Use a multi-line comment to describe what the following code does:
+     ```python
+     def add(a, b):
+         return a + b
+
+     result = add(3, 5)
+     print(result)
+     ```
+
+   **Solution:**
+   ```python
+   """
+   This program defines a function 'add' that takes two arguments 'a' and 'b'
+   and returns their sum. It then calls this function with the arguments 3
+   and 5, stores the result in the variable 'result', and prints the result.
+   """
+
+   def add(a, b):
+       return a + b
+
+   result = add(3, 5)
+   print(result)
+   ```
+
 ## Review Questions
 
 ## References and Bibliography
 
+[1] “Guido van Rossum,” Wikipedia, May 24, 2021. https://en.wikipedia.org/wiki/Guido_van_Rossum
+‌
 - [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
 - [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
   

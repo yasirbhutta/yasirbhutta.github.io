@@ -72,6 +72,8 @@ if is_raining:
 
 **Why Use Data Types?**
 
+[video: 3 Reasons Why Are Data Types So Important in Python](https://www.youtube.com/watch?v=hziL5HamtNw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+
 Data types are essential in Python for several reasons:
 
 - **Memory Management:** Different data types use memory in different ways. Knowing the type helps Python allocate the right amount of memory. For example, an integer requires less space than a string or a list. 
