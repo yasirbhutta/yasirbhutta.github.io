@@ -406,9 +406,20 @@ for x in range(3):
         break
 ```
 
+**Example #:**
+
+```python
+for i in range(10):
+    if i == 5:
+        break  # exit the loop when i is 5
+    if i % 2 == 0:
+        continue  # skip even numbers
+    print(i)  # print only odd numbers less than 5
+```
+
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
-
+  
 ### pass Statement
 
 ## The else Clauses on Loops
