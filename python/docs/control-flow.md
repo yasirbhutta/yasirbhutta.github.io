@@ -117,8 +117,35 @@ else:
 - [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
-- [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
+**Example:** Checking if a Number is Positive, Negative, or Zero
 
+```python
+# Get input from the user
+number = float(input("Enter a number: "))
+
+# Check if the number is positive, negative, or zero
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+```
+
+**Explanation:**
+
+1. **Input**: The program starts by taking an input from the user using `input()`. The `float()` function is used to convert the input into a floating-point number.
+2. **If Condition**: The `if` statement checks if the number is greater than 0. If true, it prints "The number is positive."
+3. **Elif Condition**: If the `if` condition is false, the `elif` (else if) statement checks if the number is less than 0. If true, it prints "The number is negative."
+4. **Else Condition**: If both the `if` and `elif` conditions are false, the `else` statement executes, printing "The number is zero."
+
+### Sample Output
+- If the user inputs `5`, the output will be: `The number is positive.`
+- If the user inputs `-3`, the output will be: `The number is negative.`
+- If the user inputs `0`, the output will be: `The number is zero.`
+
+- [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
+  
 ## loops
 
 - There are two ways to create loops in Python: with the for-loop and the while-loop.
@@ -396,7 +423,35 @@ These statements modify the behavior of loops.
 **continue:** Skips the current iteration and moves to the next one.
 **pass:** Does nothing, often used as a placeholder.
 
-### The break and continue Statement
+`break`
+
+Exits the loop prematurely.
+
+```python
+for item in sequence:
+    if some_condition:
+        break  # exit the loop
+```
+
+`continue`
+
+Skips the current iteration and proceeds to the next iteration of the loop.
+
+```python
+for item in sequence:
+    if some_condition:
+        continue  # skip the rest of the code in this iteration
+    # code to execute if some_condition is False
+```
+
+`pass`
+
+A null statement, used as a placeholder.
+
+```python
+if condition:
+    pass  # do nothing
+```
 
 **Example #:**
 
@@ -420,14 +475,6 @@ for i in range(10):
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
   
-### pass Statement
-
-A null statement, used as a placeholder.
-
-```python
-if condition:
-    pass  # do nothing
-```
 
 ## The else Clauses on Loops
 
