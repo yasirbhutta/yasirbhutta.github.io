@@ -422,6 +422,13 @@ for i in range(10):
   
 ### pass Statement
 
+A null statement, used as a placeholder.
+
+```python
+if condition:
+    pass  # do nothing
+```
+
 ## The else Clauses on Loops
 
 **Example #:** for..else
