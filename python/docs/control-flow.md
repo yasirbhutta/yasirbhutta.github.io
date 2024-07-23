@@ -17,8 +17,7 @@ Flow control statements in Python determine the order in which your code is exec
 
 ## Conditional Statements (if, else, elif)
 
-- The if statement in MATLAB is a conditional statement that allows you to execute a block of code only if a certain condition is met.
-
+- The `if` statement in Python is a conditional statement that allows you to execute a block of code only if a certain condition is met.
 - Make decisions using `if`, `elif`, and `else` statements.
 
 The general **syntax** of the if statement is as follows:
@@ -97,7 +96,7 @@ else:
 
 This code will print the message "x is less than 5." to the console.
 
-**Example :** Using if-elif-else
+**Example #2:** Using if-elif-else
 
 ```python
 x = 10
@@ -110,8 +109,8 @@ else:
     print("Positive")
 ```
 
-- [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
-- [Video: Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
+**Example #3:** [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
+**Example #4:** [Video: Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 - [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
@@ -475,8 +474,7 @@ def get_fruit_color(fruit):
             return "unknown"
 ```
 
-
-- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
+**Python Challenge to test your knowledge:** [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
 ## Key Terms
 
@@ -738,6 +736,9 @@ c. if x =! 10:
 d. if x not 10:
 
 ## Exercises
+
+**if statement**
+
 
 ## Review Questions
 
