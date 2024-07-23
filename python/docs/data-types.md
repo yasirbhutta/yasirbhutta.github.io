@@ -122,6 +122,25 @@ In this example:
 
 Each time, the type of `x` changes dynamically to match the type of the value assigned to it. This flexibility is one of the powerful features of Python, allowing for more concise and adaptable code.
 
+## None
+
+In Python, `None` is a special constant that represents the absence of a value or a null value. It is an object of its own datatype, called `NoneType`. 
+
+**Examples:**
+
+1. **Assigning `None` to Variables**:
+   ```python
+   a = None
+   ```
+
+2. **Checking for `None`**:
+   ```python
+   if a is None:
+       print("a is None")
+   else:
+       print("a is not None")
+   ```
+
 - [Python Quiz -String](https://forms.gle/jqt6TRSumvZQgahA8)
 - [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
 

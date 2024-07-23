@@ -6,9 +6,16 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/control-flow.html](https://yasirbhutta.github.io/python/docs/control-flow.html)
 
-### Conditional Statements
+## Flow control statements
 
-#### if statement
+Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
+
+1. Conditional Statements (if, else, elif)
+2. Looping Statements (for, while)
+3. Loop Control Statements (break, continue, pass)
+4. Match Statement (Python 3.10+)
+
+## Conditional Statements (if, else, elif)
 
 - The if statement in MATLAB is a conditional statement that allows you to execute a block of code only if a certain condition is met.
 
@@ -17,8 +24,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 The general **syntax** of the if statement is as follows:
 
 ```python
-if condition
-    statements
+if condition:
+    # code to execute if condition is True
 ```
 
 The `condition` can be any logical expression. If the condition is evaluated to `true`, the block of `statements` is executed. Otherwise, the block of `statements` is skipped.
@@ -39,16 +46,17 @@ This code will print the message `x is greater than 5.` to the console.
 You can also use `elif` statements to check for multiple conditions. The general **syntax** of the **elif statement** is as follows:
 
 ```python
-elif condition
-    statements
-end
+if condition1:
+    # code to execute if condition1 is True
+elif condition2:
+    # code to execute if condition2 is True
 ```
 
 If the `condition` for the if statement is evaluated to `false`, the python interpreter will check the `condition` for the first elif statement. If the condition for the elif statement is evaluated to `true`, the corresponding block of `statements` is executed. Otherwise, the python interpreter will check the `condition` for the next elif statement, and so on.
 
 Here is an example of an if statement with an elif statement:
 
-**Example #:**
+**Example #1:**
 
 ```python
 x = 3
@@ -64,16 +72,17 @@ This code will print the message "x is less than 5." to the console.
 You can also use an else statement to check for all other conditions. The general syntax of the else statement is as follows:
 
 ```python
-else
-    statements
-end
+if condition1:
+    # code to execute if condition1 is True
+elif condition2:
+    # code to execute if condition2 is True
+else:
+    # code to execute if none of the conditions are True
 ```
 
 If all of the conditions for the if and elseif statements are evaluated to `false`, the block of `statements` in the `else` statement is executed.
 
 Here is an example of an if statement with an `elif` statement and an `else` statement:
-
-**Example #:**
 
 ```python
 x = 2
@@ -88,6 +97,19 @@ else:
 
 This code will print the message "x is less than 5." to the console.
 
+**Example :** Using if-elif-else
+
+```python
+x = 10
+
+if x < 0:
+    print("Negative")
+elif x == 0:
+    print("Zero")
+else:
+    print("Positive")
+```
+
 **See also:**
 
 - [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
@@ -96,7 +118,6 @@ This code will print the message "x is less than 5." to the console.
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
-
 
 ## loops
 
@@ -368,6 +389,13 @@ while True:
 - [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
 - [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
+## Loop Control Statements (break, continue, pass)
+These statements modify the behavior of loops.
+
+**break:** Terminates the loop entirely.
+**continue:** Skips the current iteration and moves to the next one.
+**pass:** Does nothing, often used as a placeholder.
+
 ### The break and continue Statement
 
 **Example #:**
@@ -381,6 +409,8 @@ for x in range(3):
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
 
+### pass Statement
+
 ## The else Clauses on Loops
 
 **Example #:** for..else
@@ -392,9 +422,21 @@ else:
     print('Final x = %d' % (x))
 ```
 
-### pass Statement
+## Match Statement (Python 3.10+)
 
-### match Statement
+The match statement offers a more concise way to handle multiple comparison cases.
+
+```python
+def get_fruit_color(fruit):
+    match fruit:
+        case "apple":
+            return "red"
+        case "banana":
+            return "yellow"
+        case _:
+            return "unknown"
+```
+
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
