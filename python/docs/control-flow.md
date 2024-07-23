@@ -110,39 +110,12 @@ else:
     print("Positive")
 ```
 
-**See also:**
-
 - [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
 - [Video: Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 - [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
-**Example:** Checking if a Number is Positive, Negative, or Zero
-
-```python
-# Get input from the user
-number = float(input("Enter a number: "))
-
-# Check if the number is positive, negative, or zero
-if number > 0:
-    print("The number is positive.")
-elif number < 0:
-    print("The number is negative.")
-else:
-    print("The number is zero.")
-```
-
-**Explanation:**
-
-1. **Input**: The program starts by taking an input from the user using `input()`. The `float()` function is used to convert the input into a floating-point number.
-2. **If Condition**: The `if` statement checks if the number is greater than 0. If true, it prints "The number is positive."
-3. **Elif Condition**: If the `if` condition is false, the `elif` (else if) statement checks if the number is less than 0. If true, it prints "The number is negative."
-4. **Else Condition**: If both the `if` and `elif` conditions are false, the `else` statement executes, printing "The number is zero."
-
-### Sample Output
-- If the user inputs `5`, the output will be: `The number is positive.`
-- If the user inputs `-3`, the output will be: `The number is negative.`
-- If the user inputs `0`, the output will be: `The number is zero.`
+**Example #:**
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
   
