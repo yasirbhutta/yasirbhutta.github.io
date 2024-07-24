@@ -94,9 +94,128 @@ else:
     print('x is less than 5.')
 ```
 
+**Output:**
 This code will print the message "x is less than 5." to the console.
 
-**Example #2:** Using if-elif-else
+### Example 2: Basic If-Else
+```python
+number = 10
+
+if number > 0:
+    print("The number is positive")
+else:
+    print("The number is not positive")
+```
+**Explanation**: This code checks if the variable `number` is greater than 0. If true, it prints "The number is positive", otherwise it prints "The number is not positive".
+
+### Example 3: Checking Even or Odd [related video:](https://youtube.com/shorts/za0rSiA33j0)
+```python
+number = 7
+
+if number % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
+```
+**Explanation**: This code checks if the variable `number` is even or odd. If `number % 2` equals 0, it is even; otherwise, it is odd.
+
+### Example 4: Age Group Classification
+```python
+age = 25
+
+if age < 18:
+    print("Minor")
+else:
+    print("Adult")
+```
+**Explanation**: This code classifies a person as a "Minor" if their age is less than 18, and as an "Adult" otherwise.
+
+### Example 5: Grade Assignment [[video]](https://youtu.be/oEZzg0cUNw8)
+```python
+score = 85
+
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+**Explanation**: This code assigns a grade based on the `score`. It uses multiple `elif` statements to check for different score ranges.
+
+### Example 6: Nested If-Else
+```python
+number = -5
+
+if number >= 0:
+    if number == 0:
+        print("The number is zero")
+    else:
+        print("The number is positive")
+else:
+    print("The number is negative")
+```
+**Explanation**: This code uses nested `if-else` statements to check if the number is zero, positive, or negative.
+
+### Example 7: Temperature Check
+```python
+temperature = 30
+
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day")
+```
+**Explanation**: This code checks if the temperature is greater than 30. If true, it prints "It's a hot day"; otherwise, it prints "It's not a hot day".
+
+### Example 8: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
+```python
+age = 17
+
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+```
+**Explanation**: This code checks if a person is eligible to vote based on their age. If `age` is 18 or more, it prints "You are eligible to vote"; otherwise, it prints "You are not eligible to vote".
+
+### Example 9: Password Check
+```python
+password = "password123"
+
+if password == "password123":
+    print("Access granted")
+else:
+    print("Access denied")
+```
+**Explanation**: This code checks if the `password` is correct. If it matches "password123", it prints "Access granted"; otherwise, it prints "Access denied".
+
+### Example 10: Maximum of Two Numbers
+```python
+a = 15
+b = 20
+
+if a > b:
+    print("a is greater than b")
+else:
+    print("a is not greater than b")
+```
+**Explanation**: This code checks which number is greater between `a` and `b`. If `a` is greater than `b`, it prints "a is greater than b"; otherwise, it prints "a is not greater than b".
+
+### Example 11: Checking String Length
+```python
+string = "Hello, World!"
+
+if len(string) > 10:
+    print("The string is long")
+else:
+    print("The string is short")
+```
+**Explanation**: This code checks if the length of the `string` is greater than 10. If true, it prints "The string is long"; otherwise, it prints "The string is short".
+
+**Example #12:** Using if-elif-else
 
 ```python
 x = 10
@@ -109,8 +228,6 @@ else:
     print("Positive")
 ```
 
-**Example #3:** [Video: How to check if a number is odd or even](https://youtube.com/shorts/za0rSiA33j0)
-**Example #4:** [Video: Python Program to Find Grade of a Student Using if elif else](https://youtu.be/oEZzg0cUNw8)
 - [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
@@ -492,6 +609,475 @@ def get_fruit_color(fruit):
 
 ## Multiple Choice (Select the best answer)
 
+**if statement:**
+
+1. **Which of the following correctly represents the syntax of an if statement in Python?**
+    - A) if condition { block of code }
+    - B) if(condition) { block of code }
+    - C) if condition: block of code
+    - D) None
+
+2. **What is the syntax for a simple if statement in Python?**
+    - A) if x == 10:
+    - B) for x in range(10):
+    - C) while x < 10:
+    - D) if (x == 10) then:
+
+3. **What is the purpose of the else block in an if statement?**
+
+A) To execute a code block when the if condition is True
+B) To execute a code block when the if condition is False
+C) To create an infinite loop
+D) To define a function
+
+4. **What happens when none of the conditions in an if-elif-else chain are True, and there is no else block?**
+
+A) The program raises an error.
+B) The program executes the first if block.
+C) The program executes the last elif block.
+D) The program does nothing and continues to the next statement.
+
+5. **What will be the output of the following code?**
+
+```python
+x = 10
+y = 5
+if x < y:
+    print("x is greater than y")
+```
+A) "x is greater than y"
+B) "x is less than y"
+C) Nothing will be printed
+D) An error will occur
+
+6. **What happens if none of the conditions in an if-elif chain are True, and there is no else block?**
+
+A) The program raises an error
+B) The program executes the first if block
+C) The program does nothing and continues to the next statement
+D) The program executes the last elif block
+
+7. **What will be the output of the following code?**
+
+```python
+number = 10
+if number % 2 == 0:
+    print("Number is even")
+else:
+    print("Number is odd")
+```
+A) Number is odd
+B) Number is even
+C) Nothing
+D) Error
+
+8. **Which of the following is the correct way to compare if two variables are equal in an if statement?**
+A) if x equals 5:
+B) if x == 5:
+C) if x = 5:
+D) if x := 5:
+
+9. **How can you check if a value is NOT equal to 10 in an if statement?**
+A) if x != 10:
+B) if x <> 10:
+C) if x =! 10:
+D) if x not 10:
+
+10. **What does the following code snippet do?**
+```python
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+```
+A) Prints "Positive" if x is greater than 0, "Negative" if x is less than 0, and "Zero" if x is 0.
+B) Prints "Positive" if x is less than 0, "Negative" if x is greater than 0, and "Zero" if x is 0.
+C) Prints "Positive" if x is 0, "Negative" if x is greater than 0, and "Zero" if x is less than 0.
+D) Causes an error because the conditions are conflicting.
+
+2. **What is the correct syntax for an if-else statement?**
+   - A) if condition:
+            code block
+   - B) if condition:
+            code block
+        else:
+            code block
+   - C) if condition:
+            code block
+        elif condition:
+            code block
+   - D) if condition:
+            code block
+        else:
+            code block
+        elif condition:
+            code block
+
+4. **What happens if none of the conditions in an if-elif-else block are true?**
+   * a) The program terminates
+   * b) The else block is executed
+   * c) An error occurs
+   * d) The program continues without executing any block
+
+8. **What will be the output of the following code?**
+   ```python
+   x = 10
+   if x > 5 and x < 15:
+       print("x is between 5 and 15")
+   else:
+       print("x is not between 5 and 15")
+   ```
+   * a) x is between 5 and 15
+   * b) x is not between 5 and 15
+   * c) Error
+   * d) No output
+
+9. **What will be the output of the following code?**
+   ```python
+   num = 7
+   if num % 2 == 0:
+       print("Even")
+   else:
+       print("Odd")
+   ```
+   * a) Even
+   * b) Odd
+   * c) Error
+   * d) No output
+
+10. **What will be the output of the following code?**
+   ```python
+   score = 85
+   if score >= 90:
+       print("A")
+   elif score >= 80:
+       print("B")
+   else:
+       print("C")
+   ```
+
+What is the output of the following code?
+
+```python
+x = 5
+if x > 10:
+    print("Greater than 10")
+elif x > 5:
+    print("Greater than 5 but not greater than 10")
+else:
+    print("5 or less")
+```
+
+A) Greater than 10  
+B) Greater than 5 but not greater than 10  
+C) 5 or less  
+D) No output
+
+**Answer:** C
+
+Which of the following is true about the `elif` statement?
+
+A) `elif` stands for "else if" and is used to check additional conditions after the `if` statement  
+B) `elif` is the same as `else`  
+C) `elif` must be followed by an `else` statement  
+D) You can have multiple `elif` statements in one block
+
+**Answer:** A, D
+
+What will be the output of the following code?
+
+```python
+y = 20
+if y < 20:
+    print("Less than 20")
+elif y == 20:
+    print("Equal to 20")
+else:
+    print("Greater than 20")
+```
+
+A) Less than 20  
+B) Equal to 20  
+C) Greater than 20  
+D) None of the above
+
+**Answer:** B
+
+What will be the output of the following code snippet?
+
+```python
+a = 10
+b = 5
+if a > b:
+    if a > 0:
+        print("a is positive")
+    else:
+        print("a is non-positive")
+else:
+    print("a is less than or equal to b")
+```
+
+A) a is positive  
+B) a is non-positive  
+C) a is less than or equal to b  
+D) No output
+
+**Answer:** A
+
+Which of the following statements is false about `if-elif-else` statements in Python?
+
+A) `elif` statements are optional in an `if-elif-else` construct  
+B) An `if` statement can be followed by multiple `elif` statements  
+C) An `else` statement is mandatory in an `if-elif-else` construct  
+D) An `if` statement can exist without `elif` or `else`
+
+**Answer:** C
+
+What will be the output of the following code?
+
+```python
+x = 0
+if x:
+    print("True")
+else:
+    print("False")
+```
+
+A) True  
+B) False  
+C) No output  
+D) Error
+
+**Answer:** B
+
+**Truthy and Falsy Values in Python**
+In Python, certain values are considered False when evaluated in a boolean context (like in an if statement). These values include:
+
+- None
+- False
+- 0 (zero of any numeric type, including 0.0)
+- Empty sequences and collections (e.g., '', (), [], {})
+- Any object that implements __bool__ or __len__ to return False or 0, respectively
+
+Which of the following expressions can be used in an `if` condition to check if a number `n` is between 1 and 100 inclusive?
+
+A) `if n > 1 and n < 100:`  
+B) `if n >= 1 and n <= 100:`  
+C) `if 1 <= n <= 100:`  
+D) `if n == 1 or n == 100:`
+
+**Answer:** B, C
+
+What will be the output of the following code?
+
+```python
+z = 7
+if z < 5:
+    print("Less than 5")
+elif z == 10:
+    print("Equal to 10")
+elif z > 5:
+    print("Greater than 5 but not 10")
+else:
+    print("Something else")
+```
+
+A) Less than 5  
+B) Equal to 10  
+C) Greater than 5 but not 10  
+D) Something else
+
+**Answer:** C
+
+What is the purpose of the `else` statement in an `if-elif-else` structure?
+
+A) To check another condition if the previous ones were false  
+B) To execute a block of code if none of the previous conditions were true  
+C) To execute a block of code if the previous conditions were true  
+D) To end the `if-elif-else` structure
+
+**Answer:** B
+
+What will be the output of the following code?
+
+```python
+x = 10
+if x > 5:
+    if x == 10:
+        print("x is 10")
+    else:
+        print("x is greater than 5 but not 10")
+else:
+    print("x is 5 or less")
+```
+
+A) x is 10  
+B) x is greater than 5 but not 10  
+C) x is 5 or less  
+D) No output
+
+**Answer:** A
+
+Which of the following is correct syntax for an `if-elif-else` statement in Python?
+
+A) 
+```python
+if x > y:
+print("x is greater")
+elif x == y:
+print("x is equal to y")
+else:
+print("x is less")
+```
+B) 
+```python
+if x > y:
+    print("x is greater")
+elif x == y:
+    print("x is equal to y")
+else:
+    print("x is less")
+```
+C) 
+```python
+if (x > y):
+    print("x is greater")
+elif (x == y):
+    print("x is equal to y")
+else:
+    print("x is less")
+```
+D) 
+```python
+if x > y:
+    print("x is greater")
+elif x == y
+    print("x is equal to y")
+else
+    print("x is less")
+```
+
+**Answer:** B, C
+
+What will be the output of the following code?
+
+```python
+a = 3
+b = 4
+if a > b:
+    print("a is greater")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("b is greater")
+```
+A) a is greater  
+B) a and b are equal  
+C) b is greater  
+D) No output
+
+**Answer:** C
+
+Which of the following statements will execute if `n = 7`?
+
+```python
+if n < 5:
+    print("n is less than 5")
+elif n < 10:
+    print("n is less than 10")
+else:
+    print("n is 10 or more")
+```
+
+A) n is less than 5  
+B) n is less than 10  
+C) n is 10 or more  
+D) None of the above
+
+**Answer:** B
+
+### Question 5
+Which keyword is used to check an additional condition if the initial `if` statement is `False`?
+
+A) else  
+B) elif  
+C) elseif  
+D) if
+
+**Answer:** B
+
+What will be the output of the following code?
+
+```python
+score = 85
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+A) Grade: A  
+B) Grade: B  
+C) Grade: C  
+D) Grade: F
+
+What is the result of the following code?
+
+```python
+x = 0
+if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
+else:
+    print("Negative")
+```
+
+A) Positive  
+B) Zero  
+C) Negative  
+D) No output
+
+**Answer:** B
+
+
+How many `elif` clauses can be included in an `if-elif-else` statement?
+
+A) One  
+B) Two  
+C) Unlimited  
+D) None
+
+**Answer:** C
+
+
+What will be the output of the following code?
+
+```python
+age = 20
+if age < 18:
+    print("Minor")
+elif age >= 18 and age < 65:
+    print("Adult")
+else:
+    print("Senior")
+```
+
+A) Minor  
+B) Adult  
+C) Senior  
+D) No output
+
+**Answer:** B
+
+
 **for loop:**
 
 > What is the output of the following code?
@@ -636,104 +1222,6 @@ What is the purpose of the else clause in a while loop?
 (b) To execute a block of code if the loop completes without being terminated by a break statement.
 (c) To execute a block of code if the loop encounters an error.
 (d) The else clause cannot be used with a while loop.
-
-**if statement:**
-
-Which of the following correctly represents the syntax of an if statement in Python?
-a) if condition { block of code }
-b) if(condition) { block of code }
-c) if condition: block of code
-
-
-What is the syntax for a simple if statement in Python?
-a. if x == 10:
-b. for x in range(10):
-c. while x < 10:
-d. if (x == 10) then:
-
-What is the purpose of the else block in an if statement?
-
-a) To execute a code block when the if condition is True
-b) To execute a code block when the if condition is False
-c) To create an infinite loop
-d) To define a function
-
-What happens when none of the conditions in an if-elif-else chain are True, and there is no else block?
-
-a) The program raises an error.
-b) The program executes the first if block.
-c) The program executes the last elif block.
-d) The program does nothing and continues to the next statement.
-
-What will be the output of the following code?
-
-
-```python
-x = 10
-y = 5
-if x < y:
-    print("x is greater than y")
-```
-
-a) "x is greater than y"
-b) "x is less than y"
-c) Nothing will be printed
-d) An error will occur
-
-What happens if none of the conditions in an if-elif chain are True, and there is no else block?
-
-a) The program raises an error
-b) The program executes the first if block
-c) The program does nothing and continues to the next statement
-d) The program executes the last elif block
-
-Which of the following statements is True about indentation in Python?
-
-a) Indentation is optional
-b) Indentation is used to define code blocks
-c) Indentation is four spaces wide
-d) Both b and c
-
-What will be the output of the following code?
-
-```python
-number = 10
-if number % 2 == 0:
-    print("Number is even")
-else:
-    print("Number is odd")
-```
-
-Which of the following is the correct way to compare if two variables are equal in an if statement?
-a. if x equals 5:
-b. if x == 5:
-c. if x = 5:
-d. if x := 5:
-
-What does the following code snippet do?
-
-```python
-if x > 0:
-    print("Positive")
-elif x < 0:
-    print("Negative")
-else:
-    print("Zero")
-
-```
-
-a. Prints "Positive" if x is greater than 0, "Negative" if x is less than 0, and "Zero" if x is 0.
-b. Prints "Positive" if x is less than 0, "Negative" if x is greater than 0, and "Zero" if x is 0.
-c. Prints "Positive" if x is 0, "Negative" if x is greater than 0, and "Zero" if x is less than 0.
-d. Causes an error because the conditions are conflicting.
-
-
-How can you check if a value is NOT equal to 10 in an if statement?
-
-a. if x != 10:
-b. if x <> 10:
-c. if x =! 10:
-d. if x not 10:
 
 ## Exercises
 
