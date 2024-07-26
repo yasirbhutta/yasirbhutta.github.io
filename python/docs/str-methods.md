@@ -23,6 +23,19 @@
    - C) str()
    - D) isinstance()
 
+What is the output of the following Python code? [Python Quiz #9]
+
+def is_palindrome(s):
+  return s == s[::-1]
+
+is_palindrome("racecar")?
+
+**A)** True
+**B)** False
+**C)** SyntaxError
+**D)** None of these
+
+**Watch this video for answer:** [https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb](https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb)
   
 **Watch this video for the answer:**
 

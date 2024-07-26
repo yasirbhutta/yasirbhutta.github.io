@@ -611,6 +611,24 @@ def get_fruit_color(fruit):
 
 **if statement:**
 
+** What is the output of the following code** [Python Quiz #16]
+
+```python
+x = 10
+y = 5
+
+if x == y * 2:
+    print("True")
+else:
+    print("False")
+```
+- A) True
+- B) False
+- C) Error
+- D) Nothing
+
+**Watch this video for the answer:** [https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
+
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
     - B) if(condition) { block of code }

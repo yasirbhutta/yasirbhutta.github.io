@@ -172,6 +172,42 @@ print(foo(5))
   
 **Watch this video for answer:** [https://www.youtube.com/shorts/k50czTu7vao](https://www.youtube.com/shorts/k50czTu7vao) 
 
+What is the output of the following expression? [Python Quiz #13]
+
+```python
+def add(a,b,*parm):
+    total = 0
+    print(a+b)
+    for n in parm:
+        total += n
+    return total
+
+print(add(1, 2))
+```
+
+- A) 3 0
+- B) 3
+- C) 0
+- D) Error
+
+**Watch this video for answer:** [https://youtube.com/shorts/k4KVCxU5oMg](https://youtube.com/shorts/k4KVCxU5oMg)
+
+What is the output of the following  code? [Python Quiz #14]
+
+```python
+def add(*args):
+     print(type(args))
+
+add(1, 2,8,9)
+```
+
+- A) set
+- B) tuple
+- C) list
+- D) None
+
+**Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
+
 #23 What is the main purpose of a function in Python?
 
 #python #pythonpoll #MCQsTest #yasirbhutta

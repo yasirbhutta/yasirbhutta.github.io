@@ -155,6 +155,22 @@ Dictionary comprehensions are a powerful and concise way to create dictionaries 
    - C) str()
    - D) isinstance()
 
+**What is the output of the following code? [Python Quiz #15]**
+
+```python
+a = ('34.5')
+print(type(a))
+```
+
+- A) <class 'list'>
+- B) <class 'tuple'>
+- C) <class 'int'>
+- D) <class 'str'>
+
+**Watch the video for the answer:** [https://youtube.com/shorts/uMtHVgPSymw](https://youtube.com/shorts/uMtHVgPSymw)
+
+
+
 What is the data type of the following value?
 frozenset({1, 2, 3})
 a) list b) tuple c) set d) frozenset

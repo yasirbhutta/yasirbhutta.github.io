@@ -217,6 +217,35 @@ print(x, y)
 
 **Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
 
+
+What is the output of the following Python code? [Python Quiz #10]
+
+x = 5
+y = 10
+
+result = x > 3 or y < 5
+print(result)
+
+**A)** True
+**B)** False
+**C)** SyntaxError
+**D)** None of these
+
+**Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
+
+What is the output of the following expression? [Python Quiz #12]
+
+```python
+2 ** 3 + 4 // 2 - 1
+```
+
+**A)** 8 
+**B)** 9 
+**C)** 10 
+**D)** 11
+
+**Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
+
 1. **What is the difference between and and or operators in Python?**
 
    - A) and returns True if both operands are True and or returns True if either operand is True
