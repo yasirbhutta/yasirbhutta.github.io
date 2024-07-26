@@ -156,6 +156,20 @@ In Python, `None` is a special constant that represents the absence of a value o
 
 ## Multiple Choice (Select the best answer)
 
+**What is the output of the following code? [Python Quiz #22]**
+
+```python
+age = 25
+print("I am " + str(age) + " years old.")
+```
+
+- A) I am 25 years old.
+- B) I am "25" years old.
+- C) Syntax error
+- D) I am years old. (with quotes)
+
+**Watch this video for the answer:**[https://youtube.com/shorts/DBC5-ZYoGXI?si=PXk-CPGymx2Q6X2p](https://youtube.com/shorts/DBC5-ZYoGXI?si=PXk-CPGymx2Q6X2p)
+
 1. **Which function would you use to determine the type of a variable in Python?**
    - A) id()
    - B) type()
@@ -186,49 +200,49 @@ In Python, `None` is a special constant that represents the absence of a value o
 - c. text
 - d. string
   
-6. What is the default type of a numerical literal without a decimal point in Python?
+1. What is the default type of a numerical literal without a decimal point in Python?
 - a. int
 - b. float
 - c. complex
 - d. bool
 
-7. **What is the result of the expression type("Hello, World!") in Python?**
+1. **What is the result of the expression type("Hello, World!") in Python?**
     - A) <class 'str'>
     - B) <class 'bool'>
     - C) <class 'int'>
     - D) <class 'float'>
 
-8.  What is the output of type(42)?
+2.  What is the output of type(42)?
     - A) <class 'str'>
     - B) <class 'bool'>
     - C) <class 'int'>
     - D) <class 'float'>
 
-9. What is the result of 3 + 4.5?
+3. What is the result of 3 + 4.5?
 - a. 7
 - b. 7.5
 - c. Error
 - d. None of the above
 
-10. How do you create a string in Python?
+1.  How do you create a string in Python?
     - A) Using single quotes (')
     - B) Using double quotes (")
     - C) Both a and b
     - D) None of the above
 
-11. Which of the following is a valid boolean value in Python?
+2.  Which of the following is a valid boolean value in Python?
 - a. True
 - b. False
 - c. 0
 - d. All of the above
 
-12.  What is the output of str(3.14)?
+1.   What is the output of str(3.14)?
 - a. 3.14
 - b. '3.14'
 - c. Error
 - d. None of the above
 
-13. What is the result of the following expression?
+1.  What is the result of the following expression?
 
 ```python
 type(3 + 4.0)

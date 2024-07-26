@@ -35,8 +35,18 @@ is_palindrome("racecar")?
 **C)** SyntaxError
 **D)** None of these
 
-**Watch this video for answer:** [https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb](https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb)
+**Watch this video for the answer:** [https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb](https://youtube.com/shorts/fYpVM6Tqf50?si=yyjM17NMUt5al1Bb)
   
+What is the output of the following Python code? [Python Quiz #17]
+```python
+a = "Python is awesome"
+print(a.find("is"))
+```
+- A) -1
+- B) 0
+- C) 7
+- D) 2
+
 **Watch this video for the answer:**
 
 **Answer key (Mutiple Choice):**

@@ -1098,6 +1098,21 @@ D) No output
 
 **for loop:**
 
+What is the output of the following code? [Python Quiz #23]
+
+```python
+a = [1, 2, 3, 4, 5]
+for i in range(0, len(a), 2):
+    print(a[i])
+```
+
+- A) 135
+- B) 24
+- C) 12345
+- D) Syntax error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU](https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU)
+
 > What is the output of the following code?
 
 ```python

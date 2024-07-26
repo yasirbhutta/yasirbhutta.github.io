@@ -149,11 +149,6 @@ Dictionary comprehensions are a powerful and concise way to create dictionaries 
 
 ## Multiple Choice (Select the best answer)
 
-1. **Which function would you use to determine the type of a variable in Python?**
-   - A) id()
-   - B) type()
-   - C) str()
-   - D) isinstance()
 
 **What is the output of the following code? [Python Quiz #15]**
 
@@ -170,6 +165,64 @@ print(type(a))
 **Watch the video for the answer:** [https://youtube.com/shorts/uMtHVgPSymw](https://youtube.com/shorts/uMtHVgPSymw)
 
 
+**What is the output of the following code? [Python Quiz #18]**
+```python
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(c)
+
+```
+- A) [1, 2, 3]
+- B) [4, 5, 6]
+- C) [1, 2, 3, 4, 5, 6]   
+- D) Error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/rEDmm9ry7wE?si=ce2iYVXHbCEjLm6W](https://youtube.com/shorts/rEDmm9ry7wE?si=ce2iYVXHbCEjLm6W)
+
+**What is the output of the following code? [Python Quiz #19]**
+
+```python
+a = [1, 2, 3, 4]
+b = a
+b[0] = 0
+print(a)
+```
+
+- A) [0, 2, 3, 4]
+- B) [1, 2, 3, 4]
+- C) [0, 1, 2, 3, 4]
+- D) [1, 0, 3, 4]
+
+**Watch the video for the answer:** [https://youtu.be/ZWB4dfUYz1k?si=aYNoLd_81_-9oLfR](https://youtu.be/ZWB4dfUYz1k?si=aYNoLd_81_-9oLfR)
+
+**What is the output of the following code? [Python Quiz #20]**
+
+```python
+my_list = [1, 2, 3, 4, 5]
+print(my_list[1::2])
+```
+
+- **A)** [1, 3, 5]
+- **B)** [2, 4]
+- **C)** [2, 4, 5]
+- **D)** [1, 3]
+
+**Watch the video for the answer:** [https://youtube.com/shorts/UH5znVEFehI](https://youtube.com/shorts/UH5znVEFehI)
+
+**What is the output of the following code? [Python Quiz #21]**
+
+```python
+my_list = [8, 9, 11, 12]
+print(my_list[1:-1])
+```
+
+* A) [8, 9, 11, 12]
+* B) [9, 11, 12]
+* C) [9, 11]
+* D) [8, 9, 11]
+
+**Watch the video for the answer:** [https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_](https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_)
 
 What is the data type of the following value?
 frozenset({1, 2, 3})
