@@ -47,6 +47,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
    - B) type()
    - C) str()
    - D) isinstance()
+  
+**Watch this video for the answer:**
 
 **Answer key (Mutiple Choice):**
 
@@ -84,3 +86,9 @@ large: 512 width
 
 ## Websites
 
+
+# Youtube Short
+
+Aspect ratio: 9:16
+Resolution: 1920 pixels by 1080 pixels
+Video length: 15–60 seconds

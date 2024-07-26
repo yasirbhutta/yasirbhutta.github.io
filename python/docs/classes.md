@@ -126,11 +126,18 @@ The following table lists the difference between class attribute and instance at
 
 ## Multiple Choice (Select the best answer)
 
-> What keyword is used to define a class in Python? [[related video]](https://youtu.be/zVYzk_gnTY4)
+> What keyword is used to define a class in Python?
 1. [ ] object
 2. [ ] class
 3. [ ] define
 4. [ ] declare
+
+**Watch this video for the answer:** [https://youtu.be/zVYzk_gnTY4](https://youtu.be/zVYzk_gnTY4)
+
+What is the correct way to create a class in Python?
+a) class MyClass: b) create MyClass: c) define MyClass: d) new MyClass:
+
+Answer: a) class MyClass:
 
 > What is the correct way to create an object instance of a class?
 1. [ ] Calling the class definition directly

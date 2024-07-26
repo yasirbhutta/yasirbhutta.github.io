@@ -154,6 +154,18 @@ print(list(squared_numbers))
 
 ## Multiple Choice (Select the best answer)
 
+What is the correct way to create a decorator in Python?
+a) @decorator b) def decorator(): c) decorator = () d) decorator = []
+
+Answer: a) @decorator
+
+What is the correct way to create a generator in Python?
+a) def generator(): b) yield generator() c) generator = () d) generator = []
+
+Answer: b) yield generator()
+
+
+
 ## Exercises
 
 - Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.

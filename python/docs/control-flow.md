@@ -1223,9 +1223,411 @@ What is the purpose of the else clause in a while loop?
 (c) To execute a block of code if the loop encounters an error.
 (d) The else clause cannot be used with a while loop.
 
+What is the difference between pass and return statements in Python?3
+
+A) pass does nothing and return exits the function
+B) pass exits the function and return does nothing
+C) pass and return both do nothing
+D) pass and return both exit the function
+Answer: A
+
+
+What is the output of the following code snippet in Python?
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("Done")
+
+> **A)** 0 1 2 3 4 Done
+> **B)** 0 1 2 3 Done
+> **C)** SyntaxError: invalid syntax
+> **D)** IndentationError: expected an indented block
+
+**Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
+
+How can you create an if-elif-else statement without using elif keyword in Python?2
+
+A) by using nested if-else statements
+B) by using logical operators with if-else statements
+C) by using multiple if statements with indentation
+D) none of the above
+Answer: A
+
+What is the difference between break and continue statements in Python?3
+
+A) break terminates the loop and continue skips the current iteration
+B) break skips the current iteration and continue terminates the loop
+C) break and continue both terminate the loop
+D) break and continue both skip the current iteration
+Answer: A
+
+What is the benefit of using control structures in programming languages?3
+
+A) to make the code more modular and reusable
+B) to control the flow of execution based on certain parameters or conditions
+C) to implement various algorithms and logic in the code
+D) all of the above
+Answer: D
+
+How can you create an if-else statement in one line in Python?2
+
+A) by using a ternary operator with condition and values
+B) by using a lambda function with condition and values
+C) by using a colon after if block and before else block
+D) by using parentheses around if block and else block
+Answer: A
+
+What is the output of the following code snippet in Python?
+
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+**A)** 0 1 2 3
+**B)** 0 1 2 4
+**C)** SyntaxError: invalid syntax
+**D)** IndentationError: expected an indented block
+
+**Watch this video for answer:** [https://youtube.com/shorts/x7CIxqoqccY](https://youtube.com/shorts/x7CIxqoqccY)
+
+What is the disadvantage of using control structures in programming languages?3
+
+A) to make the code more difficult to read and maintain
+B) to increase the complexity and redundancy of the code
+C) to decrease the efficiency and performance of the code
+D) none of the above
+Answer: D
+
+How can you create an if-elif-else statement in Python?2
+
+A) by using elif keyword after if block and before else block
+B) by using elif keyword after else block and before if block
+C) by using elif keyword before if block and after else block
+D) by using elif keyword before else block and after if block
+Answer: A
+
+How can you create a nested loop in Python?1
+
+A) by using a loop inside another loop with proper indentation
+B) by using a loop inside another loop with parentheses
+C) by using a nested keyword before the inner loop
+D) by using a colon after the outer loop and before the inner loop
+Answer: A
+
+What is the output of the following code snippet in Python? [Python Quiz #6]
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+**A)** 0 1 2
+**B)** 0 1 2 3
+**C)** 1 2 3
+**D)** 0 1 2 3 4
+
+**Watch this video for answer:** [https://youtube.com/shorts/XNLL6j-P61A](https://youtube.com/shorts/XNLL6j-P61A)
+
+What is the output of the following code snippet in Python? [Python Quiz #7]
+
+i = 1
+while i < 10:
+    print(i)
+    i += 2
+
+**A)** 1 2 3 4 5 6 7 8 9
+**B)** 1 3 5 7 9
+**C)** 0
+**D)** IndentationError: expected an indented block
+
+**Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
+
+How can you create a nested if statement in Python?2
+
+A) by using elif keyword
+B) by using else keyword
+C) by indenting the inner if block under the outer if block
+D) by using parentheses around the inner if block
+Answer: C
+What is the purpose of a pass statement in Python?3
+
+A) to skip a block of code that is not needed
+B) to indicate that a block of code is empty or not implemented yet
+C) to exit a loop or a function prematurely
+D) to pass a value or an argument to another function
+Answer: B
+
+**What is the output of the following code snippet in Python? [Python Quiz #3]**
+
+for in range(10):
+
+    if i % 2 == 0:
+        print(i)
+
+A) 0 1 2 3 4 5 6 7 8 9
+B) 0 2 4 6 8
+C) 2 4 6 8
+D) IndentationError: expected an indented block
+
+**Watch the video for answer:** [https://youtube.com/shorts/9GVHZXNHBmc](https://youtube.com/shorts/9GVHZXNHBmc)
+
+
+What is the syntax of a while loop in Python?1
+
+A) while condition: statement
+B) while (condition): statement
+C) while condition do statement
+D) while (condition) do statement
+Answer: A
+
+What is the difference between a break statement and a continue statement in Python?4
+
+A) break terminates the loop, continue skips to the next iteration
+B) break skips to the next iteration, continue terminates the loop
+C) break exits the program, continue pauses the program
+D) break resumes the program, continue exits the program
+Answer: A
+
+What are the three types of control structures in Python?
+
+A) Sequential, Selection and Repetition
+B) Conditional, Looping and Branching
+C) Function, Class and Module
+D) Input, Output and Processing
+Answer: A
+
+What is the keyword used to make a selection statement in Python?2
+
+A) select
+B) if
+C) switch
+D) case
+Answer: B
+
+What are the two types of iteration statements in Python?1
+
+A) while and do-while
+B) for and foreach
+C) while and for
+D) do-while and foreach
+Answer: C
+
+What are the three basic types of control structures in Python? a) sequence, selection, repetition b) input, output, processing c) function, class, module d) list, tuple, dict
+Answer: a) sequence, selection, repetition
+
+Which control structure is used to execute a block of code only if a certain condition is true? a) if statement b) for loop c) while loop d) break statement
+Answer: a) if statement
+
+Which control structure is used to execute a block of code for each item in an iterable object? a) if statement b) for loop c) while loop d) break statement
+Answer: b) for loop
+
+
 ## Exercises
 
 **if statement**
+
+Certainly! Here are 30 exercises to help you practice using `if-elif-else` statements in Python:
+
+1. **Check Positive, Negative, or Zero**
+   ```python
+   # Write a program to check if a number is positive, negative, or zero.
+   number = int(input("Enter a number: "))
+   ```
+
+2. **Even or Odd**
+   ```python
+   # Write a program to check if a number is even or odd.
+   number = int(input("Enter a number: "))
+   ```
+
+3. **Largest of Three Numbers**
+   ```python
+   # Write a program to find the largest of three numbers.
+   a = int(input("Enter first number: "))
+   b = int(input("Enter second number: "))
+   c = int(input("Enter third number: "))
+   ```
+
+4. **Grade Assignment**
+   ```python
+   # Write a program to assign grades based on the score.
+   score = int(input("Enter your score: "))
+   ```
+
+5. **Leap Year Check**
+   ```python
+   # Write a program to check if a year is a leap year or not.
+   year = int(input("Enter a year: "))
+   ```
+
+6. **Age Group Classification**
+   ```python
+   # Write a program to classify age into child, teenager, adult, and senior.
+   age = int(input("Enter your age: "))
+   ```
+
+7. **Temperature Description**
+   ```python
+   # Write a program to describe the temperature (hot, warm, cold).
+   temperature = float(input("Enter the temperature: "))
+   ```
+
+8. **Voter Eligibility**
+   ```python
+   # Write a program to check if a person is eligible to vote.
+   age = int(input("Enter your age: "))
+   ```
+
+9. **Password Strength Checker**
+   ```python
+   # Write a program to check the strength of a password.
+   password = input("Enter your password: ")
+   ```
+
+10. **Simple Calculator**
+    ```python
+    # Write a simple calculator program using if-elif-else.
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    operation = input("Enter operation (+, -, *, /): ")
+    ```
+
+11. **BMI Calculator**
+    ```python
+    # Write a program to calculate BMI and categorize it (underweight, normal, overweight, obese).
+    height = float(input("Enter your height in meters: "))
+    weight = float(input("Enter your weight in kilograms: "))
+    ```
+
+12. **Triangle Type Checker**
+    ```python
+    # Write a program to check the type of a triangle (equilateral, isosceles, scalene).
+    a = float(input("Enter first side: "))
+    b = float(input("Enter second side: "))
+    c = float(input("Enter third side: "))
+    ```
+
+13. **Day of the Week**
+    ```python
+    # Write a program to print the day of the week based on a number (1 for Monday, 7 for Sunday).
+    day_number = int(input("Enter a number (1-7): "))
+    ```
+
+14. **Letter Grade Assignment**
+    ```python
+    # Write a program to convert a numerical score into a letter grade.
+    score = int(input("Enter your score: "))
+    ```
+
+15. **Month Days**
+    ```python
+    # Write a program to print the number of days in a given month.
+    month = int(input("Enter the month number (1-12): "))
+    ```
+
+16. **Discount Calculator**
+    ```python
+    # Write a program to calculate the discount on a product based on the price.
+    price = float(input("Enter the price of the product: "))
+    ```
+
+17. **Character Checker**
+    ```python
+    # Write a program to check if a character is a vowel or consonant.
+    char = input("Enter a character: ").lower()
+    ```
+
+18. **Valid Triangle Checker**
+    ```python
+    # Write a program to check if three given lengths can form a triangle.
+    a = float(input("Enter first side: "))
+    b = float(input("Enter second side: "))
+    c = float(input("Enter third side: "))
+    ```
+
+19. **Multiples of Five**
+    ```python
+    # Write a program to check if a number is a multiple of five.
+    number = int(input("Enter a number: "))
+    ```
+
+20. **Alphabet Case Checker**
+    ```python
+    # Write a program to check if an alphabet is uppercase or lowercase.
+    char = input("Enter a character: ")
+    ```
+
+21. **Login System**
+    ```python
+    # Write a simple login system that checks username and password.
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    ```
+
+22. **Divisibility Check**
+    ```python
+    # Write a program to check if a number is divisible by 3 and 5.
+    number = int(input("Enter a number: "))
+    ```
+
+23. **Prime Number Checker**
+    ```python
+    # Write a program to check if a number is prime.
+    number = int(input("Enter a number: "))
+    ```
+
+24. **Digit or Alphabet Checker**
+    ```python
+    # Write a program to check if a character is a digit or an alphabet.
+    char = input("Enter a character: ")
+    ```
+
+25. **Fuel Efficiency**
+    ```python
+    # Write a program to categorize fuel efficiency (excellent, good, average, poor).
+    mpg = float(input("Enter miles per gallon: "))
+    ```
+
+26. **Odd or Even List**
+    ```python
+    # Write a program to classify numbers in a list as odd or even.
+    numbers = [int(x) for x in input("Enter numbers separated by space: ").split()]
+    ```
+
+27. **Quadratic Equation Solver**
+    ```python
+    # Write a program to solve a quadratic equation and determine the nature of the roots.
+    a = float(input("Enter coefficient a: "))
+    b = float(input("Enter coefficient b: "))
+    c = float(input("Enter coefficient c: "))
+    ```
+
+28. **User Age Validator**
+    ```python
+    # Write a program to validate the age input by the user (must be between 0 and 120).
+    age = int(input("Enter your age: "))
+    ```
+
+29. **Student Result System**
+    ```python
+    # Write a program to check if a student passed or failed based on marks in three subjects.
+    marks1 = int(input("Enter marks in subject 1: "))
+    marks2 = int(input("Enter marks in subject 2: "))
+    marks3 = int(input("Enter marks in subject 3: "))
+    ```
+
+30. **Shopping Cart Total**
+    ```python
+    # Write a program to calculate the total cost of items in a shopping cart and apply discount if applicable.
+    item1 = float(input("Enter price of item 1: "))
+    item2 = float(input("Enter price of item 2: "))
+    item3 = float(input("Enter price of item 3: "))
+    ```
+
 
 
 ## Review Questions

@@ -140,3 +140,84 @@ Dictionary comprehensions are a powerful and concise way to create dictionaries 
 
 - Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=x7zh_WqO1e4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21) [Quiz2](https://www.youtube.com/watch?v=rEDmm9ry7wE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5) [Quiz3](https://www.youtube.com/watch?v=ZWB4dfUYz1k&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)
 
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
+
+What is the data type of the following value?
+frozenset({1, 2, 3})
+a) list b) tuple c) set d) frozenset
+
+Answer: d) frozenset
+
+What is the data type of the following value?
+{1, 2, 3}
+a) list b) tuple c) set d) dict
+
+Answer: c) set
+
+What is the data type of the following value?
+{1, 2, 3}
+a) list b) tuple c) set d) dict
+
+Answer: c) set
+
+What is the data type of the following value?
+(1, 2, 3)
+a) list b) tuple c) set d) dict
+
+Answer: b) tuple
+
+What is the data type of the following value?
+{"name": "Alice", "age": 25}
+a) list b) tuple c) set d) dict
+
+Answer: d) dict
+
+What is the data type of the following value?
+[1, 2, 3]
+a) list b) tuple c) set d) dict
+
+Answer: a) list
+
+What is the correct way to create a set in Python?
+
+a) set = [1, 2, 3] b) set = (1, 2 ,3) c) set = {1, 2 ,3} d) set = <1, 2 ,3>
+
+Answer: c) set = {1, 2 ,3}
+
+#58 What is the correct way to create a loop in Python?
+
+a) for i in range(10): 
+b) while i < 10: 
+c) repeat i = 0 to 9: 
+d) either a or b
+
+Answer: d) either a or b
+
+  
+**Watch this video for the answer:**
+
+**Answer key (Mutiple Choice):**
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography
+

@@ -12,6 +12,40 @@ The Python interpreter has a number of functions and types built into it that ar
 
 **Answer key (Mutiple Choice):**
 
+**What is the output of the following Python code?**
+
+numbers = [10, 32, 98, 38, 47, 34]
+print(max(numbers))
+
+    - **A.** 10 
+    - **B.** 32 
+    - **C.** 98 
+    - **D.** 38
+
+**Watch this video for the answer:** [https://youtube.com/shorts/x7zh_WqO1e4](https://youtube.com/shorts/x7zh_WqO1e4)
+
+**What is the output of the following code?**
+
+```python
+def my_func(fruit):
+    if fruit:
+        return  True
+    return  False
+
+fruits = ["apple","", "orange"
+,"mango" ]
+
+print(list(filter(my_func,fruits)))
+```python
+
+**A)** ['apple', 'orange', 'mango']
+**B)** ['apple', '', 'orange', 'mango']
+**C)** ['', '', '']
+**D)** ['True', 'False', 'True', 'True']
+
+**Watch this video for the answer:** [https://youtube.com/shorts/gkGpJfxsDew](https://youtube.com/shorts/gkGpJfxsDew)
+
+
 ## Fill in the Blanks
 
 **Answer Key (Fill in the Blanks):**

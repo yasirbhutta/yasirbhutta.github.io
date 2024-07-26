@@ -188,3 +188,63 @@ a. True
 b. False
 c. [1, 2]
 d. None of the above
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **What is the difference between and and or operators in Python?**
+
+   - A) and returns True if both operands are True and or returns True if either operand is True
+   - B) and returns True if either operand is True and or returns True if both operands are True
+   - C) and returns False if both operands are False and or returns False if either operand is False
+   - D) both A and C are correct
+
+Answer: D
+  
+**Watch this video for the answer:**
+
+Which of these operators can be used to perform bitwise operations on integers in Python? a) & | ^ ~ << >> b) && || ! << >> c) * / % ** // d) + - * /
+Answer: a) & | ^ ~ << >>
+
+
+What is the correct way to use the exponentiation operator in Python?
+
+a) x ^ y b) x ** y c) pow(x, y) d) either b or c
+
+Answer: d) either b or c
+
+
+#60 In Python, What is the output of this code?
+
+x = 10
+y = 5
+x = x + y
+y = x - y
+x = x - y
+print(x, y)
+
+
+a) 10, 5 
+b) 5, 10 
+c) 15, -5 
+d) -5, 15
+
+Answer: b) 5, 10
+
+
+**Answer key (Mutiple Choice):**
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+## Review Questions
+
+## References and Bibliography
