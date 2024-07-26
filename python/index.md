@@ -29,6 +29,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Data Structures and Sequences](docs/dss.md)
 - [String Methods](docs/str-methods.md)
 - [Built-in Functions](docs/built_in_functions.md)
+- [Comprehensions (List and Dictionary)](docs/comprehensions.md)
 - [Anonymous Functions (Lambdas)](docs/lambdas.md)
 - [Generator Functions](docs/generators.md)
 - [Decorators](docs/decorators.md)

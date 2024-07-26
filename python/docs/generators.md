@@ -14,7 +14,14 @@
    - B) type()
    - C) str()
    - D) isinstance()
-  
+
+
+
+What is the correct way to create a generator in Python?
+a) def generator(): b) yield generator() c) generator = () d) generator = []
+
+Answer: b) yield generator()
+
 **Watch this video for the answer:**
 
 **Answer key (Mutiple Choice):**

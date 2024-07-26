@@ -154,16 +154,56 @@ print(list(squared_numbers))
 
 ## Multiple Choice (Select the best answer)
 
-What is the correct way to create a decorator in Python?
-a) @decorator b) def decorator(): c) decorator = () d) decorator = []
+#23 What is the main purpose of a function in Python?
 
-Answer: a) @decorator
+#python #pythonpoll #MCQsTest #yasirbhutta
 
-What is the correct way to create a generator in Python?
-a) def generator(): b) yield generator() c) generator = () d) generator = []
+a) To group a set of related code into a single unit
+b) To create a new type of data
+c) To write a program in a single line
+d) To change the value of global variables
+Answer: a) To group a set of related code into a single unit
 
-Answer: b) yield generator()
 
+#22 What is the purpose of the return statement in a function in Python?
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+a) To print the output of the function
+b) To exit the function and return a value
+c) To execute the function without returning anything
+d) To stop the function and start a new one
+
+Answer: b) To exit the function and return a value
+
+How can you pass parameters to a function in Python?
+a) By listing the parameters after the function name, separated by commas
+b) By enclosing the parameters in square brackets
+c) By using the global keyword
+d) By using the input() function
+Answer: a) By listing the parameters after the function name, separated by commas
+
+ #19 What is the output of the following code?
+
+def myfunction(val):
+	return val % 4 == 0
+print(myfunction (13) or myfunction (8))
+
+Watch the Video Tutorial for the Answer: https://youtu.be/laKpsLlq60I
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+0
+13
+False
+True
+3.5
+
+What is the correct way to define a function in Python?
+a) function my_function():
+b) def my_function():
+c) define my_function():
+d) my_function() {
 
 
 ## Exercises

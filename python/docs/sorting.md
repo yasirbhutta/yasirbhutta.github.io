@@ -112,7 +112,77 @@ print(numbers)
 2. The _______ function returns a new sorted list.
 3. The _______ parameter is used to specify a custom sorting function.
 4. The _______ parameter is used to reverse the sorting order.
-   
+
+#49 How can you sort a list of dictionaries based on a specific key?
+
+people = [
+    {'name': 'Ali', 'age': 25},
+    {'name': 'Ahmad', 'age': 30},
+    {'name': 'Hamza', 'age': 20}
+]
+
+Watch these Videos Tutorial for the Answer: 
+https://youtube.com/shorts/dRNiLVkPtRg?feature=share
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+
+a. sorted_people = sorted(people, key='name')
+b. sorted_people = sorted(people, key='age')
+c. sorted_people = sorted(people, key=lambda  x['name'])
+d. sorted_people = sorted(people, key=lambda x: x['age'])
+
+
+#48 Which of the following is an example of using the sorted() function to sort a list of strings in reverse alphabetical order?
+
+Watch these Videos Tutorial for the Answer: 
+https://youtube.com/shorts/qBBEjpyAJcM?feature=share
+
+https://youtube.com/shorts/Ic58XdR9TS0?feature=share
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+
+a. sorted_fruits = sorted(fruits)
+b. sorted_fruits = sorted(fruits, reverse=True)
+c. sorted_fruits = sorted(fruits, key=len)
+d. sorted_fruits = sorted(fruits, key=lambda x: x[-1], reverse=True
+
+#45 What is the difference between the sort() and sorted() functions in Python?
+
+
+
+
+a. sort() is a built-in function that returns a new sorted list, while sorted() is a method that sorts the list in-place.
+
+b. sort() can only be used on any iterable, while sorted() can be used on lists.
+
+c. sort() is a method that sorts the list in-place, while sorted() is a built-in function that returns a new sorted list.
+
+d. sort() returns a new list, while sorted() returns None.
+
+
+
+Which of the following is an example of using the sort() method to sort a list of integers in descending order?
+a. nums.sort(reverse=True)
+b. nums = sort(nums, reverse=True)
+c. sorted(nums, reverse=True)
+d. nums = nums.sort(reverse=True)
+
+Which of the following is an example of using the sorted() function to sort a list of strings in reverse alphabetical order?
+a. sorted_fruits = sorted(fruits)
+b. sorted_fruits = sorted(fruits, reverse=True)
+c. sorted_fruits = sorted(fruits, key=len)
+d. sorted_fruits = sorted(fruits, key=lambda x: x[-1], reverse=True)
+
+
+How can you sort a list of tuples based on the second element of each tuple?
+a. sorted_items = sorted(items, key=lambda x: x[2])
+b. sorted_items = sorted(items, key=lambda x: x[1])
+c. sorted_items = sorted(items, key=lambda x: x[-1])
+d. sorted_items = sorted(items, key=lambda x: x[0])
+
+
+
 ## Exercises
 
 **1. Sorting Numbers:**

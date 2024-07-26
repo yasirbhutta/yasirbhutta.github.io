@@ -210,6 +210,15 @@ print(area)
    - B) `10`
    - C) `0`
    - D) `5 10`
+
+# 38 What is the purpose of declaring a variable in Python?
+a) To reserve memory space for the variable
+b) To give the variable a name
+c) To initialize the variable with a value
+d) All of the above
+Answer: d
+
+
    
 **Answer key (Mutiple Choice):**
 

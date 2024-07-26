@@ -206,8 +206,448 @@ d) either a or b
 
 Answer: d) either a or b
 
-  
+#53 What is the correct way to create a dictionary in Python?
+
+a) dict = [key: value]
+ b) dict = (key: value) 
+c) dict = {key: value} 
+d) dict = <key: value>
+
+Answer: c) dict = {key: value}
+
+#52 What is the correct way to create a list in Python?
+
+a) list = [1, 2, 3] 
+b) list = (1, 2, 3) 
+c) list = {1, 2, 3} 
+d) list = <1, 2, 3>
+
 **Watch this video for the answer:**
+
+#47 In Python, What is the output of the following code?
+
+a = [1, 2, 3, 4]
+b = [5, 7, 4, 9,2]
+print (a[-1] in b)
+
+Follow me 
+https://www.facebook.com/yasirbhutta786
+
+True
+False
+Error
+None
+
+#35 What is the output of the following code?
+
+def fun(arr):
+    arr = arr[::-1]
+    
+arr = [1,2,3,4,5]
+fun(arr)
+print(arr)
+
+Watch the Video Tutorial for the Answer: https://youtube.com/shorts/Ix-h6WR-vQM?feature=share
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+[1,2,3,4,5]
+[5,4,3,2,1]
+[]
+Error
+
+Answer: A.
+
+#24 What is the syntax to create a union of two sets in Python?
+
+Watch the Video Tutorial for the Answer: https://youtu.be/YDyCNYCUK9A
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+a. set1 + set2
+b. set1.union(set2)
+c. set1 & set2
+d. set1.merge(set2)
+
+Answer: b. set1.union(set2)
+
+#26 What is the result of the following code?
+
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set3 = set1.union(set2)
+print(set3)
+
+Watch the Video Tutorial for the Answer: https://youtu.be/YDyCNYCUK9A
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+
+a. {1, 2, 3}
+b. {3, 4, 5}
+c. {1, 2, 3, 4, 5}
+d. {3}
+Answer: c. {1, 2, 3, 4, 5}
+
+Is it possible to use the union operator | to combine sets with different data types?
+a. Yes
+b. No
+Answer: b. No
+
+#25 Can the union of two sets contain duplicates?
+
+Watch the Video Tutorial for the Answer: https://youtu.be/YDyCNYCUK9A
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+a. Yes
+b. No
+Answer: b. No
+
+#27 What happens when you try to add an element to a set that already exists in the set?
+
+Watch the Video Tutorial for the Answer: https://youtu.be/YDyCNYCUK9A
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+
+a. A TypeError occurs
+b. The element is added as a duplicate
+c. Nothing happens, the element is not added
+
+Answer: c. Nothing happens, the element is not added.
+
+What is the output of the following code?
+
+list1 = [10,20,10,'10',20]
+set1 = set(list1)
+print(set1)
+
+5
+3
+2
+4
+Answer: B) 3
+
+What is the output of the following code?
+
+set1 = {1,2,3}
+set2 = {1,2,3}
+print(*(set1+set2))
+
+Error
+{2,4,6}
+[2,4,6]
+[1,2,3]
+
+Answer: A) error + operator is not supported for set
+
+What does the "in" operator do in Python?
+a) check if a value is present in a list
+b) check if a value is equal to another value
+c) check if a variable is defined
+Answer: a) check if a value is present in a list
+
+Can the "in" operator be used with dictionaries in Python?
+a) yes
+b) no
+Answer: a) yes
+
+How would you check if the value "dog" is in the list ['cat', 'dog', 'elephant'] using the "in" operator?
+a) 'dog' in ['cat', 'dog', 'elephant']
+b) ['dog'] in ['cat', 'dog', 'elephant']
+Answer: a) 'dog' in ['cat', 'dog', 'elephant']
+
+
+Can the "in" operator be used to check if an element is present in a set in Python?
+a) yes
+b) no
+Answer: a) yes
+
+How would you check if the value "dog" is in the set {'cat', 'dog', 'elephant'} using the "in" operator?
+a) 'dog' in {'cat', 'dog', 'elephant'}
+b) {'dog'} in {'cat', 'dog', 'elephant'}
+Answer: a) 'dog' in {'cat', 'dog', 'elephant'}
+
+#14 Is the "in" operator faster for checking if an element is present in a set compared to a list in Python?
+
+https://lucasmagnum.medium.com/pythontip-list-vs-set-performance-experiments-dfbe4f72d47f
+
+a) yes
+b) no
+Answer: a) yes
+
+#13 What does the "in" operator do in Python?
+
+a) check if a value is present in a list
+b) check if a value is equal to another value
+c) check if a variable is defined
+Answer: a) check if a value is present in a list
+
+Can the "in" operator be used with dictionaries in Python?
+
+a) yes
+b) no
+Answer: a) yes
+
+How would you check if the value "dog" is in the list ['cat', 'dog', 'elephant'] using the "in" operator?
+
+a) 'dog' in ['cat', 'dog', 'elephant']
+b) ['dog'] in ['cat', 'dog', 'elephant']
+Answer: a) 'dog' in ['cat', 'dog', 'elephant']
+
+What is the operator used to check if an element is present in a set in python?
+
+in
+contains
+has 
+exit
+
+Answer: A) in
+
+
+What is the output of the following code?
+
+
+>>>t=(1,2,4,3)
+>>>t[1:3]
+a) (1, 2)
+b) (1, 2, 4)
+c) (2, 4)
+d) (2, 4, 3)
+
+#8 What is the output of the following code?
+
+z=set('stri$ng')
+print('r' in z)
+
+Python YouTube Playlist: https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja
+
+a) Error
+b) True
+c) False
+d) No output
+
+Which of the following is a Python tuple?
+
+Python YouTube Playlist: https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja
+
+a) {1, 2, 3}
+b) {}
+c) [1, 2, 3]
+d) (1, 2, 3)
+
+#9 Which of the following Python statements will result in the output: 6
+
+A = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+
+Python YouTube Playlist: https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja
+
+
+a) A[2][1]
+b) A[1][2]
+c) A[3][2]
+d) A[2][3]
+
+Answer: b
+Explanation: The output that is required is 6, that is, row 2, item 3. This position is represented by the statement: A[1][2].
+
+11# Which of the following statements is used to create an empty set in Python?
+
+related video:https://youtube.com/shorts/nmI7BGXPA4I
+
+a) ( )
+b) [ ]
+c) { }
+d) set()
+Explanation: { } creates a dictionary not a set. Only set() creates an empty set.
+
+
+#15 What method is used to add an element to the end of a list in Python?
+
+Watch the Video Tutorial for the Answer:https://youtu.be/x98wvk-4MHw
+
+#python #pythonpoll #MCQsTest
+
+A) append()
+B) insert()
+C) extend()
+D) append_list()
+Answer: A) append()
+
+#16 How do you add an element to a specific index in a list in Python?
+
+Watch the Video Tutorial for the Answer: https://youtu.be/x98wvk-4MHw
+
+#python #pythonpoll #MCQsTest 
+
+A) add_index()
+B) insert()
+C) extend()
+D) append()
+Answer: B) insert()
+
+#17 What function is used to remove the last element from a list in Python?
+
+Watch the Video Tutorial for the Answer:https://youtu.be/x98wvk-4MHw
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+
+A) del_last()
+B) remove_last()
+C) pop()
+D) delete_end()
+Answer: C) pop()
+
+#18 How can you remove the first occurrence of an element from a list in Python?
+
+Watch the Video Tutorial for the Answer: https://youtu.be/x98wvk-4MHw
+
+#python #pythonpoll #MCQsTest #yasirbhutta
+
+A) remove()
+B) delete_first()
+C) pop_first()
+D) del_first()
+Answer: A) remove()
+
+What is the output of the following code?
+
+list1 = [12,98,23,70,66]
+list1[1:4] = [20]
+print(list1)
+
+[12,20,66] 
+[12,20,23,70,66]
+ [12,98,23,20,66]
+Error
+
+Which of the following is not a core data type in Python?
+a) List
+b) Tuple
+c) Dictionary
+d) Class
+
+How would you create a tuple with only one element?
+
+a) my_tuple = (1,)
+b) my_tuple = (1)
+c) my_tuple = [1]
+d) my_tuple = {1}
+
+What is the result of the following code?
+
+x = [1, 2, 3]
+y = x
+y[1] = 4
+print(x)
+
+a) [1, 2, 3]
+b) [1, 4, 3]
+c) [4, 2, 3]
+d) [1, 2, 4]
+
+What is the result of the following code?
+
+x = [1, 2, 3]
+y = x
+y = [4, 5, 6]
+
+print(x)
+a) [1, 2, 3]
+b) [4, 5, 6]
+c) [1, 4, 5, 6]
+d) [4, 5, 6, 1, 2, 3]
+
+How would you add an element to the end of a list in Python?
+a) list.append(element)
+b) list += element
+c) list.push(element)
+d) list = list + [element]
+
+#5 What is the result of the following code?
+
+x = {1: 'a', 2: 'b', 3: 'c'}
+y = x.copy()
+y[1] = 'd'
+print(x)
+
+related video: https://youtube.com/shorts/PXp9uzvKFdU?feature=share
+
+a) {1: 'a', 2: 'b', 3: 'c'}
+b) {1: 'd', 2: 'b', 3: 'c'}
+c) {1: 'd', 2: 'b', 3: 'c', 4: 'd'}
+d) {1: 'a', 2: 'b', 3: 'c', 1: 'd'}
+
+How do you create an empty tuple in Python?
+
+related video: https://youtu.be/nGIWcYXj580
+
+a) tuple()
+b) {}
+c) ()
+d) []
+Answer: c) ()
+
+How do you create a tuple with multiple elements in Python?
+related video: https://youtu.be/QpRiHuQycXg
+
+a) tuple(1, 2, 3)
+b) (1, 2, 3)
+c) {1, 2, 3}
+d) [1, 2, 3]
+Answer: b) (1, 2, 3)
+
+What is the correct way to create a tuple with a single element in Python?
+related video: https://youtu.be/nGIWcYXj580
+
+a) tuple(1)
+b) (1,)
+c) {1}
+d) [1]
+Answer: b) (1,)
+
+How do you add an element to an existing tuple in Python?
+a) tuple.append(element)
+b) tuple + (element,)
+c) tuple.extend(element)
+d) Tuples are immutable, so it is not possible to add an element to an existing tuple.
+Answer: d) Tuples are immutable, so it is not possible to add an element to an existing tuple.
+
+How do you remove an element from a tuple in Python?
+a) tuple.remove(element)
+b) tuple.pop(element)
+c) Tuples are immutable, so it is not possible to remove an element from a tuple.
+d) del tuple[element]
+Answer: c) Tuples are immutable, so it is not possible to remove an element from a tuple.
+
+
+What is the output of this code in PYTHON?
+list1=[1,2,3,4,5]
+print(list1[:4].pop())
+
+[1,2,3,4]
+5
+[1,2,3,5]
+4
+
+What is the output of this code in PYTHON?
+list1=[1,2,34,5]
+print(list1[:4].pop())
+
+[1,2,3,4]
+5
+[1,2,3,5]
+4
+
+
+
+
+
+
 
 **Answer key (Mutiple Choice):**
 
