@@ -154,6 +154,24 @@ print(list(squared_numbers))
 
 ## Multiple Choice (Select the best answer)
 
+What is the output of the following code? [Python Quiz #2]
+
+```python
+def foo(x):
+  if x == 1:
+    return 1
+  else:
+    return x * foo(x - 1)
+
+print(foo(5))
+```
+- A) 5
+- B) 15
+- C) 120
+- D) None
+  
+**Watch this video for answer:** [https://www.youtube.com/shorts/k50czTu7vao](https://www.youtube.com/shorts/k50czTu7vao) 
+
 #23 What is the main purpose of a function in Python?
 
 #python #pythonpoll #MCQsTest #yasirbhutta

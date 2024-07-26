@@ -197,6 +197,26 @@ d. None of the above
 
 ## Multiple Choice (Select the best answer)
 
+**What is the output of the following Python code? [Python Quiz #1]**
+
+```python
+x = 10
+y = 5
+
+x = x + y
+y = x - y
+x = x - y
+
+print(x, y)
+
+```
+- A) 5 0
+- B) 5 -5
+- C) 10 5
+- D) 5 10
+
+**Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
+
 1. **What is the difference between and and or operators in Python?**
 
    - A) and returns True if both operands are True and or returns True if either operand is True
