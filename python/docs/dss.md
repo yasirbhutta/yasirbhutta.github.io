@@ -264,6 +264,23 @@ print(len(my_list))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/t7SVFVPrPlk?si=h9nAfaOPofOLnwu4](https://youtube.com/shorts/t7SVFVPrPlk?si=h9nAfaOPofOLnwu4)
 
+**What is the output of the following code? [Python Quiz #32]**
+**Code Explanation:**
+
+```python
+a = [1, 2, 3]  # Creates a list named 'a' with elements 1, 2, and 3
+b = a.copy()   # Creates a copy of list 'a' and assigns it to 'b'
+a[0] = 4       # Modifies the first element of list 'a' to 4
+print(b)       # Prints the contents of list 'b'
+```
+
+- A) [4, 2, 3]
+- B) [1, 2, 3]
+- C) [2, 4, 3]
+- D) Error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/Jub8TgDntRQ?si=wt8IPaFgr4BMEk7E](https://youtube.com/shorts/Jub8TgDntRQ?si=wt8IPaFgr4BMEk7E)
+
 What is the data type of the following value?
 frozenset({1, 2, 3})
 a) list b) tuple c) set d) frozenset
