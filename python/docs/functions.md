@@ -208,6 +208,30 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
+**What is the output of the following code? [Python Quiz #30]**
+
+**Code:**
+
+```python
+def calculate_sum(n):
+    if n == 0:
+        return 0
+    else:
+        return n + calculate_sum(n-1)
+
+print(calculate_sum(4))
+```
+
+**Options:**
+
+* A) 4
+* B) 6
+* C) 10
+* D) 15
+
+
+**Watch the video for the answer:** [https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W](https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W)
+
 #23 What is the main purpose of a function in Python?
 
 #python #pythonpoll #MCQsTest #yasirbhutta

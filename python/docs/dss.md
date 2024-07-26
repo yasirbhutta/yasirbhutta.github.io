@@ -224,6 +224,46 @@ print(my_list[1:-1])
 
 **Watch the video for the answer:** [https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_](https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_)
 
+**What is the output of the following code? [Python Quiz #25]**
+
+```python
+my_dict = {
+    'a': 1, 'b': 2,
+    'c': 3
+}
+
+for key in my_dict:
+    print(my_dict[key])
+```
+
+- A) abc
+- B) 123
+- C) {1, 2, 3}
+- D) {a, b, c}
+
+**Watch the video for the answer:** [https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF](https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF)
+
+**What is the output of the following code? [Python Quiz #26]**
+
+```python
+my_list = [
+    "apple",
+    "banana",
+    "cherry"
+]
+
+print(len(my_list))
+```
+
+**Options:**
+
+* A) 6
+* B) 3
+* C) [apple, banana, cherry]
+* D) Error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/t7SVFVPrPlk?si=h9nAfaOPofOLnwu4](https://youtube.com/shorts/t7SVFVPrPlk?si=h9nAfaOPofOLnwu4)
+
 What is the data type of the following value?
 frozenset({1, 2, 3})
 a) list b) tuple c) set d) frozenset

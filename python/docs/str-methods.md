@@ -47,7 +47,20 @@ print(a.find("is"))
 - C) 7
 - D) 2
 
-**Watch this video for the answer:**
+**Watch this video for the answer:** [https://youtube.com/shorts/6rZpvEfzWf4](https://youtube.com/shorts/6rZpvEfzWf4)
+
+**What is the output of the following code? [Python Quiz #27]**
+```python
+a = "hello world"
+print(a[-5:-2])
+```
+
+- A)orl
+- B)wor
+- C)rld
+- D)ld
+
+**Watch this video for the answer:** [https://youtube.com/shorts/kLrdURzJ1Uk?si=N6LKU3v2ikrmgaFu](https://youtube.com/shorts/kLrdURzJ1Uk?si=N6LKU3v2ikrmgaFu)
 
 **Answer key (Mutiple Choice):**
 

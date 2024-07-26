@@ -246,6 +246,22 @@ What is the output of the following expression? [Python Quiz #12]
 
 **Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
 
+What is the output of the following expression? [Python Quiz #24]
+
+```python
+x = 10
+y = 5
+print(x % y)
+```
+
+- A) 2
+- B) 5
+- C) 0
+- D) 1
+  
+**Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
+
+
 1. **What is the difference between and and or operators in Python?**
 
    - A) and returns True if both operands are True and or returns True if either operand is True

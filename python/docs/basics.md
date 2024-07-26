@@ -487,6 +487,40 @@ Error message: `IndentationError: unexpected indent`"
 **print function**
 
 [video:Can You Guess the Output of this Python Code? | print Quiz](https://youtu.be/WD92M8WXRZM?si=1FgSE-5Vr1aFCVR-)
+
+**What is the output of the following code? [Python Quiz #28]**
+
+**Code:**
+
+```python
+print("I", "love", "Python", sep="-")
+```
+
+**Options:**
+
+- A) I-love-Python
+- B) I love Python
+* C) I, love, Python
+* D) Syntax error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/WD92M8WXRZM?si=kJ5jbIAaIlJ_63ia](https://youtube.com/shorts/WD92M8WXRZM?si=kJ5jbIAaIlJ_63ia)
+
+What will be the output of the following code? [Python Quiz #29]
+
+```python
+x = 5
+y = 3
+print("The value of x is", x, "and the value of y is", y)
+```
+
+- **A)** Syntax error
+- **B)** The value of x is {} and the value of y is {}
+- **C)** The value of x is 3 and the value of y is 5
+- **D)** The value of x is 5 and the value of y is 3
+
+**Watch the video for the answer:** [https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9](https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9)
+
+
 > Which of the following is the correct syntax for the print statement in Python?
 
 1. [ ] print ("text")

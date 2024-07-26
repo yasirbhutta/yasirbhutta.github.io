@@ -629,6 +629,22 @@ else:
 
 **Watch this video for the answer:** [https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
+**What is the output of the following code? [Python Quiz #31]**
+x = 3
+y = 5
+
+if x == 3 and y != 5:
+    print("True")
+else:
+    print("False")
+
+- A) True
+- B) False
+- C) Syntax error
+- D) Name error
+  
+**Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
+
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
     - B) if(condition) { block of code }
@@ -1112,6 +1128,8 @@ for i in range(0, len(a), 2):
 - D) Syntax error
 
 **Watch the video for the answer:** [https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU](https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU)
+
+
 
 > What is the output of the following code?
 
