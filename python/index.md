@@ -45,6 +45,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [pandas](docs/modules/pandas.md)
 - [Numpy](docs/modules/numpy.md)
 - [calendar](docs/modules/calendar.md)
+- [random](docs/modules/random.md)
 - [Python for Kids](docs/python-kids.md)
 
 ### File Handling
