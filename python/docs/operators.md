@@ -66,16 +66,35 @@ is_allowed = (is_member) or (has_ticket)
 
 **5. Identity Operators:**
 
-- Used to check if two variables refer to the same object in memory.
+- In Python, the `is` operator is used to compare the identities of two objects. It checks whether two references point to the same object in memory, not whether the values of the two objects are equal. 
 - Operators: `is`, `is not`
 
-- Examples:
+Here's a simple example to illustrate the difference between `is` and `==`:
+
+```python
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+print(a == b)  # Output: True, because the lists have the same content
+print(a is b)  # Output: False, because they are different objects in memory
+print(a is c)  # Output: True, because both references point to the same object
+```
+
+In this example:
+- `a == b` is `True` because the values in both lists are the same.
+- `a is b` is `False` because they are two different objects in memory, even though their contents are identical.
+- `a is c` is `True` because `c` is assigned to the same object as `a`, so they reference the same memory location.
+  
+**Example 2**
 
 ```python
 x = 5
 y = 5
 result = x is y  # True (they refer to the same integer object)
 ```
+
+**Important:** In Python, small integers (typically between -5 and 256) are cached and reused. This means that when you assign x = 5 and y = 5, both variables reference the same integer object in memory. This behavior is part of Python's optimization to save memory and improve performance, as small integers are frequently used. [1]
 
 **6. Membership Operators:**
 
@@ -168,7 +187,6 @@ print(11 % 3 == (11 - 3 * (11 // 3)))
   - B) False
 
 **Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
-
 
 2. **Comparison Operators:**
 
@@ -335,3 +353,6 @@ Answer: b) 5, 10
 ## Review Questions
 
 ## References and Bibliography
+
+[1] “Python memory management,” Discussions on Python.org, Apr. 02, 2023. https://discuss.python.org/t/python-memory-management/25391 (accessed Jul. 27, 2024).
+‌
