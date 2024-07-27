@@ -611,7 +611,7 @@ def get_fruit_color(fruit):
 
 **if statement:**
 
-** What is the output of the following code** [Python Quiz #16]
+**What is the output of the following code** [Python Quiz #16](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
 ```python
 x = 10
@@ -629,7 +629,9 @@ else:
 
 **Watch this video for the answer:** [https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
-**What is the output of the following code? [Python Quiz #31]**
+**What is the output of the following code?** [Python Quiz #31](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
+
+```python
 x = 3
 y = 5
 
@@ -637,11 +639,11 @@ if x == 3 and y != 5:
     print("True")
 else:
     print("False")
-
-- A) True
-- B) False
-- C) Syntax error
-- D) Name error
+```
+    - A) True
+    - B) False
+    - C) Syntax error
+    - D) Name error
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
 

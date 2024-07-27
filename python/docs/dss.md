@@ -281,6 +281,41 @@ print(b)       # Prints the contents of list 'b'
 
 **Watch the video for the answer:** [https://youtube.com/shorts/Jub8TgDntRQ?si=wt8IPaFgr4BMEk7E](https://youtube.com/shorts/Jub8TgDntRQ?si=wt8IPaFgr4BMEk7E)
 
+**What is the output of the following code?** [Python Quiz #34](https://youtube.com/shorts/rslioE6VWOQ)
+
+```python
+a = [1, 2, 3]
+b = a[:]
+b[0] = 4
+print(a)
+```
+
+- A) [1, 2, 3]
+- B) [4, 2, 3]
+- C) [4, 4, 3]
+- D) [4, 2, 3]
+
+**Watch the video for the answer:** [https://youtube.com/shorts/rslioE6VWOQ](https://youtube.com/shorts/rslioE6VWOQ)
+
+**What is the output of the following code? [Python Quiz #35]**
+**Code:**
+
+```python
+my_list = [1, 2, 3, 4, 5]
+for i in range(len(my_list)):
+    my_list[i] *= 2
+print(my_list)
+```
+
+**Options:**
+
+* A) [1, 2, 3, 4, 5]
+* B) [2, 4, 6, 8, 10]
+* C) [1, 4, 9, 16, 25]
+* D) None
+
+**Watch the video for the answer:** [https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn](https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn)
+
 What is the data type of the following value?
 frozenset({1, 2, 3})
 a) list b) tuple c) set d) frozenset

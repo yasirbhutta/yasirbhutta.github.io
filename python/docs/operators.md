@@ -12,6 +12,8 @@
 - Used for performing basic mathematical calculations.
 - Operators: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `//` (floor division), `%` (modulo), `**` (exponentiation)
 
+[video: Basic Mathematical Operations with Examples](https://youtu.be/fDul88llyHM)
+
 - Examples:
 
 ```python
@@ -98,6 +100,109 @@ is_missing = 2 not in numbers  # True
 **Python operators examples:**
 - [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
 
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **Arithmetic Operators:**
+
+**What is the output of the following Python code?** [Python Quiz #2](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
+
+```python
+x = 10
+y = 5
+
+x = x + y
+y = x - y
+x = x - y
+
+print(x, y)
+
+```
+  - A) 5 0
+  - B) 5 -5
+  - C) 10 5
+  - D) 5 10
+
+**Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
+
+**What is the output of the following expression?** [Python Quiz #12](https://youtube.com/shorts/_cHsABqmmcM)
+
+```python
+2 ** 3 + 4 // 2 - 1
+```
+    - A) 8 
+    - B) 9 
+    - C) 10 
+    - D) 11
+
+**Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
+
+**What is the output of the following expression?** [Python Quiz #24](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
+
+```python
+x = 10
+y = 5
+print(x % y)
+```
+
+- A) 2
+- B) 5
+- C) 0
+- D) 1
+  
+**Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
+
+**What is the output of the following code?** [Python Quiz #33](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
+
+```python
+print(11 % 3 == (11 - 3 * (11 // 3)))
+```
+
+  - A) True
+  - B) False
+
+**Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
+
+
+2. **Comparison Operators:**
+
+**What is the output of the following Python code?** [Python Quiz #10](https://youtube.com/shorts/FRa0r4UxyXM)
+```python
+x = 5
+y = 10
+
+result = x > 3 or y < 5
+print(result)
+```
+**A)** True
+**B)** False
+**C)** SyntaxError
+**D)** None of these
+
+**Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
+
+
+**3. Assignment Operators:**
+**4. Logical Operators:**
+**5. Identity Operators:**
+**6. Membership Operators:**
+**7. Bitwise Operators:**
+
+1. **What is the difference between and and or operators in Python?**
+
+   - A) and returns True if both operands are True and or returns True if either operand is True
+   - B) and returns True if either operand is True and or returns True if both operands are True
+   - C) and returns False if both operands are False and or returns False if either operand is False
+   - D) both A and C are correct
+
+Answer: D
+  
 What is the difference between == and = in Python?
 
 a) == is the comparison operator, = is the assignment operator
@@ -189,137 +294,6 @@ b. False
 c. [1, 2]
 d. None of the above
 
-## Key Terms
-
-## True/False (Mark T for True and F for False)
-
-**Answer Key (True/False):**
-
-## Multiple Choice (Select the best answer)
-
-**What is the output of the following Python code? [Python Quiz #1]**
-
-```python
-x = 10
-y = 5
-
-x = x + y
-y = x - y
-x = x - y
-
-print(x, y)
-
-```
-- A) 5 0
-- B) 5 -5
-- C) 10 5
-- D) 5 10
-
-**Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
-
-
-What is the output of the following Python code? [Python Quiz #10]
-
-x = 5
-y = 10
-
-result = x > 3 or y < 5
-print(result)
-
-**A)** True
-**B)** False
-**C)** SyntaxError
-**D)** None of these
-
-**Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
-
-What is the output of the following expression? [Python Quiz #12]
-
-```python
-2 ** 3 + 4 // 2 - 1
-```
-
-**A)** 8 
-**B)** 9 
-**C)** 10 
-**D)** 11
-
-**Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
-
-What is the output of the following expression? [Python Quiz #24]
-
-```python
-x = 10
-y = 5
-print(x % y)
-```
-
-- A) 2
-- B) 5
-- C) 0
-- D) 1
-  
-**Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
-
-**What is the output of the following code? [Python Quiz #33]**
-
-```python
-print(11 % 3 == (11 - 3 * (11 // 3)))
-```
-
-**Options:**
-
-* A) True
-* B) False
-
-**Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
-
-**What is the output of the following code? [Python Quiz #34]**
-**Code:**
-
-```python
-a = [1, 2, 3]
-b = a[:]
-b[0] = 4
-print(a)
-```
-
-- A) [1, 2, 3]
-- B) [4, 2, 3]
-- C) [4, 4, 3]
-- D) [4, 2, 3]
-
-**Watch the video for the answer:** [https://youtube.com/shorts/rslioE6VWOQ](https://youtube.com/shorts/rslioE6VWOQ)
-
-**What is the output of the following code? [Python Quiz #35]**
-**Code:**
-
-```python
-my_list = [1, 2, 3, 4, 5]
-for i in range(len(my_list)):
-    my_list[i] *= 2
-print(my_list)
-```
-
-**Options:**
-
-* A) [1, 2, 3, 4, 5]
-* B) [2, 4, 6, 8, 10]
-* C) [1, 4, 9, 16, 25]
-* D) None
-
-**Watch the video for the answer:** [https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn](https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn)
-
-1. **What is the difference between and and or operators in Python?**
-
-   - A) and returns True if both operands are True and or returns True if either operand is True
-   - B) and returns True if either operand is True and or returns True if both operands are True
-   - C) and returns False if both operands are False and or returns False if either operand is False
-   - D) both A and C are correct
-
-Answer: D
-  
-**Watch this video for the answer:**
 
 Which of these operators can be used to perform bitwise operations on integers in Python? a) & | ^ ~ << >> b) && || ! << >> c) * / % ** // d) + - * /
 Answer: a) & | ^ ~ << >>
