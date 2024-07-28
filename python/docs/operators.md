@@ -115,6 +115,19 @@ is_missing = 2 not in numbers  # True
 - Operators: `&` (bitwise AND), `|` (bitwise OR), `^` (bitwise XOR), `~` (bitwise NOT), `<<` (left shift), `>>` (right shift)
 - These are less common in general-purpose programming, but useful in certain domains like low-level programming or cryptography.
 
+## `id()` function
+
+In Python, the `id()` function returns the "identity" of an object, which is a unique integer that serves as a constant for the object during its lifetime. The `id` is often the memory address of the object. Here's a simple example:
+
+```python
+x = 10
+print(id(x))
+
+y = "hello"
+print(id(y))
+```
+
+This code will print the unique identifiers for the variables `x` and `y`. If you have specific objects or variables in mind that you would like to see the `id` for, please let me know!
 
 **Python operators examples:**
 - [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)

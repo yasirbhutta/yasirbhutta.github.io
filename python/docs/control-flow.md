@@ -268,25 +268,25 @@ for item in iterable:
 
 Question: Write a MATLAB program to print the numbers from 1 to 5, using a for loop.
 
-**Example #:**
+**Example #1:**
 
 ```python
 for i in range(6):
     print(i)
 ```
 
-**Example #:** Printing "Building the future, one line at a time." 5 Times Using a for Loop
+**Example #2:** Printing "Building the future, one line at a time." 5 Times Using a for Loop
 
 **Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
 
-**Example #:**
+**Example #2:**
 
 ```python
 for i in range(5):
     print("Building the future, one line at a time.")
 ```
 
-**Example #:** Sum of Numbers from 1 to N
+**Example #3:** Sum of Numbers from 1 to N
 
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
@@ -298,7 +298,7 @@ for i in range(1,N+1):
 print(f"Sum = {sum}")
 ```
 
-**Example #:** Print Even Numbers from 2 to 10
+**Example #4:** Print Even Numbers from 2 to 10
 
 **Question:** Write a Python program to display the even numbers from 2 to 10, inclusive, using a for loop.
 
@@ -311,7 +311,7 @@ for i in range(2,11):
 print(f"Sum of even numbers: {sum}")
 ```
 
-**Example #:** Strings as an iterable
+**Example #5:** Strings as an iterable
 
 ```python
 string = "python is versatile"
@@ -319,7 +319,7 @@ for x in string:
     print(x)
 ```
 
-**Example #:** Lists as an iterable
+**Example #6:** Lists as an iterable
 
 ```python
 collection = ['python', 5, 'd']
@@ -327,7 +327,7 @@ for x in collection:
     print(x)
 ```
 
-**Example #:** Loop over Lists of lists
+**Example #7:** Loop over Lists of lists
 
 ```python
 list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -338,7 +338,7 @@ for list in list_of_lists:
 
 - A **nested loop** is a loop inside another loop. It is a powerful programming technique that can be used to solve a wide variety of problems.
 
-**Example #:** Nested Loops - Multiplication Tables
+**Example #:8** Nested Loops - Multiplication Tables
 
 ```python
 for i in range(1, 11):

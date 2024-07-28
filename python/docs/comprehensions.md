@@ -1,4 +1,24 @@
+# Python List, Set and Dict Comprehensions
 
+## List Comprehensions
+
+**List comprehension examples:**
+
+- [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
+- [Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
+- [How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
+- [How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
+- [Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
+
+## Dict Comprehension
+
+Dictionary comprehensions are a powerful and concise way to create dictionaries in Python.
+
+**Syntax:**
+
+```python
+{key_expression: value_expression for item in iterable if condition}
+```
 
 ## Key Terms
 
