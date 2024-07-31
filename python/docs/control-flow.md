@@ -1146,6 +1146,21 @@ for i in range(5):
 
 **Watch this video for the answer:** [https://bit.ly/3WqjjEP](https://bit.ly/3WqjjEP)
 
+**What is the output of the following code?**
+```python
+for i in range(3):
+    for j in range(2):
+        print(f"i = {i}, j = {j}")
+```
+    - A) i = 3, j = 2
+    - B) i = 0, j = 1
+    - C) i = 1, j = 1
+    - D) i = 2, j = 1
+
+*Explanation:* This nested loop iterates through all combinations of `i` and `j`. It demonstrates the usage of nested loops, which can be useful in real-life for tasks such as generating tables or grids.
+
+**Answer:** D
+
 **What is the primary purpose of a for loop in Python?**
 
     - A) To define a function
@@ -1206,36 +1221,12 @@ D) To turn off a computer.
 
 **Answer:** A
 
-### Question 7
-**What is the output of the following code?**
-```python
-for i in range(3):
-    for j in range(2):
-        print(f"i = {i}, j = {j}")
-```
-A) i = 3, j = 2
-
-B) i = 0, j = 1
-
-C) i = 1, j = 1
-
-D) i = 2, j = 1
-
-*Explanation:* This nested loop iterates through all combinations of `i` and `j`. It demonstrates the usage of nested loops, which can be useful in real-life for tasks such as generating tables or grids.
-
-**Answer:** D
-
-### Question 8
-
 **Why might you use a `for` loop instead of manually performing repeated tasks?**
 
-A) To reduce the chance of human error.
-
-B) To make the program run slower.
-
-C) To avoid using variables.
-
-D) To limit the program to one iteration.
+    - A) To reduce the chance of human error.
+    - B) To make the program run slower.
+    - C) To avoid using variables.
+    - D) To limit the program to one iteration.
 
 *Explanation:* Using a `for` loop automates repetitive tasks, which helps prevent errors and saves time, especially when processing large datasets or performing repetitive calculations.
 
@@ -1246,13 +1237,10 @@ D) To limit the program to one iteration.
 for x in range(5, 8):
     print(x)
 ```
-A) 5 6 7
-
-B) 5 6 7 8
-
-C) 4 5 6 7
-
-D) 5 6 7 8 9
+    - A) 5 6 7
+    - B) 5 6 7 8
+    - C) 4 5 6 7
+    - D) 5 6 7 8 9
 
 *Explanation:* The `range(5, 8)` function generates numbers starting from 5 up to, but not including, 8.
 
