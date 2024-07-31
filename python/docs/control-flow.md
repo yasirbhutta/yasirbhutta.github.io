@@ -247,8 +247,7 @@ else:
 - The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
 - The Python for statement iterates over the members of a sequence in order, executing the block each time. 
 
-- [Video: For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
-  
+[video: What is it and Why do we Use it? \| Python For loop Tutorial](https://youtu.be/2mhrDgBEp10)
 
 **Syntax:**
 
@@ -264,11 +263,9 @@ for item in iterable:
 - We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
 - We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
 
-**Example #:** Print Numbers from 1 to 5
+**Example #1:** Print Numbers from 1 to 5 [[video]](https://youtu.be/2mhrDgBEp10)
 
-Question: Write a MATLAB program to print the numbers from 1 to 5, using a for loop.
-
-**Example #1:**
+Question: Write a Python program to print the numbers from 1 to 5, using a for loop.
 
 ```python
 for i in range(6):
@@ -279,8 +276,6 @@ for i in range(6):
 
 **Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
 
-**Example #2:**
-
 ```python
 for i in range(5):
     print("Building the future, one line at a time.")
@@ -290,13 +285,7 @@ for i in range(5):
 
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
-```python
-N = 10
-sum = 0
-for i in range(1,N+1):
-    sum = sum + i
-print(f"Sum = {sum}")
-```
+[video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
 **Example #4:** Print Even Numbers from 2 to 10
 
@@ -311,15 +300,11 @@ for i in range(2,11):
 print(f"Sum of even numbers: {sum}")
 ```
 
-**Example #5:** Strings as an iterable
+**Example #5:** [video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
 
-```python
-string = "python is versatile"
-for x in string:
-    print(x)
-```
+**Example #6:** [video: How to Print Multiplication Tables in Python](https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
 
-**Example #6:** Lists as an iterable
+**Example #7:** Lists as an iterable
 
 ```python
 collection = ['python', 5, 'd']
@@ -349,12 +334,7 @@ for i in range(1, 11):
 
 **for loop examples:**
 
-- [Video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
-- [Video: 6 Ways to use List in For loop in Python](https://www.youtube.com/watch?v=-FErgsl9njQ)
 - [Video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
-- [How to Print Multiplication Tables in Python](https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
-- [String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
-- [Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
   
 **Further reading:**
  
@@ -609,7 +589,7 @@ def get_fruit_color(fruit):
 
 ## Multiple Choice (Select the best answer)
 
-**if statement:**
+### if statement (MCQs)
 
 **What is the output of the following code** [Python Quiz #16](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
@@ -646,6 +626,18 @@ else:
     - D) Name error
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
+
+**Which of the following correctly fixes the syntax error in the code below?**
+
+```python
+if x == 10
+    print("x is 10")
+```
+
+A) Remove the comment.
+B) Add a colon after `if x == 10`.
+C) Add parentheses around `x == 10`.
+D) Indent the print statement correctly.
 
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
@@ -1114,119 +1106,244 @@ D) No output
 **Answer:** B
 
 
-**for loop:**
+### for loop (MCQs)
 
-What is the output of the following code? [Python Quiz #23]
-
-```python
-a = [1, 2, 3, 4, 5]
-for i in range(0, len(a), 2):
-    print(a[i])
-```
-
-- A) 135
-- B) 24
-- C) 12345
-- D) Syntax error
-
-**Watch the video for the answer:** [https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU](https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU)
-
-
-
-> What is the output of the following code?
+**What is the output of the following code snippet in Python?** [Python Quiz #3](https://bit.ly/3WKH9wE)
 
 ```python
-fruits = ["Apple", "Banana", "Cherry"]
-for i, fruit in enumerate(fruits):
-    if i == 1:
-        print(fruit)
+for i in range(10):
+    if i % 2 == 0:
+        print(i)
 ```
-1. [ ] Apple
-2. [ ] Banana
-3. [ ] Cherry
-4. [ ] Error
 
-related video: [https://youtu.be/-FErgsl9njQ](https://youtu.be/-FErgsl9njQ)
+A) 0 1 2 3 4 5 6 7 8 9
+B) 0 2 4 6 8
+C) 2 4 6 8
+D) IndentationError: expected an indented block
 
-> What is the correct syntax for a for loop in Python?
+**Watch the video for answer:** [https://bit.ly/3WKH9wE](https://bit.ly/3WKH9wE)
 
-1. [ ] for (int i = 0; i < 10; i++):
-2. [ ] for i in range(10):
-3. [ ] for i = 0 to 9:
-4. [ ] for i in 10:
+**What is the correct syntax for a for loop in Python?**
 
-What will be the output of the following code?
+- A) for (int i = 0; i < 10; i++):
+- B) for i in range(10):
+- C) for i = 0 to 9:
+- D) for i in 10:
+
+**watch the video for the answer:** [https://youtu.be/2mhrDgBEp10](https://youtu.be/2mhrDgBEp10)
+
+**What will be the output of the following code?** [Python Quiz #36](https://bit.ly/3WqjjEP)
 
 ```python
 for i in range(5):
   print(i * 2)
 ```
 
-a) 0 1 2 3 4
-b) 2 4 6 8 10
-c) 10 8 6 4 2
-d) 0 2 4 6 8
+    - A) 0 1 2 3 4
+    - B) 2 4 6 8 10
+    - C) 10 8 6 4 2
+    - D) 0 2 4 6 8
 
-How many times will the following loop execute?
+**Watch this video for the answer:** [https://bit.ly/3WqjjEP](https://bit.ly/3WqjjEP)
 
-for i in [1, 2, 3, 3]:
-  print("Hello")
+**What is the primary purpose of a for loop in Python?**
 
-a) 3
-b) 4
-c) 1
-d) Infinitely
+    - A) To define a function
+    - B) To iterate over a sequence
+    - C) To create a conditional statement
+    - D) To perform mathematical operations
 
-What is the primary purpose of a for loop in Python?
-a. To define a function
-b. To iterate over a sequence
-c. To create a conditional statement
-d. To perform mathematical operations
+**In Python, what does the range() function do when used in a for loop?**
+    - A) Generates a sequence of numbers
+    - B) Defines a list
+    - C) Calculates the average
+    - D) Determines the length of a string
 
-In Python, what does the range() function do when used in a for loop?
-a. Generates a sequence of numbers
-b. Defines a list
-c. Calculates the average
-d. Determines the length of a string
+**How can you create a nested loop in Python?**
 
-How is the syntax for a for loop in Python?
-a. for x in range(10):
-b. while x < 10:
-c. loop for x in 10:
-d. for x = 0; x < 10; x++:
+    - A) by using a loop inside another loop with proper indentation
+    - B) by using a loop inside another loop with parentheses
+    - C) by using a nested keyword before the inner loop
+    - D) by using a colon after the outer loop and before the inner loop
 
-In a for loop, what is the role of the loop variable?
-a. It is used to define the loop
-b. It holds the result of the loop
-c. It is the counter for the loop iterations
-d. It is optional and can be omitted
+**Answer:** A
 
-Which of the following is the correct way to iterate over elements in a list using a for loop?
-a. for item in my_list:
-b. for i = 0; i < len(my_list):
-c. for element = my_list:
-d. for (i, item) in enumerate(my_list):
-
-How can you iterate over both the index and elements of a list using a for loop?
-a. for i in my_list:
-b. for (i, element) in enumerate(my_list):
-c. for element in range(my_list):
-d. for index, element in my_list:
-
-What is the output of the following code?
-
+### Question 4
+**Consider the following code:**
 ```python
-numbers = [1, 2, 3, 4, 5]
-for x in numbers:
-    print(x * 2)
+total = 0
+for i in range(1, 6):
+    total += i
+print(total)
+```
+**What does this code accomplish?**
+
+A) It prints numbers from 1 to 5.
+
+B) It calculates the sum of numbers from 1 to 5.
+
+C) It prints the sum of numbers from 1 to 6.
+
+D) It calculates the sum of numbers from 0 to 5.
+
+*Explanation:* The loop iterates over the range from 1 to 5 (inclusive), summing up the values. The `total` variable accumulates this sum.
+
+**Answer:** B
+
+### Question 6
+
+**How can a `for` loop be used in a real-life scenario involving data processing?**
+
+A) To count the number of words in a large document.
+
+B) To open a web browser.
+
+C) To create a new file on the desktop.
+
+D) To turn off a computer.
+
+*Explanation:* A `for` loop can be used to iterate through the words in a document to count them, making it useful for data analysis tasks.
+
+**Answer:** A
+
+### Question 7
+**What is the output of the following code?**
+```python
+for i in range(3):
+    for j in range(2):
+        print(f"i = {i}, j = {j}")
+```
+A) i = 3, j = 2
+
+B) i = 0, j = 1
+
+C) i = 1, j = 1
+
+D) i = 2, j = 1
+
+*Explanation:* This nested loop iterates through all combinations of `i` and `j`. It demonstrates the usage of nested loops, which can be useful in real-life for tasks such as generating tables or grids.
+
+**Answer:** D
+
+### Question 8
+
+**Why might you use a `for` loop instead of manually performing repeated tasks?**
+
+A) To reduce the chance of human error.
+
+B) To make the program run slower.
+
+C) To avoid using variables.
+
+D) To limit the program to one iteration.
+
+*Explanation:* Using a `for` loop automates repetitive tasks, which helps prevent errors and saves time, especially when processing large datasets or performing repetitive calculations.
+
+**Answer:** A
+
+**What does the following code print?**
+```python
+for x in range(5, 8):
+    print(x)
+```
+A) 5 6 7
+
+B) 5 6 7 8
+
+C) 4 5 6 7
+
+D) 5 6 7 8 9
+
+*Explanation:* The `range(5, 8)` function generates numbers starting from 5 up to, but not including, 8.
+
+**Answer:** A
+
+**What does the following code output?**
+```python
+for i in range(1, 4):
+    for j in range(1, 3):
+        print(i, j)
+```
+A) 1 1 1 2 2 1 2 2 3 1 3 2
+
+B) 1 2 2 3 3 4
+
+C) 1 3 2 3 3 3
+
+D) 1 1 2 2 3 3
+
+*Explanation:* This is a nested loop, where the outer loop runs from 1 to 3 (inclusive) and the inner loop runs from 1 to 2 (inclusive). It prints all combinations of `i` and `j`.
+
+**Answer:** A
+
+**What will be the output of this code?**
+```python
+for i in range(3):
+    print(i * i)
+```
+A) 0 1 4
+
+B) 0 1 2
+
+C) 1 4 9
+
+D) 0 2 4
+
+*Explanation:* The loop iterates over the range 0, 1, 2. For each iteration, it prints the square of the current index `i`.
+
+**Answer:** A
+
+
+**What will the following code output?**
+```python
+for i in range(5, 10, 2):
+    print(i)
+```
+A) 5 7 9
+
+B) 5 6 7 8 9
+
+C) 5 7 9 11
+
+D) 5 7 8
+
+*Explanation:* The `range(5, 10, 2)` generates numbers starting from 5 up to, but not including, 10 with a step of 2, resulting in 5, 7, and 9.
+
+**Answer:** A
+
+### while loop (MCQs)
+
+**What is the output of the following code snippet in Python?** [Python Quiz #7]
+```python
+i = 1
+while i < 10:
+    print(i)
+    i += 2
 ```
 
-a. 2 4 6 8 10
-b. 1 2 3 4 5
-c. 1 4 9 16 25
-d. 2 4 8 16 32
+    - A) 1 2 3 4 5 6 7 8 9
+    - B) 1 3 5 7 9
+    - C) 0
+    - D) IndentationError: expected an indented block
 
-**while loop**
+**Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
+
+What is the output of the following code snippet in Python?
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("Done")
+
+> **A)** 0 1 2 3 4 Done
+> **B)** 0 1 2 3 Done
+> **C)** SyntaxError: invalid syntax
+> **D)** IndentationError: expected an indented block
+
+**Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
+
 
 What is the output of the following code?
 
@@ -1284,23 +1401,6 @@ C) pass and return both do nothing
 D) pass and return both exit the function
 Answer: A
 
-
-What is the output of the following code snippet in Python?
-
-i = 0
-while i < 5:
-    print(i)
-    i += 1
-else:
-    print("Done")
-
-> **A)** 0 1 2 3 4 Done
-> **B)** 0 1 2 3 Done
-> **C)** SyntaxError: invalid syntax
-> **D)** IndentationError: expected an indented block
-
-**Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
-
 How can you create an if-elif-else statement without using elif keyword in Python?2
 
 A) by using nested if-else statements
@@ -1333,71 +1433,37 @@ C) by using a colon after if block and before else block
 D) by using parentheses around if block and else block
 Answer: A
 
-What is the output of the following code snippet in Python?
+### Loop Control Statements (break, continue, pass) (MCQs)
 
+What is the output of the following code snippet in Python?
+```python
 for i in range(5):
     if i == 3:
         continue
     print(i)
+```
 
-**A)** 0 1 2 3
-**B)** 0 1 2 4
-**C)** SyntaxError: invalid syntax
-**D)** IndentationError: expected an indented block
+    - A) 0 1 2 3
+    - B) 0 1 2 4
+    - C) SyntaxError: invalid syntax
+    - D) IndentationError: expected an indented block
 
 **Watch this video for answer:** [https://youtube.com/shorts/x7CIxqoqccY](https://youtube.com/shorts/x7CIxqoqccY)
 
-What is the disadvantage of using control structures in programming languages?3
-
-A) to make the code more difficult to read and maintain
-B) to increase the complexity and redundancy of the code
-C) to decrease the efficiency and performance of the code
-D) none of the above
-Answer: D
-
-How can you create an if-elif-else statement in Python?2
-
-A) by using elif keyword after if block and before else block
-B) by using elif keyword after else block and before if block
-C) by using elif keyword before if block and after else block
-D) by using elif keyword before else block and after if block
-Answer: A
-
-How can you create a nested loop in Python?1
-
-A) by using a loop inside another loop with proper indentation
-B) by using a loop inside another loop with parentheses
-C) by using a nested keyword before the inner loop
-D) by using a colon after the outer loop and before the inner loop
-Answer: A
-
-What is the output of the following code snippet in Python? [Python Quiz #6]
-
+**What is the output of the following code snippet in Python?** [Python Quiz #6]
+```python
 for i in range(5):
     if i == 3:
         break
     print(i)
+```
 
-**A)** 0 1 2
-**B)** 0 1 2 3
-**C)** 1 2 3
-**D)** 0 1 2 3 4
+    - A) 0 1 2
+    - B) 0 1 2 3
+    - C) 1 2 3
+    - D) 0 1 2 3 4
 
 **Watch this video for answer:** [https://youtube.com/shorts/XNLL6j-P61A](https://youtube.com/shorts/XNLL6j-P61A)
-
-What is the output of the following code snippet in Python? [Python Quiz #7]
-
-i = 1
-while i < 10:
-    print(i)
-    i += 2
-
-**A)** 1 2 3 4 5 6 7 8 9
-**B)** 1 3 5 7 9
-**C)** 0
-**D)** IndentationError: expected an indented block
-
-**Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
 
 How can you create a nested if statement in Python?2
 
@@ -1413,20 +1479,6 @@ B) to indicate that a block of code is empty or not implemented yet
 C) to exit a loop or a function prematurely
 D) to pass a value or an argument to another function
 Answer: B
-
-**What is the output of the following code snippet in Python? [Python Quiz #3]**
-
-for in range(10):
-
-    if i % 2 == 0:
-        print(i)
-
-A) 0 1 2 3 4 5 6 7 8 9
-B) 0 2 4 6 8
-C) 2 4 6 8
-D) IndentationError: expected an indented block
-
-**Watch the video for answer:** [https://youtube.com/shorts/9GVHZXNHBmc](https://youtube.com/shorts/9GVHZXNHBmc)
 
 
 What is the syntax of a while loop in Python?1
@@ -1781,7 +1833,52 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
     item3 = float(input("Enter price of item 3: "))
     ```
 
+### For loop Exercises
 
+**Basic Exercises**
+
+1. **Print numbers 1 to 10**: Write a `for` loop to print numbers from 1 to 10. [Python Exercise Solution: Print
+2. **Print even numbers 2 to 20**: Write a `for` loop to print all even numbers from 2 to 20.
+3. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
+4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers.
+5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
+6. **Squares of numbers 1 to 5**: Write a `for` loop to print the squares of numbers from 1 to 5.
+7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1.
+8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times.
+
+**Intermediate Exercises**
+
+11. **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
+12. **Check if a number is prime**: Write a `for` loop to check if a given number is prime.
+13. **Sum of digits of a number**: Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
+14. **Print a pattern of stars**: Use nested `for` loops to print the following pattern:
+    ```
+    *
+    **
+    ***
+    ****
+    *****
+    ```
+15. **Print odd numbers between 1 and 20**: Write a `for` loop to print all odd numbers between 1 and 20.
+16. **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
+
+**Advanced Exercises**
+
+17. **Print the multiplication table for 7**: Write a `for` loop to print the multiplication table for the number 7. 
+18. **Generate a list of even numbers**: Use a `for` loop to generate a list of even numbers between 1 and 20.
+22. **Print numbers divisible by 3 and 5 between 1 and 50**: Use a `for` loop to print all numbers between 1 and 50 that are divisible by both 3 and 5.
+23. **Generate a list of the first 10 square numbers**: Write a `for` loop to create a list of the first 10 square numbers.
+24. **Print a right-angle triangle of numbers**: Use nested `for` loops to print the following pattern:
+    ```
+    1
+    12
+    123
+    1234
+    12345
+    ```
+28. **Print numbers that are multiples of 3 up to 30**: Use a `for` loop to print all multiples of 3 up to 30.
+29. **Find numbers divisible by 7 and 11 between 1 and 100**: Use a `for` loop to print all numbers between 1 and 100 that are divisible by both 7 and 11.
+31. **Calculate the harmonic sum of n numbers**: Write a
 
 ## Review Questions
 
@@ -1797,20 +1894,8 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 ## References and Bibliography
 
 [^1]: In Python, an iterable object is an object that you can loop over using a "for" loop. It's any object that can return its elements one at a time.
-
-
-**Which of the following correctly fixes the syntax error in the code below?**
-
-```python
-if x == 10  # Missing colon
-    print("x is 10")
-```
-
-A) Remove the comment.
-B) Add a colon after `if x == 10`.
-C) Add parentheses around `x == 10`.
-D) Indent the print statement correctly.
-
+[2] “ForLoop - Python Wiki,” Python.org, 2017. https://wiki.python.org/moin/ForLoop
+‌
 **Which of the following will NOT cause a syntax error in Python?**
 
 A)

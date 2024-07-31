@@ -77,6 +77,8 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - 
 ### List
 
+- [Video: 6 Ways to use List in For loop in Python](https://www.youtube.com/watch?v=-FErgsl9njQ)
+- [Video: Read data from list using For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
 - [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
 - [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
@@ -850,3 +852,104 @@ print(list1[:4].pop())
 
 [1] B. E. Prep, “Difference Between Mutable and Immutable in Python | Mutable vs Immutable Objects,” BYJU’S Exam Prep, Sep. 24, 2023. https://byjusexamprep.com/gate-cse/difference-between-mutable-and-immutable (accessed Jul. 27, 2024).
 ‌
+
+
+Here's an expanded list of 50 exercises designed to help beginners understand and practice using `for` loops in Python. These exercises cover a variety of basic, intermediate, and advanced concepts to provide a comprehensive learning experience.
+
+### Basic Exercises
+
+6. **Print elements of a list**: Use a `for` loop to print each element in the list `[10, 20, 30, 40, 50]`.
+
+
+15. **Print elements of a matrix**: Use nested `for` loops to print each element of a 2x2 matrix, e.g., `[[1, 2], [3, 4]]`.
+16. **Find the largest number in a list**: Write a `for` loop to find the largest number in the list `[34, 78, 23, 89, 12]`.
+17. **Remove duplicates from a list**: Write a `for` loop to remove duplicates from the list `[1, 2, 2, 3, 4, 4, 5]`.
+18. **Calculate the average of a list**: Use a `for` loop to calculate the average of numbers in the list `[10, 20, 30, 40, 50]`.
+
+### Advanced Exercises
+
+23. **Transpose a matrix**: Write a `for` loop to transpose a 2x3 matrix, e.g., `[[1, 2, 3], [4, 5, 6]]` should become `[[1, 4], [2, 5], [3, 6]]`.
+24. **Find the common elements in two lists**: Write a `for` loop to find the common elements in the lists `[1, 2, 3, 4]` and `[3, 4, 5, 6]`.
+25. **Flatten a list of lists**: Write a `for` loop to flatten the list `[[1, 2], [3, 4], [5, 6]]` into `[1, 2, 3, 4, 5, 6]`.
+26. **Print all the indexes of a list**: Write a `for` loop to print all the indexes of the list `[10, 20, 30, 40, 50]`.
+27. **Generate a list of the first 10 square numbers**: Write a `for` loop to create a list of the first 10 square numbers.
+28. **Print numbers in a list that are greater than 10**: Use a `for` loop to print numbers from the list `[5, 12, 17, 9, 3, 21]` that are greater than 10.
+29. **Find the sum of even numbers in a list**: Write a `for` loop to calculate the sum of all even numbers in the list `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`.
+30. **Calculate the product of all numbers in a list**: Write a `for` loop to calculate the product of all numbers in the list `[1, 2, 3, 4]`.
+31. **Find the minimum value in a list**: Write a `for` loop to find the smallest number in the list `[34, 78, 23, 89, 12]`.
+32. **Convert a list of Celsius temperatures to Fahrenheit**: Use a `for` loop to convert the list `[0, 10, 20, 30, 40]` to Fahrenheit using the formula `(Celsius * 9/5) + 32`.
+33. **Reverse the elements of a list**: Write a `for` loop to reverse the elements of the list `[1, 2, 3, 4, 5]`.
+
+41. **Calculate the sum of squares of a list of numbers**: Write a `for` loop to calculate the sum of the squares of numbers in the list `[1, 2, 3, 4, 5]`.
+42. **Find the intersection of two lists**: Use a `for` loop to find the common elements in the lists `[1, 2, 3, 4, 5]` and `[4, 5, 6, 7, 8]`.
+43. **Count the frequency of each element in a list**: Write a `for` loop to count the occurrences of each element in the list `[1, 2, 2, 3, 3, 3, 4, 4, 4, 4]`.
+44. **Generate a dictionary with numbers and their squares**: Write a `for` loop to create a dictionary where keys are numbers from 1 to 5 and values are their squares.
+45. **Print the transpose of a 3x3 matrix**: Write a `for` loop to transpose the matrix `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]`.
+
+**What is the output of the following code?** [Python Quiz #23](https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU)
+
+```python
+a = [1, 2, 3, 4, 5]
+for i in range(0, len(a), 2):
+    print(a[i])
+```
+
+- A) 135
+- B) 24
+- C) 12345
+- D) Syntax error
+
+**Watch the video for the answer:** [https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU](https://youtube.com/shorts/yrTnxNkrXH4?si=EUAzZiONKORP4nIU)
+
+
+
+> What is the output of the following code?
+
+```python
+fruits = ["Apple", "Banana", "Cherry"]
+for i, fruit in enumerate(fruits):
+    if i == 1:
+        print(fruit)
+```
+1. [ ] Apple
+2. [ ] Banana
+3. [ ] Cherry
+4. [ ] Error
+
+related video: [https://youtu.be/-FErgsl9njQ](https://youtu.be/-FErgsl9njQ)
+
+Which of the following is the correct way to iterate over elements in a list using a for loop?
+a. for item in my_list:
+b. for i = 0; i < len(my_list):
+c. for element = my_list:
+d. for (i, item) in enumerate(my_list):
+
+How can you iterate over both the index and elements of a list using a for loop?
+a. for i in my_list:
+b. for (i, element) in enumerate(my_list):
+c. for element in range(my_list):
+d. for index, element in my_list:
+
+What is the output of the following code?
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for x in numbers:
+    print(x * 2)
+```
+
+a. 2 4 6 8 10
+b. 1 2 3 4 5
+c. 1 4 9 16 25
+d. 2 4 8 16 32
+
+**How many times will the following loop execute?**
+```python
+for i in [1, 2, 3, 3]:
+  print("Hello")
+```
+
+    - A) 3
+    - B) 4
+    - C) 1
+    - D) Infinitely

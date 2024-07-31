@@ -73,3 +73,37 @@ print(a[-5:-2])
 ## Review Questions
 
 ## References and Bibliography
+
+30. **Replace vowels in a string with an asterisk**: Use a `for` loop to replace all vowels in the string "Replace all vowels" with '*'.
+
+3. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
+7. **Reverse a string**: Use a `for` loop to reverse the string "Python".
+8. 17. **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
+25. **Count occurrences of a character in a string**: Use a `for` loop to count the number of times the letter 'l' appears in "Hello, World!".
+27. **Find the length of each word in a sentence**: Use a `for` loop to find and print the length of each word in the sentence "The quick brown fox".
+9.  **Print the reverse of each word in a string**: Use a `for` loop to reverse each word in the string "Hello World" and print it as "olleH dlroW".
+10. **Count occurrences of a character in a string**: Use a `for` loop to count the number of times the letter 'l' appears in "Hello, World!".
+11. **Find the length of each word in a sentence**: Use a `for` loop to find and print the length of each word in the sentence "The quick brown fox".
+12. **Replace vowels in a string with an asterisk**: Use a `for` loop to replace all vowels in the string "Replace all vowels" with '*'.
+13. **Calculate the average length of words in a sentence**: Use a `for` loop to calculate the average length of words in the sentence "Calculate the average length of words in this sentence".
+14. **Count the number of consonants in a string**: Use a `for` loop to count the number of consonants in the string "Count the number of consonants".
+
+### Question 4
+**What will the output be for the following code?**
+```python
+for letter in "Python":
+    print(letter)
+```
+A) P\ny\nt\nh\no\nn
+
+B) Python
+
+C) P y t h o n
+
+D) P\ny\nt\nh\no\n
+
+*Explanation:* The `for` loop iterates over each character in the string "Python", printing them one by one.
+
+**Answer:** A
+
+---

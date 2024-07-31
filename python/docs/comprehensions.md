@@ -3,6 +3,8 @@
 ## List Comprehensions
 
 **List comprehension examples:**
+https://youtube.com/shorts/cnSLqqx_huQ?si=5J19IZzT23VvtDmp
+
 
 - [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
 - [Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
