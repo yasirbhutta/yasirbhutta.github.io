@@ -258,10 +258,52 @@ for item in iterable:
 
 `iterable` is a sequence of elements such as a list, tuple, dictionary, set, or string. item is a variable that takes on the value of each element in the sequence, one at a time. The code block is executed once for each element in the sequence.
 
-**range() function:** 
+#### range() function:
 
 - We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
 - We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
+
+Here are the common usages:
+
+1. **Single Argument (`stop`)**:
+   ```python
+   range(stop)
+   ```
+   - Generates numbers from `0` up to, but not including, `stop`.
+
+   ```python
+   range(5)  # Output: 0, 1, 2, 3, 4
+   ```
+
+2. **Two Arguments (`start`, `stop`)**:
+   ```python
+   range(start, stop)
+   ```
+   - Generates numbers from `start` up to, but not including, `stop`.
+
+   ```python
+   range(2, 5)  # Output: 2, 3, 4
+   ```
+
+3. **Three Arguments (`start`, `stop`, `step`)**:
+   ```python
+   range(start, stop, step)
+   ```
+   - Generates numbers from `start` up to, but not including, `stop`, incrementing by `step`. The `step` can be positive or negative.
+
+   ```python
+   range(1, 10, 2)  # Output: 1, 3, 5, 7, 9
+   range(10, 1, -2) # Output: 10, 8, 6, 4, 2
+   ```
+
+**Note:** `range()` produces an immutable sequence type, which is often used in loops. To get a list of numbers, you can convert the `range` object to a list:
+
+```python
+list(range(5))  # Output: [0, 1, 2, 3, 4]
+```
+
+- [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
+- [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
 **Example #1:** Print Numbers from 1 to 5 [[video]](https://youtu.be/2mhrDgBEp10)
 
@@ -332,13 +374,54 @@ for i in range(1, 11):
         print('%d * %d = %d' % (i, j, i*j))
 ```
 
-**for loop examples:**
+**Why We Use Variables in For Loops**
 
-- [Video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+In Python, a variable in a `for` loop is used to iterate over a sequence (like a list, tuple, string, or range) and access each element in that sequence one at a time. This variable is often called the "loop variable" or "iterator variable." 
+
+**Understanding the Role of the Variable:**
+
+1. **Accessing Elements**: The loop variable allows you to access each element in the sequence during each iteration of the loop. This makes it possible to perform operations on each element.
+
+2. **Dynamic Assignment**: The loop variable automatically takes the value of the next element in the sequence during each iteration. This saves you from having to manually update the variable's value.
+
+3. **Readability and Simplicity**: Using a loop variable makes the code more readable and easier to understand. You can name the variable in a way that reflects the data it represents, making the code more self-explanatory.
+
+4. **Control Over Iteration**: The loop variable gives you control over the loop’s execution. You can use it to control the flow, such as skipping certain elements, breaking out of the loop early, or performing specific actions based on the variable's value.
+
+**Example:**
+
+```python
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+
+In this example, the loop variable `fruit` takes on the value of each element in the list `fruits` during each iteration. The output will be:
+
+```
+apple
+banana
+cherry
+```
+
+The variable `fruit` is used to access and print each element in the `fruits` list.
+
+**Use of underscore in 'For Loop'**
+
+- In Python, an underscore (`_`) is often used as a variable name in a for loop (or any other context) when the value of the variable is not needed. 
+- This is a common convention to indicate that the value is intentionally being ignored or discarded.
+
+For example, if you want to repeat an action a certain number of times but don't need to use the loop variable, you can use `_`:
+
+```python
+for _ in range(5):
+    print("Hello")
+```
+
+Here, `_` is used instead of a variable name like `i` or `j` because the value is not important. The loop will simply print "Hello" five times without using the loop index. This helps to make the code more readable by signaling to other programmers that the loop variable is not used in the loop's body.
+
+- [video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
   
-**Further reading:**
- 
-- [For loop - Python wiki](https://wiki.python.org/moin/ForLoop)
 
 #### while loop
 
@@ -352,6 +435,8 @@ while condition:
 ```
 
 Here, condition is a boolean expression that is evaluated before each iteration of the loop. If the condition is `True`, the code block is executed. The loop continues to execute as long as the condition remains True.
+
+[video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
 **Example #:** Print numbers from 1 to 10 using while loop
 
@@ -480,10 +565,6 @@ while True:
 - [Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
 - [Video: Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
 
-## The Range() function
-
-- [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
-- [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
 ## Loop Control Statements (break, continue, pass)
 These statements modify the behavior of loops.
@@ -602,10 +683,10 @@ if x == y * 2:
 else:
     print("False")
 ```
-- A) True
-- B) False
-- C) Error
-- D) Nothing
+    - A) True
+    - B) False
+    - C) Error
+    - D) Nothing
 
 **Watch this video for the answer:** [https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
@@ -634,10 +715,10 @@ if x == 10
     print("x is 10")
 ```
 
-A) Remove the comment.
-B) Add a colon after `if x == 10`.
-C) Add parentheses around `x == 10`.
-D) Indent the print statement correctly.
+    - A) Remove the comment.
+    - B) Add a colon after `if x == 10`.
+    - C) Add parentheses around `x == 10`.
+    - D) Indent the print statement correctly.
 
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
@@ -653,17 +734,17 @@ D) Indent the print statement correctly.
 
 3. **What is the purpose of the else block in an if statement?**
 
-A) To execute a code block when the if condition is True
-B) To execute a code block when the if condition is False
-C) To create an infinite loop
-D) To define a function
+    - A) To execute a code block when the if condition is True
+    - B) To execute a code block when the if condition is False
+    - C) To create an infinite loop
+    - D) To define a function
 
 4. **What happens when none of the conditions in an if-elif-else chain are True, and there is no else block?**
 
-A) The program raises an error.
-B) The program executes the first if block.
-C) The program executes the last elif block.
-D) The program does nothing and continues to the next statement.
+    - A) The program raises an error.
+    - B) The program executes the first if block.
+    - C) The program executes the last elif block.
+    - D) The program does nothing and continues to the next statement.
 
 5. **What will be the output of the following code?**
 
@@ -673,17 +754,17 @@ y = 5
 if x < y:
     print("x is greater than y")
 ```
-A) "x is greater than y"
-B) "x is less than y"
-C) Nothing will be printed
-D) An error will occur
+    - A) "x is greater than y"
+    - B) "x is less than y"
+    - C) Nothing will be printed
+    - D) An error will occur
 
 6. **What happens if none of the conditions in an if-elif chain are True, and there is no else block?**
 
-A) The program raises an error
-B) The program executes the first if block
-C) The program does nothing and continues to the next statement
-D) The program executes the last elif block
+    - A) The program raises an error
+    - B) The program executes the first if block
+    - C) The program does nothing and continues to the next statement
+    - D) The program executes the last elif block
 
 7. **What will be the output of the following code?**
 
@@ -694,22 +775,22 @@ if number % 2 == 0:
 else:
     print("Number is odd")
 ```
-A) Number is odd
-B) Number is even
-C) Nothing
-D) Error
+    - A) Number is odd
+    - B) Number is even
+    - C) Nothing
+    - D) Error
 
 8. **Which of the following is the correct way to compare if two variables are equal in an if statement?**
-A) if x equals 5:
-B) if x == 5:
-C) if x = 5:
-D) if x := 5:
+    - A) if x equals 5:
+    - B) if x == 5:
+    - C) if x = 5:
+    - D) if x := 5:
 
 9. **How can you check if a value is NOT equal to 10 in an if statement?**
-A) if x != 10:
-B) if x <> 10:
-C) if x =! 10:
-D) if x not 10:
+    - A) if x != 10:
+    - B) if x <> 10:
+    - C) if x =! 10:
+    - D) if x not 10:
 
 10. **What does the following code snippet do?**
 ```python
@@ -721,12 +802,12 @@ else:
     print("Zero")
 
 ```
-A) Prints "Positive" if x is greater than 0, "Negative" if x is less than 0, and "Zero" if x is 0.
-B) Prints "Positive" if x is less than 0, "Negative" if x is greater than 0, and "Zero" if x is 0.
-C) Prints "Positive" if x is 0, "Negative" if x is greater than 0, and "Zero" if x is less than 0.
-D) Causes an error because the conditions are conflicting.
+    - A) Prints "Positive" if x is greater than 0, "Negative" if x is less than 0, and "Zero" if x is 0.
+    - B) Prints "Positive" if x is less than 0, "Negative" if x is greater than 0, and "Zero" if x is 0.
+    - C) Prints "Positive" if x is 0, "Negative" if x is greater than 0, and "Zero" if x is less than 0.
+    - D) Causes an error because the conditions are conflicting.
 
-2. **What is the correct syntax for an if-else statement?**
+11. **What is the correct syntax for an if-else statement?**
    - A) if condition:
             code block
    - B) if condition:
@@ -744,13 +825,13 @@ D) Causes an error because the conditions are conflicting.
         elif condition:
             code block
 
-4. **What happens if none of the conditions in an if-elif-else block are true?**
-   * a) The program terminates
-   * b) The else block is executed
-   * c) An error occurs
-   * d) The program continues without executing any block
+12. **What happens if none of the conditions in an if-elif-else block are true?**
+    - A) The program terminates
+    - B) The else block is executed
+    - C) An error occurs
+    - D) The program continues without executing any block
 
-8. **What will be the output of the following code?**
+13. **What will be the output of the following code?**
    ```python
    x = 10
    if x > 5 and x < 15:
@@ -758,12 +839,12 @@ D) Causes an error because the conditions are conflicting.
    else:
        print("x is not between 5 and 15")
    ```
-   * a) x is between 5 and 15
-   * b) x is not between 5 and 15
-   * c) Error
-   * d) No output
+    - A) x is between 5 and 15
+    - B) x is not between 5 and 15
+    - C) Error
+    - D) No output
 
-9. **What will be the output of the following code?**
+14. **What will be the output of the following code?**
    ```python
    num = 7
    if num % 2 == 0:
@@ -771,23 +852,32 @@ D) Causes an error because the conditions are conflicting.
    else:
        print("Odd")
    ```
-   * a) Even
-   * b) Odd
-   * c) Error
-   * d) No output
+    - A) Even
+    - B) Odd
+    - C) Error
+    - D) No output
 
-10. **What will be the output of the following code?**
-   ```python
-   score = 85
-   if score >= 90:
-       print("A")
-   elif score >= 80:
-       print("B")
-   else:
-       print("C")
-   ```
+15. **What will be the output of the following code?**
 
-What is the output of the following code?
+```python
+score = 85
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+    - A) Grade: A  
+    - B) Grade: B  
+    - C) Grade: C  
+    - D) Grade: F
+
+  
+16. **What is the output of the following code?**
 
 ```python
 x = 5
@@ -799,23 +889,23 @@ else:
     print("5 or less")
 ```
 
-A) Greater than 10  
-B) Greater than 5 but not greater than 10  
-C) 5 or less  
-D) No output
+    - A) Greater than 10  
+    - B) Greater than 5 but not greater than 10  
+    - C) 5 or less  
+    - D) No output
 
 **Answer:** C
 
-Which of the following is true about the `elif` statement?
+17. **Which of the following is true about the `elif` statement?**
 
-A) `elif` stands for "else if" and is used to check additional conditions after the `if` statement  
-B) `elif` is the same as `else`  
-C) `elif` must be followed by an `else` statement  
-D) You can have multiple `elif` statements in one block
+    - A) `elif` stands for "else if" and is used to check additional conditions after the `if` statement  
+    - B) `elif` is the same as `else`  
+    - C) `elif` must be followed by an `else` statement  
+    - D) You can have multiple `elif` statements in one block
 
 **Answer:** A, D
 
-What will be the output of the following code?
+18. **What will be the output of the following code?**
 
 ```python
 y = 20
@@ -827,14 +917,14 @@ else:
     print("Greater than 20")
 ```
 
-A) Less than 20  
-B) Equal to 20  
-C) Greater than 20  
-D) None of the above
+    - A) Less than 20  
+    - B) Equal to 20  
+    - C) Greater than 20  
+    - D) None of the above
 
 **Answer:** B
 
-What will be the output of the following code snippet?
+19. **What will be the output of the following code snippet?**
 
 ```python
 a = 10
@@ -848,23 +938,23 @@ else:
     print("a is less than or equal to b")
 ```
 
-A) a is positive  
-B) a is non-positive  
-C) a is less than or equal to b  
-D) No output
+    - A) a is positive  
+    - B) a is non-positive  
+    - C) a is less than or equal to b  
+    - D) No output
 
 **Answer:** A
 
-Which of the following statements is false about `if-elif-else` statements in Python?
+20. **Which of the following statements is false about `if-elif-else` statements in Python?**
 
-A) `elif` statements are optional in an `if-elif-else` construct  
-B) An `if` statement can be followed by multiple `elif` statements  
-C) An `else` statement is mandatory in an `if-elif-else` construct  
-D) An `if` statement can exist without `elif` or `else`
+    - A) `elif` statements are optional in an `if-elif-else` construct  
+    - B) An `if` statement can be followed by multiple `elif` statements  
+    - C) An `else` statement is mandatory in an `if-elif-else` construct  
+    - D) An `if` statement can exist without `elif` or `else`
 
 **Answer:** C
 
-What will be the output of the following code?
+21. **What will be the output of the following code?**
 
 ```python
 x = 0
@@ -874,10 +964,10 @@ else:
     print("False")
 ```
 
-A) True  
-B) False  
-C) No output  
-D) Error
+    - A) True  
+    - B) False  
+    - C) No output  
+    - D) Error
 
 **Answer:** B
 
@@ -890,16 +980,16 @@ In Python, certain values are considered False when evaluated in a boolean conte
 - Empty sequences and collections (e.g., '', (), [], {})
 - Any object that implements __bool__ or __len__ to return False or 0, respectively
 
-Which of the following expressions can be used in an `if` condition to check if a number `n` is between 1 and 100 inclusive?
+22. **Which of the following expressions can be used in an `if` condition to check if a number `n` is between 1 and 100 inclusive?**
 
-A) `if n > 1 and n < 100:`  
-B) `if n >= 1 and n <= 100:`  
-C) `if 1 <= n <= 100:`  
-D) `if n == 1 or n == 100:`
+    - A) `if n > 1 and n < 100:`  
+    - B) `if n >= 1 and n <= 100:`  
+    - C) `if 1 <= n <= 100:`  
+    - D) `if n == 1 or n == 100:`
 
 **Answer:** B, C
 
-What will be the output of the following code?
+23. **What will be the output of the following code?**
 
 ```python
 z = 7
@@ -913,23 +1003,23 @@ else:
     print("Something else")
 ```
 
-A) Less than 5  
-B) Equal to 10  
-C) Greater than 5 but not 10  
-D) Something else
+    - A) Less than 5  
+    - B) Equal to 10  
+    - C) Greater than 5 but not 10  
+    - D) Something else
 
 **Answer:** C
 
-What is the purpose of the `else` statement in an `if-elif-else` structure?
+24. **What is the purpose of the `else` statement in an `if-elif-else` structure?**
 
-A) To check another condition if the previous ones were false  
-B) To execute a block of code if none of the previous conditions were true  
-C) To execute a block of code if the previous conditions were true  
-D) To end the `if-elif-else` structure
+    - A) To check another condition if the previous ones were false  
+    - B) To execute a block of code if none of the previous conditions were true  
+    - C) To execute a block of code if the previous conditions were true  
+    - D) To end the `if-elif-else` structure
 
 **Answer:** B
 
-What will be the output of the following code?
+25. **What will be the output of the following code?**
 
 ```python
 x = 10
@@ -942,14 +1032,14 @@ else:
     print("x is 5 or less")
 ```
 
-A) x is 10  
-B) x is greater than 5 but not 10  
-C) x is 5 or less  
-D) No output
+    - A) x is 10  
+    - B) x is greater than 5 but not 10  
+    - C) x is 5 or less  
+    - D) No output
 
 **Answer:** A
 
-Which of the following is correct syntax for an `if-elif-else` statement in Python?
+26. **Which of the following is correct syntax for an `if-elif-else` statement in Python?**
 
 A) 
 ```python
@@ -990,7 +1080,7 @@ else
 
 **Answer:** B, C
 
-What will be the output of the following code?
+27. **What will be the output of the following code?**
 
 ```python
 a = 3
@@ -1002,14 +1092,14 @@ elif a == b:
 else:
     print("b is greater")
 ```
-A) a is greater  
-B) a and b are equal  
-C) b is greater  
-D) No output
+    - A) a is greater  
+    - B) a and b are equal  
+    - C) b is greater  
+    - D) No output
 
 **Answer:** C
 
-Which of the following statements will execute if `n = 7`?
+28. **Which of the following statements will execute if `n = 7`?**
 
 ```python
 if n < 5:
@@ -1020,43 +1110,24 @@ else:
     print("n is 10 or more")
 ```
 
-A) n is less than 5  
-B) n is less than 10  
-C) n is 10 or more  
-D) None of the above
+    - A) n is less than 5  
+    - B) n is less than 10  
+    - C) n is 10 or more  
+    - D) None of the above
 
 **Answer:** B
 
-### Question 5
-Which keyword is used to check an additional condition if the initial `if` statement is `False`?
 
-A) else  
-B) elif  
-C) elseif  
-D) if
+29. **Which keyword is used to check an additional condition if the initial `if` statement is `False`?**
+
+    - A) else  
+    - B) elif  
+    - C) elseif  
+    - D) if
 
 **Answer:** B
 
-What will be the output of the following code?
-
-```python
-score = 85
-if score >= 90:
-    print("Grade: A")
-elif score >= 80:
-    print("Grade: B")
-elif score >= 70:
-    print("Grade: C")
-else:
-    print("Grade: F")
-```
-
-A) Grade: A  
-B) Grade: B  
-C) Grade: C  
-D) Grade: F
-
-What is the result of the following code?
+30. **What is the result of the following code?**
 
 ```python
 x = 0
@@ -1068,25 +1139,23 @@ else:
     print("Negative")
 ```
 
-A) Positive  
-B) Zero  
-C) Negative  
-D) No output
+    - A) Positive  
+    - B) Zero  
+    - C) Negative  
+    - D) No output
 
 **Answer:** B
 
+31. **How many `elif` clauses can be included in an `if-elif-else` statement?**
 
-How many `elif` clauses can be included in an `if-elif-else` statement?
-
-A) One  
-B) Two  
-C) Unlimited  
-D) None
+    - A) One  
+    - B) Two  
+    - C) Unlimited  
+    - D) None
 
 **Answer:** C
 
-
-What will be the output of the following code?
+32. **What will be the output of the following code?**
 
 ```python
 age = 20
@@ -1098,10 +1167,10 @@ else:
     print("Senior")
 ```
 
-A) Minor  
-B) Adult  
-C) Senior  
-D) No output
+    - A) Minor  
+    - B) Adult  
+    - C) Senior  
+    - D) No output
 
 **Answer:** B
 
@@ -1146,20 +1215,19 @@ for i in range(5):
 
 **Watch this video for the answer:** [https://bit.ly/3WqjjEP](https://bit.ly/3WqjjEP)
 
-**What is the output of the following code?**
+**How many times is the print statement executed?** [Python Quiz #37](https://youtu.be/CYeZI3uCiTI)
 ```python
 for i in range(3):
     for j in range(2):
         print(f"i = {i}, j = {j}")
 ```
-    - A) i = 3, j = 2
-    - B) i = 0, j = 1
-    - C) i = 1, j = 1
-    - D) i = 2, j = 1
 
-*Explanation:* This nested loop iterates through all combinations of `i` and `j`. It demonstrates the usage of nested loops, which can be useful in real-life for tasks such as generating tables or grids.
+    - A) 3 times
+    - B) 5 times
+    - C) 6 times
+    - D) 9 times
 
-**Answer:** D
+**Watch this video for the answer:** [https://youtu.be/CYeZI3uCiTI](https://youtu.be/CYeZI3uCiTI) 
 
 **What is the primary purpose of a for loop in Python?**
 
@@ -1883,6 +1951,7 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 
 [^1]: In Python, an iterable object is an object that you can loop over using a "for" loop. It's any object that can return its elements one at a time.
 [2] “ForLoop - Python Wiki,” Python.org, 2017. https://wiki.python.org/moin/ForLoop
+
 ‌
 **Which of the following will NOT cause a syntax error in Python?**
 
