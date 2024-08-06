@@ -1899,7 +1899,7 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers.
 5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
 6. **Squares of numbers 1 to 5**: Write a `for` loop to print the squares of numbers from 1 to 5.
-7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1.
+7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. [Solution](https://bit.ly/3yrTe0e)
 8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times.
 
 **Intermediate Exercises**
