@@ -1369,7 +1369,7 @@ D) 5 7 8
 
 ### while loop (MCQs)
 
-**What is the output of the following code snippet in Python?** [Python Quiz #7]
+**What is the output of the following code snippet in Python?** [Python Quiz #7](https://youtube.com/shorts/zdLNmwO1u8Y)
 ```python
 i = 1
 while i < 10:
@@ -1893,14 +1893,14 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 
 **Basic Exercises**
 
-1. **Print numbers 1 to 10**: Write a `for` loop to print numbers from 1 to 10. [Python Exercise Solution: Print
+1. **Print numbers 1 to 10**: Write a `for` loop to print numbers from 1 to 10. [Python Exercise Solution]()
 2. **Print even numbers 2 to 20**: Write a `for` loop to print all even numbers from 2 to 20.
 3. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
-4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers.
+4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers. [Solution](https://youtu.be/FgMHDLRi_G4)
 5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
 6. **Squares of numbers 1 to 5**: Write a `for` loop to print the squares of numbers from 1 to 5.
 7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. [Solution](https://bit.ly/3yrTe0e)
-8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times.
+8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. [Solution](https://youtu.be/LDULv7B9QdQ)
 
 **Intermediate Exercises**
 

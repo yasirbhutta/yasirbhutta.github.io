@@ -35,7 +35,8 @@ In Python, valid variable names must adhere to the following rules:
 - **Case-sensitive:** Variable names are case-sensitive. For example, myVariable and myvariable would be considered different variables.
 
 - **No reserved keywords:** Variable names cannot be Python reserved keywords (e.g., if, for, while, class, etc.).
-
+  
+[video:Function and Variable Naming \|Python Best Practices](https://youtube.com/shorts/IDzqrCz4nYI)
 [video:Python Variables and Assignment](https://www.youtube.com/watch?v=CRiu33tEDIM)
 [video: Meaningful Variable Names \| Python Best Practices](https://youtube.com/shorts/lQy1Le8fnRs?si=kU0YflJx7lLzp_TT)
 [video: Asterisk (*) in Variable Assignment](https://www.youtube.com/watch?v=xCwfASassNs)
