@@ -565,7 +565,6 @@ while True:
 - [Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
 - [Video: Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
 
-
 ## Loop Control Statements (break, continue, pass)
 These statements modify the behavior of loops.
 
@@ -624,9 +623,77 @@ for i in range(10):
 
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
-  
-
+ 
 ## The else Clauses on Loops
+
+In Python, the `else` clause can be used with loops (`for` and `while`). This may be surprising at first since most people associate `else` with `if` statements. However, in loops, the `else` clause has a unique behavior:
+
+- The `else` block is executed **only if the loop completes all its iterations without encountering a `break` statement**.
+- If the loop is exited early because of a `break`, the `else` block is skipped.
+
+Sure! The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
+
+### How It Works:
+
+1. **With a `for` loop**:
+   - The `else` block runs if the loop completes all its iterations without hitting a `break`.
+   - If the loop is terminated by a `break`, the `else` block is skipped.
+
+2. **With a `while` loop**:
+   - The `else` block runs if the `while` loop condition becomes `False` naturally.
+   - If the loop is terminated by a `break`, the `else` block is skipped.
+
+### Example with a `for` loop
+
+Let’s say we’re searching for a specific number in a list.
+
+```python
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Number we want to find
+target = 6
+
+# Iterate over the list
+for num in numbers:
+    if num == target:
+        print("Found the target!")
+        break
+else:
+    print("Target not found in the list.")
+```
+
+**Explanation:**
+- The loop checks each number to see if it matches the `target`.
+- If the number is found, the loop breaks, and the `else` clause is skipped.
+- If the loop finishes without finding the target (i.e., without a `break`), the `else` block runs, printing "Target not found in the list."
+
+### Example with a `while` loop
+
+```python
+# Counter
+i = 1
+
+# Loop condition
+while i <= 5:
+    if i == 3:
+        print("Breaking the loop")
+        break
+    print(i)
+    i += 1
+else:
+    print("Loop finished without breaking.")
+```
+
+**Explanation:**
+- The loop runs while `i` is less than or equal to 5.
+- If `i` equals 3, the loop breaks.
+- Since the loop is broken before it naturally ends, the `else` block is skipped.
+
+### Why Use the `else` Clause with Loops?
+
+Using `else` with loops can be helpful when you're performing a search or some operation where you want to know if the loop completed successfully or was interrupted by a `break`. It’s a clean way to handle scenarios where the loop might end early.
+  
 
 **Example #:** for..else
 
@@ -1384,22 +1451,37 @@ while i < 10:
 
 **Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
 
-What is the output of the following code snippet in Python?
+**What is the output of the following code snippet in Python?** [Python Quiz #4](https://youtube.com/shorts/9Zw-LuNX9h0)
 
+```python
 i = 0
 while i < 5:
     print(i)
     i += 1
 else:
     print("Done")
+```
 
-> **A)** 0 1 2 3 4 Done
-> **B)** 0 1 2 3 Done
-> **C)** SyntaxError: invalid syntax
-> **D)** IndentationError: expected an indented block
+    - A) 0 1 2 3 4 Done
+    - B) 0 1 2 3 Done
+    - C) SyntaxError: invalid syntax
+    - D) IndentationError: expected an indented block
 
 **Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
 
+**What is the output of the following code?** [Python Quzi #38]
+
+```python
+x = 10
+while x > 0:
+    print(x)
+    x -= 2
+```
+
+    - A) 9 7 5 3 1
+    - B) 10 8 6 4 2
+    - C) 10 9 8 7 6
+    - D) The code will run indefinitely.
 
 What is the output of the following code?
 
@@ -1427,20 +1509,6 @@ What is the correct syntax for a while loop in Python?
 (b) while condition {}
 (c) while condition:
 (d) while (condition) {}
-
-What is the output of the following code?
-
-```python
-x = 10
-while x > 0:
-    print(x)
-    x -= 2
-```
-
-(a) 10 8 6 4 2
-(b) 9 7 5 3 1
-(c) 10 9 8 7 6
-(d) The code will run indefinitely.
 
 What is the purpose of the else clause in a while loop?
 
