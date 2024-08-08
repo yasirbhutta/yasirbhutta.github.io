@@ -30,3 +30,32 @@ technologies.
 VR has practical applications in various fields. For example, high-end flight simulators allow pilots to practice flying aircraft, such as F-16s and Boeing 777s, in a controlled virtual environment before attempting real-life operations. Similarly, merchant marine officer training uses simulators to teach the complex processes of loading and unloading large vessels.
 
 Overall, VR represents a significant extension of multimedia, combining imagery, sound, and animation with interactive feedback, making it one of the most immersive forms of interactive multimedia. 
+
+## Chapter #2
+
+**Short Questions**
+
+1.  Serif vs. Sans Serif
+2.  Portrait vs. Landscape
+3.  Symbols and Icons
+4.  What are five common extensions used for text files?
+5.  What is an HTML document, and what are at least four common tags used to create an HTML page or document?
+6.  What is a typeface?
+7.  How does a font differ from a typeface?
+
+A typeface is a family of graphic characters that usually includes many type sizes and styles. It is the overall design of the characters. For example, Helvetica, Times, and Courier are typefaces.
+
+A font is a specific style and size within a typeface family. It refers to a collection of characters of a single size and style belonging to a particular typeface family. For example, Times 12-point italic is a font within the Times typeface family.
+
+8.  What is x-height, and how can it vary between two fonts?
+9.  How are type sizes usually expressed, and what is the size of one point in inches?
+10. What does ASCII stand for, and what is it used for?
+11. What is Unicode, and why was it developed?
+
+
+**Long Questions:**
+
+1.  Describe the difference between a typeface and a font and list at least three attributes of a font, for example, upper/lowercase, serif/sans serif, PostScript/TrueType/OpenType
+2. Write a note on the ASCII Character Set and the Extended Character Set.
+3. Define hypermedia, hypertext, links, and anchors. 
+
