@@ -719,8 +719,6 @@ def get_fruit_color(fruit):
             return "unknown"
 ```
 
-**Python Challenge to test your knowledge:** [Quiz1](https://www.youtube.com/watch?v=9Zw-LuNX9h0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25) \| [Quiz2](https://www.youtube.com/watch?v=x7CIxqoqccY&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24) \| [Quiz3](https://www.youtube.com/watch?v=XNLL6j-P61A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23) \| [Quiz4](https://www.youtube.com/watch?v=zdLNmwO1u8Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22) \| [Quiz5](https://www.youtube.com/watch?v=ExDu2lwjd3c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
-
 ## Key Terms
 
 - for 
@@ -774,6 +772,19 @@ else:
     - D) Name error
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
+
+13. **What will be the output of the following code?**
+```python
+x = 10
+if  5 < x < 15:
+    print("x is between 5 and 15")
+else:
+    print("x is not between 5 and 15")
+```
+    - A) x is between 5 and 15
+    - B) x is not between 5 and 15
+    - C) Error
+    - D) No output
 
 **Which of the following correctly fixes the syntax error in the code below?**
 
@@ -897,19 +908,6 @@ else:
     - B) The else block is executed
     - C) An error occurs
     - D) The program continues without executing any block
-
-13. **What will be the output of the following code?**
-   ```python
-   x = 10
-   if x > 5 and x < 15:
-       print("x is between 5 and 15")
-   else:
-       print("x is not between 5 and 15")
-   ```
-    - A) x is between 5 and 15
-    - B) x is not between 5 and 15
-    - C) Error
-    - D) No output
 
 14. **What will be the output of the following code?**
    ```python
