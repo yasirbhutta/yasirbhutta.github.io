@@ -773,7 +773,7 @@ else:
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
 
-13. **What will be the output of the following code?**
+13. **What will be the output of the following code?** [Python Quiz #39]
 ```python
 x = 10
 if  5 < x < 15:
@@ -785,10 +785,13 @@ else:
     - B) x is not between 5 and 15
     - C) Error
     - D) No output
+**Watch the video for the answer:**
 
-**Which of the following correctly fixes the syntax error in the code below?**
+**Which of the following correctly fixes the syntax error in the code below?** [Python Quiz #40]
 
 ```python
+# fixes the error
+x = 10
 if x == 10
     print("x is 10")
 ```
