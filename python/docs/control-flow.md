@@ -1437,7 +1437,7 @@ D) 5 7 8
 
 ### while loop (MCQs)
 
-**What is the output of the following code snippet in Python?** [Python Quiz #7](https://youtube.com/shorts/zdLNmwO1u8Y)
+1. **What is the output of the following code snippet in Python?** [Python Quiz #7](https://youtube.com/shorts/zdLNmwO1u8Y)
 ```python
 i = 1
 while i < 10:
@@ -1452,7 +1452,7 @@ while i < 10:
 
 **Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
 
-**What is the output of the following code snippet in Python?** [Python Quiz #4](https://youtube.com/shorts/9Zw-LuNX9h0)
+2. **What is the output of the following code snippet in Python?** [Python Quiz #4](https://youtube.com/shorts/9Zw-LuNX9h0)
 
 ```python
 i = 0
@@ -1470,7 +1470,7 @@ else:
 
 **Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
 
-**What is the output of the following code?** [Python Quzi #38]
+4. **What is the output of the following code?** [Python Quzi #38](https://bit.ly/3AdTqka)
 
 ```python
 x = 10
@@ -1484,7 +1484,9 @@ while x > 0:
     - C) 10 9 8 7 6
     - D) The code will run indefinitely.
 
-What is the output of the following code?
+**Watch this video for the answer:** [https://bit.ly/3AdTqka](https://bit.ly/3AdTqka)
+
+**What is the output of the following code?**
 
 ```python
 count = 0
@@ -1492,10 +1494,10 @@ while count < 3:
     print(count)
     count += 1
 ```
-(a) 0 1 2
-(b) 0 1
-(c) 1 2 3
-(d) The code will run indefinitely.
+    - A) 0 1 2
+    - B) 0 1
+    - C) 1 2 3
+    - D) The code will run indefinitely.
 
 What will happen if you try to modify the loop variable within the body of a while loop?
 
@@ -1506,10 +1508,10 @@ What will happen if you try to modify the loop variable within the body of a whi
 
 What is the correct syntax for a while loop in Python?
 
-(a) while (condition):
-(b) while condition {}
-(c) while condition:
-(d) while (condition) {}
+A) while (condition):
+B) while condition {}
+C) while condition:
+D) while (condition) {}
 
 What is the purpose of the else clause in a while loop?
 
