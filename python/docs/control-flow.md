@@ -1562,7 +1562,7 @@ Answer: A
 
 ### Loop Control Statements (break, continue, pass) (MCQs)
 
-What is the output of the following code snippet in Python?
+1. **What is the output of the following code snippet in Python?** [Python Quiz #5]
 ```python
 for i in range(5):
     if i == 3:
