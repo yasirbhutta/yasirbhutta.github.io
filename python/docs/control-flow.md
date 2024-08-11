@@ -631,7 +631,7 @@ In Python, the `else` clause can be used with loops (`for` and `while`). This ma
 - The `else` block is executed **only if the loop completes all its iterations without encountering a `break` statement**.
 - If the loop is exited early because of a `break`, the `else` block is skipped.
 
-Sure! The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
+The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
 
 ### How It Works:
 
