@@ -773,7 +773,7 @@ else:
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
 
-13. **What will be the output of the following code?** [Python Quiz #39]
+13. **What will be the output of the following code?** [Python Quiz #39](https://youtu.be/TkmqlDK8oCg)
 ```python
 x = 10
 if  5 < x < 15:
@@ -785,9 +785,9 @@ else:
     - B) x is not between 5 and 15
     - C) Error
     - D) No output
-**Watch the video for the answer:**
+**Watch the video for the answer:**[https://youtu.be/TkmqlDK8oCg](https://youtu.be/TkmqlDK8oCg)
 
-**Which of the following correctly fixes the syntax error in the code below?** [Python Quiz #40]
+**Which of the following correctly fixes the syntax error in the code below?** [Python Quiz #40](https://youtu.be/3010E1WuHd8)
 
 ```python
 # fixes the error
@@ -800,6 +800,8 @@ if x == 10
     - B) Add a colon after `if x == 10`.
     - C) Add parentheses around `x == 10`.
     - D) Indent the print statement correctly.
+
+**Watch the video for the answer:** [https://youtu.be/3010E1WuHd8](https://youtu.be/3010E1WuHd8)
 
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }

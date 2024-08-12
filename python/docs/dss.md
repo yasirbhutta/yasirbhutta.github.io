@@ -83,6 +83,8 @@ A **list** in Python is one of the most commonly used data structures. It allows
 3. **Heterogeneous**: A list can contain different data types, such as integers, strings, and even other lists.
 4. **Indexed**: Each item in a list has an index, starting from `0` for the first item.
 
+- [video: How to use list in Python](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
+
 ### Creating a List
 You can create a list by placing items inside square brackets `[]`, separated by commas.
 
@@ -208,12 +210,8 @@ print("Final shopping list:", shopping_list)
 # Final shopping list: ['milk', 'bread', 'butter', 'apples']
 ```
 
-### Summary
-Lists are a foundational data structure in Python that allow you to store and manage collections of items. They are versatile, easy to use, and an essential concept for anyone starting to learn Python.
-
 - [Video: 6 Ways to use List in For loop in Python](https://www.youtube.com/watch?v=-FErgsl9njQ)
 - [Video: Read data from list using For loops in Python](https://www.youtube.com/watch?v=GIG0SudpPLI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=89)
-- [How to use list](https://www.youtube.com/watch?v=LKZmCAL92pI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=103)
 - [Python List Slicing](https://www.youtube.com/watch?v=ELA_-RxwDB8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=110)
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 - [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
