@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('youtube-wh.csv')
 
 # Create subplots
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 10))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10,10))
 
 # Plot Watch Hours on the first subplot
 ax1.plot(df['Date'], df['Watch_Hours'], marker='o', linestyle='-', color='b')
