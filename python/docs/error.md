@@ -4,6 +4,34 @@
 
 ## Key Terms
 
+## Fix the Error in Python
+
+### 7. **`else` Block After `try` Without `except`**
+
+**Code:**
+```python
+try:
+    result = 10 / 2
+else:
+    print("Division successful!")
+```
+
+**Mistake:**  
+An `else` block is used incorrectly after `try` without an `except` block.
+
+**Corrected Code:**
+```python
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+else:
+    print("Division successful!")
+```
+- Now, the `else` block runs only if no exception occurs.
+
+
+
 ## True/False (Mark T for True and F for False)
 
 **Answer Key (True/False):**

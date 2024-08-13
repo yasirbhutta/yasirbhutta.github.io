@@ -59,3 +59,58 @@ A font is a specific style and size within a typeface family. It refers to a col
 2. Write a note on the ASCII Character Set and the Extended Character Set.
 3. Define hypermedia, hypertext, links, and anchors. 
 
+## Chapter #3
+
+**Review Questions**
+
+1. What is Bitmaps?
+2. What are the bitmaps sources?
+3. What is vector drawing, and how does it work?
+4. Define software used for creating and editing bitmaps.
+5. What are shading and rendering?
+6. What is subtractive color?
+7. What is Additive Color?
+8. Discuss the difference between bitmap and vector graphics.
+9. What are computer color models, and how does the RGB color model work?
+10. Write the name of four types of image file formats.
+11. Write a note on color palettes.
+
+## Chapter #4
+
+**Review Questions**
+
+1. What are acoustics and decibels (dB)?
+2. What is sound in Multimedia and how to measure it.
+3. What is digitized sound, and how is it represented in digital form.
+4. Explain the terms "sampling rate" and "bit depth" in digital audio. How do they affect the quality of a digital recording?
+5. Differentiate between trimming and splicing in sound editing.
+6. What is resampling or downsampling of sound?
+7. How does file size relate to the quality of sound?
+8. What is MIDI Audio?
+9. Compare and contrast the use of MIDI and digitized audio in a multimedia production
+10. Write a note on audio file formats.
+11. List the important steps and considerations in recording and editing digital audio.
+12. Determine which audio file formats are best used in a multimedia project.
+13. Write two copyrigh issues in Multimedia.
+14. What is timestreching and digital singal processing.
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Long Questions:**
+

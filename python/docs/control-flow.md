@@ -423,7 +423,7 @@ Here, `_` is used instead of a variable name like `i` or `j` because the value i
 - [video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
   
 
-#### while loop
+### while loop
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
@@ -555,15 +555,14 @@ while True:
 ```
 
 **while loop examples:**
-
-- [How to Count Digits in a Positive Integer using Python](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
-- [How to Count Occurrence of a Specific Digit in a Number using Python](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
   
 **See also:**
 
 - [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
 - [Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
 - [Video: Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
+
+[video: Python Loops Performance Comparison: For vs. While | Which is Faster?](https://youtu.be/6JNeo6TVQN8)
 
 ## Loop Control Statements (break, continue, pass)
 These statements modify the behavior of loops.
@@ -730,6 +729,519 @@ def get_fruit_color(fruit):
 - break
 - continue
 - f-string
+
+## Fix the errors in Python
+
+Sure! Here are more examples of Python code challenges with mistakes in control flow statements. Each one is followed by an explanation and the corrected code.
+
+### 1. **Mistaken Use of `elif` Instead of `if`**
+
+**Code:**
+```python
+x = 7
+
+if x > 5:
+    print("x is greater than 5")
+elif x > 0:
+    print("x is positive")
+```
+
+**Mistake:**  
+Using `elif` after the first condition is true means the second condition (`x > 0`) will never be checked.
+
+**Corrected Code:**
+```python
+x = 7
+
+if x > 5:
+    print("x is greater than 5")
+if x > 0:
+    print("x is positive")
+```
+- Now, both conditions are checked independently.
+
+### 2. **Infinite `while` Loop Due to Missing Update Statement**
+
+**Code:**
+```python
+n = 10
+
+while n > 0:
+    print(n)
+```
+
+**Mistake:**  
+The loop will run infinitely because `n` is never updated, so `n > 0` is always true.
+
+**Corrected Code:**
+```python
+n = 10
+
+while n > 0:
+    print(n)
+    n -= 1  # Decrease n by 1 each iteration
+```
+- The loop now terminates when `n` becomes 0.
+
+### 3. **Incorrectly Using `for` Loop with `break`**
+
+**Code:**
+```python
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    if num == 3:
+        print("Found 3!")
+        break
+    print(num)
+print("Loop finished")
+```
+
+**Mistake:**  
+While this code is technically correct, it can be misleading because it suggests that the loop will continue after finding `3`, but it actually stops.
+
+**Improved Code:**
+```python
+numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    if num == 3:
+        print("Found 3!")
+        break
+    print(num)
+else:
+    print("3 was not found")
+
+print("Loop finished")
+```
+- The `else` statement would run if the loop completes without breaking, indicating `3` wasn't found.
+
+### 4. **`continue` Misused in `while` Loop**
+
+**Code:**
+```python
+i = 0
+
+while i < 5:
+    if i == 2:
+        continue
+    print(i)
+    i += 1
+```
+
+**Mistake:**  
+The `continue` statement skips the `i += 1` statement, causing an infinite loop when `i == 2`.
+
+**Corrected Code:**
+```python
+i = 0
+
+while i < 5:
+    if i == 2:
+        i += 1  # Move this before the continue to avoid skipping it
+        continue
+    print(i)
+    i += 1
+```
+- Now, `i` is correctly incremented before `continue`, preventing the infinite loop.
+
+### 5. **Logical Error in `if-else` Statements**
+
+**Code:**
+```python
+age = 20
+
+if age < 18:
+    print("Minor")
+elif age >= 18:
+    print("Adult")
+else:
+    print("Invalid age")
+```
+
+**Mistake:**  
+The `else` block here is unnecessary and misleading, as the condition is fully handled by `if-elif`.
+
+**Improved Code:**
+```python
+age = 20
+
+if age < 18:
+    print("Minor")
+else:
+    print("Adult")
+```
+- The code is more concise and still covers all cases.
+
+### 6. **Using `pass` in an Incorrect Context**
+
+**Code:**
+```python
+x = 10
+
+if x > 0:
+    pass
+    print("x is positive")
+else:
+    pass
+    print("x is not positive")
+```
+
+**Mistake:**  
+The `pass` statement is unnecessary and misleading here, as it suggests there might be some unimplemented logic.
+
+**Corrected Code:**
+```python
+x = 10
+
+if x > 0:
+    print("x is positive")
+else:
+    print("x is not positive")
+```
+- The `pass` statement is removed, clarifying the logic.
+
+### 8. **Incorrect Loop Boundaries in `for` Loop**
+
+**Code:**
+```python
+for i in range(1, 5):
+    print(i)
+```
+
+**Mistake:**  
+The loop runs from `1` to `4`, not including `5`. This might be misunderstood if you expect `5` to be printed.
+
+**Clarification:**
+```python
+for i in range(1, 6):  # Adjust the range to include 5
+    print(i)
+```
+- Now, the loop includes `5` as intended.
+
+### 9. **Using `break` After `else` in Loop**
+
+**Code:**
+```python
+for i in range(5):
+    print(i)
+else:
+    break  # SyntaxError: 'break' outside loop
+```
+
+**Mistake:**  
+You can't use `break` after the `else` block of a loop, as it doesn't make sense.
+
+**Corrected Code:**
+```python
+for i in range(5):
+    if i == 2:
+        break
+    print(i)
+else:
+    print("Loop completed without break")
+```
+- Now, `break` is used correctly within the loop, and the `else` block handles the case where the loop completes.
+
+### 10. **Incorrect Use of Multiple `elif` Conditions**
+
+**Code:**
+```python
+score = 75
+
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+elif score >= 60:
+    print("D")
+elif score < 70:
+    print("F")
+```
+
+**Mistake:**  
+The last `elif` block (`elif score < 70`) is redundant because the `elif score >= 70` block already covers it.
+
+**Improved Code:**
+```python
+score = 75
+
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+elif score >= 60:
+    print("D")
+else:
+    print("F")
+```
+- The `else` block now correctly handles any score below `60`.
+
+**Which of the following will NOT cause a syntax error in Python?**
+
+A)
+```python
+1st_variable = 10
+```
+
+B)
+```python
+if x == 10:
+print("x is 10")
+```
+
+C)
+```python
+print("Hello World!"
+```
+
+D)
+```python
+print "Hello World!)
+```
+### 1. **Incorrect `if` Statement Syntax**
+
+**Code:**
+```python
+x = 10
+
+if x > 5
+    print("x is greater than 5")
+```
+
+**Mistake:**  
+The `if` statement is missing a colon (`:`) at the end.
+
+**Corrected Code:**
+```python
+x = 10
+
+if x > 5:
+    print("x is greater than 5")
+```
+
+### 2. **Incorrect Indentation in `if-else` Statement**
+
+**Code:**
+```python
+y = -3
+
+if y > 0:
+    print("y is positive")
+    print("This is always printed")
+else:
+print("y is not positive")
+```
+
+**Mistake:**  
+The `else` block is not properly indented.
+
+**Corrected Code:**
+```python
+y = -3
+
+if y > 0:
+    print("y is positive")
+    print("This is always printed")
+else:
+    print("y is not positive")
+```
+
+### 3. **`while` Loop with Incorrect Condition**
+
+**Code:**
+```python
+count = 10
+
+while count > 10:
+    print("This will never print")
+    count -= 1
+```
+
+**Mistake:**  
+The loop condition `count > 10` is false at the start, so the loop will never run.
+
+**Corrected Code:**
+```python
+count = 10
+
+while count >= 0:
+    print("Count:", count)
+    count -= 1
+```
+
+### 4. **`for` Loop with Incorrect Range**
+
+**Code:**
+```python
+for i in range(1, 10, -1):
+    print(i)
+```
+
+**Mistake:**  
+The step value in `range(1, 10, -1)` is negative, but the start value is less than the stop value, so this loop will not run.
+
+**Corrected Code:**
+```python
+for i in range(10, 0, -1):
+    print(i)
+```
+- This prints numbers from 10 to 1.
+
+### 5. **Using `break` Incorrectly in a Loop**
+
+**Code:**
+```python
+for i in range(5):
+    if i == 2:
+        break
+    else:
+        print(i)
+```
+
+**Mistake:**  
+The `else` block is not correctly used here. It runs as part of each iteration, not after the loop.
+
+**Corrected Code:**
+```python
+for i in range(5):
+    if i == 2:
+        break
+    print(i)
+else:
+    print("Loop completed without a break")
+```
+- The `else` block will only run if the loop completes without a `break`.
+
+### 6. **`try` Block with Unhandled Exception**
+
+**Code:**
+```python
+try:
+    print(5 / 0)
+except TypeError:
+    print("A TypeError occurred")
+```
+
+**Mistake:**  
+The code raises a `ZeroDivisionError`, but the `except` block is only catching a `TypeError`.
+
+**Corrected Code:**
+```python
+try:
+    print(5 / 0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+```
+
+### 7. **Misuse of `continue` Statement**
+
+**Code:**
+```python
+for i in range(5):
+    if i == 3:
+        continue
+        print("This will never be printed")
+    print(i)
+```
+
+**Mistake:**  
+The `print` statement after `continue` will never be executed.
+
+**Corrected Code:**
+```python
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+```
+- The code correctly skips printing `3` and continues with the next iteration.
+
+### 8. **Logical Error with `if-elif` Statements**
+
+**Code:**
+```python
+z = 20
+
+if z > 30:
+    print("z is greater than 30")
+elif z > 10:
+    print("z is greater than 10")
+else:
+    print("z is less than 10")
+```
+
+**Mistake:**  
+The code will print `"z is greater than 10"` even though `z` is also greater than 30. This is logically correct, but not what might be intended if you want to check for ranges.
+
+**Corrected Code:**
+```python
+z = 20
+
+if z > 30:
+    print("z is greater than 30")
+elif z > 20:
+    print("z is greater than 20 but less than 30")
+elif z > 10:
+    print("z is greater than 10")
+else:
+    print("z is less than or equal to 10")
+```
+- Now, this checks for more specific conditions.
+
+### 9. **Incorrect Usage of `pass` in Control Flow**
+
+**Code:**
+```python
+for i in range(5):
+    if i == 2:
+        pass
+        print("This should not print")
+    print(i)
+```
+
+**Mistake:**  
+The `pass` statement does nothing, but the `print("This should not print")` will still run.
+
+**Corrected Code:**
+```python
+for i in range(5):
+    if i == 2:
+        pass
+    print(i)
+```
+- Now, the loop will simply skip doing anything when `i` is `2`, without any unintended behavior.
+
+### 10. **Improper Use of `finally` in Exception Handling**
+
+**Code:**
+```python
+try:
+    result = 10 / 0
+finally:
+    print("This will run no matter what.")
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+```
+
+**Mistake:**  
+The `finally` block must come after `except`, not before.
+
+**Corrected Code:**
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+finally:
+    print("This will run no matter what.")
+```
+
+These challenges are designed to highlight common mistakes that occur when working with control flow statements in Python. Working through these examples will help reinforce proper syntax and logical structure.
 
 ## True/False (Mark T for True and F for False)
 
@@ -1973,14 +2485,13 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
 6. **Squares of numbers 1 to 5**: Write a `for` loop to print the squares of numbers from 1 to 5.
 7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. [Solution](https://bit.ly/3yrTe0e)
-8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. [Solution](https://youtu.be/LDULv7B9QdQ)
-
+8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. [Solution](https://youtu.be/LDULv7B9QdQ) 
 **Intermediate Exercises**
 
-11. **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
-12. **Check if a number is prime**: Write a `for` loop to check if a given number is prime.
-13. **Sum of digits of a number**: Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
-14. **Print a pattern of stars**: Use nested `for` loops to print the following pattern:
+1.  **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
+2.  **Check if a number is prime**: Write a `for` loop to check if a given number is prime.
+3.  **Sum of digits of a number**: Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
+4.  **Print a pattern of stars**: Use nested `for` loops to print the following pattern:
     ```
     *
     **
@@ -1988,8 +2499,8 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
     ****
     *****
     ```
-15. **Print odd numbers between 1 and 20**: Write a `for` loop to print all odd numbers between 1 and 20.
-16. **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
+5.  **Print odd numbers between 1 and 20**: Write a `for` loop to print all odd numbers between 1 and 20.
+6.  **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
 
 **Advanced Exercises**
 
@@ -2009,6 +2520,11 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 29. **Find numbers divisible by 7 and 11 between 1 and 100**: Use a `for` loop to print all numbers between 1 and 100 that are divisible by both 7 and 11.
 31. **Calculate the harmonic sum of n numbers**: Write a
 
+### While loop Exercises
+
+1. How to Count Digits in a Positive Integer using Python [Solution](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
+2. How to Count Occurrence of a Specific Digit in a Number using Python.  [Solution](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
+
 ## Review Questions
 
 **for loop:**
@@ -2026,25 +2542,3 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 [2] “ForLoop - Python Wiki,” Python.org, 2017. https://wiki.python.org/moin/ForLoop
 
 ‌
-**Which of the following will NOT cause a syntax error in Python?**
-
-A)
-```python
-1st_variable = 10
-```
-
-B)
-```python
-if x == 10:
-print("x is 10")
-```
-
-C)
-```python
-print("Hello World!"
-```
-
-D)
-```python
-print "Hello World!)
-```
