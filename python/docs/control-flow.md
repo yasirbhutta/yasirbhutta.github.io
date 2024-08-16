@@ -2483,7 +2483,9 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 3. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
 4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers. [Solution](https://youtu.be/FgMHDLRi_G4)
 5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
-6. **Squares of numbers 1 to 5**: Write a `for` loop to print the squares of numbers from 1 to 5.
+   - [**Watch the Solution Now ✨**](https://youtu.be/K5LV5I2hFg4)
+6. **Squares of numbers 1 to 5**: Write a Python for loop that prints the square of each number from 1 to 5. 
+   - [**Watch the Solution Now ✨**](https://youtu.be/ecGCXSxHjsw)
 7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. [Solution](https://bit.ly/3yrTe0e)
 8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. [Solution](https://youtu.be/LDULv7B9QdQ) 
 **Intermediate Exercises**
