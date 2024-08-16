@@ -2478,16 +2478,23 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 
 **Basic Exercises**
 
-1. **Print numbers 1 to 10**: Write a `for` loop to print numbers from 1 to 10. [Python Exercise Solution]()
-2. **Print even numbers 2 to 20**: Write a `for` loop to print all even numbers from 2 to 20.
-3. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
-4. **Sum of the first 10 natural numbers**: Use a `for` loop to calculate the sum of the first 10 natural numbers. [Solution](https://youtu.be/FgMHDLRi_G4)
+1. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. 
+   - [**Watch the Solution Now ✨**](https://youtu.be/LDULv7B9QdQ) 
+2. **Print numbers 0 to 9**: Write a `for` loop to print numbers from 1 to 10. 
+   - [**Watch the Solution Now ✨**](https://youtube.com/shorts/zIU3X59TcBE)
+3. **Print even numbers 2 to 20**: Write a `for` loop to print all even numbers from 2 to 20.
+4. **Print each character in a string**: Write a `for` loop to iterate through the string "Hello, World!" and print each character.
+   - [**Watch the Solution Now ✨**](https://youtu.be/FgMHDLRi_G4)
 5. **Find the factorial of a number**: Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
    - [**Watch the Solution Now ✨**](https://youtu.be/K5LV5I2hFg4)
 6. **Squares of numbers 1 to 5**: Write a Python for loop that prints the square of each number from 1 to 5. 
    - [**Watch the Solution Now ✨**](https://youtu.be/ecGCXSxHjsw)
-7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. [Solution](https://bit.ly/3yrTe0e)
-8. **Print "Python" 5 times**: Write a `for` loop to print the word "Python" five times. [Solution](https://youtu.be/LDULv7B9QdQ) 
+7. **Count down from 10 to 1**: Use a `for` loop to print numbers from 10 down to 1. 
+   - [**Watch the Solution Now ✨**](https://bit.ly/3yrTe0e)
+8. **Calculate the sum of the first N natural numbers**
+   - [**Watch the Solution Now ✨**](https://youtu.be/FgMHDLRi_G4)
+
+   
 **Intermediate Exercises**
 
 1.  **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
@@ -2526,6 +2533,11 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 
 1. How to Count Digits in a Positive Integer using Python [Solution](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
 2. How to Count Occurrence of a Specific Digit in a Number using Python.  [Solution](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
+
+### Loop Control Statements (break, continue, pass) Exercises
+
+1. Write a Python program using the continue statement in a loop to skip specific iterations, such as skipping over the numbers 0, 1, 2, and 4?
+   - [**Watch the Solution Now ✨**](https://youtube.com/shorts/lf6SYOMIJv8)
 
 ## Review Questions
 
