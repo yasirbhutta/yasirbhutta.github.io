@@ -1247,7 +1247,7 @@ These challenges are designed to highlight common mistakes that occur when worki
 
 ### if statement (MCQs)
 
-**What is the output of the following code** [Python Quiz #16](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
+1. **What is the output of the following code** [Python Quiz #16](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
 ```python
 x = 10
@@ -1265,7 +1265,7 @@ else:
 
 **Watch this video for the answer:** [https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
-**What is the output of the following code?** [Python Quiz #31](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
+2. **What is the output of the following code?** [Python Quiz #31](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
 
 ```python
 x = 3
@@ -1283,7 +1283,7 @@ else:
   
 **Watch the video for the answer:** [https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk](https://youtube.com/shorts/7uAgT3_P4Oc?si=evBHSymYx2kVaEEk)
 
-13. **What will be the output of the following code?** [Python Quiz #39](https://youtu.be/TkmqlDK8oCg)
+3. **What will be the output of the following code?** [Python Quiz #39](https://youtu.be/TkmqlDK8oCg)
 ```python
 x = 10
 if  5 < x < 15:
@@ -1297,7 +1297,7 @@ else:
     - D) No output
 **Watch the video for the answer:**[https://youtu.be/TkmqlDK8oCg](https://youtu.be/TkmqlDK8oCg)
 
-**Which of the following correctly fixes the syntax error in the code below?** [Python Quiz #40](https://youtu.be/3010E1WuHd8)
+4. **Which of the following correctly fixes the syntax error in the code below?** [Python Quiz #40](https://youtu.be/3010E1WuHd8)
 
 ```python
 # fixes the error
@@ -1757,7 +1757,7 @@ else:
 
 ### for loop (MCQs)
 
-**What is the output of the following code snippet in Python?** [Python Quiz #3](https://bit.ly/3WKH9wE)
+1. **What is the output of the following code snippet in Python?** [Python Quiz #3](https://bit.ly/3WKH9wE)
 
 ```python
 for i in range(10):
@@ -1772,7 +1772,7 @@ D) IndentationError: expected an indented block
 
 **Watch the video for answer:** [https://bit.ly/3WKH9wE](https://bit.ly/3WKH9wE)
 
-**What is the correct syntax for a for loop in Python?**
+2. **What is the correct syntax for a for loop in Python?**
 
 - A) for (int i = 0; i < 10; i++):
 - B) for i in range(10):
@@ -1781,7 +1781,7 @@ D) IndentationError: expected an indented block
 
 **watch the video for the answer:** [https://youtu.be/2mhrDgBEp10](https://youtu.be/2mhrDgBEp10)
 
-**What will be the output of the following code?** [Python Quiz #36](https://bit.ly/3WqjjEP)
+3. **What will be the output of the following code?** [Python Quiz #36](https://bit.ly/3WqjjEP)
 
 ```python
 for i in range(5):
@@ -1795,7 +1795,7 @@ for i in range(5):
 
 **Watch this video for the answer:** [https://bit.ly/3WqjjEP](https://bit.ly/3WqjjEP)
 
-**How many times is the print statement executed?** [Python Quiz #37](https://youtu.be/CYeZI3uCiTI)
+4. **How many times is the print statement executed?** [Python Quiz #37](https://youtu.be/CYeZI3uCiTI)
 ```python
 for i in range(3):
     for j in range(2):
@@ -1842,11 +1842,8 @@ print(total)
 **What does this code accomplish?**
 
 A) It prints numbers from 1 to 5.
-
 B) It calculates the sum of numbers from 1 to 5.
-
 C) It prints the sum of numbers from 1 to 6.
-
 D) It calculates the sum of numbers from 0 to 5.
 
 *Explanation:* The loop iterates over the range from 1 to 5 (inclusive), summing up the values. The `total` variable accumulates this sum.
@@ -1858,11 +1855,8 @@ D) It calculates the sum of numbers from 0 to 5.
 **How can a `for` loop be used in a real-life scenario involving data processing?**
 
 A) To count the number of words in a large document.
-
 B) To open a web browser.
-
 C) To create a new file on the desktop.
-
 D) To turn off a computer.
 
 *Explanation:* A `for` loop can be used to iterate through the words in a document to count them, making it useful for data analysis tasks.
@@ -1982,7 +1976,7 @@ else:
 
 **Watch this video for the answer:** [https://youtube.com/shorts/9Zw-LuNX9h0](https://youtube.com/shorts/9Zw-LuNX9h0)
 
-4. **What is the output of the following code?** [Python Quzi #38](https://bit.ly/3AdTqka)
+3. **What is the output of the following code?** [Python Quzi #38](https://bit.ly/3AdTqka)
 
 ```python
 x = 10
@@ -2089,7 +2083,7 @@ for i in range(5):
 
 **Watch this video for answer:** [https://youtube.com/shorts/x7CIxqoqccY](https://youtube.com/shorts/x7CIxqoqccY)
 
-**What is the output of the following code snippet in Python?** [Python Quiz #6]
+2. **What is the output of the following code snippet in Python?** [Python Quiz #6]
 ```python
 for i in range(5):
     if i == 3:
@@ -2103,6 +2097,27 @@ for i in range(5):
     - D) 0 1 2 3 4
 
 **Watch this video for answer:** [https://youtube.com/shorts/XNLL6j-P61A](https://youtube.com/shorts/XNLL6j-P61A)
+
+**youtube@yasirbhutta**
+3. **What is the output of the following code?**
+
+```python
+i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Loop completed")
+```
+
+    - A) 1 2
+    - B) 1 2 Loop completed
+    - C) 1 2 3
+    - D) 1 2 3 Loop completed
+
+   - **Watch the Video Tutorial for the Answer:** [https://youtu.be/LfF9CsyVRgU](https://youtu.be/LfF9CsyVRgU)
 
 How can you create a nested if statement in Python?2
 
@@ -2198,26 +2213,6 @@ d) exit
 
 Answer: b) break
 
-#37 What is the output of the following code?
-
-i = 0
-while i < 5:
-    i += 1
-    if i == 3:
-        break
-    print(i)
-else:
-    print("Loop completed")
-
-Watch the Video Tutorial for the Answer: https://youtu.be/LfF9CsyVRgU
-
-#python #pythonpoll #MCQsTest #yasirbhutta
-
-
-a) 1 2
-b) 1 2 Loop completed
-c) 1 2 3
-d) 1 2 3 Loop completed
 
 #34 What is the output of the following code?
 
