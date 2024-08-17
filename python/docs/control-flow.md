@@ -344,9 +344,7 @@ print(f"Sum of even numbers: {sum}")
 
 **Example #5:** [video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
 
-**Example #6:** [video: How to Print Multiplication Tables in Python](https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
-
-**Example #7:** Lists as an iterable
+**Example #6:** Lists as an iterable
 
 ```python
 collection = ['python', 5, 'd']
@@ -2494,13 +2492,14 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
 8. **Calculate the sum of the first N natural numbers**
    - [**Watch the Solution Now ✨**](https://youtu.be/FgMHDLRi_G4)
 
-   
 **Intermediate Exercises**
 
-1.  **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
-2.  **Check if a number is prime**: Write a `for` loop to check if a given number is prime.
-3.  **Sum of digits of a number**: Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
-4.  **Print a pattern of stars**: Use nested `for` loops to print the following pattern:
+9.  **Print the multiplication table for 5**: Write a `for` loop to print the multiplication table for the number 5. 
+    - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
+2.  **Print the first 10 Fibonacci numbers**: Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
+3.  **Check if a number is prime**: Write a `for` loop to check if a given number is prime.
+4.  **Sum of digits of a number**: Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
+5.  **Print a pattern of stars**: Use nested `for` loops to print the following pattern:
     ```
     *
     **
@@ -2508,16 +2507,14 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
     ****
     *****
     ```
-5.  **Print odd numbers between 1 and 20**: Write a `for` loop to print all odd numbers between 1 and 20.
-6.  **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
+6.  **Print odd numbers between 1 and 20**: Write a `for` loop to print all odd numbers between 1 and 20.
+7.  **Count vowels in a string**: Use a `for` loop to count the number of vowels in the string "Hello, World!".
 
 **Advanced Exercises**
 
-17. **Print the multiplication table for 7**: Write a `for` loop to print the multiplication table for the number 7. 
 18. **Generate a list of even numbers**: Use a `for` loop to generate a list of even numbers between 1 and 20.
 22. **Print numbers divisible by 3 and 5 between 1 and 50**: Use a `for` loop to print all numbers between 1 and 50 that are divisible by both 3 and 5.
-23. **Generate a list of the first 10 square numbers**: Write a `for` loop to create a list of the first 10 square numbers.
-24. **Print a right-angle triangle of numbers**: Use nested `for` loops to print the following pattern:
+23. **Print a right-angle triangle of numbers**: Use nested `for` loops to print the following pattern:
     ```
     1
     12
@@ -2525,18 +2522,22 @@ Certainly! Here are 30 exercises to help you practice using `if-elif-else` state
     1234
     12345
     ```
-28. **Print numbers that are multiples of 3 up to 30**: Use a `for` loop to print all multiples of 3 up to 30.
-29. **Find numbers divisible by 7 and 11 between 1 and 100**: Use a `for` loop to print all numbers between 1 and 100 that are divisible by both 7 and 11.
-31. **Calculate the harmonic sum of n numbers**: Write a
+24. **Print numbers that are multiples of 3 up to 30**: Use a `for` loop to print all multiples of 3 up to 30.
+25. **Find numbers divisible by 7 and 11 between 1 and 100**: Use a `for` loop to print all numbers between 1 and 100 that are divisible by both 7 and 11.
+26. **Calculate the harmonic sum of n numbers**: Write a
 
 ### While loop Exercises
 
-1. How to Count Digits in a Positive Integer using Python [Solution](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
-2. How to Count Occurrence of a Specific Digit in a Number using Python.  [Solution](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
+1. How to Count Digits in a Positive Integer using Python 
+   - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=33n-lb1Ujp4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
+2. How to Count Occurrence of a Specific Digit in a Number using Python.  
+   - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=MXWbTdvSBVs&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=47)
 
 ### Loop Control Statements (break, continue, pass) Exercises
 
-1. Write a Python program using the continue statement in a loop to skip specific iterations, such as skipping over the numbers 0, 1, 2, and 4?
+1. Write a Python program that runs an infinite loop using a while statement. Include a way to exit the loop by using the break statement.
+   - [**Watch the Solution Now ✨**](https://youtube.com/shorts/4qZyBEKSfaA)
+2. Write a Python program using the continue statement in a loop to skip specific iterations, such as skipping over the numbers 0, 1, 2, and 4?
    - [**Watch the Solution Now ✨**](https://youtube.com/shorts/lf6SYOMIJv8)
 
 ## Review Questions

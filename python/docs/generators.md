@@ -1,5 +1,7 @@
+# Python: Generators
 
-
+- [Video: How to Use Yield to Generate Values](https://www.youtube.com/watch?v=9p2zcdZD9Jk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25)
+- [Video: Learn to Generate the Fibonacci Sequence in Python using Generators](https://www.youtube.com/watch?v=oSxiDMrbOV8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=17)
 
 ## Key Terms
 
