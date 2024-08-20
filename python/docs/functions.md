@@ -42,8 +42,6 @@ greet("Ahmad")  # Output: Hello, Ahmad!
 - **Return Value:** A function can optionally return a value using the `return` statement.
 - **Docstrings:** It's good practice to include a docstring (a string that explains the function's purpose) after the function definition.
 
-**More Examples:**
-
 **Function with a Return Value:**
 
 ```python
@@ -54,34 +52,6 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-**Function with Default Parameters:**
-
-```python
-def greet(name="World"):
-  print("Hello,", name + "!")
-
-greet()  # Output: Hello, World!
-greet("Alice")  # Output: Hello, Alice!
-```
-
-**Function with Variable-length Arguments:**
-
-```python
-def multiply(*numbers):
-  result = 1
-  for number in numbers:
-    result *= number
-  return result
-
-print(multiply(2, 3, 4))  # Output: 24
-```
-
-**Practice Exercises:**
-
-- Write a function to calculate the factorial of a number.
-- Write a function to check if a number is prime.
-- Write a function to find the largest number in a list.
-
 - [Video: How to Add Two Numbers and Print the Result](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
 - [Video: How to Find the Maximum Value in a List of Numbers](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
 - [Video: How to Write a Python Function to Find the Length of a Word](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
@@ -90,9 +60,9 @@ print(multiply(2, 3, 4))  # Output: 24
 - [Video: How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
 - [Video: How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
-## Parameters and Arguments
+### Parameters and Arguments
 
-**Parameters** and **arguments** are often used interchangeably, but they have distinct meanings in the context of functions.
+Parameters are defined by the names that appear in a function definition, whereas arguments are the values actually passed to a function when calling it. Parameters define what kind of arguments a function can accept. 
 
 ### Parameters
 * **Definition:** Variables declared in a function's definition.
@@ -103,6 +73,8 @@ print(multiply(2, 3, 4))  # Output: 24
 * **Definition:** Actual values passed to a function when it's called.
 * **Purpose:** Provide data for the function to work with.
 * **Location:** Inside the function call parentheses.
+
+See also the `FAQ` question of `Python Documentation` on [the difference between arguments and parameters](https://docs.python.org/3/faq/programming.html#faq-argument-vs-parameter).
 
 **Example:**
 
@@ -124,6 +96,42 @@ In this example:
 **Think of it like this:**
 * A parameter is like an empty box that expects a value.
 * An argument is the value you put into the box.
+
+## More on Defining Functions
+### Default Argument Values
+
+**Example:** Function with Default Parameters:**
+
+```python
+def greet(name="World"):
+  print("Hello,", name + "!")
+
+greet()  # Output: Hello, World!
+greet("Alice")  # Output: Hello, Alice!
+```
+### Keyword Arguments
+### Special parameters
+#### Positional-or-Keyword Arguments
+#### Positional-Only Parameters
+#### Keyword-Only Arguments
+### Arbitrary Argument Lists
+
+**Example:** Function with Variable-length Arguments
+
+```python
+def multiply(*numbers):
+  result = 1
+  for number in numbers:
+    result *= number
+  return result
+
+print(multiply(2, 3, 4))  # Output: 24
+```
+
+### Unpacking Argument Lists
+### Lambda Expressions
+### Documentation Strings
+### Function Annotations
 
 **See also:**
 
@@ -149,8 +157,7 @@ print(myfunction (13) or myfunction (8))
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/laKpsLlq60I](https://youtu.be/laKpsLlq60I)
 
-
-What is the output of the following code? [Python Quiz #2]
+2. **What is the output of the following code?** [Python Quiz #2]
 
 ```python
 def foo(x):
@@ -167,6 +174,25 @@ print(foo(5))
 - D) None
   
 **Watch this video for answer:** [https://www.youtube.com/shorts/k50czTu7vao](https://www.youtube.com/shorts/k50czTu7vao) 
+
+3. **What is the output of the following code?** [Python Quiz #30]
+```python
+def calculate_sum(n):
+    if n == 0:
+        return 0
+    else:
+        return n + calculate_sum(n-1)
+
+print(calculate_sum(4))
+```
+
+  - A) 4
+  - B) 6
+  - C) 10
+  - D) 15
+
+**Watch the video for the answer:** [https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W](https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W)
+
 
 What is the output of the following expression? [Python Quiz #13]
 
@@ -203,30 +229,6 @@ add(1, 2,8,9)
 - D) None
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
-
-**What is the output of the following code? [Python Quiz #30]**
-
-**Code:**
-
-```python
-def calculate_sum(n):
-    if n == 0:
-        return 0
-    else:
-        return n + calculate_sum(n-1)
-
-print(calculate_sum(4))
-```
-
-**Options:**
-
-* A) 4
-* B) 6
-* C) 10
-* D) 15
-
-
-**Watch the video for the answer:** [https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W](https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W)
 
 #23 What is the main purpose of a function in Python?
 

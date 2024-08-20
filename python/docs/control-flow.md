@@ -1863,33 +1863,6 @@ if result is not None:
 
 **Watch this video for the answer:** [https://youtu.be/K5LV5I2hFg4](https://youtu.be/K5LV5I2hFg4)
 
-7. **What is the purpose of the `result *= i` statement in the program?**
-
-```python
-# Get user input
-number = int(input("Enter non-negative number:"))
-
-if number < 0:
-    print("Factorial is not defined for negative numbers.")
-    result = None
-elif number == 0 or number ==1:
-    result = 1
-else:
-    result = 1
-    for i in range(2, number + 1):
-        result *= i
-
-if result is not None:
-    print("Factorial of", number, "is", result)
-```
-
-- A) It adds `i` to `result`.
-- B) It multiplies `result` by `i` and stores the result back in `result`.
-- C) It divides `result` by `i` and stores the result back in `result`.
-- D) It subtracts `i` from `result`.
-
-**Watch this video for the answer:** [https://youtu.be/K5LV5I2hFg4](https://youtu.be/K5LV5I2hFg4)
-
 **What is the primary purpose of a for loop in Python?**
 
     - A) To define a function

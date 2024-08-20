@@ -14,11 +14,17 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### Installation & Getting Started
 
-- [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
-- [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
+- [Python Tools](docs/tools.md)
+- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
+### Tips for Practicing
 
-### Python Class Notes
+**Practice Coding by Hand:** This will help you think through the problem deeply.
+**Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
+**Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
+**Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
+
+### Python Notes
 
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)
@@ -26,11 +32,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Operators](docs/operators.md)
 - [Control Flow](docs/control-flow.md)
 - [Functions](docs/functions.md)
+- [Anonymous Functions (Lambdas)](docs/lambdas.md)
 - [Data Structures and Sequences](docs/dss.md)
 - [String Methods](docs/str-methods.md)
 - [Built-in Functions](docs/built_in_functions.md)
 - [Comprehensions (List and Dictionary)](docs/comprehensions.md)
-- [Anonymous Functions (Lambdas)](docs/lambdas.md)
 - [Generator Functions](docs/generators.md)
 - [Decorators](docs/decorators.md)
 - [Python Sorting](docs/sorting.md)
@@ -64,3 +70,5 @@ https://bokeh.org/
 ### Python Utilities
 
 ### Testing
+
+
