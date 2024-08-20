@@ -31,7 +31,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Data Types](docs/data-types.md)
 - [Operators](docs/operators.md)
 - [Control Flow](docs/control-flow.md)
-- [Functions](docs/functions.md)
+- [Defining Functions](docs/functions.md)
 - [Anonymous Functions (Lambdas)](docs/lambdas.md)
 - [Data Structures and Sequences](docs/dss.md)
 - [String Methods](docs/str-methods.md)

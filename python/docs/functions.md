@@ -52,8 +52,7 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-- [Video: How to Add Two Numbers and Print the Result](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
-- [Video: How to Find the Maximum Value in a List of Numbers](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
+
 - [Video: How to Write a Python Function to Find the Length of a Word](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
 - [Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
 - [Video: Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
@@ -267,6 +266,26 @@ d) my_function() {
 
 ## Exercises
 
+1. Write a Python program that takes two numbers as input and prints their sum.
+  - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
+2. **Exercise: Find the Maximum Value**
+
+**Task:** Write a Python program that finds and prints the maximum value from a given list of numbers.
+
+**Sample Input:**
+```python
+numbers = [3, 7, 1, 9, 5]
+```
+
+**Sample Output:**
+```
+9
+```
+
+**Instruction:** please don't use the `max()` function to find the maximum value in a list.
+
+- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
+   
 - Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
 - Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
 - Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
