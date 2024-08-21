@@ -113,19 +113,82 @@ greet("Alice")  # Output: Hello, Alice!
 #### Positional-or-Keyword Arguments
 #### Positional-Only Parameters
 #### Keyword-Only Arguments
-### Arbitrary Argument Lists
+#### Arbitrary Argument Lists
 
-**Example:** Function with Variable-length Arguments
+In Python, Arbitrary Argument Lists allow a function to accept a varying number of arguments. This is useful when you don't know beforehand how many arguments might be passed to the function. There are two types of arbitrary arguments:
 
+1. **Arbitrary Positional Arguments (`*args`)**
+2. **Arbitrary Keyword Arguments (`**kwargs`)**
+
+1. Arbitrary Positional Arguments (`*args`)
+   
+These allow a function to take any number of positional arguments. Inside the function, `*args` collects all the positional arguments as a tuple.
+
+**Example:**
 ```python
-def multiply(*numbers):
-  result = 1
-  for number in numbers:
-    result *= number
-  return result
+def greet(*names):
+    for name in names:
+        print(f"Hello, {name}!")
 
-print(multiply(2, 3, 4))  # Output: 24
+greet("Ali", "Hamza", "Ahmad")
 ```
+**Output:**
+```
+Hello, Ali!
+Hello, Hamza!
+Hello, Ahmad!
+```
+
+In this example, the `greet` function can take any number of names. The `*names` collects them into a tuple (`names`), which can be iterated over.
+
+[video: How to Use *args in Python Functions](https://youtu.be/7ejTzBybkw4)
+
+2. Arbitrary Keyword Arguments (`**kwargs`)
+
+These allow a function to accept any number of keyword arguments (arguments passed as key-value pairs). Inside the function, `**kwargs` collects these as a dictionary.
+
+**Example:**
+```python
+def print_info(**info):
+    for key, value in info.items():
+        print(f"{key}: {value}")
+
+print_info(name="Ali", age=25, city="Multan")
+```
+**Output:**
+```
+name: Ali
+age: 25
+city: Multan
+```
+
+In this case, the function accepts any number of keyword arguments and collects them into a dictionary (`info`), which you can then work with inside the function.
+
+[video: How to use  **kwargs in Python](https://youtu.be/_NMaZ9EO0zI)
+
+##### Combined Use
+
+You can also use both `*args` and `**kwargs` in the same function to handle a combination of positional and keyword arguments.
+
+**Example:**
+```python
+def display_data(*args, **kwargs):
+    print("Positional arguments:", args)
+    print("Keyword arguments:", kwargs)
+
+display_data(1, 2, 3, name="Ali", age=25)
+```
+**Output:**
+```
+Positional arguments: (1, 2, 3)
+Keyword arguments: {'name': 'Ali', 'age': 25}
+```
+
+**Key Points:**
+- `*args` collects all positional arguments into a tuple.
+- `**kwargs` collects all keyword arguments into a dictionary.
+- You can use both `*args` and `**kwargs` together to handle any type of arguments passed to a function.
+- 
 
 ### Unpacking Argument Lists
 ### Lambda Expressions
@@ -192,9 +255,8 @@ print(calculate_sum(4))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W](https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W)
 
-
-What is the output of the following expression? [Python Quiz #13]
-
+# Youtube@yasirbhutta
+4. **What is the output of the following expression?** [Python Quiz #13]
 ```python
 def add(a,b,*parm):
     total = 0
@@ -206,14 +268,14 @@ def add(a,b,*parm):
 print(add(1, 2))
 ```
 
-- A) 3 0
-- B) 3
-- C) 0
-- D) Error
+  - A) 3 0
+  - B) 3
+  - C) 0
+  - D) Error
 
 **Watch this video for answer:** [https://youtube.com/shorts/k4KVCxU5oMg](https://youtube.com/shorts/k4KVCxU5oMg)
 
-What is the output of the following  code? [Python Quiz #14]
+5. **What is the output of the following  code?** [Python Quiz #14]
 
 ```python
 def add(*args):
@@ -222,13 +284,27 @@ def add(*args):
 add(1, 2,8,9)
 ```
 
-- A) set
-- B) tuple
-- C) list
-- D) None
+  - A) set
+  - B) tuple
+  - C) list
+  - D) None
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
+**What is the output of the following  code?**
+
+```python
+def display_data(**kwargs):
+    print(type(kwargs))
+
+display_data(name="Ali", age=25)
+```
+
+  - A) <class 'set'>
+  - B) <class 'tuple'>
+  - C) <class 'list'>
+  - D) <class 'dict'>
+  
 #23 What is the main purpose of a function in Python?
 
 #python #pythonpoll #MCQsTest #yasirbhutta
@@ -286,11 +362,11 @@ numbers = [3, 7, 1, 9, 5]
 
 - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
    
-- Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
-- Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
-- Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
-- Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
-- Write a program with three functions:
+3. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
+4. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
+5. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
+6. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
+7. Write a program with three functions:
   
   1. **`isEven(n)`:** This function takes an integer `n` as input and returns `True` if `n` is even and `False` otherwise. You can use the modulo operator (`%`) to check for evenness.
   2. **`printTable(n)`:** This function takes an integer `n` as input and prints its multiplication table. The table should show the product of `n` with each number from 1 to 10, formatted like `n * i = n * i`, where `i` is the current number in the loop.
@@ -312,7 +388,7 @@ Enter an integer: 4
 4 * 10 = 40
 ```
 
-- Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
+9. Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
 
 ## Review Questions
 
