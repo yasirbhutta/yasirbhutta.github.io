@@ -291,7 +291,7 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
-**What is the output of the following  code?**
+6. **What is the output of the following  code?**
 
 ```python
 def display_data(**kwargs):
@@ -305,39 +305,35 @@ display_data(name="Ali", age=25)
   - C) <class 'list'>
   - D) <class 'dict'>
   
-#23 What is the main purpose of a function in Python?
+7. **What is the main purpose of a function in Python?**  
 
-#python #pythonpoll #MCQsTest #yasirbhutta
+  - A) To group a set of related code into a single unit
+  - B) To create a new type of data
+  - C) To write a program in a single line
+  - D) To change the value of global variables
 
-a) To group a set of related code into a single unit
-b) To create a new type of data
-c) To write a program in a single line
-d) To change the value of global variables
-Answer: a) To group a set of related code into a single unit
+8. **What is the purpose of the return statement in a function in Python?**
 
+  - A) To print the output of the function
+  - B) To exit the function and return a value
+  - C) To execute the function without returning anything
+  - D) To stop the function and start a new one
 
-#22 What is the purpose of the return statement in a function in Python?
+9. **What is the correct way to define a function in Python?**
 
-a) To print the output of the function
-b) To exit the function and return a value
-c) To execute the function without returning anything
-d) To stop the function and start a new one
+  - A) function my_function():
+  - B) def my_function():
+  - C) define my_function():
+  - D) my_function() {
 
-Answer: b) To exit the function and return a value
 
 How can you pass parameters to a function in Python?
 a) By listing the parameters after the function name, separated by commas
 b) By enclosing the parameters in square brackets
 c) By using the global keyword
 d) By using the input() function
+
 Answer: a) By listing the parameters after the function name, separated by commas
-
-
-What is the correct way to define a function in Python?
-a) function my_function():
-b) def my_function():
-c) define my_function():
-d) my_function() {
 
 
 ## Exercises
