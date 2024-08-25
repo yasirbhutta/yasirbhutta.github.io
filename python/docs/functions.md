@@ -1,10 +1,14 @@
 # Python for Beginners: Functions in Python
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/python/docs/functions.pdf)
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/functions.html](https://yasirbhutta.github.io/python/docs/functions.html)
+
+
+[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
+
 
 ## What is a Function?
 
@@ -52,13 +56,6 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-
-- [Video: How to Write a Python Function to Find the Length of a Word](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
-- [Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
-- [Video: Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
-- [Video: How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
-- [Video: How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
-
 ### Parameters and Arguments
 
 Parameters are defined by the names that appear in a function definition, whereas arguments are the values actually passed to a function when calling it. Parameters define what kind of arguments a function can accept. 
@@ -99,6 +96,8 @@ In this example:
 ## More on Defining Functions
 ### Default Argument Values
 
+- [Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
+
 **Example:** Function with Default Parameters:**
 
 ```python
@@ -124,6 +123,9 @@ In Python, Arbitrary Argument Lists allow a function to accept a varying number 
    
 These allow a function to take any number of positional arguments. Inside the function, `*args` collects all the positional arguments as a tuple.
 
+- [Video: How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
+- [Video: Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
+
 **Example:**
 ```python
 def greet(*names):
@@ -141,11 +143,11 @@ Hello, Ahmad!
 
 In this example, the `greet` function can take any number of names. The `*names` collects them into a tuple (`names`), which can be iterated over.
 
-[video: How to Use *args in Python Functions](https://youtu.be/7ejTzBybkw4)
-
-2. Arbitrary Keyword Arguments (`**kwargs`)
+1. Arbitrary Keyword Arguments (`**kwargs`)
 
 These allow a function to accept any number of keyword arguments (arguments passed as key-value pairs). Inside the function, `**kwargs` collects these as a dictionary.
+
+- [Video: How to use **kwargs in Python](https://www.youtube.com/watch?v=_NMaZ9EO0zI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
 **Example:**
 ```python
@@ -163,8 +165,6 @@ city: Multan
 ```
 
 In this case, the function accepts any number of keyword arguments and collects them into a dictionary (`info`), which you can then work with inside the function.
-
-[video: How to use  **kwargs in Python](https://youtu.be/_NMaZ9EO0zI)
 
 ##### Combined Use
 
@@ -237,7 +237,10 @@ print(foo(5))
   
 **Watch this video for answer:** [https://www.youtube.com/shorts/k50czTu7vao](https://www.youtube.com/shorts/k50czTu7vao) 
 
+For more details, see [Appendix A](#appendix-a-recursive-program)
+
 3. **What is the output of the following code?** [Python Quiz #30]
+   
 ```python
 def calculate_sum(n):
     if n == 0:
@@ -255,8 +258,8 @@ print(calculate_sum(4))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W](https://youtube.com/shorts/LQEfGgJYlT4?si=MDvSvVHiBc6hCJ0W)
 
-# Youtube@yasirbhutta
 4. **What is the output of the following expression?** [Python Quiz #13]
+
 ```python
 def add(a,b,*parm):
     total = 0
@@ -291,7 +294,7 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
-6. **What is the output of the following  code?**
+6. **What is the output of the following  code?** [#41 Python Quiz]
 
 ```python
 def display_data(**kwargs):
@@ -305,7 +308,29 @@ display_data(name="Ali", age=25)
   - C) <class 'list'>
   - D) <class 'dict'>
   
-7. **What is the main purpose of a function in Python?**  
+  **Watch this video for answer:** [https://youtu.be/5IWmz7iWqUE?si=Wx0OeTwME3XEiL-h](https://youtu.be/5IWmz7iWqUE?si=Wx0OeTwME3XEiL-h)
+  
+7. **What will be the output of this code?** 
+    ```python
+    def func(x, y=2):
+        return x * y
+    print(func(3))
+    ```
+    - A) 2
+    - B) 6
+    - C) 3
+    - D) Error
+
+    **Answer:** B
+
+8. **What is a function in Python?** [#42 Python Quiz]
+   
+   - A) A built-in tool that performs a specific operation.
+   - B) A block of code that only executes when it is called.
+   - C) A variable used to store data.
+   - D) A loop structure for repetitive tasks.
+  
+9.  **What is the main purpose of a function in Python?**  
 
   - A) To group a set of related code into a single unit
   - B) To create a new type of data
@@ -326,20 +351,27 @@ display_data(name="Ali", age=25)
   - C) define my_function():
   - D) my_function() {
 
+11. **Which of the following is true about Python functions?**
+   - A) Functions are mandatory in Python programs.
+   - B) Functions can only return one value.
+   - C) Functions can return multiple values.
+   - D) A function must always take arguments.
 
-How can you pass parameters to a function in Python?
-a) By listing the parameters after the function name, separated by commas
-b) By enclosing the parameters in square brackets
-c) By using the global keyword
-d) By using the input() function
+   **Answer:** C
 
-Answer: a) By listing the parameters after the function name, separated by commas
+12. **What happens if you don't include a return statement in a function?**
+   - A) The function will return None.
+   - B) The function will cause an error.
+   - C) The function will return 0.
+   - D) The function will return the last variable used.
 
+   **Answer:** A
 
-## Exercises
+## Python Code Challenges
 
 1. Write a Python program that takes two numbers as input and prints their sum.
   - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
+
 2. **Exercise: Find the Maximum Value**
 
 **Task:** Write a Python program that finds and prints the maximum value from a given list of numbers.
@@ -357,12 +389,37 @@ numbers = [3, 7, 1, 9, 5]
 **Instruction:** please don't use the `max()` function to find the maximum value in a list.
 
 - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
-   
-3. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
-4. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
-5. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
-6. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
-7. Write a program with three functions:
+  
+3. **Problem Statement:** Write a Python function `find_length` that takes a string input `word` and returns the length of the word by counting the number of characters in it. You are not allowed to use the built-in `len()` function.
+
+**Function Signature:**
+```python
+def find_length(word: str) -> int:
+```
+**Input:**
+- A string `word` which can contain letters, spaces, or special characters.
+**Output:**
+- The function returns an integer representing the total number of characters in the input string.
+**Sample Input and Output:**
+**Input:**
+```python
+find_length("python language")
+```
+**Output:**
+```
+15
+```
+
+- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
+
+# Youtube@yasirbhutta
+
+
+1. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
+2. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
+3. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
+4. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
+5. Write a program with three functions:
   
   1. **`isEven(n)`:** This function takes an integer `n` as input and returns `True` if `n` is even and `False` otherwise. You can use the modulo operator (`%`) to check for evenness.
   2. **`printTable(n)`:** This function takes an integer `n` as input and prints its multiplication table. The table should show the product of `n` with each number from 1 to 10, formatted like `n * i = n * i`, where `i` is the current number in the loop.
@@ -415,3 +472,50 @@ x = 10
 ```
 
 *Answer:* B
+
+## **Appendices**
+
+### **Appendix A: Recursive program**
+
+- A recursive program is one that calls itself in order to solve a problem. In Python, this usually happens within a function where the function continues to call itself with a modified argument until a base condition is met. 
+
+In the example, the function `foo(x)` is a recursive function that calculates the factorial of `x`.
+
+### The code:
+```python
+def foo(x):
+    if x == 1:
+        return 1
+    else:
+        return x * foo(x - 1)
+
+print(foo(5))
+```
+
+### Step-by-Step Explanation:
+1. **Base Case**:
+   - The function has a base case `if x == 1: return 1`. This stops the recursion. Without this base case, the function would keep calling itself indefinitely, leading to a "stack overflow" or "maximum recursion depth exceeded" error.
+
+2. **Recursive Case**:
+   - If `x` is not equal to `1`, the function returns `x * foo(x - 1)`. This is the recursive step, which calls `foo` again with `x - 1`.
+
+3. **Example with `foo(5)`**:
+   Let's break down the flow when you call `foo(5)`:
+
+   - `foo(5)` checks if `x == 1`. Since `x = 5`, the base case is not satisfied, so the function returns `5 * foo(4)`.
+   - Now, the function evaluates `foo(4)`. Again, `x == 1` is false, so the function returns `4 * foo(3)`.
+   - Next, `foo(3)` is evaluated. It returns `3 * foo(2)`.
+   - Then, `foo(2)` returns `2 * foo(1)`.
+   - Finally, `foo(1)` hits the base case and returns `1`.
+
+   Now, the recursive calls start to resolve from the deepest level:
+   - `foo(2)` returns `2 * 1 = 2`
+   - `foo(3)` returns `3 * 2 = 6`
+   - `foo(4)` returns `4 * 6 = 24`
+   - `foo(5)` returns `5 * 24 = 120`
+
+4. **Output**:
+   The result of `foo(5)` is `120`, which is the factorial of 5. Hence, `print(foo(5))` will output `120`.
+
+### Conclusion:
+This is a classic example of recursion being used to calculate the factorial of a number. The function continues to break down the problem (finding factorial of smaller numbers) until it hits the simplest case (`x == 1`), after which it multiplies the results together to get the final answer.

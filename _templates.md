@@ -62,6 +62,19 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## References and Bibliography
 
+For more details, see Appendix A.
+
+## **Appendices**
+
+### **Appendix A: Data Tables**
+This section includes the data tables referred to in the text...
+
+### **Appendix B: Definitions**
+This section contains the key definitions used throughout the notes...
+
+### **Appendix C: Extended Quotations**
+Here are the extended quotations referenced in the main body...
+
 Folders
 
 images: for images

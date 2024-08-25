@@ -6,6 +6,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/control-flow.html](https://yasirbhutta.github.io/python/docs/control-flow.html)
 
+[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
+
 ## Flow control statements
 
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
@@ -730,9 +732,7 @@ def get_fruit_color(fruit):
 
 ## Fix the errors in Python
 
-Sure! Here are more examples of Python code challenges with mistakes in control flow statements. Each one is followed by an explanation and the corrected code.
-
-### 1. **Mistaken Use of `elif` Instead of `if`**
+### 1. **Mistaken Use of `elif` Instead of `if`** [#43 Python Quiz]
 
 **Code:**
 ```python
@@ -744,19 +744,7 @@ elif x > 0:
     print("x is positive")
 ```
 
-**Mistake:**  
-Using `elif` after the first condition is true means the second condition (`x > 0`) will never be checked.
-
-**Corrected Code:**
-```python
-x = 7
-
-if x > 5:
-    print("x is greater than 5")
-if x > 0:
-    print("x is positive")
-```
-- Now, both conditions are checked independently.
+**Watch this video for the Answer:** [https://youtu.be/oQAvH8N1uPk](https://youtu.be/oQAvH8N1uPk)
 
 ### 2. **Infinite `while` Loop Due to Missing Update Statement**
 
@@ -1949,11 +1937,8 @@ for i in range(1, 4):
         print(i, j)
 ```
 A) 1 1 1 2 2 1 2 2 3 1 3 2
-
 B) 1 2 2 3 3 4
-
 C) 1 3 2 3 3 3
-
 D) 1 1 2 2 3 3
 
 *Explanation:* This is a nested loop, where the outer loop runs from 1 to 3 (inclusive) and the inner loop runs from 1 to 2 (inclusive). It prints all combinations of `i` and `j`.
@@ -1966,17 +1951,13 @@ for i in range(3):
     print(i * i)
 ```
 A) 0 1 4
-
 B) 0 1 2
-
 C) 1 4 9
-
 D) 0 2 4
 
 *Explanation:* The loop iterates over the range 0, 1, 2. For each iteration, it prints the square of the current index `i`.
 
 **Answer:** A
-
 
 **What will the following code output?**
 ```python
@@ -1998,6 +1979,7 @@ D) 5 7 8
 ### while loop (MCQs)
 
 1. **What is the output of the following code snippet in Python?** [Python Quiz #7](https://youtube.com/shorts/zdLNmwO1u8Y)
+   
 ```python
 i = 1
 while i < 10:
@@ -2012,7 +1994,7 @@ while i < 10:
 
 **Watch the video for answer:** [https://youtube.com/shorts/zdLNmwO1u8Y](https://youtube.com/shorts/zdLNmwO1u8Y)
 
-2. **What is the output of the following code snippet in Python?** [Python Quiz #4](https://youtube.com/shorts/9Zw-LuNX9h0)
+1. **What is the output of the following code snippet in Python?** [Python Quiz #4](https://youtube.com/shorts/9Zw-LuNX9h0)
 
 ```python
 i = 0
