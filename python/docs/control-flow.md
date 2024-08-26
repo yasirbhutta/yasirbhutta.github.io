@@ -748,6 +748,9 @@ elif x > 0:
 
 ### 2. **Infinite `while` Loop Due to Missing Update Statement**
 
+**Problem Statement:**
+Write a program that starts with a given positive integer and repeatedly prints its value, decreasing it by 1 in each iteration until it reaches 0. However, the initial code runs into an issue: the loop does not terminate because the value of the integer is never updated, leading to an infinite loop.
+
 **Code:**
 ```python
 n = 10
@@ -768,6 +771,10 @@ while n > 0:
     n -= 1  # Decrease n by 1 each iteration
 ```
 - The loop now terminates when `n` becomes 0.
+
+**Solution:**
+
+The issue in the original code is that n is never updated inside the loop. By adding a decrement statement (n -= 1), we ensure that the loop condition (n > 0) eventually becomes false, and the loop terminates.
 
 ### 3. **Incorrectly Using `for` Loop with `break`**
 
