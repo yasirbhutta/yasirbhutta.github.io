@@ -49,6 +49,17 @@ print(list(squared_numbers))
 - [Built-in Functions - Python 3.12.1 documentation](https://docs.python.org/3/library/stdtypes.html)
   
 
+### Built-in Sequence Functions
+
+- [#1 Python zip() Function](https://www.youtube.com/watch?v=7ix3cDWAsUc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=57)
+- [#2 Python Zip Function: Handling Lists with Different Numbers of Elements](https://www.youtube.com/watch?v=TOxTxP9x4ME&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=56)
+- [Python Iterators and Iterables: How to Loop Over Lists and Iterators](https://www.youtube.com/watch?v=D2YDffp1Oag&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=34)
+- [How to Iterate Over Tuples with the Enumerate Function](https://www.youtube.com/watch?v=QtjIK_knBLo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=31)
+- [Finding the maximum value in a list using a one-liner](https://www.youtube.com/watch?v=S-c7WrZSyaQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)
+- [Find the sum of all even numbers between 1 and 100 using a one-liner](https://www.youtube.com/watch?v=tOxaYOtN-8s&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=3)
+- [Counting the number of occurrences of an element in a list](https://www.youtube.com/watch?v=S2el4USCp5k&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
