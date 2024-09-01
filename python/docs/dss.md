@@ -419,6 +419,7 @@ These examples illustrate that integers, strings, and tuples in Python are immut
 
 ## Multiple Choice (Select the best answer)
 
+### Tuple (MCQs)
 
 **What is the output of the following code? [Python Quiz #15]**
 
@@ -434,6 +435,25 @@ print(type(a))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/uMtHVgPSymw](https://youtube.com/shorts/uMtHVgPSymw)
 
+**What is the output of the following code?**
+
+```python
+tup2= 3,4,5
+print(tup2)
+
+# tuples may be nested
+nested_tup = tup2, (6,7)
+print(nested_tup)
+```
+
+-   A) ((3, 4, 5), (6, 7))
+-   B) [3, 4, 5, 6, 7]
+-   C) {(3, 4, 5), (6, 7)}
+-   D) (3, 4, 5, 6, 7)
+
+**Watch the video for the answer:** [Learn 5 Easy Methods to Create Tuples in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+### List (MCQs)
 
 **What is the output of the following code? [Python Quiz #18]**
 ```python
@@ -493,25 +513,6 @@ print(my_list[1:-1])
 * D) [8, 9, 11]
 
 **Watch the video for the answer:** [https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_](https://youtube.com/shorts/PBBnTGfFm4o?si=Z1TlMu24412nVKG_)
-
-**What is the output of the following code? [Python Quiz #25]**
-
-```python
-my_dict = {
-    'a': 1, 'b': 2,
-    'c': 3
-}
-
-for key in my_dict:
-    print(my_dict[key])
-```
-
-- A) abc
-- B) 123
-- C) {1, 2, 3}
-- D) {a, b, c}
-
-**Watch the video for the answer:** [https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF](https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF)
 
 **What is the output of the following code? [Python Quiz #26]**
 
@@ -585,6 +586,29 @@ print(my_list)
 * D) None
 
 **Watch the video for the answer:** [https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn](https://youtube.com/shorts/QffZTQasQSs?si=6ZW4auXECcvTGQgn)
+
+### Dictionary (MCQs)
+
+**What is the output of the following code? [Python Quiz #25]**
+
+```python
+my_dict = {
+    'a': 1, 'b': 2,
+    'c': 3
+}
+
+for key in my_dict:
+    print(my_dict[key])
+```
+
+- A) abc
+- B) 123
+- C) {1, 2, 3}
+- D) {a, b, c}
+
+**Watch the video for the answer:** [https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF](https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF)
+
+
 
 What is the data type of the following value?
 frozenset({1, 2, 3})
