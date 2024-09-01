@@ -732,7 +732,7 @@ def get_fruit_color(fruit):
 
 ## Fix the errors in Python
 
-### 1. **Mistaken Use of `elif` Instead of `if`** [#43 Python Quiz]
+### 1. **Mistaken Use of `elif` Instead of `if`** [Python Quiz #43]
 
 **Code:**
 ```python
@@ -744,9 +744,9 @@ elif x > 0:
     print("x is positive")
 ```
 
-**Watch this video for the Answer:** [https://youtu.be/oQAvH8N1uPk](https://youtu.be/oQAvH8N1uPk)
+- **Watch the Solution Now ✨:**[https://youtu.be/oQAvH8N1uPk](https://youtu.be/oQAvH8N1uPk)
 
-### 2. **Infinite `while` Loop Due to Missing Update Statement**
+### 2. **Infinite `while` Loop Due to Missing Update Statement** [Python Quiz #44]
 
 **Problem Statement:**
 Write a program that starts with a given positive integer and repeatedly prints its value, decreasing it by 1 in each iteration until it reaches 0. However, the initial code runs into an issue: the loop does not terminate because the value of the integer is never updated, leading to an infinite loop.
@@ -762,56 +762,14 @@ while n > 0:
 **Mistake:**  
 The loop will run infinitely because `n` is never updated, so `n > 0` is always true.
 
-**Corrected Code:**
-```python
-n = 10
+  - [**Watch the Solution Now ✨**](https://youtu.be/LVHCsgRo-54) 
 
-while n > 0:
-    print(n)
-    n -= 1  # Decrease n by 1 each iteration
-```
-- The loop now terminates when `n` becomes 0.
+### 3. **`continue` Misused in `while` Loop** [Python Quiz #45]
 
-**Solution:**
+**Scenario:**
+You are tasked with debugging a piece of Python code that uses a `while` loop. The goal of the loop is to print numbers from `0` to `4`, skipping the number `2`. However, the code as written enters an infinite loop when the value of `i` becomes `2`.
 
-The issue in the original code is that n is never updated inside the loop. By adding a decrement statement (n -= 1), we ensure that the loop condition (n > 0) eventually becomes false, and the loop terminates.
-
-### 3. **Incorrectly Using `for` Loop with `break`**
-
-**Code:**
-```python
-numbers = [1, 2, 3, 4, 5]
-
-for num in numbers:
-    if num == 3:
-        print("Found 3!")
-        break
-    print(num)
-print("Loop finished")
-```
-
-**Mistake:**  
-While this code is technically correct, it can be misleading because it suggests that the loop will continue after finding `3`, but it actually stops.
-
-**Improved Code:**
-```python
-numbers = [1, 2, 3, 4, 5]
-
-for num in numbers:
-    if num == 3:
-        print("Found 3!")
-        break
-    print(num)
-else:
-    print("3 was not found")
-
-print("Loop finished")
-```
-- The `else` statement would run if the loop completes without breaking, indicating `3` wasn't found.
-
-### 4. **`continue` Misused in `while` Loop**
-
-**Code:**
+**Given Code:**
 ```python
 i = 0
 
@@ -822,95 +780,21 @@ while i < 5:
     i += 1
 ```
 
-**Mistake:**  
-The `continue` statement skips the `i += 1` statement, causing an infinite loop when `i == 2`.
+**Problem:**
+The `continue` statement is misused in this code. When `i == 2`, the `continue` statement is executed, causing the loop to skip the `i += 1` statement. As a result, `i` remains `2` indefinitely, leading to an infinite loop.
 
-**Corrected Code:**
-```python
-i = 0
+**Task:**
+1. Identify the mistake in the code that causes the infinite loop.
+2. Correct the code so that it successfully prints all numbers from `0` to `4`, except for `2`.
 
-while i < 5:
-    if i == 2:
-        i += 1  # Move this before the continue to avoid skipping it
-        continue
-    print(i)
-    i += 1
+**Expected Output:**
 ```
-- Now, `i` is correctly incremented before `continue`, preventing the infinite loop.
-
-### 5. **Logical Error in `if-else` Statements**
-
-**Code:**
-```python
-age = 20
-
-if age < 18:
-    print("Minor")
-elif age >= 18:
-    print("Adult")
-else:
-    print("Invalid age")
+0
+1
+3
+4
 ```
-
-**Mistake:**  
-The `else` block here is unnecessary and misleading, as the condition is fully handled by `if-elif`.
-
-**Improved Code:**
-```python
-age = 20
-
-if age < 18:
-    print("Minor")
-else:
-    print("Adult")
-```
-- The code is more concise and still covers all cases.
-
-### 6. **Using `pass` in an Incorrect Context**
-
-**Code:**
-```python
-x = 10
-
-if x > 0:
-    pass
-    print("x is positive")
-else:
-    pass
-    print("x is not positive")
-```
-
-**Mistake:**  
-The `pass` statement is unnecessary and misleading here, as it suggests there might be some unimplemented logic.
-
-**Corrected Code:**
-```python
-x = 10
-
-if x > 0:
-    print("x is positive")
-else:
-    print("x is not positive")
-```
-- The `pass` statement is removed, clarifying the logic.
-
-### 8. **Incorrect Loop Boundaries in `for` Loop**
-
-**Code:**
-```python
-for i in range(1, 5):
-    print(i)
-```
-
-**Mistake:**  
-The loop runs from `1` to `4`, not including `5`. This might be misunderstood if you expect `5` to be printed.
-
-**Clarification:**
-```python
-for i in range(1, 6):  # Adjust the range to include 5
-    print(i)
-```
-- Now, the loop includes `5` as intended.
+  - [**Watch the Solution Now ✨**](https://youtu.be/2yabb2TJ7a0) 
 
 ### 9. **Using `break` After `else` in Loop**
 
@@ -2349,7 +2233,7 @@ Fizz
 FizzBuzz
 ```
 
-- [Watch the Solution Now ✨](https://youtu.be/7mnZxCf8-XA) 
+  - [Watch the Solution Now ✨](https://youtu.be/7mnZxCf8-XA) 
 
 1. **Check Positive, Negative, or Zero**
    ```python
