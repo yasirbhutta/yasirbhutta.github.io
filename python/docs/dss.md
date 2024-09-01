@@ -69,6 +69,19 @@ A nested tuple is a tuple that contains one or more tuples as element.
 
 - [Example: Unpacking a Tuple in Python](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
 - [Example: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45)
+
+**Example:**
+
+```python
+my_tuple = (1, 2, 3)
+a, b, c = my_tuple
+
+print(a)  # Output: 1
+print(b)  # Output: 2
+print(c)  # Output: 3
+```
+
+- The number of variables on the left side must match the number of elements in the tuple, or you’ll get a `ValueError`.
   
 #### Example #2
 
