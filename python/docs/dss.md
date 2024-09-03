@@ -421,7 +421,7 @@ These examples illustrate that integers, strings, and tuples in Python are immut
 
 ### Tuple (MCQs)
 
-**What is the output of the following code? [Python Quiz #15]**
+1. **What is the output of the following code?** [Python Quiz #15]
 
 ```python
 a = ('34.5')
@@ -435,13 +435,11 @@ print(type(a))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/uMtHVgPSymw](https://youtube.com/shorts/uMtHVgPSymw)
 
-**What is the output of the following code?**
+2. **What is the output of the following code?** [Python Quiz #46]
 
 ```python
 tup2= 3,4,5
-print(tup2)
 
-# tuples may be nested
 nested_tup = tup2, (6,7)
 print(nested_tup)
 ```
@@ -451,7 +449,34 @@ print(nested_tup)
 -   C) {(3, 4, 5), (6, 7)}
 -   D) (3, 4, 5, 6, 7)
 
-**Watch the video for the answer:** [Learn 5 Easy Methods to Create Tuples in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+**Watch the video for the answer:** [Learn 5 Easy Ways to Create Tuples in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+3. **What is the output of the following code?** [Python Quiz #47]
+
+```python
+tup4 = tuple('python')
+print(tup4)
+```
+
+    - A) 'python'
+    - B) ['python']
+    - C) ('python')
+    - D) ('p', 'y', 't', 'h', 'o', 'n') 
+
+**Watch the video for the answer:** [Learn 5 Easy Ways to Create Tuples in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+4. **What is the output of the following code?** [Python Quiz #48]
+
+```python
+tup3 = tuple([4, 7, 9])
+print(tup3)
+```
+    - A) [4, 7, 9]
+    - B) (4, 7, 9)
+    - C) 4, 7, 9
+    - D) {4, 7, 9}
+
+**Watch the video for the answer:** [Learn 5 Easy Ways to Create Tuples in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
 
 ### List (MCQs)
 
@@ -601,20 +626,29 @@ for key in my_dict:
     print(my_dict[key])
 ```
 
-- A) abc
-- B) 123
-- C) {1, 2, 3}
-- D) {a, b, c}
+    - A) abc
+    - B) 123
+    - C) {1, 2, 3}
+    - D) {a, b, c}
 
 **Watch the video for the answer:** [https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF](https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF)
 
 
+### Set (MCQs)
 
-What is the data type of the following value?
-frozenset({1, 2, 3})
-a) list b) tuple c) set d) frozenset
+**What is the output of the following code?**
 
-Answer: d) frozenset
+```python
+my_set = {1, 2, 3}
+result = my_set.add(4)
+
+print(result)
+```
+
+    - A) Error
+    - B) None
+    - C) {1, 2, 3, 4}
+    - D) {4}
 
 What is the data type of the following value?
 {1, 2, 3}

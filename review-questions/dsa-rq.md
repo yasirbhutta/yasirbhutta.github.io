@@ -1228,10 +1228,7 @@ Indexing dramatically speeds up search operations by reducing the time complexit
    - **Structure:** Usually involves **tree-like** structures (e.g., B-trees, B+ trees) or other ordered structures.
    - **Use Case:** Best suited for databases and large datasets, particularly when range queries or sorting is involved.
 
-
 ## True/False (Mark T for True and F for False)
-
-Sure! Here are 30 true/false questions covering various topics in algorithms and data structures:
 
 1. **Binary search requires the array to be sorted.**
    - True (✔)
@@ -1723,58 +1720,6 @@ Here are more multiple-choice questions (MCQs) that continue to explore advanced
    - C) Binary search
    - D) Divide-and-conquer
 
-### AVL Trees
-
-59. What does AVL stand for in AVL trees?
-   - A) Adelson-Velsky and Landis (✔)
-   - B) Automatic Variable Length
-   - C) Array Variable Length
-   - D) Array Vector List
-
-60. AVL trees are:
-   - A) Balanced binary search trees (✔)
-   - B) Unbalanced binary search trees
-   - C) Self-adjusting binary search trees
-   - D) Hash trees
-
-61. What is the time complexity of insertion in an AVL tree?
-   - A) O(n^2)
-   - B) O(n)
-   - C) O(log n) (✔)
-   - D) O(1)
-
-62. Which of the following is a rotation type used to balance AVL trees?
-   - A) Left-right rotation (✔)
-   - B) In-order rotation
-   - C) Out-of-order rotation
-   - D) Bottom-up rotation
-
-### Graph Algorithms
-
-63. Which graph traversal algorithm uses a queue?
-   - A) Depth-first search (DFS)
-   - B) Breadth-first search (BFS) (✔)
-   - C) Dijkstra's algorithm
-   - D) Kruskal's algorithm
-
-64. What is the time complexity of BFS for a graph with `V` vertices and `E` edges?
-   - A) O(V)
-   - B) O(V + E) (✔)
-   - C) O(V^2)
-   - D) O(E^2)
-
-65. Dijkstra's algorithm is used to find:
-   - A) The minimum spanning tree
-   - B) The longest path
-   - C) The shortest path (✔)
-   - D) All cycles in a graph
-
-66. What is the key difference between Prim's and Kruskal's algorithms?
-   - A) Prim's works on connected graphs, Kruskal's does not
-   - B) Kruskal's selects edges based on weights, Prim's does not
-   - C) Prim's starts from a single node, Kruskal's considers all edges (✔)
-   - D) Kruskal's is faster for dense graphs, Prim's for sparse graphs
-
 ### Dynamic Programming
 
 67. Which of the following problems is best solved using dynamic programming?
@@ -1833,90 +1778,46 @@ Sure! Here are 30 fill-in-the-blank questions related to algorithms and data str
 
 1. **In a binary search, the array must be __________.**
    - Answer: sorted
-
 2. **The time complexity of insertion sort is O(n^2) in the __________ case.**
    - Answer: worst
-
 3. **Merge sort is an __________ sorting algorithm.**
    - Answer: external
-
 4. **Quick sort is generally faster than __________ sort.**
    - Answer: bubble
-
 5. **A __________ table is used to store key-value pairs.**
    - Answer: hash
-
 6. **The radix sort algorithm is based on __________ operations.**
    - Answer: digit
-
 7. **In a binary heap, the smallest element is at the __________.**
    - Answer: root
-
 8. **A binary search tree is also known as a __________ search tree.**
    - Answer: ordered
-
 9. **The time complexity of breadth-first search (BFS) is O(V + E), where V is the number of __________ and E is the number of edges.**
    - Answer: vertices
-
-10. **The Bellman-Ford algorithm can handle __________ weight edges.**
-    - Answer: negative
-
-11. **In a min-heap, every parent node is less than or equal to its __________ nodes.**
+10. **In a min-heap, every parent node is less than or equal to its __________ nodes.**
     - Answer: child
-
-12. **Kruskal’s algorithm is used to find the minimum __________ tree.**
-    - Answer: spanning
-
-13. **In a depth-first search (DFS), the vertices are explored by going __________ first.**
+11. **In a depth-first search (DFS), the vertices are explored by going __________ first.**
     - Answer: deeper
-
-14. **Selection sort repeatedly selects the __________ element from the unsorted part.**
+12. **Selection sort repeatedly selects the __________ element from the unsorted part.**
     - Answer: smallest
-
-15. **In hash tables, __________ is a technique used to handle collisions.**
+13. **In hash tables, __________ is a technique used to handle collisions.**
     - Answer: chaining
-
-16. **The time complexity of accessing an element in a hash table with open addressing is O(1) in the __________ case.**
+14. **The time complexity of accessing an element in a hash table with open addressing is O(1) in the __________ case.**
     - Answer: average
-
-17. **The Floyd-Warshall algorithm finds the shortest paths between __________ pairs of vertices.**
-    - Answer: all
-
-18. **Greedy algorithms make the __________ choice at each step.**
+15. **Greedy algorithms make the __________ choice at each step.**
     - Answer: local
-
-19. **In a priority queue implemented with a binary heap, the __________ operation takes O(log n) time.**
+16. **In a priority queue implemented with a binary heap, the __________ operation takes O(log n) time.**
     - Answer: insert
-
-20. **Breadth-first search (BFS) uses a __________ to keep track of vertices.**
+17. **Breadth-first search (BFS) uses a __________ to keep track of vertices.**
     - Answer: queue
-
-21. **The __________ problem is a classic example of a problem that can be solved using dynamic programming.**
-    - Answer: Knapsack
-
-22. **In a priority queue implemented with a binary heap, the __________ element is always at the root.**
+18. **In a priority queue implemented with a binary heap, the __________ element is always at the root.**
     - Answer: minimum (or maximum, depending on min-heap or max-heap)
-
-23. **The merge sort algorithm is __________, meaning it preserves the order of equal elements.**
+19. **The merge sort algorithm is __________, meaning it preserves the order of equal elements.**
     - Answer: stable
-
-24. **In an AVL tree, the height of the tree is balanced to be O(log n), where n is the number of __________.**
-    - Answer: nodes
-
-25. **The Traveling Salesman Problem (TSP) is known to be a __________ problem.**
+20. **The Traveling Salesman Problem (TSP) is known to be a __________ problem.**
     - Answer: NP-hard
-
-26. **In depth-first search (DFS), the vertices are typically explored using __________ traversal.**
+21. **In depth-first search (DFS), the vertices are typically explored using __________ traversal.**
     - Answer: recursive
-
-27. **The __________ sort algorithm involves partitioning an array into subarrays and sorting each subarray.**
+22. **The __________ sort algorithm involves partitioning an array into subarrays and sorting each subarray.**
     - Answer: quick
 
-28. **The __________ algorithm uses a dynamic programming approach to solve the shortest path problem in graphs.**
-    - Answer: Bellman-Ford
-
-29. **An AVL tree is a self-balancing binary search tree where the difference in heights of left and right subtrees is at most __________.**
-    - Answer: one
-
-30. **The N-Queens problem is typically solved using __________ techniques.**
-    - Answer: backtracking
