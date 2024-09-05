@@ -93,24 +93,75 @@ A font is a specific style and size within a typeface family. It refers to a col
 12. Determine which audio file formats are best used in a multimedia project.
 13. Write two copyrigh issues in Multimedia.
 14. What is timestreching and digital singal processing.
-    
-    
+
+## Chapter #5
+
+- What is Cel Animation technique?
+- What is tweening in animation?
+- What is kinematics?
+- Enlist five animation file formats?
+- Discuss the principles of animation
+
+- 
+## Chapter #6
+
+1. What are three types of connectors used for video?
+   - **Answer:** Three types of video connectors are HDMI, DisplayPort, and VGA.
+
+**Question:** What is MPEG, and how does it work?
+
+**Answer:** MPEG, or the Moving Picture Experts Group, is a standard for video and audio compression. It allows for efficient storage and transmission of digital video and audio by compressing the data while maintaining quality. MPEG standards are widely used in various multimedia applications, including streaming, digital television, and DVDs.
+
+**Question:** What are video format converters, and why are they used?
+
+**Answer:** Video format converters are tools or software used to change a video file from one format to another. They are used to ensure compatibility with different devices or software, reduce file size, or improve quality. Converting video formats can help with playback issues, optimize files for various platforms, and streamline video editing processes.
+
+What are Chroma Keys, and how do they work?
 
 
+## Chapter #7
 
+1. What are the stages involved in a multimedia project?
+2. What are the key differences between Windows and Macintosh operating systems?
+3. What are memory and storage devices, and how do they differ?
+4. Provide an overview of text editing and word processing tools.
+5. What is OCR software, and why is it used?
+6. Explain the purpose of painting and drawing tools.
 
+## Chapter #12
 
+1. Define what a computer network is and how
+Internet domains, addresses, and interconnections work
+2. write the note on Internet History.
+3. "Explain the following terms: network, server, LAN, and WAN.
+4. What is bandwidth and explain type of connections.
+5. "Why do we use web servers, and what services do they provide?"
+6. What is web browser and the purpose of search engines.
+## Chapter #13
 
+Here are some review questions about HTML for an exam:
 
+1. What does HTML stand for?
+2. **What is the purpose of the `<head>` and `<body>` elements in an HTML document?
+3. What is the function of the `<a>` tag, and how do you create a hyperlink in HTML?
+4. How do you insert an image into an HTML document? What attributes are required for the `<img>` tag?
+5. Explain the role of the `<div>` and `<span>` elements in HTML layout. How are they different?
+6. How do you create an ordered and unordered list in HTML? Provide examples.
+7.  What is the `<form>` element used for in HTML? Explain the key attributes of form elements like `<input>`, `<select>`, and `<button>`.
+8.  Write the HTML code for a basic web page.
 
+**Answer:**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Basic Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a simple HTML page with a title and some text content.</p>
+</body>
+</html>
+```
 
-
-
-
-
-
-
-
-
-**Long Questions:**
-
+This HTML code creates a basic web page with a title in the browser tab ("My Basic Web Page") and displays a heading ("Welcome to My Web Page") along with a paragraph of text.

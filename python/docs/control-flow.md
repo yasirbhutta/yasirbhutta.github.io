@@ -798,31 +798,7 @@ The `continue` statement is misused in this code. When `i == 2`, the `continue` 
 ```
   - [**Watch the Solution Now ✨**](https://youtu.be/2yabb2TJ7a0) 
 
-### 9. **Using `break` After `else` in Loop**
-
-**Code:**
-```python
-for i in range(5):
-    print(i)
-else:
-    break  # SyntaxError: 'break' outside loop
-```
-
-**Mistake:**  
-You can't use `break` after the `else` block of a loop, as it doesn't make sense.
-
-**Corrected Code:**
-```python
-for i in range(5):
-    if i == 2:
-        break
-    print(i)
-else:
-    print("Loop completed without break")
-```
-- Now, `break` is used correctly within the loop, and the `else` block handles the case where the loop completes.
-
-### 10. **Incorrect Use of Multiple `elif` Conditions**
+### 4. **Incorrect Use of Multiple `elif` Conditions**
 
 **Code:**
 ```python
@@ -882,6 +858,10 @@ D)
 ```python
 print "Hello World!)
 ```
+
+E) None
+
+
 ### 1. **Incorrect `if` Statement Syntax**
 
 **Code:**
@@ -1193,6 +1173,15 @@ if x == 10
     - D) Indent the print statement correctly.
 
 **Watch the video for the answer:** [https://youtu.be/3010E1WuHd8](https://youtu.be/3010E1WuHd8)
+
+5. **What will be the output of the following code?**
+
+```python
+for i in range(5):
+    print(i)
+else:
+    break
+```
 
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
