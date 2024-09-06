@@ -14,12 +14,7 @@ Here are a few Python code examples with errors to help you understand common mi
 print("Hello World!"
 ```
 
-**2. Syntax Error: Missing Colon**
 
-```python
-if x > 5  # Missing colon here
-  print("X is greater than 5")
-```
 
 **Error:** This code will throw a `SyntaxError: expected colon` because the `if` statement needs a colon after the condition.
 

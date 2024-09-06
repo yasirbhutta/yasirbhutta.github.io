@@ -836,6 +836,13 @@ else:
 ```
 - The `else` block now correctly handles any score below `60`.
 
+**2. Syntax Error: Missing Colon** [Python Quiz #49]
+
+```python
+if x > 5  # Missing colon here
+  print("X is greater than 5")
+```
+
 **Which of the following will NOT cause a syntax error in Python?**
 
 A)
@@ -1052,6 +1059,15 @@ else:
 ```
 - Now, this checks for more specific conditions.
 
+5. **What will be the output of the following code?**
+
+```python
+for i in range(5):
+    print(i)
+else:
+    break
+```
+
 ### 9. **Incorrect Usage of `pass` in Control Flow**
 
 **Code:**
@@ -1107,6 +1123,13 @@ These challenges are designed to highlight common mistakes that occur when worki
 ## Multiple Choice (Select the best answer)
 
 ### if statement (MCQs)
+
+**What is the syntax for a simple if statement in Python?** [Python Quiz #50]
+    - A) if x == 10:
+    - B) for x in range(10):
+    - C) while x < 10:
+    - D) if (x == 10) then:
+
 
 1. **What is the output of the following code** [Python Quiz #16](https://youtube.com/shorts/ExDu2lwjd3c?si=VVq47sCNgRWd7l_i)
 
@@ -1174,26 +1197,12 @@ if x == 10
 
 **Watch the video for the answer:** [https://youtu.be/3010E1WuHd8](https://youtu.be/3010E1WuHd8)
 
-5. **What will be the output of the following code?**
-
-```python
-for i in range(5):
-    print(i)
-else:
-    break
-```
-
 1. **Which of the following correctly represents the syntax of an if statement in Python?**
     - A) if condition { block of code }
     - B) if(condition) { block of code }
     - C) if condition: block of code
     - D) None
 
-2. **What is the syntax for a simple if statement in Python?**
-    - A) if x == 10:
-    - B) for x in range(10):
-    - C) while x < 10:
-    - D) if (x == 10) then:
 
 3. **What is the purpose of the else block in an if statement?**
 
@@ -1679,8 +1688,7 @@ for i in range(3):
 
 **Watch this video for the answer:** [https://youtu.be/CYeZI3uCiTI](https://youtu.be/CYeZI3uCiTI) 
 
-# Youtube@yasirbhutta
-5. **What will the program output if the `number` variable is set to `5`?**
+1. **What will the program output if the `number` variable is set to `5`?**
 ```python
 # Get user input
 number = int(input("Enter non-negative number:"))
