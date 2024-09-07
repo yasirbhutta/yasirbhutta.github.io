@@ -405,7 +405,14 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: A) Git**
 
-7. **What is Jupyter Notebook primarily used for in the Python ecosystem?**
+7. **Which of the following is the correct extension of the Python file?**
+
+   - A) .python
+   - B) .pl
+   - C) .p
+   - D)  .py
+
+1. **What is Jupyter Notebook primarily used for in the Python ecosystem?**
    - A) Web development
    - B) Writing and sharing code, visualizations, and text
    - C) Game development
@@ -413,7 +420,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: B) Writing and sharing code, visualizations, and text**
 
-8. **Who created Python and in which year?** [1]
+2. **Who created Python and in which year?** [1]
    - A) James Gosling in 1995
    - B) Guido van Rossum in 1991
    - C) Bjarne Stroustrup in 1983
@@ -421,7 +428,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: B) Guido van Rossum in 1991**
 
-9.  **Which of the following features is a key characteristic of Python?**
+3.  **Which of the following features is a key characteristic of Python?**
    - A) Statically typed
    - B) Compiled language
    - C) Interpreted language
@@ -429,7 +436,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: C) Interpreted language**
 
-10. **What is the purpose of the virtual environment tool in Python?**
+4.  **What is the purpose of the virtual environment tool in Python?**
    - A) To create virtual machines
    - B) To manage and isolate project-specific dependencies
    - C) To design virtual reality experiences
@@ -437,7 +444,7 @@ Error message: `IndentationError: unexpected indent`"
    
    **Answer: B) To manage and isolate project-specific dependencies**
 
-11. **What is the Python Package Index (PyPI)?**
+5.  **What is the Python Package Index (PyPI)?**
    - A) A text editor for Python
    - B) A library for machine learning
    - C) A repository of software for the Python programming language
@@ -445,7 +452,7 @@ Error message: `IndentationError: unexpected indent`"
    
    **Answer: C) A repository of software for the Python programming language**
 
-12. **What is `pip` in Python?**
+6.  **What is `pip` in Python?**
    - A) A text editor
    - B) A package installer
    - C) A version control system
@@ -453,7 +460,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: B) A package installer**
 
-13. **Which tool is commonly used for creating virtual environments in Python?**
+7.  **Which tool is commonly used for creating virtual environments in Python?**
    - A) npm
    - B) pip
    - C) venv
@@ -461,7 +468,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: C) venv**
 
-14. **Which Integrated Development Environment (IDE) is specifically designed for Python development?**
+8.  **Which Integrated Development Environment (IDE) is specifically designed for Python development?**
    - A) Visual Studio
    - B) IntelliJ IDEA
    - C) PyCharm
@@ -469,7 +476,7 @@ Error message: `IndentationError: unexpected indent`"
 
    **Answer: C) PyCharm**
 
-15. **Which of the following is true about Python?**
+9.  **Which of the following is true about Python?**
    - A) Python is a compiled language
    - B) Python is a low-level programming language
    - C) Python supports object-oriented programming
@@ -477,7 +484,7 @@ Error message: `IndentationError: unexpected indent`"
    
    **Answer: C) Python supports object-oriented programming**
 
-16. **Which of the following is NOT a feature of Python?**
+10. **Which of the following is NOT a feature of Python?**
    - A) Interpreted language
    - B) Compiled language
    - C) High-level language

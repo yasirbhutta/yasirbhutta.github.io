@@ -2,12 +2,7 @@
 
 ## # Getting Started with Python - MCQS
 
-1. **Which of the following is the correct extension of the Python file?**
 
->**a.** .python
->**b.**  .pl
->**c.**  .p
->**d.**  .py
 
 ## Python Data Types - MCQs
 
