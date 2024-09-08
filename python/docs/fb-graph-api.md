@@ -8,7 +8,7 @@
 **resources:**
 
 1. [https://developers.facebook.com/tools/explorer/](https://developers.facebook.com/tools/explorer/)
-2. 
+
 ```python
 import requests
 
