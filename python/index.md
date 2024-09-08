@@ -57,7 +57,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [pandas](docs/modules/pandas.md)
 - [Numpy](docs/modules/numpy.md)
 - [The 5 Most Important Python Libraries You Should Know](https://youtu.be/tazI6HcQ5pU)
-- [What is Matplotlib in Python? | Quick Python Tutorial | Python for Data Visualization](https://youtu.be/R_2Um57NEVk)
+- [What is Matplotlib in Python? \| Quick Python Tutorial \| Python for Data Visualization](https://youtu.be/R_2Um57NEVk)
 
 https://bokeh.org/
 
