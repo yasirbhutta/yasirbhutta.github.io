@@ -358,137 +358,135 @@ Error message: `IndentationError: unexpected indent`"
 **Python**
 
 1. **What is Python?**
-   - A) A type of snake
-   - B) A high-level programming language
-   - C) A web browser
-   - D) An operating system
+      - A) A type of snake
+      - B) A high-level programming language
+      - C) A web browser
+      - D) An operating system
 
    **Answer: B) A high-level programming language**
 
 2. **Which of the following is a popular Integrated Development Environment (IDE) for Python?**
-   - A) Visual Studio Code
-   - B) Microsoft Word
-   - C) Adobe Photoshop
-   - D) Google Chrome
+      - A) Visual Studio Code
+      - B) Microsoft Word
+      - C) Adobe Photoshop
+      - D) Google Chrome
 
    **Answer: A) Visual Studio Code**
 
-3. **Which tool is used for managing and installing Python packages?**
-   - A) pip
-   - B) npm
-   - C) yarn
-   - D) gem
+3. **Which tool is used for managing and installing Python packages?** [Python Quiz #53]
+      - A) pip
+      - B) npm
+      - C) yarn
+      - D) gem
 
    **Answer: A) pip**
 
 4. **What does IDE stand for in the context of Python programming?**
-   - A) Integrated Development Environment
-   - B) Integrated Data Environment
-   - C) Internal Development Engine
-   - D) Internet Development Environment
+      - A) Integrated Development Environment
+      - B) Integrated Data Environment
+      - C) Internal Development Engine
+      - D) Internet Development Environment
 
    **Answer: A) Integrated Development Environment**
 
 5. **What is the purpose of virtual environments in Python?**
-   - A) To provide a web-based interface for Python development
-   - B) To create isolated environments for different Python projects
-   - C) To compile Python code into machine code
-   - D) To improve the speed of Python code execution
+      - A) To provide a web-based interface for Python development
+      - B) To create isolated environments for different Python projects
+      - C) To compile Python code into machine code
+      - D) To improve the speed of Python code execution
 
    **Answer: B) To create isolated environments for different Python projects**
 
 6. **Which tool is used for version control in Python projects?**
-   - A) Git
-   - B) Docker
-   - C) Kubernetes
-   - D) Jenkins
+      - A) Git
+      - B) Docker
+      - C) Kubernetes
+      - D) Jenkins
 
    **Answer: A) Git**
 
-7. **Which of the following is the correct extension of the Python file?**
+7. **Which of the following is the correct extension of the Python file?** [Python Quiz #51]
 
-   - A) .python
-   - B) .pl
-   - C) .p
-   - D)  .py
+      - A) .python
+      - B) .pl
+      - C) .p
+      - D)  .py
 
-1. **What is Jupyter Notebook primarily used for in the Python ecosystem?**
-   - A) Web development
-   - B) Writing and sharing code, visualizations, and text
-   - C) Game development
-   - D) Mobile app development
+8. **What is Jupyter Notebook primarily used for in the Python ecosystem?** [Python Quiz #54]
+      - A) Web development
+      - B) Writing and sharing code, visualizations, and text
+      - C) Game development
+      - D) Mobile app development
 
    **Answer: B) Writing and sharing code, visualizations, and text**
 
-2. **Who created Python and in which year?** [1]
-   - A) James Gosling in 1995
-   - B) Guido van Rossum in 1991
-   - C) Bjarne Stroustrup in 1983
-   - D) Dennis Ritchie in 1972
+9. **Who created Python and in which year?** [1]
+      - A) James Gosling in 1995
+      - B) Guido van Rossum in 1991
+      - C) Bjarne Stroustrup in 1983
+      - D) Dennis Ritchie in 1972
 
    **Answer: B) Guido van Rossum in 1991**
 
-3.  **Which of the following features is a key characteristic of Python?**
-   - A) Statically typed
-   - B) Compiled language
-   - C) Interpreted language
-   - D) Requires manual memory management
+10. **Which of the following features is a key characteristic of Python?** [Python Quiz #52]
+      - A) Statically typed
+      - B) Compiled language
+      - C) Interpreted language
+      - D) Requires manual memory management
 
-   **Answer: C) Interpreted language**
-
-4.  **What is the purpose of the virtual environment tool in Python?**
-   - A) To create virtual machines
-   - B) To manage and isolate project-specific dependencies
-   - C) To design virtual reality experiences
-   - D) To develop mobile applications
+11. **What is the purpose of the virtual environment tool in Python?**
+      - A) To create virtual machines
+      - B) To manage and isolate project-specific dependencies
+      - C) To design virtual reality experiences
+      - D) To develop mobile applications
    
    **Answer: B) To manage and isolate project-specific dependencies**
 
-5.  **What is the Python Package Index (PyPI)?**
-   - A) A text editor for Python
-   - B) A library for machine learning
-   - C) A repository of software for the Python programming language
-   - D) An IDE for Python development
+12. **What is the Python Package Index (PyPI)?**
+      - A) A text editor for Python
+      - B) A library for machine learning
+      - C) A repository of software for the Python programming language
+      - D) An IDE for Python development
    
    **Answer: C) A repository of software for the Python programming language**
 
-6.  **What is `pip` in Python?**
-   - A) A text editor
-   - B) A package installer
-   - C) A version control system
-   - D) A web framework
+13. **What is `pip` in Python?**
+      - A) A text editor
+      - B) A package installer
+      - C) A version control system
+      - D) A web framework
 
    **Answer: B) A package installer**
 
-7.  **Which tool is commonly used for creating virtual environments in Python?**
-   - A) npm
-   - B) pip
-   - C) venv
-   - D) docker
+14. **Which tool is commonly used for creating virtual environments in Python?**
+      - A) npm
+      - B) pip
+      - C) venv
+      - D) docker
 
    **Answer: C) venv**
 
-8.  **Which Integrated Development Environment (IDE) is specifically designed for Python development?**
-   - A) Visual Studio
-   - B) IntelliJ IDEA
-   - C) PyCharm
-   - D) Eclipse
+15. **Which Integrated Development Environment (IDE) is specifically designed for Python development?** [Python Quiz #54]
+      - A) Visual Studio
+      - B) IntelliJ IDEA
+      - C) PyCharm
+      - D) Eclipse
 
    **Answer: C) PyCharm**
 
-9.  **Which of the following is true about Python?**
-   - A) Python is a compiled language
-   - B) Python is a low-level programming language
-   - C) Python supports object-oriented programming
-   - D) Python does not support modules
+16. **Which of the following is true about Python?**
+      - A) Python is a compiled language
+      - B) Python is a low-level programming language
+      - C) Python supports object-oriented programming
+      - D) Python does not support modules
    
    **Answer: C) Python supports object-oriented programming**
 
-10. **Which of the following is NOT a feature of Python?**
-   - A) Interpreted language
-   - B) Compiled language
-   - C) High-level language
-   - D) Object-oriented language
+17. **Which of the following is NOT a feature of Python?**
+      - A) Interpreted language
+      - B) Compiled language
+      - C) High-level language
+      - D) Object-oriented language
 
    **Answer: B) Compiled language**
 
@@ -513,7 +511,7 @@ print("I", "love", "Python", sep="-")
 
 **Watch the video for the answer:** [https://youtube.com/shorts/WD92M8WXRZM?si=kJ5jbIAaIlJ_63ia](https://youtube.com/shorts/WD92M8WXRZM?si=kJ5jbIAaIlJ_63ia)
 
-What will be the output of the following code? [Python Quiz #29]
+**What will be the output of the following code?** [Python Quiz #29]
 
 ```python
 x = 5
@@ -529,13 +527,14 @@ print("The value of x is", x, "and the value of y is", y)
 **Watch the video for the answer:** [https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9](https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9)
 
 
-> Which of the following is the correct syntax for the print statement in Python?
+> **Which of the following is the correct syntax for the print statement in Python?**
 
-1. [ ] print ("text")
-2. [ ] println ("text")
-3. [ ] echo ("text")
+- A) print ("text")
+- B) println ("text")
+- C) echo ("text")
+- D) None
 
-> What will be the output of the following code?
+> **What will be the output of the following code?**
 
 ```python
 print("Hello, world!")

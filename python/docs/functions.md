@@ -199,6 +199,16 @@ Keyword arguments: {'name': 'Ali', 'age': 25}
 
 - [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
 
+## Fix the Errors
+
+# Assigning a value to a function (functions can't be assigned to variables)
+```python
+def greet():
+    print("Hello World!")
+
+greeting = greet
+```
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)
@@ -412,8 +422,31 @@ find_length("python language")
 
 - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
 
-# Youtube@yasirbhutta
+### 4. **Problem Statement:**
 
+Write a function `add(*args)` that takes a variable number of arguments and returns the sum of all the arguments. The function should handle any number of arguments, including zero arguments. If no arguments are passed, the function should return `0`.
+
+**Function Signature:**
+```python
+def add(*args):
+```
+
+**Input:**
+- The function accepts a variable number of integer arguments. These integers can be positive, negative, or zero. The number of arguments can range from 0 to any positive integer.
+
+**Output:**
+- The function returns an integer, which is the sum of all the arguments passed to it. If no arguments are passed, the function should return `0`.
+
+**Sample Input:**
+```python
+add(1, 2, 3)
+```
+**Sample Output:**
+```
+6
+```
+
+- [**Watch the Solution Now ✨**](https://youtu.be/0noa3Sgxmg8)
 
 1. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
 2. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).

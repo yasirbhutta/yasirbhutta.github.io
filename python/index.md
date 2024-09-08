@@ -71,4 +71,6 @@ https://bokeh.org/
 
 ### Testing
 
+### [Facebook Graph API](docs/fb-graph-api.md)
+
 

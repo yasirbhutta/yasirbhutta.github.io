@@ -90,6 +90,15 @@ print(area)
 
 ## Key Terms
 
+## Fix the Errors!
+
+# Using an undefined variable 
+
+```python
+name = "Ahmad"
+print(f"Hello, {lastname}")  # lastname not defined
+```
+
 ## True/False (Mark T for True and F for False)
 
 1. Variable names in Python are case-sensitive.

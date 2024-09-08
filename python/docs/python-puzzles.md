@@ -15,16 +15,6 @@ print("Hello World!"
 ```
 
 
-
-**Error:** This code will throw a `SyntaxError: expected colon` because the `if` statement needs a colon after the condition.
-
-**Fix:** Add a colon after the condition.
-
-```python
-if x > 5:  # Add colon
-  print("X is greater than 5")
-```
-
 **Syntax Errors (Incorrect Punctuation and Structure)**
 
 ```python
@@ -35,16 +25,9 @@ if x > 5
 # Incorrect use of parentheses in print statement
 print "This is a string"  # Missing parentheses
 
-# Assigning a value to a function (functions can't be assigned to variables)
-def greet():
-    print("Hello!")
 
-greeting = greet  # This line causes a syntax error
 
-# Using an undefined variable
-name = "Alice"
-print(f"Hello, {lastname}")  # lastname not defined
-```
+
 
 ## Indentation Error
 
