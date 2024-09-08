@@ -2,14 +2,24 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
+- [Download PDF](https://yasirbhutta.github.io/python/docs/fb-graph-api.pdf)  
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/python/docs/fb-graph-api.html](https://yasirbhutta.github.io/python/docs/fb-graph-api.html)
+
+[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
+
 ## How to Publish a Facebook Page Post Using the Facebook Graph API in Python
+
+[video:How to Publish a Facebook Page Post Using the Facebook Graph API](https://youtu.be/oSIFwDkBWB4)
 
 ### Overview of Facebook Graph API
 - **Facebook Graph API:** Allows developers to interact with Facebook’s platform using code.
 
 **resources:**
 
-1. [https://developers.facebook.com/tools/explorer/](https://developers.facebook.com/tools/explorer/)
+1. [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
+2. [https://developers.facebook.com/tools/explorer/](https://developers.facebook.com/tools/explorer/)
+3. [Facebook Graph API: Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/)
 
 ```python
 import requests  # Import the requests library to handle HTTP requests
