@@ -31,7 +31,7 @@ print "This is a string"  # Missing parentheses
 
 ## Indentation Error
 
-**1. Indentation Error**
+**1. Indentation Error** [python quiz #58]
 
 ```python
 for item in list:
@@ -51,7 +51,7 @@ print("Loop finished")
 
 ## Name Error
 
-**1. Name Error: Using a Variable Before Definition**
+**1. Name Error: Using a Variable Before Definition** [Python Quiz #59]
 
 ```python
 name = "Ahmad"
@@ -69,7 +69,7 @@ name = "Ahmad"
 print(greeting + name)
 ```
 
-**Name Error: Using a Variable Before Definition**
+**Name Error: Using a Variable Before Definition** [python quiz #60]
 
 ```python
 age = 25
@@ -98,7 +98,7 @@ my_list = [1, 2, 3]
 print(mylist)  # Name error: mylist is not defined (use my_list instead)
 ```
 
-## Type Error
+## Type Error 
 
 ```python
 number = "ten"
@@ -107,24 +107,6 @@ number = number + 5
 
 This code assigns the string "ten" to the variable "number". 
 The error occurs when it tries to add 5 (an integer) to "number", which is a string. Python cannot perform these operations on different data types.
-
-**1. Type Error: Trying to Add Strings and Numbers**
-
-```python
-age = 25
-message = "You are " + str(age) + " years old."
-message += " Welcome!"  # Trying to add string and int
-```
-
-**Error:** This code will result in a `TypeError: can only concatenate str (not "int") to str` because you're trying to add an integer (`age`) to a string (`message`).
-
-**Fix:** Convert `age` to a string before adding.
-
-```python
-age = 25
-message = "You are " + str(age) + " years old."
-message += " Welcome!"
-```
 
 **Type Error: Trying to Perform an Operation on Incompatible Data Types**
 

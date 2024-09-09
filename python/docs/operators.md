@@ -51,10 +51,43 @@ is_less_or_equal = 5 <= 5  # True
 
 ```python
 x = 10  # Simple assignment
+```
+**Compound assignment:** 
+
+A **compound assignment** is a combination of an operator and an assignment that performs an operation on a variable and then assigns the result back to that variable in a single step.
+
+For example, in the code:
+
+```python
+message += " Welcome!"
+```
+
+This is a **compound assignment** using the `+=` operator. Here’s what it does:
+1. It concatenates (adds) `" Welcome!"` to the existing value of the `message` variable.
+2. Then, it assigns the result back to `message`.
+
+In general, the format of compound assignment operators is:
+
+- `+=` : Adds and assigns
+- `-=` : Subtracts and assigns
+- `*=` : Multiplies and assigns
+- `/=` : Divides and assigns
+- `%=` : Takes the modulus and assigns
+
+This shorthand avoids writing out the operation in a longer form, such as:
+
+```python
+message = message + " Welcome!"
+```
+
+The `+=` operator helps to keep the code more concise and readable.
+
+**Example:**
+
+```python
 x += 5  # Add 5 to x
 x *= 2  # Multiply x by 2
 ```
-
 **4. Logical Operators:**
 
 - Used to combine Boolean expressions.
@@ -204,7 +237,23 @@ print(11 % 3 == (11 - 3 * (11 // 3)))
 
 **Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
 
-2. **Comparison Operators:**
+
+**What will be the output of the following code?** [Python Quiz #61]
+
+```python
+age = 25
+message = "You are " + str(age) + " years old."
+message += " Welcome!"
+print(message)
+```
+
+A) `You are 25 years old. Welcome!`  
+B) `You are 25 years old.`  
+C) `You are 25 Welcome!`  
+D) `You are Welcome!`
+
+
+1. **Comparison Operators:**
 
 **What is the output of the following Python code?** [Python Quiz #10](https://youtube.com/shorts/FRa0r4UxyXM)
 ```python

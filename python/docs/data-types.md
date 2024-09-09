@@ -7,8 +7,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
 
 
-
-
 ## Data Types in Python
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
@@ -169,6 +167,14 @@ print("I am " + str(age) + " years old.")
 - D) I am years old. (with quotes)
 
 **Watch this video for the answer:**[https://youtube.com/shorts/DBC5-ZYoGXI?si=PXk-CPGymx2Q6X2p](https://youtube.com/shorts/DBC5-ZYoGXI?si=PXk-CPGymx2Q6X2p)
+
+
+```python
+age = 25
+message = "You are " + str(age) + " years old."
+message += " Welcome!"
+print(message)
+```
 
 1. **Which function would you use to determine the type of a variable in Python?**
    - A) id()
