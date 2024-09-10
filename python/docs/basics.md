@@ -72,12 +72,12 @@ print("Hello, world!")
 print("Hello", "world", 2024)
 ```
 
-## Task 2: Printing Different Data Types
+### Task 2: Printing Different Data Types
 
-### Instructions
+**Instructions**
 1. Print integers, floats, and strings.
 
-### Examples
+**Examples**
 
 ```python
 # Task 2.1: Print different data types
@@ -87,13 +87,13 @@ print("This is a string")
 
 ```
 
-## Task 3: Using `sep` and `end` Parameters
+### Task 3: Using `sep` and `end` Parameters
 
-### Instructions
+**Instructions**
 1. Change the separator between printed items.
 2. Change the ending character of a print statement.
 
-### Examples
+**Examples**
 ```python
 # Task 3.1: Change the separator
 print("apple", "banana", "cherry", sep=", ")
@@ -107,9 +107,9 @@ print("Hello", "World", end="!")
 
 ```
 
-## Task 4: Print Variables
+### Task 4: Print Variables
 
-### Instructions
+**Instructions**
 - print variables values using print function
 
 ```python
@@ -129,12 +129,12 @@ message = "How are you?"
 print(message)
 
 ```
-## Task 5: String Formatting
+### Task 5: String Formatting
 
-### Instructions
+**Instructions**
 1. Use f-strings (formatted string literals) for the same purpose.
 
-### Examples
+**Examples**
 ```python
 # Task 5.1: Use f-strings
 name = "Ahmad"
@@ -142,13 +142,19 @@ age = 30
 print(f"My name is {name} and I am {age} years old.")
 ```
 
-## Task 6: Printing Special Characters
+[Python f-Strings Explained: What Does print(f'{a=}') Do?](https://youtube.com/shorts/a34qr0OfxjQ)
 
-### Instructions
+The expression print(f"{a=}") is part of Python's f-string formatting introduced in Python 3.8.
+
+When you use a=, Python prints both the name of the variable and its value. Essentially, it shows what the variable is and its corresponding value.
+
+### Task 6: Printing Special Characters
+
+**Instructions**
 1. Print a newline character within a string.
 2. Print a tab character within a string.
 
-### Examples
+**Examples**
 ```python
 # Task 6.1: Print a newline character
 print("Hello\nWorld")
@@ -156,6 +162,8 @@ print("Hello\nWorld")
 # Task 6.2: Print a tab character
 print("Hello\tWorld")
 ```
+
+[video: Python line break: How to Print Line Break](https://youtube.com/shorts/Iqb5MQmeksM)
 
 ```python
 # Task 6.3: Print a tab character
@@ -188,12 +196,12 @@ city = "New York"
 print(f"{name}\t{age}\t{city}")
 ```
 
-## Task 7: Printing to a File
+### Task 7: Printing to a File
 
-### Instructions
+**Instructions**
 1. Print a message to a text file instead of the console.
 
-### Examples
+**Examples**
 ```python
 # Task 7.1: Print to a file
 with open("output.txt", "w") as file:
@@ -209,25 +217,25 @@ import os
 print(os.getcwd())
 ```
 
-Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations.
+Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations. for more details, see [Appendix A](#appendix-a-osgetcwd)
 
-## Task 8: Understanding Syntax Errors in Python
+### Task 8: Understanding Syntax Errors in Python
 
-### Objective:
+**Objective:**
 Learn about syntax errors in Python by examining and correcting a sample code snippet.
 
-### Instructions:
+**Instructions:**
 1. **Review the Code Snippet**: Look at the provided Python code and identify any syntax errors.
 2. **Identify the Error**: Understand what a syntax error is and why it occurs.
 3. **Correct the Code**: Fix the syntax error in the code snippet.
 4. **Explanation**: Write a brief explanation of what the syntax error was and how you corrected it.
 
-### Code Snippet:
+**Code Snippet:**
 ```python
 print("Hello World!"
 ```
 
-### Steps:
+**Steps:**
 1. **Review the Code Snippet**: Look carefully at the code snippet above.
 2. **Identify the Error**:
    - A syntax error occurs when the Python interpreter finds code that does not conform to the rules of the Python language.
@@ -494,7 +502,7 @@ Error message: `IndentationError: unexpected indent`"
 
 [video:Can You Guess the Output of this Python Code? | print Quiz](https://youtu.be/WD92M8WXRZM?si=1FgSE-5Vr1aFCVR-)
 
-**What is the output of the following code? [Python Quiz #28]**
+**What is the output of the following code?** [Python Quiz #28]
 
 **Code:**
 
@@ -519,10 +527,10 @@ y = 3
 print("The value of x is", x, "and the value of y is", y)
 ```
 
-- **A)** Syntax error
-- **B)** The value of x is {} and the value of y is {}
-- **C)** The value of x is 3 and the value of y is 5
-- **D)** The value of x is 5 and the value of y is 3
+   - A) Syntax error
+   - B) The value of x is {} and the value of y is {}
+   - C) The value of x is 3 and the value of y is 5
+   - D) The value of x is 5 and the value of y is 3
 
 **Watch the video for the answer:** [https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9](https://youtube.com/shorts/ZE2yfAJsCxk?si=6UvXfKLmR56c-Qu9)
 
@@ -887,4 +895,37 @@ Sure, here are some exercises about print functions, indentation, and comments i
 ‌
 - [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
 - [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
-  
+
+## **Appendices**
+
+### **Appendix A: os.getcwd()**
+`os.getcwd()` is a function in Python that returns the current working directory (CWD) of the script. The "current working directory" is the folder from which your Python script is running. It is useful for figuring out the exact location of the script during execution.
+
+**Explanation:**
+- **`os`**: This is the module in Python that provides a way to interact with the operating system.
+- **`getcwd()`**: This function within the `os` module returns a string representing the current working directory.
+
+**Example:**
+
+```python
+import os
+
+# Get the current working directory
+current_directory = os.getcwd()
+
+# Print the current working directory
+print("Current Working Directory:", current_directory)
+```
+
+**Output:**
+If you run this script, you might get an output like this (depending on where the script is being executed):
+
+```
+Current Working Directory: /Users/yourusername/Documents/my_project
+```
+
+This tells you that the script is being run from the `/Users/yourusername/Documents/my_project` directory.
+
+**Use Case:**
+Imagine you are writing a script that needs to read or write files. Knowing the current working directory will help ensure you reference the correct paths to those files.
+

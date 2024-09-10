@@ -252,6 +252,7 @@ B) `You are 25 years old.`
 C) `You are 25 Welcome!`  
 D) `You are Welcome!`
 
+**Watch video for the answer:** [https://youtu.be/Q2J1EEedb9E](https://youtu.be/Q2J1EEedb9E)
 
 1. **Comparison Operators:**
 
@@ -299,11 +300,11 @@ b. ^
 c. pow()
 d. ** and ^ are both correct
 
-What is the result of the expression 3 + 5 * 2 in Python?
-a. 16
-b. 13
-c. 11
-d. 26
+**What is the result of the expression 3 + 5 * 2 in Python?** [Python Quiz #63]
+  - A) 16
+  - B) 13
+  - C) 11
+  - D) 26
 
 What is the purpose of the % operator in Python?
 a. Exponential
@@ -311,11 +312,12 @@ b. Modulus
 c. Floor Division
 d. Addition
 
-What is the output of 45 // 7?
-a. 5.0
-b. 6
-c. 5
-d. 6.428571428571429
+**What is the output of 45 // 7?** [Python Quiz #62]
+
+- A. 5.0
+- B. 6
+- C. 5
+- D. 6.428571428571429
 
 Which operator adds a value to a variable?
 a. +=
