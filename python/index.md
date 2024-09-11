@@ -19,10 +19,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### Tips for Practicing
 
-**Practice Coding by Hand:** This will help you think through the problem deeply.
-**Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
-**Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
-**Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
+- **Practice Coding by Hand:** This will help you think through the problem deeply.
+- **Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
+- **Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
+- **Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
 
 ### Python Notes
 
