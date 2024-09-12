@@ -8,7 +8,23 @@
 - [How to Reverse a String in Python](https://www.youtube.com/watch?v=oD9Sfa-9uHU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=44)
 - [Generate Random 4-Digit PIN Code in Python](https://www.youtube.com/watch?v=93S_k3QIOAw)
 
+# Fix the error
 
+**Problem Statement:** [Python Quiz #66]
+
+You are given a Python program that extracts and prints the last letter of a given name, "Ahmad". However, the program contains a potential issue related to how string indexing is handled. Analyze the code and correct any possible errors related to the string indexing.
+
+The code provided is:
+
+```python
+name = "ahmad"
+last_letter = name[5]
+print(last_letter)
+```
+
+**Task:**
+- Identify and describe the problem with the above code.
+- Modify the code so that it prints the last letter of the name correctly.
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)

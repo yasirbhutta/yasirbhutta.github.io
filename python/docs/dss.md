@@ -695,6 +695,24 @@ for key in my_dict:
 **Watch the video for the answer:** [https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF](https://youtube.com/shorts/wofaOXA0SVA?si=EY4-_ndR8_qbB6zF)
 
 
+
+**What is the output of the following code?** [Python Quiz #65]
+
+```python
+my_dict = {"name": "Alice", "age": 30}  
+print(my_dict["city"])
+```
+What will happen when you run this code?
+
+    - A) It will print `None`.  
+    - B) It will print an empty string `""`.  
+    - C) It will raise a `KeyError`.  
+    - D) It will print `city`.
+
+**Correct Answer:** 
+
+**C.** It will raise a `KeyError`.
+
 ### Set (MCQs)
 
 **What is the output of the following code?**
