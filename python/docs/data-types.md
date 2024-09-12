@@ -144,6 +144,16 @@ In Python, `None` is a special constant that represents the absence of a value o
 
 ## Key Terms
 
+## Fix the error
+
+**Incorrect Input Conversion** [Python Quiz #64]
+
+```python
+age = input("Enter your age: ")  
+result = age * 2
+```
+
+
 ## True/False (Mark T for True and F for False)
 
 1. In Python, the type of a variable is determined at runtime.

@@ -120,16 +120,9 @@ print(combined)  # This will cause a TypeError
 ```
 Here, the code attempts to add an integer (number) and a string (greeting), which is not allowed in Python. You can only perform operations on compatible data types.
 
-**Incorrect Input Conversion**
-
-```python
-age = input("Enter your age: ")  # Input is a string, needs conversion
-result = age * 2  # Error: cannot multiply string by number
-```
-
 ## Index Error
 
-**1. Index Out of Range**
+**1. Index Out of Range** 
 
 ```python
 numbers = [1, 2, 3]
@@ -140,9 +133,10 @@ print(numbers[4])  # Trying to access non-existent index
 
 **Fix:** Make sure you're accessing elements within the valid range of the list (0 to length-1).
 
+Python quiz #65
 
-```python
-fruits = ["apple", "banana", "orange"]
+```python 
+fruits = ["apple", "banana", "orange"] 
 print(fruits[3])
 ```
 
@@ -151,9 +145,12 @@ print(fruits[3])
 my_list = [1, 2, 3]
 element = my_list[5]  # IndexError: list index out of range
 
+python quiz #66
+
 # Trying to access a character beyond the string's length
-name = "Alice"
-first_letter = name[6]  # IndexError: string index out of range
+name = "ahmad"
+last_letter = name[5]
+print(last_letter)
 ```
 
 ## KeyError

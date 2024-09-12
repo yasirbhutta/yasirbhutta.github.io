@@ -353,6 +353,8 @@ Error message: `IndentationError: unexpected indent`"
 - [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
 - [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
 
+## Fix the Error
+
 ## True/False (Mark T for True and F for False)
 
 1. An indentation error in Python is considered a syntax error.
