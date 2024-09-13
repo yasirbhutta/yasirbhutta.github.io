@@ -386,13 +386,6 @@ if True:
 
 **Error**: `IndentationError: unexpected indent` at the second print statement.
 
-**Corrected Code**:
-```python
-if True:
-    print("Hello")
-    print("World")
-```
-
 ---
 
 ### Question 3: Fix the Missing Import Error
@@ -412,7 +405,7 @@ print(os.getcwd())
 
 ---
 
-### Question 4: Fix the Incorrect Variable Usage Error
+### Question 4: Fix the Incorrect Variable Usage Error [Python Quiz 68]
 **Task**: Fix the error where the variable name is incorrectly used.
 
 ```python
@@ -421,12 +414,6 @@ print(f"My name is {namee} and I am 30 years old.")
 ```
 
 **Error**: `NameError: name 'namee' is not defined` because `namee` is not the correct variable name.
-
-**Corrected Code**:
-```python
-name = "Ahmad"
-print(f"My name is {name} and I am 30 years old.")
-```
 
 ---
 

@@ -15,16 +15,15 @@ print("Hello World!"
 ```
 
 
-**Syntax Errors (Incorrect Punctuation and Structure)**
+**Syntax Errors (Incorrect Punctuation and Structure)** [Python Quiz #69]
 
 ```python
 # Missing colon after if statement
 if x > 5
-    print("X is greater than 5")  # Indentation error here
+    print("X is greater than 5") 
 
-# Incorrect use of parentheses in print statement
-print "This is a string"  # Missing parentheses
-
+print "This is a string"  
+```
 
 
 
@@ -84,29 +83,10 @@ def greet(name):
 **Name Errors (Using Undefied Variables or Functions)**
 
 
-Here are more "Fix the Error" questions:
 
 ---
 
-### Question 6: Fix the NameError
-**Task**: Correct the variable name error in the following code.
-
-```python
-message = "Python is fun"
-print(messages)
-```
-
-**Error**: `NameError: name 'messages' is not defined` because the variable is named `message`, not `messages`.
-
-**Corrected Code**:
-```python
-message = "Python is fun"
-print(message)
-```
-
----
-
-### Question 7: Fix the TypeError with Print Function
+### Question 7: Fix the TypeError with Print Function [Python Quiz #70]
 **Task**: Fix the `TypeError` in the following code.
 
 ```python

@@ -820,22 +820,7 @@ for (int i = 1; i <= n; i *= 2) {
     **Answer:** False
 
 
-## Practical Tasks
 
-
-### Chapter 5:
-
-1. **What is the C++ code for calculating the factorial of a number using recursion?**
-   
-   - **Answer:** The C++ code for calculating the factorial of a number using recursion is:
-     ```cpp
-     unsigned int factorial(unsigned int n) {
-         if (n == 0)
-             return 1;
-         else
-             return n * factorial(n - 1);
-     }
-     ```
 
 ## Final Term Contents
 
@@ -1820,4 +1805,84 @@ Sure! Here are 30 fill-in-the-blank questions related to algorithms and data str
     - Answer: recursive
 22. **The __________ sort algorithm involves partitioning an array into subarrays and sorting each subarray.**
     - Answer: quick
+
+
+## Practical Tasks
+
+
+**Example: Insertion Sort Complexity**
+```java
+// O(n^2) complexity
+public class InsertionSort {
+    public static void insertionSort(int[] array) {
+        for (int i = 1; i < array.length; i++) {
+            int key = array[i];
+            int j = i - 1;
+            while (j >= 0 && array[j] > key) {
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = key;
+        }
+    }
+}
+```
+
+**Example: Factorial Calculation**
+```java
+public class RecursionExample {
+    public static int factorial(int n) {
+        if (n == 0) return 1;
+        return n * factorial(n - 1);
+    }
+}
+```
+
+**Selection Sort:**
+```java
+public class SelectionSort {
+    public static void selectionSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < array[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            int temp = array[minIndex];
+            array[minIndex] = array[i];
+            array[i] = temp;
+        }
+    }
+}
+```
+
+**Linear Search:**
+```java
+public class LinearSearch {
+    public static int linearSearch(int[] array, int key) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == key) return i;
+        }
+        return -1; // Not found
+    }
+}
+```
+
+**Binary Search:**
+```java
+public class BinarySearch {
+    public static int binarySearch(int[] array, int key) {
+        int low = 0;
+        int high = array.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (array[mid] == key) return mid;
+            else if (array[mid] < key) low = mid + 1;
+            else high = mid - 1;
+        }
+        return -1; // Not found
+    }
+}
+```
 

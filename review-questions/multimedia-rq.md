@@ -130,8 +130,7 @@ What are Chroma Keys, and how do they work?
 
 ## Chapter #12
 
-1. Define what a computer network is and how
-Internet domains, addresses, and interconnections work
+1. Define what a computer network is and how Internet domains, addresses, and interconnections work
 2. write the note on Internet History.
 3. "Explain the following terms: network, server, LAN, and WAN.
 4. What is bandwidth and explain type of connections.
