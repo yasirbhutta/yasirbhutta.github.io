@@ -18,6 +18,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Google Assistant](google-workspace/docs/google-assistant.md)
 ## Courses
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
+- [Computer Networks Lab](cs-407-computer-networks/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
 ## Softwares
 - [Softwares](tools/index.md)

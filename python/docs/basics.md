@@ -618,20 +618,20 @@ print("The value of x is", x, "and the value of y is", y)
 
 > **Which of the following is the correct syntax for the print statement in Python?**
 
-- A) print ("text")
-- B) println ("text")
-- C) echo ("text")
-- D) None
+   - A) print ("text")
+   - B) println ("text")
+   - C) echo ("text")
+   - D) None
 
 > **What will be the output of the following code?**
 
 ```python
 print("Hello, world!")
 ```
-1. [ ] Hello
-2. [ ] world
-3. [ ] Hello, world!
-4. [ ] There will be no output.
+   - A) Hello
+   - B) world
+   - C) Hello, world!
+   - D) There will be no output.
 
 > How can you print multiple values on a single line in Python?
 
@@ -668,18 +668,20 @@ print("Hello, world!")
 3. [ ] print(string + "")
 4. [ ] print(string; "")
 
-What is the output of the following code?
+**What is the output of the following code?** [Python Quiz #75]
 
+```python
 name = "Alice"
 age = 30
 print("My name is", name, "and I am", age, "years old.")
+```
 
-- a) My name is Alice and I am 30 years old. (Correct)
-- b) My name is Aliceand I am 30years old. (No separation)
-- c) Alice 30 (Values printed without labels)
-- d) An error (Incorrect syntax)
+   - A) My name is Alice and I am 30 years old.
+   - B) My name is Aliceand I am 30years old. (No separation)
+   - C) Alice 30 (Values printed without labels)
+   - D) An error (Incorrect syntax)
 
-3. How can you format a string in Python to insert variables directly within it?
+1. How can you format a string in Python to insert variables directly within it?
 
 - a) Using string concatenation with the + operator (Limited control)
 - b) Using the format method (Less readable for complex formatting)

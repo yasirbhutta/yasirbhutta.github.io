@@ -142,7 +142,7 @@ print(f"Hello, {lastname}")  # lastname not defined
    - C) Variables are case-sensitive.
    - D) Variables must be declared before use.
 
-5. **What will be the output of the following code?**
+5. **What will be the output of the following code?** [Python Quiz #76]
 
    ```python
    x = 5
@@ -150,10 +150,10 @@ print(f"Hello, {lastname}")  # lastname not defined
    x = 7
    print(y)
    ```
-   - A) `7`
-   - B) `5`
-   - C) `0`
-   - D) `None`
+      - A) `7`
+      - B) `5`
+      - C) `0`
+      - D) `None`
 
 6. **Why is it important to use meaningful variable names?**
    - A) It is required by the Python interpreter.
@@ -161,7 +161,7 @@ print(f"Hello, {lastname}")  # lastname not defined
    - C) It increases the execution speed of the program.
    - D) It is necessary for the code to run without errors.
 
-7. **What will be the output of the following code?**
+7. **What will be the output of the following code?** [Python Quiz #77]
 
    ```python
    a = 1
@@ -169,10 +169,10 @@ print(f"Hello, {lastname}")  # lastname not defined
    a = a + 1
    print(a, b)
    ```
-   - A) `1 1`
-   - B) `2 1`
-   - C) `1 2`
-   - D) `2 2`
+      - A) `1 1`
+      - B) `2 1`
+      - C) `1 2`
+      - D) `2 2`
 
 8. **Which of the following is a valid variable name in Python?**
    - A) `2ndValue`

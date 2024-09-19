@@ -1,4 +1,4 @@
-Creating a 16-week course with two hands-on lab practicals per week for beginners in computer networks sounds like a great way to build a solid foundation. Here's a structured outline to help guide the development of the course:
+
 
 ### **Week 1-2: Introduction to Computer Networks**
 - **Lab 1:** Basic Networking Concepts

@@ -104,7 +104,7 @@ print("The answer is:", 42)
 
 ---
 
-### Question 8: Fix the SyntaxError with Multi-Line Strings
+### Question 8: Fix the SyntaxError with Multi-Line Strings [Python Quiz #71]
 **Task**: Identify and correct the syntax error in this multi-line string.
 
 ```python
@@ -167,89 +167,6 @@ except FileNotFoundError:
     print("File not found. Please check the file path.")
 ```
 
----
-
-### Question 11: Fix the Indentation Error in Loop
-**Task**: Fix the indentation error in the following for loop.
-
-```python
-for i in range(5):
-print(i)
-```
-
-**Error**: `IndentationError: expected an indented block` because the print statement is not indented.
-
-**Corrected Code**:
-```python
-for i in range(5):
-    print(i)
-```
-
----
-
-### Question 12: Fix the ValueError in Integer Conversion
-**Task**: Correct the error when trying to convert an invalid string to an integer.
-
-```python
-num = int("abc")
-```
-
-**Error**: `ValueError: invalid literal for int() with base 10: 'abc'` because "abc" is not a valid integer.
-
-**Corrected Code**:
-```python
-try:
-    num = int("abc")
-except ValueError:
-    print("Cannot convert 'abc' to an integer")
-```
-
----
-
-These additional questions focus on common Python runtime errors and logic issues.
-
-Here are additional "Fix the Error" questions:
-
----
-
-### Question 13: Fix the TypeError in String Formatting
-**Task**: Fix the error when using incorrect string formatting.
-
-```python
-name = "Alice"
-age = 25
-print("My name is {} and I am {} years old.".format(name))
-```
-
-**Error**: `IndexError: tuple index out of range` because there are two placeholders but only one argument is provided.
-
-**Corrected Code**:
-```python
-name = "Alice"
-age = 25
-print("My name is {} and I am {} years old.".format(name, age))
-```
-
----
-
-### Question 14: Fix the KeyError in Dictionary Access
-**Task**: Fix the error when accessing a key that does not exist in the dictionary.
-
-```python
-person = {"name": "John", "age": 30}
-print(person["address"])
-```
-
-**Error**: `KeyError: 'address'` because the key "address" does not exist in the dictionary.
-
-**Corrected Code**:
-```python
-person = {"name": "John", "age": 30}
-print(person.get("address", "Address not found"))
-```
-
----
-
 ### Question 15: Fix the AttributeError in Method Call
 **Task**: Fix the error when trying to call a non-existent method.
 
@@ -270,7 +187,7 @@ my_list.append(5)
 
 ---
 
-### Question 16: Fix the UnboundLocalError in Function
+### Question 16: Fix the UnboundLocalError in Function [Python Quiz #72]
 **Task**: Fix the error where a variable is used before it is assigned in a function.
 
 ```python
@@ -290,27 +207,6 @@ def my_function():
     print(x)
 
 my_function()
-```
-
----
-
-### Question 17: Fix the IndexError in List Access
-**Task**: Correct the code to prevent accessing an out-of-range list index.
-
-```python
-my_list = [1, 2, 3]
-print(my_list[5])
-```
-
-**Error**: `IndexError: list index out of range` because index 5 does not exist in the list.
-
-**Corrected Code**:
-```python
-my_list = [1, 2, 3]
-if len(my_list) > 5:
-    print(my_list[5])
-else:
-    print("Index out of range")
 ```
 
 ---
@@ -374,15 +270,9 @@ my_list_str = sorted([str(i) for i in my_list])
 print(my_list_str)
 ```
 
----
 
-These additional questions cover more diverse and practical Python errors to deepen your understanding of error correction in Python code.
 
-Here are additional "Fix the Error" questions for various Python concepts:
-
----
-
-### Question 21: Fix the ZeroDivisionError
+### Question 21: Fix the ZeroDivisionError [Python Quiz 73]
 **Task**: Prevent the code from crashing when dividing by zero.
 
 ```python
@@ -404,33 +294,15 @@ else:
     print("Cannot divide by zero")
 ```
 
----
 
-### Question 22: Fix the NameError in Variable Access
-**Task**: Fix the error caused by using a variable that has not been defined.
-
-```python
-print(my_var)
-```
-
-**Error**: `NameError: name 'my_var' is not defined` because `my_var` is used without being assigned.
-
-**Corrected Code**:
-```python
-my_var = "Hello"
-print(my_var)
-```
-
----
-
-### Question 23: Fix the TypeError in Function Arguments
+### Question 23: Fix the TypeError in Function Arguments [Python Quiz 74]
 **Task**: Fix the error caused by providing an incorrect number of arguments to a function.
 
 ```python
 def greet(name, age):
     print(f"Hello, {name}. You are {age} years old.")
 
-greet("Alice")
+greet("Ali")
 ```
 
 **Error**: `TypeError: greet() missing 1 required positional argument: 'age'`
@@ -440,71 +312,15 @@ greet("Alice")
 def greet(name, age):
     print(f"Hello, {name}. You are {age} years old.")
 
-greet("Alice", 25)
+greet("Ali", 25)
 ```
 
 ---
 
-### Question 24: Fix the ValueError in Type Conversion
-**Task**: Prevent the code from crashing when converting an invalid string to an integer.
-
-```python
-user_input = "abc"
-num = int(user_input)
-print(num)
-```
-
-**Error**: `ValueError: invalid literal for int() with base 10: 'abc'`
-
-**Corrected Code**:
-```python
-user_input = "abc"
-try:
-    num = int(user_input)
-    print(num)
-except ValueError:
-    print("Invalid input: cannot convert to an integer")
-```
 
 ---
 
-### Question 25: Fix the IndentationError in Loops
-**Task**: Correct the code to fix inconsistent indentation.
 
-```python
-for i in range(5):
-  print(i)
-    print(i * 2)
-```
-
-**Error**: `IndentationError: unexpected indent`
-
-**Corrected Code**:
-```python
-for i in range(5):
-    print(i)
-    print(i * 2)
-```
-
----
-
-### Question 26: Fix the SyntaxError in Conditional Statements
-**Task**: Fix the syntax error in the `if` statement.
-
-```python
-if x > 5
-    print("x is greater than 5")
-```
-
-**Error**: `SyntaxError: invalid syntax` because there is no colon `:` after the `if` condition.
-
-**Corrected Code**:
-```python
-if x > 5:
-    print("x is greater than 5")
-```
-
----
 
 ### Question 27: Fix the TypeError in List Concatenation
 **Task**: Fix the error caused by trying to concatenate a list with an integer.
@@ -582,13 +398,6 @@ from math import sqrt
 print(sqrt(16))
 ```
 
----
-
-These additional questions cover more errors in common Python tasks, helping to practice and understand how to identify and fix various coding issues.
-
-Here are **30 more "Fix the Error" questions** to help practice identifying and correcting common Python errors:
-
----
 
 ### Question 31: Fix the SyntaxError in Defining a Function
 **Task**: Correct the function definition.
