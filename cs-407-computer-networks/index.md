@@ -1,5 +1,7 @@
 # Computer Networks
 
+- [Computer Network Notes](docs/computer-networks.md)
+  
 ## **Week 1: Introduction to Computer Networks**
 
 - **Lab 0:** Installation of Cisco Packet Tracker
