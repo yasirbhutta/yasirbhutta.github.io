@@ -13,6 +13,7 @@
 ## **Week 2:
 
   - **Lab 3:** Installation Wireshark and understanding of Interface
+    - [Download Wireshark](https://www.wireshark.org/download.html)
     
   - **Lab 4:** Use of Wireshark
   - [Handson activity](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
