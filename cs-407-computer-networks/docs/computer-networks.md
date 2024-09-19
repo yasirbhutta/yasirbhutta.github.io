@@ -36,3 +36,48 @@ The first IP (`192.168.x.0`) is typically reserved as the **network address**, a
 - **Class C**: `192.168.0.0` to `192.168.255.255`
 
 These IP ranges are reserved for internal network use and will not be routed on the public internet, ensuring that devices in these ranges cannot directly access or be accessed from the global internet without proper configuration (e.g., using NAT).
+
+## GigabitEthernet0/0
+
+**GigabitEthernet0/0** refers to a specific network interface on a Cisco router or switch. Let’s break down the term in parts:
+
+### **1. GigabitEthernet:**
+- **GigabitEthernet** refers to the interface type and its speed capability.
+- It supports **gigabit speeds** (1 Gbps or 1000 Mbps) for data transmission.
+- GigabitEthernet interfaces are commonly used in modern networking devices for faster data transfer compared to FastEthernet (100 Mbps).
+
+### **2. 0/0:**
+- The numbers **0/0** represent the **slot/port** number:
+  - **0/0** means the interface is in **slot 0, port 0**.
+  - Cisco routers and switches often have multiple slots and ports where interfaces (Ethernet, Serial, etc.) are located.
+  
+  Here’s what it means:
+  - The first **0** refers to the **slot number**. Many Cisco devices have modular slots where different types of network modules can be installed.
+  - The second **0** refers to the **port number** within that slot. Port 0 is typically the first physical interface on that module.
+
+#### Example:
+On a router with **GigabitEthernet0/0**, it refers to:
+- **GigabitEthernet**: The interface type supporting speeds of 1 Gbps.
+- **0/0**: The first port (port 0) in the first slot (slot 0).
+
+### **Usage of GigabitEthernet0/0**
+When configuring a Cisco router, you often interact with this interface to assign IP addresses, enable or disable the interface, and define routing settings.
+
+#### Example Command:
+```bash
+R1(config)# interface gigabitEthernet 0/0
+R1(config-if)# ip address 192.168.1.1 255.255.255.0
+R1(config-if)# no shutdown
+```
+
+In this example:
+- You access the **GigabitEthernet0/0** interface on the router.
+- Assign the IP address `192.168.1.1` with a subnet mask of `255.255.255.0`.
+- Use `no shutdown` to enable the interface.
+
+### **Common Features of GigabitEthernet Interfaces**:
+- **Speed**: 1 Gbps (1000 Mbps).
+- **Duplex**: Full-duplex communication, meaning data can be sent and received simultaneously.
+- **Usage**: Often used for **backbone connections** or **high-speed LAN segments**.
+- **Physical Interface**: Uses **RJ-45 connectors** or **fiber** connectors depending on the type of GigabitEthernet port (copper or fiber).
+
