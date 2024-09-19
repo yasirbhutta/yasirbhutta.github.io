@@ -2,9 +2,9 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](https://yasirbhutta.github.io/python/docs/basics.pdf)
+- [Download PDF](https://yasirbhutta.github.io/cs-407-computer-networks/docs/lab1.pdf)
 - To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
+[https://yasirbhutta.github.io/cs-407-computer-networks/docs/lab1.html](https://yasirbhutta.github.io/cs-407-computer-networks/docs/lab1.html)
 
 To perform network topologies like star, bus, and ring using Cisco Packet Tracer, you'll need to understand the basic setup for each topology. Below are steps for simulating these topologies:
 
