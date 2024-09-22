@@ -204,10 +204,10 @@ print(x, y)
 ```python
 2 ** 3 + 4 // 2 - 1
 ```
-    - A) 8 
-    - B) 9 
-    - C) 10 
-    - D) 11
+  - A) 8 
+  - B) 9 
+  - C) 10 
+  - D) 11
 
 **Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
 
@@ -219,10 +219,10 @@ y = 5
 print(x % y)
 ```
 
-- A) 2
-- B) 5
-- C) 0
-- D) 1
+  - A) 2
+  - B) 5
+  - C) 0
+  - D) 1
   
 **Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
 
@@ -247,10 +247,10 @@ message += " Welcome!"
 print(message)
 ```
 
-A) `You are 25 years old. Welcome!`  
-B) `You are 25 years old.`  
-C) `You are 25 Welcome!`  
-D) `You are Welcome!`
+  - A) `You are 25 years old. Welcome!`  
+  - B) `You are 25 years old.`  
+  - C) `You are 25 Welcome!`  
+  - D) `You are Welcome!`
 
 **Watch video for the answer:** [https://youtu.be/Q2J1EEedb9E](https://youtu.be/Q2J1EEedb9E)
 
@@ -264,10 +264,10 @@ y = 10
 result = x > 3 or y < 5
 print(result)
 ```
-**A)** True
-**B)** False
-**C)** SyntaxError
-**D)** None of these
+  - A) True
+  - B) False
+  - C) SyntaxError
+  - D) None of these
 
 **Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
 
@@ -301,6 +301,7 @@ c. pow()
 d. ** and ^ are both correct
 
 **What is the result of the expression 3 + 5 * 2 in Python?** [Python Quiz #63]
+
   - A) 16
   - B) 13
   - C) 11
@@ -314,46 +315,50 @@ d. Addition
 
 **What is the output of 45 // 7?** [Python Quiz #62]
 
-- A. 5.0
-- B. 6
-- C. 5
-- D. 6.428571428571429
+  - A) 5.0
+  - B) 6
+  - C) 5
+  - D) 6.428571428571429
 
 Which operator adds a value to a variable?
-a. +=
-b. -=
-c. *=
-d. /=
+
+  - A) +=
+  - B) -=
+  - C) *=
+  - D) /=
 
 What is the output of x = 10; x //= 3?
-a. 3
-b. 3.33
-c. 3.5
-d. 4
+
+  - A) 3
+  - B) 3.33
+  - C) 3.5
+  - D) 4
 
 Which operator checks if two values are greater than or equal to each other?
-a. >
-b. <=
-c. >=
-d. <
 
-What is the result of 5 <= 5?
-a. True
-b. False
-c. 5
-d. None of the above
+  - A) >
+  - B) <=
+  - C) >=
+  - D) <
 
 Which operator returns True if both operands are True?
-a. and
-b. or
-c. not
-d. xor
 
-What is the output of not (True and False)?
-a. True
-b. False
-c. None
-d. Error
+  - A) and
+  - B) or
+  - C) not
+  - D) xor
+
+**What is the output of the following PYTHON code?** [Python Quiz #82]
+
+```python
+flag = not (True and False)
+print(flag)
+```
+
+  - A) True
+  - B) False
+  - C) None
+  - D) Error
 
 Which operator checks if a value is present in a sequence?
 a. in
@@ -361,53 +366,76 @@ b. not in
 c. Both in and not in
 d. None of the above
 
-What is the output of 4 in [1, 3, 4]?
-a. True
-b. False
-c. 4
-d. Error
+### 1. **What is the output of the following PYTHON Code?** [Python Quiz #83]
+  ```python
+  num = 4
+  result = num in [1, 3, 4]
+  print(result)
+   ```
+    - A) `True`  
+    - B) `False`  
+    - C) `None`  
+    - D) `Error`
+
+### 3. **What will be the output of the following PYTHON Code?** [Python Quiz #84]
+   ```python
+   'x' in 'python'
+   ```
+    - A) `True`  
+    - B) `False`  
+    - C) `'x'`  
+    - D) `Error`
 
 Which operator checks if two objects refer to the same memory location?
-a. ==
-b. is
-c. is not
-d. Both is and is not
 
-What is the result of x = [1, 2]; y = x; x is y?
-a. True
-b. False
-c. [1, 2]
-d. None of the above
+- A) ==
+- B) is
+- C) is not
+- D) Both is and is not
 
+**What will be the output of the following PYTHON Code?** [Python Quiz #85]
+```python
+x = [1, 2]; y = x; print(x is y)
+```
 
-Which of these operators can be used to perform bitwise operations on integers in Python? a) & | ^ ~ << >> b) && || ! << >> c) * / % ** // d) + - * /
+  - A) True
+  - B) False
+  - C) [1, 2]
+  - D) Error
+
+**Which of these operators can be used to perform bitwise operations on integers in Python? 
+  - A) & | ^ ~ << >> 
+  - B) && || ! << >> 
+  - C) * / % ** // 
+  - D) + - * /
+
 Answer: a) & | ^ ~ << >>
 
+**What is the correct way to use the exponentiation operator in Python?**
 
-What is the correct way to use the exponentiation operator in Python?
-
-a) x ^ y b) x ** y c) pow(x, y) d) either b or c
+  - A) x ^ y 
+  - B) x ** y 
+  - C) pow(x, y)
+  - D) either b or c
 
 Answer: d) either b or c
 
 
-#60 In Python, What is the output of this code?
+**In Python, What is the output of this code?** [Python Quiz #86]
 
+```python
 x = 10
 y = 5
 x = x + y
 y = x - y
 x = x - y
 print(x, y)
+```
 
-
-a) 10, 5 
-b) 5, 10 
-c) 15, -5 
-d) -5, 15
-
-Answer: b) 5, 10
-
+  - A) 10, 5 
+  - B) 5, 10 
+  - C) 15, -5 
+  - D) -5, 15
 
 **Answer key (Mutiple Choice):**
 

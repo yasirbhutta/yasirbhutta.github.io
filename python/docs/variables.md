@@ -186,16 +186,16 @@ print(f"Hello, {lastname}")  # lastname not defined
    - C) `declare x = 5`
    - D) `var x = 5`
    
-10. **What is the output of the following code?**
+10. **What is the output of the following code?** [Python Quiz 78]
    ```python
    x = 5
    y = "Hello"
    print(x + y)
    ```
-   - A) `5Hello`
-   - B) `Hello5`
-   - C) `TypeError`
-   - D) `Hello 5`
+      - A) `5Hello`
+      - B) `Hello5`
+      - C) `TypeError`
+      - D) `Hello 5`
    
 11.  **Which of the following is not a valid variable name in Python?**
    - A) `my_var`
@@ -209,17 +209,6 @@ print(f"Hello, {lastname}")  # lastname not defined
    - C) Variable names must begin with a number.
    - D) Python variables must be declared with a type.
    
-13. **What will be the output of the following code?**
-   ```python
-   x = 5
-   y = x
-   x = 10
-   print(y)
-   ```
-   - A) `5`
-   - B) `10`
-   - C) `0`
-   - D) `5 10`
 
 # 38 What is the purpose of declaring a variable in Python?
 a) To reserve memory space for the variable

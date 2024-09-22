@@ -229,6 +229,172 @@ print(myfunction (13) or myfunction (8))
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/laKpsLlq60I](https://youtu.be/laKpsLlq60I)
 
+### 7. **What is the output of the following code?**
+
+   ```python
+   def greet(name="User"):
+       return "Hello, " + name
+   print(greet("Alice"))
+   ```
+   a) `Hello, User`  
+   b) `Hello, Alice`  
+   c) `Hello`  
+   d) `Error`  
+
+   **Answer**: b) `Hello, Alice`
+
+### 17. **What is the output of the following code?**
+   ```python
+   def my_function():
+       pass
+   print(my_function())
+   ```
+   a) `None`  
+   b) `0`  
+   c) `True`  
+   d) `Error`  
+
+   **Answer**: a) `None`
+
+### 20. **What is the output of the following code?**
+   ```python
+   def my_func(a, b=2, c=3):
+       return a + b + c
+   print(my_func(5, c=4))
+   ```
+   a) `11`  
+   b) `12`  
+   c) `10`  
+   d) `Error`  
+
+   **Answer**: a) `11`
+
+### 23. **Which of the following function calls is invalid for this function definition?**
+   ```python
+   def my_func(a, b, c=3):
+       return a + b + c
+   ```
+   a) `my_func(1, 2)`  
+   b) `my_func(1, 2, 4)`  
+   c) `my_func(a=1, b=2, c=5)`  
+   d) `my_func(1, c=4, b=2, 5)`  
+
+   **Answer**: d) `my_func(1, c=4, b=2, 5)`
+
+   ### 25. **What is the output of the following code?**
+   ```python
+   def change_value(x):
+       x = 10
+   num = 5
+   change_value(num)
+   print(num)
+   ```
+   a) `5`  
+   b) `10`  
+   c) `Error`  
+   d) `None`  
+
+   **Answer**: a) `5`
+
+   ### 41. **What is the output of the following code?**
+   ```python
+   x = 5
+   def my_func():
+       global x
+       x = 10
+   my_func()
+   print(x)
+   ```
+   a) `5`  
+   b) `10`  
+   c) `None`  
+   d) `Error`
+
+   **Answer**: b) `10`
+
+   ## 37. **What is the output of the following code?**
+   ```python
+   def outer():
+       x = 1
+       def inner():
+           print(x)
+       return inner
+   func = outer()
+   func()
+   ```
+   a) `None`  
+   b) `Error`  
+   c) `1`  
+   d) `Function object`
+
+   **Answer**: c) `1`
+
+   ### 32. **What will be the output of the following code?**
+   ```python
+   def outer():
+       x = 5
+       def inner():
+           nonlocal x
+           x = 10
+       inner()
+       return x
+   print(outer())
+   ```
+   a) `5`  
+   b) `10`  
+   c) `None`  
+   d) `Error`
+
+   **Answer**: b) `10`
+
+### Scope and Variables
+6. **What is the output of the following code?**
+   ```python
+   x = 10
+
+   def my_function():
+       x = 20
+       print(x)
+
+   my_function()
+   print(x)
+   ```
+   * A. 10 20
+   * B. 20 10
+   * C. 20 20
+   * D. Error
+
+
+   7. **What is the output of the following code?**
+   ```python
+   global_var = 5
+
+   def modify_global():
+       global global_var
+       global_var = 10
+
+   modify_global()
+   print(global_var)
+   ```
+   * A. 5
+   * B. 10
+   * C. Error
+   * D. None
+   * 
+
+12. **What is the output of the following code?**
+   ```python
+   def greet(name: str) -> str:
+       return "Hello, " + name + "!"
+
+   result = greet(5)
+   print(result)
+   ```
+   * A. Hello, 5!
+   * B. Error
+   * C. None
+   * D. Hello, !
+   * 
 2. **What is the output of the following code?** [Python Quiz #2]
 
 ```python
@@ -304,6 +470,19 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
+### 30. **What is the output of the following code?**
+   ```python
+   def f(a, b, *args):
+       return len(args)
+   print(f(1, 2, 3, 4, 5))
+   ```
+   a) `2`  
+   b) `3`  
+   c) `5`  
+   d) `None`
+
+   **Answer**: b) `3`
+
 6. **What is the output of the following  code?** [#41 Python Quiz]
 
 ```python
@@ -320,27 +499,108 @@ display_data(name="Ali", age=25)
   
   **Watch this video for answer:** [https://youtu.be/5IWmz7iWqUE?si=Wx0OeTwME3XEiL-h](https://youtu.be/5IWmz7iWqUE?si=Wx0OeTwME3XEiL-h)
   
-7. **What will be the output of this code?** 
+7. **What will be the output of this code?** [Python Quiz #87]
     ```python
     def func(x, y=2):
         return x * y
     print(func(3))
     ```
-    - A) 2
-    - B) 6
-    - C) 3
-    - D) Error
+      - A) 2
+      - B) 6
+      - C) 3
+      - D) Error
 
-    **Answer:** B
 
-8. **What is a function in Python?** [#42 Python Quiz]
+20. **What is the output of the following code?**
+   ```python
+   def outer_function(message):
+       def inner_function():
+           print(message)
+       return inner_function
+
+   my_function = outer_function("Hello, world!")
+   my_function()
+   ```
+   * A. Hello, world!
+   * B. Error
+   * C. None
+   * D. outer_function
+  
+  8. **What is the output of the following code?**
+   ```python
+   def apply_function(func, x):
+       return func(x)
+
+   def square(x):
+       return x * x
+
+   result = apply_function(square, 5)
+   print(result)
+   ```
+   * A. 25
+   * B. 5
+   * C. 10
+   * D. Error
+
+### Function Composition
+21. **What is function composition in Python?**
+   * A. Combining multiple functions into a single function
+   * B. Applying a function multiple times
+   * C. Creating a new function from existing functions
+   * D. All of the above
+
+22. **What is the output of the following code?**
+   ```python
+   def square(x):
+       return x * x
+
+   def add_one(x):
+       return x + 1
+
+   def compose(f, g):
+       def composed_function(x):
+           return f(g(x))
+       return composed_function
+
+   result = compose(add_one, square)(5)
+   print(result)
+   ```
+   * A. 26
+   * B. 36
+   * C. 25
+   * D. 11
+
+### Partial Application
+23. **What is partial application in Python?**
+   * A. Applying a function to some of its arguments
+   * B. Creating a new function with fewer arguments
+   * C. Applying a function multiple times
+   * D. All of the above
+
+24. **What is the output of the following code?**
+   ```python
+   from functools import partial
+
+   def add(x, y):
+       return x + y
+
+   add_5 = partial(add, 5)
+   result = add_5(3)
+   print(result)
+   ```
+   * A. 8
+   * B. 5
+   * C. 3
+   * D. Error
+   * 
+21. **What is a function in Python?** [#42 Python Quiz]
    
    - A) A built-in tool that performs a specific operation.
    - B) A block of code that only executes when it is called.
    - C) A variable used to store data.
    - D) A loop structure for repetitive tasks.
   
-9.  **What is the main purpose of a function in Python?**  
+22. **What is the main purpose of a function in Python?**  
 
   - A) To group a set of related code into a single unit
   - B) To create a new type of data

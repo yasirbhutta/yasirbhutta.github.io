@@ -258,7 +258,7 @@ print(message)
 - c. Error
 - d. None of the above
 
-1.  What is the result of the following expression?
+1.  What is the result of the following expression? [Python Quiz #79]
 
 ```python
 type(3 + 4.0)
@@ -292,7 +292,7 @@ type(3 + 4.0)
     - C) Python will ignore the new value.
     - D) Python will convert the value to the original type.
 
-18. What is the output of the following code?
+18. What is the output of the following code? [Python Quiz #80]
 
 ```python
 x = 10
@@ -302,7 +302,7 @@ print(type(x))
     - A) <class 'int'>
     - B) <class 'str'>
     - C) <class 'bool'>
-    - D) <class 'floa   - t'>
+    - D) <class 'float'>
 
 19. What is the result of the following code?
 
@@ -336,7 +336,7 @@ print(x)
     - C) Variables must be explicitly typed before assignment.
     - D) Variables cannot change type once assigned.
 
-23. What is the output of the following code?
+23. What is the output of the following code? [Python Quiz #81]
 
 ```python
 x = "10"
