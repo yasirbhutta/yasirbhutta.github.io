@@ -378,13 +378,16 @@ d. None of the above
     - D) `Error`
 
 ### 3. **What will be the output of the following PYTHON Code?** [Python Quiz #84]
-   ```python
-   'x' in 'python'
-   ```
-    - A) `True`  
-    - B) `False`  
-    - C) `'x'`  
-    - D) `Error`
+
+```python
+str = 'x'
+result = str in 'python'
+print(result)
+```
+  - A) `True`  
+  - B) `False`  
+  - C) `'x'`  
+  - D) `Error`
 
 Which operator checks if two objects refer to the same memory location?
 

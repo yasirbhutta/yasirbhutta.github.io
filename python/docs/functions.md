@@ -190,6 +190,8 @@ Keyword arguments: {'name': 'Ali', 'age': 25}
 - You can use both `*args` and `**kwargs` together to handle any type of arguments passed to a function.
 - 
 
+[video: Guard Statements in Python: Explained Simply](https://youtu.be/rzY31wSKvXc)
+
 ### Unpacking Argument Lists
 ### Lambda Expressions
 ### Documentation Strings
@@ -229,45 +231,39 @@ print(myfunction (13) or myfunction (8))
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/laKpsLlq60I](https://youtu.be/laKpsLlq60I)
 
-### 7. **What is the output of the following code?**
+### 7. **What is the output of the following code?** [Python Quiz #88]
 
-   ```python
-   def greet(name="User"):
-       return "Hello, " + name
-   print(greet("Alice"))
+  ```python
+  def greet(name="User"):
+    return "Hello, " + name
+  print(greet("Ahmad"))
    ```
-   a) `Hello, User`  
-   b) `Hello, Alice`  
-   c) `Hello`  
-   d) `Error`  
+    A) `Hello, User`  
+    B) `Hello, Ahmad`  
+    C) `Hello`  
+    D) `Error`  
 
-   **Answer**: b) `Hello, Alice`
+### 17. **What is the output of the following code?** [Python Quiz #89]
+```python
+def my_function():
+  pass
+print(my_function())
+```
+    - A) `None`  
+    - B) `0`  
+    - C) `True`  
+    - D) `Error`  
 
-### 17. **What is the output of the following code?**
-   ```python
-   def my_function():
-       pass
-   print(my_function())
-   ```
-   a) `None`  
-   b) `0`  
-   c) `True`  
-   d) `Error`  
-
-   **Answer**: a) `None`
-
-### 20. **What is the output of the following code?**
+### 20. **What is the output of the following code?** [Python Quiz #90]
    ```python
    def my_func(a, b=2, c=3):
        return a + b + c
    print(my_func(5, c=4))
    ```
-   a) `11`  
-   b) `12`  
-   c) `10`  
-   d) `Error`  
-
-   **Answer**: a) `11`
+    - A) `11`  
+    - B) `12`  
+    - C) `10`  
+    - D) `Error`  
 
 ### 23. **Which of the following function calls is invalid for this function definition?**
    ```python

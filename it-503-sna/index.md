@@ -12,14 +12,16 @@
     - Explore basic Linux commands (`ls`, `cd`, `pwd`, `cp`, `mv`, etc.).
     - [slides](https://docs.google.com/presentation/d/1-f72DLYF_hc9V7fRbNyEBHAiAB6UvmgkSklABuz47_8/edit?usp=sharing)
 
+
+4. **Practical #4:** [Managing User Accounts and File Permissions on Windows]()
 ### **Week 2: File Permissions and Ownership**
 
-5. **Practical 1: Understanding File Permissions**  
+1. **Practical 1: Understanding File Permissions**  
    - Explore file permissions (`rwx`) and ownership.
    - Change permissions and ownership using `chmod` and `chown`.
    - [slides](https://docs.google.com/presentation/d/1xH14xV4hE8FLaZWhylB8YnWOApF_wACKUrHhoojvC4U/edit?usp=sharing)
   
-6. **Practical 2: Manage Softwares**
+2. **Practical 2: Manage Softwares**
     - [slides](https://docs.google.com/presentation/d/1AEl9J22vv8-bwhECuOk-HjQRMSE4-8gv72JdQqTUqGo/edit?usp=sharing)
   
 ### **Week 3: User and Group Management**
