@@ -1,5 +1,7 @@
 # Windows:Managing User Accounts and File Permissions on Windows
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
 - [Download PDF](https://yasirbhutta.github.io/sna/docs/windows-users-permissions.pdf)
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/sna/docs/windows-users-permissions.html](https://yasirbhutta.github.io/sna/docs/windows-users-permissions.html)
