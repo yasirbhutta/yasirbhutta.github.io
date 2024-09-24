@@ -1,8 +1,8 @@
 # Windows:Managing User Accounts and File Permissions on Windows
 
-- [Download PDF](https://yasirbhutta.github.io/python/docs/basics.pdf)
+- [Download PDF](https://yasirbhutta.github.io/sna/docs/windows-users-permissions.pdf)
 - To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
+[https://yasirbhutta.github.io/sna/docs/windows-users-permissions.html](https://yasirbhutta.github.io/sna/docs/windows-users-permissions.html)
 
 ### Lab Task 1: Create a New User with Limited Permissions on Windows
 **Objective:**  Create a new user account on a Windows system with restricted access (limited permissions).
