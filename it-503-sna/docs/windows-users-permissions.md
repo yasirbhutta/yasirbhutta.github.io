@@ -1,7 +1,11 @@
-# Managing User Accounts and File Permissions on Windows
+# Windows:Managing User Accounts and File Permissions on Windows
+
+- [Download PDF](https://yasirbhutta.github.io/python/docs/basics.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/ms-excel/docs/basics.html](https://yasirbhutta.github.io/ms-excel/docs/basics.html)
 
 ### Lab Task 1: Create a New User with Limited Permissions on Windows
-**Objective:** Students will create a new user account on a Windows system with restricted access (limited permissions).
+**Objective:**  Create a new user account on a Windows system with restricted access (limited permissions).
 
 1. **Step 1: Open Control Panel**
    - Open the Start menu and type "Control Panel" in the search bar. Click on it.

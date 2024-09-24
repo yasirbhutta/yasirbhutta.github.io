@@ -1,4 +1,3 @@
-name = "ahmad"
-last_letter = name[5]
-print(last_letter)
+age = input("Enter your age: ")  
+result = age * 2
 

@@ -12,8 +12,8 @@
     - Explore basic Linux commands (`ls`, `cd`, `pwd`, `cp`, `mv`, etc.).
     - [slides](https://docs.google.com/presentation/d/1-f72DLYF_hc9V7fRbNyEBHAiAB6UvmgkSklABuz47_8/edit?usp=sharing)
 
-
-4. **Practical #4:** [Managing User Accounts and File Permissions on Windows]()
+4. **Practical #4:** [Windows: Managing User Accounts and File Permissions on Windows](docs/windows-users-permissions.md)
+   
 ### **Week 2: File Permissions and Ownership**
 
 1. **Practical 1: Understanding File Permissions**  
