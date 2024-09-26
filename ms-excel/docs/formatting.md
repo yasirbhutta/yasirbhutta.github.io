@@ -90,7 +90,7 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
 
 ### Borders
 
-- In Microsoft Excel, cell borders are lines that surround a cell or range of cells. They are used to visually separate data in a table or spreadsheet and make it easier to read and understand.
+- In Microsoft Excel, cell borders are `lines that surround a cell or range of cells`. They are used to visually separate data in a table or spreadsheet and make it easier to read and understand.
 - Cell borders that you apply on cell in sheets to appear on printed pages.
 - By using predefined border styles, you can quickly add a border around cells or ranges of cells. If predefined cell borders do not meet your needs, you can create a custom border.[^8]
 
@@ -108,16 +108,16 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
 
 ### Fill Color
 
-- n Microsoft Excel, Fill Color is a feature that allows you to add or change the background color or pattern of cells.
+- n Microsoft Excel, Fill Color is a feature that allows you to add or change the `background color`.
 - It is used to highlight data in cells and make it easier to read and understand. [^9]
 
 ### Font Color
 
-- In Microsoft Excel, Font Color is a feature that allows you to change the color of the text in a cell or range of cells.[^10]
+- In Microsoft Excel, Font Color is a feature that allows you to change the `color of the text` in a cell or range of cells.[^10]
 
 ### Data Alignment
 
-- In Microsoft Excel, data alignment refers to the position of data within a cell or range of cells.
+- In Microsoft Excel, data alignment refers to the `position of data within a cell` or range of cells.
 
 #### Align text in a cell [Windows] [^11] [^12]
 
@@ -128,7 +128,7 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
 
 ### Merge & Center
 
-- Merge and Center is a feature in Microsoft Excel that allows you to combine two or more cells into one cell and align the contents of the merged cells in the center.
+- Merge and Center is a feature in Microsoft Excel that allows you to `combine two or more cells into one cell and align the contents of the merged cells in the center`.
 - This feature is useful when you want to create a label that spans multiple columns or rows, or when you want to merge cells containing text or numbers into a single cell.
 - You can't split an individual cell, but you can make it appear as if a cell has been split by merging the cells above it. [^3]
 
@@ -157,7 +157,7 @@ When you select a merged cell, the Merge and Center button  also appears selecte
 
 ### Wrap Text
 
-- In Microsoft Excel, Wrap Text is a feature that allows you to display the contents of a cell on multiple lines, rather than one long line.
+- In Microsoft Excel, Wrap Text is a feature that allows you to `display the contents of a cell on multiple lines, rather than one long line`.
 - This feature is useful when you have lengthy text in a cell that is difficult to read or when you want to fit more text into a smaller space.
 - By enabling Wrap Text, you can ensure that all the content is visible without having to adjust the column width or are left with text overflowing into neighboring cells. [^14] [^15]
 
@@ -174,7 +174,7 @@ To start a new line of text at a specific point in a cell, double-click the cell
 
 ### Format Painter
 
-- The Format Painter is a useful tool in Microsoft Excel that allows you to copy formatting from one cell or range of cells and apply it to another cell or range of cells.
+- The Format Painter is a useful tool in Microsoft Excel that allows you to `copy formatting from one cell or range of cells and apply it to another cell or range of cells`.
 - Use Format Painter to quickly apply the same formatting, such as color, font style and size, or border style, to multiple pieces of text or graphics. [^4]
 
 **Notes:**
@@ -183,7 +183,7 @@ To start a new line of text at a specific point in a cell, double-click the cell
 
 ### Cell Styles
 
-- A cell style is a defined set of formatting characteristics, such as fonts and font sizes, number formats, cell borders, and cell shading.
+- A cell style is a `defined set of formatting characteristics`, such as fonts and font sizes, number formats, cell borders, and cell shading.
 To apply several formats in one step, and to make sure that cells have consistent formatting.
 
 #### Apply a cell style
