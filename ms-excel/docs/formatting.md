@@ -23,7 +23,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### Font
 
-- A font is a collection of characters, symbols, and glyphs that share a common design and are used to display text in a specific style. Fonts can be used for various purposes such as creating logos, designing websites, and publishing books.[^1]
+- **A font is a collection of characters, symbols, and glyphs that share a common design and are used to display text in a specific style.** Fonts can be used for various purposes such as creating logos, designing websites, and publishing books.[^1]
 - There are many different types of fonts available, each with its own unique personality. Some fonts are more formal and elegant, while others are more casual and fun. Some fonts are designed to be easy to read, while others are more decorative.
 - Here are some examples of different types of fonts:
 
@@ -44,28 +44,28 @@ Excel provides users with a pre-selected font that they may use when creating wo
 
 ### Bold
 
-- In Microsoft Excel, bold is a font style that makes text appear thicker and darker than the surrounding text.
+- In Microsoft Excel, bold is a font style that makes text appear `thicker` and `darker` than the surrounding text.
 - It is used to emphasize important information or to make headings stand out in a table or spreadsheet.
 
 Keyboard shortcut: **Ctrl+B**.[^5]
 
 ### Italic
 
-- In Microsoft Excel, Italic font style is a type of text formatting where the letters are tilted to the right. It is used to emphasize important information or to make headings stand out in a table or spreadsheet.
+- In Microsoft Excel, Italic font style is a type of text formatting where the letters are `tilted to the right`. It is used to emphasize important information or to make headings stand out in a table or spreadsheet.
 
 Keyboard shortcut: **Ctrl+I**.[^5]
 
 ### Underline
 
-- In Microsoft Excel, underline is a font style that adds a line below the text.
+- In Microsoft Excel, underline is a font style that adds a `line below the text`.
 - The underline command is used to draw attention to specific text or data in a table or spreadsheet. It can be used to indicate headings, subheadings, or important information that needs to be highlighted. Underlining can also be used for emphasis when bold or italic formatting is not appropriate.[^6]
 
 Keyboard shortcut: **Ctrl+U**.[^5]
 
 ### Strikethrough
 
-- In Microsoft Excel, strikethrough is a font style that adds a line through the middle of the text. 
-- The strikethrough command is used to indicate that certain information is no longer relevant or has been deleted. It can also be used to show completed tasks in a table or spreadsheet.[^7]
+- In Microsoft Excel, strikethrough is a font style that `adds a line through the middle of the text`. 
+- The strikethrough command is used to indicate that certain information is `no longer relevant` or has been `deleted`. It can also be used to `show completed tasks in a table or spreadsheet`.[^7]
 
 Keyboard shortcut: **Ctrl+5**.[^5]
 
