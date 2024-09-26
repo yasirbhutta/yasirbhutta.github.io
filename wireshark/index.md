@@ -168,9 +168,9 @@ This type of subnetting is typical in home and small office networks.
 ### 12. **Filter by HTTP Response Code in Info Column**
    - **Filter HTTP 200 OK responses:**
      ```plaintext
-     http.response.code == 200 and frame contains "200 OK"
+     http.response.code == 200
      ```
    - **Filter HTTP 404 Not Found responses:**
      ```plaintext
-     http.response.code == 404 and frame contains "404 Not Found"
+     http.response.code == 404 
      ```
