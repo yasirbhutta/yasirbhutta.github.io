@@ -1,5 +1,9 @@
 # Wireshark tasks
 
+- [Download PDF](https://yasirbhutta.github.io/wireshark/index.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/wireshark/index.html](https://yasirbhutta.github.io/wireshark/index.html)
+
 To filter specific traffic using **Wireshark**, you can use display filters to narrow down the packets of interest. Here are some common Wireshark filter tasks that can be helpful for practical scenarios:
 
 ### 1. **Filter by Protocol**
