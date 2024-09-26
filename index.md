@@ -21,5 +21,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Computer Networks Lab](cs-407-computer-networks/index.md)
 - [System and Network Administration](sna/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
+- [Learn Computer Lab](computer-basics/learn-computer.md)
 ## Softwares
 - [Softwares](tools/index.md)

@@ -2,6 +2,7 @@
 
 - [Computer](docs/computer.md)
 - [Name Systems](docs/number-systems.md)
+- [Learn Computer](learn-computer.md)
 
 - [MCQs](mcqs.md)
 - [Review Questions](review-questions.md)
