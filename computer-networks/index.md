@@ -2,6 +2,10 @@
 
 - [Computer Network Notes](docs/computer-networks.md)
   
+**Lab 1:**
+  - Activiation of accounts: University email, eduroam, Microsoft 365
+  - Join Class in Microsoft Teams
+  
 ## **Week 1: Introduction to Computer Networks**
 
 - **Lab 1:** Installation of Cisco Packet Tracker
@@ -16,7 +20,12 @@
     - [Download Wireshark](https://www.wireshark.org/download.html)
     
   - **Lab 4:** Use of Wireshark
-  - [Handson activity](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
+  - [Slide](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
+  - [Hands-on activity](../wireshark/index.md)
+
+
+**Lab :** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
+  - Hands-on activity: ping, ipconfig, nslookup
 
 ## **Week 3:
 

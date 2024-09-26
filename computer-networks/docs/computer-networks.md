@@ -81,3 +81,56 @@ In this example:
 - **Usage**: Often used for **backbone connections** or **high-speed LAN segments**.
 - **Physical Interface**: Uses **RJ-45 connectors** or **fiber** connectors depending on the type of GigabitEthernet port (copper or fiber).
 
+## Ports in networking
+Each port is associated with a specific process or service, allowing computers to differentiate between different types of traffic. For example, emails use a different port than webpages, even though both reach a computer over the same internet connection
+
+## `192.168.1.0/24`
+
+The IP address `192.168.1.0/24` represents a **subnet** in the world of IP addressing. 
+
+Let’s break it down:
+
+### Components of `192.168.1.0/24`:
+
+1. **`192.168.1.0` (Network Address)**:
+   - This is the **base IP address** of the subnet.
+   - It’s a **private IP address** reserved for internal use within local networks (it won’t be routed on the public internet).
+   - **`192.168.x.x`** is a common range for home and small business networks.
+
+2. **`/24` (Subnet Mask)**:
+   - This is **CIDR (Classless Inter-Domain Routing) notation** that represents the subnet mask.
+   - **`/24`** means that the first 24 bits of the IP address are reserved for the **network portion**, and the remaining 8 bits are used for the **host portion** (devices within the network).
+   - In dotted decimal format, the subnet mask for `/24` is **255.255.255.0**, which is equivalent to 24 network bits.
+
+### What Does `192.168.1.0/24` Represent?
+
+- **Network Address**: `192.168.1.0` is the **network identifier** for the subnet. It is not assigned to any device.
+  
+- **Range of Usable IP Addresses**:
+   - The **usable IP range** in this subnet is from **192.168.1.1** to **192.168.1.254**.
+   - **192.168.1.1** would typically be assigned to a router or gateway.
+   - You can assign IP addresses from **192.168.1.2** to **192.168.1.254** to devices within the network.
+   
+- **Broadcast Address**: The **broadcast address** for this subnet is **192.168.1.255**. This address is used to send messages to all devices on the network.
+
+### Structure of an IP Address
+
+An IPv4 address is 32 bits, and in CIDR notation, we divide this into two parts:
+   - **Network portion** (first 24 bits in this case): Identifies the network (e.g., 192.168.1.x).
+   - **Host portion** (last 8 bits in this case): Identifies individual devices within the network (e.g., `.1`, `.2`, `.3`, ... up to `.254`).
+
+### Example:
+For the network `192.168.1.0/24`:
+- **Network address**: 192.168.1.0
+- **Subnet mask**: 255.255.255.0
+- **Usable IP range**: 192.168.1.1 to 192.168.1.254
+- **Broadcast address**: 192.168.1.255
+
+This setup allows for **254 usable IP addresses** (from `.1` to `.254`) that can be assigned to hosts (e.g., computers, printers, phones) on the network.
+
+### Summary:
+
+- **`192.168.1.0`** is the network identifier, and the `/24` means the first 24 bits are used for the network, leaving 8 bits for the hosts.
+- **Subnet mask `/24`** allows for 254 devices on the network (usable IPs from **192.168.1.1** to **192.168.1.254**).
+
+This type of subnetting is typical in home and small office networks.
