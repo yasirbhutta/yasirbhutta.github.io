@@ -1,4 +1,4 @@
-# Microsoft Excel App: Formatting
+# Microsoft Excel: Formatting
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -27,10 +27,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - There are many different types of fonts available, each with its own unique personality. Some fonts are more formal and elegant, while others are more casual and fun. Some fonts are designed to be easy to read, while others are more decorative.
 - Here are some examples of different types of fonts:
 
-  - **Serif fonts** have small decorative lines at the ends of their strokes. They are often considered to be more formal and elegant than sans-serif fonts. Examples of serif fonts include Times New Roman, Georgia, and Garamond.
-  - **Sans-serif fonts** do not have the decorative lines at the ends of their strokes. They are often considered to be more modern and casual than serif fonts. Examples of sans-serif fonts include Arial, Helvetica, and Futura.
+  - **Serif fonts** have small decorative lines at the ends of their strokes. They are often considered to be more formal and elegant than sans-serif fonts. Examples of serif fonts include `Times New Roman`, `Georgia`, and `Garamond`.
+  - **Sans-serif fonts** do not have the decorative lines at the ends of their strokes. They are often considered to be more modern and casual than serif fonts. Examples of sans-serif fonts include `Arial`, `Helvetica`, and Futura.
   - **Script fonts** resemble handwritten text. They are often used for invitations, greeting cards, and other formal documents. Examples of script fonts include Brush Script, Calligraphy, and Freestyle Script.
-  - **Decorative fonts** are designed to be eye-catching and decorative. They are often used for headlines, logos, and other graphic design elements. Examples of decorative fonts include Comic Sans, Trajan Pro, and Papyrus.
+  - **Decorative fonts** are designed to be eye-catching and decorative. They are often used for headlines, logos, and other graphic design elements. Examples of decorative fonts include `Comic Sans`, Trajan Pro, and Papyrus.
 
 Fonts are used in Excel to change the style and size of text and characters in a document. Changing the font of your numbers and text in an Excel worksheet can help your document to look more appealing and, at times, make it easier for the reader to digest the information.
 
@@ -51,7 +51,7 @@ Keyboard shortcut: **Ctrl+B**.[^5]
 
 ### Italic
 
-- In Microsoft Excel, italic is a font style that makes text appear slanted. It is used to emphasize important information or to make headings stand out in a table or spreadsheet.
+- In Microsoft Excel, Italic font style is a type of text formatting where the letters are tilted to the right. It is used to emphasize important information or to make headings stand out in a table or spreadsheet.
 
 Keyboard shortcut: **Ctrl+I**.[^5]
 
@@ -68,6 +68,25 @@ Keyboard shortcut: **Ctrl+U**.[^5]
 - The strikethrough command is used to indicate that certain information is no longer relevant or has been deleted. It can also be used to show completed tasks in a table or spreadsheet.[^7]
 
 Keyboard shortcut: **Ctrl+5**.[^5]
+
+To apply a specific font in Excel on both Windows and the mobile app, follow these steps:
+
+### **On Windows (Excel Desktop App):**
+
+1. **Open Excel** and select the cell(s) where you want to apply the font.
+2. In the **Home** tab, locate the **Font** group.
+3. Click the **Font drop-down menu** to view available fonts.
+4. Select the desired **font** from the list.
+5. You can also adjust the **font size**, **bold**, **italic**, or **underline** from the same section if needed.
+
+### **On Mobile (Excel App):**
+
+1. **Open Excel** on your mobile device and open the spreadsheet.
+2. Select the cell(s) where you want to change the font.
+3. On your Android phone, you can expand the ribbon by tapping the edit icon (which is usually located in the top). You can collapse the ribbon by tapping the down arrow Down arrow. [read more ...](https://support.microsoft.com/en-gb/office/show-or-hide-the-ribbon-in-excel-for-mobile-devices-91175ba0-51fd-4256-93a1-69f5a23f27e6)
+4. Tap **Font** to open the font options.
+5. Choose the desired **font** from the list.
+6. You can also change the **font size**, **bold**, or **italic** here.
 
 ### Borders
 
