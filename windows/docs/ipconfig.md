@@ -45,19 +45,7 @@ ipconfig /renew
 
 Goal: Check if a new IP address has been assigned after running the command.
 
-
-5. Flush DNS Resolver Cache
-
-Task: Clear the DNS resolver cache to remove any old or incorrect DNS entries.
-
-Command:
-
-ipconfig /flushdns
-
-Goal: Confirm that the DNS cache has been successfully cleared.
-
-
-6. Display DNS Cache
+5. Display DNS Cache
 
 Task: View the current DNS resolver cache entries.
 
@@ -67,6 +55,15 @@ ipconfig /displaydns
 
 Goal: Analyze the cached DNS entries and understand which domains have been recently resolved.
 
+6. Flush DNS Resolver Cache
+
+Task: Clear the DNS resolver cache to remove any old or incorrect DNS entries.
+
+Command:
+
+ipconfig /flushdns
+
+Goal: Confirm that the DNS cache has been successfully cleared.
 
 7. Register DNS
 
@@ -79,19 +76,7 @@ ipconfig /registerdns
 Goal: Check if the computer's DNS name has been re-registered successfully and troubleshoot DNS issues.
 
 
-8. Release/Renew a Specific Adapter
-
-Task: Release and renew the IP address for a specific network adapter.
-
-Command:
-
-ipconfig /release "<Adapter Name>"
-ipconfig /renew "<Adapter Name>"
-
-Goal: Verify that only the specified adapter has its IP configuration changed.
-
-
-9. Check for Link-Local IPv6 Address
+8. Check for Link-Local IPv6 Address
 
 Task: Check for the link-local IPv6 address of your machine.
 

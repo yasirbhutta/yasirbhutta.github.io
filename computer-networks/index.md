@@ -23,11 +23,9 @@
   - [Slide](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
   - [Hands-on activity](../wireshark/index.md)
 
-
+## Windows 
 **Lab :** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
   - Hands-on activity: ping, ipconfig, nslookup
-
-## **Week 3:
 
 - **Lab 5:** Understanding Network Devices
   - Introduction to routers, switches, hubs, and modems.

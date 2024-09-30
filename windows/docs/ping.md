@@ -88,18 +88,7 @@ ping google.com -w 2000
 Goal: Measure how long the system waits for a reply and handle slow connections or timeouts.
 
 
-9. Ping a Host to Test IPv6 Connectivity
-
-Task: Ping a website or server using its IPv6 address (e.g., Google’s IPv6: ipv6.google.com).
-
-Command:
-
-ping ipv6.google.com
-
-Goal: Test IPv6 connectivity on your network and compare with IPv4 responses.
-
-
-10. Ping Multiple Hosts
+10.  Ping Multiple Hosts
 
 Task: Ping multiple hosts in quick succession (e.g., a router, a local device, and a website).
 
@@ -156,16 +145,5 @@ ping 1.1.1.1
 Goal: Determine if the issue is with internet access or local DNS resolution.
 
 
-15. Ping Broadcast Address
 
-Task: Ping a local broadcast address to send a ping to all devices on the local network (e.g., 192.168.1.255).
-
-Command:
-
-ping 192.168.1.255
-
-Goal: Understand how the broadcast ping works and identify devices that respond.
-
-
-By performing these tasks, you'll be able to explore various features of the ping command, test different network configurations, and troubleshoot connectivity issues in real-world scenarios.
 
