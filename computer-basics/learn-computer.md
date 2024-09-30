@@ -38,6 +38,9 @@
 31. Microsoft 365 Online
 32. Microsoft 365 Mobile App (Word, Excel, PowerPoint)
 33. Google Docs, Google Sheets and Google Slides
+34. Using Canva
+35. Using CapCut
+    
 
 ## Software and Applications Installing Software: Download and install programs from the internet
 34. Uninstalling Software: Remove unwanted programs from your computer.
@@ -49,8 +52,7 @@
 40. Using a Video Editor: Create and edit videos.
 41. Using a PDF Reader: View and print PDF documents.
 42. Using a Remote Desktop: Access your computer from another device.
-43. Using Github
-44. Using Visual Studio Code
+43. AnyDesk
     
 ## Troubleshooting and Maintenance
 1.  Troubleshooting Basic Issues: Resolve common problems like slow performance, crashes, and error messages.
@@ -63,8 +65,10 @@
 8.  Checking Disk Space: Monitor your hard drive space and manage files accordingly.
 9.  Managing Power Settings: Adjust power options to save battery life or improve performance.
 10. Using System Restore: Restore your computer to a previous state if something goes wrong.
+11. Windows Networking Commands
 
 ## Advanced Topics
+
 Creating a User Account: Set up additional user accounts on your computer.
  * Using the Command Prompt: Execute commands and tasks using the command line interface.
  * Customizing the Registry: Modify system settings by editing the registry (advanced users only).
@@ -75,6 +79,7 @@ Creating a User Account: Set up additional user accounts on your computer.
  * Scripting with PowerShell: Automate tasks using PowerShell scripts.
  * Troubleshooting Hardware Issues: Diagnose and fix hardware problems.
  * Data Recovery: Recover lost or deleted data.
+* 
 ## Additional Tasks (Optional)
  * Learning Programming: Explore programming languages like Python or C++.
  * Creating a Website: Design and build your own website.
@@ -86,6 +91,7 @@ Creating a User Account: Set up additional user accounts on your computer.
  * Using a Screen Magnifier: Enlarge the screen for users with low vision.
  * Using Speech Recognition: Control your computer with your voice.
  * Using a Text-to-Speech Converter: Convert text to audio.
+* 
 ## Additional Tasks (Depending on Your Interests)
  * Editing Photos and Videos: Learn advanced photo and video editing techniques.
  * Creating Music: Compose and produce music using digital audio workstations.
@@ -97,6 +103,10 @@ Creating a User Account: Set up additional user accounts on your computer.
  * Using Medical Imaging Software: Analyze medical images.
  * Using Legal Software: Manage legal documents and cases.
  * Using Accounting Software: Manage finances and accounting tasks.
+ * Using GitHUB
+ * Using Visual Studio Code
+ * Using Reptlit
+
 ## Additional Tasks (Based on Your Needs)
  * Setting Up a Home Network: Connect multiple devices to a shared internet connection.
  * Configuring a Router: Customize your router's settings to improve performance and security.
