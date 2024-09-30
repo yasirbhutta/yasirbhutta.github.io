@@ -1,5 +1,9 @@
 # Window Networking Commands: ipconfig
 
+- [Download PDF](https://yasirbhutta.github.io/windows/docs/ipconfig.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/windows/docs/ipconfig.html](https://yasirbhutta.github.io/windows/docs/ipconfig.html)
+
 Here are some practical tasks to help you get hands-on experience with the ipconfig command:
 
 1. Check Your IP Configuration

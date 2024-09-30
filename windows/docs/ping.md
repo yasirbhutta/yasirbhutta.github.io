@@ -1,5 +1,9 @@
 # Window Networking Commands: ping
 
+- [Download PDF](https://yasirbhutta.github.io/windows/docs/ping.pdf)  
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/windows/docs/ping.html](https://yasirbhutta.github.io/windows/docs/ping.html)
+
 1. Test Basic Connectivity to a Website
 
 Task: Test the network connectivity to a website (e.g., google.com).
