@@ -39,7 +39,7 @@
 32. Microsoft 365 Mobile App (Word, Excel, PowerPoint)
 33. Google Docs, Google Sheets and Google Slides
 
-## Software and ApplicationsInstalling Software: Download and install programs from the internet
+## Software and Applications Installing Software: Download and install programs from the internet
 34. Uninstalling Software: Remove unwanted programs from your computer.
 35. Updating Software: Keep your software up-to-date with the latest versions.
 36. Using Antivirus Software: Protect your computer from viruses and malware.
@@ -49,17 +49,20 @@
 40. Using a Video Editor: Create and edit videos.
 41. Using a PDF Reader: View and print PDF documents.
 42. Using a Remote Desktop: Access your computer from another device.
+43. Using Github
+44. Using Visual Studio Code
+    
 ## Troubleshooting and Maintenance
-42. Troubleshooting Basic Issues: Resolve common problems like slow performance, crashes, and error messages.
-43. Dealing with Viruses and Malware: Scan for and remove malicious software.
-44. Fixing Internet Connection Issues: Troubleshoot problems with your internet connection.
-45. Updating Windows: Install the latest Windows updates.
-46. Defragmenting Your Hard Drive: Optimize your hard drive performance.
-47. Cleaning Up Junk Files: Remove unnecessary files to free up space.
-48. Managing Startup Programs: Control which programs start automatically when you boot your computer.
-49. Checking Disk Space: Monitor your hard drive space and manage files accordingly.
-50. Managing Power Settings: Adjust power options to save battery life or improve performance.
-51. Using System Restore: Restore your computer to a previous state if something goes wrong.
+1.  Troubleshooting Basic Issues: Resolve common problems like slow performance, crashes, and error messages.
+2.  Dealing with Viruses and Malware: Scan for and remove malicious software.
+3.  Fixing Internet Connection Issues: Troubleshoot problems with your internet connection.
+4.  Updating Windows: Install the latest Windows updates.
+5.  Defragmenting Your Hard Drive: Optimize your hard drive performance.
+6.  Cleaning Up Junk Files: Remove unnecessary files to free up space.
+7.  Managing Startup Programs: Control which programs start automatically when you boot your computer.
+8.  Checking Disk Space: Monitor your hard drive space and manage files accordingly.
+9.  Managing Power Settings: Adjust power options to save battery life or improve performance.
+10. Using System Restore: Restore your computer to a previous state if something goes wrong.
 
 ## Advanced Topics
 Creating a User Account: Set up additional user accounts on your computer.
