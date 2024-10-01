@@ -39,7 +39,9 @@ square = 5 ** 2  # Exponentiation
 - Used to compare values and return a Boolean result (True or False).
 - Operators: `==` (equal to), `!=` (not equal to), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to)
 
-- Examples:
+[video: How to Use Comparision Operators in Python](https://youtu.be/esjtrurnl78)
+
+**Examples:**
 
 ```python
 is_equal = 7 == 7  # True
@@ -50,8 +52,7 @@ is_less_or_equal = 5 <= 5  # True
 **3. Assignment Operators:**
 
 - Used to assign values to variables.
-- Operators: `=` (simple assignment), `+=` (add and assign), `-=` (subtract and assign), `*=` (multiply and assign), `/=` (divide and assign), etc.
-
+- Operators: `=` 
 - Examples:
 
 ```python
@@ -134,8 +135,44 @@ x = 5
 y = 5
 result = x is y  # True (they refer to the same integer object)
 ```
+**Object Caching in Python: Understanding Memory Optimization for Small Integers**
 
-**Important:** In Python, small integers (typically between -5 and 256) are cached and reused. This means that when you assign x = 5 and y = 5, both variables reference the same integer object in memory. This behavior is part of Python's optimization to save memory and improve performance, as small integers are frequently used. [1]
+- In Python, small integer objects (typically between -5 and 256) are cached to optimize memory usage and performance. This means that if you create multiple variables with the same value within this range, they all point to the same memory location, instead of creating new objects each time. 
+- This behavior is part of Python's optimization to save memory and improve performance, as small integers are frequently used. [1]
+
+Here's an example to explain the concept:
+
+```python
+# Assigning variables within the cached range
+a = 100
+b = 100
+
+# Checking if the IDs are the same
+print(id(a))  # Outputs the memory address of 'a'
+print(id(b))  # Outputs the memory address of 'b'
+
+# Since both 'a' and 'b' are within the cached range, their IDs are the same
+print(a is b)  # True, as both refer to the same cached object
+
+# Assigning variables outside the cached range
+x = 300
+y = 300
+
+# Checking if the IDs are the same
+print(id(x))  # Outputs the memory address of 'x'
+print(id(y))  # Outputs the memory address of 'y'
+
+# Since 'x' and 'y' are outside the cached range, they are different objects
+print(x is y)  # False, as 'x' and 'y' refer to different objects
+```
+
+**Explanation:**
+
+1. **Cached Objects**: The values `a` and `b` are both set to `100`, which falls within the default cached range of small integers. As a result, Python uses the same memory location for both, which is why `id(a)` and `id(b)` are the same, and `a is b` returns `True`.
+
+2. **Non-Cached Objects**: The values `x` and `y` are both set to `300`, which is outside the cached range. Therefore, Python creates separate objects for each, and `id(x)` and `id(y)` are different, meaning `x is y` returns `False`.
+
+This caching behavior saves memory for frequently used small integers and makes the comparison of such objects faster.
 
 **6. Membership Operators:**
 
@@ -171,6 +208,7 @@ print(id(y))
 This code will print the unique identifiers for the variables `x` and `y`. If you have specific objects or variables in mind that you would like to see the `id` for, please let me know!
 
 **Python operators examples:**
+
 - [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
 
 
@@ -182,9 +220,9 @@ This code will print the unique identifiers for the variables `x` and `y`. If yo
 
 ## Multiple Choice (Select the best answer)
 
-1. **Arithmetic Operators:**
+### 1. **Arithmetic Operators:**
 
-**What is the output of the following Python code?** [Python Quiz #2](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
+1. **What is the output of the following Python code?** [Python Quiz #2](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
 
 ```python
 x = 10
@@ -204,7 +242,7 @@ print(x, y)
 
 **Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
 
-**What is the output of the following expression?** [Python Quiz #12](https://youtube.com/shorts/_cHsABqmmcM)
+2. **What is the output of the following expression?** [Python Quiz #12](https://youtube.com/shorts/_cHsABqmmcM)
 
 ```python
 2 ** 3 + 4 // 2 - 1
@@ -216,7 +254,7 @@ print(x, y)
 
 **Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
 
-**What is the output of the following expression?** [Python Quiz #24](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
+3. **What is the output of the following expression?** [Python Quiz #24](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
 
 ```python
 x = 10
@@ -231,7 +269,7 @@ print(x % y)
   
 **Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
 
-**What is the output of the following code?** [Python Quiz #33](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
+4. **What is the output of the following code?** [Python Quiz #33](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
 
 ```python
 print(11 % 3 == (11 - 3 * (11 // 3)))
@@ -243,7 +281,7 @@ print(11 % 3 == (11 - 3 * (11 // 3)))
 **Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
 
 
-**What will be the output of the following code?** [Python Quiz #61]
+5. **What will be the output of the following code?** [Python Quiz #61]
 
 ```python
 age = 25
@@ -259,9 +297,16 @@ print(message)
 
 **Watch video for the answer:** [https://youtu.be/Q2J1EEedb9E](https://youtu.be/Q2J1EEedb9E)
 
-1. **Comparison Operators:**
+6. **What is the output of 45 // 7?** [Python Quiz #62]
 
-**What is the output of the following Python code?** [Python Quiz #10](https://youtube.com/shorts/FRa0r4UxyXM)
+  - A) 5.0
+  - B) 6
+  - C) 5
+  - D) 6.428571428571429
+  
+### 2. **Comparison Operators:**
+
+7. **What is the output of the following Python code?** [Python Quiz #10](https://youtube.com/shorts/FRa0r4UxyXM)
 ```python
 x = 5
 y = 10
@@ -276,7 +321,18 @@ print(result)
 
 **Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
 
+8. **What is the output of the following PYTHON code?** [Python Quiz #82]
 
+```python
+flag = not (True and False)
+print(flag)
+```
+
+  - A) True
+  - B) False
+  - C) None
+  - D) Error
+  
 **3. Assignment Operators:**
 **4. Logical Operators:**
 **5. Identity Operators:**
@@ -318,12 +374,7 @@ b. Modulus
 c. Floor Division
 d. Addition
 
-**What is the output of 45 // 7?** [Python Quiz #62]
 
-  - A) 5.0
-  - B) 6
-  - C) 5
-  - D) 6.428571428571429
 
 Which operator adds a value to a variable?
 
@@ -353,17 +404,7 @@ Which operator returns True if both operands are True?
   - C) not
   - D) xor
 
-**What is the output of the following PYTHON code?** [Python Quiz #82]
 
-```python
-flag = not (True and False)
-print(flag)
-```
-
-  - A) True
-  - B) False
-  - C) None
-  - D) Error
 
 Which operator checks if a value is present in a sequence?
 a. in
