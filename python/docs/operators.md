@@ -1,5 +1,10 @@
 # Python: Operators
 
+Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+
+- [Download PDF](https://yasirbhutta.github.io/python/docs/operators.html)  
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/python/docs/operators.html]([../yasirbhutta.github.io/index.md](https://yasirbhutta.github.io/python/docs/operators.html))
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
