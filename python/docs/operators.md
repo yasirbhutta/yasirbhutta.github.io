@@ -350,16 +350,17 @@ Answer: D
   
 What is the difference between == and = in Python?
 
-a) == is the comparison operator, = is the assignment operator
-b) == is the assignment operator, = is the comparison operator
-c) They are the same operator
-d) There is no difference
+  - A) == is the comparison operator, = is the assignment operator
+  - B) == is the assignment operator, = is the comparison operator
+  - C) They are the same operator
+  - D) There is no difference
 
-Which operator is used to raise a number to a power?
-a. **
-b. ^
-c. pow()
-d. ** and ^ are both correct
+**Which operator is used to raise a number to a power?**
+
+  - A) **
+  - B) ^
+  - C) pow()
+  - D) ** and ^ are both correct
 
 **What is the result of the expression 3 + 5 * 2 in Python?** [Python Quiz #63]
 
@@ -368,51 +369,41 @@ d. ** and ^ are both correct
   - C) 11
   - D) 26
 
-What is the purpose of the % operator in Python?
-a. Exponential
-b. Modulus
-c. Floor Division
-d. Addition
+**What is the purpose of the % operator in Python?**
+  - A) Exponential
+  - B) Modulus
+  - C) Floor Division
+  - D) Addition
 
-
-
-Which operator adds a value to a variable?
+**Which operator adds a value to a variable?**
 
   - A) +=
   - B) -=
   - C) *=
   - D) /=
 
-What is the output of x = 10; x //= 3?
+**What is the output of x = 10; x //= 3?**
 
   - A) 3
   - B) 3.33
   - C) 3.5
   - D) 4
 
-Which operator checks if two values are greater than or equal to each other?
 
-  - A) >
-  - B) <=
-  - C) >=
-  - D) <
-
-Which operator returns True if both operands are True?
+**Which operator returns True if both operands are True?**
 
   - A) and
-  - B) or
+  - B) ror
   - C) not
   - D) xor
 
+**Which operator checks if a value is present in a sequence?**
+  - A) in
+  - B) not in
+  - C) Both in and not in
+  - D) None of the above
 
-
-Which operator checks if a value is present in a sequence?
-a. in
-b. not in
-c. Both in and not in
-d. None of the above
-
-### 1. **What is the output of the following PYTHON Code?** [Python Quiz #83]
+**What is the output of the following PYTHON Code?** [Python Quiz #83]
   ```python
   num = 4
   result = num in [1, 3, 4]
@@ -423,7 +414,7 @@ d. None of the above
     - C) `None`  
     - D) `Error`
 
-### 3. **What will be the output of the following PYTHON Code?** [Python Quiz #84]
+**What will be the output of the following PYTHON Code?** [Python Quiz #84]
 
 ```python
 str = 'x'
@@ -435,12 +426,12 @@ print(result)
   - C) `'x'`  
   - D) `Error`
 
-Which operator checks if two objects refer to the same memory location?
+**Which operator checks if two objects refer to the same memory location?**
 
-- A) ==
-- B) is
-- C) is not
-- D) Both is and is not
+  - A) ==
+  - B) is
+  - C) in 
+  - D) Both is and in
 
 **What will be the output of the following PYTHON Code?** [Python Quiz #85]
 ```python
@@ -452,14 +443,6 @@ x = [1, 2]; y = x; print(x is y)
   - C) [1, 2]
   - D) Error
 
-**Which of these operators can be used to perform bitwise operations on integers in Python? 
-  - A) & | ^ ~ << >> 
-  - B) && || ! << >> 
-  - C) * / % ** // 
-  - D) + - * /
-
-Answer: a) & | ^ ~ << >>
-
 **What is the correct way to use the exponentiation operator in Python?**
 
   - A) x ^ y 
@@ -467,7 +450,7 @@ Answer: a) & | ^ ~ << >>
   - C) pow(x, y)
   - D) either b or c
 
-Answer: d) either b or c
+Answer: B) either b or c
 
 
 **In Python, What is the output of this code?** [Python Quiz #86]
