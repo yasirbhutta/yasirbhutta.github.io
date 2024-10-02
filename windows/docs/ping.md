@@ -10,7 +10,9 @@ Task: Test the network connectivity to a website (e.g., google.com).
 
 Command:
 
+```cmd
 ping google.com
+```
 
 Goal: Check if the website is reachable and measure the round-trip time (RTT) for packets.
 
@@ -23,6 +25,10 @@ Command:
 
 ping <IP address>
 
+```cmd
+ping 8.8.8.8
+```
+
 Goal: Verify if the device is reachable using its IP address.
 
 
@@ -32,7 +38,9 @@ Task: Continuously ping a server or website until manually stopped (useful for m
 
 Command:
 
+```cmd
 ping -t google.com
+```
 
 Goal: Observe the connection stability over a longer period and cancel the test with Ctrl + C.
 
@@ -43,7 +51,9 @@ Task: Ping a server but limit the number of echo requests sent (e.g., only 5 pin
 
 Command:
 
+```cmd
 ping -n 5 google.com
+```
 
 Goal: Send a specific number of packets and measure the average round-trip time.
 
@@ -65,10 +75,11 @@ Task: Ping a public DNS server (e.g., Google DNS: 8.8.8.8).
 
 Command:
 
+```cmd
 ping 8.8.8.8
+```
 
 Goal: Verify that you can reach a reliable DNS server, helping to identify DNS resolution issues.
-
 
 7. Ping Using a Specific Packet Size
 
@@ -76,7 +87,9 @@ Task: Ping a host with a custom packet size (e.g., 100 bytes).
 
 Command:
 
+```cmd
 ping google.com -l 100
+```
 
 Goal: Send larger or smaller packets and observe how the packet size affects network performance or connectivity.
 
@@ -87,7 +100,9 @@ Task: Ping a server but set a timeout for each reply (e.g., 2000 ms or 2 seconds
 
 Command:
 
+```cmd
 ping google.com -w 2000
+```
 
 Goal: Measure how long the system waits for a reply and handle slow connections or timeouts.
 
@@ -98,9 +113,11 @@ Task: Ping multiple hosts in quick succession (e.g., a router, a local device, a
 
 Command:
 
+```cmd
 ping <Router IP>
 ping <Local Device IP>
 ping google.com
+```
 
 Goal: Test the connection to various devices and identify where connectivity issues might lie (e.g., LAN vs. WAN).
 
@@ -111,7 +128,9 @@ Task: Save the results of a ping test to a text file for later analysis.
 
 Command:
 
+```cmd
 ping google.com > ping_results.txt
+```
 
 Goal: Review the saved results and analyze the RTT or error messages.
 
@@ -122,10 +141,11 @@ Task: Ping a network printer’s IP address to check if it’s reachable.
 
 Command:
 
+```cmd
 ping <Printer IP address>
+```
 
 Goal: Verify that the printer is online and reachable over the network.
-
 
 13. Test Network Connection to Another Computer
 
@@ -133,10 +153,11 @@ Task: Ping another computer on your local network (e.g., using its IP address or
 
 Command:
 
+```cmd
 ping <Computer IP address> or ping <Computer hostname>
+```
 
 Goal: Test LAN connectivity and troubleshoot issues if the other machine is unreachable.
-
 
 14. Ping an External IP to Test Internet Connectivity
 
@@ -144,10 +165,8 @@ Task: Ping an external IP address to check if your machine has internet access (
 
 Command:
 
+```cmd
 ping 1.1.1.1
+```
 
 Goal: Determine if the issue is with internet access or local DNS resolution.
-
-
-
-

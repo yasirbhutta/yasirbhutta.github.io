@@ -23,6 +23,10 @@
 
 ### **Week 3: Windows - User Accounts and File Permissions**
 
+**Lab:** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
+  - Hands-on activity: ping, ipconfig
+**Lab:** [Finding Your Public IP Address](../computer-networks/docs/ip-address.md)
+
 ### **Week 4: Linux - User and Group Management**
 
 1. **Practical 1: User Management**  

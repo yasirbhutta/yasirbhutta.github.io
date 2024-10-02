@@ -6,7 +6,7 @@
   - Activiation of accounts: University email, eduroam, Microsoft 365
   - Join Class in Microsoft Teams
   
-## **Week 1: Introduction to Computer Networks**
+## **Cisco Packet Tracker**
 
 - **Lab 1:** Installation of Cisco Packet Tracker
   
@@ -14,7 +14,7 @@
   - Overview of computer networks, protocols, and topologies.
   - [Hands-on activity](docs/lab1.md): Identify star of network topology using network simulation tools (cisco packet tracer)
 
-## **Week 2:
+## Wireshare
 
   - **Lab 3:** Installation Wireshark and understanding of Interface
     - [Download Wireshark](https://www.wireshark.org/download.html)
@@ -25,9 +25,11 @@
 
 ## Windows 
 **Lab :** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
-  - Hands-on activity: ping, ipconfig, nslookup
+  - Hands-on activity: ping, ipconfig
+**Lab:** [Finding Your Public IP Address](docs/ip-address.md)
 
 - **Lab 5:** Understanding Network Devices
   - Introduction to routers, switches, hubs, and modems.
   - [Hands-on activity](docs/lab2.md): Configure basic settings on a router and switch using cisco packet tracker
+
 

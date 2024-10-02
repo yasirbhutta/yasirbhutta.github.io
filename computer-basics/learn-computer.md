@@ -44,6 +44,7 @@
 37. Screen recorder (FreeCam, Loom: Free screen recorder for Mac and PC)  
 
 ## Software and Applications Installing Software: Download and install programs from the internet
+
 34. Uninstalling Software: Remove unwanted programs from your computer.
 35. Updating Software: Keep your software up-to-date with the latest versions.
 36. Using Antivirus Software: Protect your computer from viruses and malware.
