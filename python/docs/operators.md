@@ -477,6 +477,37 @@ print(x, y)
 
 ## Exercises
 
+Here are some practical exercises for practicing Python operators for beginners:
+
+### 1. Arithmetic Operators
+1. Write a program to calculate the area and perimeter of a rectangle. Take the length and width as input.
+2. Create a program that converts temperature from Celsius to Fahrenheit using the formula: `(Celsius * 9/5) + 32`.
+3. Write a program that takes two numbers and prints their sum, difference, product, and quotient.
+
+### 2. Comparison Operators
+1. Write a program that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number.
+2. Create a simple age-checker program that asks for a user’s age and checks if the user is older than 18.
+
+### 3. Logical Operators
+1. Write a program to check if a number is divisible by both 2 and 3.
+2. Create a program that takes the age and country of a person as input, and prints if the person can vote in that country (consider voting age as 18 and country as "USA").
+
+### 4. Assignment Operators
+1. Write a program that initializes a variable with a value and then uses the `+=`, `-=`, `*=`, and `/=` operators to modify its value and print the result each time.
+2. Create a program where you keep track of a user’s points (starting at 0). Add points based on specific user actions and subtract points for incorrect actions.
+
+### 5. Bitwise Operators
+1. Write a program that takes two numbers as input and prints their bitwise AND, OR, and XOR.
+2. Use the left shift operator (`<<`) to multiply a number by 4 and the right shift operator (`>>`) to divide a number by 2.
+
+### 6. Identity and Membership Operators
+1. Write a program that checks if two variables point to the same object using the `is` operator.
+2. Create a list of fruits and write a program that checks if "apple" is in the list using the `in` operator.
+
+### 7. Practical Mini-Project
+1. **Shopping Cart**: Create a shopping cart program. Initialize a total cost as 0. Add the cost of items using `+=` as items are added. Print the total cost when all items have been added.
+2. **Odd or Even Checker**: Write a program that takes a number and uses the modulo operator (`%`) to check if it is even or odd.
+
 ## Review Questions
 
 ## References and Bibliography
