@@ -40,7 +40,7 @@
 33. Google Docs, Google Sheets and Google Slides
 34. Using Canva
 35. Using CapCut
-36. Using Snipping Tool (windows)
+36. Using [Snipping Tool](../tools/docs/snipping-tool.md) (windows)
 37. Using [LightShot](../tools/docs/lightshot.md) - The fastest way to take a customizable screenshot
 38. Screen recorder (FreeCam, Loom: Free screen recorder for Mac and PC)  
 
