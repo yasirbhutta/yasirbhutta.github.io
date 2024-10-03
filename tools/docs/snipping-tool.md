@@ -2,9 +2,9 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](#)
+- [Download PDF](https://yasirbhutta.github.io/tools/docs/snipping-tool.pdf)
 - To access the updated handouts, please click on the following link:
-[#](#)
+[https://yasirbhutta.github.io/tools/docs/snipping-tool.html](https://yasirbhutta.github.io/tools/docs/snipping-tool.html)
 
 The Snipping Tool in Windows is useful for capturing screenshots of your desktop or specific windows. Here are some practical tasks you can perform with it:
 
