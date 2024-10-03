@@ -8,10 +8,15 @@ Task: Trace the route packets take to reach a popular website (e.g., google.com)
 
 Command:
 
+```cmd
 tracert google.com
+```
+
+```cmd
+tracert gulms.live
+```
 
 Goal: Observe all the intermediate hops between your computer and the destination, including their IP addresses and response times.
-
 
 2. Trace the Route to an IP Address
 
@@ -19,7 +24,13 @@ Task: Trace the route to a specific IP address (e.g., a known server or local de
 
 Command:
 
+```cmd
 tracert <IP address>
+```
+
+```cmd
+tracert 121.52.151.36
+```
 
 Goal: Understand the path that data takes to reach a specific IP address and troubleshoot connectivity issues.
 

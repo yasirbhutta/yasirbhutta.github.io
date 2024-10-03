@@ -38,8 +38,6 @@ Usage:
 
 tracert <hostname> or tracert <IP address>
 
-
-
 4. [nslookup](nslookup.md)
 
 Queries DNS to obtain the domain name or IP address mapping.
