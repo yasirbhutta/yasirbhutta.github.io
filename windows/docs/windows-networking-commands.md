@@ -38,6 +38,8 @@ Usage:
 
 tracert <hostname> or tracert <IP address>
 
+[tracert command tasks](tracert.md)
+
 4. [nslookup](nslookup.md)
 
 Queries DNS to obtain the domain name or IP address mapping.
@@ -48,7 +50,7 @@ nslookup <hostname>: Displays IP address related to the domain.
 
 nslookup <IP address>: Displays domain related to the IP address.
 
-
+[nslookup command tasks](nslookup.md)
 
 5. netstat
 
