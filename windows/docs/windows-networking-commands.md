@@ -52,12 +52,25 @@ nslookup <IP address>: Displays domain related to the IP address.
 
 [nslookup command tasks](nslookup.md)
 
+**'/?' Parameter**
+
+In Windows commands, the `/?` parameter is commonly used to display help information for a command.
+
+For example, if you use:
+
+```cmd
+nslookup /?
+```
+
+It will display a list of all available options and syntax details for the `nslookup` command. This command is used to query Internet domain name servers and to obtain details such as IP addresses or DNS records. The `/?` parameter is helpful if you want to understand how to use the command and what arguments it accepts.
+
 5. netstat
 
 Displays network statistics, connections, and routing tables.
 
 Common options:
 
+```cmd
 netstat -a: Shows all active connections and listening ports.
 
 netstat -n: Shows connections in numerical format.
@@ -65,8 +78,7 @@ netstat -n: Shows connections in numerical format.
 netstat -r: Displays the routing table.
 
 netstat -s: Displays statistics by protocol.
-
-
+```
 
 6. arp
 
@@ -91,7 +103,6 @@ route print: Displays the routing table.
 route add <destination> mask <subnet> <gateway>: Adds a new static route.
 
 route delete <destination>: Deletes a route.
-
 
 
 8. netsh
