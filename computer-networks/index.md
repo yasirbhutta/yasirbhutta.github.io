@@ -28,7 +28,7 @@
   - **Lab 1:** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
     - Hands-on activity: ping, ipconfig
   **Lab 2:** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
-    - Hands-on activity: [nslookup](../windows/docs/nslookup.md)
+    - Hands-on activity: [nslookup](../windows/docs/nslookup.md), [tracert](../windows/docs/tracert.md)
   **Lab: 3** [Finding Your Public IP Address](docs/ip-address.md)
 
 - **Lab 3:** Understanding Network Devices
