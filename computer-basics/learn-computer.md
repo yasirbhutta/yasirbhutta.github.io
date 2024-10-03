@@ -41,8 +41,10 @@
 34. Using Canva
 35. Using CapCut
 36. Using Snipping Tool (windows)
-37. Using LightShot - The fastest way to take a customizable screenshot
+37. Using [LightShot](../tools/docs/lightshot.md) - The fastest way to take a customizable screenshot
 38. Screen recorder (FreeCam, Loom: Free screen recorder for Mac and PC)  
+
+## AI Tools
 
 ## Software and Applications Installing Software: Download and install programs from the internet
 
