@@ -1,5 +1,9 @@
 # Window Networking Commands: tracert
 
+- [Download PDF](https://yasirbhutta.github.io/windows/docs/tracert.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/windows/docs/tracert.html](https://yasirbhutta.github.io/windows/docs/tracert.html)
+
 Here are some practical tasks to help you understand and apply the tracert (trace route) command in Windows:
 
 1. Trace the Route to a Website
