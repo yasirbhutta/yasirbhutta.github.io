@@ -20,12 +20,12 @@
     - [Download Wireshark](https://www.wireshark.org/download.html)
     
   - **Lab 2:** Use of Wireshark
-  - [Slide](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
-  - [Hands-on activity](../wireshark/index.md)
+    - [Slide](https://docs.google.com/presentation/d/1PWYQeexSVzhcojhwRGEE1KmCbaaxpI_5/edit?usp=sharing&ouid=116725516174528542982&rtpof=true&sd=true)
+    - [Hands-on activity](../wireshark/index.md)
 
 ## Windows 
   - **Lab 1:** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
-    - Hands-on activity: ping, ipconfig
+    - Hands-on activity: [ping](../windows/docs/ping.md), [ipconfig](../windows/docs/ipconfig.md)
   
   **Lab 2:** [Windows Networking Commands](../windows/docs/windows-networking-commands.md)
     - Hands-on activity: [nslookup](../windows/docs/nslookup.md), [tracert](../windows/docs/tracert.md)
