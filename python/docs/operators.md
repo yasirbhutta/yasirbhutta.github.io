@@ -493,8 +493,39 @@ Here are some practical exercises for practicing Python operators for beginners:
 2. Create a program that takes the age and country of a person as input, and prints if the person can vote in that country (consider voting age as 18 and country as "USA").
 
 ### 4. Assignment Operators
-1. Write a program that initializes a variable with a value and then uses the `+=`, `-=`, `*=`, and `/=` operators to modify its value and print the result each time.
-2. Create a program where you keep track of a user’s points (starting at 0). Add points based on specific user actions and subtract points for incorrect actions.
+
+### Exercise 1: Basic Assignment
+**Task**: Assign the value `10` to the variable `a` and print the value of `a`.
+
+### Exercise 2: Compound Assignment with Addition (`+=`)
+**Task**: 
+1. Assign the value `15` to a variable `x`.
+2. Use the `+=` operator to add `5` to `x`.
+3. Print the new value of `x`.
+
+### Exercise 3: Compound Assignment with Subtraction (`-=`)
+**Task**: 
+1. Assign the value `20` to a variable `y`.
+2. Use the `-=` operator to subtract `7` from `y`.
+3. Print the new value of `y`.
+
+### Exercise 4: Modulus Assignment (`%=`)
+**Task**: 
+1. Assign `13` to a variable `m`.
+2. Use the `%=` operator to assign the remainder when `m` is divided by `5`.
+3. Print the result.
+
+### Exercise 5: Swap Variables Using Assignment Operators
+**Task**: Swap the values of two variables `a = 10` and `b = 20` without using a third variable or tuple assignment.
+
+### Exercise 6: Complex Assignment Expression
+**Task**: 
+1. Create three variables: `a = 4`, `b = 5`, and `c = 6`.
+2. Use a single line with assignment operators to update the values of all three variables, such that:
+   - `a` is multiplied by `2`.
+   - `b` is increased by `10`.
+   - `c` is divided by `3`.
+3. Print the values of all three variables.
 
 ### 5. Bitwise Operators
 1. Write a program that takes two numbers as input and prints their bitwise AND, OR, and XOR.
