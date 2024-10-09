@@ -209,16 +209,3 @@ netstat -an > netstat_output.txt
 Goal: Generate a log of active connections that can be shared or analyzed later.
 
 
-20. Detect Suspicious Connections
-
-Task: Investigate potential malware or unauthorized network connections by inspecting unknown IP addresses or ports.
-
-Command:
-
-netstat -an | findstr "SYN_SENT"
-
-Goal: Check for suspicious or unusual network activity on your machine, such as outbound connections to unknown hosts.
-
-
-By practicing these tasks, you’ll gain deeper insight into how your system handles network connections, identify potential issues, and better understand how network traffic is routed and managed on your Windows machine.
-

@@ -79,6 +79,7 @@ netstat -r: Displays the routing table.
 
 netstat -s: Displays statistics by protocol.
 ```
+[netstat command tasks](netstat.md)
 
 6. arp
 
