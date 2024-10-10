@@ -61,6 +61,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Exercises
 
+1. Skill Level Categories
+Define clear categories based on skill levels, such as:
+
+Beginner: Basic concepts and syntax.
+Intermediate: More complex problems involving data structures and algorithms.
+Advanced: Challenging problems that require in-depth understanding and optimization.
+
 ## Review Questions
 
 ## References and Bibliography

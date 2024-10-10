@@ -389,7 +389,6 @@ What is the difference between == and = in Python?
   - C) 3.5
   - D) 4
 
-
 **Which operator returns True if both operands are True?**
 
   - A) and
@@ -475,50 +474,69 @@ print(x, y)
 
 **Answer Key (Fill in the Blanks):**
 
-## Exercises
+## Coding Exercises
 
-Here are some practical exercises for practicing Python operators for beginners:
+### Beginner Exercises
 
-### 1. Arithmetic Operators
-1. Write a program to calculate the area and perimeter of a rectangle. Take the length and width as input.
-2. Create a program that converts temperature from Celsius to Fahrenheit using the formula: `(Celsius * 9/5) + 32`.
-3. Write a program that takes two numbers and prints their sum, difference, product, and quotient.
+### Exercise #1: Rectangle Area and Perimeter Calculation
 
-### 2. Comparison Operators
-1. Write a program that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number.
-2. Create a simple age-checker program that asks for a user’s age and checks if the user is older than 18.
+**Task:** Write a program to calculate the area and perimeter of a rectangle.
 
-### 3. Logical Operators
-1. Write a program to check if a number is divisible by both 2 and 3.
-2. Create a program that takes the age and country of a person as input, and prints if the person can vote in that country (consider voting age as 18 and country as "USA").
+**Input:**
+- A floating-point number `length`, representing the length of the rectangle.
+- A floating-point number `width`, representing the width of the rectangle.
 
-### 4. Assignment Operators
+**Output:**
+- Print the area of the rectangle.
+- Print the perimeter of the rectangle.
 
-### Exercise 1: Basic Assignment
+**Example:**
+
+- **Input:**  
+  `length = 5.0`  
+  `width = 3.0`  
+- **Output:**  
+  `Area: 15.0`  
+  `Perimeter: 16.0`  
+
+- **Input:**  
+  `length = 7.5`  
+  `width = 2.5`  
+- **Output:**  
+  `Area: 18.75`  
+  `Perimeter: 20.0`  
+
+#### Exercise 2: Converts temperature from Celsius to Fahrenheit
+**Task:** Create a program that converts temperature from Celsius to Fahrenheit using the formula: `(Celsius * 9/5) + 32`.
+
+#### Exercise 3: Calculating Sum, Difference, Product, and Quotient
+**Task:** Write a program that takes two numbers and prints their sum, difference, product, and quotient.
+
+#### Exercise 4: Basic Assignment
 **Task**: Assign the value `10` to the variable `a` and print the value of `a`.
 
-### Exercise 2: Compound Assignment with Addition (`+=`)
+#### Exercise 5: Compound Assignment with Addition (`+=`) 
 **Task**: 
 1. Assign the value `15` to a variable `x`.
 2. Use the `+=` operator to add `5` to `x`.
 3. Print the new value of `x`.
 
-### Exercise 3: Compound Assignment with Subtraction (`-=`)
+#### Exercise 6: Compound Assignment with Subtraction (`-=`) [Easy]
 **Task**: 
 1. Assign the value `20` to a variable `y`.
 2. Use the `-=` operator to subtract `7` from `y`.
 3. Print the new value of `y`.
 
-### Exercise 4: Modulus Assignment (`%=`)
+#### Exercise 7: Modulus Assignment (`%=`)
 **Task**: 
 1. Assign `13` to a variable `m`.
 2. Use the `%=` operator to assign the remainder when `m` is divided by `5`.
 3. Print the result.
 
-### Exercise 5: Swap Variables Using Assignment Operators
+#### Exercise 8: Swap Variables Using Assignment Operators [Easy]
 **Task**: Swap the values of two variables `a = 10` and `b = 20` without using a third variable or tuple assignment.
 
-### Exercise 6: Complex Assignment Expression
+#### Exercise 9: Complex Assignment Expression
 **Task**: 
 1. Create three variables: `a = 4`, `b = 5`, and `c = 6`.
 2. Use a single line with assignment operators to update the values of all three variables, such that:
@@ -527,15 +545,22 @@ Here are some practical exercises for practicing Python operators for beginners:
    - `c` is divided by `3`.
 3. Print the values of all three variables.
 
-### 5. Bitwise Operators
+#### Exercise 10:
+**Task:** Write a program that checks if two variables point to the same object using the `is` operator.
+
+#### Exercise 11:
+**Task:** Create a list of fruits and write a program that checks if "apple" is in the list using the `in` operator.
+      
+### Intermediate Exercises
+
+**Bitwise Operators**
+
 1. Write a program that takes two numbers as input and prints their bitwise AND, OR, and XOR.
 2. Use the left shift operator (`<<`) to multiply a number by 4 and the right shift operator (`>>`) to divide a number by 2.
+   
+### Advanced Exercises
 
-### 6. Identity and Membership Operators
-1. Write a program that checks if two variables point to the same object using the `is` operator.
-2. Create a list of fruits and write a program that checks if "apple" is in the list using the `in` operator.
-
-### 7. Practical Mini-Project
+### Practical Mini-Project
 1. **Shopping Cart**: Create a shopping cart program. Initialize a total cost as 0. Add the cost of items using `+=` as items are added. Print the total cost when all items have been added.
 2. **Odd or Even Checker**: Write a program that takes a number and uses the modulo operator (`%`) to check if it is even or odd.
 
