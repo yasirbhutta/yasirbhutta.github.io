@@ -13,7 +13,7 @@
   - Overview of computer networks, protocols, and topologies.
   - [Hands-on activity](docs/lab1.md): Identify star of network topology using network simulation tools (cisco packet tracer)
   
-- **Lab 3:** How to configure DHCP server in Packet Tracer
+- **Lab 3:** [How to configure DHCP server in Packet Tracer](../tools/docs/cisco-packet-tracer.md) 
 
 ## Wireshare
   - **Lab 1:** Installation Wireshark and understanding of Interface
