@@ -6,6 +6,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated lecture notes, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/functions.html](https://yasirbhutta.github.io/python/docs/functions.html)
 
+**🎥 YouTube Playlists to Learn Python:**
+
+- [🔗 Python Tutorials for Beginners](https://youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [🔗 Python Code Challenges | Quiz](https://www.youtube.com/playlist?list=PLKYRx0Ibk7VjyzKhi5vH35GQKQl_TnWOn)
+- [🔗 Python Exercises](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vh9nG-GwBzsjP5TfOCjv1LH)
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
@@ -231,7 +236,7 @@ print(myfunction (13) or myfunction (8))
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/laKpsLlq60I](https://youtu.be/laKpsLlq60I)
 
-### 7. **What is the output of the following code?** [Python Quiz #88]
+### 7. **What is the output of the following code?** [Python Quiz #88](https://youtu.be/1v9gvCXqnD0)
 
   ```python
   def greet(name="User"):
@@ -243,7 +248,8 @@ print(myfunction (13) or myfunction (8))
     C) `Hello`  
     D) `Error`  
 
-### 17. **What is the output of the following code?** [Python Quiz #89]
+### 17. **What is the output of the following code?** [Python Quiz #89](https://youtu.be/VzjZoeQf4KU)
+
 ```python
 def my_function():
   pass
