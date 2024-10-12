@@ -236,6 +236,115 @@ else:
 **Example #:**
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
+
+### Coding Exercises
+
+#### Exercise 1:
+
+**Task:**  
+Write a program that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number.
+
+**Input:**
+```
+Enter the first number: 10
+Enter the second number: 5
+```
+
+**Sample Output:**
+```
+10 is greater than 5
+```
+
+**Another Sample Input:**
+```
+Enter the first number: 4
+Enter the second number: 4
+```
+
+**Output:**
+```
+4 is equal to 4
+```
+
+### Exercise 2: Age Checker
+
+**Task:** Write a simple program that asks for the user’s age and checks if the user is older than 18.
+
+**Sample Input:**
+```
+Enter your age: 20
+```
+
+**Sample Output:**
+```
+You are older than 18.
+```
+
+**Another Sample Input:**
+```
+Enter your age: 16
+```
+
+**Output:**
+```
+You are younger than 18.
+```
+
+#### Exercise 3: Divisibility Check
+
+**Task:** Write a program that checks if a given number is divisible by both 2 and 3.
+
+**Input:**
+- A single integer, `n`.
+
+**Output:**
+- Print "Yes" if the number is divisible by both 2 and 3.
+- Print "No" otherwise.
+
+**Example:**
+
+- **Input:**  
+  `6`  
+- **Output:**  
+  `Yes`  
+
+- **Input:**  
+  `10`  
+- **Output:**  
+  `No`  
+
+### Exercise 4: Voting Eligibility Check
+
+**Task:** Create a program that takes the age and country of a person as input and checks if they are eligible to vote in that country (consider the voting age as 18 and the country as "USA").
+
+**Input:**
+- An integer `age`, representing the person's age.
+- A string `country`, representing the person's country.
+
+**Output:**
+- Print "Eligible to vote" if the person is 18 years or older and from the USA.
+- Print "Not eligible to vote" otherwise.
+
+**Example:**
+
+- **Input:**  
+  `age = 20`  
+  `country = USA`  
+- **Output:**  
+  `Eligible to vote`  
+
+- **Input:**  
+  `age = 17`  
+  `country = USA`  
+- **Output:**  
+  `Not eligible to vote`  
+
+- **Input:**  
+  `age = 25`  
+  `country = Canada`  
+- **Output:**  
+  `Not eligible to vote`  
+
   
 ## loops
 
