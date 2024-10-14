@@ -440,6 +440,43 @@ Question: Write a python program to calculate the sum of the first N natural num
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
+
+**Task: Display Even Numbers in a Range**
+
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and displays all the even numbers between the two values (inclusive) using a `for` loop.
+
+### Input:
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+### Output:
+- The program should display all the even numbers in the range in ascending order, one number per line.
+
+### Example:
+
+**Input:**
+```
+Enter the start of the range: 2
+Enter the end of the range: 10
+```
+
+**Output:**
+```
+2
+4
+6
+8
+10
+```
+
+### Requirements:
+- Use a `for` loop to iterate through the range.
+- Check if a number is even using the modulus (`%`) operator.
+  
+
 **Example #4:** Print Even Numbers from 2 to 10 and sum of even numbers
 
 **Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
@@ -452,6 +489,49 @@ for i in range(2,11):
         print(i)
 print(f"Sum of even numbers: {sum}")
 ```
+
+**Task: Display Multiplication Tables**
+
+**Description:**
+
+Write a Python program that asks the user to input a number and displays its multiplication table up to 10 using a `for` loop.
+
+### Input:
+- The program should prompt the user to enter an integer value.
+
+### Output:
+- The program should display the multiplication table for the entered number in the following format:
+
+```
+n x 1 = n
+n x 2 = 2n
+...
+n x 10 = 10n
+```
+
+### Example:
+
+**Input:**
+```
+Enter a number: 5
+```
+
+**Output:**
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
+
+### Requirements:
+- Use a `for` loop to generate and display the multiplication table.
 
 **Example #5:** [video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
 
