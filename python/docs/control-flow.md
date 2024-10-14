@@ -440,9 +440,9 @@ Question: Write a python program to calculate the sum of the first N natural num
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
-**Example #4:** Print Even Numbers from 2 to 10
+**Example #4:** Print Even Numbers from 2 to 10 and sum of even numbers
 
-**Question:** Write a Python program to display the even numbers from 2 to 10, inclusive, using a for loop.
+**Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
 
 ```python
 sum = 0

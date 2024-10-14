@@ -215,6 +215,62 @@ If you prefer to use the router as your DHCP server instead of a dedicated serve
 
 Configuring a DHCP server in Packet Tracer simplifies network management by automating IP address assignments. Whether you choose to use a dedicated server or configure the router to handle DHCP duties, the process involves setting up the DHCP pool parameters and ensuring clients are set to receive IP addresses automatically. By following the steps outlined above, you can efficiently set up and verify a DHCP server in your simulated network environment.
 
+## How to configure DNS server in Packet Tracer
+
+To configure a DNS server in Cisco Packet Tracer, follow these steps:
+
+### Step 1: Add Devices
+1. **Add a DNS Server**: Drag a server from the network devices list and place it on the workspace.
+2. **Add a PC**: Drag a PC to the workspace.
+3. **Add a Router and Switch**: Add a router and a switch to connect the DNS server and the PC.
+
+### Step 2: Connect the Devices
+1. **Connect the devices** using the appropriate cables (copper straight-through or crossover, depending on the type of connection).
+2. Make sure the server, PC, and router are all connected through the switch.
+
+### Step 3: Assign IP Addresses
+1. **Assign IP addresses** to each device manually or use DHCP for automatic IP assignment.
+
+   - **DNS Server**: 
+     - Click on the DNS Server.
+     - Go to the **Desktop tab**, click on **IP Configuration**, and assign a static IP address (e.g., 192.168.1.2).
+   
+   - **PC**: 
+     - Click on the PC.
+     - Go to the **Desktop tab**, click on **IP Configuration**, and assign an IP address (e.g., 192.168.1.3) with the appropriate subnet mask and default gateway (e.g., 192.168.1.1 for the router).
+
+### Step 4: Configure DNS Server
+1. **Click on the DNS Server**.
+2. Go to the **Services tab** and select **DNS**.
+3. **Turn on the DNS service** by clicking the **ON** button.
+4. **Add DNS records**:
+- **Record #1:**
+   - Enter the domain name (e.g., `www.example.com`).
+   - Enter the corresponding IP address (e.g., 192.168.1.3).
+   - Click on **Add** to add the `A Record`.
+ - **Record #2:**
+   - Enter the domain name (e.g., `gudgk.edu.pk`).
+   - Enter the corresponding IP address (e.g., 192.168.1.8).
+   - Click on **Add** to add the `A Record`.
+
+### Step 5: Configure PC to Use DNS
+1. **Go to the PC** and open the **Desktop tab**.
+2. Open the **IP Configuration**.
+3. In the **DNS Server** field, enter the IP address of the DNS server (e.g., 192.168.1.2).
+
+### Step 6: Test the DNS Configuration
+1. **Go to the PC** and open the **Command Prompt** from the **Desktop tab**.
+2. Type the following command to test if the DNS resolution works:
+   ```
+   ping www.example.com
+   ```
+3. If the DNS server is correctly configured, the PC will be able to resolve the domain name to the IP address and respond to the ping.
+
+### Optional: Configure the Router
+If you're using a router, configure its interfaces to route traffic between the devices.
+
+This should allow you to set up a DNS server and test domain name resolution in Packet Tracer.
+
 ## **Appendices**
 
 ### **Appendix A: Configuring DHCP on the Router**
