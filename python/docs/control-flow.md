@@ -440,6 +440,37 @@ Question: Write a python program to calculate the sum of the first N natural num
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
+**Task: Sum of Numbers in a Range**
+
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and calculates the sum of all the numbers in that range (inclusive) using a `for` loop.
+
+### Input:
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+### Output:
+- The program should display the sum of all the numbers in the given range.
+
+### Example:
+
+**Input:**
+```
+Enter the start of the range: 1
+Enter the end of the range: 5
+```
+
+**Output:**
+```
+The sum of numbers from 1 to 5 is: 15
+```
+
+### Requirements:
+- Use a `for` loop to iterate through the range.
+- Accumulate the sum of numbers using a variable inside the loop.
+
 
 **Task: Display Even Numbers in a Range**
 
