@@ -271,6 +271,235 @@ If you're using a router, configure its interfaces to route traffic between the 
 
 This should allow you to set up a DNS server and test domain name resolution in Packet Tracer.
 
+### Connecting Two LANs with a Router: A Step-by-Step Guide
+
+Connecting two Local Area Networks (LANs) using a router allows devices on different networks to communicate with each other.
+
+**Network Diagram**
+
+```
+[LAN 1] ------ [Router] ------ [LAN 2]
+```
+### Equipment Needed
+1. **Router**: A device that forwards data packets between networks.
+2. **Two LANs**: Each can consist of switches and devices (like PCs).
+3. **Ethernet Cables**: To connect the router to the switches or devices.
+
+### Step-by-Step Guide
+
+Connecting two Local Area Networks (LANs) using a router in Cisco Packet Tracer involves several steps, including configuring the router and the devices within each LAN. Here’s a detailed guide to help you set up this connection:
+
+#### Step 1: Open Cisco Packet Tracer
+1. Launch Cisco Packet Tracer on your computer.
+
+#### Step 2: Add Devices
+1. **Add a Router:** Drag and drop a router (e.g., a 2911 router) onto the workspace.
+2. **Add Switches:** Drag and drop two switches (e.g., 2960 switches) onto the workspace.
+3. **Add PCs:** Add at least one PC to each switch (e.g., PC1 on Switch1 and PC2 on Switch2).
+
+#### Step 3: Connect Devices
+1. **Connect the PCs to the Switches:**
+   - Use the **Connections** tool (cable icon) and select **Copper Straight-Through** cable.
+   - Connect **PC1** to **Switch1** (e.g., FastEthernet 0/1).
+   - Connect **PC2** to **Switch2** (e.g., FastEthernet 0/1).
+
+2. **Connect the Switches to the Router:**
+   - Use the **Copper Straight-Through** cable.
+   - Connect **Switch1** to the router's **GigabitEthernet 0/0** port.
+   - Connect **Switch2** to the router's **GigabitEthernet 0/1** port.
+
+#### Step 4: Configure the Router
+1. **Access the Router CLI:**
+   - Click on the router and go to the **CLI** tab.
+   - Press `Enter` to access the command line interface.
+
+2. **Enter Global Configuration Mode:**
+```bash
+Router> enable
+Router# configure terminal
+```
+
+**optional to show interfaces**
+
+```bash
+Router# show interfaces
+```
+3. **Configure Interfaces:**
+   - For **FastEthernet 0/0** (connecting to LAN1):
+```bash
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0  # Assigning IP address
+Router(config-if)# no shutdown  # Activating the interface
+```
+
+   - For **GigabitEthernet 0/1** (connecting to LAN2):
+  
+```bash
+Router(config)# interface GigabitEthernet0/1
+Router(config-if)# ip address 192.168.2.1 255.255.255.0  # Assigning IP address
+Router(config-if)# no shutdown  # Activating the interface
+```
+
+#### Step 5: Configure the Switches (Optional)
+While the switches do not require specific configurations for basic connectivity, you may choose to configure them for better management. Here’s how you can set VLANs (if needed) and assign ports to VLANs.
+
+1. **Access Switch CLI:**
+   - Click on each switch and go to the **CLI** tab.
+
+2. **Create VLANs (if desired):**
+```bash
+Switch# enable
+Switch# configure terminal
+Switch(config)# vlan 10
+Switch(config-vlan)# name LAN1
+Switch(config-vlan)# exit
+Switch(config)# vlan 20
+Switch(config-vlan)# name LAN2
+```
+
+3. **Assign Ports to VLANs:**
+   - For Switch1 (connecting to LAN1):
+```bash
+Switch(config)# interface range fa0/1
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 10
+```
+
+   - For Switch2 (connecting to LAN2):
+```bash
+Switch(config)# interface range fa0/1
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 20
+```
+
+#### Step 6: Configure the PCs
+1. **Configure PC1 (in LAN1):**
+   - Click on **PC1** and go to the **Desktop** tab.
+   - Click on **IP Configuration** and set:
+     - **IP Address:** `192.168.1.2`
+     - **Subnet Mask:** `255.255.255.0`
+     - **Default Gateway:** `192.168.1.1`
+
+2. **Configure PC2 (in LAN2):**
+   - Click on **PC2** and go to the **Desktop** tab.
+   - Click on **IP Configuration** and set:
+     - **IP Address:** `192.168.2.2`
+     - **Subnet Mask:** `255.255.255.0`
+     - **Default Gateway:** `192.168.2.1`
+
+#### Step 7: Test Connectivity
+1. **Ping Between PCs:**
+   - Open the command prompt on **PC1** and type:
+```bash
+ping 192.168.2.2  # This pings PC2 in LAN2
+```
+   - You should receive replies if everything is configured correctly.
+
+#### Step 8: Save Configuration
+1. **Save the Router Configuration:**
+```bash
+Router# write memory
+```
+
+2. **Save the Switch Configuration (if applicable):**
+```bash
+Switch# write memory
+```
+
+### Additional Notes
+- **Routing:** If you need to enable routing between the two LANs, ensure the router has routing enabled, which is typically the case by default.
+- **Static or Dynamic Routing:** For more complex networks, consider implementing dynamic routing protocols (like OSPF or EIGRP) as your network grows.
+- **VLANs:** If you implement VLANs, configure the router to handle inter-VLAN routing using sub-interfaces or a Layer 3 switch.
+
+### Conclusion
+By following these steps, you can successfully connect two LANs using a router in Cisco Packet Tracer. This setup allows devices from one LAN to communicate with devices on another LAN, demonstrating the fundamental concept of routing in computer networks. If you have any further questions or need additional details, feel free to ask!
+
+## How to Configure VLANS
+
+Configuring VLANs (Virtual Local Area Networks) in Cisco Packet Tracer is straightforward. Here’s a step-by-step guide to help you set up VLANs:
+
+### Step 1: Open Cisco Packet Tracer
+1. Launch Cisco Packet Tracer on your computer.
+
+### Step 2: Add Devices
+1. Drag and drop at least one switch (e.g., a 2960 switch) and a couple of end devices (e.g., PCs) onto the workspace.
+
+### Step 3: Connect Devices
+1. Use the **Connections** tool to connect the PCs to the switch. Choose the appropriate cable (usually a straight-through cable for connecting PCs to switches).
+   
+### Step 4: Access the Switch CLI
+1. Click on the switch and go to the **CLI** tab.
+2. Press `Enter` to access the command line interface.
+
+### Step 5: Enter Global Configuration Mode
+```bash
+Switch> enable
+Switch# configure terminal
+```
+
+### Step 6: Create VLANs
+1. Create VLANs using the following command:
+```bash
+Switch(config)# vlan [VLAN_ID]
+```
+   - For example, to create VLAN 10:
+```bash
+Switch(config)# vlan 10
+```
+2. Optionally, name the VLAN:
+```bash
+Switch(vlan)# name VLAN_NAME
+```
+   - For example:
+```bash
+Switch(vlan)# name Sales
+```
+3. Repeat these steps for any additional VLANs you want to create.
+
+### Step 7: Assign VLANs to Switch Ports
+1. Enter the interface configuration mode for the port you want to assign to a VLAN. For example, to configure FastEthernet 0/1:
+```bash
+Switch(config)# interface fa0/1
+```
+2. Assign the port to a VLAN:
+```bash
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan [VLAN_ID]
+```
+   - For example:
+```bash
+Switch(config-if)# switchport access vlan 10
+```
+3. Exit interface configuration mode and repeat for other ports as needed.
+
+### Step 8: Save Configuration
+1. After configuring the VLANs and ports, save your configuration:
+```bash
+Switch# write memory
+```
+
+### Step 9: Verify VLAN Configuration
+1. To check your VLAN configuration, use the following command:
+```bash
+Switch# show vlan brief
+```
+   - This command displays a summary of the VLANs configured on the switch.
+
+### Step 10: Test Connectivity
+1. Assign IP addresses to the PCs in the same VLAN. For example, if PC1 is in VLAN 10:
+   - Set IP address: `192.168.10.2`
+   - Set subnet mask: `255.255.255.0`
+   - Default gateway: `192.168.10.1`
+2. Configure another PC in the same VLAN (e.g., `192.168.10.3`) and test connectivity using the **ping** command.
+
+### Additional Tips
+- Ensure that the devices in the same VLAN can communicate with each other while devices in different VLANs cannot without a Layer 3 device (like a router).
+- If you need to configure inter-VLAN routing, you will require a router or a Layer 3 switch.
+
+With these steps, you should be able to configure VLANs successfully in Cisco Packet Tracer. If you have any specific scenarios or questions, feel free to ask!
+
+
+
 ## **Appendices**
 
 ### **Appendix A: Configuring DHCP on the Router**
@@ -331,3 +560,5 @@ If you're using a **router** to provide DHCP addresses, you need to configure th
 2. You can verify this by going back to the **IP Configuration** window of the PC, where the automatically assigned IP address will be displayed.
 
 This is how you can configure a DHCP server in Cisco Packet Tracer! Let me know if you need any further details.
+
+

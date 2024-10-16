@@ -134,3 +134,38 @@ This setup allows for **254 usable IP addresses** (from `.1` to `.254`) that can
 - **Subnet mask `/24`** allows for 254 devices on the network (usable IPs from **192.168.1.1** to **192.168.1.254**).
 
 This type of subnetting is typical in home and small office networks.
+
+### What is VLAN?
+
+A **Virtual Local Area Network (VLAN)** is a logical grouping of devices within a larger physical network. VLANs allow network administrators to segment networks into smaller, manageable parts, regardless of the physical location of the devices. Each VLAN operates as a separate broadcast domain, meaning that devices in different VLANs cannot communicate with each other directly without the use of a router or a Layer 3 switch.
+
+#### Key Features of VLANs:
+
+- **Logical Segmentation:** VLANs can segregate networks based on business functions, departmental needs, or security levels rather than relying on physical locations.
+- **Broadcast Control:** VLANs limit broadcast traffic by ensuring that broadcast packets are sent only to devices within the same VLAN.
+- **Enhanced Security:** VLANs can isolate sensitive data and devices, preventing unauthorized access from users in other VLANs.
+- **Simplified Management:** VLANs allow for easier management of the network by enabling administrators to make changes to network topology without physically rewiring devices.
+
+### Why VLANs Are Important in Computer Networks
+
+1. **Improved Performance:**
+   - By reducing broadcast traffic within a VLAN, overall network performance improves, leading to faster data transmission and reduced congestion.
+
+2. **Enhanced Security:**
+   - VLANs provide a way to separate sensitive data from general user traffic. For example, a finance department can be placed in a different VLAN from the HR department to protect sensitive financial data.
+
+3. **Flexibility and Scalability:**
+   - VLANs can be easily created, modified, or deleted as the organization grows or changes. This flexibility allows for efficient adaptation to new business needs without the need for physical changes to the network.
+
+4. **Simplified Troubleshooting:**
+   - Network issues can be isolated within a specific VLAN, making troubleshooting more straightforward and less time-consuming.
+
+5. **Cost-Effectiveness:**
+   - VLANs enable better utilization of existing network infrastructure by allowing multiple logical networks to coexist on a single physical network. This reduces the need for additional hardware and cabling.
+
+6. **Separation of Traffic Types:**
+   - VLANs can be used to separate different types of traffic, such as voice, video, and data, which can improve Quality of Service (QoS) for real-time applications.
+
+7. **Improved Network Management:**
+   - With VLANs, network administrators can manage network resources more effectively, applying policies and configurations at the VLAN level rather than on individual devices.
+

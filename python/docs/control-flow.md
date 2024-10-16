@@ -799,7 +799,7 @@ Enter a number: 5
 ### Requirements:
 - Use a `while` loop to generate and display the multiplication table.
 
-### **Task**:  
+### **Task #11**:  
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
 **Input**:
@@ -821,7 +821,7 @@ This code uses a `while` loop to iterate through the integers from 1 to 100.
 In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
 After the loop completes, the total sum is printed.
 
-**Example #22:** Sum of even numbers from 2 to 20 using while loop
+**Example #21:** Sum of even numbers from 2 to 20 using while loop
 
 Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
@@ -837,7 +837,7 @@ while number <= 20:
 print(f'The sum of even numbers from 1 to 20 is: {sum}')
 ```
 
-### **Task**:  
+### **Task #12**:  
 Write a Python program that calculates and prints the square of the numbers from 1 to 4. The program should use a `while` loop to iterate through these numbers.
 
 **Input**:
@@ -861,7 +861,7 @@ This code uses a `while` loop to calculate the square of the variable `i`,
 which starts at 1 and increments by 1 in each iteration until it reaches 5. 
 The squares of the numbers 1 through 4 are printed during each iteration.
 
-**Example #:**
+**Example #22:**
 
 Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
 
@@ -874,7 +874,7 @@ while inputStr != "":
 print('You entered a blank line.')
 ```
 
-**Example:** Sum of given numbers till the number entered is zero
+**Example #23:** Sum of given numbers till the number entered is zero
 
 Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
 
@@ -893,7 +893,7 @@ while number != 0:
 print(f'The sum of the numbers is: {sum}')
 ```
 
-### Task:
+### Task #13:
 Write a Python program that prompts the user to enter numbers. The program should keep accepting numbers until the user enters a negative number. Once a negative number is entered, the program should stop and display the sum of all the numbers entered (excluding the negative number).
 
 ### Sample Input:
@@ -911,7 +911,7 @@ The sum of all numbers is: 35
 
 Here’s the `while` loop task with a sample input and output:
 
-### Task: Number Guessing Game
+### Task #14: Number Guessing Game
 
 **Instructions:**
 - Write a Python program where the computer picks a random number between 1 and 10, and the user has to guess it.
@@ -953,7 +953,7 @@ This sample demonstrates:
 - Feedback on whether their guess is too low or too high.
 - A congratulatory message when the correct guess is made.
 - 
-**Example :** While loop from 1 to infinity, therefore running forever.
+**Example #24:** While loop from 1 to infinity, therefore running forever.
 
 ```python
 x = 1
