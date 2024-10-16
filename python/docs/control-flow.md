@@ -194,7 +194,8 @@ else:
 
 ### Task #1: Password Check
 
-**Objective**: Write a Python program that checks if the provided password matches the correct password and prints an appropriate message.
+**Objective**: Write a Python program that checks if the provided password matches 
+the correct password and prints an appropriate message.
 
 ### Instructions:
 1. Define a variable `password` and set it to a string value.
