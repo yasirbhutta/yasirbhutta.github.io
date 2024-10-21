@@ -276,6 +276,7 @@ To create the network diagram in Cisco Packet Tracer based on the whiteboard ima
 
 Devices and IPs:
 
+![network diagram](img/cisco-pt-task-dhcp-dns-router-512.png)
 1. Router:
 
 IP Address: 192.168.30.1
@@ -495,8 +496,6 @@ Switch# write memory
 
 ### Additional Notes
 - **Routing:** If you need to enable routing between the two LANs, ensure the router has routing enabled, which is typically the case by default.
-- **Static or Dynamic Routing:** For more complex networks, consider implementing dynamic routing protocols (like OSPF or EIGRP) as your network grows.
-- **VLANs:** If you implement VLANs, configure the router to handle inter-VLAN routing using sub-interfaces or a Layer 3 switch.
 
 ### Conclusion
 By following these steps, you can successfully connect two LANs using a router in Cisco Packet Tracer. This setup allows devices from one LAN to communicate with devices on another LAN, demonstrating the fundamental concept of routing in computer networks. If you have any further questions or need additional details, feel free to ask!
