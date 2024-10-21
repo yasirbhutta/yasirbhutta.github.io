@@ -6,10 +6,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/tools/docs/cisco-packet-tracer.html](https://yasirbhutta.github.io/tools/docs/cisco-packet-tracer.html)
 
-- [How to configure DHCP server]
-- [How to configure DNS server]
-- [Configure DHCP on the Router]
-- [Connecting Two LANs with a Router: A Step-by-Step Guide]
+- [How to configure DHCP server](#1-how-to-configure-dhcp-server-in-packet-tracer)
+- [How to configure DNS server](#2-how-to-configure-dns-server-in-packet-tracer)
+- [Configure DHCP on the Router](#6-optional-configure-dhcp-on-the-router)
+- [Connecting Two LANs with a Router: A Step-by-Step Guide](#3-connecting-two-lans-with-a-router-a-step-by-step-guide)
 
 ## 1. How to configure DHCP server in Packet Tracer
 
@@ -45,11 +45,11 @@ Before configuring the DHCP server, you need to set up a basic network topology.
 
    ![Basic Topology](https://i.imgur.com/ZFVb3Xn.png)
 
-## **2. Configure the Router**
+### **2. Configure the Router**
 
 The router will act as the default gateway for your network.
 
-### **Steps:**
+#### **Steps:**
 
 1. **Access the Router's CLI:**
    - Click on the router.
@@ -78,7 +78,7 @@ The router will act as the default gateway for your network.
    Router# write memory
    ```
 
-## **3. Configure the Server as a DHCP Server**
+### **3. Configure the Server as a DHCP Server**
 
 Using Packet Tracer's built-in server functionality is straightforward.
 
@@ -115,11 +115,11 @@ Using Packet Tracer's built-in server functionality is straightforward.
    - Ensure all settings are correctly entered.
    - The DHCP server is now ready to assign IP addresses to clients.
 
-## **4. Configure Client PCs to Use DHCP**
+### **4. Configure Client PCs to Use DHCP**
 
 Ensure that client devices are set to obtain their IP addresses automatically.
 
-### **Steps:**
+#### **Steps:**
 
 1. **Access a PC:**
    - Click on a **PC** device.
@@ -136,11 +136,11 @@ Ensure that client devices are set to obtain their IP addresses automatically.
    - After a few seconds, the PC should display an IP address within the DHCP pool range (e.g., 192.168.1.100).
    - Repeat this step for all client PCs.
 
-## **5. Verify DHCP Functionality**
+### **5. Verify DHCP Functionality**
 
 Ensure that DHCP is correctly assigning IP addresses to all clients.
 
-### **Steps:**
+#### **Steps:**
 
 1. **Check IP Addresses on PCs:**
    - Each PC should have a unique IP address within the specified DHCP pool.
@@ -162,7 +162,7 @@ Ensure that DHCP is correctly assigning IP addresses to all clients.
 
    ![DHCP Lease Table](https://i.imgur.com/oC7bU6v.png)
 
-## **6. Optional: Configure DHCP on the Router**
+### **6. Optional: Configure DHCP on the Router**
 
 If you prefer to use the router as your DHCP server instead of a dedicated server, follow these steps:
 
