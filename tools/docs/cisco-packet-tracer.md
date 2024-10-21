@@ -6,7 +6,12 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/tools/docs/cisco-packet-tracer.html](https://yasirbhutta.github.io/tools/docs/cisco-packet-tracer.html)
 
-## How to configure DHCP server in Packet Tracer
+- [How to configure DHCP server]
+- [How to configure DNS server]
+- [Configure DHCP on the Router]
+- [Connecting Two LANs with a Router: A Step-by-Step Guide]
+
+## 1. How to configure DHCP server in Packet Tracer
 
 Configuring a DHCP (Dynamic Host Configuration Protocol) server in Cisco Packet Tracer allows you to automate the assignment of IP addresses to devices on your network. Below is a step-by-step guide to setting up a DHCP server using Packet Tracer's built-in server functionality. This guide assumes you have a basic understanding of networking concepts and Packet Tracer's interface.
 
@@ -215,7 +220,7 @@ If you prefer to use the router as your DHCP server instead of a dedicated serve
 
 Configuring a DHCP server in Packet Tracer simplifies network management by automating IP address assignments. Whether you choose to use a dedicated server or configure the router to handle DHCP duties, the process involves setting up the DHCP pool parameters and ensuring clients are set to receive IP addresses automatically. By following the steps outlined above, you can efficiently set up and verify a DHCP server in your simulated network environment.
 
-## How to configure DNS server in Packet Tracer
+## 2. How to configure DNS server in Packet Tracer
 
 To configure a DNS server in Cisco Packet Tracer, follow these steps:
 
@@ -266,12 +271,94 @@ To configure a DNS server in Cisco Packet Tracer, follow these steps:
    ```
 3. If the DNS server is correctly configured, the PC will be able to resolve the domain name to the IP address and respond to the ping.
 
-### Optional: Configure the Router
-If you're using a router, configure its interfaces to route traffic between the devices.
+## Task #1:
+To create the network diagram in Cisco Packet Tracer based on the whiteboard image, follow these steps:
 
-This should allow you to set up a DNS server and test domain name resolution in Packet Tracer.
+Devices and IPs:
 
-### Connecting Two LANs with a Router: A Step-by-Step Guide
+1. Router:
+
+IP Address: 192.168.30.1
+
+
+2. DHCP Server:
+
+IP Address: 192.168.30.10
+
+Assign IP addresses from the range 192.168.30.160 onwards
+
+
+3. DNS Server:
+
+IP Address: 192.168.30.30
+
+4. PC1 and PC2 (DHCP Clients):
+
+Connected to a switch, both configured as DHCP clients to obtain IPs dynamically.
+
+5. PC3:
+
+Static IP: 192.168.30.31
+
+6. Switch:
+
+All PCs, DHCP, and DNS servers are connected through this switch.
+
+
+Steps in Cisco Packet Tracer:
+
+1. Add devices:
+
+Drag a Router, Switch, 3 PCs, DHCP Server, and DNS Server onto the workspace.
+
+2. Configure the Router:
+
+Go to the Router -> Config tab, assign the IP address 192.168.30.1 to the appropriate interface (e.g., GigabitEthernet0/0).
+
+3. Configure the DHCP Server:
+
+Set the IP address of the DHCP Server to 192.168.30.10.
+
+Go to the Services tab and configure DHCP. Set the start IP range to 192.168.30.160.
+
+4. Configure the DNS Server:
+
+Assign the IP address 192.168.30.30 to the DNS server.
+
+In the Services tab, configure DNS with any domain names you want to resolve.
+
+- Add five DNS entries by filling out the fields as follows:
+
+| **Domain Name**        | **IP Address**        |
+|------------------------|-----------------------|
+| example.com            | 192.168.30.50         |
+| site.local             | 192.168.30.60         |
+| network.internal       | 192.168.30.70         |
+| appserver.company      | 192.168.30.80         |
+| database.service       | 192.168.30.90         |
+
+5. Configure the PCs:
+
+PC1 and PC2: Go to each PC, and in the IP Configuration tab, set the IP configuration to DHCP.
+
+PC3: Manually configure its IP address to 192.168.30.31 in the Static IP section.
+
+
+6. Connect all devices:
+
+Use cables to connect the devices to the switch (PCs, DHCP, DNS Server).
+
+Connect the switch to the router.
+
+7. Test connectivity:
+
+- Once the network is built, test the network by pinging the router from each PC, and check DHCP functionality on PC1 and PC2.
+
+8. Test DNS Resolution:
+9. 
+From PC1, PC2, or PC3, use the Command Prompt (CLI) to test the DNS resolution by pinging the domain names (e.g., ping example.com). If DNS is properly configured, it will resolve the domain name to the associated IP address.
+
+### 3. Connecting Two LANs with a Router: A Step-by-Step Guide
 
 Connecting two Local Area Networks (LANs) using a router allows devices on different networks to communicate with each other.
 
