@@ -260,7 +260,7 @@ print(my_function())
     - C) `True`  
     - D) `Error`  
 
-### 20. **What is the output of the following code?** [Python Quiz #90]
+### 20. **What is the output of the following code?** [Python Quiz #90](https://youtu.be/w2M0XAl4DsQ)
    ```python
    def my_func(a, b=2, c=3):
        return a + b + c
