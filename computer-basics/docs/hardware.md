@@ -232,12 +232,22 @@ How they work:
 - It is also called processor.
 - CPU continually receives instructions to execute. CPU performs all operations according to the given instructions. It executes instructions and tells other parts of computer what to do.
 
-**what the CPU does:**
+The CPU (Central Processing Unit) performs a variety of operations, typically classified into several types:
 
-- **Fetches instructions:** The CPU retrieves instructions from the computer's memory (RAM) one at a time. These instructions tell the CPU what operations to perform.
-- **Decodes instructions:** The CPU deciphers the instructions, breaking them down into simpler steps it can understand.
-- **Executes instructions:** The CPU carries out the decoded instructions, which can involve performing mathematical calculations, making logical decisions, or moving data between different parts of the computer.
-**Controls other components:** The CPU communicates with and controls other parts of the computer, such as memory, storage devices, and input/output (I/O) devices like your keyboard or mouse.
+1. Arithmetic Operations: These include basic mathematical operations such as addition, subtraction, multiplication, and division. The Arithmetic Logic Unit (ALU) handles these tasks.
+2. Logical Operations: The CPU performs logical operations like AND, OR, NOT, and XOR, used in decision-making processes.
+3. Data Transfer Operations: The CPU moves data from one location to another, such as from memory to registers, registers to memory, or between different registers.
+4. Control Operations: These involve decision-making instructions, such as comparing values and jumping to different instructions based on conditions (e.g., branch instructions).
+5. Input/Output Operations: The CPU manages communication with external devices, reading input from devices like a keyboard or writing output to devices like a monitor or printer.
+
+
+These operations are carried out through a series of instructions in the instruction cycle (fetch, decode, execute, and store).
+
+1. Fetch: The CPU retrieves an instruction from the computer's memory (RAM).
+2. Decode: The CPU interprets (decodes) the fetched instruction to understand what needs to be done.
+3. Execute: The CPU performs the operation specified by the instruction (e.g., arithmetic operations like addition, multiplication, etc.).
+4. Store: The CPU stores the result of the operation back into memory, registers, or sends it to an output device.
+These steps are part of what’s called the instruction cycle or fetch-decode-execute cycle.
 
 The performance of your CPU significantly impacts how fast your computer can run programs and perform tasks. Here are some key factors that affect CPU performance:
 

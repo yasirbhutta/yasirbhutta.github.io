@@ -969,7 +969,7 @@ Sure, here are some exercises about print functions, indentation, and comments i
    result = add(3, 5)
    print(result)
    ```
-
+   
 ## Review Questions
 
 ## References and Bibliography
@@ -1011,4 +1011,38 @@ This tells you that the script is being run from the `/Users/yourusername/Docume
 
 **Use Case:**
 Imagine you are writing a script that needs to read or write files. Knowing the current working directory will help ensure you reference the correct paths to those files.
+
+### **Appendix B: Compile time and Run time 
+
+Compile time and run time refer to different phases in the lifecycle of a program:
+
+Compile Time:
+
+Definition: This is the phase when the source code is converted into machine code (or bytecode) by a compiler.
+
+Errors: Errors that occur at compile time are typically related to syntax or static type checks (in statically typed languages). These include things like syntax errors, missing semicolons, or mismatched data types.
+
+Duration: This happens before the program is executed. In languages like C, Java, and C++, the code is compiled before it is run.
+
+Key Point: The program cannot run if there are compile-time errors.
+
+
+Run Time:
+
+Definition: This refers to the phase when the compiled code is executed by the machine or interpreter.
+
+Errors: Run-time errors occur while the program is being executed. These include logical errors, exceptions, or any unexpected input or environment conditions (like division by zero or file not found errors).
+
+Duration: This happens after the compilation phase (in compiled languages) or during interpretation (in interpreted languages like Python).
+
+Key Point: The program is actively running and performing tasks.
+
+
+Summary:
+
+Compile time is when the code is translated into machine code before execution.
+
+Run time is when the code is actively being executed on the machine.
+
+
 

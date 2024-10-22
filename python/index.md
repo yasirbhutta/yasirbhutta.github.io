@@ -9,6 +9,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
 - [Python Tools](docs/tools.md)
+- [Datasets for Python](docs/datasets.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
 ## Python Learning Path for Beginners
