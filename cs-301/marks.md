@@ -22,7 +22,7 @@
 - 1x from Computer Storage Devices
 - 2x from Google Search
 - 3x from Microsoft Excel
-- 1x from Computer Hardward
+- 1x from Computer Hardware
   
 **Short Questions (04 marks 2x2):**
 
