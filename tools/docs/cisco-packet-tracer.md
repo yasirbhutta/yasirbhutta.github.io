@@ -11,6 +11,57 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Configure DHCP on the Router](#6-optional-configure-dhcp-on-the-router)
 - [Connecting Two LANs with a Router: A Step-by-Step Guide](#3-connecting-two-lans-with-a-router-a-step-by-step-guide)
 
+## Lab Task 1: Basic PC-to-PC Communication
+
+Objective: Create a simple network where two PCs communicate with each other.
+
+Steps:
+
+1. Drag two PCs onto the workspace.
+2. Drag a Switch and place it between the two PCs.
+3. Use Copper Straight-Through cables to connect each PC to the switch.
+4. Click on PC1, go to the Desktop tab, and assign the following IP address:
+
+IP: 192.168.1.1
+
+Subnet Mask: 255.255.255.0
+
+
+Do the same for PC2 with:
+
+IP: 192.168.1.2
+
+Subnet Mask: 255.255.255.0
+
+5. Test connectivity by opening a command prompt on PC1 and using the ping command to ping PC2.
+
+Learning Outcome: Understand basic IP addressing and connectivity testing using the ping command.
+
+
+## Lab Task 2: Connecting Multiple PCs using a Switch
+
+Objective: Build a small network with multiple PCs communicating via a switch.
+
+Steps:
+
+1. Drag four PCs and one Switch (2960 Switch) onto the workspace.
+2. Use Copper Straight-Through cables to connect each PC to the switch.
+3. Assign the following IP addresses and subnet masks:
+
+PC1: 192.168.1.1 / 255.255.255.0
+
+PC2: 192.168.1.2 / 255.255.255.0
+
+PC3: 192.168.1.3 / 255.255.255.0
+
+PC4: 192.168.1.4 / 255.255.255.0
+
+
+4. Test connectivity by pinging each PC from another (e.g., from PC1, ping PC2, PC3, and PC4).
+
+Learning Outcome: Understand how a switch enables communication between multiple devices on the same network.
+
+
 ## 1. How to configure DHCP server in Packet Tracer
 
 Configuring a DHCP (Dynamic Host Configuration Protocol) server in Cisco Packet Tracer allows you to automate the assignment of IP addresses to devices on your network. Below is a step-by-step guide to setting up a DHCP server using Packet Tracer's built-in server functionality. This guide assumes you have a basic understanding of networking concepts and Packet Tracer's interface.
@@ -356,10 +407,9 @@ Connect the switch to the router.
 - Once the network is built, test the network by pinging the router from each PC, and check DHCP functionality on PC1 and PC2.
 
 8. Test DNS Resolution:
-9. 
-From PC1, PC2, or PC3, use the Command Prompt (CLI) to test the DNS resolution by pinging the domain names (e.g., ping example.com). If DNS is properly configured, it will resolve the domain name to the associated IP address.
+9. From PC1, PC2, or PC3, use the Command Prompt (CLI) to test the DNS resolution by pinging the domain names (e.g., ping example.com). If DNS is properly configured, it will resolve the domain name to the associated IP address.
 
-### 3. Connecting Two LANs with a Router: A Step-by-Step Guide
+## 3. Connecting Two LANs with a Router: A Step-by-Step Guide
 
 Connecting two Local Area Networks (LANs) using a router allows devices on different networks to communicate with each other.
 
@@ -415,7 +465,7 @@ Router# show interfaces
 3. **Configure Interfaces:**
    - For **FastEthernet 0/0** (connecting to LAN1):
 ```bash
-Router(config)# interface GigabitEthernet0/0
+Router(config)# interface GigabitEthernet0/0 # Gi0/0 or G0/0 would refer to GigabitEthernet0/0.
 Router(config-if)# ip address 192.168.1.1 255.255.255.0  # Assigning IP address
 Router(config-if)# no shutdown  # Activating the interface
 ```
@@ -423,44 +473,11 @@ Router(config-if)# no shutdown  # Activating the interface
    - For **GigabitEthernet 0/1** (connecting to LAN2):
   
 ```bash
-Router(config)# interface GigabitEthernet0/1
+Router(config)# interface GigabitEthernet0/1 # Gi0/1 or G0/1 would refer to GigabitEthernet0/1.
 Router(config-if)# ip address 192.168.2.1 255.255.255.0  # Assigning IP address
 Router(config-if)# no shutdown  # Activating the interface
 ```
-
-#### Step 5: Configure the Switches (Optional)
-While the switches do not require specific configurations for basic connectivity, you may choose to configure them for better management. Here’s how you can set VLANs (if needed) and assign ports to VLANs.
-
-1. **Access Switch CLI:**
-   - Click on each switch and go to the **CLI** tab.
-
-2. **Create VLANs (if desired):**
-```bash
-Switch# enable
-Switch# configure terminal
-Switch(config)# vlan 10
-Switch(config-vlan)# name LAN1
-Switch(config-vlan)# exit
-Switch(config)# vlan 20
-Switch(config-vlan)# name LAN2
-```
-
-3. **Assign Ports to VLANs:**
-   - For Switch1 (connecting to LAN1):
-```bash
-Switch(config)# interface range fa0/1
-Switch(config-if-range)# switchport mode access
-Switch(config-if-range)# switchport access vlan 10
-```
-
-   - For Switch2 (connecting to LAN2):
-```bash
-Switch(config)# interface range fa0/1
-Switch(config-if-range)# switchport mode access
-Switch(config-if-range)# switchport access vlan 20
-```
-
-#### Step 6: Configure the PCs
+#### Step 5: Configure the PCs
 1. **Configure PC1 (in LAN1):**
    - Click on **PC1** and go to the **Desktop** tab.
    - Click on **IP Configuration** and set:
@@ -499,6 +516,39 @@ Switch# write memory
 
 ### Conclusion
 By following these steps, you can successfully connect two LANs using a router in Cisco Packet Tracer. This setup allows devices from one LAN to communicate with devices on another LAN, demonstrating the fundamental concept of routing in computer networks. If you have any further questions or need additional details, feel free to ask!
+
+## Lab Task 3: Router Configuration with Two Subnets
+
+Objective: Create two networks with different subnets and connect them using a router.
+
+Steps:
+
+1. Drag two Switches and a Router onto the workspace.
+2. Connect two PCs to Switch 1 and two PCs to Switch 2 using Copper Straight-Through cables.
+3. Connect Switch 1 to the Router’s GigabitEthernet 0/0 interface and Switch 2 to the Router’s GigabitEthernet 0/1 interface.
+4. Assign the following IP addresses and subnet masks:
+
+PCs connected to Switch 1:
+
+PC1: 192.168.1.2 / 255.255.255.0
+PC2: 192.168.1.3 / 255.255.255.0
+
+
+PCs connected to Switch 2:
+
+PC3: 192.168.2.2 / 255.255.255.0
+PC4: 192.168.2.3 / 255.255.255.0
+
+5. Configure the router’s interfaces:
+
+Interface Gig0/0: 192.168.1.1 / 255.255.255.0
+Interface Gig0/1: 192.168.2.1 / 255.255.255.0
+
+
+6. Test connectivity by pinging across subnets (e.g., PC1 to PC3).
+
+
+Learning Outcome: Learn basic router configuration to enable communication between different subnets.
 
 ## How to Configure VLANS
 
@@ -647,4 +697,1189 @@ If you're using a **router** to provide DHCP addresses, you need to configure th
 
 This is how you can configure a DHCP server in Cisco Packet Tracer! Let me know if you need any further details.
 
+
+## === additional
+
+Here are additional beginner-friendly Cisco Packet Tracer lab tasks that introduce essential networking concepts:
+
+Lab Task 24: Basic Router Configuration
+
+Objective: Configure basic router settings such as hostname, passwords, and interfaces.
+
+Steps:
+
+1. Create a network with a Router and a PC connected to the router.
+
+
+2. Configure the router’s hostname and passwords:
+
+Router> enable
+Router# configure terminal
+Router(config)# hostname MyRouter
+Router(config)# enable secret cisco123
+Router(config)# line console 0
+Router(config-line)# password console123
+Router(config-line)# login
+Router(config-line)# exit
+Router(config)# line vty 0 4
+Router(config-line)# password vty123
+Router(config-line)# login
+Router(config-line)# exit
+
+
+3. Configure the router interface with an IP address:
+
+Router(config)# interface gig0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+
+
+4. Configure the PC with an IP address in the same network (e.g., 192.168.1.2) and test connectivity by pinging the router.
+
+
+
+Learning Outcome: Learn how to set up a router's basic settings, such as passwords and IP configurations, and establish basic network connectivity.
+
+
+---
+
+Lab Task 25: Configuring a Switch
+
+Objective: Set up a switch with basic configurations, including VLANs and interface settings.
+
+Steps:
+
+1. Create a network with a Switch and two PCs.
+
+
+2. Configure the switch’s hostname and enable port security:
+
+Switch> enable
+Switch# configure terminal
+Switch(config)# hostname MySwitch
+Switch(config)# interface range fa0/1 - 2
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport port-security
+Switch(config-if-range)# switchport port-security maximum 1
+Switch(config-if-range)# switchport port-security violation shutdown
+
+
+3. Create a VLAN and assign interfaces to it:
+
+Switch(config)# vlan 10
+Switch(config-vlan)# name Sales
+Switch(config)# interface fa0/1
+Switch(config-if)# switchport access vlan 10
+Switch(config-if)# exit
+Switch(config)# interface fa0/2
+Switch(config-if)# switchport access vlan 10
+
+
+4. Assign IP addresses to the PCs in the same VLAN and test connectivity using the ping command.
+
+
+
+Learning Outcome: Understand how to configure a switch for basic VLAN and port security settings.
+
+
+---
+
+Lab Task 26: Static Routing Configuration
+
+Objective: Configure static routes between two routers.
+
+Steps:
+
+1. Create a network with two routers, two switches, and four PCs.
+
+
+2. Assign IP addresses to each network segment:
+
+Router 1 (Gig0/0): 192.168.1.1 / 255.255.255.0
+
+Router 1 (Gig0/1): 192.168.2.1 / 255.255.255.0
+
+Router 2 (Gig0/0): 192.168.2.2 / 255.255.255.0
+
+Router 2 (Gig0/1): 192.168.3.1 / 255.255.255.0
+
+
+
+3. Configure static routes on both routers:
+
+On Router 1:
+
+Router1> enable
+Router1# configure terminal
+Router1(config)# ip route 192.168.3.0 255.255.255.0 192.168.2.2
+
+On Router 2:
+
+Router2> enable
+Router2# configure terminal
+Router2(config)# ip route 192.168.1.0 255.255.255.0 192.168.2.1
+
+
+
+4. Test connectivity between the PCs in different networks using the ping command.
+
+
+
+Learning Outcome: Learn how to configure static routing to enable communication between different networks.
+
+
+---
+
+Lab Task 27: Basic DHCP Configuration
+
+Objective: Set up a DHCP server on a router to dynamically assign IP addresses to client devices.
+
+Steps:
+
+1. Create a network with a Router, Switch, and three PCs.
+
+
+2. Configure the router’s DHCP settings:
+
+Router> enable
+Router# configure terminal
+Router(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.10
+Router(config)# ip dhcp pool MYPOOL
+Router(config-dhcp)# network 192.168.1.0 255.255.255.0
+Router(config-dhcp)# default-router 192.168.1.1
+Router(config-dhcp)# dns-server 8.8.8.8
+
+
+3. Configure the router interface:
+
+Router(config)# interface gig0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+
+
+4. On each PC, configure the network settings to use DHCP and check that the PCs receive IP addresses from the router automatically.
+
+
+
+Learning Outcome: Understand how to configure a router to act as a DHCP server and provide dynamic IP addresses to clients.
+
+
+---
+
+Lab Task 28: Configuring PAT (Port Address Translation)
+
+Objective: Configure PAT to allow multiple internal devices to access the internet using a single public IP address.
+
+Steps:
+
+1. Create a network with a Router, Switch, and three PCs. Connect the router to the internet cloud (or simulate a WAN connection).
+
+
+2. Assign private IP addresses to the PCs:
+
+PC1: 192.168.1.2 / 255.255.255.0
+
+PC2: 192.168.1.3 / 255.255.255.0
+
+PC3: 192.168.1.4 / 255.255.255.0
+
+
+
+3. On the router, configure the internal and external interfaces:
+
+Router> enable
+Router# configure terminal
+Router(config)# interface gig0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# interface gig0/1
+Router(config-if)# ip address 10.0.0.1 255.255.255.0
+Router(config-if)# no shutdown
+
+
+4. Configure NAT with PAT on the router:
+
+Router(config)# ip nat inside source list 1 interface gig0/1 overload
+Router(config)# access-list 1 permit 192.168.1.0 0.0.0.255
+Router(config)# interface gig0/0
+Router(config-if)# ip nat inside
+Router(config-if)# exit
+Router(config)# interface gig0/1
+Router(config-if)# ip nat outside
+
+
+5. Test by pinging external IP addresses from the PCs to verify that NAT is working.
+
+
+
+Learning Outcome: Understand how to configure PAT for multiple internal devices to access external networks using one public IP.
+
+
+---
+
+Lab Task 29: Configuring ACL (Access Control List)
+
+Objective: Configure an ACL to restrict access to certain parts of the network.
+
+Steps:
+
+1. Create a network with a Router, Switch, and two PCs.
+
+
+2. Assign IP addresses:
+
+PC1: 192.168.1.2 / 255.255.255.0
+
+PC2: 192.168.1.3 / 255.255.255.0
+
+
+
+3. Configure the router interface:
+
+Router> enable
+Router# configure terminal
+Router(config)# interface gig0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+
+
+4. Create an ACL to block traffic from PC1 (192.168.1.2) but allow traffic from PC2:
+
+Router(config)# access-list 100 deny ip host 192.168.1.2 any
+Router(config)# access-list 100 permit ip any any
+Router(config)# interface gig0/0
+Router(config-if)# ip access-group 100 in
+
+
+5. Test by trying to ping the router from both PCs. Only PC2 should be able to successfully ping.
+
+
+
+Learning Outcome: Understand how to configure basic ACLs to control network traffic and enforce security policies.
+
+
+---
+
+Lab Task 30: Basic OSPF Configuration
+
+Objective: Configure OSPF on multiple routers to allow dynamic routing between different networks.
+
+Steps:
+
+1. Create a network with three routers and three PCs, each connected to a different router.
+
+
+2. Assign IP addresses to each network segment:
+
+Router 1: `192.168.1
+
+
+
+
+Here are more Cisco Packet Tracer lab tasks specifically focused on firewalls and web servers:
+
+Lab Task 18: Basic Firewall Configuration
+
+Objective: Configure a basic firewall to allow HTTP traffic to a web server and block all other traffic.
+
+Steps:
+
+1. Create a network with the following components:
+
+Router
+
+Firewall
+
+Web Server
+
+Two PCs
+
+
+
+2. Assign the following IP addresses:
+
+Web Server: 192.168.2.2 / 255.255.255.0
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Firewall Interfaces:
+
+Inside (to PCs): 192.168.1.1
+
+Outside (to Web Server): 192.168.2.1
+
+
+
+
+3. On the firewall, configure access rules:
+
+Allow HTTP (port 80) traffic from the internal network to the web server.
+
+Block all other traffic by default.
+
+Example ACL:
+
+Firewall> enable
+Firewall# configure terminal
+Firewall(config)# access-list 100 permit tcp 192.168.1.0 0.0.0.255 host 192.168.2.2 eq 80
+Firewall(config)# access-list 100 deny ip any any
+Firewall(config)# interface inside
+Firewall(config-if)# ip access-group 100 in
+
+
+
+4. Test by accessing the web server from a PC using its web browser and typing the web server's IP. Other protocols like ping should be blocked.
+
+
+
+Learning Outcome: Understand how to configure basic firewall rules to allow HTTP traffic while blocking other traffic.
+
+
+---
+
+Lab Task 19: Configuring Firewall with NAT (Network Address Translation)
+
+Objective: Configure a firewall to use NAT to translate private IPs into public IPs while allowing external access to a web server.
+
+Steps:
+
+1. Create a network with:
+
+Router
+
+Firewall
+
+Web Server
+
+Two Internal PCs
+
+
+
+2. IP Addresses:
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Web Server: 192.168.2.2 / 255.255.255.0
+
+Router (External Network): 10.0.0.1 / 255.255.255.0
+
+Firewall Inside: 192.168.1.1
+
+Firewall DMZ: 192.168.2.1
+
+Firewall Outside: 10.0.0.2
+
+
+
+3. On the firewall, configure NAT to allow the internal PCs to access the web server and external networks:
+
+Enable NAT on the inside and outside interfaces.
+
+Use a static NAT translation for the web server so that external users can access it.
+
+
+Firewall> enable
+Firewall# configure terminal
+Firewall(config)# interface inside
+Firewall(config-if)# ip nat inside
+Firewall(config-if)# exit
+Firewall(config)# interface outside
+Firewall(config-if)# ip nat outside
+Firewall(config-if)# exit
+Firewall(config)# ip nat inside source static 192.168.2.2 10.0.0.2
+
+
+4. Verify that the internal PCs can access the internet through NAT and that external users can access the web server using its public IP (10.0.0.2).
+
+
+
+Learning Outcome: Learn how to use NAT in a firewall to allow both internal and external communication, including web server access.
+
+
+---
+
+Lab Task 20: Implementing DMZ (Demilitarized Zone) with Firewall
+
+Objective: Set up a DMZ using a firewall to host a web server, ensuring it can be accessed from the internet but is isolated from the internal network.
+
+Steps:
+
+1. Network components:
+
+Router
+
+Firewall
+
+Web Server in the DMZ
+
+Two PCs in the internal network
+
+
+
+2. Assign IP addresses:
+
+Web Server (DMZ): 192.168.100.2 / 255.255.255.0
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Firewall:
+
+Inside: 192.168.1.1
+
+DMZ: 192.168.100.1
+
+Outside: 10.0.0.2
+
+
+
+
+3. On the firewall, configure the following zones:
+
+Inside: The internal network.
+
+DMZ: Where the web server is placed.
+
+Outside: The internet.
+
+
+
+4. Set up firewall rules:
+
+Allow traffic from Outside to the DMZ for HTTP (port 80) only.
+
+Allow traffic from Inside to Outside for all traffic.
+
+Deny direct traffic from the Inside network to the DMZ.
+
+Example:
+
+Firewall> enable
+Firewall# configure terminal
+Firewall(config)# access-list 101 permit tcp any host 192.168.100.2 eq 80
+Firewall(config)# access-list 102 permit ip 192.168.1.0 0.0.0.255 any
+Firewall(config)# access-list 103 deny ip 192.168.1.0 0.0.0.255 192.168.100.0 0.0.0.255
+Firewall(config)# interface outside
+Firewall(config-if)# ip access-group 101 in
+Firewall(config-if)# interface inside
+Firewall(config-if)# ip access-group 102 in
+Firewall(config-if)# ip access-group 103 in
+
+
+
+5. Test by:
+
+Accessing the web server from the outside network.
+
+Ensuring that internal PCs cannot directly access the DMZ.
+
+Internal PCs should be able to access the internet.
+
+
+
+
+Learning Outcome: Understand how to use a firewall to configure a DMZ that isolates the internal network from publicly accessible servers.
+
+
+---
+
+Lab Task 21: Web Server Load Balancing using Firewalls
+
+Objective: Configure load balancing between multiple web servers using a firewall to distribute traffic.
+
+Steps:
+
+1. Network setup:
+
+Router
+
+Firewall
+
+Two Web Servers
+
+Two PCs in the internal network.
+
+
+
+2. IP Addresses:
+
+Web Server 1: 192.168.2.2 / 255.255.255.0
+
+Web Server 2: 192.168.2.3 / 255.255.255.0
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Firewall Inside: 192.168.1.1
+
+Firewall DMZ: 192.168.2.1
+
+Firewall Outside: 10.0.0.2
+
+
+
+3. On the firewall, configure load balancing using a method like round-robin or weighted distribution:
+
+Set up a virtual IP for the web servers (e.g., 192.168.2.10).
+
+Distribute traffic between the two web servers.
+
+
+Firewall> enable
+Firewall# configure terminal
+Firewall(config)# ip nat inside source static tcp 192.168.2.2 80 10.0.0.2 80
+Firewall(config)# ip nat inside source static tcp 192.168.2.3 80 10.0.0.2 80
+
+
+4. Test by accessing the virtual IP from a client and ensuring that traffic alternates between the two web servers.
+
+
+
+Learning Outcome: Learn how to configure load balancing on firewalls to distribute traffic to multiple servers and ensure high availability.
+
+
+---
+
+Lab Task 22: Configuring a Firewall with IPS (Intrusion Prevention System)
+
+Objective: Set up a firewall with an IPS to detect and block malicious traffic.
+
+Steps:
+
+1. Network setup:
+
+Router
+
+Firewall with IPS
+
+Web Server
+
+Internal PCs
+
+
+
+2. Assign IP addresses:
+
+Web Server: 192.168.2.2 / 255.255.255.0
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Firewall Inside: 192.168.1.1
+
+Firewall Outside: 192.168.2.1
+
+
+
+3. On the firewall, enable the IPS and configure basic rules to monitor incoming traffic to the web server for common attacks (e.g., SQL injection, DDoS, etc.).
+
+Firewall> enable
+Firewall# configure terminal
+Firewall(config)# ips signature-definition attack-type sql-injection
+Firewall(config)# ips signature action deny
+Firewall(config)# ips signature enable
+
+
+4. Simulate an attack on the web server (e.g., using Packet Sniffer or ping flood) and verify that the firewall IPS detects and blocks the attack.
+
+
+
+Learning Outcome: Understand how to configure and use IPS on a firewall to protect against common network attacks.
+
+
+---
+
+Lab Task 23: Configuring Web Content Filtering with Firewall
+
+Objective: Set up a firewall to block access to specific websites or content types.
+
+Steps:
+
+1. Create
+
+
+
+Here are more Cisco Packet Tracer lab tasks for beginners that involve slightly advanced concepts and more hands-on practice:
+
+Lab Task 12: Configuring and Verifying SSH on a Router
+
+Objective: Secure access to the router using SSH instead of Telnet.
+
+Steps:
+
+1. Create a simple network with a Router, Switch, and PC.
+
+
+2. Assign an IP address to the router's GigabitEthernet interface connected to the switch:
+
+Router> enable
+Router# configure terminal
+Router(config)# interface gig0/0
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+
+
+3. Set up SSH on the router:
+
+Router(config)# hostname MyRouter
+Router(config)# ip domain-name example.com
+Router(config)# crypto key generate rsa
+Router(config)# username admin privilege 15 secret password123
+Router(config)# line vty 0 4
+Router(config-line)# login local
+Router(config-line)# transport input ssh
+Router(config-line)# exit
+Router(config)# ip ssh version 2
+
+
+4. On the PC, go to the Desktop tab and open the Command Prompt. Use the following command to SSH into the router:
+
+ssh -l admin 192.168.1.1
+
+Enter the password when prompted.
+
+
+5. Verify successful SSH access by entering show ip interface brief on the router.
+
+
+
+Learning Outcome: Understand how to secure remote access to a router using SSH instead of Telnet.
+
+
+---
+
+Lab Task 13: Configuring a Web Server and DNS Server
+
+Objective: Set up a web server and a DNS server to allow clients to access a website using a domain name.
+
+Steps:
+
+1. Drag a Router, Switch, Web Server, DNS Server, and two PCs onto the workspace.
+
+
+2. Assign IP addresses to the devices as follows:
+
+Web Server: 192.168.1.2
+
+DNS Server: 192.168.1.3
+
+PC1: 192.168.1.4
+
+PC2: 192.168.1.5
+
+
+
+3. Configure the DNS Server:
+
+Open the DNS server, go to the Services tab, and enable the DNS service.
+
+Add a new A record:
+
+Name: mywebsite.com
+
+Address: 192.168.1.2
+
+
+
+
+4. Configure the Web Server:
+
+Open the web server, go to the Services tab, and enable the HTTP service.
+
+
+
+5. On PC1 and PC2, configure the DNS settings to point to the DNS server:
+
+IP Address: 192.168.1.4 (PC1) and 192.168.1.5 (PC2)
+
+Default Gateway: 192.168.1.1
+
+DNS Server: 192.168.1.3
+
+
+
+6. Open a web browser on PC1 or PC2 and type http://mywebsite.com. The webpage should load successfully.
+
+
+
+Learning Outcome: Learn how to configure DNS and web servers for clients to access websites using domain names.
+
+
+---
+
+Lab Task 14: Configuring EtherChannel
+
+Objective: Configure EtherChannel to increase bandwidth and provide redundancy between switches.
+
+Steps:
+
+1. Drag two Switches onto the workspace and connect them with four Ethernet cables (e.g., Fa0/1, Fa0/2, Fa0/3, Fa0/4).
+
+
+2. Configure EtherChannel on both switches using the Port-Channel Interface:
+
+On Switch 1:
+
+Switch1> enable
+Switch1# configure terminal
+Switch1(config)# interface range fa0/1 - 4
+Switch1(config-if-range)# channel-group 1 mode active
+Switch1(config-if-range)# exit
+Switch1(config)# interface port-channel 1
+Switch1(config-if)# switchport mode trunk
+
+On Switch 2:
+
+Switch2> enable
+Switch2# configure terminal
+Switch2(config)# interface range fa0/1 - 4
+Switch2(config-if-range)# channel-group 1 mode active
+Switch2(config-if-range)# exit
+Switch2(config)# interface port-channel 1
+Switch2(config-if)# switchport mode trunk
+
+
+
+3. Verify the EtherChannel configuration using the following command on both switches:
+
+Switch# show etherchannel summary
+
+
+
+Learning Outcome: Learn how to configure EtherChannel to increase the bandwidth between two switches and provide redundancy.
+
+
+---
+
+Lab Task 15: Configuring HSRP (Hot Standby Router Protocol)
+
+Objective: Configure HSRP to provide redundancy for a default gateway.
+
+Steps:
+
+1. Create a network with two Routers, one Switch, and two PCs. Connect both routers to the switch.
+
+
+2. Assign IP addresses to the routers and PCs:
+
+Router 1 (Gig0/0): 192.168.1.1 / 255.255.255.0
+
+Router 2 (Gig0/0): 192.168.1.2 / 255.255.255.0
+
+PCs: IP addresses in the range 192.168.1.x / 255.255.255.0, default gateway 192.168.1.3
+
+
+
+3. Configure HSRP on both routers:
+
+On Router 1:
+
+Router1> enable
+Router1# configure terminal
+Router1(config)# interface gig0/0
+Router1(config-if)# standby 1 ip 192.168.1.3
+Router1(config-if)# standby 1 priority 110
+Router1(config-if)# standby 1 preempt
+Router1(config-if)# standby 1 version 2
+Router1(config-if)# exit
+
+On Router 2:
+
+Router2> enable
+Router2# configure terminal
+Router2(config)# interface gig0/0
+Router2(config-if)# standby 1 ip 192.168.1.3
+Router2(config-if)# standby 1 priority 90
+Router2(config-if)# standby 1 preempt
+Router2(config-if)# standby 1 version 2
+Router2(config-if)# exit
+
+
+
+4. Test by shutting down the primary router (Router 1) and checking if Router 2 takes over as the default gateway.
+
+
+
+Learning Outcome: Understand how to configure HSRP for gateway redundancy, ensuring network uptime.
+
+
+---
+
+Lab Task 16: Configuring BGP (Border Gateway Protocol)
+
+Objective: Set up basic BGP routing between two autonomous systems (AS).
+
+Steps:
+
+1. Create a network with two Routers in different AS networks (e.g., AS 100 and AS 200).
+
+
+2. Assign IP addresses to the routers:
+
+Router 1: 192.168.1.1 / 255.255.255.0
+
+Router 2: 192.168.2.1 / 255.255.255.0
+
+
+
+3. Configure BGP on both routers:
+
+On Router 1:
+
+Router1> enable
+Router1# configure terminal
+Router1(config)# router bgp 100
+Router1(config-router)# neighbor 192.168.2.1 remote-as 200
+Router1(config-router)# network 192.168.1.0 mask 255.255.255.0
+
+On Router 2:
+
+Router2> enable
+Router2# configure terminal
+Router2(config)# router bgp 200
+Router2(config-router)# neighbor 192.168.1.1 remote-as 100
+Router2(config-router)# network 192.168.2.0 mask 255.255.255.0
+
+
+
+4. Verify BGP routing by pinging from Router 1 to Router 2 and checking the BGP routes with the command:
+
+Router# show ip bgp
+
+
+
+Learning Outcome: Learn the basics of configuring BGP for communication between two different autonomous systems.
+
+
+---
+
+Lab Task 17: Configuring a DMZ (Demilitarized Zone) with a Firewall
+
+Objective: Create a DMZ using a router and firewall to separate public servers from internal networks.
+
+Steps:
+
+1. Set up a network with a Router, Firewall, Web Server, and two PCs.
+
+
+2. Assign the following IP addresses:
+
+Public Web Server: 192.168.100.2 / 255.255.255.0
+
+Internal Network (PCs): 192.168.1.x / 255.255.255.0
+
+Firewall interfaces: Internal: 192.168.1.1, External (DMZ): 192.168.100.1
+
+
+
+3. Configure the firewall to allow web traffic (HTTP) to the web server but block any other traffic to the internal network.
+
+
+4. Test by accessing the web server from an external PC while ensuring internal
+
+
+
+Here are more beginner-level lab tasks to practice in Cisco Packet Tracer:
+
+Lab Task 6: Configuring VLANs (Virtual LANs)
+
+Objective: Create multiple VLANs to segment network traffic.
+
+Steps:
+
+1. Drag a Switch and connect four PCs to the switch using Copper Straight-Through cables.
+
+
+2. Configure two VLANs on the switch:
+
+VLAN 10: For PC1 and PC2
+
+VLAN 20: For PC3 and PC4
+
+
+
+3. Assign IP addresses to the PCs as follows:
+
+PC1 and PC2: 192.168.10.x / 255.255.255.0
+
+PC3 and PC4: 192.168.20.x / 255.255.255.0
+
+
+
+4. Go to the switch CLI and configure the VLANs:
+
+Switch> enable
+Switch# configure terminal
+Switch(config)# vlan 10
+Switch(config-vlan)# name Sales
+Switch(config-vlan)# exit
+Switch(config)# vlan 20
+Switch(config-vlan)# name HR
+Switch(config-vlan)# exit
+Switch(config)# interface range fa0/1 - 2
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 10
+Switch(config-if-range)# exit
+Switch(config)# interface range fa0/3 - 4
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan 20
+
+
+5. Test communication within each VLAN (PC1 should ping PC2, and PC3 should ping PC4).
+
+
+
+Learning Outcome: Learn how to segment traffic using VLANs to increase network security and performance.
+
+
+---
+
+Lab Task 7: Inter-VLAN Routing
+
+Objective: Configure a router to allow communication between two VLANs.
+
+Steps:
+
+1. Use the same setup as in Lab Task 6 (with two VLANs on the switch).
+
+
+2. Add a Router and connect it to the switch using a Copper Straight-Through cable.
+
+
+3. Configure a Router-on-a-Stick:
+
+On the router, configure subinterfaces:
+
+
+Router> enable
+Router# configure terminal
+Router(config)# interface gig0/0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# interface gig0/0.10
+Router(config-subif)# encapsulation dot1Q 10
+Router(config-subif)# ip address 192.168.10.1 255.255.255.0
+Router(config-subif)# exit
+Router(config)# interface gig0/0.20
+Router(config-subif)# encapsulation dot1Q 20
+Router(config-subif)# ip address 192.168.20.1 255.255.255.0
+Router(config-subif)# exit
+
+
+4. On the PCs, configure the default gateways as:
+
+PC1 and PC2: 192.168.10.1
+
+PC3 and PC4: 192.168.20.1
+
+
+
+5. Test communication between VLANs by pinging PC3 from PC1.
+
+
+
+Learning Outcome: Understand how to use a router to enable communication between VLANs.
+
+
+---
+
+Lab Task 8: Configuring a Wireless Network
+
+Objective: Set up a simple wireless network with a router and wireless clients.
+
+Steps:
+
+1. Drag a Wireless Router and connect a PC to it using Copper Straight-Through cable.
+
+
+2. Drag two Laptop PCs onto the workspace and configure them for wireless communication.
+
+
+3. Click on the wireless router, go to the Config tab, and set the following:
+
+SSID: MyNetwork
+
+Security Mode: WPA2-PSK
+
+Password: mypassword
+
+
+
+4. On the laptops, go to the Desktop tab, open PC Wireless settings, and connect to the network "MyNetwork" using the password "mypassword."
+
+
+5. Assign IP addresses via DHCP on the wireless router:
+
+IP address range: 192.168.0.100 - 192.168.0.200
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.0.1
+
+
+6. Test connectivity between the wireless devices using the ping command.
+
+
+
+Learning Outcome: Learn how to set up and configure a basic wireless network with security features.
+
+
+---
+
+Lab Task 9: Network Address Translation (NAT)
+
+Objective: Configure NAT on a router to allow private IP addresses to communicate with the outside world.
+
+Steps:
+
+1. Create a simple network with a Router, Switch, and PCs. Add another Router to act as the outside world.
+
+
+2. Assign IP addresses to the devices:
+
+Inside network (connected to Router 1): 192.168.1.x / 255.255.255.0
+
+Outside network (connected to Router 2): 10.0.0.x / 255.255.255.0
+
+
+
+3. Configure NAT on Router 1:
+
+Router1> enable
+Router1# configure terminal
+Router1(config)# interface gig0/0
+Router1(config-if)# ip address 192.168.1.1 255.255.255.0
+Router1(config-if)# no shutdown
+Router1(config-if)# exit
+Router1(config)# interface serial0/0/0
+Router1(config-if)# ip address 10.0.0.1 255.255.255.0
+Router1(config-if)# no shutdown
+Router1(config)# ip nat inside source list 1 interface serial0/0/0 overload
+Router1(config)# access-list 1 permit 192.168.1.0 0.0.0.255
+Router1(config)# interface gig0/0
+Router1(config-if)# ip nat inside
+Router1(config-if)# exit
+Router1(config)# interface serial0/0/0
+Router1(config-if)# ip nat outside
+Router1(config-if)# exit
+
+
+4. Configure the second router and ensure the networks can communicate using NAT.
+
+
+
+Learning Outcome: Understand how NAT allows private IP addresses to communicate with external networks by translating them into public IP addresses.
+
+
+---
+
+Lab Task 10: Access Control Lists (ACLs)
+
+Objective: Configure ACLs to control access to certain parts of the network.
+
+Steps:
+
+1. Create a network with a Router, Switch, and two PCs.
+
+
+2. Assign IP addresses:
+
+PC1: 192.168.1.2 / 255.255.255.0
+
+PC2: 192.168.1.3 / 255.255.255.0
+
+
+
+3. Configure the router to deny PC2 access to the network:
+
+Router> enable
+Router# configure terminal
+Router(config)# access-list 1 deny 192.168.1.3
+Router(config)# access-list 1 permit any
+Router(config)# interface gig0/0
+Router(config-if)# ip access-group 1 in
+Router(config-if)# exit
+
+
+4. Test connectivity by pinging from PC1 and PC2. PC1 should be able to ping, but PC2 should be denied.
+
+
+
+Learning Outcome: Learn how to use ACLs to control network traffic and implement basic security policies.
+
+
+---
+
+Lab Task 11: Simple OSPF Configuration
+
+Objective: Set up OSPF routing between two routers.
+
+Steps:
+
+1. Drag two Routers and connect them via a serial link. Connect each router to its own LAN with Switches and PCs.
+
+
+2. Assign IP addresses to all devices in different subnets.
+
+
+3. Configure OSPF on both routers:
+
+Router1> enable
+Router1# configure terminal
+Router1(config)# router ospf 1
+Router1(config-router)# network 192.168.1.0 0.0.0.255 area 0
+Router1(config-router)# exit
+
+Do the same for Router 2, adjusting the network command for its subnet.
+
+
+4. Test connectivity by pinging across the routers.
+
+
+
+Learning Outcome: Understand basic dynamic routing using OSPF.
+
+
+---
+
+These lab tasks cover a range of fundamental networking concepts like VLANs, wireless networks, NAT, ACLs, and dynamic routing protocols like OSPF. By completing them, you will develop a strong foundation in network configuration and management.
+
+Here are some simple Cisco Packet Tracer lab tasks for beginners to get started with basic network concepts:
+
+
+---
+
+Lab Task 5: Basic Static Routing Between Two Routers
+
+Objective: Configure two routers to enable communication between two different networks using static routing.
+
+Steps:
+
+1. Create two separate LANs (with a router, switch, and two PCs in each LAN).
+
+
+2. Connect the two routers using a serial link.
+
+
+3. Assign IP addresses to the PCs, routers, and serial interfaces (use two different subnets for each LAN and a third subnet for the serial link).
+
+
+4. Configure static routes on both routers:
+
+On Router 1:
+
+Router(config)# ip route 192.168.2.0 255.255.255.0 10.0.0.2
+
+On Router 2:
+
+Router(config)# ip route 192.168.1.0 255.255.255.0 10.0.0.1
+
+
+
+5. Test connectivity by pinging from a PC in one network to a PC in the other.
+
+
+
+Learning Outcome: Learn how to configure static routes on routers for inter-network communication.
+
+
+---
+
+These lab tasks will help beginners understand the basics of networking using Cisco Packet Tracer, including IP addressing, switching, routing, and dynamic configuration.
 
