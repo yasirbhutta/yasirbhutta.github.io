@@ -127,20 +127,37 @@ A quantity upon which a mathematical operation is performed
 - The operations in a formula are performed from left to right – following the order of operator precedence.
 - You can change the of precedence of operators by using parentheses ().
 
-### PEMDAS
+### PEDMAS
 
-PEMDAS is an acronym that stands for the following order of operations:
+In Excel, PEDMAS is an acronym to remember the order of operations:
 
-- Parentheses
-- Exponents
-- Multiplication
-- Division
-- Addition
-- Subtraction
+1. Parentheses (P): Calculate expressions inside parentheses first.
+2. Exponents (E): Next, handle any powers or roots.
+3. Division (D) and Multiplication (M): These operations are processed from left to right.
+4. Addition (A) and Subtraction (S): Finally, these are completed from left to right.
 
-Excel follows the PEMDAS order of operations when evaluating formulas. This means that operations within parentheses are performed first, followed by exponents, multiplication and division, and then addition and subtraction.
 
-For example, the following formula will evaluate to 14:
+For example, with a formula like
+
+```excel 
+= (6 + 4) ^ 2 / 5
+```
+Excel follows PEDMAS by:
+
+- First calculating (6 + 4), resulting in 10.
+- Then raising 10 to the power of 2 (10^2 = 100).
+- Lastly, dividing by 5, giving a final result of 20.
+
+Another example formula:
+
+```excel
+= (3 + 2) ^ 2 * 4 / 2
+```
+
+Excel first calculates the parentheses (3 + 2), resulting in 5, then raises it to the power 2 (5^2 = 25), and finally multiplies by 4 to give 100.
+
+
+The following formula will evaluate to 14:
 
 ```excel
 =2 + 3 * 4
@@ -157,16 +174,20 @@ This is because the operation within the parentheses is performed first.
 Here are some other examples of the PEMDAS order of operations in Excel:
 
 ```excel
-=2 + 3^4      # Evaluates to 83 (exponents are performed before addition)
+=2 + 3 ^ 4      # Evaluates to 83 (exponents are performed before addition)
 =2 - 3 * 4      # Evaluates to -10 (multiplication is performed before subtraction)
 =5 / (6 + 4)     # Evaluates to 0.5 (addition is performed before division)
 =2 * (3 + 4)     # Evaluates to 14 (addition is performed before multiplication)
-=6/3-2+3*3       # Evaluates to 14 (muliplication and division are performed before subtraction.)
+=6 / 3 - 2 + 3 * 3       # Evaluates to 9 (muliplication and division are performed before subtraction.)
 ```
 
-You can use parentheses in Excel to override the PEMDAS order of operations and change the order in which operations are performed. This can be useful for creating more complex formulas.
+To change the order of evaluation, enclose in parentheses the part of the formula to be calculated first. 
 
 Watch this video on [Operator order in Excel](https://support.microsoft.com/en-us/office/video-operator-order-in-excel-2013-4af9541b-1c79-41cb-a0cf-dbced6c9ae4e) to learn more.
+
+**See also:**
+
+- [The order in which Excel performs operations in formulas - Microsoft Support](https://support.microsoft.com/en-us/office/the-order-in-which-excel-performs-operations-in-formulas-28eaf0d7-7058-4eff-a8ea-0a835fafadb8)
 
 ## Creating a formula
 

@@ -297,36 +297,34 @@ print(my_function())
 
    **Answer**: d) `my_func(1, c=4, b=2, 5)`
 
-   ### 25. **What is the output of the following code?**
+   ### 25. **What is the output of the following code?** [Python Quiz #91]
    ```python
    def change_value(x):
        x = 10
+
    num = 5
    change_value(num)
    print(num)
    ```
-   a) `5`  
-   b) `10`  
-   c) `Error`  
-   d) `None`  
+     - A) `5`  
+     - B) `10`  
+     - C) `Error`  
+     - D) `None`  
 
-   **Answer**: a) `5`
+   ### 41. **What is the output of the following code?** [Python Code #92]
+```python
+def my_func():
+  global x
+  x = 10
 
-   ### 41. **What is the output of the following code?**
-   ```python
-   x = 5
-   def my_func():
-       global x
-       x = 10
-   my_func()
-   print(x)
-   ```
-   a) `5`  
-   b) `10`  
-   c) `None`  
-   d) `Error`
-
-   **Answer**: b) `10`
+x = 5
+my_func()
+print(x)
+```
+    - A) `5`  
+    - B) `10`  
+    - C) `None`  
+    - D) `Error`
 
    ## 37. **What is the output of the following code?**
    ```python
