@@ -6,7 +6,15 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/cs-407-computer-networks/docs/computer-networks.html](https://yasirbhutta.github.io/ms-excel/docs/computer-networks.html)
 
-## What is a Private IP Address?
+**Contents:**
+
+- [What is Private IP Address](#1-what-is-a-private-ip-address)
+- [What is Public IP address](#2-what-is-public-ip-address)
+- [GigabitEthernet0/0](#3-gigabitethernet00)
+- [Ports in networking](#4-ports-in-networking)
+- [What is VLAN?](#5-what-is-vlan)
+
+## 1. What is a Private IP Address?
 
 A **private IP address** is an IP address reserved for internal use within a network (such as a home, office, or enterprise) that is **not routable** on the global internet. These addresses are used to identify devices within a private network and are translated to public IP addresses when communicating outside the network (via technologies like NAT, Network Address Translation).
 
@@ -37,7 +45,18 @@ The first IP (`192.168.x.0`) is typically reserved as the **network address**, a
 
 These IP ranges are reserved for internal network use and will not be routed on the public internet, ensuring that devices in these ranges cannot directly access or be accessed from the global internet without proper configuration (e.g., using NAT).
 
-## GigabitEthernet0/0
+## 2. What is Public IP address
+
+A **public IP address** is an IP address that is accessible over the internet. It is assigned to a network device, like a router, by an Internet Service Provider (ISP) and allows devices on that network to communicate with devices outside of it. This IP address is globally unique, meaning that no two devices connected directly to the internet will have the same public IP address at the same time.
+
+### Key Points
+- **Uniqueness**: Each public IP is unique and can be traced to the region, ISP, or sometimes the specific organization that owns it.
+- **Uses**: Public IPs are necessary for hosting web servers, allowing users to access online resources, and enabling remote access to a device on a network.
+- **Types**: Public IPs can be static (permanently assigned to a device) or dynamic (changes periodically).
+
+Most devices connected to the internet via a home network have a private IP address within the network, which is then mapped to the public IP of the router or modem when accessing the internet.
+
+## 3. GigabitEthernet0/0
 
 **GigabitEthernet0/0** refers to a specific network interface on a Cisco router or switch. Let’s break down the term in parts:
 
@@ -81,7 +100,7 @@ In this example:
 - **Usage**: Often used for **backbone connections** or **high-speed LAN segments**.
 - **Physical Interface**: Uses **RJ-45 connectors** or **fiber** connectors depending on the type of GigabitEthernet port (copper or fiber).
 
-## Ports in networking
+## 4. Ports in networking
 Each port is associated with a specific process or service, allowing computers to differentiate between different types of traffic. For example, emails use a different port than webpages, even though both reach a computer over the same internet connection
 
 ## `192.168.1.0/24`
@@ -135,7 +154,7 @@ This setup allows for **254 usable IP addresses** (from `.1` to `.254`) that can
 
 This type of subnetting is typical in home and small office networks.
 
-### What is VLAN?
+## 5. What is VLAN?
 
 A **Virtual Local Area Network (VLAN)** is a logical grouping of devices within a larger physical network. VLANs allow network administrators to segment networks into smaller, manageable parts, regardless of the physical location of the devices. Each VLAN operates as a separate broadcast domain, meaning that devices in different VLANs cannot communicate with each other directly without the use of a router or a Layer 3 switch.
 
@@ -169,3 +188,27 @@ A **Virtual Local Area Network (VLAN)** is a logical grouping of devices within 
 7. **Improved Network Management:**
    - With VLANs, network administrators can manage network resources more effectively, applying policies and configurations at the VLAN level rather than on individual devices.
 
+## Difference Between Routers and Switches: Key Functions and Features
+
+**Routers** and **switches** are essential networking devices, but they serve different purposes within a network:
+
+### 1. Routers
+- **Purpose**: Routers connect different networks, such as a home network to the internet or multiple office networks to each other.
+- **Functionality**: They route data packets from one network to another, often directing traffic between local devices and the broader internet.
+- **IP Addressing**: Routers use IP addresses to determine the best path for data packets, allowing different networks to communicate.
+- **Security**: Routers often have built-in firewalls, which provide a security layer by filtering traffic.
+
+### 2. Switches
+- **Purpose**: Switches connect multiple devices within a single local area network (LAN), like computers, printers, and servers in an office.
+- **Functionality**: Switches forward data packets within a network based on MAC addresses (not IP addresses) to ensure each device receives only the data intended for it.
+- **Efficiency**: They improve network efficiency by reducing data collisions and isolating data transfers to specific devices.
+- **No Routing**: Switches don’t connect to the internet directly; they only manage internal network communication.
+
+### Summary Table
+
+| Feature         | Router                            | Switch                         |
+|-----------------|-----------------------------------|--------------------------------|
+| **Primary Role** | Connects networks                | Connects devices within a LAN  |
+| **Data Handling**| Routes data using IP addresses   | Forwards data using MAC addresses |
+| **Scope**        | Operates across networks         | Operates within a network      |
+| **Security**     | Often has firewall capabilities  | Typically lacks security features
