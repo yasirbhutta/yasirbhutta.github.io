@@ -131,10 +131,10 @@ A quantity upon which a mathematical operation is performed
 
 In Excel, PEDMAS is an acronym to remember the order of operations:
 
-1. Parentheses (P): Calculate expressions inside parentheses first.
-2. Exponents (E): Next, handle any powers or roots.
-3. Division (D) and Multiplication (M): These operations are processed from left to right.
-4. Addition (A) and Subtraction (S): Finally, these are completed from left to right.
+1. **Parentheses (P):** Calculate expressions inside parentheses first.
+2. **Exponents (E):** Next, handle any powers or roots.
+3. **Division (D) and Multiplication (M):** These operations are processed from left to right.
+4. **Addition (A) and Subtraction (S):** Finally, these are completed from left to right.
 
 
 For example, with a formula like
@@ -174,11 +174,11 @@ This is because the operation within the parentheses is performed first.
 Here are some other examples of the PEMDAS order of operations in Excel:
 
 ```excel
-=2 + 3 ^ 4      # Evaluates to 83 (exponents are performed before addition)
-=2 - 3 * 4      # Evaluates to -10 (multiplication is performed before subtraction)
-=5 / (6 + 4)     # Evaluates to 0.5 (addition is performed before division)
-=2 * (3 + 4)     # Evaluates to 14 (addition is performed before multiplication)
-=6 / 3 - 2 + 3 * 3       # Evaluates to 9 (muliplication and division are performed before subtraction.)
+=2 + 3 ^ 4          # Evaluates to 83 (exponents are performed before addition)
+=2 - 3 * 4          # Evaluates to -10 (multiplication is performed before subtraction)
+=5 / (6 + 4)        # Evaluates to 0.5 (addition is performed before division)
+=2 * (3 + 4)        # Evaluates to 14 (addition is performed before multiplication)
+=6 / 3 - 2 + 3 * 3  # Evaluates to 9 (muliplication and division are performed before subtraction.)
 ```
 
 To change the order of evaluation, enclose in parentheses the part of the formula to be calculated first. 

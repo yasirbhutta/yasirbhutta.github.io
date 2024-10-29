@@ -19,24 +19,26 @@ Steps:
 
 1. Drag two PCs onto the workspace.
 2. Drag a Switch and place it between the two PCs.
-3. Use Copper Straight-Through cables to connect each PC to the switch.
+3. Use Copper Cross-over cables to connect each PC to the switch.
 4. Click on PC1, go to the Desktop tab, and assign the following IP address:
 
+```cmd
 IP: 192.168.1.1
 
 Subnet Mask: 255.255.255.0
-
+```
 
 Do the same for PC2 with:
 
+```cmd
 IP: 192.168.1.2
 
 Subnet Mask: 255.255.255.0
+```
 
 5. Test connectivity by opening a command prompt on PC1 and using the ping command to ping PC2.
 
 Learning Outcome: Understand basic IP addressing and connectivity testing using the ping command.
-
 
 ## Lab Task 2: Connecting Multiple PCs using a Switch
 
@@ -48,6 +50,8 @@ Steps:
 2. Use Copper Straight-Through cables to connect each PC to the switch.
 3. Assign the following IP addresses and subnet masks:
 
+
+```cmd
 PC1: 192.168.1.1 / 255.255.255.0
 
 PC2: 192.168.1.2 / 255.255.255.0
@@ -55,7 +59,7 @@ PC2: 192.168.1.2 / 255.255.255.0
 PC3: 192.168.1.3 / 255.255.255.0
 
 PC4: 192.168.1.4 / 255.255.255.0
-
+```
 
 4. Test connectivity by pinging each PC from another (e.g., from PC1, ping PC2, PC3, and PC4).
 
@@ -66,7 +70,7 @@ Learning Outcome: Understand how a switch enables communication between multiple
 
 Configuring a DHCP (Dynamic Host Configuration Protocol) server in Cisco Packet Tracer allows you to automate the assignment of IP addresses to devices on your network. Below is a step-by-step guide to setting up a DHCP server using Packet Tracer's built-in server functionality. This guide assumes you have a basic understanding of networking concepts and Packet Tracer's interface.
 
-## **1. Set Up Your Network Topology**
+### **1. Set Up Your Network Topology**
 
 Before configuring the DHCP server, you need to set up a basic network topology. Here's a simple example:
 
@@ -133,7 +137,7 @@ The router will act as the default gateway for your network.
 
 Using Packet Tracer's built-in server functionality is straightforward.
 
-### **Steps:**
+#### **Steps:**
 
 1. **Access the Server:**
    - Click on the **Server** device.
@@ -322,7 +326,7 @@ To configure a DNS server in Cisco Packet Tracer, follow these steps:
    ```
 3. If the DNS server is correctly configured, the PC will be able to resolve the domain name to the IP address and respond to the ping.
 
-## Task #1:
+## Task #3:
 To create the network diagram in Cisco Packet Tracer based on the whiteboard image, follow these steps:
 
 Devices and IPs:
@@ -408,6 +412,79 @@ Connect the switch to the router.
 
 8. Test DNS Resolution:
 9. From PC1, PC2, or PC3, use the Command Prompt (CLI) to test the DNS resolution by pinging the domain names (e.g., ping example.com). If DNS is properly configured, it will resolve the domain name to the associated IP address.
+
+To check connectivity between PCs in different subnets as represented in your diagram, you can perform the following tasks:
+
+## Task #4: Connect PCs with different subnet
+
+### Step 1: Assign IP Addresses
+
+Make sure that all the PCs are configured with the IP addresses shown in the diagram:
+
+PC1: 192.168.2.10
+
+PC2: 192.168.2.11
+
+PC3: 192.168.1.10
+
+PC4: 192.168.1.11
+
+
+### Step 2: Ping Test within the Same Subnet
+
+1. Ping between PC1 and PC2 (same subnet: 192.168.2.x):
+
+From PC1, open the terminal and run:
+
+ping 192.168.2.11
+
+From PC2, run:
+
+ping 192.168.2.10
+
+
+
+2. Ping between PC3 and PC4 (same subnet: 192.168.1.x):
+
+From PC3, open the terminal and run:
+
+ping 192.168.1.11
+
+From PC4, run:
+
+ping 192.168.1.10
+
+
+
+
+### Step 3: Ping Test Across Different Subnets
+
+1. Ping between PC1 (192.168.2.10) and PC3 (192.168.1.10):
+
+From PC1, run:
+
+ping 192.168.1.10
+
+From PC3, run:
+
+ping 192.168.2.10
+
+
+
+2. Ping between PC2 (192.168.2.11) and PC4 (192.168.1.11):
+
+From PC2, run:
+
+ping 192.168.1.11
+
+From PC4, run:
+
+ping 192.168.2.11
+
+
+> **Tips:** A router or Layer 3 switch is configured for routing between subnets.
+
+By completing these tasks, you can check the connectivity between PCs in the same and different subnets.
 
 ## 3. Connecting Two LANs with a Router: A Step-by-Step Guide
 
@@ -517,7 +594,8 @@ Switch# write memory
 ### Conclusion
 By following these steps, you can successfully connect two LANs using a router in Cisco Packet Tracer. This setup allows devices from one LAN to communicate with devices on another LAN, demonstrating the fundamental concept of routing in computer networks. If you have any further questions or need additional details, feel free to ask!
 
-## Lab Task 3: Router Configuration with Two Subnets
+
+## Router Configuration with Two Subnets
 
 Objective: Create two networks with different subnets and connect them using a router.
 
@@ -634,6 +712,192 @@ Switch# show vlan brief
 
 With these steps, you should be able to configure VLANs successfully in Cisco Packet Tracer. If you have any specific scenarios or questions, feel free to ask!
 
+## Configure a Web Server
+
+To configure a web server using Cisco Packet Tracer, follow these steps:
+
+### Step 1: Open Cisco Packet Tracer
+
+Launch Cisco Packet Tracer and open a new workspace.
+
+### Step 2: Add Devices
+
+- **Add a PC:** From the device list, select a PC and place it on the workspace.
+- **Add a Server:** Select a server device and place it on the workspace.
+- **Add a Switch:** Place a switch to connect the devices.
+
+### Step 3: Connect the Devices
+
+Use a copper straight-through cable to connect:
+
+- PC to the Switch.
+- Server to the Switch.
+
+### Step 4: Configure the Server (Web Server)
+
+1. Click on the Server to open its configuration panel.
+
+2. Go to the Desktop tab and select IP Configuration.
+
+Assign an IP address to the server, e.g., 192.168.1.2.
+
+Set the subnet mask, e.g., 255.255.255.0.
+
+Leave the default gateway blank for now if it's a simple setup.
+
+3. Go to the Services tab.
+
+4. Click on HTTP and turn on the HTTP service (it’s usually on by default).
+
+Optionally, turn on the HTTPS service for secure connections.
+
+### Step 5: Configure the PC
+
+1. Click on the PC to open its configuration panel.
+   
+2. Go to the Desktop tab and select IP Configuration.
+
+Assign an IP address, e.g., 192.168.1.3.
+
+Use the same subnet mask as the server, e.g., 255.255.255.0.
+
+Set the default gateway to 192.168.1.1 (if required for external routing).
+
+### Step 6: Test Connectivity
+
+1. Ping the Server from the PC:
+
+Go to the PC’s Desktop, open the Command Prompt, and type:
+
+ping 192.168.1.2
+
+If the ping is successful, the connection is working.
+
+### Step 7: Access the Web Server
+
+1. On the PC, open the Web Browser from the Desktop tab.
+
+2. In the URL bar, enter the server's IP address, e.g., http://192.168.1.2.
+
+3. The web browser should display the default web page hosted by the Packet Tracer server.
+
+### Step 8: (Optional) Customize Web Content
+
+1. In the Services tab of the server, under HTTP, you can modify the content of the web page (e.g., index.html) by editing the file.
+
+2. This allows you to serve custom content to clients accessing the web server.
+
+### Step 9: Save Your Work
+
+Once everything is working, save your project for future reference.
+
+## Upload a custom index.html page on a web server
+
+This basic configuration sets up a web server in Cisco Packet Tracer for a small network.
+
+To upload a custom index.html page on a web server in Cisco Packet Tracer, follow these steps:
+
+### Step 1: Open the Server Configuration
+
+1. Click on the Server that you want to configure in the workspace.
+2. Go to the Services tab.
+
+## Step 2: Navigate to the HTTP Service
+
+1. In the Services tab, select HTTP from the list of services on the left side.
+2. In the HTTP section, you'll see the list of default files such as index.html.
+
+### Step 3: Upload or Edit the index.html Page
+
+1. Under Files, locate index.html.
+
+You can either edit this file directly or upload your own HTML file.
+
+2. To edit the existing index.html:
+
+Click on the file name (index.html) and a text editor will appear where you can modify the contents of the web page.
+
+Replace the default HTML content with your custom HTML code.
+
+3. To upload a new index.html:
+
+Click the Upload button (if available) and browse for the index.html file from your computer (this option is not always available depending on the version of Packet Tracer you're using).
+
+### Step 4: Save the Changes
+
+Once you've edited or uploaded the HTML file:
+
+1. Click Save to ensure your changes are applied.
+2. The updated index.html will now be hosted on the web server.
+
+### Step 5: Access the Web Page from a PC
+
+1. On the PC, open the Web Browser from the Desktop tab.
+2. Enter the IP address of the server in the URL field, e.g., http://192.168.1.2.
+3. The browser should now display your custom index.html page.
+
+This process allows you to customize the web content served by the server in Cisco Packet Tracer.
+
+## Configure a DNS server to redirect a domain name
+
+To configure a DNS server in Cisco Packet Tracer to redirect a domain name (e.g., www.example.com) to a specific website hosted on a web server, follow these steps:
+
+### Step 1: Set up Devices
+
+Ensure you have the following devices already placed and connected in Cisco Packet Tracer:
+
+1. PC (to access the website)
+2. Web Server (hosting the website)
+3. DNS Server
+4. Switch (to connect all devices)
+5. Router (optional, if simulating a more complex network)
+
+### Step 2: Configure the Web Server
+
+1. Click on the Web Server and go to the Desktop tab.
+2. Click on IP Configuration and assign an IP address (e.g., 192.168.1.2), subnet mask (e.g., 255.255.255.0), and default gateway if required.
+3. Go to the Services tab and make sure the HTTP service is turned on (under HTTP).
+
+### Step 3: Configure the DNS Server
+
+1. Click on the DNS Server and go to the Desktop tab.
+2. Open IP Configuration and assign an IP address to the DNS server (e.g., 192.168.1.1), subnet mask (e.g., 255.255.255.0), and default gateway if necessary.
+3. Go to the Services tab and click on DNS in the list of services on the left.
+4. Turn on the DNS service if it is not already enabled.
+5. Add a new A (Address) Record:
+
+Under Name, enter the domain name you want to use (e.g., www.example.com).
+
+Under Address, enter the IP address of the web server (e.g., 192.168.1.2).
+
+Click Add to add this DNS entry.
+
+### Step 4: Configure the PC
+
+1. Click on the PC and go to the Desktop tab.
+2. Open IP Configuration and assign an IP address to the PC (e.g., 192.168.1.3), subnet mask (e.g., 255.255.255.0), and default gateway (e.g., 192.168.1.254).
+3. In the DNS Server field, enter the IP address of the DNS server (e.g., 192.168.1.1).
+
+### Step 5: Test the DNS Configuration
+
+1. On the PC, go to the Desktop tab and open the Command Prompt.
+2. Test the DNS resolution by typing:
+
+```
+ping www.example.com
+```
+
+This should resolve to the IP address of the web server (192.168.1.2).
+
+3. To access the website, open the Web Browser on the PC and type the domain name (e.g., http://www.example.com) in the URL field.
+
+You should be redirected to the website hosted on the web server.
+
+### Step 6: Save the Configuration
+
+After verifying that everything works, save your Packet Tracer project.
+
+This setup allows you to configure a DNS server that resolves a domain name to the IP address of a web server, effectively redirecting the domain to the website.
 
 
 ## **Appendices**
