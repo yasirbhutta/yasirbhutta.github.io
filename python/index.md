@@ -45,6 +45,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Error and Exception Handling](docs/error.md)
 - [Python Performance and Best practices](docs/best-practices.md)
 - [Python in Excel](docs/python-excel.md)
+- [Data Visualization in Python](docs/data-visualization.md)
+
+- [Python Programming for Mathematics](docs/python-mathematics.md)
+- [Python for Kids](docs/python-kids.md)
 
 ### [Classes](docs/classes.md)
 
@@ -52,9 +56,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [calendar](docs/modules/calendar.md)
 - [random](docs/modules/random.md)
-- [Python for Kids](docs/python-kids.md)
 
-### Python for Data Analysis
+### Python for Data AnaAlysis
 
 - [pandas](docs/modules/pandas.md)
 - [Numpy](docs/modules/numpy.md)
