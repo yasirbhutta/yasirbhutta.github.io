@@ -1,5 +1,31 @@
 # Math Library in Python
 
+- [Math Library in Python](#math-library-in-python)
+  - [Math Library for Advanced Calculations](#math-library-for-advanced-calculations)
+    - [1. **Basic Functions**](#1-basic-functions)
+    - [2. **Exponential and Logarithmic Functions**](#2-exponential-and-logarithmic-functions)
+    - [3. **Power and Root Functions**](#3-power-and-root-functions)
+    - [4. **Trigonometric Functions**](#4-trigonometric-functions)
+    - [5. **Hyperbolic Functions**](#5-hyperbolic-functions)
+    - [6. **Angular Functions**](#6-angular-functions)
+    - [7. **Special Constants**](#7-special-constants)
+    - [8. **Rounding and Precision Functions**](#8-rounding-and-precision-functions)
+    - [9. **Greatest Common Divisor and Least Common Multiple**](#9-greatest-common-divisor-and-least-common-multiple)
+    - [10. **Combinatorics**](#10-combinatorics)
+    - [Summary Table](#summary-table)
+  - [Key Terms](#key-terms)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Fill in the Blanks](#fill-in-the-blanks)
+  - [Exercises](#exercises)
+    - [Beginner: Basic concepts and syntax.](#beginner-basic-concepts-and-syntax)
+    - [Intermediate: More complex problems involving data structures and algorithms.](#intermediate-more-complex-problems-involving-data-structures-and-algorithms)
+    - [Advanced: Challenging problems that require in-depth understanding and optimization.](#advanced-challenging-problems-that-require-in-depth-understanding-and-optimization)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+  - [Appendices](#appendices)
+    - [Appendix A:](#appendix-a)
+
 ## Math Library for Advanced Calculations
 
 The `math` library is built-in, so you don’t need to install anything to use it. You can import it simply by using `import math`.
@@ -154,3 +180,48 @@ The `math` library is built-in, so you don’t need to install anything to use i
 | Combinatorics                    | `math.perm`, `math.comb`                |
 
 The `math` library is a comprehensive toolset for performing a wide range of mathematical calculations, making Python versatile for both basic and advanced math applications. Let me know if you'd like further details or examples on any specific function!
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
+  
+**Watch this video for the answer:**
+
+**Answer key (Mutiple Choice):**
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+### Beginner: Basic concepts and syntax.
+
+### Intermediate: More complex problems involving data structures and algorithms.
+
+### Advanced: Challenging problems that require in-depth understanding and optimization.
+
+## Review Questions
+
+## References and Bibliography
+
+[1] Python Software Foundation, “Math — Mathematical Functions — Python 3.13 Documentation,” docs.python.org, 2024. [https://docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
+
+For more details, see Appendix A.
+
+## Appendices
+
+### Appendix A: 
+
+
+‌

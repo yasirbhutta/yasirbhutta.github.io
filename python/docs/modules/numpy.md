@@ -1,8 +1,8 @@
 # Python Programming for Mathematics: 
 
+
+
 The `NumPy` library in Python is widely used for linear algebra due to its powerful array handling capabilities. It provides efficient functions for a range of linear algebra operations, such as matrix creation, matrix operations, determinants, eigenvalues, and linear equation solving.
-
-
 
 - [Python Array Dimensions: Understanding Shape and Size](https://youtu.be/UIGM_suK5cI?si=C_CJkuDpjibE8XtE)
 - [Reshape an Array](https://youtu.be/pNqam8PzQ0M?si=xCofTbcU65tsFTc_)
