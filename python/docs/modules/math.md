@@ -1,4 +1,6 @@
-# Python Programming for Mathematics: Math Library for Advanced Calculations
+# Math Library in Python
+
+## Math Library for Advanced Calculations
 
 The `math` library is built-in, so you don’t need to install anything to use it. You can import it simply by using `import math`.
 

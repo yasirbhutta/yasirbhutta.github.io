@@ -40,7 +40,7 @@ The `math` library offers functions for more advanced calculations like square r
    sin_val = math.sin(math.pi / 2)  # sine of 90 degrees
    ```
 
-[Learn more ...](mathematics/math.md)
+[Learn more ...](modules/math.md)
 
 ### 4. **Linear Algebra with NumPy**
    For higher-level math, such as linear algebra, the `NumPy` library is very useful. It can handle matrices, arrays, and operations on them.
