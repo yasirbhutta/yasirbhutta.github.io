@@ -9,6 +9,30 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 
 [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 
+- [Formulas in Excel](#formulas-in-excel)
+  - [Module 3: Formulas in Excel](#module-3-formulas-in-excel)
+  - [Formula](#formula)
+    - [See also](#see-also)
+    - [Structure of a Formula](#structure-of-a-formula)
+      - [Example of Formula](#example-of-formula)
+  - [Operators](#operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+      - [See Also](#see-also-1)
+    - [Comparision Operators](#comparision-operators)
+    - [Text concatenation operator](#text-concatenation-operator)
+    - [Reference Operators](#reference-operators)
+      - [Implicit intersection operator: @](#implicit-intersection-operator-)
+  - [Operand](#operand)
+    - [Order of Operations: Left to Right and Parentheses](#order-of-operations-left-to-right-and-parentheses)
+    - [PEMDAS](#pemdas)
+  - [Creating a formula](#creating-a-formula)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
+
 ## Module 3: Formulas in Excel
 
 - Understanding of the formulas
