@@ -6,6 +6,19 @@
 **To access the updated handouts, please click on the following link:**
 [https://yasirbhutta.github.io/computer-basics/docs/computer.html](https://yasirbhutta.github.io/computer-basics/docs/computer.html)
 
+- [Journey into the World Of Computers](#journey-into-the-world-of-computers)
+  - [Module 1](#module-1)
+    - [What is a Computer?](#what-is-a-computer)
+    - [Areas of Application](#areas-of-application)
+    - [Data and Information](#data-and-information)
+      - [What is a Data?](#what-is-a-data)
+      - [What is a Process?](#what-is-a-process)
+      - [What is Information?](#what-is-information)
+    - [How The Computer Process?](#how-the-computer-process)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Review Questions](#review-questions)
+    - [References](#references)
+
 ## Module 1
 
 **Module Objectives:**

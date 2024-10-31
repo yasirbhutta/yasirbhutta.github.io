@@ -1,4 +1,4 @@
-# Python: Data Types
+# Data Types in Python
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -6,16 +6,42 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
 
+- [Data Types in Python](#data-types-in-python)
+  - [1. **Numeric Types:**](#1-numeric-types)
+  - [Understanding Dynamic Variables in Python with Examples](#understanding-dynamic-variables-in-python-with-examples)
+  - [None](#none)
+  - [Type Hints](#type-hints)
+    - [1. **Type Hinting for Variables**](#1-type-hinting-for-variables)
+    - [2. **Type Hinting in Functions**](#2-type-hinting-in-functions)
+      - [Example:](#example)
+    - [3. **Type Hints for Collections**](#3-type-hints-for-collections)
+      - [Lists](#lists)
+      - [Dictionaries](#dictionaries)
+        - [Example:](#example-1)
+      - [Sets](#sets)
+        - [Example:](#example-2)
+      - [Functions with Collection Type Hints](#functions-with-collection-type-hints)
+        - [Example:](#example-3)
+  - [Key Terms](#key-terms)
+  - [Fix the error](#fix-the-error)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Fill in the Blanks](#fill-in-the-blanks)
+  - [Exercises](#exercises)
+    - [Exercise 1: Variable Assignment and Basic Operations](#exercise-1-variable-assignment-and-basic-operations)
+    - [Exercise 2: Working with Different Data Types](#exercise-2-working-with-different-data-types)
+    - [Exercise 3: String Concatenation](#exercise-3-string-concatenation)
+    - [Exercise 4: Boolean Operations](#exercise-4-boolean-operations)
+    - [Exercise 5: Type Conversion](#exercise-5-type-conversion)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
 
-## Data Types in Python
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
 
 [Video: Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c)
 
-Here are some of the fundamental built-in data types in Python:
-
-1. **Numeric Types:**
+## 1. **Numeric Types:**
     - `int`: Stores whole (non-decimal) numbers, like `10`, `-5`, or `9999`.
     - `float`: Represents floating-point numbers with decimals, like `3.14`, `-2.5e2` (scientific notation), or `1.2345678901234567` (limited precision).
     - `complex`: Holds complex numbers with a real and imaginary part, like `3+2j` or `1.5-4.7j`.
@@ -35,7 +61,7 @@ price = 14.99
 complex_num = 3 + 2j  # Imaginary unit represented by j
 ```
 
-2. **String Type:**
+## 2. **String Type:**
     - `str`: Represents textual data enclosed in single or double quotes, such as `"Hello, world!"`, `'This is a string'`, or multi-line strings using triple quotes (''' or """).
 
 - [Example #1: How to Convert a Python String to int](https://www.youtube.com/watch?v=MMzwcMEmq2A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=108)
@@ -54,7 +80,7 @@ message = """This is a message
 that spans multiple lines."""
 ```
 
-3. **Boolean Type:**
+## 3. **Boolean Type:**
     - `bool`: Represents logical values: `True` or `False`. Used for conditional statements and boolean expressions.
 
 - [Example #1: Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
@@ -68,7 +94,7 @@ if is_raining:
     print("Bring an umbrella!")
 ```
 
-**Why Use Data Types?**
+## Why Use Data Types?
 
 [video: 3 Reasons Why Are Data Types So Important in Python](https://www.youtube.com/watch?v=hziL5HamtNw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
@@ -141,6 +167,96 @@ In Python, `None` is a special constant that represents the absence of a value o
 
 - [Python Quiz -String](https://forms.gle/jqt6TRSumvZQgahA8)
 - [Python Quiz - Scalar Types](https://forms.gle/UzG76zZ5EBbkbtc66)
+
+## Type Hints
+
+In Python, **type hints** allow you to specify the expected data types of variables, function parameters, and return values. They make the code more readable and help developers understand what kind of values are expected.
+
+Here’s how you can use type hints in Python:
+
+### 1. **Type Hinting for Variables**
+You can add type hints to variables by using a colon `:` after the variable name, followed by the type:
+
+#### Example: Type Hinting for Variables
+
+```python
+age: int = 25
+name: str = "Alice"
+height: float = 5.7
+is_student: bool = True
+```
+
+### 2. Type Hinting in Functions
+For functions, type hints are added after the parameter names and before the return type with `->`.
+
+#### Example: Type Hinting in Functions
+
+```python
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+# Usage
+print(greet("Alice"))  # Output: Hello, Alice!
+```
+
+This code specifies that the `name` parameter should be a `str`, and the function should return a `str`.
+
+### 3. **Type Hints for Collections** 
+
+For more complex types like lists, dictionaries, sets, and tuples.
+
+#### Lists
+To specify that a list contains elements of a certain type, use `list`.
+
+```python
+
+# A list of integers
+numbers: list[int] = [1, 2, 3, 4, 5]
+
+# A list of strings
+names: list[str] = ["Alice", "Bob", "Charlie"]
+```
+
+#### Dictionaries
+For dictionaries, you can specify the types of both keys and values using `dict`.
+
+##### Example:
+
+```python
+# A dictionary with string keys and integer values
+age_map: dict[str, int] = {"Alice": 30, "Bob": 25, "Charlie": 35}
+```
+
+#### Sets
+To specify the type of elements in a set, use `Set`.
+
+##### Example:
+
+```python
+# A set of strings
+unique_names: set[str] = {"Alice", "Bob", "Charlie"}
+```
+
+#### Functions with Collection Type Hints
+You can also use type hints in function definitions to specify the types of parameters and return values.
+
+##### Example:
+
+```python
+# Function that processes a list of integers and returns a dictionary
+def process_data(numbers: list[int]) -> dict[str, int]:
+    result = {
+        'sum': sum(numbers),
+        'count': len(numbers)
+    }
+    return result
+
+data = [1, 2, 3, 4, 5]
+processed_data = process_data(data)
+print(processed_data)  # Output: {'sum': 15, 'count': 5}
+```
+
+Using type hints doesn’t enforce types at runtime but can improve code readability and help detect type-related issues with tools like **mypy**.
 
 ## Key Terms
 

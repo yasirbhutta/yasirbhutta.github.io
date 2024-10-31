@@ -50,7 +50,5 @@
   
 2. **Practical 2: Manage Softwares**
     - [slides](https://docs.google.com/presentation/d/1AEl9J22vv8-bwhECuOk-HjQRMSE4-8gv72JdQqTUqGo/edit?usp=sharing)
-
-
  
 ## [Final Project](docs/sna-projects.md)
