@@ -317,6 +317,8 @@ print("Hello", user_name + ", you are", user_age, "years old.")
 **3. What is the difference between declaring and initializing a variable?**
 **Answer:** Declaring a variable involves specifying its name and data type, while initializing a variable means giving it an initial value. Initialization usually follows declaration but is not always required.
 
+4. What is a variable in computer programming? Give examples of integer, string, float, and Boolean variables.
+
 ## References and Bibliography
 
 

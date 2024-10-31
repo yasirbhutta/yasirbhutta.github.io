@@ -14,6 +14,48 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
+- [Python: Language Basics](#python-language-basics)
+  - [What is Python](#what-is-python)
+  - [Getting Started](#getting-started)
+  - [Lesson 1: Python `print` Function](#lesson-1-python-print-function)
+    - [Objectives](#objectives)
+    - [Introduction to `print`](#introduction-to-print)
+    - [Task 1: Basic Printing](#task-1-basic-printing)
+    - [Task 2: Printing Different Data Types](#task-2-printing-different-data-types)
+    - [Task 3: Using `sep` and `end` Parameters](#task-3-using-sep-and-end-parameters)
+    - [Task 4: Print Variables](#task-4-print-variables)
+    - [Task 5: String Formatting](#task-5-string-formatting)
+    - [Task 6: Printing Special Characters](#task-6-printing-special-characters)
+    - [Task 7: Printing to a File](#task-7-printing-to-a-file)
+    - [Task 8: Understanding Syntax Errors in Python](#task-8-understanding-syntax-errors-in-python)
+    - [Practice Exercises](#practice-exercises)
+      - [Exercise 1: Print Your Favorite Quote](#exercise-1-print-your-favorite-quote)
+      - [Exercise 2: Create a Simple Receipt](#exercise-2-create-a-simple-receipt)
+      - [Exercise 3: Use Variables in Print Statements](#exercise-3-use-variables-in-print-statements)
+      - [Exercise 4: Output to a File](#exercise-4-output-to-a-file)
+      - [Exercise 5: 100 times "hello world" without loop](#exercise-5-100-times-hello-world-without-loop)
+      - [Exercise 6: How to print multiple lines](#exercise-6-how-to-print-multiple-lines)
+  - [Comments](#comments)
+  - [Indentation](#indentation)
+  - [Fix the Error](#fix-the-error)
+    - [Question 1: Fix the Parenthesis Error](#question-1-fix-the-parenthesis-error)
+    - [Question 2: Fix the Indentation Error \[Python Quiz #67\]](#question-2-fix-the-indentation-error-python-quiz-67)
+    - [Question 3: Fix the Missing Import Error](#question-3-fix-the-missing-import-error)
+    - [Question 4: Fix the Incorrect Variable Usage Error \[Python Quiz 68\]](#question-4-fix-the-incorrect-variable-usage-error-python-quiz-68)
+    - [Question 5: Fix the File Output Error](#question-5-fix-the-file-output-error)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+    - [Print Functions](#print-functions)
+    - [Indentation](#indentation-1)
+    - [Comments](#comments-1)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+  - [**Appendices**](#appendices)
+    - [**Appendix A: os.getcwd()**](#appendix-a-osgetcwd)
+    - [\*\*Appendix B: Compile time and Run time](#appendix-b-compile-time-and-run-time)
+
+
 ## What is Python
 
 - Python is a high-level, general-purpose programming language.
@@ -499,7 +541,7 @@ with open("output.txt", "w") as file:
       - A) .python
       - B) .pl
       - C) .p
-      - D)  .py
+      - D) .py
 
 8. **What is Jupyter Notebook primarily used for in the Python ecosystem?** [Python Quiz #54]
       - A) Web development
@@ -971,6 +1013,8 @@ Sure, here are some exercises about print functions, indentation, and comments i
    ```
    
 ## Review Questions
+
+1. Explain what comments and indentation are in Python, and give examples to show how they work.
 
 ## References and Bibliography
 

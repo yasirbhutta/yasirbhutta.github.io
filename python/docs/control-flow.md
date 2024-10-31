@@ -71,6 +71,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Match Statement (Python 3.10+)](#match-statement-python-310)
   - [Key Terms](#key-terms)
   - [Fix the errors in Python](#fix-the-errors-in-python)
+    - [Question:](#question)
+    - [Answer:](#answer)
+    - [Fixed Code:](#fixed-code)
+    - [Explanation:](#explanation)
   - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
   - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
     - [if statement (MCQs)](#if-statement-mcqs)
@@ -1351,6 +1355,30 @@ else:
 if x > 5  # Missing colon here
   print("X is greater than 5")
 ```
+
+Here’s another question:
+
+### Question:
+The following code is intended to print the even numbers from 0 to 10, but it contains an error. Identify and fix the error.
+
+```python
+for i in range(0, 11):
+if i % 2 == 0:
+    print(i)
+```
+
+### Answer:
+The code has an indentation error. The `if` statement needs to be indented to be part of the `for` loop.
+
+### Fixed Code:
+```python
+for i in range(0, 11):
+    if i % 2 == 0:
+        print(i)
+```
+
+### Explanation:
+In Python, all statements inside a `for` loop and any nested statements (like `if`) need to be indented consistently. This indicates that they are part of the respective block.
 
 **Which of the following will NOT cause a syntax error in Python?**
 

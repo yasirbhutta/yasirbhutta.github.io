@@ -554,8 +554,9 @@ print("Type of num_int:", type(num_int), "Value:", num_int)
 2. How do you create a string in Python? Give an example.
 3. What is the difference between an integer and a float in Python?
 4. How do you convert a string to an integer in Python?
-5. What function would you use to find the type of a variable in Python?
-6.  What is the purpose of the type() function in Python?
+5. How can you convert a string to an integer and an integer to a string in Python? Provide examples.
+6. What function would you use to find the type of a variable in Python?
+7.  What is the purpose of the type() function in Python?
 
 **Boolean and None**
 
