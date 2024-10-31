@@ -1,11 +1,9 @@
-# Microsoft Excel - Microsoft 365
+# Formulas in Excel
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-## Formulas in Excel
 
 - [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.pdf)
-
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formulas.html](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
 
@@ -127,13 +125,13 @@ A quantity upon which a mathematical operation is performed
 - The operations in a formula are performed from left to right – following the order of operator precedence.
 - You can change the of precedence of operators by using parentheses ().
 
-### PEDMAS
+### PEMDAS
 
-In Excel, PEDMAS is an acronym to remember the order of operations:
+In Excel, PEMDAS is an acronym to remember the order of operations:
 
 1. **Parentheses (P):** Calculate expressions inside parentheses first.
 2. **Exponents (E):** Next, handle any powers or roots.
-3. **Division (D) and Multiplication (M):** These operations are processed from left to right.
+3. **Multiplication (M) and Division (D):** These operations are processed from left to right.
 4. **Addition (A) and Subtraction (S):** Finally, these are completed from left to right.
 
 
@@ -142,7 +140,7 @@ For example, with a formula like
 ```excel 
 = (6 + 4) ^ 2 / 5
 ```
-Excel follows PEDMAS by:
+Excel follows PEMDAS by:
 
 - First calculating (6 + 4), resulting in 10.
 - Then raising 10 to the power of 2 (10^2 = 100).

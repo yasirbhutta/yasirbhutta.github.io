@@ -32,8 +32,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Review Questions](#review-questions)
   - [References and Bibliography](#references-and-bibliography)
 
-
-
 ## Data Storage Device
 
 - A data storage device is a device for storing information (data).
