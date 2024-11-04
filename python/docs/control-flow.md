@@ -24,6 +24,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Task #2: Compare Two Numbers in Python](#task-2-compare-two-numbers-in-python)
     - [Task #3: Determine if a Number is Negative, Zero, or Positive](#task-3-determine-if-a-number-is-negative-zero-or-positive)
     - [Task #4: Compare Two Input Numbers](#task-4-compare-two-input-numbers)
+    - [Exercise 2: Age Checker](#exercise-2-age-checker)
+- [for the user’s age and checks if the user is older than 18.](#for-the-users-age-and-checks-if-the-user-is-older-than-18)
     - [Task #5: Age Checker](#task-5-age-checker)
     - [Task #6: Divisibility Check](#task-6-divisibility-check)
     - [Task #7: Voting Eligibility Check](#task-7-voting-eligibility-check)

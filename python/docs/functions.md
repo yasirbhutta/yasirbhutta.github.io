@@ -114,6 +114,154 @@ In this example:
 * A parameter is like an empty box that expects a value.
 * An argument is the value you put into the box.
 
+Sure! Here's a simple task for beginners to practice writing functions in Python, along with input and output examples.
+
+### Task: Create a Function to Calculate the Area of a Rectangle
+
+**Function Requirements:**
+1. Define a function named `calculate_area` that takes two parameters: `length` and `width`.
+2. The function should calculate the area of the rectangle (Area = Length × Width) and return the result.
+
+**Input:**
+- Length (a positive float or integer)
+- Width (a positive float or integer)
+
+**Output:**
+- The area of the rectangle (a float)
+
+### Expected Output
+```
+The area of the rectangle with length 5 and width 3 is: 15
+```
+
+### Additional Test Cases
+
+1. **Input:** `length = 7`, `width = 2`
+   - **Output:** `The area of the rectangle with length 7 and width 2 is: 14`
+
+2. **Input:** `length = 10.5`, `width = 4.2`
+   - **Output:** `The area of the rectangle with length 10.5 and width 4.2 is: 44.1`
+
+
+Absolutely! Here’s another beginner-friendly task.
+
+### Task: Create a Function to Check if a Number is Even or Odd
+
+**Function Requirements:**
+1. Define a function named `is_even` that takes one parameter: `number`.
+2. The function should determine if the number is even or odd.
+3. It should return the string `"Even"` if the number is even, and `"Odd"` if the number is odd.
+
+**Input:**
+- A single integer (positive or negative)
+
+**Output:**
+- A string: either `"Even"` or `"Odd"`
+
+### Example
+
+```python
+def is_even(number):
+    # Check if the number is even or odd
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Example usage:
+num = 4
+result = is_even(num)
+print(f"The number {num} is: {result}")
+```
+
+### Expected Output
+```
+The number 4 is: Even
+```
+
+### Additional Test Cases
+
+Encourage beginners to test the function with various numbers:
+
+1. **Input:** `num = 7`
+   - **Output:** `The number 7 is: Odd`
+
+2. **Input:** `num = -2`
+   - **Output:** `The number -2 is: Even`
+
+3. **Input:** `num = 0`
+   - **Output:** `The number 0 is: Even`
+
+This task helps beginners understand conditional statements and how to return different outputs based on input in Python.
+
+Sure! Here’s a task that focuses on building logic through a simple number guessing game.
+
+### Task: Create a Number Guessing Game
+
+**Function Requirements:**
+1. Define a function named `guess_number` that takes no parameters.
+2. The function should randomly select a number between 1 and 100.
+3. Prompt the user to guess the number, providing feedback on whether their guess is too high, too low, or correct.
+4. The game should continue until the user guesses the correct number.
+5. Once the user guesses correctly, the function should print a congratulatory message and the number of attempts it took.
+
+**Input:**
+- User input (guesses) from the console
+
+**Output:**
+- Feedback on each guess and a congratulatory message upon a correct guess
+
+### Expected Output
+
+When the user plays the game, the interaction might look like this:
+
+```
+Welcome to the Number Guessing Game!
+Guess a number between 1 and 100.
+Enter your guess: 50
+Too low! Try again.
+Enter your guess: 75
+Too high! Try again.
+Enter your guess: 60
+Congratulations! You've guessed the number 60 in 3 attempts.
+```
+
+### Notes for Beginners
+
+1. **Random Number Generation:** You can use the `random` module to select a random number.
+2. **Input Handling:** Use `input()` to get the user's guess and convert it to an integer.
+3. **Loops and Conditionals:** This task will help practice loops for continuous guessing and conditionals for feedback.
+
+### Task: Create a Function to Find the Maximum Number in a List
+
+**Function Requirements:**
+1. Define a function named `find_max` that takes one parameter: `numbers`, which is a list of integers.
+2. The function should return the maximum number in the list.
+3. If the list is empty, the function should return `None`.
+
+**Input:**
+- A list of integers
+
+**Output:**
+- The maximum integer in the list or `None` if the list is empty
+
+### Expected Output
+```
+The maximum number in the list is: 9
+```
+
+### Additional Test Cases
+
+1. **Input:** `numbers = [10, 20, 30, 5]`
+   - **Output:** `The maximum number in the list is: 30`
+
+2. **Input:** `numbers = [-5, -1, -10]`
+   - **Output:** `The maximum number in the list is: -1`
+
+3. **Input:** `numbers = []`
+   - **Output:** `The maximum number in the list is: None`
+
+
 ## 6.4 More on Defining Functions
 
 ### 6.4.1 Default Argument Values
