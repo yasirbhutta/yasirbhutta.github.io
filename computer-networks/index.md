@@ -36,4 +36,4 @@
   - Introduction to routers, switches, hubs, and modems.
   - [Hands-on activity](docs/lab2.md): Configure basic settings on a router and switch using cisco packet tracker
 
-
+## [Final Project: Project #1](../sna/docs/sna-projects.md)

@@ -1,4 +1,4 @@
-# Python for Beginners: Functions in Python
+# Chapter 6: Functions in Python
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -14,13 +14,30 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
+<<<<<<< HEAD
 ## What is a Function?
+=======
+> "The only way to do great work is to love what you do."  
+> – Steve Jobs
 
-In Python, a function is a block of code designed to perform a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
+## 6.1 What is a Function?
+>>>>>>> ef27128a4decf2953997546be3fe2a1a9231c939
 
-## How to Write a Function
+ A function is a block of reusable code that performs a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
+
+**Why Do We Use Functions? **
+
+We use functions in Python for several reasons:
+
+- **Code Reusability:** You can call a function multiple times instead of repeating code. This saves time and effort.
+- **Modularity:** Breaking down a large program into smaller, manageable chunks (functions) makes it easier to understand and maintain.
+- **Avoiding Repetition:** Functions prevent you from writing the same code over and over, reducing errors and improving efficiency."
+
+## 6.2 How to Write a Function
 
 To define a function, you use the `def` keyword followed by the function name, parentheses for parameters, and a colon. The code block that defines the function is indented.
+
+**Syntax:** 
 
 ```python
 def function_name(parameters):
@@ -28,7 +45,7 @@ def function_name(parameters):
   # Code to be executed
 ```
 
-**Example:**
+### Example 6.1: Defining and Calling a Function
 
 ```python
 def greet(name):
@@ -50,7 +67,7 @@ greet("Ahmad")  # Output: Hello, Ahmad!
 - **Return Value:** A function can optionally return a value using the `return` statement.
 - **Docstrings:** It's good practice to include a docstring (a string that explains the function's purpose) after the function definition.
 
-**Function with a Return Value:**
+### Example 6.2: Function with a Return Value
 
 ```python
 def add(x, y):
@@ -60,7 +77,7 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-### Parameters and Arguments
+## 6.3 Parameters and Arguments
 
 Parameters are defined by the names that appear in a function definition, whereas arguments are the values actually passed to a function when calling it. Parameters define what kind of arguments a function can accept. 
 
@@ -76,7 +93,7 @@ Parameters are defined by the names that appear in a function definition, wherea
 
 See also the `FAQ` question of `Python Documentation` on [the difference between arguments and parameters](https://docs.python.org/3/faq/programming.html#faq-argument-vs-parameter).
 
-**Example:**
+### Example 6.3: Defining a Function with Parameters and Passing Arguments
 
 ```python
 def greet(name):  # 'name' is a parameter
@@ -97,12 +114,13 @@ In this example:
 * A parameter is like an empty box that expects a value.
 * An argument is the value you put into the box.
 
-## More on Defining Functions
-### Default Argument Values
+## 6.4 More on Defining Functions
+
+### 6.4.1 Default Argument Values
 
 - [Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
 
-**Example:** Function with Default Parameters:**
+### Example 6.4: Function with Default Parameters
 
 ```python
 def greet(name="World"):
@@ -111,12 +129,13 @@ def greet(name="World"):
 greet()  # Output: Hello, World!
 greet("Alice")  # Output: Hello, Alice!
 ```
-### Keyword Arguments
-### Special parameters
-#### Positional-or-Keyword Arguments
-#### Positional-Only Parameters
-#### Keyword-Only Arguments
-#### Arbitrary Argument Lists
+
+### 6.4.2 Keyword Arguments
+### 6.4.3 Special parameters
+#### 6.4.3.1 Positional-or-Keyword Arguments
+#### 6.4.3.2 Positional-Only Parameters
+#### 6.4.3.3 Keyword-Only Arguments
+#### 6.4.3.4 Arbitrary Argument Lists
 
 In Python, Arbitrary Argument Lists allow a function to accept a varying number of arguments. This is useful when you don't know beforehand how many arguments might be passed to the function. There are two types of arbitrary arguments:
 
@@ -297,7 +316,7 @@ print(my_function())
     - C) `True`  
     - D) `Error`  
 
-### 20. **What is the output of the following code?** [Python Quiz #90]
+### 20. **What is the output of the following code?** [Python Quiz #90](https://youtu.be/w2M0XAl4DsQ)
    ```python
    def my_func(a, b=2, c=3):
        return a + b + c
@@ -319,6 +338,7 @@ def my_func(a, b, c=3):
    - C) `my_func(a=1, b=2, c=5)`  
    - D) `my_func(1, c=4, b=2, 5)`  
 
+<<<<<<< HEAD
 ### 25. **What is the output of the following code?** [Python Quiz #91]
 
 ```python
@@ -354,6 +374,36 @@ print(num)
    d) `Error`
 
 26. **What is the output of the following code?** [Python Quiz #93]
+=======
+   ### 25. **What is the output of the following code?** [Python Quiz #91]
+   ```python
+   def change_value(x):
+       x = 10
+
+   num = 5
+   change_value(num)
+   print(num)
+   ```
+     - A) `5`  
+     - B) `10`  
+     - C) `Error`  
+     - D) `None`  
+
+   ### 41. **What is the output of the following code?** [Python Code #92]
+```python
+def my_func():
+  global x
+  x = 10
+
+x = 5
+my_func()
+print(x)
+```
+    - A) `5`  
+    - B) `10`  
+    - C) `None`  
+    - D) `Error`
+>>>>>>> ef27128a4decf2953997546be3fe2a1a9231c939
 
 ```python
 def outer():

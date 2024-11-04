@@ -1,15 +1,37 @@
-# Microsoft Excel - Microsoft 365
+# Formulas in Excel
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
-## Formulas in Excel
 
 - [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formulas.pdf)
-
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/formulas.html](https://yasirbhutta.github.io/ms-excel/docs/formulas.html)
 
 [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
+
+- [Formulas in Excel](#formulas-in-excel)
+  - [Module 3: Formulas in Excel](#module-3-formulas-in-excel)
+  - [Formula](#formula)
+    - [See also](#see-also)
+    - [Structure of a Formula](#structure-of-a-formula)
+      - [Example of Formula](#example-of-formula)
+  - [Operators](#operators)
+    - [Arithmetic Operators](#arithmetic-operators)
+      - [See Also](#see-also-1)
+    - [Comparision Operators](#comparision-operators)
+    - [Text concatenation operator](#text-concatenation-operator)
+    - [Reference Operators](#reference-operators)
+      - [Implicit intersection operator: @](#implicit-intersection-operator-)
+  - [Operand](#operand)
+    - [Order of Operations: Left to Right and Parentheses](#order-of-operations-left-to-right-and-parentheses)
+    - [PEMDAS](#pemdas)
+  - [Creating a formula](#creating-a-formula)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
 
 ## Module 3: Formulas in Excel
 
@@ -129,18 +151,35 @@ A quantity upon which a mathematical operation is performed
 
 ### PEMDAS
 
-PEMDAS is an acronym that stands for the following order of operations:
+In Excel, PEMDAS is an acronym to remember the order of operations:
 
-- Parentheses
-- Exponents
-- Multiplication
-- Division
-- Addition
-- Subtraction
+1. **Parentheses (P):** Calculate expressions inside parentheses first.
+2. **Exponents (E):** Next, handle any powers or roots.
+3. **Multiplication (M) and Division (D):** These operations are processed from left to right.
+4. **Addition (A) and Subtraction (S):** Finally, these are completed from left to right.
 
-Excel follows the PEMDAS order of operations when evaluating formulas. This means that operations within parentheses are performed first, followed by exponents, multiplication and division, and then addition and subtraction.
 
-For example, the following formula will evaluate to 14:
+For example, with a formula like
+
+```excel 
+= (6 + 4) ^ 2 / 5
+```
+Excel follows PEMDAS by:
+
+- First calculating (6 + 4), resulting in 10.
+- Then raising 10 to the power of 2 (10^2 = 100).
+- Lastly, dividing by 5, giving a final result of 20.
+
+Another example formula:
+
+```excel
+= (3 + 2) ^ 2 * 4 / 2
+```
+
+Excel first calculates the parentheses (3 + 2), resulting in 5, then raises it to the power 2 (5^2 = 25), and finally multiplies by 4 to give 100.
+
+
+The following formula will evaluate to 14:
 
 ```excel
 =2 + 3 * 4
@@ -157,16 +196,20 @@ This is because the operation within the parentheses is performed first.
 Here are some other examples of the PEMDAS order of operations in Excel:
 
 ```excel
-=2 + 3^4      # Evaluates to 83 (exponents are performed before addition)
-=2 - 3 * 4      # Evaluates to -10 (multiplication is performed before subtraction)
-=5 / (6 + 4)     # Evaluates to 0.5 (addition is performed before division)
-=2 * (3 + 4)     # Evaluates to 14 (addition is performed before multiplication)
-=6/3-2+3*3       # Evaluates to 14 (muliplication and division are performed before subtraction.)
+=2 + 3 ^ 4          # Evaluates to 83 (exponents are performed before addition)
+=2 - 3 * 4          # Evaluates to -10 (multiplication is performed before subtraction)
+=5 / (6 + 4)        # Evaluates to 0.5 (addition is performed before division)
+=2 * (3 + 4)        # Evaluates to 14 (addition is performed before multiplication)
+=6 / 3 - 2 + 3 * 3  # Evaluates to 9 (muliplication and division are performed before subtraction.)
 ```
 
-You can use parentheses in Excel to override the PEMDAS order of operations and change the order in which operations are performed. This can be useful for creating more complex formulas.
+To change the order of evaluation, enclose in parentheses the part of the formula to be calculated first. 
 
 Watch this video on [Operator order in Excel](https://support.microsoft.com/en-us/office/video-operator-order-in-excel-2013-4af9541b-1c79-41cb-a0cf-dbced6c9ae4e) to learn more.
+
+**See also:**
+
+- [The order in which Excel performs operations in formulas - Microsoft Support](https://support.microsoft.com/en-us/office/the-order-in-which-excel-performs-operations-in-formulas-28eaf0d7-7058-4eff-a8ea-0a835fafadb8)
 
 ## Creating a formula
 

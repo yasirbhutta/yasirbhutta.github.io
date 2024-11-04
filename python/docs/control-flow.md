@@ -8,6 +8,92 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
+- [Python: Flow Control Statements](#python-flow-control-statements)
+  - [Flow control statements](#flow-control-statements)
+  - [Conditional Statements (if, else, elif)](#conditional-statements-if-else-elif)
+    - [Example #1:](#example-1)
+    - [Example #2: Basic If-Else](#example-2-basic-if-else)
+    - [Example #3: Checking Even or Odd](#example-3-checking-even-or-odd)
+    - [Example #4: Age Group Classification](#example-4-age-group-classification)
+    - [Example #5: Grade Assignment](#example-5-grade-assignment)
+    - [Example #6: Nested If-Else](#example-6-nested-if-else)
+    - [Example #7: Temperature Check](#example-7-temperature-check)
+    - [Example #8: Voting Eligibility \[video\]](#example-8-voting-eligibility-video)
+    - [Example #9: Checking String Length](#example-9-checking-string-length)
+    - [Task #1: Password Check](#task-1-password-check)
+    - [Task #2: Compare Two Numbers in Python](#task-2-compare-two-numbers-in-python)
+    - [Task #3: Determine if a Number is Negative, Zero, or Positive](#task-3-determine-if-a-number-is-negative-zero-or-positive)
+    - [Task #4: Compare Two Input Numbers](#task-4-compare-two-input-numbers)
+    - [Task #5: Age Checker](#task-5-age-checker)
+    - [Task #6: Divisibility Check](#task-6-divisibility-check)
+    - [Task #7: Voting Eligibility Check](#task-7-voting-eligibility-check)
+  - [loops](#loops)
+    - [for loop](#for-loop)
+      - [range() function:](#range-function)
+      - [**Example #9:** Print Numbers from 1 to 5](#example-9-print-numbers-from-1-to-5)
+      - [Example #10: Printing "Building the future, one line at a time." 5 Times Using a for Loop](#example-10-printing-building-the-future-one-line-at-a-time-5-times-using-a-for-loop)
+      - [Example #11: Sum of Numbers from 1 to N](#example-11-sum-of-numbers-from-1-to-n)
+      - [Task #8: Sum of Numbers in a Range](#task-8-sum-of-numbers-in-a-range)
+      - [Task #9: Display Even Numbers in a Range](#task-9-display-even-numbers-in-a-range)
+      - [Example #12: Print Even Numbers from 2 to 10 and sum of even numbers](#example-12-print-even-numbers-from-2-to-10-and-sum-of-even-numbers)
+      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables)
+      - [Example #13: String as an iterable](#example-13-string-as-an-iterable)
+      - [Example #14: Lists as an iterable](#example-14-lists-as-an-iterable)
+      - [Example #15: Loop over Lists of lists](#example-15-loop-over-lists-of-lists)
+      - [Example #16 Nested Loops - Multiplication Tables](#example-16-nested-loops---multiplication-tables)
+      - [Why We Use Variables in For Loops](#why-we-use-variables-in-for-loops)
+      - [Example #17: Loop Through a List of Fruits in Python](#example-17-loop-through-a-list-of-fruits-in-python)
+      - [Use of underscore in 'For Loop'](#use-of-underscore-in-for-loop)
+        - [Example #18: Using an Underscore in a Loop to Print "Hello" Multiple Times](#example-18-using-an-underscore-in-a-loop-to-print-hello-multiple-times)
+    - [while loop](#while-loop)
+      - [Example #19: Print numbers from 1 to 10 using while loop](#example-19-print-numbers-from-1-to-10-using-while-loop)
+      - [Example #20: Print "Hello, world!" 5 times using while loop](#example-20-print-hello-world-5-times-using-while-loop)
+      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables-1)
+      - [Task #11: Sum Integers from 1 to 100 Using While Loop](#task-11-sum-integers-from-1-to-100-using-while-loop)
+      - [Example #21: Sum of even numbers from 2 to 20 using while loop](#example-21-sum-of-even-numbers-from-2-to-20-using-while-loop)
+      - [Task #12: Calculate Squares of Numbers from 1 to 4 Using While Loop](#task-12-calculate-squares-of-numbers-from-1-to-4-using-while-loop)
+      - [Example #22: Prompt User for Input Until Blank Line is Entered](#example-22-prompt-user-for-input-until-blank-line-is-entered)
+      - [Example #23: Sum User-Entered Numbers Until Zero is Entered](#example-23-sum-user-entered-numbers-until-zero-is-entered)
+      - [Task #13: Sum User-Entered Numbers Until a Negative Number is Entered](#task-13-sum-user-entered-numbers-until-a-negative-number-is-entered)
+      - [Task #14: Number Guessing Game](#task-14-number-guessing-game)
+      - [Example #24: Infinite Loop Printing Messages with Counter](#example-24-infinite-loop-printing-messages-with-counter)
+    - [Loop Control Statements (break, continue, pass)](#loop-control-statements-break-continue-pass)
+      - [`break`](#break)
+      - [`continue`](#continue)
+      - [`pass`](#pass)
+      - [Example #: Using Break Statement in a Loop with Range](#example--using-break-statement-in-a-loop-with-range)
+      - [Example #: Print Odd Numbers Less Than 5 with Loop Control Statements (break, continue)](#example--print-odd-numbers-less-than-5-with-loop-control-statements-break-continue)
+    - [The else Clauses on Loops](#the-else-clauses-on-loops)
+      - [Example with a `for` loop](#example-with-a-for-loop)
+      - [Example with a `while` loop](#example-with-a-while-loop)
+      - [Why Use the `else` Clause with Loops?](#why-use-the-else-clause-with-loops)
+      - [Example #: for..else](#example--forelse)
+  - [Match Statement (Python 3.10+)](#match-statement-python-310)
+  - [Key Terms](#key-terms)
+  - [Fix the errors in Python](#fix-the-errors-in-python)
+    - [Question:](#question)
+    - [Answer:](#answer)
+    - [Fixed Code:](#fixed-code)
+    - [Explanation:](#explanation)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+    - [if statement (MCQs)](#if-statement-mcqs)
+    - [for loop (MCQs)](#for-loop-mcqs)
+    - [Question 4](#question-4)
+    - [Question 6](#question-6)
+    - [while loop (MCQs)](#while-loop-mcqs)
+    - [Loop Control Statements (break, continue, pass) (MCQs)](#loop-control-statements-break-continue-pass-mcqs)
+  - [Exercises](#exercises)
+    - [For loop Exercises](#for-loop-exercises)
+    - [While loop Exercises](#while-loop-exercises)
+    - [Loop Control Statements (break, continue, pass) Exercises](#loop-control-statements-break-continue-pass-exercises)
+  - [Mini Projects](#mini-projects)
+    - [Project #1: Simple Calculator](#project-1-simple-calculator)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+  - [**Appendices**](#appendices)
+    - [**Appendix A: Common Errors in Python**](#appendix-a-common-errors-in-python)
+
 ## Flow control statements
 
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
@@ -33,7 +119,7 @@ The `condition` can be any logical expression. If the condition is evaluated to 
 
 Here is a simple example of an if statement in MATLAB:
 
-**Example #:**
+### Example #1:
 
 ```python
 x = 10
@@ -56,8 +142,6 @@ elif condition2:
 If the `condition` for the if statement is evaluated to `false`, the python interpreter will check the `condition` for the first elif statement. If the condition for the elif statement is evaluated to `true`, the corresponding block of `statements` is executed. Otherwise, the python interpreter will check the `condition` for the next elif statement, and so on.
 
 Here is an example of an if statement with an elif statement:
-
-**Example #1:**
 
 ```python
 x = 3
@@ -99,7 +183,8 @@ else:
 **Output:**
 This code will print the message "x is less than 5." to the console.
 
-### Example 2: Basic If-Else
+### Example #2: Basic If-Else
+
 ```python
 number = 10
 
@@ -110,7 +195,10 @@ else:
 ```
 **Explanation**: This code checks if the variable `number` is greater than 0. If true, it prints "The number is positive", otherwise it prints "The number is not positive".
 
-### Example 3: Checking Even or Odd [related video:](https://youtube.com/shorts/za0rSiA33j0)
+### Example #3: Checking Even or Odd 
+
+[related video:](https://youtube.com/shorts/za0rSiA33j0)
+
 ```python
 number = 7
 
@@ -121,7 +209,8 @@ else:
 ```
 **Explanation**: This code checks if the variable `number` is even or odd. If `number % 2` equals 0, it is even; otherwise, it is odd.
 
-### Example 4: Age Group Classification
+### Example #4: Age Group Classification
+
 ```python
 age = 25
 
@@ -132,7 +221,10 @@ else:
 ```
 **Explanation**: This code classifies a person as a "Minor" if their age is less than 18, and as an "Adult" otherwise.
 
-### Example 5: Grade Assignment [[video]](https://youtu.be/oEZzg0cUNw8)
+### Example #5: Grade Assignment 
+
+[realted video](https://youtu.be/oEZzg0cUNw8)
+
 ```python
 score = 85
 
@@ -147,7 +239,8 @@ else:
 ```
 **Explanation**: This code assigns a grade based on the `score`. It uses multiple `elif` statements to check for different score ranges.
 
-### Example 6: Nested If-Else
+### Example #6: Nested If-Else
+
 ```python
 number = -5
 
@@ -161,7 +254,8 @@ else:
 ```
 **Explanation**: This code uses nested `if-else` statements to check if the number is zero, positive, or negative.
 
-### Example 7: Temperature Check
+### Example #7: Temperature Check
+
 ```python
 temperature = 30
 
@@ -172,7 +266,8 @@ else:
 ```
 **Explanation**: This code checks if the temperature is greater than 30. If true, it prints "It's a hot day"; otherwise, it prints "It's not a hot day".
 
-### Example 8: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
+### Example #8: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
+
 ```python
 age = 17
 
@@ -183,30 +278,8 @@ else:
 ```
 **Explanation**: This code checks if a person is eligible to vote based on their age. If `age` is 18 or more, it prints "You are eligible to vote"; otherwise, it prints "You are not eligible to vote".
 
-### Example 9: Password Check
-```python
-password = "password123"
+### Example #9: Checking String Length
 
-if password == "password123":
-    print("Access granted")
-else:
-    print("Access denied")
-```
-**Explanation**: This code checks if the `password` is correct. If it matches "password123", it prints "Access granted"; otherwise, it prints "Access denied".
-
-### Example 10: Maximum of Two Numbers
-```python
-a = 15
-b = 20
-
-if a > b:
-    print("a is greater than b")
-else:
-    print("a is not greater than b")
-```
-**Explanation**: This code checks which number is greater between `a` and `b`. If `a` is greater than `b`, it prints "a is greater than b"; otherwise, it prints "a is not greater than b".
-
-### Example 11: Checking String Length
 ```python
 string = "Hello, World!"
 
@@ -215,33 +288,138 @@ if len(string) > 10:
 else:
     print("The string is short")
 ```
+
 **Explanation**: This code checks if the length of the `string` is greater than 10. If true, it prints "The string is long"; otherwise, it prints "The string is short".
 
-**Example #12:** Using if-elif-else
+### Task #1: Password Check
 
+**Objective**: Write a Python program that checks if the provided password matches 
+the correct password and prints an appropriate message.
+
+**Instructions:**
+1. Define a variable `password` and set it to a string value.
+2. Create an if-else condition to compare the `password` with the correct password `"password123"`.
+3. If the password matches `"password123"`, print `"Access granted"`.
+4. If the password does not match, print `"Access denied"`.
+
+**Example Input/Output:**
+
+**Input 1:**
 ```python
-x = 10
-
-if x < 0:
-    print("Negative")
-elif x == 0:
-    print("Zero")
-else:
-    print("Positive")
+password = "password123"
 ```
+
+**Output 1:**
+```
+Access granted
+```
+
+**Input 2:**
+```python
+password = "wrongpassword"
+```
+
+**Output 2:**
+```
+Access denied
+```
+
+**Explanation:**
+- The program compares the variable `password` with the correct password `"password123"`. 
+- In **Example 1**, since the password is correct, the output is `"Access granted"`.
+- In **Example 2**, since the password is incorrect, the output is `"Access denied"`.
+  
+### Task #2: Compare Two Numbers in Python
+
+Write a Python program that compares two numbers `a` and `b`. If `a` is greater than `b`, the program should print the message "a is greater than b". Otherwise, it should print "a is not greater than b".
+
+**Input**:
+- The program sets two variables `a` and `b` to specific values (15 and 20 in this case).
+- The comparison is then made based on these values.
+
+**Expected Output**:
+- The program will print one of the following outputs depending on the values of `a` and `b`:
+  1. If `a` is greater than `b`:  
+     **Output**:  
+     `"a is greater than b"`
+  
+  2. If `a` is less than or equal to `b`:  
+     **Output**:  
+     `"a is not greater than b"`
+
+**Example**:
+
+1. **Input**:  
+   `a = 15, b = 20`
+
+   **Output**:  
+   `"a is not greater than b"`
+
+2. **Input**:  
+   `a = 25, b = 20`
+
+   **Output**:  
+   `"a is greater than b"`
+
+**Explanation**:
+This code checks the relationship between `a` and `b`. If `a` is greater than `b`, it prints a message saying so; otherwise, it prints a different message.
+
+### Task #3: Determine if a Number is Negative, Zero, or Positive
+
+Write a Python program that checks whether a number `x` is negative, zero, or positive. The program should print:
+- "Negative" if `x` is less than 0,
+- "Zero" if `x` is equal to 0, and
+- "Positive" if `x` is greater than 0.
+
+**Input**:
+- The program sets a variable `x` to a specific value (10 in this case).
+
+**Expected Output**:
+- The program will print one of the following outputs based on the value of `x`:
+  1. If `x` is less than 0:  
+     **Output**:  
+     `"Negative"`
+  
+  2. If `x` is equal to 0:  
+     **Output**:  
+     `"Zero"`
+
+  3. If `x` is greater than 0:  
+     **Output**:  
+     `"Positive"`
+
+**Example**:
+
+1. **Input**:  
+   `x = 10`
+
+   **Output**:  
+   `"Positive"`
+
+2. **Input**:  
+   `x = -5`
+
+   **Output**:  
+   `"Negative"`
+
+3. **Input**:  
+   `x = 0`
+
+   **Output**:  
+   `"Zero"`
+
+---
+
+**Explanation**:
+This code checks whether the value of `x` is less than 0, equal to 0, or greater than 0, and prints the corresponding message based on the comparison.
 
 - [Video: Use Walrus Operator with if-else (New)](https://www.youtube.com/watch?v=vhEz75XZlJI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 - [Video: How to Write Single-Line Code Instead of If-Else Statements](https://www.youtube.com/watch?v=8qOyRklMr-I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
-**Example #:**
-
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
 
-### Coding Exercises
+### Task #4: Compare Two Input Numbers
 
-#### Exercise 1:
-
-**Task:**  
 Write a program that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number.
 
 **Input:**
@@ -266,9 +444,15 @@ Enter the second number: 4
 4 is equal to 4
 ```
 
+<<<<<<< HEAD
 ### Exercise 2: Age Checker
 **Task:** Write a simple program that asks 
 for the user’s age and checks if the user is older than 18.
+=======
+### Task #5: Age Checker 
+
+Write a simple program that asks for the user’s age and checks if the user is older than 18.
+>>>>>>> ef27128a4decf2953997546be3fe2a1a9231c939
 
 **Sample Input:**
 ```
@@ -290,9 +474,8 @@ Enter your age: 16
 You are younger than 18.
 ```
 
-#### Exercise 3: Divisibility Check
-
-**Task:** Write a program that checks if a given number is divisible by both 2 and 3.
+### Task #6: Divisibility Check
+- Write a program that checks if a given number is divisible by both 2 and 3.
 
 **Input:**
 - A single integer, `n`.
@@ -313,9 +496,8 @@ You are younger than 18.
 - **Output:**  
   `No`  
 
-### Exercise 4: Voting Eligibility Check
-
-**Task:** Create a program that takes the age and country of a person as input and checks if they are eligible to vote in that country (consider the voting age as 18 and the country as "USA").
+### Task #7: Voting Eligibility Check
+- Create a program that takes the age and country of a person as input and checks if they are eligible to vote in that country (consider the voting age as 18 and the country as "USA").
 
 **Input:**
 - An integer `age`, representing the person's age.
@@ -416,7 +598,9 @@ list(range(5))  # Output: [0, 1, 2, 3, 4]
 - [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
 - [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
-**Example #1:** Print Numbers from 1 to 5 [[video]](https://youtu.be/2mhrDgBEp10)
+#### **Example #9:** Print Numbers from 1 to 5 
+
+[video](https://youtu.be/2mhrDgBEp10)
 
 Question: Write a Python program to print the numbers from 1 to 5, using a for loop.
 
@@ -425,7 +609,7 @@ for i in range(6):
     print(i)
 ```
 
-**Example #2:** Printing "Building the future, one line at a time." 5 Times Using a for Loop
+#### Example #10: Printing "Building the future, one line at a time." 5 Times Using a for Loop
 
 **Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
 
@@ -434,15 +618,82 @@ for i in range(5):
     print("Building the future, one line at a time.")
 ```
 
-**Example #3:** Sum of Numbers from 1 to N
+#### Example #11: Sum of Numbers from 1 to N
 
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
-**Example #4:** Print Even Numbers from 2 to 10
+#### Task #8: Sum of Numbers in a Range
 
-**Question:** Write a Python program to display the even numbers from 2 to 10, inclusive, using a for loop.
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and calculates the sum of all the numbers in that range (inclusive) using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+**Output:**
+- The program should display the sum of all the numbers in the given range.
+
+**Example:**
+
+**Input:**
+```
+Enter the start of the range: 1
+Enter the end of the range: 5
+```
+
+**Output:**
+```
+The sum of numbers from 1 to 5 is: 15
+```
+
+**Requirements:**
+- Use a `for` loop to iterate through the range.
+- Accumulate the sum of numbers using a variable inside the loop.
+
+
+#### Task #9: Display Even Numbers in a Range
+
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and displays all the even numbers between the two values (inclusive) using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+**Output:**
+- The program should display all the even numbers in the range in ascending order, one number per line.
+
+**Example:**
+
+**Input:**
+```
+Enter the start of the range: 2
+Enter the end of the range: 10
+```
+
+**Output:**
+```
+2
+4
+6
+8
+10
+```
+
+**Requirements:**
+- Use a `for` loop to iterate through the range.
+- Check if a number is even using the modulus (`%`) operator.
+  
+#### Example #12: Print Even Numbers from 2 to 10 and sum of even numbers
+
+**Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
 
 ```python
 sum = 0
@@ -453,9 +704,54 @@ for i in range(2,11):
 print(f"Sum of even numbers: {sum}")
 ```
 
-**Example #5:** [video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
+#### Task #10: Display Multiplication Tables**
 
-**Example #6:** Lists as an iterable
+**Description:**
+
+Write a Python program that asks the user to input a number and displays its multiplication table up to 10 using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter an integer value.
+
+**Output:**
+- The program should display the multiplication table for the entered number in the following format:
+
+```
+n x 1 = n
+n x 2 = 2n
+...
+n x 10 = 10n
+```
+
+**Example:**
+
+**Input:**
+```
+Enter a number: 5
+```
+
+**Output:**
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
+
+**Requirements:**
+- Use a `for` loop to generate and display the multiplication table.
+
+#### Example #13: String as an iterable
+
+[video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
+
+#### Example #14: Lists as an iterable
 
 ```python
 collection = ['python', 5, 'd']
@@ -463,7 +759,7 @@ for x in collection:
     print(x)
 ```
 
-**Example #7:** Loop over Lists of lists
+#### Example #15: Loop over Lists of lists
 
 ```python
 list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -474,7 +770,7 @@ for list in list_of_lists:
 
 - A **nested loop** is a loop inside another loop. It is a powerful programming technique that can be used to solve a wide variety of problems.
 
-**Example #:8** Nested Loops - Multiplication Tables
+#### Example #16 Nested Loops - Multiplication Tables
 
 ```python
 for i in range(1, 11):
@@ -483,7 +779,7 @@ for i in range(1, 11):
         print('%d * %d = %d' % (i, j, i*j))
 ```
 
-**Why We Use Variables in For Loops**
+#### Why We Use Variables in For Loops
 
 In Python, a variable in a `for` loop is used to iterate over a sequence (like a list, tuple, string, or range) and access each element in that sequence one at a time. This variable is often called the "loop variable" or "iterator variable." 
 
@@ -497,7 +793,7 @@ In Python, a variable in a `for` loop is used to iterate over a sequence (like a
 
 4. **Control Over Iteration**: The loop variable gives you control over the loop’s execution. You can use it to control the flow, such as skipping certain elements, breaking out of the loop early, or performing specific actions based on the variable's value.
 
-**Example:**
+#### Example #17: Loop Through a List of Fruits in Python
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -515,12 +811,14 @@ cherry
 
 The variable `fruit` is used to access and print each element in the `fruits` list.
 
-**Use of underscore in 'For Loop'**
+#### Use of underscore in 'For Loop'
 
 - In Python, an underscore (`_`) is often used as a variable name in a for loop (or any other context) when the value of the variable is not needed. 
 - This is a common convention to indicate that the value is intentionally being ignored or discarded.
 
 For example, if you want to repeat an action a certain number of times but don't need to use the loop variable, you can use `_`:
+
+##### Example #18: Using an Underscore in a Loop to Print "Hello" Multiple Times
 
 ```python
 for _ in range(5):
@@ -547,7 +845,7 @@ Here, condition is a boolean expression that is evaluated before each iteration 
 
 [video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
-**Example #:** Print numbers from 1 to 10 using while loop
+#### Example #19: Print numbers from 1 to 10 using while loop
 
 Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
@@ -558,7 +856,7 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     count += 1  # Add 1 to the count for the next round
 ```
 
-**Example #:** Print "Hello, world!" 5 times using while loop
+#### Example #20: Print "Hello, world!" 5 times using while loop
 
 Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
 
@@ -569,22 +867,72 @@ while i <= 10:
     i += 1
 ```
 
-**Example #:** Sum of numbers from 1 to 100 using while loop
+#### Task #10: Display Multiplication Tables**
 
-Question: Write a MATLAB program to calculates the sum of the numbers from 1 to 100 using a while loop.
+**Description:**
 
-```python
-i = 1
-sum = 0
+Write a Python program that asks the user to input a number and displays its multiplication table up to 10 using a `while` loop.
 
-while i <= 100:
-    sum += i
-    i += 1 
+**Input:**
+- The program should prompt the user to enter an integer value.
 
-print(f'Sum = {sum}');
+**Output:**
+- The program should display the multiplication table for the entered number in the following format:
+
+```
+n x 1 = n
+n x 2 = 2n
+...
+n x 10 = 10n
 ```
 
-**Example #:** Sum of even numbers from 2 to 20 using while loop
+**Example:**
+
+**Input:**
+```
+Enter a number: 5
+```
+
+**Output:**
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
+
+**Requirements:**
+- Use a `while` loop to generate and display the multiplication table.
+
+#### Task #11: Sum Integers from 1 to 100 Using While Loop
+Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
+
+**Input**:
+- The program initializes a variable `i` to 1 and a variable `sum` to 0. 
+- The loop continues while `i` is less than or equal to 100.
+
+**Expected Output**:
+- The program will print the total sum of integers from 1 to 100 in the following format:  
+  `Sum = {sum}`
+
+**Example Output**:
+
+```
+Sum = 5050
+```
+
+**Explanation**:
+This code uses a `while` loop to iterate through the integers from 1 to 100.
+In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
+After the loop completes, the total sum is printed.
+
+#### Example #21: Sum of even numbers from 2 to 20 using while loop
 
 Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
@@ -598,36 +946,38 @@ while number <= 20:
     number += 1
 
 print(f'The sum of even numbers from 1 to 20 is: {sum}')
-
 ```
 
-**Example:** Square of numbers less than 5 using while loop
+#### Task #12: Calculate Squares of Numbers from 1 to 4 Using While Loop
+Write a Python program that calculates and prints the square of the numbers from 1 to 4. The program should use a `while` loop to iterate through these numbers.
 
-Question : Write a program that prints the sum of the squares of all the numbers from 1 to 4, using a while loop.
+**Input**:
+- The program initializes a variable `i` to 1 and continues looping while `i` is less than 5.
 
-```python
-i = 1
-while i < 5:
-    square = i ** 2
-    print(f'Square of {i} is {square}')
-    i += 1
+**Expected Output**:
+- The program will print the square of each number from 1 to 4 in the following format:  
+  `Square of {i} is {square}`
+
+**Example Output**:
+
 ```
-
-**Output:**
-
-```python
 Square of 1 is 1
 Square of 2 is 4
 Square of 3 is 9
 Square of 4 is 16
 ```
 
-**Example #:**
+**Explanation**:
+This code uses a `while` loop to calculate the square of the variable `i`, 
+which starts at 1 and increments by 1 in each iteration until it reaches 5. 
+The squares of the numbers 1 through 4 are printed during each iteration.
+
+#### Example #22: Prompt User for Input Until Blank Line is Entered
 
 Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
 
 ```python
-inputStr = 'Start';
+inputStr = 'Start'
 
 while inputStr != "":
   inputStr = input("Enter a line of text:")
@@ -635,7 +985,7 @@ while inputStr != "":
 print('You entered a blank line.')
 ```
 
-**Example:** Sum of given numbers till the number entered is zero
+#### Example #23: Sum User-Entered Numbers Until Zero is Entered
 
 Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
 
@@ -654,7 +1004,67 @@ while number != 0:
 print(f'The sum of the numbers is: {sum}')
 ```
 
-**Example :** While loop from 1 to infinity, therefore running forever.
+#### Task #13: Sum User-Entered Numbers Until a Negative Number is Entered
+Write a Python program that prompts the user to enter numbers. The program should keep accepting numbers until the user enters a negative number. Once a negative number is entered, the program should stop and display the sum of all the numbers entered (excluding the negative number).
+
+**Sample Input:**
+```
+Enter a number (negative number to stop): 10
+Enter another number (negative number to stop): 20
+Enter another number (negative number to stop): 5
+Enter another number (negative number to stop): -1
+```
+
+**Sample Output:**
+```
+The sum of all numbers is: 35
+```
+
+#### Task #14: Number Guessing Game
+
+**Instructions:**
+- Write a Python program where the computer picks a random number between 1 and 10, and the user has to guess it.
+- The program should continue asking the user for a guess until they guess the correct number.
+- After each incorrect guess, the program should give a hint whether the guess is too low or too high.
+
+**Example Code:**
+
+```python
+import random
+
+# Step 1: Computer picks a random number between 1 and 10
+secret_number = random.randint(1, 10)
+
+# Step 2: Initialize the guess variable to None
+guess = None
+
+# Step 3: Use a while loop to keep asking the user for input
+
+# write your code here
+
+```
+
+**Sample Input and Output:**
+
+```
+Guess a number between 1 and 10: 4
+Too low! Try again.
+Guess a number between 1 and 10: 9
+Too high! Try again.
+Guess a number between 1 and 10: 7
+Too low! Try again.
+Guess a number between 1 and 10: 8
+Congratulations! You guessed the correct number.
+```
+
+This sample demonstrates:
+- How the user is prompted repeatedly.
+- Feedback on whether their guess is too low or too high.
+- A congratulatory message when the correct guess is made.
+- 
+#### Example #24: Infinite Loop Printing Messages with Counter
+
+[Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49))
 
 ```python
 x = 1
@@ -668,19 +1078,19 @@ while True:
 **See also:**
 
 - [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
-- [Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
+
 - [Video: Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
 
 [video: Python Loops Performance Comparison: For vs. While | Which is Faster?](https://youtu.be/6JNeo6TVQN8)
 
-## Loop Control Statements (break, continue, pass)
+### Loop Control Statements (break, continue, pass)
 These statements modify the behavior of loops.
 
 **break:** Terminates the loop entirely.
 **continue:** Skips the current iteration and moves to the next one.
 **pass:** Does nothing, often used as a placeholder.
 
-`break`
+#### `break`
 
 Exits the loop prematurely.
 
@@ -690,7 +1100,7 @@ for item in sequence:
         break  # exit the loop
 ```
 
-`continue`
+#### `continue`
 
 Skips the current iteration and proceeds to the next iteration of the loop.
 
@@ -701,7 +1111,7 @@ for item in sequence:
     # code to execute if some_condition is False
 ```
 
-`pass`
+#### `pass`
 
 A null statement, used as a placeholder.
 
@@ -710,7 +1120,7 @@ if condition:
     pass  # do nothing
 ```
 
-**Example #:**
+#### Example #: Using Break Statement in a Loop with Range
 
 ```python
 for x in range(3):
@@ -718,7 +1128,7 @@ for x in range(3):
         break
 ```
 
-**Example #:**
+#### Example #: Print Odd Numbers Less Than 5 with Loop Control Statements (break, continue)
 
 ```python
 for i in range(10):
@@ -732,7 +1142,7 @@ for i in range(10):
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
  
-## The else Clauses on Loops
+### The else Clauses on Loops
 
 In Python, the `else` clause can be used with loops (`for` and `while`). This may be surprising at first since most people associate `else` with `if` statements. However, in loops, the `else` clause has a unique behavior:
 
@@ -741,7 +1151,7 @@ In Python, the `else` clause can be used with loops (`for` and `while`). This ma
 
 The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
 
-### How It Works:
+**How It Works:**
 
 1. **With a `for` loop**:
    - The `else` block runs if the loop completes all its iterations without hitting a `break`.
@@ -751,7 +1161,7 @@ The `else` clause in loops (`for` and `while`) in Python is a bit unusual becaus
    - The `else` block runs if the `while` loop condition becomes `False` naturally.
    - If the loop is terminated by a `break`, the `else` block is skipped.
 
-### Example with a `for` loop
+#### Example with a `for` loop
 
 Let’s say we’re searching for a specific number in a list.
 
@@ -776,7 +1186,7 @@ else:
 - If the number is found, the loop breaks, and the `else` clause is skipped.
 - If the loop finishes without finding the target (i.e., without a `break`), the `else` block runs, printing "Target not found in the list."
 
-### Example with a `while` loop
+#### Example with a `while` loop
 
 ```python
 # Counter
@@ -798,12 +1208,12 @@ else:
 - If `i` equals 3, the loop breaks.
 - Since the loop is broken before it naturally ends, the `else` block is skipped.
 
-### Why Use the `else` Clause with Loops?
+#### Why Use the `else` Clause with Loops?
 
 Using `else` with loops can be helpful when you're performing a search or some operation where you want to know if the loop completed successfully or was interrupted by a `break`. It’s a clean way to handle scenarios where the loop might end early.
   
 
-**Example #:** for..else
+#### Example #: for..else
 
 ```python
 for x in range(3):
@@ -843,7 +1253,7 @@ def get_fruit_color(fruit):
 
 To learn about Common Errors in Python, see [Appendix A](#appendix-a-common-errors-in-python).
 
-### 1. **Mistaken Use of `elif` Instead of `if`** [Python Quiz #43]
+1. **Mistaken Use of `elif` Instead of `if`** [Python Quiz #43]
 
 **Code:**
 ```python
@@ -857,7 +1267,7 @@ elif x > 0:
 
 - **Watch the Solution Now ✨:**[https://youtu.be/oQAvH8N1uPk](https://youtu.be/oQAvH8N1uPk)
 
-### 2. **Infinite `while` Loop Due to Missing Update Statement** [Python Quiz #44]
+2. **Infinite `while` Loop Due to Missing Update Statement** [Python Quiz #44]
 
 **Problem Statement:**
 Write a program that starts with a given positive integer and repeatedly prints its value, decreasing it by 1 in each iteration until it reaches 0. However, the initial code runs into an issue: the loop does not terminate because the value of the integer is never updated, leading to an infinite loop.
@@ -875,7 +1285,7 @@ The loop will run infinitely because `n` is never updated, so `n > 0` is always 
 
   - [**Watch the Solution Now ✨**](https://youtu.be/LVHCsgRo-54) 
 
-### 3. **`continue` Misused in `while` Loop** [Python Quiz #45]
+3. **`continue` Misused in `while` Loop** [Python Quiz #45]
 
 **Scenario:**
 You are tasked with debugging a piece of Python code that uses a `while` loop. The goal of the loop is to print numbers from `0` to `4`, skipping the number `2`. However, the code as written enters an infinite loop when the value of `i` becomes `2`.
@@ -907,7 +1317,7 @@ The `continue` statement is misused in this code. When `i == 2`, the `continue` 
 ```
   - [**Watch the Solution Now ✨**](https://youtu.be/2yabb2TJ7a0) 
 
-### 4. **Incorrect Use of Multiple `elif` Conditions**
+4. **Incorrect Use of Multiple `elif` Conditions**
 
 **Code:**
 ```python
@@ -945,12 +1355,36 @@ else:
 ```
 - The `else` block now correctly handles any score below `60`.
 
-**2. Syntax Error: Missing Colon** [Python Quiz #49]
+5. Syntax Error: Missing Colon [Python Quiz #49]
 
 ```python
 if x > 5  # Missing colon here
   print("X is greater than 5")
 ```
+
+Here’s another question:
+
+### Question:
+The following code is intended to print the even numbers from 0 to 10, but it contains an error. Identify and fix the error.
+
+```python
+for i in range(0, 11):
+if i % 2 == 0:
+    print(i)
+```
+
+### Answer:
+The code has an indentation error. The `if` statement needs to be indented to be part of the `for` loop.
+
+### Fixed Code:
+```python
+for i in range(0, 11):
+    if i % 2 == 0:
+        print(i)
+```
+
+### Explanation:
+In Python, all statements inside a `for` loop and any nested statements (like `if`) need to be indented consistently. This indicates that they are part of the respective block.
 
 **Which of the following will NOT cause a syntax error in Python?**
 
@@ -978,7 +1412,7 @@ print "Hello World!)
 E) None
 
 
-### 1. **Incorrect `if` Statement Syntax**
+6. **Incorrect `if` Statement Syntax**
 
 **Code:**
 ```python
@@ -999,7 +1433,7 @@ if x > 5:
     print("x is greater than 5")
 ```
 
-### 2. **Incorrect Indentation in `if-else` Statement**
+7. **Incorrect Indentation in `if-else` Statement**
 
 **Code:**
 ```python
@@ -1026,7 +1460,7 @@ else:
     print("y is not positive")
 ```
 
-### 3. **`while` Loop with Incorrect Condition**
+8. **`while` Loop with Incorrect Condition**
 
 **Code:**
 ```python
@@ -1049,7 +1483,7 @@ while count >= 0:
     count -= 1
 ```
 
-### 4. **`for` Loop with Incorrect Range**
+9. **`for` Loop with Incorrect Range**
 
 **Code:**
 ```python
@@ -1067,7 +1501,7 @@ for i in range(10, 0, -1):
 ```
 - This prints numbers from 10 to 1.
 
-### 5. **Using `break` Incorrectly in a Loop**
+10. **Using `break` Incorrectly in a Loop**
 
 **Code:**
 ```python
@@ -1092,7 +1526,7 @@ else:
 ```
 - The `else` block will only run if the loop completes without a `break`.
 
-### 6. **`try` Block with Unhandled Exception**
+11. **`try` Block with Unhandled Exception**
 
 **Code:**
 ```python
@@ -1113,7 +1547,7 @@ except ZeroDivisionError:
     print("You can't divide by zero!")
 ```
 
-### 7. **Misuse of `continue` Statement**
+12. **Misuse of `continue` Statement**
 
 **Code:**
 ```python
@@ -1136,7 +1570,7 @@ for i in range(5):
 ```
 - The code correctly skips printing `3` and continues with the next iteration.
 
-### 8. **Logical Error with `if-elif` Statements**
+13. **Logical Error with `if-elif` Statements**
 
 **Code:**
 ```python
@@ -1168,7 +1602,7 @@ else:
 ```
 - Now, this checks for more specific conditions.
 
-5. **What will be the output of the following code?**
+14. **What will be the output of the following code?**
 
 ```python
 for i in range(5):
@@ -1177,7 +1611,7 @@ else:
     break
 ```
 
-### 9. **Incorrect Usage of `pass` in Control Flow**
+15. **Incorrect Usage of `pass` in Control Flow**
 
 **Code:**
 ```python
@@ -1200,7 +1634,7 @@ for i in range(5):
 ```
 - Now, the loop will simply skip doing anything when `i` is `2`, without any unintended behavior.
 
-### 10. **Improper Use of `finally` in Exception Handling**
+16. **Improper Use of `finally` in Exception Handling**
 
 **Code:**
 ```python
@@ -2606,6 +3040,77 @@ FizzBuzz
    - [**Watch the Solution Now ✨**](https://youtube.com/shorts/4qZyBEKSfaA)
 2. Write a Python program using the continue statement in a loop to skip specific iterations, such as skipping over the numbers 0, 1, 2, and 4?
    - [**Watch the Solution Now ✨**](https://youtube.com/shorts/lf6SYOMIJv8)
+
+## Mini Projects
+
+### Project #1: Simple Calculator
+
+Write a Python program that allows the user to perform basic arithmetic operations (addition, subtraction, multiplication, and division) until they choose to exit. The program should take two numbers and an operation from the user, perform the calculation, and display the result.
+
+**Requirements:**
+- The program should continuously prompt the user for two numbers and an operation.
+- If the user enters an invalid operation, display an error message and ask for input again.
+- The user should be able to exit the program by entering 'exit'.
+- Handle division by zero gracefully.
+
+**Example:**
+
+```python
+# Function to perform calculations
+def calculate(num1, num2, operation):
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        if num2 == 0:
+            return "Error: Division by zero is not allowed."
+        return num1 / num2
+    else:
+        return "Error: Invalid operation."
+
+# Start the calculator loop
+while True:
+    user_input = input("Enter 'exit' to quit or press Enter to continue: ")
+    
+    if user_input.lower() == 'exit':
+        print("Exiting the calculator. Goodbye!")
+        break
+    
+    # Get user input for numbers and operation
+    try:
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        operation = input("Enter the operation (add, subtract, multiply, divide): ").lower()
+        
+        # Perform calculation
+        result = calculate(num1, num2, operation)
+        print(f"The result is: {result}")
+    
+    except ValueError:
+        print("Error: Please enter valid numbers.")
+```
+
+**Sample Output:**
+
+```
+Enter 'exit' to quit or press Enter to continue: 
+Enter the first number: 10
+Enter the second number: 5
+Enter the operation (add, subtract, multiply, divide): add
+The result is: 15.0
+Enter 'exit' to quit or press Enter to continue: 
+Enter the first number: 10
+Enter the second number: 0
+Enter the operation (add, subtract, multiply, divide): divide
+The result is: Error: Division by zero is not allowed.
+Enter 'exit' to quit or press Enter to continue: exit
+Exiting the calculator. Goodbye!
+```
+
+This task helps users practice using `while` loops for continuous input and performing basic arithmetic operations in Python.
 
 ## Review Questions
 

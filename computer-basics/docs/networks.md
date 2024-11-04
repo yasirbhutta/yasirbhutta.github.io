@@ -6,6 +6,30 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/networks.html](https://yasirbhutta.github.io/computer-basics/docs/networks.html)
 
+- [Computer Basics: Networking Basics](#computer-basics-networking-basics)
+  - [What is a Computer Network?](#what-is-a-computer-network)
+  - [Types of networks](#types-of-networks)
+    - [Local Area Network (LAN)](#local-area-network-lan)
+    - [Wide Area Network (WAN)](#wide-area-network-wan)
+  - [Network components](#network-components)
+  - [Network Switch](#network-switch)
+  - [Router](#router)
+  - [Basic network protocols](#basic-network-protocols)
+  - [The internet: How it works and how to access it](#the-internet-how-it-works-and-how-to-access-it)
+    - [Internet](#internet)
+  - [Network topology](#network-topology)
+    - [1. **Bus Topology**](#1-bus-topology)
+    - [2. **Star Topology**](#2-star-topology)
+    - [3. **Ring Topology**](#3-ring-topology)
+    - [4. **Mesh Topology**](#4-mesh-topology)
+    - [Conclusion](#conclusion)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
+
 ##  What is a Computer Network?
 
 - A computer network is a group of two or more devices or nodes that can communicate with each other. 

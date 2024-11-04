@@ -7,6 +7,20 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/computer-basics/docs/software.html](https://yasirbhutta.github.io/computer-basics/docs/software.html)
 - [Slides: Software](https://docs.google.com/presentation/d/168Rt_k1ufYWGKpRvX1oRmu4173FPSfCfQ7PbZMGwAas/edit?usp=sharing)
 
+- [Computer Basics: Software](#computer-basics-software)
+  - [What is Software](#what-is-software)
+  - [Types of Software](#types-of-software)
+    - [1. System Software](#1-system-software)
+    - [2. Application Software](#2-application-software)
+  - [Open Source Software vs Proprietary Software](#open-source-software-vs-proprietary-software)
+    - [Open Source Software (OSS)](#open-source-software-oss)
+    - [Proprietary Software](#proprietary-software)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
 ## What is Software
 
 - Software is the set of programs( instructions) that tell a computer what to do.

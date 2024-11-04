@@ -6,6 +6,32 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.html)
 
+- [Computer Basics: Computer Data Storage Devices](#computer-basics-computer-data-storage-devices)
+  - [Data Storage Device](#data-storage-device)
+  - [Hierarchy of storage](#hierarchy-of-storage)
+    - [Primary storage](#primary-storage)
+      - [Random Access Memory(RAM)](#random-access-memoryram)
+      - [Processor Cache \& Register](#processor-cache--register)
+    - [Secondary Storage](#secondary-storage)
+      - [Magnetic storage devices](#magnetic-storage-devices)
+        - [Hard disk drives (HDDs)](#hard-disk-drives-hdds)
+        - [Floppy Disk](#floppy-disk)
+      - [Flash memory devices](#flash-memory-devices)
+        - [solid-state drive (SSD)](#solid-state-drive-ssd)
+        - [USB flash drive](#usb-flash-drive)
+        - [SD cards](#sd-cards)
+      - [Optical storage devices](#optical-storage-devices)
+        - [Compact Discs (CD)](#compact-discs-cd)
+        - [Digital Video Disk(DVD)](#digital-video-diskdvd)
+        - [Blu-ray Discs (BDs)](#blu-ray-discs-bds)
+  - [Additional topics](#additional-topics)
+  - [Flash memory](#flash-memory)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
 ## Data Storage Device
 
 - A data storage device is a device for storing information (data).
@@ -76,7 +102,7 @@ Image by [Freepik]("https://www.freepik.com/free-vector/flat-design-hard-drive-i
 
 - [Magnetic storage - Wikipedia](https://en.wikipedia.org/wiki/Magnetic_storage)
 
-#### Floppy Disk
+##### Floppy Disk
 
 - Floppy disks are a less common type of storage device
 - It is magnetic disc medium.

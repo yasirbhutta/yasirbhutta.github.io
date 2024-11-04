@@ -1,3 +1,39 @@
+# MID Term Fall 2024 (BS English 3rd)
+
+## Topics
+
+- Introduction to Computer
+- Computer Hardware
+- Computer Storage Devices
+- Software
+
+- Google Search
+
+- Microsoft Excel
+  - Excel Basics
+  - Formatting in Excel
+  - Formulas in Excel
+
+**Total Objective (04 marks 0.5x8):**
+
+(1x True/False + 2x fill in the blanks + 5x MCQs)
+
+- 1x from Computer Basics
+- 1x from Computer Storage Devices
+- 2x from Google Search
+- 3x from Microsoft Excel
+- 1x from Computer Hardware
+  
+**Short Questions (04 marks 2x2):**
+
+- 1x from Storage Devices
+- 1x from Computer Software
+   
+**Long Questions (04 marks 1x4):**
+
+- 1x from Computer Hardware
+
+
 # Final Term Spring 2014
 
 ## Topics

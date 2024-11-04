@@ -6,6 +6,19 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/database.html](https://yasirbhutta.github.io/computer-basics/docs/database.html)
 
+- [Computer Basics: Database](#computer-basics-database)
+  - [Database Basics](#database-basics)
+  - [Database Design](#database-design)
+  - [Database Management Systems (DBMS)](#database-management-systems-dbms)
+  - [SQL](#sql)
+  - [Microsoft Access](#microsoft-access)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
+
+
 ## Database Basics
 
 **What is a database?**

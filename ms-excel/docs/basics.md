@@ -8,6 +8,28 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 - [Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
+- [Microsoft Excel: Basics](#microsoft-excel-basics)
+  - [Module 1: Introduction to Excel](#module-1-introduction-to-excel)
+  - [Microsoft Excel](#microsoft-excel)
+  - [Excel Mobile App:](#excel-mobile-app)
+  - [Enter data manually in worksheet cells](#enter-data-manually-in-worksheet-cells)
+  - [Managing Sheet](#managing-sheet)
+    - [Insert a new worksheet](#insert-a-new-worksheet)
+    - [Rename a worksheet](#rename-a-worksheet)
+    - [Delete a worksheet](#delete-a-worksheet)
+    - [Reorder sheets](#reorder-sheets)
+    - [Hide or unhide sheets](#hide-or-unhide-sheets)
+    - [Change sheet tab color](#change-sheet-tab-color)
+    - [Duplicate sheet](#duplicate-sheet)
+    - [Move sheet](#move-sheet)
+  - [Excel for Android touch guide](#excel-for-android-touch-guide)
+  - [Excel for Android phones: Animated tips](#excel-for-android-phones-animated-tips)
+  - [Online Courses and Trainings - Microsoft Excel](#online-courses-and-trainings---microsoft-excel)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Review Questions](#review-questions)
+  - [Exercises](#exercises)
+  - [References and Bibliography](#references-and-bibliography)
 
 ## Module 1: Introduction to Excel
 

@@ -19,11 +19,24 @@
 
 ## Windows 
 
-**Lab #1:** [Managing User Accounts and File Permissions on Windows](docs/windows-users-permissions.md)
+**Lab #1:** [Managing User Accounts and File Permissions on Windows](../windows/docs/windows-users-permissions.md)
 
+**Lab #2:** [Managing User Accounts and File Permissions on Windows [Part 2]](../windows/docs/windows-users-permissions.md)
 
+**Lab** DHCP Server using router
 
+- [What is DHCP Sever - slides](https://docs.google.com/presentation/d/1SCdXzP39MI1p_aDR0xpgDplj_Zk3aN_7N9bxTrNB2ss/edit?usp=sharing)
+- [How to configure DHCP server using Cisco packet tracer](../tools/docs/cisco-packet-tracer.md)
 
+**Lab** DNS Server
+
+- [What is DNS Server - slides](https://docs.google.com/presentation/d/1VxoNQRi3oSeKbFRHfVgPcCuHga4lC8tYj48NYSFMAnA/edit?usp=sharing)
+- [How to configure DNS server using Cisco packet tracer](../tools/docs/cisco-packet-tracer.md#how-to-configure-dns-server-in-packet-tracer)
+
+**Lab** Configure DHCP Server on the Router 
+
+- [How to configure DHCP server on the router](../tools/docs/cisco-packet-tracer.md#6-optional-configure-dhcp-on-the-router)
+- 
 ### **Week 4: Linux - User and Group Management**
 
 1. **Practical 1: User Management**  
@@ -37,6 +50,5 @@
   
 2. **Practical 2: Manage Softwares**
     - [slides](https://docs.google.com/presentation/d/1AEl9J22vv8-bwhECuOk-HjQRMSE4-8gv72JdQqTUqGo/edit?usp=sharing)
-
-
  
+## [Final Project](docs/sna-projects.md)

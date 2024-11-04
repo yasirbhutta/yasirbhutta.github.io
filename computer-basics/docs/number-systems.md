@@ -6,6 +6,36 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/number-systems.html](https://yasirbhutta.github.io/computer-basics/docs/number-systems.html)
 
+- [Number System](#number-system)
+  - [Module 1: Bits](#module-1-bits)
+  - [Module 1: bits](#module-1-bits-1)
+    - [What is a bit?](#what-is-a-bit)
+    - [How are bits represented?](#how-are-bits-represented)
+    - [How are bits used?](#how-are-bits-used)
+  - [Units of measurement for storage data](#units-of-measurement-for-storage-data)
+  - [Patterns Using Bits](#patterns-using-bits)
+  - [ASCII code](#ascii-code)
+    - [Module 2: Boolean Operations](#module-2-boolean-operations)
+      - [What are Boolean operations?\*\*](#what-are-boolean-operations)
+      - [Boolean expressions](#boolean-expressions)
+      - [Truth tables](#truth-tables)
+      - [Examples of Boolean expressions](#examples-of-boolean-expressions)
+      - [Applications of Boolean operations](#applications-of-boolean-operations)
+    - [Module 3: Hexadecimal Notation](#module-3-hexadecimal-notation)
+      - [What is hexadecimal notation?](#what-is-hexadecimal-notation)
+      - [Why use hexadecimal notation?](#why-use-hexadecimal-notation)
+      - [How to convert between hexadecimal and binary](#how-to-convert-between-hexadecimal-and-binary)
+      - [Applications of hexadecimal notation](#applications-of-hexadecimal-notation)
+    - [Module 14: Storing a Bit](#module-14-storing-a-bit)
+      - [How are bits stored in memory?](#how-are-bits-stored-in-memory)
+      - [Types of memory](#types-of-memory)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Review Questions](#review-questions)
+  - [Excercises](#excercises)
+  - [References](#references)
+
+
 ## Module 1: Bits
 
 A bit is the smallest unit of information in a computer. It can be either 0 or 1. Bits are used to represent all of the data that is stored and processed on a computer, including text, images, audio, and video.
