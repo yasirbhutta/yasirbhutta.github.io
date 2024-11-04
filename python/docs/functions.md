@@ -14,7 +14,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
-
 ## What is a Function?
 
 In Python, a function is a block of code designed to perform a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
@@ -202,6 +201,44 @@ Keyword arguments: {'name': 'Ali', 'age': 25}
 ### Documentation Strings
 ### Function Annotations
 
+## 'nonlocal' keyword 
+
+In Python, the `nonlocal` keyword is used to declare that a variable inside a nested function refers to a variable in the nearest enclosing scope that is not global. This allows you to modify a variable from an outer (but not global) scope within a nested function.
+
+Here's an example to illustrate how `nonlocal` works:
+
+```python
+def outer_function():
+    x = 10  # This is the enclosing variable
+
+    def inner_function():
+        nonlocal x  # Declare that we want to use the outer variable x
+        x += 5      # Modify the outer variable
+        print("Inner x:", x)
+
+    inner_function()
+    print("Outer x:", x)
+
+outer_function()
+```
+
+### Output:
+```
+Inner x: 15
+Outer x: 15
+```
+
+### Explanation:
+1. `outer_function` defines a variable `x`.
+2. `inner_function` modifies `x` using the `nonlocal` keyword.
+3. When `inner_function` is called, it updates `x`, and both the inner and outer prints show the updated value.
+
+### When to Use `nonlocal`:
+- When you have nested functions and you want to modify a variable from the outer function.
+- When you need to avoid using global variables and want to keep your code cleaner and more modular.
+
+If you don’t use `nonlocal`, Python will treat the variable as a new local variable in the inner function, which can lead to unexpected behavior or errors.
+
 **See also:**
 
 - [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
@@ -271,34 +308,38 @@ print(my_function())
     - C) `10`  
     - D) `Error`  
 
-### 23. **Which of the following function calls is invalid for this function definition?** [Python Quiz #91]
-   ```python
-   def my_func(a, b, c=3):
-       return a + b + c
-   ```
-   a) `my_func(1, 2)`  
-   b) `my_func(1, 2, 4)`  
-   c) `my_func(a=1, b=2, c=5)`  
-   d) `my_func(1, c=4, b=2, 5)`  
+### 23. **Which of the following function calls is invalid for this function definition?** [Python Quiz #93]
 
-   **Answer**: d) `my_func(1, c=4, b=2, 5)`
+```python
+def my_func(a, b, c=3):
+    return a + b + c
+```
+   - A) `my_func(1, 2)`  
+   - B) `my_func(1, 2, 4)`  
+   - C) `my_func(a=1, b=2, c=5)`  
+   - D) `my_func(1, c=4, b=2, 5)`  
 
-   ### 25. **What is the output of the following code?**
-   ```python
-   def change_value(x):
-       x = 10
-   num = 5
-   change_value(num)
-   print(num)
-   ```
-   a) `5`  
-   b) `10`  
-   c) `Error`  
-   d) `None`  
+### 25. **What is the output of the following code?** [Python Quiz #91]
 
-   **Answer**: a) `5`
+```python
+def change_value(x):
+    x = 10
+num = 5
+change_value(num)
+print(num)
+```
 
-   ### 41. **What is the output of the following code?**
+   - A) `5`  
+   - B) `10`  
+   - C) `Error`  
+   - D) `None`  
+
+**Answer**: a) `5`
+
+
+### Scope and Variables
+
+41. **What is the output of the following code?** [Python Quiz #92]
    ```python
    x = 5
    def my_func():
@@ -312,92 +353,55 @@ print(my_function())
    c) `None`  
    d) `Error`
 
-   **Answer**: b) `10`
+26. **What is the output of the following code?** [Python Quiz #93]
 
-   ## 37. **What is the output of the following code?**
-   ```python
-   def outer():
-       x = 1
-       def inner():
-           print(x)
-       return inner
-   func = outer()
-   func()
-   ```
-   a) `None`  
-   b) `Error`  
-   c) `1`  
-   d) `Function object`
+```python
+def outer():
+    x = 1
+    def inner():
+        print(x)
+    return inner
 
-   **Answer**: c) `1`
+func = outer()
+func()
+```
+  - A) `None`  
+  - B) `Error`  
+  - C) `1`  
+  - D) `Function object`
 
-   ### 32. **What will be the output of the following code?**
-   ```python
-   def outer():
-       x = 5
-       def inner():
-           nonlocal x
-           x = 10
-       inner()
-       return x
-   print(outer())
-   ```
-   a) `5`  
-   b) `10`  
-   c) `None`  
-   d) `Error`
+27.  **What will be the output of the following code?** [Python Quiz #95]
+    
+```python
+def outer():
+    x = 5
+    def inner():
+        nonlocal x
+        x = 10
+    inner()
+    return x
+print(outer())
+```
+   - A) `5`  
+   - B) `10`  
+   - C) `None`  
+   - D) `Error`
 
-   **Answer**: b) `10`
+**What is the output of the following code?** [Python Quiz #96]
 
-### Scope and Variables
-6. **What is the output of the following code?**
-   ```python
-   x = 10
+```python
+def greet(name: str) -> str:
+    return "Hello, " + name + "!"
 
-   def my_function():
-       x = 20
-       print(x)
+result = greet(5)
+print(result)
+```
+     - A) Hello, 5!
+     - B) TypeError
+     - C) None
+     - D) Hello, !
 
-   my_function()
-   print(x)
-   ```
-   * A. 10 20
-   * B. 20 10
-   * C. 20 20
-   * D. Error
-
-
-   7. **What is the output of the following code?**
-   ```python
-   global_var = 5
-
-   def modify_global():
-       global global_var
-       global_var = 10
-
-   modify_global()
-   print(global_var)
-   ```
-   * A. 5
-   * B. 10
-   * C. Error
-   * D. None
-   * 
-
-12. **What is the output of the following code?**
-   ```python
-   def greet(name: str) -> str:
-       return "Hello, " + name + "!"
-
-   result = greet(5)
-   print(result)
-   ```
-   * A. Hello, 5!
-   * B. Error
-   * C. None
-   * D. Hello, !
-   * 
-2. **What is the output of the following code?** [Python Quiz #2]
+**What is the output of the following code?** [Python Quiz #2]
 
 ```python
 def foo(x):
@@ -417,7 +421,7 @@ print(foo(5))
 
 For more details, see [Appendix A](#appendix-a-recursive-program)
 
-3. **What is the output of the following code?** [Python Quiz #30]
+1. **What is the output of the following code?** [Python Quiz #30]
    
 ```python
 def calculate_sum(n):
@@ -472,20 +476,18 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
-### 30. **What is the output of the following code?**
-   ```python
-   def f(a, b, *args):
-       return len(args)
-   print(f(1, 2, 3, 4, 5))
-   ```
-   a) `2`  
-   b) `3`  
-   c) `5`  
-   d) `None`
+### 30. **What is the output of the following code?** [Python Quiz #97]
+```python
+def f(a, b, *args):
+    return len(args)
+print(f(1, 2, 3, 4, 5))
+```
+   - A) `2`  
+   - B) `3`  
+   - C) `5`  
+   - D) `None`
 
-   **Answer**: b) `3`
-
-6. **What is the output of the following  code?** [#41 Python Quiz]
+1. **What is the output of the following  code?** [#41 Python Quiz]
 
 ```python
 def display_data(**kwargs):
@@ -512,37 +514,37 @@ display_data(name="Ali", age=25)
       - C) 3
       - D) Error
 
+**What is the output of the following code?** [Python Quiz #98] 
+```python
+def outer_function(message):
+    def inner_function():
+        print(message)
+    return inner_function
 
-20. **What is the output of the following code?**
-   ```python
-   def outer_function(message):
-       def inner_function():
-           print(message)
-       return inner_function
-
-   my_function = outer_function("Hello, world!")
-   my_function()
-   ```
-   * A. Hello, world!
-   * B. Error
-   * C. None
-   * D. outer_function
+my_function = outer_function("Hello, world!")
+my_function()
+```
+   - A) Hello, world!
+   - B) Error
+   - C) None
+   - D) outer_function
   
-  8. **What is the output of the following code?**
-   ```python
-   def apply_function(func, x):
-       return func(x)
+  1. **What is the output of the following code?** [Python Quiz #99]
 
-   def square(x):
-       return x * x
+```python
+def apply_function(func, x):
+    return func(x)
 
-   result = apply_function(square, 5)
-   print(result)
-   ```
-   * A. 25
-   * B. 5
-   * C. 10
-   * D. Error
+def square(x):
+    return x * x
+
+result = apply_function(square, 5)
+print(result)
+```
+   - A) 25
+   - B) 5
+   - C) 10
+   - D) Error
 
 ### Function Composition
 21. **What is function composition in Python?**

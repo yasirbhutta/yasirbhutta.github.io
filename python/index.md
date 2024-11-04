@@ -4,8 +4,15 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Download PDF](https://yasirbhutta.github.io/python/index.pdf)
 
-- [Python video Tranining](video-training-python.md)
-- [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+**🎥 YouTube Playlists to Learn Python:**
+
+- [🔗 Python Tutorials for Beginners](https://youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
+- [🔗 Python Code Challenges | Quiz](https://www.youtube.com/playlist?list=PLKYRx0Ibk7VjyzKhi5vH35GQKQl_TnWOn)
+- [🔗 Python Exercises](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vh9nG-GwBzsjP5TfOCjv1LH)
+
+[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
+
+
 - [Download Example Code](https://github.com/yasirbhutta/python-examples)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
 - [Python Tools](docs/tools.md)
@@ -25,7 +32,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - **Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
 - **Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
 
-### Python Notes
+### Python Basics Notes
 
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)
@@ -58,6 +65,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [pandas](docs/modules/pandas.md)
 - [Numpy](docs/modules/numpy.md)
 - [The 5 Most Important Python Libraries You Should Know](https://youtu.be/tazI6HcQ5pU)
+
+### Python for Data Visualization
+
 - [What is Matplotlib in Python? \| Quick Python Tutorial \| Python for Data Visualization](https://youtu.be/R_2Um57NEVk)
 
 https://bokeh.org/

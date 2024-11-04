@@ -267,8 +267,8 @@ Enter the second number: 4
 ```
 
 ### Exercise 2: Age Checker
-
-**Task:** Write a simple program that asks for the user’s age and checks if the user is older than 18.
+**Task:** Write a simple program that asks 
+for the user’s age and checks if the user is older than 18.
 
 **Sample Input:**
 ```
