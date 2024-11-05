@@ -576,13 +576,6 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 ## Review Questions
 
-- What are the different types of input and output devices?
-- What is the function of input devices? Give some examples.
-- What is the function of output devices? Give some examples.
-- Differentiate between a pointing device and a touchscreen.
-- What is the motherboard and what is its function?
-- Write note on input devices and output devices and examples of four devices with usage of each type?
-
 **Basics:**
 
 - What is the difference between hardware and software?
@@ -592,10 +585,17 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 - What are the different types of monitors?
 - What are the different types of printers?
-  
+- What is the function of input devices? Give some examples.
+- What is the function of output devices? Give some examples.
+- What are the different types of input and output devices?
+- Differentiate between a pointing device and a touchscreen.
+- Write note on input devices and output devices and examples of four devices with usage of each type?
+    
 **Central Processing Unit (CPU):**
 
 - What is the CPU and what does it do?
+
+- single core vs multi-core CPU
 
 **Answer:**
 
@@ -622,7 +622,7 @@ Data Handling:
 Memory Access:
 
 - 32-bit CPU: Can address a maximum of 4GB of RAM (random access memory). This means they can only use up to 4GB of RAM at a time.
-64-bit CPU: Can address a vast amount of RAM, theoretically up to 18 quintillion gigabytes. In practice, the actual limit depends on the specific CPU and operating system, but it's significantly higher than 32-bit CPUs.
+- 64-bit CPU: Can address a vast amount of RAM, theoretically up to 18 quintillion gigabytes. In practice, the actual limit depends on the specific CPU and operating system, but it's significantly higher than 32-bit CPUs.
 
 **Motherboard:**
 

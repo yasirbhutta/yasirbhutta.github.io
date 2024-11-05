@@ -1,4 +1,4 @@
-# MID Term Fall 2024 (BS English 3rd)
+# MID Term Fall 2024
 
 ## Topics
 
@@ -19,11 +19,11 @@
 (1x True/False + 2x fill in the blanks + 5x MCQs)
 
 - 1x from Computer Basics
+- 1x from Computer Hardware
 - 1x from Computer Storage Devices
 - 2x from Google Search
 - 3x from Microsoft Excel
-- 1x from Computer Hardware
-  
+
 **Short Questions (04 marks 2x2):**
 
 - 1x from Storage Devices
@@ -32,7 +32,6 @@
 **Long Questions (04 marks 1x4):**
 
 - 1x from Computer Hardware
-
 
 # Final Term Spring 2014
 

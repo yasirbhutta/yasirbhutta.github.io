@@ -10,6 +10,67 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
 
+- [Google Search](#google-search)
+  - [Modules - Google Search](#modules---google-search)
+    - [Module 1](#module-1)
+    - [Module 2](#module-2)
+    - [Module 3 - Search Operators](#module-3---search-operators)
+    - [Module 4](#module-4)
+    - [Module 5](#module-5)
+  - [Module 1](#module-1-1)
+    - [How to Search on Google](#how-to-search-on-google)
+      - [Tip 1: Start with the basics](#tip-1-start-with-the-basics)
+      - [Tip 2: Search using your voice](#tip-2-search-using-your-voice)
+      - [Tip 3: Choose words carefully](#tip-3-choose-words-carefully)
+      - [Tip 4: Don’t worry about the little things](#tip-4-dont-worry-about-the-little-things)
+      - [Tip 5: Find quick answers](#tip-5-find-quick-answers)
+    - [Flip a coin](#flip-a-coin)
+    - [“I’m feeling lucky”](#im-feeling-lucky)
+    - [Module 2](#module-2-1)
+    - [Weather Searching](#weather-searching)
+    - [Calculations](#calculations)
+    - [Unit conversions](#unit-conversions)
+  - [Module 3](#module-3)
+    - [Search social media](#search-social-media)
+    - [Search for a price](#search-for-a-price)
+    - [Search hashtags](#search-hashtags)
+    - [Exclude words from your search](#exclude-words-from-your-search)
+    - [Search for an exact match](#search-for-an-exact-match)
+  - [Module 4](#module-4-1)
+    - [Search within a range of numbers](#search-within-a-range-of-numbers)
+      - [Combine searches](#combine-searches)
+    - [Search for a specific site](#search-for-a-specific-site)
+    - [Search for related sites](#search-for-related-sites)
+    - [See Google’s cached version of a site](#see-googles-cached-version-of-a-site)
+    - [Search by file type](#search-by-file-type)
+    - [Top Results from Wikipedia](#top-results-from-wikipedia)
+    - [link Operator](#link-operator)
+  - [Module 5](#module-5-1)
+    - [Stocks Operator](#stocks-operator)
+      - [Map Operator](#map-operator)
+    - [define Operator](#define-operator)
+    - [Search image](#search-image)
+    - [Search Image with a URL](#search-image-with-a-url)
+      - [Search for an exact image size](#search-for-an-exact-image-size)
+    - [Advanced Search Operators](#advanced-search-operators)
+      - [intitle](#intitle)
+      - [Inurl](#inurl)
+      - [intext](#intext)
+    - [Search Operators](#search-operators)
+      - [Refine image searches](#refine-image-searches)
+    - [Common search techniques](#common-search-techniques)
+      - [Search with an image on Google](#search-with-an-image-on-google)
+      - [Upload an image](#upload-an-image)
+      - [Search with an image from a website](#search-with-an-image-from-a-website)
+      - [Search with an image from search results](#search-with-an-image-from-search-results)
+      - [Find related images](#find-related-images)
+    - [Review Questions](#review-questions)
+    - [True/False](#truefalse)
+    - [Multiple Choice - Select the best answer](#multiple-choice---select-the-best-answer)
+  - [Exercises](#exercises)
+  - [References](#references)
+  - [Social Links](#social-links)
+
 ## Modules - Google Search
 
 ### Module 1
@@ -678,6 +739,47 @@ At the top right, click Search inside image .
 2. [ ] Type math: followed by the equation
 3. [ ] Type the expression or equation directly
 4. [ ] Type solve: followed by the problem
+
+What is a search engine?
+A) A program that creates websites
+B) A tool to find information on the internet
+C) A software for sending emails
+D) A social media platform
+
+
+Here are some easier multiple-choice questions (MCQs) about search engines and Google Search suitable for beginners:
+
+1. What is a search engine?
+A) A program that creates websites
+B) A tool to find information on the internet
+C) A software for sending emails
+D) A social media platform
+
+Answer: B) A tool to find information on the internet
+
+2. What does Google do?
+A) Hosts websites
+B) Provides online shopping
+C) Searches for and displays web pages
+D) Creates videos
+
+Answer: C) Searches for and displays web pages
+
+3. Which of the following is a popular search engine?
+A) Facebook
+B) Google
+C) Instagram
+D) Twitter
+
+Answer: B) Google
+
+7. What does the "I'm Feeling Lucky" button do in Google?
+A) It takes you to a random website
+B) It shows you the first search result directly
+C) It provides related searches
+D) It changes the search language
+
+Answer: B) It shows you the first search result directly
 
 ## Exercises
 
