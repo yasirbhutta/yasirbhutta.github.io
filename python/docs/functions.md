@@ -14,10 +14,14 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
+<<<<<<< HEAD
+## What is a Function?
+=======
 > "The only way to do great work is to love what you do."  
 > – Steve Jobs
 
 ## 6.1 What is a Function?
+>>>>>>> ef27128a4decf2953997546be3fe2a1a9231c939
 
  A function is a block of reusable code that performs a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
 
@@ -109,6 +113,154 @@ In this example:
 **Think of it like this:**
 * A parameter is like an empty box that expects a value.
 * An argument is the value you put into the box.
+
+Sure! Here's a simple task for beginners to practice writing functions in Python, along with input and output examples.
+
+### Task: Create a Function to Calculate the Area of a Rectangle
+
+**Function Requirements:**
+1. Define a function named `calculate_area` that takes two parameters: `length` and `width`.
+2. The function should calculate the area of the rectangle (Area = Length × Width) and return the result.
+
+**Input:**
+- Length (a positive float or integer)
+- Width (a positive float or integer)
+
+**Output:**
+- The area of the rectangle (a float)
+
+### Expected Output
+```
+The area of the rectangle with length 5 and width 3 is: 15
+```
+
+### Additional Test Cases
+
+1. **Input:** `length = 7`, `width = 2`
+   - **Output:** `The area of the rectangle with length 7 and width 2 is: 14`
+
+2. **Input:** `length = 10.5`, `width = 4.2`
+   - **Output:** `The area of the rectangle with length 10.5 and width 4.2 is: 44.1`
+
+
+Absolutely! Here’s another beginner-friendly task.
+
+### Task: Create a Function to Check if a Number is Even or Odd
+
+**Function Requirements:**
+1. Define a function named `is_even` that takes one parameter: `number`.
+2. The function should determine if the number is even or odd.
+3. It should return the string `"Even"` if the number is even, and `"Odd"` if the number is odd.
+
+**Input:**
+- A single integer (positive or negative)
+
+**Output:**
+- A string: either `"Even"` or `"Odd"`
+
+### Example
+
+```python
+def is_even(number):
+    # Check if the number is even or odd
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Example usage:
+num = 4
+result = is_even(num)
+print(f"The number {num} is: {result}")
+```
+
+### Expected Output
+```
+The number 4 is: Even
+```
+
+### Additional Test Cases
+
+Encourage beginners to test the function with various numbers:
+
+1. **Input:** `num = 7`
+   - **Output:** `The number 7 is: Odd`
+
+2. **Input:** `num = -2`
+   - **Output:** `The number -2 is: Even`
+
+3. **Input:** `num = 0`
+   - **Output:** `The number 0 is: Even`
+
+This task helps beginners understand conditional statements and how to return different outputs based on input in Python.
+
+Sure! Here’s a task that focuses on building logic through a simple number guessing game.
+
+### Task: Create a Number Guessing Game
+
+**Function Requirements:**
+1. Define a function named `guess_number` that takes no parameters.
+2. The function should randomly select a number between 1 and 100.
+3. Prompt the user to guess the number, providing feedback on whether their guess is too high, too low, or correct.
+4. The game should continue until the user guesses the correct number.
+5. Once the user guesses correctly, the function should print a congratulatory message and the number of attempts it took.
+
+**Input:**
+- User input (guesses) from the console
+
+**Output:**
+- Feedback on each guess and a congratulatory message upon a correct guess
+
+### Expected Output
+
+When the user plays the game, the interaction might look like this:
+
+```
+Welcome to the Number Guessing Game!
+Guess a number between 1 and 100.
+Enter your guess: 50
+Too low! Try again.
+Enter your guess: 75
+Too high! Try again.
+Enter your guess: 60
+Congratulations! You've guessed the number 60 in 3 attempts.
+```
+
+### Notes for Beginners
+
+1. **Random Number Generation:** You can use the `random` module to select a random number.
+2. **Input Handling:** Use `input()` to get the user's guess and convert it to an integer.
+3. **Loops and Conditionals:** This task will help practice loops for continuous guessing and conditionals for feedback.
+
+### Task: Create a Function to Find the Maximum Number in a List
+
+**Function Requirements:**
+1. Define a function named `find_max` that takes one parameter: `numbers`, which is a list of integers.
+2. The function should return the maximum number in the list.
+3. If the list is empty, the function should return `None`.
+
+**Input:**
+- A list of integers
+
+**Output:**
+- The maximum integer in the list or `None` if the list is empty
+
+### Expected Output
+```
+The maximum number in the list is: 9
+```
+
+### Additional Test Cases
+
+1. **Input:** `numbers = [10, 20, 30, 5]`
+   - **Output:** `The maximum number in the list is: 30`
+
+2. **Input:** `numbers = [-5, -1, -10]`
+   - **Output:** `The maximum number in the list is: -1`
+
+3. **Input:** `numbers = []`
+   - **Output:** `The maximum number in the list is: None`
+
 
 ## 6.4 More on Defining Functions
 
@@ -216,6 +368,44 @@ Keyword arguments: {'name': 'Ali', 'age': 25}
 ### Documentation Strings
 ### Function Annotations
 
+## 'nonlocal' keyword 
+
+In Python, the `nonlocal` keyword is used to declare that a variable inside a nested function refers to a variable in the nearest enclosing scope that is not global. This allows you to modify a variable from an outer (but not global) scope within a nested function.
+
+Here's an example to illustrate how `nonlocal` works:
+
+```python
+def outer_function():
+    x = 10  # This is the enclosing variable
+
+    def inner_function():
+        nonlocal x  # Declare that we want to use the outer variable x
+        x += 5      # Modify the outer variable
+        print("Inner x:", x)
+
+    inner_function()
+    print("Outer x:", x)
+
+outer_function()
+```
+
+### Output:
+```
+Inner x: 15
+Outer x: 15
+```
+
+### Explanation:
+1. `outer_function` defines a variable `x`.
+2. `inner_function` modifies `x` using the `nonlocal` keyword.
+3. When `inner_function` is called, it updates `x`, and both the inner and outer prints show the updated value.
+
+### When to Use `nonlocal`:
+- When you have nested functions and you want to modify a variable from the outer function.
+- When you need to avoid using global variables and want to keep your code cleaner and more modular.
+
+If you don’t use `nonlocal`, Python will treat the variable as a new local variable in the inner function, which can lead to unexpected behavior or errors.
+
 **See also:**
 
 - [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
@@ -285,18 +475,54 @@ print(my_function())
     - C) `10`  
     - D) `Error`  
 
-### 23. **Which of the following function calls is invalid for this function definition?** [Python Quiz #91]
+### 23. **Which of the following function calls is invalid for this function definition?** [Python Quiz #93]
+
+```python
+def my_func(a, b, c=3):
+    return a + b + c
+```
+   - A) `my_func(1, 2)`  
+   - B) `my_func(1, 2, 4)`  
+   - C) `my_func(a=1, b=2, c=5)`  
+   - D) `my_func(1, c=4, b=2, 5)`  
+
+<<<<<<< HEAD
+### 25. **What is the output of the following code?** [Python Quiz #91]
+
+```python
+def change_value(x):
+    x = 10
+num = 5
+change_value(num)
+print(num)
+```
+
+   - A) `5`  
+   - B) `10`  
+   - C) `Error`  
+   - D) `None`  
+
+**Answer**: a) `5`
+
+
+### Scope and Variables
+
+41. **What is the output of the following code?** [Python Quiz #92]
    ```python
-   def my_func(a, b, c=3):
-       return a + b + c
+   x = 5
+   def my_func():
+       global x
+       x = 10
+   my_func()
+   print(x)
    ```
-   a) `my_func(1, 2)`  
-   b) `my_func(1, 2, 4)`  
-   c) `my_func(a=1, b=2, c=5)`  
-   d) `my_func(1, c=4, b=2, 5)`  
+   a) `5`  
+   b) `10`  
+   c) `None`  
+   d) `Error`
 
-   **Answer**: d) `my_func(1, c=4, b=2, 5)`
-
+26. **What is the output of the following code?** [Python Quiz #93]
+=======
    ### 25. **What is the output of the following code?** [Python Quiz #91]
    ```python
    def change_value(x):
@@ -325,91 +551,55 @@ print(x)
     - B) `10`  
     - C) `None`  
     - D) `Error`
+>>>>>>> ef27128a4decf2953997546be3fe2a1a9231c939
 
-   ## 37. **What is the output of the following code?**
-   ```python
-   def outer():
-       x = 1
-       def inner():
-           print(x)
-       return inner
-   func = outer()
-   func()
-   ```
-   a) `None`  
-   b) `Error`  
-   c) `1`  
-   d) `Function object`
+```python
+def outer():
+    x = 1
+    def inner():
+        print(x)
+    return inner
 
-   **Answer**: c) `1`
+func = outer()
+func()
+```
+  - A) `None`  
+  - B) `Error`  
+  - C) `1`  
+  - D) `Function object`
 
-   ### 32. **What will be the output of the following code?**
-   ```python
-   def outer():
-       x = 5
-       def inner():
-           nonlocal x
-           x = 10
-       inner()
-       return x
-   print(outer())
-   ```
-   a) `5`  
-   b) `10`  
-   c) `None`  
-   d) `Error`
+27.  **What will be the output of the following code?** [Python Quiz #95]
+    
+```python
+def outer():
+    x = 5
+    def inner():
+        nonlocal x
+        x = 10
+    inner()
+    return x
+print(outer())
+```
+   - A) `5`  
+   - B) `10`  
+   - C) `None`  
+   - D) `Error`
 
-   **Answer**: b) `10`
+**What is the output of the following code?** [Python Quiz #96]
 
-### Scope and Variables
-6. **What is the output of the following code?**
-   ```python
-   x = 10
+```python
+def greet(name: str) -> str:
+    return "Hello, " + name + "!"
 
-   def my_function():
-       x = 20
-       print(x)
+result = greet(5)
+print(result)
+```
+     - A) Hello, 5!
+     - B) TypeError
+     - C) None
+     - D) Hello, !
 
-   my_function()
-   print(x)
-   ```
-   * A. 10 20
-   * B. 20 10
-   * C. 20 20
-   * D. Error
-
-
-   7. **What is the output of the following code?**
-   ```python
-   global_var = 5
-
-   def modify_global():
-       global global_var
-       global_var = 10
-
-   modify_global()
-   print(global_var)
-   ```
-   * A. 5
-   * B. 10
-   * C. Error
-   * D. None
-   * 
-
-12. **What is the output of the following code?**
-   ```python
-   def greet(name: str) -> str:
-       return "Hello, " + name + "!"
-
-   result = greet(5)
-   print(result)
-   ```
-   * A. Hello, 5!
-   * B. Error
-   * C. None
-   * D. Hello, !
-   * 
-2. **What is the output of the following code?** [Python Quiz #2]
+**What is the output of the following code?** [Python Quiz #2]
 
 ```python
 def foo(x):
@@ -429,7 +619,7 @@ print(foo(5))
 
 For more details, see [Appendix A](#appendix-a-recursive-program)
 
-3. **What is the output of the following code?** [Python Quiz #30]
+1. **What is the output of the following code?** [Python Quiz #30]
    
 ```python
 def calculate_sum(n):
@@ -484,20 +674,18 @@ add(1, 2,8,9)
 
 **Watch this video for answer:** [https://youtube.com/shorts/VQT4Cllpf9M](https://youtube.com/shorts/VQT4Cllpf9M)
 
-### 30. **What is the output of the following code?**
-   ```python
-   def f(a, b, *args):
-       return len(args)
-   print(f(1, 2, 3, 4, 5))
-   ```
-   a) `2`  
-   b) `3`  
-   c) `5`  
-   d) `None`
+### 30. **What is the output of the following code?** [Python Quiz #97]
+```python
+def f(a, b, *args):
+    return len(args)
+print(f(1, 2, 3, 4, 5))
+```
+   - A) `2`  
+   - B) `3`  
+   - C) `5`  
+   - D) `None`
 
-   **Answer**: b) `3`
-
-6. **What is the output of the following  code?** [#41 Python Quiz]
+1. **What is the output of the following  code?** [#41 Python Quiz]
 
 ```python
 def display_data(**kwargs):
@@ -524,37 +712,37 @@ display_data(name="Ali", age=25)
       - C) 3
       - D) Error
 
+**What is the output of the following code?** [Python Quiz #98] 
+```python
+def outer_function(message):
+    def inner_function():
+        print(message)
+    return inner_function
 
-20. **What is the output of the following code?**
-   ```python
-   def outer_function(message):
-       def inner_function():
-           print(message)
-       return inner_function
-
-   my_function = outer_function("Hello, world!")
-   my_function()
-   ```
-   * A. Hello, world!
-   * B. Error
-   * C. None
-   * D. outer_function
+my_function = outer_function("Hello, world!")
+my_function()
+```
+   - A) Hello, world!
+   - B) Error
+   - C) None
+   - D) outer_function
   
-  8. **What is the output of the following code?**
-   ```python
-   def apply_function(func, x):
-       return func(x)
+  1. **What is the output of the following code?** [Python Quiz #99]
 
-   def square(x):
-       return x * x
+```python
+def apply_function(func, x):
+    return func(x)
 
-   result = apply_function(square, 5)
-   print(result)
-   ```
-   * A. 25
-   * B. 5
-   * C. 10
-   * D. Error
+def square(x):
+    return x * x
+
+result = apply_function(square, 5)
+print(result)
+```
+   - A) 25
+   - B) 5
+   - C) 10
+   - D) Error
 
 ### Function Composition
 21. **What is function composition in Python?**
