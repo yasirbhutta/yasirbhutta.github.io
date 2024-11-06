@@ -10,6 +10,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
 
+**Table of Contents:**
+
 - [Google Search](#google-search)
   - [Modules - Google Search](#modules---google-search)
     - [Module 1](#module-1)
@@ -18,15 +20,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Module 4](#module-4)
     - [Module 5](#module-5)
   - [Module 1](#module-1-1)
+    - [What is Search Engine](#what-is-search-engine)
     - [How to Search on Google](#how-to-search-on-google)
-      - [Tip 1: Start with the basics](#tip-1-start-with-the-basics)
-      - [Tip 2: Search using your voice](#tip-2-search-using-your-voice)
-      - [Tip 3: Choose words carefully](#tip-3-choose-words-carefully)
-      - [Tip 4: Don’t worry about the little things](#tip-4-dont-worry-about-the-little-things)
-      - [Tip 5: Find quick answers](#tip-5-find-quick-answers)
     - [Flip a coin](#flip-a-coin)
     - [“I’m feeling lucky”](#im-feeling-lucky)
-    - [Module 2](#module-2-1)
+  - [Module 2](#module-2-1)
     - [Weather Searching](#weather-searching)
     - [Calculations](#calculations)
     - [Unit conversions](#unit-conversions)
@@ -69,13 +67,12 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Multiple Choice - Select the best answer](#multiple-choice---select-the-best-answer)
   - [Exercises](#exercises)
   - [References](#references)
-  - [Social Links](#social-links)
 
 ## Modules - Google Search
 
 ### Module 1
 
-- Query
+- Search Egnine
 - How Google Work
 - How to Search on Google
 - Flip a Coin
@@ -123,30 +120,36 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   
 ## Module 1
 
+### What is Search Engine
+
+A search engine is a software system designed to help users find information on the internet. When you enter a query into a search engine, it searches its database for relevant web pages and presents a list of results. These results typically include hyperlinks to web pages, along with brief descriptions or summaries.
+
+Search engines work by using automated programs called web crawlers or spiders to scan and index the content of web pages. This indexed information is then used to quickly retrieve relevant results when a user performs a search.[1][2]
+
 ### How to Search on Google
 
 [https://www.google.com/](https://www.google.com/)
 
-#### Tip 1: Start with the basics
+- **Tip 1: Start with the basics**
 
 - No matter what you're looking for, start with a simple search like **where's the closest airport?**. You can always add a few descriptive words if necessary.
 - If you're looking for a place or product in a specific location, add the location.For example, **Multan**.
 
-#### Tip 2: Search using your voice
+- Tip 2: Search using your voice
 
 - To search with your voice, say **"Ok Google"** or **select the Microphone**
 
-#### Tip 3: Choose words carefully
+- **Tip 3: Choose words carefully**
 
 - When you're deciding what words to put in the search box, try to choose words that are likely to appear on the site you're looking for.
 - **For example,** instead of saying **my head hurts**, say **headache**, because that’s the word a medical site would use.
 
-#### Tip 4: Don’t worry about the little things
+- **Tip 4: Don’t worry about the little things**
 
 - Spelling: Google's spell checker automatically uses the most common spelling of a given word, whether or not you spell it correctly.
 - **Capitalization:** A search for New York Times is the same as a search for new york times.
 
-#### Tip 5: Find quick answers
+- **Tip 5: Find quick answers**
 
 Search for the name of a celebrity, location, movie, or song to find related information. 
 
@@ -175,7 +178,7 @@ unemployment rate china
 - click on "I'm feeling lucky" if you're searching for the site of a company or the official site of a product.
 - "I'm feeling lucky" sends you to the first search result.
 
-### Module 2
+## Module 2
 
 ### Weather Searching
 
@@ -797,15 +800,12 @@ Answer: B) It shows you the first search result directly
 
 ## References
 
+[1] “Search engine,” Wikipedia, Dec. 04, 2020. [https://en.wikipedia.org/wiki/Search_engine](https://en.wikipedia.org/wiki/Search_engine)
+[2] Computer Hope, “What is a Search Engine?,” Computerhope.com, 2019. [https://www.computerhope.com/jargon/s/searengi.htm](https://www.computerhope.com/jargon/s/searengi.htm)
+‌‌
 - [How to search on Google](https://support.google.com/websearch/answer/134479?hl=en)
 - [How to Google like a Pro – 10 Tips for More Effective Googling](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)
 - [36 Google Search tricks to find exactly what you're looking for](https://zapier.com/blog/advanced-google-search-tricks/)
 - [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-## Social Links
 
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
