@@ -1,4 +1,4 @@
-# Computer Basics - Hardware components
+# Computer Basics: Hardware components
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -6,7 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/computer-basics/docs/hardware.html](https://yasirbhutta.github.io/computer-basics/docs/hardware.html)
 
-- [Computer Basics - Hardware components](#computer-basics---hardware-components)
+- [Computer Basics: Hardware components](#computer-basics-hardware-components)
   - [Computer Hardware](#computer-hardware)
     - [Input Devices](#input-devices)
       - [Keyboard](#keyboard)
@@ -25,9 +25,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Output Devices](#output-devices)
       - [Hard Copy \& Soft Copy](#hard-copy--soft-copy)
       - [1. Monitor](#1-monitor)
-        - [LCD (liquid crystal display) monitors](#lcd-liquid-crystal-display-monitors)
-        - [LED (light-emitting diode) monitors](#led-light-emitting-diode-monitors)
-        - [CRT (cathode ray tube) monitors](#crt-cathode-ray-tube-monitors)
       - [2. Printer](#2-printer)
       - [3. Speakers](#3-speakers)
       - [4. Headphone](#4-headphone)
@@ -49,6 +46,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Review Questions](#review-questions)
   - [References and Bibliography](#references-and-bibliography)
 
+ 
 
 ## Computer Hardware
 
@@ -118,6 +116,7 @@ Other types of computer hardware include:
 - A trackball is a pointing device consisting of a ball to move the cursor on the screen.
 
 ![trackball](https://upload.wikimedia.org/wikipedia/en/8/84/Touch_mouse.jpg)
+
 Image source: [wikipedia.org](https://en.wikipedia.org/wiki/File:Touch_mouse.jpg)
 
 #### Touchpad
@@ -149,9 +148,9 @@ Image source: [wikipedia.org](https://en.wikipedia.org/wiki/File:Touch_mouse.jpg
 
 How it works:
 
-**Light It Up:** The scanner shines a light onto the document you placed on it.
-**Capturing the Reflection:** A sensor captures the reflected light, which creates information about the colors and brightness of the image.
-**Building the Digital Image:** This information is converted into a digital format, like a JPG or PDF file.
+- **Light It Up:** The scanner shines a light onto the document you placed on it.
+- **Capturing the Reflection:** A sensor captures the reflected light, which creates information about the colors and brightness of the image.
+- **Building the Digital Image:** This information is converted into a digital format, like a JPG or PDF file.
 
 ##### Fingerprint Scanner
 
@@ -164,10 +163,10 @@ A barcode reader (or barcode scanner) is an electronic device for reading barcod
 
 How it works:
 
-**Reading the Stripes:** It uses a light source and sensor to scan the barcode.
-**Decoding the Message:** The scanner translates the pattern of bars and spaces into electrical signals.
-**Understanding the Code:** A decoder chip then figures out the data hidden in the barcode.
-**Sending the Information:** Finally, it sends this information, like a product code, to a computer.
+- **Reading the Stripes:** It uses a light source and sensor to scan the barcode.
+- **Decoding the Message:** The scanner translates the pattern of bars and spaces into electrical signals.
+- **Understanding the Code:** A decoder chip then figures out the data hidden in the barcode.
+- **Sending the Information:** Finally, it sends this information, like a product code, to a computer.
 
 #### Audio Input Devices
 
@@ -206,13 +205,13 @@ A computer monitor is an essential output device for a computer. It visually dis
 
 There are several types of computer monitors:
 
-##### LCD (liquid crystal display) monitors
+1.1 **LCD (liquid crystal display) monitors**
 
 - LCD monitors are the most common type of monitor available today.
 - They are thin, lightweight, and energy-efficient.
 - LCD monitors use liquid crystals to create images on the screen.
 
-##### LED (light-emitting diode) monitors
+1.2 **LED (light-emitting diode) monitors**
 
 - LED monitors are a type of LCD monitor that uses light-emitting diodes (LEDs) as the backlight instead of fluorescent lamps.
 - LEDs are more energy-efficient and have a longer lifespan than fluorescent lamps.
@@ -220,7 +219,7 @@ There are several types of computer monitors:
 
 The contrast ratio (CR) is a property of a display system, defined as the ratio of the luminance of the brightest shade (white) to that of the darkest shade (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display. [^3]
 
-##### CRT (cathode ray tube) monitors
+1.3 **CRT (cathode ray tube) monitors**
 
 - CRT monitors are the oldest type of computer monitor.
 - They are bulky and heavy, and they consume a lot of power.
@@ -234,8 +233,19 @@ The contrast ratio (CR) is a property of a display system, defined as the ratio 
 **Types of the Printers:**
 
 - **Inkjet printers:** Affordable and good for home use, offering decent print quality for documents and photos.
+  - Inkjet printers use ink cartridges filled with tinted liquid ink and additives. [4]
 - **Laser printers:** Laser printers use toner for fast prints at a lower cost per page, ideal for high-volume black and white printing.
+  - Laser printers use powdered toner.[4]
+
+![toner](images/toner_256x.jpg)
+Image source: [amazon.in](https://www.amazon.in/HP-146A-Laserjet-Toner-Cartridge/dp/B0BZPX76WG)
+
 - **Dot-matrix printers:** Less common today, they were known for their reliability and ability to print multiple carbon copies, but with `noisier operation` and `lower print quality`.
+  - Dot-matrix printers use an ink-soaked ribbon. The print head strikes the ribbon against the paper to form characters and images. This type of ink delivery is known as impact printing. [4]
+
+![printer ribbon](images/ribbon.jpg)
+
+Image source: [shopse.pk](https://shopse.pk/product/print-rate-printer-ribbon-lq-1000-print-rite/)
 
 #### 3. Speakers
 
@@ -245,6 +255,11 @@ The contrast ratio (CR) is a property of a display system, defined as the ratio 
 There are different types of computer speakers available, each catering to various needs:
 
 - **External speakers:** These are the most common type. They come in various sizes and configurations, from simple two-speaker stereo systems to surround sound setups for an immersive audio experience.
+
+![speakers](images/speakers.jpg)
+
+Image source: [freepik.com](https://www.freepik.com/free-vector/realistic-3d-black-speaker-background_4471533.htm#fromView=search&page=1&position=2&uuid=3b85517e-6f61-4e9e-a512-e2a49829f4b8)
+
 - **Built-in speakers:** Many laptops and monitors have built-in speakers for basic audio output. While convenient, they typically offer lower sound quality compared to external speakers.
 
 #### 4. Headphone
@@ -358,13 +373,20 @@ Types of system units:
 
 #### Network Interface Card
 
-- NIC is also called LAN Card.
-- It is used to connect a device to a network.
-- It manages the transmission of data, instructions and information to and from the computer with NIC.
+- A Network Interface Card (NIC), also known as a network adapter or network interface controller, is a hardware component that allows a computer or device to connect to a network. 
+- It facilitates communication between the device and the network, enabling data transfer and network connectivity.
+
+![network interface card](images/nic.jpg)
+
+Image source: [denny.id](https://denny.id/komponen-jaringan-komputer/)
 
 #### Power Supply
 
 - Power supply is used to provide electric circuit to different computer hardware components. Like Motherboard, Hard disk, CD Rom.
+
+![power supply image](images/power-supply.jpg)
+
+Image source: [freeimageslive.co.uk](https://www.freeimageslive.co.uk/free_stock_image/computeratxpsujpg)
 
 #### Uninterrupted Power Supply
 
@@ -376,6 +398,10 @@ Types of system units:
 
 - A port is an interface on a computer to which other devices are connected.
 - It is used to connect peripheral devices with computer such as printers, keyboards or mouse.
+
+![io ports](images/io-ports.jpg)
+
+Image source: [www.flickr.com](https://www.flickr.com/photos/befuddledsenses/7708696538)
 
 **USB (Universal Serial Bus):**
 
@@ -644,6 +670,12 @@ Memory Access:
   
 ## References and Bibliography
 
+- [1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+- [2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
+- [3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
+- [4] “Different Types of Printer Ink: The Ultimate Guide,” CDW.com. <https://www.cdw.com/content/cdw/en/articles/hardware/types-of-ink-for-printers.html>
+‌
+
 - <http://en.wikipedia.org/wiki/Input_device>
 - <http://en.wikipedia.org/wiki/Computer_keyboard>
 - <http://en.wikipedia.org/wiki/Touchscreen>
@@ -652,8 +684,6 @@ Memory Access:
 - <http://www.southerncompany.com/learningpower/glossary.aspx>
 - <http://en.wikipedia.org/wiki/Line_printer>
 
-- [^1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
-- [^2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
-- [^3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
+
 - [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
   
