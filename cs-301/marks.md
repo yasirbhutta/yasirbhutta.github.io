@@ -1,4 +1,37 @@
-# MID Term Fall 2024
+# MID Term Fall 2024 (BS English 1st morning/evening)
+
+## Topics
+
+- Introduction to Computer
+- Computer Hardware
+- Computer Storage Devices
+- Software
+
+- Google Search
+
+- Microsoft Excel
+  - Excel Basics
+
+**Total Objective (04 marks 0.5x8):**
+
+(1x True/False + 2x fill in the blanks + 5x MCQs)
+
+- 1x from Computer Basics
+- 2x from Computer Hardware
+- 2x from Computer Storage Devices
+- 2x from Google Search
+- 1x from Microsoft Excel
+
+**Short Questions (04 marks 2x2):**
+
+- 1x from Storage Devices
+- 1x from Computer Software
+   
+**Long Questions (04 marks 1x4):**
+
+- 1x from Computer Hardware
+
+# MID Term Fall 2024 (other)
 
 ## Topics
 

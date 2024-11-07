@@ -5,11 +5,11 @@ Weeks 1-4: Basic Math Concepts & Python Basics
 
 Week 1: Introduction to Python & Arithmetic Operations
 
-Lecture 1: [Introduction to Python, installing Python](docs/basics.md)
-Lecture 2: [Python basics: print, comments, intput](docs/basics.md)
-Lecture 2: [Python basics: print, comments, intput](docs/basics.md)
-Lecture 2: [Arithmetic operations (addition, subtraction, multiplication, division)](docs/operators.md)
-Lecture 3: [Operators: Comparison Operators, Assignment Operators](docs/operators.md)
+- Lecture 1: [Introduction to Python, installing Python](docs/basics.md)
+- Lecture 2: [Python basics: print, comments, intput](docs/basics.md)
+- Lecture 2: [Python basics: print, comments, intput](docs/basics.md)
+- Lecture 2: [Arithmetic operations (addition, subtraction, multiplication, division)](docs/operators.md)
+- Lecture 3: [Operators: Comparison Operators, Assignment Operators](docs/operators.md)
 
 Week 2: Operators and Variables
 
