@@ -455,8 +455,6 @@ From PC4, run:
 ping 192.168.1.10
 
 
-
-
 ### Step 3: Ping Test Across Different Subnets
 
 1. Ping between PC1 (192.168.2.10) and PC3 (192.168.1.10):
@@ -630,87 +628,149 @@ Learning Outcome: Learn basic router configuration to enable communication betwe
 
 ## How to Configure VLANS
 
-Configuring VLANs (Virtual Local Area Networks) in Cisco Packet Tracer is straightforward. Here’s a step-by-step guide to help you set up VLANs:
+Using Cisco Packet Tracer, we can set up a VLAN configuration step-by-step. Let’s create a simple network with two VLANs for two different departments: **Sales** and **Engineering**. This example will guide you through configuring VLANs on a Cisco switch.
 
-### Step 1: Open Cisco Packet Tracer
-1. Launch Cisco Packet Tracer on your computer.
+### Scenario
+- We’ll create two VLANs: VLAN 10 for Sales and VLAN 20 for Engineering.
+- We'll connect two PCs for each VLAN to the switch and assign them to the appropriate VLAN.
+- We’ll also assign IP addresses to each PC so they can communicate within their VLAN but not across VLANs (without routing).
 
-### Step 2: Add Devices
-1. Drag and drop at least one switch (e.g., a 2960 switch) and a couple of end devices (e.g., PCs) onto the workspace.
+---
 
-### Step 3: Connect Devices
-1. Use the **Connections** tool to connect the PCs to the switch. Choose the appropriate cable (usually a straight-through cable for connecting PCs to switches).
-   
-### Step 4: Access the Switch CLI
-1. Click on the switch and go to the **CLI** tab.
-2. Press `Enter` to access the command line interface.
+### Step-by-Step Guide
 
-### Step 5: Enter Global Configuration Mode
-```bash
-Switch> enable
-Switch# configure terminal
-```
+#### 1. **Open Cisco Packet Tracer and Set Up Devices**
+   - Open Cisco Packet Tracer.
+   - Drag and drop a **2960 switch** onto the workspace.
+   - Add **four PCs** (two for Sales and two for Engineering).
+   - Connect each PC to the switch using **Copper Straight-Through** cables.
 
-### Step 6: Create VLANs
-1. Create VLANs using the following command:
-```bash
-Switch(config)# vlan [VLAN_ID]
-```
-   - For example, to create VLAN 10:
-```bash
-Switch(config)# vlan 10
-```
-2. Optionally, name the VLAN:
-```bash
-Switch(vlan)# name VLAN_NAME
-```
-   - For example:
-```bash
-Switch(vlan)# name Sales
-```
-3. Repeat these steps for any additional VLANs you want to create.
+#### 2. **Assign PC Ports on the Switch**
+   - Connect the PCs to specific switch ports:
+     - PC0 (Sales) to **Switch Port FastEthernet0/1**
+     - PC1 (Sales) to **Switch Port FastEthernet0/2**
+     - PC2 (Engineering) to **Switch Port FastEthernet0/3**
+     - PC3 (Engineering) to **Switch Port FastEthernet0/4**
 
-### Step 7: Assign VLANs to Switch Ports
-1. Enter the interface configuration mode for the port you want to assign to a VLAN. For example, to configure FastEthernet 0/1:
-```bash
-Switch(config)# interface fa0/1
-```
-2. Assign the port to a VLAN:
-```bash
-Switch(config-if)# switchport mode access
-Switch(config-if)# switchport access vlan [VLAN_ID]
-```
-   - For example:
-```bash
-Switch(config-if)# switchport access vlan 10
-```
-3. Exit interface configuration mode and repeat for other ports as needed.
+#### 3. **Configure VLANs on the Switch**
+   - Click on the switch, then go to the **CLI** tab to access the command-line interface.
+   - Enter **configuration mode** to create the VLANs.
 
-### Step 8: Save Configuration
-1. After configuring the VLANs and ports, save your configuration:
+     ```plaintext
+     enable
+     configure terminal
+     ```
+
+   - Create VLAN 10 for Sales:
+
+     ```plaintext
+     vlan 10
+     name Sales
+     ```
+
+   - Create VLAN 20 for Engineering:
+
+     ```plaintext
+     vlan 20
+     name Engineering
+     ```
+
+   - Exit VLAN configuration mode:
+
+     ```plaintext
+     exit
+     ```
+
+#### 4. **Assign Switch Ports to VLANs**
+   - Now, assign the ports connected to Sales PCs to **VLAN 10** and Engineering PCs to **VLAN 20**.
+
+   - Assign FastEthernet0/1 and FastEthernet0/2 to VLAN 10:
+
+     ```bash
+     # FastEthernet0/1 is often abbreviated as Fa0/1
+     interface FastEthernet0/1 
+     switchport mode access
+     switchport access vlan 10
+     exit
+
+     interface FastEthernet0/2
+     switchport mode access
+     switchport access vlan 10
+     exit
+     ```
+
+   - Assign FastEthernet0/3 and FastEthernet0/4 to VLAN 20:
+
+     ```plaintext
+     interface FastEthernet0/3
+     switchport mode access
+     switchport access vlan 20
+     exit
+
+     interface FastEthernet0/4
+     switchport mode access
+     switchport access vlan 20
+     exit
+     ```
+
 ```bash
 Switch# write memory
 ```
+#### 5. **Configure IP Addresses for Each PC**
+   - Now, assign IP addresses to each PC according to the VLAN they belong to.
 
-### Step 9: Verify VLAN Configuration
-1. To check your VLAN configuration, use the following command:
-```bash
-Switch# show vlan brief
-```
-   - This command displays a summary of the VLANs configured on the switch.
+   - **For Sales PCs (VLAN 10):**
+     - PC0: IP Address **192.168.10.1**, Subnet Mask **255.255.255.0**
+     - PC1: IP Address **192.168.10.2**, Subnet Mask **255.255.255.0**
 
-### Step 10: Test Connectivity
-1. Assign IP addresses to the PCs in the same VLAN. For example, if PC1 is in VLAN 10:
-   - Set IP address: `192.168.10.2`
-   - Set subnet mask: `255.255.255.0`
-   - Default gateway: `192.168.10.1`
-2. Configure another PC in the same VLAN (e.g., `192.168.10.3`) and test connectivity using the **ping** command.
+   - **For Engineering PCs (VLAN 20):**
+     - PC2: IP Address **192.168.10.20**, Subnet Mask **255.255.255.0**
+     - PC3: IP Address **192.168.10.21**, Subnet Mask **255.255.255.0**
 
-### Additional Tips
-- Ensure that the devices in the same VLAN can communicate with each other while devices in different VLANs cannot without a Layer 3 device (like a router).
-- If you need to configure inter-VLAN routing, you will require a router or a Layer 3 switch.
+   - To set IP addresses, click on each PC, go to the **Desktop** tab, and select **IP Configuration**. Enter the IP address and subnet mask accordingly.
 
-With these steps, you should be able to configure VLANs successfully in Cisco Packet Tracer. If you have any specific scenarios or questions, feel free to ask!
+To check the VLAN configuration on a Cisco switch, you can use the following commands in **privileged EXEC mode**:
+
+**Show VLANs**
+
+   - This command displays all VLANs configured on the switch, including VLAN IDs, names, and ports assigned to each VLAN.
+
+   ```plaintext
+   show vlan brief
+   ```
+
+   **Output Example**:
+   ```plaintext
+   VLAN Name                             Status    Ports
+   ---- -------------------------------- --------- ----------------
+   1    default                          active    Fa0/1, Fa0/2
+   10   Sales                            active    Fa0/3, Fa0/4
+   20   Engineering                      active    Fa0/5, Fa0/6
+   ```
+
+#### 6. **Test Connectivity**
+   - Now, test connectivity within each VLAN.
+   - Open the **Command Prompt** on each PC and use the `ping` command to test connectivity:
+
+     - From PC0, ping PC1 (both in VLAN 10) using:
+       ```plaintext
+       ping 192.168.10.2
+       ```
+       It should succeed.
+
+     - From PC2, ping PC3 (both in VLAN 20) using:
+       ```plaintext
+       ping 192.168.10.20
+       ```
+       This should also succeed.
+
+   - Try pinging across VLANs, such as from PC0 to PC2. The ping should fail because VLANs are isolated, and devices in different VLANs can’t communicate without a router or Layer 3 device.
+
+---
+
+### Summary
+This setup demonstrates how to create and assign VLANs on a Cisco switch using Cisco Packet Tracer. Each VLAN can only communicate within its own network segment, providing network segmentation and increased security.
+
 
 ## Configure a Web Server
 

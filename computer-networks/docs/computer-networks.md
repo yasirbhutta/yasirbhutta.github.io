@@ -212,3 +212,65 @@ A **Virtual Local Area Network (VLAN)** is a logical grouping of devices within 
 | **Data Handling**| Routes data using IP addresses   | Forwards data using MAC addresses |
 | **Scope**        | Operates across networks         | Operates within a network      |
 | **Security**     | Often has firewall capabilities  | Typically lacks security features
+
+
+## Virtual Local Area Network (VLAN)
+
+- Virtual Local Area Network (VLAN) technology logically divides a physical LAN into multiple broadcast domains, each of which is called a VLAN.
+- Each VLAN functions as a separate broadcast domain, with devices in the same VLAN able to directly communicate with one another, while those in different VLANs cannot.[1]
+
+Here are some key points about VLANs:
+
+- **Isolation and Segmentation**: VLANs partition a network into separate broadcast domains, which helps in reducing broadcast traffic and improving network performance.[2]
+- **Security**: By isolating sensitive data and devices, VLANs enhance network security.[2]
+- **Flexibility**: VLANs allow network administrators to group devices based on function, department, or application, regardless of their physical location.[3]
+- **Simplified Management**: VLANs make it easier to manage network changes and expansions without needing to rewire physical connections.[4]
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
+  
+**Watch this video for the answer:**
+
+**Answer key (Mutiple Choice):**
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+1. Skill Level Categories
+Define clear categories based on skill levels, such as:
+
+Beginner: Basic concepts and syntax.
+Intermediate: More complex problems involving data structures and algorithms.
+Advanced: Challenging problems that require in-depth understanding and optimization.
+
+## Review Questions
+
+## References and Bibliography
+
+[1] Z. Yue, “What Is Virtual Local Area Network (VLAN)? - Huawei,” info.support.huawei.com, Jun. 29, 2021. <https://info.support.huawei.com/info-finder/encyclopedia/en/VLAN.html>
+[2] “VLAN,” Wikipedia, Jul. 21, 2022. <https://en.wikipedia.org/wiki/VLAN>
+‌[3] Techopedia, “What is a Virtual Local Area Network (VLAN)? - Definition from Techopedia,” Techopedia.com, 2019. <https://www.techopedia.com/definition/4804/virtual-local-area-network-vlan>
+‌[4] “When Should I Use VLANs?,” Learning Center, Dec. 06, 2022. <https://www.extnoc.com/learn/networking/what-is-virtual-lan>
+‌
+‌
+
+For more details, see Appendix A.
+
+## **Appendices**
+
+### **Appendix A: Data Tables**
+This section includes the data tables referred to in the text...
