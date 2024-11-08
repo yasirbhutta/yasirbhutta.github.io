@@ -303,6 +303,7 @@ print("Final shopping list:", shopping_list)
 
 
 ## Introduction to Python Dictionaries: Concepts, Usage, and Examples
+
 In Python, a **dictionary** is a collection of key-value pairs. Each key in a dictionary is unique, and it is associated with a value. Dictionaries are used to store data values like a map or a real-life dictionary where each word (key) has a definition (value). They are mutable, meaning you can change, add, or remove items after the dictionary is created.
 
 ### Creating a Dictionary
@@ -490,9 +491,6 @@ Notice how `apple` only appears once, even though we tried to add it twice.
 - [How to: Add or Remove Elements in a Set](https://www.youtube.com/watch?v=96f2SKK_QZk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=98)
 - [How to: Create Empty Set in Python](https://www.youtube.com/watch?v=nmI7BGXPA4I&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=77)
 - [Find the Union of Two Sets in Python](https://www.youtube.com/watch?v=YDyCNYCUK9A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=72)
-
-
-- Python Challenge to test your knowledge [Quiz1](https://www.youtube.com/watch?v=x7zh_WqO1e4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21) [Quiz2](https://www.youtube.com/watch?v=rEDmm9ry7wE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5) [Quiz3](https://www.youtube.com/watch?v=ZWB4dfUYz1k&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)
 
 
 ## Why Integers, Strings, and Tuples Are Immutable in Python [1]

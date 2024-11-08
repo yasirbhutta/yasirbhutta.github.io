@@ -41,23 +41,25 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Operators](docs/operators.md)
 - [Control Flow](docs/control-flow.md)
 - [Defining Functions](docs/functions.md)
-- [Anonymous Functions (Lambdas)](docs/lambdas.md)
+- [Advanced function concepts](docs/functions-adv-concepts.md)
 - [Data Structures and Sequences](docs/dss.md)
 - [String Methods](docs/str-methods.md)
 - [Built-in Functions](docs/built_in_functions.md)
+- [Modules and Libraries](docs/modules-libraries.md)
+- [Working with Files](docs/files.md)
+- [Exception Handling](docs/error.md)
 - [Comprehensions (List and Dictionary)](docs/comprehensions.md)
 - [Generator Functions](docs/generators.md)
 - [Decorators](docs/decorators.md)
 - [Python Sorting](docs/sorting.md)
-- [Error and Exception Handling](docs/error.md)
+- [Classes and Objects](docs/classes.md)
+- [Regular Expressions](docs/re.md)
 - [Python Performance and Best practices](docs/best-practices.md)
-- [Python in Excel](docs/python-excel.md)
-- [Data Visualization in Python](docs/data-visualization.md)
 
+- [Data Visualization in Python](docs/data-visualization.md)
 - [Python Programming for Mathematics](docs/python-mathematics.md)
 - [Python for Kids](docs/python-kids.md)
-
-### [Classes](docs/classes.md)
+- [Python in Excel](docs/python-excel.md)
 
 ### Modules
 

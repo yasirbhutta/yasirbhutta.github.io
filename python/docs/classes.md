@@ -1,4 +1,4 @@
-# Python: Language Basics
+# Classes and Objects in Python
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -6,15 +6,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-excel/docs/classes.html](https://yasirbhutta.github.io/ms-excel/docs/classes.html)
 
-- [Python Playlist on Youtube](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
-- [Download Example Code](https://github.com/yasirbhutta/python-examples)
-- [Pyton Resources: Books, Websites, Tutorials](../resources.md)
-- [Python Tools](../tools.md)
-- [Python - Quick Guide for Ultimate Python Beginner's](quick-guide.md)
+## Classes ans Objects
 
-## Classes
+In Python, you create a class using the class keyword. A class is a blueprint for creating objects (instances).
 
-- Classes act as blueprints for creating objects.
+Objects are instances of a class that have attributes (data) and methods (functions).
 
 **What are instance attributes?:**
 
@@ -60,6 +56,22 @@ student2.info()
 - Methods are functions defined within a class that operate on the object's data.
 - `self` is used to access the object's attributes and methods within its methods.
 
+### Example:
+
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print(f"{self.name} says woof!")
+
+# Creating an object (instance) of the Dog class
+my_dog = Dog("Buddy", "Golden Retriever")
+print(my_dog.name)  # Accessing an attribute
+my_dog.bark()       # Calling a method
+
+The __init__ method is the constructor. It’s called when you create a new object and initializes the object's attributes.
 
 **Example #:**
 
@@ -119,6 +131,85 @@ The following table lists the difference between class attribute and instance at
 | Changing value by using `classname.class_attribute = value` will be reflected to all the objects. | Changing value of instance attribute will not be reflected to other objects. |
 
 **Python Class Example:** [Video: How to Create a Class and Instance Attributes in Python](https://youtu.be/tNARiqDveP4)
+
+Anoter Example Example:
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def describe(self):
+        print(f"{self.year} {self.make} {self.model}")
+
+my_car = Car("Toyota", "Corolla", 2020)
+my_car.describe()  # Output: 2020 Toyota Corolla
+
+
+1. Inheritance
+
+Inheritance allows you to create a new class based on an existing class. The new class (child class) inherits attributes and methods from the parent class.
+
+The child class can also add its own attributes and methods or override methods from the parent class.
+
+
+Example:
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"{self.name} makes a sound")
+
+class Dog(Animal):
+    def speak(self):
+        print(f"{self.name} barks")
+
+my_dog = Dog("Buddy")
+my_dog.speak()  # Output: Buddy barks
+
+4. Polymorphism
+
+Polymorphism allows different classes to have methods with the same name but different behavior.
+
+In the example above, both Animal and Dog have a speak() method, but they behave differently based on the class.
+
+
+5. Encapsulation
+
+Encapsulation is the concept of hiding the internal details of a class and providing methods to interact with the data. This is often achieved using private and public attributes.
+
+Attributes that start with an underscore (e.g., _age) are conventionally considered private.
+
+
+Example:
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self._age = age  # _age is considered private
+
+    def get_age(self):
+        return self._age
+
+    def set_age(self, age):
+        if age > 0:
+            self._age = age
+
+person = Person("Alice", 30)
+person.set_age(35)
+print(person.get_age())  # Output: 35
+
+6. Abstraction
+
+Abstraction involves hiding the complex implementation details and exposing only the necessary functionality. This can be achieved using abstract classes (via the abc module), but we won’t go too deep into that for now.
+
+
+Would you like to practice creating classes, inheritance, and encapsulation, or move on to something else, like exceptions and error handling?
+
+
 
 ## Key Terms
 
