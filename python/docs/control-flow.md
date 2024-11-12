@@ -492,7 +492,9 @@ You are younger than 18.
   `No`  
 
 ### Task #7: Voting Eligibility Check
-- Create a program that takes the age and country of a person as input and checks if they are eligible to vote in that country (consider the voting age as 18 and the country as "USA").
+- Create a program that takes the age and country of a person as input 
+  and checks if they are eligible to vote in that country 
+  (consider the voting age as 18 and the country as "USA").
 
 **Input:**
 - An integer `age`, representing the person's age.
