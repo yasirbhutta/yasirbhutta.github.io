@@ -620,7 +620,10 @@ DisplayPort is another type of port that is used to connect high-definition vide
 **Central Processing Unit (CPU):**
 
 - What is the CPU and what does it do?
-
+- Define the CPU and describe the functions of the ALU and the control unit.
+- What is the cache memory of a CPU?
+- What is the CPU and what is its role in a computer system?
+- What are some of the things to consider when choosing a CPU?
 - single core vs multi-core CPU
 
 **Answer:**
@@ -655,9 +658,7 @@ Memory Access:
 - What is the motherboard and what is its function in a computer?
 - What are some of the key components connected to the motherboard?
 - What is the purpose of a motherboard in a computer, and what components are typically connected to it?
-- What is the cache memory of a CPU?
-- What is the CPU and what is its role in a computer system?
-- What are some of the things to consider when choosing a CPU?
+- What is a motherboard? List the key components typically connected to it.
  
 **Other Components:**
 
