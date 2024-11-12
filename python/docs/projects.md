@@ -1,6 +1,15 @@
 
 # Python Projects
 
+- [Python Projects](#python-projects)
+  - [Project 1: Movie Ratings Analysis](#project-1-movie-ratings-analysis)
+  - [Project 2: Customer Sales Analysis](#project-2-customer-sales-analysis)
+  - [Project 3: IoT Sensor Data Analysis](#project-3-iot-sensor-data-analysis)
+  - [Project 4: Network Intrusion Detection System](#project-4-network-intrusion-detection-system)
+  - [Project 5: Animal Species Classification Using Machine Learning](#project-5-animal-species-classification-using-machine-learning)
+
+---
+
 ## Project 1: Movie Ratings Analysis
 
 - **Project Title:** Movie Ratings Analysis and Insights for a Streaming Service
@@ -25,5 +34,23 @@
 - **Domain:** Internet of Things (IoT) / Data Analytics / Machine Learning
 - **Objective:** This project aims to analyze sensor data from IoT devices and detect anomalies that could indicate unusual patterns, such as equipment malfunction or abnormal environmental conditions. By applying machine learning techniques, we can develop a system that identifies deviations in sensor readings and alerts users to potential issues.
 - **Project Details:** [Click here to learn more](projects/python-project3.md)
+
+---
+
+## Project 4: Network Intrusion Detection System 
+
+- **Project Name:** Network Intrusion Detection System using Machine Learning
+- **Domain:** Computer Networks / Cybersecurity / Machine Learning
+- **Objective:** The objective of this project is to build a Network Intrusion Detection System (NIDS) that uses machine learning to detect and classify network intrusions. This system can help in identifying malicious activities in network traffic by analyzing patterns and behaviors. By using a dataset containing both normal and abnormal network traffic, we aim to develop a model that can classify traffic as either benign or malicious.
+- **Project Details:** [Click here to learn more](projects/python-project4.md)
+
+---
+
+## Project 5: Animal Species Classification Using Machine Learning
+
+- **Project Name:** Animal Species Classification Using Machine Learning
+- **Domain:** Data Science / Machine Learning
+- **Objective:** The objective of this project is to build a web application that classifies animals into species based on their images. Leveraging machine learning and image processing techniques, you can train a model to recognize and predict the species of various animals based on distinctive features in their images. This project is ideal for anyone interested in exploring image classification and web development.
+- **Project Details:** [Click here to learn more](projects/python-project5.md)
 
 
