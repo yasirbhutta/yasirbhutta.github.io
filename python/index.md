@@ -41,7 +41,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Operators](docs/operators.md)
 - [Control Flow](docs/control-flow.md)
 - [Defining Functions](docs/functions.md)
-- [Advanced function concepts](docs/functions-adv-concepts.md)
+  - [Advanced function concepts](docs/functions-adv-concepts.md)
 - [Data Structures and Sequences](docs/dss.md)
   - [Python Sorting](docs/sorting.md)
 - [Modules and Libraries](docs/modules-libraries.md)
@@ -71,6 +71,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [calendar](docs/modules/calendar.md)
 - [random](docs/modules/random.md)
+- [Streamlit](docs/modules/streamlit.md)
 
 ### Python for Data AnaAlysis
 
@@ -99,6 +100,10 @@ https://bokeh.org/
 ### Projects 
 
 - [Projects](docs/projects.md)
+
+### Glossary
+
+- [Glossary for Data Analytics](docs/glossary-da.md)
 
 
 
