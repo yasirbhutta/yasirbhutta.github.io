@@ -76,6 +76,8 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 
 ## Review Questions
 
+**Answers to Review Questions:**
+
 ## References and Bibliography
 
 For more details, see Appendix A.
