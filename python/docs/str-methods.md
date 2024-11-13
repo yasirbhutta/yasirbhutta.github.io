@@ -86,6 +86,29 @@ print(a[-5:-2])
 
 ## Exercises
 
+3. **Problem Statement:** Write a Python function `find_length` that takes a string input `word` and returns the length of the word by counting the number of characters in it. You are not allowed to use the built-in `len()` function.
+
+**Function Signature:**
+```python
+def find_length(word: str) -> int:
+```
+**Input:**
+- A string `word` which can contain letters, spaces, or special characters.
+**Output:**
+- The function returns an integer representing the total number of characters in the input string.
+**Sample Input and Output:**
+**Input:**
+```python
+find_length("python language")
+```
+**Output:**
+```
+15
+```
+
+- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
+
+
 Coding Challenge #1
 You are in a college level English class, your professor wants you to write an essay, but you need to find out the average length of all the words you use. It is up to you to figure out how long each word is and to average it out.
 

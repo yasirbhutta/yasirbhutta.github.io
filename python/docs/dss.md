@@ -19,7 +19,8 @@
     - [Removing Elements from a List](#removing-elements-from-a-list)
     - [Slicing Lists](#slicing-lists)
     - [Iterating Through a List](#iterating-through-a-list)
-    - [List Methods](#list-methods)
+    - [Task: Create a Function to Find the Maximum Number in a List](#task-create-a-function-to-find-the-maximum-number-in-a-list)
+    - [Task: Create a Function to Find the Maximum Number in a List](#task-create-a-function-to-find-the-maximum-number-in-a-list-1)
     - [Example: Using Lists in a Simple Program](#example-using-lists-in-a-simple-program)
   - [Introduction to Python Dictionaries: Concepts, Usage, and Examples](#introduction-to-python-dictionaries-concepts-usage-and-examples)
     - [Creating a Dictionary](#creating-a-dictionary)
@@ -256,17 +257,84 @@ for fruit in fruits:
 # mango
 # grape
 ```
+### Task: Create a Function to Find the Maximum Number in a List
 
-### List Methods
-Python lists come with many useful methods, such as:
-- `append()`: Adds an element to the end of the list.
-- `extend()`: Adds all elements of another list to the end.
-- `insert()`: Inserts an element at a specified position.
-- `remove()`: Removes the first occurrence of an element.
-- `pop()`: Removes and returns an element at a specified position.
-- `sort()`: Sorts the list in ascending order.
-- `reverse()`: Reverses the order of elements in the list.
+**Function Requirements:**
+1. Define a function named `find_max` that takes one parameter: `numbers`, which is a list of integers.
+2. The function should return the maximum number in the list.
+3. If the list is empty, the function should return `None`.
 
+**Input:**
+- A list of integers
+
+**Output:**
+- The maximum integer in the list or `None` if the list is empty
+
+**Expected Output**
+```
+The maximum number in the list is: 9
+```
+
+**Additional Test Cases**
+
+1. **Input:** `numbers = [10, 20, 30, 5]`
+   - **Output:** `The maximum number in the list is: 30`
+
+2. **Input:** `numbers = [-5, -1, -10]`
+   - **Output:** `The maximum number in the list is: -1`
+
+3. **Input:** `numbers = []`
+   - **Output:** `The maximum number in the list is: None`
+
+### Task: Create a Function to Find the Maximum Number in a List
+
+**Function Requirements:**
+1. Define a function named `find_max` that takes one parameter: `numbers`, which is a list of integers.
+2. The function should return the maximum number in the list.
+3. If the list is empty, the function should return `None`.
+
+**Input:**
+- A list of integers
+
+**Output:**
+- The maximum integer in the list or `None` if the list is empty
+
+**Expected Output**
+```
+The maximum number in the list is: 9
+```
+
+**Additional Test Cases**
+
+1. **Input:** `numbers = [10, 20, 30, 5]`
+   - **Output:** `The maximum number in the list is: 30`
+
+2. **Input:** `numbers = [-5, -1, -10]`
+   - **Output:** `The maximum number in the list is: -1`
+
+3. **Input:** `numbers = []`
+   - **Output:** `The maximum number in the list is: None`
+
+
+
+2. **Exercise: Find the Maximum Value**
+
+**Task:** Write a Python program that finds and prints the maximum value from a given list of numbers.
+
+**Sample Input:**
+```python
+numbers = [3, 7, 1, 9, 5]
+```
+
+**Sample Output:**
+```
+9
+```
+
+**Instruction:** please don't use the `max()` function to find the maximum value in a list.
+
+- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
+- 
 ### Example: Using Lists in a Simple Program
 Here’s a simple example to illustrate the use of lists in a practical scenario:
 

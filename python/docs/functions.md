@@ -116,22 +116,6 @@ The area of the rectangle with length 5 and width 3 is: 15
 **Output:**
 - A string: either `"Even"` or `"Odd"`
 
-**Example**
-
-```python
-def is_even(number):
-    # Check if the number is even or odd
-    if number % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
-# Example usage:
-num = 4
-result = is_even(num)
-print(f"The number {num} is: {result}")
-```
-
 **Expected Output**
 ```
 The number 4 is: Even
@@ -177,35 +161,26 @@ Encourage beginners to test the function with various numbers:
    result = multiply(b=3, a=5)  # You can specify arguments in any order
    ```
 
-### Task: Create a Function to Find the Maximum Number in a List
+### 1. Basic Default Argument Task
+   - **Task:** Write a function `greet` that takes a name as an argument and a greeting message with a default value of "Hello". If no greeting is provided, the function should use "Hello."
+   - **Example:** `greet("Alice")` should output `"Hello, Alice!"` and `greet("Alice", "Good morning")` should output `"Good morning, Alice!"`
 
-**Function Requirements:**
-1. Define a function named `find_max` that takes one parameter: `numbers`, which is a list of integers.
-2. The function should return the maximum number in the list.
-3. If the list is empty, the function should return `None`.
+### 2. Using Multiple Default Arguments
+   - **Task:** Create a function `introduce` that takes three parameters: `name`, `age`, and `city`. Set default values for `age` to 18 and `city` to "Unknown". Test calling the function with different combinations of arguments.
+   - **Example:** `introduce("John")`, `introduce("John", 25)`, `introduce("John", 25, "New York")`
 
-**Input:**
-- A list of integers
+### 3. Keyword Arguments for Flexible Calling
+   - **Task:** Define a function `student_profile` that accepts `name`, `grade`, and `subject` with a default value of `"Math"`. Use keyword arguments to call this function in different orders.
+   - **Example:** `student_profile(grade="A", name="Emma")` and `student_profile("Sophia", "B", subject="History")`
 
-**Output:**
-- The maximum integer in the list or `None` if the list is empty
+### 4. Combining Positional and Keyword Arguments
+   - **Task:** Write a function `order_food` that accepts a `main_dish`, an optional `side_dish` with a default value of `"fries"`, and an optional `drink` with a default of `"water"`. Call this function using both positional and keyword arguments.
+   - **Example:** `order_food("burger")`, `order_food("pizza", drink="soda")`, and `order_food("salad", side_dish="breadsticks", drink="juice")`
 
-**Expected Output**
-```
-The maximum number in the list is: 9
-```
-
-**Additional Test Cases**
-
-1. **Input:** `numbers = [10, 20, 30, 5]`
-   - **Output:** `The maximum number in the list is: 30`
-
-2. **Input:** `numbers = [-5, -1, -10]`
-   - **Output:** `The maximum number in the list is: -1`
-
-3. **Input:** `numbers = []`
-   - **Output:** `The maximum number in the list is: None`
-
+### 7. Create a Function with Multiple Defaults and Modify One
+   - **Task:** Write a function `calc_price` that accepts `price`, `tax=0.05`, and `discount=0`. Calculate the final price after applying tax and discount. Test with various keyword arguments to see how changes affect the result.
+   - 
+   - **Example:** `calc_price(100)`, `calc_price(100, discount=0.1)`, `calc_price(100, tax=0.07, discount=0.1)`
 
 [video: Guard Statements in Python: Explained Simply](https://youtu.be/rzY31wSKvXc)
 
@@ -349,15 +324,7 @@ print(result)
   - C) define my_function():
   - D) my_function() {
 
-11. **Which of the following is true about Python functions?**
-   - A) Functions are mandatory in Python programs.
-   - B) Functions can only return one value.
-   - C) Functions can return multiple values.
-   - D) A function must always take arguments.
-
-   **Answer:** C
-
-12. **What happens if you don't include a return statement in a function?**
+10. **What happens if you don't include a return statement in a function?**
    - A) The function will return None.
    - B) The function will cause an error.
    - C) The function will return 0.
@@ -370,48 +337,8 @@ print(result)
 1. Write a Python program that takes two numbers as input and prints their sum.
   - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
 
-2. **Exercise: Find the Maximum Value**
-
-**Task:** Write a Python program that finds and prints the maximum value from a given list of numbers.
-
-**Sample Input:**
-```python
-numbers = [3, 7, 1, 9, 5]
-```
-
-**Sample Output:**
-```
-9
-```
-
-**Instruction:** please don't use the `max()` function to find the maximum value in a list.
-
-- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
-  
-3. **Problem Statement:** Write a Python function `find_length` that takes a string input `word` and returns the length of the word by counting the number of characters in it. You are not allowed to use the built-in `len()` function.
-
-**Function Signature:**
-```python
-def find_length(word: str) -> int:
-```
-**Input:**
-- A string `word` which can contain letters, spaces, or special characters.
-**Output:**
-- The function returns an integer representing the total number of characters in the input string.
-**Sample Input and Output:**
-**Input:**
-```python
-find_length("python language")
-```
-**Output:**
-```
-15
-```
-
-- [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=wKuKX8-at5E&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=22)
-
-1. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
-2. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
+2. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
+3. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
 3. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
 4. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
 5. Write a program with three functions:
@@ -435,8 +362,6 @@ Enter an integer: 4
 ...
 4 * 10 = 40
 ```
-
-9. Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
 
 ## Projects
 
