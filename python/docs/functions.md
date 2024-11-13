@@ -401,7 +401,6 @@ Congratulations! You've guessed the number 60 in 3 attempts.
 2. **Input Handling:** Use `input()` to get the user's guess and convert it to an integer.
 3. **Loops and Conditionals:** This task will help practice loops for continuous guessing and conditionals for feedback.
 
-
 ## Review Questions
 
 ## References and Bibliography

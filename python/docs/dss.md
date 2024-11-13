@@ -334,7 +334,9 @@ numbers = [3, 7, 1, 9, 5]
 **Instruction:** please don't use the `max()` function to find the maximum value in a list.
 
 - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=AcC4ykPRYhc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=23)
-- 
+  
+9. Write a function `avgPositive(data)` that takes a list of numbers as input and returns the average of all positive numbers in the list.
+    
 ### Example: Using Lists in a Simple Program
 Here’s a simple example to illustrate the use of lists in a practical scenario:
 
