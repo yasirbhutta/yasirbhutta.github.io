@@ -67,7 +67,7 @@ greet("Ahmad")  # Output: Hello, Ahmad!
 
    - Functions can return values using the `return` keyword.
 
-#### Example 6.2: Function with a Return Value
+### Example 6.2: Function with a Return Value
 
 ```python
 def add(x, y):
@@ -77,7 +77,7 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-### Task: Create a Function to Calculate the Area of a Rectangle
+### Task 1: Create a Function to Calculate the Area of a Rectangle
 
 **Function Requirements:**
 1. Define a function named `calculate_area` that takes two parameters: `length` and `width`.
@@ -103,7 +103,7 @@ The area of the rectangle with length 5 and width 3 is: 15
 2. **Input:** `length = 10.5`, `width = 4.2`
    - **Output:** `The area of the rectangle with length 10.5 and width 4.2 is: 44.1`
 
-### Task: Create a Function to Check if a Number is Even or Odd
+### Task 2: Create a Function to Check if a Number is Even or Odd
 
 **Function Requirements:**
 1. Define a function named `is_even` that takes one parameter: `number`.
@@ -140,7 +140,7 @@ Encourage beginners to test the function with various numbers:
 
 - [Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
   
-### Example:
+### Example 6.3:
 
    ```python
    def greet(name, message="Hello"):
@@ -150,9 +150,11 @@ Encourage beginners to test the function with various numbers:
    greet("Alice", "Hi")      # Overrides default with "Hi"
    ```
 
-### 6.5 **Keyword Arguments**
+## 6.5 **Keyword Arguments**
    - Python allows you to specify arguments by name, making your code more readable.
    - Example:
+
+### Example 6.4: 
 
    ```python
    def multiply(a, b):
@@ -161,23 +163,11 @@ Encourage beginners to test the function with various numbers:
    result = multiply(b=3, a=5)  # You can specify arguments in any order
    ```
 
-### 1. Basic Default Argument Task
+### Task 3: Basic Default Argument Task
    - **Task:** Write a function `greet` that takes a name as an argument and a greeting message with a default value of "Hello". If no greeting is provided, the function should use "Hello."
    - **Example:** `greet("Alice")` should output `"Hello, Alice!"` and `greet("Alice", "Good morning")` should output `"Good morning, Alice!"`
 
-### 2. Using Multiple Default Arguments
-   - **Task:** Create a function `introduce` that takes three parameters: `name`, `age`, and `city`. Set default values for `age` to 18 and `city` to "Unknown". Test calling the function with different combinations of arguments.
-   - **Example:** `introduce("John")`, `introduce("John", 25)`, `introduce("John", 25, "New York")`
-
-### 3. Keyword Arguments for Flexible Calling
-   - **Task:** Define a function `student_profile` that accepts `name`, `grade`, and `subject` with a default value of `"Math"`. Use keyword arguments to call this function in different orders.
-   - **Example:** `student_profile(grade="A", name="Emma")` and `student_profile("Sophia", "B", subject="History")`
-
-### 4. Combining Positional and Keyword Arguments
-   - **Task:** Write a function `order_food` that accepts a `main_dish`, an optional `side_dish` with a default value of `"fries"`, and an optional `drink` with a default of `"water"`. Call this function using both positional and keyword arguments.
-   - **Example:** `order_food("burger")`, `order_food("pizza", drink="soda")`, and `order_food("salad", side_dish="breadsticks", drink="juice")`
-
-### 7. Create a Function with Multiple Defaults and Modify One
+### Task 4: Create a Function with Multiple Defaults and Modify One
    - **Task:** Write a function `calc_price` that accepts `price`, `tax=0.05`, and `discount=0`. Calculate the final price after applying tax and discount. Test with various keyword arguments to see how changes affect the result.
    - 
    - **Example:** `calc_price(100)`, `calc_price(100, discount=0.1)`, `calc_price(100, tax=0.07, discount=0.1)`
@@ -186,10 +176,10 @@ Encourage beginners to test the function with various numbers:
 
 [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
 
-
 ## Fix the Errors
 
-# Assigning a value to a function (functions can't be assigned to variables)
+1. Fixing Errors in Function Calls and Assignments 
+   
 ```python
 def greet():
     print("Hello World!")
@@ -217,7 +207,7 @@ print(myfunction (13) or myfunction (8))
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/laKpsLlq60I](https://youtu.be/laKpsLlq60I)
 
-### 7. **What is the output of the following code?** [Python Quiz #88](https://youtu.be/1v9gvCXqnD0)
+2. **What is the output of the following code?** [Python Quiz #88](https://youtu.be/1v9gvCXqnD0)
 
   ```python
   def greet(name="User"):
@@ -229,7 +219,7 @@ print(myfunction (13) or myfunction (8))
     C) `Hello`  
     D) `Error`  
 
-### 17. **What is the output of the following code?** [Python Quiz #89](https://youtu.be/VzjZoeQf4KU)
+3. **What is the output of the following code?** [Python Quiz #89](https://youtu.be/VzjZoeQf4KU)
 
 ```python
 def my_function():
@@ -241,7 +231,7 @@ print(my_function())
     - C) `True`  
     - D) `Error`  
 
-### 20. **What is the output of the following code?** [Python Quiz #90](https://youtu.be/w2M0XAl4DsQ)
+4. **What is the output of the following code?** [Python Quiz #90](https://youtu.be/w2M0XAl4DsQ)
    ```python
    def my_func(a, b=2, c=3):
        return a + b + c
@@ -252,7 +242,7 @@ print(my_function())
     - C) `10`  
     - D) `Error`  
 
-### 23. **Which of the following function calls is invalid for this function definition?** [Python Quiz #93]
+5. **Which of the following function calls is invalid for this function definition?** [Python Quiz #93]
 
 ```python
 def my_func(a, b, c=3):
@@ -263,7 +253,7 @@ def my_func(a, b, c=3):
    - C) `my_func(a=1, b=2, c=5)`  
    - D) `my_func(1, c=4, b=2, 5)`  
 
-   ### 25. **What is the output of the following code?** [Python Quiz #91]
+6. **What is the output of the following code?** [Python Quiz #91]
    ```python
    def change_value(x):
        x = 10
@@ -277,7 +267,7 @@ def my_func(a, b, c=3):
      - C) `Error`  
      - D) `None`  
 
-**What is the output of the following code?** [Python Quiz #96]
+7. **What is the output of the following code?** [Python Quiz #96]
 
 ```python
 def greet(name: str) -> str:
@@ -291,7 +281,7 @@ print(result)
      - C) None
      - D) Hello, !
 
-1. **What will be the output of this code?** [Python Quiz #87]
+8. **What will be the output of this code?** [Python Quiz #87]
     ```python
     def func(x, y=2):
         return x * y
@@ -302,15 +292,14 @@ print(result)
       - C) 3
       - D) Error
 
-  
-22. **What is the main purpose of a function in Python?**  
+9. **What is the main purpose of a function in Python?**  
 
   - A) To group a set of related code into a single unit
   - B) To create a new type of data
   - C) To write a program in a single line
   - D) To change the value of global variables
 
-8. **What is the purpose of the return statement in a function in Python?**
+10. **What is the purpose of the return statement in a function in Python?**
 
   - A) To print the output of the function
   - B) To exit the function and return a value
@@ -330,9 +319,9 @@ print(result)
    - C) The function will return 0.
    - D) The function will return the last variable used.
 
-   **Answer:** A
-
 ## Exercises
+
+### Beginner
 
 1. Write a Python program that takes two numbers as input and prints their sum.
   - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
@@ -341,7 +330,53 @@ print(result)
 3. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
 3. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
 4. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
-5. Write a program with three functions:
+5. Write a function `order_food` that accepts a `main_dish`, an optional `side_dish` with a default value of `"fries"`, and an optional `drink` with a default of `"water"`. Call this function using both positional and keyword arguments.
+   
+   - **Example:** `order_food("burger")`, `order_food("pizza", drink="soda")`, and `order_food("salad", side_dish="breadsticks", drink="juice")`
+  
+6. Create a function `introduce` that takes three parameters: `name`, `age`, and `city`. Set default values for `age` to 18 and `city` to "Unknown". Test calling the function with different combinations of arguments.
+   
+   - **Example:** `introduce("John")`, `introduce("John", 25)`, `introduce("John", 25, "New York")`
+
+7. Define a function `student_profile` that accepts `name`, `grade`, and `subject` with a default value of `"Math"`. Use keyword arguments to call this function in different orders.
+   
+   - **Example:** `student_profile(grade="A", name="Emma")` and `student_profile("Sophia", "B", subject="History")`
+
+8. Write a function `add_numbers` that takes two numbers and returns their sum.
+  
+   - **Example:** `add_numbers(3, 5)` should return `8`
+
+9. Write a function `circle_area` that calculates the area of a circle given its radius. Use the formula: area = π * radius² (you can use `3.14` for π).
+
+   - **Example:** `circle_area(3)` should return approximately `28.26`
+
+10. Write a function `celsius_to_fahrenheit` that takes a temperature in Celsius and converts it to Fahrenheit using the formula: Fahrenheit = Celsius * (9/5) + 32.
+
+   - **Example:** `celsius_to_fahrenheit(25)` should return `77.0`
+
+11. Write a function `is_even` that takes a number and returns `True` if the number is even, and `False` otherwise.
+
+   - **Example:** `is_even(4)` should return `True` and `is_even(7)` should return `False`
+
+12. Write a function `max_of_three` that takes three numbers and returns the largest one.
+
+   - **Example:** `max_of_three(3, 7, 5)` should return `7`
+
+13. Write a function `simple_interest` that calculates simple interest given `principal`, `rate`, and `time` using the formula: interest = (principal * rate * time) / 100.
+
+   - **Example:** `simple_interest(1000, 5, 2)` should return `100.0`
+
+### Intermediate
+
+14. Write a function `is_prime` that checks if a number is prime. A prime number has only two divisors: 1 and itself.
+
+   - **Example:** `is_prime(7)` should return `True` and `is_prime(8)` should return `False`
+
+15. Write a function `factorial` that takes a number and returns its factorial. (Factorial of 5 is `5 * 4 * 3 * 2 * 1 = 120`)
+  
+   - **Example:** `factorial(5)` should return `120`
+  
+16. Write a program with three functions:
   
   1. **`isEven(n)`:** This function takes an integer `n` as input and returns `True` if `n` is even and `False` otherwise. You can use the modulo operator (`%`) to check for evenness.
   2. **`printTable(n)`:** This function takes an integer `n` as input and prints its multiplication table. The table should show the product of `n` with each number from 1 to 10, formatted like `n * i = n * i`, where `i` is the current number in the loop.
@@ -362,6 +397,12 @@ Enter an integer: 4
 ...
 4 * 10 = 40
 ```
+
+17. Write a function `fibonacci` that takes a number `n` and returns the `n`th number in the Fibonacci sequence.
+
+   - **Example:** `fibonacci(5)` should return `5` (sequence: 0, 1, 1, 2, 3, 5, ...)
+
+### Advanced
 
 ## Projects
 
