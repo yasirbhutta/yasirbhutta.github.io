@@ -306,14 +306,14 @@ print(result)
   - C) To execute the function without returning anything
   - D) To stop the function and start a new one
 
-9. **What is the correct way to define a function in Python?**
+11. **What is the correct way to define a function in Python?**
 
   - A) function my_function():
   - B) def my_function():
   - C) define my_function():
   - D) my_function() {
 
-10. **What happens if you don't include a return statement in a function?**
+12. **What happens if you don't include a return statement in a function?**
    - A) The function will return None.
    - B) The function will cause an error.
    - C) The function will return 0.
