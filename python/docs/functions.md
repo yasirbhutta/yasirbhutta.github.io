@@ -324,12 +324,12 @@ print(result)
 ### Beginner
 
 1. Write a Python program that takes two numbers as input and prints their sum.
-  - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24)
-
+  - [**Watch the Solution Now ✨**](https://www.youtube.com/watch?v=CQHXsGnUns0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=24
 2. Write a function `sum3(num1,num3,num3)` that takes three numbers as input and returns the sum.
 3. Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number (num1).
-3. Write a function `sumSquares(x)` that takes a vector of numbers as input and returns the sum of their squares.
-4. Write a function `isEven(x)` that takes a number as input and returns true if it is even, and false otherwise.
+
+4. Write a function `sumSquares(x)` that takes a list of numbers as input and returns the sum of their squares.
+   
 5. Write a function `order_food` that accepts a `main_dish`, an optional `side_dish` with a default value of `"fries"`, and an optional `drink` with a default of `"water"`. Call this function using both positional and keyword arguments.
    
    - **Example:** `order_food("burger")`, `order_food("pizza", drink="soda")`, and `order_food("salad", side_dish="breadsticks", drink="juice")`
@@ -350,7 +350,7 @@ print(result)
 
    - **Example:** `circle_area(3)` should return approximately `28.26`
 
-10. Write a function `celsius_to_fahrenheit` that takes a temperature in Celsius and converts it to Fahrenheit using the formula: Fahrenheit = Celsius * (9/5) + 32.
+10.  Write a function `celsius_to_fahrenheit` that takes a temperature in Celsius and converts it to Fahrenheit using the formula: Fahrenheit = Celsius * (9/5) + 32.
 
    - **Example:** `celsius_to_fahrenheit(25)` should return `77.0`
 
