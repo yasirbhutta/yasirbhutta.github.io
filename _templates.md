@@ -106,6 +106,38 @@ Sizes
 small: 256 width
 large: 512 width
 
+In IEEE style, in-text citations for images are typically referenced by the citation number within square brackets. Here’s how to handle it in text:
+
+1. **In the Text:**
+   - Mention the image and include the citation number in brackets. 
+   - Example:  
+     "The Amazon rainforest has seen a significant reduction in forest cover in recent years (see Fig. 1) [1]."
+
+2. **With the Image (Caption and Citation):**
+   - For the image itself, label it as a figure and add a brief description.  
+   - Below the figure, include the in-text citation number in brackets, referencing the source.
+   - Format:  
+     - **Fig. #.** Description of the image [#].
+
+   **Example**:
+   ```markdown
+   **Fig. 1.** Satellite image showing deforestation patterns in the Amazon rainforest [1].
+   ```
+
+### Full Example (In the Text + With the Image):
+In the body of your document:
+> "The decline of forest cover is evident from recent satellite imagery (see Fig. 1) [1]."
+
+With the image:
+```markdown
+![Amazon rainforest deforestation](image_url)
+**Fig. 1.** Satellite image showing deforestation patterns in the Amazon rainforest [1].
+```
+
+Be sure that the number in brackets corresponds with the full citation in your references list, formatted as shown previously.
+
+
+
 
 # Microsoft Excel Resources: Books, Trainings and online resources
 

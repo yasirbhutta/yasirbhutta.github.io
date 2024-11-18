@@ -313,6 +313,16 @@ Overall, flash memory is a versatile and reliable storage solution for various e
 3. [ ] Color of the device and whether it comes with a carrying case
 4. [ ] None of the above
 
+## Fill in the Blanks
+
+1.	A program must be loaded into _________ before execution. It is the only one directly accessible to the CPU. CPU continuously reads instructions stored there and executes them.
+2.	___________ is an intermediate stage between ultra-fast registers and much slower main memory.
+
+**Answer Key (Fill in the Blanks):**
+
+1. Random Access Memory(RAM)
+2. Processor Cache
+
 ## Exercises
 
 ## Review Questions

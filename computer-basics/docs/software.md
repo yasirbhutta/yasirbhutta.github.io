@@ -44,24 +44,31 @@ Command, Programs,Software
 
 Some examples of system software are:
 
-**Operating system:** 
+1.1 **Operating system:** 
 
-- The operating system is a software that controls and coordinates the computer hardware devices and runs other software and applications on a computer - It serves as the interface between hardware, application software, and the user.
+- The operating system is a software that controls and coordinates the computer hardware devices and runs other software and applications on a computer 
+- It provides a foundation for applications to run and offers essential services, such as managing memory, processing tasks, handling input and output, and managing files and data. 
+- It serves as the interface between hardware, application software, and the user.
 
-Examples: 
-Windows (98,2000, XP, Vista, 7, 8, 10,11),Linux (Ubuntu), Macintosh
+Some common examples of operating systems are:
 
-**Device Drivers:** 
+  1. **Windows (98,2000, XP, Vista, 7, 8, 10,11)** – Used in personal computers and enterprise environments.
+  2. **macOS** – The primary operating system for Apple’s Mac computers.
+  3. **Linux (Ubuntu)** – An open-source operating system commonly used for servers, personal computers, and embedded systems.
+  4. **Android** – Used in smartphones, tablets, and some other mobile devices.
+
+1.2 **Device Drivers:** 
 
 - The communication between the operating system and hardware components is facilitated by device drivers.
 (Sound Card, Monitor, VGA, Modem, CR-Rom Drive Etc)
-- **Utility program** (File Compressor, Disk Scanner, Antivirus, Backup Utility, Disk Cleanup)
 
-**Utility Program:**
+1.3 **Utility Program:**
 
 - A utility is a program that makes the computer system easier to use or performs highly specialized functions.
 - Utilities are used to manage disks, troubleshoot hardware problems, and perform other tasks that the operating system itself may not be able to do.
-  
+
+**Examples:** File Compressor, Disk Scanner, Antivirus, Backup Utility, Disk Cleanup
+
 ### 2. Application Software
 
 Application software is any program that allows you to perform a specific task on your computer. There are many different types of application software available, each designed for a specific purpose. Here are some of the most common types:
@@ -215,17 +222,18 @@ Corel Draw.
 
 ## Review Questions
 
-- Explain the difference between hardware and software.
-- What is software and explain its different types.
-- What are the two main types of software? Briefly describe each one.
-- Why is software essential for a computer to function?
-- List three examples of system software and explain their roles.
-- What is the primary function of system software?
-- What are some benefits of using utility programs?
-- What is the difference between system software and application software?
-- Give examples of application software commonly used in different fields (e.g., education, business, entertainment).
-- Discuss the advantages and disadvantages of using open-source application software.
-- Define software and differentiate between two main categories of software with specific examples for each category.
+1. Explain the difference between hardware and software.
+2. What is software and explain its different types.
+3. What are the two main types of software? Briefly describe each one.
+4. Why is software essential for a computer to function?
+5. List three examples/types of system software and explain their roles.
+6. What is the primary function of system software?
+7. What are some benefits of using utility programs?
+8. What is the difference between system software and application software?
+9. Give examples of application software commonly used in different fields (e.g., education, business, entertainment).
+10. Discuss the advantages and disadvantages of using open-source application software
+11. Define software and differentiate between two main categories of software with specific examples for each category.
+12. What is application software? Provide four examples of commonly used application software from various fields.
 
 ## References and Bibliography
 

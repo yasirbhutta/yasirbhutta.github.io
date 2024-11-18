@@ -53,9 +53,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - The physical parts of a computer are called hardware.
 - The user can see and touch hardware. computer is a collection of several different parts
 
-![computer](https://upload.wikimedia.org/wikipedia/commons/7/7e/The_typical_desktop_computer_system.png)
+![Computer](images/computer.png)
 
-Image by [wikimedia.org](https://commons.wikimedia.org/wiki/File:The_typical_desktop_computer_system)
+**Fig. 1.** Desktop computer sytem [5].
 
 **Types of computer hardware:**
 
@@ -675,6 +675,8 @@ Memory Access:
 - [2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
 - [3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
 - [4] “Different Types of Printer Ink: The Ultimate Guide,” CDW.com. <https://www.cdw.com/content/cdw/en/articles/hardware/types-of-ink-for-printers.html>
+- [5] Wikipedia Contributors, “Desktop computer,” Wikipedia, Nov. 01, 2024. <https://en.wikipedia.org/wiki/Desktop_computer#/media/File:Desktop_computer_system_diagram_(English).svg>
+‌
 ‌
 
 - <http://en.wikipedia.org/wiki/Input_device>
