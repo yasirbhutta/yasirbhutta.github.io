@@ -19,28 +19,12 @@ Data visualization in Python is typically done with libraries like `Matplotlib` 
    plt.show()
    ```
 
-## 2. **Scatter Plots**
-   Scatter plots are useful for displaying the relationship between two continuous variables. They can reveal correlations, clusters, and trends.
+**See also:**
 
-   ```python
-   import numpy as np
+- “matplotlib.markers — Matplotlib 3.4.2 documentation,” matplotlib.org. <https://matplotlib.org/stable/api/markers_api.html>
+‌
 
-   # Generating random data
-   x = np.random.rand(50)
-   y = np.random.rand(50)
-   colors = np.random.rand(50)
-   sizes = 1000 * np.random.rand(50)
-
-   # Scatter plot with color and size variation
-   plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='viridis')
-   plt.colorbar()
-   plt.title("Scatter Plot")
-   plt.xlabel("X-axis")
-   plt.ylabel("Y-axis")
-   plt.show()
-   ```
-
-## 3. **Bar Plots**
+## . **Bar Plots**
    Bar plots display data using rectangular bars. They are commonly used for categorical data comparison.
 
    ```python
@@ -53,6 +37,9 @@ Data visualization in Python is typically done with libraries like `Matplotlib` 
    plt.ylabel("Values")
    plt.show()
    ```
+### Task 
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html
+
 
 ## 4. **Histograms**
    Histograms display the distribution of data by grouping it into bins. They are helpful for identifying patterns and distributions in data.
@@ -79,6 +66,52 @@ Data visualization in Python is typically done with libraries like `Matplotlib` 
    plt.title("Pie Chart")
    plt.show()
    ```
+
+   In the context of `matplotlib.pyplot.pie()`:
+
+1. **`autopct`**:
+   - This parameter specifies the format in which the percentage of each pie slice should be displayed on the chart.
+   - It accepts a format string or a callable function.
+   - Example: 
+     - `'%1.1f%%'` displays the percentage with one decimal place followed by the `%` sign.
+     - `'%1.0f%%'` displays the percentage as a whole number (no decimal places).
+     - A callable function can be used to define custom formatting.
+   - If you don't specify `autopct`, no percentages will be displayed on the pie slices.
+
+2. **`startangle`**:
+   - This parameter specifies the starting angle of the pie chart, measured counterclockwise from the positive x-axis.
+   - The value is in degrees.
+   - Example: 
+     - `startangle=180` rotates the pie chart so that the first slice starts from the bottom (180 degrees from the positive x-axis).
+     - `startangle=90` positions the first slice at the top (90 degrees counterclockwise from the positive x-axis).
+   - By default, `startangle=0`, so the first slice starts on the positive x-axis.
+
+### Output:
+- **`autopct='%1.1f%%'`**: Displays percentages with one decimal place on the slices.
+- **`startangle=180`**: Rotates the pie chart so that the first slice starts at the bottom.
+
+## 2. **Scatter Plots**
+   Scatter plots are useful for displaying the relationship between two continuous variables. They can reveal correlations, clusters, and trends.
+
+   ```python
+   import numpy as np
+
+   # Generating random data
+   x = np.random.rand(50)
+   y = np.random.rand(50)
+   colors = np.random.rand(50)
+   sizes = 1000 * np.random.rand(50)
+
+   # Scatter plot with color and size variation
+   plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='viridis')
+   plt.colorbar()
+   plt.title("Scatter Plot")
+   plt.xlabel("X-axis")
+   plt.ylabel("Y-axis")
+   plt.show()
+   ```
+
+
 
 ## 6. **Box Plots**
    Box plots show the distribution of data and outliers within a dataset. They display the minimum, first quartile, median, third quartile, and maximum of a data set.
@@ -212,6 +245,9 @@ Both `Matplotlib` and `Seaborn` offer extensive customization options, including
 ## Review Questions
 
 ## References and Bibliography
+
+- [1] Y. Holtz, “Python Graph Gallery,” The Python Graph Gallery. <https://python-graph-gallery.com/>
+‌
 
 For more details, see Appendix A.
 

@@ -959,6 +959,48 @@ After verifying that everything works, save your Packet Tracer project.
 
 This setup allows you to configure a DNS server that resolves a domain name to the IP address of a web server, effectively redirecting the domain to the website.
 
+### Design and Configure a Multi-Subnet Network Topology with DHCP, DNS, and Web Server Integration in Cisco Packet Tracer
+
+1. **Set Up Devices:**
+   - Add one **Router** to represent `192.168.1.1`.
+   - Add one **Switch** connected to the router for the `192.168.1.x` subnet.
+   - Add the following devices to the switch:
+     - **DHCP Server** with IP `192.168.1.7`.
+     - **Three DHCP Clients** (configure them to obtain IP addresses dynamically from the DHCP server).
+
+2. **Add the Second Subnet:**
+   - Connect the router to a second **Switch** for the `192.168.10.x` subnet.
+   - Add the following devices to this switch:
+     - **Web Server** with IP `192.168.10.10`.
+     - **DNS Server** with IP `192.168.10.20`.
+
+3. **Configure the Router:**
+   - Set up two interfaces on the router:
+     - **Interface for Subnet 1:** Assign IP `192.168.1.1`.
+     - **Interface for Subnet 2:** Assign IP `192.168.10.1`.
+
+4. **DHCP Server Configuration:**
+   - On the DHCP Server, configure a DHCP pool for `192.168.1.x` with:
+     - Gateway: `192.168.1.1`.
+     - IP Range: Assign IPs dynamically (e.g., `192.168.1.100` to `192.168.1.200`).
+
+5. **DNS Server Configuration:**
+   - On the DNS server, set up domain name resolution (e.g., resolve the hostname `www.example.com` to `192.168.10.10`).
+
+6. **Web Server Configuration:**
+   - On the Web Server, host a basic website for testing (e.g., display "Welcome to the Network").
+
+7. **Connectivity Testing:**
+   - Test the following:
+     - DHCP clients should receive IP addresses automatically from the DHCP Server.
+     - DHCP clients should be able to access the Web Server using both its IP (`192.168.10.10`) and domain name (via the DNS Server).
+     - Verify that devices in both subnets can ping each other through the router.
+
+8. **Optional Task:**
+   - Implement basic **security settings** like:
+     - Restrict web server access to specific IPs.
+     - Enable port filtering on the router.
+
 
 ## **Appendices**
 

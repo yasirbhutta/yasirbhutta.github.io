@@ -690,3 +690,6 @@ Memory Access:
 
 - [http://en.wikipedia.org/wiki/Pointing_device](http://en.wikipedia.org/wiki/Pointing_device)
   
+
+  9.	A ______________ is an output device that prints characters, symbols and graphics on paper.
+10.	In computing, a _____________ is a device that optically scans images, printed text, handwriting, or an object, and converts it to a digital image.
