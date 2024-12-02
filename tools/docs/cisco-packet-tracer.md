@@ -959,7 +959,7 @@ After verifying that everything works, save your Packet Tracer project.
 
 This setup allows you to configure a DNS server that resolves a domain name to the IP address of a web server, effectively redirecting the domain to the website.
 
-### Design and Configure a Multi-Subnet Network Topology with DHCP, DNS, and Web Server Integration in Cisco Packet Tracer
+### Task: Design and Configure a Multi-Subnet Network Topology with DHCP, DNS, and Web Server Integration in Cisco Packet Tracer
 
 1. **Set Up Devices:**
    - Add one **Router** to represent `192.168.1.1`.
@@ -1000,6 +1000,50 @@ This setup allows you to configure a DNS server that resolves a domain name to t
    - Implement basic **security settings** like:
      - Restrict web server access to specific IPs.
      - Enable port filtering on the router.
+
+### Task: **"Interconnecting Two Networks with Router-to-Router Connectivity and Routing Using Cisco Packet Tracer"**
+
+1. **Open Cisco Packet Tracer**:
+   - Launch the Packet Tracer software.
+
+2. **Place Devices**:
+   - Add two routers to the workspace. These will correspond to the two routers in your diagram.
+   - Add two switches and connect one switch to each router.
+   - Add three PCs to the left switch and one PC to the right switch.
+
+3. **Interconnect the Devices**:
+   - Use straight-through cables to connect:
+     - Each PC to the corresponding switch.
+     - Each switch to the respective router's Ethernet interface.
+   - Use a serial Copper Cross-Over cable to connect the two routers via their serial interfaces.
+
+4. **Configure IP Addresses**:
+   - Assign the following IP ranges:
+     - Left network: `192.168.1.x`
+     - Right network: `192.168.10.x`
+   - Configure router interfaces with the following IP addresses:
+     - Router1:
+       - Interface connected to the switch: `192.168.1.1`
+       - Serial interface connecting to Router2: e.g., `192.168.2.1`
+     - Router2:
+       - Serial interface connecting to Router1: e.g., `192.168.2.2`
+       - Interface connected to the switch: `192.168.10.1`
+   - Assign static IPs to PCs within their respective subnets.
+
+5. **Configure Routing**:
+   - Enable routing on both routers by configuring static routes:
+     - On Router1:
+       ```
+       ip route 192.168.10.0 255.255.255.0 192.168.2.2
+       ```
+     - On Router2:
+       ```
+       ip route 192.168.1.0 255.255.255.0 192.168.2.1
+       ```
+
+6. **Test Connectivity**:
+   - Use the `ping` command from one PC to another PC in the other network to verify connectivity.
+   - Troubleshoot if the ping fails by checking IP configurations, routes, and cable connections.
 
 
 ## **Appendices**
