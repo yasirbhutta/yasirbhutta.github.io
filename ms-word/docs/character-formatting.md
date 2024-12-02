@@ -2,10 +2,36 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](https://yasirbhutta.github.io/ms-word/docs/character-formatting.pdf)  
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-word/docs/character-formatting.html](https://yasirbhutta.github.io/ms-word/docs/character-formatting.html)
-- [Slides: Character Formatting](https://docs.google.com/presentation/d/1JP1pVsfH7LCQFsPPylfEDseQY_CEZGdzHc2RC2dRBpg/edit?usp=sharing)
+- [Microsoft Word: Character Formatting | Microsoft 365](#microsoft-word-character-formatting--microsoft-365)
+  - [Formatting](#formatting)
+  - [1. CHARACTER FORMATTING](#1-character-formatting)
+    - [1.1. Font](#11-font)
+    - [1.2 Font Size](#12-font-size)
+    - [1.3. Font Style](#13-font-style)
+    - [1.4. Font Color](#14-font-color)
+    - [1.5. Text Highlight Color](#15-text-highlight-color)
+    - [1.6. Subscript](#16-subscript)
+    - [1.7. Superscript](#17-superscript)
+      - [Task: Applying Subscript and Superscript in Microsoft Word](#task-applying-subscript-and-superscript-in-microsoft-word)
+    - [1.8. Strikethrough](#18-strikethrough)
+      - [Task: Applying Strikethrough in Microsoft Word](#task-applying-strikethrough-in-microsoft-word)
+    - [1.9. Character Case](#19-character-case)
+      - [**Task: Practicing Character Case Formatting in Microsoft Word**](#task-practicing-character-case-formatting-in-microsoft-word)
+    - [1.10. Clear Formatting](#110-clear-formatting)
+        - [**Task: Removing Text Formatting in Microsoft Word**](#task-removing-text-formatting-in-microsoft-word)
+    - [1.11. Using Font Dialog Box](#111-using-font-dialog-box)
+      - [1.11.1. Character Spacing](#1111-character-spacing)
+      - [Task: Adjusting Character Spacing in Microsoft Word](#task-adjusting-character-spacing-in-microsoft-word)
+    - [1.12. Mini Toolbar](#112-mini-toolbar)
+    - [1.13. Format Painter](#113-format-painter)
+    - [**Steps:**](#steps)
+  - [Key Terms](#key-terms)
+  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
+  - [Fill in the Blanks](#fill-in-the-blanks)
+  - [Exercises](#exercises)
+  - [Review Questions](#review-questions)
+  - [References and Bibliography](#references-and-bibliography)
 
 ## Formatting
 - The process of defining the appearance of a document is called formatting. It includes the following options:
@@ -89,7 +115,7 @@ Change Subscript
 ![font](img/font-logical-group.png)
 
 OR
-- Keyboard shortcut: **CTRL+=**
+- Keyboard shortcut: **Ctrl+Shift+_**
 
 ### 1.7. Superscript
 ●	Create small letters above the line of text.
@@ -101,9 +127,15 @@ OR
 ![font](img/font-logical-group.png)
 
 OR
-- Keyboard shortcut: **CTRL+Shift++** 
-- 
+- Keyboard shortcut: **Ctrl+Shift++** 
+
+#### Task: Applying Subscript and Superscript in Microsoft Word
+
+1. Write "H2O" and convert "2" to subscript.
+2. Write "10⁵" and apply superscript to "5".
+   
 ### 1.8. Strikethrough
+
 - Draw a line through the middle of the selected text.
 
 **Apply Strikethrough:**
@@ -112,47 +144,96 @@ OR
 
 ![font](img/font-logical-group.png)
 
+#### Task: Applying Strikethrough in Microsoft Word  
+
+1. Write the sentence:  
+   *"The deadline for the project is ~~Monday~~ Friday."*  
+2. Use the **Strikethrough** feature to cross out the word **Monday**.  
+
+**Task: Applying Double Strikethrough in Microsoft Word**  
+
+1. Write the sentence:  
+   *"The initial budget of $1000 has been revised."*  
+2. Apply **Double Strikethrough** to the text **$1000** to indicate its removal.  
+
+**Steps:**  
+1. Highlight **$1000**.  
+2. Open the **Font** dialog box (right-click and select **Font** or press **Ctrl + D**).  
+3. Check the **Double Strikethrough** option.  
+4. Click **OK** to apply.  
+
+
 ### 1.9. Character Case
 - The character  in which text is written is called case of the text.
 - Capital letters are called upper case letters.
 - Small letters are call lower case letters.
 
-**Sentence case:** It changes the first  character of sentence to upper case and all other characters to the lower case.
-**lower case:** it changes all characters to lowercase
-**UPPER CASE:** IT CHANGES ALL CHARACTERS TO UPPER CASE.	
-**Capitalize Each Word:** It Changes The First Characters Of Each Word To Uppercase And All Other Characters To Lowercase.
-**tOGGLE cASE:** iT sWITCHES uPPERCASE tO lOWERCASE aND vICE vERSA.
+- **Sentence case:** It changes the first  character of sentence to upper case and all other characters to the lower case.
+- **lower case:** it changes all characters to lowercase
+- **UPPER CASE:** IT CHANGES ALL CHARACTERS TO UPPER CASE.	
+- **Capitalize Each Word:** It Changes The First Characters Of Each Word To Uppercase And All Other Characters To Lowercase.
+- **tOGGLE cASE:** iT sWITCHES uPPERCASE tO lOWERCASE aND vICE vERSA.
 
-Character Case
+**Using the Ribbon Menu**
+
+1. Highlight the text.  
+2. Go to the **Home** tab.  
+3. Click on the **Change Case** button (represented by "Aa") in the **Font** group.  
+4. Select the desired case option from the dropdown menu. 
+  
+**Using Keyboard Shortcut**
+
 - Select the text
 - Press **Shift + F3** until the required case is achieved.
-OR 
-- Select the text
-- **Home tab > Font group > Change Case**
 
 ![change case](img/change-case.png)
 
-# 1.10. Clear Formatting
+#### **Task: Practicing Character Case Formatting in Microsoft Word**  
+
+1. Write the sentence:  
+   *"microsoft word is a powerful word processing tool."*  
+
+2. Perform the following tasks to change the case:  
+   - Convert the entire sentence to **UPPERCASE**.  
+   - Convert the entire sentence to **lowercase**.  
+   - Use **Capitalize Each Word** to make it: *"Microsoft Word Is A Powerful Word Processing Tool."*  
+   - Apply **Toggle Case** to make it: *"MICROSOFT wORD IS A POWERFUL WORD PROCESSING TOOL."*  
+
+
+### 1.10. Clear Formatting
 
 - Clear formatting command clear all the formatting from the selection and leave only plain text.
 
-**Clear Formatting:**
-- On the **Home** tab, in the **Font** group, click **Clear All Formatting**
+**Using the Ribbon Menu**
+
+1. Highlight the formatted text.  
+2. Go to the **Home** tab.  
+3. In the **Font** group, click on the **Clear All Formatting** button (represented by an eraser icon). 
 
 ![font](img/font-logical-group.png)
 
-OR
+**Using Keyboard Shortcut**
 
 Press **Ctrl + Spacebar** to clear character formatting (such as bold, font, and font size) from selected text 2.
 
-# 1.11. Using Font Dialog Box
+##### **Task: Removing Text Formatting in Microsoft Word**  
+
+1. Write the sentence:  
+   *"This is a sample text with bold, italic, underline, and color formatting."*  
+
+2. Perform the following tasks:  
+   - Apply **Bold**, **Italic**, **Underline**, and a text color (e.g., Red) to the sentence.  
+   - Use the **Clear Formatting** feature to remove all the formatting, returning the text to its default style.  
+
+
+### 1.11. Using Font Dialog Box
 
 - The font dialog box can be used to apply different formatting option on the text
 
 Font Dialog Box
 - Click on the Arrow sign of Font group
 
-OR
+**Using Keyboard Shortcut**
 
 Keyboard shortcut: **CTRL+D**
 
@@ -165,33 +246,65 @@ Font Dialog Box
   - Character Spacing is used to increase or decrease distance between characters.
   - Kerning automatically adjusts the distance between characters.
 
-**Character Spacing:**
-- Select the text that you want to change. 
-- On the Home tab, click the Font Dialog Box Launcher, and then click the **Advanced** tab.
-- In the Spacing box, click **Expanded** or **Condensed**, and then specify how much space you want in the By box.
+**Using the Ribbon Menu**
 
-Character spacing
-Changing Character Spacing
+1. Highlight the text.  
+2. Go to the **Home** tab and click the small arrow in the **Font** group to open the **Font dialog box**.  
+3. In the dialog box, click the **Advanced** tab.  
+4. Under **Character Spacing**, adjust the **Spacing** dropdown to **Expanded** or **Condensed**, and set the point size.  
+5. Click **OK** to apply the changes. 
+   
+#### Task: Adjusting Character Spacing in Microsoft Word  
+
+1. Write the sentence:  
+   *"Text formatting can improve document presentation."*  
+
+2. Perform the following tasks to adjust character spacing:  
+   - Increase the **spacing between letters** to make the text more spread out.  
+   - Decrease the **spacing between letters** to bring the text closer together.  
+   - Apply **Expanded** spacing by 2 pt for a wider effect.  
+   - Apply **Condensed** spacing by 1 pt for a tighter look.
 
 ### 1.12. Mini Toolbar
 - When we select text, we can show or hide a handy, miniature, semitransparent toolbar called the Mini toolbar
 ●	To use toolbar, click any of the available command.
 
 ### 1.13. Format Painter
+
 - The Format Painter is a tool that is used to copy formats from existing text and apply it to other text in the document.
-Format Painter
+
+**Using the Ribbon Menu**
+
 - Select the text or graphic that has the formatting that you want to copy. 
 - On the Home tab, in the Clipboard group, click Format Painter.
-
 - Select the text or graphic that you want to format. 
 - To stop formatting, press **ESC**.
+- 
 **Important:**    Double-click the Format Painter button if you want to change the format of multiple selections in your document.
 
-**Copying Formatting using Keyboard:**
-•	Select the text already formatted
+**Using Keyboard Shortcut**
+
+•	Select the text already formatted to copy format.
 •	Press **CTRL+SHIFT+C**
 •	Select the text to apply format.
 •	Press **CTRL+SHIFT+V**
+
+**Task: Using Format Painter in Microsoft Word**  
+
+1. Write two sentences:  
+   - **Sentence 1:** *"The quick brown fox jumps over the lazy dog."*  
+   - **Sentence 2:** *"A journey of a thousand miles begins with a single step."*  
+
+2. Perform the following tasks using **Format Painter**:  
+   - Copy the **formatting** (font size, color, and bold) from **Sentence 1** and apply it to **Sentence 2**.  
+   - Use the **Format Painter** multiple times to apply the same formatting to other pieces of text in the document.  
+
+### **Steps:**  
+1. Highlight the text that has the formatting you want to copy (Sentence 1).  
+2. Go to the **Home** tab and click on the **Format Painter** button (paintbrush icon).  
+3. Highlight the text you want to apply the formatting to (Sentence 2).  
+4. If you want to apply the same formatting to multiple sections, double-click the **Format Painter** button to keep it active, then click on other text sections to apply the format.
+
 
 ## Key Terms
 
