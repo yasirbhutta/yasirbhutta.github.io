@@ -6,12 +6,14 @@
     - [2. **Exponential and Logarithmic Functions**](#2-exponential-and-logarithmic-functions)
     - [3. **Power and Root Functions**](#3-power-and-root-functions)
     - [4. **Trigonometric Functions**](#4-trigonometric-functions)
-    - [5. **Hyperbolic Functions**](#5-hyperbolic-functions)
-    - [6. **Angular Functions**](#6-angular-functions)
-    - [7. **Special Constants**](#7-special-constants)
-    - [8. **Rounding and Precision Functions**](#8-rounding-and-precision-functions)
-    - [9. **Greatest Common Divisor and Least Common Multiple**](#9-greatest-common-divisor-and-least-common-multiple)
-    - [10. **Combinatorics**](#10-combinatorics)
+    - [5. **Angular Functions**](#5-angular-functions)
+    - [Real-Life Example: **Determining the Height of a Building**](#real-life-example-determining-the-height-of-a-building)
+    - [Formula:](#formula)
+    - [**Explanation**:](#explanation)
+    - [**Expected Output**:](#expected-output)
+    - [6. **Special Constants**](#6-special-constants)
+    - [7. **Rounding and Precision Functions**](#7-rounding-and-precision-functions)
+    - [8. **Greatest Common Divisor and Least Common Multiple**](#8-greatest-common-divisor-and-least-common-multiple)
     - [Summary Table](#summary-table)
   - [Key Terms](#key-terms)
   - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
@@ -94,20 +96,7 @@ The `math` library is built-in, so you don’t need to install anything to use i
    sin_val = math.sin(angle_rad)  # Sine of 90 degrees
    ```
 
-### 5. **Hyperbolic Functions**
-   Hyperbolic functions are analogs of trigonometric functions for the hyperbola, used in calculus and complex analysis.
-
-   - **Hyperbolic Sine**: `math.sinh(x)`
-   - **Hyperbolic Cosine**: `math.cosh(x)`
-   - **Hyperbolic Tangent**: `math.tanh(x)`
-
-   ```python
-   sinh_val = math.sinh(1)
-   cosh_val = math.cosh(1)
-   tanh_val = math.tanh(1)
-   ```
-
-### 6. **Angular Functions**
+### 5. **Angular Functions**
    The library also offers functions for converting between radians and degrees, which is essential for working with angles in various units.
 
    - `math.degrees(x)`: Converts radians to degrees.
@@ -118,7 +107,76 @@ The `math` library is built-in, so you don’t need to install anything to use i
    radians = math.radians(180)      # Output: π (approx 3.14159)
    ```
 
-### 7. **Special Constants**
+### Real-Life Example: **Determining the Height of a Building**
+
+Imagine you're standing a certain distance away from a building and you want to determine its height. If you know the angle of elevation (the angle between the ground and your line of sight to the top of the building) and the distance from where you’re standing to the building (the **adjacent side** of the right triangle), you can use the sine function to calculate the height of the building (the **opposite side**).
+
+### Formula:
+For a right triangle:
+
+```
+sin(theta) = opposite side/hypotenuse
+```
+
+Where:
+- **theta** is the angle of elevation.
+- The **opposite side** is the height of the building (which we want to find).
+- The **hypotenuse** is the line of sight from where you're standing to the top of the building.
+  
+However, in this case, since we have the angle of elevation and the distance (adjacent side), we can use the formula:
+
+```
+tan(theta) = opposite / adjacent
+```
+
+**Python Code for Using Tangent and Sine to Calculate the Height**
+
+```python
+import math
+
+# Given values
+angle_degrees = 30  # Angle of elevation in degrees
+distance_adjacent = 50  # Adjacent side (distance from the base in meters)
+hypotenuse = 57.74  # Hypotenuse (line of sight in meters)
+
+# Convert angle to radians
+angle_radians = math.radians(angle_degrees)
+
+# Calculate the height using tangent
+height_tangent = distance_adjacent * math.tan(angle_radians)
+
+# Calculate the height using sine
+height_sine = hypotenuse * math.sin(angle_radians)
+
+# Print results
+print(f"Using Tangent: The height of the building is {height_tangent:.2f} meters.")
+print(f"Using Sine: The height of the building is {height_sine:.2f} meters.")
+```
+
+### **Explanation**:
+
+- **`math.radians(angle_degrees)`**: Converts the angle from degrees to radians, as trigonometric functions in Python use radians.
+  
+- **Tangent Formula**: The height is calculated using the tangent formula:
+
+```  
+  height = adjacent * tan(theta)
+```
+- **Sine Formula**: The height is calculated using the sine formula:
+
+```
+  height = hypotenuse * sin(theta)
+```
+### **Expected Output**:
+
+```
+Using Tangent: The height of the building is 28.87 meters.
+Using Sine: The height of the building is 28.87 meters.
+```
+
+This code calculates the height using both the tangent and sine functions, and you can see that both methods give the same result when the angle is \(30^\circ\), and the given values are used correctly.
+
+### 6. **Special Constants**
    The `math` library provides access to several useful mathematical constants:
 
    - **Pi** (`math.pi`): Ratio of a circle's circumference to its diameter (~3.14159).
@@ -131,7 +189,7 @@ The `math` library is built-in, so you don’t need to install anything to use i
    print(math.tau)  # 6.28318
    ```
 
-### 8. **Rounding and Precision Functions**
+### 7. **Rounding and Precision Functions**
    Rounding functions are useful for rounding numbers to the nearest integer or truncating decimal values.
 
    - **Ceiling** (`math.ceil(x)`): Rounds x up to the nearest integer.
@@ -144,24 +202,13 @@ The `math` library is built-in, so you don’t need to install anything to use i
    trunc_val = math.trunc(4.9)   # Output: 4
    ```
 
-### 9. **Greatest Common Divisor and Least Common Multiple**
+### 8. **Greatest Common Divisor and Least Common Multiple**
    - **GCD** (`math.gcd(x, y)`): Finds the greatest common divisor of x and y.
    - **LCM** (`math.lcm(x, y)`): Finds the least common multiple of x and y (available in Python 3.9+).
 
    ```python
    gcd_val = math.gcd(8, 12)    # Output: 4
    lcm_val = math.lcm(4, 6)     # Output: 12 (Python 3.9+)
-   ```
-
-### 10. **Combinatorics**
-   The `math` library also has functions for combinatorics, such as combinations and permutations, useful in probability and statistics.
-
-   - **Permutations** (`math.perm(n, k)`): Returns the number of ways to arrange k items from n items.
-   - **Combinations** (`math.comb(n, k)`): Returns the number of ways to choose k items from n items without repetition.
-
-   ```python
-   perm_val = math.perm(5, 3)    # 5P3
-   comb_val = math.comb(5, 3)    # 5C3
    ```
 
 ### Summary Table

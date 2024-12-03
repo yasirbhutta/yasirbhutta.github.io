@@ -2,7 +2,7 @@
 
 [Download PDF](assign1.pdf)
 
-**Objective:** Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in programming fundamentals. 
+**Objective:** Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT. 
 
 **Target Audience:** Your classmates (assumed to have basic computer literacy).
 

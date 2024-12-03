@@ -22,5 +22,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [System and Network Administration](sna/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
 - [Learn Computer Lab](computer-basics/learn-computer.md)
+## Training
+- [IT Support Desk](trainings/docs/itsupport.md)
 ## Softwares
 - [Softwares](tools/index.md)
