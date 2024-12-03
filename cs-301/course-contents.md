@@ -66,4 +66,5 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](assignments/assign1.md)
 - [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
 - [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
+- [Microsoft Excel: Assignments](../ms-excel/)
 
