@@ -24,7 +24,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
       - [Implicit intersection operator: @](#implicit-intersection-operator-)
   - [Operand](#operand)
     - [Order of Operations: Left to Right and Parentheses](#order-of-operations-left-to-right-and-parentheses)
-    - [PEMDAS](#pemdas)
+    - [The order in which Excel performs operations in formulas](#the-order-in-which-excel-performs-operations-in-formulas)
   - [Creating a formula](#creating-a-formula)
   - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
   - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
@@ -149,9 +149,11 @@ A quantity upon which a mathematical operation is performed
 - The operations in a formula are performed from left to right – following the order of operator precedence.
 - You can change the of precedence of operators by using parentheses ().
 
-### PEMDAS
+### The order in which Excel performs operations in formulas
 
-In Excel, PEMDAS is an acronym to remember the order of operations:
+In some cases, the order in which a calculation is performed can affect the return value of the formula, so it's important to understand how the order is determined and how you can change the order to obtain the results you want.[3]
+
+In Excel, Remember the order of operations:
 
 1. **Parentheses (P):** Calculate expressions inside parentheses first.
 2. **Exponents (E):** Next, handle any powers or roots.
@@ -164,7 +166,7 @@ For example, with a formula like
 ```excel 
 = (6 + 4) ^ 2 / 5
 ```
-Excel follows PEMDAS by:
+Excel follows by:
 
 - First calculating (6 + 4), resulting in 10.
 - Then raising 10 to the power of 2 (10^2 = 100).
@@ -526,3 +528,5 @@ The result, 150, should appear in cell A3.
 
 - [^1:] [Calculation operators and precedence in Excel](https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a)
 - [^2] [Implicit intersection operator: @](https://support.microsoft.com/en-us/office/implicit-intersection-operator-ce3be07b-0101-4450-a24e-c1c999be2b34)
+- [3] “The order in which Excel performs operations in formulas,” [support.microsoft.com.](https://support.microsoft.com/en-us/office/the-order-in-which-excel-performs-operations-in-formulas-28eaf0d7-7058-4eff-a8ea-0a835fafadb8)
+‌
