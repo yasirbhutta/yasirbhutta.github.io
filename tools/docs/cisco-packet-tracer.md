@@ -1046,6 +1046,274 @@ This setup allows you to configure a DNS server that resolves a domain name to t
    - Troubleshoot if the ping fails by checking IP configurations, routes, and cable connections.
 
 
+## 
+
+Here's an updated task incorporating a **Class B network** for the connections between routers and **Class C private networks** for the LANs.
+
+---
+
+### Task Configuring Multi-LAN Networks with Class B Inter-Router Connections and Class C LAN Subnets in Cisco Packet Tracer
+
+**Objective**: Simulate a network with Class B subnets for inter-router connections and Class C private subnets for LANs. Configure IP addressing, routing, and basic connectivity.
+
+---
+
+### **Guidelines**:
+
+#### **Step 1: Network Setup**
+1. **Devices Required**:
+   - **3 Routers**: Connect the LANs and interconnect the networks.
+   - **3 Switches**: Connect hosts and servers within each LAN.
+   - **1 DHCP Server**: For dynamic IP allocation in LAN1.
+   - **1 DNS Server**: For domain name resolution in LAN1.
+   - **1 Web Server**: For hosting a webpage in LAN2.
+   - **6 PCs**: Distribute across all LANs (e.g., 2 PCs per LAN).
+
+2. **Network Topology**:
+   - **LAN1**:
+     - Subnet: `192.168.1.0/24`
+     - DHCP, DNS Server connected to a switch.
+     - 2 PCs connected to the switch.
+   - **LAN2**:
+     - Subnet: `192.168.2.0/24`
+     - Web Server connected to a switch.
+     - 2 PCs connected to the switch.
+   - **LAN3**:
+     - Subnet: `192.168.3.0/24`
+     - 2 PCs connected to a switch.
+
+3. **Inter-Router Connections (Class B Subnets)**:
+   - Router-to-Router connections will use **Class B subnets**:
+     - `172.16.4.0/30` for Router 1 ↔ Router 2 (`subnet mask 255.255.255.252`)
+     - `172.16.5.0/30` for Router 2 ↔ Router 3
+
+#### **Step 2: IP Addressing**
+- **LAN IPs** (Class C):
+  - **LAN1**:
+    - Router 1 Interface: `192.168.1.1/24`
+    - DHCP Server Scope: `192.168.1.10-192.168.1.254`
+  - **LAN2**:
+    - Router 2 Interface: `192.168.2.1/24`
+    - Static IP for Web Server: `192.168.2.10`
+  - **LAN3**:
+    - Router 3 Interface: `192.168.3.1/24`
+    - Static IP for Web Server: `192.168.3.10`
+
+- **Router Interconnections (Class B)**:
+  - **Router 1 ↔ Router 2**:
+    - Router 1 Interface: `172.16.4.1/30`
+    - Router 2 Interface: `172.16.4.2/30`
+  - **Router 2 ↔ Router 3**:
+    - Router 2 Interface: `172.16.5.1/30`
+    - Router 3 Interface: `172.16.5.2/30`
+
+#### **Step 3: Configure DHCP Server**
+- Configure the DHCP server to dynamically allocate IPs in **LAN1** (`192.168.1.0/24`).
+- Set the default gateway to `192.168.1.1` (Router 1).
+
+#### **Step 4: Configure DNS Server**
+- Set the DNS server to resolve domain names (e.g., `www.example.com` to `192.168.2.10`).
+- Assign a static IP (e.g., `192.168.1.10`) to the DNS server.
+- Set the DNS server to resolve domain names (e.g., `www.google.com` to `192.168.3.10`).
+- Assign a static IP (e.g., `192.168.1.10`) to the DNS server.
+
+#### **Step 5: Configure Web Server**
+- Assign a static IP (`192.168.2.10`) to the Web Server in LAN2
+- Assign a static IP (`192.168.3.10`) to the Web Server in LAN3.
+- Host a sample webpage and ensure it is accessible using its IP and domain name.
+
+#### **Step 5: Default Gateway**
+- **LAN Devices**:
+  - Configure PCs in **LAN1**, **LAN2**, and **LAN3** with their respective gateways:
+    - **LAN1**: Gateway `192.168.1.1`
+    - **LAN2**: Gateway `192.168.2.1`
+    - **LAN3**: Gateway `192.168.3.1`
+  - 
+#### **Step 6: Configure Routing**
+- Enable routing between LANs and across routers:
+  - Use **static routes** on all routers or configure **dynamic routing protocols** (RIP or OSPF).
+  - Example (Static Route for Router 1):
+    ```
+    ip route 192.168.2.0 255.255.255.0 172.16.4.2
+    ip route 192.168.3.0 255.255.255.0 172.16.4.2
+    ```
+  - Example (Static Route for Router 2):
+   ```
+    ip route 192.168.1.0 255.255.255.0 172.16.4.1
+    ip route 192.168.3.0 255.255.255.0 172.16.5.2
+    ```
+  - Example (Static Route for Router 3):
+   ```
+    ip route 192.168.2.0 255.255.255.0 172.16.5.1
+    ip route 192.168.3.0 255.255.255.0 172.16.5.1
+   ```
+
+#### **Step 7: Test Connectivity**
+- Use the **ping** tool to test:
+  - Connectivity between PCs within the same LAN.
+  - Connectivity between PCs across different LANs.
+  - Connectivity to the Web Server from PCs in LAN1 and LAN3.
+- Use a web browser to verify access to the hosted webpage.
+
+## RIP (Routing Information Protocol)
+
+RIP (Routing Information Protocol) is one of the oldest and simplest distance-vector routing protocols used to determine the best path for data packets in a network. It works by sharing routing tables between routers at regular intervals.
+
+Versions of RIP:
+
+**RIPv1:**
+Classful (does not support subnet masks).
+Broadcasts updates.
+
+**RIPv2:**
+Classless (supports subnet masks).
+Uses multicasts for routing updates.
+Supports authentication.
+
+**RIPng:**
+Designed for IPv6 networks.
+
+
+### Task: Configuring Multi-LAN Networks with RIP Protocol in Cisco Packet Tracer
+
+**Objective**: Simulate a network with Class B subnets for inter-router connections and Class C private subnets for LANs. Use **RIP (Routing Information Protocol)** to enable dynamic routing between routers and ensure connectivity across LANs.
+
+---
+
+### **Guidelines**:
+
+#### **Step 1: Network Setup**
+1. **Devices Required**:
+   - **3 Routers**: Connect the LANs and manage routing.
+   - **3 Switches**: Connect hosts and servers within each LAN.
+   - **1 DHCP Server**: For dynamic IP allocation in LAN1.
+   - **1 DNS Server**: For domain name resolution in LAN1.
+   - **1 Web Server**: For hosting a webpage in LAN2.
+   - **6 PCs**: Distribute across all LANs (2 PCs per LAN).
+
+2. **Network Topology**:
+   - **LAN1**:
+     - Subnet: `192.168.1.0/24`
+     - DHCP and DNS Servers connected to a switch.
+     - 2 PCs connected to the switch.
+   - **LAN2**:
+     - Subnet: `192.168.2.0/24`
+     - Web Server connected to a switch.
+     - 2 PCs connected to the switch.
+   - **LAN3**:
+     - Subnet: `192.168.3.0/24`
+     - 2 PCs connected to a switch.
+
+3. **Inter-Router Connections (Class B Subnets)**:
+   - Router-to-Router connections will use **Class B subnets**:
+     - `172.16.4.0/30` for Router 1 ↔ Router 2
+     - `172.16.5.0/30` for Router 2 ↔ Router 3
+
+---
+
+#### **Step 2: IP Addressing**
+- **LAN IPs** (Class C):
+  - **LAN1**:
+    - Router 1 Interface: `192.168.1.1/24`
+    - DHCP Server Scope: `192.168.1.10-192.168.1.254`
+  - **LAN2**:
+    - Router 2 Interface: `192.168.2.1/24`
+    - Static IP for Web Server: `192.168.2.10`
+  - **LAN3**:
+    - Router 3 Interface: `192.168.3.1/24`
+
+- **Router Interconnections (Class B)**:
+  - **Router 1 ↔ Router 2**:
+    - Router 1 Interface: `172.16.4.1/30`
+    - Router 2 Interface: `172.16.4.2/30`
+  - **Router 2 ↔ Router 3**:
+    - Router 2 Interface: `172.16.5.1/30`
+    - Router 3 Interface: `172.16.5.2/30`
+
+---
+
+#### **Step 3: Configure DHCP Server**
+1. Assign the DHCP server an IP address within **LAN1** (e.g., `192.168.1.2`).
+2. Configure the DHCP scope to dynamically allocate IPs to devices in **LAN1** (`192.168.1.10 - 192.168.1.254`).
+3. Set the default gateway to `192.168.1.1`.
+
+---
+
+#### **Step 4: Configure DNS Server**
+1. Assign the DNS server a static IP in **LAN1** (e.g., `192.168.1.3`).
+2. Configure the DNS server to resolve:
+   - `www.example.com` → `192.168.2.10` (Web Server in LAN2).
+   - `www.test.com` → `192.168.3.10` (Web Server in LAN3).
+
+---
+
+#### **Step 5: Configure Web Servers**
+1. Assign static IPs to web servers:
+   - LAN2 Web Server: `192.168.2.10`.
+   - LAN3 Web Server: `192.168.3.10`.
+2. Host sample webpages and ensure they are accessible using their respective IPs.
+
+---
+
+#### **Step 6: Configure RIP Protocol**
+1. Enable RIP on each router:
+   - Enter **global configuration mode**:
+     ```
+     Router> enable
+     Router# configure terminal
+     ```
+   - Enable RIP and use **version 2**:
+     ```
+     Router(config)# router rip
+     Router(config-router)# version 2
+     ```
+   - Add the networks associated with each router:
+     - **Router 1**:
+       ```
+       Router(config-router)# network 192.168.1.0
+       Router(config-router)# network 172.16.4.0
+       ```
+     - **Router 2**:
+       ```
+       Router(config-router)# network 192.168.2.0
+       Router(config-router)# network 172.16.4.0
+       Router(config-router)# network 172.16.5.0
+       ```
+     - **Router 3**:
+       ```
+       Router(config-router)# network 192.168.3.0
+       Router(config-router)# network 172.16.5.0
+       ```
+   - Exit and save the configuration:
+     ```
+     Router(config-router)# exit
+     Router# write memory
+     ```
+
+---
+
+#### **Step 7: Test Connectivity**
+1. **Ping Tests**:
+   - Test connectivity between PCs in the same LAN.
+   - Test connectivity between PCs across different LANs.
+   - Test connectivity from PCs to the Web Servers.
+2. **Web Access**:
+   - Use a browser to access webpages hosted on the Web Servers using:
+     - IP addresses (e.g., `192.168.2.10`).
+     - Domain names (e.g., `www.example.com`).
+3. **RIP Verification**:
+   - Check RIP routing tables on each router:
+     ```
+     Router# show ip route
+     ```
+
+---
+
+### Expected Outcome
+- All devices within the network are reachable.
+- Web Servers are accessible by both IP address and domain name.
+- RIP dynamically routes packets across routers, ensuring connectivity between all LANs.
+
 ## **Appendices**
 
 ### **Appendix A: Configuring DHCP on the Router**
