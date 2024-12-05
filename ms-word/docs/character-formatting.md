@@ -291,9 +291,9 @@ Font Dialog Box
 **Using Keyboard Shortcut**
 
 •	Select the text already formatted to copy format.
-•	Press **CTRL+SHIFT+C**
+•	Press **Alt+Ctrl+C**
 •	Select the text to apply format.
-•	Press **CTRL+SHIFT+V**
+•	Press **Alt+Ctrl+V**
 
 **Task: Using Format Painter in Microsoft Word**  
 
