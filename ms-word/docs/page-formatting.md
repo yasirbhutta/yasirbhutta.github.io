@@ -1,6 +1,4 @@
-# Microsoft Word - Microsoft 365
-
-## Microsoft Word - Page Formatting
+# Microsoft Word - Page Formatting /| Microsoft 365
 
 [video: How to insert page numbers in a Word document \| Microsoft](https://youtu.be/WWXCZoHne0g?feature=shared)
 [video: How to change page margins in Word \| Microsoft](https://youtu.be/wLujfKg3YyM?feature=shared)
@@ -9,6 +7,11 @@
 
 - [Slides: Page Formatting](https://docs.google.com/presentation/d/1pbumUfZuugkGS31FKGpgsNz3g7v2WVDjCvHab713b9o/edit?usp=sharing)
 
+- [Download PDF](https://yasirbhutta.github.io/ms-word/docs/page-formatting.html)  
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/ms-word/docs/page-formatting.html](https://yasirbhutta.github.io/ms-word/docs/page-formatting.html)
+
+## What is Page formatting
 
 Page formatting in Microsoft Word refers to all the adjustments you make to control the overall layout and appearance of your document's pages. It goes beyond just margins and encompasses several aspects:
 

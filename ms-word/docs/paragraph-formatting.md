@@ -2,6 +2,10 @@
 
 - [Slides: Paragraph Formatting](https://docs.google.com/presentation/d/19eJfCh7-1jiuGKPrB6bUv8vB7JdDVngFhMi4R_2JMbI/edit?usp=sharing)
 
+- [Download PDF](https://yasirbhutta.github.io/ms-word/docs/paragraph-formatting.html)  
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/ms-word/docs/paragraph-formatting.html](https://yasirbhutta.github.io/ms-word/docs/paragraph-formatting.html)
+
 ## What is Paragraph Formatting
 
 - You can apply paragraph formatting on paragraphs in document.

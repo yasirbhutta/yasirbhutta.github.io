@@ -1052,7 +1052,7 @@ Here's an updated task incorporating a **Class B network** for the connections b
 
 ---
 
-### Task Configuring Multi-LAN Networks with Class B Inter-Router Connections and Class C LAN Subnets in Cisco Packet Tracer
+### Task:  Configuring Multi-LAN Networks with Class B Inter-Router Connections and Class C LAN Subnets in Cisco Packet Tracer
 
 **Objective**: Simulate a network with Class B subnets for inter-router connections and Class C private subnets for LANs. Configure IP addressing, routing, and basic connectivity.
 
