@@ -32,12 +32,29 @@
 
 - [What is DNS Server - slides](https://docs.google.com/presentation/d/1VxoNQRi3oSeKbFRHfVgPcCuHga4lC8tYj48NYSFMAnA/edit?usp=sharing)
 - [How to configure DNS server using Cisco packet tracer](../tools/docs/cisco-packet-tracer.md#how-to-configure-dns-server-in-packet-tracer)
-
+ 
 **Lab** Configure DHCP Server on the Router 
 
 - [How to configure DHCP server on the router](../tools/docs/cisco-packet-tracer.md#6-optional-configure-dhcp-on-the-router)
-- 
-### **Week 4: Linux - User and Group Management**
+
+### [Windows Server](https://yasirbhutta.github.io/windows/docs/windows-server.html)
+
+[Lecture notes:](https://yasirbhutta.github.io/windows/docs/windows-server.html)
+
+**Lab** Windows Server Installation
+**Lab** Domain Controllers
+**Lab** File Server Resource Manager (FSRM) [pdf]()
+**Lab** IIS
+
+
+
+- **Lab**
+- **Lab**
+
+
+
+
+### **Linux - User and Group Management**
 
 1. **Practical 1: User Management**  
    - Add, delete, and modify user accounts (`useradd`, `usermod`, `passwd`, `userdel`).

@@ -1,5 +1,13 @@
 # Windows Server
 
+## Workgroup and Domain
+
+[slides](https://docs.google.com/presentation/d/1pOhaajToy1Ntq0WzpxSZvI8VZ9GILV34C7_bg7fK2hg/edit?usp=sharing)
+
+## Configuring Domain Controllers
+
+[slides](https://docs.google.com/presentation/d/13NWn6b6q4yk97Gnue5RRCWZbuQcxpO-CNEhN5i0PbcM/edit?usp=sharing)
+
 ## File Server Resource Manager (FSRM)
 
 To set file quota and screening using File Manager in **Windows Server 2022**, you can use **File Server Resource Manager (FSRM)**, which is a feature in Windows Server that allows you to manage and control file storage. Here's how you can set up file quotas and file screening:
@@ -49,3 +57,30 @@ FSRM also allows you to generate reports on file quotas and screening:
 2. You can generate reports on quota usage, file screening activity, and more.
 
 This will set up a basic file quota and file screening configuration on your Windows Server 2022. You can fine-tune the settings depending on the specific requirements of your environment.
+
+## Internet Information Services
+
+[slides](https://docs.google.com/presentation/d/1y6Qh6yb10lhbbGJ6fakblV0wIip9pcHqgi59PZMByXA/edit?usp=sharing)
+
+### Task: **Web Server Setup: Creating a Software Directory with Home and Detail Pages**
+
+1. **Create a subfolder named "softwares"** in the webserver directory.
+2. **Develop a home page** that displays a list of all available software.
+3. For each software, **create individual HTML pages** containing the software's title and description.
+
+## Group Policies
+
+### Understanding Group Policy Processing
+
+[slides](https://docs.google.com/presentation/d/17KbKXBbA0ofvJh6qA6fclImnhv4vQwgLfBY2rna7H98/edit?usp=sharing)
+
+### Configuring Account Policies
+
+[slides](https://docs.google.com/presentation/d/1ZQYYu4V_qhci6V-HJmavnkqK_UdGjlF85YBOjTHWJJI/edit?usp=sharing)
+
+### Configuring Group Policy Settings
+
+[slides](https://docs.google.com/presentation/d/16Q7WF7R2fjsawlMt7k1MNSrE_F2jBlLME6-kKWCMZio/edit?usp=sharing)
+
+
+
