@@ -364,6 +364,83 @@ How to convert hexadecimal to decimal step by step with an example:
 
 **Therefore, D3A5 (hex) is equal to 54,181 (decimal).**
 
+##### Example: Convert Hexadecimal `1A3` to Decimal
+
+1. **Understand Hexadecimal**:  
+   The hexadecimal system uses base 16 and includes digits from 0 to 9 and letters A to F.  
+   - A = 10, B = 11, C = 12, D = 13, E = 14, F = 15  
+
+2. **Write Down the Hex Number**:  
+   For example, let's say the hex number is **1A3**.
+
+3. **Assign Powers of 16**:  
+   Write powers of 16 for each digit, starting from the rightmost digit:  
+   ```
+   1A3 → 1 × 16² + A × 16¹ + 3 × 16⁰
+   ```
+
+4. **Replace Hex Digits with Decimal Equivalents**:  
+   Replace A with 10:  
+   ```
+   1 × 16² + 10 × 16¹ + 3 × 16⁰
+   ```
+
+5. **Calculate Powers of 16**:  
+   ```
+   16² = 256, 16¹ = 16, 16⁰ = 1
+   ```
+
+6. **Perform Multiplication**:  
+   ```
+   1 × 256 = 256  
+   10 × 16 = 160  
+   3 × 1 = 3  
+   ```
+
+7. **Add the Results**:  
+   ```
+   256 + 160 + 3 = 419
+   ```
+
+**Hexadecimal `1A3` = Decimal `419`**
+
+##### Example: Convert Hexadecimal `2F4` to Decimal
+
+1. **Hexadecimal Number**:  
+   ```
+   2F4
+   ```
+
+2. **Assign Powers of 16**:  
+   ```
+   2 × 16² + F × 16¹ + 4 × 16⁰
+   ```
+
+3. **Replace Hex Digits with Decimal Equivalents**:  
+   - `F` = 15  
+   ```
+   2 × 16² + 15 × 16¹ + 4 × 16⁰
+   ```
+
+4. **Calculate Powers of 16**:  
+   ```
+   16² = 256, 16¹ = 16, 16⁰ = 1
+   ```
+
+5. **Perform Multiplication**:  
+   ```
+   2 × 256 = 512  
+   15 × 16 = 240  
+   4 × 1 = 4  
+   ```
+
+6. **Add the Results**:  
+   ```
+   512 + 240 + 4 = 756
+   ```
+
+**Hexadecimal `2F4` = Decimal `756`**
+
 #### Applications of hexadecimal notation
 
 Hexadecimal notation is used in a variety of applications, including:
