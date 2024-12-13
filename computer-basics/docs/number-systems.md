@@ -364,7 +364,7 @@ How to convert hexadecimal to decimal step by step with an example:
 
 **Therefore, D3A5 (hex) is equal to 54,181 (decimal).**
 
-##### Example: Convert Hexadecimal `1A3` to Decimal
+##### Task: Convert Hexadecimal `1A3` to Decimal
 
 1. **Understand Hexadecimal**:  
    The hexadecimal system uses base 16 and includes digits from 0 to 9 and letters A to F.  
@@ -404,7 +404,7 @@ How to convert hexadecimal to decimal step by step with an example:
 
 **Hexadecimal `1A3` = Decimal `419`**
 
-##### Example: Convert Hexadecimal `2F4` to Decimal
+##### Task: Convert Hexadecimal `2F4` to Decimal
 
 1. **Hexadecimal Number**:  
    ```
