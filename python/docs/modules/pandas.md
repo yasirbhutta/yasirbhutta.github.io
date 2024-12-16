@@ -1,17 +1,16 @@
 # Pandas for Beginners
 
-- [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](#)  
+- [Download PDF](https://yasirbhutta.github.io/python/docs/modules/pandas.pdf)  
 - To access the updated handouts, please click on the following link:
-[index.html](../yasirbhutta.github.io/index.md)
+[https://yasirbhutta.github.io/python/docs/modules/pandas.html]([../yasirbhutta.github.io/index.md](https://yasirbhutta.github.io/python/docs/modules/pandas.html))
 
 **🎥 YouTube Playlists to Learn Python:**
 
 - [🔗 Python Tutorials for Beginners](https://youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
-- [🔗 Python Code Challenges | Quiz](https://www.youtube.com/playlist?list=PLKYRx0Ibk7VjyzKhi5vH35GQKQl_TnWOn)
+- [🔗 Python Code Challenges \| Quiz](https://www.youtube.com/playlist?list=PLKYRx0Ibk7VjyzKhi5vH35GQKQl_TnWOn)
 - [🔗 Python Exercises](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vh9nG-GwBzsjP5TfOCjv1LH)
 
 ### 1. **Introduction to Pandas**
@@ -75,23 +74,21 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
    - Cleaning messy data
    - Simple data analysis projects
 
-## 📌 **Introduction to Pandas**
+## 1. 📌 **Introduction to Pandas**
 
-### 1. **What is Pandas?**
-   - **Definition**:  
-     Pandas is an open-source Python library used for data manipulation and analysis.  
-     - It provides high-performance, easy-to-use data structures like **Series** and **DataFrames**.
-     - Built on top of **NumPy**.
-   
-   - **Key Features**:  
-     - Data alignment and missing data handling.  
-     - Support for importing/exporting data from various file formats (CSV, Excel, SQL, etc.).  
-     - Tools for reshaping, pivoting, and aggregating data.  
-     - Time series functionality.
+### 1.1 **What is Pandas?**
+
+  -   **Definition:** pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. [1]
+  
+  - **Key Features**:  
+    - Data alignment and missing data handling.  
+    - Support for importing/exporting data from various file formats (CSV, Excel, SQL, etc.).  
+    - Tools for reshaping, pivoting, and aggregating data.  
+    - Time series functionality.
 
 For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment-in-pandas).
 
-### 2. **Why Use Pandas?**
+### 1.2 **Why Use Pandas?**
 
    - **Benefits**:
      - Simplifies data analysis tasks.
@@ -99,7 +96,7 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
      - Allows easy data cleaning and preprocessing.
      - Combines flexibility with powerful tools for slicing, filtering, and transforming data.
 
-### 3. **Installing Pandas**
+### 1.3 **Installing Pandas**
    - Install Pandas using `pip`:
      ```bash
      pip install pandas
@@ -110,7 +107,7 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
      print(pd.__version__)
      ```
 
-### 4. **Importing Pandas**
+### 1.4 **Importing Pandas**
    - Import the Pandas library with a conventional alias:
      ```python
      import pandas as pd
@@ -118,20 +115,33 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
    - Why `pd`?  
      It’s a commonly used alias to shorten the code and improve readability.
 
-### 5. **Pandas Data Structures Overview**
+### 2. Basic data structures in pandas
+
+Pandas provides two types of classes for handling data:
+
    - **Series**:
-     - A one-dimensional labeled array, similar to a column in a spreadsheet.
+     - a one-dimensional labeled array holding data of any type such as integers, strings, Python objects etc. similar to a column in a spreadsheet.
    - **DataFrame**:
-     - A two-dimensional labeled data structure, like a table with rows and columns.
+     - a two-dimensional data structure that holds data like a two-dimension array or a table with rows and columns.
 
-### 6. **Basic Concepts in Pandas**
-   - **Indexing**:  
-     Both Series and DataFrames have index labels to identify data.
-   - **Mutability**:
-     - **DataFrame**: Mutable (you can change its values).
-     - **Index**: Immutable (you cannot change the index once set).
+### Creating a Simple Series
 
-### 7. **Creating a Simple DataFrame**
+Creating a Series by passing a list of values, letting pandas create a default RangeIndex.
+
+```python
+import pandas as pd
+import numpy as np
+
+s = pd.Series([1, 3, 5, np.nan, 6, 8])
+print(s)
+```
+
+`np.nan` stands for "Not a Number", representing a missing or undefined numerical value (similar to NaN in other contexts).
+
+**Indexing**: Both Series and DataFrames have index labels to identify data.
+
+
+### **Creating a Simple DataFrame**
    ```python
    import pandas as pd
 
@@ -154,7 +164,10 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
    2  Charlie   35      Chicago
    ```
 
-### 8. **Viewing Data in Pandas**
+### Example: [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
+  
+### 1.8 **Viewing Data in Pandas**
+
    - **Top rows** (`head()`):
      ```python
      df.head()
@@ -172,7 +185,7 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
      df.describe()
      ```
 
-### 9. **Key Pandas Terminology**
+### 1.9 **Key Pandas Terminology**
    - **Index**: The labels for rows in a Series or DataFrame.
    - **Column**: A named set of data within a DataFrame.
    - **Row**: An individual record within a DataFrame.
@@ -215,8 +228,8 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 
 ## References and Bibliography
 
-For more details, see Appendix A.
-
+- [1] Pandas, “Python Data Analysis Library,” Pydata.org, 2018. <https://pandas.pydata.org/>
+‌
 ## **Appendices**
 
 ### **Appendix A: Loading and Handling Datasets in Pandas**
