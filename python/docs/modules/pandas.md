@@ -120,13 +120,13 @@ For more details on Data alignment, see [Appendix B](#appendix-b--data-alignment
 Pandas provides two types of classes for handling data:
 
    - **Series**:
-     - a one-dimensional labeled array holding data of any type such as integers, strings, Python objects etc. similar to a column in a spreadsheet.
+     - a one-dimensional labeled array holding data of any type such as integers, strings, Python objects etc. similar to a column in a spreadsheet. [2]
    - **DataFrame**:
-     - a two-dimensional data structure that holds data like a two-dimension array or a table with rows and columns.
+     - a two-dimensional data structure that holds data like a two-dimension array or a table with rows and columns. [2]
 
 ### Creating a Simple Series
 
-Creating a Series by passing a list of values, letting pandas create a default RangeIndex.
+Creating a Series by passing a list of values, letting pandas create a default RangeIndex. [2]
 
 ```python
 import pandas as pd
@@ -165,25 +165,319 @@ print(s)
    ```
 
 ### Example: [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
-  
-### 1.8 **Viewing Data in Pandas**
 
-   - **Top rows** (`head()`):
+### 1. Loading CSV Datasets
+
+You can load CSV files from your local system or directly from a URL into Pandas using pd.read_csv().
+
+#### Example Titanic Dataset (from a URL)
+
+```python
+import pandas as pd
+
+# Loading the Titanic dataset from a URL
+url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+titanic = pd.read_csv(url)
+print(titanic.head())
+```
+
+#### Example: Local CSV File
+
+# Loading a local CSV file
+
+```python
+titanic = pd.read_csv("path_to_your_file/titanic.csv")
+print(titanic.head())
+```
+
+### 2. Loading Excel Files
+
+Pandas can easily read Excel files using pd.read_excel().
+
+#### Example: Tasks Trackers Dataset [download](https://wpreportbuilder.com/examples/task-tracker-generate-excel-xlsx/)
+
+# Loading an Excel file
+
+```python
+import pandas as pd
+
+tasks = pd.read_excel("tasks_ds.xlsx")
+print(tasks.head())
+```
+
+### 3. **Basic Operations with DataFrames**
+
+#### 3.1 **Viewing Data**
+
+When working with DataFrames in libraries like **pandas**, it's essential to quickly inspect your data to understand its structure. Below are some key functions to view data:
+
+- **`head(n)`**: Displays the first *n* rows (default is 5).
+  
+```python
+import pandas as pd
+df = pd.read_csv('titanic.csv')
+print(df.head())
+```
+
+- **`tail(n)`**: Displays the last *n* rows (default is 5).
+
+  ```python
+  df.tail()
+  ```
+
+- **`info()`**: Provides a concise summary of the DataFrame, including column names, non-null counts, and data types.
+
+  ```python
+  df.info()
+  ```
+
+- **`describe()`**: Generates summary statistics for numerical columns, such as mean, standard deviation, and quartiles.
+
+  ```python
+  df.describe()
+  ```
+
+#### 3.2 **Selecting Data**
+
+Selecting specific parts of a DataFrame is a common operation. You can select **columns** and **rows** using different methods:
+
+- **Selecting Columns**
+
+  - Using the column name in square brackets:
+
+    ```python
+    df['column_name']
+    ```
+
+  - Selecting multiple columns by providing a list of column names:
+
+    ```python
+    df[['col1', 'col2']]
+    ```
+
+**Loading the Titanic dataset** (assuming it's available as a CSV file):
+
+   ```python
+   import pandas as pd
+
+   # Load the Titanic dataset
+   df = pd.read_csv('titanic.csv')
+   ```
+
+##### Example: **Selecting a Single Column**
+
+   - For example, to select the **"Age"** column:
+
      ```python
-     df.head()
+     df['Age']
      ```
-   - **Bottom rows** (`tail()`):
+
+   - This returns a **Series** representing the "Age" column.
+
+##### Example: **Selecting Multiple Columns**
+
+   - To select **"Name"**, **"Age"**, and **"Survived"** columns:
+
      ```python
-     df.tail()
+     df[['Name', 'Age', 'Survived']]
      ```
-   - **Basic info** (`info()`):
-     ```python
-     df.info()
-     ```
-   - **Summary statistics** (`describe()`):
-     ```python
-     df.describe()
-     ```
+
+   - This returns a **DataFrame** with the specified columns.
+
+- **Selecting Rows**
+
+  - Using **`iloc`** (integer-location based): Select rows by their index position.
+
+    ```python
+    df.iloc[0]       # First row
+    df.iloc[1:4]     # Rows 2 to 4
+    ```
+
+  - Using **`loc`** (label-based): Select rows by their index labels.
+
+    ```python
+    df.loc[0]                # Row with index 0
+    df.loc[0:3]              # Rows from index 0 to 3 (inclusive)
+    df.loc[df['col'] > 10]   # Rows where 'col' > 10
+    ```
+  
+### **Selecting Rows with the Titanic Dataset**
+
+1. **Loading the Titanic Dataset**
+
+Let's load the dataset and inspect its structure:
+
+```python
+import pandas as pd
+
+# Load the Titanic dataset (assuming it's available as 'titanic.csv')
+df = pd.read_csv('titanic.csv')
+
+# Display the first few rows to understand the data
+print(df.head())
+```
+
+This might display something like:
+
+| PassengerId | Name                          | Age  | Survived | Pclass |
+|-------------|-------------------------------|------|----------|--------|
+| 1           | Braund, Mr. Owen Harris      | 22.0 | 0        | 3      |
+| 2           | Cumings, Mrs. John Bradley   | 38.0 | 1        | 1      |
+| 3           | Heikkinen, Miss. Laina       | 26.0 | 1        | 3      |
+| 4           | Futrelle, Mrs. Jacques Heath | 35.0 | 1        | 1      |
+| 5           | Allen, Mr. William Henry     | 35.0 | 0        | 3      |
+
+---
+
+### **Selecting Rows Using `iloc` (Integer-location Based)**
+
+- **Select the First Row**:
+
+  ```python
+  first_row = df.iloc[0]
+  print(first_row)
+  ```
+
+  **Output**:
+
+  ```
+  PassengerId                        1
+  Name          Braund, Mr. Owen Harris
+  Age                               22.0
+  Survived                             0
+  Pclass                               3
+  Name: 0, dtype: object
+  ```
+
+- **Select Rows 2 to 4** (indices 1 to 3):
+
+  ```python
+  rows_2_to_4 = df.iloc[1:4]
+  print(rows_2_to_4)
+  ```
+
+  **Output**:
+
+  ```
+     PassengerId                            Name   Age  Survived  Pclass
+  1            2      Cumings, Mrs. John Bradley  38.0         1       1
+  2            3          Heikkinen, Miss. Laina  26.0         1       3
+  3            4  Futrelle, Mrs. Jacques Heath    35.0         1       1
+  ```
+
+---
+
+### **Selecting Rows Using `loc` (Label-based)**
+
+- **Select the Row with Index 0**:
+
+  ```python
+  row_index_0 = df.loc[0]
+  print(row_index_0)
+  ```
+
+  **Output**:
+
+  ```
+  PassengerId                        1
+  Name          Braund, Mr. Owen Harris
+  Age                               22.0
+  Survived                             0
+  Pclass                               3
+  Name: 0, dtype: object
+  ```
+
+- **Select Rows with Index 0 to 3** (inclusive):
+
+  ```python
+  rows_0_to_3 = df.loc[0:3]
+  print(rows_0_to_3)
+  ```
+
+  **Output**:
+
+  ```
+     PassengerId                            Name   Age  Survived  Pclass
+  0            1       Braund, Mr. Owen Harris    22.0         0       3
+  1            2     Cumings, Mrs. John Bradley   38.0         1       1
+  2            3         Heikkinen, Miss. Laina   26.0         1       3
+  3            4  Futrelle, Mrs. Jacques Heath    35.0         1       1
+  ```
+
+- **Select Rows Where `Age` > 30**:
+
+  ```python
+  rows_age_above_30 = df.loc[df['Age'] > 30]
+  print(rows_age_above_30.head())
+  ```
+
+  **Output**:
+
+  ```
+     PassengerId                            Name   Age  Survived  Pclass
+  1            2     Cumings, Mrs. John Bradley   38.0         1       1
+  3            4  Futrelle, Mrs. Jacques Heath    35.0         1       1
+  5            6        Moran, Mr. James          32.0         0       3
+  6            7        McCarthy, Mr. Timothy J   54.0         0       3
+  9           10  Nasser, Mrs. Nicholas           14.0         1       2
+  ```
+
+
+#### 3.3 **Filtering Rows Based on Conditions**
+
+Filtering rows allows you to extract data that meets certain criteria. Conditions can be combined using logical operators:
+
+- **Filter based on a single condition**:
+
+  ```python
+  df[df['column_name'] > 50]
+  ```
+
+- **Filter based on multiple conditions**:
+
+  - Using **AND (`&`)**:
+
+    ```python
+    df[(df['col1'] > 50) & (df['col2'] == 'Value')]
+    ```
+
+  - Using **OR (`|`)**:
+
+    ```python
+    df[(df['col1'] > 50) | (df['col2'] == 'Value')]
+    ```
+
+- **Filter based on text matching**:
+
+  ```python
+  df[df['col'].str.contains('keyword')]
+  ```
+
+#### 3.4 **Adding and Deleting Columns**
+
+- **Adding a New Column**
+
+  You can create new columns by assigning values or calculations based on existing columns:
+
+  ```python
+  df['new_col'] = df['col1'] + df['col2']
+  ```
+
+- **Deleting a Column**
+
+  Use the `drop` method to remove a column. Set `axis=1` to specify columns:
+
+  ```python
+  df.drop('col_to_delete', axis=1, inplace=True)
+  ```
+
+  Alternatively, use the `del` statement:
+
+  ```python
+  del df['col_to_delete']
+  ```
+
+  
 
 ### 1.9 **Key Pandas Terminology**
    - **Index**: The labels for rows in a Series or DataFrame.
@@ -229,6 +523,8 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 ## References and Bibliography
 
 - [1] Pandas, “Python Data Analysis Library,” Pydata.org, 2018. <https://pandas.pydata.org/>
+- [2] Pandas, “User Guide — pandas 1.0.1 documentation,” Pydata.org, 2014. https://pandas.pydata.org/docs/user_guide/index.html
+‌
 ‌
 ## **Appendices**
 
