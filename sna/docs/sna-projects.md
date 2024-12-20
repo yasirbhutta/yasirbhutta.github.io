@@ -64,6 +64,11 @@ After setup, verify that:
 ### **Project Summary**:
 This project demonstrates how to create a simple, wired workgroup network between two computers in Windows using a switch. By setting IP addresses, configuring the workgroup, and enabling file sharing, users can communicate and share resources easily on this network.
 
+**Related Topics:**
+
+- [File sharing over a network in Windows](https://support.microsoft.com/en-us/windows/file-sharing-over-a-network-in-windows-b58704b2-f53a-4b82-7bc1-80f9994725bf)
+- [Share files in File Explorer](https://support.microsoft.com/en-us/windows/share-files-in-file-explorer-19db5910-e59e-fab6-59c4-e60e6f6a08dc)
+- 
 ## 2. **Project Title:** Windows Domain Configuration and Group Policy Management
 
 ### **Objective:**  
