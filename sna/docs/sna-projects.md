@@ -110,7 +110,9 @@ In this project, students will simulate a small organization's IT infrastructure
      - Security and password policies.
      - Internet access and browsing restrictions for the **Students** group.
 
-6. **Testing and Validation:**
+6. **Disk Quota and File Screening**
+
+7. **Testing and Validation:**
    - Log in with a test user from each group on client machines to verify that group policies are applied correctly.
    - Confirm that users from different groups have different levels of access to system settings and applications.
 
