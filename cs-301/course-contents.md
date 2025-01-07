@@ -49,7 +49,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
 - [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
 - [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
-
+- [Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
+  
 ### [Microsoft Word](../ms-word/index.md)
 
 - [Microsoft Word Basics](../ms-word/docs/basics.md)

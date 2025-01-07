@@ -86,6 +86,79 @@ Watch the Video Tutorial for the Answer: https://youtube.com/shorts/7ix3cDWAsUc?
 
 #python #pythonpoll #MCQsTest #yasirbhutta
 
+### MCQs: Iterators and `zip()` in Python
+
+#### **Question 1**  
+
+What is the output of the following code?  
+
+```python
+list_a = [1, 2, 3]
+list_b = ['x', 'y', 'z']
+zipped = zip(list_a, list_b)
+
+print(list(zipped))
+print(list(zipped))
+```
+
+A)  
+```
+[(1, 'x'), (2, 'y'), (3, 'z')]
+[(1, 'x'), (2, 'y'), (3, 'z')]
+```  
+B)  
+```
+[(1, 'x'), (2, 'y'), (3, 'z')]
+[]
+```  
+C)  
+```
+[]
+[]
+```  
+D)  
+```
+Error: zip object has already been used.
+```  
+
+**Correct Answer:** B
+
+for more details, see [Appendix A: Exploring the One-Time Use Behavior of `zip()` and Iterators in Python](#appendix-a-exploring-the-one-time-use-behavior-of-zip-and-iterators-in-python)
+
+#### **Question 2**  
+
+Why does the second `print(list(zipped))` in the following code output an empty list?
+
+```python
+list_a = [1, 2, 3]
+list_b = ['x', 'y', 'z']
+zipped = zip(list_a, list_b)
+
+print(list(zipped))
+print(list(zipped))
+```
+
+A) The `zip` object is immutable.  
+B) The `zip` object is an iterator, and it can be consumed only once.  
+C) The `zip` object is reset after every `list()` call.  
+D) The `zip` object contains only one item by default.  
+
+**Correct Answer:** B
+
+for more details, see [Appendix A: Exploring the One-Time Use Behavior of `zip()` and Iterators in Python](#appendix-a-exploring-the-one-time-use-behavior-of-zip-and-iterators-in-python)
+
+#### **Question 4**  
+What does the `zip()` function return in Python?  
+
+A) A tuple of paired elements.  
+B) A dictionary mapping keys from the first list to values from the second list.  
+C) An iterator that pairs elements from the input iterables.  
+D) A list of tuples pairing elements from the input iterables.  
+
+**Correct Answer:** C
+
+
+
 a) Compresses a file into a ZIP archive
 b) Combines two or more iterables into a single iterable of tuples, where each tuple contains one element from each iterable
 c) Creates a dictionary from two iterables, with keys from one iterable and values from another iterable
@@ -126,3 +199,48 @@ Answer: a) list(zip(*tuples_list))
 
 [1]“Built-in Functions — Python 3.12.4 documentation,” docs.python.org. [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 ‌
+## **Appendices**
+
+### **Appendix A: Exploring the One-Time Use Behavior of `zip()` and Iterators in Python**
+
+The behavior you're observing is due to the fact that `zip()` returns an **iterator**, not a list. Iterators in Python are designed to be **consumed** as they are iterated over. Once an iterator is exhausted, it cannot be reused.
+
+### Step-by-step Explanation:
+
+1. **First `list(zipped_lists)`**:
+   - The `zip` object (`zipped_lists`) is converted to a list.
+   - During this process, the iterator is consumed, meaning all pairs are retrieved and stored in the resulting list: `[(1, 'a'), (2, 'b'), (3, 'c')]`.
+
+2. **Second `list(zipped_lists)`**:
+   - At this point, the `zip` object (`zipped_lists`) has already been fully consumed in the first `list()` call.
+   - Since there are no more elements left in the iterator, the second call returns an empty list: `[]`.
+
+### How to Fix It:
+
+If you need to reuse the results of `zip`, you can:
+1. **Convert to a list immediately**:
+   ```python
+   zipped_lists = list(zip(list_a, list_b))
+   print(zipped_lists)
+   print(zipped_lists)
+   ```
+   Output:
+   ```
+   [(1, 'a'), (2, 'b'), (3, 'c')]
+   [(1, 'a'), (2, 'b'), (3, 'c')]
+   ```
+
+2. **Create a new `zip` object each time**:
+   ```python
+   list_a = [1, 2, 3]
+   list_b = ['a', 'b', 'c']
+   print(list(zip(list_a, list_b)))
+   print(list(zip(list_a, list_b)))
+   ```
+   Output:
+   ```
+   [(1, 'a'), (2, 'b'), (3, 'c')]
+   [(1, 'a'), (2, 'b'), (3, 'c')]
+   ```
+
+This ensures you always have a fresh iterator to work with.

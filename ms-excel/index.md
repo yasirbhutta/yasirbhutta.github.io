@@ -8,6 +8,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Excel video Training](video-training-excel.md)
 - [Excel Assignments](assignments/index.md)
 
+
 ## Learn Microsoft Excel
 
 - [Introduction to Excel](docs/basics.md)
