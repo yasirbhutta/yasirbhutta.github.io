@@ -14,8 +14,8 @@
 
 ### 2.2 Borders
 
-    2.2.1 Apply a predefined cell border
-    2.2.1 Remove a cell border
+#### 2.2.1 Apply a predefined cell border
+#### 2.2.1 Remove a cell border
 
 ### 2.3 Data Alignment
 
@@ -25,38 +25,39 @@
 
 ### 2.6 Number Format
 
-    2.6.1 To change a Cell's number format
-    2.6.2 Working with comma style
-    2.6.3 Format cell with currency symbol Rs.
-    2.6.4 Apply the percentage style
-    2.6.5 Formatting Date
+#### 2.6.1 To change a Cell's number format
+#### 2.6.2 Working with comma style
+#### 2.6.3 Format cell with currency symbol Rs.
+#### 2.6.4 Apply the percentage style
+#### 2.6.5 Formatting Date
 
 ### 2.7 Format as Table
 
 ### 2.8 Format Painter
 
 ## 3. Formulas in Excel
-    - Operators and Order of Operations
+
+### 3.1 Operators and Order of Operations
 
 ## 4. Functions
 
 ### 4.1 Most poplar functions
 
-    4.1.1 sum
-    4.1.2 sumif
-    4.1.3 max
-    4.1.4 min
-    4.1.5 count
-    4.1.6 counta
-    4.1.7 countif
-    4.1.8 power
-    4.1.9 product
-    4.1.10 average
-    4.1.11 if
-    4.1.12 now
-    4.1.13 today
-    4.1.14 Change the case of Text: lower, upper, proper
-    4.1.15 len
-    4.1.16 contcat
+#### 4.1.1 sum
+#### 4.1.2 sumif
+#### 4.1.3 max
+#### 4.1.4 min
+#### 4.1.5 count
+#### 4.1.6 counta
+#### 4.1.7 countif
+#### 4.1.8 power
+#### 4.1.9 product
+#### 4.1.10 average
+#### 4.1.11 if
+#### 4.1.12 now
+#### 4.1.13 today
+#### 4.1.14 Change the case of Text: lower, upper, proper
+#### 4.1.15 len
+#### 4.1.16 contcat
 
 ## 5. [Excel Assignments [1-3]](https://yasirbhutta.github.io/ms-excel/assignments/)
