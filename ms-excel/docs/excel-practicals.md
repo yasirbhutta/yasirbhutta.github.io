@@ -1,4 +1,4 @@
-# Microsoft Excel: Practical Tasks
+# Microsoft Excel: Practical Topics
 
 ## 1. Microsoft Excel Basics
 ### 1.1 Microsoft Excel Interface
