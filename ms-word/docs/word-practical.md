@@ -23,24 +23,39 @@
 ### 2.6 Subscript
 ### 2.7 Superscript
 ### 2.8 Strikethrough
-### 2.9 Character Case
+### 2.9 Change Case
 ### 2.10 Clear Formatting
 ### 2.11 Using Font Dialog Box
 ### 2.12 Character Spacing
 ### 2.13 Mini Toolbar
 ### 2.14 Format Painter
+### 2.15 Clear Formatting
 
 ## 3. Paragraph Formatting
 
-### 3.1 Alignment
-### 3.2 Bullets
-### 3.3 Numbering
-### 3.4 Indentation
+### 3.1 Bullets
 
-#### 3.4.1 Increase indent
-#### 3.4.2 Decrease indent
-#### 3.4.3 First line indent
-#### 3.3.5 Hanging indent
+### 3.2 Numbering
+
+### 3.3 Mutlilevel List
+
+### 3.4 Alignment
+
+### 3.5 Indentation
+
+#### 3.5.1 Increase indent
+#### 3.5.2 Decrease indent
+#### 3.5.3 First line indent
+#### 3.5.5 Hanging indent
+
+### 3.5 Line and Paragraph Spacing
+
+### 3.6 Shading (windows)
+
+### 3.7 Borders (windows)
+
+### 3.8 Drop Cap (windows)
+
 
 
 
