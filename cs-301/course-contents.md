@@ -43,13 +43,13 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Microsoft Office
 
-### [Microsoft Exel](../ms-excel/index.md)
+### [Microsoft Excel](../ms-excel/index.md)
 
 - [Handouts - Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
 - [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
 - [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
 - [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
-- [Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
+- [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
   
 ### [Microsoft Word](../ms-word/index.md)
 
