@@ -45,10 +45,10 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### [Microsoft Excel](../ms-excel/index.md)
 
-- [Handouts - Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
-- [Handouts - Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
-- [Handouts - Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
-- [Handouts - Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
+- [Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
+- [Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
+- [Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
+- [Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
 - [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
   
 ### [Microsoft Word](../ms-word/index.md)
@@ -58,6 +58,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Paragraph Formatting](../ms-word/docs/paragraph-formatting.md)
 - [Page Formatting](../ms-word/docs/page-formatting.md)
 - [Text Editing in Documents](../ms-word/docs/stylish.md)
+- [Word Practical Topics](../ms-word/docs/word-practical.md) \| [PDF](../ms-word/docs/word-practical.pdf)
 
 ## Microsoft Powerpoint
   - [Microsoft Powerpoint Basics](../ms-powerpoint/docs/basics.md)
