@@ -1,3 +1,38 @@
+# Final Term Fall 2024 (BS English 1st morning/evening)
+
+**Total Objective (04 marks 0.5x8):**
+
+- Number Systems
+- Databases
+- Networks
+   
+- Microsoft Excel
+- Microsoft Word
+
+**Total Objective (08 marks 0.5x16):**
+
+(3x True/False + 3x fill in the blanks + 10x MCQs)
+
+- 4x from Number Systems
+- 2x from from Networks
+- 2x from Databases
+- 3x from Excel
+- 3x from Word
+- 1x from Computer Hardware
+- 1x from Storage Devices
+
+**Short Questions (08 marks 2x4):**
+
+- 1x from Hardware/Software
+- 1x from Storage Devices
+- 1x from Number Systems
+- 1x from Databases
+  
+**Long Questions (08 marks 2x4):**
+  
+- 1x from Number Systems
+- 1x from Networks
+  
 # MID Term Fall 2024 (BS English 1st morning/evening)
 
 ## Topics
