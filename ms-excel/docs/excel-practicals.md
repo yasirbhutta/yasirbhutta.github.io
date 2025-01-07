@@ -41,4 +41,4 @@
 15. len
 16. contcat
 
-[Excel Assignments](https://yasirbhutta.github.io/ms-excel/assignments/)
+[Excel Assignments [1-3]](https://yasirbhutta.github.io/ms-excel/assignments/)
