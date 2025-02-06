@@ -38,8 +38,6 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Search within a range of numbers](#search-within-a-range-of-numbers)
       - [Combine searches](#combine-searches)
     - [Search for a specific site](#search-for-a-specific-site)
-    - [Search for related sites](#search-for-related-sites)
-    - [See Google’s cached version of a site](#see-googles-cached-version-of-a-site)
     - [Search by file type](#search-by-file-type)
     - [Top Results from Wikipedia](#top-results-from-wikipedia)
     - [link Operator](#link-operator)
@@ -319,36 +317,6 @@ site:youtube.com
 ```google
 site:.gov
 ```
-
-### Search for related sites
-
-- To search for web pages that have similar content to a given site,Put "related:" in front of a web address you already know.
-
-- For example,
-
-```google
-related:cnn.com
-```
-
-or
-
-```google
-related:freepik.com
-```
-
-or
-
-```google
-related:facebook.com
-```
-
-- The Google search `info` keyword is a special keyword that allows you to get information about a particular website. To use it, simply type info: followed by the website's URL into the Google search bar.
-
-For example, to get information about the website wikipedia.org, you would type `info:wikipedia.org` into the search bar. Google would then return a page with information about the website, such as its title, description, page load speed, and other metrics.
-
-### See Google’s cached version of a site
-
-- Put **"cache:"** in front of the site address.
 
 ### Search by file type
 

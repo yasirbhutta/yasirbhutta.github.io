@@ -446,6 +446,31 @@ further reading:
 - [TODAY function - Microsoft Support](https://support.microsoft.com/en-au/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)
 - [Insert the current date and time in a cell - Microsoft Support](https://support.microsoft.com/en-gb/office/insert-the-current-date-and-time-in-a-cell-b5663451-10b0-40ab-9e71-6b0ce5768138)
 
+#### Task: Extracting Day and Month from a Date in Excel
+
+To extract the day and month from a date in Excel, you can use the following functions:
+
+1. **Day Function**: This function extracts the day of the month from a date.
+
+   ```excel
+   =DAY(date)
+   ```
+
+   Replace `date` with the cell reference that contains the date (e.g., `A1`).
+
+2. **Month Function**: This function extracts the month from a date.
+
+   ```excel
+   =MONTH(date)
+   ```
+
+   Similarly, replace `date` with the cell reference.
+
+For example, if cell `A1` contains the date `2025-02-06`, you can use the formulas as follows:
+
+- `=DAY(A1)` will return `6`.
+- `=MONTH(A1)` will return `2`. 
+
 #### Change the case of Text
 
 **LOWER function:** Converts all uppercase letters in a text string to lowercase.

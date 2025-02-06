@@ -198,6 +198,19 @@ Optical Disk uses laser technology to read and write data.
 
 -BDs have a capacity of up to 128GB.
 
+## 👀 **Task:** Identifying Computer Hardwar Components
+- Open the computer casing and show the inside.  
+- Point out and name the **main components** one by one.  
+- Attach **labels** to each component for easy recognition.  
+
+📌 **Key Components to Show:**  
+✅ **Motherboard** – The main board where everything connects.  
+✅ **CPU (Processor)** – The brain of the computer.  
+✅ **RAM (Memory)** – Helps the computer work fast.  
+✅ **Storage (HDD/SSD)** – Saves files and programs.  
+✅ **Power Supply Unit (PSU)** – Gives power to the computer.  
+✅ **Cooling Fan** – Keeps the computer from overheating.  
+
 ## Additional topics
 
 ## Flash memory

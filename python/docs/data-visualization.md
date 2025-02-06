@@ -22,6 +22,7 @@ Data visualization in Python is typically done with libraries like `Matplotlib` 
 **See also:**
 
 - “matplotlib.markers — Matplotlib 3.4.2 documentation,” matplotlib.org. <https://matplotlib.org/stable/api/markers_api.html>
+- [Markers in Matplotlib](https://e2eml.school/matplotlib_points.html)
 ‌
 
 ## . **Bar Plots**

@@ -288,7 +288,7 @@ Font Dialog Box
 - 
 **Important:**    Double-click the Format Painter button if you want to change the format of multiple selections in your document.
 
-**Using Keyboard Shortcut**
+**Using Keyboard Shortcut (Microsoft 365)**
 
 •	Select the text already formatted to copy format.
 •	Press **Alt+Ctrl+C**

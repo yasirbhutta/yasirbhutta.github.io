@@ -170,6 +170,10 @@ In a bus topology, all devices are connected to a single central cable, known as
 - If the main cable fails, the entire network goes down.
 - Difficult to troubleshoot.
 
+![bus](images/bus-tp.png)
+
+Image source: [wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ethernet_LAN.svg/640px-Ethernet_LAN.svg.png)
+
 ### 2. **Star Topology**
 In a star topology, all devices are connected to a central hub or switch. Each device has a dedicated point-to-point connection to the hub/switch.
 
@@ -182,6 +186,10 @@ In a star topology, all devices are connected to a central hub or switch. Each d
 - Requires more cable than bus topology.
 - If the central hub fails, the entire network is inoperative.
 - Can be expensive due to the hub/switch and cabling costs.
+
+![star](images/star_topology.png)
+
+Image source: [wikipedia.org](https://en.wikipedia.org/wiki/Star_network#/media/File:Star_Topology.png)
 
 ### 3. **Ring Topology**
 In a ring topology, each device is connected to two other devices, forming a circular network structure. Data travels in one direction (or both directions in a dual-ring topology) and passes through each device until it reaches its destination.
@@ -204,6 +212,10 @@ In a mesh topology, each device is connected to every other device in the networ
 **Disadvantages:**
 - Expensive due to the large number of cables and ports required.
 - Complex installation and maintenance.
+
+![mesh](images/mesh.jpg)
+
+Image source: [wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wireless_mesh_network_diagram.jpg/640px-Wireless_mesh_network_diagram.jpg)
 
 ### Conclusion
 
