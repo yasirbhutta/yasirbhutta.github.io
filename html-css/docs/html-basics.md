@@ -1,7 +1,363 @@
 # Introduction to HTML
 
+## Example #1: HTML Comments
 
-Here’s a task that focuses on text elements and text formatting/style in HTML:
+```html
+    <!-- This is a comment -->
+  
+
+    <!-- The next line displays a paragraph -->
+  
+    <!-- 
+        Multi-line comments are also possible.
+        You can use this to explain code in detail or temporarily disable code.
+    -->
+```
+
+The `<meta>` tag is used in HTML to provide metadata about the web page. The `viewport` and `content` attributes are commonly used for controlling the page's layout on different devices, especially mobile devices. See For more details, see [Appendix A](#appendix-a-meta-tags-for-responsive-design)
+
+## Example #2: Standard HTML Document Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hello world</title>
+</head>
+
+<body>
+    <!-- This is a comment -->
+    <p> "You only live once, 
+        but if you do it right, once is enough."
+        - Mae West
+    </p>
+</body>
+</html>
+```
+
+### Task: Create a Simple Webpage with Line Breaks
+
+**Objective**: Learn how to use the `<br>` tag in HTML to create line breaks in a webpage.
+
+**Steps**:
+
+1. Open your text editor (like Notepad, Visual Studio Code, etc.) and create a new HTML file named `index.html`.
+   
+2. Add the basic HTML structure to your file:
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Line Breaks Example</title>
+   </head>
+   <body>
+       <h1>Welcome to My Webpage!</h1>
+   </body>
+   </html>
+   ```
+
+3. Inside the `<body>` tag, add a short paragraph about your favorite hobby. After each sentence, use the `<br>` tag to create a line break.
+
+   Example:
+   ```html
+   <p>My favorite hobby is painting.<br>
+   I love using watercolors.<br>
+   It helps me relax and express myself creatively.<br></p>
+   ```
+
+4. Save the file and open it in a web browser to see the result. You should see the sentences appear on different lines.
+
+### Task: Create a Webpage with Blockquotes
+
+**Objective**: Learn how to use the `<blockquote>` tag to highlight and format quotations in HTML.
+
+**Steps**:
+
+1. Open your text editor (like Notepad, Visual Studio Code, etc.) and create a new HTML file named `blockquote_example.html`.
+
+2. Add the basic HTML structure to your file:
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Blockquote Example</title>
+   </head>
+   <body>
+       <h1>Famous Quotes</h1>
+   </body>
+   </html>
+   ```
+
+3. Inside the `<body>` tag, add a famous quote using the `<blockquote>` tag. A blockquote is used to display a quote from an external source, usually with indentation or styling applied by the browser.
+
+   Example:
+   ```html
+   <h2>Albert Einstein</h2>
+   <blockquote>
+       "Life is like riding a bicycle. To keep your balance, you must keep moving."
+   </blockquote>
+
+   <h2>Isaac Newton</h2>
+   <blockquote>
+       "If I have seen further, it is by standing on the shoulders of giants."
+   </blockquote>
+   ```
+
+4. Optionally, you can add a `<footer>` tag inside the blockquote to specify the source or author of the quote:
+   ```html
+   <blockquote>
+       "The only way to do great work is to love what you do."
+       <footer>- Steve Jobs</footer>
+   </blockquote>
+   ```
+
+5. Save the file and open it in a web browser. You should see the quotes formatted with indentation and any additional styles applied by the browser.
+
+### Task: Create a Structured Webpage Using Different Heading Levels
+
+**Objective**: Understand how to use different heading levels in HTML to organize content into sections and subsections.
+
+**Steps**:
+
+1. Open your text editor (like Notepad, Visual Studio Code, etc.) and create a new HTML file named `structured_headings.html`.
+
+2. Add the basic HTML structure to your file:
+   ```html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Structured Webpage Example</title>
+   </head>
+   <body>
+       <h1>My Personal Blog</h1>
+   </body>
+   </html>
+   ```
+
+3. Inside the `<body>` tag, create sections for different categories of content using appropriate heading tags. Each section will have a main heading, a subsection, and some content below it. Example:
+
+   ```html
+   <h1>My Personal Blog</h1>
+
+   <h2>Introduction</h2>
+   <p>Welcome to my blog! Here, I share my thoughts on various topics including technology, lifestyle, and art.</p>
+
+   <h2>Technology</h2>
+   <h3>Latest Gadgets</h3>
+   <p>Technology is evolving rapidly, and new gadgets are being released every year. In this section, I will review the latest gadgets and provide my opinion.</p>
+   <h4>Smartphones</h4>
+   <p>The new smartphones are faster and more powerful than ever before. In my latest post, I will compare the top models of the year.</p>
+   <h4>Laptops</h4>
+   <p>Laptops continue to be essential for both work and play. I will explore which laptops are the best for productivity and gaming.</p>
+
+   <h3>Tech Tutorials</h3>
+   <p>In this section, I provide easy-to-follow guides on various tech topics. From building a website to learning how to code, you’ll find it all here.</p>
+
+   <h2>Lifestyle</h2>
+   <h3>Health & Fitness</h3>
+   <p>Maintaining a healthy lifestyle is key. Here, I discuss exercise routines, healthy eating, and mental well-being.</p>
+   <h4>Yoga</h4>
+   <p>Yoga is great for both mental and physical health. I’ll share some basic routines you can do at home.</p>
+   <h4>Nutrition</h4>
+   <p>A balanced diet is important for overall health. I’ll provide tips on what foods to include in your daily diet.</p>
+
+   <h3>Travel</h3>
+   <p>Explore new places and cultures! I share travel tips, stories, and recommendations for your next adventure.</p>
+
+   <h2>Art</h2>
+   <h3>Painting</h3>
+   <p>Art has always been a passion of mine. In this section, I share my painting projects and techniques.</p>
+   <h4>Watercolors</h4>
+   <p>Watercolor painting is both challenging and rewarding. I’ll guide you through creating your own beautiful watercolor pieces.</p>
+   <h4>Digital Art</h4>
+   <p>Digital art allows for endless creativity. I explore various software tools and techniques for creating digital masterpieces.</p>
+   ```
+
+4. Save the file and open it in a web browser. You will see that the content is now organized with different heading levels, giving the webpage a clear structure.
+
+## Task: HTML Entities
+
+**Basic Entities**
+
+1. Create a new HTML file.
+2. In the `<body>` section, write a sentence that includes:
+   * An ampersand (&)
+   * The less than symbol (<)
+   * The greater than symbol (>)
+   * A double quote (")
+   * A single quote (')
+3. Use the correct HTML entities to display these characters. 
+4. View the file in your web browser to check if the characters are displayed correctly.
+
+**Quotations and Special Symbols**
+
+1. Create a paragraph element (`<p>`).
+2. Inside the paragraph, write a short quote. 
+3. Use the appropriate entity for the opening and closing double quotes.
+4. Add the copyright symbol (©) at the end of the quote.
+5. Add the Euro symbol (€) in a separate sentence.
+
+**Non-Breaking Space**
+
+1. Write a sentence that includes the phrase "100 meters".
+2. Use a non-breaking space entity (`&nbsp;`) between "100" and "meters".
+
+**Degree Symbol**
+
+1. Write a sentence that mentions a temperature, for example, "The temperature is 25 degrees Celsius."
+2. Use the correct HTML entity to display the degree symbol (°).
+
+**Example (First Few Lines):**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Entity Practice</title>
+</head>
+<body>
+
+<p>This is a sentence with an ampersand (&amp;), 
+less than (&lt;), greater than (&gt;), 
+double quotes (&quot;), and single quotes (&apos;).</p>
+
+</body>
+</html>
+```
+
+## Example: Images
+
+```html
+<!DOCTYPE html>
+<!–– image.html An example to illustrate an image ––>
+    <html lang="en">
+
+    <head>
+        <title> Images </title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <h1> Aidan's Airplanes </h1>
+        <h2> The best in used airplanes </h2>
+        <h3> "We've got them by the hangarful" </h3>
+        <h2> Special of the month </h2>
+        <!-- ******** -->
+        <!-- add Imag - image source (freepik) -->
+        <!-- ******** -->
+
+        <img src="flowers.jpg" width="400" height="200" alt="alternate text"/>
+       
+        <p>
+            1960 Cessna 210 <br />
+            577 hours since major engine overhaul<br />
+            1022 hours since prop overhaul <br /><br />
+        <img src="images/marketing-strategy-planning-strategy-concept.jpg"  alt="Picture of a Cessna 210" width="800" height="600"/>
+            <br />
+            Buy this fine airplane today at a remarkably low price
+            <br />
+            Call 999-555-1111 today!
+        </p>
+       <img src="https://via.placeholder.com/600x400" alt="placeholder image" />
+       
+
+    </body>
+
+    </html>
+```
+
+## Example: Links
+
+```html
+    <!DOCTYPE html>
+<!–– link.html An example to illustrate a link ––>
+    <html lang="en">
+
+    <head>
+        <title> A link </title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <h1> Aidan's Airplanes </h1>
+        <h2> The best in used airplanes </h2>
+        <h3> "We've got them by the hangarful" </h3>
+        <h2> Special of the month </h2>
+        <h2><a href="link2.html#css5"> Intro. to CSS</a></h2>
+        <p>
+            1960 Cessna 210 <br />
+            <a href="mypag1.html"> My Page 1 </a>
+        </p>
+        <a href="pdf/html-slides.pdf">Download - All Slides of HTML</a><br>
+
+        <a href="https://www.urdupoint.com/names/boys-names/meem.html">
+            Urdu Point
+        </a>
+        <br>
+        <a href="https://www.urdupoint.com/names/boys-names/meem.html">
+            <img src="images/com.jpg" alt="An image of a small airplane" width="800" height="600" />
+        </a>
+    </body>
+
+    </html>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="top">Contents</h1>
+    <h2>Web Basics </h2>
+    <h2>Intro to Visual Studio Code </h2>
+    <h2>Intro to HTML </h2>
+    <h2>Intro to JavaScript </h2>
+
+    <h2><a href="#css5"> Intro to CSS </a> </h2>
+
+    <h1>Web Basics </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    <h1>Intro to Visual Studio Code </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    <h1>Intro to HTML </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    <h1>Intro to JavaScript </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse, quod deserunt voluptates, culpa dolores tenetur quam quasi molestiae illum neque quo error ratione, at fuga repudiandae. Itaque, quae dolorum.</p>
+    
+    <h1 id="css5">Intro to CSS <a href="#top">Top</a> </h1> 
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta dolorum numquam dolore quo laborum? Nam repellat, saepe corporis dolorum facilis enim, tenetur laboriosam provident omnis fuga ex temporibus aspernatur.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora vel cumque debitis quod deleniti iste soluta dolorem similique molestiae, fugit sequi ratione! Magni odit eius maiores libero ut consequuntur facere.</p>
+    
+</body>
+</html>
+```
+
+content generated using [https://www.lipsum.com/](https://www.lipsum.com/)
 
 **Task: Create a Blog Post with Styled Text**
 
@@ -83,3 +439,83 @@ Here’s a task that focuses on text elements and text formatting/style in HTML:
 </body>
 </html>
 ```
+
+## Key Terms
+
+## True/False (Mark T for True and F for False)
+
+**Answer Key (True/False):**
+
+## Multiple Choice (Select the best answer)
+
+1. **Which function would you use to determine the type of a variable in Python?**
+   - A) id()
+   - B) type()
+   - C) str()
+   - D) isinstance()
+  
+**Watch this video for the answer:**
+
+**Answer key (Mutiple Choice):**
+
+## Fill in the Blanks
+
+**Answer Key (Fill in the Blanks):**
+
+## Exercises
+
+1. Skill Level Categories
+Define clear categories based on skill levels, such as:
+
+Beginner: Basic concepts and syntax.
+Intermediate: More complex problems involving data structures and algorithms.
+Advanced: Challenging problems that require in-depth understanding and optimization.
+
+## Review Questions
+
+**Answers to Review Questions:**
+
+## References and Bibliography
+
+For more details, see Appendix A.
+
+## **Appendices**
+
+### **Appendix A: Meta Tags for Responsive Design**
+
+The `<meta>` tag is used in HTML to provide metadata about the web page. The `viewport` and `content` attributes are commonly used for controlling the page's layout on different devices, especially mobile devices.
+
+Here’s an example of how to use the `viewport` meta tag:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewport Meta Tag Example</title>
+</head>
+<body>
+
+    <h1>Responsive Web Page</h1>
+    <p>This page will adapt to different screen sizes.</p>
+
+</body>
+</html>
+```
+
+**Breakdown of the `meta` tag:**
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+- **`name="viewport"`**: Specifies that this meta tag is for controlling the viewport settings.
+- **`content="width=device-width, initial-scale=1.0"`**:
+  - **`width=device-width`**: The width of the viewport will match the width of the device's screen.
+  - **`initial-scale=1.0`**: This sets the initial zoom level when the page is first loaded. `1.0` means no zoom.
+
+**Why it's important:**
+
+- It helps ensure your page is responsive, meaning it will adjust to different screen sizes, such as on desktops, tablets, and smartphones.
+- Without this tag, mobile devices might display the page zoomed out or not properly scaled, making the content hard to read.

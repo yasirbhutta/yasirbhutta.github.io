@@ -12,6 +12,7 @@
 
 ### html
 
+- [HTML Notes](docs/html-basics.md)
 - [Introduction to HTML](https://docs.google.com/presentation/d/1lkOvcwqJAuqOxorM3En3wtydL5hgcK6A399ZqR-Q_bs/export?format=pdf)
 - [Forms in HTML](https://docs.google.com/presentation/d/1U3uqqBbtV7-9KsFIT_b4KB4l5dMlsrR4yxUFbJHtl_Y/export?format=pdf)
 
