@@ -37,3 +37,26 @@
   - [Hands-on activity](docs/lab2.md): Configure basic settings on a router and switch using cisco packet tracker
 
 ## [Final Project: Project #1](../sna/docs/sna-projects.md)
+
+
+# Explain the purpose of the following Windows networking commands and provide examples of their usage:
+
+a) ipconfig
+b) ping
+c) tracert
+
+# What is a packet sniffer? Explain its purpose and provide an example of a packet-sniffing tool.
+
+# Configure a DHCP server in Packet Tracer to automatically assign IP addresses to PCs in a LAN?
+
+# Configure a router to connect two LANs with different subnets.
+
+Set up two LANs with distinct subnets.
+Configure the router interfaces with appropriate IP addresses for each subnet.
+Ensure that devices in each LAN can communicate with the router and with devices in the other LAN.
+
+# Create two VLANs in Packet Tracer: VLAN 10 for Sales and VLAN 20 for Engineering.
+
+Connect two PCs to the switch for each VLAN.
+Assign each PC to the appropriate VLAN.
+Configure IP addresses for the PCs to enable communication within their respective VLANs while preventing communication between VLANs (without routing).

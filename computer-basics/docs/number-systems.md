@@ -472,7 +472,48 @@ ROM is made up of a series of interconnected cells. Each cell can store a single
 
 When the computer needs to access a bit of data in ROM, it sends the address of the bit to the memory controller. The memory controller then sends a signal to the cell at that address. The cell then reads the bit of data and sends it back to the memory controller.
 
+## Fill in the Blanks
+
+1. A binary digit is also known as a _______.  
+   **Answer:** Bit  
+
+2. In Boolean operations, the _______ operation returns 1 if either bit is 1.  
+   **Answer:** OR  
+
+3. The ASCII code for the letter "A" is _______ in decimal.  
+   **Answer:** 65  
+
+4. The binary equivalent of the decimal number 10 is _______.  
+   **Answer:** 1010  
+
+5. A _______ consists of 1024 megabytes.  
+   **Answer:** Gigabyte  
+
+6. A bit pattern is a sequence of _______ used to represent data.  
+   **Answer:** Bits  
+
+7. To convert a binary number to decimal, multiply each bit by its corresponding power of _______ and sum the results.  
+   **Answer:** 2  
+
+**Answer Key (Fill in the Blanks):**
+
 ## True/False (Mark T for True and F for False)
+
+A bit can have only two values: 0 or 1.  
+   **True**
+
+2. Hexadecimal notation uses 10 symbols to represent numbers.  
+   **False** (It uses 16 symbols.)
+
+3. Boolean expressions are used to perform logical operations on bits.  
+   **True**
+
+4. ASCII code represents each character with a unique 16-bit binary code.  
+   **False** (It uses a 7-bit or 8-bit binary code.)
+
+5. In binary to decimal conversion, each digit in the binary number represents a power of 10.  
+   **False** (It represents a power of 2.)
+
 
 ## Multiple Choice (Select the best answer)
 
@@ -532,6 +573,41 @@ How would you convert the letter "B" to binary code using ASCII?
 3. [ ] 1 kilobyte (KB)
 4. [ ] 1 megabyte (MB)
 
+1. What is the smallest unit of information in a computer?
+   - A. Byte  
+   - B. Bit  
+   - C. Kilobyte  
+   - D. Megabyte  
+   **Answer:** B. Bit  
+
+2. How many bits are there in a byte?  
+   - A. 4  
+   - B. 8  
+   - C. 16  
+   - D. 32  
+   **Answer:** B. 8  
+
+3. Which of the following Boolean operations returns 1 if both inputs are 1?  
+   - A. OR  
+   - B. AND  
+   - C. NOT  
+   - D. XOR  
+   **Answer:** B. AND  
+
+4. What is the hexadecimal representation of the decimal number 15?  
+   - A. F  
+   - B. E  
+   - C. 15  
+   - D. 1F  
+   **Answer:** A. F  
+
+5. Which unit represents approximately 1 million bytes?  
+   - A. Kilobyte  
+   - B. Megabyte  
+   - C. Gigabyte  
+   - D. Terabyte  
+   **Answer:** B. Megabyte  
+
 ## Review Questions
 
 1. Define a bit, explain how bits are represented, and describe their uses.
@@ -544,6 +620,99 @@ How would you convert the letter "B" to binary code using ASCII?
 8. How would you convert the letter "B" to binary code using ASCII?
 9. How can you convert the letter "B" (ASCII value 66) and the decimal number 15 to their binary representations?
 10. Explain the concept of ASCII and how it relates to representing characters digitally. Convert the letter "B" to its binary equivalent, given that it has an ASCII value of 66 and a decimal value of 15.
+11. Convert the binary number 11111111 into decimal and explain why this value is significant in computer systems.
+
+**Answer:**
+
+The binary number \( 11111111_2 \) can be converted to decimal as follows:  
+
+Each digit in the binary number represents a power of 2, starting from the rightmost digit (the least significant bit):  
+\[
+11111111_2 = (1 \times 2^7) + (1 \times 2^6) + (1 \times 2^5) + (1 \times 2^4) + (1 \times 2^3) + (1 \times 2^2) + (1 \times 2^1) + (1 \times 2^0)
+\]  
+\[
+= 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
+\]  
+\[
+= 255
+\]  
+
+**Why is this significant in computer systems?**  
+The value \( 255 \) is the largest number that can be represented using an 8-bit binary number, which is often referred to as a **byte**. It is significant because bytes are the fundamental unit of data in computer systems, and \( 255 \) represents the maximum value for unsigned 8-bit data.
+
+12. Convert the following binary numbers into their equivalent decimal numbers. Show all your work.
+
+- (a) 1101
+- (b) 10110
+- (​c) 11101
+- (d) 111011 
+- (e) 1000001
+- (f) 1010101
+​
+13. What are Boolean operations? Provide examples of the two most common operations.  
+14. Explain the difference between the AND and OR operations using examples.  
+15. Define Boolean expressions and describe their purpose.  
+16. **Write a Boolean expressions:
+    1.  To check if both bits \( A \) and \( B \) are 1.**  
+    2.  To check if at least one of the bits \( A \) or \( B \) is 1.**  
+    3.  To invert the value of a bit \( A \).**  
+    4.  Both \( A \) and \( B \) are 1, **or** \( C \) is 1.  
+
+**Answers**
+
+1. **To check if both bits \( A \) and \( B \) are 1:**  
+   \[
+   A \text{ AND } B
+   \]  
+   Explanation: The AND operation returns 1 only when both \( A = 1 \) and \( B = 1 \).
+
+2. **To check if at least one of the bits \( A \) or \( B \) is 1:**  
+   \[
+   A \text{ OR } B
+   \]  
+   Explanation: The OR operation returns 1 if either \( A = 1 \), \( B = 1 \), or both are 1.
+
+3. **To invert the value of a bit \( A \):**  
+   \[
+   \text{NOT } A
+   \]  
+   Explanation: The NOT operation flips the value of \( A \); if \( A = 1 \), it returns 0, and if \( A = 0 \), it returns 1.
+
+4. **To evaluate to 1 if both \( A \) and \( B \) are 1, or \( C \) is 1:**  
+   \[
+   (A \text{ AND } B) \text{ OR } C
+   \]  
+   Explanation: The expression first checks if \( A \text{ AND } B \) evaluates to 1. If not, it evaluates \( C \), returning 1 if \( C = 1 \).
+
+  16. What is the purpose of a truth table and Complete the following truth table for the expression \( A \text{ XOR } B \):  
+  \[
+  \begin{array}{|c|c|c|}
+  \hline
+  A & B & A \text{ XOR } B \\
+  \hline
+  0 & 0 & \\
+  0 & 1 & \\
+  1 & 0 & \\
+  1 & 1 & \\
+  \hline
+  \end{array}
+  \]  
+- (c) Create a truth table for the expression \( (A \text{ OR } B) \text{ AND } C \).  
+
+**4. Boolean Expression Examples**  
+- (a) Evaluate the following Boolean expressions:  
+   1. A = 1, B = 0, Expression:  `A AND B`  
+   2. A = 0, B = 1, C = 1, Expression: `(A OR B) AND C`
+ 
+- (b) Simplify the expression \( A \text{ AND } (B \text{ OR } C) \).  
+
+**5. Applications of Boolean Operations**  
+- (a) Describe two real-world applications of Boolean operations in:  
+   1. Digital logic circuits  
+   2. Computer programming  
+- (b) Explain how Boolean operations are used in search engines to refine search results.  
+
+
 
 ## Excercises
 

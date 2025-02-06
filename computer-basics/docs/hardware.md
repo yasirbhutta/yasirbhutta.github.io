@@ -491,12 +491,7 @@ DisplayPort is another type of port that is used to connect high-definition vide
 3. [ ] Central Power Unit
 4. [ ] Central Peripheral Unit
 
-> Which of the following is used to connect input and output devices to the computer?
 
-1. [ ] Ports
-2. [ ] Buses
-3. [ ] Expansion cards
-4. [x] All of the above
 
 - **Ports** are physical connectors on the computer that allow input and output devices to be connected. Examples of ports include USB, HDMI, and Ethernet ports.
 - **Buses** are electrical pathways that allow data to be transferred between different components of the computer, including input and output devices. Examples of buses include the PCI Express bus and the USB bus.

@@ -5,7 +5,6 @@
 - Number Systems
 - Databases
 - Networks
-   
 - Microsoft Excel
 - Microsoft Word
 
@@ -13,18 +12,18 @@
 
 (3x True/False + 3x fill in the blanks + 10x MCQs)
 
-- 4x from Number Systems
+- 3x from Number Systems
 - 2x from from Networks
 - 2x from Databases
 - 3x from Excel
 - 3x from Word
-- 1x from Computer Hardware
+- 2x from Computer Hardware/Software
 - 1x from Storage Devices
 
 **Short Questions (08 marks 2x4):**
 
-- 1x from Hardware/Software
-- 1x from Storage Devices
+- 1x from Hardware/Software/Storage Devices
+- 1x from Word/Excel
 - 1x from Number Systems
 - 1x from Databases
   

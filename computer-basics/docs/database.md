@@ -164,6 +164,7 @@ select * from customers;
 - What are the advantages of using a database?
 - What is the role of a database management system (DBMS)?
 - Define a database and write a note on Microsoft Access.
+- What is a database, and what are the steps involved in designing one? Additionally, describe the different types of databases and the advantages of using them.
 
 ## References and Bibliography
 

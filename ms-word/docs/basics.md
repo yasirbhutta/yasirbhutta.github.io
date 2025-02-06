@@ -392,6 +392,7 @@ Identify the functions of the following elements in the Word interface:
 - Explain the difference between "Save" and "Save As" commands.
 - Explain the difference between closing a file and exiting Word.
 - What are different document views available in Word?
+- List the shortcut keys for the following commands in Word/Excel: Create a new file, Open a file, Save a file, Close a file
 - Briefly describe the purpose and features of each document view:
   - Focus
   - Print Layout

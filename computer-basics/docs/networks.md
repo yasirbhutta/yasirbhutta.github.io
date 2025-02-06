@@ -209,6 +209,10 @@ In a mesh topology, each device is connected to every other device in the networ
 
 Each network topology has its own specific use cases, advantages, and drawbacks. The choice of topology depends on factors like the size and scale of the network, budget, desired performance, and ease of maintenance. Understanding the characteristics of each topology helps in designing efficient and robust networks.
 
+## Fill in the blanks
+
+A _________ is a device that connects two or more IP networks or subnetworks.
+
 ## True/False (Mark T for True and F for False)
 
 1. A star topology connects each node directly to a central hub.
@@ -240,7 +244,7 @@ B. To enable communication between different devices
 C. To execute complex mathematical operations
 D. To manage user authentication and authorization
 
-Which of the following topologies connects each node to a central hub?
+Which of the following topologies connects each node to a central hub/switch?
 
 A. Ring topology
 B. Mesh topology
@@ -330,11 +334,12 @@ D. Ethernet cable
 13. What are the advantages and disadvantages of a bus topology?
 14. What are the advantages and disadvantages of Star Topology
 15. Define Star Topology and discuss its advantages and disadvantages.
-16. What are the benefits of a mesh topology?
-17. What are the advantages and disadvantages of Mesh Topology
-18. What is TCP/IP and why is it significant in networking
-19. What are some common ways to connect to the internet?
-20. What is the primary function of a firewall in a network
+16. Define Star and Bus Topologies, illustrate each with a diagram, and discuss their advantages and disadvantages in detail.
+17. What are the benefits of a mesh topology?
+18. What are the advantages and disadvantages of Mesh Topology
+19. What is TCP/IP and why is it significant in networking
+20. What are some common ways to connect to the internet?
+21. What is the primary function of a firewall in a network
     - **Answer:** The primary function of a firewall is to monitor and control incoming and outgoing network traffic based on predetermined security rules.
 
 ## References and Bibliography

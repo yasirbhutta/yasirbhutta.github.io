@@ -647,6 +647,12 @@ The IF function is used to perform conditional logic in Excel. It can be used to
 
 24. What is conditional formatting, and how can you use it to highlight specific data in Excel? (Windows only)
 
+25. In Excel, write the formulas to calculate the following for the range of cells A1:A10, which contains the values {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}:**  
+    1. **Minimum value**  
+    2.  **Maximum value**  
+    3.  **Sum of all values**  
+    4.  **Average value**  
+   
 ### Excercises
 
 **Excercise:**
@@ -1218,9 +1224,9 @@ This formula subtracts the start time in cell B5 from the current time provided 
 > Which of the following is a valid formula?
 
 1. [ ] =SUM(A1:B1)/2
-2. [ ] =SUM(A1:B1) + 2
-3. [ ] =SUM(A1:B1) * 2
-4. [ ] All of the above
+2. [ ] =SUM(A1:B1) , A2
+3. [ ] =SUM(A1:B1) : B2
+4. [ ] None
 
 > Which of the following formulas will return the value 10?
 

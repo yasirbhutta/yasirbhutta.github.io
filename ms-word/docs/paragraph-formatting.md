@@ -220,8 +220,210 @@ C) Inserts random dates into the document
 D) Inserts random formulas into the document
 
 
+### **1. What is paragraph formatting in Microsoft Word?**  
+A) Formatting applied to the entire document  
+B) Formatting applied to a paragraph, identified by the ¶ symbol  
+C) Formatting applied only to headers  
+D) Formatting applied to the footer  
+
+**Answer:** B) Formatting applied to a paragraph, identified by the ¶ symbol  
+
+---
+
+### **2. Which of the following automatically inserts sample text into a document?**  
+A) =SUM(X,Y)  
+B) =TEXT(X,Y)  
+C) =RAND(X,Y)  
+D) =SAMPLE(X,Y)  
+
+**Answer:** C) =RAND(X,Y)  
+
+---
+
+### **3. What is the default paragraph alignment in Microsoft Word?**  
+A) Right alignment  
+B) Left alignment  
+C) Center alignment  
+D) Justified alignment  
+
+**Answer:** B) Left alignment  
+
+---
+
+### **4. Which alignment ensures text is evenly aligned along both the left and right margins?**  
+A) Left alignment  
+B) Right alignment  
+C) Center alignment  
+D) Justified alignment  
+
+**Answer:** D) Justified alignment  
+
+---
+
+### **5. What does a "First Line Indent" do?**  
+A) Moves the entire paragraph to the right  
+B) Indents the first line of the paragraph from the left margin  
+C) Indents all lines except the first line of the paragraph  
+D) Moves the entire paragraph to the left  
+
+**Answer:** B) Indents the first line of the paragraph from the left margin  
+
+---
+
+### **6. How can you adjust line spacing in a paragraph?**  
+A) By using the Font group  
+B) By using the Line Spacing option in the Paragraph group  
+C) By changing the document margins  
+D) By resizing the font  
+
+**Answer:** B) By using the Line Spacing option in the Paragraph group  
+
+---
+
+### **7. What does a "Hanging Indent" do?**  
+A) Indents the first line of a paragraph  
+B) Leaves the first line unchanged and indents all subsequent lines  
+C) Moves the paragraph to the center of the page  
+D) Adds space to the top of the paragraph  
+
+**Answer:** B) Leaves the first line unchanged and indents all subsequent lines  
+
+---
+
+### **8. What is the purpose of the "Drop Cap" feature?**  
+A) To reduce the font size of a paragraph  
+B) To align text to the right margin  
+C) To enlarge the first letter of a paragraph for decorative purposes  
+D) To add bullets to a list  
+
+**Answer:** C) To enlarge the first letter of a paragraph for decorative purposes  
+
+---
+
+### **9. Which of the following tab alignments is used to align numbers around a decimal point?**  
+A) Left alignment  
+B) Center alignment  
+C) Right alignment  
+D) Decimal alignment  
+
+**Answer:** D) Decimal alignment  
+
+---
+
+### **10. How can you create a multilevel numbered list in Microsoft Word?**  
+A) Use the Bulleted List option  
+B) Use the Multilevel Numbering option in the Paragraph group  
+C) Insert multiple columns  
+D) Use the Tabs dialog box  
+
+**Answer:** B) Use the Multilevel Numbering option in the Paragraph group  
+
+---
+
+### **11. Which of the following is NOT a type of indent in Microsoft Word?**  
+A) Left Indent  
+B) Hanging Indent  
+C) Center Indent  
+D) First Line Indent  
+
+**Answer:** C) Center Indent  
+
+---
+
+### **12. Where can you access the Paragraph dialog box in Microsoft Word?**  
+A) Home tab → Font group  
+B) Insert tab → Text group  
+C) Page Layout tab → Paragraph group  
+D) Design tab → Themes group  
+
+**Answer:** C) Page Layout tab → Paragraph group  
+
+---
+
+Let me know if you'd like me to refine or expand these questions further!
 
 ## Fill in the Blanks
+
+Here are **fill-in-the-blank** questions based on the provided content for **Microsoft Word: Paragraph Formatting**:  
+
+---
+
+### **1. A paragraph in Microsoft Word can be identified by the _______ symbol.**  
+**Answer:** ¶ (paragraph mark)  
+
+---
+
+### **2. The default paragraph alignment in Microsoft Word is _______.**  
+**Answer:** Left alignment  
+
+---
+
+### **3. The _______ command is used to adjust the distance between the left and right margins of a paragraph.**  
+**Answer:** Indentation  
+
+---
+
+### **4. The type of indent where only the first line of the paragraph is indented is called _______.**  
+**Answer:** First Line Indent  
+
+---
+
+### **5. The _______ feature adds space between lines of text within a paragraph.**  
+**Answer:** Line Spacing  
+
+---
+
+### **6. The _______ feature in Microsoft Word enlarges the first letter of a paragraph for decorative purposes.**  
+**Answer:** Drop Cap  
+
+---
+
+### **7. The alignment option that evenly aligns text along both the left and right margins is called _______.**  
+**Answer:** Justified alignment  
+
+---
+
+### **8. To create a numbered list, you use the _______ command in the Paragraph group.**  
+**Answer:** Numbered List  
+
+---
+
+### **9. The _______ indent leaves the first line unchanged and indents all subsequent lines of a paragraph.**  
+**Answer:** Hanging Indent  
+
+---
+
+### **10. Tab stops can be used to create _______ columns of text in a document.**  
+**Answer:** Parallel  
+
+---
+
+### **11. In Microsoft Word, the _______ dialog box allows users to configure additional paragraph settings such as tabs, line breaks, and page breaks.**  
+**Answer:** Paragraph  
+
+---
+
+### **12. The shortcut key combination to decrease the indentation of a paragraph is _______.**  
+**Answer:** Decrease Indent  
+
+---
+
+### **13. To apply multiple columns in a document, go to the _______ tab and select the Columns option.**  
+**Answer:** Page Layout  
+
+---
+
+### **14. The _______ option in the Tabs dialog box aligns numbers around a decimal point.**  
+**Answer:** Decimal alignment  
+
+---
+
+### **15. When creating a bulleted list, the _______ feature provides different bullet styles.**  
+**Answer:** Bullets  
+
+---
+
+Let me know if you'd like additional variations or refinements!
 
 **Answer Key (Fill in the Blanks):**
 
