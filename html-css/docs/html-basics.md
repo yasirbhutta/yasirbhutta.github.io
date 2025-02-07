@@ -1,5 +1,9 @@
 # Introduction to HTML
 
+- [Download PDF](https://yasirbhutta.github.io/html-css/docs/html-basics.pdf)
+- To access the updated handouts, please click on the following link:
+[https://yasirbhutta.github.io/html-css/docs/html-basics.html](https://yasirbhutta.github.io/html-css/docs/html-basics.html)
+
 ## Example #1: HTML Comments
 
 ```html
