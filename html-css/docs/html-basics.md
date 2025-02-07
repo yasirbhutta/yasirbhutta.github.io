@@ -40,7 +40,7 @@ The `<meta>` tag is used in HTML to provide metadata about the web page. The `vi
 </html>
 ```
 
-### Task: Create a Simple Webpage with Line Breaks
+## Task #1: Create a Simple Webpage with Line Breaks
 
 **Objective**: Learn how to use the `<br>` tag in HTML to create line breaks in a webpage.
 
@@ -74,7 +74,7 @@ The `<meta>` tag is used in HTML to provide metadata about the web page. The `vi
 
 4. Save the file and open it in a web browser to see the result. You should see the sentences appear on different lines.
 
-### Task: Create a Webpage with Blockquotes
+## Task #2: Create a Webpage with Blockquotes
 
 **Objective**: Learn how to use the `<blockquote>` tag to highlight and format quotations in HTML.
 
@@ -122,7 +122,7 @@ The `<meta>` tag is used in HTML to provide metadata about the web page. The `vi
 
 5. Save the file and open it in a web browser. You should see the quotes formatted with indentation and any additional styles applied by the browser.
 
-### Task: Create a Structured Webpage Using Different Heading Levels
+## Task #3: Create a Structured Webpage Using Different Heading Levels
 
 **Objective**: Understand how to use different heading levels in HTML to organize content into sections and subsections.
 
