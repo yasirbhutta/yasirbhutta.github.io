@@ -24,7 +24,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Task 2: Printing Different Data Types](#task-2-printing-different-data-types)
     - [Task 3: Using `sep` and `end` Parameters](#task-3-using-sep-and-end-parameters)
     - [Task 4: Print Variables](#task-4-print-variables)
-    - [Task 5: String Formatting](#task-5-string-formatting)
+    - [Task 5: String Formatting with f-Strings](#task-5-string-formatting-with-f-strings)
     - [Task 6: Printing Special Characters](#task-6-printing-special-characters)
     - [Task 7: Printing to a File](#task-7-printing-to-a-file)
     - [Task 8: Understanding Syntax Errors in Python](#task-8-understanding-syntax-errors-in-python)
@@ -171,7 +171,7 @@ message = "How are you?"
 print(message)
 
 ```
-### Task 5: String Formatting
+### Task 5: String Formatting with f-Strings
 
 **Instructions**
 1. Use f-strings (formatted string literals) for the same purpose.
