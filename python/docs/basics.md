@@ -28,13 +28,12 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Task 6: Printing Special Characters](#task-6-printing-special-characters)
     - [Task 7: Printing to a File](#task-7-printing-to-a-file)
     - [Task 8: Understanding Syntax Errors in Python](#task-8-understanding-syntax-errors-in-python)
-    - [Practice Exercises](#practice-exercises)
-      - [Exercise 1: Print Your Favorite Quote](#exercise-1-print-your-favorite-quote)
-      - [Exercise 2: Create a Simple Receipt](#exercise-2-create-a-simple-receipt)
-      - [Exercise 3: Use Variables in Print Statements](#exercise-3-use-variables-in-print-statements)
-      - [Exercise 4: Output to a File](#exercise-4-output-to-a-file)
-      - [Exercise 5: 100 times "hello world" without loop](#exercise-5-100-times-hello-world-without-loop)
-      - [Exercise 6: How to print multiple lines](#exercise-6-how-to-print-multiple-lines)
+    - [Task 9: Print Your Favorite Quote](#task-9-print-your-favorite-quote)
+    - [Task 10: Create a Simple Receipt\*\*](#task-10-create-a-simple-receipt)
+    - [Task 11: Use Variables in Print Statements\*\*](#task-11-use-variables-in-print-statements)
+    - [Task 12: 100 Times “Hello World” Without Loop\*\*](#task-12-100-times-hello-world-without-loop)
+    - [Task 13: How to Print Multiple Lines\*\*](#task-13-how-to-print-multiple-lines)
+    - [Task 14: Output to a File\*\*](#task-14-output-to-a-file)
   - [Comments](#comments)
   - [Indentation](#indentation)
   - [Fix the Error](#fix-the-error)
@@ -297,27 +296,44 @@ print("Hello World!"
 - A syntax error in programming occurs when the code violates the rules of the programming language's syntax. 
 - This means that the code's structure and commands do not conform to the expected format that the interpreter or compiler requires to successfully read and execute the code.
 
-### Practice Exercises
+**See also:**
 
-#### Exercise 1: Print Your Favorite Quote
-Print your favorite quote, ensuring proper formatting.
+- [Invalid Syntax in Python: Common Reasons for SyntaxError](https://realpython.com/invalid-syntax-python/)
+  
+### Task 9: Print Your Favorite Quote
+- Choose your favorite quote.  
+- Use Python’s `print()` function to display it.  
+- Ensure the quote is properly formatted (e.g., with quotation marks and correct line breaks if necessary).  
 
-#### Exercise 2: Create a Simple Receipt
-Print a simple receipt with items and prices, properly aligned using tab characters.
+### Task 10: Create a Simple Receipt**  
+- Define item names and prices.  
+- Use `\t` (tab character) to align item names and prices neatly.  
+- Print a simple receipt showing itemized costs.  
+- Optionally, include a total cost at the bottom.  
 
-#### Exercise 3: Use Variables in Print Statements
-Create variables for your name, age, and favorite hobby, then print a sentence using these variables.
+### Task 11: Use Variables in Print Statements**  
+- Create three variables: `name`, `age`, and `hobby`.  
+- Assign appropriate values to each variable.  
+- Use the `print()` function to create a sentence incorporating these variables.  
 
-#### Exercise 4: Output to a File
-Write a program that prints a summary of your week (e.g., tasks completed, hours worked) to a text file.
-
-#### Exercise 5: 100 times "hello world" without loop
+### Task 12: 100 Times “Hello World” Without Loop**  
+- Print "Hello World" 100 times **without using a loop**.  
+- Consider string multiplication (`"Hello World\n" * 100`) as a possible solution.  
 
 [related video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
-#### Exercise 6: How to print multiple lines
+### Task 13: How to Print Multiple Lines**  
+- Print multiple lines of text using different methods:  
+  - Using multiple `print()` statements.    
+  - Using newline characters (`\n`).  
 
 [Related Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
+
+### Task 14: Output to a File**  
+- Write a short summary of your week (tasks completed, hours worked, achievements).  
+- Open a text file in write mode (`"w"`).  
+- Write the summary to the file using Python’s `write()` method.  
+- Close the file properly.  
 
 ## Comments
 
@@ -381,7 +397,7 @@ else:
     print("False")
 ```
 
-**Task:** Please correct the following Python code:
+**Task: 15** Please correct the following Python code:
 
 ```python
 if True:
