@@ -39,8 +39,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Fix the Error](#fix-the-error)
     - [Question 1: Fix the Parenthesis Error](#question-1-fix-the-parenthesis-error)
     - [Question 2: Fix the Indentation Error \[Python Quiz #67\]](#question-2-fix-the-indentation-error-python-quiz-67)
+    - [Question 3: Fix the Incorrect Variable Usage Error \[Python Quiz 68\]](#question-3-fix-the-incorrect-variable-usage-error-python-quiz-68)
     - [Question 3: Fix the Missing Import Error](#question-3-fix-the-missing-import-error)
-    - [Question 4: Fix the Incorrect Variable Usage Error \[Python Quiz 68\]](#question-4-fix-the-incorrect-variable-usage-error-python-quiz-68)
     - [Question 5: Fix the File Output Error](#question-5-fix-the-file-output-error)
   - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
   - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
@@ -413,10 +413,6 @@ Error message: `IndentationError: unexpected indent`"
 
 ## Fix the Error
 
-Here are some "Fix the Error" questions based on the provided content:
-
----
-
 ### Question 1: Fix the Parenthesis Error
 **Task**: Identify and fix the syntax error in the following code snippet.
 
@@ -446,6 +442,18 @@ if True:
 
 ---
 
+### Question 3: Fix the Incorrect Variable Usage Error [Python Quiz 68]
+**Task**: Fix the error where the variable name is incorrectly used.
+
+```python
+name = "Ahmad"
+print(f"My name is {namee} and I am 30 years old.")
+```
+
+**Error**: `NameError: name 'namee' is not defined` because `namee` is not the correct variable name.
+
+---
+
 ### Question 3: Fix the Missing Import Error
 **Task**: Correct the following code by adding the necessary module import.
 
@@ -463,15 +471,6 @@ print(os.getcwd())
 
 ---
 
-### Question 4: Fix the Incorrect Variable Usage Error [Python Quiz 68]
-**Task**: Fix the error where the variable name is incorrectly used.
-
-```python
-name = "Ahmad"
-print(f"My name is {namee} and I am 30 years old.")
-```
-
-**Error**: `NameError: name 'namee' is not defined` because `namee` is not the correct variable name.
 
 ---
 
