@@ -235,6 +235,28 @@ double quotes (&quot;), and single quotes (&apos;).</p>
 </body>
 </html>
 ```
+## Font Styles and Sizes
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formatting Tags Example</title>
+</head>
+<body>
+
+    <p>This is an <em>emphasized</em> text.</p>
+    <p>This is a <strong>strong and important</strong> text.</p>
+    <p>Here is a <code>code snippet</code> inside a paragraph.</p>
+    <p>This is a <mark>highlighted</mark> text.</p>
+    <p>This is a superscript example: x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
+    <p>This is a subscript example: H<sub>2</sub>O (water).</p>
+
+</body>
+</html>
+```
 
 ## Example: Images
 
