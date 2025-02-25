@@ -1,4 +1,4 @@
-# Data Types in Python
+# 3. Data Types in Python
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -41,7 +41,7 @@ In Python, data types define the kind of value a variable can hold and the opera
 
 [Video: Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c)
 
-## 1. **Numeric Types:**
+## 3.1 **Numeric Types:**
     - `int`: Stores whole (non-decimal) numbers, like `10`, `-5`, or `9999`.
     - `float`: Represents floating-point numbers with decimals, like `3.14`, `-2.5e2` (scientific notation), or `1.2345678901234567` (limited precision).
     - `complex`: Holds complex numbers with a real and imaginary part, like `3+2j` or `1.5-4.7j`.
@@ -61,7 +61,7 @@ price = 14.99
 complex_num = 3 + 2j  # Imaginary unit represented by j
 ```
 
-## 2. **String Type:**
+## 3.2 **String Type:**
     - `str`: Represents textual data enclosed in single or double quotes, such as `"Hello, world!"`, `'This is a string'`, or multi-line strings using triple quotes (''' or """).
 
 - [Example #1: How to Convert a Python String to int](https://www.youtube.com/watch?v=MMzwcMEmq2A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=108)
@@ -80,7 +80,7 @@ message = """This is a message
 that spans multiple lines."""
 ```
 
-## 3. **Boolean Type:**
+## 3.3 **Boolean Type:**
     - `bool`: Represents logical values: `True` or `False`. Used for conditional statements and boolean expressions.
 
 - [Example #1: Exploring Boolean Values and Type Checking with isinstance() and bool() functions](https://www.youtube.com/watch?v=gR1HrgGHp2Y&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=36)
@@ -94,7 +94,158 @@ if is_raining:
     print("Bring an umbrella!")
 ```
 
-## Why Use Data Types?
+## 3.4 **Data Structures and Sequences**
+
+### 3.4.1 Tuple in Python
+
+- In python, a tuple is an immutable sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
+- Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
+- Sequence types in python - list, tuple and range
+
+**Creating a Tuple in Python**
+
+**A tuple is created by enclosing elements within parentheses () and separating them with commas.** While parentheses are technically optional, it's generally considered best practice to use them for clarity and consistency.
+
+- [video: How to create a tuple in Python](https://www.youtube.com/watch?v=QpRiHuQycXg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+**Example**
+
+Some common ways to create tuples in Python include:
+
+```python
+tup = (1,2,3)
+print(tup) # Output: (1, 2, 3)
+# check the type of variable
+print(type(tup)) # Output: <class 'tuple'>
+
+# another example to create tuple
+tup1 = 4,5,6
+print(tup1) # Output: (4, 5, 6)
+
+# tuple with mixed datatypes
+tup_mixed = (7, "String", 7.8)
+print(tup_mixed)
+
+tup4 = tuple('string')
+print(tup4) # Output: ('s','t','r','i','n','g')
+
+```
+
+### 3.4.2 List
+
+- A **list** in Python is one of the most commonly used data structures. It allows you to store a collection of items (which can be of different types) in a single variable. Lists are very flexible and easy to use, making them a great tool for beginners to understand.
+
+**Creating a List**
+
+You can create a list by placing items inside square brackets `[]`, separated by commas.
+
+```python
+# A list of integers
+numbers = [1, 2, 3, 4, 5]
+
+# A list of strings
+fruits = ["apple", "banana", "cherry"]
+
+# A list of mixed data types
+mixed_list = [1, "hello", 3.14, True]
+
+# An empty list
+empty_list = []
+```
+
+**Accessing Elements in a List**
+
+You can access individual elements in a list using their index.
+
+```python
+# Access the first element (index 0)
+print(fruits[0])  # Output: apple
+
+# Access the second element (index 1)
+print(fruits[1])  # Output: banana
+
+# Access the last element (index -1)
+print(fruits[-1])  # Output: cherry
+```
+
+**Modifying Elements in a List**
+
+Since lists are mutable, you can change an element in a list by assigning a new value to a specific index.
+
+```python
+# Change the first element of the list
+fruits[0] = "orange"
+print(fruits)  # Output: ['orange', 'banana', 'cherry']
+```
+
+### 3.4.3 Introduction to Python Dictionaries: Concepts, Usage, and Examples
+
+In Python, a **dictionary** is a collection of key-value pairs. Each key in a dictionary is unique, and it is associated with a value. Dictionaries are used to store data values like a map or a real-life dictionary where each word (key) has a definition (value). They are mutable, meaning you can change, add, or remove items after the dictionary is created.
+
+**Creating a Dictionary**
+
+You create a dictionary using curly braces `{}` with keys and values separated by a colon `:`. Multiple key-value pairs are separated by commas.
+
+```python
+# Example of a dictionary
+student = {
+    "name": "John",
+    "age": 20,
+    "courses": ["Math", "Science"]
+}
+```
+
+**Accessing Values**
+
+You can access the value associated with a specific key by using square brackets `[]` or the `get()` method.
+
+```python
+# Accessing values
+print(student["name"])  # Output: John
+print(student.get("age"))  # Output: 20
+```
+
+**Adding or Updating Elements**
+
+You can add a new key-value pair or update an existing one by assigning a value to the key.
+
+```python
+# Adding a new key-value pair
+student["grade"] = "A"
+
+# Updating an existing value
+student["age"] = 21
+```
+### 3.4.4 Sets
+
+In Python, a **set** is an unordered collection of unique elements, meaning no duplicates are allowed. Sets are useful when you want to store multiple items but don't need to keep them in a particular order, and you want to ensure that each item only appears once.
+
+**Creating a Set**
+
+You can create a set using curly braces `{}` or the `set()` function.
+
+```python
+# Creating a set using curly braces
+my_set = {1, 2, 3, 4, 5}
+
+# Creating a set using the set() function
+my_set = set([1, 2, 3, 4, 5])
+```
+
+### Example:
+
+```python
+# Creating a set
+fruits = {"apple", "banana", "cherry", "apple"}
+
+# Displaying the set
+print(fruits)  # Output: {'apple', 'banana', 'cherry'}
+```
+Notice how `apple` only appears once, even though we tried to add it twice.
+
+For more details , see [Data Structures and Sequences](dss.md)
+
+## 3.5 Why Use Data Types?
 
 [video: 3 Reasons Why Are Data Types So Important in Python](https://www.youtube.com/watch?v=hziL5HamtNw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
 
@@ -106,7 +257,7 @@ Data types are essential in Python for several reasons:
 * **Readability:** Using appropriate data types makes code easier to understand. It's clear what kind of data a variable holds and how it can be used.
 * **Performance:** Python can optimize certain operations based on the data type. For example, mathematical calculations on integers are faster than on floats.
 
-## Understanding Dynamic Variables in Python with Examples
+## 3.6 Understanding Dynamic Variables in Python with Examples
 
 [video: Is Python a Dynamic Language?](https://youtu.be/4qweH-RCfCQ)
 
@@ -145,6 +296,50 @@ In this example:
 4. Finally, `x` is reassigned a float value `3.14`.
 
 Each time, the type of `x` changes dynamically to match the type of the value assigned to it. This flexibility is one of the powerful features of Python, allowing for more concise and adaptable code.
+
+## 3.7 **Python `input()` Function - Lecture Notes**  
+
+#### **What is `input()`?**  
+
+The `input()` function in Python is used to take user input from the keyboard. It allows a program to interact with users by asking for information.  
+
+#### **Syntax:**  
+```python
+variable_name = input("Prompt message")
+```
+- `Prompt message`: A string displayed to the user before they enter input.
+- `variable_name`: The variable where the user’s input is stored.
+
+---
+
+**Basic Example**
+
+```python
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+```
+#### **Explanation:**
+
+1. `input("Enter your name: ")` displays the message **"Enter your name: "** and waits for the user to type something.
+2. The user types their name and presses Enter.
+3. The input is stored in the variable `name`.
+4. `print("Hello, " + name + "!")` displays a greeting message with the user's name.
+
+---
+
+### **Taking Numerical Input**
+By default, `input()` returns a string. If you need a number, you must convert it using `int()` or `float()`.  
+
+#### **Example:**
+```python
+age = int(input("Enter your age: "))
+print("In 5 years, you will be", age + 5)
+```
+#### **Explanation:**
+1. The user enters their age as a string.
+2. `int(input(...))` converts it into an integer.
+3. The program calculates the age after 5 years and prints it.
+
 
 ## None
 

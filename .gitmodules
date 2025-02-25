@@ -1,3 +1,6 @@
 [submodule "python/python-examples"]
 	path = python/python-examples
 	url = https://github.com/yasirbhutta/python-examples.git
+[submodule "html-css/python-examples"]
+	path = html-css/python-examples
+	url = https://github.com/yasirbhutta/python-examples.git

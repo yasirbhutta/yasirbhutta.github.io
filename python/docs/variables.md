@@ -1,4 +1,4 @@
-# Python: Variables
+# 2. Python: Variables
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -6,11 +6,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/variables.html](https://yasirbhutta.github.io/python/docs/variables.html)
 
-## Variables
+## 2.1 Variables
 
 - Storage containers for data (numbers, text, etc.).
 
-## What is a variable
+## 2.2 What is a variable
 
 - A variable is a named storage location in a computer's memory that is used to hold data or values. It allows programmers to store and manipulate data within a program.
 
@@ -24,7 +24,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - Each box has a name (label) to identify what's inside.
 - You can put things in, take them out, and change what's inside.
 
-## Variable names
+## 2.3 Variable names
 
 In Python, valid variable names must adhere to the following rules:
 
@@ -75,8 +75,11 @@ print(area)
 ```
 
 **Example 5**: [How to assign multiple values to multiple variables?](https://youtu.be/ur8rkDPzuSU)
+
 **Example 6:** [How to Swap Variables Without a Third Variable in Python](https://youtu.be/CVy3A48WXeE)
+
 **Example 7:** [Calculate the Area of a Circle with Radius](https://www.youtube.com/watch?v=QoECA8v_2tQ)
+
 **Example 8:** [Python Variable Names: Case-Sensitive? Avoid This Coding Mistake!](https://youtu.be/hEoVi5hZHVg)
 
 **Key Points:**
