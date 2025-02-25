@@ -37,6 +37,9 @@
 30. Using Cloud Storage: Store and access files online (OneDrive, Google Drive).
 31. Microsoft 365 Online
 32. Microsoft 365 Mobile App (Word, Excel, PowerPoint)
+    **Excel**
+    - Get and Transform Data (Scan table from hardcopy into excel, get data from pdf)
+    - Conditional Formatting, Data Validation [lecture notes](https://yasirbhutta.github.io/ms-excel/docs/advance-features.html)
 33. Google Docs, Google Sheets and Google Slides
 34. Using Canva
 35. Using CapCut
