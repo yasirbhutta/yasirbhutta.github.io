@@ -94,6 +94,97 @@ if is_raining:
     print("Bring an umbrella!")
 ```
 
+Great! Here’s your next task.  
+
+---
+
+### **Task 1: Type Checking in Python**  
+Write a Python program that:  
+- Declares three different types of numbers: an integer, a float, and a complex number.  
+- Uses the `type()` function to check the data type of each number.  
+- Prints the data type of each number in a descriptive way.  
+
+**Example Output:**  
+```
+The type of variable x is: <class 'int'>  
+The type of variable y is: <class 'float'>  
+The type of variable z is: <class 'complex'>  
+```
+---
+
+### **Task 2: Convert Integer to String**  
+Write a Python program that:  
+- Takes an integer as input.  
+- Converts it to a string using the `str()` function.  
+- Concatenates the string with another message and prints it.  
+
+**Example Input:**  
+```
+Enter a number: 100  
+```
+
+**Expected Output:**  
+```
+Your number is: 100  
+```
+
+---
+
+### **Task 3: Convert String to Integer**  
+Write a Python program that:  
+- Takes a numeric string as input (e.g., `"123"`).  
+- Converts it into an integer using the `int()` function.  
+- Multiplies the number by 2 and prints the result.  
+
+**Example Input:**  
+```
+Enter a number as a string: 50  
+```
+
+**Expected Output:**  
+```
+Double the number: 100  
+```
+
+---
+
+### **Task 4: Convert Integer to Octal and Hexadecimal**  
+Write a Python program that:  
+- Takes an integer as input from the user.  
+- Converts it to **octal** using `oct()` and **hexadecimal** using `hex()`.  
+- Prints both results.  
+
+**Example Input:**  
+```
+Enter a number: 255  
+```
+
+**Expected Output:**  
+```
+Octal: 0o377  
+Hexadecimal: 0xff  
+```
+
+---
+
+### **Task 5: Convert Octal and Hexadecimal to Integer**  
+Write a Python program that:  
+- Takes an **octal** and a **hexadecimal** number as input (as strings).  
+- Converts them back to integers using `int(value, base)`.  
+- Prints the decimal values.  
+
+**Example Input:**  
+```
+Enter an octal number: 0o377  
+Enter a hexadecimal number: 0xff  
+```
+
+**Expected Output:**  
+```
+Octal to Integer: 255  
+Hexadecimal to Integer: 255  
+```
+
 ## 3.4 **Data Structures and Sequences**
 
 ### 3.4.1 Tuple in Python
@@ -244,6 +335,201 @@ print(fruits)  # Output: {'apple', 'banana', 'cherry'}
 Notice how `apple` only appears once, even though we tried to add it twice.
 
 For more details , see [Data Structures and Sequences](dss.md)
+
+### **Task 6: Creating a Tuple**  
+Write a Python program that:  
+- Creates a tuple with **three** different items (e.g., a number, a word, and a decimal).  
+- Prints the **entire tuple**.  
+- Prints the **first item** in the tuple.  
+
+**Example Output:**  
+```
+Tuple: (10, 'Apple', 3.5)
+First item: 10
+```
+
+### **Task 7: Tuple Unpacking**  
+Write a Python program that:  
+- Creates a tuple with three values: name, age, and country.  
+- Uses **tuple unpacking** to assign each value to separate variables.  
+- Prints the extracted values.  
+
+**Example Output:**  
+```
+Name: Alice
+Age: 25
+Country: USA
+```
+
+---
+
+### **Task 8: Accessing Tuple Elements**  
+Write a Python program that:  
+- Creates a tuple with **five numbers**.  
+- Prints the **last number** using negative indexing.  
+
+**Example Output:**  
+```
+Numbers: (5, 10, 15, 20, 25)
+Last number: 25
+```
+
+---
+
+### **Task 9: Creating a List**  
+Write a Python program that:  
+- Creates a list of **four favorite foods**.  
+- Prints the **entire list**.  
+- Prints the **second food** from the list.  
+
+**Example Output:**  
+```
+Favorite Foods: ['Pizza', 'Burger', 'Pasta', 'Ice Cream']
+Second food: Burger
+```
+
+---
+
+### **Task 10: Changing an Item in a List**  
+Write a Python program that:  
+- Creates a list with **three colors**.  
+- Changes the **first color** to a new one.  
+- Prints the updated list.  
+
+**Example Output:**  
+```
+Original List: ['Red', 'Blue', 'Green']
+Updated List: ['Yellow', 'Blue', 'Green']
+```
+
+---
+
+### **Task 11: Adding to a List**  
+Write a Python program that:  
+- Creates an empty list.  
+- Asks the user to enter **three city names** and adds them to the list.  
+- Prints the final list.  
+
+**Example Input:**  
+```
+Enter a city: Paris  
+Enter a city: London  
+Enter a city: Tokyo  
+```
+
+**Example Output:**  
+```
+Cities: ['Paris', 'London', 'Tokyo']
+```
+
+---
+
+### **Task 12: Creating a Dictionary**  
+Write a Python program that:  
+- Creates a dictionary with **two items** (name and age).  
+- Prints the dictionary.  
+- Prints only the **name** from the dictionary.  
+
+**Example Output:**  
+```
+Person: {'name': 'Alice', 'age': 25}
+Name: Alice
+```
+
+---
+
+### **Task 13: Adding to a Dictionary**  
+Write a Python program that:  
+- Creates a dictionary with **name and country**.  
+- Adds a new key **"hobby"** with a value.  
+- Prints the updated dictionary.  
+
+**Example Output:**  
+```
+Original Dictionary: {'name': 'John', 'country': 'USA'}
+Updated Dictionary: {'name': 'John', 'country': 'USA', 'hobby': 'Reading'}
+```
+
+---
+
+### **Task 14: Creating a Set**  
+Write a Python program that:  
+- Creates a set with **four different numbers**.  
+- Prints the set.  
+
+**Example Output:**  
+```
+Numbers: {1, 2, 3, 4}
+```
+
+---
+
+### **Task 15: Removing Duplicates Using a Set**  
+Write a Python program that:  
+- Takes a list with **duplicate numbers**.  
+- Converts it into a set to remove duplicates.  
+- Prints the unique numbers.  
+
+**Example Input:**  
+```
+Original List: [1, 2, 2, 3, 3, 4, 5]
+```
+
+**Example Output:**  
+```
+Unique Numbers: {1, 2, 3, 4, 5}
+```
+
+### **Task 16: Creating and Accessing a List**  
+Write a Python program that:  
+- Creates a list of **five favorite movies**.  
+- Prints the **entire list**.  
+- Accesses and prints the **third movie** in the list using indexing.  
+- Changes the **last movie** in the list to a new movie.  
+- Prints the updated list.  
+
+**Example Output:**  
+```
+Original List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'Joker']
+Third movie: Avatar
+Updated List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'The Dark Knight']
+```
+
+---
+
+### **Task 17: Creating and Using a Set**  
+Write a Python program that:  
+- Creates a set of **unique numbers** from a given list (including duplicate values).  
+- Prints the unique numbers.  
+
+**Example Input:**  
+```
+Original List: [1, 2, 2, 3, 4, 4, 5]
+```
+
+**Expected Output:**  
+```
+Unique Numbers: {1, 2, 3, 4, 5}
+```
+
+---
+
+### **Task 18: Set Operations**  
+Write a Python program that:  
+- Creates two sets: one with **even numbers** and one with **prime numbers** (both from 1 to 10).  
+- Finds the **union** (all unique numbers from both sets).  
+- Finds the **intersection** (numbers that are in both sets).  
+- Prints the results.  
+
+**Expected Output:**  
+```
+Even Numbers: {2, 4, 6, 8, 10}
+Prime Numbers: {2, 3, 5, 7}
+Union: {2, 3, 4, 5, 6, 7, 8, 10}
+Intersection: {2}
+```
+
+---
 
 ## 3.5 Why Use Data Types?
 
