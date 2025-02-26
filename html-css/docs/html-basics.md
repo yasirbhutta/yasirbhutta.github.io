@@ -464,6 +464,415 @@ content generated using [https://www.lipsum.com/](https://www.lipsum.com/)
 </html>
 ```
 
+# **HTML Lists: Ordered, Unordered, and Definition Lists**
+
+## **1. Ordered List (`<ol>`)**
+An **Ordered List** is used when the order of the items matters. It is displayed with numbers or other sequence indicators (e.g., Roman numerals, letters).
+
+### **Syntax:**
+```html
+<ol>
+    <li>Wake up</li>
+    <li>Brush your teeth</li>
+    <li>Eat breakfast</li>
+</ol>
+```
+### **Output:**
+1. Wake up  
+2. Brush your teeth  
+3. Eat breakfast  
+
+### **Types of Ordered Lists:**
+You can change the numbering style using the `type` attribute.
+```html
+<ol type="A"> <!-- Uppercase Letters -->
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+</ol>
+```
+#### **Other types:**
+- `type="1"` → Default (1, 2, 3, ...)  
+- `type="A"` → Uppercase letters (A, B, C, ...)  
+- `type="a"` → Lowercase letters (a, b, c, ...)  
+- `type="I"` → Uppercase Roman numerals (I, II, III, ...)  
+- `type="i"` → Lowercase Roman numerals (i, ii, iii, ...)  
+
+---
+
+## **2. Unordered List (`<ul>`)**
+An **Unordered List** is used when the order of the items does not matter. It is displayed with bullet points.
+
+### **Syntax:**
+```html
+<ul>
+    <li>Milk</li>
+    <li>Bread</li>
+    <li>Eggs</li>
+</ul>
+```
+### **Output:**
+- Milk  
+- Bread  
+- Eggs  
+
+### **Types of Bullets:**
+You can change the bullet style using the `type` attribute.
+```html
+<ul type="square">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+</ul>
+```
+#### **Other types:**
+- `type="disc"` → Default (●)  
+- `type="square"` → Square bullets (■)  
+- `type="circle"` → Hollow circle (○)  
+
+---
+
+## **3. Definition List (`<dl>`)**
+A **Definition List** is used for defining terms with their descriptions.
+
+### **Syntax:**
+```html
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language - used for creating web pages.</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets - used for styling web pages.</dd>
+</dl>
+```
+### **Output:**
+**HTML**  
+&nbsp;&nbsp;&nbsp;&nbsp;HyperText Markup Language - used for creating web pages.  
+
+**CSS**  
+&nbsp;&nbsp;&nbsp;&nbsp;Cascading Style Sheets - used for styling web pages.  
+
+### **Elements in a Definition List:**
+- `<dl>` → Definition List container  
+- `<dt>` → Term (word or phrase)  
+- `<dd>` → Description (explanation of the term)  
+
+---
+
+## **Key Differences**
+| List Type      | Purpose | Example |
+|---------------|---------|---------|
+| Ordered List (`<ol>`) | Sequence matters | Steps to follow in a recipe |
+| Unordered List (`<ul>`) | Order doesn't matter | Grocery shopping list |
+| Definition List (`<dl>`) | Provides definitions | Glossary of terms |
+
+---
+
+### Example: Ordered List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Read more: https://html.com/lists/ -->
+
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+    </ol>
+
+    <ol reversed>
+        <li>Item 3</li>
+        <li>Item 2</li>
+        <li>Item 1</li>
+    </ol>
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+    </ol>
+
+    <p>A few short sentences about Item 2 that we don't want to appear appended to the list item. A second sentence of
+        additional details</p>
+
+    <ol start="3">
+        <li>Step 3</li>
+        <li>Step 4</li>
+    </ol>
+    <p>Notice that we used the <code>start</code> attribute on the <code>ol</code> tag to restart the numbering at "3"
+        following the break in the list above. We'll use the same technique to properly number Step 5 below.</p>
+    <ol start="5">
+        <li>Step 5</li>
+    </ol>
+</body>
+
+</html>
+```
+
+### **Beginner Tasks for HTML Lists**
+
+#### **Task 1: Create an Ordered List**
+- Create an HTML file and write an ordered list of **your daily routine**.
+- Use different numbering types (`1`, `A`, `a`, `I`, `i`).
+- Try using the `start` and `reversed` attributes.
+
+#### **Task 2: Create an Unordered List**
+- Make an unordered list of **your favorite foods**.
+- Change the bullet style using `type="disc"`, `type="square"`, and `type="circle"`.
+
+#### **Task 3: Create a Definition List**
+- Write a definition list explaining at least **three web technologies** (e.g., HTML, CSS, JavaScript).
+- Add short descriptions for each term.
+
+#### **Task 4: Combine Lists**
+- Create a webpage that includes:
+  1. An ordered list of **steps to cook your favorite dish**.
+  2. An unordered list of **ingredients needed**.
+  3. A definition list explaining **at least two cooking terms**.
+
+#### **Task 5: Experiment with Nested Lists**
+- Create a nested list where:
+  - The main list is an **ordered list** of different countries.
+  - Each country has an **unordered list** of at least **three famous cities**.
+
+
+### **HTML Tables Explained for Beginners**
+
+An **HTML table** is used to display data in rows and columns. It is created using the `<table>` tag, and each row is defined using the `<tr>` (table row) tag. Inside rows, data is placed within `<td>` (table data) tags, and headings are defined with `<th>` (table header) tags.
+
+---
+
+### **Basic Structure of an HTML Table**
+```html
+<table>
+    <tr>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+        <th>Heading 3</th>
+    </tr>
+    <tr>
+        <td>Row 1, Data 1</td>
+        <td>Row 1, Data 2</td>
+        <td>Row 1, Data 3</td>
+    </tr>
+    <tr>
+        <td>Row 2, Data 1</td>
+        <td>Row 2, Data 2</td>
+        <td>Row 2, Data 3</td>
+    </tr>
+</table>
+```
+
+### **Explanation:**
+- `<table>` → Defines the table.
+- `<tr>` → Represents a row in the table.
+- `<th>` → Creates a **header cell** (bold text by default).
+- `<td>` → Creates a **regular data cell**.
+
+---
+
+### **Example: A Simple Student Marks Table**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Marks Table</title>
+</head>
+<body>
+
+    <h2>Student Marks</h2>
+
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Hamza</td>
+            <td>Math</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Muhammmad</td>
+            <td>Science</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>English</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+```
+
+### **Beginner HTML Table Tasks**  
+
+#### **Task 1: Create a Basic Table**  
+- Create an HTML table with **three columns**: `Product Name`, `Price`, and `Quantity`.  
+- Add at least **three rows of data**.  
+
+---
+
+#### **Task 2: Add a Table Header**  
+- Modify your previous table by adding **bold headers** (`<th>`).  
+- Example headers: `Name`, `Age`, `City`.  
+
+---
+
+#### **Task 3: Add a Table Border**  
+- Apply the `border="1"` attribute to make the table **visible with borders**.  
+
+---
+
+#### **Task 4: Create a Student Report Card**  
+- Make an HTML table with the following columns:  
+  - `Student Name`
+  - `Math`
+  - `Science`
+  - `English`
+  - `Total Marks`  
+- Add at least **three students’ scores** in rows.  
+
+---
+
+### **Example of `colspan` and `rowspan` in an HTML Table**  
+
+#### **1. Using `colspan` (Merging Columns)**
+The `colspan` attribute is used to merge multiple columns into one.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Colspan Example</title>
+</head>
+<body>
+
+    <h2>Colspan Example</h2>
+    
+    <table border="1">
+        <tr>
+            <th colspan="3">Student Information</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>15</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Emma</td>
+            <td>14</td>
+            <td>B</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+```
+
+### **Explanation of `colspan`:**
+- The first row has a **single merged header** spanning **three columns** using `colspan="3"`.
+- Below it, the normal table structure is followed.
+
+---
+
+#### **2. Using `rowspan` (Merging Rows)**
+The `rowspan` attribute is used to merge multiple rows into one.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rowspan Example</title>
+</head>
+<body>
+
+    <h2>Rowspan Example</h2>
+    
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th rowspan="2">Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Emma</td>
+            <td>Science</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+```
+
+### **Explanation of `rowspan`:**
+- The **"Subject" header spans two rows** using `rowspan="2"`.
+- This means **John’s row does not have a separate "Subject" cell** as it is merged with the one above.
+
+---
+
+### **When to Use `colspan` and `rowspan`**
+- **Use `colspan`** when you want a **single cell to stretch across multiple columns**.
+- **Use `rowspan`** when you want a **single cell to stretch across multiple rows**.
+
+
+### **Task 5: Create a Table with Merged Cells**  
+
+#### **Objective:**  
+- Use `colspan` to merge multiple **columns** into one.  
+- Use `rowspan` to merge multiple **rows** into one.  
+- Create a **school timetable** where a subject spans multiple time slots.  
+
+### **Sample Output:**
+#### **School Timetable**
+| Day       | Start   | End     | Subject  |
+|-----------|--------|--------|-----------|
+| **Monday**  | 9:00 AM | 10:00 AM | Math     |
+|            | 10:00 AM | 11:00 AM | Science  |
+| **Tuesday** | 9:00 AM | 10:00 AM | **English** (Merged for 2 Rows) |
+|            | 10:00 AM | 11:00 AM | |
+| **Break Time (Spanning all columns)** |
+| **Wednesday** | 9:00 AM | 10:00 AM | History  |
+
+---
+
+### **Explanation of `colspan` and `rowspan` Usage:**
+1. **Using `rowspan`:**  
+   - The **"Day" column** merges rows for Monday and Tuesday (`rowspan="2"`).  
+   - The **English subject** spans **two rows** (`rowspan="2"`) since it takes up **two time slots**.  
+
+2. **Using `colspan`:**  
+   - The **header row** has `colspan="2"` for the time slot (Start & End).  
+   - The **Break Time row** spans **all four columns** using `colspan="4"`.  
+
+
+---
+
+### **Key Points in This Example:**
+- The `border="1"` attribute adds a border to the table for better visibility.
+- The first row contains **header cells** (`<th>`) for column titles.
+- Each following row contains **data cells** (`<td>`) with student names, subjects, and marks.
+
 ## Key Terms
 
 ## True/False (Mark T for True and F for False)
