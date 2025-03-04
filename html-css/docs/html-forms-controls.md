@@ -114,6 +114,29 @@
     </form>
 </body>
 ```
+In the HTML form you provided, the `pattern` and `required` attributes are used to control the input validation:
+
+### 1. **`pattern=".+@gmail\.com"`**
+   - This is a **regular expression (regex)** that specifies the required format for the email input.
+   - Breakdown of the pattern:
+     - `.+` → Matches **one or more** characters (ensures that something comes before "@").
+     - `@gmail\.com` → Requires the email to end exactly with `"@gmail.com"`.
+     - `\.` → The backslash (`\`) escapes the dot (`.`) because a dot in regex means "any character." Escaping ensures it is treated as a literal period.
+   - **Issue**: The label suggests a `globex.com` email is required, but the pattern only allows `gmail.com`. You may want to update the pattern accordingly.
+
+### 2. **`required`**
+   - This makes the field **mandatory**. The user **must** enter an email before submitting the form.
+   - If this attribute is missing, the form can be submitted even if the input field is empty.
+
+### **Potential Fix (for `globex.com` emails)**
+If you actually want to allow **`@globex.com`** emails, you should update the pattern:
+```html
+<input type="email" id="email" name="email" pattern=".+@globex\.com" size="30" required>
+```
+**See also:**
+
+- [HTML <input> pattern Attribute - w3schools](https://www.w3schools.com/Tags/att_input_pattern.asp)
+
 ## Example #8:
 ```html
 <body>
@@ -128,6 +151,39 @@
     </form>
 </body>
 ```
+### Explanation of `multipart/form-data`, `accept` and `multiple` in Your HTML Form:
+
+#### **1. `enctype="multipart/form-data"`**
+   - **Definition**: This attribute specifies how the form data should be encoded when submitting files.
+   - **Why It’s Needed?** 
+     - When uploading files, form data is more complex than simple text inputs.
+     - `multipart/form-data` ensures the file data is properly transmitted to the server.
+   - **How It Works?** 
+     - The form data is divided into multiple parts:
+       - **File content**
+       - **File metadata** (such as name, type)
+       - **Other form fields**
+     - The browser sends these parts as separate sections in the request body.
+
+#### **2. `accept="image/png, image/jpeg"`**
+   - **Definition**: This attribute restricts the types of files a user can select.
+   - **How It Works?**
+     - It allows only **PNG (`.png`) and JPEG (`.jpg, .jpeg`)** files to be chosen.
+     - The file picker will **gray out** or **hide** unsupported file types.
+   - **Example Modifications:**
+     - To allow **PDFs and Word documents**:
+       ```html
+       <input type="file" accept=".pdf, .doc, .docx">
+       ```
+     - To allow **all images**:
+       ```html
+       <input type="file" accept="image/*">
+       ```
+
+#### **3. `multiple` Attribute**
+   - This allows users to select **more than one file** at once.
+
+
 ## Example #9:
 ```html
 <body>
@@ -175,6 +231,50 @@
     </form>
 </body>
 ```
+
+The `checked` attribute is used in **radio buttons** and **checkboxes** to pre-select an option when the webpage loads.
+
+---
+
+**1. What is the `checked` Attribute?**
+- It makes a **radio button** or **checkbox** selected by default.
+- The user can still change the selection if they want.
+
+**2. How It Works with Checkboxes (`type="checkbox"`)**
+### ✅ **Example: Pre-Selected Checkbox**
+```html
+<form>
+  <label>
+    <input type="checkbox" name="subscribe" checked> Subscribe to Newsletter
+  </label>
+</form>
+```
+
+🔍 **Explanation:**
+- The checkbox is already **checked** when the page loads.
+- The user can **uncheck** it if they don't want to subscribe.
+
+**3. How It Works with Radio Buttons (`type="radio"`)**
+### 🎯 **Example: Pre-Selected Radio Button**
+```html
+<form>
+  <label><input type="radio" name="gender" value="male" checked> Male</label>
+  <label><input type="radio" name="gender" value="female"> Female</label>
+</form>
+```
+
+**Explanation:**
+- The **"Male"** option is **pre-selected**.
+- Since radio buttons work in groups (same `name` value), the user can **only select one option at a time**.
+- Clicking "Female" will **deselect** "Male."
+
+## **4. Important Notes**
+✔ The `checked` attribute **does not require a value** (e.g., `<input checked>` is valid).  
+✔ If **multiple radio buttons** in a group have `checked`, the **last one in the HTML** will be selected.  
+✔ Without `checked`, **no option is selected by default.**  
+
+
+
 ## Example #12:
 ```html
 <body>
