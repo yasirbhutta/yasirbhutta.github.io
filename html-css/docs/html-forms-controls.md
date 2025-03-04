@@ -345,3 +345,38 @@ The `checked` attribute is used in **radio buttons** and **checkboxes** to pre-s
     </form>
 </body>
 ```
+
+### **Task: User Registration Form**  
+
+Design and implement a **User Registration Form** using HTML form controls.  
+
+#### **Task Requirements:**  
+Create an online registration form with the following features:  
+
+1. **Personal Information**  
+   - Full Name (Text Input, Required, Max Length: 25)  
+   - Password (Password Input, Required, Max Length: 10)  
+   - Phone Number (Text Input, Required)  
+   - Date of Birth (Date Picker, Required)  
+   - Email Address (Email Input, Must be a valid Gmail address, Required)  
+
+2. **User Preferences**  
+   - Gender (Radio Buttons: Male, Female – Required)  
+   - Hobbies (Checkboxes: Reading, Traveling, Sports – User can select multiple)  
+   - Favorite Color (Color Picker)  
+
+3. **File Upload**  
+   - Profile Picture (File Input, Accepts only JPG/PNG files, Allows multiple uploads)  
+
+4. **Additional Settings**  
+   - Volume Level (Range Input, Min: 0, Max: 10)  
+   - Address (Text Input, Required, Placeholder: "Enter your address")  
+
+5. **Form Submission**  
+   - The form should include **Reset** and **Submit** buttons.  
+   - Ensure the form fields have proper validation (e.g., required fields, number limits, email pattern).  
+
+🔹 **Submission Guidelines:**  
+- Submit the HTML file with your form implementation.  
+- Ensure all fields are properly labeled and functional.  
+
