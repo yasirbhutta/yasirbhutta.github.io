@@ -16,9 +16,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Example #3: Checking Even or Odd](#example-3-checking-even-or-odd)
     - [Example #4: Age Group Classification](#example-4-age-group-classification)
     - [Example #5: Grade Assignment](#example-5-grade-assignment)
-    - [Example #6: Nested If-Else](#example-6-nested-if-else)
-    - [Example #7: Temperature Check](#example-7-temperature-check)
-    - [Example #8: Voting Eligibility \[video\]](#example-8-voting-eligibility-video)
+    - [Example #6: Voting Eligibility \[video\]](#example-6-voting-eligibility-video)
+    - [Example #7: Nested If-Else](#example-7-nested-if-else)
+    - [Example #8: Temperature Check](#example-8-temperature-check)
     - [Example #9: Checking String Length](#example-9-checking-string-length)
     - [Task #1: Password Check](#task-1-password-check)
     - [Task #2: Compare Two Numbers in Python](#task-2-compare-two-numbers-in-python)
@@ -117,7 +117,7 @@ if condition:
 
 The `condition` can be any logical expression. If the condition is evaluated to `true`, the block of `statements` is executed. Otherwise, the block of `statements` is skipped.
 
-Here is a simple example of an if statement in MATLAB:
+Here is a simple example of an if statement in PYTHON:
 
 ### Example #1:
 
@@ -239,7 +239,19 @@ else:
 ```
 **Explanation**: This code assigns a grade based on the `score`. It uses multiple `elif` statements to check for different score ranges.
 
-### Example #6: Nested If-Else
+### Example #6: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
+
+```python
+age = 17
+
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+```
+**Explanation**: This code checks if a person is eligible to vote based on their age. If `age` is 18 or more, it prints "You are eligible to vote"; otherwise, it prints "You are not eligible to vote".
+
+### Example #7: Nested If-Else
 
 ```python
 number = -5
@@ -254,7 +266,7 @@ else:
 ```
 **Explanation**: This code uses nested `if-else` statements to check if the number is zero, positive, or negative.
 
-### Example #7: Temperature Check
+### Example #8: Temperature Check
 
 ```python
 temperature = 30
@@ -266,17 +278,6 @@ else:
 ```
 **Explanation**: This code checks if the temperature is greater than 30. If true, it prints "It's a hot day"; otherwise, it prints "It's not a hot day".
 
-### Example #8: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
-
-```python
-age = 17
-
-if age >= 18:
-    print("You are eligible to vote")
-else:
-    print("You are not eligible to vote")
-```
-**Explanation**: This code checks if a person is eligible to vote based on their age. If `age` is 18 or more, it prints "You are eligible to vote"; otherwise, it prints "You are not eligible to vote".
 
 ### Example #9: Checking String Length
 

@@ -348,6 +348,8 @@ It Consists two units:
 ![motherboard image](images/motherboard_512x.jpg)
 Image by [macrovector](https://www.freepik.com/free-vector/system-plate-pc-isometric-illustration-with-semiconductor-elements-slots-microchips-capacitors-diodes-transistors_7496526.htm#query=ram%20primary%20memory&position=18&from_view=search&track=ais&uuid=fa5ec5b5-0f6c-45d6-b8ec-a91050618307) on Freepik
 
+[Video:Motherboards Explained](https://youtu.be/b2pd3Y6aBag?si=__bg3hplHR-CdkkU)
+
 **Buses:** Buses on a motherboard are electrical pathways that allow different components on the motherboard to communicate with each other.
 
 ### Computer Peripherals
