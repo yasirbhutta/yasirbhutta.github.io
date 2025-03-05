@@ -1,4 +1,4 @@
-# Python: Flow Control Statements
+# 5. Python: Flow Control Statements
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
@@ -8,39 +8,40 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 [**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
-- [Python: Flow Control Statements](#python-flow-control-statements)
-  - [Flow control statements](#flow-control-statements)
-  - [Conditional Statements (if, else, elif)](#conditional-statements-if-else-elif)
-    - [Example #1:](#example-1)
-    - [Example #2: Basic If-Else](#example-2-basic-if-else)
-    - [Example #3: Checking Even or Odd](#example-3-checking-even-or-odd)
-    - [Example #4: Age Group Classification](#example-4-age-group-classification)
-    - [Example #5: Grade Assignment](#example-5-grade-assignment)
-    - [Example #6: Voting Eligibility \[video\]](#example-6-voting-eligibility-video)
-    - [Example #7: Nested If-Else](#example-7-nested-if-else)
-    - [Example #8: Temperature Check](#example-8-temperature-check)
-    - [Example #9: Checking String Length](#example-9-checking-string-length)
-    - [Task #1: Password Check](#task-1-password-check)
-    - [Task #2: Compare Two Numbers in Python](#task-2-compare-two-numbers-in-python)
-    - [Task #3: Determine if a Number is Negative, Zero, or Positive](#task-3-determine-if-a-number-is-negative-zero-or-positive)
-    - [Task #4: Compare Two Input Numbers](#task-4-compare-two-input-numbers)
-    - [Task #5: Age Checker](#task-5-age-checker)
-    - [Task #6: Divisibility Check](#task-6-divisibility-check)
-    - [Task #7: Voting Eligibility Check](#task-7-voting-eligibility-check)
+- [5. Python: Flow Control Statements](#5-python-flow-control-statements)
+  - [5.1 Flow control statements](#51-flow-control-statements)
+  - [5.2 Conditional Statements (if, else, elif)](#52-conditional-statements-if-else-elif)
+    - [Example #5.1:](#example-51)
+    - [Example #5.2: Basic If-Else](#example-52-basic-if-else)
+    - [Example #5.3: Checking Even or Odd](#example-53-checking-even-or-odd)
+    - [Example #5.4: Age Group Classification](#example-54-age-group-classification)
+    - [Example #5.5: Grade Assignment](#example-55-grade-assignment)
+    - [Example #5.6: Voting Eligibility \[video\]](#example-56-voting-eligibility-video)
+    - [Example #5.7: Nested If-Else](#example-57-nested-if-else)
+    - [Example #5.8: Temperature Check](#example-58-temperature-check)
+    - [Example #5.9: Checking String Length](#example-59-checking-string-length)
+    - [Task #5.1: Password Check](#task-51-password-check)
+    - [Task #5.2: Compare Two Numbers in Python](#task-52-compare-two-numbers-in-python)
+    - [Task #5.3: Determine if a Number is Negative, Zero, or Positive](#task-53-determine-if-a-number-is-negative-zero-or-positive)
+    - [Task #5.4: Compare Two Input Numbers](#task-54-compare-two-input-numbers)
+    - [Task #5.5: Age Checker](#task-55-age-checker)
+    - [Task #5.6: Divisibility Check](#task-56-divisibility-check)
+    - [Task #5.7: Voting Eligibility Check](#task-57-voting-eligibility-check)
   - [loops](#loops)
     - [for loop](#for-loop)
       - [range() function:](#range-function)
-      - [**Example #9:** Print Numbers from 1 to 5](#example-9-print-numbers-from-1-to-5)
-      - [Example #10: Printing "Building the future, one line at a time." 5 Times Using a for Loop](#example-10-printing-building-the-future-one-line-at-a-time-5-times-using-a-for-loop)
-      - [Example #11: Sum of Numbers from 1 to N](#example-11-sum-of-numbers-from-1-to-n)
-      - [Task #8: Sum of Numbers in a Range](#task-8-sum-of-numbers-in-a-range)
-      - [Task #9: Display Even Numbers in a Range](#task-9-display-even-numbers-in-a-range)
-      - [Example #12: Print Even Numbers from 2 to 10 and sum of even numbers](#example-12-print-even-numbers-from-2-to-10-and-sum-of-even-numbers)
-      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables)
-      - [Example #13: String as an iterable](#example-13-string-as-an-iterable)
-      - [Example #14: Lists as an iterable](#example-14-lists-as-an-iterable)
-      - [Example #15: Loop over Lists of lists](#example-15-loop-over-lists-of-lists)
-      - [Example #16 Nested Loops - Multiplication Tables](#example-16-nested-loops---multiplication-tables)
+    - [Example #5.8](#example-58)
+      - [**Example #5.9:** Print Numbers from 1 to 5](#example-59-print-numbers-from-1-to-5)
+      - [Example #5.10: Printing "Building the future, one line at a time." 5 Times Using a for Loop](#example-510-printing-building-the-future-one-line-at-a-time-5-times-using-a-for-loop)
+      - [Example #5.11: Sum of Numbers from 1 to N](#example-511-sum-of-numbers-from-1-to-n)
+      - [Task #5.8: Sum of Numbers in a Range](#task-58-sum-of-numbers-in-a-range)
+      - [Task #5.9: Display Even Numbers in a Range](#task-59-display-even-numbers-in-a-range)
+      - [Example #5.10: Print Even Numbers from 2 to 10 and sum of even numbers](#example-510-print-even-numbers-from-2-to-10-and-sum-of-even-numbers)
+      - [Task #5.11: Display Multiplication Tables\*\*](#task-511-display-multiplication-tables)
+      - [Example #5.12: String as an iterable](#example-512-string-as-an-iterable)
+      - [Example #5.13: Lists as an iterable](#example-513-lists-as-an-iterable)
+      - [Example #5.14: Loop over Lists of lists](#example-514-loop-over-lists-of-lists)
+      - [Example #5.15 Nested Loops - Multiplication Tables](#example-515-nested-loops---multiplication-tables)
       - [Why We Use Variables in For Loops](#why-we-use-variables-in-for-loops)
       - [Example #17: Loop Through a List of Fruits in Python](#example-17-loop-through-a-list-of-fruits-in-python)
       - [Use of underscore in 'For Loop'](#use-of-underscore-in-for-loop)
@@ -48,7 +49,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [while loop](#while-loop)
       - [Example #19: Print numbers from 1 to 10 using while loop](#example-19-print-numbers-from-1-to-10-using-while-loop)
       - [Example #20: Print "Hello, world!" 5 times using while loop](#example-20-print-hello-world-5-times-using-while-loop)
-      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables-1)
+      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables)
       - [Task #11: Sum Integers from 1 to 100 Using While Loop](#task-11-sum-integers-from-1-to-100-using-while-loop)
       - [Example #21: Sum of even numbers from 2 to 20 using while loop](#example-21-sum-of-even-numbers-from-2-to-20-using-while-loop)
       - [Task #12: Calculate Squares of Numbers from 1 to 4 Using While Loop](#task-12-calculate-squares-of-numbers-from-1-to-4-using-while-loop)
@@ -94,7 +95,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [**Appendices**](#appendices)
     - [**Appendix A: Common Errors in Python**](#appendix-a-common-errors-in-python)
 
-## Flow control statements
+## 5.1 Flow control statements
 
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
 
@@ -103,7 +104,7 @@ Flow control statements in Python determine the order in which your code is exec
 3. Loop Control Statements (break, continue, pass)
 4. Match Statement (Python 3.10+)
 
-## Conditional Statements (if, else, elif)
+## 5.2 Conditional Statements (if, else, elif)
 
 - The `if` statement in Python is a conditional statement that allows you to execute a block of code only if a certain condition is met.
 - Make decisions using `if`, `elif`, and `else` statements.
@@ -119,7 +120,7 @@ The `condition` can be any logical expression. If the condition is evaluated to 
 
 Here is a simple example of an if statement in PYTHON:
 
-### Example #1:
+### Example #5.1:
 
 ```python
 x = 10
@@ -183,7 +184,7 @@ else:
 **Output:**
 This code will print the message "x is less than 5." to the console.
 
-### Example #2: Basic If-Else
+### Example #5.2: Basic If-Else
 
 ```python
 number = 10
@@ -195,7 +196,7 @@ else:
 ```
 **Explanation**: This code checks if the variable `number` is greater than 0. If true, it prints "The number is positive", otherwise it prints "The number is not positive".
 
-### Example #3: Checking Even or Odd 
+### Example #5.3: Checking Even or Odd 
 
 [related video:](https://youtube.com/shorts/za0rSiA33j0)
 
@@ -209,7 +210,7 @@ else:
 ```
 **Explanation**: This code checks if the variable `number` is even or odd. If `number % 2` equals 0, it is even; otherwise, it is odd.
 
-### Example #4: Age Group Classification
+### Example #5.4: Age Group Classification
 
 ```python
 age = 25
@@ -221,7 +222,7 @@ else:
 ```
 **Explanation**: This code classifies a person as a "Minor" if their age is less than 18, and as an "Adult" otherwise.
 
-### Example #5: Grade Assignment 
+### Example #5.5: Grade Assignment 
 
 [realted video](https://youtu.be/oEZzg0cUNw8)
 
@@ -239,7 +240,7 @@ else:
 ```
 **Explanation**: This code assigns a grade based on the `score`. It uses multiple `elif` statements to check for different score ranges.
 
-### Example #6: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
+### Example #5.6: Voting Eligibility [[video]](https://youtu.be/yxS0A5G1MCs)
 
 ```python
 age = 17
@@ -251,7 +252,7 @@ else:
 ```
 **Explanation**: This code checks if a person is eligible to vote based on their age. If `age` is 18 or more, it prints "You are eligible to vote"; otherwise, it prints "You are not eligible to vote".
 
-### Example #7: Nested If-Else
+### Example #5.7: Nested If-Else
 
 ```python
 number = -5
@@ -266,7 +267,7 @@ else:
 ```
 **Explanation**: This code uses nested `if-else` statements to check if the number is zero, positive, or negative.
 
-### Example #8: Temperature Check
+### Example #5.8: Temperature Check
 
 ```python
 temperature = 30
@@ -279,7 +280,7 @@ else:
 **Explanation**: This code checks if the temperature is greater than 30. If true, it prints "It's a hot day"; otherwise, it prints "It's not a hot day".
 
 
-### Example #9: Checking String Length
+### Example #5.9: Checking String Length
 
 ```python
 string = "Hello, World!"
@@ -292,7 +293,7 @@ else:
 
 **Explanation**: This code checks if the length of the `string` is greater than 10. If true, it prints "The string is long"; otherwise, it prints "The string is short".
 
-### Task #1: Password Check
+### Task #5.1: Password Check
 
 **Objective**: Write a Python program that checks if the provided password matches 
 the correct password and prints an appropriate message.
@@ -330,7 +331,7 @@ Access denied
 - In **Example 1**, since the password is correct, the output is `"Access granted"`.
 - In **Example 2**, since the password is incorrect, the output is `"Access denied"`.
   
-### Task #2: Compare Two Numbers in Python
+### Task #5.2: Compare Two Numbers in Python
 
 Write a Python program that compares two numbers `a` and `b`. If `a` is greater than `b`, the program should print the message "a is greater than b". Otherwise, it should print "a is not greater than b".
 
@@ -365,7 +366,7 @@ Write a Python program that compares two numbers `a` and `b`. If `a` is greater 
 **Explanation**:
 This code checks the relationship between `a` and `b`. If `a` is greater than `b`, it prints a message saying so; otherwise, it prints a different message.
 
-### Task #3: Determine if a Number is Negative, Zero, or Positive
+### Task #5.3: Determine if a Number is Negative, Zero, or Positive
 
 Write a Python program that checks whether a number `x` is negative, zero, or positive. The program should print:
 - "Negative" if `x` is less than 0,
@@ -419,7 +420,7 @@ This code checks whether the value of `x` is less than 0, equal to 0, or greater
 
 - [Python Quiz -IF](https://forms.gle/C71fbbFnDfigs4Dt8)
 
-### Task #4: Compare Two Input Numbers
+### Task #5.4: Compare Two Input Numbers
 
 Write a program that takes two numbers as input and prints 
 whether the first number is greater than, less than, or equal to the second number.
@@ -446,7 +447,7 @@ Enter the second number: 4
 4 is equal to 4
 ```
 
-### Task #5: Age Checker 
+### Task #5.5: Age Checker 
 
 Write a simple program that asks for the user’s age and checks if the user is older than 18.
 
@@ -470,7 +471,7 @@ Enter your age: 16
 You are younger than 18.
 ```
 
-### Task #6: Divisibility Check
+### Task #5.6: Divisibility Check
 - Write a program that checks if a given number is divisible by both 2 and 3.
 
 **Input:**
@@ -492,7 +493,7 @@ You are younger than 18.
 - **Output:**  
   `No`  
 
-### Task #7: Voting Eligibility Check
+### Task #5.7: Voting Eligibility Check
 - Create a program that takes the age and country of a person as input 
   and checks if they are eligible to vote in that country 
   (consider the voting age as 18 and the country as "USA").
@@ -556,6 +557,8 @@ for item in iterable:
 
 Here are the common usages:
 
+### Example #5.8
+
 1. **Single Argument (`stop`)**:
    ```python
    range(stop)
@@ -596,7 +599,7 @@ list(range(5))  # Output: [0, 1, 2, 3, 4]
 - [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
 - [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
-#### **Example #9:** Print Numbers from 1 to 5 
+#### **Example #5.9:** Print Numbers from 1 to 5 
 
 [video](https://youtu.be/2mhrDgBEp10)
 
@@ -607,7 +610,7 @@ for i in range(6):
     print(i)
 ```
 
-#### Example #10: Printing "Building the future, one line at a time." 5 Times Using a for Loop
+#### Example #5.10: Printing "Building the future, one line at a time." 5 Times Using a for Loop
 
 **Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
 
@@ -616,13 +619,13 @@ for i in range(5):
     print("Building the future, one line at a time.")
 ```
 
-#### Example #11: Sum of Numbers from 1 to N
+#### Example #5.11: Sum of Numbers from 1 to N
 
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
-#### Task #8: Sum of Numbers in a Range
+#### Task #5.8: Sum of Numbers in a Range
 
 **Description:**
 
@@ -654,7 +657,7 @@ The sum of numbers from 1 to 5 is: 15
 - Accumulate the sum of numbers using a variable inside the loop.
 
 
-#### Task #9: Display Even Numbers in a Range
+#### Task #5.9: Display Even Numbers in a Range
 
 **Description:**
 
@@ -689,7 +692,7 @@ Enter the end of the range: 10
 - Use a `for` loop to iterate through the range.
 - Check if a number is even using the modulus (`%`) operator.
   
-#### Example #12: Print Even Numbers from 2 to 10 and sum of even numbers
+#### Example #5.10: Print Even Numbers from 2 to 10 and sum of even numbers
 
 **Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
 
@@ -702,7 +705,7 @@ for i in range(2,11):
 print(f"Sum of even numbers: {sum}")
 ```
 
-#### Task #10: Display Multiplication Tables**
+#### Task #5.11: Display Multiplication Tables**
 
 **Description:**
 
@@ -745,11 +748,11 @@ Enter a number: 5
 **Requirements:**
 - Use a `for` loop to generate and display the multiplication table.
 
-#### Example #13: String as an iterable
+#### Example #5.12: String as an iterable
 
 [video: String as an iterable](https://www.youtube.com/watch?v=uC0bbj08d4A)
 
-#### Example #14: Lists as an iterable
+#### Example #5.13: Lists as an iterable
 
 ```python
 collection = ['python', 5, 'd']
@@ -757,7 +760,7 @@ for x in collection:
     print(x)
 ```
 
-#### Example #15: Loop over Lists of lists
+#### Example #5.14: Loop over Lists of lists
 
 ```python
 list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -768,7 +771,7 @@ for list in list_of_lists:
 
 - A **nested loop** is a loop inside another loop. It is a powerful programming technique that can be used to solve a wide variety of problems.
 
-#### Example #16 Nested Loops - Multiplication Tables
+#### Example #5.15 Nested Loops - Multiplication Tables
 
 ```python
 for i in range(1, 11):
