@@ -290,30 +290,7 @@ How they work:
 - It is the brain of the computer.
 - It is also called processor.
 - CPU continually receives instructions to execute. CPU performs all operations according to the given instructions. It executes instructions and tells other parts of computer what to do.
-
-The CPU (Central Processing Unit) performs a variety of operations, typically classified into several types:
-
-1. Arithmetic Operations: These include basic mathematical operations such as addition, subtraction, multiplication, and division. The Arithmetic Logic Unit (ALU) handles these tasks.
-2. Logical Operations: The CPU performs logical operations like AND, OR, NOT, and XOR, used in decision-making processes.
-3. Data Transfer Operations: The CPU moves data from one location to another, such as from memory to registers, registers to memory, or between different registers.
-4. Control Operations: These involve decision-making instructions, such as comparing values and jumping to different instructions based on conditions (e.g., branch instructions).
-5. Input/Output Operations: The CPU manages communication with external devices, reading input from devices like a keyboard or writing output to devices like a monitor or printer.
-
-
-These operations are carried out through a series of instructions in the instruction cycle (fetch, decode, execute, and store).
-
-1. Fetch: The CPU retrieves an instruction from the computer's memory (RAM).
-2. Decode: The CPU interprets (decodes) the fetched instruction to understand what needs to be done.
-3. Execute: The CPU performs the operation specified by the instruction (e.g., arithmetic operations like addition, multiplication, etc.).
-4. Store: The CPU stores the result of the operation back into memory, registers, or sends it to an output device.
-These steps are part of what’s called the instruction cycle or fetch-decode-execute cycle.
-
-The performance of your CPU significantly impacts how fast your computer can run programs and perform tasks. Here are some key factors that affect CPU performance:
-
-- **Clock speed:** Measured in Gigahertz (GHz), it indicates the number of cycles the CPU can perform per second. Higher clock speeds generally mean faster performance.
-- **Number of cores:** Modern CPUs typically have multiple cores, allowing them to handle multiple tasks simultaneously. More cores can improve performance for multitasking and programs that can leverage multiple cores.
-- **Cache:** A small amount of high-speed memory built into the CPU that stores frequently accessed data and instructions. Faster access to this data can improve processing speed.
-
+  
 CPU consists of two main units:
 
 - **ALU (Arithmetic and logic Unit)**
@@ -332,6 +309,35 @@ It Consists two units:
 
 - It controls all activities of computer system.
 - It is also called the `supervisor` of the computer.
+
+The CPU (Central Processing Unit) performs a variety of operations, typically classified into several types:
+
+1. Arithmetic Operations: These include basic mathematical operations such as addition, subtraction, multiplication, and division. The Arithmetic Logic Unit (ALU) handles these tasks.
+2. Logical Operations: The CPU performs logical operations like AND, OR, NOT, and XOR, used in decision-making processes.
+3. Data Transfer Operations: The CPU moves data from one location to another, such as from memory to registers, registers to memory, or between different registers.
+4. Control Operations: These involve decision-making instructions, such as comparing values and jumping to different instructions based on conditions (e.g., branch instructions).
+5. Input/Output Operations: The CPU manages communication with external devices, reading input from devices like a keyboard or writing output to devices like a monitor or printer.
+
+**Machine Cycles**
+
+- Each time the CPU executes an instructions, It takes a series of steps. The complete series of steps is called machine cycle. 
+- A machine cycle itself can be broken down into two smaller cycles: the instruction cycle and the execution cycle.
+
+**1. Instruction cycle**
+
+1. **Fetching**: The CPU retrieves an instruction from the computer's memory (RAM).
+2. **Decoding**: The CPU interprets (decodes) the fetched instruction to understand what needs to be done (breaks the command into instuction set the CPU can handle)
+
+**2. Execution cycle**
+
+3. **Executing**: The CPU performs the operation specified by the instruction (e.g., arithmetic operations like addition, multiplication, etc.).
+4. **Storing**: The CPU stores the result of the operation back into memory, registers, or sends it to an output device. For more details, see [1, p. 130].
+
+The performance of your CPU significantly impacts how fast your computer can run programs and perform tasks. Here are some key factors that affect CPU performance:
+
+- **Clock speed:** Measured in Gigahertz (GHz), it indicates the number of cycles the CPU can perform per second. Higher clock speeds generally mean faster performance.
+- **Number of cores:** Modern CPUs typically have multiple cores, allowing them to handle multiple tasks simultaneously. More cores can improve performance for multitasking and programs that can leverage multiple cores.
+- **Cache:** A small amount of high-speed memory built into the CPU that stores frequently accessed data and instructions. Faster access to this data can improve processing speed. for more details, see [Appendix A](#appendix-a-cpu-clock-speed-and-cycles)
 
 ### Motherboard
 
@@ -668,11 +674,20 @@ Memory Access:
   
 ## References and Bibliography
 
-- [1] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+- [1] P. Norton, Peter Norton’s Introduction to Computers. 7th Edition. Simon & Schuster Books For Young Readers, 2021.
 - [2] [USB Explained: All the Different Types (and What They're Used for)](https://www.howtogeek.com/53587/usb-explained-all-the-different-types-and-what-theyre-used-for/)
 - [3] [Contrast ratio](https://en.wikipedia.org/wiki/Contrast_ratio)
 - [4] “Different Types of Printer Ink: The Ultimate Guide,” CDW.com. <https://www.cdw.com/content/cdw/en/articles/hardware/types-of-ink-for-printers.html>
 - [5] Wikipedia Contributors, “Desktop computer,” Wikipedia, Nov. 01, 2024. <https://en.wikipedia.org/wiki/Desktop_computer#/media/File:Desktop_computer_system_diagram_(English).svg>
+- [6] S. Sirois, “What is Processor Speed and Why Does It Matter?,” www.hp.com, Dec. 18, 2018. <https://www.hp.com/us-en/shop/tech-takes/what-is-processor-speed> (accessed Mar. 06, 2025).
+- [7] “Clock Cycle Definition,” techterms.com. <https://techterms.com/definition/clockcycle> (accessed Mar. 06, 2025).
+- [8] S. Harding, “What Is a CPU’s Clock Speed? A Basic Definition,” Tom’s Hardware, Aug. 24, 2018. <https://www.tomshardware.com/news/clock-speed-definition%2C37657.html> (accessed Mar. 06, 2025).
+- [9] [What Is a USB Port? - LifeWire](https://www.lifewire.com/what-is-a-usb-port-818166)
+
+‌
+‌
+‌
+‌
 ‌
 ‌
 
@@ -690,3 +705,19 @@ Memory Access:
 
   9.	A ______________ is an output device that prints characters, symbols and graphics on paper.
 10.	In computing, a _____________ is a device that optically scans images, printed text, handwriting, or an object, and converts it to a digital image.
+
+## **Appendices**
+
+### **Appendix A: CPU Clock Speed and Cycles**
+
+The term **GHz (Gigahertz)** in CPU specifications refers to the processor's clock speed, indicating how many cycles it can complete per second. Specifically, **1 GHz equals 1 billion cycles per second**. [6]
+
+A **clock cycle**, or simply a "cycle," is the fundamental unit of time for a CPU's operations. During each cycle, the CPU can perform basic tasks such as fetching an instruction, accessing memory, or writing data. However, most CPU processes require multiple clock cycles to complete complex instructions. [7]
+
+While a higher clock speed generally means the CPU can process more cycles per second, overall performance also depends on other factors, such as the number of instructions the CPU can execute per cycle (known as Instructions Per Cycle or IPC), the number of cores, and the processor's architecture. [8] 
+
+### **Appendix B: Definitions**
+This section contains the key definitions used throughout the notes...
+
+### **Appendix C: Extended Quotations**
+Here are the extended quotations referenced in the main body...
