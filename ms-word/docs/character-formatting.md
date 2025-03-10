@@ -95,6 +95,13 @@ Keyboard shortcut for Shrink Font: **CTRL+SHIFT + <**
 - Select the text that you want to underline. 
 - On the Home tab, click the Font Dialog Box Launcher, and then click the Font tab. 
 - In the Underline style box, click `Words only`.
+
+**Using Keyboard Shortcut**
+
+Keyboard shortcut for Bold: **CTRL+B**
+Keyboard shortcut for Italic: **CTRL+I**
+Keyboard shortcut for Underline: **CTRL+U**
+
 ### 1.4. Font Color
 - Font color is used to change the color of the text.
 
@@ -170,7 +177,7 @@ OR
 
 
 ### 1.9. Character Case
-- The character  in which text is written is called case of the text.
+- The character in which text is written is called case of the text.
 - Capital letters are called upper case letters.
 - Small letters are call lower case letters.
 
