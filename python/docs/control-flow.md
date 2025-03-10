@@ -354,6 +354,18 @@ Access denied
 - The program compares the variable `password` with the correct password `"password123"`. 
 - In **Example 1**, since the password is correct, the output is `"Access granted"`.
 - In **Example 2**, since the password is incorrect, the output is `"Access denied"`.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   
 ### Task #5.2: Compare Two Numbers in Python
 
