@@ -108,3 +108,70 @@ Inline styles in CSS are applied directly to an HTML element using the `style` a
 
 </html>
 ```
+
+Here’s a simple **document-level CSS task** for beginner students:  
+
+---
+
+### **Task: Style a Simple Web Page Using Document-Level CSS**  
+
+#### **Objective:** Learn to apply CSS styles using **document-level CSS** (inside a `<style>` tag in the HTML file).  
+
+#### **Instructions:**  
+1. Open a text editor (VS Code, Notepad++, or any preferred editor).  
+2. Create a new HTML file and name it `styled_page.html`.  
+3. Write the following HTML structure and apply CSS inside the `<style>` tag in the `<head>` section.  
+
+---
+
+### **Starter Code:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Page</title>
+    <style>
+        /* Document-Level CSS */
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: darkblue;
+            text-transform: uppercase;
+        }
+        p {
+            color: darkgreen;
+            font-size: 18px;
+        }
+        button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Styled Page</h1>
+    <p>This is a simple paragraph with some styling.</p>
+    <button>Click Me</button>
+</body>
+</html>
+```
+
+---
+
+### **Tasks for Students:**
+1. **Modify the Background:** Change the `background-color` of the page to another color.  
+2. **Change Text Color:** Modify the `h1` and `p` colors to different shades.  
+3. **Experiment with Font Styles:** Try using a different font-family.  
+4. **Customize the Button:** Change the `background-color`, `padding`, and `hover` effect.  
+5. **Add a Border to Paragraphs:** Use the `border` property to give paragraphs a border.  
