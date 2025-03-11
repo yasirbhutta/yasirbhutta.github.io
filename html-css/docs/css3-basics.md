@@ -174,4 +174,10 @@ Here’s a simple **document-level CSS task** for beginner students:
 2. **Change Text Color:** Modify the `h1` and `p` colors to different shades.  
 3. **Experiment with Font Styles:** Try using a different font-family.  
 4. **Customize the Button:** Change the `background-color`, `padding`, and `hover` effect.  
+```css
+button:hover {
+            background-color: darkblue;
+            transform: scale(1.1); /* Slightly increases the size */
+        }
+```
 5. **Add a Border to Paragraphs:** Use the `border` property to give paragraphs a border.  
