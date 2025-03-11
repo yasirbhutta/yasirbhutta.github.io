@@ -1,3 +1,6 @@
+
+## Inline Styles in CSS
+
 Inline styles in CSS are applied directly to an HTML element using the `style` attribute. Here are some basic examples for beginners:
 
 ### 1. **Change Text Color**
@@ -56,4 +59,52 @@ Inline styles in CSS are applied directly to an HTML element using the `style` a
 </div>
 ```
 
-Inline styles are useful for quick changes, but for better organization, it's recommended to use **internal or external CSS** in larger projects. Let me know if you need more examples! 😊
+## Document Level in CSS
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document level - CSS3</title>
+    <style type="text/css">
+        h1 {
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            color: white;
+            text-align: center;
+            background-color: goldenrod;
+            font-size: 28px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        p {
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+            background-color: darkblue;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <p>
+        I've learned that people will forget what you said, people will forget what you did, but people will never forget how you
+        made them feel.” ― Maya Angelou
+    </p>
+    <h1 style="color:red;">Heading</h1>
+    <p>
+         “Always forgive your enemies; nothing annoys them so much.” ― Oscar Wilde
+    </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, neque nulla, harum ipsum ea quae dolore laborum quis rem voluptates illo non inventore pariatur? Nisi, perspiciatis. Quo, sapiente hic. Dicta!</p>
+
+</body>
+
+</html>
+```

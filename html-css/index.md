@@ -19,8 +19,9 @@
 
 - [Intro. to Emmet](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
-## css
+## Cascading Style Sheets (CSS)
 
+- [Lecture notes: Cascading Style Sheets basics](docs/css3-basics.md)
 - [Cascading Style Sheets basics](https://docs.google.com/presentation/d/1YPv-nuxdL8wu_1RWu_nwvRYROiSGPNrC3HaensNWpi0/export?format=pdf)
 - [Selectors](https://docs.google.com/presentation/d/1iUu9FIBMNmZ7uD49wa8Ga_lfx5DJ8HjI7-FXhx5Dufc/export?format=pdf)
 - [CSS3 Property](https://docs.google.com/presentation/d/1Uww9WSzhwk8guCS-5dtmrbHYf2GS-vEZNjOWYdbfP5M/export?format=pdf)
