@@ -36,23 +36,23 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
       - [Example #5.11: Sum of Numbers from 1 to N](#example-511-sum-of-numbers-from-1-to-n)
       - [Task #5.8: Sum of Numbers in a Range](#task-58-sum-of-numbers-in-a-range)
       - [Task #5.9: Display Even Numbers in a Range](#task-59-display-even-numbers-in-a-range)
-      - [Example #5.10: Print Even Numbers from 2 to 10 and sum of even numbers](#example-510-print-even-numbers-from-2-to-10-and-sum-of-even-numbers)
+      - [Example #5.11: Print Even Numbers from 2 to 10 and sum of even numbers](#example-511-print-even-numbers-from-2-to-10-and-sum-of-even-numbers)
       - [Task #5.11: Display Multiplication Tables\*\*](#task-511-display-multiplication-tables)
       - [Example #5.12: String as an iterable](#example-512-string-as-an-iterable)
       - [Example #5.13: Lists as an iterable](#example-513-lists-as-an-iterable)
       - [Example #5.14: Loop over Lists of lists](#example-514-loop-over-lists-of-lists)
       - [Example #5.15 Nested Loops - Multiplication Tables](#example-515-nested-loops---multiplication-tables)
       - [Why We Use Variables in For Loops](#why-we-use-variables-in-for-loops)
-      - [Example #17: Loop Through a List of Fruits in Python](#example-17-loop-through-a-list-of-fruits-in-python)
+      - [Example #5.16: Loop Through a List of Fruits in Python](#example-516-loop-through-a-list-of-fruits-in-python)
       - [Use of underscore in 'For Loop'](#use-of-underscore-in-for-loop)
-        - [Example #18: Using an Underscore in a Loop to Print "Hello" Multiple Times](#example-18-using-an-underscore-in-a-loop-to-print-hello-multiple-times)
+        - [Example #5.17: Using an Underscore in a Loop to Print "Hello" Multiple Times](#example-517-using-an-underscore-in-a-loop-to-print-hello-multiple-times)
     - [while loop](#while-loop)
-      - [Example #19: Print numbers from 1 to 10 using while loop](#example-19-print-numbers-from-1-to-10-using-while-loop)
-      - [Example #20: Print "Hello, world!" 5 times using while loop](#example-20-print-hello-world-5-times-using-while-loop)
-      - [Task #10: Display Multiplication Tables\*\*](#task-10-display-multiplication-tables)
-      - [Task #11: Sum Integers from 1 to 100 Using While Loop](#task-11-sum-integers-from-1-to-100-using-while-loop)
-      - [Example #21: Sum of even numbers from 2 to 20 using while loop](#example-21-sum-of-even-numbers-from-2-to-20-using-while-loop)
-      - [Task #12: Calculate Squares of Numbers from 1 to 4 Using While Loop](#task-12-calculate-squares-of-numbers-from-1-to-4-using-while-loop)
+      - [Example #5.18: Print numbers from 1 to 10 using while loop](#example-518-print-numbers-from-1-to-10-using-while-loop)
+      - [Example #5.19: Print "Hello, world!" 5 times using while loop](#example-519-print-hello-world-5-times-using-while-loop)
+      - [Task #5.12: Display Multiplication Tables\*\*](#task-512-display-multiplication-tables)
+      - [Task #5.13: Sum Integers from 1 to 100 Using While Loop](#task-513-sum-integers-from-1-to-100-using-while-loop)
+      - [Example #5.20: Sum of even numbers from 2 to 20 using while loop](#example-520-sum-of-even-numbers-from-2-to-20-using-while-loop)
+      - [Task #5.14: Calculate Squares of Numbers from 1 to 4 Using While Loop](#task-514-calculate-squares-of-numbers-from-1-to-4-using-while-loop)
       - [Example #22: Prompt User for Input Until Blank Line is Entered](#example-22-prompt-user-for-input-until-blank-line-is-entered)
       - [Example #23: Sum User-Entered Numbers Until Zero is Entered](#example-23-sum-user-entered-numbers-until-zero-is-entered)
       - [Task #13: Sum User-Entered Numbers Until a Negative Number is Entered](#task-13-sum-user-entered-numbers-until-a-negative-number-is-entered)
@@ -739,7 +739,7 @@ Enter the end of the range: 10
 - Use a `for` loop to iterate through the range.
 - Check if a number is even using the modulus (`%`) operator.
   
-#### Example #5.10: Print Even Numbers from 2 to 10 and sum of even numbers
+#### Example #5.11: Print Even Numbers from 2 to 10 and sum of even numbers
 
 **Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
 
@@ -841,7 +841,7 @@ In Python, a variable in a `for` loop is used to iterate over a sequence (like a
 
 4. **Control Over Iteration**: The loop variable gives you control over the loop’s execution. You can use it to control the flow, such as skipping certain elements, breaking out of the loop early, or performing specific actions based on the variable's value.
 
-#### Example #17: Loop Through a List of Fruits in Python
+#### Example #5.16: Loop Through a List of Fruits in Python
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -866,7 +866,7 @@ The variable `fruit` is used to access and print each element in the `fruits` li
 
 For example, if you want to repeat an action a certain number of times but don't need to use the loop variable, you can use `_`:
 
-##### Example #18: Using an Underscore in a Loop to Print "Hello" Multiple Times
+##### Example #5.17: Using an Underscore in a Loop to Print "Hello" Multiple Times
 
 ```python
 for _ in range(5):
@@ -893,7 +893,7 @@ Here, condition is a boolean expression that is evaluated before each iteration 
 
 [video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
-#### Example #19: Print numbers from 1 to 10 using while loop
+#### Example #5.18: Print numbers from 1 to 10 using while loop
 
 Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
@@ -904,7 +904,7 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     count += 1  # Add 1 to the count for the next round
 ```
 
-#### Example #20: Print "Hello, world!" 5 times using while loop
+#### Example #5.19: Print "Hello, world!" 5 times using while loop
 
 Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
 
@@ -915,7 +915,7 @@ while i <= 10:
     i += 1
 ```
 
-#### Task #10: Display Multiplication Tables**
+#### Task #5.12: Display Multiplication Tables**
 
 **Description:**
 
@@ -958,7 +958,7 @@ Enter a number: 5
 **Requirements:**
 - Use a `while` loop to generate and display the multiplication table.
 
-#### Task #11: Sum Integers from 1 to 100 Using While Loop
+#### Task #5.13: Sum Integers from 1 to 100 Using While Loop
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
 **Input**:
@@ -980,7 +980,7 @@ This code uses a `while` loop to iterate through the integers from 1 to 100.
 In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
 After the loop completes, the total sum is printed.
 
-#### Example #21: Sum of even numbers from 2 to 20 using while loop
+#### Example #5.20: Sum of even numbers from 2 to 20 using while loop
 
 Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
@@ -996,7 +996,7 @@ while number <= 20:
 print(f'The sum of even numbers from 1 to 20 is: {sum}')
 ```
 
-#### Task #12: Calculate Squares of Numbers from 1 to 4 Using While Loop
+#### Task #5.14: Calculate Squares of Numbers from 1 to 4 Using While Loop
 Write a Python program that calculates and prints the square of the numbers from 1 to 4. The program should use a `while` loop to iterate through these numbers.
 
 **Input**:
