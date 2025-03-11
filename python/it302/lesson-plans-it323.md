@@ -30,6 +30,7 @@ By the end of this lecture, students will be able to:
 2. **Hands-on Activity: Basic While Loop Practice** 
    - Modify the given example to print numbers from 1 to 20 instead of 1 to 10.
    - Change the "Hello, world!" loop to print a user-defined number of times.
+   - Modify the sum-from-1-to-100 program to sum only odd numbers from 1 to 100.
 
 #### **Resources:**  
 📖 [Lecture Notes]([Control Flow Statements: while loop](https://yasirbhutta.github.io/python/docs/control-flow.html#while-loop))
