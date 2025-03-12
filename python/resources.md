@@ -6,6 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   
 ## Books
 
+- Starting Out with Python, Fourth Edition, by Tony Gaddis, Pearson, 2017.
 - Automate the Boring Stuff with Python - Practical Programming for Total Beginners by Al Sweigart [website](https://www.amazon.com/gp/product/1593275994/) \| [ebook](https://automatetheboringstuff.com/) (free to read)
 - Python One-Liners by Christian Mayer teaches you how to read and write "one-liners": concise statements of useful functionality packed into a single line of code. \| [website with free one-liner explainer videos](https://pythononeliners.com/)
 - [Python for Data Analysis, 3E](https://amzn.to/3DyLaJc) \| [ebook](https://wesmckinney.com/book) (free to read)

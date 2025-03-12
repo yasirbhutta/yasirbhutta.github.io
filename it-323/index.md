@@ -1,12 +1,13 @@
 # IT-323 Python Programming 3(2-1)
--
 
--
--
-[Course Content](https://drive.google.com/file/d/13FcS9OFdu7pT1ZFcPXnzfd2UpCAWmBbd/view?usp=drive_link)
+[Course Contents](https://drive.google.com/file/d/13FcS9OFdu7pT1ZFcPXnzfd2UpCAWmBbd/view?usp=drive_link)
 
 ## [Course Overview](docs/course-overview-it-323.md)
+
 ## Related Links
+
+- [Pyton Resources: Books, Websites, Tutorials](../python/resources.md)
+  
 ## Reference Books
 
 1. **Starting Out with Python, Fourth Edition, by Tony Gaddis, Pearson, 2017.**
@@ -18,6 +19,9 @@
 Publishers, 2022. ISBN: 978-969-7821-18-1.
 
 ## Lecture Videos
+
+- [Python training videos](../python/video-training-python.md)
+  
 ## Course Notes
 
 - [Python Language Basics](docs/basics.md)
