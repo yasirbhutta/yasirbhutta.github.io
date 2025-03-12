@@ -109,8 +109,6 @@ Inline styles in CSS are applied directly to an HTML element using the `style` a
 </html>
 ```
 
-Here’s a simple **document-level CSS task** for beginner students:  
-
 ---
 
 ### **Task: Style a Simple Web Page Using Document-Level CSS**  
@@ -180,4 +178,96 @@ button:hover {
             transform: scale(1.1); /* Slightly increases the size */
         }
 ```
-5. **Add a Border to Paragraphs:** Use the `border` property to give paragraphs a border.  
+5. **Add a Border to Paragraphs:** Use the `border` property to give paragraphs a border. 
+
+## External Level CSS
+
+External CSS is a method of applying styles to a webpage by linking an external stylesheet file. This approach keeps the HTML structure clean and makes it easier to maintain and update styles across multiple pages.
+
+### How External CSS Works:
+1. **Create a CSS file**  
+   - Save the file with a `.css` extension (e.g., `styles.css`).
+2. **Link the CSS file to an HTML document**  
+   - Use the `<link>` tag inside the `<head>` section of the HTML file.
+
+### Example:
+
+#### 1. HTML File (`index.html`):
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS Example</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Linking the external CSS file -->
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is an example of external CSS.</p>
+</body>
+</html>
+```
+
+#### 2. CSS File (`styles.css`):
+```css
+/* Styling for the heading */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Styling for the paragraph */
+p {
+    color: green;
+    font-size: 18px;
+}
+```
+
+### How It Works:
+- The browser reads the `index.html` file and sees the `<link>` tag pointing to `styles.css`.
+- It loads `styles.css` and applies the styles to the corresponding HTML elements.
+- The `<h1>` tag turns blue and is centered, while the `<p>` tag appears green with a font size of 18px.
+
+### Advantages of External CSS:
+- **Reusability:** The same CSS file can be used for multiple web pages.
+- **Separation of Concerns:** Keeps HTML structure separate from styling, making the code more organized.
+- **Easier Maintenance:** Updating the CSS file changes styles across all linked pages.
+
+---
+
+**See also:**
+
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+
+### **Task: Applying External CSS to Style a Webpage**
+
+#### **Objective:**  
+Create an HTML file and an external CSS file to style a simple webpage.
+
+#### **Instructions:**  
+1. **Create an HTML file (`task.html`)** with the following elements:
+   - A heading (`h1`) with the text **"My First Styled Page"**  
+   - A paragraph (`p`) with a short description of yourself.  
+   - A button (`button`) with the text **"Click Me"**  
+
+2. **Create an external CSS file (`task-styles.css`)** and apply the following styles:
+   - Set the background color of the webpage to `lightgray`.  
+   - Make the heading (`h1`) **red** and center-aligned.  
+   - Style the paragraph (`p`) with **blue text** and a font size of `16px`.  
+   - Style the button:
+     - Background color: `green`  
+     - Text color: `white`  
+     - Padding: `10px 20px`  
+     - Border-radius: `5px`  
+
+3. **Link the CSS file to the HTML file** using the `<link>` tag in the `<head>` section.
+
+#### **Bonus Challenge:**  
+Modify the button style to change its background color to **dark green** when hovered.
+
+#### **Expected Outcome:**  
+When you open the `task.html` file in a browser, you should see a well-styled page where the heading is red, the paragraph is blue, and the button is green with a hover effect.
+
+
