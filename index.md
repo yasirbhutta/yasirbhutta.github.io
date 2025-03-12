@@ -18,7 +18,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Google Assistant](google-workspace/docs/google-assistant.md)
 ## Courses
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
-- [IT-323 Python Programming 3(2-1)](python/teaching-schedule-it323.md)
+- [IT-323 Python Programming 3(2-1)](it-323/index.md)
 - [Computer Networks Lab](computer-networks/index.md)
 - [System and Network Administration](sna/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
