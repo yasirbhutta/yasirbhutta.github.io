@@ -64,6 +64,18 @@ Computer process data (input) into information (output) and often store the data
 - Requires processing to be done on them to suit requirements.
 - Gets converted into information after processing.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### What is a Process?
 
 - The computation done on the data to generate result is called Process. It could be any arithmetic  or logical operation done on the data.
@@ -111,7 +123,17 @@ Here are some examples of commands and programs:
 - Adobe Photoshop (image editing software)
 - VLC Media Player (video player)
 - Minecraft (video game)
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## Multiple Choice (Select the best answer)
 
 > What is the primary function of a computer?
