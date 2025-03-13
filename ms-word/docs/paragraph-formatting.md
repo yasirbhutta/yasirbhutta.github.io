@@ -70,7 +70,7 @@ Adjust the indentation (left or right) for paragraphs.
 
 ## 3. Line and Paragraph Spacing
 
-Adjust the space between lines of text or between paragraphs 1.
+Adjust the space between lines of text or between paragraphs.
 
 ## 4. Bulleted and Numbered Lists
 
@@ -84,7 +84,8 @@ Create bulleted or numbered lists using the Bulleted List and Numbered List comm
 - Text presented in a multiple column structure flows from the bottom of the first column to the top of the next column
 It can be changed to two columns in the middle of the page by applying two column style from that point 
 
-Apply Multiple column
+**Apply Multiple column**
+
 On the Page Layout tab, in the Page Setup  group, click Column. 
 
 Select one choice from Two,
@@ -93,7 +94,7 @@ More Options
 
 Single & Double Column Text 
 
-**Shading and Borders:**
+## **Shading and Borders:**
 
 Apply background color (shading) to a paragraph or selected text.
 Set borders around selected text, paragraphs, or tables 1.
@@ -143,30 +144,36 @@ On the Home tab, in the Paragraph group, click Line Spacing.
 
 Line spacing More options
 Change Line Spacing Using Keyboard
-Drop Cap
-The dropped cap is used to enlarge dropped initial capital letter in paragraph
-It can be used to begin a document or a chapter, or to add interest to a newsletter or invitation.
-Apply Drop Cap
+
+## Drop Cap
+
+- The dropped cap is used to enlarge dropped initial capital letter in paragraph
+- It can be used to begin a document or a chapter, or to add interest to a newsletter or invitation.
+
+**Apply Drop Cap**
 Click in the paragraph that you want to begin with a drop cap. The paragraph must contain text.
 On the Insert tab, in the Text group, click Drop Cap. 
 
 Click Dropped or In margin. 
 
-Bullets and Numbering
-Bullets and Numbering are used to start bulleted and numbered list.
-Bullets and Numbers features have different bullet styles and numbering formats.
+## Bullets and Numbering
 
-Apply Bullets & Numbering
+- Bullets and Numbering are used to start bulleted and numbered list.
+- Bullets and Numbers features have different bullet styles and numbering formats.
+
+**Apply Bullets & Numbering**
 Select list/text to apply Bullets or Numbering.
 On the Home tab, under Paragraph, click the arrow next to Bullets or Numbering. 
     
 
 Click the bullet or numbering list format that you want in the Bullet Library or the Numbering Library.
 
-Bullet Styles
-Numbering Formats
-Multilevel List
-A multilevel list shows the list items at different levels rather than at one level. 
+- Bullet Styles
+- Numbering Formats
+
+**Multilevel List**
+
+- A multilevel list shows the list items at different levels rather than at one level. 
 Multilevel list have different list styles.
 
 
@@ -178,14 +185,17 @@ On the Home tab, under Paragraph, click the arrow next to Multilevel Numbering.
 
 Click the multilevel numbering list format that you want in the Multilevel Numbering Library.
 
-More Options
-Tabs
-Tab stops are markers that can be used to make parallel columns of text 
-Tab stops are set by default at half-inch intervals between the Left and right margins in a document
-Tab Key Features
-Tab stop position   Type the position on the ruler where you want to create a new tab stop, or select an existing tab stop from the list to modify its properties.
-Default tab stops   Specifies amount of spacing that is applied each time you press the TAB key.
-Tab stops to be cleared   Displays tab stops that have been marked for deletion from the Tab stop position list. Cleared tabs are deleted from the list when you click OK.
+## Tabs
+
+- Tab stops are markers that can be used to make parallel columns of text 
+- Tab stops are set by default at half-inch intervals between the Left and right margins in a document
+
+![](images/tab.png)
+
+**Tab Key Features**
+
+- **Default tab stops**   Specifies amount of spacing that is applied each time you press the TAB key.
+- **Tab stops to be cleared**   Displays tab stops that have been marked for deletion from the Tab stop position list. Cleared tabs are deleted from the list when you click OK.
 
 Tab Alignments
 Left   Sets a left start position of text that will then run to the right as you type.
