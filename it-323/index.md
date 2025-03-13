@@ -1,9 +1,7 @@
 # IT-323 Python Programming 3(2-1)
 
-[Course Contents](https://drive.google.com/file/d/13FcS9OFdu7pT1ZFcPXnzfd2UpCAWmBbd/view?usp=drive_link)
 
 ## [Course Overview](docs/course-overview-it-323.md)
-
 
 - [Weekly Schedule of Classes](docs/course-overview-it-323.md#weekly-schedule-of-classes)
 - [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
