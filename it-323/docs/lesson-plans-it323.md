@@ -38,4 +38,17 @@ By the end of this lecture, students will be able to:
 
 #### **Assignments & Tasks:**  
 📂 **Examples:** Work through **Examples 5.18 - 5.20** from the lecture notes.  
-📝 **Task:** Complete and submit **tasks 5.12 - 5.14** by the next session.  
+📝 **Task:** Complete and submit **tasks 5.12 - 5.14** by the next session. 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
