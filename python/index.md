@@ -19,7 +19,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Datasets for Python](docs/datasets.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html)
-- [Lessons Plan of Python for Beginners](../it-323/docs/Flesson-plans-it323.md)
+- [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
 - 
 
 ## Python Learning Path for Beginners
