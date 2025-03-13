@@ -18,7 +18,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Python Tools](docs/tools.md)
 - [Datasets for Python](docs/datasets.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
-- [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html)
+- [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
 - [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
