@@ -33,7 +33,19 @@ At the end of the course, you should be able to:
 
 5. **Handle Errors and Improve Code Reliability**  
    - Identify and resolve programming errors.  
-   - Implement exception handling (`try-except`).  
+   - Implement exception handling (`try-except`).
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Weekly Schedule of Classes
 
@@ -84,6 +96,18 @@ At the end of the course, you should be able to:
 - **Lecture #1:** Sentinel-Controlled repetition using while Loop 
 - **Lecture #2:** break and continue statement 
 - **Lecture #3:** Sentinel-Controlled repetition using for loop 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Week #9 Introduction to Strings (2 weeks)
 
