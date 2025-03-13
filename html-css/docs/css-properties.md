@@ -79,3 +79,16 @@ element {
 - It can be set in various units like `px`, `%`, `em`, `rem`, etc.
 - Negative padding values **are not allowed**.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
