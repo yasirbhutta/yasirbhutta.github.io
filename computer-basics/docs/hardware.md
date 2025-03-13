@@ -81,6 +81,18 @@ Other types of computer hardware include:
 - [Video: Computer Basics- Inside a Computer](https://youtu.be/HB4I2CgkcCo?si=rexzU0om0nweOy0r)
 - [Video: What are internal components of CPU? Animated E learning Video](https://youtu.be/s_Jv2k27A9U?si=9Z5QPUnhgAsF3tsb)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Input Devices
 
 - A hardware component that is used to enter data and instruction into computer is called input device.
@@ -182,6 +194,17 @@ Microphones are essential for a variety of tasks on a computer, including:
 
 Most computers have a built-in microphone, but you can also purchase external microphones that offer better sound quality. 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Output Devices
 
@@ -357,7 +380,17 @@ Image by [macrovector](https://www.freepik.com/free-vector/system-plate-pc-isome
 [Video:Motherboards Explained](https://youtu.be/b2pd3Y6aBag?si=__bg3hplHR-CdkkU)
 
 **Buses:** Buses on a motherboard are electrical pathways that allow different components on the motherboard to communicate with each other.
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ### Computer Peripherals
 
 #### System Unit
@@ -401,6 +434,18 @@ Image source: [freeimageslive.co.uk](https://www.freeimageslive.co.uk/free_stock
 - It is also called UPS.
 - UPS is used to provide continuous power supply for computers and other devices during electricity break down.
 - UPS has batteries to store electricity powers.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Ports
 
