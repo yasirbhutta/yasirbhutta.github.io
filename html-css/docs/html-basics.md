@@ -1309,3 +1309,16 @@ Here’s an example of how to use the `viewport` meta tag:
 
 - It helps ensure your page is responsive, meaning it will adjust to different screen sizes, such as on desktops, tablets, and smartphones.
 - Without this tag, mobile devices might display the page zoomed out or not properly scaled, making the content hard to read.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
