@@ -24,12 +24,12 @@ Publishers, 2022. ISBN: 978-969-7821-18-1.
   
 ## Course Notes
 
-- [Python Language Basics](docs/basics.md)
-- [Variables](docs/variables.md)
-- [Data Types](docs/data-types.md)
-- [Operators](docs/operators.md)
-- [Control Flow](docs/control-flow.md)
-- [Defining Functions](docs/functions.md)
+- [Python Language Basics](../python/docs/basics.md)
+- [Variables](../python/docs/variables.md)
+- [Data Types](../python/docs/data-types.md)
+- [Operators](../python/docs/operators.md)
+- [Control Flow](../python/docs/control-flow.md)
+- [Defining Functions](../python/docs/functions.md)
 
 ## Course Assignments
 ## Course Grading Scheme
