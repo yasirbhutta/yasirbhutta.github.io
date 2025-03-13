@@ -4,7 +4,7 @@
 
 ## [Course Overview](docs/course-overview-it-323.md)
 
-[Lessons Plan of Python for Beginners](../it-323/docs/Flesson-plans-it323.md)
+- [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
 
 ## Related Links
 
