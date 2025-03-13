@@ -4,6 +4,8 @@
 
 ## [Course Overview](docs/course-overview-it-323.md)
 
+
+- [Weekly Schedule of Classes](docs/course-overview-it-323.md#weekly-schedule-of-classes)
 - [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
 
 ## Related Links
