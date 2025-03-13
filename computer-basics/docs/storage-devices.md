@@ -56,6 +56,19 @@ RAM
 ![ram](images/ram_512x.jpg)
 Image by [Freepik](https://www.freepik.com/free-photo/it-person-repairing-hardware-equipment-s_2944515.htm#query=ram%20primary%20memory&position=11&from_view=search&track=ais&uuid=e289623e-4318-4d74-a39d-29b1694c1ccd)
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### Processor Cache & Register
 
 there are two more sub-layers of the primary storage, besides main large-capacity RAM:
@@ -143,7 +156,17 @@ Here are some of the things you can do with an SSD:
 - Make your computer more responsive.
 - Increase the lifespan of your computer.
 - Reduce noise pollution.
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ##### USB flash drive
 
 - USB flash drives are small and portable, and they can be used to store a variety of data, including documents, photos, and music.
@@ -211,6 +234,18 @@ Optical Disk uses laser technology to read and write data.
 ✅ **Power Supply Unit (PSU)** – Gives power to the computer.  
 ✅ **Cooling Fan** – Keeps the computer from overheating.  
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Additional topics
 
 ## Flash memory
@@ -240,6 +275,17 @@ Here are some of the advantages of flash memory:
 
 Overall, flash memory is a versatile and reliable storage solution for various electronic devices.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## True/False (Mark T for True and F for False)
 
 1. Processor registers are the fastest form of computer storage. 
@@ -267,6 +313,18 @@ Overall, flash memory is a versatile and reliable storage solution for various e
 9. True
 10. True
 11. True
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Multiple Choice (Select the best answer)
 
