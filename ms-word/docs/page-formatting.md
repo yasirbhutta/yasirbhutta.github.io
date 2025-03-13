@@ -26,6 +26,17 @@ Page formatting in Microsoft Word refers to all the adjustments you make to cont
 
 **Essentially, page formatting helps you arrange and present your content in a clear, organized, and professional manner.**
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Margins
 
@@ -116,7 +127,17 @@ You can set different orientations for different sections of your document. This
 * Ensure consistency throughout the document unless using sections with different orientations. 
 * Remember to adjust margins and spacing according to the chosen orientation. 
 * Preview your document before printing to confirm the layout looks as intended.
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## 3. Paper Size
 
 - The length and the width of a page in document is called page size. 
@@ -245,7 +266,17 @@ Mirror Margin
 
 
 
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 Set margins for facing pages
 When you choose mirror margins, the margins of the left page are a mirror image of those on the right page. That is, the inside margins are the same width, and the outside margins are the same width.
 On the Page Layout tab, in the Page Setup group, click Margins. 
@@ -308,6 +339,18 @@ The header or footers are removed from the entire document.
 ## True/False (Mark T for True and F for False)
 
 **Answer Key (True/False):**
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Multiple Choice (Select the best answer)
 
