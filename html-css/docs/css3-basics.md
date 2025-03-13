@@ -1,4 +1,3 @@
-
 ## Inline Styles in CSS
 
 Inline styles in CSS are applied directly to an HTML element using the `style` attribute. Here are some basic examples for beginners:
@@ -294,5 +293,18 @@ Modify the button style to change its background color to **dark green** when ho
 
 #### **Expected Outcome:**  
 When you open the `task.html` file in a browser, you should see a well-styled page where the heading is red, the paragraph is blue, and the button is green with a hover effect.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
