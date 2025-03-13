@@ -190,7 +190,7 @@ Click the multilevel numbering list format that you want in the Multilevel Numbe
 - Tab stops are markers that can be used to make parallel columns of text 
 - Tab stops are set by default at half-inch intervals between the Left and right margins in a document
 
-![](images/tab.png)
+![tabs](images/tab.png)
 
 **Tab Key Features**
 
