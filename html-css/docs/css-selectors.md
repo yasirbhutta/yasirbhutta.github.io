@@ -108,3 +108,16 @@ button:hover {
 - **Second paragraph** is styled with **Document-Level CSS** (blue, italic).  
 - **Third paragraph** is styled with **External CSS** (green, 18px font).  
 - **Button** is styled with **External CSS** and changes color when hovered.  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

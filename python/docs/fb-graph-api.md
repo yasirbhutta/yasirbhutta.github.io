@@ -94,3 +94,16 @@ else:
 - **post_fb:** This function uses the Page Access Token to publish a post to the specified Facebook Page by making a POST request to the Graph API's feed endpoint.
 
 - **Main Script:** After fetching the Page Access Token, the script attempts to post a message to the page. If the token retrieval fails, an error message is displayed.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

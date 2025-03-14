@@ -1556,3 +1556,16 @@ The unordered nature of sets means:
 While this lack of order might seem limiting, it is also what makes sets powerful for specific tasks like ensuring uniqueness and performing fast lookups.
 
 [def]: #python-data-structures-and-sequences
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
