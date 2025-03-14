@@ -1,5 +1,29 @@
 # Python None Type Explained: Meaning, Usage, and Best Practices
 
+## Table of Contents
+
+- [Python None Type Explained: Meaning, Usage, and Best Practices](#python-none-type-explained-meaning-usage-and-best-practices)
+  - [Table of Contents](#table-of-contents)
+  - [**What is `None` in Python?**](#what-is-none-in-python)
+  - [**Understanding `NoneType`**](#understanding-nonetype)
+  - [Key Characteristics:](#key-characteristics)
+  - [**When to Use `None`**](#when-to-use-none)
+    - [1. **Initializing Variables**](#1-initializing-variables)
+    - [2. **Default Return Value**](#2-default-return-value)
+    - [3. **Optional Function Arguments**](#3-optional-function-arguments)
+    - [4. **Placeholder for Missing Data**](#4-placeholder-for-missing-data)
+  - [**Best Practices**](#best-practices)
+    - [1. **Compare with `is` or `is not`**](#1-compare-with-is-or-is-not)
+    - [2. **Avoid Mutable Defaults**](#2-avoid-mutable-defaults)
+    - [3. **Type Hints for Clarity**](#3-type-hints-for-clarity)
+    - [4. **Explicitly Return `None` When Necessary**](#4-explicitly-return-none-when-necessary)
+  - [**Common Mistakes to Avoid**](#common-mistakes-to-avoid)
+    - [1. **Confusing `None` with Falsy Values**](#1-confusing-none-with-falsy-values)
+    - [2. **Modifying Variables Set to `None`**](#2-modifying-variables-set-to-none)
+    - [3. **Ignoring Function Return Values**](#3-ignoring-function-return-values)
+  - [**Conclusion**](#conclusion)
+
+
 ## **What is `None` in Python?**  
 In Python, `None` represents the absence of a value. It is similar to `null` in other programming languages. Python uses `None` when a value is missing, undefined, or not applicable.  
 
