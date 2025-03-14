@@ -1,17 +1,28 @@
 # Python None Type Explained: Meaning, Usage, and Best Practices
 
-Python’s `None` is a fundamental concept that often puzzles beginners. This guide breaks down what `None` is, how to use it, and best practices to avoid common mistakes.
+## **What is `None` in Python?**  
+In Python, `None` represents the absence of a value. It is similar to `null` in other programming languages. Python uses `None` when a value is missing, undefined, or not applicable.  
+
+Example:  
+```python
+x = None
+print(x)  # Output: None
+```  
 
 ---
 
-## **What is `None`?**
-`None` is a special constant in Python that represents the **absence of a value**. It is the sole instance of the `NoneType` class and serves as a placeholder for "nothing" or "undefined."  
+## **Understanding `NoneType`**  
+`None` is a special constant in Python and is the only instance of the `NoneType` class. You can check its type using:  
 
-### Key Characteristics:
+```python
+print(type(None))  # Output: <class 'NoneType'>
+```  
+
+## Key Characteristics:
 - **Singleton**: Only one `None` exists in Python.  
 - **Falsy**: Evaluates to `False` in conditional statements.  
 - **Type**: Its type is `NoneType`.  
-
+  
 ```python
 a = None
 print(a)          # Output: None
