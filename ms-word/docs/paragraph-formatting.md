@@ -13,7 +13,7 @@
 - Whenever the user presses Enter key, MS Word assumes that it is a next paragraph.
 - A paragraph can be identified by paragraph mark ¶ 
 - Only the cursor should be in paragraph to apply formatting. 
-
+  
 
 **Automatically Insert Sample Text into a Document:**
 
@@ -21,17 +21,6 @@
 =RAND()
 =RAND(X,Y) where... X= the number of paragraphs you want Y= the number of sentences each paragraph should have
 ```
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## 1. Alignment
 
@@ -93,6 +82,18 @@ Three, Left, Right,
 More Options 
 
 Single & Double Column Text 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## **Shading and Borders:**
 
