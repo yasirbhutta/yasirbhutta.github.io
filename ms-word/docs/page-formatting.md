@@ -1,4 +1,4 @@
-# Microsoft Word - Page Formatting /| Microsoft 365
+# 4. Microsoft Word - Page Formatting /| Microsoft 365
 
 [video: How to insert page numbers in a Word document \| Microsoft](https://youtu.be/WWXCZoHne0g?feature=shared)
 [video: How to change page margins in Word \| Microsoft](https://youtu.be/wLujfKg3YyM?feature=shared)
@@ -11,7 +11,7 @@
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-word/docs/page-formatting.html](https://yasirbhutta.github.io/ms-word/docs/page-formatting.html)
 
-## What is Page formatting
+## 4.1 What is Page formatting
 
 Page formatting in Microsoft Word refers to all the adjustments you make to control the overall layout and appearance of your document's pages. It goes beyond just margins and encompasses several aspects:
 
@@ -38,7 +38,8 @@ Page formatting in Microsoft Word refers to all the adjustments you make to cont
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 1. Margins
+## 4.2 Paragraph Formatting Commands
+### 4.2.1 Margins
 
 **What are Page Margins?**
 
@@ -84,9 +85,7 @@ There are two ways to adjust page margins in Microsoft Word:
 
 * Microsoft Word Help on Page Setup: Microsoft Support - Set page margins: [https://support.microsoft.com/en-au/office/set-page-margins-before-printing-a-worksheet-353f52fc-0d2c-4958-9166-99fbd22b963a](https://support.microsoft.com/en-au/office/set-page-margins-before-printing-a-worksheet-353f52fc-0d2c-4958-9166-99fbd22b963a)
 
-## 3. Page Orientation 
-
-## Handout: Mastering Page Orientation in Microsoft Word
+## 4.2.2 Page Orientation in Microsoft Word
 
 **What is Page Orientation?**
 
@@ -138,7 +137,8 @@ You can set different orientations for different sections of your document. This
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-## 3. Paper Size
+
+### 4.2.3 Paper Size
 
 - The length and the width of a page in document is called page size. 
 	Example: Letter (8.5 * 11), A4 (8.27 * 11.67), Legal (8.5 * 14 )
@@ -149,54 +149,55 @@ You can set different orientations for different sections of your document. This
 - Professional Printing: Printing companies may have size requirements for certain projects.
 - Digital Distribution: E-books or web content may benefit from specific page dimensions.
 
-## 3. Page Break
+## 4.2.4 Page Break
+
 - Inserting new page in MS Word is called Page Break.
 
-Types of Page Break
+**Types of Page Break:**
+
 1. Soft Page Break
 2. Hard Page Break
 
-- The page break automatically inserted by MS Word is called Soft Page Break.
+- The page break automatically inserted by MS Word is called `Soft Page Break`.
 - The page break inserted by the user is called Hard Page Break.
 - Page break lines are always visible in Draft View.
 
 
+**Insert a manual page break**
 
-
-
-Insert a manual page break
-Click where you want to start a new page. 
-On the Insert tab, in the Pages group, click Page Break.
+1. Click where you want to start a new page. 
+2. On the `Insert tab`, in the `Pages group`, click `Page Break`.
 
 OR
-Keyboard shortcut
-CTRL+Return
 
-Delete Hard Page Break
-Open Document in Draft view.
-Select the page break marker
-Press Delete
-Must click on show/Hide button to view Page Break in Draft View
+> Keyboard shortcut
+**CTRL+Return**
 
+**Delete Hard Page Break:**
 
-Prevent page breaks in the middle of a paragraph
-Select the paragraph that you want to prevent from breaking onto two pages. 
-On the Page Layout tab, click the Paragraph Dialog Box Launcher, and then click the Line and Page Breaks tab. 
-Select the Keep lines together check box.
+1. Open Document in `Draft view`.
+2. Select the `page break marker`.
+3. Press `Delete`.
+4. Must click on `show/Hide button` to view Page Break in `Draft View`.
 
 
+**Prevent page breaks in the middle of a paragraph**
 
-Prevent page breaks between paragraphs
-Select the paragraphs that you want to keep together on a single page. 
-On the Page Layout tab, click the Paragraph Dialog Box Launcher, and then click the Line and Page Breaks tab. 
-Select the Keep with next check box.
+1. Select the paragraph that you want to prevent from breaking onto two pages. 
+2. On the `Page Layout tab`, click the `Paragraph Dialog Box Launcher`, and then click the `Line and Page Breaks tab`. 
+3. Select the `Keep lines together` check box.
 
+**Prevent page breaks between paragraphs**
 
+1. Select the paragraphs that you want to keep together on a single page. 
+2. On the `Page Layout` tab, click the `Paragraph Dialog Box Launcher`, and then click the `Line and Page Breaks tab`. 
+3. Select the `Keep with next check box`.
 
-Specify a page break before a paragraph
-Click the paragraph that you want to follow the page break. 
-On the Page Layout tab, click the Paragraph Dialog Box Launcher, and then click the Line and Page Breaks tab. 
-Select the Page break before check box.
+**Specify a page break before a paragraph**
+
+1. Click the paragraph that you want to follow the page break. 
+2. On the Page Layout tab, click the Paragraph Dialog Box Launcher, and then click the Line and Page Breaks tab. 
+3. Select the Page break before check box.
 Note: This setting make paragraph, first paragraph in the page.
 
 

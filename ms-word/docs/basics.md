@@ -6,7 +6,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/ms-word/docs/basics.html](https://yasirbhutta.github.io/ms-word/docs/basics.html)
 - [Youtube Playlist to learn Microsoft Word](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
-- [Slides](https://docs.google.com/presentation/d/138bNXKPcVcxXlqbLDA4aUjn54owi1aC8PemkBnRwkqw/edit?usp=sharing)
+- [Slides - Microsoft Word Basics](https://docs.google.com/presentation/d/138bNXKPcVcxXlqbLDA4aUjn54owi1aC8PemkBnRwkqw/edit?usp=sharing)
 
 ## Word Processor
 
