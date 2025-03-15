@@ -65,6 +65,18 @@ if condition:
     result = "Success"
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 2. **Default Return Value**  
 Functions without a `return` statement implicitly return `None`:  
 ```python
@@ -89,6 +101,18 @@ Represent missing or undefined values in data structures:
 ```python
 user_data = {"name": "Alice", "age": None}  # Age not provided
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -167,5 +191,18 @@ print(new_data)         # Output: None (data is sorted in-place)
 ---
 
 ## **Conclusion**  
-`None` is a versatile tool for representing "no value" in Python. By following best practices—using `is` for comparison, leveraging type hints, and avoiding mutable defaults—you’ll write cleaner, more predictable code. Remember: `None` is your friend for signaling absence, but use it intentionally!  
+`None` is a versatile tool for representing "no value" in Python. By following best practices—using `is` for comparison, leveraging type hints, and avoiding mutable defaults—you’ll write cleaner, more predictable code. Remember: `None` is your friend for signaling absence, but use it intentionally! 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
