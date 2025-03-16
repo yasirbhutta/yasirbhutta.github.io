@@ -180,6 +180,18 @@ results = []
 results.append(10)  # ✅ Works
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 3. **Ignoring Function Return Values**  
 Functions returning `None` might lead to unexpected behavior:  
 ```python
@@ -191,7 +203,131 @@ print(new_data)         # Output: None (data is sorted in-place)
 ---
 
 ## **Conclusion**  
-`None` is a versatile tool for representing "no value" in Python. By following best practices—using `is` for comparison, leveraging type hints, and avoiding mutable defaults—you’ll write cleaner, more predictable code. Remember: `None` is your friend for signaling absence, but use it intentionally! 
+`None` is a versatile tool for representing "no value" in Python. By following best practices—using `is` for comparison, leveraging type hints, and avoiding mutable defaults—you’ll write cleaner, more predictable code. Remember: `None` is your friend for signaling absence, but use it intentionally!
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## Test you knowledge: MCQs on Python None Type
+
+
+*What does None represent in Python?*
+
+a) A boolean value
+b) The absence of a value
+c) An integer with value zero
+d) A keyword for defining variables
+
+Answer: b) The absence of a value
+
+
+2. What is the type of None in Python?
+a) int
+b) str
+c) NoneType
+d) bool
+
+Answer: c) NoneType
+
+
+3. Which of the following is the correct way to check if a variable is None?
+
+a) if value == None:
+b) if value is None:
+c) if value != None:
+d) if value = None:
+
+Answer: b) if value is None:
+
+
+4. What will be the output of the following code?
+
+def do_nothing():
+    pass
+
+print(do_nothing())
+
+
+a) None
+b) 0
+c) '' (empty string)
+d) Error
+
+Answer: a) None
+
+
+5. Why should None be used as a default argument instead of mutable types like lists?
+a) Because None is faster
+b) Because it prevents accidental modifications of the default argument
+c) Because None is an integer
+d) Because it makes the function run in constant time
+
+Answer: b) Because it prevents accidental modifications of the default argument
+
+
+6. What happens when you compare None with False using ==?
+a) Returns True
+b) Returns False
+c) Throws a TypeError
+d) Returns None
+
+Answer: b) Returns False
+
+
+7. Which of the following statements about None is incorrect?
+a) None is a singleton in Python
+b) None is a falsy value
+c) None can be reassigned to another value
+d) None is the same as 0
+
+Answer: d) None is the same as 0
+
+
+8. What is the recommended way to indicate that a function might return None in type hints?
+a) def func() -> str | None:
+b) def func() -> NoneType:
+c) def func() -> int or None:
+d) def func() -> Optional[str]:
+
+Answer: a) def func() -> str | None: (Python 3.10+) and d) def func() -> Optional[str]: (Older versions)
+
+
+9. What will happen when you execute the following code?
+
+results = None
+results.append(10)
+
+a) results will contain [10]
+b) A TypeError will be raised
+c) An AttributeError will be raised
+d) results will remain None
+
+Answer: c) An AttributeError will be raised
+
+
+10. Which of the following best describes None in Python?
+a) It is a special constant representing the absence of a value
+b) It is the default return value of all functions
+c) It is similar to null in other languages
+d) All of the above
+
+Answer: d) All of the above
+
+
+
+Let me know if you need more questions!
+
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
@@ -205,4 +341,6 @@ print(new_data)         # Output: None (data is sorted in-place)
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
 
