@@ -205,6 +205,12 @@ print(new_data)         # Output: None (data is sorted in-place)
 ## **Conclusion**  
 `None` is a versatile tool for representing "no value" in Python. By following best practices—using `is` for comparison, leveraging type hints, and avoiding mutable defaults—you’ll write cleaner, more predictable code. Remember: `None` is your friend for signaling absence, but use it intentionally!
 
+## Further learning
+
+For more information about Python, visit the following webpage.
+
+[https://yasirbhutta.github.io/python/](https://yasirbhutta.github.io/python/)
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
