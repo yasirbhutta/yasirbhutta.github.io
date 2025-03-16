@@ -227,7 +227,7 @@ For more information about Python, visit the following webpage.
 ## Test you knowledge: MCQs on Python None Type
 
 
-*What does None represent in Python?*
+1. What does None represent in Python?
 
 a) A boolean value
 b) The absence of a value
