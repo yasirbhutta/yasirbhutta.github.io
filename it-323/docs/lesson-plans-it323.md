@@ -12,7 +12,8 @@ By the end of this lecture, students will be able to:
 ✅ Use `while` loops to solve real-world problems such as printing sequences, summing numbers, and generating multiplication tables.
 ✅ Apply `while` loops with conditional statements to control program flow.
 
-#### **Topics Covered:**  
+#### **Topics Covered:**
+
 1. **Introduction to While Loops**
    - Definition and syntax of the `while` loop.
    - How a while loop executes based on a condition.
