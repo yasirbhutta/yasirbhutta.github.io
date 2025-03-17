@@ -3,9 +3,9 @@
 ## [Course Overview](docs/course-overview-it-324.md)
 
 - [Weekly Schedule of Classes](#)
-- [Lessons Plan of Web Development](#)
-- [Timetable](#)
-
+- [Lessons Plans of Web Development](docs/lesson-plans-it-324.md)
+- [Timetable](docs/timetable-it-324.md)
+  
 ## Related Links
 
 - [HTML: HyperText Markup Language - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -19,7 +19,7 @@
 
 ### HTML: HyperText Markup Language
 
-- HTML Basics[[web]](docs/html-basics.md) [[slides]](https://docs.google.com/presentation/d/1lkOvcwqJAuqOxorM3En3wtydL5hgcK6A399ZqR-Q_bs/export?format=pdf)
+- [HTML Basics](docs/html-basics.md) [[slides]](https://docs.google.com/presentation/d/1lkOvcwqJAuqOxorM3En3wtydL5hgcK6A399ZqR-Q_bs/export?format=pdf)
 - User Input in HTML: Forms and Controls[[web]](docs/html-forms-controls.md) [[slides]](https://docs.google.com/presentation/d/1U3uqqBbtV7-9KsFIT_b4KB4l5dMlsrR4yxUFbJHtl_Y/export?format=pdf)
 
 ### CSS: Cascading Style Sheets
