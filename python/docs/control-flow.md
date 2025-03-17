@@ -27,10 +27,9 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Task #5.5: Age Checker](#task-55-age-checker)
     - [Task #5.6: Divisibility Check](#task-56-divisibility-check)
     - [Task #5.7: Voting Eligibility Check](#task-57-voting-eligibility-check)
-  - [loops](#loops)
-    - [for loop](#for-loop)
-      - [range() function:](#range-function)
-    - [Example #5.8](#example-58)
+  - [5.3 loops](#53-loops)
+    - [5.3.1 for loop](#531-for-loop)
+      - [Example #5.8](#example-58)
       - [**Example #5.9:** Print Numbers from 1 to 5](#example-59-print-numbers-from-1-to-5)
       - [Example #5.10: Printing "Building the future, one line at a time." 5 Times Using a for Loop](#example-510-printing-building-the-future-one-line-at-a-time-5-times-using-a-for-loop)
       - [Example #5.11: Sum of Numbers from 1 to N](#example-511-sum-of-numbers-from-1-to-n)
@@ -46,26 +45,26 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
       - [Example #5.16: Loop Through a List of Fruits in Python](#example-516-loop-through-a-list-of-fruits-in-python)
       - [Use of underscore in 'For Loop'](#use-of-underscore-in-for-loop)
         - [Example #5.17: Using an Underscore in a Loop to Print "Hello" Multiple Times](#example-517-using-an-underscore-in-a-loop-to-print-hello-multiple-times)
-    - [while loop](#while-loop)
+    - [5.3.2 while loop](#532-while-loop)
       - [Example #5.18: Print numbers from 1 to 10 using while loop](#example-518-print-numbers-from-1-to-10-using-while-loop)
       - [Example #5.19: Print "Hello, world!" 5 times using while loop](#example-519-print-hello-world-5-times-using-while-loop)
       - [Task #5.12: Display Multiplication Tables\*\*](#task-512-display-multiplication-tables)
       - [Task #5.13: Sum Integers from 1 to 100 Using While Loop](#task-513-sum-integers-from-1-to-100-using-while-loop)
       - [Example #5.20: Sum of even numbers from 2 to 20 using while loop](#example-520-sum-of-even-numbers-from-2-to-20-using-while-loop)
       - [Task #5.14: Calculate Squares of Numbers from 1 to 4 Using While Loop](#task-514-calculate-squares-of-numbers-from-1-to-4-using-while-loop)
-      - [Example #22: Prompt User for Input Until Blank Line is Entered](#example-22-prompt-user-for-input-until-blank-line-is-entered)
-      - [Example #23: Sum User-Entered Numbers Until Zero is Entered](#example-23-sum-user-entered-numbers-until-zero-is-entered)
-      - [Task #13: Sum User-Entered Numbers Until a Negative Number is Entered](#task-13-sum-user-entered-numbers-until-a-negative-number-is-entered)
+      - [Example #5.21: Prompt User for Input Until Blank Line is Entered](#example-521-prompt-user-for-input-until-blank-line-is-entered)
+      - [Example #5.22: Sum User-Entered Numbers Until Zero is Entered](#example-522-sum-user-entered-numbers-until-zero-is-entered)
+      - [Task #5.15: Sum User-Entered Numbers Until a Negative Number is Entered](#task-515-sum-user-entered-numbers-until-a-negative-number-is-entered)
       - [Task #14: Number Guessing Game](#task-14-number-guessing-game)
       - [Example #24: Infinite Loop Printing Messages with Counter](#example-24-infinite-loop-printing-messages-with-counter)
     - [Loop Control Statements (break, continue, pass)](#loop-control-statements-break-continue-pass)
       - [`break`](#break)
       - [`continue`](#continue)
       - [`pass`](#pass)
+  - [Example #: Using Break Statement in a Loop with Range](#example--using-break-statement-in-a-loop-with-range)
       - [Example 1: Exit a loop when a number is found](#example-1-exit-a-loop-when-a-number-is-found)
       - [Example 2: Password validation with `while` loop](#example-2-password-validation-with-while-loop)
-    - [**2. `continue` Statement**](#2-continue-statement)
-      - [Example 1: Skip even numbers](#example-1-skip-even-numbers)
+    - [Example 1: Skip even numbers using `continue` Statement](#example-1-skip-even-numbers-using-continue-statement)
       - [Example 2: **Temperature Monitoring**](#example-2-temperature-monitoring)
     - [Example 1: **Data Cleaning using `continue` Statement**](#example-1-data-cleaning-using-continue-statement)
     - [**Task: Coffee Machine Stock Check using `break` Statement**](#task-coffee-machine-stock-check-using-break-statement)
@@ -308,7 +307,6 @@ else:
     print("It's not a hot day")
 ```
 **Explanation**: This code checks if the temperature is greater than 30. If true, it prints "It's a hot day"; otherwise, it prints "It's not a hot day".
-
 
 ### Example #5.9: Checking String Length
 
@@ -592,13 +590,13 @@ You are younger than 18.
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## loops
+## 5.3 loops
 
 - There are two ways to create loops in Python: with the for-loop and the while-loop.
 
 - Repeat actions using `for` and `while` loops.
 
-### for loop
+### 5.3.1 for loop
 
 - A for loop in Python is a programming statement that repeats a block of code a fixed number of times.
 - The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
@@ -615,14 +613,14 @@ for item in iterable:
 
 `iterable` is a sequence of elements such as a list, tuple, dictionary, set, or string. item is a variable that takes on the value of each element in the sequence, one at a time. The code block is executed once for each element in the sequence.
 
-#### range() function:
+**range() function:**
 
 - We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
 - We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
 
 Here are the common usages:
 
-### Example #5.8
+#### Example #5.8
 
 1. **Single Argument (`stop`)**:
    ```python
@@ -908,7 +906,7 @@ Here, `_` is used instead of a variable name like `i` or `j` because the value i
 - [video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
   
 
-### while loop
+### 5.3.2 while loop
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
@@ -989,6 +987,7 @@ Enter a number: 5
 - Use a `while` loop to generate and display the multiplication table.
 
 #### Task #5.13: Sum Integers from 1 to 100 Using While Loop
+
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
 **Input**:
@@ -1027,6 +1026,7 @@ print(f'The sum of even numbers from 1 to 20 is: {sum}')
 ```
 
 #### Task #5.14: Calculate Squares of Numbers from 1 to 4 Using While Loop
+
 Write a Python program that calculates and prints the square of the numbers from 1 to 4. The program should use a `while` loop to iterate through these numbers.
 
 **Input**:
@@ -1050,7 +1050,7 @@ This code uses a `while` loop to calculate the square of the variable `i`,
 which starts at 1 and increments by 1 in each iteration until it reaches 5. 
 The squares of the numbers 1 through 4 are printed during each iteration.
 
-#### Example #22: Prompt User for Input Until Blank Line is Entered
+#### Example #5.21: Prompt User for Input Until Blank Line is Entered
 
 Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
 
@@ -1063,7 +1063,7 @@ while inputStr != "":
 print('You entered a blank line.')
 ```
 
-#### Example #23: Sum User-Entered Numbers Until Zero is Entered
+#### Example #5.22: Sum User-Entered Numbers Until Zero is Entered
 
 Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
 
@@ -1082,7 +1082,8 @@ while number != 0:
 print(f'The sum of the numbers is: {sum}')
 ```
 
-#### Task #13: Sum User-Entered Numbers Until a Negative Number is Entered
+#### Task #5.15: Sum User-Entered Numbers Until a Negative Number is Entered
+
 Write a Python program that prompts the user to enter numbers. The program should keep accepting numbers until the user enters a negative number. Once a negative number is entered, the program should stop and display the sum of all the numbers entered (excluding the negative number).
 
 **Sample Input:**
@@ -1202,6 +1203,13 @@ if condition:
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
 
+## Example #: Using Break Statement in a Loop with Range
+
+```python
+for x in range(3):
+    if x == 1:
+        break
+```
 #### Example 1: Exit a loop when a number is found
 ```python
 # Search for the number 5 and exit the loop when found
@@ -1242,10 +1250,10 @@ while True:
 
 ---
 
-### **2. `continue` Statement**  
+### Example 1: Skip even numbers using `continue` Statement
+
 Skips the **current iteration** and moves to the next loop cycle.
 
-#### Example 1: Skip even numbers
 ```python
 # Print only odd numbers (skip even numbers)
 for num in range(1, 11):

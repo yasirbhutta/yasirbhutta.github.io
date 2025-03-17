@@ -1,5 +1,75 @@
 # CSS Selectors
 
+## Class Selector
+
+## Example of Class Selector
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Class Selectors </title>
+    <style type="text/css">
+        /* text-align: left | right | center | justify  */
+        p.normal {
+            color:blue;
+            text-align: right;
+        }
+
+        p.warning {
+            color:red;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="normal">
+        I've learned that people will forget what you said, people will forget what you did, but people will never
+        forget how you
+        made them feel.”
+        <cite>― Maya Angelou</cite>
+
+    </p>
+    <p class="warning">
+        “Always forgive your enemies; nothing annoys them so much.” ― Oscar Wilde
+    </p>
+</body>
+
+</html>
+```
+
+## Generic Selectors
+
+### Example of Generic Class Selector
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Generic Selectors </title>
+    <style type="text/css">
+        /* text-decoration: none | underline | overline | line-through | blink */
+        .alert {
+            color: red;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1> Selector Forms </h1>
+    <h2 class="alert">Generic Class Selector</h2>
+    <p class="alert">
+        “Always forgive your enemies; nothing annoys them so much.” ― Oscar Wilde
+    </p>
+</body>
+</html>
+```
+
 ### **Task: Class selector task for Styling Multiple Paragraphs and a Button Using Different CSS Levels**  
 
 #### **Objective:**  
