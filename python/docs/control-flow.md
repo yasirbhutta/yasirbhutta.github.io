@@ -62,10 +62,16 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
       - [`break`](#break)
       - [`continue`](#continue)
       - [`pass`](#pass)
-      - [Example #: Using Break Statement in a Loop with Range](#example--using-break-statement-in-a-loop-with-range)
-      - [Example #: Print Odd Numbers Less Than 5 with Loop Control Statements (break, continue)](#example--print-odd-numbers-less-than-5-with-loop-control-statements-break-continue)
+      - [Example 1: Exit a loop when a number is found](#example-1-exit-a-loop-when-a-number-is-found)
+      - [Example 2: Password validation with `while` loop](#example-2-password-validation-with-while-loop)
+    - [**2. `continue` Statement**](#2-continue-statement)
+      - [Example 1: Skip even numbers](#example-1-skip-even-numbers)
+      - [Example 2: **Temperature Monitoring**](#example-2-temperature-monitoring)
+    - [Example 1: **Data Cleaning using `continue` Statement**](#example-1-data-cleaning-using-continue-statement)
+    - [**Task: Coffee Machine Stock Check using `break` Statement**](#task-coffee-machine-stock-check-using-break-statement)
     - [The else Clauses on Loops](#the-else-clauses-on-loops)
       - [Example with a `for` loop](#example-with-a-for-loop)
+    - [**3. Combined Example**](#3-combined-example)
       - [Example with a `while` loop](#example-with-a-while-loop)
       - [Why Use the `else` Clause with Loops?](#why-use-the-else-clause-with-loops)
       - [Example #: for..else](#example--forelse)
@@ -1156,6 +1162,7 @@ while True:
 [video: Python Loops Performance Comparison: For vs. While | Which is Faster?](https://youtu.be/6JNeo6TVQN8)
 
 ### Loop Control Statements (break, continue, pass)
+
 These statements modify the behavior of loops.
 
 **break:** Terminates the loop entirely.
@@ -1192,28 +1199,174 @@ if condition:
     pass  # do nothing
 ```
 
-#### Example #: Using Break Statement in a Loop with Range
-
-```python
-for x in range(3):
-    if x == 1:
-        break
-```
-
-#### Example #: Print Odd Numbers Less Than 5 with Loop Control Statements (break, continue)
-
-```python
-for i in range(10):
-    if i == 5:
-        break  # exit the loop when i is 5
-    if i % 2 == 0:
-        continue  # skip even numbers
-    print(i)  # print only odd numbers less than 5
-```
-
 - [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
 - [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
- 
+
+#### Example 1: Exit a loop when a number is found
+```python
+# Search for the number 5 and exit the loop when found
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for num in numbers:
+    print(f"Checking {num}...")
+    if num == 5:
+        print("Number 5 found! Exiting the loop.")
+        break  # Exit the loop
+```
+
+**Output**:
+```
+Checking 1...
+Checking 2...
+Checking 3...
+Checking 4...
+Checking 5...
+Number 5 found! Exiting the loop.
+```
+
+---
+
+#### Example 2: Password validation with `while` loop
+```python
+# Keep asking for a password until the correct one is entered
+correct_password = "python123"
+
+while True:
+    user_input = input("Enter the password: ")
+    if user_input == correct_password:
+        print("Access granted!")
+        break  # Exit the loop
+    else:
+        print("Wrong password. Try again!")
+```
+
+---
+
+### **2. `continue` Statement**  
+Skips the **current iteration** and moves to the next loop cycle.
+
+#### Example 1: Skip even numbers
+```python
+# Print only odd numbers (skip even numbers)
+for num in range(1, 11):
+    if num % 2 == 0:
+        continue  # Skip even numbers
+    print(num)
+```
+
+**Output**:
+```
+1
+3
+5
+7
+9
+```
+
+---
+
+#### Example 2: **Temperature Monitoring**  
+Stop monitoring if temperature exceeds a safe limit.
+```python
+temperatures = [25, 30, 32, 28, 45, 29, 33]  # Sensor readings
+
+for temp in temperatures:
+    if temp > 40:
+        print(f"ALERT: Temperature {temp}°C is unsafe! Shutting down.")
+        break  # Exit immediately
+    print(f"Temperature {temp}°C is safe.")
+```
+
+**Output**:
+```
+Temperature 25°C is safe.
+Temperature 30°C is safe.
+Temperature 32°C is safe.
+Temperature 28°C is safe.
+ALERT: Temperature 45°C is unsafe! Shutting down.
+```
+
+---
+
+### Example 1: **Data Cleaning using `continue` Statement**  
+Skip invalid entries when processing a dataset.
+```python
+user_ages = [20, 15, "unknown", 30, -5, 25]  # Some invalid data
+
+print("Valid ages:")
+for age in user_ages:
+    if not isinstance(age, int) or age < 0 or age > 120:
+        continue  # Skip invalid entries
+    print(f"- {age} years old")
+```
+
+**Output**:
+```
+Valid ages:
+- 20 years old
+- 15 years old
+- 30 years old
+- 25 years old
+```
+
+---
+
+### **Task: Coffee Machine Stock Check using `break` Statement**  
+   Simulate a coffee machine that stops serving when a drink is out of stock.  
+   - **Input List**: `["latte", "cappuccino", "espresso", "mocha", "out_of_stock", "latte"]`  
+   - **Goal**: Loop through the list and stop when "out_of_stock" is found.  
+   - **Example Output**:  
+     ```
+     Serving latte...  
+     Serving cappuccino...  
+     Serving espresso...  
+     Serving mocha...  
+     Out of stock! Machine stopping.  
+     ```
+     
+**Task: Skip Negative Numbers**  
+   Calculate the sum of positive numbers in a list, ignoring negatives.  
+   - **Input**: `[5, -2, 10, -8, 3]`  
+   - **Goal**: Use `continue` to skip negative values.  
+   - **Output**: `Sum of positive numbers: 18`
+
+**Task: Simple Calculator with Exit using `continue` and `break`**  
+   Create a loop that:  
+   - Lets users type numbers to add.  
+   - Skips non-numeric inputs (use `continue`).  
+   - Exits when the user types "quit" (use `break`).  
+   - **Example Output**:  
+     ```
+     Enter a number (or 'quit'): 5  
+     Enter a number (or 'quit'): ten  
+     Invalid input!  
+     Enter a number (or 'quit'): 3  
+     Enter a number (or 'quit'): quit  
+     Total: 8  
+     ```
+
+ 7. **Task: Movie Ticket Checker**  
+   Loop through a list of ages and:  
+   - Skip ages < 0 (invalid).  
+   - Stop if a "VIP" (age 100+) is found.  
+   - **Input**: `[25, -5, 30, 105, 40]`  
+   - **Output**:  
+     ```
+     Valid age: 25  
+     Skipped invalid age.  
+     Valid age: 30  
+     VIP detected! Stopping sales.  
+     ```
+
+8. **Task: Flight Booking System**  
+   Check seat availability in a list. Stop when a seat is found, or skip "reserved" seats.  
+   - **Input**: `["reserved", "reserved", "available", "reserved"]`  
+   - **Output**:  
+     ```
+     Seat 1: Reserved.  
+     Seat 2: Reserved.  
+     Seat 3: Available! Booked successfully.  
+     ```
 ### The else Clauses on Loops
 
 In Python, the `else` clause can be used with loops (`for` and `while`). This may be surprising at first since most people associate `else` with `if` statements. However, in loops, the `else` clause has a unique behavior:
@@ -1269,6 +1422,36 @@ else:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+### **3. Combined Example**  
+**Use Case:** Login system with limited attempts.
+```python
+max_attempts = 3
+correct_password = "secret123"
+
+for attempt in range(1, max_attempts + 1):
+    password = input(f"Attempt {attempt}: Enter password: ")
+    if password != correct_password:
+        print("Wrong password. Try again.")
+        continue  # Skip to next attempt
+    else:
+        print("Login successful!")
+        break  # Exit loop on success
+else:
+    print("Account locked. Too many failed attempts.")
+```
+
+**Output** (if user fails 3 times):
+```
+Attempt 1: Enter password: hello
+Wrong password. Try again.
+Attempt 2: Enter password: test
+Wrong password. Try again.
+Attempt 3: Enter password: 123
+Wrong password. Try again.
+Account locked. Too many failed attempts.
+```
+
 
 #### Example with a `while` loop
 
