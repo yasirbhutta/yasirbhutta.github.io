@@ -4,6 +4,7 @@
 
 - [Weekly Schedule of Classes](#)
 - [Lessons Plan of Python for Beginners](#)
+- [Timetable](#)
 
 ## Related Links
 
