@@ -1,19 +1,16 @@
-# **Structural Pattern Matching in Python (`match-case`): A Beginner’s Guide**  
-*Learn how to simplify complex conditional logic with Python’s powerful `match-case` syntax!*
+# Say Goodbye to Long If-Elif Chains with Python's Match Case
 
----
+Imagine you're writing a program, and you need to perform different actions based on various conditions. Often, this leads to a series of if, elif (else if), and else statements. As the number of conditions grows, this structure can become long, nested, and difficult to read, even for experienced programmers 1. Conditional logic, the ability for a program to make decisions based on different circumstances, is a fundamental part of programming. It allows our code to be flexible and respond to a wide range of inputs and situations.
 
-## **What is Structural Pattern Matching?**  
-Introduced in Python 3.10, **`match-case`** is a modern way to handle data-driven decision-making. It goes beyond simple `if-elif-else` chains by letting you check the **structure** of data (like dictionaries, lists, or objects) and extract values from them. Think of it as a supercharged `switch` statement!
+Fortunately, Python introduced a new feature in `version 3.10` called the `match case statement` [1]. This provides a fresh and improved way to manage multiple conditions, offering a more streamlined and easier-to-understand alternative to lengthy if-elif-else blocks 1. Think of it like a traffic controller at a busy intersection. The controller looks at the incoming cars (your data) and directs them to different lanes (code blocks) based on certain signals or patterns. The match case statement operates similarly, examining a value and executing specific code depending on whether it matches a defined pattern. This feature also introduces the concept of "pattern matching," which, in simple terms, is like matching socks based on their design. However, in programming, this matching can be much more powerful than just checking if two things are exactly the same [1].
 
----
+## Understanding the Basics: Syntax of Match Case
 
-## **Why Use `match-case`?**  
-- 🎯 **Cleaner code**: Replace messy nested `if` statements with readable patterns.  
-- 💡 **Extract data**: Directly pull values from complex structures (e.g., JSON).  
-- 🛠️ **Handle multiple cases**: Match data types, values, and even conditions in one block.
+The match case statement in Python begins with the keyword match, followed by an expression. This expression is the value that you want to evaluate and compare against different possibilities [1]. It's important to note that this expression is evaluated only once at the very beginning of the match statement [11].
 
----
+Inside the match block, you'll find one or more case blocks. Each case starts with the keyword case and is followed by a "pattern." This pattern is what Python will try to match against the value of the expression you provided in the match statement [1]. If the pattern in a case block matches the expression's value, the block of code associated with that case will be executed [1].
+
+Here's a basic example to illustrate the syntax. Let's say we want to check the day of the week:
 
 ## **Basic Syntax**  
 ```python
@@ -26,369 +23,301 @@ match variable_to_check:
         # Default action
 ```
 
----
 
-## **Breaking Down the Example**  
-Let’s dissect the sample code:
+## Example: Basic
 
 ```python
-def process_data(data):
-    match data:
-        # Case 1: Match a dictionary with "type": "alert" and extract "message"
-        case {"type": "alert", "message": msg}:
-            print(f"ALERT: {msg}")
-        
-        # Case 2: Match a list of 3 elements where the first > second
-        case [x, y, z] if x > y:
-            print(f"First element {x} is larger than {y}")
-        
-        # Case 3: Match integers or floats, capture as "num"
-        case int() | float() as num:
-            print(f"Number: {num}")
-        
-        # Default case: Handle anything else
-        case _:
-            print("Unknown format")
-```
-
----
-
-## **Real-World Examples**  
-
-### 1. **Processing API Responses**  
-Imagine handling JSON data from a weather API:  
-```python
-response = {
-    "status": "success",
-    "data": {"temp": 22, "city": "Paris"}
-}
-
-match response:
-    case {"status": "success", "data": {"temp": t, "city": c}}:
-        print(f"Temperature in {c}: {t}°C")
-    case {"status": "error", "code": code}:
-        print(f"API Error: Code {code}")
+day = "Monday"
+match day:
+    case "Monday":
+        print("Start of the week!")
+    case "Friday":
+        print("Almost weekend!")
     case _:
-        print("Unexpected response")
+        print("Just another day.")
 ```
 
----
+- In this example, the match statement takes the value of the day variable. It then checks each case. 
+- The first case checks if day is equal to "Monday". Since it is, the code print("Start of the week!") is executed.
+- The case _: at the end is special. The underscore _ acts as a wildcard, representing the "default case" or a "catch-all" [1]. If none of the preceding case patterns match the value of the day variable, the code under case _: would be executed. This is similar to the else statement in an if-elif-else structure.
 
-### 2. **Handling User Commands in a CLI App**  
-Process commands like `add 5 3` or `delete user123`:  
+A significant advantage of Python's match case is that it `automatically exits` the match block as soon as it finds the first case that matches 1. This is different from the switch statement in some other programming languages where you might need to use explicit break statements to prevent the code from "falling through" to the next case. This automatic exiting makes the syntax cleaner and helps reduce potential errors for beginners [1].
+
+## Pattern Matching in Action: More Than Just Equality
+
+While the basic example above shows simple equality checks, the real power of match case lies in its ability to perform more sophisticated "pattern matching" 1. This means you can check for more than just whether a value is equal to a specific literal.
+
+Let's look at some examples of matching with literal values:
+
+### Example: Integers - You can easily check if a number matches specific integer values [1].
+
 ```python
-command = input("Enter command: ").split()
+http_code = 404
+match http_code:
+    case 200:
+        print("OK")
+    case 404:
+        print("Not Found")
+    case 500:
+        print("Server Error")
+    case _:
+        print("Unknown Status")
+```
 
+### Example: Strings - Matching against specific text inputs or commands is straightforward [1].
+
+```python
+command = "start"
 match command:
-    case ["add", x, y]:
-        print(f"Result: {int(x) + int(y)}")
-    case ["delete", user_id]:
-        print(f"Deleting user {user_id}...")
+    case "start":
+        print("Starting the process...")
+    case "stop":
+        print("Stopping the process...")
+    case "help":
+        print("Showing help documentation...")
     case _:
-        print("Invalid command")
+        print("Unknown command.")
 ```
 
----
+### Example: Booleans - You can also match against the boolean values True or False 11.
 
-### 3. **Game Event Handling**  
-Manage events in a game (e.g., player actions):  
 ```python
-event = {"type": "move", "direction": "north", "speed": 5}
-
-match event:
-    case {"type": "move", "direction": dir}:
-        print(f"Player moved {dir}")
-    case {"type": "attack", "damage": d} if d > 0:
-        print(f"Dealt {d} damage!")
-    case _:
-        print("Unknown event")
+is_weekend = True
+match is_weekend:
+    case True:
+        print("It's the weekend!")
+    case False:
+        print("Back to work.")
 ```
 
----
+The match case statement also allows you to use the `OR operator`, represented by the pipe symbol `\|`, within a case to check against multiple values at once 1. This can make your code even more concise when you want to perform the same action for several different values.
 
-## **Practice Tasks**  
-Test your understanding with these exercises:
-
-### **Task 1: Process Shapes**  
-Given a list of shapes like `["circle", 5]` or `["rectangle", 3, 4]`, calculate their area:  
 ```python
-shape = ["circle", 5]
-
-match shape:
-    case ["circle", radius]:
-        print(f"Area: {3.14 * radius ** 2}")
-    case ["rectangle", l, w]:
-        print(f"Area: {l * w}")
+day = "Sunday"
+match day:
+    case "Saturday" | "Sunday":
+        print("It's a weekend day.")
+    case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+        print("It's a weekday.")
     case _:
-        print("Invalid shape")
+        print("Invalid day.")
 ```
 
----
+This clearly shows how match case can group related conditions, making the code easier to read compared to using multiple or conditions within an if-elif-else structure.
 
-### **Task 2: Validate User Input**  
-Check if user input is a valid email or phone number:  
+### Match Case vs. If-Elif-Else: Making the Right Choice
+
+At this point, you might be wondering when you should use match case versus the traditional if-elif-else statements [1]. Both structures allow you to execute different blocks of code based on conditions. However, match case can often lead to more readable and organized code, especially when you have a large number of conditions to check [1].
+For simple checks involving boolean conditions (true or false), if-elif-else might still be the most straightforward choice 1. However, when you are dealing with specific values or patterns that a variable might take, match case provides a more direct and often more elegant way to express your logic [1].
+
+Here's a table summarizing some key differences:
+
+| Feature          | if-elif-else                              | match-case                                    |
+| ---------------- | ----------------------------------------- | --------------------------------------------- |
+| Introduced In    | Early Python versions                     | Python 3.10                                   |
+| Syntax           | if, elif, else                            | match, case                                   |
+| Readability      | Can become verbose with many conditions   | More concise with complex patterns            |
+| Default Case     | else                                      |  \_ (wildcard)                                |
+| Pattern Matching | Limited to simple condition checks        | Supports complex pattern matching (sequences) |
+| Automatic Break  | Requires explicit break in some languages | Automatically exits after a case is matched   |
+
+
+This table highlights that while both serve the purpose of conditional execution, match case offers advantages in terms of readability for complex scenarios and introduces the powerful concept of pattern matching.
+
+## Exploring the Power of Patterns: Beyond Simple Values
+
+One of the most significant strengths of the match case statement is its support for "structural pattern matching" 1. This means you can match not just against specific values, but also based on the structure and contents of data structures like lists and tuples.
+
+Let's look at some examples of matching sequences:
+
+### Matching based on length: You can define different case patterns to match lists or tuples with a specific number of elements [1].
+
 ```python
-user_input = "user@example.com"
-
-match user_input.split("@"):
-    case [name, domain]:
-        print("Valid email!")
-    case _ if user_input.isdigit() and len(user_input) == 10:
-        print("Valid phone number!")
+data = [1, 2]
+match data:
+    case [x, y]:
+        print(f"Two elements: {x}, {y}")
+    case [x, y, z]:
+        print(f"Three elements: {x}, {y}, {z}")
     case _:
-        print("Invalid input")
+        print("Other length.")
 ```
 
----
+### Matching specific elements: You can also specify the exact values you expect at certain positions within the sequence [1].
 
-### **Task 3: Parse Log Messages**  
-Extract error levels and messages from log entries:  
 ```python
-log = "ERROR: Disk full"
-
-match log.split(": "):
-    case ["ERROR", msg]:
-        print(f"Critical error: {msg}")
-    case ["WARNING", msg]:
-        print(f"Warning: {msg}")
+command = ["go", "north"]
+match command:
+    case ["go", direction]:
+        print(f"Going {direction}")
+    case ["stop"]:
+        print("Stopping.")
     case _:
-        print("Unknown log type")
+        print("Unknown command format.")
 ```
 
----
+Using the * for extended unpacking: If you need to match sequences of variable length, you can use the asterisk * to capture the remaining elements into a list [11].
 
-## **Key Takeaways**  
-1. **Readability**: `match-case` makes complex logic easier to write and understand.  
-2. **Patterns**: Match data structures (dicts, lists), types, and values in one go.  
-3. **Extraction**: Pull values directly from patterns (e.g., `{"message": msg}`).  
-4. **Guards**: Add conditions with `if` for finer control (e.g., `case [x, y] if x > y`).  
-
----
-
-## **When to Use `match-case`**  
-- Parsing JSON/API responses.  
-- Handling commands in CLI apps.  
-- Processing events in games or GUIs.  
-- Validating structured data (forms, config files).  
-
----
-
-Now go try `match-case` in your projects! 🚀 Start with Python 3.10+ and simplify your conditional logic today.
-
-
-Introduction to Structural Pattern Matching (match-case) in Python
-
-Structural Pattern Matching, introduced in Python 3.10, is a powerful way to write cleaner and more readable conditional logic. It is similar to switch-case statements in other languages but far more flexible. It allows you to match complex data structures such as dictionaries, lists, and even custom objects.
-
-In this article, you'll learn:
-
-What Structural Pattern Matching is
-
-How to use match-case in Python
-
-Examples to illustrate different use cases
-
-Real-world applications
-
-Tasks to practice
-
-
-
----
-
-Understanding Structural Pattern Matching (match-case)
-
-In simple terms, Structural Pattern Matching lets you compare a variable against multiple patterns and execute code based on which pattern matches.
-
-Syntax:
-
-match variable:
-    case pattern1:
-        # Execute code for pattern1
-    case pattern2:
-        # Execute code for pattern2
+```python
+items = [1, 2, 3, 4, 5]
+match items:
+    case [first, second, *rest]:
+        print(f"First two: {first}, {second}, Rest: {rest}")
     case _:
-        # Default case (if nothing matches)
-
-Basic Example: Handling Different Data Types
-
-def check_value(value):
-    match value:
-        case 1:
-            print("You entered one!")
-        case "hello":
-            print("You said hello!")
-        case _:
-            print("Unknown input")
-
-check_value(1)       # Output: You entered one!
-check_value("hello") # Output: You said hello!
-check_value(42)      # Output: Unknown input
-
-In this example, different cases handle different input values, and _ acts as the default case.
-
-
----
-
-Advanced Examples of match-case
-
-Matching Dictionaries (JSON-like data)
-
-You can match dictionaries by their structure and extract values.
-
-def process_data(data):
-    match data:
-        case {"type": "alert", "message": msg}:
-            print(f"ALERT: {msg}")
-        case {"type": "info", "details": details}:
-            print(f"INFO: {details}")
-        case _:
-            print("Unknown format")
-
-process_data({"type": "alert", "message": "Low battery!"})
-# Output: ALERT: Low battery!
-
-Here, match checks if data is a dictionary with specific keys.
-
-
----
-
-Matching Lists and Tuples
-
-def check_sequence(seq):
-    match seq:
-        case [x, y, z] if x > y:
-            print(f"First element {x} is greater than {y}")
-        case [x, y, z]:
-            print(f"Three elements found: {x}, {y}, {z}")
-        case _:
-            print("Unknown sequence")
-
-check_sequence([10, 5, 2])  # Output: First element 10 is greater than 5
-check_sequence([1, 2, 3])   # Output: Three elements found: 1, 2, 3
-
-This allows structured unpacking and conditional matching.
-
-
----
-
-Matching Data Types
-
-def identify_value(value):
-    match value:
-        case int() | float() as num:
-            print(f"Number: {num}")
-        case str() as text:
-            print(f"String: {text}")
-        case _:
-            print("Unknown type")
-
-identify_value(3.14)   # Output: Number: 3.14
-identify_value("Hey")  # Output: String: Hey
-
-This case matches data types and assigns them to variables.
-
-
----
-
-Real-World Applications of Structural Pattern Matching
-
-1. Parsing JSON Data (API Responses)
-
-APIs often return JSON data with different structures. match-case helps process them effectively.
-
-def api_response_handler(response):
-    match response:
-        case {"status": "error", "message": msg}:
-            print(f"Error: {msg}")
-        case {"status": "success", "data": data}:
-            print(f"Success! Data: {data}")
-        case _:
-            print("Unexpected response format")
-
-api_response_handler({"status": "success", "data": {"user": "Alice"}})
-# Output: Success! Data: {'user': 'Alice'}
-
-
----
-
-2. Command Processing (Chatbots, CLI)
-
-def process_command(command):
-    match command.split():
-        case ["add", x, y]:
-            print(f"Adding {x} and {y}")
-        case ["exit"]:
-            print("Goodbye!")
-        case _:
-            print("Invalid command")
-
-process_command("add 5 10")  # Output: Adding 5 and 10
-process_command("exit")      # Output: Goodbye!
-
-This is useful for chatbots and command-line applications.
-
-
----
-
-3. Event Handling in GUI Applications
-
-def handle_event(event):
-    match event:
-        case {"type": "click", "x": x, "y": y}:
-            print(f"Click at ({x}, {y})")
-        case {"type": "keypress", "key": key}:
-            print(f"Key pressed: {key}")
-        case _:
-            print("Unknown event")
-
-handle_event({"type": "click", "x": 50, "y": 100})
-# Output: Click at (50, 100)
-
-This helps in GUI programming for event handling.
-
-
----
-
-Tasks for Practice
-
-Try solving these problems using match-case:
-
-1. Student Grading System:
-Write a function that takes a student's marks and matches it to a grade:
-
-marks >= 90 → "Grade: A"
-
-marks >= 80 → "Grade: B"
-
-marks >= 70 → "Grade: C"
-
-Else → "Fail"
-
-
-
-2. E-commerce Order Processing:
-Match an order dictionary with:
-
-{"status": "shipped", "tracking": "XYZ123"} → Print tracking number
-
-{"status": "delivered"} → Print "Order delivered"
-
-Default → "Invalid order"
-
-
-
-3. Weather Alerts:
-Match different weather conditions ({"temp": temp, "condition": "rainy"}) and print appropriate messages.
-
-
-
-
----
-
-Conclusion
-
-Structural Pattern Matching (match-case) makes Python code cleaner, more readable, and powerful for handling structured data. It's especially useful for JSON processing, event handling, and command processing.
-
-Would you like to try implementing one of the tasks above? Let me know if you need help!
-
+        print("Not enough items.")
+```
+
+Similarly, match case allows you to work with mappings (dictionaries) [1]:
+
+### Matching based on keys: You can check if a dictionary contains specific keys and even extract their values into variables 1.
+
+```python
+config = {"type": "database", "name": "PostgreSQL"}
+match config:
+    case {"type": "database", "name": db_name}:
+        print(f"Database: {db_name}")
+    case {"type": "cache", "name": cache_name}:
+        print(f"Cache: {cache_name}")
+    case _:
+        print("Unknown config type.")
+```
+
+It's worth noting that if a dictionary has more keys than those specified in your case pattern, it will still be considered a match [11].
+
+While more advanced, match case can also be used to match against instances of classes and their attributes 1. This allows you to check the type of an object and access its properties in a concise way.
+
+```python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __repr__(self):
+        return f"Point(x={self.x}, y={self.y})"
+
+point = Point(0, 5)
+match point:
+    case Point(x=0, y=y_val):
+        print(f"On the y-axis at y={y_val}")
+    case Point(x=x_val, y=0):
+        print(f"On the x-axis at x={x_val}")
+    case Point(x=x_val, y=y_val):
+        print(f"At coordinates x={x_val}, y={y_val}")
+```
+
+## Practical Use Cases: Where Match Case Really Shines
+
+The match case statement isn't just a theoretical concept; it has many practical applications in real-world programming [1]. Here are a few examples:
+
+### Handling different user commands: If you're building a program that takes text commands from a user, match case can neatly handle various inputs [10].
+
+```python
+user_input = input("Enter command (start, stop, help): ")
+match user_input:
+    case "start":
+        print("Initiating...")
+    case "stop":
+        print("Terminating...")
+    case "help":
+        print("Displaying help...")
+    case _:
+        print("Invalid command.")
+```
+
+### Processing HTTP status codes: When working with web requests, you often need to react differently based on the status code you receive. match case makes this very clear [1].
+
+```python
+status_code = 404
+match status_code:
+    case 200:
+        print("Success!")
+    case 404:
+        print("Resource not found.")
+    case 500:
+        print("Internal server error.")
+    case _:
+        print("Something else happened.")
+```
+
+### Categorizing data: You can use match case to efficiently group data based on specific criteria, such as different file extensions [1].
+
+```python
+file_extension = ".txt"
+match file_extension:
+    case ".txt":
+        print("Text file")
+    case ".jpg" | ".png":
+        print("Image file")
+    case ".pdf":
+        print("PDF document")
+    case _:
+        print("Unknown file type.")
+```
+
+### Data structure parsing: When dealing with structured data like coordinates or configuration settings, match case can help you easily extract the information you need 1.
+
+```python
+point = (2, 3)
+match point:
+    case (0, 0):
+        print("Origin")
+    case (x, 0):
+        print(f"On the x-axis at {x}")
+    case (0, y):
+        print(f"On the y-axis at {y}")
+    case (x, y):
+        print(f"At coordinates {x}, {y}")
+```
+
+### Tips and Best Practices for Beginners
+
+As you start using the match case statement, here are a few tips to keep in mind:
+
+- **Always include a default case:** It's generally a good practice to include a case _: at the end of your match block 1. This acts as a safety net, ensuring that if none of the specific case patterns match, there's still a block of code that will be executed. This helps prevent unexpected behavior in your program.
+- **Order your cases wisely:** The order in which you define your case patterns matters. Python will try to match the expression from top to bottom, and it will execute the code for the first matching case it finds 11. Therefore, it's often best to order your cases from the most specific to the least specific to ensure the correct case is matched.
+- **Use descriptive variable names:** When you're using pattern matching to extract data into variables (like the direction in the command example), choose names that clearly indicate what the variable represents 11. This makes your code easier to understand.
+- **Start simple:** If you're new to match case, begin by using it for simple literal value comparisons. As you become more comfortable, you can gradually explore the more advanced pattern matching capabilities.
+
+## Conclusion: Embrace the Elegance of Python's Match Case
+
+Python's match case statement, introduced in version 3.10, offers a powerful and elegant way to handle multiple conditions in your code 1. It provides a cleaner syntax and improved readability, especially when dealing with a variety of specific values or complex data structures. While if-elif-else statements remain useful for simpler boolean checks, match case brings the power of structural pattern matching to Python, allowing you to write more expressive and maintainable code for many conditional logic scenarios 28. As you continue your journey in learning Python, practicing with the match case statement will undoubtedly prove to be a valuable skill, enabling you to write more Pythonic and efficient programs.
+
+## References
+
+1. Python Switch Case Statement: A Beginner's Guide | DataCamp, accessed March 18, 2025, https://www.datacamp.com/tutorial/python-switch-case
+2. What is Match Case Statement in Python? - Analytics Vidhya, accessed March 18, 2025, https://www.analyticsvidhya.com/blog/2024/02/what-is-match-case-statement-in-python/
+3. Python Match Case Statement - GeeksforGeeks, accessed March 18, 2025, https://www.geeksforgeeks.org/python-match-case-statement/
+4. adabeat.com, accessed March 18, 2025, https://adabeat.com/fp/pattern-matching-in-functional-programming/#:~:text=Pattern%20matching%2C%20at%20its%20core,in%20the%20functional%20programming%20toolbox.
+5. Expressive Code with Pattern Matching - DEV Community, accessed March 18, 2025, https://dev.to/nexxeln/expressive-code-with-pattern-matching-3de6
+6. Pattern matching overview - C# | Microsoft Learn, accessed March 18, 2025, https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching
+7. Pattern matching - Wikipedia, accessed March 18, 2025, https://en.wikipedia.org/wiki/Pattern_matching
+8. Pattern matching in Functional Programming - Ada Beat, accessed March 18, 2025, https://adabeat.com/fp/pattern-matching-in-functional-programming/
+9. What is Pattern Matching | Deepchecks, accessed March 18, 2025, https://www.deepchecks.com/glossary/pattern-matching/
+10. Python Match Statement: A Versatile Switch-Case in Python - Mimo, accessed March 18, 2025, https://mimo.org/glossary/python/match-statement
+11. 4. More Control Flow Tools — Python 3.13.2 documentation, accessed March 18, 2025, https://docs.python.org/3/tutorial/controlflow.html
+12. How to define default case in matching | LabEx, accessed March 18, 2025, https://labex.io/tutorials/python-how-to-define-default-case-in-matching-418555
+13. Python Match Case: What It Is & How To Use It – Master Data Skills ..., accessed March 18, 2025, https://blog.enterprisedna.co/python-match-case/
+14. Python Match-Case Statement - Stackademic, accessed March 18, 2025, https://blog.stackademic.com/python-match-case-statement-63d01477e1c0
+15. Python - Match-Case Statement - TutorialsPoint, accessed March 18, 2025, https://www.tutorialspoint.com/python/python_matchcase_statement.htm
+16. Python match…case Statement - Programiz, accessed March 18, 2025, https://www.programiz.com/python-programming/match-case
+17. Python Match Case Guide: Efficient Coding Tips - SkillReactor Blog, accessed March 18, 2025, https://www.skillreactor.io/blog/python-match-case/
+18. New in Python 10: The Match/Case (conditional) Statement, accessed March 18, 2025, https://ics.uci.edu/~pattis/ICS-33/lectures/matchcase.txt
+19. python - Match statement case int 1 matches with boolean value True - Stack Overflow, accessed March 18, 2025, https://stackoverflow.com/questions/75366330/match-statement-case-int-1-matches-with-boolean-value-true
+20. Structural pattern matching in Python 3.10 - Ben Hoyt, accessed March 18, 2025, https://benhoyt.com/writings/python-pattern-matching/
+21. Python Match Case Examples 🕹️ - Gui Commits, accessed March 18, 2025, https://guicommits.com/python-match-case-examples/
+22. Python: match/case by type of value - Stack Overflow, accessed March 18, 2025, https://stackoverflow.com/questions/72295812/python-match-case-by-type-of-value
+23. Using "match...case" in Python 3.10 - The Teclado Blog, accessed March 18, 2025, https://blog.teclado.com/python-match-case/
+24. Structural Pattern Matching in Python - Earthly Blog, accessed March 18, 2025, https://earthly.dev/blog/structural-pattern-matching-python/
+25. PEP 636 – Structural Pattern Matching: Tutorial | peps.python.org, accessed March 18, 2025, https://peps.python.org/pep-0636/
+26. Any practical example of "match / case / as" : r/learnpython - Reddit, accessed March 18, 2025, https://www.reddit.com/r/learnpython/comments/18s8qmx/any_practical_example_of_match_case_as/
+27. Match-case Operators in Python - Codefinity, accessed March 18, 2025, https://codefinity.com/blog/Match-case-Operators-in-Python
+28. Python Tutorial — Unit 5 - Match-Case Statement - Medium, accessed March 18, 2025, https://medium.com/@sjalexandre/python-tutorial-control-flow-match-case-9c9525623f2
+29. Is it "right" to use the match/case statement rather than if/else when you just want to check certain conditions? : r/learnpython - Reddit, accessed March 18, 2025, https://www.reddit.com/r/learnpython/comments/1hbmnvm/is_it_right_to_use_the_matchcase_statement_rather/
+30. How to compare the Python Switch Case statement with if-elif-else ..., accessed March 18, 2025, https://labex.io/tutorials/python-how-to-compare-the-python-switch-case-statement-with-if-elif-else-statements-417495
+31. How do if statements differ from match/case statments in Python ..., accessed March 18, 2025, https://stackoverflow.com/questions/67961895/how-do-if-statements-differ-from-match-case-statments-in-python
+32. Pattern Matching Lists and Dictionaries in Python - The Turing Taco Tales, accessed March 18, 2025, https://www.turingtaco.com/pattern-matching-lists-and-dictionaries-in-python/
+33. How to distinguish between a tuple and a list in Python's structural pattern matching?, accessed March 18, 2025, https://stackoverflow.com/questions/70034293/how-to-distinguish-between-a-tuple-and-a-list-in-pythons-structural-pattern-mat
+34. Using the Python match statement - Anthony Shaw, accessed March 18, 2025, https://tonybaloney.github.io/posts/python-match-statement.html
+35. Using pattern matching to check a dict, am I doing it right? - Python Discussions, accessed March 18, 2025, https://discuss.python.org/t/using-pattern-matching-to-check-a-dict-am-i-doing-it-right/47948
+36. Python match/case using dictionary keys and values - Stack Overflow, accessed March 18, 2025, https://stackoverflow.com/questions/71034827/python-match-case-using-dictionary-keys-and-values
+37. Harnessing Python's Match/Case Statements: Practical Use Cases ..., accessed March 18, 2025, https://medium.com/@jonathan.hoffman91/harnessing-pythons-match-case-statements-practical-use-cases-facfecbbb36f

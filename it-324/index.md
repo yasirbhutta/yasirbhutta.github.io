@@ -8,10 +8,19 @@
   
 ## Related Links
 
+- [https://www.w3schools.com/](https://www.w3schools.com/)
+- [https://www.tutorialspoint.com/](https://www.tutorialspoint.com/)
 - [HTML: HyperText Markup Language - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
   
 ## Reference Books
+
+1. Web Development and Design Foundations with HTML5" by Terry Felke-Morris
+2. HTML and CSS: Design and Build Websites" by Jon Duckett.
+1. Web Design with HTML, CSS, JavaScript, and jQuery Set" by Jon Duckett
+2. "Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics" by Jennifer Niederst Robbins
+3. Web Application Architecture: Principles, protocols and practices by Leon Shklar and Richard Rosen, Wiley, 2nd Edition, 2009; ISBN-10:047051860X
+4. Web Technologies: A Computer Science Perspective by Jeffrey C. Jackson, Prentice Hall, 1
 
 ## Lecture Videos
   

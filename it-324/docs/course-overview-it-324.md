@@ -9,9 +9,14 @@ programming skills using html,css,javascript programming language from scratch.
 
 ## **Course Learning Outcomes (CLOs)**  
 
-At the end of the course, you should be able to: 
+At the end of the course, the students will be able to:
 
-
+1. Demonstrate web technologies, web services and web languages.
+2. What are relevant web services and how to configure and use them
+3. Understand the different components for developing client/server applications.
+4. Understand the enabling technologies for building Internet and Web database
+applications.
+5. How to develop static and dynamic web pages using different web Technologies
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
@@ -24,6 +29,35 @@ At the end of the course, you should be able to:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
+Understanding the internet and the World Wide Web (WWW), Historical overview of web technologies, Key web terminology and concepts, Text editors and integrated development environments (IDEs), Browser developer tools for debugging and testing **(1 week)**
+
+HTML structure and syntax, Common HTML elements (e.g., headings, paragraphs, lists),
+Forms and input elements, 
+HTML5 features,  **(2 week)**
+
+Styling web pages with CSS, 
+Selectors and specificity, 
+Layout and positioning, **(2 week)** 
+
+CSS frameworks and pre-processors (e.g., Bootstrap), **(1 week)**
+
+Introduction to JavaScript, 
+Variables, data types,and operators, 
+Functions and scope, 
+DOM manipulation (interacting with the Document Object Model), 
+Event handling,  **(2 week)**
+Web APIs and Asynchronous JavaScript (AJAX), **(1 week)**
+Introduction to server-side scripting languages (e.g. PHP, Node.js), **(3 week)**
+working with databases (e.g., MySQL, MongoDB), **(2 week)** 
+Web Servers, xamp Configuration,
+Building dynamic web applications,Web hosting options, Domain registration and management, Uploading files to a web
+server,
+Common web security threats (e.g., XSS, CSRF), 
+Best practices for secure coding, HTTPS and SSL/TLS,
+Web security tools and practices Industry Trends and Best Practices: Staying up-to-date with the latest web
+development trends and best practices is essential in this field. *(1 week)*
 
 ## Weekly Schedule of Classes
 
