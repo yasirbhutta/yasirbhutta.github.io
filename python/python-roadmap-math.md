@@ -87,8 +87,6 @@ Lecture 2: t-tests and p-values in Python using scipy
 
 Lecture 3: Analyzing results and interpreting statistical significance
 
-
-
 Weeks 9-12: Data Visualization
 
 Week 9: Basic Data Visualization in Python
