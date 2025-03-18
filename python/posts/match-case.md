@@ -63,6 +63,17 @@ match http_code:
     case _:
         print("Unknown Status")
 ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Example: Strings - Matching against specific text inputs or commands is straightforward [1].
 
@@ -123,6 +134,18 @@ Here's a table summarizing some key differences:
 
 
 This table highlights that while both serve the purpose of conditional execution, match case offers advantages in terms of readability for complex scenarios and introduces the powerful concept of pattern matching.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Exploring the Power of Patterns: Beyond Simple Values
 
@@ -253,6 +276,17 @@ match file_extension:
     case _:
         print("Unknown file type.")
 ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Data structure parsing: When dealing with structured data like coordinates or configuration settings, match case can help you easily extract the information you need 1.
 
@@ -282,20 +316,33 @@ As you start using the match case statement, here are a few tips to keep in mind
 
 Python's match case statement, introduced in version 3.10, offers a powerful and elegant way to handle multiple conditions in your code 1. It provides a cleaner syntax and improved readability, especially when dealing with a variety of specific values or complex data structures. While if-elif-else statements remain useful for simpler boolean checks, match case brings the power of structural pattern matching to Python, allowing you to write more expressive and maintainable code for many conditional logic scenarios 28. As you continue your journey in learning Python, practicing with the match case statement will undoubtedly prove to be a valuable skill, enabling you to write more Pythonic and efficient programs.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## References
 
-1. Python Switch Case Statement: A Beginner's Guide | DataCamp, accessed March 18, 2025, https://www.datacamp.com/tutorial/python-switch-case
+1. Python Switch Case Statement: A Beginner's Guide \| DataCamp, accessed March 18, 2025, https://www.datacamp.com/tutorial/python-switch-case
 2. What is Match Case Statement in Python? - Analytics Vidhya, accessed March 18, 2025, https://www.analyticsvidhya.com/blog/2024/02/what-is-match-case-statement-in-python/
 3. Python Match Case Statement - GeeksforGeeks, accessed March 18, 2025, https://www.geeksforgeeks.org/python-match-case-statement/
 4. adabeat.com, accessed March 18, 2025, https://adabeat.com/fp/pattern-matching-in-functional-programming/#:~:text=Pattern%20matching%2C%20at%20its%20core,in%20the%20functional%20programming%20toolbox.
 5. Expressive Code with Pattern Matching - DEV Community, accessed March 18, 2025, https://dev.to/nexxeln/expressive-code-with-pattern-matching-3de6
-6. Pattern matching overview - C# | Microsoft Learn, accessed March 18, 2025, https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching
+6. Pattern matching overview - C# \| Microsoft Learn, accessed March 18, 2025, https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching
 7. Pattern matching - Wikipedia, accessed March 18, 2025, https://en.wikipedia.org/wiki/Pattern_matching
 8. Pattern matching in Functional Programming - Ada Beat, accessed March 18, 2025, https://adabeat.com/fp/pattern-matching-in-functional-programming/
-9. What is Pattern Matching | Deepchecks, accessed March 18, 2025, https://www.deepchecks.com/glossary/pattern-matching/
+9. What is Pattern Matching \| Deepchecks, accessed March 18, 2025, https://www.deepchecks.com/glossary/pattern-matching/
 10. Python Match Statement: A Versatile Switch-Case in Python - Mimo, accessed March 18, 2025, https://mimo.org/glossary/python/match-statement
 11. 4. More Control Flow Tools — Python 3.13.2 documentation, accessed March 18, 2025, https://docs.python.org/3/tutorial/controlflow.html
-12. How to define default case in matching | LabEx, accessed March 18, 2025, https://labex.io/tutorials/python-how-to-define-default-case-in-matching-418555
+12. How to define default case in matching \| LabEx, accessed March 18, 2025, https://labex.io/tutorials/python-how-to-define-default-case-in-matching-418555
 13. Python Match Case: What It Is & How To Use It – Master Data Skills ..., accessed March 18, 2025, https://blog.enterprisedna.co/python-match-case/
 14. Python Match-Case Statement - Stackademic, accessed March 18, 2025, https://blog.stackademic.com/python-match-case-statement-63d01477e1c0
 15. Python - Match-Case Statement - TutorialsPoint, accessed March 18, 2025, https://www.tutorialspoint.com/python/python_matchcase_statement.htm
