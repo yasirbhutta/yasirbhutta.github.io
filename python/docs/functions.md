@@ -77,7 +77,19 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-### Task 1: Create a Function to Calculate the Area of a Rectangle
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+### Task 6.1: Create a Function to Calculate the Area of a Rectangle
 
 **Function Requirements:**
 1. Define a function named `calculate_area` that takes two parameters: `length` and `width`.
@@ -103,7 +115,7 @@ The area of the rectangle with length 5 and width 3 is: 15
 2. **Input:** `length = 10.5`, `width = 4.2`
    - **Output:** `The area of the rectangle with length 10.5 and width 4.2 is: 44.1`
 
-### Task 2: Create a Function to Check if a Number is Even or Odd
+### Task 6.2: Create a Function to Check if a Number is Even or Odd
 
 **Function Requirements:**
 1. Define a function named `is_even` that takes one parameter: `number`.
@@ -163,7 +175,7 @@ Encourage beginners to test the function with various numbers:
    result = multiply(b=3, a=5)  # You can specify arguments in any order
    ```
 
-### Task 3: Basic Default Argument Task
+### Task 6.3: Basic Default Argument Task
    - **Task:** Write a function `greet` that takes a name as an argument and a greeting message with a default value of "Hello". If no greeting is provided, the function should use "Hello."
    - **Example:** `greet("Alice")` should output `"Hello, Alice!"` and `greet("Alice", "Good morning")` should output `"Good morning, Alice!"`
 
@@ -171,6 +183,18 @@ Encourage beginners to test the function with various numbers:
    - **Task:** Write a function `calc_price` that accepts `price`, `tax=0.05`, and `discount=0`. Calculate the final price after applying tax and discount. Test with various keyword arguments to see how changes affect the result.
    - 
    - **Example:** `calc_price(100)`, `calc_price(100, discount=0.1)`, `calc_price(100, tax=0.07, discount=0.1)`
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [video: Guard Statements in Python: Explained Simply](https://youtu.be/rzY31wSKvXc)
 
@@ -230,6 +254,18 @@ print(my_function())
     - B) `0`  
     - C) `True`  
     - D) `Error`  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. **What is the output of the following code?** [Python Quiz #90](https://youtu.be/w2M0XAl4DsQ)
    ```python
