@@ -52,7 +52,7 @@
 </html>
 ```
 
-You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css/css/text-styling/font-family.html) (see also the [source code](https://github.com/yasirbhutta/html-css/blob/main/css/text-styling/font-family.html)).
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/font-family.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/font-family.html)).
 
 
 ## Key Terms
