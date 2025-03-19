@@ -60,6 +60,7 @@ Here's a simple example of how to use the CSS `color` property for beginners:
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/text-color2.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/text-color2.html).
 
 **Explanation:**
 
@@ -67,6 +68,8 @@ Here's a simple example of how to use the CSS `color` property for beginners:
 - `color: #ff5733;` → Uses a hex code.
 - `color: rgb(255, 165, 0);` → Uses an RGB color format.
 - `color: hsl(120, 100%, 25%);` → Uses an HSL color format.
+
+
 
 #### Font families
 
@@ -170,6 +173,8 @@ The `font-size` property in CSS determines the size of the text on a webpage. Un
 </html>
 ```
 
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/font-size.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/font-size.html).
+
 **Explanation:**
 
 - `.absolute-size`: Sets the font size to a fixed value using pixels (`px`). For example, `font-size: 16px;` sets the text to 16 pixels.
@@ -252,6 +257,8 @@ Understanding CSS properties like `font-style`, `font-weight`, `text-transform`,
 </html>
 ```
 
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/font-style.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/font-style.html).
+
 **Explanation:**
 
 - `.italic-text`: Applies the `font-style: italic;` property to italicize the text.
@@ -300,6 +307,8 @@ The `text-shadow` property in CSS allows you to add shadow effects to text, enha
 </body>
 </html>
 ```
+
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/text-shadow.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/text-shadow.html).
 
 **Explanation:**
 
@@ -371,6 +380,7 @@ By adjusting these values, you can customize the shadow's position, blur intensi
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/text-align.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/text-align.html).
 
 **Explanation:**
 
@@ -448,6 +458,7 @@ The `line-height` property in CSS determines the vertical spacing between lines 
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/line-height.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/line-height.html).
 
 **Explanation:**
 
@@ -543,6 +554,7 @@ Adjusting letter and word spacing in CSS allows you to control the horizontal sp
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/).
 
 **Explanation:**
 
@@ -649,6 +661,7 @@ Customizing bullet styles in lists enhances the visual appeal and readability of
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/).
 
 **Explanation:**
 
@@ -746,6 +759,7 @@ Styling ordered lists in HTML enhances their readability and aligns them with yo
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/).
 
 **Explanation:**
 
@@ -831,6 +845,7 @@ Here's an example demonstrating how to style these different link states:
 </body>
 </html>
 ```
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/).
 
 **Explanation:**
 
