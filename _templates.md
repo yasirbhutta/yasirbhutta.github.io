@@ -15,6 +15,9 @@ Podcasts and documentaries: CodeNewbie, Software Engineering Daily, The Social D
 
 **See also:**
 
+## code
+
+You can find the finished example on GitHub (see also the source code).
 
 **Important:**
 **Tips:**

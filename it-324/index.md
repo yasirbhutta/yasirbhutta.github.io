@@ -8,11 +8,11 @@
   
 ## Related Links
 
-- [https://www.w3schools.com/](https://www.w3schools.com/)
-- [https://www.tutorialspoint.com/](https://www.tutorialspoint.com/)
 - [HTML: HyperText Markup Language - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  
+- [https://www.w3schools.com/](https://www.w3schools.com/)
+- [https://www.tutorialspoint.com/](https://www.tutorialspoint.com/)
+
 ## Reference Books
 
 1. Web Development and Design Foundations with HTML5" by Terry Felke-Morris
@@ -35,7 +35,7 @@
 
 - Cascading Style Sheets basics [[web]](docs/css3-basics.md)[[slides]](https://docs.google.com/presentation/d/1YPv-nuxdL8wu_1RWu_nwvRYROiSGPNrC3HaensNWpi0/export?format=pdf)
 - [Selectors][[web]](../html-css/docs/css-selectors.md)[[slides]](https://docs.google.com/presentation/d/1iUu9FIBMNmZ7uD49wa8Ga_lfx5DJ8HjI7-FXhx5Dufc/export?format=pdf)
-- CSS3 Properties [[web]](../html-css/docs/css-properties.md)[[slides]](https://docs.google.com/presentation/d/1Uww9WSzhwk8guCS-5dtmrbHYf2GS-vEZNjOWYdbfP5M/export?format=pdf)
+- [CSS text styling](../html-css/docs/css-text-styling.md)
 
 ### Emmet for HTML
 
