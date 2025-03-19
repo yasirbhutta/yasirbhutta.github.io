@@ -182,6 +182,18 @@ The `font-size` property in CSS determines the size of the text on a webpage. Un
 
 For a comprehensive list of predefined keywords and more details on the `font-size` property, you can refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) and [W3Schools](https://www.w3schools.com/cssref/pr_font_font-size.php).
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### Font style, font weight, text transform, and text decoration
 
 Understanding CSS properties like `font-style`, `font-weight`, `text-transform`, and `text-decoration` is essential for styling text on web pages. Here's a beginner-friendly example demonstrating how to use these properties:
@@ -453,6 +465,18 @@ Adjusting the `line-height` property can significantly enhance the readability o
 
 - [line-height MDN WEB DOCS](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 - [CSS line-height Property - w3schools](https://www.w3schools.com/cssref/pr_dim_line-height.php?utm_source=chatgpt.com)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### Letter and word spacing
 
@@ -735,7 +759,19 @@ Styling ordered lists in HTML enhances their readability and aligns them with yo
 
 - **Uppercase Roman Numerals:** Applies `list-style-type: upper-roman;` for uppercase Roman numerals (I, II, III, ...).
 
-- **Custom Counter Style:** Utilizes CSS counters to create a custom numbering format. The `counter-reset` property initializes the counter, `counter-increment` increases it for each list item, and the `::before` pseudo-element displays the counter value, allowing for complex numbering schemes.
+You can find the finished example on [GitHub](https://yasirbhutta.github.io/html-css-examples/css/text-styling/order-list-styles.html) (see also the [source code](https://github.com/yasirbhutta/html-css-examples/blob/main/css/text-styling/order-list-styles.html).
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Styling links
 
