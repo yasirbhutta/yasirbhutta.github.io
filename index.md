@@ -4,9 +4,25 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Coding
 - [Getting started with Python](python/)
-  - [Python for Beginners: Task-Based Learning Made Easy](python/docs/python-task-based-learning.md)
+    - [Installation of Tools](python/docs/python-task-based-learning.md)
+    - [Python - Quick Guide for Ultimate Python Beginner's](python/docs/quick-guide.md)
+    - [Python Language Basics](python/docs/basics.md)
+    - [Variables](python/docs/variables.md)
+    - [Data Types](python/docs/data-types.md)
+    - [Operators](python/docs/operators.md)
+    - [Control Flow](python/docs/control-flow.md)
+    - [Defining Functions](python/docs/functions.md)
+    - [Advanced function concepts](python/docs/functions-adv-concepts.md)
+    - [Data Structures and Sequences](python/docs/dss.md)
+      - [Python Sorting](python/docs/sorting.md)
+    - [Modules and Libraries](python/docs/modules-libraries.md)
+    - [Working with Files](python/docs/files.md)
+    - [Exception Handling](python/docs/error.md)
+    - Functions and Methods
+      - [Built-in Functions](python/docs/built_in_functions.md)
+      - [String Methods](python/docs/str-methods.md)
+    - [Learn more ..](python/)
 - [Matlab for Beginners](matlab/index.md)
-- [Web Development](web-dev/index.md)
 ## Microsoft 365
 - [Microsoft Excel](ms-excel/index.md)
 - [Microsoft Word](ms-word/index.md)

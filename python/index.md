@@ -49,6 +49,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ### Python Basics Notes
 
+- [Installation of Tools](docs/python-task-based-learning.md)
+- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)
 - [Data Types](docs/data-types.md)
