@@ -40,6 +40,18 @@ In this example, when generate_squares(5) is called, it returns a generator obje
 
 This on-demand generation of values is known as lazy evaluation . Importantly, the state of the function (including the value of i) is preserved between calls to yield . This means the function can pick up exactly where it left off, making it efficient for processing sequences step by step.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Example:
 
 ```python
@@ -119,6 +131,18 @@ In this example, the `read_csv` generator yields each row of the CSV file on-the
 2. *Lazy Evaluation*: We only read the file as we need to process each row.
 3. *Improved Performance*: We avoid loading the entire file into memory, reducing memory usage and improving performance.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **Creating Infinite Sequences:** Generators can also represent sequences that have no end, a feat impossible with standard lists . Consider a generator that yields an infinite sequence of natural numbers:
 ```python
 def infinite_sequence():
@@ -163,6 +187,18 @@ for square in even_squares:
 
 In this pipeline, generate_numbers produces a sequence of numbers. square_numbers then processes this sequence, squaring each number. Finally, filter_even takes the squared numbers and yields only the even ones. Each generator operates on one item at a time, passing it to the next stage, which helps in maintaining memory efficiency, especially for more complex data processing workflows .
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Practical Tasks for Beginners
 Let's solidify your understanding with a few practical exercises:
 
@@ -200,6 +236,19 @@ def words_from_file(file_path):
         for line in f:
             for word in line.strip().split():
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## References
 
