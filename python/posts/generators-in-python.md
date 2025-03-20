@@ -10,26 +10,26 @@ The most common way to create a generator in Python is by defining a generator f
 
 Here's the basic syntax of a generator function:
 
-'''python
+```python
 def generator_function_name(parameters):
     # Some code here
     yield expression
     # More code can follow
-'''
+```
 
 Consider a simple example where we want to generate the squares of the first five natural numbers:
-'''python
+```python
 def generate_squares(n):
     for i in range(n):
         yield i ** 2
-'''
+```
 
 # Using the generator
-'''python
+```python
 squares = generate_squares(5)
 for square in squares:
     print(square) # Output: 0, 1, 4, 9, 16
-'''
+```
 
 In this example, when generate_squares(5) is called, it returns a generator object. The for loop then iterates over this object. Each time the loop requests the next value, the generator function resumes execution from where it last left off (after the yield statement), calculates the next square, and yields it. This process continues until the loop finishes or the generator runs out of values to yield .
 
@@ -44,11 +44,11 @@ Here's the syntax for a generator expression:
 
 
 Let's rewrite our previous example using a generator expression:
-'''python
+```python
 squares = (i ** 2 for i in range(5))
 for square in squares:
     print(square) # Output: 0, 1, 4, 9, 16
-'''
+```
 
 The output is the same, but the syntax is more compact. The key difference between a list comprehension and a generator expression lies in what they produce. A list comprehension creates the entire list in memory at once, whereas a generator expression returns a generator object that yields items one at a time . This makes generator expressions particularly useful when dealing with large or potentially infinite sequences, as they avoid the memory overhead of storing the entire sequence .
 
@@ -57,7 +57,7 @@ The output is the same, but the syntax is more compact. The key difference betwe
 The benefits of generators become clearer when we look at practical scenarios:
 
 **Processing Large Data Streams:** Imagine you need to analyze a massive log file that is too large to fit into your computer's memory. A generator can read the file line by line and process each line as it's read, without loading the entire file into memory . This approach allows you to work with datasets of virtually any size, limited only by the time it takes to process them . For instance, if you have a function process_line to handle each line of the log file, you could use a generator like this:
-'''python
+```python
 def read_large_file(file_path):
     with open(file_path, 'r') as file:
         for line in file:
@@ -65,31 +65,31 @@ def read_large_file(file_path):
 
 for line in read_large_file("large_log_file.txt"):
     process_line(line)
-'''
+```
 
 This method avoids loading the entire file content into memory, making it highly efficient for handling very large datasets .
 
 **Creating Infinite Sequences:** Generators can also represent sequences that have no end, a feat impossible with standard lists . Consider a generator that yields an infinite sequence of natural numbers:
-'''python
+```python
 def infinite_sequence():
     num = 0
     while True:
         yield num
         num += 1
-'''
+```
 
 To use it, you'd typically take a limited number of items
-'''python
+```python
 counter = infinite_sequence()
 for _ in range(10):
     print(next(counter)) # Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-'''
+```
 
 The while True loop would normally cause an infinite loop and crash the program if it were a regular function trying to store all the numbers. However, the yield keyword pauses the function's execution and returns a value each time it's encountered. The next time a value is requested, the function resumes from where it left off. This allows the function to produce values indefinitely without consuming excessive memory or causing an infinite loop .
 
 **Simple Data Processing Pipelines:** Generators can be chained together to perform a series of operations on data in a memory-efficient way . Each generator in the pipeline processes the data one item at a time and passes the result to the next generator. Here's a simple example:
 
-'''python
+```python
 def generate_numbers(n):
     for i in range(n):
         yield i
@@ -109,7 +109,7 @@ even_squares = filter_even(squared)
 
 for square in even_squares:
     print(square) # Output: 0, 4, 16, 36, 64
-'''
+```
 
 In this pipeline, generate_numbers produces a sequence of numbers. square_numbers then processes this sequence, squaring each number. Finally, filter_even takes the squared numbers and yields only the even ones. Each generator operates on one item at a time, passing it to the next stage, which helps in maintaining memory efficiency, especially for more complex data processing workflows .
 
@@ -118,7 +118,7 @@ Let's solidify your understanding with a few practical exercises:
 
 **Task 1:** Create a generator that yields the first N even numbers.Write a generator function that takes an integer n as input and yields the first n even numbers (starting from 0).
 
-'''python
+```python
 def first_n_evens(n):
     num = 0
     count = 0
@@ -129,27 +129,27 @@ def first_n_evens(n):
 
 for even_num in first_n_evens(5):
     print(even_num) # Expected output: 0, 2, 4, 6, 8
-'''
+```
 
 **Task 2:** Write a generator to reverse a string character by character.Create a generator function that takes a string as input and yields its characters in reverse order.
-'''python
+```python
 def reverse_string(text):
     for i in range(len(text) - 1, -1, -1):
         yield text[i]
 
 for char in reverse_string("hello"):
     print(char) # Expected output: o, l, l, e, h
-'''
+```
 
 **Task 3:** Build a generator that reads a short text file and yields each word.Assume you have a file named sample.txt with the content:
 This is a sample text file.
 Write a generator function that reads this file and yields each word.
-'''python
+```python
 def words_from_file(file_path):
     with open(file_path, 'r') as f:
         for line in f:
             for word in line.strip().split():
-'''
+```
 
 ## References
 
