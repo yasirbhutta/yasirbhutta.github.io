@@ -1,19 +1,16 @@
 
 body {
-    margin: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
- 
+    /* margin: 20px;  */
   }
   
   section {
-    padding-left: 40px;
-    padding-right: 40px;
-     }
+    /* padding-left: 40px; */
+    /* # padding-right: 40px; */
+    }
   
   p {
-      margin: 20px;   /* Creates space around the paragraph */
-      padding: 20px;  /* Adds space inside the paragraph */
+      margin: 10px;   /* Creates space around the paragraph */
+      padding: 10px;  /* Adds space inside the paragraph */
   }
     
   
