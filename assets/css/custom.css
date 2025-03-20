@@ -5,6 +5,8 @@ body {
   
   .content {
     margin: 40px auto;
-    max-width: 800px;
+    /* max-width: 800px; */
+    padding-left: 40px;
+    padding-right: 40px;
   }
   
