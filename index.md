@@ -13,24 +13,31 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Operators](python/docs/operators.md)
     - [Control Flow](python/docs/control-flow.md)
     - [Defining Functions](python/docs/functions.md)
-    - [Advanced function concepts](python/docs/functions-adv-concepts.md)
-    - [Data Structures and Sequences](python/docs/dss.md)
-      - [Python Sorting](python/docs/sorting.md)
-    - [Modules and Libraries](python/docs/modules-libraries.md)
-    - [Working with Files](python/docs/files.md)
-    - [Exception Handling](python/docs/error.md)
-    - Functions and Methods
-      - [Built-in Functions](python/docs/built_in_functions.md)
-      - [String Methods](python/docs/str-methods.md)
     - [Learn more ..](python/)
+- [Python Insights: From Basics to Advanced](python/posts/)
 - [Matlab for Beginners](matlab/index.md)
-  
+    
 ## Microsoft 365
 
-- [Microsoft Excel](ms-excel/index.md)
-- [Microsoft Word](ms-word/index.md)
-- [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
-- [Microsoft Teams](teams/index.md)
+### [Microsoft Excel](../ms-excel/index.md)
+
+- [Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
+- [Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
+- [Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
+- [Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
+- [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
+  
+### [Microsoft Word](../ms-word/index.md)
+
+- [Microsoft Word Basics](../ms-word/docs/basics.md)
+- [Character Formatting](../ms-word/docs/character-formatting.md)
+- [Paragraph Formatting](../ms-word/docs/paragraph-formatting.md)
+- [Page Formatting](../ms-word/docs/page-formatting.md)
+- [Text Editing in Documents](../ms-word/docs/stylish.md)
+- [Word Practical Topics](../ms-word/docs/word-practical.md) \| [PDF](../ms-word/docs/word-practical.pdf)
+
+### [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
+### [Microsoft Teams](teams/index.md)
 
 ## Google Workspace
 
@@ -46,11 +53,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 - [Computer Networks Lab](computer-networks/index.md)
 - [System and Network Administration](sna/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
-- [Learn Computer Lab](computer-basics/learn-computer.md)
 
 ## Training
 
 - [IT Support Desk](trainings/docs/itsupport.md)
+- [Learn Computer Lab](computer-basics/learn-computer.md)
 
 ## Softwares
 
