@@ -11,3 +11,9 @@ body {
     padding-right: 40px;
      }
   
+  p {
+      margin: 20px;   /* Creates space around the paragraph */
+      padding: 10px;  /* Adds space inside the paragraph */
+  }
+    
+  
