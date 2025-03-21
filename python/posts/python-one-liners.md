@@ -171,4 +171,8 @@ Here are some powerful Python one-liners with examples to help you understand ho
     print(merged)  
     # Output: {'a': 1, 'b': 3, 'c': 4}
     ```
-21. 
+
+## Further learning
+
+- [Powerful Python One-Liners](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)
+- [Python One-Liners to Help You Write Simple, Readable Code](https://www.freecodecamp.org/news/python-one-liners/)
