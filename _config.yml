@@ -7,5 +7,5 @@ google_analytics: G-BW2SVN86HD
 #remote_theme: mmistakes/minimal-mistakes
 remote_theme: just-the-docs/just-the-docs
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-seo-tag
