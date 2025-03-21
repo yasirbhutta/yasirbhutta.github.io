@@ -12,6 +12,9 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 6. [Powerful Python One-Liners](python-one-liners.md)
 7. [What is Guard Statement](guard-statement.md)
 8. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
+9. [Common Python Class Attribute Mistakes and How to Fix Them](common-class-mistake.md)
+10. [Understanding the `__str__` Method](class-str-method.md)
+11. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
 
 ## Data Analysis with Python
 
