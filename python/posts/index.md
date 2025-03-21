@@ -11,4 +11,6 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 4. [Walrus Operator (:=) in Python: Syntax, Examples, and Real-World Applications](walrus-operator.md)
 
 ## Data Analysis with Python
+
+- [How to Structure a Data Analysis Project in Python: A Complete Guide]()
 ## Data Visualization with Python
