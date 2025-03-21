@@ -72,7 +72,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
   - [Set Methods](#)
   - [File Methods](#)
 - [Comprehensions (List and Dictionary)](docs/comprehensions.md)
-- [Generator Functions](docs/generators.md)
+- [Generator Functions](posts/generators-in-python.md)
 - [Decorators](docs/decorators.md)
 - [Classes and Objects](docs/classes.md)
 - [Regular Expressions](docs/re.md)
