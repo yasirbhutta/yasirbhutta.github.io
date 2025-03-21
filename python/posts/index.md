@@ -11,7 +11,5 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 5. [Walrus Operator (`:=`) in Python](walrus-operator.md)
 
 ## Data Analysis with Python
--dd
-ddd
 
 ## Data Visualization with Python
