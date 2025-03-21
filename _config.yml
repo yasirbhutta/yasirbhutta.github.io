@@ -3,9 +3,9 @@ description: Learn Python, Microsoft 365 and Google Workspace
 show_downloads: false
 google_analytics: G-BW2SVN86HD
 #theme: jekyll-theme-time-machine
-#remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/leap-day@v0.2.0
 #remote_theme: mmistakes/minimal-mistakes
-remote_theme: just-the-docs/just-the-docs
+#remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
