@@ -1,15 +1,3 @@
-# Python Quizzes – Test Your Knowledge
-
-## List of Python Online Tests
-
-1. [Python Generators Quiz](python-generators-quiz.md)
-
-# Python Quizzes – Test Your Knowledge
-
-Welcome to the Python Quizzes section! Here, you can test your Python knowledge with a variety of quizzes designed for beginners and experienced developers alike. Each quiz contains multiple-choice questions (MCQs) to help reinforce your learning.
-
-## List of Python Online Tests
-
 1. [Python Basics Quiz](python-basics-quiz.md) - Test your fundamental knowledge of Python syntax, variables, and basic operations.
 2. [Python Data Types Quiz](python-data-types-quiz.md) - Assess your understanding of lists, tuples, dictionaries, and other data structures.
 3. [Python Functions Quiz](python-functions-quiz.md) - Challenge yourself with questions on defining and using functions in Python.
@@ -19,9 +7,3 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 7. [Python Error Handling Quiz](python-error-handling-quiz.md) - Check your understanding of exceptions and error handling mechanisms.
 8. [Python Generators Quiz](python-generators-quiz.md) - Explore your knowledge of Python generators and iterators.
 9. [Python Decorators Quiz](python-decorators-quiz.md) - Dive into Python decorators and their real-world applications.
-
-
-## Related resources
-
-1. [Python Quizzes - pythongeeks.org](https://pythongeeks.org/python-quiz-test/)
-2. [Python Quizzes - realpython.com](https://realpython.com/quizzes/)
