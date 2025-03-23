@@ -10,9 +10,10 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 4. [Python Operators Quiz](python-operators-quiz.md)
 5. [Python String Quiz](python-string-quiz.md)
 6. [Python if elif else Quiz](python-if-elif-else-quiz.md)
-7. [Python Functions Quiz](python-functions-quiz.md)
-8. [Python List Quiz](python-list-quiz.md)
-9. [Python Generator Quiz](python-generators-quiz.md)  
+7. [Python for loop Quiz](python-for-loop-quiz.md)
+8. [Python Functions Quiz](python-functions-quiz.md)
+9. [Python List Quiz](python-list-quiz.md)
+10. [Python Generator Quiz](python-generators-quiz.md)  
    
 ## Related resources
 
