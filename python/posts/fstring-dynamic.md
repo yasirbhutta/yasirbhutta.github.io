@@ -50,4 +50,15 @@ I work as a developer.
 
 Multi-line f-strings are an excellent way to format long strings while keeping the code readable and structured. Try them in your next project, whether it's generating reports, displaying structured output, or improving readability in your classes.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
