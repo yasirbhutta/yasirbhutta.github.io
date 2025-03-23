@@ -2610,8 +2610,6 @@ D) It calculates the sum of numbers from 0 to 5.
 
 *Explanation:* The loop iterates over the range from 0 to 5 (inclusive), summing up the values. The `total` variable accumulates this sum.
 
-
-
 ### Question 6
 
 **How can a `for` loop be used in a real-life scenario involving data processing?**
