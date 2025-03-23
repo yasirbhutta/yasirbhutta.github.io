@@ -15,7 +15,13 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 9. [Python List Quiz](python-list-quiz.md)
 10. [Python Generator Quiz](python-generators-quiz.md)  
    
-## Related resources
-
-1. [Python Quizzes - pythongeeks.org](https://pythongeeks.org/python-quiz-test/)
-2. [Python Quizzes - realpython.com](https://realpython.com/quizzes/)
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
