@@ -1954,6 +1954,7 @@ These challenges are designed to highlight common mistakes that occur when worki
 
 - [Python if elif else Quiz](../quizzes/python-if-elif-else-quiz.md)
 - [Python For Loop Quiz](../quizzes/python-for-loop-quiz.md)
+- [Python While Loop Quiz](../quizzes/python-while-loop-quiz.md)
 
 ### if statement (MCQs)
 
@@ -2773,23 +2774,6 @@ while count < 3:
     - B) 0 1
     - C) 1 2 3
     - D) The code will run indefinitely.
-
-
-What is the benefit of using control structures in programming languages?3
-
-A) to make the code more modular and reusable
-B) to control the flow of execution based on certain parameters or conditions
-C) to implement various algorithms and logic in the code
-D) all of the above
-Answer: D
-
-How can you create an if-else statement in one line in Python?2
-
-A) by using a ternary operator with condition and values
-B) by using a lambda function with condition and values
-C) by using a colon after if block and before else block
-D) by using parentheses around if block and else block
-Answer: A
 
 ### Loop Control Statements (break, continue, pass) (MCQs)
 
