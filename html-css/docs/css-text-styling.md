@@ -1064,6 +1064,24 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 
 By styling these link states, you enhance the user experience by providing visual feedback during interactions. Remember to follow the correct order of pseudo-classes to ensure styles are applied as intended.
 
+---
+
+### **Task: Create a Horizontal Navigation Menu using CSS**  
+
+#### **Objective:**  
+Create a horizontal navigation bar with five menu items using HTML and CSS. The menu should be visually appealing and responsive.  
+
+#### **Requirements:**  
+1. Use an unordered list (`<ul>`) to structure the menu.  
+2. Each menu item should be inside a `<li>` element.  
+3. Style the menu with CSS to ensure:  
+   - The items are displayed horizontally.  
+   - There is padding and margin to space out the items.  
+   - The text color changes when hovered.  
+4. The menu should have a background color.  
+5. On hovering over a menu item, change the background color and text color.  
+
+[Click here for the solution](../posts/menu-using-css-html.md)
 
 ## Key Terms
 
@@ -1109,11 +1127,4 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 - [5] “CSS Basics: Styling Links Like a Boss,” CSS-Tricks, Feb. 15, 2018. <https://css-tricks.com/css-basics-styling-links-like-boss/>
 ‌
 ‌
-‌
-‌
-‌
-
-For more details, see Appendix A.
-
-## **Appendices**
 
