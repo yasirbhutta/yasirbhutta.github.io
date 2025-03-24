@@ -1,6 +1,6 @@
 # Understanding Control Structures in Python
 
-Control structures are the building blocks of any programming language, helping developers control the flow of execution. Python has three fundamental types of control structures: **Sequence, Selection, and Repetition (Looping)**. Let’s explore each with examples.
+Control structures are the building blocks of any programming language, helping developers control the flow of execution. Python has three fundamental types of control structures: **Sequence, Selection, and Repetition (Looping)**. Let’s explore each with examples. [1]
 
 ## 1. Sequence Structure
 
@@ -87,4 +87,8 @@ Understanding control structures is crucial for writing efficient programs. Pyth
 ## Further Learning
 
 - [Flow Control Statements in Python](../docs/control-flow.md)
+
+## References
+
+- [1] [What are control flow statements in Python? - educative.io](https://www.educative.io/answers/what-are-control-flow-statements-in-python)
 

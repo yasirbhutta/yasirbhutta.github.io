@@ -104,6 +104,16 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
 
+**Python has three types of control structures:**
+
+1. Sequential: Default mode
+2. Selection: Used for decisions and branching
+3. Repetition: Used for looping, i.e., repeating a code multiple times.
+
+for more details, see [Understanding Control Structures in Python](../posts/control-structures-python.md)
+
+**Flow control statements in Python**
+
 1. Conditional Statements (if, else, elif)
 2. Looping Statements (for, while)
 3. Loop Control Statements (break, continue, pass)
