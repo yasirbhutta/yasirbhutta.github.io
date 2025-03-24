@@ -1955,6 +1955,7 @@ These challenges are designed to highlight common mistakes that occur when worki
 - [Python if elif else Quiz](../quizzes/python-if-elif-else-quiz.md)
 - [Python For Loop Quiz](../quizzes/python-for-loop-quiz.md)
 - [Python While Loop Quiz](../quizzes/python-while-loop-quiz.md)
+- [ Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](../quizzes/python-break-continue-else-loop-quiz.md)
 
 ### if statement (MCQs)
 
@@ -2826,66 +2827,6 @@ else:
     - D) 1 2 3 Loop completed
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/LfF9CsyVRgU](https://youtu.be/LfF9CsyVRgU)
-
-
-What is the difference between a break statement and a continue statement in Python?4
-
-A) break terminates the loop, continue skips to the next iteration
-B) break skips to the next iteration, continue terminates the loop
-C) break exits the program, continue pauses the program
-D) break resumes the program, continue exits the program
-Answer: A
-
-What are the three types of control structures in Python?
-
-A) Sequential, Selection and Repetition
-B) Conditional, Looping and Branching
-C) Function, Class and Module
-D) Input, Output and Processing
-Answer: A
-
-What is the keyword used to make a selection statement in Python?2
-
-A) select
-B) if
-C) switch
-D) case
-Answer: B
-
-What are the two types of iteration statements in Python?1
-
-A) while and do-while
-B) for and foreach
-C) while and for
-D) do-while and foreach
-Answer: C
-
-What are the three basic types of control structures in Python? 
-a) sequence, selection, repetition 
-b) input, output, processing 
-c) function, class, module 
-d) list, tuple, dict
-Answer: a) sequence, selection, repetition
-
-
-
-#51 In Python, What is the output of this code?
-
-name = "Ahmad"
-if name == "Ahmad":
-  print("Hello, Ahmad")
-elif name == "Ali":
-  print("Hello, Ali")
-else:
-  print("Hello, stranger")
-
-Ahmad
-Hello, Ahmad
-Hello, stranger 
-Syntax Error
-
-
-
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
