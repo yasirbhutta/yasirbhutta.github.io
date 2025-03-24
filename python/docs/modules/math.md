@@ -60,6 +60,17 @@ The `math` library is built-in, so you don’t need to install anything to use i
    log_val = math.log(10)       # ln(10)
    log10_val = math.log10(100)  # log_10(100)
    ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. **Power and Root Functions**
    These functions are essential in algebra for handling exponents and square roots.
@@ -176,6 +187,18 @@ Using Sine: The height of the building is 28.87 meters.
 
 This code calculates the height using both the tangent and sine functions, and you can see that both methods give the same result when the angle is \(30^\circ\), and the given values are used correctly.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 6. **Special Constants**
    The `math` library provides access to several useful mathematical constants:
 
@@ -269,6 +292,19 @@ For more details, see Appendix A.
 ## Appendices
 
 ### Appendix A: 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 ‌
