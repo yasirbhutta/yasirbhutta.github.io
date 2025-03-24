@@ -2867,11 +2867,7 @@ c) function, class, module
 d) list, tuple, dict
 Answer: a) sequence, selection, repetition
 
-Which control structure is used to execute a block of code only if a certain condition is true? a) if statement b) for loop c) while loop d) break statement
-Answer: a) if statement
 
-Which control structure is used to execute a block of code for each item in an iterable object? a) if statement b) for loop c) while loop d) break statement
-Answer: b) for loop
 
 #51 In Python, What is the output of this code?
 
@@ -2888,70 +2884,8 @@ Hello, Ahmad
 Hello, stranger 
 Syntax Error
 
-#39 Which keyword is used to break out of a loop in Python?
-
-Watch the Video Tutorial for the Answer: https://youtu.be/LfF9CsyVRgU
-
-#python #pythonpoll #MCQsTest #yasirbhutta
 
 
-a) stop
-b) break
-c) end
-d) exit
-
-Answer: b) break
-
-
-#34 What is the output of the following code?
-
-for i in range(5):
-    if i == 3:
-        continue
-    print(i)
-
-#python #pythonpoll #MCQsTest #yasirbhutta
-
-a) 0 1 2 4
-b) 0 1 2 3
-c) 1 2 4
-d) 0 1 2 3 4
-
-Answer: a) 0 1 2 4
-
-
-Which loop is best suited for iterating over a range of numbers?
-
-a) for loop
-b) while loop
-c) do-while loop
-d) foreach loop
-Answer: a) for loop
-
-Which of the following loops is guaranteed to execute at least once?
-a) for loop
-b) while loop
-c) do-while loop
-d) foreach loop
-Answer: c) do-while loop
-
-#36 Which keyword is used to skip to the next iteration of a loop in Python?
-
-Watch the Video Tutorial for the Answer: https://youtube.com/shorts/lf6SYOMIJv8?feature=share
-
-#python #pythonpoll #MCQsTest #yasirbhutta
-
-a) skip
-b) continue
-c) next
-d) go
-Answer: b) continue
-
-Which of the following is not a looping statement in Python?
-a) for
-b) while
-c) repeat
-d) do-while
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
