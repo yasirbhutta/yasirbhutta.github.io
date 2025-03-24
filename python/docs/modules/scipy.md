@@ -70,6 +70,17 @@
    # Probability of getting exactly 2 events
    pmf = poisson_dist.pmf(2)
    ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
    #### d. **Uniform Distribution**
    Each outcome in the range has an equal probability of occurring.
@@ -131,6 +142,18 @@
    f_stat, p_val = stats.f_oneway(group1, group2, group3)
    ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 5. **Confidence Intervals**
    Confidence intervals estimate a range within which a population parameter is likely to fall, with a specified level of confidence (e.g., 95%).
 
@@ -153,6 +176,18 @@
    # Covariance matrix
    covariance_matrix = np.cov(x, y)
    ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 7. **Linear Regression**
    Linear regression models the relationship between two variables by fitting a linear equation. `SciPy` provides a simple implementation of linear regression.
