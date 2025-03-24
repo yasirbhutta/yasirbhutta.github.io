@@ -37,6 +37,8 @@
 - [Selectors](../html-css/docs/css-selectors.md)[[slides]](https://docs.google.com/presentation/d/1iUu9FIBMNmZ7uD49wa8Ga_lfx5DJ8HjI7-FXhx5Dufc/export?format=pdf)
 - [CSS text styling](../html-css/docs/css-text-styling.md)
 
+### [Web Development Articles](../html-css/posts/)
+
 ### Emmet for HTML
 
 - Intro. to Emmet[slides](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)

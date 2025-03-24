@@ -1081,7 +1081,7 @@ Create a horizontal navigation bar with five menu items using HTML and CSS. The 
 4. The menu should have a background color.  
 5. On hovering over a menu item, change the background color and text color.  
 
-[Click here for the solution](../posts/menu-using-css-html.md)
+[Click here for the solution](../posts/navigation-menu-using-css.md)
 
 ## Key Terms
 
