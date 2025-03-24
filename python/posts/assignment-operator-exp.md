@@ -69,6 +69,8 @@ print(squared)  # Output: [900, 1600]
 ```
 ✔ **Efficient because `square` is computed once.**  
 
+For more details, see [Walrus Operator (`:=`) in Python](walrus-operator.md)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <!-- display square -->
@@ -81,4 +83,6 @@ print(squared)  # Output: [900, 1600]
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
 

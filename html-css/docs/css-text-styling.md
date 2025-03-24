@@ -6,6 +6,13 @@
 
 #### Color
 
+- The color property describes the foreground color of an element's text content.
+
+**Syntax:***
+```css
+color: [color keywords](http://www.w3.org/TR/css3-color/#html4) | [color values](http://www.w3.org/TR/css3-color/#numerical)
+```
+
 ```html
 Here's a simple example of how to use the CSS `color` property for beginners:
 
@@ -187,6 +194,10 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 
 For a comprehensive list of predefined keywords and more details on the `font-size` property, you can refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) and [W3Schools](https://www.w3schools.com/cssref/pr_font_font-size.php).
 
+**See also:**
+
+- [font-size - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -203,6 +214,34 @@ For a comprehensive list of predefined keywords and more details on the `font-si
 
 Understanding CSS properties like `font-style`, `font-weight`, `text-transform`, and `text-decoration` is essential for styling text on web pages. Here's a beginner-friendly example demonstrating how to use these properties:
 
+**Syntax:** 
+
+```css
+font-style: normal;
+font-style: italic;  /* Makes text italic */
+
+/* <font-weight-absolute> keyword values */
+font-weight: normal;
+font-weight: bold; /* Makes text bold */
+
+/* Keyword values */
+text-transform: none;
+text-transform: capitalize; /* Capitalizes the first letter of each word */
+text-transform: uppercase;
+text-transform: lowercase;
+
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: none;
+
+text-decoration: underline dotted;
+text-decoration: overline red;
+text-decoration: underline dotted red;
+text-decoration: green wavy underline;
+text-decoration: underline overline #ff3028;
+
+
+```
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -275,9 +314,23 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
   - `text-transform: capitalize;` capitalizes the first letter of each word.
   - `text-decoration: line-through;` adds a line through the text.
 
+**See also:**
+
+- [https://developer.mozilla.org/en-US/docs/Web/CSS/font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
+- [font-weight - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+- [text-transform - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+- [text-decoration - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
+
 #### Text drop shadows
 
 The `text-shadow` property in CSS allows you to add shadow effects to text, enhancing its visual appeal. Here's a beginner-friendly example demonstrating how to apply text drop shadows:
+
+```css
+text-shadow: offset-x offset-y blur-radius color;
+
+/* offset-x | offset-y | blur-radius | color */
+text-shadow: 1px 1px 2px black;
+```
 
 ```html
 <!DOCTYPE html>
@@ -336,6 +389,22 @@ By adjusting these values, you can customize the shadow's position, blur intensi
 ### Text layout
 
 #### Text alignment
+
+Sure! Here's the **CSS `text-align`** syntax with all possible values included:  
+
+### **Syntax:**
+```css
+selector {
+  text-align: left | right | center | justify;
+}
+```
+
+### **Possible Values:**
+- **`left`** – Aligns text to the left.
+- **`right`** – Aligns text to the right.
+- **`center`** – Centers the text horizontally.
+- **`justify`** – Stretches text so that all lines (except the last) have equal width.
+
 
 ```html
 <!DOCTYPE html>
@@ -405,6 +474,40 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 #### Line height
 
 The `line-height` property in CSS determines the vertical spacing between lines of text, significantly impacting the readability and visual appeal of your content. Here's a beginner-friendly example demonstrating how to use the `line-height` property:
+
+In CSS, the `line-height` property controls the vertical spacing between lines of text.
+
+### **Syntax:**
+```css
+selector {
+  line-height: normal | <number> | <length> | <percentage>;
+}
+```
+
+### **Possible Values:**
+- **`normal`** (default) – Browser sets a reasonable line height.
+- **`<number>`** – A unitless value that acts as a **multiplier** of the font size.  
+  - Example: `line-height: 1.5;` (1.5 times the font size)
+- **`<length>`** – A fixed value using px, em, rem, etc.  
+  - Example: `line-height: 24px;`
+- **`<percentage>`** – Sets the line height relative to the font size.  
+  - Example: `line-height: 150%;` (1.5 times the font size)
+
+### **Example Usage:**
+```css
+p {
+  font-size: 16px;
+  line-height: 1.5; /* 1.5 times the font size */
+}
+
+h1 {
+  line-height: 120%; /* 1.2 times the font size */
+}
+
+span {
+  line-height: 20px; /* Fixed height */
+}
+```
 
 ```html
 <!DOCTYPE html>
@@ -493,6 +596,61 @@ Adjusting the `line-height` property can significantly enhance the readability o
 
 Adjusting letter and word spacing in CSS allows you to control the horizontal spacing between characters and words, enhancing the readability and visual appeal of your text. Here's a beginner-friendly example demonstrating how to use the `letter-spacing` and `word-spacing` properties:
 
+In CSS, `letter-spacing` and `word-spacing` control the spacing between characters and words, respectively.
+
+---
+
+### **1. `letter-spacing` (Controls space between characters)**
+#### **Syntax:**
+```css
+selector {
+  letter-spacing: normal | <length>;
+}
+```
+#### **Possible Values:**
+- **`normal`** – Default spacing set by the browser.
+- **`<length>`** – Specifies the space between characters (e.g., `px`, `em`, `%`).
+  - **Positive values** increase spacing.
+  - **Negative values** decrease spacing.
+
+#### **Example:**
+```css
+p {
+  letter-spacing: 2px; /* Adds 2px space between letters */
+}
+
+h1 {
+  letter-spacing: -1px; /* Reduces space between letters */
+}
+```
+
+---
+
+### **2. `word-spacing` (Controls space between words)**
+
+#### **Syntax:**
+```css
+selector {
+  word-spacing: normal | <length>;
+}
+```
+#### **Possible Values:**
+- **`normal`** – Default spacing set by the browser.
+- **`<length>`** – Specifies the space between words (e.g., `px`, `em`, `%`).
+  - **Positive values** increase spacing.
+  - **Negative values** decrease spacing.
+
+#### **Example:**
+```css
+p {
+  word-spacing: 5px; /* Adds 5px space between words */
+}
+
+h2 {
+  word-spacing: -2px; /* Reduces space between words */
+}
+```
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -575,6 +733,55 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 - For more information on the `word-spacing` property, see the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing).
 
 ## Styling lists
+
+In CSS, the `list-style-type` property defines the bullet or numbering style for list items in `<ul>` (unordered lists) and `<ol>` (ordered lists).  
+
+---
+
+### **Syntax:**
+
+```css
+selector {
+  list-style-type: value;
+}
+```
+
+---
+
+### **Possible Values:**
+#### **For Unordered Lists (`<ul>`)**
+- **`disc`** (●) – Default bullet style.
+- **`circle`** (○) – Hollow circle.
+- **`square`** (■) – Square bullet.
+- **`none`** – No bullets.
+
+#### **For Ordered Lists (`<ol>`)**
+- **`decimal`** (1, 2, 3, 4, ...)
+- **`decimal-leading-zero`** (01, 02, 03, 04, ...)
+- **`lower-roman`** (i, ii, iii, iv, ...)
+- **`upper-roman`** (I, II, III, IV, ...)
+- **`lower-alpha`** (a, b, c, d, ...)
+- **`upper-alpha`** (A, B, C, D, ...)
+- **`lower-greek`** (α, β, γ, δ, ...)
+- **`lower-latin`** (a, b, c, d, ...)
+- **`upper-latin`** (A, B, C, D, ...)
+
+---
+
+### **Example Usage:**
+```css
+ul {
+  list-style-type: square; /* Square bullets */
+}
+
+ol {
+  list-style-type: upper-roman; /* I, II, III, IV, ... */
+}
+
+ul.custom {
+  list-style-type: none; /* Removes bullets */
+}
+```
 
 ### Bullet list styles
 
