@@ -227,3 +227,16 @@
 | Non-Parametric Tests             | `stats.mannwhitneyu()`, `stats.wilcoxon()` | Tests for non-normal data distributions         |
 
 Using `SciPy` for statistics and probability provides a comprehensive toolkit for conducting complex analyses, which is widely applicable in data science, research, and analytics. Let me know if you'd like more details on any specific statistical function!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
