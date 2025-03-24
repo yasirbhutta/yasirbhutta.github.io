@@ -1,5 +1,7 @@
 # Python: Sorting How To
 
+Learn sorting in Python with easy-to-understand code examples.
+
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/python/docs/sorting.pdf)  
@@ -23,13 +25,48 @@ list.sort(key=None, reverse=False)
 **key (optional):** A function that takes a single element from the list and returns a key to be used for sorting. This allows for custom sorting criteria.
 **reverse (optional):** A boolean value. If True, sorts the list in descending order. Defaults to False (ascending order).
 
+### Python Code Example: Sorting a List in Ascending and Descending Order
+
+```python
+# Creating a list of numbers
+numbers = [5, 2, 9, 1, 5, 6]
+
+# Sorting the list in ascending order
+numbers.sort()
+print("Sorted in ascending order:", numbers)
+
+# Sorting the list in descending order
+numbers.sort(reverse=True)
+print("Sorted in descending order:", numbers)
+```
+
+### Output:
+```
+Sorted in ascending order: [1, 2, 5, 5, 6, 9]
+Sorted in descending order: [9, 6, 5, 5, 2, 1]
+```
+
+### Sorting a List of Strings:
+```python
+# List of names
+names = ["John", "Alice", "Bob", "Charlie"]
+
+# Sorting alphabetically
+names.sort()
+print("Alphabetically sorted:", names)
+
+# Sorting in reverse alphabetical order
+names.sort(reverse=True)
+print("Reverse alphabetical order:", names)
+```
+
 **Example:**
 
 - [Video: List sort() Function](https://www.youtube.com/watch?v=qBBEjpyAJcM&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=48)
 
 ### sorted Function
 
-Creates a new sorted list from an iterable object (like a list, tuple, or string), leaving the original iterable unchanged.
+The `sorted()` function in Python is used to return a new sorted list from an iterable (like a list, tuple, or string) without modifying the original list.  
 
 **Syntax:**
 
@@ -42,6 +79,66 @@ sorted(iterable, key=None, reverse=False)
 **iterable:** The iterable object to be sorted (e.g., a list, tuple, string).
 **key (optional):** A function that takes a single element from the iterable and returns a key to be used for sorting. This allows for custom sorting criteria.
 **reverse (optional):** A boolean value. If True, sorts the iterable in descending order. Defaults to False (ascending order).
+
+### Python Code Example 1: Sorting a List of Numbers
+
+```python
+# Original list
+numbers = [5, 2, 9, 1, 5, 6]
+
+# Sorting in ascending order
+sorted_numbers = sorted(numbers)
+print("Sorted in ascending order:", sorted_numbers)
+
+# Sorting in descending order
+sorted_numbers_desc = sorted(numbers, reverse=True)
+print("Sorted in descending order:", sorted_numbers_desc)
+
+# Original list remains unchanged
+print("Original list:", numbers)
+```
+#### Output:
+```
+Sorted in ascending order: [1, 2, 5, 5, 6, 9]
+Sorted in descending order: [9, 6, 5, 5, 2, 1]
+Original list: [5, 2, 9, 1, 5, 6]
+```
+
+---
+
+### Python Code Example 2: Sorting a List of Strings
+```python
+# List of names
+names = ["John", "Alice", "Bob", "Charlie"]
+
+# Sorting alphabetically
+sorted_names = sorted(names)
+print("Alphabetically sorted:", sorted_names)
+
+# Sorting in reverse alphabetical order
+sorted_names_desc = sorted(names, reverse=True)
+print("Reverse alphabetical order:", sorted_names_desc)
+```
+
+---
+
+### Python Code Example 3: Sorting with a Custom Key
+
+You can use the `key` parameter to sort based on custom criteria.
+
+```python
+# Sorting words by length
+words = ["apple", "banana", "kiwi", "grape"]
+
+# Sorting by word length (shortest to longest)
+sorted_words = sorted(words, key=len)
+print("Sorted by word length:", sorted_words)
+```
+
+#### Output:
+```
+Sorted by word length: ['kiwi', 'grape', 'apple', 'banana']
+```
 
 **Examples:**
 
