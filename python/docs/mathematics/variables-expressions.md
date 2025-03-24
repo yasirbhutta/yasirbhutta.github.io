@@ -70,6 +70,18 @@ Using variables and expressions is fundamental in programming, as it allows us t
    height = float(5)  # height is 5.0
    ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 4. **Basic Expressions**
 
    Expressions combine variables, constants, operators, and function calls to produce new values. They can include arithmetic, logical, comparison, and assignment operators.
@@ -190,6 +202,18 @@ Using variables and expressions is fundamental in programming, as it allows us t
        print("Grade: F")
    ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 8. **Expressions in Loops**
 
    Expressions often control loops or perform calculations within loops.
@@ -219,3 +243,16 @@ Using variables and expressions is fundamental in programming, as it allows us t
 ---
 
 This overview covers essential concepts for using variables and expressions in Python. Mastery of these elements allows for more complex programming and efficient problem-solving. Let me know if you'd like to dive deeper into any specific area!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
