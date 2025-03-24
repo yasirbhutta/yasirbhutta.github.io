@@ -130,6 +130,17 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 - This means that when a website uses a web-safe font, there's a high probability that it will display correctly for most visitors, regardless of their device or operating system. [3]
 
 A "font stack" in web development is essentially a list of font names that a web browser uses to determine which font to display on a webpage. It's a crucial part of CSS (Cascading Style Sheets) that ensures your website's text remains readable and visually consistent, even if a user's computer doesn't have your preferred font. [4]
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### Font size
 
@@ -321,6 +332,18 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 - [text-transform - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
 - [text-decoration - CSS: Cascading Style Sheets - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### Text drop shadows
 
 The `text-shadow` property in CSS allows you to add shadow effects to text, enhancing its visual appeal. Here's a beginner-friendly example demonstrating how to apply text drop shadows:
@@ -470,6 +493,18 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
     * The `<style>` tag in the `<head>` section contains the CSS rules.
     * We use classes (`.left`, `.center`, `.right`, `.justify`) to apply specific alignments to the corresponding HTML elements.
     * The width and border that are added to the justify class, are added to make the justify effect more obvious.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### Line height
 
@@ -731,6 +766,18 @@ You can find the finished example on [GitHub](https://yasirbhutta.github.io/html
 - For more details on the `letter-spacing` property, refer to the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing).
 
 - For more information on the `word-spacing` property, see the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing).
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Styling lists
 
@@ -1127,6 +1174,19 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 - [3] “Understand Web-Safe Fonts,” Higher Logic, Dec. 11, 2024. <https://support.higherlogic.com/hc/en-us/articles/360033055671-Understand-Web-Safe-Fonts> (accessed Mar. 19, 2025).
 - [4] “Kickstart Digital,” Kickstart Digital, Jul. 09, 2024. <https://kickstartdigital.co.nz/marketing-content-terms/font-stack/> (accessed Mar. 19, 2025).
 - [5] “CSS Basics: Styling Links Like a Boss,” CSS-Tricks, Feb. 15, 2018. <https://css-tricks.com/css-basics-styling-links-like-boss/>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ‌
 ‌
 
