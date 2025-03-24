@@ -1,6 +1,10 @@
 # Python While Loop Quiz
 
+To learn more about using the `while` loop in Python, please visit **[Control Flow Statements: While Loop](../docs/control-flow.md#532-while-loop)**
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvon6kjPgu4wcWgDUwSisKnTcPdANiGs5ZxOOGIOowX1lqxw/viewform?embedded=true" width="100%" height="4373" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
