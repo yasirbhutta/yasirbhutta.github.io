@@ -13,6 +13,7 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 7. [What is Guard Statement](guard-statement.md)
 8. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
 11. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
+12. [Common Mistakes in Python](common-mistakes-in-python.md)
 
 ### Object-Oriented Programming in Python
 
