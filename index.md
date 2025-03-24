@@ -14,6 +14,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
     - [Control Flow](python/docs/control-flow.md)
     - [Defining Functions](python/docs/functions.md)
     - [Learn more ..](python/)
+- [Python Quizzes – Test Your Knowledge](python/quizzes/)
 - [Python Insights: From Basics to Advanced](python/posts/)
 - [Matlab for Beginners](matlab/index.md)
     

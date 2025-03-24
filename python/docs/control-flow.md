@@ -2608,9 +2608,7 @@ B) It calculates the sum of numbers from 1 to 5.
 C) It prints the sum of numbers from 1 to 6.
 D) It calculates the sum of numbers from 0 to 5.
 
-*Explanation:* The loop iterates over the range from 1 to 5 (inclusive), summing up the values. The `total` variable accumulates this sum.
-
-**Answer:** B
+*Explanation:* The loop iterates over the range from 0 to 5 (inclusive), summing up the values. The `total` variable accumulates this sum.
 
 ### Question 6
 

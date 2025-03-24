@@ -1,5 +1,7 @@
 # Python Generators: A Beginner's Guide to Memory-Efficient Iteration
 
+- [Python Generator Quiz - Test your knowledge](../quizzes/python-generators-quiz.md)
+
 In the world of Python programming, efficiency often goes hand-in-hand with effective resource management. When dealing with large datasets or continuous streams of information, traditional methods of processing data might lead to memory bottlenecks and performance issues. This is where Python generators come into play, offering an elegant and memory-friendly approach to iteration. Think of generators as a factory assembly line . Instead of producing all the items at once and storing them in a massive warehouse (like a list), a generator creates each item only when it's needed, sending it down the line for immediate use. This just-in-time production significantly reduces memory consumption, especially when dealing with vast quantities of data .
 
 To fully appreciate generators, it's helpful to understand their connection to iterators. In Python, an iterator is an object that allows you to traverse through a sequence of values. While you can certainly create iterators using classes with __iter__() and __next__() methods, this can involve a fair amount of setup . Generators provide a more streamlined way to achieve the same result. They abstract away the underlying complexity of the iterator protocol, allowing you to define iteration behavior in a more intuitive manner . This simplification makes it easier for beginners to implement memory-efficient iteration without getting bogged down in the intricacies of iterator class definitions.
@@ -187,6 +189,9 @@ for square in even_squares:
 
 In this pipeline, generate_numbers produces a sequence of numbers. square_numbers then processes this sequence, squaring each number. Finally, filter_even takes the squared numbers and yields only the even ones. Each generator operates on one item at a time, passing it to the next stage, which helps in maintaining memory efficiency, especially for more complex data processing workflows .
 
+- [Video: How to Use Yield to Generate Values](https://www.youtube.com/watch?v=9p2zcdZD9Jk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=25)
+- [Video: Learn to Generate the Fibonacci Sequence in Python using Generators](https://www.youtube.com/watch?v=oSxiDMrbOV8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=17)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -237,12 +242,7 @@ def words_from_file(file_path):
             for word in line.strip().split():
 ```
 
-## Python Quiz - Use of Generators in Python
-
-- [Python Quiz - Use of Generators in Python]
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfkYnnTQW347X82x-b46zl9b0R3UA9tYr6Z3A9-nhEr3lzzw/viewform?embedded=true" width="640" height="1018" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+## [Python Generator Quiz - Test your knowledge](../quizzes/python-generators-quiz.md)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
