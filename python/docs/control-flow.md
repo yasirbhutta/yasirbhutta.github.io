@@ -1952,6 +1952,9 @@ These challenges are designed to highlight common mistakes that occur when worki
 
 ## Multiple Choice (Select the best answer)
 
+- [Python if elif else Quiz](../quizzes/python-if-elif-else-quiz.md)
+- [Python For Loop Quiz](../quizzes/python-for-loop-quiz.md)
+
 ### if statement (MCQs)
 
 **What is the syntax for a simple if statement in Python?** [Python Quiz #50]
@@ -2771,50 +2774,6 @@ while count < 3:
     - C) 1 2 3
     - D) The code will run indefinitely.
 
-What will happen if you try to modify the loop variable within the body of a while loop?
-
-(a) The loop will continue as normal.
-(b) The loop will terminate immediately.
-(c) The loop may behave unexpectedly, depending on how the variable is modified.
-(d) The loop will always run indefinitely.
-
-What is the correct syntax for a while loop in Python?
-
-A) while (condition):
-B) while condition {}
-C) while condition:
-D) while (condition) {}
-
-What is the purpose of the else clause in a while loop?
-
-(a) To execute a block of code if the loop condition is never true.
-(b) To execute a block of code if the loop completes without being terminated by a break statement.
-(c) To execute a block of code if the loop encounters an error.
-(d) The else clause cannot be used with a while loop.
-
-What is the difference between pass and return statements in Python?3
-
-A) pass does nothing and return exits the function
-B) pass exits the function and return does nothing
-C) pass and return both do nothing
-D) pass and return both exit the function
-Answer: A
-
-How can you create an if-elif-else statement without using elif keyword in Python?2
-
-A) by using nested if-else statements
-B) by using logical operators with if-else statements
-C) by using multiple if statements with indentation
-D) none of the above
-Answer: A
-
-What is the difference between break and continue statements in Python?3
-
-A) break terminates the loop and continue skips the current iteration
-B) break skips the current iteration and continue terminates the loop
-C) break and continue both terminate the loop
-D) break and continue both skip the current iteration
-Answer: A
 
 What is the benefit of using control structures in programming languages?3
 
@@ -2885,29 +2844,6 @@ else:
 
    - **Watch the Video Tutorial for the Answer:** [https://youtu.be/LfF9CsyVRgU](https://youtu.be/LfF9CsyVRgU)
 
-How can you create a nested if statement in Python?2
-
-A) by using elif keyword
-B) by using else keyword
-C) by indenting the inner if block under the outer if block
-D) by using parentheses around the inner if block
-Answer: C
-What is the purpose of a pass statement in Python?3
-
-A) to skip a block of code that is not needed
-B) to indicate that a block of code is empty or not implemented yet
-C) to exit a loop or a function prematurely
-D) to pass a value or an argument to another function
-Answer: B
-
-
-What is the syntax of a while loop in Python?1
-
-A) while condition: statement
-B) while (condition): statement
-C) while condition do statement
-D) while (condition) do statement
-Answer: A
 
 What is the difference between a break statement and a continue statement in Python?4
 
@@ -2941,7 +2877,11 @@ C) while and for
 D) do-while and foreach
 Answer: C
 
-What are the three basic types of control structures in Python? a) sequence, selection, repetition b) input, output, processing c) function, class, module d) list, tuple, dict
+What are the three basic types of control structures in Python? 
+a) sequence, selection, repetition 
+b) input, output, processing 
+c) function, class, module 
+d) list, tuple, dict
 Answer: a) sequence, selection, repetition
 
 Which control structure is used to execute a block of code only if a certain condition is true? a) if statement b) for loop c) while loop d) break statement
