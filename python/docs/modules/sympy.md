@@ -47,6 +47,18 @@ SymPy can simplify expressions using algebraic rules to create a more compact fo
    - **expand()**: Expands expressions.
    - **factor()**: Factors expressions.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 4. **Solving Equations**
 
 SymPy can solve both algebraic and transcendental equations symbolically.
@@ -140,6 +152,17 @@ SymPy supports symbolic linear algebra, allowing you to work with matrices and s
    inverse = A.inv()               # Inverse of matrix A
    solution = A.solve(B)           # Solves Ax = B for x
    ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 8. **Working with Polynomials**
 
@@ -200,3 +223,15 @@ SymPy integrates with Matplotlib to enable symbolic plotting.
 | Discrete Math             | `factorial`, `binomial`         | `factorial(5)`, `binomial(5, 2)`        | Factorials, combinations, summations              |
 | Plotting                  | `plot`                          | `plot(x**2, (x, -10, 10))`              | Symbolic plotting                                 |
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
