@@ -8,13 +8,15 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 2. [Python variables Quiz](python-variables-quiz.md)
 3. [Python Scalar Types Quiz](python-scalar-types-quiz.md)
 4. [Python Operators Quiz](python-operators-quiz.md)
-5. [Python String Quiz](python-string-quiz.md)
-6. [Python if elif else Quiz](python-if-elif-else-quiz.md)
-7. [Python for loop Quiz](python-for-loop-quiz.md)
-8. [Python while loop Quiz](python-while-loop-quiz.md)
-9. [Python Functions Quiz](python-functions-quiz.md)
-10. [Python List Quiz](python-list-quiz.md)
-11. [Python Generator Quiz](python-generators-quiz.md)  
+5. [Python if elif else Quiz](python-if-elif-else-quiz.md)
+6. [Python for loop Quiz](python-for-loop-quiz.md) - Test your knowledge of python about for loop and range() function
+7. [Python while loop Quiz](python-while-loop-quiz.md)
+8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](python-break-continue-else-loop-quiz.md)
+9.  [Python Match Case Quiz](#)
+10. [Python Functions Quiz](python-functions-quiz.md)
+11. [Python String Quiz](python-string-quiz.md)
+12. [Python List Quiz](python-list-quiz.md)
+13. [Python Generator Quiz](python-generators-quiz.md)  
    
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
