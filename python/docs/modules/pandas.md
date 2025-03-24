@@ -50,6 +50,18 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
    - Aggregations (`mean()`, `sum()`, `count()`, etc.)
    - Merging and joining DataFrames (`merge()`, `concat()`)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 6. **Reading and Writing Data**
    - Reading from:
      - CSV (`read_csv()`)
@@ -165,6 +177,18 @@ print(s)
    ```
 
 ### Example: [How to Create a Data Frame with Fruits and Colors Example](https://www.youtube.com/watch?v=aR8xiyyLoRk&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=12)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 1. Loading CSV Datasets
 
@@ -328,6 +352,18 @@ This might display something like:
 | 5           | Allen, Mr. William Henry     | 35.0 | 0        | 3      |
 
 ---
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### **Selecting Rows Using `iloc` (Integer-location Based)**
 
@@ -931,3 +967,16 @@ dtype: float64
 - **Data Alignment** ensures operations occur between matching indexes.
 - Non-matching indexes result in `NaN` unless specified otherwise.
 - Pandas handles alignment automatically, making data manipulation intuitive and error-free.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
