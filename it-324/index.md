@@ -45,7 +45,8 @@
 
 - Intro. to Emmet[slides](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
-## Course Assignments
+## Course Assignments, Quizzes
+
 ## Course Grading Scheme
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
