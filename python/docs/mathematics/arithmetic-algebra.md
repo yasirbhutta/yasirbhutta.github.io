@@ -43,6 +43,19 @@ Arithmetic operations are simple calculations performed on numbers, involving ad
      power = a ** b  # 10 raised to the power of 3 = 1000
      ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ### 2. **Order of Operations (PEMDAS)**
 
 When multiple operations are in an expression, Python follows an order of operations (PEMDAS):
@@ -192,3 +205,15 @@ In Python, the `SymPy` library allows you to symbolically define variables and m
 ---
 
 This guide provides a solid base in arithmetic and algebra with Python, from basic operations to manipulating algebraic expressions. Let me know if you'd like further examples or practice problems on any of these topics!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
