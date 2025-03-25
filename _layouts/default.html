@@ -47,24 +47,9 @@
         <ul>
         </ul>
       </nav>
-      <!-- <section>
+      <section>
         {{ content }}
-      </section> -->
-      <div class="container">
-        <div class="content">
-          {{ content }}
-        </div>
-    
-        <aside class="sidebar">
-          <h2>About Me</h2>
-          <p>{{ site.author.name }}</p>
-          <h3>Follow Me</h3>
-          <ul>
-            <li><a href="https://github.com/{{ site.github }}">GitHub</a></li>
-            <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
-          </ul>
-        </aside>
-      </div>
+      </section>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
