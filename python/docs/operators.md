@@ -34,6 +34,8 @@ remainder = 25 % 4  # Modulo
 square = 5 ** 2  # Exponentiation
 ```
 
+For more details on floor division, see [What is the `//` Operator in Python?](../posts/floor-division.md)
+
 **2. Comparison Operators:**
 
 - Used to compare values and return a Boolean result (True or False).
