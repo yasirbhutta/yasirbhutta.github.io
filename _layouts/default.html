@@ -46,10 +46,15 @@
       <nav>
         <ul>
         </ul>
+        {% include sidebar.html %}
       </nav>
       <section>
         {{ content }}
       </section>
+      <aside>
+        {% include sidebar.html %}
+      </aside>
+      <div class="clear"></div>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
