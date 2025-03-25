@@ -48,6 +48,7 @@
   <div class="wrapper">
     <nav>
       <ul>
+        
       </ul>
       {% include sidebar.html %}
     </nav>
@@ -59,16 +60,9 @@
     </aside>
 
     <div class="clear"></div>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-      crossorigin="anonymous"></script>
-    <!-- display square -->
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1602443888929206" data-ad-slot="9845543342"
-      data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-
+    <div>
+      {% include ad-display-square.html %}
+    </div>
     <footer>
       {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
