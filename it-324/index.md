@@ -47,15 +47,15 @@
 
 ## Course Assignments, Quizzes
 
-**Quizzes for Practice**
-
 1. Quiz #1: HTML Basics & Form Controls
 2. Quiz #2: CSS Complete
+   
+**Quizzes for Practice**
 
 ### HTML Quizzes
 
 1. [HTML Quiz: Basics](../html-css/quizzes/html-basics-quiz.md)
-
+2. [HTML Quiz: Forms and Controls](../html-css/quizzes/html-forms-controls-quiz.md)
 
 ## Course Grading Scheme
 
