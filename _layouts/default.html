@@ -45,21 +45,26 @@
     <div class="wrapper">
       <nav>
         <ul>
-          <li><a href="{{ site.url }}">Home</a></li>
-          <li><a href="{{ site.github.repository_url }}">View on GitHub</a></li>
-          <li><a href="{{ site.github.owner_url }}">Project maintained by {{ site.github.owner_name }}</a></li>
         </ul>
       </nav>
-      <section>
+      <!-- <section>
         {{ content }}
-      </section>
-      <aside>
-        <h2>More</h2>
-        <ul>
-          <li><a href="{{ site.github.repository_url }}">View on GitHub</a></li>
-          <li><a href="{{ site.github.owner_url }}">Project maintained by {{ site.github.owner_name }}</a></li>
-        </ul>
-      </aside>
+      </section> -->
+      <div class="container">
+        <div class="content">
+          {{ content }}
+        </div>
+    
+        <aside class="sidebar">
+          <h2>About Me</h2>
+          <p>{{ site.author.name }}</p>
+          <h3>Follow Me</h3>
+          <ul>
+            <li><a href="https://github.com/{{ site.github }}">GitHub</a></li>
+            <li><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+          </ul>
+        </aside>
+      </div>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
