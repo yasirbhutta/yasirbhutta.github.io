@@ -47,6 +47,13 @@
 
 ## Course Assignments, Quizzes
 
+**Quizzes for Practice**
+
+### HTML Quizzes
+
+1. [HTML Quiz: Basics](../html-css/quizzes/html-basics-quiz.md)
+
+
 ## Course Grading Scheme
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
