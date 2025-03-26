@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .question {
+            display: none;
+        }
+        .question.active {
+            display: block;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Basics Quiz</h2>
+    <div id="quizContainer"></div>
+    <p id="result" class="result"></p>
+    
+    <script>
+        async function loadQuestions() {
+            const response = await fetch('questions.md');
+            const text = await response.text();
+            const lines = text.split('\n');
+            let quizContainer = document.getElementById("quizContainer");
+            
+            let questionIndex = 0;
+            let questions = [];
+            let currentQuestion = {};
+
+            lines.forEach(line => {
+                if (line.startsWith('Q:')) {
+                    if (currentQuestion.question) {
+                        questions.push(currentQuestion);
+                    }
+                    currentQuestion = { question: line.substring(2), options: [] };
+                } else if (line.startsWith('-')) {
+                    currentQuestion.options.push(line.substring(2));
+                } else if (line.startsWith('*')) {
+                    currentQuestion.answer = line.substring(2);
+                }
+            });
+            if (currentQuestion.question) {
+                questions.push(currentQuestion);
+            }
+            
+            questions.forEach((q, index) => {
+                let div = document.createElement("div");
+                div.classList.add("question");
+                if (index === 0) div.classList.add("active");
+                div.id = `q${index + 1}`;
+                div.innerHTML = `<p>${q.question}</p>` +
+                    q.options.map(opt => `<input type="radio" name="q${index + 1}" value="${opt}"> ${opt}<br>`).join('') +
+                    `<button type="button" onclick="${index < questions.length - 1 ? `nextQuestion(${index + 1})` : `checkAnswers(${questions.length})`}">` +
+                    (index < questions.length - 1 ? 'Next' : 'Submit') + `</button>`;
+                quizContainer.appendChild(div);
+            });
+            
+            window.questions = questions;
+        }
+
+        function nextQuestion(current) {
+            document.getElementById(`q${current}`).classList.remove("active");
+            document.getElementById(`q${current + 1}`).classList.add("active");
+        }
+
+        function checkAnswers(total) {
+            let score = 0;
+            window.questions.forEach((q, index) => {
+                let selected = document.querySelector(`input[name="q${index + 1}"]:checked`);
+                if (selected && selected.value.trim() === q.answer.trim()) {
+                    score++;
+                }
+            });
+            document.getElementById("result").innerText = `You scored ${score} out of ${total}!`;
+        }
+
+        loadQuestions();
+    </script>
+</body>
+</html>
