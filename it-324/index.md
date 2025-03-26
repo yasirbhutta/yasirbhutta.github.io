@@ -37,6 +37,7 @@
 - [Selectors](../html-css/docs/css-selectors.md)[[slides]](https://docs.google.com/presentation/d/1iUu9FIBMNmZ7uD49wa8Ga_lfx5DJ8HjI7-FXhx5Dufc/export?format=pdf)
 - [CSS text styling](../html-css/docs/css-text-styling.md)
 - [CSS `background` Property – Syntax & Examples](../html-css/docs/background-styling.md)
+- [CSS Properties](../html-css/docs/css-properties.md)
 - 
 
 ### [Web Development Articles](../html-css/posts/)

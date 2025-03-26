@@ -1,4 +1,8 @@
-## Inline Styles in CSS
+# Cascading Style Sheets (CSS): Basics
+
+
+
+### Inline styles in CSS
 
 Inline styles in CSS are applied directly to an HTML element using the `style` attribute. Here are some basic examples for beginners:
 

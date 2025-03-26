@@ -1,5 +1,9 @@
 # CSS Properties
 
+## Box Model Components in CSS
+
+![box-mobile](https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png)
+
 ### **Padding in CSS**  
 
 **Padding** is a CSS property that adds space **inside** an element, between its content and its border. It helps in controlling the spacing inside elements without affecting their border or margin.
