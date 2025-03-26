@@ -34,7 +34,11 @@ Publishers, 2022. ISBN: 978-969-7821-18-1.
 - [Control Flow](../python/docs/control-flow.md)
 - [Defining Functions](../python/docs/functions.md)
 
-## Course Assignments
+## Course Assignments and Quizzes
+
+1. **Python Quiz #1:** Basics, Variables, Data Types, Operators
+2. **Python Quiz #2:** Control Flow statements and Functions
+   
 ## Course Grading Scheme
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
