@@ -1,3 +1,9 @@
 # Cascading Style Sheets(CSS) Quiz: Basics
 
+**Cascading Style Sheets (CSS) Quiz: Basics**  
+
+Test your knowledge of the fundamentals of CSS with this interactive quiz! Covering essential topics such as different levels to apply css styles, this quiz will help you reinforce your understanding of how CSS styles web pages. Whether you're a beginner or brushing up on your skills, challenge yourself and see how well you know the basics of CSS!
+
+To learn more about using the `CSS Basics` in CSS, please visit **[Cascading Style Sheets (CSS): Basics](../docs/css-basics.md)**
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8OIh4wkVTHOUsDh7msbtV_unruIZJps_L0nSNmyurpHBv6g/viewform?embedded=true" width="100%" height="3342" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

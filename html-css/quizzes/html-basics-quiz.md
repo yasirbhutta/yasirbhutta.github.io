@@ -1,5 +1,11 @@
 # HTML Quiz: Basics
 
+**HTML Quiz: Basics**  
+
+Test your knowledge of HTML fundamentals with this interactive quiz! Whether you're a beginner learning the basics or brushing up on your skills, this quiz covers essential topics like HTML elements, tags, attributes, and structure. Challenge yourself and see how well you understand the building blocks of web development! 🚀
+
+To learn more about using the `elements` in HTML and basic structures for web page, please visit **[HTML Basics](../docs/html-basics.md)**
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEvrllZZiYPL41-oZ1W4uayT9q4WvZWj1QMg71uDu0rNRApQ/viewform?embedded=true" width="100%" height="11031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
