@@ -60,9 +60,9 @@
 
 ### Cascading Style Sheets (CSS)
 
-1. [CSS Quiz: Basics](css-basics-quiz.md)
-2. [CSS Quiz: Selectors](css-selectors-quiz.md)
-3. [CSS Quiz: Styles](css-styles-quiz.md)
+1. [CSS Quiz: Basics](../html-css/quizzes/css-basics-quiz.md)
+2. [CSS Quiz: Selectors](../html-css/quizzes/css-selectors-quiz.md)
+3. [CSS Quiz: Styles](../html-css/quizzes/css-styles-quiz.md)
 
 ## Course Grading Scheme
 
