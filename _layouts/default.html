@@ -54,13 +54,12 @@
     </nav>
     <section>
       {{ content }}
-      <aside>
-        {% include sidebar.html %}
-      </aside>
-      <div>
-        {% include ad-display-square.html %}
-      </div>
+      {% include sidebar.html %}
     </section>
+    <div>
+      {% include ad-display-square.html %}
+    </div>
+  
     <footer>
       {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
