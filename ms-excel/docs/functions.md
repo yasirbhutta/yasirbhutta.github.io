@@ -129,6 +129,18 @@ The normal order for a function is:-
 - The opening `parenthesis (`
 - `Arguments` for the function separated by commas and `closing parenthesis )`.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 #### 10 Most popluar functions
 
 ##### 1. SUM
@@ -421,6 +433,18 @@ Here are some more examples of how to use the IF function:
 - [Using IF with AND, OR and NOT functions - Microsoft Support](https://support.microsoft.com/en-gb/office/using-if-with-and-or-and-not-functions-d895f58c-b36c-419e-b1f2-5c193a236d97)
 - [Video Tutorial: IF with AND and OR](https://support.microsoft.com/en-gb/office/video-if-with-and-and-or-2a47066d-85d8-4751-a59d-3c69d2931c3e)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### NOW function
 
 The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.
@@ -497,6 +521,18 @@ The UPPER function syntax has the following arguments:
 
 Text Required. The text you want converted to uppercase. Text can be a reference or text string.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **PROPER function:**
 
 - [Video Tutorial: Change the case of text in excel](https://youtu.be/X38NcRn0PhM?si=pCO7K-DuBJKz5G9b)
@@ -564,6 +600,18 @@ An invalid cell is referenced in the formula
 
 **Note:** You can enter #N/A in those cells where data is not yet available. Formulas that refer to those cells will then return #N/A instead of attempting to calculate a value.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### New functions - Microsoft 365
 
 - [Find Employee using XLOOKUP function](https://youtu.be/vUCB2zLwG3g)
@@ -602,6 +650,18 @@ Defined Names
 - **Formulas > Defined Names > Create from Selection**
 
 ## True/False (Mark T for True and F for False)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Multiple Choice (Select the best answer)
 

@@ -35,6 +35,18 @@ Types of Filters in Excel
 - [Video: Sort and Filter data in a range - Microsoft Excel](https://youtu.be/WhLNiqlRBpE)
   - [Download a sample data workbook](https://1drv.ms/x/s!Atx7MPEilH2jgbcG7L3YX_tdi538MQ?e=iyUBOO)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **Using the filter Function:**
 
 - [Video: How to: Filter data by using a formula in excel](https://youtube.com/shorts/B1nPF2OGkKI)
@@ -49,6 +61,17 @@ Types of Filters in Excel
 - [Sort data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/sort-data-in-a-range-or-table-62d0b95d-2a90-4610-a6ae-2e545c4a4654)
 - [Filter data in a range or table - Microsoft Support](https://support.microsoft.com/en-au/office/filter-data-in-a-range-or-table-01832226-31b5-4568-8806-38c37dcc180e)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## True/False (Mark T for True and F for False)
 

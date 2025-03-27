@@ -117,6 +117,18 @@ Microsoft Excel: Interface
    - Excel Online provides basic spreadsheet functionality and allows collaboration with others in real time.
    - [Microsoft 365 for the web](https://www.microsoft365.com/)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Enter data manually in worksheet cells
 
 [Video: How to: Enter data manually in worksheet cells \| Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
@@ -208,6 +220,18 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 - [Excel video training - Microsoft Support](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
 - [Microsoft Training](https://support.microsoft.com/en-us/training)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## True/False (Mark T for True and F for False)
 

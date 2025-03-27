@@ -50,6 +50,18 @@ There are two main ways to transpose data in Excel:
 
 - [Video: Excel Mobile - Fill a column with a series in excel](https://youtube.com/shorts/dMTVohW0ZCc)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Flash Fill in Excel
 
 Flash Fill is a feature in Excel that automatically fills in data based on patterns it recognizes in your existing data. It is a powerful tool that can save you a lot of time and effort, especially when working with large datasets.
@@ -85,6 +97,18 @@ Formulas with cell references can be difficult to understand, especially for com
 
 - [Define and use names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64)
 - [Names in formulas - Microsoft Support](https://support.microsoft.com/en-au/office/names-in-formulas-fc2935f9-115d-4bef-a370-3aa8bb4c91f1)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Copy values quickly from the status bar
 

@@ -134,6 +134,18 @@ The implicit intersection operator was introduced as part of substantial upgrade
 
 - [Implicit intersection operator: @](https://support.microsoft.com/en-us/office/implicit-intersection-operator-ce3be07b-0101-4450-a24e-c1c999be2b34)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Operand
 
 A quantity upon which a mathematical operation is performed
@@ -223,6 +235,18 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 - [Video Tutorial: Enter formula in multiple cells using array formulas in excel](https://youtu.be/T9kXiBI3Y7c?si=t3oGXL71y0sUua2w)
 
 ## True/False (Mark T for True and F for False)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Multiple Choice (Select the best answer)
 

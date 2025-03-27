@@ -162,6 +162,18 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
 5. Choose the desired **font** from the list.
 6. You can also change the **font size**, **bold**, or **italic** here.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Borders
 
 - In Microsoft Excel, cell borders are `lines that surround a cell or range of cells`. They are used to visually separate data in a table or spreadsheet and make it easier to read and understand.
@@ -314,6 +326,18 @@ To apply several formats in one step, and to make sure that cells have consisten
 3. Click Date in the Category list
 4. Select a format for the selected cells.
 5. Click OK
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Format as Table
 
