@@ -4,42 +4,22 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Download PDF](https://yasirbhutta.github.io/python/index.pdf)
 
-**🎥 YouTube Playlists to Learn Python:**
+**Want to Learn Python, Join our WhatsApp Channel ✨:**[https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
-- [🔗 Python Tutorials for Beginners](https://youtube.com/playlist?list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja)
-- [🔗 Python Code Challenges \| Quiz](https://www.youtube.com/playlist?list=PLKYRx0Ibk7VjyzKhi5vH35GQKQl_TnWOn)
-- [🔗 Python Exercises](https://www.youtube.com/playlist?list=PLKYRx0Ibk7Vh9nG-GwBzsjP5TfOCjv1LH)
+## Weekly Plan and Resources
 
-[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
-
-
-- [Download Example Code](https://github.com/yasirbhutta/python-examples)
-- [Pyton Resources: Books, Websites, Tutorials](resources.md)
-- [Python Tools](docs/tools.md)
-- [Datasets for Python](docs/datasets.md)
-- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
-- [Lessons Plan of Python for Beginners](../it-323/docs/lesson-plans-it323.md)
 - [Python Quizzes – Test Your Knowledge](quizzes/index.md)
-
-## Python Learning Path for Beginners
-
-### Installation & Getting Started
+- [Pyton Resources: Books, Websites, Tutorials](resources.md)
+  
+## Installation & Getting Started
 
 - [Python Tools](docs/tools.md)
+  - [Tasks: Installation of Tools](docs/python-task-based-learning.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
-### Tips for Practicing
+## Python Basics Notes
 
-- **Practice Coding by Hand:** This will help you think through the problem deeply.
-- **Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
-- **Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
-- **Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
-
-### Python Basics Notes
-
-- [Installation of Tools](docs/python-task-based-learning.md)
-- [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 - [Python Language Basics](docs/basics.md)
 - [Variables](docs/variables.md)
 - [Data Types](docs/data-types.md)
@@ -133,6 +113,14 @@ https://bokeh.org/
 ### Glossary
 
 - [Glossary for Data Analytics](docs/glossary-da.md)
+
+## Tips for Practicing
+
+- **Practice Coding by Hand:** This will help you think through the problem deeply.
+- **Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
+- **Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
+- **Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
