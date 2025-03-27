@@ -46,6 +46,18 @@ Community Library books: ['1984', 'To Kill a Mockingbird']
 
 In this incorrect implementation, `books` is a class attribute. When `add_book` is called, it modifies the class attribute, which is shared among all instances of the `Library` class. As a result, both `library1` and `library2` end up sharing the same list of books.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Correct Implementation
 
 To fix this, we should use an instance attribute for storing books:

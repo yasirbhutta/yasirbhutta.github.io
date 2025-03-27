@@ -50,6 +50,18 @@ Here are some common errors in Python, along with examples:
    - **Error Message:** `IndexError: list index out of range`
    - **Explanation:** The list has only three elements, but you are trying to access the sixth element.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 6. **KeyError**
    - **Description:** This occurs when you try to access a key in a dictionary that does not exist.
    - **Example:**

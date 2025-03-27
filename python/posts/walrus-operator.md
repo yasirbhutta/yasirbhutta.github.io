@@ -106,6 +106,18 @@ categorize(60)  # Output: Large number: 60
    **Why?** It prevents extra file reads.
 
 ---
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## **Tasks Using the Walrus Operator**
 ### **Task 1: Count User Inputs Until "exit"**

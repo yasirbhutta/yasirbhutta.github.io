@@ -44,6 +44,18 @@ Here are some powerful Python one-liners with examples to help you understand ho
     These one-liners efficiently split a sentence into words using `.split()` and join a list of words back into a sentence using `.join()`. 🚀
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 🔢 **List Operations**
 4. **Find the Sum of a List**  
    ```python
@@ -96,6 +108,18 @@ Here are some powerful Python one-liners with examples to help you understand ho
     print(list(filter(lambda x: x % 2 == 0, nums)))  
     # Output: [2, 4, 6]
     ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. **Sort a List of Tuples by the Second Element**  
     ```python

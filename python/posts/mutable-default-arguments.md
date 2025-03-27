@@ -56,6 +56,18 @@ This is **not** what we expected! Instead of creating a new list each time, the 
 
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## **Fix: Using `None` as the Default Value**  
 
 To ensure that each function call gets a **new list**, use `None` as the default argument and create a new list inside the function.  

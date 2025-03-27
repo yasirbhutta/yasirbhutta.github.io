@@ -22,6 +22,8 @@
     - [2. **Modifying Variables Set to `None`**](#2-modifying-variables-set-to-none)
     - [3. **Ignoring Function Return Values**](#3-ignoring-function-return-values)
   - [**Conclusion**](#conclusion)
+  - [Further learning](#further-learning)
+  - [Test you knowledge: MCQs on Python None Type](#test-you-knowledge-mcqs-on-python-none-type)
 
 
 ## **What is `None` in Python?**  
@@ -115,18 +117,6 @@ Represent missing or undefined values in data structures:
 user_data = {"name": "Alice", "age": None}  # Age not provided
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ---
 
 ## **Best Practices**
@@ -149,6 +139,7 @@ def safe_append(item, target=None):
     target.append(item)
     return target
 ```
+for more details, see [Beware of Mutable Default Arguments in Python – A Common Mistake Explained!](mutable-default-arguments.md)
 
 ### 3. **Type Hints for Clarity**  
 Use `Optional` or `| None` (Python 3.10+) in type hints to indicate nullable values:  

@@ -34,6 +34,18 @@ class Book:
 - **`def __str__(self):`** – Defines how the object should be represented as a string.
 - **`return f"Title: {self.title}, Author: {self.author}"`** – Returns a formatted string containing the book’s title and author.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Why `__str__` is Useful
 
 Without defining the `__str__` method, printing an object would give an output like this:
