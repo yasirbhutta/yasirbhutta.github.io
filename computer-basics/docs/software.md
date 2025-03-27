@@ -81,6 +81,18 @@ Some common examples of operating systems are:
 
 **Examples:** File Compressor, Disk Scanner, Antivirus, Backup Utility, Disk Cleanup
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 2. Application Software
 
 Application software is any program that allows you to perform a specific task on your computer. There are many different types of application software available, each designed for a specific purpose. Here are some of the most common types:
@@ -194,6 +206,18 @@ Corel Draw.
 -  Microsoft Word is an example of system software. **True or False**
 -  Open-source application software is always free to use. **True or False**
 -  Cloud-based software is stored and accessed online. **True or False**
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Multiple Choice (Select the best answer)
 

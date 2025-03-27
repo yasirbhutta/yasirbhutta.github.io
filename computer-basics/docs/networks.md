@@ -89,6 +89,17 @@ Image by [victor217](https://www.freepik.com/free-photo/network-switch-with-cabl
 
 - [What is a network switch? - cloudflare.com](https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/)
   
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Router
 
@@ -154,6 +165,17 @@ Imagine the internet as a massive highway system, but instead of cars, it's data
 
 - [Internet Basics: What is the Internet? - GCFGlobal](https://edu.gcfglobal.org/en/internetbasics/what-is-the-internet/1/)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Network topology
 
@@ -246,7 +268,19 @@ A _________ is a device that connects two or more IP networks or subnetworks.
 6. True
 7. False
 8. False
-   
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Multiple Choice (Select the best answer)
 
 What is the primary function of a network in computing?

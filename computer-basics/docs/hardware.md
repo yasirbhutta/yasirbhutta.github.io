@@ -307,6 +307,18 @@ How they work:
 - **Movies and entertainment:** They can be used for home entertainment to watch movies or play video games on a bigger screen.
 - **Public displays:** In some cases, they might be used for public displays of information or advertising in spaces like airports or train stations.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### CPU or Processor
 
 - CPU stands for `Central Processing Unit`.
@@ -484,6 +496,17 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 - Audio ports are used to connect speakers and microphones to a computer.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## True/False (Mark T for True and F for False)
 
@@ -647,6 +670,18 @@ DisplayPort is another type of port that is used to connect high-definition vide
 2. [x] A piece of software that allows hardware to work with the operating system
 3. [ ] A hardware component in a computer
 4. [ ] A type of power supply unit
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Review Questions
 

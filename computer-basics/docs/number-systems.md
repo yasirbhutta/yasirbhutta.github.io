@@ -244,6 +244,18 @@ click on the following link to covert decimal to binary: [https://www.rapidtable
 - [How to convert decimal to binary - rapidtables.com](https://www.rapidtables.com/convert/number/decimal-to-binary.html)
 - [Binary to decimal - rapidtables.com](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Module 2: Boolean Operations
 
 #### What are Boolean operations?**
@@ -306,6 +318,18 @@ Boolean operations are used in a variety of applications, including:
 - Computer programming: Boolean operations are used to write computer programs.
 - Databases: Boolean operations are used to perform complex queries on databases.
 - Search engines: Boolean operations are used to refine search results.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Module 3: Hexadecimal Notation
 
