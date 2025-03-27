@@ -2,40 +2,9 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](https://yasirbhutta.github.io/python/docs/data-types.pdf)
+- [📄 Download PDF](https://yasirbhutta.github.io/python/docs/data-types.pdf)
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
-
-- [Data Types in Python](#data-types-in-python)
-  - [1. **Numeric Types:**](#1-numeric-types)
-  - [Understanding Dynamic Variables in Python with Examples](#understanding-dynamic-variables-in-python-with-examples)
-  - [None](#none)
-  - [Type Hints](#type-hints)
-    - [1. **Type Hinting for Variables**](#1-type-hinting-for-variables)
-    - [2. **Type Hinting in Functions**](#2-type-hinting-in-functions)
-      - [Example:](#example)
-    - [3. **Type Hints for Collections**](#3-type-hints-for-collections)
-      - [Lists](#lists)
-      - [Dictionaries](#dictionaries)
-        - [Example:](#example-1)
-      - [Sets](#sets)
-        - [Example:](#example-2)
-      - [Functions with Collection Type Hints](#functions-with-collection-type-hints)
-        - [Example:](#example-3)
-  - [Key Terms](#key-terms)
-  - [Fix the error](#fix-the-error)
-  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
-  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
-  - [Fill in the Blanks](#fill-in-the-blanks)
-  - [Exercises](#exercises)
-    - [Exercise 1: Variable Assignment and Basic Operations](#exercise-1-variable-assignment-and-basic-operations)
-    - [Exercise 2: Working with Different Data Types](#exercise-2-working-with-different-data-types)
-    - [Exercise 3: String Concatenation](#exercise-3-string-concatenation)
-    - [Exercise 4: Boolean Operations](#exercise-4-boolean-operations)
-    - [Exercise 5: Type Conversion](#exercise-5-type-conversion)
-  - [Review Questions](#review-questions)
-  - [References and Bibliography](#references-and-bibliography)
-
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
 

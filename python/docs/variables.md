@@ -2,7 +2,7 @@
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
-- [Download PDF](https://yasirbhutta.github.io/python/docs/variables.pdf)
+- [📄 Download PDF](https://yasirbhutta.github.io/python/docs/variables.pdf)
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/variables.html](https://yasirbhutta.github.io/python/docs/variables.html)
 
