@@ -1,4 +1,4 @@
-## Common Errors in Python
+# Common Errors in Python /| Python for Beginners
 
 Here are some common errors in Python, along with examples:
 
