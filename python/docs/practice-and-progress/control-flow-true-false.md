@@ -10,3 +10,5 @@
 8. The pass statement can be used as a placeholder in control flow statements. - True/False  
 9. A for loop can only iterate over a list in Python. - True/False  
 10. The else clause in a loop executes only if the loop completes without encountering a break statement. - True/False
+
+**Answer Key (True/False):**

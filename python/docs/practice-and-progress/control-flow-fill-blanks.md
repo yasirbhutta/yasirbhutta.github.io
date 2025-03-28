@@ -9,3 +9,5 @@
 8. The loop condition is checked at the __________ of the while loop.  
 9. The __________ clause in a loop executes only if no break statement is encountered.  
 10. In Python, a for loop can iterate over any __________ object.  
+
+**Answer Key (Fill in the Blanks):**
