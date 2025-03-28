@@ -21,13 +21,19 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 **Flow control statements in Python**
 
 ## [5.2 Conditional Statements (if, else, elif)](control-flow/python-if-elif-else.md)
+
 ## 5.3 Looping Statements (for, while)
-   - There are two ways to create loops in Python: with the for-loop and the while-loop.
-   - Repeat actions using `for` and `while` loops.
+- There are two ways to create loops in Python: with the for-loop and the while-loop.
+- Repeat actions using `for` and `while` loops.
+
 ### [5.3.1 for loop](control-flow/python-loops-for.md)
+
 ### [5.3.2 while loop](control-flow/python-loops-while.md)
+
 ## [5.4 Loop Control Statements (break, continue, pass)](control-flow/python-loop-control-statements.md)
+
 ## [5.5 The else Clauses on Loops](control-flow/python-else-clauses-on-loops.md)
+
 ## [5.6 Match Statement (Python 3.10+)](control-flow/python-match-statement.md)
 
 ## Key Terms
@@ -44,9 +50,8 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ## Practice & Progress
 
-### Fill in the Blanks
-
-### True/False Questions
+- [True/False Questions](practice-and-progress/control-flow-true-false.md)
+- [Fill in the Blanks](practice-and-progress/control-flow-fill-blanks.md)
 
 ### Multiple-Choice Questions (MCQs)
 
@@ -68,13 +73,15 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ---
 
-### Exercises and Projects
+### Exercises
 
 - [Python Exercise for if elif else statement](../exercises/python-exercises-if-elif-else.md)
 - [Python Exercises for Loops (for,while)](../exercises/python-exercises-loops.md)
 - [Loop Control Statements (break, continue, pass) Exercises](../exercises/python-exercises-loop-control.md)
 
-## Mini Projects
+---
+
+### Projects
 
 ### Project #1: Simple Calculator
 
