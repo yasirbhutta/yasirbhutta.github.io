@@ -181,6 +181,17 @@ x = 10
 if x > 5:
     print("x is greater than 5")
 ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. **Incorrect Indentation in `if-else` Statement**
 
@@ -319,6 +330,18 @@ for i in range(5):
 ```
 - The code correctly skips printing `3` and continues with the next iteration.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 13. **Logical Error with `if-elif` Statements**
 
 **Code:**
@@ -410,14 +433,14 @@ finally:
 
 These challenges are designed to highlight common mistakes that occur when working with control flow statements in Python. Working through these examples will help reinforce proper syntax and logical structure.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
+     style="display:block"
+     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
+     data-ad-slot="7879511511"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>

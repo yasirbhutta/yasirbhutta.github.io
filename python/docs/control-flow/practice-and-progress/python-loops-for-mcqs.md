@@ -227,3 +227,14 @@ D) 5 7 8
 *Explanation:* The `range(5, 10, 2)` generates numbers starting from 5 up to, but not including, 10 with a step of 2, resulting in 5, 7, and 9.
 
 **Answer:** A
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
