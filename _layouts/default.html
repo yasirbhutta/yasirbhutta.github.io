@@ -28,7 +28,6 @@
   </header>
   <div id="banner">
     <span id="logo"></span>
-
     <!-- <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a> -->
     <a href="{{ site.url }}" class="button fork"><strong>Home</strong></a>
     <a href="/python/index.md" class="button fork"><strong>Python</strong></a>
@@ -49,12 +48,22 @@
       <!-- {% include sidebar.html %} -->
     </nav>
     <section>
+      <div class="social-media">
+        Connect with me:
+        <a href="https://www.youtube.com/yasirbhutta">Youtube</a> \|
+        <a href="https://www.linkedin.com/in/yasirbhutta/">LinkedIn</a> \|
+        <a href="https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c">WhatsApp Channel</a> \|
+        <a href="https://www.facebook.com/yasirbhutta786">Facebook</a> \|
+        <a href="https://www.instagram.com/yasirbhutta786/">Instagram</a> \|
+      </div>
       {{ content }}
       <div>
         {% include ad-display.html %}
       </div>
-    </section> 
-  
+      <div>
+        {% include sidebar.html %}
+      </div>
+      </section>
     <footer>
       {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
