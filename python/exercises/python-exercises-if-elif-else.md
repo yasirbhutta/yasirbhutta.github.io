@@ -1,4 +1,4 @@
-# Python Exercises for Beginners: if elif else
+# Python Exercises for Beginners: Conditional Statements (if elif else)
 
 **Problem 1: FizzBuzz**
 
