@@ -38,15 +38,21 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ## Practice & Progress
 
-- [True or False](practice-and-progress/control-flow-true-false.md)
-- [Fill in the Blanks](practice-and-progress/control-flow-fill-blanks.md)
+- [True or False](control-flow/practice-and-progress/control-flow-true-false.md)
+- [Fill in the Blanks](control-flow/practice-and-progress/control-flow-fill-blanks.md)
 
 ### Multiple-Choice Questions (MCQs)
 
-- [if statement (MCQs)](practice-and-progress/python-if-statement-mcqs.md)
-- [for loop (MCQs)](practice-and-progress/python-loops-for-mcqs.md)
-- [while loop (MCQs)](practice-and-progress/python-loops-while-mcqs.md)
-- [Loop Control Statements (break, continue, pass) (MCQs)](practice-and-progress/python-loop-control-statements-mcqs.md)
+- [if statement (MCQs)](control-flow/practice-and-progress/python-if-statement-mcqs.md)
+- [for loop (MCQs)](control-flow/practice-and-progress/python-loops-for-mcqs.md)
+- [while loop (MCQs)](control-flow/practice-and-progress/python-loops-while-mcqs.md)
+- [Loop Control Statements (break, continue, pass) (MCQs)](control-flow/practice-and-progress/python-loop-control-statements-mcqs.md)
+
+---
+
+### Find and Fix Mistakes
+
+- [Find and Fix Mistakes](control-flow/practice-and-progress/control-flow-find-fix-mistakes.md)
 
 ✅ **Online Quizzes for Python Control Flow Statements**
 
@@ -54,10 +60,6 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 - [Python For Loop Quiz](../quizzes/python-for-loop-quiz.md)
 - [Python While Loop Quiz](../quizzes/python-while-loop-quiz.md)
 - [ Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](../quizzes/python-break-continue-else-loop-quiz.md)
-
----
-
-### [Find and Fix Mistakes](practice-and-progress/control-flow-find-fix-mistakes.md)
 
 ---
 
@@ -69,7 +71,7 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ---
 
-### Projects
+### Mini Projects
 
 ### Project #1: Simple Calculator
 
@@ -142,7 +144,7 @@ This task helps users practice using `while` loops for continuous input and perf
 
 ---
 
-### [Review Questions (Conceptual)](practice-and-progress/control-flow-review-questions.md)
+### [Review Questions](control-flow/practice-and-progress/control-flow-review-questions.md)
 
 --- 
 
