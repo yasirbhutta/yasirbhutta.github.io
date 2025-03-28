@@ -10,6 +10,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
 - [Python Quizzes – Test Your Knowledge](quizzes/index.md)
+- [Python Exercises for Beginners](exercises/index.md)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
   
 ## Installation & Getting Started
