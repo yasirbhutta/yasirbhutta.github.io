@@ -36,21 +36,9 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ## [5.6 Match Statement (Python 3.10+)](control-flow/python-match-statement.md)
 
-## Key Terms
-
-- for 
-- while
-- range
-- pass
-- else
-- match
-- break
-- continue
-- f-string
-
 ## Practice & Progress
 
-- [True/False Questions](practice-and-progress/control-flow-true-false.md)
+- [True or False](practice-and-progress/control-flow-true-false.md)
 - [Fill in the Blanks](practice-and-progress/control-flow-fill-blanks.md)
 
 ### Multiple-Choice Questions (MCQs)
@@ -73,7 +61,7 @@ for more details, see [Understanding Control Structures in Python](../posts/cont
 
 ---
 
-### Exercises
+### Coding Exercises
 
 - [Python Exercise for if elif else statement](../exercises/python-exercises-if-elif-else.md)
 - [Python Exercises for Loops (for,while)](../exercises/python-exercises-loops.md)
@@ -154,16 +142,7 @@ This task helps users practice using `while` loops for continuous input and perf
 
 ---
 
-### Review Questions
-
-**for loop:**
-- What is the difference between a for loop and a while loop in Python?
-- Can you use a for loop to iterate over a string?
-
-**if statement:**
-
-- Can you have multiple elif blocks in an if-elif-else statement?
-- What is the purpose of nesting if statements?
+### Review Questions (Conceptual)
 - 
 ## References and Bibliography
 
