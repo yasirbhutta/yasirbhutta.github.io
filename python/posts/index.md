@@ -4,7 +4,6 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 
 ## Python Basics
 
-
 1. [Level Up Your Coding Skills: Learn with ChatGPT Prompts!](prompt-learn-coding.md)
 2. [Powerful Python One-Liners](python-one-liners.md)
 3. [Python None Type Explained: Meaning, Usage, and Best Practices](none-type-explained.md)
