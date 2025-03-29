@@ -5,19 +5,20 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 ## Python Basics
 
 
-1. [Powerful Python One-Liners](python-one-liners.md)
-2. [Python None Type Explained: Meaning, Usage, and Best Practices](none-type-explained.md)
-3. [Beware of Mutable Default Arguments in Python – A Common Mistake Explained!](mutable-default-arguments.md)
-4. [What is the `//` Operator in Python?](floor-division.md)
-5. [Walrus Operator (`:=`) in Python](walrus-operator.md)
-6. [Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?](assignment-operator-exp.md)
-7. [Understanding Control Structures in Python](control-structures-python.md)
-8. [Say Goodbye to Long If-Elif Chains with Python's Match Case](match-case.md)
-9. [Python Generators: A Beginner's Guide to Memory-Efficient Iteration](generators-in-python.md)
-10. [What is Guard Statement](guard-statement.md)
-11. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
-12. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
-13. [Common Mistakes in Python](common-mistakes-in-python.md)
+1. [Level Up Your Coding Skills: Learn with ChatGPT Prompts!](prompt-learn-coding.md)
+2. [Powerful Python One-Liners](python-one-liners.md)
+3. [Python None Type Explained: Meaning, Usage, and Best Practices](none-type-explained.md)
+4. [Beware of Mutable Default Arguments in Python – A Common Mistake Explained!](mutable-default-arguments.md)
+5. [What is the `//` Operator in Python?](floor-division.md)
+6. [Walrus Operator (`:=`) in Python](walrus-operator.md)
+7. [Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?](assignment-operator-exp.md)
+8. [Understanding Control Structures in Python](control-structures-python.md)
+9. [Say Goodbye to Long If-Elif Chains with Python's Match Case](match-case.md)
+10. [Python Generators: A Beginner's Guide to Memory-Efficient Iteration](generators-in-python.md)
+11. [What is Guard Statement](guard-statement.md)
+12. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
+13. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
+14. [Common Mistakes in Python](common-mistakes-in-python.md)
 
 ### Object-Oriented Programming in Python
 
