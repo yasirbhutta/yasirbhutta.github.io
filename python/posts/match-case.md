@@ -5,6 +5,7 @@ Imagine you're writing a program, and you need to perform different actions base
 Fortunately, Python introduced a new feature in `version 3.10` called the `match case statement` [1]. This provides a fresh and improved way to manage multiple conditions, offering a more streamlined and easier-to-understand alternative to lengthy if-elif-else blocks 1. Think of it like a traffic controller at a busy intersection. The controller looks at the incoming cars (your data) and directs them to different lanes (code blocks) based on certain signals or patterns. The match case statement operates similarly, examining a value and executing specific code depending on whether it matches a defined pattern. This feature also introduces the concept of "pattern matching," which, in simple terms, is like matching socks based on their design. However, in programming, this matching can be much more powerful than just checking if two things are exactly the same [1].
 
 ## **What is Structural Pattern Matching?**  
+
 Introduced in Python 3.10, **`match-case`** is a modern way to handle data-driven decision-making. It goes beyond simple `if-elif-else` chains by letting you check the **structure** of data (like dictionaries, lists, or objects) and extract values from them. Think of it as a supercharged `switch` statement!
 
 ## **Why Use `match-case`?**  
