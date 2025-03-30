@@ -1,6 +1,6 @@
 # Level Up Your Coding Skills: Learn with ChatGPT Prompts!
 
-## **"Explain [concept/technology] with examples, demonstrate a practical application, and provide exercises for practice. Include best practices, common mistakes, and tips for mastery."**  
+## 📌 1. **"Explain [concept/technology] with examples, demonstrate a practical application, and provide exercises for practice. Include best practices, common mistakes, and tips for mastery."**  
 
 ✅ Examples using the prompt:  
 1. "Explain recursion with examples, demonstrate a practical application, and provide exercises for practice. Include best practices, common mistakes, and tips for mastery."  
@@ -9,7 +9,7 @@
 
 ---  
 
-## **"Describe [concept/feature/technology] in detail, show step-by-step implementation with code examples, and create a real-world project using it. Include exercises for practice, troubleshooting tips, and common pitfalls to avoid."**  
+## 📌 2. **"Describe [concept/feature/technology] in detail, show step-by-step implementation with code examples, and create a real-world project using it. Include exercises for practice, troubleshooting tips, and common pitfalls to avoid."**  
 
 ✅ **Examples Using the Prompt:**  
 1. **"Describe asynchronous programming in Python, show step-by-step implementation with code examples, and create a real-world project using it. Include exercises for practice, troubleshooting tips, and common pitfalls to avoid."**  
@@ -20,7 +20,7 @@
 
 ---
 
-## **"Teach me [concept/feature/technology] by explaining its purpose, key principles, and real-world applications. Provide sample code with step-by-step explanations, practical exercises, and challenges to reinforce learning. Include best practices, common errors, and tips for mastering it."**  
+## 📌 3. **"Teach me [concept/feature/technology] by explaining its purpose, key principles, and real-world applications. Provide sample code with step-by-step explanations, practical exercises, and challenges to reinforce learning. Include best practices, common errors, and tips for mastering it."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -32,11 +32,11 @@
 
 ---
 
-## **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions."**
+## 📌 4. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions."**
 
 ---
 
-## **"Create a quiz on [concept/technology/feature] with a mix of multiple-choice, true/false, and coding questions. Include questions of varying difficulty levels, detailed answer explanations, and hints for challenging questions."**  
+## 📌 5. **"Create a quiz on [concept/technology/feature] with a mix of multiple-choice, true/false, and coding questions. Include questions of varying difficulty levels, detailed answer explanations, and hints for challenging questions."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -48,7 +48,7 @@
 
 ---
 
-## **"Design a coding quiz on [concept/technology/feature] with 10-15 questions, including multiple-choice, true/false, fill-in-the-blank, and coding challenges. Vary the difficulty levels, provide detailed answer keys, and include explanations for correct and incorrect answers."**  
+## 📌 6. **"Design a coding quiz on [concept/technology/feature] with 10-15 questions, including multiple-choice, true/false, fill-in-the-blank, and coding challenges. Vary the difficulty levels, provide detailed answer keys, and include explanations for correct and incorrect answers."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -72,7 +72,7 @@
 
 ---
 
-## **"Design a real-world project using [concept/technology/feature] that solves a practical problem. Include a project description, requirements, step-by-step implementation guide, and suggestions for additional features. Provide code examples, best practices, and potential challenges with solutions."**  
+## 📌 7. **"Design a real-world project using [concept/technology/feature] that solves a practical problem. Include a project description, requirements, step-by-step implementation guide, and suggestions for additional features. Provide code examples, best practices, and potential challenges with solutions."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -84,7 +84,7 @@
 
 ---
 
-## **"Create a real-world application using [concept/technology/feature] that addresses a specific need or problem. Outline the project objectives, define requirements, and provide a detailed implementation plan with code snippets. Include potential challenges, debugging tips, performance optimization strategies, and ideas for future enhancements."**  
+## 📌 8. **"Create a real-world application using [concept/technology/feature] that addresses a specific need or problem. Outline the project objectives, define requirements, and provide a detailed implementation plan with code snippets. Include potential challenges, debugging tips, performance optimization strategies, and ideas for future enhancements."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -96,7 +96,7 @@
 
 ---
 
-## **"Create a series of coding exercises on [concept/technology/feature] ranging from beginner to advanced levels. Include clear instructions, expected outputs, and hints for each exercise. Provide detailed solutions with explanations and highlight common mistakes to avoid."**  
+## 📌 9. **"Create a series of coding exercises on [concept/technology/feature] ranging from beginner to advanced levels. Include clear instructions, expected outputs, and hints for each exercise. Provide detailed solutions with explanations and highlight common mistakes to avoid."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -108,7 +108,7 @@
 
 ---
 
-## **"Develop a set of coding challenges on [concept/technology/feature] that test fundamental and advanced skills. Include problem statements, input/output examples, and constraints. Provide step-by-step solutions with explanations, highlight optimization techniques, and suggest variations for further practice."**  
+## 📌 10. **"Develop a set of coding challenges on [concept/technology/feature] that test fundamental and advanced skills. Include problem statements, input/output examples, and constraints. Provide step-by-step solutions with explanations, highlight optimization techniques, and suggest variations for further practice."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -121,7 +121,7 @@
 ---
  
 
-## **"Design a mini project using [concept/technology/feature] that can be completed in a few hours. Include a project description, objectives, requirements, and step-by-step instructions. Provide code snippets, suggestions for additional features, and a list of skills the project reinforces."**  
+## 📌 11. **"Design a mini project using [concept/technology/feature] that can be completed in a few hours. Include a project description, objectives, requirements, and step-by-step instructions. Provide code snippets, suggestions for additional features, and a list of skills the project reinforces."**  
 
 
 ✅ **Examples Using the Prompt:**  
@@ -144,7 +144,7 @@
 </script>
 ---
 
-## **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
+## 📌 12. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
 
 ### ✅ **1. True or False**  
 - Create 10-15 statements to assess conceptual understanding.  
