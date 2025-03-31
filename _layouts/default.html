@@ -35,7 +35,7 @@
       <li> <a href="{{ site.url }}" class="button fork"><strong>Home</strong></a></li>
       <li><a href="/python/" class="button fork"><strong>Python</strong></a></li>
     </ul>
-   {% if site.show_downloads %}
+    {% if site.show_downloads %}
     <div class="downloads">
       <span>Downloads:</span>
       <ul>
@@ -52,12 +52,12 @@
       <!-- {% include sidebar.html %} -->
     </nav>
     <section>
-     <div>
-      {%include social-media.html %}
-     </div>
-<div>
-<a href="https://forms.gle/DomT9rZo3b8uEnpV6">Feedback</a>
-</div>
+      <div>
+        {%include social-media.html %}
+      </div>
+      <div>
+        <a href="https://forms.gle/DomT9rZo3b8uEnpV6">💬 Share Your Feedback</a>
+      </div>
       {{ content }}
       <div>
         {% include sidebar.html %}
@@ -65,7 +65,7 @@
       <div>
         {% include ad-display.html %}
       </div>
-      </section>
+    </section>
     <footer>
       {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

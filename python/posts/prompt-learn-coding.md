@@ -144,7 +144,14 @@
 </script>
 ---
 
-## 📌 12. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
+## 📌 12. **"Take a quiz on "[concept/technology/feature]" designed for beginners. Each question will be displayed individually, mixing questions (true or false, fill in the blanks, MCQs, and Find and Fix errors), offering hints for tricky questions and detailed explanations for every answer."**
+
+✅ **Example Using the Prompt:**
+
+1. **"Take a quiz on "For Loops in Python" designed for beginners. Each question will be displayed individually, mixing questions (true or false, fill in the blanks, MCQs, and Find and Fix errors), offering hints for tricky questions and detailed explanations for every answer."**
+---
+
+## 📌 13. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
 
 ### ✅ **1. True or False**  
 - Create 10-15 statements to assess conceptual understanding.  
