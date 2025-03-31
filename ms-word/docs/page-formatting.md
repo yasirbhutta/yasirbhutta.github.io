@@ -126,6 +126,7 @@ You can set different orientations for different sections of your document. This
 * Ensure consistency throughout the document unless using sections with different orientations. 
 * Remember to adjust margins and spacing according to the chosen orientation. 
 * Preview your document before printing to confirm the layout looks as intended.
+  
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"

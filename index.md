@@ -29,7 +29,7 @@
 
 - [Microsoft Word Basics](ms-word/docs/basics.md)
 - [Character Formatting](ms-word/docs/character-formatting.md)
-- [Paragraph Formatting](ms-word/docs/paragraph-formatting.md)
+- [Paragraph Formatting](ms-word/docs/paragraph-formatting.md) \| [Slides](https://docs.google.com/presentation/d/1pbumUfZuugkGS31FKGpgsNz3g7v2WVDjCvHab713b9o/edit?usp=sharing)
 - [Page Formatting](ms-word/docs/page-formatting.md)
 - [Text Editing in Documents](ms-word/docs/stylish.md)
 - [Word Practical Topics](ms-word/docs/word-practical.md) \| [PDF](ms-word/docs/word-practical.pdf)
