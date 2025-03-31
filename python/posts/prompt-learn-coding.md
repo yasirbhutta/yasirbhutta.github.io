@@ -73,7 +73,7 @@
 
 ---
 
-## 📌 13. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
+- 📌 13. **"Design a comprehensive Practice and Progress section for learning [concept/technology/feature]. Include diverse exercises such as true or false questions, fill in the blanks, multiple-choice questions (MCQs), find and fix mistakes, coding exercises, mini projects, and review questions. Ensure exercises cater to beginner, intermediate, and advanced learners, with detailed solutions and explanations. Organize the section into the following subsections:"**
 
 ### ✅ **1. True or False**  
 - Create 10-15 statements to assess conceptual understanding.  
