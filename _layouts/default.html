@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <script src="https://code.jquery.com/jquery-3.3.0.min.js"
@@ -13,7 +12,9 @@
   <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
+  <!-- Custom style -->
   <link rel="stylesheet" href="{{ " /assets/css/custom.css" | relative_url }}">
+  <!-- End Custom style -->
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!--Google AdSense-->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
@@ -50,14 +51,9 @@
       <!-- {% include sidebar.html %} -->
     </nav>
     <section>
-      <div class="social-media">
-        Connect with me:
-        <a href="https://www.youtube.com/yasirbhutta">Youtube</a> \|
-        <a href="https://www.linkedin.com/in/yasirbhutta/">LinkedIn</a> \|
-        <a href="https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c">WhatsApp Channel</a> \|
-        <a href="https://www.facebook.com/yasirbhutta786">Facebook</a> \|
-        <a href="https://www.instagram.com/yasirbhutta786/">Instagram</a> \|
-      </div>
+     <div>
+      {%include social-media.html %}
+     </div>
 <div>
 <a href="https://forms.gle/DomT9rZo3b8uEnpV6">Feedback</a>
 </div>
