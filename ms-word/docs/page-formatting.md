@@ -98,12 +98,12 @@ Page orientation refers to the direction in which text and content appear on a p
 
 There are two ways to change the page orientation in Word:
 
-* **Using the Page Layout Tab:**
+1. **Using the Page Layout Tab:**
     1. Go to the **Page Layout** tab on the ribbon.
     2. In the **Page Setup** group, find the **Orientation** button.
     3. Click the dropdown menu and choose either **Portrait** or **Landscape**.
 
-* **Using the Layout Dialog Box:**
+2. **Using the Layout Dialog Box:**
     1. Go to the **Page Layout** tab on the ribbon.
     2. In the **Page Setup** group, click the small arrow in the bottom right corner. 
     3. This opens the **Page Setup** dialog box.
