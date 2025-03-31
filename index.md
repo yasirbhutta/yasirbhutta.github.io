@@ -1,19 +1,9 @@
-# Muhammad Yasir Bhutta
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Learn with Yasir
 
 ## Coding
 
 - [Getting started with Python](python/)
-    - [Installation of Tools](python/docs/python-task-based-learning.md)
-    - [Python - Quick Guide for Ultimate Python Beginner's](python/docs/quick-guide.md)
-    - [Python Language Basics](python/docs/basics.md)
-    - [Variables](python/docs/variables.md)
-    - [Data Types](python/docs/data-types.md)
-    - [Operators](python/docs/operators.md)
-    - [Control Flow](python/docs/control-flow.md)
-    - [Defining Functions](python/docs/functions.md)
-    - [Learn more ..](python/)
+- [Top 12 Coding Prompts for Effective Learning!](https://yasirbhutta.github.io/python/posts/prompt-learn-coding.html)
 - [Python Quizzes – Test Your Knowledge](python/quizzes/)
 - [Python Insights: From Basics to Advanced](python/posts/)
 - [Matlab for Beginners](matlab/index.md)
