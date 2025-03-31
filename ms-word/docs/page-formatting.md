@@ -141,7 +141,7 @@ You can set different orientations for different sections of your document. This
 ### 4.2.3 Paper Size
 
 - The length and the width of a page in document is called page size. 
-	Example: Letter (8.5 * 11), A4 (8.27 * 11.67), Legal (8.5 * 14 )
+	Example: `Letter` (8.5 * 11), `A4` (8.27 * 11.67), `Legal` (8.5 * 14 )
 
 **Why Change Page Size?**
 
@@ -201,10 +201,11 @@ OR
 Note: This setting make paragraph, first paragraph in the page.
 
 
-Widow/Orphan control 
-A professional-looking document never ends a page with just one line of a new paragraph or begins a page with only the last line of a paragraph from the previous page. 
-The last line of a paragraph by itself at the top of a page is known as a widow. 
-The first line of a paragraph by itself at the bottom of a page is known as an orphan.
+## Widow/Orphan control
+
+- A professional-looking document never ends a page with just one line of a new paragraph or begins a page with only the last line of a paragraph from the previous page. 
+- The last line of a paragraph by itself at the top of a page is known as a widow. 
+- The first line of a paragraph by itself at the bottom of a page is known as an orphan.
 
 ## 4. Header and Footers
 
@@ -218,7 +219,7 @@ The first line of a paragraph by itself at the bottom of a page is known as an o
 On the Insert tab, in the Header & Footer group, click Header or Footer. 
 Click the header or footer design that you want. The header or footer is inserted on every page of the document.  
 
-Note    If necessary, you can format text in the header or footer by selecting the text and using the formatting options on the Mini toolbar.
+**Note:** If necessary, you can format text in the header or footer by selecting the text and using the formatting options on the Mini toolbar.
 
 
 
@@ -228,24 +229,28 @@ Click Edit Header or Edit Footer.
 Insert text or graphics. 
 To save the header or footer that you created to the gallery of header or footer options, select the text or graphics in the header or footer, and then click Save Selection as New Header or Save Selection as New Footer.
 
+**Change headers or footers**
 
-Change headers or footers
-On the Insert tab, in the Header & Footer group, click Header or Footer. 
-Click a header or footer design from the gallery. The header or footer design changes for the entire document.
+- On the `Insert tab`, in the `Header & Footer group`, click `Header or Footer`. 
+- Click a header or footer design from the gallery. The header or footer design changes for the entire document.
 
+## Insert Cover Page
 
-Insert Cover Page
-On the Insert tab, in the Pages group, click Cover Page. 
-Click a cover page design from the gallery. 
+- On the Insert tab, in the Pages group, click Cover Page. 
+- Click a cover page design from the gallery. 
 
-
-
-Remove the header or footer from the first page
+## Remove the header or footer from the first page
 On the Page Layout tab, click the Page Setup Dialog Box Launcher, and then click the Layout tab. 
 Select the Different first page check box under Headers and footers. Headers and footers are removed from the first page of the document.
 
+## Page Background
 
+On the Page Layout tab, select the option from Page Background group
 
+## Line Number
+
+## Hyphenation
+Used to break words between lines
 
 
 ## Additional Topics
@@ -298,15 +303,6 @@ Changing Page Margins using Page Setup Dialog Box
 Page Margin
 
 
-Page Background
-On the Page Layout tab, select the option from Page Background group
-
-
-Line Number
-
-
-Hyphenation
-Used to break words between lines
 
 
 Make the headers or footers different for odd and even pages
