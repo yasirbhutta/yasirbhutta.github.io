@@ -17,7 +17,8 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div> {%include sidebar.html %}</div>
+
+    <div class="vertical-ad"> {%include sidebar.html %}</div>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>

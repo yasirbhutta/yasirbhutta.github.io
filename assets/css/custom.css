@@ -36,3 +36,16 @@
     /* color: #fff; */
     border-radius: 5px;
 }
+
+.vertical-ad {
+  /* background-color: #f4f4f4; */
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  text-align: center;
+  float: right;
+  margin: 20px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
