@@ -35,11 +35,14 @@
       <div>
         {%include sidebar.html %}
         <nav>
-          <ul>
-           <li><a href="Python/">Python</a></li>
-           <li><a href="ms-excel/"></a>Excel</li>
+          <ul class="menu">
+              <li><a href="{{ site.url }}">Home</a></li>
+              <li><a href="{{ site.url }}/python/">Python</a></li>
+              <li><a href="{{ site.url }}/ms-excel/">Excel</a></li>
+              <li><a href="{{ site.url }}/it-324//">Web Development</a></li>
+              <li><a href="{{ site.url }}/cs-301//">Computer Basics</a></li>
           </ul>
-      </div>
+      </nav>
       <section>
         <div>
           {%include social-media.html %}

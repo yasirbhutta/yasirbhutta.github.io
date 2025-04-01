@@ -5,3 +5,34 @@
     padding-right: 10px;
   }
   
+  nav {
+    /* background-color: #333; */
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    /* background-color: #ff6600; */
+    /* color: #fff; */
+    border-radius: 5px;
+}
