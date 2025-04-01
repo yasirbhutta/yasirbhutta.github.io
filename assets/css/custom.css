@@ -10,14 +10,14 @@
     padding: 10px 0;
 }
 
-.wrapper {
+/* .wrapper {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f4f4f4;
   position: relative;
   z-index: 1;
-}
+} */
 
 .vertical-ad {
   position: fixed;
