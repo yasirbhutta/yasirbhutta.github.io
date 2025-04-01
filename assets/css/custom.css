@@ -23,10 +23,10 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 150px;
-  background-color: #e0e0e0;
+  /* width: 150px; */
+  /* background-color: #e0e0e0; */
   padding: 10px;
-  box-shadow: 2px 0 5px #aaa;
+  /* box-shadow: 2px 0 5px #aaa; */
 }
 
 .left-ad {
