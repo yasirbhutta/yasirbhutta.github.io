@@ -38,14 +38,20 @@
 }
 
 .vertical-ad {
-  background-color: #f4f4f4; 
-  border: 1px solid #ccc; 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  background-color: #e0e0e0;
   padding: 10px;
-  text-align: center;
-  float: right;
-  margin: 20px;
+  box-shadow: 2px 0 5px #aaa;
 }
 
-.wrapper {
-  overflow: hidden;
+.left-ad {
+  left: 0;
 }
+
+.right-ad {
+  right: 0;
+}
+
