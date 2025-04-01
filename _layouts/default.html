@@ -35,24 +35,15 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-    
-        <nav id="main_nav" class="inner">
-            <ul>
-            {% include sidebar.html %}
-            </ul>
-        </nav>
-        <div id="social_media" class="inner">
-          {% include social-media.html %}
-          <a href="https://forms.gle/DomT9rZo3b8uEnpV6"><i class="fa-solid fa-message"></i> Share Your Feedback</a>
-        </div>
     <section id="main_content" class="inner">
+      {% include social-media.html %}
+      <a href="https://forms.gle/DomT9rZo3b8uEnpV6"><i class="fa-solid fa-message"></i> Share Your Feedback</a>
         {{ content }}
     </section>
     <div>
         {% include ad-display.html %}
     </div>
     </div>
-
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
