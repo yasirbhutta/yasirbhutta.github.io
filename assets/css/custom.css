@@ -19,21 +19,23 @@
   z-index: 1;
 } 
 
+/* Vertical ads in the margin areas */
 .vertical-ad {
-  position: fixed;
+  position: absolute;  /* Absolute position relative to the wrapper */
   top: 0;
   bottom: 0;
-  width: 100%;
-  /* background-color: #e0e0e0; */
+  width: calc(50% - 10px);  /* Make the ad occupy half of the available margin */
+  background-color: #e0e0e0;
   padding: 10px;
-  /* box-shadow: 2px 0 5px #aaa; */
+  box-shadow: 2px 0 5px #aaa;
 }
 
+/* Left ad: positioned in the left margin */
 .left-ad {
-  left: 0;
+  left: -50%;  /* Move the ad into the left margin */
 }
 
+/* Right ad: positioned in the right margin */
 .right-ad {
-  right: 0;
+  right: -50%;  /* Move the ad into the right margin */
 }
-
