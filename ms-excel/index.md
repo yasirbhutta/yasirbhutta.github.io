@@ -11,6 +11,12 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Learn Microsoft Excel
 
+**Test your knowledge**
+
+- [Microsoft Excel Quizzes](quizzes/)
+
+**Notes**
+
 - [Introduction to Excel](docs/basics.md)
 - [Formatting in Excel](docs/formatting.md)
 - [Formulas in excel](docs/formulas.md)

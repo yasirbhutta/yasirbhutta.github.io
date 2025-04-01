@@ -243,6 +243,8 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
   
 ## Multiple Choice (Select the best answer)
 
+- [Microsoft Excel Quiz: Basics](../quizzes/excel-basics-quiz.md)
+
 > What type of data can be stored in an Excel cell?
 
 1. [ ] Numbers
@@ -333,6 +335,121 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 2. [ ] 3
 3. [ ] 5
 4. [ ] 10
+
+
+Which of the following is displayed at the top of the Excel window and shows the current workbook name?
+A) Title Bar
+B) Formula Bar
+C) Status Bar
+D) Ribbon
+
+Answer: A) Title Bar
+
+Which of the following is the default file extension for Excel workbooks?
+A) .docx
+B) .xlsx
+C) .xls
+D) .csv
+
+Answer: B) .xlsx
+
+What do you see in the 'Name Box' in Excel?
+A) The formula entered in the active cell
+B) The address of the active cell (e.g., A1, B2)
+C) The name of the current worksheet
+D) The total count of cells in the worksheet
+
+Answer: B) The address of the active cell (e.g., A1, B2)
+
+What does the Formula Bar display in Excel?
+
+A) The content of the active cell
+B) The names of all worksheets in a workbook
+C) A list of all available formulas
+D) The format of the selected cell
+
+Answer: A) The content of the active cell
+
+
+How can you cancel an entry after typing in a cell but before pressing Enter?
+A) Press the 'Esc' key
+B) Press 'Ctrl + Z'
+C) Right-click and select 'Undo'
+D) Press 'Delete'
+
+Answer: A) Press the 'Esc' key
+
+How do you manually enter a date in an Excel cell?
+A) Type the date in the format 'dd/mm/yyyy'
+B) Type the date in any format, and Excel will convert it
+C) Use the 'Insert' tab to select a date
+D) Type the date as 'Today'
+
+Answer: A) Type the date in the format 'dd/mm/yyyy'
+
+What is the shortcut key to enter the current date in a cell in Excel?
+A) Ctrl + Shift + D
+B) Ctrl + ;
+C) Alt + D
+D) Ctrl + T
+
+Answer: B) Ctrl + ;
+
+What is the shortcut key to enter the current time in a cell in Excel?
+A) Ctrl + Shift + T
+B) Ctrl + Shift + ;
+C) Alt + T
+D) Shift + ;
+
+Answer: B) Ctrl + Shift + ;
+
+Which of the following can you enter into a cell in Excel?
+A) Text
+B) Numbers
+C) Formulas
+D) All of the above
+
+Answer: D) All of the above
+
+How do you move to the next cell after entering data in Excel?
+A) Press the 'Tab' key
+B) Press the 'Enter' key
+C) Use the arrow keys
+D) All of the above
+
+Answer: D) All of the above
+
+Which of the following is the correct method to enter a formula into a cell?
+A) Type the formula and press Enter
+B) Type the formula starting with '=' and press Enter
+C) Double-click the cell and type the formula
+D) Right-click the cell and select 'Insert Formula'
+
+Answer: B) Type the formula starting with '=' and press Enter
+
+How do you move data from one cell to another in Excel?
+A) Cut the data with Ctrl + X, then paste it with Ctrl + V in a new cell
+B) Click and drag the data to a new cell
+C) Copy and paste the data
+D) All of the above
+
+Answer: D) All of the above
+
+What happens if you enter data that exceeds the cell width in Excel?
+A) The data will overflow into adjacent empty cells
+B) The data is automatically resized to fit the cell
+C) The data will be hidden from view
+D) An error message is displayed
+
+Answer: A) The data will overflow into adjacent empty cells
+
+What happens when you press 'Ctrl + Z' in Excel?
+A) It redoes the last action
+B) It deletes the current data
+C) It undoes the last action
+D) It saves the current workbook
+
+Answer: C) It undoes the last action
 
 ## Review Questions
 
