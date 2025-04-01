@@ -5,37 +5,4 @@
     padding-right: 10px;
   }
   
-  nav {
-    /* background-color: #333; */
-    padding: 10px 0;
-}
-
- .wrapper {
-  width: 700px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-  position: relative;
-  z-index: 1;
-} 
-
-/* Vertical ads in the margin areas */
-.vertical-ad {
-  position: absolute;  /* Absolute position relative to the wrapper */
-  top: 0;
-  bottom: 0;
-  width: calc(50% - 10px);  /* Make the ad occupy half of the available margin */
-  background-color: #e0e0e0;
-  padding: 10px;
-  box-shadow: 2px 0 5px #aaa;
-}
-
-/* Left ad: positioned in the left margin */
-.left-ad {
-  left: -50%;  /* Move the ad into the left margin */
-}
-
-/* Right ad: positioned in the right margin */
-.right-ad {
-  right: -50%;  /* Move the ad into the right margin */
-}
+  

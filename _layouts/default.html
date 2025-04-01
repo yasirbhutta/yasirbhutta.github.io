@@ -17,10 +17,6 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="vertical-ad left-ad">
-      <p>Left Ad</p> 
-      {% include sidebar.html %}
-    </div>
     <div class="wrapper">
 
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
@@ -62,10 +58,6 @@
       </div>
       </section>
   
-    </div>
-    <div class="vertical-ad right-ad">
-      <p>Right Ad</p>
-      {% include sidebar.html %}
     </div>
     <footer>
     {% if site.github.is_project_page %}
