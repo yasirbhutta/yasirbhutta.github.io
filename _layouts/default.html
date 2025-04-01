@@ -17,6 +17,7 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div> {%include sidebar.html %}</div>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -31,9 +32,6 @@
         {% endif %}
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
-      </header>
-      <div>
-        {%include sidebar.html %}
         <nav>
           <ul class="menu">
               <li><a href="{{ site.url }}">Home</a></li>
@@ -43,6 +41,8 @@
               <li><a href="{{ site.url }}/cs-301//">Computer Basics</a></li>
           </ul>
       </nav>
+      </header>
+      <div>
       <section>
         <div>
           {%include social-media.html %}
@@ -52,11 +52,13 @@
         </div>
     
       {{ content }}
+
       <div>
         {% include ad-display.html %}
       </div>
       </section>
     </div>
+
     <footer>
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
