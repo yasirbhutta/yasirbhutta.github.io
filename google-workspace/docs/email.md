@@ -75,8 +75,15 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 ##### Write an email
 
 - [Send or unsend Gmail messages](https://support.google.com/mail/answer/2819488?hl=en&ref_topic=3395756)
-  - [Video Tutorial: How to Send an Email Using the Gmail App](https://youtu.be/rcVVfyeJfLk?si=s6CUx5sXAs1rAYhY)
-  - [Video Tutorial: Why we use CC and BCC in email](https://youtu.be/66N2Kmca21U)
+  
+**How to Send an Email Using the Gmail App**
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Why we use CC and BCC in email**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66N2Kmca21U?si=bl8EQbReO-w1kuQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - [Reply to messages in Gmail](https://support.google.com/mail/answer/6585?hl=en&ref_topic=3395756&sjid=17155670430480394991-EU)
 - [Send & open confidential emails](https://support.google.com/mail/answer/7674059?hl=en&ref_topic=3395756)
   - [Video Tutorial for android](https://youtube.com/shorts/aW24qeTJy0Q?si=m326oH-jvFP7HVqV)
