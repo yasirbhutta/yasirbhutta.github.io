@@ -27,10 +27,6 @@ To master advanced Python concepts for efficient problem-solving, software devel
 **Week 4, Lecture 2:** Design patterns in Python
 **Week 4, Lecture 3:** Project: Role-based access control system
 
-Here’s a structured lesson plan to teach Object-Oriented Programming (OOP) in Python:  
-
----
-
 ### **Lesson 1: Introduction to OOP**
 - **Objective:** Understand the basics of OOP and its importance.  
 - **Topics Covered:**

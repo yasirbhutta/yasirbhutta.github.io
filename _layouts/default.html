@@ -52,14 +52,13 @@
         </div>
     
       {{ content }}
-
-      <div>
-        {% include ad-display.html %}
-      </div>
       </section>
   
     </div>
     <footer>
+      <div>
+        {% include ad-display.html %}
+      </div>
     {% if site.github.is_project_page %}
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
