@@ -5,6 +5,11 @@
     padding-right: 10px;
   }
   
+     /* For image-based icons */
+     .icon-image img{
+      width: 16px; /* Adjust as needed */
+      height: 16px; /* Adjust as needed */
+    }
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
