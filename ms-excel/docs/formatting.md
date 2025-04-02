@@ -598,6 +598,81 @@ In the Gridline color box, click the color you want.
 4. [ ] 16
 5. [ ] 18
 
+You can format numbers as currency in Excel without changing the actual value.
+True
+False
+
+Which of the following options allows you to add borders to cells in Excel?
+(a) Fill Color
+(b) Border button in the Home tab
+(c) Merge Cells
+(d) Text Orientation
+Correct Answer: (b) Border button in the Home tab
+
+To change the background color of a cell in Excel, you can use the _____ option in the Home tab.
+(a) Font Color
+(b) Fill Color
+(c) Cell Styles
+(d) Alignment
+Correct Answer: (b) Fill Color
+
+Which of the following is used to adjust the width of a column in Excel?
+(a) Resize Column
+(b) AutoFit Column Width
+(c) Format Cells
+(d) Wrap Text
+Correct Answer: (b) AutoFit Column Width
+
+Which of the following is used to display numbers with commas for thousands in Excel?
+(a) Currency Format
+(b) Accounting Format
+(c) Number Format
+(d) Comma Style
+Correct Answer: (d) Comma Style
+
+The "Format as Table" option in Excel applies a predefined table style and makes it easier to manage data.
+Correct Answer: True
+
+**What is the keyboard shortcut to format cells in Excel?**
+    * a. Ctrl + Shift + F1
+    * b. Ctrl + 1
+    * c. Alt + F4
+    * d. Ctrl + Alt + Delete
+    * **Answer: b. Ctrl + 1**
+
+**What is the purpose of the 'Merge & Center' function?**
+    * a. To align text to the right.
+    * b. To combine selected cells into one larger cell and center the content.
+    * c. To apply a background color.
+    * d. To change the font color.
+    * **Answer: b. To combine selected cells into one larger cell and center the content.**
+
+*How can you change the column width to fit the content automatically?**
+    * a. Double-click the right edge of the column header.
+    * b. Right-click and select 'Auto Column'.
+    * c. Use the 'Format' menu and select 'AutoFit Column Width'.
+    * d. A & C options.
+    * **Answer: d.**
+
+Which tab in Excel contains the "Cell Styles" option for quick formatting?
+a) Insert
+b) Data
+c) Home
+d) Formulas
+Answer: c) Home
+
+The "Wrap Text" feature automatically adjusts the row height to fit all text in a cell.
+a) True
+b) False
+Answer: a) True
+
+The keyboard shortcut to apply Strikethrough formatting in Excel is ________.
+a) Ctrl + 5
+b) Ctrl + D
+c) Ctrl + T
+d) Alt + S
+Answer: a) Ctrl + 5
+
 ## Exercises
 
 ## Review Questions
