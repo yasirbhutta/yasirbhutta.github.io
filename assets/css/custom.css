@@ -1,15 +1,27 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 10px;
+  padding-left: 10px;
+  /* Adds space inside the paragraph */
+  padding-right: 10px;
+}
 
-  p,h1,h2,h3,h4,h5,h6 {
-    margin-left: 10px;
-    padding-left: 10px;    /* Adds space inside the paragraph */
-    padding-right: 10px;
-  }
-  
-     /* For image-based icons */
-     .icon-image img{
-      width: 16px; /* Adjust as needed */
-      height: 16px; /* Adjust as needed */
-    }
+/* For image-based icons */
+.icon-image img {
+  width: 16px;
+  /* Adjust as needed */
+  height: 16px;
+  /* Adjust as needed */
+}
+
+.yt-video {
+  text-align: center;
+}
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
