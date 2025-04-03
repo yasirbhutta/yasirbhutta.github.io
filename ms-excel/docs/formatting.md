@@ -477,6 +477,8 @@ In the Gridline color box, click the color you want.
 
 ## Multiple Choice (Select the best answer)
 
+- [Microsoft Excel Quiz: Formatting](../quizzes/excel-formatting-quiz.md)
+
 > What is the purpose of a cell format?
 
 1. [x] To change the appearance of a cell

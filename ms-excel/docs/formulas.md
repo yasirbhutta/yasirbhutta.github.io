@@ -250,7 +250,9 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Multiple Choice (Select the best answer)
 
-What is a formula?
+- [Microsfot Excel Quiz: Fomulas](../quizzes/excel-formulas-quiz.md)
+
+> What is a formula?
 
 1. [x] A rule that tells Excel how to calculate something
 2. [ ] A cell in a spreadsheet

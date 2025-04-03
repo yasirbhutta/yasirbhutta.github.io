@@ -1,6 +1,6 @@
 # Microsoft Excel Quiz: Formatting
 
-To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Basics](../docs/basics.md)**
+To learn more about `Microsoft Excel Formatting, please visit **[Microsoft Excel: Formatting](../docs/formatting.md)**
 
 **Topics Convered:**
 - Basic formatting commands (font, font size, font style etc)
