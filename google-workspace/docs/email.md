@@ -79,13 +79,13 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 **How to Send an Email Using the Gmail App**
 
 <div class="yt-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe height="315" src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 **Why we use CC and BCC in email**
 
 <div class="yt-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66N2Kmca21U?si=bl8EQbReO-w1kuQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/66N2Kmca21U?si=bl8EQbReO-w1kuQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 - [Reply to messages in Gmail](https://support.google.com/mail/answer/6585?hl=en&ref_topic=3395756&sjid=17155670430480394991-EU)
