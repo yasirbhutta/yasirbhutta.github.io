@@ -22,28 +22,6 @@ h6 {
 .yt-video {
   text-align: center;
   width: 100%;
-  margin: 0 auto;
-  display: block;
-  /* Center the video */
-  padding: 0;
-  /* Remove padding */
-  margin-bottom: 20px;
-  /* Space below the video */
-  border: none;
-  /* Remove border */
-  background: none;
-  /* Remove background */
-  box-shadow: none;
-  /* Remove shadow */
-  border-radius: 0;   
-  /* Remove border radius */
-  max-width: 100%;
-  /* Ensure it doesn't overflow the container */
-  max-height: 100%;
-  /* Ensure it doesn't overflow the container */
-  overflow: hidden;
-  /* Hide overflow */
-
 }
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
