@@ -24,6 +24,13 @@ h6 {
   text-align: center;
 }
 
+.yt-short {
+  width: 100%;
+  height: 640px;
+  max-width: 100%;
+  text-align: center;
+}
+
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
