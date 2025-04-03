@@ -1,6 +1,6 @@
 # Microsoft Excel Quiz: Formulas
 
-To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Basics](../docs/basics.md)**
+To learn more about `Formulas in Excel, please visit **[Microsoft Excel: Formulas](../docs/formulas.md)**
 
 **Topics Convered:**
 - Formulas in Excel
