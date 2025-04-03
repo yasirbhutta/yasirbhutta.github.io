@@ -6,7 +6,8 @@ h4,
 h5,
 h6 {
   margin-left: 10px;
-  padding-left: 10px; /* Adds space inside the paragraph */
+  padding-left: 10px;
+  /* Adds space inside the paragraph */
   padding-right: 10px;
 }
 
@@ -17,10 +18,12 @@ h6 {
 }
 
 .yt-video {
-  text-align: center;
-  aspect-ratio: 16 / 9;
   width: 100%;
+  height: 315px;
+  max-width: 100%;
+  text-align: center;
 }
+
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
@@ -36,6 +39,8 @@ h6 {
     text-align: center;
 } */
 
- #toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
+#toc_container li,
+#toc_container ul,
+#toc_container ul li {
+  list-style: outside none none !important;
 }
