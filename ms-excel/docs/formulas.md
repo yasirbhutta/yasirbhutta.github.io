@@ -250,7 +250,7 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 
 ## Multiple Choice (Select the best answer)
 
-- [Microsfot Excel Quiz: Fomulas](../quizzes/excel-formulas-quiz.md)
+- [Microsfot Excel Quiz: Formulas](../quizzes/excel-formulas-quiz.md)
 
 > What is a formula in Excel?
 
