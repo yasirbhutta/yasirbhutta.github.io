@@ -36,24 +36,57 @@ This approach provides better control, especially when you need to reuse styles 
 1. **Create a generic class in your CSS file:**  
 
 ```css
+
 .yt-video {
+    position: relative;
     width: 100%;
-    height: 315px;
-    max-width: 100%;
-    text-align: center;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
 }
+
+.yt-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+```
+
+for youtube `short video`, use following code.
+
+```css
+
+.yt-short {
+  position: relative;
+  width: 100%;
+  padding-top: 177.78%; /* 9:16 aspect ratio (16 / 9 * 100 = 177.78%) */
+}
+
+.yt-short iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 ```
 
 2. **Apply the class to your iframe:**  
 
 ```html
-<iframe class="yt-video" src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" 
+<div class="yt-video">
+<iframe src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen>
 </iframe>
+</div>
 ```
+
+**Note:** For short videos, change the class name to `yt-short`.
 
 ---
 
