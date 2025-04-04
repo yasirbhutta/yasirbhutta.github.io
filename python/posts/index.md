@@ -27,7 +27,8 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 
 ## Data Analysis with Python
 
-- [How to Structure a Data Analysis Project in Python: A Complete Guide](structure-da-project.md)
+1. [The 5 Most Important Python Libraries You Should Know](data-analysis/top5-libraries-python.md)
+2. [How to Structure a Data Analysis Project in Python: A Complete Guide](structure-da-project.md)
 
 ## Data Visualization with Python
 
