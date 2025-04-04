@@ -1,16 +1,13 @@
 # Python: Facebook Graph API
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
 - [Download PDF](https://yasirbhutta.github.io/python/docs/fb-graph-api.pdf)  
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/python/docs/fb-graph-api.html](https://yasirbhutta.github.io/python/docs/fb-graph-api.html)
 
-[**Want to Learn Python, Join our WhatsApp Channel ✨:**](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
 
 ## How to Publish a Facebook Page Post Using the Facebook Graph API in Python
 
-[video:How to Publish a Facebook Page Post Using the Facebook Graph API](https://youtu.be/oSIFwDkBWB4)
+<iframe class="yt-video" src="https://www.youtube.com/embed/oSIFwDkBWB4?si=TBpex89UMzdI-P0X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Overview of Facebook Graph API
 - **Facebook Graph API:** Allows developers to interact with Facebook’s platform using code.
