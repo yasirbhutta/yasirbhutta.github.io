@@ -1,11 +1,5 @@
 # Python: Tools or IDE
 
-
-- [Download PDF](https://yasirbhutta.github.io/python/docs/tools.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/tools.html](https://yasirbhutta.github.io/python/docs/tools.html)
-
-
 - Install Python: Download and install it from <https://www.python.org/downloads/>.
 
 ## 1. Visual Studio Code **(Recommended)** [Online, Desktop]
@@ -24,7 +18,7 @@
 - Pydroid 3 is an IDE (Integrated Development Environment) for Android devices that allows you to write and run Python code on your phone or tablet. It's a great tool for learning Python or for working on small Python projects on the go.
 
    - [Dowload](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
-   - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
+   - [How to: Install Jupyter Notebook on an Android device](../posts/install-jupyter-android.md)
 
 ## 5. Replit – Build software faster **(Recommended)** [Online, Desktop, Mobile(Android, iOS)] 
 Replit is an AI-powered software development & deployment platform for building, sharing, and shipping software fast.

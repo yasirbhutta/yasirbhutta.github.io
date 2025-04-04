@@ -4,21 +4,22 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 
 ## Python Basics
 
-1. [Tips for Python Performance Optimization (New)](python-performance-tips.md)
-2. [Level Up Your Coding Skills: Learn with ChatGPT Prompts!](prompt-learn-coding.md)
-3. [Powerful Python One-Liners](python-one-liners.md)
-4. [Python None Type Explained: Meaning, Usage, and Best Practices](none-type-explained.md)
-5. [Beware of Mutable Default Arguments in Python – A Common Mistake Explained!](mutable-default-arguments.md)
-6. [What is the `//` Operator in Python?](floor-division.md)
-7. [Walrus Operator (`:=`) in Python](walrus-operator.md)
-8. [Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?](assignment-operator-exp.md)
-9. [Understanding Control Structures in Python](control-structures-python.md)
-10. [Say Goodbye to Long If-Elif Chains with Python's Match Case](match-case.md)
-11. [Python Generators: A Beginner's Guide to Memory-Efficient Iteration](generators-in-python.md)
-12. [What is Guard Statement](guard-statement.md)
-13. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
-14. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
-15. [Common Mistakes in Python](common-mistakes-in-python.md)
+1. [Install Jupyter Notebook on an Android device (New)](install-jupyter-android.md)
+2. [Tips for Python Performance Optimization (New)](python-performance-tips.md)
+3. [Level Up Your Coding Skills: Learn with ChatGPT Prompts!](prompt-learn-coding.md)
+4. [Powerful Python One-Liners](python-one-liners.md)
+5. [Python None Type Explained: Meaning, Usage, and Best Practices](none-type-explained.md)
+6. [Beware of Mutable Default Arguments in Python – A Common Mistake Explained!](mutable-default-arguments.md)
+7. [What is the `//` Operator in Python?](floor-division.md)
+8. [Walrus Operator (`:=`) in Python](walrus-operator.md)
+9. [Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?](assignment-operator-exp.md)
+10. [Understanding Control Structures in Python](control-structures-python.md)
+11. [Say Goodbye to Long If-Elif Chains with Python's Match Case](match-case.md)
+12. [Python Generators: A Beginner's Guide to Memory-Efficient Iteration](generators-in-python.md)
+13. [What is Guard Statement](guard-statement.md)
+14. [The 10 Most Important Python Libraries for Beginners](python-libraries.md)
+15. [Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings](fstring-dynamic.md)
+16. [Common Mistakes in Python](common-mistakes-in-python.md)
 
 ### Object-Oriented Programming in Python
 
