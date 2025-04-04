@@ -34,7 +34,7 @@ h6 {
 .yt-short {
   position: relative;
   width: 100%;
-  max-width: 560px;
+  max-width: 360px;
   padding-top: 177.78%; /* 9:16 aspect ratio (16 / 9 * 100 = 177.78%) */
   text-align: center; 
 }
