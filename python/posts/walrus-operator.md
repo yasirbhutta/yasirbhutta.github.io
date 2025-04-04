@@ -46,6 +46,10 @@ while (data := input("Enter something: ")):
 
 ---
 
+**Example: Walrus Operator in Python**
+
+<iframe class="yt-short" src="https://www.youtube.com/embed/vhEz75XZlJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### **3. Using in List Comprehensions**
 Instead of:  
 ```python
