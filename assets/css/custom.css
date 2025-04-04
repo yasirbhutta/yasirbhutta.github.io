@@ -27,7 +27,7 @@ h6 {
     padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
 }
 
-.yt-video iframe {
+.yt-video iframe, .yt-short iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,10 +36,9 @@ h6 {
 }
 
 .yt-short {
+  position: relative;
   width: 100%;
-  height: 640px;
-  max-width: 100%;
-  text-align: center;
+  padding-top: 177.78%; /* 9:16 aspect ratio (16 / 9 * 100 = 177.78%) */
 }
 
 /* #toc_container {
