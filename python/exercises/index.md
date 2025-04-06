@@ -6,6 +6,9 @@
 - [Python Exercises for Loops (for,while)](../exercises/python-exercises-loops.md)
 - [Loop Control Statements (break, continue, pass) Exercises](../exercises/python-exercises-loop-control.md)
 
+## More ...
+- [Pyhton Exercises for Regular Expressions](regular-expressions-python.md)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"

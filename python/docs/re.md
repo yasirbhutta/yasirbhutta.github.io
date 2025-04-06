@@ -72,7 +72,9 @@ Regular expressions are powerful tools for searching, matching, and manipulating
      ```
 
 ### 5. **Exercise:**
-   - **Exercise 1**: Write a function that extracts all phone numbers from a given string. Assume phone numbers follow the format `XXX-XXX-XXXX`.
-   - **Exercise 2**: Create a program that validates a given username. The username must start with a letter and contain only letters, digits, and underscores.
+
+- [Regular Expression Exercises](../exercises/regular-expressions-python.md)
+- 
+  
 
 Would you like to work on these exercises, or would you like a deeper dive into any specific part of regular expressions?
