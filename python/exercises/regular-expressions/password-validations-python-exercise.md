@@ -1,4 +1,4 @@
-# Pyhon Exercise for Regular Expressions: Password Validator Program*
+# Python Exercise for Regular Expressions: Password Validator Program
 
 **Objective:**  
 Write a Python program that asks the user to enter a password and checks whether it is **valid** based on the following rules:
