@@ -1,10 +1,21 @@
-# Python
+---
+layout: default
+title: Python Tutorial for Beginners – Free, Downloadable PDFs, and Open Source
+description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Python Tutorial for Beginners 
 
-- [📄 Download PDF](https://yasirbhutta.github.io/python/index.pdf)
+Welcome to our Python Tutorial for Beginners – your ultimate starting point for learning Python programming. Whether you're new to coding or just brushing up your skills, our tutorials are designed to be clear, practical, and completely free.
 
-**Want to Learn Python, Join our WhatsApp Channel ✨:**[https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P)
+✔ Step-by-step lessons for beginners
+✔ Downloadable PDF files for offline learning
+✔ 100% open-source and community-supported
+✔ Code examples, exercises, and projects
+
+Start learning Python today—no sign-up required!
+
+
 
 ## Weekly Plan and Resources
 
@@ -21,7 +32,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Python Basics Notes
 
-- [Python Language Basics](docs/basics.md)
+- [Python Language Basics](docs/basics.md) [[pdf]](../assets/downloads/python/basics.pdf)
 - [Variables](docs/variables.md)
 - [Data Types](docs/data-types.md)
 - [Operators](docs/operators.md)
