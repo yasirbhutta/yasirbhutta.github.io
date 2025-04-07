@@ -1,3 +1,9 @@
+---
+layout: default
+title: Best Way to Write Urdu in WhatsApp 
+description: Learn WhatsApp par urdu me typing kaise kare, urdu typing kaise kare, whatsapp me urdu typing kaise kare, urdu mein typing kaise karen
+---
+
 # Best Way to Write Urdu in WhatsApp - WhatsApp par urdu me typing kaise kare
 
   

@@ -8,14 +8,12 @@ description: Learn Python programming from scratch with our free, beginner-frien
 
 Welcome to our Python Tutorial for Beginners – your ultimate starting point for learning Python programming. Whether you're new to coding or just brushing up your skills, our tutorials are designed to be clear, practical, and completely free.
 
-✔ Step-by-step lessons for beginners
-✔ Downloadable PDF files for offline learning
-✔ 100% open-source and community-supported
-✔ Code examples, exercises, and projects
+- ✔ Step-by-step lessons for beginners
+- ✔ Downloadable PDF files for offline learning
+- ✔ 100% open-source and community-supported
+- ✔ Code examples, exercises, and projects
 
 Start learning Python today—no sign-up required!
-
-
 
 ## Weekly Plan and Resources
 
@@ -30,7 +28,7 @@ Start learning Python today—no sign-up required!
   - [Tasks: Installation of Tools](docs/python-task-based-learning.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
-## Python Basics Notes
+## Python Notes
 
 - [Python Language Basics](docs/basics.md) [[pdf]](../assets/downloads/python/basics.pdf)
 - [Variables](docs/variables.md)
