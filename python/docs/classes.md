@@ -8,9 +8,15 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 ## Classes ans Objects
 
-In Python, you create a class using the class keyword. A class is a blueprint for creating objects (instances).
+- In Python, you create a class using the class keyword. A class is a blueprint for creating objects (instances).
 
-Objects are instances of a class that have attributes (data) and methods (functions).
+- Objects are instances of a class that have attributes (data) and methods (functions).
+
+The correct answer is:
+
+**To initialize the object’s attributes**
+
+- In Python, the `__init__` method is a special method that is automatically called when a new object of a class is created. It is typically used to initialize the object's attributes with specific values.
 
 **What are instance attributes?:**
 
@@ -52,12 +58,13 @@ student2.info()
 
 - Classes act as blueprints for creating objects.
 - Objects are instances of classes, each with their own attributes (data) and methods (behaviors).
-- The `__init__()` method initializes objects when they're created.
+- The `__init__()` method initializes objects when they're created. 
 - Methods are functions defined within a class that operate on the object's data.
 - `self` is used to access the object's attributes and methods within its methods.
 
 ### Example:
 
+```python
 class Dog:
     def __init__(self, name, breed):
         self.name = name
@@ -65,12 +72,14 @@ class Dog:
 
     def bark(self):
         print(f"{self.name} says woof!")
+```
+## Creating an object (instance) of the Dog class
 
-# Creating an object (instance) of the Dog class
+```python
 my_dog = Dog("Buddy", "Golden Retriever")
 print(my_dog.name)  # Accessing an attribute
 my_dog.bark()       # Calling a method
-
+```
 The __init__ method is the constructor. It’s called when you create a new object and initializes the object's attributes.
 
 **Example #:**
