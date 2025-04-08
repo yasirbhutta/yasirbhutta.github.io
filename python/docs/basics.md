@@ -217,7 +217,7 @@ import os
 print(os.getcwd())
 ```
 
-Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations. for more details, see [Appendix A](#appendix-a-osgetcwd)
+Regarding file closure, when you use the `with` statement to open a file, Python automatically takes care of closing the file for you once the block of code under the `with` statement is executed. There is no need to explicitly close the file; it is done automatically when the block is exited. This is one of the benefits of using the with statement for file operations. for more details, see [Understanding Python’s os.getcwd(): Get Current Working Directory with Examples](../posts/getch-python-examples.md)
 
 ### Task 8: Understanding Syntax Errors in Python
 
