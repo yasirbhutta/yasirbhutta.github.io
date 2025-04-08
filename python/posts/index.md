@@ -5,7 +5,7 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 ## Python Basics
 
 1. [Compile Time vs Run Time: Key Differences Explained with Examples (New)](compile-run-time-programming.md)
-2. [Understanding Python's os.getcwd(): Get Current Working Directory with Examples (New)](getch.md)
+2. [Understanding Python's os.getcwd(): Get Current Working Directory with Examples (New)](getch-python-examples.md)
 3. [Install Jupyter Notebook on an Android device (New)](install-jupyter-android.md)
 4. [Tips for Python Performance Optimization (New)](python-performance-tips.md)
 5. [Level Up Your Coding Skills: Learn with ChatGPT Prompts!](prompt-learn-coding.md)

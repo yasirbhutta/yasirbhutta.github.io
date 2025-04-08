@@ -35,3 +35,15 @@ This tells you that the script is being run from the `/Users/yourusername/Docume
 
 **Use Case:**
 Imagine you are writing a script that needs to read or write files. Knowing the current working directory will help ensure you reference the correct paths to those files.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
