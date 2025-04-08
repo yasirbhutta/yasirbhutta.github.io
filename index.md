@@ -2,14 +2,8 @@
 
 ## Coding
 
-- [Getting started with Python](python/)
-- [ChatGPT: Top 12 Coding Prompts for Effective Learning!](https://yasirbhutta.github.io/python/posts/prompt-learn-coding.html)
-- [Python Quizzes – Test Your Knowledge](python/quizzes/)
-- [python Exercises for Basics to Advanced](python/exercises/)
-- [Python Insights: From Basics to Advanced](python/posts/)
-- [Matlab for Beginners](/matlab/)
-- [Web Development](/web-dev/)
-    
+- [Python Tutorial for Beginners](python/)
+ 
 ## Microsoft 365
 
 ### [Microsoft Excel](ms-excel/index.md)
@@ -46,6 +40,8 @@
 - [Computer Networks Lab](computer-networks/index.md)
 - [System and Network Administration](sna/index.md)
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
+- [Matlab for Beginners](/matlab/)
+- [Web Development](/web-dev/)
 
 ## Training
 
