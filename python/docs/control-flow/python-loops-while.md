@@ -1,4 +1,10 @@
-# Python Loops: 5.3.2 while loop
+---
+layout: default
+title: Python While Loop: Beginner Tutorial with Code Examples
+description: Learn Python while loops easily! This beginner-friendly tutorial provides clear explanations and practical code examples to help you master loop control in Python.
+---
+
+# 5.3.2 Python While Loop: Your Beginner-Friendly Step-by-Step Guide
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 

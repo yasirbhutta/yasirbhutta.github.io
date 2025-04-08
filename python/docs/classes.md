@@ -1,10 +1,10 @@
+---
+layout: default
+title: Object-Oriented Programming in Python (OOP): Tutorial
+description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
+---
+
 # Classes and Objects in Python
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [Download PDF](https://yasirbhutta.github.io/python/docs/classes.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/classes.html](https://yasirbhutta.github.io/ms-excel/docs/classes.html)
 
 ## Classes ans Objects
 

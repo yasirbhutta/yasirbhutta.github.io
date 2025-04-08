@@ -1,3 +1,9 @@
+---
+layout: default
+title: Python Control Flow Statements: The else Clauses on Loops
+description: Python else with Loops: Learn for and while else Clause with Examples. Understand how Python's loop else executes upon successful completion.
+---
+
 # Python Control Flow Statements: The else Clauses on Loops
 
 In Python, the `else` clause can be used with loops (`for` and `while`). This may be surprising at first since most people associate `else` with `if` statements. However, in loops, the `else` clause has a unique behavior:

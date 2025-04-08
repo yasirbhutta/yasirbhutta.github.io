@@ -3,15 +3,9 @@
 ## Coding
 
 - [Getting started with Python](python/)
-  - [Python Language Basics](python/docs/basics.md)
-  - [Variables](python/docs/variables.md)
-  - [Data Types](python/docs/data-types.md)
-  - [Operators](python/docs/operators.md)
-  - [Control Flow](python/docs/control-flow.md)
-  - [Defining Functions](python/docs/functions.md)
-  - [Learn More](python/)
 - [ChatGPT: Top 12 Coding Prompts for Effective Learning!](https://yasirbhutta.github.io/python/posts/prompt-learn-coding.html)
 - [Python Quizzes – Test Your Knowledge](python/quizzes/)
+- [python Exercises for Basics to Advanced](python/exercises/)
 - [Python Insights: From Basics to Advanced](python/posts/)
 - [Matlab for Beginners](matlab/index.md)
     

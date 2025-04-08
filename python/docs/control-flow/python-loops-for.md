@@ -1,10 +1,18 @@
-# 5.3.1 Python Loops: for loop
+---
+layout: default
+title: Python For Loop Tutorial: Examples and How to Use
+description: Learn how to use Python for loops with clear examples. This tutorial covers iteration, range(), and common use cases for beginners.
+---
+
+# 5.3.1 Python Loops: Understanding Python For Loops
 
 - A for loop in Python is a programming statement that repeats a block of code a fixed number of times.
 - The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
 - The Python for statement iterates over the members of a sequence in order, executing the block each time. 
 
 [video: What is it and Why do we Use it? \| Python For loop Tutorial](https://youtu.be/2mhrDgBEp10)
+
+## Basic Syntax of the Python For Loop
 
 **Syntax:**
 
@@ -22,7 +30,7 @@ for item in iterable:
 
 Here are the common usages:
 
-#### Example #5.8
+### Example #5.8
 
 1. **Single Argument (`stop`)**:
    ```python
@@ -61,10 +69,12 @@ Here are the common usages:
 list(range(5))  # Output: [0, 1, 2, 3, 4]
 ```
 
+## Using the range() Function in For Loops
+
 - [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
 - [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
 
-#### **Example #5.9:** Print Numbers from 1 to 5 
+### **Example #5.9:** Print Numbers from 1 to 5 
 
 [video](https://youtu.be/2mhrDgBEp10)
 
@@ -75,7 +85,7 @@ for i in range(6):
     print(i)
 ```
 
-#### Example #5.10: Printing "Building the future, one line at a time." 5 Times Using a for Loop
+### Example #5.10: Printing "Building the future, one line at a time." 5 Times Using a for Loop
 
 **Question:** Write a Python program to print the string "Building the future, one line at a time." 5 times, using a for loop.
 
@@ -84,13 +94,13 @@ for i in range(5):
     print("Building the future, one line at a time.")
 ```
 
-#### Example #5.11: Sum of Numbers from 1 to N
+### Example #5.11: Sum of Numbers from 1 to N
 
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
 
-#### Task #5.8: Sum of Numbers in a Range
+## Task #5.8: Sum of Numbers in a Range
 
 **Description:**
 
@@ -122,7 +132,7 @@ The sum of numbers from 1 to 5 is: 15
 - Accumulate the sum of numbers using a variable inside the loop.
 
 
-#### Task #5.9: Display Even Numbers in a Range
+## Task #5.9: Display Even Numbers in a Range
 
 **Description:**
 
@@ -157,7 +167,7 @@ Enter the end of the range: 10
 - Use a `for` loop to iterate through the range.
 - Check if a number is even using the modulus (`%`) operator.
   
-#### Example #5.11: Print Even Numbers from 2 to 10 and sum of even numbers
+## Example #5.11: Print Even Numbers from 2 to 10 and sum of even numbers
 
 **Question:** Write a Python program to display the even numbers from 2 to 10 and sum of even numbers, inclusive, using a for loop.
 

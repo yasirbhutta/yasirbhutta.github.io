@@ -1,11 +1,5 @@
 # 3. Data Types in Python
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [📄 Download PDF](https://yasirbhutta.github.io/python/docs/data-types.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/data-types.html](https://yasirbhutta.github.io/python/docs/data-types.html)
-
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
 
 [Video: Variables in Python](https://www.youtube.com/watch?v=6fXy1ZpQc8c)

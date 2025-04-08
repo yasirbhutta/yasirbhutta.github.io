@@ -1,0 +1,4 @@
+{
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <a href=\"{{ site.url }}{{ page.url }}\"> {{ site.url }}{{ page.url }}</a><</div> div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \">span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+    "markdown-pdf.outputDirectory": "downloads"
+}
