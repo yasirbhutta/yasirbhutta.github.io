@@ -437,7 +437,9 @@ Error message: `IndentationError: unexpected indent`"
 
 ---
 
-### [Mini Projects](#)
+### Mini Projects
+
+- [Python Basics Mini Project: Build a Simple Expense Tracker](basics/practice-and-progress/mini-project-python-basics.md)
 
 ---
 
