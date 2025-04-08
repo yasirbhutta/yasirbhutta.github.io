@@ -1,3 +1,8 @@
+---
+layout: default
+title: Python Quizzes for Beginners & Advanced | Test Your Skills
+description: Sharpen your Python programming skills with our interactive quizzes covering basic to advanced topics. Perfect for students, developers, and anyone learning Python.
+---
 # Python Quizzes – Test Your Knowledge
 
 Welcome to the Python Quizzes section! Here, you can test your Python knowledge with a variety of quizzes designed for beginners and experienced developers alike. Each quiz contains multiple-choice questions (MCQs) to help reinforce your learning.
