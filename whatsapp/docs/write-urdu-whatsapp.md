@@ -17,7 +17,7 @@ Sure! Here's the rewritten version of the steps in a clean and logical order:
 
 ---
 
-### 📱 Steps to Type in Urdu on WhatsApp (Android)
+## 📱 Steps to Type in Urdu on WhatsApp (Android)
 
 1. **Open WhatsApp** and go to any chat.
 2. Tap on the **text box** to bring up the keyboard.
