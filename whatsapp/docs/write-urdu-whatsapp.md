@@ -41,7 +41,7 @@ Now, whenever you're typing in WhatsApp, you can **switch to Urdu** by long-pres
 
 ---
 
-### 💡 Tip:
+## 💡 Tip:
 If you're more comfortable with **Urdu phonetics** (typing Roman Urdu that converts to Urdu script), choose a **phonetic Urdu keyboard** during setup.
 
 ---

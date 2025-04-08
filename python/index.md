@@ -30,12 +30,12 @@ Start learning Python today—no sign-up required!
 
 ## Python Notes
 
-- [Python Language Basics](docs/basics.md) [[pdf]](../assets/downloads/python/basics.pdf)
-- [Variables](docs/variables.md)
-- [Data Types](docs/data-types.md)
-- [Operators](docs/operators.md)
+- [Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
+- [Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
+- [Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
+- [Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
 - [Control Flow](docs/control-flow.md)
-- [Defining Functions](docs/functions.md)
+- [Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
   - [Advanced function concepts](docs/functions-adv-concepts.md)
 - [Data Structures and Sequences](docs/dss.md)
   - [Python Sorting](docs/sorting.md)
