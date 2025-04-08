@@ -7,7 +7,8 @@
 - [Python Quizzes – Test Your Knowledge](python/quizzes/)
 - [python Exercises for Basics to Advanced](python/exercises/)
 - [Python Insights: From Basics to Advanced](python/posts/)
-- [Matlab for Beginners](matlab/index.md)
+- [Matlab for Beginners](/matlab/)
+- [Web Development](/web-dev/)
     
 ## Microsoft 365
 
