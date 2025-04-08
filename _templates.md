@@ -1,5 +1,46 @@
 # template
 
+## Practice & Progress
+
+- [True or False](#)
+- [Fill in the Blanks](#)
+
+---
+
+### Multiple-Choice Questions (MCQs)
+
+- [.... (MCQs)](#)
+
+---
+
+### Find and Fix Mistakes
+
+- [Find and Fix Mistakes](#)
+
+✅ **Online Quizzes for Python ......**
+
+- [Python ..... Quiz](../quizzes/python-for-loop-quiz.md)
+
+---
+
+### Coding Exercises
+
+- [Python Exercises for ...](#)
+
+---
+
+### [Mini Projects](#)
+
+---
+
+### [Review Questions](#)
+
+--- 
+
+## References and Bibliography
+
+- [1] In Python, an iterable object is an object that you can loop over using a "for" loop. It's any object that can return its elements one at a time.
+
 Books: "Code: The Hidden Language of Computer Hardware and Software" by Charles Petzold, "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin, "Weapons of Math Destruction: How Big Data Creates Massive Inequality and Traps Us All" by Cathy O'Neil
 Websites: Khan Academy Computer Programming course, W3Schools, Stack Overflow
 Articles and research papers: IEEE publications, ACM Digital Library, MIT Technology Review
