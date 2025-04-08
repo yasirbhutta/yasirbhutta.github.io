@@ -12,5 +12,5 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 exclude:
-  - assets/downloads
-  - assets/images
+- dev-posts
+- archive
