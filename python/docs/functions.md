@@ -541,3 +541,6 @@ In this example:
 * An argument is the value you put into the box.
 
 Sure! Here's a simple task for beginners to practice writing functions in Python, along with input and output examples.
+
+{% assign topic = "functions" %}
+{% include practice-and-progress.md topic=topic %}
