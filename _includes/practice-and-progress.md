@@ -1,14 +1,14 @@
 ## Practice & Progress
 
 {% assign practice_links = 
-  "True or False:basics/practice-and-progress/true-false-{{ topic }}.md,
-   Fill in the Blanks:basics/practice-and-progress/fill-blanks-{{ topic }}.md,
-   Python Basics MCQs: Test Your Knowledge:basics/practice-and-progress/mcqs-{{ topic }}.md,
-   Find and Fix Mistakes:basics/practice-and-progress/find-fix-mistakes-{{ topic }}.md,
+  "True or False:{{ topic }}/practice-and-progress/true-false-{{ topic }}.md,
+   Fill in the Blanks:{{ topic }}/practice-and-progress/fill-blanks-{{ topic }}.md,
+   Python Basics MCQs: Test Your Knowledge:{{ topic }}/practice-and-progress/mcqs-{{ topic }}.md,
+   Find and Fix Mistakes:{{ topic }}/practice-and-progress/find-fix-mistakes-{{ topic }}.md,
    Python Basics Quiz:../quizzes/{{ topic }}-quiz.md,
-   Python Exercises for Basics:basics/practice-and-progress/coding-exercises-{{ topic }}.md,
-   Python Basics Mini Project: Build a Simple Expense Tracker:basics/practice-and-progress/mini-project-{{ topic }}.md,
-   Review Questions:basics/practice-and-progress/review-questions-{{ topic }}.md" | split: "," %}
+   Python Exercises for Basics:{{ topic }}/practice-and-progress/coding-exercises-{{ topic }}.md,
+   Python Basics Mini Project: Build a Simple Expense Tracker:{{ topic }}/practice-and-progress/mini-project-{{ topic }}.md,
+   Review Questions:{{ topic }}/practice-and-progress/review-questions-{{ topic }}.md" | split: "," %}
 
 {% for link in practice_links %}
   {% assign parts = link | split: ":" %}
