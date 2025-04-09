@@ -3,11 +3,11 @@
 {% assign practice_links = 
   "True or False:practice-and-progress/true-false,
    Fill in the Blanks:practice-and-progress/fill-blanks,
-   Python Basics MCQs : Test Your Knowledge:practice-and-progress/mcqs,
+   Python Basics MCQs - Test Your Knowledge:practice-and-progress/mcqs,
    Find and Fix Mistakes:practice-and-progress/find-fix-mistakes,
-   Python Basics Quiz:../quizzes/{{ topic }}-quiz,
+   Python Basics Quiz:practice-and-progress/find-fix-mistakes,
    Python Exercises for Basics:practice-and-progress/coding-exercises,
-   Python Basics Mini Project: Build a Simple Expense Tracker:practice-and-progress/mini-project,
+   Python Basics Mini Project:practice-and-progress/mini-project,
    Review Questions:practice-and-progress/review-questions" | split: "," %}
 
     
