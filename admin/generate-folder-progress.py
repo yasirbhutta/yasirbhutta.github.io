@@ -4,12 +4,12 @@ course = "python"
 topic = "functions"
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [
-    f"fill-blank-python-{topic}.md",
-    f"find-fix-mistakes-python-{topic}.md",
-    f"mini-projects-python-{topic}.md",
-    f"review-questions-python-{topic}.md",
-    f"true-false-python-{topic}.md",
-    f"mcqs-python-{topic}.md"
+    f"fill-blank-{topic}.md",
+    f"find-fix-mistakes-{topic}.md",
+    f"mini-projects-{topic}.md",
+    f"review-questions-{topic}.md",
+    f"true-false-{topic}.md",
+    f"mcqs-{topic}.md"
 ]
 
 # Define the content for the markdown files
