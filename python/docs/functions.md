@@ -541,6 +541,6 @@ In this example:
 * An argument is the value you put into the box.
 
 S
-{% assign value = "functions" %}
-{% include practice-and-progress.html topic=value %}
+{% assign topic = "functions" %}
+{% include practice-and-progress.md topic=topic %}
 
