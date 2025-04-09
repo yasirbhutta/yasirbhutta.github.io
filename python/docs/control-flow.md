@@ -18,23 +18,17 @@ Flow control statements in Python determine the order in which your code is exec
 
 for more details, see [Understanding Control Structures in Python](../posts/control-structures-python.md)
 
-**Flow control statements in Python**
+## Contents
 
-## [5.2 Conditional Statements (if, else, elif)](control-flow/python-if-elif-else.md)
-
-## 5.3 Looping Statements (for, while)
-- There are two ways to create loops in Python: with the for-loop and the while-loop.
-- Repeat actions using `for` and `while` loops.
-
-### [5.3.1 for loop](control-flow/python-loops-for.md)
-
-### [5.3.2 while loop](control-flow/python-loops-while.md)
-
-## [5.4 Loop Control Statements (break, continue, pass)](control-flow/python-loop-control-statements.md)
-
-## [5.5 The else Clauses on Loops](control-flow/python-else-clauses-on-loops.md)
-
-## [5.6 Match Statement (Python 3.10+)](control-flow/python-match-statement.md)
+- [5.2 Conditional Statements (if, else, elif)](control-flow/python-if-elif-else.md)
+- 5.3 Looping Statements (for, while)
+  - There are two ways to create loops in Python: with the for-loop and the while-loop.
+  - Repeat actions using `for` and `while` loops.
+  - [5.3.1 for loop](control-flow/python-loops-for.md)
+  - [5.3.2 while loop](control-flow/python-loops-while.md)
+- [5.4 Loop Control Statements (break, continue, pass)](control-flow/python-loop-control-statements.md)
+- [5.5 The else Clauses on Loops](control-flow/python-else-clauses-on-loops.md)
+- [5.6 Match Statement (Python 3.10+)](control-flow/python-match-statement.md)
 
 ## Practice & Progress
 
