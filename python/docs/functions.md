@@ -204,13 +204,6 @@ def greet():
 greeting = greet
 ```
 
-## True/False (Mark T for True and F for False)
-
-
-
-
-
-
 **Which of the following will cause a syntax error due to incorrect indentation in Python?**
 
 A)
