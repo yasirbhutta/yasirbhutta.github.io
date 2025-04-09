@@ -542,5 +542,5 @@ In this example:
 
 S
 {% assign topic = "functions" %}
-{% include practice-and-progress.md topic=topic %}
+{% include practice-and-progress.html topic=topic %}
 
