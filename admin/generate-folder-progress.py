@@ -4,7 +4,7 @@ course = "python"
 topic = "functions"
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [
-    f"fill-blank-{topic}.md",
+    f"fill-blanks-{topic}.md",
     f"find-fix-mistakes-{topic}.md",
     f"mini-projects-{topic}.md",
     f"review-questions-{topic}.md",
