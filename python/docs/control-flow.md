@@ -1,13 +1,5 @@
 # 5. Python: Flow Control Statements
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [📄 Download PDF](https://yasirbhutta.github.io/python/docs/control-flow.pdf)  
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/control-flow.html](https://yasirbhutta.github.io/python/docs/control-flow.html)
-
-## 5.1 Flow control statements
-
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
 
 **Python has three types of control structures:**
