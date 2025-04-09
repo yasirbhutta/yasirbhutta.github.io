@@ -16,3 +16,4 @@ plugins:
 exclude:
 - dev-posts
 - archive
+- admin
