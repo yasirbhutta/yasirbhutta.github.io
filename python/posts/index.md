@@ -45,3 +45,14 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## Python Insights: From Basics to Advanced
+
+Welcome to the Python Insights page! Here, you will find insightful and practical articles on various aspects of Python programming, from beginner to advanced levels.
+
+{% assign posts = site.static_files | where_exp: "file", "file.path contains '/python/posts/'" %}
+{% for post in posts %}
+  {% if post.extname == ".md" %}
+  - [{{ post.path | split: '/' | last | replace: '.md', '' | capitalize }}]({{ post.path | relative_url }})
+  {% endif %}
+{% endfor %}
