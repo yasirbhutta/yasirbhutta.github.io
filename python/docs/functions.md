@@ -540,7 +540,7 @@ In this example:
 * A parameter is like an empty box that expects a value.
 * An argument is the value you put into the box.
 
-Sure! Here's a simple task for beginners to practice writing functions in Python, along with input and output examples.
+S
+{% assign value = "functions" %}
+{% include practice-and-progress.md topic=value %}
 
-{% assign topic = "functions" %}
-{% include practice-and-progress.md topic=topic %}
