@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Python Control Flow Statements: The else Clauses on Loops
-description: Python else with Loops: Learn for and while else Clause with Examples. Understand how Python's loop else executes upon successful completion.
+title: Python else Clause in Loops - Master for and while else with Examples
+description: Learn how to use the else clause with Python loops. Explore for and while else with examples, syntax, and practical use cases for better control flow understanding..
 ---
 
 # Python Control Flow Statements: The else Clauses on Loops
@@ -13,6 +13,32 @@ In Python, the `else` clause can be used with loops (`for` and `while`). This ma
 
 The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
 
+## Syntax for Python `else` Clause in Loops
+
+The `else` clause can be used with both `for` and `while` loops in Python. Here's the general syntax:
+
+### **For Loop with else**
+```python
+for item in iterable:
+    # Code block to execute for each item
+    if condition:
+        break  # Exit the loop early
+else:
+    # Code block to execute if the loop completes without a break
+```
+
+**While Loop with else**
+
+```python
+while condition:
+    # Code block to execute while the condition is True
+    if condition_to_break:
+        break  # Exit the loop early
+else:
+    # Code block to execute if the loop completes without a break
+```
+
+
 **How It Works:**
 
 1. **With a `for` loop**:
@@ -23,7 +49,8 @@ The `else` clause in loops (`for` and `while`) in Python is a bit unusual becaus
    - The `else` block runs if the `while` loop condition becomes `False` naturally.
    - If the loop is terminated by a `break`, the `else` block is skipped.
 
-#### Example with a `for` loop
+
+## Example with a `for` loop
 
 Let’s say we’re searching for a specific number in a list.
 

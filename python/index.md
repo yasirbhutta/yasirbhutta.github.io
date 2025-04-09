@@ -30,19 +30,19 @@ Start learning Python today—no sign-up required!
 
 ## Python Notes
 
-- [Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
-- [Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
-- [Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
-- [Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
-- [Control Flow](docs/control-flow.md)
-- [Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
-  - [Advanced function concepts](docs/functions-adv-concepts.md)
-- [Data Structures and Sequences](docs/dss.md)
+- [1. Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
+- [2. Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
+- [3. Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
+- [4. Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
+- [5. Control Flow](docs/control-flow.md)
+- [6. Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
+- [7.Advanced function concepts](docs/functions-adv-concepts.md)
+- [8. Data Structures and Sequences](docs/dss.md)
   - [Python Sorting](docs/sorting.md)
-- [Modules and Libraries](docs/modules-libraries.md)
-- [Working with Files](docs/files.md)
-- [Exception Handling](docs/error.md)
-- Functions and Methods
+- [10. Modules and Libraries](docs/modules-libraries.md)
+- [11. Working with Files](docs/files.md)
+- [12. Exception Handling](docs/error.md)
+- [13. Functions and Methods]
   - [Built-in Functions](docs/built_in_functions.md)
   - [String Methods](docs/str-methods.md)
   - [List Methods](#)

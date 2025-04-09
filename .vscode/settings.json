@@ -1,4 +1,5 @@
 {
-    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <a href=\"{{ site.url }}{{ page.url }}\"> {{ site.url }}{{ page.url }}</a><</div> div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \">span class='pageNumber'></span> / <span class='totalPages'></span></div>",
-    "markdown-pdf.outputDirectory": "downloads"
+    "markdown-pdf.footerTemplate": "<div style='width:100%; text-align:center; font-size:10px;'>Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
+    "markdown-pdf.outputDirectory": "downloads",
+    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <a href=\"https://yasirbhutta.github.io/\">https://yasirbhutta.github.io/</a></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \">%%ISO-DATE%%</div>"
 }

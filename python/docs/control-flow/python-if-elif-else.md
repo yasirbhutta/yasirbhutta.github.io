@@ -1,4 +1,9 @@
-## 5.2 Conditional Statements (if, else, elif)
+---
+layout: default
+title: Python Conditional Statements Tutorial - Master if, elif, and else with Examples
+description: Learn Python conditional statements with this comprehensive tutorial. Master if, elif, and else with examples, syntax, and practical tasks for beginners..
+---
+# 5.2 Conditional Statements (if, else, elif)
 
 - The `if` statement in Python is a conditional statement that allows you to execute a block of code only if a certain condition is met.
 - Make decisions using `if`, `elif`, and `else` statements.

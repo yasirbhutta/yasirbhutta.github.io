@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python While Loop: Beginner Tutorial with Code Examples
+title: Python While Loop - Beginner Tutorial with Code Examples
 description: Learn Python while loops easily! This beginner-friendly tutorial provides clear explanations and practical code examples to help you master loop control in Python.
 ---
 

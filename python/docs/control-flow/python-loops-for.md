@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python For Loop Tutorial: Examples and How to Use
+title: Python For Loop Tutorial - Examples and How to Use
 description: Learn how to use Python for loops with clear examples. This tutorial covers iteration, range(), and common use cases for beginners.
 ---
 
