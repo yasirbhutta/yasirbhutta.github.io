@@ -9,7 +9,8 @@ file_names = [
     f"mini-projects-{topic}.md",
     f"review-questions-{topic}.md",
     f"true-false-{topic}.md",
-    f"mcqs-{topic}.md"
+    f"mcqs-{topic}.md",
+    f"coding-exercises-{topic}.md"
 ]
 
 # Define the content for the markdown files
