@@ -10,7 +10,7 @@ file_names = [
     f"review-questions-{topic}.md",
     f"true-false-{topic}.md",
     f"mcqs-{topic}.md",
-    f"coding-exercises-{topic}.md",
+    f"exercises-{topic}.md",
     f"quiz-{topic}.md"
 ]
 
