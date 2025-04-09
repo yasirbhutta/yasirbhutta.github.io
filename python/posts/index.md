@@ -50,7 +50,7 @@ Welcome to the Python Insights page! Here, you will find insightful and practica
 
 Welcome to the Python Insights page! Here, you will find insightful and practical articles on various aspects of Python programming, from beginner to advanced levels.
 
-{% assign posts = site.pages | where_exp: "page", "page.path contains '/python/posts/'" %}
+{% assign posts = site.static_files | where_exp: "file", "file.path contains '/python/posts/'" %}
 {% for post in posts %}
   {% if post.content contains '<h1>' %}
   - [{{ post.title | default: post.path | split: '/' | last | replace: '.md', '' | capitalize }}]({{ post.url }})
