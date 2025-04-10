@@ -11,6 +11,10 @@ h6 {
   padding-right: 10px;
 }
 
+section {
+  width: 700px;
+}
+
 /* For image-based icons */
 .icon-image img {
   width: 16px;
