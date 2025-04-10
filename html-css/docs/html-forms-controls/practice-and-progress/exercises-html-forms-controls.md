@@ -8,3 +8,6 @@ description: Practice creating HTML forms with these coding exercises. Learn to 
 
 ## Exercise #: Create a User Registration Form with HTML
 - Create an HTML form with `POST` method, including "User Name" (type="text"), "Email" (type="email"), "Password" (type="password"), a submit button, and a reset button to clear the form.
+
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}

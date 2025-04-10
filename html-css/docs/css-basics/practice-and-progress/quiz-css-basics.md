@@ -11,4 +11,5 @@ To learn more about using the `CSS Basics` in CSS, please visit **[Cascading Sty
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8OIh4wkVTHOUsDh7msbtV_unruIZJps_L0nSNmyurpHBv6g/viewform?embedded=true" width="100%" height="3342" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-{% include toc/css-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/css-toc.html show_heading=show_heading %}

@@ -60,3 +60,5 @@ description: Test your understanding of HTML basics with these review questions.
 18. What is the purpose of the `viewport` meta tag?  
     **Answer:** It ensures the web page is responsive and adapts to different screen sizes.
 
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}

@@ -27,4 +27,6 @@ description: --.
 
 4. What is the difference between inline, internal, and external CSS? Give one example of each.
 
-{% include toc/css-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/css-toc.html show_heading=show_heading %}
+

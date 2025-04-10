@@ -328,3 +328,6 @@ d) `<header>`
 **Answer:** c) `<article>`  
 
 ---
+
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}

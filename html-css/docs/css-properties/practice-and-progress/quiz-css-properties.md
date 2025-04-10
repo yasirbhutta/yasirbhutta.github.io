@@ -12,3 +12,6 @@ Test your knowledge of CSS styles and properties with this interactive quiz! Fro
 - To learn more about using the `Background Styling` in CSS, please visit **[CSS Background Styling](/html-css/docs/css-properties.md)**
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfU9JhQkehAz2A1tZteLTt-0WnaCOZY9KlINntq-YxfNf2zww/viewform?embedded=true" width="100%" height="3311" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+{% assign show_heading = true %}
+{% include toc/css-toc.html show_heading=show_heading %}

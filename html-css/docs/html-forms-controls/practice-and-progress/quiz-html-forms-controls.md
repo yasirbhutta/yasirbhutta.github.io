@@ -10,6 +10,9 @@ To learn more about using the `Forms and Control` in HTML and basic structures f
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-_KmrJT0GUJJ-vy9SJSD8jI-gBJ1OVT85NkOLidJeiQeTMA/viewform?embedded=true" width="100%" height="10806" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <!-- display square -->

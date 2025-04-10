@@ -31,4 +31,6 @@ description: --.
 
 ## Course Contents: HyperText Markup Language (HTML)
 
-{% include toc/html-toc.html %}
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}
+

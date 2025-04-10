@@ -11,10 +11,18 @@ h6 {
   padding-right: 10px;
 }
 
-section {
-  width: 700px;
+.wrapper {
+  width: 1100px;
 }
 
+section {
+  width: 770px;
+}
+
+header {
+  width: 330px;
+ }
+ 
 /* For image-based icons */
 .icon-image img {
   width: 16px;

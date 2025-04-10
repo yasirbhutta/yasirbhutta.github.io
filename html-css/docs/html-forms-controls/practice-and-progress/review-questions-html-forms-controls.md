@@ -69,3 +69,6 @@ description: --.
 
 20. How do you create a reset button in a form?  
     **Answer:** Use the `<input type="reset">` tag.
+
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}
