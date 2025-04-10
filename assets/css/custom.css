@@ -19,6 +19,13 @@ section {
   width : 70%
 }
 
+/* Styles for phones (screen width 768px or smaller) */
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+}
+
 header {
   width: 30%
  }
