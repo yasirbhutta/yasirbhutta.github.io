@@ -1,8 +1,10 @@
-# User Input in HTML: Forms and Controls
+---
+layout: default
+title: HTML Forms and Controls: Examples and User Input Best Practices.
+description: Learn how to create and manage HTML forms with these examples and best practices. Explore input types, form attributes, and validation techniques to enhance user input handling in web development..
+---
 
-- [Download PDF](https://yasirbhutta.github.io/html-css/docs/html-forms-controls.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/html-css/docs/html-forms-controls.html](https://yasirbhutta.github.io/html-css/docs/html-forms-controls.html)
+# User Input in HTML: Forms and Controls
 
 ## Example #1:
 

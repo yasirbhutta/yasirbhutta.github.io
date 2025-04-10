@@ -1,3 +1,9 @@
+---
+layout: default
+title: --.
+description: --.
+---
+
 # HTML and CSS
 
 
@@ -19,7 +25,6 @@
 
 - [Intro. to Emmet](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
-### CSS: Cascading Style Sheets
 
 {% include toc/css-toc.html %}
 

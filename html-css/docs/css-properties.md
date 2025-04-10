@@ -1,3 +1,9 @@
+---
+layout: default
+title: CSS Properties - Comprehensive Guide with Syntax and Examples.
+description: Master CSS properties with this comprehensive guide. Learn how to use background, padding, and other essential properties with syntax and practical examples to enhance your web design skills..
+---
+
 # CSS Properties
 
 # **CSS `background` Property – Syntax & Examples**  

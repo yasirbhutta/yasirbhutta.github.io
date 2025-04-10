@@ -28,3 +28,7 @@ description: --.
 
 ## **Exercise #5: Build a Table for Data Representation**  
 - Create a table using `<table>`, `<tr>`, `<th>`, and `<td>` tags to display structured data.
+
+## Course Contents: HyperText Markup Language (HTML)
+
+{% include toc/html-toc.html %}

@@ -1,8 +1,40 @@
+---
+layout: default
+title: HTML Basics: Comprehensive Guide to Elements, Tags, and Structure.
+description: Master the fundamentals of HTML with this comprehensive guide. Learn about elements, tags, attributes, and structure to build well-structured web pages for beginners and aspiring web developers.
+---
+
 # Introduction to HTML
 
-- [Download PDF](https://yasirbhutta.github.io/html-css/docs/html-basics.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/html-css/docs/html-basics.html](https://yasirbhutta.github.io/html-css/docs/html-basics.html)
+## HTML Basics: Table of Contents
+
+1. **What is HTML?**
+   - Introduction and purpose of HTML
+   - Basic structure of an HTML document
+
+2. **HTML Elements and Tags**
+   - `<html>`, `<head>`, `<body>`
+   - Paragraphs (`<p>`), headings (`<h1>` to `<h6>`)
+   - Line breaks (`<br>`), horizontal lines (`<hr>`)
+
+3. **Text Formatting Tags**
+   - Bold (`<b>`), italic (`<i>`), underline (`<u>`)
+   - Superscript (`<sup>`) and subscript (`<sub>`)
+
+4. **Links and Anchors**
+   - `<a href="URL">Link text</a>`
+   - Opening links in a new tab
+
+5. **Images**
+   - `<img src="image.jpg" alt="description">`
+   - Setting width, height, and alignment
+
+6. **Lists**
+   - Ordered lists (`<ol>`), unordered lists (`<ul>`), and list items (`<li>`)
+
+7. **Tables**
+   - `<table>`, `<tr>`, `<td>`, `<th>`
+   - Table borders, rowspan, colspan
 
 ## Example #1: HTML Comments
 

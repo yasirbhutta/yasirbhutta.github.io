@@ -1,3 +1,9 @@
+---
+layout: default
+title: CSS Basics - A Complete Guide to Styling Web Pages with Examples.
+description: Learn the fundamentals of CSS with this comprehensive guide. Explore inline, document-level, and external CSS with practical examples to style web pages effectively for beginners and aspiring web developers..
+---
+
 # Cascading Style Sheets (CSS): Basics
 
 ### Inline styles in CSS

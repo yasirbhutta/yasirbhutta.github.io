@@ -1,3 +1,9 @@
+---
+layout: default
+title: CSS Selectors - Comprehensive Guide with Examples and Best Practices.
+description: Master CSS selectors with this comprehensive guide. Learn how to use class, ID, attribute, pseudo-class, and pseudo-element selectors with practical examples to style web pages effectively.
+---
+
 # CSS Selectors
 
 ## Class Selector
