@@ -11,16 +11,16 @@ h6 {
   padding-right: 10px;
 }
 
-/* .wrapper {
+.wrapper {
   width: 1100px;
-} */
+} 
 
 section {
-  width: 688px;
+  width : 70%
 }
 
 header {
-  width: 172px;
+  width: 30%
  }
  
 /* For image-based icons */
