@@ -11,7 +11,6 @@ Flow control statements in Python determine the order in which your code is exec
 for more details, see [Understanding Control Structures in Python](../posts/control-structures-python.md)
 
 ## Contents
-
 - [5.2 Conditional Statements (if, else, elif)](control-flow/python-if-elif-else.md) [[pdf]](/downloads/python/control-flow/python-if-elif-else.pdf)
 - 5.3 Looping Statements (for, while)
   - There are two ways to create loops in Python: with the for-loop and the while-loop.
