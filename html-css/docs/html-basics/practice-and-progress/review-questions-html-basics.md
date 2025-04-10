@@ -60,32 +60,3 @@ description: Test your understanding of HTML basics with these review questions.
 18. What is the purpose of the `viewport` meta tag?  
     **Answer:** It ensures the web page is responsive and adapts to different screen sizes.
 
-19. Write the HTML code to create simple web pages that demonstrate basic structure and elements. Your code should include:
-    - A title for the web page
-    - A main heading (<h1>)
-    - A paragraph (<p>)
-    - A hyperlink (<a>)
-    - An image (<img>)
-    **Answer:**
-
-    **🧾 Sample HTML Code for Basic Web Page:**
-
-```html
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My First Web Page</title>
-</head>
-<body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a simple web page created using HTML. Here you can learn the basics of web development.</p>
-  
-  <a href="https://www.example.com" target="_blank">Visit Example.com</a>
-  
-  <br><br>
-  
-  <img src="https://via.placeholder.com/300" alt="Sample Image" width="300">
-</body>
-</html>
-```
