@@ -1,7 +1,5 @@
 # Cascading Style Sheets (CSS): Basics
 
-
-
 ### Inline styles in CSS
 
 Inline styles in CSS are applied directly to an HTML element using the `style` attribute. Here are some basic examples for beginners:
@@ -312,3 +310,5 @@ When you open the `task.html` file in a browser, you should see a well-styled pa
 </script>
 
 
+{% assign topic = "css-basics" %}
+{% include practice-and-progress.html topic=topic %}

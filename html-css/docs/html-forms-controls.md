@@ -415,3 +415,5 @@ Create an online registration form with the following features:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+{% assign topic = "html-forms-controls" %}
+{% include practice-and-progress.html topic=topic %}

@@ -214,3 +214,6 @@ button:hover {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+{% assign topic = "css-selectors" %}
+{% include practice-and-progress.html topic=topic %}

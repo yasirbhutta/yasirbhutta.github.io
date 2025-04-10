@@ -1322,3 +1322,6 @@ Here’s an example of how to use the `viewport` meta tag:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+{% assign topic = "html-basics" %}
+{% include practice-and-progress.html topic=topic %}

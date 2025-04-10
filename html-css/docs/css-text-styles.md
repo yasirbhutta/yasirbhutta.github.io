@@ -1187,6 +1187,9 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+{% assign topic = "css-text-styles" %}
+{% include practice-and-progress.html topic=topic %}
 ‌
 ‌
 
