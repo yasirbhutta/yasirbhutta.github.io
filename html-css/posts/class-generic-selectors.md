@@ -4,7 +4,7 @@ title: Class Selector vs Generic Class Selector in CSS: Key Differences and Exam
 description: Learn the difference between class selectors and generic class selectors in CSS. Explore practical examples to understand how to style specific elements and multiple elements effectively..
 ---
 
-# Difference Between a Class Selector and a Generic Class Selector in CSS:
+# Difference Between a Class Selector and a Generic Class Selector in CSS
 
 1. **Class Selector**:  
    - Targets elements with a specific class name.  

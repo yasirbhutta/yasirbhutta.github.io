@@ -14,7 +14,7 @@ description: --.
 
 3. Explain the difference between a class selector and a generic class selector in CSS. Provide one example of each.
    **Answer:**
-   
+   [Difference Between a Class Selector and a Generic Class Selector in CSS](/html-css/posts/class-generic-selectors.md)
 4. What is the difference between an ID selector and a class selector?  
    **Answer:**  
    - An ID selector (`#id`) is unique and applies to a single element.  
