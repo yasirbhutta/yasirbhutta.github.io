@@ -28,11 +28,11 @@
 
 ### HTML: HyperText Markup Language
 
-{% include toc/html-toc.html %}
+{% include toc/html-toc.html show_heading=true %}
 
 ### CSS: Cascading Style Sheets
 
-{% include toc/css-toc.html %}
+{% include toc/css-toc.html show_heading=true %}
 
 ### [Web Development Articles](../html-css/posts/)
 
