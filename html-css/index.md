@@ -9,16 +9,17 @@
 ## [Assignments](assignments/index.md)
 ## [Quizzes](quizzes/index.md)
 
-## HTML
+## Contents
 
-- [HTML Basics](docs/html-basics.md) [[slides]](https://docs.google.com/presentation/d/1lkOvcwqJAuqOxorM3En3wtydL5hgcK6A399ZqR-Q_bs/export?format=pdf)
-- [User Input in HTML: Forms and Controls](docs/html-forms-controls.md) [[slides]](https://docs.google.com/presentation/d/1U3uqqBbtV7-9KsFIT_b4KB4l5dMlsrR4yxUFbJHtl_Y/export?format=pdf)
+### HTML: HyperText Markup Language
+
+{% include toc/html-toc.html %}
 
 ## Emmet for HTML
 
 - [Intro. to Emmet](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
-## Cascading Style Sheets (CSS)
+### CSS: Cascading Style Sheets
 
 {% include toc/css-toc.html %}
 
