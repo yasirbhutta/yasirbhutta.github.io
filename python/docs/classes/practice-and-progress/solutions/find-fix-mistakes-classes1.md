@@ -1,5 +1,5 @@
 ---
-layout: fix-mistakes-solution
+layout: default
 title: Python Classes - Find and Fix Mistakes with Code Examples.
 description: Learn how to identify and fix common mistakes in Python classes with this step-by-step guide. Perfect for beginners to understand constructors, instance variables, and methods in object-oriented programming.
 
