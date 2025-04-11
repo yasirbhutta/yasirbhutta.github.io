@@ -1,5 +1,5 @@
 ---
-layout: fix-mistakes-solution
+layout: default
 title: Test Page
 description: This is a test page for the fix-mistakes-solution layout.
 difficulty:
