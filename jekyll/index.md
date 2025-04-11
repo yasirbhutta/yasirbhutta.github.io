@@ -10,3 +10,4 @@ Welcome to this beginner’s guide to Jekyll! Whether you’re a newcomer to web
 
 - [Understanding URL Handling in Jekyll: Filters, Configs, and Best Practices](docs/url.md)
 - [GitHub Pages Sitemap Not Working: Troubleshooting Guide for Google Search Console](docs/github-pages-sitemap.md)
+- [What is a Nested Layout?](docs/nested-layouts.md)
