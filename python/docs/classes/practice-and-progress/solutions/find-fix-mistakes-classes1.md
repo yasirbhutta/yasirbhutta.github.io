@@ -43,3 +43,4 @@ corrected_code: |
 related_challenges:
   - name: Find and Fix Mistakes in Python Classes
     url: ../find-fix-mistakes-classes.md
+---
