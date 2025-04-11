@@ -25,8 +25,8 @@ buggy_code: |
 mistakes: 
   - "Missing `self` in the constructor parameter list. The first parameter of any instance method must be `self`."
   - "Wrong assignment in `__init__`: it should use `self.name = name` instead of `name = name`."
-  - Missing `self` in `greet` method parameters.
-  - Using `self.name` without initializing `self.name` in the constructor.
+  - "Missing `self` in `greet` method parameters."
+  - "Using `self.name` without initializing `self.name` in the constructor."
 
 corrected_code: |
   class Person:
