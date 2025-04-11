@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<p><em>{{ page.description }}</em></p>
+
+<p><strong>Difficulty Levels:</strong> 
+  {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
+  {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
+  {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
+</p>
+
+<p><strong>Topic:</strong> {{ page.topic }}</p>
+
+<hr />
+
+<h2><strong>Code with Mistakes</strong></h2>
+<p>Below is a Python class with mistakes. Your task is to identify and fix the errors to make the code functional.</p>
+
+<pre><code>{{ page.buggy_code | escape }}</code></pre>
+
+<hr />
+
+<h2><strong>Mistakes Explained</strong></h2>
+<ol>
+  {% for mistake in page.mistakes %}
+    <li>{{ mistake }}</li>
+  {% endfor %}
+</ol>
+
+<hr />
+
+<h2><strong>Corrected Code</strong></h2>
+<pre><code>{{ page.corrected_code | escape }}</code></pre>
+
+<hr />
+
+<h2>Related Challenges</h2>
+<ul>
+  {% for challenge in page.related_challenges %}
+    <li><a href="{{ challenge.url }}">{{ challenge.name }}</a></li>
+  {% endfor %}
+</ul>

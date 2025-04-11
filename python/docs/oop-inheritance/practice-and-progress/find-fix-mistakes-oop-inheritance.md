@@ -62,4 +62,3 @@ dog1.speak()
 
 ---
 
-Would you like a challenge version next? Maybe with class variables, property decorators, or abstract classes?
