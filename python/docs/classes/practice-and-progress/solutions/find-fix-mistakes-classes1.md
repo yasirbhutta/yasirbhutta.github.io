@@ -54,3 +54,5 @@ person1.greet()
 ---
 
 ## Related Challenges
+
+- [Find and Fix Mistakes in Python Classes](../find-fix-mistakes-classes.md)
