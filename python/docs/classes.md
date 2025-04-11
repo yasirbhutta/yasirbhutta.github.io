@@ -52,7 +52,11 @@ student1.info()
 student2.info()
 ```
 
-[Video: Python Classes - What is Class Constructor](https://youtube.com/shorts/eeat2bsZFL0)
+**Python Tutorial: Python Classes - What is Class Constructor**
+
+<div class="yt-short">
+<iframe src="https://www.youtube.com/embed/eeat2bsZFL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Key Points:**
 
@@ -139,10 +143,15 @@ The following table lists the difference between class attribute and instance at
 | Accessed using class name as well as using object with dot notation, e.g. `classname.class_attribute` or `object.class_attribute`. | Accessed using object dot notation e.g. `object.instance_attribute`. |
 | Changing value by using `classname.class_attribute = value` will be reflected to all the objects. | Changing value of instance attribute will not be reflected to other objects. |
 
-**Python Class Example:** [Video: How to Create a Class and Instance Attributes in Python](https://youtu.be/tNARiqDveP4)
+**Python Tutorial in Urdu: How to Create Classes and Instance Attributes**
 
-Anoter Example Example:
+<div class="yt-video">
+<iframe src="https://www.youtube.com/embed/tNARiqDveP4?si=8l9lXAgnyWARiqWl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
+**Anoter Example Example:**
+
+```python
 class Car:
     def __init__(self, make, model, year):
         self.make = make
@@ -154,78 +163,7 @@ class Car:
 
 my_car = Car("Toyota", "Corolla", 2020)
 my_car.describe()  # Output: 2020 Toyota Corolla
-
-
-1. Inheritance
-
-Inheritance allows you to create a new class based on an existing class. The new class (child class) inherits attributes and methods from the parent class.
-
-The child class can also add its own attributes and methods or override methods from the parent class.
-
-
-Example:
-
-class Animal:
-    def __init__(self, name):
-        self.name = name
-
-    def speak(self):
-        print(f"{self.name} makes a sound")
-
-class Dog(Animal):
-    def speak(self):
-        print(f"{self.name} barks")
-
-my_dog = Dog("Buddy")
-my_dog.speak()  # Output: Buddy barks
-
-4. Polymorphism
-
-Polymorphism allows different classes to have methods with the same name but different behavior.
-
-In the example above, both Animal and Dog have a speak() method, but they behave differently based on the class.
-
-
-5. Encapsulation
-
-Encapsulation is the concept of hiding the internal details of a class and providing methods to interact with the data. This is often achieved using private and public attributes.
-
-Attributes that start with an underscore (e.g., _age) are conventionally considered private.
-
-
-Example:
-
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self._age = age  # _age is considered private
-
-    def get_age(self):
-        return self._age
-
-    def set_age(self, age):
-        if age > 0:
-            self._age = age
-
-person = Person("Alice", 30)
-person.set_age(35)
-print(person.get_age())  # Output: 35
-
-6. Abstraction
-
-Abstraction involves hiding the complex implementation details and exposing only the necessary functionality. This can be achieved using abstract classes (via the abc module), but we won’t go too deep into that for now.
-
-
-Would you like to practice creating classes, inheritance, and encapsulation, or move on to something else, like exceptions and error handling?
-
-
-
-## Key Terms
-
-## True/False (Mark T for True and F for False)
-
-
-
+```
 
 {% assign topic = "classes" %}
 {% include practice-and-progress.html topic=topic %}
