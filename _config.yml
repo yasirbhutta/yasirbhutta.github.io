@@ -9,6 +9,17 @@ google_analytics: G-BW2SVN86HD
 remote_theme: pages-themes/minimal@v0.2.0
 #remote_theme: mmistakes/minimal-mistakes
 #remote_theme: just-the-docs/just-the-docs
+defaults:
+  - scope:
+      path: "" # Applies to all files
+      type: "pages" # Applies to all pages
+    values:
+      layout: default
+  - scope:
+      path: "_posts" # Applies to all posts
+      type: "posts"
+    values:
+      layout: post
 plugins:
 - jekyll-remote-theme
 - jekyll-seo-tag
