@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Object-Oriented Programming in Python (OOP): Tutorial
+title: Object-Oriented Programming in Python (OOP) - Tutorial
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
 ---
 
