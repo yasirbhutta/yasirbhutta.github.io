@@ -9,41 +9,49 @@ difficulty:
 topic: Functions
 questions:
     - In Python, you create a class using the ________ keyword.  
-    - A class is a ________ for creating objects (instances).  
-    - Objects are ________ of a class that have attributes (data) and methods (functions).  
-    - The `__init__` method is a special method that is automatically called when a new ________ of a class is created.
-    - Instance attributes are ________ to each instance (object) of a class.  
-    - The `self` parameter is used to access the ________ and ________ of an object within its methods.
-    - Class attributes are shared across all ________ of the class, while instance attributes are specific to each ________.
-    - To access an attribute of an object, use the ________ notation (e.g., `object.attribute`).  
-    - Changing the value of a ________ attribute will reflect across all objects of the class.
-    - Methods are ________ defined within a class that operate on the object's data.  
+    - The `__init__` method is called automatically when a new object is created.
+    - Instance attributes are shared across all objects of a class.
+    - The `self` parameter is used to refer to the current instance of the class
+    - Class attributes are defined inside the constructor using the `self` parameter.
+    - Methods in a class operate on the object's data.
 examples:
   - code: |
         class Car:
-            def describe(self):
-                print(f"{self.year} {self.make} {self.model}")
-    prompt: The `describe` method is a ________ of the `Car` class.
-    answer: method
+            def __init__(self, make, model):
+                self.make = make
+                self.model = model
+        my_car = Car("Toyota", "Corolla")
+    prompt: The `__init__` method is used to initialize the attributes of the `Car` class.
+    answer: True
   - code: |
         class Student:
-            def set_grade(self, new_grade):
-                self.grade = new_grade
-    prompt: The `set_grade` method is used to ________ the grade of a student.
-    answer: update
+            school = "High School"
+        student1 = Student()
+        student2 = Student()
+        student1.school = "Middle School"
+    prompt: Changing the `school` attribute of `student1` will also change it for `student2`.
+    answer: False
+  - code: |
+        class Dog:
+            def bark(self):
+                print("Woof!")
+        my_dog = Dog()
+        my_dog.bark()
+    prompt: The `bark` method is an instance method of the `Dog` class.
+    answer: True
+  - code: |
+        class Circle:
+            pi = 3.14
+        print(Circle.pi)
+    prompt: The `pi` attribute is a class attribute of the `Circle` class.
+    answer: True
 answers:
-    - class
-    - blueprint  
-    - instances
-    - object
-    - unique
-    - attributes
-    - methods
-    - objects
-    - object
-    - dot
-    - class
-    - functions  
+    - True
+    - False
+    - True
+    - False
+    - True
+
 resources:
     - name: Learn Classes and Objects
       url: https://yasirbhutta.github.io/python/docs/classes.html
