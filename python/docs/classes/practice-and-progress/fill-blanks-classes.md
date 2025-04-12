@@ -19,18 +19,18 @@ questions:
     - Changing the value of a ________ attribute will reflect across all objects of the class.
     - Methods are ________ defined within a class that operate on the object's data.  
 examples:
-    - code: |
-          class Car:
-              def describe(self):
-                  print(f"{self.year} {self.make} {self.model}")
-      prompt: The `describe` method is a ________ of the `Car` class.
-      answer: method
-    - code: |
-          class Student:
-              def set_grade(self, new_grade):
-                  self.grade = new_grade
-      prompt: The `set_grade` method is used to ________ the grade of a student.
-      answer: update
+  - code: |
+        class Car:
+            def describe(self):
+                print(f"{self.year} {self.make} {self.model}")
+    prompt: The `describe` method is a ________ of the `Car` class.
+    answer: method
+  - code: |
+        class Student:
+            def set_grade(self, new_grade):
+                self.grade = new_grade
+    prompt: The `set_grade` method is used to ________ the grade of a student.
+    answer: update
 answers:
     - class
     - blueprint  
@@ -46,7 +46,5 @@ answers:
     - functions  
 resources:
     - name: Learn Classes and Objects
-      url: //python/docs/classes.md
-    - name: Real Python Function Basics
-      url: https://realpython.com/defining-your-own-python-function/
+      url: https://yasirbhutta.github.io/python/docs/classes.html
 ---

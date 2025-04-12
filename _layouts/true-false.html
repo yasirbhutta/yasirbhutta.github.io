@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<p><em>{{ page.description }}</em></p>
+
+<p><strong>Difficulty Levels:</strong>
+  {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
+  {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
+  {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
+</p>
+
+<p><strong>Topic:</strong> {{ page.topic }}</p>
+
+<hr />
+
+<h2>🔍 True or False</h2>
+<ol>
+  {% for question in page.questions %}
+    <li>{{ question }}</li>
+  {% endfor %}
+</ol>
+
+<hr />
+
+<h2>🧠 Example-Based True or False</h2>
+<ol>
+  {% for example in page.examples %}
+    <li>
+      <pre><code>{{ example.code | escape }}</code></pre>
+      <p>{{ example.prompt }}</p>
+      <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p>
+    </li>
+  {% endfor %}
+</ol>
+
+<hr />
+
+<h2>✅ Answer Key</h2>
+<ol>
+  {% for answer in page.answers %}
+    <li>{{ answer }}</li>
+  {% endfor %}
+</ol>
+
+<hr />
+
+<h2>📚 Related Resources</h2>
+<ul>
+  {% for resource in page.resources %}
+    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+  {% endfor %}
+</ul>
