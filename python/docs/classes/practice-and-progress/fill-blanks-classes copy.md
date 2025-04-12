@@ -71,8 +71,6 @@ Welcome to the Python Classes Fill-in-the-Blanks Practice! This page helps you l
 
 ### Answers for Fill in the Blanks
 
-
-
 ### Answers for Example-Based Fill in the Blanks
 
 1. **Answer:** `attributes`  

@@ -38,9 +38,18 @@ layout: default
 <hr />
 
 <h2>✅ Answer Key</h2>
+
+<h3>✏️ Answers for Fill in the Blanks</h3>
 <ol>
   {% for answer in page.answers %}
     <li>{{ answer }}</li>
+  {% endfor %}
+</ol>
+
+<h3>💡 Answers for Example-Based Fill in the Blanks</h3>
+<ol>
+  {% for example in page.examples %}
+    <li>{{ example.answer }}</li>
   {% endfor %}
 </ol>
 
