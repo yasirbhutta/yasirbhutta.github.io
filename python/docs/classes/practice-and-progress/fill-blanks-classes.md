@@ -32,21 +32,21 @@ examples:
     prompt: The `set_grade` method is used to ________ the grade of a student.
     answer: update
 answers:
-  - class
-  - blueprint  
-  - instances
-  - object
-  - unique
-  - attributes
-  - methods
-  - objects
-  - object
-  - dot
-  - class
-  - functions  
+    - class
+    - blueprint  
+    - instances
+    - object
+    - unique
+    - attributes
+    - methods
+    - objects
+    - object
+    - dot
+    - class
+    - functions  
 resources:
-  - name: Learn Classes and Objects
+    - name: Learn Classes and Objects
     url: //python/docs/classes.md
-  - name: Real Python Function Basics
+    - name: Real Python Function Basics
     url: https://realpython.com/defining-your-own-python-function/
 ---
