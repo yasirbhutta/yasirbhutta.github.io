@@ -30,17 +30,25 @@ layout: default
     <li>
       <pre><code>{{ example.code | escape }}</code></pre>
       <p>{{ example.prompt }}</p>
-      <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p>
+      <!-- <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p> -->
     </li>
   {% endfor %}
 </ol>
 
 <hr />
 
-<h2>✅ Answer Key</h2>
+<h2>🗝️ Answer Key</h2>
+<h3>✅ Answers for True or False</h3>
 <ol>
   {% for answer in page.answers %}
     <li>{{ answer }}</li>
+  {% endfor %}
+</ol>
+
+<h3>🔍 Answers for Example-Based True or False</h3>
+<ol>
+  {% for example in page.examples %}
+    <li>{{ example.answer }}</li>
   {% endfor %}
 </ol>
 
