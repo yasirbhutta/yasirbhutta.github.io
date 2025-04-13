@@ -40,7 +40,7 @@ Start learning Python today—no sign-up required!
 6/ [Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
 7. [Data Structures and Sequences](docs/dss.md)
 8. [Python Sorting](docs/sorting.md)
-12. [Functions and Methods]
+12. Functions and Methods
   - [Built-in Functions](docs/built_in_functions.md)
   - [String Methods](docs/str-methods.md)
   - [List Methods](#)
