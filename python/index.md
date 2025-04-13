@@ -40,9 +40,6 @@ Start learning Python today—no sign-up required!
 6/ [Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
 7. [Data Structures and Sequences](docs/dss.md)
 8. [Python Sorting](docs/sorting.md)
-9. [Modules and Libraries](docs/modules-libraries.md)
-10. [Working with Files](docs/files.md)
-11. [12. Exception Handling](docs/error.md)
 12. [Functions and Methods]
   - [Built-in Functions](docs/built_in_functions.md)
   - [String Methods](docs/str-methods.md)
@@ -50,14 +47,17 @@ Start learning Python today—no sign-up required!
   - [Dictionary Methods](#)
   - [Tuple Methods](#)
   - [Set Methods](#)
-  - [File Methods](#)
+9. [Modules and Libraries](docs/modules-libraries.md)
+10. [Working with Files](docs/files.md)
+    - [File Methods](#)
+11. [Exception Handling](docs/error.md)
+12. [Comprehensions (List and Dictionary)](docs/comprehensions.md)
 13. [Python for Kids](docs/python-kids.md)
 14. [Python in Excel](docs/python-excel.md)
 
 ## 🧠 Python Advanced
 
 15. [Advanced function concepts](docs/functions-adv-concepts.md)
-16. [Comprehensions (List and Dictionary)](docs/comprehensions.md)
 17. [Generator Functions](posts/generators-in-python.md)
 18. [Decorators](docs/decorators.md)
 19. Object-Oriented Programming in Python (OOP)
