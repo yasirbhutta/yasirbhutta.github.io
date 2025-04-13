@@ -41,10 +41,14 @@ description: Learn Python programming from scratch with our free, beginner-frien
    - Methods with parameters: `def set_age(self, age):`.  
    - Default arguments (e.g., `def __init__(self, name="Anonymous")`).  
 
-9. **Practical OOP Example** *(Apply all concepts!)*  
-   - Example: A `Dog` class with `name`, `breed`, `bark()`.  
-   - Or: A `BankAccount` class with `balance`, `deposit()`, `withdraw()`.  
+9. **Practical OOP Examples** *(Apply all concepts!)*  
+   - Example 1: A `Dog` class with `name`, `breed`, `bark()`.  
+   - Example 2: A `Car` class with `make`, `model`, `year`, and `describe()`.  
+   - Example 3: A `Student` class with `name`, `age`, `grade` simple  
+   - Example 4: A `BankAccount` class with `balance`, `deposit()`, and `withdraw()`.  
+   - Example 5: A `Student` class with `name`, `age`, `grade`, and methods like `introduce()`.
 
+their name, age, and grade.
 ---
 
 ## **1. Introduction to Classes & Objects**  
@@ -186,7 +190,7 @@ dog2 = Dog("Buddy")   # name = "Buddy"
 
 ---  
 
-## **9. Practical OOP Example**  
+## **9. Practical OOP Examples**  
 ### **Example 1: `Dog` Class**  
 ```python  
 class Dog:  
