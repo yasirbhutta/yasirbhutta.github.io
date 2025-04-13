@@ -10,7 +10,7 @@ Welcome to our Python Tutorial for Beginners – your ultimate starting point fo
 
 - ✔ Step-by-step lessons for beginners
 - ✔ Downloadable PDF files for offline learning
-- ✔ 100% open-source and community-supported
+- ✔ 100% open-source and free.
 - ✔ Code examples, exercises, and projects
 
 Start learning Python today—no sign-up required!
