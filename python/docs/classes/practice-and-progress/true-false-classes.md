@@ -9,7 +9,7 @@ difficulty:
   advanced: false
 topic: Classes and Objects
 questions:
-    - In Python, you create a class using the ________ keyword.  
+    - In Python, you create a class using the class keyword.  
     - The `__init__` method is called automatically when a new object is created.
     - Instance attributes are shared across all objects of a class.
     - The `self` parameter is used to refer to the current instance of the class
@@ -48,9 +48,9 @@ examples:
     answer: True
 answers:
     - True
-    - False
     - True
     - False
+    - True
     - True
 
 resources:
