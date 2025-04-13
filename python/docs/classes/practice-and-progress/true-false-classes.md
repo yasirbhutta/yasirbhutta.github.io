@@ -47,11 +47,13 @@ examples:
     prompt: The `pi` attribute is a class attribute of the `Circle` class.
     answer: True
 answers:
-    - True
-    - True
-    - False
-    - True
-    - True
+    - ✅ True.
+    - ✅ True.
+    - ❌ False. Instance attributes are unique to each object. It’s class attributes that are shared.
+    - ✅ True.
+    - ❌ False. Class attributes are defined outside the constructor, directly in the class body.
+    - ✅ True.
+
 
 resources:
     - name: Learn Classes and Objects
