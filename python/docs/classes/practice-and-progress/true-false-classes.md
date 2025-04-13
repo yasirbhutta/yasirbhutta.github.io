@@ -23,7 +23,7 @@ examples:
                 self.model = model
         my_car = Car("Toyota", "Corolla")
     prompt: The `__init__` method is used to initialize the attributes of the `Car` class.
-    answer: True
+    answer: ✅ True.
   - code: |
         class Student:
             school = "High School"
@@ -31,7 +31,7 @@ examples:
         student2 = Student()
         student1.school = "Middle School"
     prompt: Changing the `school` attribute of `student1` will also change it for `student2`.
-    answer: False
+    answer: ❌ False. Because assigning student1.school creates an instance variable that doesn't affect the class variable or other instances.
   - code: |
         class Dog:
             def bark(self):
@@ -39,13 +39,13 @@ examples:
         my_dog = Dog()
         my_dog.bark()
     prompt: The `bark` method is an instance method of the `Dog` class.
-    answer: True
+    answer: ✅ True.
   - code: |
         class Circle:
             pi = 3.14
         print(Circle.pi)
     prompt: The `pi` attribute is a class attribute of the `Circle` class.
-    answer: True
+    answer: ✅ True.
 answers:
     - ✅ True.
     - ✅ True.
