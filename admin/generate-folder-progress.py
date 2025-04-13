@@ -20,7 +20,8 @@ markdown_content = """---
 layout: default
 title: --.
 description: --.
----
+keywords: --.
+author: Muhammad Yasir Bhutta.
 """
 
 # Create the directory if it doesn't exist

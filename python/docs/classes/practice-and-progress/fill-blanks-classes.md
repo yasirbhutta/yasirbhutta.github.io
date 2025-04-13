@@ -6,7 +6,7 @@ difficulty:
   beginner: true
   intermediate: false
   advanced: false
-topic: Functions
+topic: Classes and Objects
 questions:
     - In Python, you create a class using the ________ keyword.  
     - A class is a ________ for creating objects (instances).  

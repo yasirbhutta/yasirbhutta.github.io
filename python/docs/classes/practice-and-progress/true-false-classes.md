@@ -6,7 +6,7 @@ difficulty:
   beginner: true
   intermediate: false
   advanced: false
-topic: Functions
+topic: Classes and Objects
 questions:
     - In Python, you create a class using the ________ keyword.  
     - The `__init__` method is called automatically when a new object is created.
