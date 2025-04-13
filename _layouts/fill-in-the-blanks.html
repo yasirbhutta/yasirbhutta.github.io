@@ -4,6 +4,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <p><em>{{ page.description }}</em></p>
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}">
+{% endif %}
 
 <p><strong>Difficulty Levels:</strong>
   {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
