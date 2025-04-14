@@ -9,7 +9,13 @@ To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Ba
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFojxuTa3Hw1gWTzIttZj2u2kCu_IjNxlTTIVWC4wBUmhOtw/viewform?embedded=true" width="100%" height="6582" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-{% include excel-toc.html %}
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
+{% assign topic = "basics" %}
+{% include practice-and-progress.html topic=topic %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
