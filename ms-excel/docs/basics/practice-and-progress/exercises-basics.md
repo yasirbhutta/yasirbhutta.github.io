@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Microsoft Excel Basics - Review Questions for Beginners.
-description: Enhance your understanding of Microsoft Excel basics with these review questions. Covering topics like workbooks, worksheets, active cells, and data organization, this guide is perfect for beginners to strengthen their Excel skills.
-keywords: Microsoft Excel basics, Excel review questions, Excel worksheets and workbooks, Excel active cell, Excel Name Box, Excel data organization, beginner Excel questions, Excel fundamentals practice, Excel workbook management, Excel worksheet tips
+title: Microsoft Excel Basics - Exercises for Beginners.
+description: Practice your Microsoft Excel skills with these beginner-friendly exercises. Learn how to insert, delete, rename, hide, and unhide worksheets to strengthen your understanding of Excel basics.
+keywords: Microsoft Excel basics, Excel exercises for beginners, Excel worksheet management, insert worksheet, delete worksheet, rename worksheet, hide worksheet, unhide worksheet, Excel workbook practice, beginner Excel skills
 author: Muhammad Yasir Bhutta
 difficulty:
   beginner: true
