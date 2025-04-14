@@ -7,20 +7,20 @@ difficulty:
   beginner: true
   intermediate: false
   advanced: false
-topic: Classes and Objects
+topic: Basics
 questions:
-    - A workbook is a collection of worksheets.  
-    - Rows are numbered from 1 to 1,048,576.
-    - A worksheet is the intersection of a row and a column..
-    - The active cell is the cell that is currently selected.
-    - Excel is a powerful tool for data analysis..
+  - A workbook is a collection of worksheets.
+  - Rows are numbered from 1 to 1,048,576.
+  - A worksheet is the intersection of a row and a column.
+  - The active cell is the cell that is currently selected.
+  - Excel is a powerful tool for data analysis.
 answers:
-    - ✅ True.
-    - ✅ True.
-    - ❌ False.
-    - ✅ True.
-    - ✅ True.
+  - ✅ True.
+  - ✅ True.
+  - ❌ False.
+  - ✅ True.
+  - ✅ True.
 resources:
-    - name: Microsoft Excel Basics
-      url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
+  - name: Microsoft Excel Basics
+    url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
 ---

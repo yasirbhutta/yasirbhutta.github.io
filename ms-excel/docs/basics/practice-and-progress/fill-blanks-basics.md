@@ -10,28 +10,28 @@ difficulty:
   advanced: false
 topic: Basics
 questions:
-    - A workbook is a collection of __________.
-    - A worksheet consists of __________ and __________.
-    - The __________ is the intersection of a column and a row.
-    - The __________ cell is the cell that is currently selected.
-    - Excel allows you to perform __________, create __________, and analyze __________.
-    - The shortcut key to enter the current date in Excel is __________.
-    - The shortcut key to enter the current time in Excel is __________.
-    - A cell reference combines the __________ letter and the __________ number.
-    - Excel offers powerful features like __________ tables and __________ formatting.
-    - The __________ bar displays the content of the active cell.
+  - A workbook is a collection of __________.
+  - A worksheet consists of __________ and __________.
+  - The __________ is the intersection of a column and a row.
+  - The __________ cell is the cell that is currently selected.
+  - Excel allows you to perform __________, create __________, and analyze __________.
+  - The shortcut key to enter the current date in Excel is __________.
+  - The shortcut key to enter the current time in Excel is __________.
+  - A cell reference combines the __________ letter and the __________ number.
+  - Excel offers powerful features like __________ tables and __________ formatting.
+  - The __________ bar displays the content of the active cell.
 answers:
-    - Worksheets
-    - Columns and rows
-    - Cell
-    - Active
-    - Calculations, charts, data
-    - Ctrl + ;
-    - Ctrl + Shift + ;
-    - Column, row
-    - Pivot, conditional
-    - Formula 
+  - Worksheets
+  - Columns and rows
+  - Cell
+  - Active
+  - Calculations, charts, data
+  - Ctrl + ;
+  - Ctrl + Shift + ;
+  - Column, row
+  - Pivot, conditional
+  - Formula
 resources:
-    - name: Microsoft Excel Basics
-      url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
+  - name: Microsoft Excel Basics
+    url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
 ---
