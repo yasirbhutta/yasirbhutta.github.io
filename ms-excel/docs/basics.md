@@ -121,11 +121,13 @@ Microsoft Excel: Interface
 
 **See also:**
 
-- [Control Automatic Data Conversions in Excel](https://youtu.be/ZaL8KlQWIPI)
+- **Excel Tutorial in Urdu: Control Automatic Data Conversions in Excel**
+
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZaL8KlQWIPI?si=D50_6sbTPPUerzCJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Managing Sheet
-
-[Video: How to Manage Worksheets in excel](https://youtu.be/4_WTHBDiAe0)
 
 ### Insert a new worksheet
 
@@ -179,6 +181,12 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 3. Tap **Duplicate** to create a copy of the sheet.
 
 ### Move sheet
+
+**Excel Tutorial in Urdu: How to Manage Worksheets**
+
+<div class="yt-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4_WTHBDiAe0?si=_8tZDKZ5HSRAT3wA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **See also:**
 
