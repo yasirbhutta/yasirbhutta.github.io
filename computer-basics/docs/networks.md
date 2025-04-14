@@ -243,6 +243,14 @@ Image source: [wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/thu
 
 Each network topology has its own specific use cases, advantages, and drawbacks. The choice of topology depends on factors like the size and scale of the network, budget, desired performance, and ease of maintenance. Understanding the characteristics of each topology helps in designing efficient and robust networks.
 
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
+{% assign topic = "networks" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## Fill in the blanks
 
 A _________ is a device that connects two or more IP networks or subnetworks.

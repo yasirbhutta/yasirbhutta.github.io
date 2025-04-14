@@ -275,6 +275,14 @@ Here are some of the advantages of flash memory:
 
 Overall, flash memory is a versatile and reliable storage solution for various electronic devices.
 
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
+{% assign topic = "storage-devices" %}
+{% include practice-and-progress.html topic=topic %}
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -286,6 +294,7 @@ Overall, flash memory is a versatile and reliable storage solution for various e
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 ## True/False (Mark T for True and F for False)
 
 1. Processor registers are the fastest form of computer storage. 

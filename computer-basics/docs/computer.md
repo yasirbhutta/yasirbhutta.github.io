@@ -15,6 +15,7 @@
       - [What is a Process?](#what-is-a-process)
       - [What is Information?](#what-is-information)
     - [How The Computer Process?](#how-the-computer-process)
+  - [Further Reading](#further-reading)
   - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
   - [Review Questions](#review-questions)
     - [References](#references)
@@ -123,6 +124,13 @@ Here are some examples of commands and programs:
 - Adobe Photoshop (image editing software)
 - VLC Media Player (video player)
 - Minecraft (video game)
+
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -134,6 +142,8 @@ Here are some examples of commands and programs:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
 ## Multiple Choice (Select the best answer)
 
 > What is the primary function of a computer?
@@ -195,6 +205,4 @@ Here are some examples of commands and programs:
 [2]“Computer,” Wikipedia, May 17, 2021. http://en.wikipedia.org/wiki/Computer
 [3]Simplilearn, “What is Data: Types of Data, and How To Analyze Data?,” Simplilearn.com, Mar. 03, 2020. <https://www.simplilearn.com/what-is-data-article>
 
-{% assign show_heading = true %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
 ‌

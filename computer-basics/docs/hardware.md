@@ -501,6 +501,9 @@ DisplayPort is another type of port that is used to connect high-definition vide
 {% assign show_heading = False %}
 {% include toc/computer-basics-toc.html show_heading=show_heading%}
 
+{% assign topic = "hardware" %}
+{% include practice-and-progress.html topic=topic %}
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"

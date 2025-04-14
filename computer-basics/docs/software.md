@@ -191,6 +191,14 @@ Corel Draw.
 
 **Examples:** Microsoft Windows operating system, Adobe Photoshop editing software, Microsoft Office productivity suite, QuickBooks accounting software.
 
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
+{% assign topic = "software" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 -  Software is the physical part of a computer that you can touch. **True or False**
