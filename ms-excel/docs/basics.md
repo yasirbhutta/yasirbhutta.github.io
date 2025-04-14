@@ -99,7 +99,11 @@ Microsoft Excel: Interface
 
 ## Enter data manually in worksheet cells
 
-[Video: How to: Enter data manually in worksheet cells \| Microsoft Excel](https://youtu.be/r84zUXFUIfc?si=2YuAmqRKU31S9Y4-)
+**Excel Tutorial in Urdu: Enter data manually in worksheet cells** 
+
+<div class="yt-video">
+<iframe src="https://www.youtube.com/embed/r84zUXFUIfc?si=VVHO65Xt1dPm5qKZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 **Number as Text**
 
