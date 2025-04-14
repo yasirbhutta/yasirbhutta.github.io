@@ -496,6 +496,11 @@ DisplayPort is another type of port that is used to connect high-definition vide
 
 - Audio ports are used to connect speakers and microphones to a computer.
 
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -796,5 +801,3 @@ A **clock cycle**, or simply a "cycle," is the fundamental unit of time for a CP
 
 While a higher clock speed generally means the CPU can process more cycles per second, overall performance also depends on other factors, such as the number of instructions the CPU can execute per cycle (known as Instructions Per Cycle or IPC), the number of cores, and the processor's architecture. [8] 
 
-{% assign show_heading = true %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
