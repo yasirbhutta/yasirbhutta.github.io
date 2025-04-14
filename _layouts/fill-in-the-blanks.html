@@ -27,6 +27,7 @@ layout: default
 
 <hr />
 
+{% if page.examples %}
 <h2>🧠 Example-Based Fill in the Blanks</h2>
 <ol>
   {% for example in page.examples %}
@@ -37,7 +38,7 @@ layout: default
     </li>
   {% endfor %}
 </ol>
-
+{% endif %}
 <hr />
 
 <h2>🗝️ Answer Key</h2>
@@ -49,13 +50,14 @@ layout: default
   {% endfor %}
 </ol>
 
+{% if page.examples %}
 <h3>💡 Answers for Example-Based Fill in the Blanks</h3>
 <ol>
   {% for example in page.examples %}
     <li>{{ example.answer }}</li>
   {% endfor %}
 </ol>
-
+{% endif %}
 <hr />
 
 <h2>📚 Related Resources</h2>

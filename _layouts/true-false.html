@@ -27,6 +27,7 @@ layout: default
 
 <hr />
 
+{% if page.examples %}
 <h2>🧠 Example-Based True or False</h2>
 <ol>
   {% for example in page.examples %}
@@ -38,6 +39,8 @@ layout: default
   {% endfor %}
 </ol>
 
+{% endif %}
+
 <hr />
 
 <h2>🗝️ Answer Key</h2>
@@ -48,12 +51,14 @@ layout: default
   {% endfor %}
 </ol>
 
+{% if page.examples %}
 <h3>🔍 Answers for Example-Based True or False</h3>
 <ol>
   {% for example in page.examples %}
     <li>{{ example.answer }}</li>
   {% endfor %}
 </ol>
+{% endif %}
 
 <hr />
 
