@@ -19,9 +19,6 @@ To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Ba
 {% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
-{% assign topic = "basics" %}
-{% include practice-and-progress.html topic=topic %}
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"

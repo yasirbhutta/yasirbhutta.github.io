@@ -22,5 +22,5 @@ resources:
 
 ## Further Reading
 
-{% assign show_heading = False %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}

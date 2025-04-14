@@ -226,6 +226,12 @@ questions:
       - "It saves the current workbook"
     answer: "It undoes the last action"
 
-resources: []
+resources:
+  - name: Microsoft Excel Basics
+    url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
 ---
 
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
