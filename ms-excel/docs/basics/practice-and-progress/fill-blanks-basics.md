@@ -35,3 +35,11 @@ resources:
   - name: Microsoft Excel Basics
     url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
 ---
+
+## Further Reading
+
+{% assign show_heading = False %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
+{% assign topic = "database" %}
+{% include practice-and-progress.html topic=topic %}

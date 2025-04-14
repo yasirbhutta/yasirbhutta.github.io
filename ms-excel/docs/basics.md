@@ -236,14 +236,6 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 {% assign topic = "basics" %}
 {% include practice-and-progress.html topic=topic %}
 
-## Exercises
-
-1. How do you insert a new worksheet into a workbook?
-2. How do you delete a worksheet from a workbook?
-3. How do you rename a worksheet?
-4. How do you hide a worksheet?
-5. How do you unhide a worksheet?
-
 ## References and Bibliography
 
 [^1]: [Excel specifications and limits](https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3)
