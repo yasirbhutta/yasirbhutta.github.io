@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Python Tutorial for Beginners – Free, Downloadable PDFs, and Open Source
-description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
+description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
+keywords: "python tutorial for beginners, learn python programming, free python lessons, python pdf tutorials, open-source python guide, python coding for beginners, python exercises and projects, python programming basics, downloadable python resources, python step-by-step guide"
 ---
 
 # Python Tutorial for Beginners 
@@ -10,7 +11,7 @@ Welcome to our Python Tutorial for Beginners – your ultimate starting point fo
 
 - ✔ Step-by-step lessons for beginners
 - ✔ Downloadable PDF files for offline learning
-- ✔ 100% open-source and community-supported
+- ✔ 100% open-source and free.
 - ✔ Code examples, exercises, and projects
 
 Start learning Python today—no sign-up required!
@@ -20,6 +21,7 @@ Start learning Python today—no sign-up required!
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
 - [Python Quizzes – Test Your Knowledge](quizzes/index.md)
 - [Python Exercises for Beginners](exercises/index.md)
+- [Python Articles](/python/posts/)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
   
 ## Installation & Getting Started
@@ -28,39 +30,42 @@ Start learning Python today—no sign-up required!
   - [Tasks: Installation of Tools](docs/python-task-based-learning.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
-## Python Notes
+## 🐣 Python for Beginners
 
-- [1. Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
-- [2. Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
-- [3. Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
-- [4. Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
-- [5. Control Flow](docs/control-flow.md)
-- [6. Defining Functions](docs/functions.md)    [[pdf]](/downloads/python/functions.pdf)
-- [7.Advanced function concepts](docs/functions-adv-concepts.md)
-- [8. Data Structures and Sequences](docs/dss.md)
-  - [Python Sorting](docs/sorting.md)
-- [10. Modules and Libraries](docs/modules-libraries.md)
-- [11. Working with Files](docs/files.md)
-- [12. Exception Handling](docs/error.md)
-- [13. Functions and Methods]
+1. [Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
+2. [Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
+3. [Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
+4. [Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
+5. [Control Flow](docs/control-flow.md)
+6. [Defining Functions](docs/functions.md)[[pdf]](/downloads/python/functions.pdf)
+7. [Data Structures and Sequences](docs/dss.md)
+8. [Python Sorting](docs/sorting.md)
+12. Functions and Methods
   - [Built-in Functions](docs/built_in_functions.md)
   - [String Methods](docs/str-methods.md)
   - [List Methods](#)
   - [Dictionary Methods](#)
   - [Tuple Methods](#)
   - [Set Methods](#)
-  - [File Methods](#)
-- [Comprehensions (List and Dictionary)](docs/comprehensions.md)
-- [Generator Functions](posts/generators-in-python.md)
-- [Decorators](docs/decorators.md)
-- [Classes and Objects](docs/classes.md)
-- [Regular Expressions](docs/re.md)
-- [Python Performance and Best practices](docs/best-practices.md)
+9. [Modules and Libraries](docs/modules-libraries.md)
+10. [Working with Files](docs/files.md)
+    - [File Methods](#)
+11. [Exception Handling](docs/error.md)
+12. [Comprehensions (List and Dictionary)](docs/comprehensions.md)
+13. [Python for Kids](docs/python-kids.md)
+14. [Python in Excel](docs/python-excel.md)
 
-- [Data Visualization in Python](docs/data-visualization.md)
-- [Python Programming for Mathematics](docs/python-mathematics.md)
-- [Python for Kids](docs/python-kids.md)
-- [Python in Excel](docs/python-excel.md)
+## 🧠 Python Advanced
+
+15. [Advanced function concepts](docs/functions-adv-concepts.md)
+17. [Generator Functions](posts/generators-in-python.md)
+18. [Decorators](docs/decorators.md)
+19. Object-Oriented Programming in Python (OOP)
+    - [Classes and Objects](docs/classes.md)
+20. [Regular Expressions](docs/re.md)
+21. [Python Performance and Best practices](docs/best-practices.md)
+22. [Data Visualization in Python](docs/data-visualization.md)
+23. [Python Programming for Mathematics](docs/python-mathematics.md)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>

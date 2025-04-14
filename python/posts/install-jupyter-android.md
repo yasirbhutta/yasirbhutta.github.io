@@ -1,7 +1,8 @@
 ---
 layout: default
 title: How to - Install Jupyter Notebook on an Android device
-description: Learn how to install Jupyter Notebook on your Android device with this step-by-step guide. Perfect for Python beginners looking to code on the go.
+description: Step-by-step guide to install Jupyter Notebook on Android using Pydroid 3 IDE. Learn how to set up Python coding on the go with Jupyter Notebook on your mobile device.
+keywords: "install jupyter notebook android, jupyter notebook mobile, python on android, pydroid 3 jupyter setup, jupyter notebook tutorial android, python coding on android, jupyter notebook step-by-step guide, run jupyter on android, python beginners android, jupyter notebook installation guide"
 ---
 
 # How to: Install Jupyter Notebook on an Android device \| Python Tutorial for Beginners
