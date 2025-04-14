@@ -11,7 +11,13 @@ To learn more about `Formulas in Excel, please visit **[Microsoft Excel: Formula
   
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDwtuwLZYX3srLBoDvmCoz6FSd37g0AoZWhRv8Q2YHvwBnHA/viewform?embedded=true" width="100%" height="4416" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-{% include excel-toc.html %}
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
+{% assign topic = "basics" %}
+{% include practice-and-progress.html topic=topic %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
