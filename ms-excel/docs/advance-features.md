@@ -98,6 +98,11 @@ A print area is one or more ranges of cells that you designate to print when you
 - [A new way to debug formulas from Excel Labs](https://techcommunity.microsoft.com/t5/excel-blog/a-new-way-to-debug-formulas-from-excel-labs/ba-p/4003231)
 - [Advanced Formula Environment is becoming Excel Labs, a Microsoft Garage Project!](https://techcommunity.microsoft.com/t5/excel-blog/advanced-formula-environment-is-becoming-excel-labs-a-microsoft/ba-p/3736518)
 
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
 {% assign topic = "advance-featurs" %}
 {% include practice-and-progress.html topic=topic %}
   

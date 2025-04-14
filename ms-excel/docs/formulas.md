@@ -27,6 +27,7 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
     - [The order in which Excel performs operations in formulas](#the-order-in-which-excel-performs-operations-in-formulas)
   - [Creating a formula](#creating-a-formula)
   - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
+  - [Further Reading](#further-reading)
   - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
   - [Exercises](#exercises)
   - [Review Questions](#review-questions)
@@ -247,6 +248,11 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 {% assign topic = "formulas" %}
 {% include practice-and-progress.html topic=topic %}

@@ -649,6 +649,11 @@ Defined Names
 
 - **Formulas > Defined Names > Create from Selection**
 
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
 {% assign topic = "functions" %}
 {% include practice-and-progress.html topic=topic %}
 

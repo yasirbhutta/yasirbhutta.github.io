@@ -7,6 +7,11 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/ms-excel/docs/python-excel.html](https://yasirbhutta.github.io/ms-excel/docs/python-excel.html)
 - [Youtube Playlist to learn excel](https://bit.ly/46DZYmD)
 
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
 {% assign topic = "python-excel" %}
 {% include practice-and-progress.html topic=topic %}
 
