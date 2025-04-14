@@ -183,6 +183,9 @@ select * from customers;
 * [Access video training](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
 * [What is Microsoft Access? - Database.Guide](https://database.guide/what-is-microsoft-access/)
 
+{% assign show_heading = true %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
+
 
 
 

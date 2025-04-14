@@ -194,4 +194,7 @@ Here are some examples of commands and programs:
 [1]D. Hemmendinger, “computer | History, Networking, Operating Systems, & Facts,” Encyclopædia Britannica. Dec. 28, 2023. Available: https://www.britannica.com/technology/computer
 [2]“Computer,” Wikipedia, May 17, 2021. http://en.wikipedia.org/wiki/Computer
 [3]Simplilearn, “What is Data: Types of Data, and How To Analyze Data?,” Simplilearn.com, Mar. 03, 2020. <https://www.simplilearn.com/what-is-data-article>
+
+{% assign show_heading = true %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
 ‌

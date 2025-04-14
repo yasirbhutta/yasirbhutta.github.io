@@ -796,8 +796,5 @@ A **clock cycle**, or simply a "cycle," is the fundamental unit of time for a CP
 
 While a higher clock speed generally means the CPU can process more cycles per second, overall performance also depends on other factors, such as the number of instructions the CPU can execute per cycle (known as Instructions Per Cycle or IPC), the number of cores, and the processor's architecture. [8] 
 
-### **Appendix B: Definitions**
-This section contains the key definitions used throughout the notes...
-
-### **Appendix C: Extended Quotations**
-Here are the extended quotations referenced in the main body...
+{% assign show_heading = true %}
+{% include toc/computer-basics-toc.html show_heading=show_heading%}
