@@ -5,8 +5,6 @@ description: Take this Microsoft Excel basics quiz to test your understanding of
 keywords: Microsoft Excel quiz, Excel basics quiz, worksheets and workbooks quiz, Excel data entry practice, beginner Excel quiz, Excel fundamentals test, Microsoft Excel skills assessment, Excel basics practice, Excel quiz for beginners.
 author: Muhammad Yasir Bhutta.
 ---
-# Microsoft Excel Quiz: Basics
-
 To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Basics](../docs/basics.md)**
 
 **Topics Convered:**
