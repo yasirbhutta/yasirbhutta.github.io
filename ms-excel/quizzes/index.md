@@ -5,4 +5,10 @@
 3. [Microsfot Excel Quiz: Formulas](excel-formulas-quiz.md)
 
 
-{% include excel-toc.html %}
+## Further Reading
+
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
+{% assign topic = "basics" %}
+{% include practice-and-progress.html topic=topic %}
