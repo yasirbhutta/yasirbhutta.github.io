@@ -1,6 +1,6 @@
 ---
 layout: review-questions
-title: Microsoft Excel Basics: Review Questions for Beginners.
+title: Microsoft Excel Basics - Review Questions for Beginners.
 description: Enhance your understanding of Microsoft Excel basics with these review questions. Covering topics like workbooks, worksheets, active cells, and data organization, this guide is perfect for beginners to strengthen their Excel skills.
 keywords: Microsoft Excel basics, Excel review questions, Excel worksheets and workbooks, Excel active cell, Excel Name Box, Excel data organization, beginner Excel questions, Excel fundamentals practice, Excel workbook management, Excel worksheet tips
 author: Muhammad Yasir Bhutta
@@ -8,7 +8,7 @@ difficulty:
   beginner: true
   intermediate: false
   advanced: false
-topic: Basics
+topic: Microsoft Excel Basics
 questions:
   - What is the difference between worksheet and Workbook?
   - What is a workbook in Excel?

@@ -236,17 +236,6 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 {% assign topic = "basics" %}
 {% include practice-and-progress.html topic=topic %}
 
-
-## Review Questions
-
-1. What is the difference between worksheet and Workbook?
-2. What is a workbook in Excel?
-3. What is a worksheet in Excel?
-4. What are some of the benefits of using Excel workbooks and worksheets?
-5. What is Active cell and explain the purpose of Name Box in MS Excel?
-6. What are the key components of an Excel worksheet, and how do they contribute to organizing and analyzing data within a workbook?
-7. Explain the process of adding, deleting, and renaming worksheets in an Excel workbook. How can these actions be beneficial in managing and organizing data?
-
 ## Exercises
 
 1. How do you insert a new worksheet into a workbook?
