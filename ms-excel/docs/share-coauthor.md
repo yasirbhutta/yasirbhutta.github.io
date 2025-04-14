@@ -40,3 +40,5 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 
 - [Video: Protect an Excel file - Excel Help & Traning](https://support.microsoft.com/en-au/office/protect-an-excel-file-7359d4ae-7213-4ac2-b058-f75e9311b599)
 
+{% assign topic = "share-coauthor" %}
+{% include practice-and-progress.html topic=topic %}

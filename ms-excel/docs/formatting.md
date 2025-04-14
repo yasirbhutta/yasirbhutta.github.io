@@ -473,6 +473,9 @@ In the Gridline color box, click the color you want.
 
 - [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
 
+{% assign topic = "formatting" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

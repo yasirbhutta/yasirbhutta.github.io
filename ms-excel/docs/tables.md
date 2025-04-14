@@ -48,6 +48,9 @@ A slicer in Excel is a powerful tool that allows you to filter data in a table o
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+{% assign topic = "tables" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

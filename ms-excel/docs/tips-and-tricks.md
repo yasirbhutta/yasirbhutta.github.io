@@ -120,7 +120,8 @@ Formulas with cell references can be difficult to understand, especially for com
 
 ## Additional Topics
 
-
+{% assign topic = "tips-and-tricks" %}
+{% include practice-and-progress.html topic=topic %}
 
 ## True/False (Mark T for True and F for False)
 

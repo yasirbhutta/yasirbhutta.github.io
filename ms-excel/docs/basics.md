@@ -233,6 +233,9 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+{% assign topic = "basics" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 - A workbook is a collection of worksheets. **True**

@@ -248,6 +248,9 @@ Watch this video on [Simple formula in excel](https://youtu.be/mKNp8MgTS70?si=v_
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+{% assign topic = "formulas" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## Multiple Choice (Select the best answer)
 
 - [Microsfot Excel Quiz: Formulas](../quizzes/excel-formulas-quiz.md)

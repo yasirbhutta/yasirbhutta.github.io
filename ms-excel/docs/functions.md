@@ -649,6 +649,9 @@ Defined Names
 
 - **Formulas > Defined Names > Create from Selection**
 
+{% assign topic = "functions" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"

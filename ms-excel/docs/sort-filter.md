@@ -73,6 +73,9 @@ Types of Filters in Excel
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+{% assign topic = "sort-filter" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## True/False (Mark T for True and F for False)
 
 ## Multiple Choice (Select the best answer)

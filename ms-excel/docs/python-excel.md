@@ -7,6 +7,8 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](ht
 [https://yasirbhutta.github.io/ms-excel/docs/python-excel.html](https://yasirbhutta.github.io/ms-excel/docs/python-excel.html)
 - [Youtube Playlist to learn excel](https://bit.ly/46DZYmD)
 
+{% assign topic = "python-excel" %}
+{% include practice-and-progress.html topic=topic %}
 
 ## True/False (Mark T for True and F for False)
 
