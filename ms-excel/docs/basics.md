@@ -3,36 +3,13 @@
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 - [Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
-- [Microsoft Excel: Basics](#microsoft-excel-basics)
-  - [Module 1: Introduction to Excel](#module-1-introduction-to-excel)
-  - [Microsoft Excel](#microsoft-excel)
-  - [Excel Mobile App:](#excel-mobile-app)
-  - [Enter data manually in worksheet cells](#enter-data-manually-in-worksheet-cells)
-  - [Managing Sheet](#managing-sheet)
-    - [Insert a new worksheet](#insert-a-new-worksheet)
-    - [Rename a worksheet](#rename-a-worksheet)
-    - [Delete a worksheet](#delete-a-worksheet)
-    - [Reorder sheets](#reorder-sheets)
-    - [Hide or unhide sheets](#hide-or-unhide-sheets)
-    - [Change sheet tab color](#change-sheet-tab-color)
-    - [Duplicate sheet](#duplicate-sheet)
-    - [Move sheet](#move-sheet)
-  - [Excel for Android touch guide](#excel-for-android-touch-guide)
-  - [Excel for Android phones: Animated tips](#excel-for-android-phones-animated-tips)
-  - [Online Courses and Trainings - Microsoft Excel](#online-courses-and-trainings---microsoft-excel)
-  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
-  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
-  - [Review Questions](#review-questions)
-  - [Exercises](#exercises)
-  - [References and Bibliography](#references-and-bibliography)
+## Contents
 
-## Module 1: Introduction to Excel
-
-- What is Excel?
-- When to use a spreadshe
-- The Excel workbook and worksheet
-- Navigating around Excel
-- Entering and editing data
+- [What is Excel?](#microsoft-excel)
+- [The Excel workbook and worksheet](#worksheets-and-workbooks)
+- [Microsoft Excel's availability](#microsoft-excels-availability)
+- [Enter data manually in worksheet cells](#enter-data-manually-in-worksheet-cells)
+- [Managing Sheet](#managing-sheet)
 
 ## Microsoft Excel
 
@@ -48,11 +25,7 @@ Microsoft Excel can be used to
 ![Microsoft Excel](img/interface.png)
 Microsoft Excel: Interface
 
-## Excel Mobile App: 
-
-
-1. **Worksheets and Workbooks:**
-
+## **Worksheets and Workbooks:**
 
 - **Workbooks**
 
@@ -76,25 +49,25 @@ Microsoft Excel: Interface
   - Cell is the intersection of a column & a row.
   - An active cell is the cell in which you can enter and edit data.
 
-2. **Cell References**:
+1. **Cell References**:
    - Cells are identified by their **cell references**, which combine the column letter and row number (e.g., A3, B6, AA345).
    - You can store various types of data in cells, including numbers, text, dates, times, and Boolean values.
 
-3. **Formulas and Functions**:
+2. **Formulas and Functions**:
    - **Formulas** allow you to perform calculations using data from other cells. Start a formula by typing an equal sign (=) in the cell where you want the result.
    - Formulas can include cell references and built-in **functions** (predefined calculations). Functions simplify complex tasks, such as finding averages, sums, or specific information in large tables of data.
 
-4. **Features**:
+3. **Features**:
    - Excel offers powerful features, including:
      - **Calculation capabilities**: Perform arithmetic, statistical, and financial calculations.
      - **Graphing tools**: Create charts and graphs to visualize data.
      - **Pivot tables**: Analyze and summarize data from large datasets.
      - **Visual Basic for Applications (VBA)**: A macro programming language for automating tasks.
 
-5. **Integration**:
+4. **Integration**:
    - Excel is part of the **Microsoft 365 suite**, which includes other productivity tools like Word, PowerPoint, and Outlook.
 
-**Microsoft Excel's availability:**
+## **Microsoft Excel's availability:**
 
 1. **Desktop Version 💻**:
    - **Microsoft Excel** is available as a desktop application for both **Windows** and **Mac** operating systems.
