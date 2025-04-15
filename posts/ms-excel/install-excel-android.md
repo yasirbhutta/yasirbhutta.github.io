@@ -8,6 +8,40 @@ categories: [blog, ms-excel]
 tags: [android, excel, tutorial, mobile, hindi, Excel app, Excel for Android, mobile Excel tutorial]
 ---
 
+### ✅ **Step-by-step: Install Excel on Android**
+
+1. **Unlock your phone**  
+   - Make sure your device is on and connected to the internet (Wi-Fi or mobile data).
+
+2. **Open the Play Store**  
+   - Tap the **Google Play Store** icon on your home screen or in your app drawer.
+
+3. **Search for Excel**  
+   - Tap the search bar at the top and type:  
+   ```
+   Microsoft Excel
+   ```
+   - Then tap the **search icon** (🔍).
+
+4. **Find the right app**  
+   - Look for the app named **"Microsoft Excel: Spreadsheets"** by **Microsoft Corporation**. - It usually has a green Excel logo 📊.
+
+5. **Tap "Install"**  
+   - Press the green **Install** button.  
+   - The app will begin downloading and installing. This may take a minute depending on your internet speed.
+
+6. **Open Excel**  
+   - Once installed, the **Install** button will change to **Open**.  
+   - Tap **Open** to launch the Excel app.
+
+7. **Sign in (optional)**  
+   - You can sign in with your **Microsoft account** (e.g., Outlook, Hotmail) to access cloud features like OneDrive.  
+   - You can also use the app in basic mode without signing in.
+
+---
+
+**Excel Tutorial in Urdu: Install Excel App on Android Phone - Mobile Me Excel Kaise Chalaye**
+
 <div class="yt-short">  
 <iframe src="https://www.youtube.com/embed/Ii4pl4f6mS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
