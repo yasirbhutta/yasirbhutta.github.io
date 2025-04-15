@@ -397,11 +397,9 @@ In the Gridline color box, click the color you want.
 - [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)- [Change the color of gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-gridlines-in-a-worksheet-980f3978-91d1-4ff6-bd12-a17c1b5b12ed)
 
 
-## Additional Topics{% include toc/ms-excel-toc.html show_heading=show_heading%}
+## Additional Topics
 
 ### Adjust Text in Column
-{% include practice-and-progress.html topic=topic %}
-
 **See also:** 
 - [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
 
