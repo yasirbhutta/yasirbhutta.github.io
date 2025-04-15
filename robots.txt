@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://yasirbhutta.github.io/sitemap.xml
+
