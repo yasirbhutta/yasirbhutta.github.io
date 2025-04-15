@@ -62,9 +62,12 @@ author: Muhammad Yasir Bhutta
 
 ## Exercise 8: Applying Cell Styles
 1. Enter the following data in cells A12 to B14:
-```excel
-Category Sales Electronics 5000 Furniture 3000
-```
+
+| Category     | Sales |
+|--------------|-------|
+| Electronics  | 5000  |
+| Furniture    | 3000  |
+
 2. Apply a predefined cell style (e.g., **Heading 1**) to the header row.
 
 ## Exercise 9: Formatting Dates
@@ -133,9 +136,12 @@ Category Sales Electronics 5000 Furniture 3000
 
 ## Exercise 17: Formatting Currency
 1. Enter the following data in column A:
-```excel
-1000 2500
-```
+
+| Amount |
+|--------|
+| 1000   |
+| 2500   |
+
 2. Format the numbers as currency with the symbol "Rs".
 
 ## Exercise 18: Removing Gridlines

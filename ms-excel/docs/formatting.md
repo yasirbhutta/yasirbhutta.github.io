@@ -6,16 +6,36 @@
 
 ## **Contents: Formatting cells and ranges**
 
-- [Changing the font, font size, and font color](#formatting-commands-in-excel)
-- [Aligning text](#data-alignment)
-- [Applying borders and shading](#borders)
-- [Merging and splitting cells](#merge--center)
-- [Number format](#number-format)
-- [Wrap text and Cell Style](#wrap-text)
+- **[Changing the Font, Font Size, and Font Color](#font)**
+  - Learn how to modify the appearance of text in Excel by changing fonts, font sizes, and colors.
+
+- **[Borders](#borders)**
+  - Understand how to apply, customize, and remove cell borders to visually separate data.
+
+- **[Aligning Text](#data-alignment)**
+  - Explore text alignment options, including horizontal and vertical alignment, to position data within cells.
+
+- **[Applying Borders and Shading](#borders)**
+  - Discover how to enhance the readability of your data by applying borders and shading.
+
+- **[Merging and Splitting Cells](#merge--center)**
+  - Learn how to merge multiple cells into one and align their contents in the center.
+
+- **[Number Format](#number-format)**
+  - Understand how to format numbers as currency, percentages, dates, and more.
+
+- **[Wrap Text and Cell Style](#wrap-text)**
+  - Learn how to wrap text within cells and apply predefined or custom cell styles.
+
+- **[Additional Topics](#additional-topics)**
+  - Adjust text in columns and fit more text in column headings.
+
+- **[Further Reading](#further-reading)**
+  - Access additional resources and references to deepen your understanding of Excel formatting.
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
-## Formatting Commands in Excel
+## Basic Formatting Commands in Excel
 
 ### Font
 
@@ -96,7 +116,7 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### Borders
+## Borders
 
 - In Microsoft Excel, cell borders are `lines that surround a cell or range of cells`. They are used to visually separate data in a table or spreadsheet and make it easier to read and understand.
 - Cell borders that you apply on cell in sheets to appear on printed pages.
@@ -107,25 +127,6 @@ To apply a specific font in Excel on both Windows and the mobile app, follow the
 #### Apply a predefined cell border [Windows]
 
 1. On a worksheet, select the cell or range of cells.
-2. On the Home tab, in the Font group, To apply a new or different border style, click the arrow next to Borders , and then click a border style.
-
-#### Remove a cell border [Windows]
-
-1. On a worksheet, select the cell or range of cells that you want to remove a border from.
-2. On the Home tab, in the Font group, click the arrow next to Borders , and then click No Border.
-
-### Fill Color
-
-- n Microsoft Excel, Fill Color is a feature that allows you to add or change the `background color`.
-- It is used to highlight data in cells and make it easier to read and understand. [^9]
-
-### Font Color
-
-- In Microsoft Excel, Font Color is a feature that allows you to change the `color of the text` in a cell or range of cells.[^10]
-
-### Data Alignment
-
-- In Microsoft Excel, data alignment refers to the `position of data within a cell` or range of cells.
 
 #### Align text in a cell [Windows] [^11] [^12]
 
