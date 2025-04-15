@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Microsoft Excel Excercises - Exercises for Beginners.
-description: Practice your Microsoft Excel skills with these beginner-friendly exercises. Learn how to insert, delete, rename, hide, and unhide worksheets to strengthen your understanding of Excel basics.
-keywords: Microsoft Excel basics, Excel exercises for beginners, Excel worksheet management, insert worksheet, delete worksheet, rename worksheet, hide worksheet, unhide worksheet, Excel workbook practice, beginner Excel skills
+title: Microsoft Excel Formatting Exercises for Beginners - Hands-On Practice  
+meta_description: Enhance your Microsoft Excel skills with these hands-on formatting exercises. Learn to apply borders, shading, alignment, number formatting, and more. Perfect for beginners to master Excel basics.  
+keywords: Microsoft Excel formatting exercises, Excel practice for beginners, Excel hands-on exercises, Excel formatting tips, Excel borders and shading, Excel alignment options, Excel number formatting, Excel beginner guide, Excel worksheet practice, Excel skills improvement
 author: Muhammad Yasir Bhutta
 ---
 
