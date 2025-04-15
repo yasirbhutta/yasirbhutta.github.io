@@ -405,13 +405,19 @@ In the Gridline color box, click the color you want.
 **See also:** 
 - [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
 
+---
+
 ## Further Reading
 
 {% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
+---
+
 {% assign topic = "formatting" %}
 {% include practice-and-progress.html topic=topic %}
+
+---
 
 ## References and Bibliography
 
@@ -430,4 +436,4 @@ In the Gridline color box, click the color you want.
 [^13]: [What is the use of the ‘Merge and Center’ feature in MS Excel](https://edupepper.com/what-is-the-use-of-the-merge-and-center-feature-in-ms-excel/)  
 [^14]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)  
 [^15]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)  
-[Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
+[^16]: [Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
