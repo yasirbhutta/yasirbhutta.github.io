@@ -16,3 +16,16 @@ author: Muhammad Yasir Bhutta
 - [Excel Sheet Assignment 6: Sales Analysis](assign6.md)
 - [Excel Sheet Assignment 7: Product Sales](assign7.md)
 
+{% assign show_heading = true %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -50,4 +50,17 @@ This assignment will help you practice creating a budget using Excel formulas an
     - Using basic formulas (SUM).
     - Applying conditional formatting.
     - Creating charts for data visualization.
+  
+{% assign show_heading = true %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
