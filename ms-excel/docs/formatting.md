@@ -1,97 +1,19 @@
 # Microsoft Excel: Formatting
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/formatting.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/formatting.html](https://yasirbhutta.github.io/ms-excel/docs/formatting.html)
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 - [Slides](https://docs.google.com/presentation/d/1NhO_o_oY-bfgeMGucNeQ4Wa0UhS4bKn7J5jiG-gUzbU/)
 
-- [Microsoft Excel: Formatting](#microsoft-excel-formatting)
-  - [Module 2: Formatting cells and ranges](#module-2-formatting-cells-and-ranges)
-  - [Formatting Commands in Excel](#formatting-commands-in-excel)
-    - [Font](#font)
-    - [Font Size](#font-size)
-    - [Bold](#bold)
-    - [Italic](#italic)
-    - [Underline](#underline)
-    - [Strikethrough](#strikethrough)
-    - [**On Windows (Excel Desktop App):**](#on-windows-excel-desktop-app)
-    - [**On Mobile (Excel App):**](#on-mobile-excel-app)
-    - [Borders](#borders)
-      - [Apply a predefined cell border \[Windows\]](#apply-a-predefined-cell-border-windows)
-      - [Remove a cell border \[Windows\]](#remove-a-cell-border-windows)
-    - [Fill Color](#fill-color)
-    - [Font Color](#font-color)
-    - [Data Alignment](#data-alignment)
-      - [Align text in a cell \[Windows\] \[^11\] \[^12\]](#align-text-in-a-cell-windows-11-12)
-    - [Merge \& Center](#merge--center)
-      - [Merge adjacent cells \[Windows\]](#merge-adjacent-cells-windows)
-      - [Merge adjacent cells \[Android\]](#merge-adjacent-cells-android)
-      - [Unmerge cells \[Windows\]](#unmerge-cells-windows)
-      - [Unmerge cells \[Android\]](#unmerge-cells-android)
-    - [Wrap Text](#wrap-text)
-      - [Wrap text automatically - Windows](#wrap-text-automatically---windows)
-      - [Enter a line break - Windows](#enter-a-line-break---windows)
-    - [Format Painter](#format-painter)
-    - [Cell Styles](#cell-styles)
-      - [Apply a cell style](#apply-a-cell-style)
-      - [Remove a cell style from data](#remove-a-cell-style-from-data)
-    - [Number Format](#number-format)
-      - [To Change a Cell's Number Format](#to-change-a-cells-number-format)
-        - [Windows](#windows)
-      - [Working with the Comma Style](#working-with-the-comma-style)
-        - [Windows](#windows-1)
-      - [Format cell with currency symbol Rs](#format-cell-with-currency-symbol-rs)
-        - [Windows](#windows-2)
-      - [Applying the percentage style - Windows](#applying-the-percentage-style---windows)
-      - [Formatting Dates - Windows](#formatting-dates---windows)
-    - [Format as Table](#format-as-table)
-      - [Apply Table Style](#apply-table-style)
-      - [Remove Table Style](#remove-table-style)
-  - [Card View](#card-view)
-  - [Insert \& Delete](#insert--delete)
-    - [Format Cell Size](#format-cell-size)
-      - [Set a column to a specific width - Windows](#set-a-column-to-a-specific-width---windows)
-      - [Column width to automatically fit the contents (auto fit) - Windows](#column-width-to-automatically-fit-the-contents-auto-fit---windows)
-      - [Match the column width to another column - Windows](#match-the-column-width-to-another-column---windows)
-      - [Change the width of columns by using the mouse - Windows](#change-the-width-of-columns-by-using-the-mouse---windows)
-      - [Set a row to a specific height](#set-a-row-to-a-specific-height)
-        - [Windows](#windows-3)
-      - [Change the row height to fit the contents - Windows](#change-the-row-height-to-fit-the-contents---windows)
-    - [Clear](#clear)
-    - [Rotate data in cell - Windows](#rotate-data-in-cell---windows)
-    - [Increase/Decrease Indent](#increasedecrease-indent)
-    - [Add or remove a sheet background - Windows](#add-or-remove-a-sheet-background---windows)
-      - [Add a sheet background - windows](#add-a-sheet-background---windows)
-      - [Remove a sheet background - Windows](#remove-a-sheet-background---windows)
-    - [Gridlines on a Worksheet](#gridlines-on-a-worksheet)
-      - [Show or Hide gridlines on a worksheet](#show-or-hide-gridlines-on-a-worksheet)
-      - [Hide gridlines on a worksheet](#hide-gridlines-on-a-worksheet)
-      - [Show gridlines on a worksheet](#show-gridlines-on-a-worksheet)
-      - [Change the color of gridlines in a worksheet](#change-the-color-of-gridlines-in-a-worksheet)
-  - [Additional Topics](#additional-topics)
-    - [Adjust Text in Column](#adjust-text-in-column)
-    - [Fit more text in column headings](#fit-more-text-in-column-headings)
-  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
-  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
-  - [Exercises](#exercises)
-  - [Review Questions](#review-questions)
-    - [Windows only](#windows-only)
-  - [References and Bibliography](#references-and-bibliography)
 
+## **Contents: Formatting cells and ranges**
+
+- [Changing the font, font size, and font color](#formatting-commands-in-excel)
+- [Aligning text](#data-alignment)
+- [Applying borders and shading](#borders)
+- [Merging and splitting cells](#merge--center)
+- [Number format](#number-format)
+- [Wrap text and Cell Style](#wrap-text)
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
-
-**Module 2: Formatting cells and ranges**
-
-- Changing the font, font size, and font color
-- Aligning text
-- Applying borders and shading
-- Merging and splitting cells
-- Number format
-- Wrap text and Cell Style
 
 ## Formatting Commands in Excel
 
@@ -282,8 +204,13 @@ To apply several formats in one step, and to make sure that cells have consisten
 - These number formats include:
   - currency, accounting, percentage, date, time, fraction, and scientific, as well as a few special formats.
 
-- [Video: Format numbers as Text in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=XGShL-JggO1N_95C)
-- [Video: Change Date Format](https://youtu.be/Cty8tgm7YtE?si=tqgGcZRxllmLD6RE)
+**Excel Tutorial in Urdu: Format numbers as Text in Microsoft Excel**
+
+<div class="yt-short">  
+<iframe src="https://www.youtube.com/embed/9-ldmZ3Z8Iw?si=nLVs-ij7BBX1ljTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+- [Video: Change Date Format - Mobile App](https://youtu.be/Cty8tgm7YtE?si=tqgGcZRxllmLD6RE)
 
 #### To Change a Cell's Number Format
 
@@ -348,7 +275,7 @@ To apply several formats in one step, and to make sure that cells have consisten
 
 #### Remove Table Style
 
-## Card View
+## Card View (Mobile App)
 
 - [Video Tutorial: How to: use a cards view in excel - Excel Mobile App](https://youtu.be/6qwfFHMSw98?si=i-1kf7rRvoHYE2YV)
 
@@ -431,7 +358,11 @@ The selected picture is repeated to fill the sheet.
 
 - Gridlines are the faint lines that appear around cells in Excel. They are used to distinguish cells on the worksheet.
 
-[Video: Excel Gridlines - Show, Hide, Change Color](https://youtu.be/UNqY5ebh-uA)
+**Excel Tutorial in Urdu: Excel Gridlines - Show, Hide, Change Color**
+
+<div class="yt-video">
+<iframe src="https://www.youtube.com/embed/UNqY5ebh-uA?si=oEp6Ev0G1qr56pXK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 #### Show or Hide gridlines on a worksheet
 
@@ -480,16 +411,6 @@ In the Gridline color box, click the color you want.
 
 {% assign topic = "formatting" %}
 {% include practice-and-progress.html topic=topic %}
-
-## Exercises
-
-## Review Questions
-
-
-
-### Windows only
-)
-
 
 ## References and Bibliography
 

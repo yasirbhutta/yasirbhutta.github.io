@@ -8,7 +8,7 @@ difficulty:
   beginner: true
   intermediate: false
   advanced: false
-topic: Microsoft Excel Basics
+topic: Microsoft Excel Fomatting
 questions:
   - What is the purpose of formatting in Excel, and why is it important?
   - What is the difference between cell formatting and cell value?
