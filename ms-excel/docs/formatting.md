@@ -488,12 +488,8 @@ In the Gridline color box, click the color you want.
 
 
 ### Windows only
+)
 
-- What is the keyboard shortcut for opening the Format Cells dialog box?
-- What is the keyboard shortcut for applying the Format Painter tool?
-- How can you rotate text?
-- What is the purpose of the Font dialog box?
-- How can you access the Format Cells dialog box in Excel to apply custom formatting?
 
 ## References and Bibliography
 

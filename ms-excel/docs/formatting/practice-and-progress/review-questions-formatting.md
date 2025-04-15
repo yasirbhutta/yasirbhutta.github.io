@@ -43,6 +43,11 @@ questions:
   - How do you remove a border from a cell?
   - How do you add a background color to a cell?
   - What are cell styles?
+  - What is the keyboard shortcut for opening the Format Cells dialog box? (Windows only)
+  - What is the keyboard shortcut for applying the Format Painter tool? (Windows only)
+  - How can you rotate text? (Windows only)
+  - What is the purpose of the Font dialog box? (Windows only)
+  - How can you access the Format Cells dialog box in Excel to apply custom formatting? (Windows only)
 
 answers:
 
