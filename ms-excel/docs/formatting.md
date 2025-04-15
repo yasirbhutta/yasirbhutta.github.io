@@ -13,32 +13,14 @@ author: Muhammad Yasir Bhutta
 
 ## **Contents: Formatting cells and ranges**
 
-- **[Changing the Font, Font Size, and Font Color](#font)**
-  - Learn how to modify the appearance of text in Excel by changing fonts, font sizes, and colors.
-
-- **[Borders](#borders)**
-  - Understand how to apply, customize, and remove cell borders to visually separate data.
-
-- **[Aligning Text](#data-alignment)**
-  - Explore text alignment options, including horizontal and vertical alignment, to position data within cells.
-
-- **[Applying Borders and Shading](#borders)**
-  - Discover how to enhance the readability of your data by applying borders and shading.
-
-- **[Merging and Splitting Cells](#merge--center)**
-  - Learn how to merge multiple cells into one and align their contents in the center.
-
-- **[Number Format](#number-format)**
-  - Understand how to format numbers as currency, percentages, dates, and more.
-
-- **[Wrap Text and Cell Style](#wrap-text)**
-  - Learn how to wrap text within cells and apply predefined or custom cell styles.
-
-- **[Additional Topics](#additional-topics)**
-  - Adjust text in columns and fit more text in column headings.
-
-- **[Further Reading](#further-reading)**
-  - Access additional resources and references to deepen your understanding of Excel formatting.
+- [Changing the Font, Font Size, and Font Color](#font)
+- [Borders](#borders)
+- [Aligning Text](#data-alignment)
+- [Applying Borders and Shading](#borders)
+- [Merging and Splitting Cells](#merge--center)
+- [Number Format](#number-format)
+- [Wrap Text and Cell Style](#wrap-text)
+- [Additional Topics](#additional-topics)
 
 > **Important:** Keyboard shortcut keys can only be used in Windows, not in Android.
 
@@ -419,39 +401,33 @@ In the Gridline color box, click the color you want.
 
 ### Adjust Text in Column
 {% include practice-and-progress.html topic=topic %}
+
 **See also:** 
-## References and Bibliography
--ae58-9774a0905f46)
-- [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)8527b)
+- [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
 
 ## Further Reading
 
 {% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
-strikethrough)
-{% assign topic = "formatting" %}ice/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a)
-{% include practice-and-progress.html topic=topic %}[^9]: [Add or change the background color of cells - Microsoft Support](https://support.microsoft.com/en-us/office/add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)
-e)
+
+{% assign topic = "formatting" %}
+{% include practice-and-progress.html topic=topic %}
+
 ## References and Bibliography
 
-[11^]: [Align text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
-
-[Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
-[15^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)[14^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
-[13^]: [What is the use of the ‘Merge and Center’ feature in MS Excel](https://edupepper.com/what-is-the-use-of-the-merge-and-center-feature-in-ms-excel/])
-[12^]: [How to align text in Excel](How to align text in Excel)
-[11^]: [Align text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
-[10^]: [Change the color of text - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-text-99b47f41-4e14-4551-a09d-820a004d1cde)
-[^9]: [Add or change the background color of cells - Microsoft Support](https://support.microsoft.com/en-us/office/add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)
-[^8]: [Apply or remove cell borders on a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a)
-[^7]: [The Only Guide You'll Need For Excel Strikethrough - simple sheets](https://www.simplesheets.co/blog/the-only-guide-you-must-have-about-excel-strikethrough)
-[^6]: [Understanding Underlines In Excel](https://exceladept.com/understanding-underlines-in-excel/)
-[^5]: [Keyboard shortcuts in Excel](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
-[^4]: [Use the Format Painter](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40)
-[^3]: [Merge and unmerge cells - Microsoft Support](https://support.microsoft.com/en-au/office/merge-and-unmerge-cells-5cbd15d5-9375-4540-907f-c673a93fcedf)
-[^2]: [Font size - Computer Hope](https://www.computerhope.com/jargon/f/font-size.htm)
-[^1]: [WhatTheFont](https://www.myfonts.com/pages/whatthefont)[12^]: [How to align text in Excel](How to align text in Excel)
-[13^]: [What is the use of the ‘Merge and Center’ feature in MS Excel](https://edupepper.com/what-is-the-use-of-the-merge-and-center-feature-in-ms-excel/])
-[14^]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)
-[15^]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)
+[^1]: [WhatTheFont](https://www.myfonts.com/pages/whatthefont)  
+[^2]: [Font size - Computer Hope](https://www.computerhope.com/jargon/f/font-size.htm)  
+[^3]: [Merge and unmerge cells - Microsoft Support](https://support.microsoft.com/en-au/office/merge-and-unmerge-cells-5cbd15d5-9375-4540-907f-c673a93fcedf)  
+[^4]: [Use the Format Painter](https://support.microsoft.com/en-us/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40)  
+[^5]: [Keyboard shortcuts in Excel](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)  
+[^6]: [Understanding Underlines In Excel](https://exceladept.com/understanding-underlines-in-excel/)  
+[^7]: [The Only Guide You'll Need For Excel Strikethrough - simple sheets](https://www.simplesheets.co/blog/the-only-guide-you-must-have-about-excel-strikethrough)  
+[^8]: [Apply or remove cell borders on a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/apply-or-remove-cell-borders-on-a-worksheet-dc8a310b-92e3-46a7-9f17-2ab745810f4a)  
+[^9]: [Add or change the background color of cells - Microsoft Support](https://support.microsoft.com/en-us/office/add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)  
+[^10]: [Change the color of text - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-text-99b47f41-4e14-4551-a09d-820a004d1cde)  
+[^11]: [Align text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)  
+[^12]: [How to align text in Excel](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)  
+[^13]: [What is the use of the ‘Merge and Center’ feature in MS Excel](https://edupepper.com/what-is-the-use-of-the-merge-and-center-feature-in-ms-excel/)  
+[^14]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)  
+[^15]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)  
 [Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
