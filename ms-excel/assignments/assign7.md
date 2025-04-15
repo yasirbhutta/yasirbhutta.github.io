@@ -1,6 +1,12 @@
-# Excel Sheet Assignment: Product Sales
+---
+layout: default
+title: Microsoft Excel Assignment - Product Sales Analysis for Beginners  
+description: Practice Microsoft Excel skills with this product sales analysis assignment. Learn data entry, formatting, calculations using formulas, and data analysis techniques. Perfect for beginners to master Excel basics and enhance productivity.  
+keywords: Microsoft Excel assignment, Excel product sales analysis, Excel beginner assignment, Excel data entry, Excel formatting tutorial, Excel formulas and functions, Excel calculations, Excel data analysis, Excel practice assignment, Excel productivity tips
+author: Muhammad Yasir Bhutta
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Excel Sheet Assignment: Product Sales
 
 - [Download PDF](assign7.pdf)  
 

@@ -1,6 +1,12 @@
-# Excel Sheet Assignment: Budget Planner
+---
+layout: default
+title: Microsoft Excel Assignment - Create a Budget Planner with Formulas and Charts  
+description: Complete this Microsoft Excel assignment to create a budget planner. Learn to use formulas like SUM, apply conditional formatting, and create charts for data visualization. Perfect for beginners to master Excel basics and manage finances effectively.  
+keywords: Microsoft Excel assignment, Excel budget planner, Excel beginner assignment, Excel SUM function, Excel conditional formatting, Excel charts, Excel data visualization, Excel financial planning, Excel tutorial for beginners, Excel practice assignment
+author: Muhammad Yasir Bhutta
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Excel Sheet Assignment: Budget Planner
 
 - [Download PDF](assign4.pdf)  
 

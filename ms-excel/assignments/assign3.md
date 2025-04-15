@@ -1,6 +1,12 @@
-# Ms Excel - Assignment 3
+---
+layout: default
+title: Microsoft Excel Assignment - Create an Attendance Report with Formulas and Formatting  
+description: Complete this Microsoft Excel assignment to create an attendance report. Learn to apply merge and center, wrap text, borders, use SUM and COUNTIF functions, calculate percentages, and format worksheets. Perfect for beginners to enhance their Excel skills.  
+keywords: Microsoft Excel assignment, Excel attendance report, Excel beginner assignment, Excel SUM function, Excel COUNTIF function, Excel Percentage formula, Excel formatting tutorial, Excel merge and center, Excel wrap text, Excel table borders, Excel practice for beginners
+author: Muhammad Yasir Bhutta
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Ms Excel - Assignment 3
 
 - [Download PDF](assign3.pdf)  
   

@@ -1,6 +1,12 @@
-# Ms Excel - Marks report
+---
+layout: default
+title: Microsoft Excel Assignment - Create a Marks Report with Formulas and Formatting  
+description: Complete this Microsoft Excel assignment to create a marks report. Learn to apply merge and center, wrap text, borders, use SUM and Percentage formulas, and format worksheets. Perfect for beginners to enhance their Excel skills.  
+keywords: Microsoft Excel assignment, Excel marks report, Excel beginner assignment, Excel SUM function, Excel Percentage formula, Excel formatting tutorial, Excel merge and center, Excel wrap text, Excel table borders, Excel practice for beginners
+author: Muhammad Yasir Bhutta
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Ms Excel - Marks report
 
 - [Download PDF](assign2.pdf)  
   
