@@ -485,39 +485,7 @@ In the Gridline color box, click the color you want.
 
 ## Review Questions
 
-1. What is the purpose of formatting in Excel, and why is it important?
-2. What is the difference between cell formatting and cell value?
-3. How do you apply formatting to a range of cells?
-4. How do you clear formatting from a range of cells?
-5. Explain the purpose of the Format Painter tool in Excel and how to use it.
-6. Explain the purpose of the "Fill Color" and "Font Color" options in Excel and how to use them effectively.
-7. How do you change the text color in a cell?
-8. Describe the difference between cell formatting and cell style in Excel.
-9. How can you apply a font style to multiple cells at once?
-10. Explain how to apply bold, italic, and underline formatting to text in Excel.
-11. Describe the process of applying borders and shading to cells in Excel.
-12. What is the difference between a custom number format and a built-in number format?
-13. What are the different types of number formats in Excel?
-14. How can you adjust the alignment of text within a cell (e.g., left, right, center, top, bottom) in Excel?
-15. How do you apply number formatting to display negative numbers in red or parentheses in Excel? ***
-16. How can you format numbers to show a percentage sign?
-17. How do you display currency symbols in a cell?
-18. How do you display dates and times in a specific format?
-19. How can you use the Format Painter tool to copy font formatting from one cell to another?
-20. What are the different types of alignment options in Excel?
-21. How can you wrap text in a cell?
-22. How do you center text in a cell?
-23. How do you center text horizontally and vertically in a cell?
-24. What is the purpose of the "Merge & Center" command in Excel, and how does it affect the formatting of cells?
-25. How can you add borders and shading to cells?
-26. How can you quickly remove all formatting from a cell?
-27. How can you change the horizontal and vertical alignment of a cell?
-28. What are the different border styles available in Excel?
-29. How do you add a border to a cell?
-30. How do you change the border style and color?
-31. How do you remove a border from a cell?
-32. How do you add a background color to a cell?
-33. What are cell styles?
+
 
 ### Windows only
 
