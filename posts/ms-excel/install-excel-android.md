@@ -14,39 +14,38 @@ tags: [android, excel, tutorial, mobile, hindi, Excel app, Excel for Android, mo
 
 ## Further learning
 
-- [Excel Mobile | TOP 25 Tips to use the Excel Mobile App | Microsoft 365](https://youtu.be/y9m36XLI4v4)
+- [Excel Mobile \| TOP 25 Tips to use the Excel Mobile App \| Microsoft 365](https://youtu.be/y9m36XLI4v4)
 
-mobile me excel kaise chalaye
-excel app in mobile phone in hindi
-excel app
-best excel app for android
-phone me excel kaise chalaye
-how to create excel sheet in mobile
-how to open excel file in samsung mobile
-excel phone mein kaise download karen
-excel mobile use app
-excel app in mobile phone
-how to make excel sheet in mobile
-free excel app for mobile
-how to open excel in mobile
-excel in phone
-excel on mobile phone
-ms excel in mobile
-excel for mobile phone
-how to download excel in mobile
-mobile excel
-ms excel in phone
-how to do excel in phone
-how to use excel in phone
-mobile mein excel kaise chalayen
-excel for android phone
-excel app in mobile phone in tamil
-excel app kaise open kare
-ms excel in android phone download
-excel in mobile phone
-excel mobile use app download
-excel mobile use hindi
-excel in mobile
-mobile excel app
-how to use excel in mobile
-how to download excel in phone
+- mobile me excel kaise chalaye
+- excel app in mobile phone in hindi
+- excel app
+- best excel app for android
+- phone me excel kaise chalaye
+- how to create excel sheet in mobile
+- how to open excel file in samsung mobile
+- excel phone mein kaise download karen
+- excel mobile use app
+- excel app in mobile phone
+- how to make excel sheet in mobile
+- free excel app for mobilehow to open excel in mobile
+- excel in phone
+- excel on mobile phone
+- ms excel in mobile
+- excel for mobile phone
+- how to download excel in mobile
+- mobile excel
+- ms excel in phone
+- How to do Excel in phone  
+- How to use Excel in phone  
+- Mobile mein Excel kaise chalayen  
+- Excel for Android phone  
+- Excel app in mobile phone in Tamil  
+- Excel app kaise open kare  
+- MS Excel in Android phone download  
+- Excel in mobile phone  
+- Excel mobile use app download  
+- Excel mobile use Hindi  
+- Excel in mobile  
+- Mobile Excel app  
+- How to use Excel in mobile  
+- How to download Excel in phone  
