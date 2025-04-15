@@ -16,6 +16,9 @@ tags: [android, excel, tutorial, mobile, hindi, Excel app, Excel for Android, mo
 
 - [Excel Mobile \| TOP 25 Tips to use the Excel Mobile App \| Microsoft 365](https://youtu.be/y9m36XLI4v4)
 
+{% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%}
+
 - mobile me excel kaise chalaye
 - excel app in mobile phone in hindi
 - excel app
