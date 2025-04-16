@@ -4,7 +4,6 @@ description: Learn inheritance in Python with this beginner-friendly guide. Unde
 keywords: Python inheritance tutorial, Python OOP inheritance, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel inheritance Python, Python OOP basics, Python programming for beginners, Python class inheritance examples
 layout: default
 ---
-# 🧑‍🏫 Inheritance in Python
 
 ## 🔷 What is Inheritance?
 
