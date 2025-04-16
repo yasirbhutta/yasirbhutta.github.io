@@ -6,7 +6,8 @@ layout: default
 
 <h2>Beginners</h2>
 
-{% assign beginner_posts = site.posts | where_exp: "post", "post.categories contains 'beginners' and post.categories contains 'ms-excel'" %}
+{% assign beginner_posts = site.posts | where_exp: "post", "post.categories contains 'beginners'" %}
+{% assign beginner_posts = beginner_posts | where_exp: "post", "post.categories contains 'ms-excel'" %}
 {% for post in beginner_posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
