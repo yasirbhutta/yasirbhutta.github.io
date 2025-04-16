@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    <!-- <header>
+<!-- <header>
         <nav>
             <ul>
                 <li><a href="/python/">Home</a></li>
@@ -12,23 +12,19 @@ layout: default
             </ul>
         </nav>
     </header> -->
-    <article class="page">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
-        <div class="page-content">
-          {{ content }}
-        </div>
-        <hr>
-      
-        <p><a href="../index.html">← Back to Excel Articles</a></p>
-      </article> 
-    <aside>
-        <h3>Explore More Topics</h3>
-        <ul>
-            <li><a href="/python/docs/classes.html">Classes and Objects</a></li>
-            <li><a href="/python/docs/oop-inheritance.html">Inheritance in Python</a></li>
-            <li><a href="/python/docs/functions.html">Functions in Python</a></li>
-            <li><a href="/python/docs/error.html">Exception Handling</a></li>
-            <li><a href="/python/docs/comprehensions.html">List and Dictionary Comprehensions</a></li>
-        </ul>
-    </aside>
+<article class="page">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+    <div class="page-content">
+        {{ content }}
+    </div>
+    <hr>
+
+    <h3>Explore More Topics</h3>
+    {% if page.toc %}
+    {% assign show_heading = false %}
+    {% include {{ page.toc }} show_heading=show_heading %}
+    {% endif %}
+    <hr>
+    <p><a href="../index.html">← Back to Excel Articles</a></p>
+</article>
