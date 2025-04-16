@@ -10,7 +10,8 @@ layout: default
     {% for category in page.categories %}
       <span class="badge">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
-    | Published on {{ page.date | date: "%B %d, %Y" }}
+    | Published on {{ page.date | date: "%B %d, %Y" }} | Author: {{ page.author }} | Tags: 
+
   </p>
 
   <div class="post-content">
@@ -19,5 +20,5 @@ layout: default
 
   <hr>
 
-  <p><a href="index.html">← Back to Articles</a></p>
+  <p><a href="index.html">← Back to Excel Articles</a></p>
 </article>
