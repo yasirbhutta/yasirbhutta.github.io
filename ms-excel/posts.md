@@ -9,7 +9,7 @@ layout: default
 {% assign beginner_posts = site.posts | where_exp: "post", "post.categories contains 'beginners'" %}
 {% assign beginner_posts = beginner_posts | where_exp: "post", "post.categories contains 'ms-excel'" %}
 {% for post in beginner_posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ site.url }}{{ post.url }})
 {% endfor %}
 
 <h2>Intermediate</h2>
