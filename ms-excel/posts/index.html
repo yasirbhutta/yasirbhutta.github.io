@@ -2,20 +2,15 @@
 layout: default
 ---
 
-<h1>Micrsoft Excel Articles</h1>
+<h1>Microsoft Excel Articles</h1>
 
 <h2>Beginners</h2>
 
-<a href="index.html">Install Excel App on Android Phone - Mobile Me Excel Kaise Chalaye</a>
-
-- [Install Excel App on Android Phone - Mobile Me Excel Kaise Chalaye](install-excel-android.md)
-
-{% assign beginner_posts = site.pages | where_exp: "post", "post.path contains '/ms-excel/posts' and post.category == 'beginners'" %}
+{% assign beginner_posts = site.pages | where_exp: "post", "post.path contains '/ms-excel/posts' and post.categories contains 'beginners'" %}
 {% for post in beginner_posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+<h2>Intermediate</h2>
 
-<h2> Intermediate </h2>
-
-<h3>Advanced</h3>  
+<h3>Advanced</h3>
