@@ -23,6 +23,7 @@ Start learning Python today—no sign-up required!
 - [Python Exercises for Beginners](exercises/index.md)
 - [Python Articles](/python/posts/)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
+- [Python Posts - Tips, Tutorials, and Guides](posts/)
   
 ## Installation & Getting Started
 
