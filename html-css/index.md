@@ -20,8 +20,8 @@ description: --.
 {% assign show_heading = true %}
 {% include toc/html-toc.html show_heading=show_heading %}
 
-{% assign show_heading = true %}
-{% include toc/emmet-toc.html show_heading=show_heading %}
+<!-- {% assign show_heading = true %}
+{% include toc/emmet-toc.html show_heading=show_heading %} -->
 
 {% assign show_heading = true %}
 {% include toc/css-toc.html show_heading=show_heading %}
