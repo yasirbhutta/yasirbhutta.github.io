@@ -140,6 +140,18 @@ However, in this case, since we have the angle of elevation and the distance (ad
 tan(theta) = opposite / adjacent
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 **Python Code for Using Tangent and Sine to Calculate the Height**
 
 ```python
@@ -250,6 +262,18 @@ This code calculates the height using both the tangent and sine functions, and y
 | Combinatorics                    | `math.perm`, `math.comb`                |
 
 The `math` library is a comprehensive toolset for performing a wide range of mathematical calculations, making Python versatile for both basic and advanced math applications. Let me know if you'd like further details or examples on any specific function!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Key Terms
 

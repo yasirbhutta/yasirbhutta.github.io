@@ -17,15 +17,14 @@ description: --.
 
 ## Contents
 
-### HTML: HyperText Markup Language
-
-{% include toc/html-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}
 
 ## Emmet for HTML
 
 - [Intro. to Emmet](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
-
-{% include toc/css-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/css-toc.html show_heading=show_heading %}
 
  
