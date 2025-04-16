@@ -12,17 +12,19 @@ layout: default
             </ul>
         </nav>
     </header> -->
-
-    <main>
-        <article>
-            <h1>{{ page.title }}</h1>
-            <p>{{ page.description }}</p>
-            <section>
-                {{ content }}
-            </section>
-        </article>
-    </main>
-
+    <article class="age">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+        <p class="page-meta">
+        Author: {{ page.author }} 
+        </p>
+        <div class="page-content">
+          {{ content }}
+        </div>
+        <hr>
+      
+        <p><a href="../index.html">← Back to Excel Articles</a></p>
+      </article> 
     <!-- <aside>
         <h3>Explore More Topics</h3>
         <ul>
