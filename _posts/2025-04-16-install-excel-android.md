@@ -8,7 +8,7 @@ date: 2025-04-10
 permalink: /ms-excel/posts/install-excel-mobile-app/
 ---
 
-### ✅ **Step-by-step: Install Excel on Android**
+## ✅ **Step-by-step: Install Excel on Android**
 
 1. **Unlock your phone**  
    - Make sure your device is on and connected to the internet (Wi-Fi or mobile data).
@@ -48,7 +48,7 @@ permalink: /ms-excel/posts/install-excel-mobile-app/
 
 ---
 
-## Further learning
+## Explore More Excel Topics
 
 - [Excel Mobile \| TOP 25 Tips to use the Excel Mobile App \| Microsoft 365](https://youtu.be/y9m36XLI4v4)
 
