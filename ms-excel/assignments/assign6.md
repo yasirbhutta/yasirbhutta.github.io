@@ -57,7 +57,9 @@ This assignment will help you practice using basic Excel functions and formattin
 
 By completing this assignment, you will gain valuable skills in data analysis and presentation using Microsoft Excel.
 
-{% assign show_heading = true %}
+## Explore More Excel Topics
+
+{% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"

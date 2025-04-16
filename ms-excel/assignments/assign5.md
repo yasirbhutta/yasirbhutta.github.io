@@ -41,7 +41,9 @@ author: Muhammad Yasir Bhutta
      - **Column D**: Points/Grades (if you want to track scores)
      - **Column E**: Notes (for additional comments or instructions)
 
-{% assign show_heading = true %}
+## Explore More Excel Topics
+
+{% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"

@@ -51,7 +51,9 @@ This assignment will help you practice creating a budget using Excel formulas an
     - Applying conditional formatting.
     - Creating charts for data visualization.
   
-{% assign show_heading = true %}
+## Explore More Excel Topics
+
+{% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"

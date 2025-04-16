@@ -16,7 +16,9 @@ author: Muhammad Yasir Bhutta
 - [Excel Sheet Assignment 6: Sales Analysis](assign6.md)
 - [Excel Sheet Assignment 7: Product Sales](assign7.md)
 
-{% assign show_heading = true %}
+## Explore More Excel Topics
+
+{% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"

@@ -25,7 +25,9 @@ Please prepare worksheet as per samples given below:
 - Record the video to both sheets with voice and explain the sheets
 - Upload the video in Ms Team assignment or Google Class
 
-{% assign show_heading = true %}
+## Explore More Excel Topics
+
+{% assign show_heading = false %}
 {% include toc/ms-excel-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
