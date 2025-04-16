@@ -1,4 +1,10 @@
-# Python: Language Basics
+---
+layout: page
+title: Python Basics - Beginner-Friendly Tutorials, Examples, and Exercises  
+description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, data types, and more. Perfect for students and professionals starting their Python journey.  
+keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+toc: toc/python-toc.html
+---
 
 ## What is Python
 
