@@ -26,13 +26,14 @@
   
 ## Course Notes
 
-### HTML: HyperText Markup Language
+{% assign show_heading = true %}
+{% include toc/html-toc.html show_heading=show_heading %}
 
-{% include toc/html-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/emmet-toc.html show_heading=show_heading %}
 
-### CSS: Cascading Style Sheets
-
-{% include toc/css-toc.html show_heading=true %}
+{% assign show_heading = true %}
+{% include toc/css-toc.html show_heading=show_heading %}
 
 ### [Web Development Articles](../html-css/posts/)
 
