@@ -1,4 +1,10 @@
-# 3. Data Types in Python
+---
+layout: page
+title: Python Data Types - Comprehensive Guide with Examples and Exercises  
+description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
+keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
+toc: toc/python-toc.html
+---
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
 
