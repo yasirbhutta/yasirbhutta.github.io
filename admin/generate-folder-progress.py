@@ -1,7 +1,7 @@
 import os
 
-course = "ms-excel"  # Replace with the desired course name
-topic = "tips-and-tricks"  # Replace with the desired topic
+course = "python"  # Replace with the desired course name
+topic = "oop-inheritance"  # Replace with the desired topic
 # Define the directory path where the markdown files will be created
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [

@@ -31,42 +31,8 @@ Start learning Python today—no sign-up required!
   - [Tasks: Installation of Tools](docs/python-task-based-learning.md)
 - [Python - Quick Guide for Ultimate Python Beginner's](docs/quick-guide.md)
 
-## 🐣 Python for Beginners
-
-1. [Python Language Basics](docs/basics.md) [[pdf]](/downloads/python/basics.pdf)
-2. [Variables](docs/variables.md) [[pdf]](/downloads/python/variables.pdf)
-3. [Data Types](docs/data-types.md) [[pdf]](/downloads/python/data-types.pdf)
-4. [Operators](docs/operators.md)   [[pdf]](/downloads/python/operators.pdf)
-5. [Control Flow](docs/control-flow.md)
-6. [Defining Functions](docs/functions.md)[[pdf]](/downloads/python/functions.pdf)
-7. [Data Structures and Sequences](docs/dss.md)
-8. [Python Sorting](docs/sorting.md)
-12. Functions and Methods
-  - [Built-in Functions](docs/built_in_functions.md)
-  - [String Methods](docs/str-methods.md)
-  - [List Methods](#)
-  - [Dictionary Methods](#)
-  - [Tuple Methods](#)
-  - [Set Methods](#)
-9. [Modules and Libraries](docs/modules-libraries.md)
-10. [Working with Files](docs/files.md)
-    - [File Methods](#)
-11. [Exception Handling](docs/error.md)
-12. [Comprehensions (List and Dictionary)](docs/comprehensions.md)
-13. [Python for Kids](docs/python-kids.md)
-14. [Python in Excel](docs/python-excel.md)
-
-## 🧠 Python Advanced
-
-15. [Advanced function concepts](docs/functions-adv-concepts.md)
-17. [Generator Functions](posts/generators-in-python.md)
-18. [Decorators](docs/decorators.md)
-19. Object-Oriented Programming in Python (OOP)
-    - [Classes and Objects](docs/classes.md)
-20. [Regular Expressions](docs/re.md)
-21. [Python Performance and Best practices](docs/best-practices.md)
-22. [Data Visualization in Python](docs/data-visualization.md)
-23. [Python Programming for Mathematics](docs/python-mathematics.md)
+{% assign show_heading = true %}
+{% include toc/python-toc.html show_heading=show_heading%}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
