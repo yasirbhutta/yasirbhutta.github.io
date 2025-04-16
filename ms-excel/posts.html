@@ -1,13 +1,12 @@
 ---
 layout: default
-
 ---
+
 <h1>Microsoft Excel Articles</h1>
 
 <h2>Beginners</h2>
 
-{% assign ms_excel_posts = site.pages | where_exp: "post" %}
-{% assign beginner_posts = ms_excel_posts | where_exp: "post", "post.categories contains 'beginners'" %}
+{% assign beginner_posts = site.posts | where_exp: "post", "post.categories contains 'beginners' and post.categories contains 'ms-excel'" %}
 {% for post in beginner_posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}

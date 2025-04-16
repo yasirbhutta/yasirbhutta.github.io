@@ -3,7 +3,7 @@ layout: post
 title: "Excel Mobile | Install Excel App on Android Phone - Mobile Me Excel Kaise Chalaye"
 description: Learn how to install and use the Excel app on your Android phone. Step-by-step guide in Hindi to create, open, and edit Excel sheets on mobile. Perfect for beginners to master Excel on the go.  
 keywords: Excel app for Android, mobile me Excel kaise chalaye, how to use Excel in mobile, Excel app tutorial, Excel for Android phone, free Excel app for mobile, how to download Excel in phone, Excel mobile use, Excel sheet in mobile, Excel app in Hindi
-categories: [beginners]
+categories: [beginners, ms-excel]
 date: 2025-04-10
 permalink: /ms-excel/posts/install-excel/
 ---
