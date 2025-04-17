@@ -18,7 +18,7 @@ layout: default
     <div class="page-content">
         {{ content }}
     </div>
-    
+
     <h1>{{ page.subject }}</h1>
     <h1>{{ page.topic }}</h1>
     
@@ -26,7 +26,8 @@ layout: default
     
     {% if page.topic %}
     {% assign topic = {{ page.topic }} %}
-    {% include practice-and-progress.html topic=topic %}
+    {% assign subject = {{ page.subject }} %}
+    {% include practice-and-progress.html topic=topic subject=subject %}
     {% endif %}
     
     <hr>
