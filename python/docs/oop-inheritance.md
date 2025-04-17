@@ -10,9 +10,8 @@ toc: toc/python-toc.html
 
 - [What is Inheritiance?](#-what-is-inheritance)
 - [Single Inheritance](#single-inheritance)
-- [Multilevel Inheritance](#multilevel-inheritance)
-- ...
-- 
+- [Multilevel Inheritance](#multilevel-inheritance-in-python)
+  
 ## 🔷 What is Inheritance?
 
 **Inheritance** is a way to create a new class from an existing class.  
@@ -124,7 +123,7 @@ s.introduce()
 
 ## Multilevel Inheritance in Python
 
-Multilevel Inheritance is a type of inheritance where a class (child class) inherits from another class (parent class), and then another class (grandchild class) inherits from the child class. This forms a chain of inheritance.
+**Multilevel Inheritance** is a type of inheritance where a class (child class) inherits from another class (parent class), and then another class (grandchild class) inherits from the child class. This forms a chain of inheritance.
 
 ```
 Person (Parent Class)
@@ -152,7 +151,6 @@ g.speak()
 g.study()
 g.research()
 ```
-
 
 ## **Example: E-Commerce Product Catalog**
 
