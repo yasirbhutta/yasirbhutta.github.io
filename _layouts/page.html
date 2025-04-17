@@ -26,5 +26,11 @@ layout: default
     {% include {{ page.toc }} show_heading=show_heading %}
     {% endif %}
     <hr>
+
+    {% if page.topic %}
+    {% assign topic = {{ page.topic }} %}
+    {% include practice-and-progress.html topic=topic %}
+    {% endif %}
+    <hr>
     <p><a href="../index.html">← Back to Excel Articles</a></p>
 </article>

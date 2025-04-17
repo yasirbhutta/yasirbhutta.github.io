@@ -4,13 +4,15 @@ title: Inheritance in Python - Beginner's Guide with Examples
 description: Learn inheritance in Python with this beginner-friendly guide. Understand parent and child classes, method overriding, `super()`, and multilevel inheritance with examples. Perfect for Python learners to master object-oriented programming.  
 keywords: Python inheritance tutorial, Python OOP inheritance, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel inheritance Python, Python OOP basics, Python programming for beginners, Python class inheritance examples
 toc: toc/python-toc.html
+topic: oop-inheritance
 ---
 
-## Table of Contents
-
+## Topics Covered
 - [What is Inheritiance?](#-what-is-inheritance)
 - [Single Inheritance](#single-inheritance)
 - [Multilevel Inheritance](#multilevel-inheritance-in-python)
+  - [Multilevel Inheritance Example: Person, Student, and GraduateStudent in Python](#multilevel-inheritance-example-person-student-and-graduatestudent-in-python)
+  - [Multilevel Inheritance Example: E-Commerce Product Catalog](#example-e-commerce-product-catalog)
   
 ## 🔷 What is Inheritance?
 
@@ -131,7 +133,7 @@ Person (Parent Class)
         ↳ GraduateStudent (Grandchild Class)
 ```
 
-### Example of Multilevel Inheritance:
+### Multilevel Inheritance Example: Person, Student, and GraduateStudent in Python
 
 ```python
 class Person:
@@ -152,12 +154,12 @@ g.study()
 g.research()
 ```
 
-## **Example: E-Commerce Product Catalog**
+### **Example: E-Commerce Product Catalog**
 
-### **Scenario**  
+#### **Scenario**  
 Different types of products (e.g., physical, digital, subscription) share common attributes but have unique behaviors. Inheritance helps avoid code duplication.
 
-### **Base Class**
+#### **Base Class**
 ```python
 class Product:
     def __init__(self, name, price, sku):
@@ -173,7 +175,7 @@ class Product:
         return f"{self.name} (SKU: {self.sku}) - ${self.price:.2f}"
 ```
 
-### **Subclasses with Specialized Logic**
+#### **Subclasses with Specialized Logic**
 ```python
 class DigitalProduct(Product):
     def __init__(self, name, price, sku, file_size):
@@ -200,7 +202,7 @@ class SubscriptionProduct(Product):
         print(f"Subscription renewed for {self.duration_months} months.")
 ```
 
-### **Usage**
+#### **Usage**
 ```python
 # Create instances
 ebook = DigitalProduct("Python Guide", 29.99, "D123", "50MB")
