@@ -18,12 +18,14 @@ layout: default
     <div class="page-content">
         {{ content }}
     </div>
+    
     <hr>
-
+    
     {% if page.topic %}
     {% assign topic = {{ page.topic }} %}
     {% include practice-and-progress.html topic=topic %}
     {% endif %}
+    
     <hr>
 
     <h3>Explore More Topics</h3>
@@ -31,6 +33,7 @@ layout: default
     {% assign show_heading = false %}
     {% include {{ page.toc }} show_heading=show_heading %}
     {% endif %}
+    
     <hr>
 
     <p><a href="../index.html">← Back to Excel Articles</a></p>
