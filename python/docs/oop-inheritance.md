@@ -6,9 +6,12 @@ keywords: Python inheritance tutorial, Python OOP inheritance, parent and child 
 toc: toc/python-toc.html
 ---
 
-## Contents
+## Table of Contents
 
-- [What is Inheritiance?]
+- [What is Inheritiance?](#-what-is-inheritance)
+- [Single Inheritance](#single-inheritance)
+- [Multilevel Inheritance](#multilevel-inheritance)
+- ...
 - 
 ## 🔷 What is Inheritance?
 
@@ -23,6 +26,10 @@ It helps us **reuse code**, **extend functionality**, and follow the **DRY (Don'
   - Modify (override) methods from the parent class.
 
 Think of inheritance like a family tree. A child inherits traits (methods and attributes) from their parents, but they can also have their own unique traits.
+
+## Single Inheritance
+
+**Single Inheritance** is a type of inheritance where a child class inherits from only one parent class. This allows the child class to reuse the methods and attributes of the parent class while also adding its own unique features.
 
 ---
 
@@ -115,7 +122,17 @@ s.introduce()
 
 ---
 
-## 🔹 6. Multilevel Inheritance (Optional)
+## Multilevel Inheritance in Python
+
+Multilevel Inheritance is a type of inheritance where a class (child class) inherits from another class (parent class), and then another class (grandchild class) inherits from the child class. This forms a chain of inheritance.
+
+```
+Person (Parent Class)
+    ↳ Student (Child Class)
+        ↳ GraduateStudent (Grandchild Class)
+```
+
+### Example of Multilevel Inheritance:
 
 ```python
 class Person:
@@ -136,10 +153,81 @@ g.study()
 g.research()
 ```
 
-### 🔍 Multilevel Inheritance Diagram:
-Person (Parent Class)
-    ↳ Student (Child Class)
-        ↳ GraduateStudent (Grandchild Class)
+
+## **Example: E-Commerce Product Catalog**
+
+### **Scenario**  
+Different types of products (e.g., physical, digital, subscription) share common attributes but have unique behaviors. Inheritance helps avoid code duplication.
+
+### **Base Class**
+```python
+class Product:
+    def __init__(self, name, price, sku):
+        self.name = name
+        self.price = price
+        self.sku = sku
+
+    def apply_discount(self, discount_percent):
+        self.price *= (1 - discount_percent / 100)
+        return self.price
+
+    def get_description(self):
+        return f"{self.name} (SKU: {self.sku}) - ${self.price:.2f}"
+```
+
+### **Subclasses with Specialized Logic**
+```python
+class DigitalProduct(Product):
+    def __init__(self, name, price, sku, file_size):
+        super().__init__(name, price, sku)
+        self.file_size = file_size  # Unique to digital products
+
+    def download_link(self):
+        return f"https://store.com/download/{self.sku}"
+
+class PhysicalProduct(Product):
+    def __init__(self, name, price, sku, weight):
+        super().__init__(name, price, sku)
+        self.weight = weight  # In grams
+
+    def calculate_shipping(self):
+        return max(5, self.weight * 0.01)  # $0.01 per gram, min $5
+
+class SubscriptionProduct(Product):
+    def __init__(self, name, price, sku, duration_months):
+        super().__init__(name, price, sku)
+        self.duration_months = duration_months
+
+    def renew(self):
+        print(f"Subscription renewed for {self.duration_months} months.")
+```
+
+### **Usage**
+```python
+# Create instances
+ebook = DigitalProduct("Python Guide", 29.99, "D123", "50MB")
+tshirt = PhysicalProduct("Python T-Shirt", 19.99, "P456", 300)
+subscription = SubscriptionProduct("Premium Access", 9.99, "S789", 12)
+
+# Use inherited methods
+ebook.apply_discount(10)  # Applies 10% discount
+print(ebook.get_description())  # Output: "Python Guide (SKU: D123) - $26.99"
+
+# Use subclass-specific methods
+print(tshirt.calculate_shipping())  # Output: 5.0 (300g * $0.01 = $3, but min $5)
+print(subscription.renew())         # Output: "Subscription renewed for 12 months."
+```
+
+---
+
+*Keypoints*
+
+1. **Code Reuse**: Common logic like `apply_discount` is defined once in the base class.
+2. **Specialization**: Subclasses add unique attributes (`file_size`, `weight`) and methods (`download_link`, `calculate_shipping`).
+3. **Polymorphism**: All products can be treated uniformly (e.g., stored in a list of `Product` objects).
+4. **Extensibility**: New product types (e.g., `BundleProduct`) can be added without modifying existing code.
+
+This example mirrors real-world systems like Shopify or WooCommerce, where inheritance simplifies managing diverse product types.
 
 ## 🧠 Summary
 
