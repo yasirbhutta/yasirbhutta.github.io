@@ -20,6 +20,12 @@ layout: default
     </div>
     <hr>
 
+    {% if page.topic %}
+    {% assign topic = {{ page.topic }} %}
+    {% include practice-and-progress.html topic=topic %}
+    {% endif %}
+    <hr>
+
     <h3>Explore More Topics</h3>
     {% if page.toc %}
     {% assign show_heading = false %}
@@ -27,10 +33,5 @@ layout: default
     {% endif %}
     <hr>
 
-    {% if page.topic %}
-    {% assign topic = {{ page.topic }} %}
-    {% include practice-and-progress.html topic=topic %}
-    {% endif %}
-    <hr>
     <p><a href="../index.html">← Back to Excel Articles</a></p>
 </article>
