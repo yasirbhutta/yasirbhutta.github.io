@@ -1,4 +1,9 @@
-# Learn with Yasir
+---
+layout: page
+title: Learn with Yasir - Python, Microsoft 365, and Google Workspace Tutorials  
+description: Explore beginner-friendly tutorials, examples, and exercises on Python programming, Microsoft 365 (Excel, Word, PowerPoint), Google Workspace, and more. Perfect for students and professionals to enhance their skills.  
+keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorials, Microsoft Word basics, Google Workspace tips, Excel formulas and functions, Python programming exercises, IT courses, web development, computer basics
+---
 
 ## Coding
 

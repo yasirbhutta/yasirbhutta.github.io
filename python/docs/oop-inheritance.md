@@ -6,6 +6,10 @@ keywords: Python inheritance tutorial, Python OOP inheritance, parent and child 
 toc: toc/python-toc.html
 ---
 
+## Contents
+
+- [What is Inheritiance?]
+- 
 ## 🔷 What is Inheritance?
 
 **Inheritance** is a way to create a new class from an existing class.  
