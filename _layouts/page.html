@@ -25,8 +25,8 @@ layout: default
     <hr>
     
     {% if page.topic %}
-    {% assign topic = {{ page.topic }} %}
-    {% assign subject = {{ page.subject }} %}
+    {% assign topic = page.topic %}
+    {% assign subject = page.subject %}
     {% include practice-and-progress.html topic=topic subject=subject %}
     {% endif %}
     
