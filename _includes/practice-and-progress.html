@@ -10,7 +10,7 @@
   🧪 Mini Projects:practice-and-progress/mini-projects,
   🔄 Review Questions:practice-and-progress/review-questions" | split: "," %}
 
-    
+<ul> 
 {% for link in practice_links %}
   {% assign parts = link | split: ":" %}
   {% if forloop.index == 2 %}
@@ -49,4 +49,8 @@
   {% endif %}
 
 - [{{ parts[0] }}]({{ topic }}/{{ parts[1] }}-{{ topic }}.html)
+
+<li><a href="{{ topic }}/{{ parts[1] }}-{{ topic }}.html">{{ parts[0] }}</a></li>
+
 {% endfor %}
+</ul>
