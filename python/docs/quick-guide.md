@@ -1,11 +1,13 @@
+---
+layout: page
+title: Quick Guide for Ultimate Python Beginner's
+description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, comments, indentation and more. Perfect for students and professionals starting their Python journey.  
+keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+toc: toc/python-toc.html
+---
+
 # [Python](https://yasirbhutta.github.io/python/) - Quick Guide for Ultimate Python Beginner's
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhut ta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [Download PDF](https://yasirbhutta.github.io/python/docs/quick-guide.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html](https://yasirbhutta.github.io/ms-excel/docs/quick-guide.html)
-- [Pyton Resources: Books, Websites, Tutorials](https://yasirbhutta.github.io/python/resources.html)
 
 ## Modules - Quick Guide for Ultimate Python Beginner's
 ### Module 1

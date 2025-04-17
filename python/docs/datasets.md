@@ -1,8 +1,14 @@
-
+---
+layout: page
+title: Datasets in Python 
+description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
+keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+toc: toc/python-toc.html
+---
 
 In Python, several built-in libraries provide datasets for practice, making it easy to access and work with various datasets directly in your code. Here are some popular options:
 
-1. Scikit-learn Datasets
+1. Scikit-learn Datase
 
 Scikit-learn offers several well-known datasets that are built-in for practicing data analysis, machine learning, and classification tasks.
 

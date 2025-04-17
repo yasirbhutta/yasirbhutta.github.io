@@ -19,6 +19,7 @@ toc: toc/python-toc.html
 - Text editor for Android: [Pydroid 3 - IDE for Python 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
   - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
 - Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.
+- [Python IDE Installation](python-ide-installation.md)
 
 > **Important:** Python source code files always use the `.py` extension.
 

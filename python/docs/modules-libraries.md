@@ -1,8 +1,12 @@
+---
+layout: page
+title: Modules and Libraries in Python
+description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
+keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+toc: toc/python-toc.html
+---
+
 # Modules and Libraries in Python
-
-Let's practice using some of the concepts we've covered, including **modules**, **functions**, and **working with external libraries**.
-
-Let’s now explore **modules and libraries** in Python, which are essential for organizing and reusing code, as well as leveraging pre-built functionality.
 
 ### 1. **Importing Modules**
    - Python comes with a standard library of modules, but you can also install third-party libraries using tools like `pip`.

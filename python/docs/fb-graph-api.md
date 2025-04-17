@@ -1,15 +1,19 @@
-# Python: Facebook Graph API
-
-- [Download PDF](https://yasirbhutta.github.io/python/docs/fb-graph-api.pdf)  
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/fb-graph-api.html](https://yasirbhutta.github.io/python/docs/fb-graph-api.html)
-
+---
+layout: page
+title: Python- Facebook Graph API
+description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
+keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+toc: toc/python-toc.html
+---
 
 ## How to Publish a Facebook Page Post Using the Facebook Graph API in Python
 
-<iframe class="yt-video" src="https://www.youtube.com/embed/oSIFwDkBWB4?si=TBpex89UMzdI-P0X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="yt-video">
+<iframe src="https://www.youtube.com/embed/oSIFwDkBWB4?si=TBpex89UMzdI-P0X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-### Overview of Facebook Graph API
+## Overview of Facebook Graph API
+
 - **Facebook Graph API:** Allows developers to interact with Facebook’s platform using code.
 
 **resources:**
@@ -85,7 +89,8 @@ else:
     print("Failed to obtain Page Access Token.")  # Print an error if the token retrieval fails
 ```
 
-### Explanation:
+## Explanation:
+
 - **get_page_access_token:** This function requests the Page Access Token from Facebook's Graph API using a user access token and page ID. The function handles errors and returns the token if successful.
   
 - **post_fb:** This function uses the Page Access Token to publish a post to the specified Facebook Page by making a POST request to the Graph API's feed endpoint.

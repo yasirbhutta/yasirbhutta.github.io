@@ -1,10 +1,10 @@
-# Python for Kids
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [Download PDF](python-kids.pdf)  
-- To access the updated handouts, please click on the following link:
-[index.html](../yasirbhutta.github.io/index.md)
+---
+layout: page
+title: Python for Kids
+description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
+keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+toc: toc/python-toc.html
+---
 
 Python Turtle is a fantastic tool for kids to learn coding concepts in a fun and visual way. By using simple commands, kids can control a virtual turtle to draw shapes, designs, and even create animations!
 Here's a quick guide to get you started:

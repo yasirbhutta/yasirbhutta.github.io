@@ -1,12 +1,19 @@
+---
+layout: page
+title: Python Projects
+description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
+keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+toc: toc/python-toc.html
+---
 
-# Python Projects
+## Contents
 
-- [Python Projects](#python-projects)
-  - [Project 1: Movie Ratings Analysis](#project-1-movie-ratings-analysis)
-  - [Project 2: Customer Sales Analysis](#project-2-customer-sales-analysis)
-  - [Project 3: IoT Sensor Data Analysis](#project-3-iot-sensor-data-analysis)
-  - [Project 4: Network Intrusion Detection System](#project-4-network-intrusion-detection-system)
-  - [Project 5: Animal Species Classification Using Machine Learning](#project-5-animal-species-classification-using-machine-learning)
+- [Contents](#contents)
+- [Project 1: Movie Ratings Analysis](#project-1-movie-ratings-analysis)
+- [Project 2: Customer Sales Analysis](#project-2-customer-sales-analysis)
+- [Project 3: IoT Sensor Data Analysis](#project-3-iot-sensor-data-analysis)
+- [Project 4: Network Intrusion Detection System](#project-4-network-intrusion-detection-system)
+- [Project 5: Animal Species Classification Using Machine Learning](#project-5-animal-species-classification-using-machine-learning)
 
 ---
 
