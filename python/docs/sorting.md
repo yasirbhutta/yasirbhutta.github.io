@@ -1,10 +1,10 @@
-# Python: Sorting Techniques: Sorting How To
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
-
-- [Download PDF](https://yasirbhutta.github.io/python/docs/sorting.pdf)  
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/python/docs/sorting.html](https://yasirbhutta.github.io/python/docs/sorting.html)
+---
+layout: page
+title: Sorting Techniques in Python - Sorting How To 
+description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, comments, indentation and more. Perfect for students and professionals starting their Python journey.  
+keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+toc: toc/python-toc.html
+---
 
 Python lists have a built-in list.sort() method that modifies the list in-place. There is also a sorted() built-in function that builds a new sorted list from an iterable.
 

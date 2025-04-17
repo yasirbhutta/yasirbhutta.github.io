@@ -1,5 +1,10 @@
-
-# Python Roadmap for Math Students
+---
+layout: page
+title: Python Roadmap for Math Students
+description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, comments, indentation and more. Perfect for students and professionals starting their Python journey.  
+keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+toc: toc/python-toc.html
+---
 
 Weeks 1-4: Basic Math Concepts & Python Basics
 
