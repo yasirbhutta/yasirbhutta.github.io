@@ -1,6 +1,7 @@
 {% for q in include.mcqs %}
   <div class="mcq">
     <h3>Q{{ forloop.index }}. {{ q.question | markdownify }}</h3>
+    <p><em>Difficulty: {{ question.difficulty }}</em></p>
     <ul>
       {% for option in q.options %}
         <li>{{ option | markdownify }}</li>

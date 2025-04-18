@@ -17,11 +17,16 @@ resources:
 <!-- {% assign mcqs = site.data.python.mcqs.questions %}
 {% include pap/mcqs-loop.html mcqs=mcqs %} -->
 
-<h1>{{ site.data.python.mcqs.course }} Questions</h1>
+{% assign topic_name = "oop-inheritance" %}
+{% assign topics = site.data.python.topics %}
+{% assign selected_topic = topics | where: "topic", topic_name | first %}
+{% assign mcqs = selected_topic.questions %}
 
-{% assign topic_to_display = "oop-inheritance" %}
+<!-- <h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
-{% for topic in site.data.python.mcqs.topics %}
+{% assign topic_to_display = "oop-inheritance" % -->
+
+<!-- {% for topic in site.data.python.mcqs.topics %}
   {% if topic.topic == topic_to_display %}
     <h2>{{ topic.topic }}</h2>
     <ul>
@@ -40,7 +45,7 @@ resources:
       {% endfor %}
     </ul>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 
 
