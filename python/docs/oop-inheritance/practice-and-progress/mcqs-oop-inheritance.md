@@ -20,35 +20,3 @@ resources:
 {% assign mcqs = selected_topic.questions %}
 
 {% include pap/mcqs-loop.html mcqs=mcqs %}
-
-
-
-<h1>{{ site.data.python.mcqs.course }} Questions</h1>
-
-{% assign topic_to_display = "oop-inheritance" %}
-
-{% for topic in site.data.python.mcqs.topics %}
-  {% if topic.topic == topic_to_display %}
-    <h2>{{ topic.topic }}</h2>
-    <ul>
-      {% for question in topic.questions %}
-        <li>
-          <strong>{{ question.question }}</strong> <br>
-          {% if question.code %}
-          ```python
-          {{question.code}}
-          ```
-          {% endif %}
-          <p><em>Difficulty: {{ question.difficulty }}</em></p>
-          <ul>
-            {% for option in question.options %}
-              <li>{{ option }}</li>
-            {% endfor %}
-          </ul>
-          <p><strong>Answer:</strong> {{ question.answer }}</p>
-          <p><em>{{ question.explanation }}</em></p>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
