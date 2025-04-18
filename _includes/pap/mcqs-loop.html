@@ -2,14 +2,17 @@
   <div class="mcq">
     <h3>Q{{ forloop.index }}. {{ q.question | markdownify }}</h3>
     {% if q.code %}
-    <pre><code>{{ q.code }}</code></pre>
+    <!-- <pre><code>{{ q.code }}</code></pre> -->
+    {% highlight python %}
+    {{ q.code }}
+    {% endhighlight %}    
     {% endif %}
     <p><em>Difficulty: {{ q.difficulty }}</em></p>
-    <ul>
+    <ol type="A">
       {% for option in q.options %}
         <li>{{ option | markdownify }}</li>
       {% endfor %}
-    </ul>
+    </ol>
     <details>
       <summary>Answer</summary>
       <p><strong>{{ q.answer }}</strong></p>
