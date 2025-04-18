@@ -23,7 +23,7 @@ resources:
 
 
 
-<!-- <h1>{{ site.data.python.mcqs.course }} Questions</h1>
+<h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
 {% assign topic_to_display = "oop-inheritance" %}
 
@@ -34,6 +34,11 @@ resources:
       {% for question in topic.questions %}
         <li>
           <strong>{{ question.question }}</strong> <br>
+          {% if question.code %}
+          ```python
+          {{question.code}}
+          ```
+          {% endif %}
           <p><em>Difficulty: {{ question.difficulty }}</em></p>
           <ul>
             {% for option in question.options %}
@@ -46,4 +51,4 @@ resources:
       {% endfor %}
     </ul>
   {% endif %}
-{% endfor %} -->
+{% endfor %}
