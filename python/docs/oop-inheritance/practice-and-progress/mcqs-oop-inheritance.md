@@ -21,6 +21,8 @@ resources:
 {% assign topics = site.data.python.topics %}
 {% assign selected_topic = topics | where: "topic", topic_name | first %}
 {% assign mcqs = selected_topic.questions %}
+<!-- include file -->
+{% include pap/mcqs-loop.html mcqs=mcqs %}
 
 <!-- <h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
