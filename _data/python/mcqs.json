@@ -29,7 +29,7 @@
             ],
             "answer": "class Child(Parent):",
             "explanation": "In Python, a child class is defined using the syntax `class Child(Parent):`, where `Child` inherits from `Parent`."
-          }
+          },
           {
             "id": "py003",
             "difficulty": "easy",
