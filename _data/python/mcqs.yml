@@ -38,7 +38,7 @@ topics:
         options:
           - Animal speaks
           - Dog speaks
-          - "Error: speak() not defined"
+          - "Error: **speak()** not defined"
           - Nothing
         answer: Animal speaks
         explanation: Dog inherits the `speak()` method from Animal.
@@ -59,7 +59,7 @@ topics:
         options:
           - Parent constructor
           - Child constructor
-          - Parent constructor \n Child constructor
+          - Parent constructor Child constructor
           - Error
         answer: Child constructor
         explanation: The `Child` constructor overrides the `Parent` constructor.
