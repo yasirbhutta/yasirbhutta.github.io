@@ -12,20 +12,18 @@ resources:
     url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
 ---
 
-<h1>🐍 Python MCQs</h1>
-
+<h1> Inheritance in Python Classes - MCQs</h1>
 
 {% assign topic_name = "oop-inheritance" %}
 {% assign topics = site.data.python.mcqs.topics %}
 {% assign selected_topic = topics | where: "topic", topic_name | first %}
 {% assign mcqs = selected_topic.questions %}
 
-<h2>{{ selected_topic.topic | capitalize }}</h2>
 {% include pap/mcqs-loop.html mcqs=mcqs %}
 
 
 
-<h1>{{ site.data.python.mcqs.course }} Questions</h1>
+<!-- <h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
 {% assign topic_to_display = "oop-inheritance" %}
 
@@ -48,4 +46,4 @@ resources:
       {% endfor %}
     </ul>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
