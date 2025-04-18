@@ -17,10 +17,6 @@ resources:
 <!-- {% assign mcqs = site.data.python.mcqs.questions %}
 {% include pap/mcqs-loop.html mcqs=mcqs %} -->
 
----
-layout: default
----
-
 <h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
 {% assign topic_to_display = "oop-inheritance" %}
