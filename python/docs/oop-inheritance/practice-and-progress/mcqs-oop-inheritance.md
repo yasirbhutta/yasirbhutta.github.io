@@ -44,7 +44,7 @@ resources:
 
 
 
-<h1>{{ site.data.python.course }} Questions</h1>
+<h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
 {% assign topic_to_display = "oop-inheritance" %}
 
