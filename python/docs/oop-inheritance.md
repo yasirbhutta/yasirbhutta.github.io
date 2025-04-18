@@ -245,3 +245,4 @@ This example mirrors real-world systems like Shopify or WooCommerce, where inher
 - Forgetting to use `self` in methods.
 - Not calling the parent class's `__init__` method when overriding it.
 - Overriding a method but forgetting to use `super()` if needed.
+

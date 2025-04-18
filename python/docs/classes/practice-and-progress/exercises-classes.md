@@ -1,7 +1,7 @@
 ---
 layout: default
-title: --.
-description: --.
+title: Python Exercises for Beginners - Classes and Objects
+description: Practice Python programming with beginner-friendly exercises on classes and objects. Learn to define attributes, methods, and create objects with step-by-step tasks.
 ---
 
 Sure! Here's a beginner-friendly exercise involving classes and basic tasks like defining attributes, methods, and creating objects.
