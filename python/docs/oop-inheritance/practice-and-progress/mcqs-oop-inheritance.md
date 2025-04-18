@@ -15,7 +15,7 @@ resources:
 <h1>🐍 Python MCQs</h1>
 
 {% assign mcqs = site.data.python.mcqs %}
-{% include pap/mcq-loop.html mcqs=mcqs %}
+{% include pap/mcqs-loop.html mcqs=mcqs %}
 
 
 
