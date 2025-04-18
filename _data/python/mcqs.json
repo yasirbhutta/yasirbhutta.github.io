@@ -124,7 +124,8 @@
           {
             "id": "py010",
             "difficulty": "easy",
-            "question": "What will the following code print?\n\nclass Product:\n    def get_description(self):\n        return \"Generic Product\"\n\nclass DigitalProduct(Product):\n    def get_description(self):\n        return \"Digital Product\"\n\ndp = DigitalProduct()\nprint(dp.get_description())",
+            "question": "What will the following code print?",
+            "code": "\n\nclass Product:\n    def get_description(self):\n        return \"Generic Product\"\n\nclass DigitalProduct(Product):\n    def get_description(self):\n        return \"Digital Product\"\n\ndp = DigitalProduct()\nprint(dp.get_description())",
             "options": [
               "Generic Product",
               "Digital Product",
