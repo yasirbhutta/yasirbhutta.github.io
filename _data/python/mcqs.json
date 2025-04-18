@@ -30,13 +30,117 @@
             "answer": "class Child(Parent):",
             "explanation": "In Python, a child class is defined using the syntax `class Child(Parent):`, where `Child` inherits from `Parent`."
           }
+          {
+            "id": "py003",
+            "difficulty": "easy",
+            "question": "What is inheritance in Python?",
+            "options": [
+              "A way to hide data from other classes",
+              "A method of repeating the same code in multiple places",
+              "A way for one class to use features from another class",
+              "A way to delete unused classes"
+            ],
+            "answer": "A way for one class to use features from another class",
+            "explanation": "Inheritance allows a class to use methods and attributes from another class."
+          },
+          {
+            "id": "py004",
+            "difficulty": "easy",
+            "question": "What will the following code output?\n\nclass Person:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        print(f\"Hi, I'm {self.name}\")\n\nclass Student(Person):\n    pass\n\ns = Student(\"Ali\")\ns.greet()",
+            "options": [
+              "Error: greet() is not defined",
+              "Hi, I'm Ali",
+              "Hi, I'm Student",
+              "Nothing is printed"
+            ],
+            "answer": "Hi, I'm Ali",
+            "explanation": "Student inherits the greet() method from Person."
+          },
+          {
+            "id": "py005",
+            "difficulty": "easy",
+            "question": "What does super() do in a child class?",
+            "options": [
+              "Calls another function inside the same class",
+              "Skips a method",
+              "Calls a method from the parent class",
+              "Creates a new instance of the class"
+            ],
+            "answer": "Calls a method from the parent class",
+            "explanation": "super() allows you to call methods from the parent class."
+          },
+          {
+            "id": "py006",
+            "difficulty": "easy",
+            "question": "What will the output be?\n\nclass Vehicle:\n    def drive(self):\n        print(\"The vehicle is moving.\")\n\nclass Car(Vehicle):\n    def drive(self):\n        print(\"The car is driving.\")\n\nc = Car()\nc.drive()",
+            "options": [
+              "The vehicle is moving.",
+              "The car is driving.",
+              "Error: drive() not found",
+              "Nothing is printed"
+            ],
+            "answer": "The car is driving.",
+            "explanation": "The drive method is overridden in the Car class."
+          },
+          {
+            "id": "py007",
+            "difficulty": "easy",
+            "question": "What is the output of this code?\n\nclass Person:\n    def speak(self):\n        print(\"Person speaks\")\n\nclass Student(Person):\n    def study(self):\n        print(\"Student studies\")\n\nclass GraduateStudent(Student):\n    def research(self):\n        print(\"Graduate student does research\")\n\ng = GraduateStudent()\ng.speak()\ng.study()\ng.research()",
+            "options": [
+              "Error",
+              "Person speaks",
+              "Person speaks → Student studies → Graduate student does research",
+              "Only Graduate student does research"
+            ],
+            "answer": "Person speaks → Student studies → Graduate student does research",
+            "explanation": "GraduateStudent inherits from Student, which inherits from Person."
+          },
+          {
+            "id": "py008",
+            "difficulty": "easy",
+            "question": "Which of the following best describes multilevel inheritance?",
+            "options": [
+              "A class inherits from more than one class",
+              "A class inherits from another, which itself inherited from another",
+              "A class has multiple methods",
+              "A class does not inherit from any class"
+            ],
+            "answer": "A class inherits from another, which itself inherited from another",
+            "explanation": "Multilevel inheritance creates a chain of inheritance."
+          },
+          {
+            "id": "py009",
+            "difficulty": "easy",
+            "question": "Which method is used to override a parent class method in the child class?",
+            "options": [
+              "Rename the parent method",
+              "Use the same method name in the child class",
+              "Use the overload() function",
+              "You can't override methods in Python"
+            ],
+            "answer": "Use the same method name in the child class",
+            "explanation": "Overriding means defining the same method name in the child class."
+          },
+          {
+            "id": "py010",
+            "difficulty": "easy",
+            "question": "What will the following code print?\n\nclass Product:\n    def get_description(self):\n        return \"Generic Product\"\n\nclass DigitalProduct(Product):\n    def get_description(self):\n        return \"Digital Product\"\n\ndp = DigitalProduct()\nprint(dp.get_description())",
+            "options": [
+              "Generic Product",
+              "Digital Product",
+              "Product",
+              "Error"
+            ],
+            "answer": "Digital Product",
+            "explanation": "DigitalProduct overrides the get_description() method."
+          }
         ]
       },
       {
         "topic": "oop-polymorphism",
         "questions": [
           {
-            "id": "py003",
+            "id": "py011",
             "difficulty": "medium",
             "question": "What is polymorphism in Python?",
             "options": [
@@ -49,7 +153,7 @@
             "explanation": "Polymorphism allows methods to be defined in multiple classes with different implementations."
           },
           {
-            "id": "py004",
+            "id": "py012",
             "difficulty": "medium",
             "question": "Which function is used to determine the type of an object in Python?",
             "options": [
