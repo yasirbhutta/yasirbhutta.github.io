@@ -3,6 +3,9 @@
     <h3>Q{{ forloop.index }}. {{ q.question | markdownify }}</h3>
     {% if q.code %}
     <pre><code>{{ q.code }}</code></pre>
+    ```python
+    {{ q.code }}
+    ```
     {% endif %}
     <p><em>Difficulty: {{ q.difficulty }}</em></p>
     <ul>
