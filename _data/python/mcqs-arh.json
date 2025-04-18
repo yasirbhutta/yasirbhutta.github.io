@@ -1,0 +1,67 @@
+{
+    "course": "python",
+    "topics": [
+      {
+        "topic": "oop-inheritance",
+        "questions": [
+          {
+            "id": "py001",
+            "difficulty": "easy",
+            "question": "What is the main purpose of inheritance in Python?",
+            "options": [
+              "To create multiple objects of a class",
+              "To reuse code and extend functionality",
+              "To define private methods in a class",
+              "To create a new programming paradigm"
+            ],
+            "answer": "To reuse code and extend functionality",
+            "explanation": "Inheritance allows code reuse and method overriding in child classes."
+          },
+          {
+            "id": "py002",
+            "difficulty": "easy",
+            "question": "Which of the following is the correct syntax for inheritance in Python?",
+            "options": [
+              "class Child inherits Parent:",
+              "class Child(Parent):",
+              "class Parent -> Child:",
+              "class Parent(Child):"
+            ],
+            "answer": "class Child(Parent):",
+            "explanation": "In Python, a child class is defined using the syntax `class Child(Parent):`, where `Child` inherits from `Parent`."
+        ]
+      },
+      {
+        "topic": "oop-polymorphism",
+        "questions": [
+          {
+            "id": "py011",
+            "difficulty": "medium",
+            "question": "What is polymorphism in Python?",
+            "options": [
+              "Inheritance of attributes from a class",
+              "The ability of different classes to provide different implementations of the same method",
+              "The process of creating objects from a class",
+              "None of the above"
+            ],
+            "answer": "The ability of different classes to provide different implementations of the same method",
+            "explanation": "Polymorphism allows methods to be defined in multiple classes with different implementations."
+          },
+          {
+            "id": "py012",
+            "difficulty": "medium",
+            "question": "Which function is used to determine the type of an object in Python?",
+            "options": [
+              "type()",
+              "isinstance()",
+              "object()",
+              "None of the above"
+            ],
+            "answer": "type()",
+            "explanation": "The `type()` function is used to determine the type of an object in Python."
+          }
+        ]
+      }
+    ]
+  }
+  

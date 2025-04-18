@@ -19,7 +19,7 @@ resources:
 {% assign selected_topic = topics | where: "topic", topic_name | first %}
 {% assign mcqs = selected_topic.questions %}
 
-{% include pap/mcqs-loop.md mcqs=mcqs %}
+{% include pap/mcqs-loop.html mcqs=mcqs %}
 
 
 

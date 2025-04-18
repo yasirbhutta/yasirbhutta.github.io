@@ -1,0 +1,109 @@
+course: python
+topics:
+  - topic: oop-inheritance
+    questions:
+      - id: py-inh-001
+        difficulty: easy
+        question: What is the main purpose of inheritance in Python?
+        options:
+          - To create multiple objects of a class
+          - To reuse code and extend functionality
+          - To define private methods in a class
+          - To create a new programming paradigm
+        answer: To reuse code and extend functionality
+        explanation: Inheritance allows code reuse and method overriding in child classes.
+      - id: py002
+        difficulty: easy
+        question: Which of the following is the correct syntax for inheritance in Python?
+        options:
+          - "class Child inherits Parent:"
+          - "class Child(Parent):"
+          - "class Parent -> Child:"
+          - "class Parent(Child):"
+        answer: "class Child(Parent):"
+        explanation: In Python, a child class is defined using the syntax `class Child(Parent):`, where `Child` inherits from `Parent`.
+      - id: inh001
+        difficulty: easy
+        question: What is the output of the following code?
+        code: |
+          class Animal:
+              def speak(self):
+                  print("Animal speaks")
+
+          class Dog(Animal):
+              pass
+
+          d = Dog()
+          d.speak()
+        options:
+          - Animal speaks
+          - Dog speaks
+          - "Error: speak() not defined"
+          - Nothing
+        answer: Animal speaks
+        explanation: Dog inherits the `speak()` method from Animal.
+
+      - id: inh002
+        difficulty: easy
+        question: What is the output of the following code?
+        code: |
+          class Parent:
+              def __init__(self):
+                  print("Parent constructor")
+
+          class Child(Parent):
+              def __init__(self):
+                  print("Child constructor")
+
+          c = Child()
+        options:
+          - Parent constructor
+          - Child constructor
+          - Parent constructor \n Child constructor
+          - Error
+        answer: Child constructor
+        explanation: The `Child` constructor overrides the `Parent` constructor.
+
+      - id: inh003
+        difficulty: medium
+        question: What is the output of the following code?
+        code: |
+          class Parent:
+              def show(self):
+                  print("Parent")
+
+          class Child(Parent):
+              def show(self):
+                  print("Child")
+
+          obj = Child()
+          obj.show()
+        options:
+          - Parent
+          - Child
+          - Parent Child
+          - Error
+        answer: Child
+      
+  - topic: oop-polymorphism
+    questions:
+      - id: py011
+        difficulty: medium
+        question: What is polymorphism in Python?
+        options:
+          - Inheritance of attributes from a class
+          - The ability of different classes to provide different implementations of the same method
+          - The process of creating objects from a class
+          - None of the above
+        answer: The ability of different classes to provide different implementations of the same method
+        explanation: Polymorphism allows methods to be defined in multiple classes with different implementations.
+      - id: py012
+        difficulty: medium
+        question: Which function is used to determine the type of an object in Python?
+        options:
+          - type()
+          - isinstance()
+          - object()
+          - None of the above
+        answer: type()
+        explanation: The `type()` function is used to determine the type of an object in Python.
