@@ -20,7 +20,7 @@ resources:
 
 
 
----
+<!-- ---
 
 ### **4. What will be the output of the following code?**
 
@@ -185,4 +185,4 @@ class B(A):
 class C(A):
     pass
 ```
-
+ -->
