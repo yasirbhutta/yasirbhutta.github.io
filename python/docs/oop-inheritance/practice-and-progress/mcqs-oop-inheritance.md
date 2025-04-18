@@ -4,7 +4,7 @@ title: Microsoft Excel MCQs - Test Your Knowledge of Excel Basics
 description: Challenge your understanding of Microsoft Excel with these multiple-choice questions. Covering topics like worksheets, workbooks, formulas, shortcuts, and data entry, this quiz is perfect for beginners to assess and improve their Excel skills.
 keywords: "Microsoft Excel MCQs, Excel basics quiz, Excel multiple-choice questions, Excel worksheets and workbooks, Excel formulas quiz, Excel shortcuts test, Excel data entry practice, beginner Excel quiz, Excel fundamentals assessment, Microsoft Excel skills test"
 author: Muhammad Yasir Bhutta
-topic: Excel Basics
+topic: "oop-inheritance"
 resources:
   - name: Microsoft Excel Basics
     url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
