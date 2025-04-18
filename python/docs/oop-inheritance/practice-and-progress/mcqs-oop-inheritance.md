@@ -18,6 +18,34 @@ resources:
 {% include pap/mcqs-loop.html mcqs=mcqs %}
 
 
+{% for q in mcqs %}
+  <div class="mcq q-{{ q.id }} diff-{{ q.difficulty }} cat-{{ q.category }}">
+    <h3>Q{{ forloop.index }}. {{ q.question }}</h3>
+
+    <ul>
+      {% for option in q.options %}
+        <li>{{ option }}</li>
+      {% endfor %}
+    </ul>
+
+    <details>
+      <summary><strong>Answer</strong></summary>
+      <p><strong>{{ q.answer }}</strong></p>
+      {% if q.explanation %}
+        <p><em>{{ q.explanation }}</em></p>
+      {% endif %}
+    </details>
+
+    <p class="meta">
+      <strong>Difficulty:</strong> {{ q.difficulty | capitalize }} |
+      <strong>Category:</strong> {{ q.category }}
+    </p>
+
+    <hr>
+  </div>
+{% endfor %}
+
+
 
 
 <!-- ---
