@@ -14,9 +14,9 @@ resources:
 
 <h1>🐍 Python MCQs</h1>
 
-<!-- 
+
 {% assign topic_name = "oop-inheritance" %}
-{% assign topics = site.data.python.topics %}
+{% assign topics = site.data.python.mcqs.topics %}
 {% assign selected_topic = topics | where: "topic", topic_name | first %}
 {% assign mcqs = selected_topic.questions %}
 
@@ -40,7 +40,7 @@ resources:
     </details>
     <hr>
   </div>
-{% endfor %} -->
+{% endfor %} 
 
 
 
@@ -48,7 +48,7 @@ resources:
 
 {% assign topic_to_display = "oop-inheritance" %}
 
-{% for topic in site.data.python_questions.topics %}
+{% for topic in site.data.python.mcqs.topics %}
   {% if topic.topic == topic_to_display %}
     <h2>{{ topic.topic }}</h2>
     <ul>
