@@ -14,36 +14,38 @@ resources:
 
 <h1>🐍 Python MCQs</h1>
 
-{% assign mcqs = site.data.python.mcqs.questions %}
-{% include pap/mcqs-loop.html mcqs=mcqs %}
+<!-- {% assign mcqs = site.data.python.mcqs.questions %}
+{% include pap/mcqs-loop.html mcqs=mcqs %} -->
 
+---
+layout: default
+---
 
-{% for q in mcqs %}
-  <div class="mcq q-{{ q.id }} diff-{{ q.difficulty }} cat-{{ q.category }}">
-    <h3>Q{{ forloop.index }}. {{ q.question }}</h3>
+<h1>{{ site.data.python.mcqs.course }} Questions</h1>
 
+{% assign topic_to_display = "oop-inheritance" %}
+
+{% for topic in site.data.python.mcqs.topics %}
+  {% if topic.topic == topic_to_display %}
+    <h2>{{ topic.topic }}</h2>
     <ul>
-      {% for option in q.options %}
-        <li>{{ option }}</li>
+      {% for question in topic.questions %}
+        <li>
+          <strong>{{ question.question }}</strong> <br>
+          <p><em>Difficulty: {{ question.difficulty }}</em></p>
+          <ul>
+            {% for option in question.options %}
+              <li>{{ option }}</li>
+            {% endfor %}
+          </ul>
+          <p><strong>Answer:</strong> {{ question.answer }}</p>
+          <p><em>{{ question.explanation }}</em></p>
+        </li>
       {% endfor %}
     </ul>
-
-    <details>
-      <summary><strong>Answer</strong></summary>
-      <p><strong>{{ q.answer }}</strong></p>
-      {% if q.explanation %}
-        <p><em>{{ q.explanation }}</em></p>
-      {% endif %}
-    </details>
-
-    <p class="meta">
-      <strong>Difficulty:</strong> {{ q.difficulty | capitalize }} |
-      <strong>Category:</strong> {{ q.category }}
-    </p>
-
-    <hr>
-  </div>
+  {% endif %}
 {% endfor %}
+
 
 
 
