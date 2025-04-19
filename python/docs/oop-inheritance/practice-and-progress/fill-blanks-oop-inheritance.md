@@ -6,7 +6,7 @@ keywords: ---
 toc: toc/python-toc.html
 topic: "oop-inheritance"
 course: "python"
-prev: /python/docs/oop-inheritance/practice-and-progress/true-false-oop-inheritance.html
+prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
 next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
 ---
 
