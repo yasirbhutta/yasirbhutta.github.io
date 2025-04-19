@@ -7,7 +7,7 @@
   {% for q in include.questions %}
     <li>{{ q.prompt }}</li>
     <details>
-        <summary>✅ Answer</summary>
+        <summary>Answer</summary>
         <p><strong>{{ q.answer }}</strong></p>
         {% if q.explanation %}
           <p><em>{{ q.explanation }}</em></p>
@@ -27,7 +27,7 @@
       <pre><code>{{ example.code | escape }}</code></pre>
       <h3>{{💡 example.prompt }}</h3>
       <details>
-        <summary>✅ Answer</summary>
+        <summary>Answer</summary>
         <p><strong>{{ q.answer }}</strong></p>
         {% if q.explanation %}
           <p><em>{{ q.explanation }}</em></p>
