@@ -42,11 +42,11 @@ layout: default
 
     <div class="nav-links">
         {% if page.prev %}
-          <a href="{{ page.prev | relative_url}}">&laquo; Back</a>
+          <a href="{{ page.prev | absolute_url}}">&laquo; Back</a>
         {% endif %}
         
         {% if page.next %}
-          <a href="{{ page.next | relative_url}}">Next &raquo;</a>
+          <a href="{{ page.next | absolute_url}}">Next &raquo;</a>
         {% endif %}
       </div>
       
