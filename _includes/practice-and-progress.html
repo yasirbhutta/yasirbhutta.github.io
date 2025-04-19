@@ -49,7 +49,7 @@
   {% endif %}
 
 <!-- - [{{ parts[0] }}]({{ topic }}/{{ parts[1] }}-{{ topic }}.html) -->
-<li><a href="{{ course }}/docs/{{ topic }}/{{ parts[1] }}-{{ topic }}.html" >{{ parts[0] }}</a></li>
+<li><a href="{{ course }}/docs/{{ topic }}/{{ parts[1] }}-{{ topic }}.html | relative_url" >{{ parts[0] }}</a></li>
 
 {% endfor %}
 </ul>
