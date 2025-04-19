@@ -25,12 +25,12 @@
   {% for example in include.examples %}
     <li>
       <pre><code>{{ example.code | escape }}</code></pre>
-      <h3>{{💡 example.prompt }}</h3>
+      <h3>💡 {{ example.prompt }}</h3>
       <details>
         <summary>Answer</summary>
-        <p><strong>{{ q.answer }}</strong></p>
-        {% if q.explanation %}
-          <p><em>{{ q.explanation }}</em></p>
+        <p><strong>{{ example.answer }}</strong></p>
+        {% if example.explanation %}
+          <p><em>{{ example.explanation }}</em></p>
         {% endif %}
     </details>
       <!-- <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p> -->
