@@ -40,5 +40,14 @@ layout: default
     
     <hr>
 
-    <p><a href="../index.html">← Back to Excel Articles</a></p>
+    <div class="nav-links">
+        {% if page.prev %}
+          <a href="{{ page.prev }}">&laquo; Back</a>
+        {% endif %}
+        
+        {% if page.next %}
+          <a href="{{ page.next }}">Next &raquo;</a>
+        {% endif %}
+      </div>
+      
 </article>

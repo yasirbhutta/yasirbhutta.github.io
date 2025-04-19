@@ -6,9 +6,8 @@ keywords: ---
 toc: toc/python-toc.html
 topic: "oop-inheritance"
 course: "python"
-resources:
-  - name: Microsoft Excel Basics
-    url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
+prev: /true-false-oop-inheritance.html
+next: /mcqs-oop-inheritance.html
 ---
 
 {% assign topic = "oop-inheritance" %}
