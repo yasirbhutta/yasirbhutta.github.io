@@ -24,13 +24,13 @@ resources:
 
 <h2>🔍 Fill in the Blanks</h2>
 <ol>
-  {% for question in questions %}
-    <li>{{ question }}</li>
+  {% for q in questions %}
+    <li>{{ q.prompt }}</li>
     <details>
         <summary>✅ Answer</summary>
-        <p><strong>{{ question.answer }}</strong></p>
-        {% if question.explanation %}
-          <p><em>{{ question.explanation }}</em></p>
+        <p><strong>{{ q.answer }}</strong></p>
+        {% if q.explanation %}
+          <p><em>{{ q.explanation }}</em></p>
         {% endif %}
       </details>
       <hr>
