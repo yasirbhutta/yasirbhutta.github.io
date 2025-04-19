@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: page
 title: Microsoft Excel Basics - Comprehensive Guide for Beginners.
 description: Learn Microsoft Excel basics with this comprehensive guide. Explore topics like workbooks, worksheets, managing sheets, entering data, formulas, functions, and Excel's availability across platforms. Perfect for beginners to master Excel fundamentals.
 keywords: Microsoft Excel basics, Excel guide for beginners, Excel workbooks and worksheets, Excel managing sheets, Excel formulas and functions, Excel availability, Excel data entry, Excel tutorial, Excel mobile app, Excel online version, Excel beginner tips
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: basics
+toc: toc/ms-excel-toc.html
 ---
 
 # Microsoft Excel: Basics
