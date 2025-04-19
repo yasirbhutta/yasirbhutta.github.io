@@ -21,3 +21,10 @@
   </div>
 {% endfor %} 
 
+<h2>📚 Related Resources</h2>
+<ul>
+  {% for resource in include.resources %}
+    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+  {% endfor %}
+</ul>
+

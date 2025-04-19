@@ -84,6 +84,9 @@ topics:
           - Parent Child
           - Error
         answer: Child
+    resources:
+    - name: Learn Inheritance in Python
+      url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
       
   - topic: oop-polymorphism
     questions:
@@ -107,3 +110,6 @@ topics:
           - None of the above
         answer: type()
         explanation: The `type()` function is used to determine the type of an object in Python.
+    resources:
+    - name: Learn Polymorphism in Python
+      url: https://yasirbhutta.github.io/python/docs/oop-polymorphism.html
