@@ -225,8 +225,8 @@ To duplicate a sheet in Excel mobile app, you can follow these steps:
 
 ## Further Reading
 
-{% assign show_heading = false %}
-{% include toc/ms-excel-toc.html show_heading=show_heading%}
+<!-- {% assign show_heading = false %}
+{% include toc/ms-excel-toc.html show_heading=show_heading%} -->
 
 <!-- {% assign topic = "basics" %}
 {% assign course = "ms-excel" %}
