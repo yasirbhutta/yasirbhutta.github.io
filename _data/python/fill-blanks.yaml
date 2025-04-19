@@ -1,0 +1,184 @@
+course: python
+topics:
+  - topic: classes-and-objects
+    questions:
+      - id: py-co-001
+        question: In Python, you create a class using the ________ keyword.
+        answer: class
+
+      - id: py-co-002
+        question: A class is a ________ for creating objects (instances).
+        answer: blueprint
+
+      - id: py-co-003
+        question: Objects are ________ of a class that have attributes (data) and methods (functions).
+        answer: instances
+
+      - id: py-co-004
+        question: The `__init__` method is a special method that is automatically called when a new ________ of a class is created.
+        answer: object
+
+      - id: py-co-005
+        question: Instance attributes are ________ to each instance (object) of a class.
+        answer: unique
+
+      - id: py-co-006
+        question: The `self` parameter is used to access the ________ and ________ of an object within its methods.
+        answer: attributes, methods
+
+      - id: py-co-007
+        question: Class attributes are shared across all ________ of the class, while instance attributes are specific to each ________.
+        answer: objects, object
+
+      - id: py-co-008
+        question: To access an attribute of an object, use the ________ notation (e.g., `object.attribute`).
+        answer: dot
+
+      - id: py-co-009
+        question: Changing the value of a ________ attribute will reflect across all objects of the class.
+        answer: class
+
+      - id: py-co-010
+        question: Methods are ________ defined within a class that operate on the object's data.
+        answer: functions
+
+    examples:
+      - id: py-co-ex-001
+        code: |
+          class Car:
+              def describe(self):
+                  print(f"{self.year} {self.make} {self.model}")
+        prompt: The `describe` method is a ________ of the `Car` class.
+        answer: method
+
+      - id: py-co-ex-002
+        code: |
+          class Student:
+              def set_grade(self, new_grade):
+                  self.grade = new_grade
+        prompt: The `set_grade` method is used to ________ the grade of a student.
+        answer: update
+course: python
+topics:
+  - topic: classes-and-objects
+    questions:
+      - id: py-co-001
+        question: In Python, you create a class using the ________ keyword.
+        answer: class
+
+      - id: py-co-002
+        question: A class is a ________ for creating objects (instances).
+        answer: blueprint
+
+      - id: py-co-003
+        question: Objects are ________ of a class that have attributes (data) and methods (functions).
+        answer: instances
+
+      - id: py-co-004
+        question: The `__init__` method is a special method that is automatically called when a new ________ of a class is created.
+        answer: object
+
+      - id: py-co-005
+        question: Instance attributes are ________ to each instance (object) of a class.
+        answer: unique
+
+      - id: py-co-006
+        question: The `self` parameter is used to access the ________ and ________ of an object within its methods.
+        answer: attributes, methods
+
+      - id: py-co-007
+        question: Class attributes are shared across all ________ of the class, while instance attributes are specific to each ________.
+        answer: objects, object
+
+      - id: py-co-008
+        question: To access an attribute of an object, use the ________ notation (e.g., `object.attribute`).
+        answer: dot
+
+      - id: py-co-009
+        question: Changing the value of a ________ attribute will reflect across all objects of the class.
+        answer: class
+
+      - id: py-co-010
+        question: Methods are ________ defined within a class that operate on the object's data.
+        answer: functions
+
+    examples:
+      - id: py-co-ex-001
+        code: |
+          class Car:
+              def describe(self):
+                  print(f"{self.year} {self.make} {self.model}")
+        prompt: The `describe` method is a ________ of the `Car` class.
+        answer: method
+
+      - id: py-co-ex-002
+        code: |
+          class Student:
+              def set_grade(self, new_grade):
+                  self.grade = new_grade
+        prompt: The `set_grade` method is used to ________ the grade of a student.
+        answer: update
+  - topic: oop-inheritance
+    questions:
+      - id: py-inh-002
+        question: In Python, inheritance allows a new class to reuse code from an existing ________ class.
+        answer: parent
+
+      - id: py-inh-003
+        question: A class that inherits from another class is called a ________ class.
+        answer: child
+
+      - id: py-inh-004
+        question: To define a child class that inherits from a parent class, you include the parent class name in ________.
+        answer: parentheses
+
+      - id: py-inh-005
+        question: The `super()` function is used to call methods from the ________ class.
+        answer: parent
+
+      - id: py-inh-006
+        question: In method overriding, a child class provides its own version of a method that exists in the ________ class.
+        answer: parent
+
+      - id: py-inh-007
+        question: When a child class does not override a method, it inherits the method from its ________ class.
+        answer: parent
+
+      - id: py-inh-008
+        question: In multilevel inheritance, a class inherits from a child class, which in turn inherits from a ________ class.
+        answer: parent
+
+    examples:
+      - id: py-inh-ex-001
+        code: |
+          class Person:
+              def __init__(self, name):
+                  self.name = name
+
+              def introduce(self):
+                  print(f"Hi, I'm {self.name}")
+
+          class Student(Person):
+              def study(self):
+                  print(f"{self.name} is studying.")
+        prompt: In the above code, the `Student` class ________ from the `Person` class.
+        answer: inherits
+
+      - id: py-inh-ex-002
+        code: |
+          class Vehicle:
+              def __init__(self, brand):
+                  self.brand = brand
+
+              def drive(self):
+                  print("The vehicle is moving.")
+
+          class Car(Vehicle):
+              def __init__(self, brand, model):
+                  super().__init__(brand)
+                  self.model = model
+
+              def drive(self):
+                  print(f"The {self.brand} {self.model} is driving.")
+        prompt: The `Car` class uses the `super()` function to call the constructor of the ________ class.
+        answer: Vehicle
