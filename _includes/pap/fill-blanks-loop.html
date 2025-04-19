@@ -6,6 +6,14 @@
 <ol>
   {% for question in include.questions %}
     <li>{{ question }}</li>
+    <details>
+        <summary>✅ Answer</summary>
+        <p><strong>{{ question.answer }}</strong></p>
+        {% if question.explanation %}
+          <p><em>{{ question.explanation }}</em></p>
+        {% endif %}
+      </details>
+      <hr>
   {% endfor %}
 </ol>
 

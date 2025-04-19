@@ -65,42 +65,52 @@ topics:
       - id: py-co-001
         question: In Python, you create a class using the ________ keyword.
         answer: class
+        explanation: "In Python, the `class` keyword is used to define a new class. For example, `class MyClass:` defines a class named `MyClass`."
 
       - id: py-co-002
         question: A class is a ________ for creating objects (instances).
         answer: blueprint
+        explanation: ""
 
       - id: py-co-003
         question: Objects are ________ of a class that have attributes (data) and methods (functions).
         answer: instances
+        explanation: ""
 
       - id: py-co-004
         question: The `__init__` method is a special method that is automatically called when a new ________ of a class is created.
         answer: object
+        explanation: ""
 
       - id: py-co-005
         question: Instance attributes are ________ to each instance (object) of a class.
         answer: unique
+        explanation: ""
 
       - id: py-co-006
         question: The `self` parameter is used to access the ________ and ________ of an object within its methods.
         answer: attributes, methods
+        explanation: ""
 
       - id: py-co-007
         question: Class attributes are shared across all ________ of the class, while instance attributes are specific to each ________.
         answer: objects, object
+        explanation: ""
 
       - id: py-co-008
         question: To access an attribute of an object, use the ________ notation (e.g., `object.attribute`).
         answer: dot
+        explanation: ""
 
       - id: py-co-009
         question: Changing the value of a ________ attribute will reflect across all objects of the class.
         answer: class
+        explanation: ""
 
       - id: py-co-010
         question: Methods are ________ defined within a class that operate on the object's data.
         answer: functions
+        explanation: ""
 
     examples:
       - id: py-co-ex-001
@@ -110,6 +120,7 @@ topics:
                   print(f"{self.year} {self.make} {self.model}")
         prompt: The `describe` method is a ________ of the `Car` class.
         answer: method
+        explanation: ""
 
       - id: py-co-ex-002
         code: |
@@ -118,35 +129,43 @@ topics:
                   self.grade = new_grade
         prompt: The `set_grade` method is used to ________ the grade of a student.
         answer: update
+        explanation: ""
   - topic: oop-inheritance
     questions:
       - id: py-inh-002
         question: In Python, inheritance allows a new class to reuse code from an existing ________ class.
         answer: parent
+        explanation: ""
 
       - id: py-inh-003
         question: A class that inherits from another class is called a ________ class.
         answer: child
+        explanation: ""
 
       - id: py-inh-004
         question: To define a child class that inherits from a parent class, you include the parent class name in ________.
         answer: parentheses
+        explanation: ""
 
       - id: py-inh-005
         question: The `super()` function is used to call methods from the ________ class.
         answer: parent
+        explanation: ""
 
       - id: py-inh-006
         question: In method overriding, a child class provides its own version of a method that exists in the ________ class.
         answer: parent
+        explanation: ""
 
       - id: py-inh-007
         question: When a child class does not override a method, it inherits the method from its ________ class.
         answer: parent
+        explanation: ""
 
       - id: py-inh-008
         question: In multilevel inheritance, a class inherits from a child class, which in turn inherits from a ________ class.
         answer: parent
+        explanation: ""
 
     examples:
       - id: py-inh-ex-001
@@ -163,6 +182,7 @@ topics:
                   print(f"{self.name} is studying.")
         prompt: In the above code, the `Student` class ________ from the `Person` class.
         answer: inherits
+        explanation: ""
 
       - id: py-inh-ex-002
         code: |
@@ -182,3 +202,4 @@ topics:
                   print(f"The {self.brand} {self.model} is driving.")
         prompt: The `Car` class uses the `super()` function to call the constructor of the ________ class.
         answer: Vehicle
+        explanation: ""

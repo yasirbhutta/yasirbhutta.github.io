@@ -1,5 +1,5 @@
 ---
-layout: fill-in-the-blanks
+layout: default
 title: --
 description: --
 keywords: ---
