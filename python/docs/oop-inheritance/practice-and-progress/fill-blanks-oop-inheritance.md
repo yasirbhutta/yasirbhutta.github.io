@@ -1,6 +1,6 @@
 ---
-layout: default
-title: --
+layout: page
+title: Inheritance in Pyhton - Fill in the Blanks
 description: --
 keywords: ---
 toc: toc/python-toc.html
