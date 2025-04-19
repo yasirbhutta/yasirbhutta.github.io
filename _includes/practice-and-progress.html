@@ -52,7 +52,7 @@
 <!-- - [{{ parts[0] }}]({{ topic }}/{{ parts[1] }}-{{ topic }}.html) -->
 <!-- {% assign link_type = course | append: "/docs/" | append: topic | append: "/" | append: parts[1] | append: "-" | append: topic | append: ".html" %} -->
 {% assign link_type = "{{course}}/docs/{{ topic }}/{{ parts[1] }}-{{ topic }}.html" %}
-<li> {{ link_type | absolute_url }} </li>
+<li> {{ link_type }} </li>
 <!-- <li><a href="{{ link | relative_url }}"> {{ parts[0] }} </a></li> -->
 
 {% endfor %}
