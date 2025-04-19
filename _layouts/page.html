@@ -26,8 +26,8 @@ layout: default
     
     {% if page.topic %}
     {% assign topic = page.topic %}
-    {% assign subject = page.subject %}
-    {% include practice-and-progress.html topic=topic subject=subject %}
+    {% assign course = page.course %}
+    {% include practice-and-progress.html topic=topic course=course %}
     {% endif %}
     
     <hr>
