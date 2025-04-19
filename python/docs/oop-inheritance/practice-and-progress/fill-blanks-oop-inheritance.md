@@ -6,8 +6,8 @@ keywords: ---
 toc: toc/python-toc.html
 topic: "oop-inheritance"
 course: "python"
-prev: /true-false-oop-inheritance.html
-next: /mcqs-oop-inheritance.html
+prev: /python/docs/oop-inheritance/practice-and-progress/true-false-oop-inheritance.html
+next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
 ---
 
 {% assign topic = "oop-inheritance" %}

@@ -27,6 +27,7 @@ layout: default
     {% assign topic = page.topic | default: "" %}
     {% assign course = page.course | default: "" %}
 
+
     {% include practice-and-progress.html topic=topic course=course %}
  
     {% if page.toc %}
@@ -39,11 +40,11 @@ layout: default
 
     <div class="nav-links">
         {% if page.prev %}
-          <a href="{{ page.prev }}">&laquo; Back</a>
+          <a href="{{ page.prev | absolute_url}}">&laquo; Back</a>
         {% endif %}
         
         {% if page.next %}
-          <a href="{{ page.next }}">Next &raquo;</a>
+          <a href="{{ page.next | absolute_url}}">Next &raquo;</a>
         {% endif %}
       </div>
       
