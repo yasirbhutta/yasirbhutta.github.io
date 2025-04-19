@@ -16,7 +16,8 @@ resources:
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}
 {% assign examples = selected_topic.examples %}
-{% include pap/fill-blanks-loop.html questions=questions examples=examples topic=topic %}
+{% assign resources = selected_topic.resources %}
+{% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
 
 
 
