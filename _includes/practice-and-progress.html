@@ -19,7 +19,7 @@
   {% endif %}
 
   {% assign link_type = course | append: "/docs/" | append: topic | append: "/" | append: parts[1] | append: "-" | append: topic | append: ".html" %}
-  
-  <li><a href="{{ link_type }}">{{ parts[0] }}</a></li>
+ 
+  <li> <a href="{{ link_type | absolute_url }}">{{ parts[0] }}</a></li>
 {% endfor %}
 </ul>
