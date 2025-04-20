@@ -14,8 +14,6 @@ next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.ht
 {% assign topics = site.data.python.coding-exercises.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign exercises = selected_topic.exercises %}
-<!-- {% assign examples = selected_topic.examples %} -->
-<!-- {% assign resources = selected_topic.resources %} -->
 {% include pap/coding-exercises-loop.html exercises=exercises topic=topic %}
 
 
