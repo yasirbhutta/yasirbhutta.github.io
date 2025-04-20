@@ -6,6 +6,8 @@ keywords: Python inheritance tutorial, Python OOP inheritance, parent and child 
 toc: toc/python-toc.html
 topic: "oop-inheritance"
 course: "python"
+prev: /python/docs/classes.html
+next: /python/docs/re.html
 ---
 
 ## Topics Covered
