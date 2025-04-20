@@ -2,7 +2,7 @@
   <div class="mcq">
     <h3>Q{{ forloop.index }}. {{ q.question }}</h3>
     {% if q.code %}
-    <pre><code class="language-python">{{ q.code | escape | markdownify}}</code></pre>    
+    <pre><code class="language-python">{{ q.code | escape }}</code></pre>    
     {% endif %}
     <p><em>Difficulty: {{ q.difficulty }}</em></p>
     <ol type="A">
