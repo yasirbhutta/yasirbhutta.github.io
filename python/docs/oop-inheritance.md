@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Inheritance in Python - Beginner's Guide with Examples  
-description: Unlock the power of object-oriented programming! This beginner-friendly Python guide explains inheritance with clear examples. Learn about parent & child classes, method overriding, the `super()` function, and multilevel inheritance. Master OOP concepts in Python today!
+title: "Python Inheritance - Beginner's Guide with Examples"  
+description: "Learn Python OOP inheritance with Beginner's examples! Understand parent & child classes, method overriding, `super()`, and multilevel inheritance."
 keywords: Python inheritance tutorial, Python OOP inheritance, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel inheritance Python, Python OOP basics, Python programming for beginners, Python class inheritance examples
 toc: toc/python-toc.html
 topic: "oop-inheritance"
