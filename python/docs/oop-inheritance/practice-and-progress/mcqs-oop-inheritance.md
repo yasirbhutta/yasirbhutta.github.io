@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Inheritance in Python Classes - MCQs
-description: Challenge your understanding of Microsoft Excel with these multiple-choice questions. Covering topics like worksheets, workbooks, formulas, shortcuts, and data entry, this quiz is perfect for beginners to assess and improve their Excel skills.
-keywords: "Microsoft Excel MCQs, Excel basics quiz, Excel multiple-choice questions, Excel worksheets and workbooks, Excel formulas quiz, Excel shortcuts test, Excel data entry practice, beginner Excel quiz, Excel fundamentals assessment, Microsoft Excel skills test"
+title: Multiple Choice Questions (MCQs) on Inheritance in Python – OOP Practice
+description: Boost your Python skills with these MCQs on Object-Oriented Programming and Inheritance. Ideal for beginners, students, and job seekers to test and strengthen their understanding of Python OOP concepts.
+keywords: Python inheritance MCQs, OOP MCQ Python, multiple choice questions Python inheritance, Python class and object quiz, object oriented programming Python MCQs, Python OOP practice test, Python inheritance quiz questions, Python interview questions OOP, Python MCQ with answers, inheritance concepts in Python
 author: Muhammad Yasir Bhutta
 toc: toc/python-toc.html
 topic: "oop-inheritance"
