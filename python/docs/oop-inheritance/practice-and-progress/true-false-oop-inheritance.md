@@ -1,7 +1,19 @@
 ---
-layout: default
-title: --.
-description: --.
-keywords: --.
-author: Muhammad Yasir Bhutta.
+layout: page
+title: Inheritance in Pyhton - True or False
+description: --
+keywords: ---
+toc: toc/python-toc.html
+topic: "oop-inheritance"
+course: "python"
+prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
+next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
 ---
+
+{% assign topic = "oop-inheritance" %}
+{% assign topics = site.data.python.true-false.topics %}
+{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign questions = selected_topic.questions %}
+<!-- {% assign examples = selected_topic.examples %} -->
+{% assign resources = selected_topic.resources %}
+{% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}

@@ -1,0 +1,22 @@
+<h2>🔍 True or False</h2>
+<ol>
+  {% for q in include.questions %}
+    <li>{{ q.prompt }}</li>
+    <details>
+        <summary>Answer</summary>
+        <p><strong>{{ q.answer }}</strong></p>
+        {% if q.explanation %}
+          <p><em>{{ q.explanation }}</em></p>
+        {% endif %}
+    </details>
+    <hr>
+  {% endfor %}
+</ol>
+
+
+<h2>📚 Related Resources</h2>
+<ul>
+  {% for resource in include.resources %}
+    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+  {% endfor %}
+</ul>
