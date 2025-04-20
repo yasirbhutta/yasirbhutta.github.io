@@ -1,0 +1,52 @@
+course: python
+topics:
+  - topic: oop-inheritance
+    questions:
+      - id: py-rq-001
+        prompt: What is inheritance in Python?
+        answer: Inheritance in Python allows a class (child class) to inherit attributes and methods from another class (parent class), promoting code reusability and creating a hierarchical relationship between classes.
+        resources:
+          - name: Learn about Inheritance in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#inheritance
+
+      - id: py-rq-002
+        prompt: How does Python handle method resolution order (MRO) in the case of multiple inheritance?
+        answer: Python uses the C3 Linearization algorithm to determine the method resolution order (MRO) when multiple inheritance is involved. This ensures that methods are called in a consistent order, from left to right in the class hierarchy.
+        resources:
+          - name: Learn about MRO in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#mro
+
+      - id: py-rq-003
+        prompt: What happens if a subclass does not override a method from the parent class?
+        answer: If a subclass does not override a method, the child class inherits the method from the parent class and can use it as-is without any modification.
+        resources:
+          - name: Learn about Method Inheritance in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#method-inheritance
+
+      - id: py-rq-004
+        prompt: Why would you use the super() function in a subclass constructor?
+        answer: The super() function is used in a subclass constructor to call the parent class's constructor (__init__), ensuring that the parent class’s attributes are initialized properly in the child class.
+        resources:
+          - name: Learn about super() function in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#super-function
+
+      - id: py-rq-005
+        prompt: Can a child class in Python access private attributes of the parent class?
+        answer: No, private attributes in Python (those prefixed with __) are name-mangled and are not directly accessible in the child class or outside the parent class.
+        resources:
+          - name: Learn about Private Attributes in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#private-attributes
+
+      - id: py-rq-006
+        prompt: What is the difference between method overriding and method overloading in Python?
+        answer: Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in the parent class. Python does not support method overloading in the traditional sense, but method overloading can be simulated using default or variable-length arguments.
+        resources:
+          - name: Learn about Method Overriding in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#method-overriding
+
+      - id: py-rq-007
+        prompt: In the case of a class hierarchy, which of the following will be true about the child class's constructor (__init__ method)?
+        answer: The parent class's constructor is not automatically called unless explicitly invoked using super(). If the child class defines its own constructor, it can call super().__init__() to invoke the parent class’s constructor and initialize the inherited attributes.
+        resources:
+          - name: Learn about Constructor Inheritance in Python
+            url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#constructor-inheritance
