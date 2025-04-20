@@ -14,6 +14,4 @@ next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.ht
 {% assign topics = site.data.python.rq.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}
-<!-- {% assign examples = selected_topic.examples %} -->
-<!-- {% assign resources = selected_topic.resources %} -->
 {% include pap/rq-loop.html questions=questions topic=topic %}
