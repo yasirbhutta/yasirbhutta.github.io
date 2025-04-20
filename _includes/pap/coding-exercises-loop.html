@@ -1,0 +1,30 @@
+<h2>🧪 Coding Exercises</h2>
+<ol>
+  {% for ex in include.exercises %}
+    <li><strong>{{ ex.title }}</strong> <em>({{ ex.difficulty | capitalize }})</em></li>
+    <p>{{ ex.task }}</p>
+
+    {% if ex.requirements %}
+      <details>
+        <summary>Requirements</summary>
+        <pre>{{ ex.requirements }}</pre>
+      </details>
+    {% endif %}
+
+    <details>
+      <summary>Input</summary>
+      <pre>{{ ex.input }}</pre>
+    </details>
+
+    <details>
+      <summary>Expected Output</summary>
+      <pre>{{ ex.output }}</pre>
+    </details>
+
+    {% if ex.resource %}
+      <p>📚 <a href="{{ ex.resource.url }}">{{ ex.resource.name }}</a></p>
+    {% endif %}
+    
+    <hr>
+  {% endfor %}
+</ol>

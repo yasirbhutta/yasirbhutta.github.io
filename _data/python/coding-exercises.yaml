@@ -1,0 +1,119 @@
+course: python
+topics:
+  - topic: oop-inheritance
+    exercises:
+      - id: py-ce-001
+        title: "Basic Inheritance"
+        task: |
+          Create a `Vehicle` class with attributes like `brand` and `year`. Then, create a `Car` class that inherits from `Vehicle` and adds an additional attribute `model`.
+        requirements: |
+          - Define a method in the `Vehicle` class that prints basic vehicle details.
+          - Override this method in the `Car` class to print additional details (e.g., model).
+        input: |
+          car = Car("Toyota", 2022, "Corolla")
+          car.display_info()
+        output: |
+          Brand: Toyota, Year: 2022
+          Model: Corolla
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-001"
+        difficulty: "easy"
+
+      - id: py-ce-002
+        title: "Method Overriding"
+        task: |
+          Create a `Person` class with a method `greet()`. Then, create a `Student` class that inherits from `Person` and overrides the `greet()` method to display a custom greeting message.
+        requirements: |
+          - The `Person` class should have a `name` attribute.
+          - The `Student` class should override the `greet()` method to say "Hello, I am [name], a student".
+        input: |
+          student = Student("Alice")
+          student.greet()
+        output: |
+          Hello, I am Alice, a student.
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-002"
+        difficulty: "easy"
+
+      - id: py-ce-003
+        title: "Using `super()` in Inheritance"
+        task: |
+          Create a `Shape` class with a method `area()` that returns `None`. Then, create a `Rectangle` class that inherits from `Shape` and calculates the area of the rectangle using the length and width. Use `super()` to call the `Shape` constructor.
+        requirements: |
+          - The `Rectangle` class should accept `length` and `width` as arguments.
+          - The `area()` method in `Rectangle` should calculate and print the area of the rectangle.
+        input: |
+          rectangle = Rectangle(5, 3)
+          print(f"Area of rectangle: {rectangle.area()}")
+        output: |
+          Area of rectangle: 15
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-003"
+        difficulty: "easy"
+
+      - id: py-ce-004
+        title: "Multilevel Inheritance"
+        task: |
+          Create a class `Animal` with a method `sound()`. Then, create a `Dog` class that inherits from `Animal` and overrides the `sound()` method. Afterward, create a `Puppy` class that inherits from `Dog` and adds a new method `play()`.
+        requirements: |
+          - The `sound()` method should print a generic animal sound in the `Animal` class.
+          - The `Puppy` class should print a playful message in the `play()` method.
+        input: |
+          puppy = Puppy()
+          puppy.sound()  # Inherited from Dog
+          puppy.play()   # Specific to Puppy
+        output: |
+          Bark!
+          Puppy is playing!
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-004"
+        difficulty: "easy"
+
+      - id: py-ce-005
+        title: "Hierarchical Inheritance"
+        task: |
+          Create a `Person` class with a method `info()` to display basic information. Then, create two classes `Employee` and `Student` that inherit from `Person` and override the `info()` method to show their specific details.
+        requirements: |
+          - The `Employee` class should display "Employee [name], [age], [position]".
+          - The `Student` class should display "Student [name], [age], [major]".
+        input: |
+          emp = Employee("John", 30, "Software Engineer")
+          emp.info()
+
+          stu = Student("Jane", 20, "Computer Science")
+          stu.info()
+        output: |
+          Employee John, Age: 30, Position: Software Engineer
+          Student Jane, Age: 20, Major: Computer Science
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-005"
+        difficulty: "easy"
+
+      - id: py-ce-006
+        title: "Dynamic Method Resolution Order (MRO)"
+        task: |
+          Create a `Bird` class, a `FlyingBird` class, and a `Penguin` class. The `Penguin` class should inherit from `Bird` and override the `fly()` method to indicate that penguins can't fly.
+        requirements: |
+          - Use the `super()` function to call methods from the `Bird` class, demonstrating method resolution order (MRO).
+        input: |
+          bird = Bird()
+          bird.fly()
+
+          flying_bird = FlyingBird()
+          flying_bird.fly()
+
+          penguin = Penguin()
+          penguin.fly()
+        output: |
+          Bird is flying.
+          Flying bird is soaring high.
+          Penguins cannot fly.
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/py-ce-006"
+        difficulty: "easy"
