@@ -4,6 +4,9 @@ title: Object-Oriented Programming in Python (OOP) - Tutorial
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
 toc: toc/python-toc.html
 topic: classes
+course: python
+prev: /python/docs/decorators.html
+next: /python/docs/oop-inheritance.html
 ---
 
 ## Contents:
