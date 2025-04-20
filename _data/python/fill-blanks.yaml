@@ -1,6 +1,6 @@
 course: python
 topics:
-  - topic: classes-and-objects
+  - topic: classes
     questions:
       - id: py-co-001
         prompt: In Python, you create a class using the ________ keyword.
