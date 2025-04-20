@@ -1,13 +1,13 @@
 <h2>🔍 Review Questions</h2>
 <ol>
   {% for q in include.questions %}
-    <li>{{ q.prompt }}</li>
+    <li><h3>{{ q.prompt }}</h3></li>
     <details>
         <summary>Answer</summary>
         <p><strong>{{ q.answer }}</strong></p>
         
         {% if q.resources %}
-          <h3>📚 Related Resources</h3>
+          <h4>📚 Related Resources</h4>
           <ul>
             {% for resource in q.resources %}
               <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
