@@ -15,3 +15,5 @@ next: /python/docs/classes/practice-and-progress/mcqs-classes.html
 {% assign examples = selected_topic.examples %}
 {% assign resources = selected_topic.resources %}
 {% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
+
+<h1>{{topic}}</h1>
