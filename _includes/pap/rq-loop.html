@@ -4,10 +4,10 @@
     <li><h3>{{ q.prompt }}</h3></li>
     <details>
         <summary>Answer</summary>
-        <p><strong>{{ q.answer }}</strong></p>
+        <p>{{ q.answer }}</p>
         
         {% if q.resources %}
-          <h4>📚 Related Resources</h4>
+          <p>📚 Related Resources</p>
           <ul>
             {% for resource in q.resources %}
               <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
