@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Python Classes MCQs - Test Your Knowledge of Object-Oriented Programming.
 description: Challenge your understanding of Python classes with these multiple-choice questions. Perfect for beginners to practice key concepts like class creation, object instances, constructors, and methods in Python.
 toc: toc/python-toc.html
