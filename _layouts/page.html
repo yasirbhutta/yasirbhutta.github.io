@@ -27,7 +27,7 @@ layout: default
     {% if page.toc %}
     <h3>Explore More Topics</h3>
     {% assign show_heading = false %}
-    {% include page.toc show_heading=show_heading %}
+    {% include {{page.toc}} show_heading=show_heading %}
     {% endif %}
     
     <hr>
