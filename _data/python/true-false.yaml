@@ -36,3 +36,6 @@ topics:
         answer: true
         explanation: >
           The `__init__` method initializes the object's state upon creation.
+    resources:
+    - name: Learn Inheritance in Python
+      url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
