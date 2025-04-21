@@ -5,7 +5,7 @@ description: Master Python strings with this guide. Learn string manipulations, 
 keywords: ​Python strings, string manipulation, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
 toc: toc/python-toc.html
 topic: "string"
-subject: "python"
+course: "python"
 prev: /python/docs/control-flow.html
 next: /python/docs/functions.html
 ---
