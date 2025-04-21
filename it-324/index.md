@@ -35,11 +35,9 @@
 {% assign show_heading = true %}
 {% include toc/css-toc.html show_heading=show_heading %}
 
+- [Javascript](/javascript/index.md)
+
 ### [Web Development Articles](../html-css/posts/)
-
-### Emmet for HTML
-
-- Intro. to Emmet[slides](https://docs.google.com/presentation/d/1eFoopFlJL_8EqV2W1-F2gFvGdMTFNkfJUBCdmDPCfkI/export?format=pdf)
 
 ## Course Assignments, Quizzes
 
