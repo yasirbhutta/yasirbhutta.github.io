@@ -178,6 +178,52 @@ topics:
           - python
           - P y t h o n
         answer: Python
+        question: Which method converts a string to all uppercase letters?
+        options:
+          - capitalize()
+          - upper()
+          - title()
+          - swapcase()
+        answer: upper()
+        explanation: The `upper()` method converts all characters in a string to uppercase.
+
+      - id: py-str-003
+        difficulty: easy
+        question: What does the `strip()` method do?
+        options:
+          - Removes only leading spaces
+          - Removes only trailing spaces
+          - Removes both leading and trailing spaces
+          - Removes all spaces inside the string
+        answer: Removes both leading and trailing spaces
+        explanation: The `strip()` method removes whitespace from both ends of the string.
+
+      - id: py-str-004
+        difficulty: easy
+        question: What is the output of the following code?
+        code: |
+          word = "HELLO"
+          print(word.lower())
+        options:
+          - Hello
+          - hello
+          - HELLO
+          - error
+        answer: hello
+        explanation: The `lower()` method converts all uppercase letters in a string to lowercase.
+
+      - id: py-str-005
+        difficulty: medium
+        question: What is the output of the following code?
+        code: |
+          text = "python"
+          print(text.title())
+        options:
+          - Python
+          - PYTHON
+          - python
+          - P y t h o n
+        answer: Python
         explanation: The `title()` method capitalizes the first letter of each word in the string.
     resources:
     - name: Learn String Methods & Formatting
