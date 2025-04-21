@@ -84,10 +84,131 @@ topics:
           - Parent Child
           - Error
         answer: Child
+
+      - id: py-inh-001
+        difficulty: easy
+        question: What is the primary purpose of inheritance in Python?
+        options:
+          - To improve memory efficiency
+          - To hide implementation details
+          - To enable code reusability
+          - To reduce program complexity
+        answer: To enable code reusability
+        explanation: Inheritance helps avoid code duplication by allowing child classes to reuse methods and properties of parent classes.
+
+      - id: py-inh-002
+        difficulty: easy
+        question: Which syntax correctly defines a class `Child` inheriting from `Parent`?
+        options:
+          - class Child extends Parent:
+          - class Child(Parent):
+          - class Child inherits Parent:
+          - class Child : Parent
+        answer: "class Child(Parent):"
+        explanation: In Python, inheritance is denoted by placing the parent class name in parentheses after the child class name.
+
+      - id: py-inh-003
+        difficulty: medium
+        question: What is the output of the following code?
+        code: |
+          class Parent:
+              def greet(self):
+                  print("Hello from Parent!")
+          
+          class Child(Parent):
+              def greet(self):
+                  print("Hello from Child!")
+
+          obj = Child()
+          obj.greet()
+        options:
+          - Hello from Parent!
+          - Hello from Child!
+          - Error
+          - No output
+        answer: Hello from Child!
+        explanation: The `greet` method is overridden in the `Child` class, so that version is called.
+
+      - id: py-inh-004
+        difficulty: medium
+        question: What does the `super()` function do?
+        options:
+          - Returns the base class instance
+          - Calls a method from a sibling class
+          - Calls a method from the parent class
+          - Creates a new subclass
+        answer: Calls a method from the parent class
+        explanation: "`super()` is used to call methods from the parent class, especially in method overrides"
+
+      - id: py-inh-005
+        difficulty: hard
+        question: Which type of inheritance is NOT supported in Python?
+        options:
+          - Single
+          - Multiple
+          - Cascading
+          - Multilevel
+        answer: Cascading
+        explanation: Python supports single, multiple, and multilevel inheritance, but "cascading" is not a recognized inheritance type.
+
+      - id: py-inh-006
+        difficulty: medium
+        question: "In multiple inheritance, the method resolution order (MRO) follows:"
+        options:
+          - Depth-first search
+          - Breadth-first search
+          - C3 linearization
+          - Random order
+        answer: C3 linearization
+        explanation: Python uses C3 linearization to determine the order in which classes are searched when executing a method.
+
+      - id: py-inh-007
+        difficulty: hard
+        question: How do you explicitly call a parent class method from a child class?
+        options:
+          - Parent.method(self)
+          - self.parent_method()
+          - super().method()
+          - Both A and C
+        answer: Both A and C
+        explanation: You can call a parent method using either `Parent.method(self)` or `super().method()`.
+
+      - id: py-inh-008
+        difficulty: hard
+        question: Which statement about private members (e.g., `__var`) in inheritance is true?
+        options:
+          - They are directly accessible in subclasses
+          - They are inaccessible due to name mangling
+          - They can be accessed using `super()`
+          - They are inherited without name mangling
+        answer: They are inaccessible due to name mangling
+        explanation: Private members with double underscores are name-mangled and not directly accessible from subclasses.
+
+      - id: py-inh-009
+        difficulty: medium
+        question: What does `isinstance(child_obj, Parent)` return?
+        options:
+          - True
+          - False
+          - TypeError
+          - None
+        answer: True
+        explanation: If `child_obj` is an instance of a class derived from `Parent`, `isinstance` will return `True`.
+
+      - id: py-inh-010
+        difficulty: hard
+        question: "Hybrid inheritance refers to:"
+        options:
+          - Combining multiple types of inheritance
+          - Inheriting from two parent classes
+          - Overriding all parent methods
+          - Using interfaces only
+        answer: Combining multiple types of inheritance
+        explanation: Hybrid inheritance is a combination of more than one type of inheritance, like multiple and multilevel.
     resources:
     - name: Learn Inheritance in Python
       url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
-      
+
   - topic: oop-polymorphism
     questions:
       - id: py011
