@@ -126,12 +126,6 @@ print(text.ljust(10))  # Output: "Python    "
 print(text.rjust(10))  # Output: "    Python"
 ```
 
-## **Mini Quiz: String Basics**
-
-
-
----
-
 ## **Practice Tasks**
 
 ### Task 1: String Info
