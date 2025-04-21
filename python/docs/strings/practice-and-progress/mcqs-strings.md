@@ -7,8 +7,8 @@ author: "Muhammad Yasir Bhutta"
 toc: toc/python
 topic: "strings"
 course: "python"
-prev: ""
-next: ""
+prev: "/python/docs/strings/practice-and-progress/fill-blanks-strings.html"
+next: "/python/docs/strings/practice-and-progress/find-fix-mistakes-strings.html"
 ---
 
 {% assign topic_name = "string" %}

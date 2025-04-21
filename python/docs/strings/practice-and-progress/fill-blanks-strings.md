@@ -5,10 +5,10 @@ description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
 toc: toc/python-toc.html
-topic: ""
-course: ""
-prev: ""
-next: ""
+topic: "strings"
+course: "python"
+prev: /python/docs/strings/practice-and-progress/true-false-strings.html
+next: /python/docs/strings/practice-and-progress/mcqs-strings.html
 ---
 
 {% assign topic = "string" %}
