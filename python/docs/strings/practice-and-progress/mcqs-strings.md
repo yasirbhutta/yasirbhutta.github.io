@@ -4,7 +4,7 @@ title: --.
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/python
+toc: toc/python-toc.html
 topic: "strings"
 course: "python"
 prev: "/python/docs/strings/practice-and-progress/fill-blanks-strings.html"
