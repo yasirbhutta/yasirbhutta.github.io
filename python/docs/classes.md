@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: page
 title: Object-Oriented Programming in Python (OOP) - Tutorial
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
 toc: toc/python-toc.html
+topic: classes
+course: python
+prev: /python/docs/decorators.html
+next: /python/docs/oop-inheritance.html
 ---
-
-# Classes and Objects in Python
 
 ## Contents:
 
@@ -334,9 +336,6 @@ print(student2.get_grade())  # Output: 11
 <div class="yt-video">
 <iframe src="https://www.youtube.com/embed/tNARiqDveP4?si=8l9lXAgnyWARiqWl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-{% assign topic = "classes" %}
-{% include practice-and-progress.html topic=topic %}
 
 ## References and Bibliography
 

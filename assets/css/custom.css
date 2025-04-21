@@ -32,7 +32,21 @@ section {
 header {
   width: 20%
  }
- 
+
+ .nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.nav-links a {
+  padding: 0.5em 1em;
+  background-color: #eee;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
 /* For image-based icons */
 .icon-image img {
   width: 16px;

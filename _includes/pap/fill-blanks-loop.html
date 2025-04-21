@@ -1,0 +1,52 @@
+<!-- # This file is part of the Python Fill-in-the-Blanks Quiz. -->
+<!-- <p><strong>Difficulty Levels:</strong>
+    {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
+    {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
+    {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
+</p> -->
+
+<h2>🔍 Fill in the Blanks</h2>
+<ol>
+  {% for q in include.questions %}
+    <li>{{ q.prompt }}</li>
+    <details>
+        <summary>Answer</summary>
+        <p><strong>{{ q.answer }}</strong></p>
+        {% if q.explanation %}
+          <p><em>{{ q.explanation }}</em></p>
+        {% endif %}
+    </details>
+    <hr>
+  {% endfor %}
+</ol>
+
+<hr />
+
+{% if include.examples %}
+<h2>🧠 Example-Based Fill in the Blanks</h2>
+<ol>
+  {% for example in include.examples %}
+    <li>
+      <pre><code>{{ example.code | escape }}</code></pre>
+      <h3>✍️ {{ example.prompt }}</h3>
+      <details>
+        <summary>Answer</summary>
+        <p><strong>{{ example.answer }}</strong></p>
+        {% if example.explanation %}
+          <p><em>{{ example.explanation }}</em></p>
+        {% endif %}
+    </details>
+      <!-- <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p> -->
+    </li>
+  {% endfor %}
+</ol>
+{% endif %}
+<hr />
+
+
+<h2>📚 Related Resources</h2>
+<ul>
+  {% for resource in include.resources %}
+    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+  {% endfor %}
+</ul>

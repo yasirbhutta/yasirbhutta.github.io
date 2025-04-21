@@ -1,0 +1,20 @@
+<h2>🔍 Review Questions</h2>
+<ol>
+  {% for q in include.questions %}
+    <li><h3>{{ q.prompt }}</h3></li>
+    <details>
+        <summary>Answer</summary>
+        <p>{{ q.answer }}</p>
+        
+        {% if q.resources %}
+          <p>📚 Related Resources</p>
+          <ul>
+            {% for resource in q.resources %}
+              <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+    </details>
+    <hr>
+  {% endfor %}
+</ol>

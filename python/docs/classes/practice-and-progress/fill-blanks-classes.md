@@ -1,50 +1,19 @@
 ---
-layout: fill-in-the-blanks
+layout: page
 title: Python Classes Fill-in-the-Blanks Practice.
 description: Test your knowledge of Python classes and objects with these fill-in-the-blank exercises. Learn key concepts like attributes, methods, and the __init__ method with answers provided for self-assessment.
-difficulty:
-  beginner: true
-  intermediate: false
-  advanced: false
-topic: Classes and Objects
-questions:
-    - In Python, you create a class using the ________ keyword.  
-    - A class is a ________ for creating objects (instances).  
-    - Objects are ________ of a class that have attributes (data) and methods (functions).  
-    - The `__init__` method is a special method that is automatically called when a new ________ of a class is created.
-    - Instance attributes are ________ to each instance (object) of a class.  
-    - The `self` parameter is used to access the ________ and ________ of an object within its methods.
-    - Class attributes are shared across all ________ of the class, while instance attributes are specific to each ________.
-    - To access an attribute of an object, use the ________ notation (e.g., `object.attribute`).  
-    - Changing the value of a ________ attribute will reflect across all objects of the class.
-    - Methods are ________ defined within a class that operate on the object's data.  
-examples:
-  - code: |
-        class Car:
-            def describe(self):
-                print(f"{self.year} {self.make} {self.model}")
-    prompt: The `describe` method is a ________ of the `Car` class.
-    answer: method
-  - code: |
-        class Student:
-            def set_grade(self, new_grade):
-                self.grade = new_grade
-    prompt: The `set_grade` method is used to ________ the grade of a student.
-    answer: update
-answers:
-    - class
-    - blueprint  
-    - instances
-    - object
-    - unique
-    - attributes
-    - methods
-    - objects
-    - object
-    - dot
-    - class
-    - functions  
-resources:
-    - name: Learn Classes and Objects
-      url: https://yasirbhutta.github.io/python/docs/classes.html
+toc: toc/python-toc.html
+topic: "classes"
+course: "python"
+prev: /python/docs/classes/practice-and-progress/true-false-classes.html
+next: /python/docs/classes/practice-and-progress/mcqs-classes.html
 ---
+
+{% assign topic = "classes" %}
+{% assign topics = site.data.python.fill-blanks.topics %}
+{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign questions = selected_topic.questions %}
+{% assign examples = selected_topic.examples %}
+{% assign resources = selected_topic.resources %}
+{% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
+

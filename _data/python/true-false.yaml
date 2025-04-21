@@ -1,0 +1,41 @@
+course: python
+topics:
+  - topic: oop-inheritance
+    questions:
+      - id: py-tf-001
+        difficulty: easy
+        prompt: In Python, a child class can inherit from only one parent class.
+        answer: false
+        explanation: >
+          Python supports multiple inheritance, allowing a child class to inherit from multiple parent classes.
+
+      - id: py-tf-002
+        difficulty: easy
+        prompt: The `super()` function is used to call a method from a parent class.
+        answer: true
+        explanation: >
+          The `super()` function allows access to methods from a parent class, especially useful in method overriding.
+
+      - id: py-tf-003
+        difficulty: easy
+        prompt: Method overriding allows a subclass to provide a specific implementation of a method already defined in its parent class.
+        answer: true
+        explanation: >
+          Method overriding lets a subclass define its own version of a method inherited from the parent class.
+
+      - id: py-tf-004
+        difficulty: easy
+        prompt: In Python, private attributes (prefixed with double underscores) are directly accessible in subclasses.
+        answer: false
+        explanation: >
+          Private attributes are name-mangled and not directly accessible in subclasses.
+
+      - id: py-tf-005
+        difficulty: easy
+        prompt: The `__init__` method is automatically called when a new object of a class is instantiated.
+        answer: true
+        explanation: >
+          The `__init__` method initializes the object's state upon creation.
+    resources:
+    - name: Learn Inheritance in Python
+      url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html

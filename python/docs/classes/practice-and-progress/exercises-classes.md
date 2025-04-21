@@ -1,7 +1,12 @@
 ---
-layout: default
-title: --.
-description: --.
+layout: page
+title: Python Exercises for Beginners - Classes and Objects
+description: Practice Python programming with beginner-friendly exercises on classes and objects. Learn to define attributes, methods, and create objects with step-by-step tasks.
+toc: toc/python-toc.html
+topic: "classes"
+course: "python"
+prev: /python/docs/classes/practice-and-progress/find-fix-mistakes-classes.html
+next: /python/docs/classes/practice-and-progress/mini-projects-classes.html
 ---
 
 Sure! Here's a beginner-friendly exercise involving classes and basic tasks like defining attributes, methods, and creating objects.
