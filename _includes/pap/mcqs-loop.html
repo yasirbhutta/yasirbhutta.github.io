@@ -18,7 +18,6 @@
         {% if q.code %}
           <pre><code class="language-python">{{ q.code | escape }}</code></pre>
         {% endif %}
-        <!-- <p><em>Difficulty: {{ q.difficulty }}</em></p> -->
         <ol type="A">
           {% for option in q.options %}
             <li>{{ option }}</li>
