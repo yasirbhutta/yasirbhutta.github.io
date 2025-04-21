@@ -19,7 +19,13 @@ layout: default
   </div>
 
   <hr>
-
+  {% if page.toc %}
+  <h3>Explore More Topics</h3>
+  {% assign show_heading = false %}
+  {% include {{page.toc}} show_heading=show_heading %}
+  <hr
+  {% endif %}
+  
   <div class="nav-links">
     {% if page.prev %}
       <a href="{{ page.prev | absolute_url}}">&laquo; Back</a>
