@@ -4,7 +4,7 @@ title: "Learn String Methods & Formatting: True or False"
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/python
+toc: toc/python-toc.html
 topic: string
 course: python
 prev: ""

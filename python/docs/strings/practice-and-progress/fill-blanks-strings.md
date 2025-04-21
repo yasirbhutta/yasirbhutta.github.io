@@ -4,7 +4,7 @@ title: "Learn String Methods & Formatting: MCQs"
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/
+toc: toc/python-toc.html
 topic: ""
 course: ""
 prev: ""
