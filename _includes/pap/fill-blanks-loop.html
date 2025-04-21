@@ -6,19 +6,32 @@
 </p> -->
 
 <h2>🔍 Fill in the Blanks</h2>
-<ol>
-  {% for q in include.questions %}
-    <li>{{ q.prompt }}</li>
-    <details>
-        <summary>Answer</summary>
-        <p><strong>{{ q.answer }}</strong></p>
-        {% if q.explanation %}
-          <p><em>{{ q.explanation }}</em></p>
-        {% endif %}
-    </details>
-    <hr>
-  {% endfor %}
-</ol>
+
+{% assign levels = "easy,medium,hard" | split: "," %}
+{% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
+
+{% for i in (0..2) %}
+  {% assign level = levels[i] %}
+  {% assign label = labels[i] %}
+
+  <h3>{{ label }} Questions</h3>
+  <ol>
+    {% for q in include.questions %}
+      {% if q.difficulty == level %}
+        <li>{{ q.prompt }}</li>
+        <details>
+          <summary>Answer</summary>
+          <p><strong>{{ q.answer }}</strong></p>
+          {% if q.explanation %}
+            <p><em>{{ q.explanation }}</em></p>
+          {% endif %}
+        </details>
+        <hr>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endfor %}
+
 
 <hr />
 
