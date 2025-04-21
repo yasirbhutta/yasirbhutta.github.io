@@ -1,4 +1,15 @@
-# Python None Type Explained: Meaning, Usage, and Best Practices
+---
+layout: page
+title: "Understanding NoneType in Python: Usage, Best Practices & Common Mistakes"
+description: Learn what None and NoneType mean in Python. Understand their usage, best practices, and common pitfalls to write cleaner, more reliable code.
+keywords: NoneType, Python None, None in Python, NoneType errors, Python best practices, Python tutorials, Python programming, Python functions, Python beginners, Python debugging
+author: "Muhammad Yasir Bhutta"
+toc: toc/python-toc.html
+topic: "strings"
+course: "python"
+prev: "/python/posts/python-one-liners.html"
+next: "/python/posts/mutable-default-arguments.html"
+---
 
 ## Table of Contents
 
