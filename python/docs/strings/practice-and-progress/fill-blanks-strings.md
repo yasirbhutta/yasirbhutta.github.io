@@ -1,6 +1,6 @@
 ---
-layout: default
-title: --.
+layout: page
+title: "Learn String Methods & Formatting: MCQs"
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"

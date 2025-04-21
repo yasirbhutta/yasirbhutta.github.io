@@ -4,9 +4,9 @@ title: --.
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/
-topic: ""
-course: ""
+toc: toc/python
+topic: "strings"
+course: "python"
 prev: ""
 next: ""
 ---

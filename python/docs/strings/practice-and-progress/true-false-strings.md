@@ -1,12 +1,12 @@
 ---
-layout: default
-title: --.
+layout: page
+title: "Learn String Methods & Formatting: True or False"
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/
-topic: ""
-course: ""
+toc: toc/python
+topic: string
+course: python
 prev: ""
 next: ""
 ---

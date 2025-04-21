@@ -148,4 +148,4 @@ topics:
           Strings are immutable in Python, so you cannot change characters via indexing.
     resources:
     - name: Learn String Methods & Formatting
-      url: https://yasirbhutta.github.io/python/docs/string.html
+      url: https://yasirbhutta.github.io/python/docs/strings.html
