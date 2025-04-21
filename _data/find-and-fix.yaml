@@ -1,0 +1,75 @@
+course: python
+topics:
+  - topic: oop-inheritance
+    questions:
+
+      - id: py-inh-fix-001
+        type: find-and-fix
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+          ```python
+          class Father:
+              def __init__(self, name):
+                  name = name
+
+          class Child(Father):
+              pass
+
+          c = Child("Ali")
+          print(c.name)
+          ```
+        issue: The constructor assigns the parameter to itself instead of using `self.name = name`.
+        solution: |
+          ```python
+          class Father:
+              def __init__(self, name):
+                  self.name = name
+          ```
+
+      - id: py-inh-fix-002
+        type: find-and-fix
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+          ```python
+          class Animal:
+              def sound():
+                  print("Some sound")
+
+          class Dog(Animal):
+              pass
+
+          d = Dog()
+          d.sound()
+          ```
+        issue: Method `sound()` is missing the `self` parameter.
+        solution: |
+          ```python
+          class Animal:
+              def sound(self):
+                  print("Some sound")
+          ```
+
+      - id: py-inh-fix-003
+        type: find-and-fix
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+          ```python
+          class Person:
+              def __init__(self, name):
+                  self.name = name
+
+          class Student(Person):
+              def __init__(self, school):
+                  self.school = school
+          ```
+        issue: Child constructor does not call the parent constructor, missing initialization of `name`.
+        solution: |
+          ```python
+          class Student(Person):
+              def __init__(self, name, school):
+                  super().__init__(name)
+                  self.school = school
+          ```
