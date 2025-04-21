@@ -128,60 +128,7 @@ print(text.rjust(10))  # Output: "    Python"
 
 ## **Mini Quiz: String Basics**
 
-### **1. What will be the output of the following code?**
-```python
-name = "Alice"
-print(name[1])
-```
-a) A  
-b) l  
-c) i  
-d) e  
-**Answer:** b) l
 
----
-
-### **2. Which method converts a string to all uppercase letters?**  
-a) `capitalize()`  
-b) `upper()`  
-c) `title()`  
-d) `swapcase()`  
-**Answer:** b) `upper()`
-
----
-
-### **3. What does the `strip()` method do?**  
-a) Removes only leading spaces  
-b) Removes only trailing spaces  
-c) Removes both leading and trailing spaces  
-d) Removes all spaces inside the string  
-**Answer:** c) Removes both leading and trailing spaces
-
----
-
-### **4. What is the output of the following code?**
-```python
-word = "HELLO"
-print(word.lower())
-```
-a) Hello  
-b) hello  
-c) HELLO  
-d) error  
-**Answer:** b) hello
-
----
-
-### **5. What is the output of this code?**
-```python
-text = "python"
-print(text.title())
-```
-a) Python  
-b) PYTHON  
-c) python  
-d) P y t h o n  
-**Answer:** a) Python
 
 ---
 

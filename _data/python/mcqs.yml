@@ -113,15 +113,69 @@ topics:
     resources:
     - name: Learn Polymorphism in Python
       url: https://yasirbhutta.github.io/python/docs/oop-polymorphism.html
+
   - topic: string
-    questions:
-      - id: py011
-        difficulty: medium
-        question: What is polymorphism in Python?
-        options:
-          - Inheritance of attributes from a class
-          - The ability of different classes to provide different implementations of the same method
-          - The process of creating objects from a class
-          - None of the above
-        answer: The ability of different classes to provide different implementations of the same method
-        explanation: Polymorphism allows methods to be defined in multiple classes with different implementations.
+  questions:
+    - id: py-str-001
+      difficulty: easy
+      question: What will be the output of the following code?
+      code: |
+        name = "Alice"
+        print(name[1])
+      options:
+        - A
+        - l
+        - i
+        - e
+      answer: l
+      explanation: Indexing in strings starts at 0, so `name[1]` gives the second character, which is 'l'.
+
+    - id: py-str-002
+      difficulty: easy
+      question: Which method converts a string to all uppercase letters?
+      options:
+        - capitalize()
+        - upper()
+        - title()
+        - swapcase()
+      answer: upper()
+      explanation: The `upper()` method converts all characters in a string to uppercase.
+
+    - id: py-str-003
+      difficulty: easy
+      question: What does the `strip()` method do?
+      options:
+        - Removes only leading spaces
+        - Removes only trailing spaces
+        - Removes both leading and trailing spaces
+        - Removes all spaces inside the string
+      answer: Removes both leading and trailing spaces
+      explanation: The `strip()` method removes whitespace from both ends of the string.
+
+    - id: py-str-004
+      difficulty: easy
+      question: What is the output of the following code?
+      code: |
+        word = "HELLO"
+        print(word.lower())
+      options:
+        - Hello
+        - hello
+        - HELLO
+        - error
+      answer: hello
+      explanation: The `lower()` method converts all uppercase letters in a string to lowercase.
+
+    - id: py-str-005
+      difficulty: easy
+      question: What is the output of this code?
+      code: |
+        text = "python"
+        print(text.title())
+      options:
+        - Python
+        - PYTHON
+        - python
+        - P y t h o n
+      answer: Python
+      explanation: The `title()` method capitalizes the first letter of each word in the string.
