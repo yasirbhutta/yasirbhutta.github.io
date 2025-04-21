@@ -1,35 +1,34 @@
 <h2>📝 Multiple Choice Questions</h2>
-
 {% assign levels = "easy,medium,hard" | split: "," %}
 {% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
-
 {% for i in (0..2) %}
-  {% assign level = levels[i] %}
-  {% assign label = labels[i] %}
-
-  <h3>{{ label }}</h3>
-
-  {% for q in include.mcqs %}
-    {% if q.difficulty == level %}
-      <div class="mcq">
-        <h3>{{ q.question }}</h3>
-        {% if q.code %}
-        <pre><code class="language-python">{{ q.code }}</code></pre>
-        {% endif %}
-        <ol type="A">
-          {% for option in q.options %}
-          <li>{{ option }}</li>
-          {% endfor %}
-        </ol>
-        <details>
-          <summary>Answer</summary>
-          <p><strong>{{ q.answer }}</strong></p>
-          {% if q.explanation %}
-            <p><em>{{ q.explanation }}</em></p>
-          {% endif %}
-        </details>
-        <hr>
-      </div>
-    {% endif %}
-  {% endfor %}
+{% assign level = levels[i] %}
+{% assign label = labels[i] %}
+<h3>{{ label }}</h3>
+{% assign question_count = 0 %}
+{% for q in include.mcqs %}
+{% if q.difficulty == level %}
+{% assign question_count = question_count | plus: 1 %}
+<div class="mcq">
+<h3>Q{{ question_count }}. {{ q.question }}</h3>
+{% if q.code %}
+<pre><code class="language-python">{{ q.code | escape }}</code></pre>
+{% endif %}
+<ol type="A">
+{% for option in q.options %}
+<li>{{ option }}</li>
 {% endfor %}
+</ol>
+<details>
+<summary>Answer</summary>
+<p><strong>{{ q.answer }}</strong></p>
+{% if q.explanation %}
+<p><em>{{ q.explanation }}</em></p>
+{% endif %}
+</details>
+<hr>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
