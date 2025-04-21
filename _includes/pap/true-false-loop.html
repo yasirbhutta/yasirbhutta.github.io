@@ -3,16 +3,20 @@
   {% for q in include.questions %}
     <li>{{ q.prompt }}</li>
     <details>
-        <summary>Answer</summary>
-        <p><strong>{{ q.answer }}</strong></p>
-        {% if q.explanation %}
-          <p><em>{{ q.explanation }}</em></p>
+      <summary>Answer</summary>
+      <p>
+        {% if q.answer == true or q.answer == "True" %}
+          ✅ True – <em>{{ q.explanation }}</em>
+        {% elsif q.answer == false or q.answer == "False" %}
+          ❌ False – <em>{{ q.explanation }}</em>
+        {% else %}
+          {{ q.answer }} – <em>{{ q.explanation }}</em>
         {% endif %}
+      </p>
     </details>
     <hr>
   {% endfor %}
 </ol>
-
 
 <h2>📚 Related Resources</h2>
 <ul>
