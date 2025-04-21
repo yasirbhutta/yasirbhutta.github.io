@@ -213,7 +213,7 @@ topics:
         explanation: The `lower()` method converts all uppercase letters in a string to lowercase.
 
       - id: py-str-005
-        difficulty: medium
+        difficulty: easy
         question: What is the output of the following code?
         code: |
           text = "python"
