@@ -14,7 +14,7 @@
   {% assign level = levels[i] %}
   {% assign label = labels[i] %}
 
-  <h3>{{ label }} Questions</h3>
+  <h3>{{ label }}</h3>
   <ol>
     {% for q in include.questions %}
       {% if q.difficulty == level %}
@@ -31,7 +31,6 @@
     {% endfor %}
   </ol>
 {% endfor %}
-
 
 <hr />
 
