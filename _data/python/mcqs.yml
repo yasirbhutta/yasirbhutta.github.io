@@ -113,3 +113,15 @@ topics:
     resources:
     - name: Learn Polymorphism in Python
       url: https://yasirbhutta.github.io/python/docs/oop-polymorphism.html
+  - topic: string
+    questions:
+      - id: py011
+        difficulty: medium
+        question: What is polymorphism in Python?
+        options:
+          - Inheritance of attributes from a class
+          - The ability of different classes to provide different implementations of the same method
+          - The process of creating objects from a class
+          - None of the above
+        answer: The ability of different classes to provide different implementations of the same method
+        explanation: Polymorphism allows methods to be defined in multiple classes with different implementations.
