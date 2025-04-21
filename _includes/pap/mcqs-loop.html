@@ -4,17 +4,8 @@
 {% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
 
 {% for i in (0..2) %}
-  {% case i %}
-    {% when 0 %}
-      {% assign level = levels[0] %}
-      {% assign label = labels[0] %}
-    {% when 1 %}
-      {% assign level = levels[1] %}
-      {% assign label = labels[1] %}
-    {% when 2 %}
-      {% assign level = levels[2] %}
-      {% assign label = labels[2] %}
-  {% endcase %}
+  {% assign level = levels[i] %}
+  {% assign label = labels[i] %}
 
   <h3>{{ label }}</h3>
 
