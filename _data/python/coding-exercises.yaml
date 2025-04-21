@@ -117,3 +117,78 @@ topics:
           name: "View Solution"
           url: "https://example.com/solution/py-ce-006"
         difficulty: "easy"
+
+  - topic: strings
+    exercises:
+      - id: py-str-001
+        title: "String Information"
+        task: |
+          Ask the user for their name and print:
+          - The name in all uppercase
+          - The name in all lowercase
+          - The number of characters in the name
+        requirements: |
+          - Use `input()`, `upper()`, `lower()`, and `len()`
+        input: |
+          name = input("Enter your name: ")
+        output: |
+          Uppercase: JOHN
+          Lowercase: john
+          Length: 4
+        difficulty: "easy"
+
+      - id: py-str-002
+        title: "Remove Extra Spaces"
+        task: |
+          Given a string with leading and trailing spaces, remove them and print the cleaned sentence.
+        requirements: |
+          - Use the `strip()` method.
+        input: |
+          sentence = "   Python is fun!   "
+        output: |
+          Cleaned Sentence: Python is fun!
+        difficulty: "easy"
+
+      - id: py-str-003
+        title: "String Alignment"
+        task: |
+          Align the word "Code" within a 20-character width using different alignments.
+        requirements: |
+          - Use `center()`, `ljust()`, and `rjust()`
+        input: |
+          word = "Code"
+        output: |
+          Centered :        Code        
+          Left     : Code               
+          Right    :               Code
+        difficulty: "easy"
+
+      - id: py-str-004
+        title: "String Slicing"
+        task: |
+          Perform slicing on the string "Python Programming":
+          - Extract and print the first 6 characters
+          - Extract and print the last 11 characters
+          - Extract and print characters from index 7 to 17
+        requirements: |
+          - Use slicing syntax with `[]`
+        input: |
+          text = "Python Programming"
+        output: |
+          First 6 characters: Python
+          Last 11 characters: Programming
+          Characters 7 to 17: Programming
+        difficulty: "easy"
+
+      - id: py-str-005
+        title: "String Formatting"
+        task: |
+          Given name and age variables, print: "My name is Alice and I am 30 years old."
+        requirements: |
+          - Use f-strings or `format()` for string formatting.
+        input: |
+          name = "Alice"
+          age = 30
+        output: |
+          My name is Alice and I am 30 years old.
+        difficulty: "easy"

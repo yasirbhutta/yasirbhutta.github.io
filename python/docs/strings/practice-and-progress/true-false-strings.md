@@ -11,7 +11,7 @@ prev: /python/docs/strings.html
 next: /python/docs/strings/practice-and-progress/fill-blanks-strings.html
 ---
 
-{% assign topic = "string" %}
+{% assign topic = "strings" %}
 {% assign topics = site.data.python.true-false.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}

@@ -11,7 +11,7 @@ prev: /python/docs/strings/practice-and-progress/true-false-strings.html
 next: /python/docs/strings/practice-and-progress/mcqs-strings.html
 ---
 
-{% assign topic = "string" %}
+{% assign topic = "strings" %}
 {% assign topics = site.data.python.fill-blanks.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
 keywords: --.
@@ -11,7 +11,7 @@ prev: ""
 next: ""
 ---
 
-{% assign topic = "string" %}
+{% assign topic = "strings" %}
 {% assign topics = site.data.python.rq.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}

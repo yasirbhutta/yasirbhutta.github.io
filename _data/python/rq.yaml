@@ -50,3 +50,50 @@ topics:
         resources:
           - name: Learn about Constructor Inheritance in Python
             url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html#constructor-inheritance
+
+  - topic: strings
+    questions:
+      - id: py-str-001
+        prompt: What is a string in Python?
+        answer: >
+          A string in Python is a sequence of characters enclosed within single, double, or triple quotes.
+        difficulty: easy
+        resources:
+          - name: Python Strings Documentation
+            url: https://yasirbhutta.github.io/python/docs/strings.html
+
+      - id: py-str-002
+        prompt: How can you access characters in a string?
+        answer: >
+          You can access characters in a string using indexing with square brackets. Indexing starts at 0 for the first character.
+        difficulty: easy
+        resources:
+          - name: Python Strings Documentation
+            url: https://yasirbhutta.github.io/python/docs/strings.html
+
+      - id: py-str-003
+        prompt: What is string slicing?
+        answer: >
+          String slicing is extracting a portion of a string using a colon syntax like [start:end], where 'start' is inclusive and 'end' is exclusive.
+        difficulty: easy
+        resources:
+          - name: Python Strings Documentation
+            url: https://yasirbhutta.github.io/python/docs/strings.html
+
+      - id: py-str-004
+        prompt: Name two string methods used for changing case.
+        answer: >
+          The `upper()` method converts a string to uppercase, while the `lower()` method converts it to lowercase.
+        difficulty: easy
+        resources:
+          - name: Python Strings Documentation
+            url: https://yasirbhutta.github.io/python/docs/strings.html
+
+      - id: py-str-005
+        prompt: How can you check if a substring exists within a string?
+        answer: >
+          You can use the `in` keyword to check if a substring exists in a string. For example, `'apple' in 'pineapple'` returns `True`.
+        difficulty: easy
+        resources:
+          - name: Python Strings Documentation
+            url: https://yasirbhutta.github.io/python/docs/strings.html
