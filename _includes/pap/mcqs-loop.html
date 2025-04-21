@@ -20,7 +20,7 @@
   {% for q in include.mcqs %}
     {% if q.difficulty == level %}
       {% assign question_count = question_count | plus: 1 %}
-      <div class="mcq">
+      <div>
         <h3>Q{{ question_count }}. {{ q.question }}</h3>
         {% if q.code %}
           <pre><code class="language-python">{{ q.code | escape }}</code></pre>
