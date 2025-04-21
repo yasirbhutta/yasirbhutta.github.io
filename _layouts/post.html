@@ -20,7 +20,15 @@ layout: default
 
   <hr>
 
-  <p><a href="../index.html">← Back to Excel Articles</a></p>
+  <div class="nav-links">
+    {% if page.prev %}
+      <a href="{{ page.prev | absolute_url}}">&laquo; Back</a>
+    {% endif %}
+    
+    {% if page.next %}
+      <a href="{{ page.next | absolute_url}}">Next &raquo;</a>
+    {% endif %}
+</div>
 </article>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
