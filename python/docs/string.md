@@ -6,11 +6,11 @@ keywords: ​Python strings, string manipulation, string formatting, Python tuto
 toc: toc/python-toc.html
 topic: "string"
 subject: "python"
-prev: /python/docs/functions.html
+prev: /python/docs/control-flow.html
 next: /python/docs/functions.html
 ---
-# String in Python
-## **Lecture #1: String Manipulations**
+
+## String Manipulations
 
 ### What is a String?
 - A **string** is a sequence of characters enclosed in quotes.
@@ -52,33 +52,35 @@ greeting = 'Hello'
 
 ---
 
-## **Lecture #2: Formatting Strings – Adjusting Case**
+## Formatting Strings
 
-### 1. **Convert to Uppercase:**
+### Formatting Strings – Adjusting Case
+
+#### 1. **Convert to Uppercase:**
 ```python
 text = "hello"
 print(text.upper())  # Output: "HELLO"
 ```
 
-### 2. **Convert to Lowercase:**
+#### 2. **Convert to Lowercase:**
 ```python
 text = "HELLO"
 print(text.lower())  # Output: "hello"
 ```
 
-### 3. **Capitalize First Letter:**
+#### 3. **Capitalize First Letter:**
 ```python
 text = "python is fun"
 print(text.capitalize())  # Output: "Python is fun"
 ```
 
-### 4. **Title Case (First letter of each word capitalized):**
+#### 4. **Title Case (First letter of each word capitalized):**
 ```python
 text = "hello world"
 print(text.title())  # Output: "Hello World"
 ```
 
-### 5. **Swap Case:**
+#### 5. **Swap Case:**
 ```python
 text = "PyTHon"
 print(text.swapcase())  # Output: "pYthON"
@@ -86,9 +88,9 @@ print(text.swapcase())  # Output: "pYthON"
 
 ---
 
-## **Lecture #3: Formatting Strings – Adding and Removing Spaces**
+### Formatting Strings – Adding and Removing Spaces**
 
-### 1. **Removing Extra Spaces:**
+#### 1. **Removing Extra Spaces:**
 - **Remove leading and trailing spaces:**
 ```python
 text = "   hello world   "
@@ -107,7 +109,7 @@ text = "hello   "
 print(text.rstrip())  # Output: "hello"
 ```
 
-### 2. **Adding Spaces or Padding:**
+#### 2. **Adding Spaces or Padding:**
 - **Center-align with padding:**
 ```python
 text = "Python"
@@ -124,12 +126,6 @@ print(text.ljust(10))  # Output: "Python    "
 print(text.rjust(10))  # Output: "    Python"
 ```
 
----
-
-Great! Here’s a mini quiz with multiple-choice questions and a few practice tasks based on the three lectures:
-
----
-
 ## **Mini Quiz: String Basics**
 
 ### **1. What will be the output of the following code?**
@@ -141,7 +137,7 @@ a) A
 b) l  
 c) i  
 d) e  
-**Answer:** c) i
+**Answer:** b) l
 
 ---
 
