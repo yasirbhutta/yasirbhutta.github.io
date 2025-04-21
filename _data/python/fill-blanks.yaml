@@ -170,7 +170,7 @@ topics:
       - id: py-str-003
         difficulty: easy
         prompt: "To repeat a string multiple times in Python, you use the ________ operator."
-        answer: *
+        answer: "*"
         explanation: "The '*' operator is used to repeat a string a specified number of times."
 
       - id: py-str-004
