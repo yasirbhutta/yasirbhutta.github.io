@@ -1,7 +1,7 @@
 import os
 
 course = "python"  # Replace with the desired course name
-topic = "variables"  # Replace with the desired topic
+topic = "string"  # Replace with the desired topic
 # Define the directory path where the markdown files will be created
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [
@@ -21,7 +21,12 @@ layout: default
 title: --.
 description: --.
 keywords: --.
-author: Muhammad Yasir Bhutta.
+author: "Muhammad Yasir Bhutta"
+toc: toc/
+topic: ""
+course: ""
+prev: ""
+next: ""
 ---"""
 
 # Create the directory if it doesn't exist
