@@ -4,7 +4,7 @@ title: String in Python
 description: Learn inheritance in Python with this beginner-friendly guide. Understand parent and child classes, method overriding, `super()`, and multilevel inheritance with examples. Perfect for Python learners to master object-oriented programming.  
 keywords: Python inheritance tutorial, Python OOP inheritance, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel inheritance Python, Python OOP basics, Python programming for beginners, Python class inheritance examples
 toc: toc/python-toc.html
-topic: "oop-inheritance"
+topic: "string"
 subject: "python"
 ---
 # String in Python
