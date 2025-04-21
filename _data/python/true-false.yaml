@@ -39,3 +39,113 @@ topics:
     resources:
     - name: Learn Inheritance in Python
       url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
+
+  - topic: string
+    questions:
+      - id: py-tf-001
+        difficulty: medium
+        prompt: Strings in Python are mutable.
+        answer: false
+        explanation: >
+          Strings in Python are immutable, meaning their content cannot be changed after creation.
+
+      - id: py-tf-002
+        difficulty: easy
+        prompt: You can use both single (' ') and double (" ") quotes to define a string in Python.
+        answer: true
+        explanation: >
+          Python allows strings to be defined using either single or double quotes.
+
+      - id: py-tf-003
+        difficulty: easy
+        prompt: The len() function is used to determine the length of a string.
+        answer: true
+        explanation: >
+          The built-in len() function returns the number of characters in a string.
+
+      - id: py-tf-004
+        difficulty: easy
+        prompt: The upper() method changes all the characters in a string to lowercase.
+        answer: false
+        explanation: >
+          The upper() method converts all characters in a string to uppercase.
+
+      - id: py-tf-005
+        difficulty: easy
+        prompt: You can concatenate strings using the + operator in Python.
+        answer: true
+        explanation: >
+          The + operator is used to join or concatenate two or more strings.
+
+      - id: py-tf-006
+        difficulty: easy
+        prompt: The strip() method removes characters from the middle of a string.
+        answer: false
+        explanation: >
+          The strip() method removes leading and trailing whitespace from a string.
+
+      - id: py-tf-007
+        difficulty: easy
+        prompt: String indexing in Python starts from 1.
+        answer: false
+        explanation: >
+          Python uses zero-based indexing, so the first character of a string is at index 0.
+
+      - id: py-tf-008
+        difficulty: easy
+        prompt: The replace() method can be used to change specific parts of a string.
+        answer: true
+        explanation: >
+          The replace() method returns a new string with all occurrences of a substring replaced.
+
+      - id: py-tf-009
+        difficulty: easy
+        prompt: You cannot loop through a string using a for loop.
+        answer: false
+        explanation: >
+          Strings are iterable in Python, so you can loop through them character by character.
+
+      - id: py-tf-010
+        difficulty: easy
+        prompt: The in keyword checks whether a substring exists in a string.
+        answer: true
+        explanation: >
+          The in keyword returns True if the specified substring is found in the string.
+
+      - id: py-tf-011
+        difficulty: easy
+        prompt: Strings in Python support slicing.
+        answer: true
+        explanation: >
+          Python allows slicing of strings using the syntax string[start:stop:step].
+
+      - id: py-tf-012
+        difficulty: easy
+        prompt: Triple quotes are used for multi-line strings in Python.
+        answer: true
+        explanation: >
+          Triple single (''') or double quotes (""") can define multi-line strings.
+
+      - id: py-tf-013
+        difficulty: easy
+        prompt: The find() method returns -1 if the substring is not found.
+        answer: true
+        explanation: >
+          The find() method returns the lowest index of the substring, or -1 if not found.
+
+      - id: py-tf-014
+        difficulty: easy
+        prompt: Python allows escape characters like \n for new lines and \t for tabs.
+        answer: true
+        explanation: >
+          Python uses backslash (\) escape sequences such as \n for newline and \t for tab.
+
+      - id: py-tf-015
+        difficulty: easy
+        prompt: You can change a specific character in a string using indexing.
+        answer: false
+        explanation: >
+          Strings are immutable in Python, so you cannot change characters via indexing.
+    resources:
+    - name: Learn String Methods & Formatting
+      url: https://yasirbhutta.github.io/python/docs/string.html
