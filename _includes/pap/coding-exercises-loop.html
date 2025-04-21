@@ -1,43 +1,53 @@
 <h2>🧪 Coding Exercises</h2>
-<ol>
-  {% for ex in include.exercises %}
-    <li><strong>{{ ex.title }}</strong> <em>({{ ex.difficulty | capitalize }})</em></li>
-    <p>{{ ex.task }}</p>
 
-    {% if ex.requirements %}
-        <h3>Requirements</h3>
-        <ul>
-          {% for requirement in ex.requirements %}
-            <li>{{ requirement }}</li>
-          {% endfor %}
-        </ul>
-              
-    {% endif %}
+{% assign levels = "easy,medium,hard" | split: "," %}
+{% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
 
-    {% if ex.hints %}
-        <h3>Hints</h3>
-        <ul>
-          {% for hint in ex.hints %}
-            <li>{{ hint }}</li>
-          {% endfor %}
-        </ul>
-              
-    {% endif %}
+{% for i in (0..2) %}
+  {% assign level = levels[i] %}
+  {% assign label = labels[i] %}
 
-    <details>
-        <summary>Input</summary>
-        <pre><code>{{ ex.input | escape }}</code></pre>
-      </details>
-      
-      <details>
-        <summary>Expected Output</summary>
-        <pre><code>{{ ex.output | escape }}</code></pre>
-      </details>
-      
-    {% if ex.resource %}
-      <p>📚 <a href="{{ ex.resource.url }}">{{ ex.resource.name }}</a></p>
-    {% endif %}
-    
-    <hr>
-  {% endfor %}
-</ol>
+  <h3>{{ label }} Exercises</h3>
+  <ol>
+    {% for ex in include.exercises %}
+      {% if ex.difficulty == level %}
+        <li><strong>{{ ex.title }}</strong> <em>({{ ex.difficulty | capitalize }})</em></li>
+        <p>{{ ex.task }}</p>
+
+        {% if ex.requirements %}
+          <h4>Requirements</h4>
+          <ul>
+            {% for requirement in ex.requirements %}
+              <li>{{ requirement }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if ex.hints %}
+          <h4>Hints</h4>
+          <ul>
+            {% for hint in ex.hints %}
+              <li>{{ hint }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        <details>
+          <summary>Input</summary>
+          <pre><code>{{ ex.input | escape }}</code></pre>
+        </details>
+
+        <details>
+          <summary>Expected Output</summary>
+          <pre><code>{{ ex.output | escape }}</code></pre>
+        </details>
+
+        {% if ex.resource %}
+          <p>📚 <a href="{{ ex.resource.url }}">{{ ex.resource.name }}</a></p>
+        {% endif %}
+
+        <hr>
+      {% endif %}
+    {% endfor %}
+  </ol>
+{% endfor %}
