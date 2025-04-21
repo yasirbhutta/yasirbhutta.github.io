@@ -1,44 +1,43 @@
-{% assign levels = "easy,medium,hard" | split: "," %}
-{% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
+<h2>🧪 Coding Exercises</h2>
+<ol>
+  {% for ex in include.exercises %}
+    <li><strong>{{ ex.title }}</strong> <em>({{ ex.difficulty | capitalize }})</em></li>
+    <p>{{ ex.task }}</p>
 
-{% for i in (0..2) %}
-  {% case i %}
-    {% when 0 %}
-      {% assign level = levels[0] %}
-      {% assign label = labels[0] %}
-    {% when 1 %}
-      {% assign level = levels[1] %}
-      {% assign label = labels[1] %}
-    {% when 2 %}
-      {% assign level = levels[2] %}
-      {% assign label = labels[2] %}
-  {% endcase %}
-
-  <h3>{{ label }}</h3>
-
-  {% assign question_count = 0 %}
-  {% for q in include.mcqs %}
-    {% if q.difficulty == level %}
-      {% assign question_count = question_count | plus: 1 %}
-      <div>
-        <h3>Q{{ question_count }}. {{ q.question }}</h3>
-        {% if q.code %}
-          <pre><code class="language-python">{{ q.code | escape }}</code></pre>
-        {% endif %}
-        <ol type="A">
-          {% for option in q.options %}
-            <li>{{ option }}</li>
+    {% if ex.requirements %}
+        <h3>Requirements</h3>
+        <ul>
+          {% for requirement in ex.requirements %}
+            <li>{{ requirement }}</li>
           {% endfor %}
-        </ol>
-        <details>
-          <summary>Answer</summary>
-          <p><strong>{{ q.answer }}</strong></p>
-          {% if q.explanation %}
-            <p><em>{{ q.explanation }}</em></p>
-          {% endif %}
-        </details>
-        <hr>
-      </div>
+        </ul>
+              
     {% endif %}
+
+    {% if ex.hints %}
+        <h3>Hints</h3>
+        <ul>
+          {% for hint in ex.hints %}
+            <li>{{ hint }}</li>
+          {% endfor %}
+        </ul>
+              
+    {% endif %}
+
+    <details>
+        <summary>Input</summary>
+        <pre><code>{{ ex.input | escape }}</code></pre>
+      </details>
+      
+      <details>
+        <summary>Expected Output</summary>
+        <pre><code>{{ ex.output | escape }}</code></pre>
+      </details>
+      
+    {% if ex.resource %}
+      <p>📚 <a href="{{ ex.resource.url }}">{{ ex.resource.name }}</a></p>
+    {% endif %}
+    
+    <hr>
   {% endfor %}
-{% endfor %}
+</ol>
