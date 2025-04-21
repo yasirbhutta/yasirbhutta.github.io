@@ -40,7 +40,7 @@ topics:
     - name: Learn Inheritance in Python
       url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
 
-  - topic: string
+  - topic: strings
     questions:
       - id: py-tf-001
         difficulty: medium
