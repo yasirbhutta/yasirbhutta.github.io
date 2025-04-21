@@ -155,61 +155,61 @@ topics:
 
   - topic: strings
     questions:
-      - id: py-str-001
+      - id: py-fb-str-001
         difficulty: easy
         prompt: "In Python, a string is a sequence of characters enclosed in ________."
         answer: quotes
         explanation: "Strings in Python are defined by enclosing characters within single ('') or double ('') quotes."
 
-      - id: py-str-002
+      - id: py-fb-str-002
         difficulty: easy
         prompt: "The operator used to concatenate two strings in Python is ________."
         answer: +
         explanation: "The '+' operator is used to concatenate (join) two or more strings in Python."
 
-      - id: py-str-003
+      - id: py-fb-str-003
         difficulty: easy
         prompt: "To repeat a string multiple times in Python, you use the ________ operator."
         answer: "*"
         explanation: "The '*' operator is used to repeat a string a specified number of times."
 
-      - id: py-str-004
+      - id: py-fb-str-004
         difficulty: easy
         prompt: "The method to convert all characters of a string to uppercase is ________."
         answer: upper()
         explanation: "The 'upper()' method returns a copy of the string with all characters converted to uppercase."
 
-      - id: py-str-005
+      - id: py-fb-str-005
         difficulty: easy
         prompt: "To remove leading and trailing spaces from a string, use the ________ method."
         answer: strip()
         explanation: "The 'strip()' method removes any leading and trailing characters (space is the default) from the string."
 
-      - id: py-str-006
+      - id: py-fb-str-006
         difficulty: easy
         prompt: "The method to check if all characters in a string are digits is ________."
         answer: isdigit()
         explanation: "The 'isdigit()' method returns True if all characters in the string are digits."
 
-      - id: py-str-007
+      - id: py-fb-str-007
         difficulty: easy
         prompt: "To replace all occurrences of a substring within a string, use the ________ method."
         answer: replace()
         explanation: "The 'replace()' method returns a copy of the string with all occurrences of a substring replaced with another substring."
 
-      - id: py-str-008
+      - id: py-fb-str-008
         difficulty: easy
         prompt: "The method to split a string into a list where each word is a list item is ________."
         answer: split()
         explanation: "The 'split()' method splits a string into a list where each word is a list item, using space as the default separator."
 
-      - id: py-str-009
+      - id: py-fb-str-009
         difficulty: easy
         prompt: "To check if a string starts with a specified substring, use the ________ method."
         answer: startswith()
         explanation: "The 'startswith()' method returns True if the string starts with the specified value."
 
-      - id: py-str-010
+      - id: py-fb-str-010
         difficulty: easy
         prompt: "The method to convert the first character of each word to uppercase is ________."
         answer: title()
