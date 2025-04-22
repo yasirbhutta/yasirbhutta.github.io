@@ -3,9 +3,8 @@ layout: page
 title: "JavaScript Basics" 
 description: ""  
 keywords: ""
-toc: ""
-topic: ""
-course: ""
+topic: "basics"
+course: "javascript"
 prev: /python/docs/control-flow.html
 next: /python/docs/functions.html
 ---
