@@ -275,7 +275,7 @@ topics:
           sa = Savings()
           sa.balance  # Throws AttributeError
         hint: Use `@property` decorator in `Savings` to override `balance` method as a property.
-        issue: "<strong>balance</strong> becomes a method instead of a property in **`Savings`**."
+        issue: "balance becomes a method instead of a property in `Savings`."
         solution: |
           class Savings(Account):
               @property
@@ -298,7 +298,7 @@ topics:
 
           c = Circle("red", 5)  # TypeError
         hint: Pass `color` argument when calling `super().__init__()`.
-        issue: "<b>Circle</b> class does not pass the `color` argument when calling `super().__init__()`."
+        issue: "Circle class does not pass the `color` argument when calling `super().__init__()`."
         solution: |
           class Circle(Shape):
               def __init__(self, color, radius):
