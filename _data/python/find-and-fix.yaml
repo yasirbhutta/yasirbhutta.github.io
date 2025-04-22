@@ -7,7 +7,7 @@ topics:
         difficulty: easy
         prompt: |
           Identify and fix the mistake in the following code:
-          ```python
+        code: |
           class Father:
               def __init__(self, name):
                   name = name
@@ -17,21 +17,18 @@ topics:
 
           c = Child("Ali")
           print(c.name)
-          ```
         hint: Remember to use `self` when assigning instance variables inside a constructor.
         issue: The constructor assigns the parameter to itself instead of using `self.name = name`.
         solution: |
-          ```python
           class Father:
               def __init__(self, name):
                   self.name = name
-          ```
 
       - id: py-inh-fix-002
         difficulty: easy
         prompt: |
           Identify and fix the mistake in the following code:
-          ```python
+        code: |
           class Animal:
               def sound():
                   print("Some sound")
@@ -41,21 +38,18 @@ topics:
 
           d = Dog()
           d.sound()
-          ```
         hint: Instance methods need to accept the instance (`self`) as the first argument.
         issue: Method `sound()` is missing the `self` parameter.
         solution: |
-          ```python
           class Animal:
               def sound(self):
                   print("Some sound")
-          ```
 
       - id: py-inh-fix-003
         difficulty: easy
         prompt: |
           Identify and fix the mistake in the following code:
-          ```python
+        code: |
           class Person:
               def __init__(self, name):
                   self.name = name
@@ -63,15 +57,14 @@ topics:
           class Student(Person):
               def __init__(self, school):
                   self.school = school
-          ```
         hint: When overriding `__init__`, make sure to call the parent class constructor if needed.
         issue: Child constructor does not call the parent constructor, missing initialization of `name`.
         solution: |
-          ```python
           class Student(Person):
               def __init__(self, name, school):
                   super().__init__(name)
                   self.school = school
+
     resources:
-    - name: Learn Inheritance in Python
-      url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
+      - name: Learn Inheritance in Python
+        url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html

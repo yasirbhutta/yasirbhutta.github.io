@@ -14,7 +14,9 @@
 <li>
 <strong>ID:</strong> {{ q.id }}<br>
 <p>{{ q.prompt }}</p>
-
+{% if q.code %}
+<pre><code class="language-python">{{ q.code | escape }}</code></pre>
+{% endif %}
 {% if q.hint %}
 <h4>Hint</h4>
 <p>{{ q.hint }}</p>
@@ -27,7 +29,7 @@
 <p><strong>Issue:</strong> {{ q.issue }}</p>
 {% endif %}
 <h4>✅ Fixed Solution</h4>
-<pre><code>{{ q.solution | escape }}</code></pre>
+<pre><code class="language-python">{{ q.solution | escape }}</code></pre>
 </details>
 {% endif %}
 
