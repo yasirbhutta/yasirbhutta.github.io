@@ -101,7 +101,7 @@ topics:
 
           car = Car("Tesla", "Model S")  # Throws error
         hint: Add `super().__init__(brand)` in `Car.__init__` to initialize the parent class.
-        issue: `Car` doesn't call `Vehicle.__init__`, so the parent class `brand` is not initialized.
+        issue: "`Car` doesn't call `Vehicle.__init__`, so the parent class `brand` is not initialized."
         solution: |
           class Car(Vehicle):
               def __init__(self, brand, model):
@@ -193,7 +193,7 @@ topics:
           car = Car()
           car.drive()  # Works but poor design
         hint: Use composition rather than inheritance in this case.
-        issue: `Car` class should not inherit from `Engine` as it does not represent an "is-a" relationship.
+        issue: "`Car` class should not inherit from `Engine` as it does not represent an is-a relationship."
         solution: |
           class Car:
               def __init__(self):
@@ -218,7 +218,7 @@ topics:
 
           result = AdvancedMath.add(1, 2, 3)  # TypeError
         hint: Add `@staticmethod` decorator to `add` method in `AdvancedMath`.
-        issue: `AdvancedMath.add` should be a static method but the decorator is missing.
+        issue: "`AdvancedMath.add` should be a static method but the decorator is missing."
         solution: |
           class AdvancedMath(MathOps):
               @staticmethod
@@ -275,7 +275,7 @@ topics:
           sa = Savings()
           sa.balance  # Throws AttributeError
         hint: Use `@property` decorator in `Savings` to override `balance` method as a property.
-        issue: `balance` becomes a method instead of a property in `Savings`.
+        issue: "`balance` becomes a method instead of a property in `Savings`."
         solution: |
           class Savings(Account):
               @property
