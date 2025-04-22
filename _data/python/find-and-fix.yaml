@@ -64,6 +64,267 @@ topics:
               def __init__(self, name, school):
                   super().__init__(name)
                   self.school = school
+  
+  course: python
+topics:
+  - topic: oop-inheritance
+    questions:
+
+      - id: py-inh-fix-004
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class A:
+              def show(self):
+                  print("Class A")
+
+          class B(A):
+              def show(self):
+                  print("Class B")
+
+          obj = A()
+          obj.show()
+        hint: Change the code so that an object of `B` calls the `show` method of `A`.
+        issue: Method `show()` in class `B` is overriding `A`'s method without calling it.
+        solution: |
+          class B(A):
+              def show(self):
+                  super().show()
+
+      - id: py-inh-fix-005
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Vehicle:
+              def __init__(self, brand):
+                  self.brand = brand
+
+          class Car(Vehicle):
+              def __init__(self, model):
+                  self.model = model  # Error: Forgot super().__init__
+
+          car = Car("Tesla", "Model S")  # Throws error
+        hint: Add `super().__init__(brand)` in `Car.__init__` to initialize the parent class.
+        issue: `Car` doesn't call `Vehicle.__init__`, so the parent class `brand` is not initialized.
+        solution: |
+          class Car(Vehicle):
+              def __init__(self, brand, model):
+                  super().__init__(brand)
+                  self.model = model
+
+      - id: py-inh-fix-006
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Parent:
+              def show(self):
+                  print("Parent method")
+
+          class Child(Parent):
+              def show(self):
+                  print("Child method")  # Error: Parent method not called
+
+          child = Child()
+          child.show()  # Only shows "Child method"
+        hint: Add `super().show()` in `Child`'s `show()` method to preserve the parent method.
+        issue: Parent method is not called in `Child`'s overridden method.
+        solution: |
+          class Child(Parent):
+              def show(self):
+                  super().show()
+                  print("Child method")
+
+      - id: py-inh-fix-007
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Parent1:
+              def display(self):
+                  print("Parent1")
+
+          class Parent2:
+              def display(self):
+                  print("Parent2")
+
+          class Child(Parent1, Parent2):
+              pass  # Which display() is called?
+
+          obj = Child()
+          obj.display()  # Outputs "Parent1" - is this intended?
+        hint: Change inheritance order to `(Parent2, Parent1)` to control which method is called.
+        issue: The method resolution order (MRO) may be confusing when multiple parent classes are involved.
+        solution: |
+          class Child(Parent2, Parent1):
+              pass
+
+      - id: py-inh-fix-008
+        difficulty: medium
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Base:
+              def __init__(self):
+                  self.__secret = 123  # Name mangled
+
+          class Derived(Base):
+              def get_secret(self):
+                  return self.__secret  # Error: AttributeError
+
+          d = Derived()
+          print(d.get_secret())
+        hint: You cannot directly access a private attribute from a subclass.
+        issue: `Derived` tries to access `__secret`, which is name-mangled.
+        solution: |
+          class Derived(Base):
+              def get_secret(self):
+                  return self._Base__secret  # Access the mangled name
+
+      - id: py-inh-fix-009
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Engine:
+              def start(self):
+                  print("Engine started")
+
+          class Car(Engine):  # Bad inheritance
+              def drive(self):
+                  self.start()
+
+          car = Car()
+          car.drive()  # Works but poor design
+        hint: Use composition rather than inheritance in this case.
+        issue: `Car` class should not inherit from `Engine` as it does not represent an "is-a" relationship.
+        solution: |
+          class Car:
+              def __init__(self):
+                  self.engine = Engine()
+
+              def drive(self):
+                  self.engine.start()
+
+      - id: py-inh-fix-010
+        difficulty: hard
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class MathOps:
+              @staticmethod
+              def add(a, b):
+                  return a + b
+
+          class AdvancedMath(MathOps):
+              def add(a, b, c):  # Missing @staticmethod
+                  return a + b + c
+
+          result = AdvancedMath.add(1, 2, 3)  # TypeError
+        hint: Add `@staticmethod` decorator to `add` method in `AdvancedMath`.
+        issue: `AdvancedMath.add` should be a static method but the decorator is missing.
+        solution: |
+          class AdvancedMath(MathOps):
+              @staticmethod
+              def add(a, b, c):
+                  return a + b + c
+
+      - id: py-inh-fix-011
+        difficulty: medium
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class A:
+              def __init__(self):
+                  print("A initialized")
+
+          class B(A):
+              def __init__(self):
+                  super().__init__()
+                  print("B initialized")
+
+          class C(A):
+              def __init__(self):
+                  super().__init__()
+                  print("C initialized")
+
+          class D(B, C):
+              def __init__(self):
+                  super().__init__()  # Initializes B -> C -> A
+                  print("D initialized")
+
+          d = D()  # Output order might surprise beginners
+        hint: Analyze MRO with `print(D.__mro__)`.
+        issue: The MRO might cause confusion due to multiple inheritance.
+        solution: |
+          class D(B, C):
+              def __init__(self):
+                  super().__init__()
+                  print("D initialized")
+
+      - id: py-inh-fix-012
+        difficulty: hard
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Account:
+              @property
+              def balance(self):
+                  return self._balance
+
+          class Savings(Account):
+              def balance(self):  # Forgot @property
+                  return self._balance * 1.05  # Broken
+
+          sa = Savings()
+          sa.balance  # Throws AttributeError
+        hint: Use `@property` decorator in `Savings` to override `balance` method as a property.
+        issue: `balance` becomes a method instead of a property in `Savings`.
+        solution: |
+          class Savings(Account):
+              @property
+              def balance(self):
+                  return self._balance * 1.05
+
+      - id: py-inh-fix-013
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          class Shape:
+              def __init__(self, color):
+                  self.color = color
+
+          class Circle(Shape):
+              def __init__(self, radius):
+                  super().__init__()  # Error: Missing color arg
+                  self.radius = radius
+
+          c = Circle("red", 5)  # TypeError
+        hint: Pass `color` argument when calling `super().__init__()`.
+        issue: `Circle` class does not pass the `color` argument when calling `super().__init__()`.
+        solution: |
+          class Circle(Shape):
+              def __init__(self, color, radius):
+                  super().__init__(color)
+                  self.radius = radius
+
+      - id: py-inh-fix-014
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          name = "BaseClass"
+
+          class MyClass(name):  # Error: 'str' is not a class
+              pass
+        hint: You cannot inherit from a non-class type.
+        issue: Trying to inherit from a string instead of a class.
+        solution: |
+          class MyClass(object):  # Inherit from the base class `object`
+              pass
 
     resources:
       - name: Learn Inheritance in Python

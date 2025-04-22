@@ -19,83 +19,6 @@ next: /python/docs/oop-inheritance/practice-and-progress/find-fix-mistakes-oop-i
 {% include pap/find-and-fix-loop.html questions=questions resources=resources %}
 
 
-### **1. Question:**
-```python
-class Father:
-    def __init__(self, name):
-        name = name
-
-class Child(Father):
-    pass
-
-c = Child("Ali")
-print(c.name)
-```
-
-**What’s the mistake? How would you fix it?**
-
-**Mistake:**  
-The `name` parameter is assigned to itself; it should be assigned to an instance variable.
-
-**Fix:**  
-```python
-class Father:
-    def __init__(self, name):
-        self.name = name
-```
-
----
-
-### **2. Question:**
-```python
-class Animal:
-    def sound():
-        print("Some sound")
-
-class Dog(Animal):
-    pass
-
-d = Dog()
-d.sound()
-```
-
-**What’s the mistake? How would you fix it?**
-
-**Mistake:**  
-The `sound` method is missing the `self` parameter.
-
-**Fix:**  
-```python
-class Animal:
-    def sound(self):
-        print("Some sound")
-```
-
----
-
-### **3. Question:**
-```python
-class Person:
-    def __init__(self, name):
-        self.name = name
-
-class Student(Person):
-    def __init__(self, school):
-        self.school = school
-```
-
-**What’s the mistake? How would you fix it?**
-
-**Mistake:**  
-The `Student` class overrides the constructor without calling the parent’s constructor.
-
-**Fix:**  
-```python
-class Student(Person):
-    def __init__(self, name, school):
-        super().__init__(name)
-        self.school = school
-```
 
 ---
 
@@ -124,9 +47,6 @@ class B(A):
         super().show()
 ```
 
-Here are 10 Python inheritance code questions with intentional mistakes. Learners need to identify/fix the errors:
-
----
 
 **Q1: Missing Super Initialization**  
 ```python

@@ -12,14 +12,14 @@
 {% for q in include.questions %}
 {% if q.difficulty == level %}
 <li>
-<strong>ID:</strong> {{ q.id }}<br>
-<p>{{ q.prompt }}</p>
+<!-- <strong>ID:</strong> {{ q.id }}<br> -->
+<p><strong>{{ q.prompt }}</strong></p>
 {% if q.code %}
 <pre><code class="language-python">{{ q.code | escape }}</code></pre>
 {% endif %}
+
 {% if q.hint %}
-<h4>Hint</h4>
-<p>{{ q.hint }}</p>
+<p><strong>Hint:</strong>{{ q.hint }}</p>
 {% endif %}
 
 {% if q.solution %}
