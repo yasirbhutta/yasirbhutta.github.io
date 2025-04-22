@@ -298,7 +298,7 @@ topics:
 
           c = Circle("red", 5)  # TypeError
         hint: Pass `color` argument when calling `super().__init__()`.
-        issue: `Circle` class does not pass the `color` argument when calling `super().__init__()`.
+        issue: "<strong>Circle</strong> class does not pass the `color` argument when calling `super().__init__()`."
         solution: |
           class Circle(Shape):
               def __init__(self, color, radius):
