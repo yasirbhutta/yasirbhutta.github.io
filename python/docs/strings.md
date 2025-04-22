@@ -163,9 +163,6 @@ Print the word `"Code"`:
 
 ---
 
-Here's a beginner-friendly Python tutorial covering the topics you've listed, organized into three lectures with clear explanations and examples.
-
----
 
 ## Formatting Strings – Finding and Replacing Substrings**
 
