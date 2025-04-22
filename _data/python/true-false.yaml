@@ -141,7 +141,7 @@ topics:
           Python uses backslash (\) escape sequences such as \n for newline and \t for tab.
 
       - id: py-tf-015
-        difficulty: easy
+        difficulty: medium
         prompt: You can change a specific character in a string using indexing.
         answer: false
         explanation: >
@@ -162,7 +162,7 @@ topics:
           Regardless of whether the separator is found, `partition()` always returns a 3-part tuple.
 
       - id: py-str-tf-003
-        difficulty: medium
+        difficulty: easy
         prompt: The `replace()` method can be used to substitute multiple different substrings at once.
         answer: false
         explanation: >
@@ -176,7 +176,7 @@ topics:
           The `find()` method distinguishes between uppercase and lowercase letters during a search.
 
       - id: py-str-tf-005
-        difficulty: medium
+        difficulty: easy
         prompt: If the separator is not found, `partition()` returns the original string and two empty strings.
         answer: true
         explanation: >

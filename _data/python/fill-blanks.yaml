@@ -214,6 +214,46 @@ topics:
         prompt: "The method to convert the first character of each word to uppercase is ________."
         answer: title()
         explanation: "The 'title()' method returns a string where the first character of each word is uppercase and the rest are lowercase."
+
+      - id: py-sm-001
+        difficulty: easy
+        prompt: "The `________` method splits a string into three parts: before, separator, and after."
+        answer: partition()
+        explanation: >
+          The `partition()` method splits the string at the first occurrence of the separator into a tuple containing 
+          three elements: the part before the separator, the separator itself, and the part after.
+
+      - id: py-sm-002
+        difficulty: easy
+        prompt: To divide a string into a list using a delimiter, we use the `________` method.
+        answer: split()
+        explanation: >
+          The `split()` method breaks a string into a list using the specified delimiter. 
+          If no delimiter is specified, it splits on whitespace by default.
+
+      - id: py-sm-003
+        difficulty: easy
+        prompt: The `________` method searches for a substring and returns its lowest index in the string.
+        answer: find()
+        explanation: >
+          The `find()` method returns the index of the first occurrence of the specified substring. 
+          If the substring is not found, it returns -1.
+
+      - id: py-sm-004
+        difficulty: easy
+        prompt: The `________` method replaces all instances of a substring with another string.
+        answer: replace()
+        explanation: >
+          The `replace()` method returns a copy of the string where all occurrences of a substring 
+          are replaced with another substring.
+
+      - id: py-sm-005
+        difficulty: easy
+        prompt: If the substring is not found, the `find()` method returns `________`.
+        answer: -1
+        explanation: >
+          If the `find()` method does not locate the specified substring, it returns -1, indicating no match was found.
+
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
