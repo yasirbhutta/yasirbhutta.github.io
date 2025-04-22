@@ -115,11 +115,13 @@ header {
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s ease;
 }
 
 .toc-item:hover {
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0; */
+  background-color: #e6f2ff; /* or any from the table above */
+  border-radius: 4px;
 }
 
 /* On screens wider than 768px: 3 columns */
