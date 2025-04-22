@@ -5,8 +5,8 @@ description: ""
 keywords: ""
 topic: "basics"
 course: "javascript"
-prev: /python/docs/control-flow.html
-next: /python/docs/functions.html
+prev: /html-css/docs/html-basics.html
+next: html-css/docs/css-basics.html
 ---
 
 ## 🔹 Introduction to JavaScript
