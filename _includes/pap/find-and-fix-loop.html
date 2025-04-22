@@ -1,0 +1,46 @@
+<h2>🧪 Fix & Find Questions</h2>
+
+{% assign levels = "easy,medium,hard" | split: "," %}
+{% assign labels = "🟢 Beginner,🟡 Intermediate,🔴 Advanced" | split: "," %}
+
+{% for i in (0..2) %}
+{% assign level = levels[i] %}
+{% assign label = labels[i] %}
+
+<h3>{{ label }} Fix & Find</h3>
+<ol>
+{% for q in include.questions %}
+{% if q.difficulty == level %}
+<li>
+<strong>ID:</strong> {{ q.id }}<br>
+<p>{{ q.prompt }}</p>
+
+{% if q.hint %}
+<h4>Hint</h4>
+<p>{{ q.hint }}</p>
+{% endif %}
+
+{% if q.solution %}
+<details>
+<summary>🔍 View Issue & Fixed Solution</summary>
+{% if q.issue %}
+<p><strong>Issue:</strong> {{ q.issue }}</p>
+{% endif %}
+<h4>✅ Fixed Solution</h4>
+<pre><code>{{ q.solution | escape }}</code></pre>
+</details>
+{% endif %}
+
+<hr>
+</li>
+{% endif %}
+{% endfor %}
+</ol>
+{% endfor %}
+
+<h2>📚 Related Resources</h2>
+<ul>
+{% for resource in include.resources %}
+<li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+{% endfor %}
+</ul>
