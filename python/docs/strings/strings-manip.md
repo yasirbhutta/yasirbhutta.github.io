@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "String Manipulations" 
-description: Master Python strings with this guide. Learn string manipulations, methods, slicing, and formatting with examples to improve your Python coding skills fast.  
-keywords: ​Python strings, string manipulation, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
+description: Master Python strings with this guide. Learn string manipulations, methods, slicing with examples to improve your Python coding skills fast.  
+keywords: ​Python strings, string manipulation, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
 toc: toc/python-toc.html
 topic: "strings"
 course: "python"
@@ -49,3 +49,41 @@ greeting = 'Hello'
    ```
 
 ---
+
+## Tasks
+
+### 🔹 Task 1: Concatenate Two Strings  
+**Instruction**:  
+Take two words like `"Hello"` and `"World"` and combine them into one sentence with a space in between.
+
+**Concept**: String concatenation using the `+` operator.
+
+---
+
+### 🔹 Task 2: Access Characters by Index  
+**Instruction**:  
+Given the word `"Python"`, find out what the first character and the last character are.
+
+**Concept**: Accessing characters using index numbers (positive and negative indexing).
+
+---
+
+### 🔹 Task 3: Slice a Substring  
+**Instruction**:  
+From the word `"Python"`, extract only the first three letters.
+
+**Concept**: String slicing (extracting parts of a string using index ranges).
+
+---
+
+### 🔹 Task 4: Measure String Length  
+**Instruction**:  
+Enter any word or sentence and find out how many characters it contains.
+
+**Concept**: Using the `len()` function to count characters.
+
+---
+
+
+
+

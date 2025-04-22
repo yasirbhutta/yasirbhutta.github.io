@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Formatting Strings" 
-description: Master Python strings with this guide. Learn string manipulations, methods, slicing, and formatting with examples to improve your Python coding skills fast.  
-keywords: ​Python strings, string manipulation, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
+description: Master Python strings with this guide. Learn  formatting with examples to improve your Python coding skills fast.  
+keywords: ​Python strings, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
 toc: toc/python-toc.html
 topic: "strings"
 course: "python"
@@ -43,6 +43,17 @@ print(text.swapcase())  # Output: "pYthON"
 ```
 
 ---
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Formatting Strings – Adding and Removing Spaces
 
@@ -262,9 +273,18 @@ print("Domain:", domain)
 | `split()`    | Splits into list                  | List of strings            |
 | `partition()`| Splits once, returns 3-part tuple | Tuple (before, sep, after) |
 
----
 
-Sure! Here’s a set of beginner-friendly **student tasks and exercises** related to the three lectures you’ve covered: `find()`, `replace()`, `split()`, and `partition()`.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
