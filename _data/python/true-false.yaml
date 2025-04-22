@@ -146,6 +146,42 @@ topics:
         answer: false
         explanation: >
           Strings are immutable in Python, so you cannot change characters via indexing.
+
+      - id: py-str-tf-001
+        difficulty: easy
+        prompt: The `split()` method modifies the original string in-place.
+        answer: false
+        explanation: >
+          The `split()` method returns a new list and does not alter the original string.
+
+      - id: py-str-tf-002
+        difficulty: easy
+        prompt: The `partition()` method always returns a tuple with exactly three elements.
+        answer: true
+        explanation: >
+          Regardless of whether the separator is found, `partition()` always returns a 3-part tuple.
+
+      - id: py-str-tf-003
+        difficulty: medium
+        prompt: The `replace()` method can be used to substitute multiple different substrings at once.
+        answer: false
+        explanation: >
+          The `replace()` method handles only one substring replacement at a time unless nested or chained.
+
+      - id: py-str-tf-004
+        difficulty: easy
+        prompt: The `find()` method is case-sensitive.
+        answer: true
+        explanation: >
+          The `find()` method distinguishes between uppercase and lowercase letters during a search.
+
+      - id: py-str-tf-005
+        difficulty: medium
+        prompt: If the separator is not found, `partition()` returns the original string and two empty strings.
+        answer: true
+        explanation: >
+          When the separator is missing, `partition()` returns (original_string, '', '').
+
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html

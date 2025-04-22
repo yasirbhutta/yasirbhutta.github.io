@@ -231,7 +231,7 @@ print("Last Name:", parts[1])
 
 ---
 
-## Formatting Strings – Partitioning Strings**
+## Formatting Strings – Partitioning Strings
 
 ### 🔹 `partition()` Method
 - Splits the string at the first occurrence of the separator.
@@ -290,7 +290,7 @@ print("Domain:", domain)
 
 ## Tasks
 
-### ✅ Tasks: `find()` and `replace()`**
+### ✅ Tasks: `find()` and `replace()`
 
 #### **Task 1: Find the Word**
 Ask the user to enter a sentence and a word. Use `.find()` to print the position of that word.
@@ -313,7 +313,7 @@ Use `.find()` inside a loop to count how many times a word appears.
 
 ---
 
-### ✅ Tasks: `split()`**
+### ✅ Tasks: `split()`
 
 #### **Task 4: Split a Sentence into Words**
 Write a program to split a user-provided sentence into words and print them one per line.
@@ -341,7 +341,7 @@ Ask the user for a sentence and print the number of words in it using `split()`.
 
 ---
 
-### ✅ Tasks: `partition()`**
+### ✅ Tasks: `partition()`
 
 #### **Task 7: Email Parser**
 Ask the user for an email and extract the username and domain using `partition("@")`.

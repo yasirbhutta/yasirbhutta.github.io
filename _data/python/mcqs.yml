@@ -346,6 +346,66 @@ topics:
           - P y t h o n
         answer: Python
         explanation: The `title()` method capitalizes the first letter of each word in the string.
+
+      - id: py-str-001
+        difficulty: easy
+        question: What does the `split()` method return?
+        options:
+          - A single string
+          - A tuple
+          - A dictionary
+          - A list of strings
+        answer: A list of strings
+        explanation: The `split()` method divides a string into a list based on a specified delimiter.
+
+      - id: py-str-002
+        difficulty: easy
+        question: What will be the output of this code?
+        code: |
+          "apple,banana,grape".split(",")
+        options:
+          - "['apple', 'banana', 'grape']"
+          - ('apple', 'banana', 'grape')
+          - 'apple banana grape'
+          - ['apple,banana,grape']
+        answer: ['apple', 'banana', 'grape']
+        explanation: The `split(",")` method splits the string wherever it finds a comma and returns a list.
+
+      - id: py-str-003
+        difficulty: medium
+        question: What does the `partition()` method return?
+        options:
+          - Only the substring before the separator
+          - A list of split strings
+          - A tuple of three parts
+          - A dictionary of parts
+        answer: A tuple of three parts
+        explanation: The `partition()` method splits a string into three parts: before the separator, the separator itself, and after.
+
+      - id: py-str-004
+        difficulty: easy
+        question: Which method can be used to replace all occurrences of a substring with another substring?
+        options:
+          - change()
+          - substitute()
+          - switch()
+          - replace()
+        answer: replace()
+        explanation: The `replace()` method is used to replace all occurrences of a specified substring.
+
+      - id: py-str-005
+        difficulty: medium
+        question: What is the output of the following code?
+        code: |
+          "hello world".find("o")
+        options:
+          - 4
+          - 5
+          - 6
+          - -1
+        answer: 4
+        explanation: The `find()` method returns the first index of the substring "o", which is 4.
+
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
