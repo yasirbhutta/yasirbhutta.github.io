@@ -1,3 +1,15 @@
+---
+layout: page
+title: "Javascript Basics" 
+description: ""  
+keywords: ""
+toc: ""
+topic: ""
+course: ""
+prev: /python/docs/control-flow.html
+next: /python/docs/functions.html
+---
+
 ```javascript
 <!DOCTYPE html>
 <html lang="en">
