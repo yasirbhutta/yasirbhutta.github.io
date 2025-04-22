@@ -170,8 +170,8 @@ topics:
 
           d = Derived()
           print(d.get_secret())
-        hint: You cannot directly access a private attribute from a subclass.
-        issue: "<b>Derived</b> tries to access `__secret`, which is name-mangled."
+        hint: "You cannot directly access a private attribute from a subclass."
+        issue: "Derived tries to access `__secret`, which is name-mangled."
         solution: |
           class Derived(Base):
               def get_secret(self):
