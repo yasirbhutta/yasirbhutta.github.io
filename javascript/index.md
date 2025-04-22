@@ -12,5 +12,5 @@
 
 ## 🔖 Further Reading & References
 
-- [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript \| MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [📄 W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
