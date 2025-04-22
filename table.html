@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    @media screen and (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      thead tr {
+        display: none;
+      }
+
+      td {
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+      }
+
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        font-weight: bold;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>My GitHub Page Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Project">Portfolio</td>
+        <td data-label="Description">Personal web portfolio built with HTML/CSS</td>
+        <td data-label="Link"><a href="https://your-github.io/portfolio">View</a></td>
+      </tr>
+      <tr>
+        <td data-label="Project">Blog</td>
+        <td data-label="Description">Technical blog with tutorials</td>
+        <td data-label="Link"><a href="https://your-github.io/blog">Read</a></td>
+      </tr>
+      <tr>
+        <td data-label="Project">Tools</td>
+        <td data-label="Description">Handy online tools collection</td>
+        <td data-label="Link"><a href="https://your-github.io/tools">Explore</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
