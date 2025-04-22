@@ -3,6 +3,7 @@ layout: page
 title: "JavaScript Basics" 
 description: ""  
 keywords: ""
+toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
 prev: /html-css/docs/html-basics.html
