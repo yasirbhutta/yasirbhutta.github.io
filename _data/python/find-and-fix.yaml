@@ -2,7 +2,6 @@ course: python
 topics:
   - topic: oop-inheritance
     questions:
-
       - id: py-inh-fix-001
         difficulty: easy
         prompt: |
@@ -65,11 +64,6 @@ topics:
                   super().__init__(name)
                   self.school = school
   
-  course: python
-topics:
-  - topic: oop-inheritance
-    questions:
-
       - id: py-inh-fix-004
         difficulty: easy
         prompt: |
@@ -325,7 +319,6 @@ topics:
         solution: |
           class MyClass(object):  # Inherit from the base class `object`
               pass
-
     resources:
       - name: Learn Inheritance in Python
         url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
