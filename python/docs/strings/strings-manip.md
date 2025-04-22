@@ -7,7 +7,7 @@ toc: toc/python-toc.html
 topic: "strings"
 course: "python"
 prev: /python/docs/strings.html
-next: /python/docs/functions.html
+next: /python/docs/strings/strings-formatting.html
 ---
 
 ## What is a String?
