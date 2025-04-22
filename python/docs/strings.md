@@ -368,7 +368,7 @@ Ask the user for a sentence and print the number of words in it using `split()`.
 
 ---
 
-### ✅ **Lecture #3 Tasks: `partition()`**
+### ✅ Tasks: `partition()`**
 
 #### **Task 7: Email Parser**
 Ask the user for an email and extract the username and domain using `partition("@")`.
