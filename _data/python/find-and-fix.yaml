@@ -275,7 +275,7 @@ topics:
           sa = Savings()
           sa.balance  # Throws AttributeError
         hint: Use `@property` decorator in `Savings` to override `balance` method as a property.
-        issue: "`balance` becomes a method instead of a property in `Savings`."
+        issue: "<strong>balance</strong> becomes a method instead of a property in **`Savings`**."
         solution: |
           class Savings(Account):
               @property
