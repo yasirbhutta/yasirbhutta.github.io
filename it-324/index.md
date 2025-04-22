@@ -35,7 +35,7 @@
 {% assign show_heading = true %}
 {% include toc/css-toc.html show_heading=show_heading %}
 
-- [Javascript](/javascript/index.md)
+- [Javascript](/javascript/)
 
 ### [Web Development Articles](../html-css/posts/)
 
