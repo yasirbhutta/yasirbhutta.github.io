@@ -380,7 +380,7 @@ topics:
           - A tuple of three parts
           - A dictionary of parts
         answer: A tuple of three parts
-        explanation: The `partition()` method splits a string into three parts: before the separator, the separator itself, and after.
+        explanation: "The artition() method splits a string into three parts: before the separator, the separator itself, and after."
 
       - id: py-str-004
         difficulty: easy
@@ -409,3 +409,4 @@ topics:
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
+
