@@ -59,14 +59,14 @@ topics:
       - id: js-rq-bs-007
         prompt: |
           What is the primary purpose of JavaScript in web development?
-        answer: ""
+        answer: 
         resources: []
         difficulty: easy
 
       - id: js-rq-bs-008
         prompt: |
           Which JavaScript method is used to display a message in a browser's pop-up window?
-        answer: ""
+        answer: 
         resources:
           - name: JavaScript Methods
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#methods
