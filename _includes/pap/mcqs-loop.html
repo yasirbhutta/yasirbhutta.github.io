@@ -10,7 +10,7 @@
 {% if q.difficulty == level %}
 {% assign question_count = question_count | plus: 1 %}
 <div class="mcq">
-<h3>Q{{ question_count }}. {{ q.question }}</h3>
+<h3>Q{{ question_count }}. {{ q.question | escape }}</h3>
 {% if q.code %}
 <pre><code class="language-python">{{ q.code | escape }}</code></pre>
 {% endif %}
