@@ -106,12 +106,11 @@ topics:
         prompt: |
           What will the following code output?
         code: |
-          ```javascript
           var a = 5;
           var b = 10;
           var c = a + b;
           console.log(c);
-          ```
+        language: javascript
         answer: ""
         resources: []
         difficulty: easy
@@ -140,6 +139,7 @@ topics:
             alert("Welcome to JavaScript!");
           }
           greet();
+        language: javascript
         answer: ""
         resources: []
         difficulty: easy
@@ -188,6 +188,7 @@ topics:
           How would you change the content of an element with the id "demo" to "Hello World"?
         code: |
           document.getElementById("demo").innerHTML = "Hello World";
+        language: javascript
         answer: ""
         resources: []
         difficulty: easy
@@ -210,9 +211,8 @@ topics:
         prompt: |
           How do you link an external JavaScript file to an HTML document?
         code: |
-          ```html
           <script src="path/to/your/script.js"></script>
-          ```
+        language: html
         answer: ""
         resources: []
         difficulty: easy

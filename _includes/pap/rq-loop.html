@@ -3,7 +3,7 @@
 {% for q in include.questions %}
 <li><h3>{{ q.prompt | escape }}</h3></li>
 {% if q.code %}
-<pre><code class="language-python">{{ q.code | escape }}</code></pre>
+<pre><code class="language-{{ q.language | escape }}">{{ q.code | escape }}</code></pre>
 {% endif %}
 {% if q.answer != "" %}
 <details>
