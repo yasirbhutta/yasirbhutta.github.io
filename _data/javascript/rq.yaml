@@ -1,0 +1,45 @@
+course: javascript
+topics:
+  - topic: basics
+    questions:
+      - id: js-rq-bs-001
+        prompt: What is the purpose of the `<script>` tag in HTML?
+        answer: The `<script>` tag is used to embed or reference JavaScript code within an HTML document so it can interact with the page content.
+        resources:
+          - name: Learn about the Script Tag in HTML
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#script-tag
+
+      - id: js-rq-bs-002
+        prompt: How can you display a simple message to users using JavaScript?
+        answer: You can use the `alert()` function to show a popup message to users.
+        resources:
+          - name: JavaScript Alerts
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#alert
+
+      - id: js-rq-bs-003
+        prompt: Why should you place JavaScript code at the end of the `<body>` tag?
+        answer: Placing JavaScript at the end of the body allows the HTML content to load first, improving page performance and preventing errors related to accessing unrendered elements.
+        resources:
+          - name: Best Practice for Script Placement
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#placement
+
+      - id: js-rq-bs-004
+        prompt: What does the `prompt()` function do in JavaScript?
+        answer: The `prompt()` function displays a dialog box asking the user for input, and returns the value as a string.
+        resources:
+          - name: Taking User Input
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#prompt
+
+      - id: js-rq-bs-005
+        prompt: How do you change the content of an HTML element using JavaScript?
+        answer: You can use `document.getElementById("id").innerHTML = "new content";` to change the content of an HTML element.
+        resources:
+          - name: Manipulating HTML Content
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#innerhtml
+
+      - id: js-rq-bs-006
+        prompt: What is the purpose of the `src` attribute in the `<script>` tag?
+        answer: The `src` attribute is used to include an external JavaScript file in an HTML document.
+        resources:
+          - name: External JavaScript Files
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#external-js

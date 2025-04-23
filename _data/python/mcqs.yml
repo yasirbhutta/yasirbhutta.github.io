@@ -2,6 +2,47 @@ course: python
 topics:
   - topic: oop-inheritance
     questions:
+      - id: py-inh-002
+        difficulty: medium
+        question: |
+          What is the output of the following Python code?
+
+          class Parent:
+              def greet(self):
+                  print("Hello from Parent")
+
+          class Child(Parent):
+              def greet(self):
+                  print("Hello from Child")
+                  Parent.greet(self)     
+                  super().greet()         
+
+          obj = Child()
+          obj.greet()
+        options:
+          - |
+            Hello from Child
+            Hello from Parent
+            Hello from Parent
+          - |
+            Hello from Parent
+            Hello from Child
+            Hello from Parent
+          - |
+            Hello from Child
+            Hello from Child
+            Hello from Parent
+          - |
+            Hello from Parent
+            Hello from Parent
+            Hello from Child
+        answer: |
+          Hello from Child
+          Hello from Parent
+          Hello from Parent
+        explanation: |
+          The `Child.greet()` method prints "Hello from Child", then explicitly calls `Parent.greet(self)` and `super().greet()`, both of which call the `Parent` class's `greet()` method, resulting in "Hello from Parent" printed twice.
+
       - id: py-inh-001
         difficulty: easy
         question: What is the main purpose of inheritance in Python?

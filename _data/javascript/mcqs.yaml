@@ -1,0 +1,69 @@
+course: javascript
+topics:
+  - topic: basics
+    questions:
+      - id: js-mcqs-bs-001
+        difficulty: easy
+        question: What tag is used to write JavaScript in an HTML document?
+        options:
+          - <js>
+          - <code>
+          - <script>
+          - <javascript>
+        answer: <script>
+        explanation: The <script> tag is used to add JavaScript to HTML pages.
+
+      - id: js-mcqs-bs-002
+        difficulty: easy
+        question: Which JavaScript function is used to show a message in a popup box?
+        options:
+          - show()
+          - popup()
+          - alert()
+          - display()
+        answer: alert()
+        explanation: The alert() function displays a popup message to the user.
+
+      - id: js-mcqs-bs-003
+        difficulty: easy
+        question: Where is it considered best practice to place the <script> tag in an HTML document?
+        options:
+          - At the top of the <head> tag
+          - In the middle of the <body>
+          - Just before the closing </body> tag
+          - Inside a <div> tag
+        answer: Just before the closing </body> tag
+        explanation: Placing JavaScript at the end of the body ensures HTML content loads before the script runs.
+
+      - id: js-mcqs-bs-004
+        difficulty: easy
+        question: How do you take input from the user in JavaScript?
+        options:
+          - input()
+          - getInput()
+          - prompt()
+          - ask()
+        answer: prompt()
+        explanation: prompt() is used to collect input from users through a dialog box.
+
+      - id: js-mcqs-bs-005
+        difficulty: easy
+        question: Which property is used to change the content of an HTML element?
+        options:
+          - textValue
+          - htmlContent
+          - value
+          - innerHTML
+        answer: innerHTML
+        explanation: innerHTML lets you get or set the content inside an HTML element.
+
+      - id: js-mcqs-bs-006
+        difficulty: easy
+        question: Which attribute is used in the <script> tag to include an external JavaScript file?
+        options:
+          - href
+          - link
+          - src
+          - path
+        answer: src
+        explanation: The src attribute is used to link an external JavaScript file in the <script> tag.

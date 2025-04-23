@@ -6,8 +6,8 @@ keywords: JavaScript quiz, JavaScript true or false questions, JS basics quiz, b
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
-prev: /javascript
-next: /javascript
+prev: /javascript/docs/basics.html
+next: /javascript/docs/basics/practice-and-progress/mcqs-basics.html
 ---
 
 {% assign topic = "basics" %}

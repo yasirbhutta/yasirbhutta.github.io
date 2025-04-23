@@ -1,0 +1,88 @@
+course: javascript
+topics:
+  - topic: basics
+    questions:
+      - id: js-fix-bs-001
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          <script>
+            function greet() {
+              alert("Welcome to JavaScript!"
+            }
+            greet();
+          </script>
+        hint: Check the syntax of the function, especially parentheses and braces.
+        issue: The closing parenthesis and semicolon are missing from the alert statement.
+        solution: |
+          <script>
+            function greet() {
+              alert("Welcome to JavaScript!");
+            }
+            greet();
+          </script>
+
+      - id: js-fix-bs-002
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          <script>
+            var name = prompt("What is your name?")
+            alert("Hello, " + name)
+          </script>
+        hint: Always terminate statements with a semicolon in JavaScript.
+        issue: Missing semicolons at the end of statements.
+        solution: |
+          <script>
+            var name = prompt("What is your name?");
+            alert("Hello, " + name);
+          </script>
+
+      - id: js-fix-bs-003
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          <script>
+            alert(Welcome to JavaScript);
+          </script>
+        hint: Text inside alert should be in quotes.
+        issue: The string is not wrapped in quotation marks.
+        solution: |
+          <script>
+            alert("Welcome to JavaScript");
+          </script>
+
+      - id: js-fix-bs-004
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          <script>
+            document.getElementById("message").innerHtml = "Hello World!";
+          </script>
+        hint: JavaScript property names are case-sensitive.
+        issue: "innerHtml is incorrect; it should be <b>innerHTML</b>."
+        solution: |
+          <script>
+            document.getElementById("message").innerHTML = "Hello World!";
+          </script>
+
+      - id: js-fix-bs-005
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          <script src="script.js">
+            alert("This won't work!");
+          </script>
+        hint: Avoid mixing inline script content when using the `src` attribute.
+        issue: When using the `src` attribute in the script tag, inline code inside it is ignored.
+        solution: |
+          <script src="script.js"></script>
+          <!-- Or remove src and include the code inline -->
+          <script>
+            alert("This won't work!");
+          </script>
