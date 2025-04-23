@@ -37,3 +37,6 @@ topics:
         prompt: To include an external JavaScript file, use the ________ attribute inside a `<script>` tag.
         answer: src
         explanation: "Use the `src` attribute in a `<script>` tag to include an external JavaScript file."
+    resources:
+    - name: Learn JavaScript Basics
+      url: https://yasirbhutta.github.io/javascript/docs/basics.html

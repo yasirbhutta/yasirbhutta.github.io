@@ -16,14 +16,14 @@
 {% endif %}
 <ol type="A">
 {% for option in q.options %}
-<li>{{ option }}</li>
+<li>{{ option | escape }}</li>
 {% endfor %}
 </ol>
 <details>
 <summary>Answer</summary>
-<p><strong>{{ q.answer }}</strong></p>
+<p><strong>{{ q.answer | escape }}</strong></p>
 {% if q.explanation %}
-<p><em>{{ q.explanation }}</em></p>
+<p><em>{{ q.explanation | escape }}</em></p>
 {% endif %}
 </details>
 <hr>

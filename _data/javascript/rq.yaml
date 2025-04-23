@@ -43,3 +43,6 @@ topics:
         resources:
           - name: External JavaScript Files
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#external-js
+    resources:
+    - name: Learn JavaScript Basics
+      url: https://yasirbhutta.github.io/javascript/docs/basics.html

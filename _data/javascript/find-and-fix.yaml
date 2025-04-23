@@ -86,3 +86,6 @@ topics:
           <script>
             alert("This won't work!");
           </script>
+    resources:
+    - name: Learn JavaScript Basics
+      url: https://yasirbhutta.github.io/javascript/docs/basics.html

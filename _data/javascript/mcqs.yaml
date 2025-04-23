@@ -8,9 +8,9 @@ topics:
         options:
           - <js>
           - <code>
-          - <script>
-          - <javascript>
-        answer: <script>
+          - "<script>"
+          - "<javascript>"
+        answer: "<script>"
         explanation: The <script> tag is used to add JavaScript to HTML pages.
 
       - id: js-mcqs-bs-002
@@ -67,3 +67,6 @@ topics:
           - path
         answer: src
         explanation: The src attribute is used to link an external JavaScript file in the <script> tag.
+    resources:
+    - name: Learn JavaScript Basics
+      url: https://yasirbhutta.github.io/javascript/docs/basics.html
