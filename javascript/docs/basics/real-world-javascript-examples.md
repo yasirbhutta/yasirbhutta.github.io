@@ -86,11 +86,45 @@ next: html-css/docs/css-basics.html
 
 🧠 *Used in color pickers, design tools, and fun quizzes.*
 
-**See also:**
-- [What is `const` in JavaScript?](const.md)
-- [JavaScript Math.floor() Explained](/javascript/docs/math/math-floor.md)
-- [JavaScript Math.random() Explained](/javascript//docs/math/math-random.md)
-  
+
+#### 🔹 `const`
+Used to declare variables that **won’t be reassigned**. It ensures the variable reference stays constant (but not necessarily the content if it’s an object or array).
+
+```js
+const colors = ["red", "green", "blue"];
+```
+
+📌 *Use `const` when you don't plan to reassign the variable.*
+
+---
+
+#### 🔹 `Math.random()`
+Generates a **random decimal number between 0 (inclusive) and 1 (exclusive)**.
+
+```js
+Math.random(); // Example: 0.462
+```
+
+📌 *Often used to create randomness in games or styles.*
+
+---
+
+#### 🔹 `Math.floor()`
+Rounds a **decimal number down to the nearest whole number**.
+
+```js
+Math.floor(4.9); // Returns 4
+```
+
+📌 *Used here to select a random index from the colors array.*
+
+---
+
+### 🔗 For a detailed explanation, see::
+- [What is `const` in JavaScript?](const.md)  
+- [JavaScript `Math.floor()` Explained](/javascript/docs/math/math-floor.md)  
+- [JavaScript `Math.random()` Explained](/javascript/docs/math/math-random.md)
+
 ---
 
 ### ✏️ 4. Highlight Form Field on Focus

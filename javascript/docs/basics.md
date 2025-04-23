@@ -142,6 +142,15 @@ next: html-css/docs/css-basics.html
 - Introduces `prompt()` and user interaction.
 - Connects input with output using functions.
 
+
+**📌 `onclick` Event (JavaScript)**
+
+The `onclick` event in JavaScript runs when a user **clicks on an HTML element**—such as a button, link, or image. It's commonly used to perform actions like submitting forms, showing messages, or toggling features.
+
+🔗 For a detailed explanation, see:  
+👉 [🖱️ What is the `onclick` Event in JavaScript?](events/onclick-event.md)  
+👉 [📘 What are Events in JavaScript?](events/what-is-events.md)
+
 ---
 
 ## 🔹 Changing Content Dynamically (DOM)
