@@ -11,14 +11,14 @@
   <ol>
     {% for ex in include.exercises %}
       {% if ex.difficulty == level %}
-        <li><strong>{{ ex.title }}</strong> <em>({{ ex.difficulty | capitalize }})</em></li>
+        <li><strong>{{ ex.title | escape  }}</strong></li>
         <p>{{ ex.task }}</p>
 
         {% if ex.requirements %}
           <h4>Requirements</h4>
           <ul>
             {% for requirement in ex.requirements %}
-              <li>{{ requirement }}</li>
+              <li>{{ requirement | escape }}</li>
             {% endfor %}
           </ul>
         {% endif %}
@@ -27,7 +27,7 @@
           <h4>Hints</h4>
           <ul>
             {% for hint in ex.hints %}
-              <li>{{ hint }}</li>
+              <li>{{ hint | escape }}</li>
             {% endfor %}
           </ul>
         {% endif %}

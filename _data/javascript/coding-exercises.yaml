@@ -1,0 +1,51 @@
+course: javascript
+topics:
+  - topic: basics
+    exercises:
+      - id: js-dom-001
+        title: "Change Text Color on Button Click"
+        task: |
+          Create a paragraph with some text and a button. When the button is clicked, change the text color of the paragraph to blue.
+        requirements: |
+          - Use `getElementById()` to access the paragraph.
+          - Use JavaScript to change the style color property.
+        input: |
+          <button onclick="changeColor()">Change Color</button>
+        output: |
+          # The paragraph text changes to blue when the button is clicked
+        resource:
+          name: "View Solution"
+          url: "https://yasirbhutta.github.io/javascript/docs/basics/real-world-javascript-examples.html#-1-change-text-color-on-button-click"
+        difficulty: "easy"
+
+      - id: js-dom-002
+        title: "Change Font Size Dynamically"
+        task: |
+          Create a paragraph with some text and a button. When the button is clicked, increase the font size of the paragraph text.
+        requirements: |
+          - Use `getElementById()` to access the paragraph.
+          - Modify the `style.fontSize` property using JavaScript.
+        input: |
+          <button onclick="increaseFont()">Increase Font</button>
+        output: |
+          # The paragraph font size increases when the button is clicked
+        resource:
+          name: "View Solution"
+          url: "https://yasirbhutta.github.io/javascript/docs/basics/real-world-javascript-examples.html#-2-change-font-size-dynamically"
+        difficulty: "easy"
+
+      - id: js-dom-003
+        title: "Change Background Color Randomly"
+        task: |
+          Create a button that, when clicked, changes the background color of the web page to a random color from a predefined list.
+        requirements: |
+          - Use JavaScript's `Math.random()` to pick a color.
+          - Update `document.body.style.backgroundColor`.
+        input: |
+          <button onclick="randomBg()">Random Background</button>
+        output: |
+          # The background color of the page changes randomly each time the button is clicked
+        resource:
+          name: "View Solution"
+          url: "https://yasirbhutta.github.io/javascript/docs/basics/real-world-javascript-examples.html#-3-change-background-color-randomly"
+        difficulty: "easy"

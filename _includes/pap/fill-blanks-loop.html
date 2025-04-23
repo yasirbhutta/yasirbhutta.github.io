@@ -43,9 +43,9 @@
       <h3>✍️ {{ example.prompt }}</h3>
       <details>
         <summary>Answer</summary>
-        <p><strong>{{ example.answer }}</strong></p>
+        <p><strong>{{ example.answer | escape }}</strong></p>
         {% if example.explanation %}
-          <p><em>{{ example.explanation }}</em></p>
+          <p><em>{{ example.explanation | escape }}</em></p>
         {% endif %}
     </details>
       <!-- <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p> -->

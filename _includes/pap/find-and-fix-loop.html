@@ -19,14 +19,14 @@
 {% endif %}
 
 {% if q.hint %}
-<p><strong>Hint: 💡 </strong>{{ q.hint }}</p>
+<p><strong>Hint: 💡 </strong>{{ q.hint | escape }}</p>
 {% endif %}
 
 {% if q.solution %}
 <details>
 <summary>🔍 View Issue & Fixed Solution</summary>
 {% if q.issue %}
-<p><strong>Issue:</strong> {{ q.issue }}</p>
+<p><strong>Issue:</strong> {{ q.issue | escape }}</p>
 {% endif %}
 <h4>✅ Fixed Solution</h4>
 <pre><code class="language-python">{{ q.solution | escape }}</code></pre>
