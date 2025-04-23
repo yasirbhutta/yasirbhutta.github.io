@@ -10,6 +10,24 @@ prev: /html-css/docs/html-basics.html
 next: html-css/docs/css-basics.html
 ---
 
+## Contents
+- Dynamically Change Style with JavaScript
+  1. [Change Text Color on Button Click](#-1-change-text-color-on-button-click)
+  2. [Change Font Size Dynamically](#-2-change-font-size-dynamically)
+  3. [Change Background Color Randomly](#-3-change-background-color-randomly)
+  4. [Highlight Form Field on Focus](#️-4-highlight-form-field-on-focus)
+  5. [Toggle Visibility (Show/Hide Div)](#️-5-toggle-visibility-showhide-div)
+  6. [Add or Remove CSS Class](#-6-add-or-remove-css-class)
+  7. [Change Button Text and Style on Click](#-7-change-button-text-and-style-on-click)
+- More Examples
+  8. [Show/Hide Password Field](#-8-showhide-password-field)
+  9. [Live Character Counter](#️-9-live-character-counter)
+  10. [Greeting Based on Time](#-10-greeting-based-on-time)
+  11. [Simple Calculator](#-11-simple-calculator)
+  12. [Dark Mode Toggle](#-12-dark-mode-toggle)
+  13. [Disable Button After Click](#-13-disable-button-after-click)
+  14. [Real-Time Clock](#-14-real-time-clock)
+
 ## 🛠️ Dynamically Change Style with JavaScript
 
 ### 🎨 1. Change Text Color on Button Click
@@ -68,6 +86,11 @@ next: html-css/docs/css-basics.html
 
 🧠 *Used in color pickers, design tools, and fun quizzes.*
 
+**See also:**
+- [What is `const` in JavaScript?](const.md)
+- [JavaScript Math.floor() Explained](/javascript/docs/math/math-floor.md)
+- [JavaScript Math.random() Explained](/javascript//docs/math/math-random.md)
+  
 ---
 
 ### ✏️ 4. Highlight Form Field on Focus
