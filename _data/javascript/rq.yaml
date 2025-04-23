@@ -136,13 +136,13 @@ topics:
         prompt: |
           What does the following function do?
         code: |
-          ```javascript
+          
           function greet() {
             alert("Welcome to JavaScript!");
           }
           greet();
-          ```
-        answer: ""
+          
+        answer: 
         resources: []
         difficulty: easy
 
