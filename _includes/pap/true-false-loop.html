@@ -11,16 +11,16 @@
   <ol>
     {% for q in include.questions %}
       {% if q.difficulty == level %}
-        <li>{{ q.prompt }}</li>
+        <li>{{ q.prompt | escape }}</li>
         <details>
           <summary>Answer</summary>
           <p>
             {% if q.answer == true or q.answer == "True" %}
-              ✅ True – <em>{{ q.explanation }}</em>
+              ✅ True – <em>{{ q.explanation | escape }}</em>
             {% elsif q.answer == false or q.answer == "False" %}
-              ❌ False – <em>{{ q.explanation }}</em>
+              ❌ False – <em>{{ q.explanation | escape }}</em>
             {% else %}
-              {{ q.answer }} – <em>{{ q.explanation }}</em>
+              {{ q.answer }} – <em>{{ q.explanation | escape }}</em>
             {% endif %}
           </p>
         </details>

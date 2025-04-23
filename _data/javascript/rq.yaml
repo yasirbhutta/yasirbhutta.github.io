@@ -49,7 +49,7 @@ topics:
 
       - id: js-rq-bs-006
         prompt: |
-          What is the purpose of the `src` attribute in the `<script>` tag?
+          "What is the purpose of the `src` attribute in the `<script>` tag?"
         answer: The `src` attribute is used to include an external JavaScript file in an HTML document.
         resources:
           - name: External JavaScript Files
@@ -88,7 +88,7 @@ topics:
 
       - id: js-rq-bs-011
         prompt: |
-          What is the purpose of the `defer` attribute in a `<script>` tag?
+          "What is the purpose of the `defer` attribute in a `<script>` tag?"
         answer: ""
         resources: []
         difficulty: easy
@@ -105,6 +105,7 @@ topics:
       - id: js-rq-bs-013
         prompt: |
           What will the following code output?
+        code: |
           ```javascript
           var a = 5;
           var b = 10;
@@ -134,6 +135,7 @@ topics:
       - id: js-rq-bs-016
         prompt: |
           What does the following function do?
+        code: |
           ```javascript
           function greet() {
             alert("Welcome to JavaScript!");
@@ -186,6 +188,7 @@ topics:
       - id: js-rq-bs-022
         prompt: |
           How would you change the content of an element with the id "demo" to "Hello World"?
+        code: |
           ```javascript
           document.getElementById("demo").innerHTML = "Hello World";
           ```
@@ -210,6 +213,7 @@ topics:
       - id: js-rq-bs-025
         prompt: |
           How do you link an external JavaScript file to an HTML document?
+        code: |
           ```html
           <script src="path/to/your/script.js"></script>
           ```
@@ -219,7 +223,7 @@ topics:
 
       - id: js-rq-bs-026
         prompt: |
-          Where should the `<script>` tag be placed when linking to an external JavaScript file?
+          "Where should the `<script>` tag be placed when linking to an external JavaScript file?"
         answer: ""
         resources:
           - name: Learn about the Script Tag in HTML

@@ -1,16 +1,19 @@
 <h2>🔍 Review Questions</h2>
 <ol>
   {% for q in include.questions %}
-    <li><h3>{{ q.prompt }}</h3></li>
+    <li><h3>{{ q.prompt | escape }}</h3></li>
+    <% if q.code %}
+    <pre><code class="language-python">{{ q.code | escape }}</code></pre>
+    {% endif %}
     <details>
         <summary>Answer</summary>
-        <p>{{ q.answer }}</p>
+        <p>{{ q.answer | escape }}</p>
         
         {% if q.resources %}
           <p>📚 Related Resources</p>
           <ul>
             {% for resource in q.resources %}
-              <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
+              <li><a href="{{ resource.url }}">{{ resource.name | escape }}</a></li>
             {% endfor %}
           </ul>
         {% endif %}
