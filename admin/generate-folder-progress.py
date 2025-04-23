@@ -1,7 +1,7 @@
 import os
 
-course = "python"  # Replace with the desired course name
-topic = "string"  # Replace with the desired topic
+course = "javascript"  # Replace with the desired course name
+topic = "basics"  # Replace with the desired topic
 # Define the directory path where the markdown files will be created
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [

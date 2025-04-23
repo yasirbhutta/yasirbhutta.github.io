@@ -130,3 +130,15 @@ header {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.site-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.site-title a:hover {
+  text-decoration: underline;
+}
