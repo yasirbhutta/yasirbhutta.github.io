@@ -4,39 +4,39 @@ topics:
     questions:
       - id: js-co-001
         difficulty: easy
-        prompt: In JavaScript, you can display a message in a popup using the ________ function.
+        prompt: "In JavaScript, you can display a message in a popup using the ________ function."
         answer: alert
         explanation: "The `alert()` function displays a popup message to the user."
 
       - id: js-co-002
         difficulty: easy
-        prompt: JavaScript code is usually placed inside the ________ tag in HTML.
+        prompt: "JavaScript code is usually placed inside the ________ tag in HTML."
         answer: script
         explanation: "The `<script>` tag is used to add JavaScript code in an HTML document."
 
       - id: js-co-003
         difficulty: easy
-        prompt: The ________ keyword is used to declare a variable in JavaScript.
+        prompt: "The ________ keyword is used to declare a variable in JavaScript."
         answer: var
         explanation: "The `var` keyword is one of the ways to declare a variable in JavaScript."
 
       - id: js-co-004
         difficulty: easy
-        prompt: You can take user input in JavaScript using the ________ function.
+        prompt: "You can take user input in JavaScript using the ________ function."
         answer: prompt
         explanation: "`prompt()` asks the user for input and returns it as a string."
 
       - id: js-co-005
         difficulty: easy
-        prompt: To change the content of an HTML element, use ________ property of `document.getElementById()`.
+        prompt: "To change the content of an HTML element, use ________ property of `document.getElementById()`."
         answer: innerHTML
         explanation: "`innerHTML` allows you to change the text or HTML inside an element."
 
       - id: js-co-006
         difficulty: easy
-        prompt: To include an external JavaScript file, use the ________ attribute inside a `<script>` tag.
+        prompt: "To include an external JavaScript file, use the ________ attribute inside a `<script>` tag."
         answer: src
         explanation: "Use the `src` attribute in a `<script>` tag to include an external JavaScript file."
     resources:
-    - name: Learn JavaScript Basics
-      url: https://yasirbhutta.github.io/javascript/docs/basics.html
+    - name: "Learn JavaScript Basics"
+      url: "https://yasirbhutta.github.io/javascript/docs/basics.html"
