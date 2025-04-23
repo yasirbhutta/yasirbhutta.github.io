@@ -59,7 +59,7 @@ topics:
       - id: js-rq-bs-007
         prompt: |
           What is the primary purpose of JavaScript in web development?
-        answer: 
+        answer: ""
         resources: []
         difficulty: easy
 
@@ -136,13 +136,11 @@ topics:
         prompt: |
           What does the following function do?
         code: |
-          
           function greet() {
             alert("Welcome to JavaScript!");
           }
           greet();
-          
-        answer: 
+        answer: ""
         resources: []
         difficulty: easy
 
@@ -189,9 +187,7 @@ topics:
         prompt: |
           How would you change the content of an element with the id "demo" to "Hello World"?
         code: |
-          ```javascript
           document.getElementById("demo").innerHTML = "Hello World";
-          ```
         answer: ""
         resources: []
         difficulty: easy
