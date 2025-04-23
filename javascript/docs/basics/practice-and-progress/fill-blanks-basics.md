@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Fill in the Blanks – Javascript
-description: Sharpen your understanding of Object-Oriented Programming with these fill-in-the-blank exercises on Python inheritance. Perfect for students, beginners, and interview prep to reinforce key OOP concepts in Python.
-keywords: Python inheritance fill in the blanks, OOP in Python exercises, Python class and object practice, fill in the blanks Python OOP, object oriented programming Python questions, inheritance in Python quiz, Python programming MCQs, Python OOP practice problems, Python inheritance worksheet, learn Python inheritance concepts
+title: JavaScript Fill in the Blanks – Practice Basic Concepts Easily
+description: Test your JavaScript knowledge with fill-in-the-blank exercises. Perfect for beginners to reinforce syntax, logic, and key programming concepts.
+keywords: JavaScript fill in the blanks, JavaScript practice questions, JavaScript syntax test, JavaScript basics quiz, beginner JavaScript exercises, JavaScript concept check, interactive JavaScript learning, JavaScript learning activity, JavaScript for beginners, JavaScript logic practice
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
-prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
-next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
+prev: /javascript/docs/basics/practice-and-progress/fill-blanks-basics.html
+next: /javascript/docs/basics/practice-and-progress/mcqs-basics.html
 ---
 
 {% assign topic = "basics" %}

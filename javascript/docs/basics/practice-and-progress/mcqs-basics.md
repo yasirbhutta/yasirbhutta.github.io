@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Multiple Choice Questions (MCQs) on JavaScript Basics
-description: Boost your Python skills with these MCQs on Object-Oriented Programming and Inheritance. Ideal for beginners, students, and job seekers to test and strengthen their understanding of Python OOP concepts.
-keywords: Python inheritance MCQs, OOP MCQ Python, multiple choice questions Python inheritance, Python class and object quiz, object oriented programming Python MCQs, Python OOP practice test, Python inheritance quiz questions, Python interview questions OOP, Python MCQ with answers, inheritance concepts in Python
+title: "JavaScript Basics MCQs: Test Your Knowledge with Practice Questions"
+description: Enhance your understanding of JavaScript fundamentals by practicing multiple-choice questions covering variables, functions, loops, and more.
+keywords: JavaScript MCQs, JavaScript basics quiz, JavaScript practice questions, learn JavaScript, JavaScript fundamentals, JavaScript loops, JavaScript functions, JavaScript variables, JavaScript syntax, JavaScript beginners
 author: Muhammad Yasir Bhutta
 toc: toc/javascript.html
 topic: "basics"

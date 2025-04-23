@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Find and Fix Mistakes – Javascript.
-description: Practice Python OOP inheritance by identifying and fixing common mistakes in code examples.
-keywords: python, oop, inheritance, practice questions, find and fix, error correction
+title: "Find & Fix JavaScript Mistakes: Beginner Practice Exercises"
+description: Sharpen your JavaScript skills by identifying and correcting common coding errors with these beginner-friendly practice exercises.
+keywords: JavaScript debugging, fix JavaScript errors, beginner JavaScript practice, JavaScript exercises, coding mistakes, JavaScript syntax errors, learn JavaScript basics, JavaScript troubleshooting, JavaScript practice problems, JavaScript error correction
 author: Muhammad Yasir Bhutta.
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
-prev: /python/docs/oop-inheritance/practice-and-progress/true-false-oop-inheritance.html
-next: /python/docs/oop-inheritance/practice-and-progress/exercises-oop-inheritance.html
+prev: /javascript/docs/basics/practice-and-progress/true-false-basics.html
+next: /javascript/docs/basics/practice-and-progress/exercises-basics.html
 ---
 
 {% assign topic_name = "basics" %}

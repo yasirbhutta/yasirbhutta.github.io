@@ -3,46 +3,225 @@ topics:
   - topic: basics
     questions:
       - id: js-rq-bs-001
-        prompt: What is the purpose of the `<script>` tag in HTML?
+        prompt: |
+          What is the purpose of the `<script>` tag in HTML?
         answer: The `<script>` tag is used to embed or reference JavaScript code within an HTML document so it can interact with the page content.
         resources:
           - name: Learn about the Script Tag in HTML
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#script-tag
+        difficulty: easy
 
       - id: js-rq-bs-002
-        prompt: How can you display a simple message to users using JavaScript?
+        prompt: |
+          How can you display a simple message to users using JavaScript?
         answer: You can use the `alert()` function to show a popup message to users.
         resources:
           - name: JavaScript Alerts
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#alert
+        difficulty: easy
 
       - id: js-rq-bs-003
-        prompt: Why should you place JavaScript code at the end of the `<body>` tag?
+        prompt: |
+          Why should you place JavaScript code at the end of the `<body>` tag?
         answer: Placing JavaScript at the end of the body allows the HTML content to load first, improving page performance and preventing errors related to accessing unrendered elements.
         resources:
           - name: Best Practice for Script Placement
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#placement
+        difficulty: easy
 
       - id: js-rq-bs-004
-        prompt: What does the `prompt()` function do in JavaScript?
+        prompt: |
+          What does the `prompt()` function do in JavaScript?
         answer: The `prompt()` function displays a dialog box asking the user for input, and returns the value as a string.
         resources:
           - name: Taking User Input
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#prompt
+        difficulty: easy
 
       - id: js-rq-bs-005
-        prompt: How do you change the content of an HTML element using JavaScript?
+        prompt: |
+          How do you change the content of an HTML element using JavaScript?
         answer: You can use `document.getElementById("id").innerHTML = "new content";` to change the content of an HTML element.
         resources:
           - name: Manipulating HTML Content
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#innerhtml
+        difficulty: easy
 
       - id: js-rq-bs-006
-        prompt: What is the purpose of the `src` attribute in the `<script>` tag?
+        prompt: |
+          What is the purpose of the `src` attribute in the `<script>` tag?
         answer: The `src` attribute is used to include an external JavaScript file in an HTML document.
         resources:
           - name: External JavaScript Files
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#external-js
-    resources:
-    - name: Learn JavaScript Basics
-      url: https://yasirbhutta.github.io/javascript/docs/basics.html
+        difficulty: easy
+
+      - id: js-rq-bs-007
+        prompt: |
+          What is the primary purpose of JavaScript in web development?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-008
+        prompt: |
+          Which JavaScript method is used to display a message in a browser's pop-up window?
+        answer: ""
+        resources:
+          - name: JavaScript Methods
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#methods
+        difficulty: easy
+
+      - id: js-rq-bs-009
+        prompt: |
+          How does JavaScript interact with HTML and CSS?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-010
+        prompt: |
+          Where is the recommended place to include JavaScript code in an HTML document?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-011
+        prompt: |
+          What is the purpose of the `defer` attribute in a `<script>` tag?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-012
+        prompt: |
+          Which of the following is a valid way to declare a variable in JavaScript?
+        answer: ""
+        resources:
+          - name: JavaScript Variables
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#variables
+        difficulty: easy
+
+      - id: js-rq-bs-013
+        prompt: |
+          What will the following code output?
+          ```javascript
+          var a = 5;
+          var b = 10;
+          var c = a + b;
+          console.log(c);
+          ```
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-014
+        prompt: |
+          Can a variable in JavaScript hold different data types at different times?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-015
+        prompt: |
+          How do you define a function in JavaScript?
+        answer: ""
+        resources:
+          - name: JavaScript Functions
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#functions
+        difficulty: easy
+
+      - id: js-rq-bs-016
+        prompt: |
+          What does the following function do?
+          ```javascript
+          function greet() {
+            alert("Welcome to JavaScript!");
+          }
+          greet();
+          ```
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-017
+        prompt: |
+          How can you pass parameters to a function in JavaScript?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-018
+        prompt: |
+          What is the purpose of the `prompt()` method in JavaScript?
+        answer: ""
+        resources:
+          - name: User Input with prompt()
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#prompt
+        difficulty: easy
+
+      - id: js-rq-bs-019
+        prompt: |
+          How can you capture the value entered by a user using `prompt()`?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-020
+        prompt: |
+          What type of value does `prompt()` return?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-021
+        prompt: |
+          Which method is used to change the content of an HTML element in JavaScript?
+        answer: ""
+        resources:
+          - name: JavaScript DOM Manipulation
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#dom
+        difficulty: easy
+
+      - id: js-rq-bs-022
+        prompt: |
+          How would you change the content of an element with the id "demo" to "Hello World"?
+          ```javascript
+          document.getElementById("demo").innerHTML = "Hello World";
+          ```
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-023
+        prompt: |
+          Why is manipulating the DOM important in web development?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-024
+        prompt: |
+          What is the advantage of using an external JavaScript file?
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-025
+        prompt: |
+          How do you link an external JavaScript file to an HTML document?
+          ```html
+          <script src="path/to/your/script.js"></script>
+          ```
+        answer: ""
+        resources: []
+        difficulty: easy
+
+      - id: js-rq-bs-026
+        prompt: |
+          Where should the `<script>` tag be placed when linking to an external JavaScript file?
+        answer: ""
+        resources:
+          - name: Learn about the Script Tag in HTML
+            url: https://yasirbhutta.github.io/javascript/docs/basics.html#script-tag
+        difficulty: easy

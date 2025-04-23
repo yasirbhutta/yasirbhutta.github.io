@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "JavaScript Coding Exercises for Beginners"
-meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
-keywords: Python OOP exercises, Python inheritance practice, OOP coding problems, Python class inheritance exercises, Python beginner OOP tasks, multiple inheritance Python examples, object-oriented programming challenges, Python coding practice
+title: "JavaScript Basics Practice Exercises – Improve Coding Skills Fast"
+meta_description: "Practice JavaScript basics with hands-on exercises. Strengthen your coding logic and build a strong foundation with real examples and tasks for beginners."
+keywords: "JavaScript practice exercises, JavaScript basics tutorial, coding exercises for beginners, JavaScript beginner tasks, JavaScript logic practice, JavaScript hands-on practice, learn JavaScript by doing, JavaScript fundamentals, programming practice JavaScript, beginner JavaScript challenges"
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
