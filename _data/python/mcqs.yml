@@ -299,14 +299,6 @@ topics:
           - python
           - P y t h o n
         answer: Python
-        question: Which method converts a string to all uppercase letters?
-        options:
-          - capitalize()
-          - upper()
-          - title()
-          - swapcase()
-        answer: upper()
-        explanation: The `upper()` method converts all characters in a string to uppercase.
 
       - id: py-str-003
         difficulty: easy
@@ -368,7 +360,7 @@ topics:
           - ('apple', 'banana', 'grape')
           - 'apple banana grape'
           - ['apple,banana,grape']
-        answer: ['apple', 'banana', 'grape']
+        answer: "['apple', 'banana', 'grape']"
         explanation: The `split(",")` method splits the string wherever it finds a comma and returns a list.
 
       - id: py-str-003
