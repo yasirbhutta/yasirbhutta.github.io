@@ -324,3 +324,6 @@ This example mirrors real-world systems like Shopify or WooCommerce, where inher
 - Not calling the parent class's `__init__` method when overriding it.
 - Overriding a method but forgetting to use `super()` if needed.
 
+## Further reading
+
+- [What is MRO?](oop-inheritance/what-is-mro.md)

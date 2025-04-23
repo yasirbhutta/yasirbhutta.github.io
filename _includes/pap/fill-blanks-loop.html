@@ -18,12 +18,12 @@
   <ol>
     {% for q in include.questions %}
       {% if q.difficulty == level %}
-        <li>{{ q.prompt }}</li>
+        <li>{{ q.prompt | escape }}</li>
         <details>
           <summary>Answer</summary>
-          <p><strong>{{ q.answer }}</strong></p>
+          <p><strong>{{ q.answer | escape }}</strong></p>
           {% if q.explanation %}
-            <p><em>{{ q.explanation }}</em></p>
+            <p><em>{{ q.explanation | escape }}</em></p>
           {% endif %}
         </details>
         <hr>
