@@ -4,8 +4,8 @@ topics:
     questions:
       - id: js-rq-bs-001
         prompt: |
-          What is the purpose of the `<script>` tag in HTML?
-        answer: The `<script>` tag is used to embed or reference JavaScript code within an HTML document so it can interact with the page content.
+          "What is the purpose of the `<script>` tag in HTML?"
+        answer: "The `<script>` tag is used to embed or reference JavaScript code within an HTML document so it can interact with the page content."
         resources:
           - name: Learn about the Script Tag in HTML
             url: https://yasirbhutta.github.io/javascript/docs/basics.html#script-tag
