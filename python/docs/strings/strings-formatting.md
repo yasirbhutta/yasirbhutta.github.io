@@ -292,7 +292,7 @@ print("Domain:", domain)
 
 ### ✅ Tasks: `find()` and `replace()`
 
-#### **Task 1: Find the Word**
+#### **Task 4: Find the Word**
 Ask the user to enter a sentence and a word. Use `.find()` to print the position of that word.
 
 ```python
@@ -300,7 +300,7 @@ Ask the user to enter a sentence and a word. Use `.find()` to print the position
 # Expected output: Word found at position 10
 ```
 
-#### **Task 2: Replace Bad Words**
+#### **Task 5: Replace Bad Words**
 Write a program that replaces words like `"bad"` or `"ugly"` with `"***"` in a sentence.
 
 ```python
@@ -308,14 +308,14 @@ Write a program that replaces words like `"bad"` or `"ugly"` with `"***"` in a s
 # Output: "This food is *** and ***"
 ```
 
-#### **Task 3: Count Substring Occurrence**
+#### **Task 6: Count Substring Occurrence**
 Use `.find()` inside a loop to count how many times a word appears.
 
 ---
 
 ### ✅ Tasks: `split()`
 
-#### **Task 4: Split a Sentence into Words**
+#### **Task 7: Split a Sentence into Words**
 Write a program to split a user-provided sentence into words and print them one per line.
 
 ```python
@@ -326,7 +326,7 @@ Write a program to split a user-provided sentence into words and print them one 
 # fun
 ```
 
-#### **Task 5: CSV Splitter**
+#### **Task 8: CSV Splitter**
 Split this string: `"Alice,Math,85"` and print each part labeled (e.g., Name, Subject, Marks).
 
 ```python
@@ -336,14 +336,14 @@ Split this string: `"Alice,Math,85"` and print each part labeled (e.g., Name, Su
 # Marks: 85
 ```
 
-#### **Task 6: Word Count**
+#### **Task 9: Word Count**
 Ask the user for a sentence and print the number of words in it using `split()`.
 
 ---
 
 ### ✅ Tasks: `partition()`
 
-#### **Task 7: Email Parser**
+#### **Task 10: Email Parser**
 Ask the user for an email and extract the username and domain using `partition("@")`.
 
 ```python
@@ -353,7 +353,7 @@ Ask the user for an email and extract the username and domain using `partition("
 # Domain: gmail.com
 ```
 
-#### **Task 8: Separate Front and Back**
+#### **Task 11: Separate Front and Back**
 Partition a string at a given word and print what's before and after.
 
 ```python
@@ -363,7 +363,7 @@ Partition a string at a given word and print what's before and after.
 # After: fox
 ```
 
-#### **Task 9: Handle Missing Separator**
+#### **Task 12: Handle Missing Separator**
 Use `partition()` on a string that **doesn't** contain the separator and show the output tuple.
 
 ---
