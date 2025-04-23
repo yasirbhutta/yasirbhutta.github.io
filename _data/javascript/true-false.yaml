@@ -1,0 +1,62 @@
+course: javascript
+topics:
+  - topic: basics
+    questions:
+      - id: js-tf-001
+        difficulty: easy
+        prompt: JavaScript can be used to change the content of an HTML element dynamically.
+        answer: true
+        explanation: >
+          JavaScript can manipulate the DOM using methods like `document.getElementById().innerHTML`.
+
+      - id: js-tf-002
+        difficulty: easy
+        prompt: The `alert()` function writes content directly into the HTML document.
+        answer: false
+        explanation: >
+          `alert()` displays a popup message, it does not write content into the document.
+
+      - id: js-tf-003
+        difficulty: easy
+        prompt: It is a best practice to place JavaScript code at the end of the body tag.
+        answer: true
+        explanation: >
+          Placing scripts at the end of the body allows the HTML to load before the JavaScript executes.
+
+      - id: js-tf-004
+        difficulty: easy
+        prompt: A JavaScript variable can hold different types of values at different times.
+        answer: true
+        explanation: >
+          JavaScript is dynamically typed, which means a variable can be reassigned to different data types during execution.
+
+      - id: js-tf-005
+        difficulty: easy
+        prompt: The `prompt()` function can be used to take input from the user.
+        answer: true
+        explanation: >
+          `prompt()` opens a dialog box for the user to enter input.
+
+      - id: js-tf-006
+        difficulty: easy
+        prompt: JavaScript functions cannot return values.
+        answer: false
+        explanation: >
+          JavaScript functions can return values using the `return` statement.
+
+      - id: js-tf-007
+        difficulty: easy
+        prompt: External JavaScript files are included in HTML using the `<link>` tag.
+        answer: false
+        explanation: >
+          External scripts are included using the `<script src="..."></script>` tag.
+
+      - id: js-tf-008
+        difficulty: medium
+        prompt: The `defer` attribute ensures scripts are executed after the HTML is parsed.
+        answer: true
+        explanation: >
+          The `defer` attribute defers execution of the script until after the document has been parsed.
+    resources:
+    - name: Learn JavaScript Basics
+      url: https://yasirbhutta.github.io/javascript/docs/basics.html
