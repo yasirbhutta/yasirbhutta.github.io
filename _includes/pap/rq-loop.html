@@ -5,7 +5,7 @@
     {% if q.code %}
     <pre><code class="language-python">{{ q.code | escape }}</code></pre>
     {% endif %}
-    {% if q.answer %}
+    {% if q.answer.strip() != "" %}
     <details>
         <summary>Answer</summary>
         <p>{{ q.answer | escape }}</p>
