@@ -28,11 +28,11 @@ topics:
         difficulty: easy
         question: Where is it considered best practice to place the <script> tag in an HTML document?
         options:
-          - At the top of the <head> tag
-          - In the middle of the <body>
-          - Just before the closing </body> tag
+          - "At the top of the <head> tag"
+          - "In the middle of the <body>"
+          - "Just before the closing </body> tag"
           - Inside a <div> tag
-        answer: Just before the closing </body> tag
+        answer: "Just before the closing </body> tag"
         explanation: Placing JavaScript at the end of the body ensures HTML content loads before the script runs.
 
       - id: js-mcqs-bs-004
