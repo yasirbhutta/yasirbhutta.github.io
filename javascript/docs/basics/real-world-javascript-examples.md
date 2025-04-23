@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Real-World JavaScript Examples for Beginners" 
-description: ""  
-keywords: ""
+title: "Real World JavaScript Examples for Beginners – Practical Coding Guide" 
+description: "Explore real-world JavaScript examples tailored for beginners. Learn how to build dynamic web features with hands-on code snippets, including DOM manipulation, form validation, and interactive web apps."  
+keywords: "JavaScript examples, real-world JavaScript, beginner JavaScript projects, JavaScript DOM, interactive JavaScript, JavaScript practice, JavaScript code snippets, JavaScript tutorials, form validation JavaScript, web development"
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "JavaScript Basics" 
-description: ""  
-keywords: ""
+description: "Master JavaScript fundamentals with this beginner-friendly guide. Learn about variables, functions, user input, DOM manipulation, and external scripts through practical examples and interactive exercises."  
+keywords: "JavaScript basics, learn JavaScript, JavaScript tutorial, beginner JavaScript, JavaScript variables, JavaScript functions, DOM manipulation, JavaScript user input, external JavaScript, JavaScript examples, interactive JavaScript, JavaScript exercises"
 toc: toc/javascript.html
 topic: "basics"
 course: "javascript"
@@ -12,14 +12,14 @@ next: html-css/docs/css-basics.html
 
 ## Contents
 
-- [Intoduction to JavaScript](#)
-- [Script Placement in HTML](#)
-- [Working with Variables and Data Types](#)
-- [Basic Functions](#)
-- [User Input with `prompt()`](#)
-- [Changing Content Dynamically (DOM)](#)
-- [External JavaScript File](#)
-- [Real-World JavaScript Examples for Beginners](#)
+- [Intoduction to JavaScript](#-introduction-to-javascript)
+- [Script Placement in HTML](#-script-placement-in-html)
+- [Working with Variables and Data Types](#-working-with-variables-and-data-types)
+- [Basic Functions](#-basic-functions)
+- [User Input with `prompt()`](#-user-input-with-prompt)
+- [Changing Content Dynamically (DOM)](#-changing-content-dynamically-dom)
+- [External JavaScript File](#-external-javascript-file)
+- [Real-World JavaScript Examples for Beginners](basics/real-world-javascript-examples.md)
   
 ## 🔹 Introduction to JavaScript
 
