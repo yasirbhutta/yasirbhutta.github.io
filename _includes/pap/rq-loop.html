@@ -1,25 +1,26 @@
 <h2>🔍 Review Questions</h2>
 <ol>
-  {% for q in include.questions %}
-    <li><h3>{{ q.prompt | escape }}</h3></li>
-    {% if q.code %}
-    <pre><code class="language-python">{{ q.code | escape }}</code></pre>
-    {% endif %}
-    {% if q.answer.strip() != "" %}
-    <details>
-        <summary>Answer</summary>
-        <p>{{ q.answer | escape }}</p>
-        
-        {% if q.resources %}
-          <p>📚 Related Resources</p>
-          <ul>
-            {% for resource in q.resources %}
-              <li><a href="{{ resource.url }}">{{ resource.name | escape }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-    </details>
-    {% endif %}
-    <hr>
-  {% endfor %}
+{% for q in include.questions %}
+<li><h3>{{ q.prompt | escape }}</h3></li>
+{% if q.code %}
+<pre><code class="language-python">{{ q.code | escape }}</code></pre>
+{% endif %}
+{% if q.answer.strip() %}
+<details>
+<summary><strong>💡 Answer</strong></summary>
+<p>{{ q.answer | escape }}</p>
+{% if q.resources and q.resources|length > 0 %}
+<div>
+<p><strong>📚 Related Resources:</strong></p>
+<ul>
+{% for resource in q.resources %}
+<li><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name | escape }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+</details>
+{% endif %}
+<hr>
+{% endfor %}
 </ol>
