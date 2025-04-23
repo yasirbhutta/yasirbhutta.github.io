@@ -93,7 +93,7 @@ print(text.ljust(10))  # Output: "Python    "
 print(text.rjust(10))  # Output: "    Python"
 ```
 
-## **Practice Tasks**
+## **Tasks**
 
 ### Task 1: String Info
 Write a program that asks the user for their name and prints:
