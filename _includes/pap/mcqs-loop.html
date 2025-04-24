@@ -18,13 +18,13 @@
     {% for option in q.options %}
         <li>
             <!-- Add Font Awesome icons based on the index of the option -->
-            {% if loop.index == 1 %}
+            {% if forloop.index == 1 %}
                 <i class="fas fa-circle" style="color: red;"></i> <!-- Icon for the first option -->
-            {% elif loop.index == 2 %}
+            {% elsif forloop.index == 2 %}
                 <i class="fas fa-square" style="color: white; border: 2px solid black;"></i> <!-- Icon for the second option -->
-            {% elif loop.index == 3 %}
+            {% elsif forloop.index == 3 %}
                 <i class="fas fa-check-circle" style="color: black;"></i> <!-- Icon for the third option -->
-            {% elif loop.index == 4 %}
+            {% elsif forloop.index == 4 %}
                 <i class="fas fa-dot-circle" style="color: green;"></i> <!-- Icon for the fourth option -->
             {% else %}
                 <!-- Default icon for other options -->
