@@ -4,7 +4,7 @@ title: "Find & Fix Excel Mistakes: Beginner Practice Exercises"
 description: Sharpen your Microsoft Excel skills by identifying and correcting common statement errors with these beginner-friendly practice exercises.
 keywords: Excel debugging, fix Excel errors, beginner Excel practice, Excel exercises, coding mistakes, Excel syntax errors, learn Excel basics, Excel troubleshooting, Excel practice problems, Excel error correction
 author: Muhammad Yasir Bhutta.
-toc: toc/ms-exce;.html
+toc: toc/ms-excel-toc.html
 topic: "basics"
 course: "ms-excel"
 prev: /ms-excel/docs/basics/practice-and-progress/true-false-basics.html
