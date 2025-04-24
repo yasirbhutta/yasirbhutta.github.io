@@ -15,10 +15,26 @@
 <pre><code class="language-python">{{ q.code | escape }}</code></pre>
 {% endif %}
 <ol type="A">
-{% for option in q.options %}
-<li>{{ option | escape }}</li>
-{% endfor %}
+    {% for option in q.options %}
+        <li>
+            <!-- Add Font Awesome icons based on the index of the option -->
+            {% if loop.index == 1 %}
+                <i class="fas fa-circle" style="color: red;"></i> <!-- Icon for the first option -->
+            {% elif loop.index == 2 %}
+                <i class="fas fa-square" style="color: white; border: 2px solid black;"></i> <!-- Icon for the second option -->
+            {% elif loop.index == 3 %}
+                <i class="fas fa-check-circle" style="color: black;"></i> <!-- Icon for the third option -->
+            {% elif loop.index == 4 %}
+                <i class="fas fa-dot-circle" style="color: green;"></i> <!-- Icon for the fourth option -->
+            {% else %}
+                <!-- Default icon for other options -->
+                <i class="fas fa-circle" style="color: gray;"></i>
+            {% endif %}
+            {{ option | escape }}
+        </li>
+    {% endfor %}
 </ol>
+
 <details>
 <summary>Answer</summary>
 <p><strong>{{ q.answer | escape }}</strong></p>
