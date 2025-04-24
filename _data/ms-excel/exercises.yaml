@@ -6,7 +6,7 @@ topics:
         title: "Rename and Organize Worksheets"
         task: |
           Create a workbook with three sheets named “My Data”, “Practice”, and “Summary”. Reorder them so “Summary” comes first and apply tab colors.
-        requirements: |
+        requirements:
           - Rename sheets.
           - Reorder sheet tabs.
           - Change tab colors.
@@ -23,7 +23,7 @@ topics:
         title: "Enter and Edit Table Data"
         task: |
           Create a table with the columns: Name, Age, City, Country. Enter data for 10 fictional people, then edit a few cells.
-        requirements: |
+        requirements: 
           - Add 10 rows of sample data.
           - Edit data manually in a few cells.
         input: |
