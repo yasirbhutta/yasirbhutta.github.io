@@ -11,7 +11,7 @@ next: /ms-excel/docs/basics/practice-and-progress/mcqs-basics.html
 ---
 
 {% assign topic = "basics" %}
-{% assign topics = site.data.ms-excel.coding-exercises.topics %}
+{% assign topics = site.data.ms-excel.exercises.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign exercises = selected_topic.exercises %}
 {% include pap/coding-exercises-loop.html exercises=exercises topic=topic %}
