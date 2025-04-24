@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Microsoft Excel Basics Quiz: Test Your Knowledge of Worksheets and Workbooks.
 description: Take this Microsoft Excel basics quiz to test your understanding of worksheets, workbooks, and entering data manually. Perfect for beginners to assess and improve their Excel skills..
 keywords: Microsoft Excel quiz, Excel basics quiz, worksheets and workbooks quiz, Excel data entry practice, beginner Excel quiz, Excel fundamentals test, Microsoft Excel skills assessment, Excel basics practice, Excel quiz for beginners.

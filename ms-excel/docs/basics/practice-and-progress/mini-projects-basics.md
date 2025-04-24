@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Mini Project for Excel: Student Attendance Register"
 description: Create a beginner-friendly Excel mini project to manage a student attendance register using manual data entry and basic sheet management features. Perfect for students and Excel learners.
 keywords: Excel mini project for beginners, student attendance Excel sheet, Excel data entry practice, manage sheets in Excel, basic Excel project, school attendance register Excel, Excel sheet management tutorial, beginner Excel exercise, manual data entry Excel project, Excel class record template.
