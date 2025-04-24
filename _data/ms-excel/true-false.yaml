@@ -1,0 +1,113 @@
+course: ms-excel
+topics:
+  - topic: basics
+    questions:
+      - id: excel-b-001
+        difficulty: easy
+        prompt: A workbook is a collection of worksheets.
+        answer: true
+        explanation: >
+          In Excel, a workbook is a file that contains one or more worksheets, which are used to organize and analyze data.
+
+      - id: excel-b-002
+        difficulty: easy
+        prompt: Rows are numbered from 1 to 1,048,576.
+        answer: true
+        explanation: >
+          Excel supports up to 1,048,576 rows in a single worksheet, providing ample space for data entry and analysis.
+
+      - id: excel-b-003
+        difficulty: easy
+        prompt: A worksheet is the intersection of a row and a column.
+        answer: false
+        explanation: >
+          A worksheet is a single page or sheet within a workbook. The intersection of a row and a column is called a cell.
+
+      - id: excel-b-004
+        difficulty: easy
+        prompt: The active cell is the cell that is currently selected.
+        answer: true
+        explanation: >
+          The active cell in Excel is the one currently highlighted and ready to receive data input.
+
+      - id: excel-b-005
+        difficulty: easy
+        prompt: Excel is a powerful tool for data analysis.
+        answer: true
+        explanation: >
+          Excel provides a wide range of tools and functions for analyzing data, including charts, formulas, pivot tables, and more.
+
+  - topic: basics
+    questions:
+      - id: excel-b-006
+        difficulty: easy
+        prompt: Excel can retrieve data from external sources and use it in worksheets.
+        answer: true
+        explanation: >
+          Excel supports importing data from various external sources, allowing users to integrate and analyze data within worksheets.
+
+      - id: excel-b-007
+        difficulty: easy
+        prompt: Each worksheet in Excel can contain up to 16,384 columns.
+        answer: true
+        explanation: >
+          Excel worksheets are structured with columns labeled from A to XFD, totaling 16,384 columns.
+
+      - id: excel-b-008
+        difficulty: easy
+        prompt: A cell reference in Excel combines a column letter and a row number, such as B3.
+        answer: true
+        explanation: >
+          Cell references identify specific cells by combining the column letter and row number, facilitating data manipulation and formula creation.
+
+      - id: excel-b-009
+        difficulty: easy
+        prompt: In Excel, formulas must begin with a dollar sign ($).
+        answer: false
+        explanation: >
+          Formulas in Excel start with an equal sign (=). The dollar sign is used to denote absolute references within formulas.
+
+      - id: excel-b-010
+        difficulty: easy
+        prompt: Excel Online allows real-time collaboration with others through a web browser.
+        answer: true
+        explanation: >
+          Excel Online enables users to collaborate in real-time via web browsers, enhancing teamwork and productivity.
+
+      - id: excel-b-011
+        difficulty: easy
+        prompt: Entering a number with a leading apostrophe in Excel treats it as text.
+        answer: true
+        explanation: >
+          Prefixing a number with an apostrophe in Excel formats it as text, preventing it from being used in calculations.
+
+      - id: excel-b-012
+        difficulty: easy
+        prompt: Excel is exclusively available as a desktop application for Windows.
+        answer: false
+        explanation: >
+          Excel is accessible on multiple platforms, including desktop applications for Windows and Mac, mobile apps, and online through web browsers.
+
+      - id: excel-b-013
+        difficulty: easy
+        prompt: To rename a worksheet in Excel, you can double-click on its tab.
+        answer: true
+        explanation: >
+          Double-clicking on a worksheet tab allows users to rename the sheet directly.
+
+      - id: excel-b-014
+        difficulty: easy
+        prompt: In Excel, the formula bar is used to display and edit the contents of the active cell.
+        answer: true
+        explanation: >
+          The formula bar in Excel shows the content of the active cell and allows users to edit formulas and data entries.
+
+      - id: excel-b-015
+        difficulty: easy
+        prompt: Excel's fill handle can be used to quickly copy cell contents or continue a sequence.
+        answer: true
+        explanation: >
+          The fill handle in Excel enables users to drag and fill adjacent cells with data, formulas, or sequences efficiently.
+    resources:
+      - name: Microsoft Excel Basics
+        url: https://yasirbhutta.github.io/ms-excel/docs/basics.html

@@ -1,26 +1,19 @@
 ---
-layout: true-false
-title: Microsoft Excel Basics True or False Practice.
-description: Test your knowledge of Microsoft Excel basics with this true or false practice. Learn key concepts like workbooks, worksheets, rows, columns, active cells, and Excel's powerful data analysis capabilities. Perfect for beginners to assess and strengthen their understanding of Excel fundamentals.
-keywords: Microsoft Excel quiz, true or false Excel basics, Excel worksheets practice, Excel workbooks quiz, Excel rows and columns, Excel active cell questions, Excel data analysis basics, beginner Excel quiz, Excel fundamentals practice, Microsoft Excel true or false questions.
-difficulty:
-  beginner: true
-  intermediate: false
-  advanced: false
-topic: Basics
-questions:
-  - A workbook is a collection of worksheets.
-  - Rows are numbered from 1 to 1,048,576.
-  - A worksheet is the intersection of a row and a column.
-  - The active cell is the cell that is currently selected.
-  - Excel is a powerful tool for data analysis.
-answers:
-  - ✅ True.
-  - ✅ True.
-  - ❌ False.
-  - ✅ True.
-  - ✅ True.
-resources:
-  - name: Microsoft Excel Basics
-    url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
+layout: page
+title:  Microsoft Excel Basics Quiz – True or False Questions for Beginners
+description: Test your understanding of JavaScript fundamentals with this beginner-friendly true or false quiz. Learn key concepts like variables, functions, DOM manipulation, and script placement in a fun and simple format.
+keywords: JavaScript quiz, JavaScript true or false questions, JS basics quiz, beginner JavaScript test, JavaScript fundamentals, JavaScript MCQ, JavaScript for beginners, DOM quiz, JavaScript variables, JS functions
+toc: toc/javascript.html
+topic: "basics"
+course: "ms-excel"
+prev: /ms-excel/docs/basics.html
+next: /ms-excel/docs/basics/practice-and-progress/mcqs-basics.html
 ---
+
+{% assign topic = "basics" %}
+{% assign topics = site.data.ms-excel.true-false.topics %}
+{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign questions = selected_topic.questions %}
+<!-- {% assign examples = selected_topic.examples %} -->
+{% assign resources = selected_topic.resources %}
+{% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}
