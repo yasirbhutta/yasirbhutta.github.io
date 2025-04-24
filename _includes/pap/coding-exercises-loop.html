@@ -34,7 +34,7 @@
           </ul>
         {% endif %}
 
-        {% if ex.input %}
+        {% if ex.input != "" %}
         <details>
           <summary>Input</summary>
           <pre><code>{{ ex.input | escape }}</code></pre>
