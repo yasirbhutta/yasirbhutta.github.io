@@ -10,8 +10,7 @@ topics:
           - Rename sheets.
           - Reorder sheet tabs.
           - Change tab colors.
-        input: |
-          # Open a new Excel workbook
+        input: ""
         output: |
           # Workbook with three named sheets in the correct order and colors applied
         resource:
@@ -26,8 +25,7 @@ topics:
         requirements: 
           - Add 10 rows of sample data.
           - Edit data manually in a few cells.
-        input: |
-          # Create columns in a sheet and enter data manually
+        input: ""
         output: |
           # A filled table with 10 entries and updated information
         resource:
@@ -43,8 +41,7 @@ topics:
           - Bold and fill headers.
           - Center-align Age column.
           - Add borders to the whole table.
-        input: |
-          # Use the same table created in the previous exercise
+        input: ""
         output: |
           # Well-formatted table with styled headers and cells
         resource:
@@ -60,8 +57,7 @@ topics:
           - Adjust column width.
           - Change row height.
           - Apply Wrap Text.
-        input: |
-          # Modify table appearance by resizing
+        input: ""
         output: |
           # Properly spaced and readable table
         resource:
@@ -76,8 +72,7 @@ topics:
         requirements: 
           - Use Copy/Paste between sheets.
           - Use Cut to rearrange data.
-        input: |
-          # Select and manipulate rows of data
+        input: ""
         output: |
           # Data duplicated and rearranged successfully
         resource:
@@ -93,8 +88,7 @@ topics:
           - Select a cell range.
           - Format range with borders and color.
           - Use the Name Box.
-        input: |
-          # Highlight and format a range
+        input: ""
         output: |
           # Visually styled cell range with accurate selection
         resource:
@@ -109,8 +103,7 @@ topics:
         requirements: 
           - Save workbook with a specific name.
           - Close and reopen file.
-        input: |
-          # Save file using File > Save As
+        input: ""
         output: |
           # Workbook opens with all data intact
         resource:

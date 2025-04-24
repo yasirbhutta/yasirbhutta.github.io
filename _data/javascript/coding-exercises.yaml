@@ -4,7 +4,7 @@ topics:
     exercises:
       - id: js-dom-001
         title: "Change Text Color on Button Click"
-        task: |
+        task: >
           Create a paragraph with some text and a button. When the button is clicked, change the text color of the paragraph to blue.
         requirements: 
           - Use `getElementById()` to access the paragraph.
@@ -20,7 +20,7 @@ topics:
 
       - id: js-dom-002
         title: "Change Font Size Dynamically"
-        task: |
+        task: >
           Create a paragraph with some text and a button. When the button is clicked, increase the font size of the paragraph text.
         requirements: 
           - Use `getElementById()` to access the paragraph.
@@ -36,7 +36,7 @@ topics:
 
       - id: js-dom-003
         title: "Change Background Color Randomly"
-        task: |
+        task: >
           Create a button that, when clicked, changes the background color of the web page to a random color from a predefined list.
         requirements: 
           - Use JavaScript's `Math.random()` to pick a color.
