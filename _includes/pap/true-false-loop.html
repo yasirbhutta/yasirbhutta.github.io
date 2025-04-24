@@ -12,63 +12,19 @@
     {% for q in include.questions %}
       {% if q.difficulty == level %}
         <li>{{ q.prompt | escape }}</li>
-        <div>
-          <label>
-            <input type="radio" name="q{{ forloop.index }}" value="true"> True
-          </label>
-          <label>
-            <input type="radio" name="q{{ forloop.index }}" value="false"> False
-          </label>
-          <button id="checkAnswer{{ forloop.index }}">Check Answer</button>
-          <div id="result{{ forloop.index }}" style="display:none;">
-            <span id="correctIncorrect{{ forloop.index }}"></span>
-            <p><strong>Correct Answer:</strong> 
-              {% if q.answer == true or q.answer == "True" %}
-                True – <em>{{ q.explanation | escape }}</em>
-              {% elsif q.answer == false or q.answer == "False" %}
-                False – <em>{{ q.explanation | escape }}</em>
-              {% else %}
-                {{ q.answer }} – <em>{{ q.explanation | escape }}</em>
-              {% endif %}
-            </p>
-          </div>
-        </div>
+        <details>
+          <summary>Answer</summary>
+          <p>
+            {% if q.answer == true or q.answer == "True" %}
+              ✅ True – <em>{{ q.explanation | escape }}</em>
+            {% elsif q.answer == false or q.answer == "False" %}
+              ❌ False – <em>{{ q.explanation | escape }}</em>
+            {% else %}
+              {{ q.answer }} – <em>{{ q.explanation | escape }}</em>
+            {% endif %}
+          </p>
+        </details>
         <hr>
-
-        <script>
-          const checkAnswer{{ forloop.index }} = document.getElementById('checkAnswer{{ forloop.index }}');
-          const result{{ forloop.index }} = document.getElementById('result{{ forloop.index }}');
-          const correctIncorrect{{ forloop.index }} = document.getElementById('correctIncorrect{{ forloop.index }}');
-          const q{{ forloop.index }}Options = document.querySelectorAll('input[name="q{{ forloop.index }}"]');
-
-          checkAnswer{{ forloop.index }}.addEventListener('click', () => {
-              let selectedAnswer;
-              for (const option of q{{ forloop.index }}Options) {
-                  if (option.checked) {
-                      selectedAnswer = option.value;
-                      break;
-                  }
-              }
-
-              if (selectedAnswer === 'true' && (q.answer == true || q.answer == "True")) {
-                  correctIncorrect{{ forloop.index }}.textContent = '✔️ Correct!';
-                  correctIncorrect{{ forloop.index }}.style.color = 'green';
-              } else if (selectedAnswer === 'false' && (q.answer == false || q.answer == "False")) {
-                  correctIncorrect{{ forloop.index }}.textContent = '✔️ Correct!';
-                  correctIncorrect{{ forloop.index }}.style.color = 'green';
-              } else if (selectedAnswer === 'true' || selectedAnswer === 'false') {
-                  correctIncorrect{{ forloop.index }}.textContent = '❌ Incorrect';
-                  correctIncorrect{{ forloop.index }}.style.color = 'red';
-              } else {
-                  correctIncorrect{{ forloop.index }}.textContent = 'Please select an answer.';
-                  correctIncorrect{{ forloop.index }}.style.color = 'orange';
-                  result{{ forloop.index }}.style.display = 'block';
-                  return;
-              }
-
-              result{{ forloop.index }}.style.display = 'block';
-          });
-        </script>
       {% endif %}
     {% endfor %}
   </ol>
