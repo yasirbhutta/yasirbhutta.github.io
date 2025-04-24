@@ -16,7 +16,6 @@
 {% endif %}
 <ol type="A">
     {% for option in q.options %}
-        <li>
             <!-- Add Font Awesome icons based on the index of the option -->
             {% if forloop.index == 1 %}
                 <i class="fas fa-circle" style="color: red;"></i> <!-- Icon for the first option -->
@@ -30,6 +29,7 @@
                 <!-- Default icon for other options -->
                 <i class="fas fa-circle" style="color: gray;"></i>
             {% endif %}
+        <li>
             {{ option | escape }}
         </li>
     {% endfor %}
