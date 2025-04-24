@@ -22,6 +22,8 @@ next: /python/docs/re.html
 **Inheritance** is a way to create a new class from an existing class.  
 It helps us **reuse code**, **extend functionality**, and follow the **DRY (Don't Repeat Yourself)** principle.
 
+![inheritance](/assets/images/python/inheritance.png)
+
 ### ✅ Key Points:
 - The **base class** (or parent class) contains common features.
 - The **derived class** (or child class) inherits from the base class and can:
