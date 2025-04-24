@@ -1,0 +1,47 @@
+
+course: ms-excel
+topics:
+
+  - topic: basics
+    questions:
+      - id: excel-rq-001
+        prompt: |
+          What is the difference between worksheet and Workbook?
+        answer: |
+          A workbook is a collection of worksheets, while a worksheet is a single spreadsheet within a workbook.
+
+      - id: excel-rq-002
+        prompt: |
+          What is a workbook in Excel?
+        answer: |
+          A workbook is a file in Excel that contains one or more worksheets.
+
+      - id: excel-rq-003
+        prompt: |
+          What is a worksheet in Excel?
+        answer: |
+          A worksheet is a grid of rows and columns where data is entered and analyzed.
+
+      - id: excel-rq-004
+        prompt: |
+          What are some of the benefits of using Excel workbooks and worksheets?
+        answer: |
+          Benefits include better data organization, easier navigation, and the ability to separate different datasets within a single file.
+
+      - id: excel-rq-005
+        prompt: |
+          What is Active cell and explain the purpose of Name Box in MS Excel?
+        answer: |
+          The active cell is the currently selected cell in Excel. The Name Box displays the address of the active cell and can also be used to name ranges.
+
+      - id: excel-rq-006
+        prompt: |
+          What are the key components of an Excel worksheet, and how do they contribute to organizing and analyzing data within a workbook?
+        answer: |
+          Key components include rows, columns, cells, and the formula bar. These components help organize and analyze data effectively.
+
+      - id: excel-rq-007
+        prompt: |
+          Explain the process of adding, deleting, and renaming worksheets in an Excel workbook. How can these actions be beneficial in managing and organizing data?
+        answer: |
+          To add a worksheet in Excel, click the "+" icon next to sheet tabs. To delete, right-click a sheet tab and choose "Delete." To rename, right-click the tab and select "Rename" or double-click the tab. These actions help organize data logically, separate tasks, and keep workbooks neat and efficient.
