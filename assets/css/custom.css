@@ -151,3 +151,7 @@ header {
   border: 1px solid #e0e0e0; 
   border-radius: 5px;
 }
+
+.icon-text {
+  padding-right: 1em; /* Adds space to the right of both icon and text */
+}

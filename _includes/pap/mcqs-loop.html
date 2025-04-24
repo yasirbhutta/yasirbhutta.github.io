@@ -17,7 +17,8 @@
 <ol type="A">
     {% for option in q.options %}
         <li>
-            {% if forloop.index == 1 %}
+        <div class="icon-text">
+        {% if forloop.index == 1 %}
             <i class="fas fa-circle" style="color: red;"></i> <!-- Icon for the first option -->
         {% elsif forloop.index == 2 %}
             <i class="fas fa-square" style="color: white; border: 2px solid black;"></i> <!-- Icon for the second option -->
@@ -29,6 +30,7 @@
             <i class="fas fa-circle" style="color: gray;"></i> <!-- Default icon for other options -->
         {% endif %}
         {{ option | escape }}
+        </div>
         </li>
     {% endfor %}
 </ol>
