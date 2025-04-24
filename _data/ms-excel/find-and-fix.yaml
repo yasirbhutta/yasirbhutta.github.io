@@ -1,0 +1,43 @@
+course: ms-excel
+topics:
+  - topic: basics
+    questions:
+      - id: excel-fix-bs-011
+        difficulty: easy
+        prompt: |
+          A student says that a worksheet is a collection of workbooks. Identify and fix the mistake.
+        issue: The student confused the relationship between workbook and worksheet.
+        solution: |
+          A worksheet is a single spreadsheet, and a workbook is a collection of worksheets.
+
+      - id: excel-fix-bs-012
+        difficulty: easy
+        prompt: |
+          Someone describes rows as vertical divisions in Excel. Identify and fix the mistake.
+        issue: Rows are horizontal, not vertical.
+        solution: |
+          Rows are horizontal divisions; columns are vertical divisions in Excel.
+
+      - id: excel-fix-bs-013
+        difficulty: easy
+        prompt: |
+          A user says the cell reference includes only a number. Identify and fix the mistake.
+        issue: A cell reference must include both a column letter and a row number.
+        solution: |
+          A proper cell reference includes both the column letter and the row number, like A1 or B2.
+
+      - id: excel-fix-bs-014
+        difficulty: easy
+        prompt: |
+          A user refers to the active cell as the last cell in a worksheet. Identify and fix the mistake.
+        issue: The active cell is the currently selected cell, not the last one.
+        solution: |
+          The active cell is the one that is currently selected, not necessarily the last one in the worksheet.
+
+      - id: excel-fix-bs-015
+        difficulty: easy
+        prompt: |
+          Someone says the Title Bar displays the contents of the active cell. Identify and fix the mistake.
+        issue: The Title Bar displays the workbook name, not cell content.
+        solution: |
+          The Title Bar shows the workbook name; the Formula Bar displays the content of the active cell.

@@ -44,14 +44,8 @@ topics:
         answer: B, 3
         explanation: "Cell references in Excel combine the column letter and row number to identify a specific cell, such as B3."
 
-      - id: excel-co-008
-        difficulty: easy
-        prompt: "Excel's feature that allows users to create charts and graphs to visualize data is known as ________ tools."
-        answer: graphing
-        explanation: "Graphing tools in Excel enable users to create various charts and graphs to represent data visually."
-
       - id: excel-co-009
-        difficulty: easy
+        difficulty: medium
         prompt: "The programming language used in Excel for automating tasks is called ________."
         answer: VBA
         explanation: "Visual Basic for Applications (VBA) is the programming language used in Excel to create macros and automate tasks."
@@ -109,12 +103,6 @@ topics:
         prompt: "A cell reference combines the __________ letter and the __________ number."
         answer: column, row
         explanation: "A cell is referenced by its column letter and row number (e.g., A1)."
-
-      - id: excel-co-009
-        difficulty: easy
-        prompt: "Excel offers powerful features like __________ tables and __________ formatting."
-        answer: pivot, conditional
-        explanation: "Pivot tables summarize large data sets, while conditional formatting visually highlights key values."
 
       - id: excel-co-010
         difficulty: easy
