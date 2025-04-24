@@ -1,0 +1,116 @@
+course: excel
+topics:
+  - topic: basics
+    questions:
+      - id: excel-mcqs-bs-001
+        difficulty: easy
+        question: What is a file that contains one or more worksheets in Excel called?
+        options:
+          - Workbook
+          - Document
+          - Spreadsheet
+          - Database
+        answer: Workbook
+        explanation: A workbook is an Excel file containing one or more worksheets for organizing related data.
+
+      - id: excel-mcqs-bs-002
+        difficulty: easy
+        question: What is the intersection of a row and a column in Excel called?
+        options:
+          - Box
+          - Cell
+          - Grid
+          - Slot
+        answer: Cell
+        explanation: A cell is where a column and row meet, and it's where data is entered in Excel.
+
+      - id: excel-mcqs-bs-003
+        difficulty: easy
+        question: Which symbol is used to begin a formula in Excel?
+        options:
+          - +
+          - @
+          - #
+          - =
+        answer: "="
+        explanation: All formulas in Excel begin with an equal sign.
+
+      - id: excel-mcqs-bs-004
+        difficulty: medium
+        question: In Excel, what is used to automate tasks and write macros?
+        options:
+          - JavaScript
+          - Python
+          - VBA
+          - ExcelScript
+        answer: VBA
+        explanation: Visual Basic for Applications (VBA) is used in Excel to automate tasks and write macros.
+
+      - id: excel-mcqs-bs-005
+        difficulty: easy
+        question: What is the web-based version of Excel called?
+        options:
+          - Excel Lite
+          - Excel Anywhere
+          - Excel Online
+          - Excel Web
+        answer: Excel Online
+        explanation: Excel Online is the browser-based version of Microsoft Excel, part of Microsoft 365.
+
+      - id: excel-mcqs-bs-006
+        difficulty: easy
+        question: What is a cell in a spreadsheet?
+        options:
+          - "A collection of workbooks"
+          - "A single spreadsheet"
+          - "The intersection of a row and column"
+          - "A formula in a spreadsheet"
+        answer: "The intersection of a row and column"
+        explanation: A cell is the basic unit in Excel where a row and a column intersect.
+
+      - id: excel-mcqs-bs-007
+        difficulty: easy
+        question: What is the address of a cell?
+        options:
+          - "The name of the workbook"
+          - "The name of the worksheet"
+          - "The letter of the column and the number of the row"
+          - "The formula in the cell"
+        answer: "The letter of the column and the number of the row"
+        explanation: A cell's address is identified by its column letter and row number, like A1.
+
+      - id: excel-mcqs-bs-008
+        difficulty: easy
+        question: What is the term used for a single page in an Excel workbook?
+        options:
+          - "workbook"
+          - "worksheet"
+          - "row"
+          - "column"
+        answer: "worksheet"
+        explanation: A worksheet is a single tab or sheet within a workbook.
+
+      - id: excel-mcqs-bs-009
+        difficulty: easy
+        question: What is the unique identifier for a cell in a worksheet?
+        options:
+          - "workbook"
+          - "worksheet"
+          - "cell address"
+          - "row"
+        answer: "cell address"
+        explanation: The cell address (e.g., B3) uniquely identifies a cell's position.
+
+      - id: excel-mcqs-bs-010
+        difficulty: easy
+        question: What are rows and columns?
+        options:
+          - "Both rows and columns are vertical divisions of a worksheet."
+          - "Both rows and columns are horizontal divisions of a worksheet."
+          - "Rows are vertical divisions of a worksheet, and columns are horizontal divisions of a worksheet."
+          - "Rows are horizontal divisions of a worksheet, and columns are vertical divisions of a worksheet."
+        answer: "Rows are horizontal divisions of a worksheet, and columns are vertical divisions of a worksheet."
+        explanation: Rows run horizontally and columns vertically in Excel, forming the grid.
+    resources:
+      - name: Microsoft Excel Basics
+        url: https://yasirbhutta.github.io/ms-excel/docs/basics.html

@@ -1,0 +1,126 @@
+course: excel
+topics:
+  - topic: basics
+    questions:
+      - id: excel-co-001
+        difficulty: easy
+        prompt: "In Excel, a ________ is a file that contains one or more worksheets."
+        answer: workbook
+        explanation: "A workbook is an Excel file that can contain multiple worksheets, allowing users to organize various kinds of related information."
+
+      - id: excel-co-002
+        difficulty: easy
+        prompt: "Each ________ in Excel is organized into rows and columns and is used to store and work with data."
+        answer: worksheet
+        explanation: "A worksheet is the primary document in Excel where data is entered and manipulated, consisting of a grid of rows and columns."
+
+      - id: excel-co-003
+        difficulty: easy
+        prompt: "In Excel, the intersection of a row and a column is called a ________."
+        answer: cell
+        explanation: "A cell is the basic unit of a worksheet where data is entered, formed by the intersection of a row and a column."
+
+      - id: excel-co-004
+        difficulty: easy
+        prompt: "Each column in an Excel worksheet is labeled with a ________, while each row is labeled with a number."
+        answer: letter
+        explanation: "Columns are identified by letters (A, B, C, etc.), and rows are identified by numbers (1, 2, 3, etc.) in Excel."
+
+      - id: excel-co-005
+        difficulty: easy
+        prompt: "To perform calculations in Excel, you start by typing an ________ sign in a cell."
+        answer: equal
+        explanation: "Formulas in Excel begin with an equal sign (=), indicating that the cell contains a formula."
+
+      - id: excel-co-006
+        difficulty: easy
+        prompt: "Built-in formulas in Excel that perform specific calculations are called ________."
+        answer: functions
+        explanation: "Functions are predefined formulas in Excel that perform specific calculations using particular values, called arguments, in a particular order."
+
+      - id: excel-co-007
+        difficulty: easy
+        prompt: "In Excel, the cell reference 'B3' refers to the cell located at column ________ and row ________."
+        answer: B, 3
+        explanation: "Cell references in Excel combine the column letter and row number to identify a specific cell, such as B3."
+
+      - id: excel-co-008
+        difficulty: easy
+        prompt: "Excel's feature that allows users to create charts and graphs to visualize data is known as ________ tools."
+        answer: graphing
+        explanation: "Graphing tools in Excel enable users to create various charts and graphs to represent data visually."
+
+      - id: excel-co-009
+        difficulty: easy
+        prompt: "The programming language used in Excel for automating tasks is called ________."
+        answer: VBA
+        explanation: "Visual Basic for Applications (VBA) is the programming language used in Excel to create macros and automate tasks."
+
+      - id: excel-co-010
+        difficulty: easy
+        prompt: "Excel Online can be accessed through a web browser and is part of the ________ suite."
+        answer: Microsoft 365
+        explanation: "Excel Online is the web-based version of Excel, accessible through browsers and integrated into the Microsoft 365 suite."
+
+      - id: excel-co-001
+        difficulty: easy
+        prompt: "A workbook is a collection of __________."
+        answer: worksheets
+        explanation: "An Excel workbook contains multiple worksheets where data is stored and organized."
+
+      - id: excel-co-002
+        difficulty: easy
+        prompt: "A worksheet consists of __________ and __________."
+        answer: rows, columns
+        explanation: "Worksheets are made up of rows (horizontal) and columns (vertical) forming a grid."
+
+      - id: excel-co-003
+        difficulty: easy
+        prompt: "The __________ is the intersection of a column and a row."
+        answer: cell
+        explanation: "A cell is the box formed at the intersection of a row and a column."
+
+      - id: excel-co-004
+        difficulty: easy
+        prompt: "The __________ cell is the cell that is currently selected."
+        answer: active
+        explanation: "The active cell is the one currently selected and ready for data entry."
+
+      - id: excel-co-005
+        difficulty: easy
+        prompt: "Excel allows you to perform __________, create __________, and analyze __________."
+        answer: calculations, charts, data
+        explanation: "Excel is used for calculations, visual data representation using charts, and data analysis."
+
+      - id: excel-co-006
+        difficulty: easy
+        prompt: "The shortcut key to enter the current date in Excel is __________."
+        answer: Ctrl + ;
+        explanation: "Pressing Ctrl + ; inserts the current date into the selected cell."
+
+      - id: excel-co-007
+        difficulty: easy
+        prompt: "The shortcut key to enter the current time in Excel is __________."
+        answer: Ctrl + Shift + ;
+        explanation: "Pressing Ctrl + Shift + ; inserts the current time into the selected cell."
+
+      - id: excel-co-008
+        difficulty: easy
+        prompt: "A cell reference combines the __________ letter and the __________ number."
+        answer: column, row
+        explanation: "A cell is referenced by its column letter and row number (e.g., A1)."
+
+      - id: excel-co-009
+        difficulty: easy
+        prompt: "Excel offers powerful features like __________ tables and __________ formatting."
+        answer: pivot, conditional
+        explanation: "Pivot tables summarize large data sets, while conditional formatting visually highlights key values."
+
+      - id: excel-co-010
+        difficulty: easy
+        prompt: "The __________ bar displays the content of the active cell."
+        answer: formula
+        explanation: "The formula bar shows the formula or value in the currently selected cell."
+    resources:
+      - name: Microsoft Excel Basics
+        url: https://yasirbhutta.github.io/ms-excel/docs/basics.html
