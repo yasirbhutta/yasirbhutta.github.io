@@ -34,11 +34,12 @@
           </ul>
         {% endif %}
 
+        {% if ex.input %}
         <details>
           <summary>Input</summary>
           <pre><code>{{ ex.input | escape }}</code></pre>
         </details>
-
+        {% endif %}
         <details>
           <summary>Expected Output</summary>
           <pre><code>{{ ex.output | escape }}</code></pre>
