@@ -7,8 +7,11 @@ topics:
       - id: excel-rq-001
         prompt: |
           What is the difference between worksheet and Workbook?
-        answer: |
-          A workbook is a collection of worksheets, while a worksheet is a single spreadsheet within a workbook.
+        answer: >
+          "A workbook is a collection of worksheets, serving as the main file to save your Excel data. 
+          Think of it like a notebook. 
+          A worksheet is a single spreadsheet within a workbook, 
+          where you actually input and manipulate your data - like a page in that notebook"
 
       - id: excel-rq-002
         prompt: |
