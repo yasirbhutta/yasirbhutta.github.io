@@ -112,9 +112,15 @@ Microsoft Excel: Interface
 
 **Excel Tutorial in Urdu: Enter data manually in worksheet cells** 
 
-<div class="yt-video">
-<iframe src="https://www.youtube.com/embed/r84zUXFUIfc?si=VVHO65Xt1dPm5qKZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<!-- <div class="yt-video">
+<iframe src="https://www.youtube.com/embed/r84zUXFUIfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div> -->
+
+{% assign video_type = "video" %}
+{% assign video_id = "r84zUXFUIfc" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 
 **Number as Text**
 
