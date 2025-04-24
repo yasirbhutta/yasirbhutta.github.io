@@ -37,8 +37,6 @@ topics:
         explanation: >
           Excel provides a wide range of tools and functions for analyzing data, including charts, formulas, pivot tables, and more.
 
-  - topic: basics
-    questions:
       - id: excel-b-006
         difficulty: easy
         prompt: Excel can retrieve data from external sources and use it in worksheets.
