@@ -14,13 +14,15 @@
         <li><strong>{{ ex.title | escape  }}</strong></li>
         <p>{{ ex.task }}</p>
 
+        <h4>Requirements</h4>
         {% if ex.requirements %}
-          <h4>Requirements</h4>
-          <ul>
-            {% for requirement in ex.requirements %}
-              <li>{{ requirement | escape }}</li>
-            {% endfor %}
-          </ul>
+        <ul>
+        {% for requirement in ex.requirements %}
+        <li>{{ requirement | escape }}</li>
+        {% endfor %}
+         </ul>
+         {% else %}
+        <p>No specific requirements for this exercise.</p>
         {% endif %}
 
         {% if ex.hints %}
