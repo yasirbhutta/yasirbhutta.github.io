@@ -29,7 +29,7 @@ topics:
         question: Which symbol is used to begin a formula in Excel?
         options:
           - +
-          - @
+          - "@"
           - #
           - =
         answer: "="
