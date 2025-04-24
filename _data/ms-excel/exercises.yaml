@@ -1,0 +1,119 @@
+course: ms-excel
+topics:
+  - topic: basics
+    exercises:
+      - id: excel-basics-001
+        title: "Rename and Organize Worksheets"
+        task: |
+          Create a workbook with three sheets named “My Data”, “Practice”, and “Summary”. Reorder them so “Summary” comes first and apply tab colors.
+        requirements: |
+          - Rename sheets.
+          - Reorder sheet tabs.
+          - Change tab colors.
+        input: |
+          # Open a new Excel workbook
+        output: |
+          # Workbook with three named sheets in the correct order and colors applied
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-002
+        title: "Enter and Edit Table Data"
+        task: |
+          Create a table with the columns: Name, Age, City, Country. Enter data for 10 fictional people, then edit a few cells.
+        requirements: |
+          - Add 10 rows of sample data.
+          - Edit data manually in a few cells.
+        input: |
+          # Create columns in a sheet and enter data manually
+        output: |
+          # A filled table with 10 entries and updated information
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-003
+        title: "Format Table Headers and Cells"
+        task: |
+          Format the table you created with bold headers, centered text for the Age column, and add borders and colors.
+        requirements: |
+          - Bold and fill headers.
+          - Center-align Age column.
+          - Add borders to the whole table.
+        input: |
+          # Use the same table created in the previous exercise
+        output: |
+          # Well-formatted table with styled headers and cells
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-004
+        title: "Adjust Row Height and Column Width"
+        task: |
+          Adjust the width of Name and City columns, and increase the row height for the header. Use Wrap Text for long text entries.
+        requirements: |
+          - Adjust column width.
+          - Change row height.
+          - Apply Wrap Text.
+        input: |
+          # Modify table appearance by resizing
+        output: |
+          # Properly spaced and readable table
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-005
+        title: "Copy, Cut, and Paste Data"
+        task: |
+          Copy the first five rows to another sheet, and move the last two rows to a new position using Cut and Paste.
+        requirements: |
+          - Use Copy/Paste between sheets.
+          - Use Cut to rearrange data.
+        input: |
+          # Select and manipulate rows of data
+        output: |
+          # Data duplicated and rearranged successfully
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-006
+        title: "Work with Cell Ranges"
+        task: |
+          Select a range of cells in the table and apply borders and a fill color. Check the selected range address in the Name Box.
+        requirements: |
+          - Select a cell range.
+          - Format range with borders and color.
+          - Use the Name Box.
+        input: |
+          # Highlight and format a range
+        output: |
+          # Visually styled cell range with accurate selection
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
+
+      - id: excel-basics-007
+        title: "Save and Reopen Workbook"
+        task: |
+          Save the workbook as `Excel_Basics_Exercises.xlsx`, close it, and reopen to verify your changes were saved.
+        requirements: |
+          - Save workbook with a specific name.
+          - Close and reopen file.
+        input: |
+          # Save file using File > Save As
+        output: |
+          # Workbook opens with all data intact
+        resource:
+          name: "Excel Basics Guide"
+          url: "https://yasirbhutta.github.io/ms-excel/docs/basics.html"
+        difficulty: "easy"
