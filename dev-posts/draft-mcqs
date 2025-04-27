@@ -1,0 +1,163 @@
+
+---
+
+2. What will be the output?
+
+class X:
+    def greet(self):
+        print("Hello from X")
+
+class Y:
+    def greet(self):
+        print("Hello from Y")
+
+class Z(X, Y):
+    pass
+
+z = Z()
+z.greet()
+
+A) Hello from X
+B) Hello from Y
+C) Error
+D) No output
+
+Answer: A) Hello from X
+
+
+---
+
+3. What will be the output?
+
+class P:
+    def display(self):
+        print("Inside P")
+
+class Q(P):
+    def display(self):
+        print("Inside Q")
+
+class R(P):
+    pass
+
+class S(Q, R):
+    pass
+
+s = S()
+s.display()
+
+A) Inside P
+B) Inside Q
+C) Inside R
+D) Error
+
+Answer: B) Inside Q
+(Explanation: S inherits Q first, and Q overrides display.)
+
+
+---
+
+4. What will be the output?
+
+class A:
+    pass
+
+class B(A):
+    pass
+
+class C(A):
+    pass
+
+class D(B, C):
+    pass
+
+print(D.mro())
+
+A) [D, B, C, A, object]
+B) [D, C, B, A, object]
+C) [D, A, B, C, object]
+D) [D, B, A, C, object]
+
+Answer: A) [D, B, C, A, object]
+
+---
+
+7. What is the output of this code?
+
+class Parent1:
+    var = "Parent1"
+
+class Parent2:
+    var = "Parent2"
+
+class Child(Parent1, Parent2):
+    pass
+
+print(Child.var)
+
+A) Parent1
+B) Parent2
+C) Error
+D) None
+
+Answer: A) Parent1
+
+
+---
+
+8. What will this print?
+
+class One:
+    def foo(self):
+        print("One")
+
+class Two:
+    def foo(self):
+        print("Two")
+
+class Three(One, Two):
+    def bar(self):
+        self.foo()
+
+t = Three()
+t.bar()
+
+A) One
+B) Two
+C) Error
+D) None
+
+Answer: A) One
+
+
+---
+
+9. What is the output?
+
+class X:
+    def __init__(self):
+        print("X init")
+
+class Y:
+    def __init__(self):
+        print("Y init")
+
+class Z(X, Y):
+    def __init__(self):
+        super().__init__()
+
+z = Z()
+
+A) X init
+B) Y init
+C) X init and Y init
+D) Error
+
+Answer: A) X init
+(Explanation: super() follows MRO, so X’s constructor runs.)
+
+
+---
+
+
+
