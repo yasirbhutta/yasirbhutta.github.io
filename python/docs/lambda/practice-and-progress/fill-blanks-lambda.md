@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Fill in the Blanks – Python Lambda Practice Questions
-description: Sharpen your understanding of Object-Oriented Programming with these fill-in-the-blank exercises on Python inheritance. Perfect for students, beginners, and interview prep to reinforce key OOP concepts in Python.
-keywords: Python inheritance fill in the blanks, OOP in Python exercises, Python class and object practice, fill in the blanks Python OOP, object oriented programming Python questions, inheritance in Python quiz, Python programming MCQs, Python OOP practice problems, Python inheritance worksheet, learn Python inheritance concepts
+title: Python Lambda Fill-in-the-Blank Exercises | Hands-On Practice Problems
+description: Test your Python skills with interactive fill-in-the-blank lambda function exercises. Practice lambda syntax, filtering, mapping, and real-world coding scenarios.
+keywords: Python lambda exercises, fill-in-the-blank Python, lambda function practice, Python lambda quiz, interactive Python learning, lambda map filter exercises, Python coding challenges, lambda syntax practice, Python anonymous functions, real-world lambda examples, Python problem-solving, lambda function drills, Python beginner exercises, advanced lambda practice, Python functional programming
 toc: toc/python-toc.html
 topic: "lambda"
 course: "python"

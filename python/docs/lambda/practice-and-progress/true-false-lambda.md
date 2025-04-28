@@ -1,12 +1,11 @@
 ---
 layout: page
-title:  Lambda in Python - True or False Questions with Answers
-description: Test your understanding of Object-Oriented Programming (OOP) in Python with these carefully crafted True or False questions on Inheritance. Great for beginners and intermediate learners to reinforce OOP concepts.
-keywords: Python inheritance quiz, True or false questions on Python inheritance, Python OOP inheritance practice, Object oriented programming in Python, Python inheritance MCQs, Learn Python inheritance, Python class and object quiz, Python OOP interview questions, Python coding practice questions, Inheritance concepts in Python
-toc: toc/python-toc.html
+title:  "Python Lambda Functions: True/False Conditions with Examples | Practice Guide"
+description: Learn how to use Python lambda functions for boolean checks (True/False) with practical examples. Master conditions like even numbers, palindromes, and list filtering for efficient coding.
+keywords: Python lambda functions, True False conditions Python, lambda function examples, boolean checks in Python, Python filter with lambda, lambda for even numbers, check palindrome with lambda, Python one-line conditionals, higher-order functions Python, Python coding practice, lambda function exercises, Python boolean logic, lambda if else Python, Python conditional expressions, lambda function tricks
 topic: "lambda"
 course: "python"
-prev: /python/docs/lambda.html
+prev: /python/docs/lambda/
 next: /python/docs/lambda/practice-and-progress/mcqs-lambda.html
 ---
 

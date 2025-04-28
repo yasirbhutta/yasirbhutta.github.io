@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Review Questions on Python Lambda – Test Your Understanding"
-description: "Reinforce your Python OOP inheritance knowledge with review questions designed to test your grasp of single, multiple, and multilevel inheritance. Ideal for students and beginners."
-keywords: Python OOP review questions, Python inheritance quiz, object-oriented programming questions, Python class inheritance test, OOP MCQs Python, Python inheritance assessment, beginner Python OOP questions, review Python OOP concepts
+title: "Python Lambda Functions Review Questions"
+description: "Test your understanding of Python lambda functions with 50+ review questions covering syntax, applications, and best practices. Perfect for exam prep and interview readiness!"
+keywords: Python lambda review questions, lambda function self-assessment, Python anonymous functions quiz, lambda exam preparation, Python functional programming review, lambda interview questions, Python coding test questions, lambda syntax review, Python practice test, lambda function concepts, Python programming assessment, lambda debugging questions, Python knowledge check, lambda use cases review, Python technical interview prep
 toc: toc/python-toc.html
 topic: "lambda"
 course: "python"

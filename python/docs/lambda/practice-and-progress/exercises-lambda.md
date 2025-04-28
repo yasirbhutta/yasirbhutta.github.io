@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python OOP Inheritance Coding Lambda for Beginners"
-meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
-keywords: Python OOP exercises, Python inheritance practice, OOP coding problems, Python class inheritance exercises, Python beginner OOP tasks, multiple inheritance Python examples, object-oriented programming challenges, Python coding practice
+title: "Python Lambda Function Exercises - Practice Problems with Solutions"
+meta_description: "Master Python lambda functions with our collection of hands-on exercises. Practice real-world scenarios, from basic syntax to advanced applications with map(), filter(), and reduce(). Includes solutions!"
+keywords: Python lambda exercises, lambda function practice problems, Python anonymous function exercises, lambda coding challenges, Python map filter reduce practice, real-world lambda examples, Python functional programming exercises, lambda syntax practice, Python one-liner exercises, lambda function solutions, Python coding drills, interactive lambda learning, Python higher-order functions, lambda problem sets, Python programming practice
 toc: toc/python-toc.html
 topic: "lambda"
 course: "python"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Multiple Choice Questions (MCQs) on Lambda in Python – OOP Practice
-description: Boost your Python skills with these MCQs on Object-Oriented Programming and Inheritance. Ideal for beginners, students, and job seekers to test and strengthen their understanding of Python OOP concepts.
-keywords: Python inheritance MCQs, OOP MCQ Python, multiple choice questions Python inheritance, Python class and object quiz, object oriented programming Python MCQs, Python OOP practice test, Python inheritance quiz questions, Python interview questions OOP, Python MCQ with answers, inheritance concepts in Python
+title: Python Lambda Functions MCQ Quiz - Test Your Knowledge with Practice Questions
+description: Challenge yourself with Python lambda functions multiple-choice questions (MCQs). Practice key concepts like syntax, usage with map/filter, and real-world applications.
+keywords: Python lambda MCQs, lambda function quiz, Python multiple-choice questions, lambda practice test, Python anonymous functions quiz, map filter reduce MCQs, Python functional programming quiz, lambda syntax questions, Python coding test, advanced lambda exercises, Python interview questions, lambda function examples, Python programming quiz, test Python skills, lambda debugging MCQs
 author: Muhammad Yasir Bhutta
 toc: toc/python-toc.html
 topic: "lambda"
