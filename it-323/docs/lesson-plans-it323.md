@@ -1,5 +1,12 @@
 # Lesson Plan: IT-323 Python Programming 3(2-1)
 
+## Table of Contents
+
+## Control Flow Statements
+- [While Loops in Python](#lecture--while-loops-in-python)
+## Functions
+- [Python Anonymous (Lambda) Functions](#lecture--python-anonymous-lambda-functions)
+
 ## **Week #: Control Flow Statements**  
 
 ### **Lecture #: While Loops in Python**  
@@ -61,10 +68,9 @@ By the end of this lecture, students will be able to:
 #### **Learning Objectives:**  
 
 By the end of this lecture, students will be able to:  
-✅ Understand the syntax and working of the `while` loop in Python.  
-✅ Implement `while` loops to perform repetitive tasks based on a condition.  
-✅ Use `while` loops to solve real-world problems such as printing sequences, summing numbers, and generating multiplication tables.
-✅ Apply `while` loops with conditional statements to control program flow.
+✅ Understand the concept, syntax, and use of Python's anonymous (lambda) functions.  
+✅ Learn how to create and apply lambda functions for simple operations through examples.  
+✅ Practice using lambda functions to solve tasks like addition, multiplication, and averaging.  
 
 #### **Topics Covered:**
 
@@ -77,9 +83,11 @@ By the end of this lecture, students will be able to:
    - Immediately invoked function expression
    
 #### **Resources:**  
-📖 [Lecture Notes]([Control Flow Statements: while loop](https://yasirbhutta.github.io/python/docs/control-flow.html#while-loop))
+📖 [Lecture Notes]([Python Anonymous (Lambda) Functions](https://yasirbhutta.github.io/python/docs/lambda/))
 📌 Reference Book: **, Chapter  
 
 #### **Assignments & Tasks:**  
 📂 **Examples:** Work through **Examples 1 - 4** from the lecture notes.  
 📝 **Task:** Complete and submit **tasks 1 - 4** by the next session. 
+
+---
