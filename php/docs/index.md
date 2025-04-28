@@ -1,7 +1,9 @@
+---
+layout: default
+---
 # Learning PHP Language
 
-- [PHP Basics](basics-php.md)
-- [Control Flow Statements](controlflow-php.md)
-- [Arrays](array-php.md)
-- [Forms](form-php.md)
-- [PHP Connect to MYSQL](mysql-php.md)
+{% if page.toc %}
+{% assign show_heading = true %}
+{% include {{page.toc}} show_heading=show_heading %}
+{% endif %}
