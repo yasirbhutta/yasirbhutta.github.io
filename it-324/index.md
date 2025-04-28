@@ -37,6 +37,10 @@
 
 - [Javascript](/javascript/)
 
+
+{% assign show_heading = true %}
+{% include toc/php.html show_heading=show_heading %}
+
 ### [Web Development Articles](../html-css/posts/)
 
 ## Course Assignments, Quizzes
