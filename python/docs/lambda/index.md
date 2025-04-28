@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Advance Function Concepts 
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: "Understanding Python Lambda Functions: A Comprehensive Guide"
+description: Learn how to use Python lambda functions with this detailed guide. Discover syntax, examples, and use cases to enhance your programming skills.
+keywords: Python lambda functions, lambda function tutorial, Python programming, lambda function examples, Python syntax, functional programming in Python
 toc: toc/python-toc.html
 course: python
-topic:
+topic: "lambda"
 ---
 
 ## Python Anonymous (Lambda) Functions

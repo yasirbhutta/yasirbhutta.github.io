@@ -88,8 +88,8 @@ By the end of this lecture, students will be able to:
    - Immediately invoked function expression
    
 #### **Resources:**  
-📖 [Lecture Notes]([Python Anonymous (Lambda) Functions](https://yasirbhutta.github.io/python/docs/lambda/))
-📌 Reference Book: **, Chapter  
+- 📖 [Lecture Notes]([Python Anonymous (Lambda) Functions](https://yasirbhutta.github.io/python/docs/lambda/))
+- 📌 Reference Book: **, Chapter  
 
 #### **Assignments & Tasks:**  
 📂 **Examples:** Work through **Examples 1 - 4** from the lecture notes.  
