@@ -1,8 +1,13 @@
-# [PHP](../index.md)
-
-**updated on:** 19-Dec-2022
-
-## PHP Basics
+---
+layout: page
+title: "PHP Basics Tutorial – Introduction to PHP Fundamentals for Beginners"
+description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
+keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+toc: toc/php.html
+course: php
+topic: "basics"
+mini_project: true
+---
 
 - [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)
 - [Download examples Codes](https://github.com/yasirbhutta/php-examples)
@@ -502,9 +507,3 @@ echo "7 + 13 = " . sum(7, 13) . "<br>";
 - [PHP Tutorial," w3schools](http://www.w3schools.com/php/default.asp)
 - [PHP Manual](http://php.net/manual/en/index.php)
 
-Muhammad Yasir Bhutta
-
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)

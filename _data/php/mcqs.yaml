@@ -1,0 +1,59 @@
+course: php
+topics:
+  - topic: basics
+    questions:
+      - id: php-b-001
+        difficulty: easy
+        language: php
+        question: |
+          What is the output of the following PHP code?
+        code: |
+          <?php
+              echo "Hello ";
+              echo "World!";
+          ?>
+        options:
+          - "Hello World!"
+          - "Hello World"
+          - "World Hello"
+          - "Error"
+        answer: "Hello World!"
+        explanation: |
+          The `echo` statement is used to output the text. In this case, "Hello" and "World!" are printed sequentially without any issues.
+
+      - id: php-b-002
+        difficulty: medium
+        language: php
+        question: |
+          What is the output of the following PHP code?
+        code: |
+          <?php
+              $x = 5;
+              $y = 10;
+              echo $x + $y;
+          ?>
+        options:
+          - "15"
+          - "510"
+          - "5 + 10"
+          - "Error"
+        answer: "15"
+        explanation: |
+          The `+` operator is used to add two numbers. In this case, the sum of `$x` and `$y` (5 + 10) results in 15.
+
+      - id: php-b-003
+        difficulty: medium
+        language: php
+        question: |
+          What is the output of the following PHP code?
+        code: |
+          <?php
+              $a = 10;
+              $b = 5;
+              $a = $a / $b;
+              echo $a;
+          ?>
+        options:
+          - "2"
+          - "5"
+          - "10"

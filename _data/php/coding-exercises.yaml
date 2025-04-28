@@ -1,0 +1,115 @@
+course: php
+topics:
+  - topic: basics
+    exercises:
+      - id: php-ce-001
+        title: "Hello World"
+        task: |
+          Write a PHP script that outputs "Hello, World!" using the `echo` statement.
+        requirements: |
+          - The script should output "Hello, World!" when executed.
+        input: |
+          (No input is required for this task)
+        output: |
+          Hello, World!
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-001"
+        difficulty: "easy"
+
+      - id: php-ce-002
+        title: "Simple Arithmetic"
+        task: |
+          Write a PHP script that calculates the sum, difference, and product of two numbers and prints the results.
+        requirements: |
+          - Use the variables `$a` and `$b` to store numbers.
+          - Output the sum, difference, and product of `$a` and `$b`.
+        input: |
+          $a = 5;
+          $b = 3;
+        output: |
+          Sum: 8
+          Difference: 2
+          Product: 15
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-002"
+        difficulty: "easy"
+
+      - id: php-ce-003
+        title: "If-Else Condition"
+        task: |
+          Write a PHP script that checks if a number is positive, negative, or zero, and prints an appropriate message.
+        requirements: |
+          - Use an `if-else` statement to check if the number is positive, negative, or zero.
+          - Output the correct message for each case.
+        input: |
+          $num = -3;
+        output: |
+          The number is negative.
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-003"
+        difficulty: "easy"
+
+      - id: php-ce-004
+        title: "Array Operations"
+        task: |
+          Write a PHP script that creates an array of five integers, and then prints the sum and the largest number in the array.
+        requirements: |
+          - Use the `array_sum()` function to calculate the sum of the array.
+          - Use `max()` to find the largest number.
+        input: |
+          $arr = [1, 2, 3, 4, 5];
+        output: |
+          Sum: 15
+          Largest number: 5
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-004"
+        difficulty: "medium"
+
+      - id: php-ce-005
+        title: "String Manipulation"
+        task: |
+          Write a PHP script that accepts a string and prints the following:
+          - The string in all uppercase.
+          - The string in all lowercase.
+          - The length of the string.
+        requirements: |
+          - Use `strtoupper()`, `strtolower()`, and `strlen()` functions.
+        input: |
+          $str = "Hello PHP!";
+        output: |
+          Uppercase: HELLO PHP!
+          Lowercase: hello php!
+          Length: 10
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-005"
+        difficulty: "easy"
+
+      - id: php-ce-006
+        title: "For Loop Example"
+        task: |
+          Write a PHP script that uses a `for` loop to print numbers from 1 to 10.
+        requirements: |
+          - Use a `for` loop to iterate from 1 to 10.
+          - Print each number in a new line.
+        input: |
+          (No input is required for this task)
+        output: |
+          1
+          2
+          3
+          4
+          5
+          6
+          7
+          8
+          9
+          10
+        resource:
+          name: "View Solution"
+          url: "https://example.com/solution/php-ce-006"
+        difficulty: "easy"

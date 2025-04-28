@@ -1,0 +1,29 @@
+course: php
+topics:
+  - topic: basics
+    questions:
+      - id: php-co-001
+        difficulty: easy
+        prompt: "In PHP, a ________ is a file that contains one or more scripts."
+        answer: script
+        explanation: "A script is a PHP file that contains code to be executed on the server, often generating dynamic content for web pages."
+      - id: php-co-002
+        difficulty: easy
+        prompt: "The ________ statement in PHP is used to output data to the browser."
+        answer: echo
+        explanation: "The echo statement is used to output one or more strings to the browser, displaying content on the web page."
+      - id: php-co-003
+        difficulty: easy
+        prompt: "In PHP, a ________ is used to store data like text, numbers, or arrays."
+        answer: variable
+        explanation: "A variable in PHP is used to store data, and its value can change during the execution of the script."
+      - id: php-co-004
+        difficulty: easy
+        prompt: "The ________ function in PHP outputs information about PHP's configuration."
+        answer: phpinfo
+        explanation: "The phpinfo() function outputs a large amount of information about the current state of PHP, including loaded extensions and configuration settings."
+      - id: php-co-005
+        difficulty: medium
+        prompt: "To start a new line within the same PHP statement, you can use ________."
+        answer: newline character
+        explanation: "In PHP, you can use the newline character (\n) to start a new line within the same statement, improving readability."

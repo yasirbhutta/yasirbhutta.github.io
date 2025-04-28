@@ -1,0 +1,29 @@
+course: php
+topics:
+  - topic: basics
+    questions:
+      - id: php-rq-001
+        prompt: |
+          What is the purpose of the `phpinfo()` function in PHP?
+        answer: >
+          The `phpinfo()` function in PHP outputs a large amount of information about the current state of PHP, including loaded extensions, PHP version, server information, and environment variables. It is useful for debugging and checking the PHP configuration.
+      - id: php-rq-002
+        prompt: |
+          How do you define a variable in PHP?
+        answer: >
+          In PHP, a variable is defined by prefixing a dollar sign (`$`) to a name. For example, `$variableName = "value";` assigns the string "value" to the variable `variableName`.
+      - id: php-rq-003
+        prompt: |
+          What does the `echo` statement do in PHP?
+        answer: >
+          The `echo` statement in PHP is used to output one or more strings to the browser. It is commonly used to display content on web pages.
+      - id: php-rq-004
+        prompt: |
+          Can PHP variables hold different data types?
+        answer: >
+          Yes, PHP variables are dynamically typed, meaning they can hold different data types, such as integers, strings, arrays, and objects, without explicit type declaration.
+      - id: php-rq-005
+        prompt: |
+          What is the difference between `include` and `require` in PHP?
+        answer: >
+          Both `include` and `require` are used to include files in PHP scripts. The main difference is that if the file is not found, `include` will emit a warning and continue execution, while `require` will emit a fatal error and stop the script.

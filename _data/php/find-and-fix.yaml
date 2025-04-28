@@ -1,0 +1,99 @@
+course: php
+topics:
+  - topic: basics
+    questions:
+      - id: php-rq-001
+        prompt: |
+          Identify and fix the mistake in the following PHP code:
+        code: |
+          <?php
+              $color = "red";
+              $COLOR = "green";
+              echo "My car is " . $color . "<br>";
+              echo "My house is " . $COLOR . "<br>";
+              echo "My boat is " . $coLOR . "<br>";
+          ?>
+        hint: Variable names are case-sensitive in PHP.
+        issue: The variable `$coLOR` is not defined; variable names are case-sensitive.
+        solution: |
+          <?php
+              $color = "red";
+              $COLOR = "green";
+              echo "My car is " . $color . "<br>";
+              echo "My house is " . $COLOR . "<br>";
+              echo "My boat is " . $color . "<br>";
+          ?>
+
+      - id: php-rq-002
+        prompt: |
+          Identify and fix the mistake in the following PHP code:
+        code: |
+          <?php
+              $a = 10;
+              $b = 0;
+              echo $a / $b;
+          ?>
+        hint: Division by zero will result in an error.
+        issue: The code attempts to divide by zero, which will cause a warning in PHP.
+        solution: |
+          <?php
+              $a = 10;
+              $b = 2;  // Changed $b to a non-zero value
+              echo $a / $b;
+          ?>
+
+      - id: php-rq-003
+        prompt: |
+          Identify and fix the mistake in the following PHP code:
+        code: |
+          <?php
+              $num = 10;
+              if ($num = 5) {
+                  echo "The number is 5";
+              } else {
+                  echo "The number is not 5";
+              }
+          ?>
+        hint: Be cautious with the assignment operator (`=`) inside conditionals.
+        issue: The `=` operator is used for assignment, not comparison. The correct operator is `==`.
+        solution: |
+          <?php
+              $num = 10;
+              if ($num == 5) {  // Changed = to ==
+                  echo "The number is 5";
+              } else {
+                  echo "The number is not 5";
+              }
+          ?>
+
+      - id: php-rq-004
+        prompt: |
+          Identify and fix the mistake in the following PHP code:
+        code: |
+          <?php
+              $text = "Hello World";
+              echo "The text is: $Text";  // Notice the case of the variable name
+          ?>
+        hint: Variable names in PHP are case-sensitive.
+        issue: The variable `$Text` is not defined. It should be `$text` (case-sensitive).
+        solution: |
+          <?php
+              $text = "Hello World";
+              echo "The text is: $text";  // Corrected variable name
+          ?>
+
+      - id: php-rq-005
+        prompt: |
+          Identify and fix the mistake in the following PHP code:
+        code: |
+          <?php
+              $arr = array(1, 2, 3);
+              echo $arr[3];
+          ?>
+        hint: Array indices start at 0, so the valid indices are 0, 1, and 2 for this array.
+        issue: The index `3` is out of bounds for the array.
+        solution: |
+          <?php
+              $arr = array(1, 2, 3);
+              echo $arr[2];  // Corrected to a valid index
+          ?>
