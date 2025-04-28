@@ -258,3 +258,80 @@ topics:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
 
+  - topic: lambda
+    questions:
+      - id: py-lambda-001
+        difficulty: easy
+        prompt: In Python, a lambda function is created using the ________ keyword.
+        answer: lambda
+        explanation: "Lambda functions in Python are defined using the `lambda` keyword followed by arguments and an expression."
+        
+      - id: py-lambda-002
+        difficulty: easy
+        prompt: A lambda function in Python can have any number of ________, but can only have one ________.
+        answer: arguments, expression
+        explanation: "Lambda functions can take any number of arguments, but they must consist of exactly one expression."
+        
+      - id: py-lambda-003
+        difficulty: easy
+        prompt: The syntax of a lambda function is ________.
+        answer: "lambda arguments: expression"
+        explanation: "The syntax for a lambda function is `lambda` followed by the arguments, a colon, and then the expression."
+
+      - id: py-lambda-004
+        difficulty: medium
+        prompt: A lambda function is often used as an argument to a ________ function.
+        answer: higher-order
+        explanation: "Lambda functions are often passed as arguments to higher-order functions, which are functions that take another function as an argument."
+
+      - id: py-lambda-005
+        difficulty: easy
+        prompt: "The following lambda function is used to add 10 to a number: `add_ten = ________ x: x + 10`."
+        answer: lambda
+        explanation: "This is a lambda function definition that adds 10 to the argument `x`."
+        
+      - id: py-lambda-006
+        difficulty: easy
+        prompt: "To multiply two numbers using a lambda function, the correct syntax would be `mul = ________ a, b: a * b`."
+        answer: lambda
+        explanation: "This lambda function takes two arguments, `a` and `b`, and returns their product."
+        
+      - id: py-lambda-007
+        difficulty: easy
+        prompt: "The lambda function `is_even = ________ x: x % 2 == 0` checks if a number is ________."
+        answer: lambda, even
+        explanation: "This lambda function checks if the number `x` is divisible by 2 (i.e., even)."
+        
+      - id: py-lambda-008
+        difficulty: hard
+        prompt: "In the example `(lambda x, y : x + y)(6,8)`, the lambda function is defined and then immediately ________ with two arguments."
+        answer: called
+        explanation: "This demonstrates an Immediately Invoked Function Expression (IIFE) where the lambda function is defined and called right away with the arguments `6` and `8`."
+
+      - id: py-lambda-009
+        difficulty: easy
+        prompt: Lambda functions are often used when you need a ________ function without the need to formally define one.
+        answer: small
+        explanation: "Lambda functions are typically used for small, one-off functions that are not reused elsewhere in the code."
+
+      - id: py-lambda-010
+        difficulty: medium
+        prompt: In Python, lambda functions can be used with ________ functions like `map()`, `filter()`, and `reduce()`.
+        answer: higher-order
+        explanation: "Higher-order functions take another function as an argument, and lambda functions are often used in such scenarios."
+
+      - id: py-lambda-011
+        difficulty: easy
+        prompt: A lambda function in Python can return a value without using the ________ keyword.
+        answer: return
+        explanation: "Unlike regular functions, lambda functions don't need the `return` keyword to return a result. The expression itself is the return value."
+
+      - id: py-lambda-016
+        difficulty: easy
+        prompt: The syntax of a lambda function requires a ________ after the `lambda` keyword.
+        answer: list of arguments
+        explanation: "After the `lambda` keyword, you list the arguments for the function, followed by a colon and the expression."
+
+    resources:
+    - name: "Understanding Python Lambda Functions: A Comprehensive Guide"
+      url: https://yasirbhutta.github.io/python/docs/lambda/

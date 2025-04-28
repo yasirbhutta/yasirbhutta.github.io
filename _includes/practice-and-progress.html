@@ -18,8 +18,10 @@
     🌐 ✅ Online Quizzes - Test your Knowledge 📊
   {% endif %}
 
+
+  {% unless forloop.index == 7 and show_mini_project == false %}
   {% assign link_type = course | append: "/docs/" | append: topic | append: "/" | append: parts[1] | append: "-" | append: topic | append: ".html" %}
- 
   <li> <a href="{{ link_type | absolute_url }}">{{ parts[0] }}</a></li>
+  {% endunless %}
 {% endfor %}
 </ul>

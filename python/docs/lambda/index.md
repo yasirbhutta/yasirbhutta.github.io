@@ -6,6 +6,7 @@ keywords: Python lambda functions, lambda function tutorial, Python programming,
 toc: toc/python-toc.html
 course: python
 topic: "lambda"
+mini_project: false
 ---
 
 ## Python Anonymous (Lambda) Functions

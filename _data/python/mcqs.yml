@@ -443,3 +443,111 @@ topics:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
 
+  - topic: lambda
+    questions:
+      - id: py-lambda-001
+        difficulty: easy
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          add_ten = lambda x: x + 10
+          print(add_ten(5))
+        options:
+          - 15
+          - 10
+          - 5
+          - 20
+        answer: 15
+        explanation: |
+          The lambda function adds 10 to the given input. 5 + 10 = 15.
+
+      - id: py-lambda-002
+        difficulty: easy
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          mul = lambda a, b: a * b
+          print(mul(2, 4))
+        options:
+          - 6
+          - 8
+          - 4
+          - 2
+        answer: 8
+        explanation: |
+          The lambda function multiplies the two inputs: 2 * 4 = 8.
+
+      - id: py-lambda-003
+        difficulty: easy
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          is_even = lambda x: x % 2 == 0
+          print(is_even(6))
+        options:
+          - True
+          - False
+          - None
+          - 0
+        answer: True
+        explanation: |
+          6 is divisible by 2, so the lambda function returns True.
+
+      - id: py-lambda-004
+        difficulty: easy
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          (lambda x, y: x + y)(6, 8)
+        options:
+          - 14
+          - 48
+          - 68
+          - 86
+        answer: 14
+        explanation: |
+          The lambda function adds 6 and 8, resulting in 14.
+
+      - id: py-lambda-005
+        difficulty: easy
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          result = (lambda x, y: x * y)(5, 3)
+          print(result)
+        options:
+          - 15
+          - 8
+          - 5
+          - 3
+        answer: 15
+        explanation: |
+          The lambda function multiplies 5 and 3, resulting in 15.
+
+      - id: py-lambda-006
+        difficulty: hard
+        language: python
+        question: |
+          What is the output of the following Python code?
+
+          multiply = lambda x, y: x * y
+          mult = lambda x, y: multiply(x, y)
+          result = mult(6, 2)
+          print(result)
+        options:
+          - 8
+          - 12
+          - 6
+          - 2
+        answer: 12
+        explanation: |
+          The first lambda `multiply` multiplies two numbers. The second lambda `mult` calls the first, so 6 * 2 = 12.
+
+    resources:
+    - name: "Understanding Python Lambda Functions: A Comprehensive Guide"
+      url: https://yasirbhutta.github.io/python/docs/lambda/

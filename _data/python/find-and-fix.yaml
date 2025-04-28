@@ -322,3 +322,56 @@ topics:
     resources:
       - name: Learn Inheritance in Python
         url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
+
+
+  - topic: lambda
+    questions:
+      - id: py-lambda-fix-001
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          add = lambda x: return x + 10
+          print(add(5))
+        hint: ""
+        issue: The `return` keyword is incorrectly used inside a lambda function.
+        solution: |
+          add = lambda x: x + 10
+          print(add(5))
+
+      - id: py-lambda-fix-003
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          result = (lambda x, y : x + y)(6)
+          print(result)
+        hint: ""
+        issue: The lambda function expects two arguments but only one is given during invocation.
+        solution: |
+          result = (lambda x, y : x + y)(6, 8)
+          print(result)
+
+      - id: py-lambda-fix-004
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          mul = lambda a, b: a * b
+          print(mul(2, 4, 6))
+        hint: ""
+        issue: Too many arguments passed to a lambda function that expects only two.
+        solution: |
+          mul = lambda a, b: a * b
+          print(mul(2, 4))
+
+      - id: py-lambda-fix-005
+        difficulty: easy
+        prompt: |
+          Identify and fix the mistake in the following code:
+        code: |
+          (lambda x, y : x + y)(6 8)
+        hint: Check for syntax issues in function invocation.
+        issue: Missing a comma between arguments when calling the lambda function.
+        solution: |
+          (lambda x, y : x + y)(6, 8)

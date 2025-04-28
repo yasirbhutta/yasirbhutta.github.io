@@ -97,3 +97,40 @@ topics:
         resources:
           - name: Python Strings Documentation
             url: https://yasirbhutta.github.io/python/docs/strings.html
+
+  - topic: lambda-functions
+    questions:
+      - id: py-rq-001
+        prompt: What is a lambda function in Python?
+        answer: A lambda function is a short, unnamed function in Python. It is used when you need a simple function for a short time. You write it using the `lambda` keyword, followed by inputs and a small action.
+        resources:
+          - name: Learn about Lambda Functions
+            url: https://yasirbhutta.github.io/python/docs/lambda/index.html
+
+      - id: py-rq-002
+        prompt: How is a lambda function different from a regular function in Python?
+        answer: A lambda function is written in one line and has no name. A regular function uses the `def` keyword and can have many lines of code. Lambdas are best for quick, simple tasks.
+        resources:
+          - name: Lambda vs Regular Functions
+            url: https://yasirbhutta.github.io/python/docs/lambda/index.html
+
+      - id: py-rq-003
+        prompt: Can a lambda function have multiple statements?
+        answer: No, a lambda function can only have one small action, not many steps. It is made for simple, single-line work only.
+        resources:
+          - name: Limitations of Lambda Functions
+            url: https://yasirbhutta.github.io/python/docs/lambda/index.html
+
+      - id: py-rq-004
+        prompt: What is the syntax of a lambda function in Python?
+        answer: "You write a lambda function like this: `lambda inputs: action`. It starts with the word `lambda`, then inputs, a colon, and one small action or calculation."
+        resources:
+          - name: Syntax of Lambda Functions
+            url: https://yasirbhutta.github.io/python/docs/lambda/index.html
+
+      - id: py-rq-005
+        prompt: In which situations are lambda functions commonly used in Python?
+        answer: Lambda functions are used when you need a simple function quickly. They are often used inside functions like `map()`, `filter()`, and `sorted()` to do small jobs.
+        resources:
+          - name: Use Cases for Lambda Functions
+            url: https://yasirbhutta.github.io/python/docs/lambda/index.html

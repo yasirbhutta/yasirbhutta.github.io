@@ -185,3 +185,44 @@ topics:
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
+
+  - topic: lambda
+    questions:
+      - id: py-tf-001
+        difficulty: easy
+        prompt: A lambda function in Python can have multiple expressions separated by commas.
+        answer: false
+        explanation: >
+          A lambda function can only have one single expression. It cannot contain multiple independent expressions.
+
+      - id: py-tf-002
+        difficulty: easy
+        prompt: The `lambda` keyword is used to create anonymous functions in Python.
+        answer: true
+        explanation: >
+          Lambda functions are anonymous, meaning they are not necessarily bound to a name, and are created using the `lambda` keyword.
+
+      - id: py-tf-003
+        difficulty: easy
+        prompt: Lambda functions must always be assigned to a variable before being used.
+        answer: false
+        explanation: >
+          Lambda functions can be used immediately without being assigned to a variable, for example by invoking them directly.
+
+      - id: py-tf-004
+        difficulty: medium
+        prompt: In Python, you can pass lambda functions as arguments to higher-order functions like `map()` and `filter()`.
+        answer: true
+        explanation: >
+          Higher-order functions accept other functions as arguments, and lambda functions are often used for this purpose.
+
+      - id: py-tf-005
+        difficulty: medium
+        prompt: The result of a lambda function must always be a numeric value.
+        answer: false
+        explanation: >
+          A lambda function can return any type of result — numeric, string, list, or even an object, depending on its
+
+    resources:
+    - name: "Understanding Python Lambda Functions: A Comprehensive Guide"
+      url: https://yasirbhutta.github.io/python/docs/lambda/

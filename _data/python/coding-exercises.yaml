@@ -192,3 +192,94 @@ topics:
         output: |
           My name is Alice and I am 30 years old.
         difficulty: "easy"
+  - topic: lambda
+    exercises:
+      - id: py-lf-001
+        title: "Reverse a String"
+        task: |
+          Create a lambda function to reverse a string.
+        input: |
+          "hello"
+        output: |
+          "olleh"
+        difficulty: "easy"
+
+      - id: py-lf-002
+        title: "Check Substring"
+        task: |
+          Create a lambda function that returns `True` if a substring exists in a string.
+        input: |
+          "world", "hello world"
+        output: |
+          True
+        difficulty: "easy"
+
+      - id: py-lf-003
+        title: "Calculate Rectangle Area"
+        task: |
+          Create a lambda function to calculate the area of a rectangle.
+        input: |
+          4, 7
+        output: |
+          28
+        difficulty: "easy"
+
+      - id: py-lf-004
+        title: "Square List Elements (with `map`)"
+        task: |
+          Use a lambda with `map` to square each element in a list.
+        input: |
+          [1, 2, 3, 4]
+        output: |
+          [1, 4, 9, 16]
+        difficulty: "easy"
+
+      - id: py-lf-005
+        title: "Filter Even Numbers (with `filter`)"
+        task: |
+          Use a lambda with `filter` to extract even numbers from a list.
+        input: |
+          [1, 2, 3, 4, 5, 6]
+        output: |
+          [2, 4, 6]
+        difficulty: "easy"
+
+      - id: py-lf-006
+        title: "Maximum of Two Numbers"
+        task: |
+          Create a lambda function to return the maximum of two numbers.
+        input: |
+          8, 12
+        output: |
+          12
+        difficulty: "easy"
+
+      - id: py-lf-007
+        title: "Uppercase Conversion"
+        task: |
+          Create a lambda function to convert a string to uppercase.
+        input: |
+          "lambda"
+        output: |
+          "LAMBDA"
+        difficulty: "easy"
+
+      - id: py-lf-008
+        title: "Combine Strings"
+        task: |
+          Create a lambda function to concatenate two strings with a space.
+        input: |
+          "Hello", "World"
+        output: |
+          "Hello World"
+        difficulty: "easy"
+
+      - id: py-lf-009
+        title: "Check Palindrome"
+        task: |
+          Create a lambda function to check if a string is a palindrome.
+        input: |
+          "madam"
+        output: |
+          True
+        difficulty: "easy"
