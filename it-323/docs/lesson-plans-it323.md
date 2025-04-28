@@ -1,11 +1,16 @@
-# Lesson Plan: IT-323 Python Programming 3(2-1)
+---
+layout: page
+title: "Lesson Plan: IT-323 Python Programming 3(2-1)" 
+description: Download the complete lesson plan for IT-323 Python Programming 3(2-1), covering core Python concepts, practical coding exercises, and project-based learning. Perfect for students and educators aiming to master Python fundamentals.  
+keywords: IT-323 Python Programming, Python lesson plan, IT-323 course outline, Python programming syllabus, Python for beginners, learn Python coding, university Python course, Python projects, programming exercises, computer science lesson plan
+toc: toc/python-toc.html
+---
 
 ## Table of Contents
-
-## Control Flow Statements
-- [While Loops in Python](#lecture--while-loops-in-python)
-## Functions
-- [Python Anonymous (Lambda) Functions](#lecture--python-anonymous-lambda-functions)
+- Control Flow Statements
+  - [While Loops in Python](#lecture--while-loops-in-python)
+- Functions
+  - [Python Anonymous (Lambda) Functions](#lecture--python-anonymous-lambda-functions)
 
 ## **Week #: Control Flow Statements**  
 
