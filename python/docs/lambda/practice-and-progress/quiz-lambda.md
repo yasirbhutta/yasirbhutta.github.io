@@ -5,8 +5,9 @@ description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
 toc: toc/python-toc.html
-topic: ""
-course: ""
+topic: "lambda"
+course: "python"
 prev: ""
 next: ""
+mini_project: false
 ---

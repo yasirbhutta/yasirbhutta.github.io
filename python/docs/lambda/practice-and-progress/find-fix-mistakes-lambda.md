@@ -9,6 +9,7 @@ topic: "lambda"
 course: "python"
 prev: /python/docs/lambda/practice-and-progress/true-false-lambda.html
 next: /python/docs/lambda/practice-and-progress/exercises-lambda.html
+mini_project: false
 ---
 
 {% assign topic_name = "lambda" %}

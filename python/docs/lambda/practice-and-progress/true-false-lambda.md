@@ -7,6 +7,7 @@ topic: "lambda"
 course: "python"
 prev: /python/docs/lambda/
 next: /python/docs/lambda/practice-and-progress/mcqs-lambda.html
+mini_project: false
 ---
 
 {% assign topic = "lambda" %}
