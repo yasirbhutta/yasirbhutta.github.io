@@ -1,24 +1,23 @@
-
 {% if video_type == "video" %}
-  <div class="yt-video">
-    <iframe 
-      src="https://www.youtube.com/embed/{{ video_id }}" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-    </iframe>
+<div class="yt-video">
+<iframe 
+  src="https://www.youtube.com/embed/{{ video_id }}" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 </div>
-  {% elsif video_type == "short" %}
-    <div class="yt-short">
-    <iframe 
-      src="https://www.youtube.com/embed/{{ video_id }}?feature=share" 
-      title="YouTube Shorts player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-    </iframe>
-    </div>
-  {% endif %}
+{% elsif video_type == "short" %}
+<div class="yt-short">
+<iframe 
+  src="https://www.youtube.com/embed/{{ video_id }}?feature=share" 
+  title="YouTube Shorts player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+</div>
+{% endif %}
