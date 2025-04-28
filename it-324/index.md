@@ -1,4 +1,9 @@
-# IT-324 Web Development 3(2-1)
+---
+layout: default
+title: "IT-324 Course Resources | Complete Study Materials & Practical Guides"
+description: Access comprehensive IT-324 course materials including lecture notes, assignments, and practical exercises. Perfect for students seeking additional learning resources and study support.
+keywords: IT-324 course materials, IT-324 study resources, computer science course guide, IT-324 lecture notes, university IT course help, IT-324 assignments, programming course resources, IT curriculum support, academic course materials, IT-324 syllabus, student study resources, course project examples, exam preparation materials, practical IT exercises, university technology course
+---
 
 ## [Course Overview](docs/course-overview-it-324.md)
 
