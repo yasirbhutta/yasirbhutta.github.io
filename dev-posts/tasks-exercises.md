@@ -18,21 +18,6 @@ Input: 8, 12
 Expected Output: 12
 
 
-Here are 15 beginner-friendly lambda function tasks with sample inputs and expected outputs to practice Python lambda functions:
-
-
-
----
-
-### **Task 2: Check Even Number**
-**Description**: Create a lambda function that returns `True` if a number is even.  
-**Input**: `6`  
-**Expected Output**: `True`  
-**Solution**:  
-```python
-is_even = lambda x: x % 2 == 0
-print(is_even(6))  # Output: True
-```
 
 ---
 

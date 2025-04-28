@@ -53,3 +53,33 @@ By the end of this lecture, students will be able to:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script> 
+
+---
+
+### **Lecture #: Python Anonymous (Lambda) Functions**  
+
+#### **Learning Objectives:**  
+
+By the end of this lecture, students will be able to:  
+✅ Understand the syntax and working of the `while` loop in Python.  
+✅ Implement `while` loops to perform repetitive tasks based on a condition.  
+✅ Use `while` loops to solve real-world problems such as printing sequences, summing numbers, and generating multiplication tables.
+✅ Apply `while` loops with conditional statements to control program flow.
+
+#### **Topics Covered:**
+
+1. **Introduction to lambda**
+2. **lambda Syntax**
+3. **Basic Examples**
+   - Add 10 Using `lambda`.
+   - Multiply two numbers using lambda
+   - Check Even Number
+   - Immediately invoked function expression
+   
+#### **Resources:**  
+📖 [Lecture Notes]([Control Flow Statements: while loop](https://yasirbhutta.github.io/python/docs/control-flow.html#while-loop))
+📌 Reference Book: **, Chapter  
+
+#### **Assignments & Tasks:**  
+📂 **Examples:** Work through **Examples 1 - 4** from the lecture notes.  
+📝 **Task:** Complete and submit **tasks 1 - 4** by the next session. 

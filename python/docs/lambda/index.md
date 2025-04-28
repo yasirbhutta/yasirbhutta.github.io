@@ -13,7 +13,7 @@ The syntax of a lambda is
 lambda arguments:express
 ```
 
-**Example #1:**
+**Example #1: Add 10 Using Lambda in Python**
 
 Following code is used to write the function to add 10 in given number.
 
@@ -31,7 +31,7 @@ print(add_ten(5) # 15
 
 ```
 
-**Example #2:** multiple two numbers
+**Example #2:** Multiply two numbers using lambda
 
 use of lambda function to multiple two numbers
 
@@ -40,15 +40,12 @@ mul = lambda a, b : a * b
 print(mul(2,4)) # 8
 ```
 
-**Example #3:**
+**Example #3: Check Even Number**
 
 ```python
-lambda x, y : x + y
-
-_(6,8) # 14
+is_even = lambda x: x % 2 == 0
+print(is_even(6))  # Output: True
 ```
-
-**Note:** In the interactive interpreter, the single underscore**(_)** is bound to the last expression evalued.
 
 **Example #4:** Immediately invoked function expression
 
@@ -73,6 +70,17 @@ mult = lambda x, y: multiply(x, y)
 result = mult(6, 2)
 print(result)  # Output: 12
 ```
+
+**Example #6:**
+
+```python
+lambda x, y : x + y
+
+_(6,8) # 14
+```
+
+**Note:** In the interactive interpreter, the single underscore**(_)** is bound to the last expression evalued.
+
 **Python Tutorial: How to Use of Lambda function**
 
 {% assign video_type = "short" %}
