@@ -2,25 +2,12 @@
 
 ---
 
-Task 1:
-Write a lambda function that adds 10 to a number.
-
-Input: 5
-
-Expected Output: 15
 
 
 
 ---
 
-Task 2:
-Write a lambda function that multiplies two numbers.
 
-Input: 4, 6
-
-Expected Output: 24
-
----
 
 
 Task 5:
@@ -33,17 +20,7 @@ Expected Output: 12
 
 Here are 15 beginner-friendly lambda function tasks with sample inputs and expected outputs to practice Python lambda functions:
 
----
 
-### **Task 1: Add Two Numbers**
-**Description**: Create a lambda function that adds two numbers.  
-**Input**: `3, 5`  
-**Expected Output**: `8`  
-**Solution**:  
-```python
-add = lambda x, y: x + y
-print(add(3, 5))  # Output: 8
-```
 
 ---
 
@@ -95,14 +72,7 @@ print(area(4, 7))  # Output: 28
 
 ---
 
-### **Task 6: Cube of a Number**
-**Description**: Create a lambda function to compute the cube of a number.  
-**Input**: `3`  
-**Expected Output**: `27`  
-**Solution**:  
-```python
-cube = lambda x: x ** 3
-print(cube(3))  # Output: 27
+
 ```
 
 ---
@@ -182,17 +152,7 @@ print(is_palindrome("madam"))  # Output: True
 
 ---
 
-### **Task 14: Average of Two Numbers**
-**Description**: Create a lambda function to compute the average of two numbers.  
-**Input**: `10, 20`  
-**Expected Output**: `15.0` 
 
-
-**Solution**:  
-```python
-average = lambda x, y: (x + y) / 2
-print(average(10, 20))  # Output: 15.0
-```
 
 ---
 
