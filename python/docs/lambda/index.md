@@ -99,11 +99,6 @@ _(6,8) # 14
 
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-{% assign video_type = "short" %}
-{% assign video_id = "N3UAUI6cEVA" %}
-
-{% include youtube-video.html video_type=video_type video_id=video_id %}
-
 ---
 
 ## Tasks
@@ -122,6 +117,13 @@ Write a lambda function that multiplies two numbers.
 **Input:** 4, 6
 
 **Expected Output:** Output: 24
+
+**Python Tutorial: Multiplies two numbers**
+
+{% assign video_type = "short" %}
+{% assign video_id = "N3UAUI6cEVA" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ---
 
