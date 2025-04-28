@@ -12,7 +12,7 @@
 <div class="mcq">
 <h3>Q{{ question_count }}. {{ q.question | escape }}</h3>
 {% if q.code %}
-<pre><code class="language-python">{{ q.code | escape }}</code></pre>
+<pre><code class="language-{{ q.language | escape }}">{{ q.code | escape }}</code></pre>
 {% endif %}
 <ol type="A">
     {% for option in q.options %}

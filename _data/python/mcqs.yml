@@ -450,7 +450,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           add_ten = lambda x: x + 10
           print(add_ten(5))
         options:
@@ -467,7 +467,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           mul = lambda a, b: a * b
           print(mul(2, 4))
         options:
@@ -484,7 +484,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           is_even = lambda x: x % 2 == 0
           print(is_even(6))
         options:
@@ -501,7 +501,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           (lambda x, y: x + y)(6, 8)
         options:
           - 14
@@ -517,7 +517,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           result = (lambda x, y: x * y)(5, 3)
           print(result)
         options:
@@ -534,7 +534,7 @@ topics:
         language: python
         question: |
           What is the output of the following Python code?
-
+        code: |
           multiply = lambda x, y: x * y
           mult = lambda x, y: multiply(x, y)
           result = mult(6, 2)
