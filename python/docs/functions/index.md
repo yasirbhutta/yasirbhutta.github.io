@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Functions in Python  
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: "Functions in Python: Complete Guide with Syntax, Examples, and Practice Tasks" 
+description: Master functions in Python with this beginner-friendly guide. Learn how to define functions, use return statements, default and keyword arguments, and solve practical coding tasks with real-world examples.  
+keywords: Functions in Python, Python function examples, how to define a function in Python, Python return statement, Python default arguments, Python keyword arguments, Python function tasks, Python beginner exercises, learn Python functions, Python programming basics
 toc: toc/python-toc.html
 ---
 
