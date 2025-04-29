@@ -78,17 +78,31 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
   
 **How to Send an Email Using the Gmail App**
 
-<div class="yt-short">
-  <iframe src="https://www.youtube.com/embed/rcVVfyeJfLk?si=xM8iE8vU0g9J66qY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% assign video_type = "short" %}
+{% assign video_id = "rcVVfyeJfLk" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 **Why we use CC and BCC in email**
 
-<div class="yt-short">
-<iframe src="https://www.youtube.com/embed/66N2Kmca21U?si=bl8EQbReO-w1kuQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% assign video_type = "short" %}
+{% assign video_id = "66N2Kmca21U" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 
 - [Reply to messages in Gmail](https://support.google.com/mail/answer/6585?hl=en&ref_topic=3395756&sjid=17155670430480394991-EU)
+
+**Gmail Tutorial: Reply to emails with #emoji reactions**
+
+{% assign video_type = "video" %}
+{% assign video_id = "mACuJ_WGY4c" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+
+https://youtu.be/
+
 - [Send & open confidential emails](https://support.google.com/mail/answer/7674059?hl=en&ref_topic=3395756)
   - [Video Tutorial for android](https://youtube.com/shorts/aW24qeTJy0Q?si=m326oH-jvFP7HVqV)
 - [Schedule emails to send](https://support.google.com/mail/answer/9214606?hl=en&ref_topic=3395756)
