@@ -50,9 +50,13 @@ box off;
 
 ```
 
-**See also:**
+**MATLAB Plot Tutorial in Urdu: Make Your MATLAB Plots More Informative with Titles and Axis Labels**
 
-- [Video: Make Your MATLAB Plots More Informative with Titles and Axis Labels](https://youtu.be/IoTQAIWDBJk)
+{% assign video_type = "video" %}
+{% assign video_id = "IoTQAIWDBJk" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
   
 ### Axis Control
 
@@ -284,9 +288,13 @@ pie(sales_figures, explode, fruit_names);
 title('Fruit Sales Pie Chart');
 ```
 
-**See also:**
+**MATLAB Tutorial in Urdue: Visualizing Fruits Sales Distribution with Exploded Pie Chart**
 
-- [Video: Visualizing Fruit Sales Distribution with Exploded Pie Chart](https://youtu.be/5X5gelyCgr4?si=mLjZtwFRrdv7pEhG)
+{% assign video_type = "video" %}
+{% assign video_id = "5X5gelyCgr4" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 
 ## 3D Plots
 

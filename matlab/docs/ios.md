@@ -50,7 +50,12 @@ It can be used to comment out multiple lines of code.
 
 ### Input Functions
 
-[Video Tutorial: How to Create a New Script File Using MATLAB Mobile App](https://www.youtube.com/watch?v=_494zaRAIGo)
+**MATLAB Tutorial in urdu: How to Create a New Script File Using MATLAB Mobile App**
+
+{% assign video_type = "short" %}
+{% assign video_id = "_494zaRAIGo" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 #### Example 1
 

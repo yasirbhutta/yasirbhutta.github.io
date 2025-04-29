@@ -100,11 +100,15 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-
-https://youtu.be/
-
 - [Send & open confidential emails](https://support.google.com/mail/answer/7674059?hl=en&ref_topic=3395756)
-  - [Video Tutorial for android](https://youtube.com/shorts/aW24qeTJy0Q?si=m326oH-jvFP7HVqV)
+
+**Gmail Tutorial: How to send and open confidential emails**
+
+{% assign video_type = "short" %}
+{% assign video_id = "aW24qeTJy0Q" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 - [Schedule emails to send](https://support.google.com/mail/answer/9214606?hl=en&ref_topic=3395756)
 
 ##### Send attachments & images

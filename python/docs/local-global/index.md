@@ -104,6 +104,13 @@ print(count)  # Output: 1
 
 > Without `global`, Python would create a **new local variable** named `count`.
 
+**Python Tutorial: Local vs Global Variables in Python**
+
+{% assign video_type = "short" %}
+{% assign video_id = "WvAsrn5A2ms" %}
+
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 ---
 
 ## Constants
