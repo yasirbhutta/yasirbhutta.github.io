@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Functions in Python  
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises, local variable, global variable, constants
+title: "Python Functions Tutorial: From Basics to Advanced Concepts"  
+description: Explore the complete guide to Python functions, including regular and lambda functions, local and global variables, constants, and how to store functions in modules. Ideal for beginners and intermediate learners aiming to write clean, modular Python code.  
+keywords: Python functions tutorial, functions in Python, Python lambda functions, local and global variables in Python, Python constants, storing functions in modules, Python function basics, Python function guide, Python modular code, Python programming
 toc: toc/python-toc.html
 ---
 
@@ -11,6 +11,8 @@ toc: toc/python-toc.html
 - [Functions in Python](functions/)
 - [Python Anonymous (Lambda) Functions](lambda/)
 - [Local Variables and Global Variables, Constants](local-global/)
+- [Storing functions in modules](functions-in-modules/)
+  
 
 > "The only way to do great work is to love what you do."  
 > – Steve Jobs
