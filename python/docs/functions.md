@@ -6,8 +6,15 @@ keywords: Python variables, Python variable examples, Python variable exercises,
 toc: toc/python-toc.html
 ---
 
+## Table of Contents
+
+- [Python Anonymous (Lambda) Functions](lambda/)
+- [Local Variables and Global Variables, Constants](local-global/)
+
 > "The only way to do great work is to love what you do."  
 > – Steve Jobs
+
+
 
 ## 6.1 What is a Function?
 

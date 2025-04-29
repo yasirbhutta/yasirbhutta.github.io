@@ -9,6 +9,7 @@ toc: toc/python-toc.html
 ## Table of Contents
 - [Python Anonymous (Lambda) Functions](lambda/)
 
+
 ### 2. **Higher-Order Functions**
    - A higher-order function is one that takes another function as an argument or returns a function as its result.
    - Common examples in Python include `map`, `filter`, and `reduce`.
