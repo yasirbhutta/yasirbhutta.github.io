@@ -7,6 +7,7 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/docs/basics/
 ---
 
 # Step-by-Step Guide to install PHP on Windows (without XAMPP):

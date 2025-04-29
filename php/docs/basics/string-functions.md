@@ -7,6 +7,8 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/docs/basics/constants.html
+next: /php/docs/basics/comments.html
 ---
 
 ## **Common String Functions**:

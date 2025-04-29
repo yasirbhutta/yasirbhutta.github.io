@@ -7,6 +7,8 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/docs/basics/installation.html
+next: /php/docs/basics/variables-in-php.html
 ---
 
 ## **Case Sensitivity**

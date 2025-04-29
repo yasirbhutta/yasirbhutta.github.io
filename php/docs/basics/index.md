@@ -28,6 +28,8 @@ mini_project: true
 - [String Functions](string-functions.md)
 - [Comments](comments.md)
 
+---
+
 ## References
 
 [1] **W3Schools**, "PHP Introduction." [Online]. Available: <https://www.w3schools.com/php/php_intro.asp>. [Accessed: Apr. 29, 2025].

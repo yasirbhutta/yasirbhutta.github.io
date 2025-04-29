@@ -7,6 +7,8 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/docs/basics/case-sensitivity.html
+next: /php/docs/basics/variable-scope.html
 ---
 
 ## **What are Variables?**

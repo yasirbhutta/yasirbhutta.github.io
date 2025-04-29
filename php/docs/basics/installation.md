@@ -7,6 +7,8 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/docs/basics/what-is-php.html
+next: /php/docs/basics/case-sensitivity.html
 ---
 
 ## Table of Contents
