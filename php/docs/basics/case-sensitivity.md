@@ -39,3 +39,16 @@ echo "My car is " . $color . "<br>";  // outputs red
 echo "My house is " . $COLOR . "<br>";  // outputs green
 ?>
 ```
+## Tasks
+
+### **Task 1: Experiment with `echo`**
+   - Write a PHP script where you use `echo`, `ECHO`, and `EcHo` to print the same message (e.g., "Hello, PHP!").  
+   - Observe the output. Does it work the same way for all variations? 
+
+### **Task 2: Test Variable Names**
+   - Declare two variables:  
+     ```php
+     $name = "Alice";
+     $NAME = "Bob";
+     ```
+   - Print both variables. Are they treated as the same or different?  

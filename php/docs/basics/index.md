@@ -7,6 +7,7 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+next: /php/docs/basics/what-is-php.html
 ---
 
 - [Download PDF](https://drive.google.com/drive/folders/1X7QUy7Yep4t1DefMlCWeRu4uXaheD5FU?usp=sharing)

@@ -80,6 +80,52 @@ testFunction();
 ?>
 ```
 
+## Tasks
+
+### **Task 1: Understanding Local Scope**
+1. **Create a function** called `printLocalVar()` that defines a local variable `$message` with the value `"Hello, PHP!"`.  
+2. **Print** `$message` inside the function.  
+3. **Call the function** and observe the output.  
+4. Now, try to **print `$message` outside the function**. What happens? Explain why.  
+
+#### Example Structure:
+```php
+<?php
+function printLocalVar() {
+    // Your code here
+}
+// Call function and test
+?>
+```
+
+---
+
+### **Task 2: Working with Global Scope**
+1. **Define a global variable** `$counter = 0;` outside any function.  
+2. **Create a function** `incrementCounter()` that accesses `$counter` using the `$GLOBALS` array and increments it by `1`.  
+3. **Call the function twice** and then **print `$counter`** outside the function. What is the output?  
+
+#### Expected Output:
+```
+2
+```
+
+---
+
+### **Task 3: Modifying Global Variables Inside a Function**
+1. **Define a global variable** `$total = 50;`.  
+2. **Create a function** `applyDiscount()` that:  
+   - Uses the `global` keyword to access `$total`.  
+   - Applies a 10% discount (reduce `$total` by 10%).  
+3. **Call the function** and then **print `$total`** outside the function.  
+
+#### Expected Output:
+```
+45
+```
+
+---
+
 ## References
 
 [1] "Variable Scope," *PHP Manual*. [Online]. Available: <https://www.php.net/manual/en/language.variables.scope.php>. [Accessed: Apr. 29, 2025].

@@ -62,6 +62,79 @@ echo $x + $y;
 ?>
 ```
 
+## Tasks
+
+---
+
+### **Task 1: Basic Variable Declaration and Output**
+1. Create a PHP script that declares a variable named `$greeting` and assigns it the value `"Hello, PHP!"`.
+2. Use `echo` to display the value of `$greeting`.
+3. Run the script and verify the output.
+
+**Expected Output:**
+```
+Hello, PHP!
+```
+
+---
+
+### **Task 2: Changing Variable Values**
+1. Declare a variable `$number` and assign it the value `10`.
+2. Display the value of `$number` using `echo`.
+3. Reassign `$number` to `20` and display it again.
+4. Finally, reassign `$number` to `"twenty"` (a string) and display it.
+
+**Expected Output:**
+```
+10
+20
+twenty
+```
+---
+
+### **Task 3: Arithmetic with Variables**
+1. Declare two variables, `$a` and `$b`, and assign them the values `7` and `3`, respectively.
+2. Calculate and display the sum, difference, product, and quotient of `$a` and `$b`.
+   - Use `echo` to output each result with a label (e.g., "Sum: 10").
+
+**Expected Output:**
+```
+Sum: 10
+Difference: 4
+Product: 21
+Quotient: 2.333...
+```
+
+---
+
+### **Task 4: Dynamic Typing**
+1. Declare a variable `$dynamic` and assign it an integer value (e.g., `100`).
+2. Display the value and its type using `echo` and `gettype()` (e.g., `echo gettype($dynamic);`).
+3. Reassign `$dynamic` to a string (e.g., `"Dynamic PHP"`) and display its type again.
+4. Reassign `$dynamic` to a float (e.g., `3.14`) and display its type once more.
+
+**Expected Output:**
+```
+100
+integer
+Dynamic PHP
+string
+3.14
+double
+```
+
+---
+
+### **Task 5: Combining Variables**
+1. Declare two variables: `$firstName` (assign your name) and `$lastName` (assign your surname).
+2. Combine them into a third variable `$fullName` and display it.
+   - Hint: Use concatenation (`.` in PHP), e.g., `$fullName = $firstName . " " . $lastName;`.
+
+**Expected Output:**
+```
+John Doe
+```
+
 ## References
 
 [1] "PHP Variables," *Tutorial Republic*. [Online]. Available: <https://www.tutorialrepublic.com/php-tutorial/php-variables.php>. [Accessed: Apr. 29, 2025].
