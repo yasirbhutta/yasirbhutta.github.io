@@ -14,8 +14,6 @@ toc: toc/python-toc.html
 > "The only way to do great work is to love what you do."  
 > – Steve Jobs
 
-
-
 ## 6.1 What is a Function?
 
  A function is a block of reusable code that performs a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
