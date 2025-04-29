@@ -10,12 +10,14 @@ toc: toc/python-toc.html
 - [What is a Function?](#what-is-a-function)
 - [How to Write a Function](#how-to-write-a-function)
 - [Return Statement](#return-statement)
+- [Default Arguments](#default-arguments)
+- [Keyword Arguments](#keyword-arguments)
 
 ## What is a Function?
 
  A function is a block of reusable code that performs a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
 
-**Why Do We Use Functions? **
+**Why Do We Use Functions?**
 
 We use functions in Python for several reasons:
 
@@ -142,7 +144,7 @@ Encourage beginners to test the function with various numbers:
 3. **Input:** `num = 0`
    - **Output:** `The number 0 is: Even`
 
-## 6.4 **Default Arguments**
+## Default Arguments
 
    - You can assign default values to parameters, which makes them optional when calling the function.
 
@@ -158,7 +160,7 @@ Encourage beginners to test the function with various numbers:
    greet("Alice", "Hi")      # Overrides default with "Hi"
    ```
 
-## 6.5 **Keyword Arguments**
+## Keyword Arguments
    - Python allows you to specify arguments by name, making your code more readable.
    - Example:
 
