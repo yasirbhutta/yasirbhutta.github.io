@@ -7,6 +7,7 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: /php/
 next: /php/docs/basics/what-is-php.html
 ---
 
@@ -14,3 +15,10 @@ next: /php/docs/basics/what-is-php.html
 
 1. [Simple Personal Blog System](personal-blog-system.md)
 2. [Student Registration System](student-reg-system.md)
+3. [Online Bookstore](online-bookstore.md)
+4. [Task Management System](tasks-mgt-system.md)
+5. [Job Portal](job-portal.md)
+6. [Contact Book](contact-book.md)
+7. [Weather App](weather-app.md)
+8. [Online Recipe Sharing Platform](recipe-sharing-platform.md)
+   
