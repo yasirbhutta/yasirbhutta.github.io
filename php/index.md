@@ -1,6 +1,8 @@
 ---
 layout: default
-
+title:
+description:
+keywords
 ---
 
 <!-- # Learning PHP Language -->
