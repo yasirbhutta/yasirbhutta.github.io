@@ -7,8 +7,8 @@ toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
-prev: /php/docs/basics/variable-scope.html
-next: /php/docs/basics/constants.html
+prev: /php/docs/basics/variables-in-php.html
+next: /php/docs/basics/variable-scope.html
 ---
 
 ## **What is a Function?**
