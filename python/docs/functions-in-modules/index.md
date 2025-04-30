@@ -1,13 +1,22 @@
 ---
 layout: page
-title: "What is a Module in Python"
-description: Learn how to use Python lambda functions with this detailed guide. Discover syntax, examples, and use cases to enhance your programming skills.
-keywords: Python lambda functions, lambda function tutorial, Python programming, lambda function examples, Python syntax, functional programming in Python
+title: "Creating and Importing Modules in Python: A Beginner's Guide"
+description: Learn how to define and use functions inside Python modules. This guide covers creating a module, importing it, and organizing your Python code for better reusability and clarity.
+keywords: Python modules, Python functions, custom modules in Python, import module Python, how to use functions in modules, Python programming, Python beginner guide, reusable Python code
 toc: toc/python-toc.html
 course: python
 topic: "lambda"
 mini_project: false
 ---
+
+## Table of Contents
+- [What is a Module in Python?](#-what-is-a-module-in-python)
+- [Types of Modules](#types-of-modules)
+- [How to Import a Module?](#how-to-import-a-module)
+- Creating and Using a Custom Python Module
+  - [Example #1: `math_utils.py` Module](#-example-1-creating-and-using-a-custom-python-module)
+  - [Example #2: `greetings.py` Module](#-example-2-creating-and-using-a-custom-python-module)
+- [Special Module Variable: `__name__`](#special-module-variable-__name__)
 
 ## 🔷 What is a Module in Python?
 
@@ -25,6 +34,7 @@ In Python, a **module** is a file containing Python code (functions, classes, va
 ---
 
 ## **Types of Modules:**
+
 1. **Built-in Modules** (Pre-installed with Python)  
    Example: `math`, `os`, `sys`, `random`
    ```python
@@ -85,27 +95,10 @@ In Python, a **module** is a file containing Python code (functions, classes, va
 
 ---
 
-## **Example: Creating & Using a Module**
-1. **:
-   ```python
-   def add(a, b):
-       return a + b
-
-   def sub(a, b):
-       return a - b
-   ```
-
-2. **Import and use it**:
-   ```python
-   import calc
-   print(calc.add(5, 3))  # Output: 8
-   print(calc.sub(5, 3))  # Output: 2
-   ```
-
 ## 🔷 Example #1: Creating and Using a Custom Python Module
 
-1. **Create a module (`calc.py`)****
-   Save functions in a `.py` file, e.g., `calc.py`:
+1. **Create a module (`math_utils.py`)****
+   Save functions in a `.py` file, e.g., `math_utils.py`:
    ```python
    # calc.py
    def add(a, b):
@@ -120,17 +113,29 @@ In Python, a **module** is a file containing Python code (functions, classes, va
    ```python
    import calc
 
-   print(calc.add(3, 4))       # Output: 7
-   print(calc.subtract(10, 5)) # Output: 5
+   print(math_utils.add(3, 4))       # Output: 7
+   print(math_utils.subtract(10, 5)) # Output: 5
    ```
 
-   Or import specific functions:
+   Or **import specific functions:**
+   
    ```python
-   from calc import add
+   from math_utils import add
 
    print(add(2, 2))  # Output: 4
    ```
 
+   or **Import with Alias ('calc'):**
+   
+   ```python
+    import math_utils as calc
+
+    result= calc.add(5, 3)
+    print(result)
+
+    result2 = calc.subtract(10, 4)
+    print(result2)
+   ```
 ---
 
 ## 🔷 Example #2: Creating and Using a Custom Python Module
@@ -155,18 +160,93 @@ print(greetings.goodbye("Alice"))
 ---
 
 ## **Special Module Variable: `__name__`**
-- When a module is run directly, `__name__ == "__main__"`.
-- When imported, `__name__` is the module's name.
-- Used to add test code that runs only when executed directly:
-  ```python
-  # mymodule.py
-  def func():
-      return "Hello!"
 
-  if __name__ == "__main__":
-      print("Testing module...")
-      print(func())
+In Python, the `__name__` variable is a special built-in variable that helps determine whether a script is being run **directly** or being **imported** as a module into another script.  
+
+### **How `__name__` Works:**
+- When a Python file is **run directly**, `__name__` is set to `"__main__"`.
+- When it is **imported** as a module, `__name__` is set to the **module's name**.
+
+
+## Example
+
+```python
+def add(a, b):
+      return a + b
+
+def subtract(a, b):
+    return a - b
+
+if __name__ == "__main__":
+    # Test the functions in this module
+    print("Testing math_utils.py")
+    print(f"2 + 3 = {add(2, 3)}")
+    print(f"5 - 2 = {subtract(5, 2)}")
+    print("All tests passed!")
+```
+
+**This construct allows you to:**
+
+1. Test your module when run directly
+2. Prevent test execution when imported as a module
+3. Separate reusable functions from test/demo code
+
+---
+
+### **Example: Using `__name__` Across Two Files**
+
+#### **1. Create a Module (`module.py`)**
+
+```python
+# module.py
+def greet(name):
+    return f"Hello, {name}!"
+
+print(f"Module's __name__: {__name__}")  # Check __name__
+
+if __name__ == "__main__":
+    print("This runs only when module.py is executed directly.")
+```
+
+**- If you run `module.py` directly, it prints:**
+
   ```
+  Module's __name__: __main__
+  This runs only when module.py is executed directly.
+  ```
+- If imported, the `if __name__ == "__main__":` block **does not run**.
+
+---
+
+#### **2. Import `module.py` in Another Script (`main_script.py`)**
+```python
+# main_script.py
+import module  # Imports module.py
+
+print(f"Main script's __name__: {__name__}")  # Check __name__ in main file
+print(module.greet("Alice"))
+```
+
+**Output when running `main_script.py`:**
+
+```
+Module's __name__: module  # (Because it was imported)
+Main script's __name__: __main__  # (Because main_script.py is run directly)
+Hello, Alice!
+```
+- The `if __name__ == "__main__":` block in `module.py` **does not execute** because it was imported.
+
+---
+
+## **Key Use Cases of `__name__`**
+1. **Preventing Code Execution on Import**  
+   - Use `if __name__ == "__main__":` to ensure certain code (like tests) runs only when the script is executed directly, not when imported.
+
+2. **Module Testing**  
+   - You can include test cases inside `if __name__ == "__main__":` to test functions without affecting imports.
+
+3. **Controlling Script Behavior**  
+   - Example: A script can behave differently when run standalone vs. when used as a module.
 
 ---
 
