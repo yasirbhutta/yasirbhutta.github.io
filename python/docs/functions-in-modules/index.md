@@ -1,17 +1,19 @@
-
-### 🔷 What is a Module in Python?
-A **module** is simply a file that contains **Python code** — typically functions, variables, and classes — that you can reuse in other programs.
-
-For example:
-```python
-# This is a module: my_module.py
-def greet(name):
-    return f"Hello, {name}!"
-```
-
+---
+layout: page
+title: "What is a Module in Python"
+description: Learn how to use Python lambda functions with this detailed guide. Discover syntax, examples, and use cases to enhance your programming skills.
+keywords: Python lambda functions, lambda function tutorial, Python programming, lambda function examples, Python syntax, functional programming in Python
+toc: toc/python-toc.html
+course: python
+topic: "lambda"
+mini_project: false
 ---
 
-### 🔷 Why Use Modules?
+## 🔷 What is a Module in Python?
+
+In Python, a **module** is a file containing Python code (functions, classes, variables, or runnable code) that can be imported and used in other Python programs. Modules help in organizing code logically, promoting reusability and maintainability.
+
+### 🔷 Why Use Modules? 
 
 | Reason                  | Benefit                                           |
 |-------------------------|----------------------------------------------------|
@@ -22,12 +24,90 @@ def greet(name):
 
 ---
 
-### 🔷 Syntax: Creating and Using a Module
-
-1. **Create a Module**
-   Save functions in a `.py` file, e.g., `math_utils.py`:
+## **Types of Modules:**
+1. **Built-in Modules** (Pre-installed with Python)  
+   Example: `math`, `os`, `sys`, `random`
    ```python
-   # math_utils.py
+   import math
+   print(math.sqrt(25))  # Output: 5.0
+   ```
+
+2. **User-defined Modules** (Created by users)  
+   Example: Save as `mymodule.py`
+   ```python
+   # mymodule.py
+   def greet(name):
+       return f"Hello, {name}!"
+   ```
+   Then import it:
+   ```python
+   import mymodule
+   print(mymodule.greet("Alice"))  # Output: Hello, Alice!
+   ```
+
+3. **Third-party Modules** (Installed via `pip`)  
+   Example: `numpy`, `requests`, `pandas`
+   ```bash
+   pip install numpy
+   ```
+   ```python
+   import numpy as np
+   arr = np.array([1, 2, 3])
+   print(arr)  # Output: [1 2 3]
+   ```
+
+---
+
+## **How to Import a Module?**
+1. **Basic Import**
+   ```python
+   import module_name
+   module_name.function()
+   ```
+
+2. **Import with Alias (Shortcut)**
+   ```python
+   import module_name as alias
+   alias.function()
+   ```
+
+3. **Import Specific Functions/Classes**
+   ```python
+   from module_name import function1, function2
+   function1()
+   ```
+
+4. **Import Everything (Not Recommended)**
+   ```python
+   from module_name import *  # Avoid (pollutes namespace)
+   function1()
+   ```
+
+---
+
+## **Example: Creating & Using a Module**
+1. **:
+   ```python
+   def add(a, b):
+       return a + b
+
+   def sub(a, b):
+       return a - b
+   ```
+
+2. **Import and use it**:
+   ```python
+   import calc
+   print(calc.add(5, 3))  # Output: 8
+   print(calc.sub(5, 3))  # Output: 2
+   ```
+
+## 🔷 Example #1: Creating and Using a Custom Python Module
+
+1. **Create a module (`calc.py`)****
+   Save functions in a `.py` file, e.g., `calc.py`:
+   ```python
+   # calc.py
    def add(a, b):
        return a + b
 
@@ -38,22 +118,22 @@ def greet(name):
 2. **Import and Use the Module**
    In another Python file:
    ```python
-   import math_utils
+   import calc
 
-   print(math_utils.add(3, 4))       # Output: 7
-   print(math_utils.subtract(10, 5)) # Output: 5
+   print(calc.add(3, 4))       # Output: 7
+   print(calc.subtract(10, 5)) # Output: 5
    ```
 
    Or import specific functions:
    ```python
-   from math_utils import add
+   from calc import add
 
    print(add(2, 2))  # Output: 4
    ```
 
 ---
 
-### 🔷 Example
+## 🔷 Example #2: Creating and Using a Custom Python Module
 
 **Create a module file `greetings.py`:**
 ```python
@@ -74,7 +154,29 @@ print(greetings.goodbye("Alice"))
 
 ---
 
-### 🔷 Tasks for Practice
+## **Special Module Variable: `__name__`**
+- When a module is run directly, `__name__ == "__main__"`.
+- When imported, `__name__` is the module's name.
+- Used to add test code that runs only when executed directly:
+  ```python
+  # mymodule.py
+  def func():
+      return "Hello!"
+
+  if __name__ == "__main__":
+      print("Testing module...")
+      print(func())
+  ```
+
+---
+
+### **Summary**
+✅ Modules help organize and reuse code.  
+✅ Python has built-in, user-defined, and third-party modules.  
+✅ Use `import` to include modules in your code.  
+✅ `__name__` helps in writing module test cases.  
+
+## 🔷 Tasks for Practice
 
 ✅ **Task 1**: Create a module named `calculator.py` with functions `multiply`, `divide`.
 
