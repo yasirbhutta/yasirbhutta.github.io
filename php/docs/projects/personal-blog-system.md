@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "PHP Project: Personal Blog System in PHP"
+title: "PHP Projects for Beginners: Personal Blog System"
 description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
 keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
 toc: toc/php.html
 course: php
 topic: "basics"
 mini_project: true
+prev: 
 next: /php/docs/basics/what-is-php.html
 ---
 
