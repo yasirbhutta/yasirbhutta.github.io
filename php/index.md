@@ -1,10 +1,9 @@
-# PHP Language
+---
+layout: default
 
-- [Online courses and trainings](courses-excel.md)
-- [Learning roadmap](docs/index.md)
-- [Assignments](assignments/index.md)
+---
 
-## Download slides
+<!-- # Learning PHP Language -->
 
-- [Basics - PHP](#)
-  
+{% assign show_heading = true %}
+{% include toc/php.html show_heading=show_heading %}
