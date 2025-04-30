@@ -96,3 +96,32 @@ By the end of this lecture, students will be able to:
 📝 **Task:** Complete and submit **tasks 1 - 4** by the next session. 
 
 ---
+
+### **Lecture #: Python Anonymous (Lambda) Functions**  
+
+#### **Learning Objectives:**  
+
+By the end of this lecture, students will be able to:  
+✅ Understand the concept, syntax, and use of Python's anonymous (lambda) functions.  
+✅ Learn how to create and apply lambda functions for simple operations through examples.  
+✅ Practice using lambda functions to solve tasks like addition, multiplication, and averaging.  
+
+#### **Topics Covered:**
+
+1. **Introduction to lambda**
+2. **lambda Syntax**
+3. **Basic Examples**
+   - Add 10 Using `lambda`.
+   - Multiply two numbers using lambda
+   - Check Even Number
+   - Immediately invoked function expression
+   
+#### **Resources:**  
+- 📖 [Lecture Notes]([Python Anonymous (Lambda) Functions](https://yasirbhutta.github.io/python/docs/lambda/))
+- 📌 Reference Book: **, Chapter  
+
+#### **Assignments & Tasks:**  
+📂 **Examples:** Work through **Examples 1 - 4** from the lecture notes.  
+📝 **Task:** Complete and submit **tasks 1 - 4** by the next session. 
+
+---

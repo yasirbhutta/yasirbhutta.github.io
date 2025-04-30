@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Creating and Importing Modules in Python: A Beginner's Guide"
+title: "Functions in Python Modules : A Beginner's Guide"
 description: Learn how to define and use functions inside Python modules. This guide covers creating a module, importing it, and organizing your Python code for better reusability and clarity.
 keywords: Python modules, Python functions, custom modules in Python, import module Python, how to use functions in modules, Python programming, Python beginner guide, reusable Python code
 toc: toc/python-toc.html
