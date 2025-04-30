@@ -1,8 +1,8 @@
 ---
 layout: page
-title: php basics Fill-in-the-Blank Exercises | Hands-On Practice Problems
-description: Test your php skills with interactive fill-in-the-blank basics function exercises. Practice basics syntax, filtering, mapping, and real-world coding scenarios.
-keywords: php basics exercises, fill-in-the-blank php, basics function practice, php basics quiz, interactive php learning, basics map filter exercises, php coding challenges, basics syntax practice, php anonymous functions, real-world basics examples, php problem-solving, basics function drills, php beginner exercises, advanced basics practice, php functional programming
+title: "PHP Basics Fill in the Blanks – Practice Core Concepts with Interactive Questions"
+description: Test your understanding of PHP basics with fill in the blanks questions. Perfect for beginners, students, and interview preparation. Strengthen your PHP knowledge now!
+keywords: PHP fill in the blanks, PHP basics questions, learn PHP, PHP for beginners, PHP interactive quiz, PHP practice test, core PHP concepts, PHP blanks quiz, PHP student exercises, PHP revision questions, PHP MCQs and blanks, PHP knowledge test
 toc: toc/php.html
 topic: "basics"
 course: "php"

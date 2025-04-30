@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  "php basics Functions: True/False Conditions with Examples | Practice Guide"
-description: Learn how to use php basics functions for boolean checks (True/False) with practical examples. Master conditions like even numbers, palindromes, and list filtering for efficient coding.
-keywords: php basics functions, True False conditions php, basics function examples, boolean checks in php, php filter with basics, basics for even numbers, check palindrome with basics, php one-line conditionals, higher-order functions php, php coding practice, basics function exercises, php boolean logic, basics if else php, php conditional expressions, basics function tricks
+title:  "PHP Basics True or False Questions – Test Your Core PHP Knowledge"
+description: Boost your PHP skills with these essential true or false questions on PHP basics. Perfect for beginners and interview preparation. Test your knowledge now!.
+keywords: PHP basics, PHP quiz, PHP true or false, core PHP questions, PHP test online, PHP interview questions, learn PHP, PHP for beginners, PHP basics quiz, PHP practice test, PHP fundamentals, PHP MCQ, PHP assessment, PHP online quiz, PHP knowledge check
 topic: "basics"
 course: "php"
 prev: /php/docs/basics/

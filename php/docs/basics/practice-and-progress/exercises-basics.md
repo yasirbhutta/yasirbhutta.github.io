@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "php basics Function Exercises - Practice Problems with Solutions"
-meta_description: "Master php basics functions with our collection of hands-on exercises. Practice real-world scenarios, from basic syntax to advanced applications with map(), filter(), and reduce(). Includes solutions!"
-keywords: php basics exercises, basics function practice problems, php anonymous function exercises, lambda coding challenges, php map filter reduce practice, real-world lambda examples, php functional programming exercises, lambda syntax practice, php one-liner exercises, lambda function solutions, php coding drills, interactive lambda learning, php higher-order functions, lambda problem sets, php programming practice
+title: "PHP Basics Coding Exercises – Practice PHP with Hands-On Code Examples"
+meta_description: "Boost your PHP coding skills with beginner-friendly exercises covering core PHP basics. Perfect for learners, students, and interview preparation. Code and learn PHP now!"
+keywords: PHP coding exercises, PHP practice problems, PHP basics, learn PHP, PHP code examples, PHP hands-on practice, PHP beginner exercises, PHP programming tasks, PHP for students, PHP training, core PHP coding, PHP interview coding questions
 toc: toc/php.html
 topic: "basics"
 course: "php"
 prev: /php/docs/basics/practice-and-progress/fill-blanks-basics.html
 next: /php/docs/basics/practice-and-progress/mcqs-basics.html
-mini_project: false
+mini_project: true
 ---
 
 {% assign topic = "basics" %}

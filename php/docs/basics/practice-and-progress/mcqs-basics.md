@@ -1,8 +1,8 @@
 ---
 layout: page
-title: php basics Functions MCQ Quiz - Test Your Knowledge with Practice Questions
-description: Challenge yourself with php basics functions multiple-choice questions (MCQs). Practice key concepts like syntax, usage with map/filter, and real-world applications.
-keywords: php basics MCQs, basics function quiz, php multiple-choice questions, basics practice test, php anonymous functions quiz, map filter reduce MCQs, php functional programming quiz, basics syntax questions, php coding test, advanced basics exercises, php interview questions, basics function examples, php programming quiz, test php skills, basics debugging MCQs
+title: PHP Basics MCQs – Multiple Choice Questions for Beginners and Interviews
+description: Sharpen your PHP skills with these multiple choice questions on PHP basics. Great for beginners, students, and interview preparation. Start practicing now!.
+keywords: PHP basics MCQs, PHP multiple choice questions, PHP quiz, PHP MCQ test, learn PHP, PHP for beginners, PHP objective questions, PHP exam questions, PHP interview questions, core PHP MCQs, PHP practice quiz, PHP fundamentals, PHP online test
 author: Muhammad Yasir Bhutta
 toc: toc/php.html
 topic: "basics"

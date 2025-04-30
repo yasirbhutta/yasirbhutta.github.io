@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "php basics Functions Review Questions"
-description: "Test your understanding of php basics functions with 50+ review questions covering syntax, applications, and best practices. Perfect for exam prep and interview readiness!"
-keywords: php basics review questions, basics function self-assessment, php anonymous functions quiz, basics exam preparation, php functional programming review, basics interview questions, php coding test questions, basics syntax review, php practice test, basics function concepts, php programming assessment, basics debugging questions, php knowledge check, basics use cases review, php technical interview prep
+title: "PHP Basics Review Questions – Test and Strengthen Your PHP Knowledge"
+description: "Review key PHP basics with these carefully crafted questions. Ideal for beginners, students, and interview preparation. Strengthen your core PHP skills today!"
+keywords: PHP basics, PHP review questions, learn PHP, PHP practice questions, PHP quiz for beginners, core PHP concepts, PHP test online, PHP interview prep, PHP questions and answers, PHP revision, PHP beginner exercises, PHP MCQs, PHP study guide, PHP fundamentals
 toc: toc/php.html
 topic: "basics"
 course: "php"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: php basics Debugging Exercises - Find & Fix Mistakes in basics Functions
-description: Sharpen your php skills with hands-on basics debugging exercises. Identify and correct common errors in basics functions with practical examples and solutions.
-keywords: php basics debugging, fix basics mistakes, php error correction exercises, basics function debugging, php code fixing practice, common basics errors, php anonymous function mistakes, basics syntax correction, php debugging exercises, functional programming fixes, php practice problems, basics error detection, php coding challenges, find bugs in basics, php basics best practices
+title: PHP Find and Fix the Mistake Questions – Debug Your PHP Basics
+description: Improve your PHP debugging skills with these find and fix the mistake questions. Ideal for beginners and interview prep. Spot common PHP errors and correct them!.
+keywords: PHP debugging questions, PHP find and fix errors, PHP error correction, PHP basics mistakes, learn PHP, PHP practice questions, PHP troubleshooting, PHP beginner quiz, PHP debug quiz, PHP error spotting, PHP common mistakes, PHP quiz for learners, PHP fix code
 author: Muhammad Yasir Bhutta.
 toc: toc/php.html
 topic: "basics"
