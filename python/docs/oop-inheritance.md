@@ -328,4 +328,5 @@ This example mirrors real-world systems like Shopify or WooCommerce, where inher
 
 ## Further reading
 
-- [What is MRO?](oop-inheritance/what-is-mro.md)
+- [What is Method Resolution Order (MRO) in Python?](oop-inheritance/what-is-mro.md)
+- [Multiple Inheritance in Python: Child Class with More Than One Parent](https://yasirbhutta.github.io/python/docs/oop-inheritance/multiple-inheritance.html)
