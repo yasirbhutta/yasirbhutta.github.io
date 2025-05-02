@@ -87,3 +87,30 @@ account.withdraw(2000)  # Output: Invalid withdrawal amount or insufficient fund
 4. While Python doesn't enforce strict encapsulation, following these conventions makes your code more maintainable and secure
 
 Remember that in Python, encapsulation is more about convention than enforcement. Developers are expected to respect these naming conventions rather than having the language enforce them strictly.
+
+# **Task 1: Create a `Person` Class with Encapsulation**
+
+## **Problem Statement**
+Create a `Person` class with private attributes (`__name`, `__age`) and public methods to safely access and modify them. Ensure that age cannot be set to a negative value.
+
+### **Steps to Solve**
+1. Define the `Person` class with `__init__`.
+2. Make `name` and `age` private using `__`.
+3. Create getter methods (`get_name()`, `get_age()`).
+4. Create setter methods (`set_name()`, `set_age()`) with validation.
+5. Ensure `set_age()` rejects negative values.
+
+
+# **Task 2: Temperature Converter Class**
+
+## **Problem Statement**
+Create a `Temperature` class that stores temperature in **Celsius** (private attribute) and provides methods to get/set Celsius and convert to Fahrenheit.
+
+### **Steps to Solve**
+1. Define the `Temperature` class with `__celsius` as a private attribute.
+2. Create getter (`get_celsius()`) and setter (`set_celsius()`) methods.
+3. Add a method (`get_fahrenheit()`) to convert Celsius to Fahrenheit using:
+   \[
+   \text{Fahrenheit} = \left(\text{Celsius} \times \frac{9}{5}\right) + 32
+   \]
+
