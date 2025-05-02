@@ -91,3 +91,185 @@ $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$
    - KaTeX is faster but has fewer features
 
 Would you like me to provide specific instructions for a particular static site generator you're using with GitHub Pages?
+
+# LaTeX Examples for Beginners
+
+Here's a collection of basic LaTeX examples to help you get started with mathematical typesetting. These examples work in most LaTeX environments including Overleaf, academic papers, and GitHub Pages with MathJax/Katex support.
+
+## Basic Syntax
+
+### 1. Inline vs Display Math
+
+**Inline math** (in a sentence):
+```latex
+Einstein's famous equation is \(E = mc^2\) which relates energy and mass.
+```
+or with dollar signs:
+```latex
+Einstein's famous equation is $E = mc^2$ which relates energy and mass.
+```
+
+**Display math** (centered on its own line):
+```latex
+The quadratic formula is:
+\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+```
+or with double dollar signs:
+```latex
+The quadratic formula is:
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+```
+
+## Common Mathematical Expressions
+
+### 2. Fractions
+```latex
+$\frac{1}{2}$ hour is 30 minutes
+
+Displayed fraction:
+\[ \frac{x+1}{x-1} \]
+```
+
+### 3. Superscripts and Subscripts
+```latex
+$x^2 + y^2 = z^2$
+
+Chemical formula: $H_2O$
+
+Combination: $x_i^{2n}$
+```
+
+### 4. Greek Letters
+```latex
+$\alpha, \beta, \gamma, \Gamma, \pi, \Pi, \Omega$
+```
+
+### 5. Sums, Products, and Integrals
+```latex
+Summation: $\sum_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$
+
+Product: $\prod_{i=1}^n (x_i + 1)$
+
+Integral: $\int_0^1 x^2 \, dx = \frac{1}{3}$
+
+Double integral: $\iint_D f(x,y) \, dx\,dy$
+```
+
+### 6. Matrices
+```latex
+\[
+\begin{matrix}
+a & b \\
+c & d 
+\end{matrix}
+\quad
+\begin{pmatrix}
+a & b \\
+c & d 
+\end{pmatrix}
+\quad
+\begin{bmatrix}
+1 & 2 \\
+3 & 4 
+\end{bmatrix}
+\]
+```
+
+### 7. Cases (Piecewise Functions)
+```latex
+\[
+|x| = 
+\begin{cases} 
+x & \text{if } x \geq 0 \\
+-x & \text{if } x < 0 
+\end{cases}
+\]
+```
+
+## Formatting Text in Math Mode
+
+### 8. Text Inside Equations
+```latex
+\[ \text{Area} = \pi r^2 \text{ where } r \text{ is the radius} \]
+```
+
+### 9. Bold and Special Symbols
+```latex
+$\mathbf{Ax} = \mathbf{b}$ (bold for vectors/matrices)
+
+$\mathbb{R}$ (real numbers), $\mathbb{Z}$ (integers)
+
+$\mathcal{L}$ (Lagrangian), $\mathscr{H}$ (Hamiltonian)
+```
+
+## Aligned Equations
+
+### 10. Equation Alignment
+```latex
+\[
+\begin{align*}
+(x+1)^2 &= (x+1)(x+1) \\
+&= x^2 + x + x + 1 \\
+&= x^2 + 2x + 1
+\end{align*}
+\]
+```
+
+## Common Symbols
+
+### 11. Relational Operators
+```latex
+$=, \neq, \approx, \equiv, \leq, \geq, \subset, \subseteq, \in$
+```
+
+### 12. Arrows
+```latex
+$\rightarrow, \Rightarrow, \leftrightarrow, \Leftrightarrow, \mapsto$
+```
+
+### 13. Dots
+```latex
+$1, 2, \ldots, n$ (horizontal dots)
+
+$\vdots$ (vertical dots)
+
+$\ddots$ (diagonal dots)
+```
+
+## Physics Examples
+
+### 14. Basic Physics Equations
+```latex
+Newton's second law: $\mathbf{F} = m\mathbf{a}$
+
+Schrödinger equation: $i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi$
+
+Maxwell's equations:
+\[
+\begin{aligned}
+\nabla \cdot \mathbf{E} &= \frac{\rho}{\epsilon_0} \\
+\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t}
+\end{aligned}
+\]
+```
+
+## Chemistry Examples
+
+### 15. Chemical Equations
+```latex
+Chemical reaction: $2H_2 + O_2 \rightarrow 2H_2O$
+
+Equilibrium: $A + B \rightleftharpoons C$
+
+Rate equation: $v = k[A]^m[B]^n$
+```
+
+## Tips for Beginners
+
+1. Always match your delimiters (`\( \)`, `$ $`, `\[ \]`)
+2. Use spaces around LaTeX code in text for better readability: `We have $x=1$ and $y=2$`
+3. Escape special characters with backslash: `\{`, `\}`, `\$`
+4. For complex expressions, build them piece by piece
+5. Use online editors like Overleaf to practice
+
+Would you like me to provide examples for any specific mathematical area (calculus, linear algebra, statistics, etc.)?
