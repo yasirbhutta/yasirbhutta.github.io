@@ -58,7 +58,20 @@ numbers[3:]    # [40, 50, 60, 70]
 ```python
 numbers[:5]    # [10, 20, 30, 40, 50]
 ```
+---
 
+## **📺 Video Tutorial: List Slicing** 
+The video explains how to modify a list by replacing multiple elements with a single element. 
+
+**This video covers:**  
+* ✔️ A list called "list1" is created with five integers \[[00:07](http://www.youtube.com/watch?v=uvdT5kczvCg&t=7)\].
+* ✔️ The second, third, and fourth elements of the list (98, 23, and 70) are selected using slice notation \[[00:13](http://www.youtube.com/watch?v=uvdT5kczvCg&t=13)\].
+* ✔️ These elements are replaced with the single element 20 \[[00:23](http://www.youtube.com/watch?v=uvdT5kczvCg&t=23)\].
+* ✔️ The modified list is printed \[[00:29](http://www.youtube.com/watch?v=uvdT5kczvCg&t=29)\].
+
+{% assign video_type = "video" %}
+{% assign video_id = "uvdT5kczvCg" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ## **Tasks**
 

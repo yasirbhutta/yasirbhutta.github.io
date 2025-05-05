@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python List - Creating and Indexing  
-description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
-keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
+title: "Python Lists: Basics, Operations, and Examples"
+description: Learn the fundamentals of Python lists, including creation, manipulation, indexing, and common operations. Explore practical examples and best practices.  
+keywords: Python, lists, basics, tutorial, examples, operations, indexing, programming
 toc: toc/python-toc.html
 prev: /python/docs/tuples/
 next: /python/docs/lists/lists-slicing.html
@@ -66,6 +66,23 @@ Since lists are mutable, you can change an element in a list by assigning a new 
 # Change the first element of the list
 fruits[0] = "orange"
 print(fruits)  # Output: ['orange', 'banana', 'cherry']
+```
+
+## List Operations
+
+```python
+# Concatenation
+new_list = [1, 2] + [3, 4]  # [1, 2, 3, 4]
+
+# Repetition
+repeated = [0] * 3          # [0, 0, 0]
+
+# Membership testing
+if 'a' in my_list:
+    print("Found!")
+
+# Length
+length = len(my_list)       # Number of elements
 ```
 
 ## Iterating Through a List
