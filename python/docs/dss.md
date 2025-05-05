@@ -14,7 +14,7 @@ toc: toc/python-toc.html
   - [Tuple: Methods](tuples/tuples-methods.md)
 - [List in Python](lists/)
   - [List: Creating and Indexing](lists/lists-basics.md)
-  - [List: Slicing and Operations](lists/lists-slicing-operations.md)
+  - [List: Slicing and Operations](lists/lists-slicing.md)
   - [List: Methods](lists/lists-methods.md)
 
 ## Introduction to Python Dictionaries: Concepts, Usage, and Examples
