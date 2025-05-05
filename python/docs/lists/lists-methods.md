@@ -11,6 +11,8 @@ next: /python/docs/sets/
 ## Table of Contents
 
 - [Common List Methods](#common-list-methods)
+- More Methods ...
+  - [List Index() Method](index-method.md)
 
 ## Common List Methods
 
