@@ -95,9 +95,6 @@ for fruit in fruits:
 
 ## **📺 Video Tutorial: 6 Ways to use List in For loop in Python**  
 **This video covers:**  
-
-This video covers six ways to use lists in for loops in Python:
-
 * ✔️ The basic method for printing the values of a list \[[00:08](http://www.youtube.com/watch?v=-FErgsl9njQ&t=8)\].
 * ✔️ Accessing the index and values of a list \[[00:50](http://www.youtube.com/watch?v=-FErgsl9njQ&t=50)\].
 * ✔️ Modifying elements within a list \[[01:29](http://www.youtube.com/watch?v=-FErgsl9njQ&t=89)\].
