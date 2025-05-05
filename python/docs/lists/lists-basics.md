@@ -87,11 +87,11 @@ for fruit in fruits:
   - Negative indexing (list[-1] for the last item) 
 - ✔️ length of the list.  
 
-```liquid
+
 {% assign video_type = "video" %}
 {% assign video_id = "LKZmCAL92pI" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
-```
+
 
 ## ✅ Tasks
 
@@ -123,18 +123,25 @@ Updated List: ['Yellow', 'Blue', 'Green']
 
 ---
  
-### **Task 3: Creating and Accessing a List**  
-Write a Python program that:  
-- Creates a list of **five favorite movies**.  
-- Prints the **entire list**.  
-- Accesses and prints the **third movie** in the list using indexing.  
-- Changes the **last movie** in the list to a new movie.  
-- Prints the updated list.  
+Here is the regenerated **Task 3** using Islamic boys' names instead of movie titles:
 
-**Example Output:**  
+---
+
+### **Task 3: Creating and Accessing a List**
+
+Write a Python program that:
+
+* Creates a list of **five Islamic boys' names**.
+* Prints the **entire list**.
+* Accesses and prints the **third name** in the list using indexing.
+* Changes the **last name** in the list to a new name.
+* Prints the updated list.
+
+**Example Output:**
+
 ```
-Original List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'Joker']
-Third movie: Avatar
-Updated List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'The Dark Knight']
+Original List: ['Ahmed', 'Hassan', 'Omar', 'Yusuf', 'Zayd']
+Third name: Omar
+Updated List: ['Ahmed', 'Hassan', 'Omar', 'Yusuf', 'Bilal']
 ```
 
