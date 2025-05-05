@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Understanding Python Lambda Functions: A Comprehensive Guide"
+title: "Understanding Python Lambda Functions: A Comprehensive Guide | Python for Beginners"
 description: Learn how to use Python lambda functions with this detailed guide. Discover syntax, examples, and use cases to enhance your programming skills.
-keywords: Python lambda functions, lambda function tutorial, Python programming, lambda function examples, Python syntax, functional programming in Python
+keywords: Python lambda functions, lambda function tutorial, Python programming, lambda function examples, Python syntax, functional programming in Python,Python for Beginners, python tutorial for beginners 
 toc: toc/python-toc.html
 course: python
 topic: "lambda"

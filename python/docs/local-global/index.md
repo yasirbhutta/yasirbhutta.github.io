@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Local and Global Variables in Python: Explained with Examples and Tasks"
+title: "Local and Global Variables in Python: Explained with Examples and Tasks | Python for Beginners"
 description: Learn the difference between local and global variables in Python with simple explanations, practical examples, and beginner-friendly tasks. Understand constants, best practices, and how to manage variables effectively in your programs.
-keywords: local variables in Python, global variables in Python, Python constants, Python variable examples, Python beginner tasks, Python global keyword, Python local vs global variables, Python programming basics, how to use variables in Python, Python coding exercises
+keywords: local variables in Python, global variables in Python, Python constants, Python variable examples, Python beginner tasks, Python global keyword, Python local vs global variables, Python programming basics, how to use variables in Python, Python coding exercises, Python for Beginners, python tutorial for beginners
 toc: toc/python-toc.html
 course: python
 topic: "local-global"
