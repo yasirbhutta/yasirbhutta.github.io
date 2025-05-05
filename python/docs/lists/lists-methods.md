@@ -100,25 +100,56 @@ print(fruits)  # Output: ['Apple', 'Mango', 'banana', 'orange']
 
 For more details on sorting, see [Sorting Techniques in Python - Sorting How To](../sorting.md)
 
-## Example: Using Lists in a Simple Program
+## Example: Real-World Uses of Python List Common Methods: Managing Tasks & Organizing Data
 
-```python
-# Creating a shopping list
-shopping_list = ["milk", "eggs", "bread"]
+### 1. **`append(item)` – Adding a new task to a to-do list**  
+   - **Scenario:** You have a to-do list, and you want to add a new task at the end.  
+   - **Code Example:**  
+     ```python
+     todo_list = ["Buy groceries", "Finish report"]
+     todo_list.append("Call mom")
+     print(todo_list)  # Output: ["Buy groceries", "Finish report", "Call mom"]
+     ```
 
-# Adding items to the list
-shopping_list.append("butter")
-shopping_list.append("apples")
+### 2. **`insert(index, item)` – Adding an emergency task at a specific position**  
+   - **Scenario:** Your to-do list has tasks, but an urgent meeting comes up, so you insert it at the top.  
+   - **Code Example:**  
+     ```python
+     todo_list = ["Buy groceries", "Finish report"]
+     todo_list.insert(0, "Attend emergency meeting")
+     print(todo_list)  # Output: ["Attend emergency meeting", "Buy groceries", "Finish report"]
+     ```
 
-# Removing an item
-shopping_list.remove("eggs")
+### 3. **`remove(item)` – Removing a completed task**  
+   - **Scenario:** You finished "Buy groceries," so you remove it from the list.  
+   - **Code Example:**  
+     ```python
+     todo_list = ["Buy groceries", "Finish report", "Call mom"]
+     todo_list.remove("Buy groceries")
+     print(todo_list)  # Output: ["Finish report", "Call mom"]
+     ```
 
-# Printing the final list
-print("Final shopping list:", shopping_list)
+### 4. **`pop(index)` – Removing the last task (or a specific one)**  
+   - **Scenario:** You decide to drop the last task (or a task at a given position).  
+   - **Code Example:**  
+     ```python
+     todo_list = ["Finish report", "Call mom", "Pay bills"]
+     last_task = todo_list.pop()  # Removes & returns "Pay bills"
+     print(todo_list)  # Output: ["Finish report", "Call mom"]
+     
+     # Removing a task at index 0
+     first_task = todo_list.pop(0)  # Removes & returns "Finish report"
+     print(todo_list)  # Output: ["Call mom"]
+     ```
 
-# Output:
-# Final shopping list: ['milk', 'bread', 'butter', 'apples']
-```
+### 5. **`sort()` – Sorting a list of names alphabetically**  
+   - **Scenario:** You have a list of attendees for an event and want to sort them alphabetically.  
+   - **Code Example:**  
+     ```python
+     attendees = ["Zara", "Alice", "Bob", "Eve"]
+     attendees.sort()
+     print(attendees)  # Output: ["Alice", "Bob", "Eve", "Zara"]
+     ```
 
 ## Tasks
 
@@ -176,12 +207,10 @@ except IndexError:
 
 ### [Index() Method - To find the position of the first occurrence](index-method.md)
 
-
 ## Further reading
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 - [Check if Data Structure is Empty Using 'not' Operator](https://www.youtube.com/watch?v=K4WUapBO_E0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 - [Remove duplicate elements from a list](https://www.youtube.com/watch?v=RekQ2j4yzIQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=1)
-
 
 ## References
 
