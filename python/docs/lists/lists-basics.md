@@ -9,13 +9,13 @@ next: /python/docs/lists/lists-slicing.html
 ---
 
 ## Table of Contents
-1. Introduction to Lists
-2. Characteristics of Lists
-3. Creating a List
-4. Accessing Elements
-5. Modifying Elements
-6. Iterating Through a List
-7. Practice Tasks
+1. [Introduction to Lists](#introduction)
+2. [Characteristics of Lists](#key-characteristics-of-lists)
+3. [Creating a List](#creating-a-list)
+4. [Accessing Elements](#creating-a-list)
+5. [Modifying Elements](#modifying-elements-in-a-list-using-index)
+6. [Iterating Through a List](#iterating-through-a-list)
+7. [Practice Tasks](#-tasks)
 
 
 ## Introduction

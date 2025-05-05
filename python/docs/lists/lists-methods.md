@@ -56,10 +56,27 @@ print(fruits)  # Output:  ['Apple', 'Mango', 'Orange']
 del fruits[0]
 print(fruits)  # Output:  ['Mango', 'Orange']
 ```
+## **📺 Video Tutorial: Adding and Removing Elements from a Python List**  
+**This video covers:**  
+* ✔️ Adding elements to a list using the `append` \[[00:22](http://www.youtube.com/watch?v=x98wvk-4MHw&t=22)\] and `insert` \[[00:35](http://www.youtube.com/watch?v=x98wvk-4MHw&t=35)\] methods.
+* ✔️ Comparing the performance of `append` and `insert` \[[00:52](http://www.youtube.com/watch?v=x98wvk-4MHw&t=52)\].
+* ✔️ Removing elements from a list using the `remove` \[[01:24](http://www.youtube.com/watch?v=x98wvk-4MHw&t=84)\] and `pop` \[[01:45](http://www.youtube.com/watch?v=x98wvk-4MHw&t=105)\] methods.
+* ✔️ Demonstrating how `pop` removes and returns elements \[[01:50](http://www.youtube.com/watch?v=x98wvk-4MHw&t=110)\], including the last item when no index is specified \[[02:34](http://www.youtube.com/watch?v=x98wvk-4MHw&t=154)\].
 
-- [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
+{% assign video_type = "video" %}
+{% assign video_id = "x98wvk-4MHw" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
-- [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+## **📺 Video Tutorial: List pop() Method**  
+**This video covers:**  
+* ✔️ A list of colors as an example \[[00:00](http://www.youtube.com/watch?v=S6HkdH4Xnog&t=0)\].
+* ✔️ The `pop` method removes the last item in a list by default and displays it \[[00:38](http://www.youtube.com/watch?v=S6HkdH4Xnog&t=38)\].
+* ✔️ Remove an item at a specific index by specifying it in the `pop` method \[[00:46](http://www.youtube.com/watch?v=S6HkdH4Xnog&t=46)\].
+
+{% assign video_type = "video" %}
+{% assign video_id = "S6HkdH4Xnog" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ### Sorting Elements in a List
 You can sort elements in a list using the `sort()` method.
