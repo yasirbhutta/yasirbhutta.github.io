@@ -4,6 +4,8 @@ title: Python List - Creating and Indexing
 description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
 keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
 toc: toc/python-toc.html
+prev: /python/docs/tuples/
+next: /python/docs/lists/lists-slicing.html
 ---
 
 ## Table of Contents
@@ -92,6 +94,7 @@ for fruit in fruits:
 {% assign video_id = "LKZmCAL92pI" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
+---
 
 ## **📺 Video Tutorial: 6 Ways to use List in For loop in Python**  
 **This video covers:**  
@@ -107,6 +110,7 @@ for fruit in fruits:
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ---
+
 ## ✅ Tasks
 
 ### **Task 1: Creating a List**  

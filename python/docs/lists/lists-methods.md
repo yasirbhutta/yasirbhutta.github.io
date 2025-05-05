@@ -4,61 +4,37 @@ title: Python List - Methods
 description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
 keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
 toc: toc/python-toc.html
+prev: /python/docs/lists/lists-slicing.html
+next: /python/docs/sets/
 ---
 
 ## Table of Contents
 
-- [Common List Methods]
+- [Common List Methods](#common-list-methods)
 
 ## Common List Methods
-
-```python
-fruits = ["apple", "banana", "cherry"]
-
-# Add an item to the end
-fruits.append("orange")  
-
-# Insert at a specific position
-fruits.insert(1, "grape")  
-
-# Remove an item
-fruits.remove("banana")  
-
-# Remove and return the last item
-last_fruit = fruits.pop()  
-
-# Sort the list
-fruits.sort()  
-```
-
-### 5. **Introduce Common List Methods**
-Helps expand learner understanding.
-
-```markdown
-## Useful List Methods
 
 - `append(item)` – Adds an item to the end  
 - `insert(index, item)` – Adds item at specific index  
 - `remove(item)` – Removes the first matching item  
 - `pop(index)` – Removes item at given index (default is last)
-
-```python
-colors = ["red", "blue"]
-colors.append("green")
-print(colors)  # Output: ['red', 'blue', 'green']
+- `sort()` - Sort the list
 
 
-## Adding Elements to a List
+### Adding Elements to a List
 You can add elements to a list using methods like `append()` or `insert()`.
 
 ```python
+
+fruits = ['Apple', 'Banana', 'Mango', 'Orange']
+
 # Append an element to the end of the list
-fruits.append("grape")
-print(fruits)  # Output: ['orange', 'banana', 'cherry', 'grape']
+fruits.append("Grape")
+print(fruits)  # Output: ['Apple', 'Banana', 'Mango', 'Orange', 'Grape']
 
 # Insert an element at a specific position
-fruits.insert(1, "mango")
-print(fruits)  # Output: ['orange', 'mango', 'banana', 'cherry', 'grape']
+fruits.insert(1, "Orange")
+print(fruits)  # Output: ['Apple', 'Orange', 'Banana', 'Mango', 'Orange', 'Grape']
 ```
 
 ### Removing Elements from a List
@@ -66,22 +42,49 @@ Elements can be removed from a list using methods like `remove()`, `pop()`, or `
 
 ```python
 # Remove a specific element by value
-fruits.remove("banana")
-print(fruits)  # Output: ['orange', 'mango', 'cherry', 'grape']
+fruits.remove("Banana")
+print(fruits)  # Output: ['Apple', 'Orange', 'Mango', 'Orange', 'Grape']
+
+# Remove last element by using pop
+fruits.pop() # Output: ['Apple', 'Orange', 'Mango', 'Orange']
 
 # Remove an element by index using pop
-fruits.pop(2)
-print(fruits)  # Output: ['orange', 'mango', 'grape']
+fruits.pop(1)
+print(fruits)  # Output:  ['Apple', 'Mango', 'Orange']
 
 # Remove an element by index using del
 del fruits[0]
-print(fruits)  # Output: ['mango', 'grape']
+print(fruits)  # Output:  ['Mango', 'Orange']
 ```
 
 - [Adding and Removing Elements from a Python List](https://www.youtube.com/watch?v=x98wvk-4MHw&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=76)
 
-### Example: Using Lists in a Simple Program
-Here’s a simple example to illustrate the use of lists in a practical scenario:
+- [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
+
+### Sorting Elements in a List
+You can sort elements in a list using the `sort()` method.
+
+```python
+numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+fruits = ['Apple', 'banana', 'Mango', 'orange']
+
+# Sort a list in ascending order (modifies the original list)
+numbers.sort()
+print(numbers)  # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+
+# Sort a list in descending order
+numbers.sort(reverse=True)
+print(numbers)  # Output: [9, 6, 5, 5, 4, 3, 2, 1, 1]
+
+# Case-sensitive sort (ASCII order: uppercase comes before lowercase)
+fruits.sort()
+print(fruits)  # Output: ['Apple', 'Mango', 'banana', 'orange']
+
+```
+
+For more details on sorting, see [Sorting Techniques in Python - Sorting How To](../sorting.md)
+
+## Example: Using Lists in a Simple Program
 
 ```python
 # Creating a shopping list
@@ -101,7 +104,26 @@ print("Final shopping list:", shopping_list)
 # Final shopping list: ['milk', 'bread', 'butter', 'apples']
 ```
 
-### **Task 11: Adding to a List**  
+## Tasks
+
+### **Task 1: Using List Methods**  
+Write a Python program that:  
+- Creates a list of **three programming languages**.  
+- Adds a new language using `append()`.  
+- Inserts another language at the second position using `insert()`.  
+- Removes the last language using `pop()`.  
+- Prints the final list.  
+
+**Example Output:**  
+```
+Initial List: ['Python', 'Java', 'C++']
+After Append: ['Python', 'Java', 'C++', 'JavaScript']
+After Insert: ['Python', 'Ruby', 'Java', 'C++', 'JavaScript']
+After Pop: ['Python', 'Ruby', 'Java', 'C++']
+```
+---
+
+### **Task 1: Adding to a List**  
 Write a Python program that:  
 - Creates an empty list.  
 - Asks the user to enter **three city names** and adds them to the list.  
@@ -121,24 +143,7 @@ Cities: ['Paris', 'London', 'Tokyo']
 
 ---
 
-### **Task 4: Using List Methods**  
-Write a Python program that:  
-- Creates a list of **three programming languages**.  
-- Adds a new language using `append()`.  
-- Inserts another language at the second position using `insert()`.  
-- Removes the last language using `pop()`.  
-- Prints the final list.  
-
-**Example Output:**  
-```
-Initial List: ['Python', 'Java', 'C++']
-After Append: ['Python', 'Java', 'C++', 'JavaScript']
-After Insert: ['Python', 'Ruby', 'Java', 'C++', 'JavaScript']
-After Pop: ['Python', 'Ruby', 'Java', 'C++']
-```
-
-
-#### **5. Include Error Handling Tips**
+### **Include Error Handling Tips**
 - Mention common mistakes (e.g., `IndexError` when accessing out-of-range indices).
 - Suggest using `len(list)` to check list length.
 
@@ -151,11 +156,10 @@ except IndexError:
     print("Index out of range!")
 ```
 
+## More Methods
 
 
 - [List Index Function: Find the Index of an Element in a List](https://www.youtube.com/watch?v=thYJRk4huGE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41)
-- [List pop() Method](https://www.youtube.com/watch?v=S6HkdH4Xnog&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=84)
-
 
 - [Python Nested List](https://www.youtube.com/watch?v=BOIn5oW868A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=111)
 - [How to modify a list by replacing multiple elements with a single element](https://www.youtube.com/watch?v=uvdT5kczvCg&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=80)
