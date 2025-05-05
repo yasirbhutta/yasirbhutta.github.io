@@ -1,15 +1,32 @@
 ---
 layout: page
-title: Python List - Comprehensive Guide with Examples and Exercises  
+title: Python List - Creating and Indexing  
 description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
 keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
 toc: toc/python-toc.html
 ---
 
+## Table of Contents
+1. Introduction to Lists
+2. Characteristics of Lists
+3. Creating a List
+4. Accessing Elements
+5. Modifying Elements
+6. Iterating Through a List
+7. Practice Tasks
+
+
+## Introduction
+
 - A **list** in Python is one of the most commonly used data structures. It allows you to store a collection of items (which can be of different types) in a single variable. Lists are very flexible and easy to use, making them a great tool for beginners to understand.
 
-**Creating a List**
+### Key Characteristics of Lists:
+1. **Ordered**: The items in a list have a specific order, and this order will not change unless explicitly modified.
+2. **Mutable**: You can change, add, or remove items after the list has been created.
+3. **Heterogeneous**: A list can contain different data types, such as integers, strings, and even other lists.
+4. **Indexed**: Each item in a list has an index, starting from `0` for the first item.
 
+## Creating a List
 You can create a list by placing items inside square brackets `[]`, separated by commas.
 
 ```python
@@ -26,8 +43,7 @@ mixed_list = [1, "hello", 3.14, True]
 empty_list = []
 ```
 
-**Accessing Elements in a List**
-
+## Accessing Elements in a List using Index
 You can access individual elements in a list using their index.
 
 ```python
@@ -41,8 +57,7 @@ print(fruits[1])  # Output: banana
 print(fruits[-1])  # Output: cherry
 ```
 
-**Modifying Elements in a List**
-
+## Modifying Elements in a List using Index
 Since lists are mutable, you can change an element in a list by assigning a new value to a specific index.
 
 ```python
@@ -51,7 +66,36 @@ fruits[0] = "orange"
 print(fruits)  # Output: ['orange', 'banana', 'cherry']
 ```
 
-### **Task 9: Creating a List**  
+## Iterating Through a List
+You can use a loop to iterate through all the elements in a list.
+
+```python
+# Print each fruit in the list
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+# mango
+# grape
+```
+
+## **📺 Video Tutorial: Lists in Python**  
+**This video covers:**  
+- ✔️ How to **create** lists.  
+- ✔️ Accessing List Elements
+  - Positive indexing (list[0] for the first item)
+  - Negative indexing (list[-1] for the last item) 
+- ✔️ length of the list.  
+
+```liquid
+{% assign video_type = "video" %}
+{% assign video_id = "LKZmCAL92pI" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+```
+
+## ✅ Tasks
+
+### **Task 1: Creating a List**  
 Write a Python program that:  
 - Creates a list of **four favorite foods**.  
 - Prints the **entire list**.  
@@ -65,7 +109,7 @@ Second food: Burger
 
 ---
 
-### **Task 10: Changing an Item in a List**  
+### **Task 2: Changing an Item in a List**  
 Write a Python program that:  
 - Creates a list with **three colors**.  
 - Changes the **first color** to a new one.  
@@ -78,29 +122,8 @@ Updated List: ['Yellow', 'Blue', 'Green']
 ```
 
 ---
-
-### **Task 11: Adding to a List**  
-Write a Python program that:  
-- Creates an empty list.  
-- Asks the user to enter **three city names** and adds them to the list.  
-- Prints the final list.  
-
-**Example Input:**  
-```
-Enter a city: Paris  
-Enter a city: London  
-Enter a city: Tokyo  
-```
-
-**Example Output:**  
-```
-Cities: ['Paris', 'London', 'Tokyo']
-```
-
----
-
-
-### **Task 16: Creating and Accessing a List**  
+ 
+### **Task 3: Creating and Accessing a List**  
 Write a Python program that:  
 - Creates a list of **five favorite movies**.  
 - Prints the **entire list**.  
@@ -114,3 +137,4 @@ Original List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'Joker']
 Third movie: Avatar
 Updated List: ['Inception', 'Titanic', 'Avatar', 'Interstellar', 'The Dark Knight']
 ```
+
