@@ -1,3 +1,15 @@
+---
+layout: page
+title: "PHP switch Statement"
+description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
+keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+toc: toc/php.html
+course: php
+topic: "control-flow"
+mini_project: true
+prev: /php/docs/if-else/
+next: /php/docs/loops-for/
+---
 
 ## switch statement
 

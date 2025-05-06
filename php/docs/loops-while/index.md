@@ -7,7 +7,8 @@ toc: toc/php.html
 course: php
 topic: "control-flow"
 mini_project: true
-next: /php/docs/basics/what-is-php.html
+prev: /php/docs/loops-foreach/
+next: /php/docs/loops-do-while/
 ---
 
 ### while Statement
