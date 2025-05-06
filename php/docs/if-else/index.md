@@ -20,14 +20,14 @@ next: /php/docs/switch/
 ### Syntax - if Statement
 
 ```php
->if (expr)  
+if (expr)  
   statement
 ```
 
 ### Syntax - if-elseif-else Statement
 
 ```php
-> if (condition) {  
+if (condition) {  
     code to be executed if this condition is true;  
 } elseif (condition) {  
     code to be executed if this condition is true;  
