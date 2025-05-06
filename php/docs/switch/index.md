@@ -1,56 +1,61 @@
-### switch statement
 
-- The switch statement is similar to a series of IF statements on the same expression.
-- In many occasions, you may want to compare the same variable (or expression) with many different values, and execute a different piece of code depending on which value it equals to. This is exactly what the switch statement is for.
+## switch statement
 
-#### Example #1 switch structure
+- The PHP switch statement is a control structure that allows you to execute different blocks of code based on the value of a variable or expression. It's a cleaner alternative to multiple if-else statements when dealing with numerous conditions. ([Codecademy][1])
 
-```php
-<?php
-// This switch statement:
-
-switch ($i) {
-    case 0:
-        echo "i equals 0";
-        break;
-    case 1:
-        echo "i equals 1";
-        break;
-    case 2:
-        echo "i equals 2";
-        break;
-}
-
-// Is equivalent to:
-
-if ($i == 0) {
-    echo "i equals 0";
-} elseif ($i == 1) {
-    echo "i equals 1";
-} elseif ($i == 2) {
-    echo "i equals 2";
-}
-?>
-```
-
-#### Example #2 switch example
+**Syntax:**
 
 ```php
-<?php
-switch ($i) {
-    case 0:
-        echo "i equals 0";
-    case 1:
-        echo "i equals 1";
-    case 2:
-        echo "i equals 2";
+switch ($variable) {
+    case 'value1':
+        // Code to execute if $variable == 'value1'
+        break;
+    case 'value2':
+        // Code to execute if $variable == 'value2'
+        break;
+    default:
+        // Code to execute if $variable doesn't match any case
 }
-?>
 ```
+
+**Key points:**
+
+* **Evaluation:** The expression inside the switch is evaluated once.
+* **Case Matching:** Each case is compared to the switch expression using loose comparison (`==`).
+* **Break Statement:** The `break` keyword prevents the code from running into the next case. Omitting `break` can lead to unintended fall-through behavior.
+* **Default Case:** The `default` case is executed if no matching case is found. It's good practice to include it to handle unexpected values.([W3Schools.com][2], [DEV Community][3], [Stack Overflow][4])
+
+**Example:**
+
+```php
+$day = 'Monday';
+
+switch ($day) {
+    case 'Monday':
+        echo "Start of the work week.";
+        break;
+    case 'Friday':
+        echo "End of the work week.";
+        break;
+    default:
+        echo "Midweek days.";
+}
+```
+
+
+
+In this example, if `$day` is 'Monday', it will output "Start of the work week." If it's 'Friday', it will output "End of the work week." For any other value, it will output "Midweek days."([Wikipedia][5])
+
+**Best Practices:**
+
+* **Use `break` Statements:** Always include `break` statements to prevent fall-through unless intentionally desired.
+* **Default Case:** Include a `default` case to handle unexpected values.
+* **Avoid Complex Expressions:** Keep case expressions simple to maintain readability.
+* **Consistent Syntax:** Stick to a consistent syntax style (either colons or semicolons) for clarity.([TutorialsPoint][6], [Wikipedia][5])
 
 The statement list for a case can also be empty, which simply passes control into the statement list for the next case.
 
-#### Example #3 switch with empty case example
+### Example #2 switch with empty case example
 
 ```php
 <?php
@@ -65,14 +70,17 @@ switch ($i) {
 }
 ?>
 ```
-for **explanation** of the example, see [Switch-Case Example in PHP: Handling Multiple Cases Together](switch/solutions/switch-example3.md)
+
+**Explanation:** To understand how this example works in detail, see [Switch-Case Example in PHP: Handling Multiple Cases Together](switch/solutions/switch-example3.md).
 
 A special case is the default case. This case matches anything that wasn't matched by the other cases. For example:
 
-#### Example #4 default case
+### Example #3 default case
 
 ```php
 <?php
+
+$i = 1
 switch ($i) {
     case 0:
         echo "i equals 0";
@@ -89,56 +97,7 @@ switch ($i) {
 ?>
 ```
 
-A case value may be given as an expression. However, that expression will be evaluated on its own and then loosely compared with the switch value. That means it cannot be used for complex evaluations of the switch value. For example:
-
-#### Example #5 switch example
-
-```php
-<?php
-$target = 1;
-$start = 3;
-
-switch ($target) {
-    case $start - 1:
-        print "A";
-        break;
-    case $start - 2:
-        print "B";
-        break;
-    case $start - 3:
-        print "C";
-        break;
-    case $start - 4:
-        print "D";
-        break;
-}
-
-// Prints "B"
-?>
-```
-
-It's possible to use a semicolon instead of a colon after a case like:
-
-#### Example #6 switch example
-
-```php
-<?php
-switch($equipments)
-{
-    case 'keyboard';
-    case 'mouse';
-    case 'motherboard';
-    case 'speaker';
-        echo 'Good choice';
-        break;
-    default;
-        echo 'Please make a new selection...';
-        break;
-}
-?>
-```
-
-#### Example #7 switch example
+### Example #4 switch example
 
 ```php
 <!DOCTYPE html>
@@ -168,10 +127,16 @@ switch ($favcolor) {
 }
 ?>
 </body>
-
 </html>
 ```
 
-further reading:
+For more detailed information, refer to the [PHP Manual on switch statements](https://www.php.net/manual/en/control-structures.switch.php).
 
-- [switch - Manual - PHP](https://www.php.net/manual/en/control-structures.switch.php)
+## References and Bibliography
+
+[1]: https://www.codecademy.com/resources/docs/php/switch?utm_source=chatgpt.com "Switch - PHP - Codecademy"
+[2]: https://www.w3schools.com/php/php_switch.asp?utm_source=chatgpt.com "PHP switch Statement - W3Schools"
+[3]: https://dev.to/klnjmm/be-careful-about-the-switch-statement-in-php-d8d?utm_source=chatgpt.com "Be careful about the switch statement in PHP - DEV Community"
+[4]: https://stackoverflow.com/questions/37881440/switch-case-statement-in-php?utm_source=chatgpt.com "Switch case statement in PHP - Stack Overflow"
+[5]: https://en.wikipedia.org/wiki/PHP_syntax_and_semantics?utm_source=chatgpt.com "PHP syntax and semantics"
+[6]: https://www.tutorialspoint.com/php/php_switch_statement.htm?utm_source=chatgpt.com "PHP Switch Statement - Tutorialspoint"
