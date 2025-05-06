@@ -134,9 +134,9 @@ For more detailed information, refer to the [PHP Manual on switch statements](ht
 
 ## References and Bibliography
 
-[1]: https://www.codecademy.com/resources/docs/php/switch?utm_source=chatgpt.com "Switch - PHP - Codecademy"
-[2]: https://www.w3schools.com/php/php_switch.asp?utm_source=chatgpt.com "PHP switch Statement - W3Schools"
-[3]: https://dev.to/klnjmm/be-careful-about-the-switch-statement-in-php-d8d?utm_source=chatgpt.com "Be careful about the switch statement in PHP - DEV Community"
-[4]: https://stackoverflow.com/questions/37881440/switch-case-statement-in-php?utm_source=chatgpt.com "Switch case statement in PHP - Stack Overflow"
-[5]: https://en.wikipedia.org/wiki/PHP_syntax_and_semantics?utm_source=chatgpt.com "PHP syntax and semantics"
-[6]: https://www.tutorialspoint.com/php/php_switch_statement.htm?utm_source=chatgpt.com "PHP Switch Statement - Tutorialspoint"
+[1]: https://www.codecademy.com/resources/docs/php/switch "Switch - PHP - Codecademy"
+[2]: https://www.w3schools.com/php/php_switch.asp "PHP switch Statement - W3Schools"
+[3]: https://dev.to/klnjmm/be-careful-about-the-switch-statement-in-php-d8d "Be careful about the switch statement in PHP - DEV Community"
+[4]: https://stackoverflow.com/questions/37881440/switch-case-statement-in-php "Switch case statement in PHP - Stack Overflow"
+[5]: https://en.wikipedia.org/wiki/PHP_syntax_and_semantics "PHP syntax and semantics"
+[6]: https://www.tutorialspoint.com/php/php_switch_statement.htm "PHP Switch Statement - Tutorialspoint"
