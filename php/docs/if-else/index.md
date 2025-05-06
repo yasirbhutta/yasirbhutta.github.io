@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PHP if Statements"
+title: "PHP if else Statement Explained with Syntax & Examples"
 description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
-keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+keywords: PHP if else, PHP conditional statements, PHP if statement syntax, PHP if else examples, PHP elseif tutorial, PHP control structures, Learn PHP basics
 toc: toc/php.html
 course: php
 topic: "control-flow"
@@ -11,20 +11,23 @@ prev: /php/docs/control-flow.html
 next: /php/docs/switch/
 ---
 
-## if Statement
+## What is an if else Statement in PHP?
 
 - The if construct is one of the most important features of many languages, PHP included.
 - It allows for conditional execution of code fragments. PHP features an if structure that is similar to that of C.
 - If statements can be nested infinitely within other if statements, which provides you with complete flexibility for conditional execution of the various parts of your program.
 
-### Syntax - if Statement
+## PHP if else Syntax
 
 ```php
-if (expr)  
-  statement
+if (condition) {
+    // code to execute if condition is true
+} else {
+    // code to execute if condition is false
+}
 ```
 
-### Syntax - if-elseif-else Statement
+## Syntax - if-elseif-else Statement
 
 ```php
 if (condition) {  
@@ -38,12 +41,17 @@ if (condition) {
 
 The following example would display a is bigger than b if $a is bigger than $b:
 
-### Example #1 if example
+## Example #1: Using elseif in PHP
 
 ```php
 <?php
-if ($a > $b)
-  echo "a is bigger than b";
+if ($a > $b) {
+    echo "a is greater than b";
+} elseif ($a == $b) {
+    echo "a is equal to b";
+} else {
+    echo "a is less than b";
+}
 ?>
 ```
 

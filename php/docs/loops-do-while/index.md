@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PHP do-while Statement"
-description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
-keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+title: "PHP do...while Loop Explained with Syntax & Examples"
+description: Learn how the do...while loop works in PHP. Discover its syntax, how it differs from while, and view practical examples to master this loop construct.
+keywords: php do while loop, php do while syntax, php loops tutorial, php loop examples, php control structures, php do while vs while, php programming, php docs
 toc: toc/php.html
 course: php
 topic: "control-flow"

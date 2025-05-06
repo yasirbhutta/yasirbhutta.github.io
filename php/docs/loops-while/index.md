@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PHP while Statement"
-description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
-keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+title: "PHP while Loop Guide with Syntax and Examples"
+description: Understand the while loop in PHP for repeated execution based on conditions. Includes syntax, examples, and tips to write cleaner looping logic in PHP.
+keywords: php while loop, php loops tutorial, while loop syntax php, php programming basics, php control structures, php documentation, php while loop examples
 toc: toc/php.html
 course: php
 topic: "control-flow"

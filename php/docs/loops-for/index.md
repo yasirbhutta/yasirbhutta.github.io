@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PHP for Statement"
-description: Learn PHP basics with this beginner-friendly guide. Understand PHP syntax, variables, functions, and more to start building dynamic web applications.
-keywords: PHP basics, PHP tutorial, PHP for beginners, PHP syntax, PHP variables, PHP functions, learn PHP, PHP fundamentals, PHP programming
+title: "PHP for Loop Tutorial with Syntax and Examples"
+description: Master the for loop in PHP to execute code repeatedly with control. Explore syntax, practical examples, and best practices for efficient PHP programming.
+keywords: php for loop, php loop examples, php loops tutorial, php for loop syntax, php programming, control structures in php, php docs, how to use for loop in php
 toc: toc/php.html
 course: php
 topic: "control-flow"
