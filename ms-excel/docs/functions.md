@@ -22,25 +22,25 @@ toc: toc/ms-excel-toc.html
 - [Cell References](functions/cell-references.md)
 - [What is Function and Its Structure](functions/what-is-functions.md)
 - Most popluar functions
-  - [sum](functions/sum.md)
+  - [SUM function](functions/sum.md)
     - [Use AutoSum to sum numbers]
-  - [sumif](functions/sumif.md)
+  - [SUMIF function](functions/sumif.md)
   - Statistical functions
-    - [max and min](functions/max-min.md)
-    - [average](functions/average.md)
+    - [MAX and MIN functions](functions/max-min.md)
+    - [AVERAGE function](functions/average.md)
   - Count functions
-    - [count and counta](functions/count-counta.md)
-    - [countif](functions/countif.md)
-  - [power](functions/power.md)
-  - [product](functions/product.md)
+    - [COUNT and COUNTA functions](functions/count-counta.md)
+    - [COUNTIF function](functions/countif.md)
+  - [POWER function](functions/power.md)
+  - [PRODUCT function](functions/product.md)
   - [Use of cell references in a formula](functions/how-to-cell-reference.md)
   - [DATE functions (TODAY, NOW, DATE)](functions/date-time.md)
   - Text manipulation functions
     - [Functions Change the case of text](functions/text-change-case.md) 
-    - [LEN and LENB](functions/average.md)
-    - [Cancat](functions/concat.md)
+    - [LEN and LENB functions](functions/average.md)
+    - [CONCAT function](functions/concat.md)
   - Logical Functions
-    - [IF](functions/if.md)
+    - [IF function](functions/if.md)
 - [Formula Errors](functions/formula-errors.md)
 - [New functions - Microsoft 365](functions/new-functions-365.md)
 - [More Functions](functions/more-functions.md)
