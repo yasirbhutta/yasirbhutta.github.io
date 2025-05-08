@@ -12,5 +12,6 @@
 - [Video Tutorial: Generate a sequence end with text - Microsoft Excel](https://youtu.be/urzWGZDpGGk?si=WGFdphwk0dSXT6XE)
 - [Video Tutorial: Format numbers as TEXT in Microsoft Excel](https://youtu.be/9-ldmZ3Z8Iw?si=q95ulIUXbHdmQxjs)
 - [Video Tutorial: Append data from multiple sheets into one sheet - Microsoft Excel](https://youtu.be/RjALEkatPEk?si=Mnsiz78dypUVokJm)
-
 - [Video Tutorial: Excel Mobile | TOP 25 Tips to use Excel Mobile App - Microsoft 365](https://youtu.be/y9m36XLI4v4?si=iRfz-u-Np3SdgE_J)
+- [round function](round.md)
+- [rand function](rand.md)

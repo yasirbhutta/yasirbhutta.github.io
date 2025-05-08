@@ -140,25 +140,7 @@ The IF function is used to perform conditional logic in Excel. It can be used to
     3.  **Sum of all values**  
     4.  **Average value**  
    
-### Excercises
 
-**Excercise:**
-
-
-
-**:**
-
-
-**Exercise:** Rounding
-
-- In cell A1, enter a decimal number, e.g., 7.85.
-- In cell B1, round the number to the nearest whole number using the formula =ROUND(A1, 0).
-- In cell B2, round the number to one decimal place using the formula =ROUND(A1, 1).
-
-**Exercise:** Random Numbers
-
-In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1.
-Drag the fill handle (the small square at the bottom-right corner of the cell) down to generate multiple random numbers.
 
 ## Multiple Choice Questions
 
