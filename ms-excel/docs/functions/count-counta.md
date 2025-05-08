@@ -20,3 +20,22 @@ further reading:
 See Also
 
 - [COUNTA function - Microsoft Support](https://support.microsoft.com/en-gb/office/counta-function-7dc98875-d5c1-46f1-9a82-53f3219e2509#:~:text=The%20COUNTA%20function%20counts%20cells,does%20not%20count%20empty%20cells.)
+
+**Exercise :** Counting Numbers in a Range
+
+1. Open a new Excel worksheet.
+2. In column A, enter a list of numbers, including some blank cells and non-numeric values (e.g., A1: 5, A2: 10, A3: "Text," A4: 15, A5: 20, A6: Blank, A7: 25).
+3. In cell B1, use the COUNT function to count the number of cells in column A that contain numbers.
+4. The formula should be "=COUNT(A1:A7)." The result should be 4, as there are four numeric values in the range.
+
+**Exercise :** Basic COUNT Function
+
+1. Open a new Excel worksheet.
+2. In column A, enter a mix of numbers and text (e.g., A1: 5, A2: "Apple," A3: 10, A4: 15, A5: "Orange").
+3. In cell B1, use the COUNT function to count the number of numeric values in column A. Your formula should be like this: `=COUNT(A1:A5)`.
+
+**Exercise :** Counting Blank Cells
+
+1. Open a new Excel worksheet.
+2. Create a range of cells (e.g., A1:A10) where some cells have values, and others are blank.
+3. In cell B1, use the COUNTBLANK function to count the number of blank cells in the range (e.g., "=COUNTBLANK(A1:A10)").

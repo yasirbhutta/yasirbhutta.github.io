@@ -31,3 +31,63 @@ further reading:
 
 - [MAX function - Microsoft Support](https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098#:~:text=The%20MAX%20function%20syntax%20has,to%20find%20the%20maximum%20value.)
 - [MIN function - Microsoft Support](https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152#:~:text=The%20MIN%20function%20syntax%20has,to%20find%20the%20minimum%20value.)
+
+
+**Exercise 3:**
+
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=MAX(A1:A10)`
+- Press Enter.
+
+The result, 100, should appear in cell A11.
+
+**Exercise 4:**
+
+- Create a new Excel worksheet.
+- In cells A1 to A10, enter the following numbers: 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
+- In cell A11, enter the following formula: `=MIN(A1:A10)`
+- Press Enter.
+
+The result, 10, should appear in cell A11.
+
+**Exercise :** Find the highest value in the following range of cells:
+
+```excel
+range: A1:A5
+
+values:
+
+10
+20
+30
+40
+50
+```
+
+**Exercise :** Find the highest value in the following range of cells, ignoring empty cells and text values:
+
+```excel
+A1:A5
+10
+Apple
+Bananas
+30
+50
+```
+
+**Exercise :** Find the minimum value in the following range of cells:
+
+```excel
+A1:A10 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+```
+
+**Excercise :** Find the minimum value in the following range, but only include the values that are in the column B:
+
+| A | B  |
+| - | -- |
+| 1 | 2  |
+| 3 | 4  |
+| 5 | 6  |
+| 7 | 8  |
+| 9 | 10 |
