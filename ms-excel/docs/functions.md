@@ -1,6 +1,15 @@
-# Microsoft Excel - Microsoft 365
+---
+layout: page
+title: "Excel Functions: Excel Functions: The Complete Guide for Beginners."
+description: Learn about the essential Excel functions and formulas with examples. This guide covers everything from basic to advanced functions.
+keywords: Excel functions, Excel formulas, Excel tutorial, Excel tips, Excel training, Excel how to, Microsoft Excel, Spreadsheet functions
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
+# Microsoft Excel - Microsoft 365
 
 - [Download: Handouts PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
 - To access the updated handouts, please click on the following link:
@@ -8,50 +17,18 @@ Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](htt
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 - [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
   
-- [Microsoft Excel - Microsoft 365](#microsoft-excel---microsoft-365)
-  - [Modules - Functions](#modules---functions)
-    - [Module 1: Functions in Excel - I](#module-1-functions-in-excel---i)
-    - [Module 2: Functions in Excel II](#module-2-functions-in-excel-ii)
-    - [Module 3: Functions in Excel III](#module-3-functions-in-excel-iii)
-  - [Functions in Excel](#functions-in-excel)
-    - [Cell References](#cell-references)
-    - [Copying Formulae](#copying-formulae)
-    - [Cell Reference](#cell-reference)
-      - [Relative Cell Reference](#relative-cell-reference)
-      - [Absolute Cell References](#absolute-cell-references)
-      - [Mixed Cell Reference](#mixed-cell-reference)
-    - [Functions](#functions)
-      - [10 Most popluar functions](#10-most-popluar-functions)
-        - [1. SUM](#1-sum)
-      - [SUMIF function](#sumif-function)
-        - [MAX](#max)
-        - [MIN](#min)
-      - [COUNT](#count)
-      - [COUNTA](#counta)
-      - [COUNTIF function](#countif-function)
-        - [POWER](#power)
-        - [PRODUCT function](#product-function)
-        - [Average function](#average-function)
-        - [Use of cell references in a formula](#use-of-cell-references-in-a-formula)
-        - [IF function](#if-function)
-          - [See also](#see-also)
-        - [NOW function](#now-function)
-        - [TODAY](#today)
-      - [Change the case of Text](#change-the-case-of-text)
-      - [LEN function](#len-function)
-      - [Concat function - Combine text from two or more cells into one cell](#concat-function---combine-text-from-two-or-more-cells-into-one-cell)
-    - [Formula Errors](#formula-errors)
-    - [New functions - Microsoft 365](#new-functions---microsoft-365)
-    - [More Functions](#more-functions)
-  - [Additional topics](#additional-topics)
-    - [Named Cell Reference](#named-cell-reference)
-  - [True/False (Mark T for True and F for False)](#truefalse-mark-t-for-true-and-f-for-false)
-  - [Multiple Choice (Select the best answer)](#multiple-choice-select-the-best-answer)
-    - [Review Questions](#review-questions)
-    - [Excercises](#excercises)
-  - [Multiple Choice Questions](#multiple-choice-questions)
-  - [References](#references)
-  - [Muhammad Yasir Bhutta](#muhammad-yasir-bhutta)
+## Table of Contents
+
+- Most popluar functions
+  - [sum](functions/sum.md)
+  - [sumif](functions/sumif.md)
+  - [max and min](functions/max-min.md)
+  - [count and counta](functions/count-counta.md)
+  - [countif](functions/countif.md)
+  - [power](functions/power.md)
+  - [product](functions/product.md)
+  - [average](functions/average.md)
+- [Use of cell references in a formula](functions/how-to-cell-reference.md)
 
 ## Modules - Functions
 
@@ -141,192 +118,11 @@ The normal order for a function is:-
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#### 10 Most popluar functions
+## 10 Most popluar functions
 
-##### 1. SUM
 
-- The SUM function adds values. 
-- You can add individual values, cell references or ranges or a mix of all three.
 
->For example:  
 
-```
-=SUM(A2:A10) Adds the values in cells A2:10.  
-=SUM(A2:A10, C2:C10) Adds the values in cells A2:10, as well as cells C2:C10.  
-```
-**Tip:** You can also type “ALT + =” into a cell, and Excel automatically inserts the SUM function. (windows)
-
-**Use AutoSum to sum numbers:**
-
-- [Video Tutorial: Use of Sum function and AutoSum to sum numbers - Microsoft Excel](https://youtu.be/o8aBs1Qr_8s?si=54T8YseIfXyJt5Fg)
-
-> **Tips:** [Click here to learn  Copy values quickly from the status bar](https://youtu.be/beDE-DM3e2k)
-
-**See also:**
-
-- [Sum Function - Excel Exercises](https://excelexercises.com/practice.html?lesson=1)
-- [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
-- Use AutoSum to sum numbers - Microsoft Support [[Windows]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706) [[Android]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android)
-
-#### SUMIF function
-
-use the SUMIF function to sum the values in a range that meet criteria that you specify.
-
-For example, suppose that in a column that contains numbers, you want to sum only the values that are larger than 5. You can use the following formula: =SUMIF(B2:B25,">5")
-
->Syntax
-
-```excel
-SUMIF(range, criteria, [sum_range])
-```
-
-- [Video: How to use the SUMIF function in Microsoft Excel](https://youtu.be/AX7DXRCoaf8?si=iPntuexdimCN7ojw)
-  
-**See also:**
-
-- [SUMIF function - Microsoft Support](https://support.microsoft.com/en-us/office/sumif-function-169b8c99-c05c-4483-a712-1697a653039b)
-- [SUMIF function - Excel Help & Training](https://support.microsoft.com/en-us/office/sumif-c44b60c3-c9f4-4789-80fe-28a07f9b75b1)
-- [Video: How to use the SUMIF function in Microsoft Excel - Microsoft 365](https://www.youtube.com/watch?v=7395LUP9dsk)
-
-##### MAX
-
-Returns the largest value in a set of values.
-
->Syntax  
-
-```excel
-MAX(number1, [number2], ...)
-```
-
-The MAX function syntax has the following arguments:
-Number1, number2, ...    Number1 is required, subsequent numbers are optional. 1 to 255 numbers for which you want to find the maximum value.
-
-
-##### MIN
-
-Returns the smallest number in a set of values.
-
->**Syntax**  
-
-```excel
-MIN(number1, [number2], ...)
-```
-
-The MIN function syntax has the following arguments:
-Number1, number2, ...    Number1 is optional, subsequent numbers are optional. 1 to 255 numbers for which you want to find the minimum value.
-
-- [Video Tutorial: use of MAX() and MIN() functions in excel](https://youtu.be/v-HPGVPpEvE?si=Kah5qhLKiHNyhcW-)
-
-further reading:
-
-- [MAX function - Microsoft Support](https://support.microsoft.com/en-gb/office/max-function-e0012414-9ac8-4b34-9a47-73e662c08098#:~:text=The%20MAX%20function%20syntax%20has,to%20find%20the%20maximum%20value.)
-- [MIN function - Microsoft Support](https://support.microsoft.com/en-us/office/min-function-61635d12-920f-4ce2-a70f-96f202dcc152#:~:text=The%20MIN%20function%20syntax%20has,to%20find%20the%20minimum%20value.)
-
-#### COUNT
-
-- The COUNT function counts the number of cells that contain numbers, and counts numbers within the list of arguments. 
-- Use the COUNT function to get the number of entries in a number field that is in a range or array of numbers.
-
-For example, you can enter the following formula to count the numbers in the range A1:A20: =COUNT(A1:A20). In this example, if five of the cells in the range contain numbers, the result is 5.
-
-- [Video Tutorial: Count function in excel](https://youtu.be/KHTWvRaorWs?si=DveQ1O9i44SpHvjp)
-
-further reading:
-
-- [COUNT function - Microsoft Support](https://support.microsoft.com/en-us/office/count-function-a59cd7fc-b623-4d93-87a4-d23bf411294c#:~:text=The%20COUNT%20function%20counts%20the,range%20or%20array%20of%20numbers.)
-
-#### COUNTA
-
-- The COUNTA function counts the number of cells that are not empty in a range.
-
-- [Video Tutorial: Use of COUNTA function](https://youtu.be/0JCfxebwKa4?si=fT9eBy3X1i5qmhER)
-
-See Also
-
-- [COUNTA function - Microsoft Support](https://support.microsoft.com/en-gb/office/counta-function-7dc98875-d5c1-46f1-9a82-53f3219e2509#:~:text=The%20COUNTA%20function%20counts%20cells,does%20not%20count%20empty%20cells.)
-
-#### COUNTIF function
-
-Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
-
->Syntax
-
-```excel
-COUNTIF(range, criteria)
-```
-
-For example:
-
-```excel
-=COUNTIF(A2:A5,"London")
-=COUNTIF(A2:A5,A4)
-```
-
-- [Video Tutorial: Use of COUNTIF function in excel](https://youtu.be/Uv-j-N7wdTo?si=GjA232Ni4UVt0cEv)
-
-**see also:**
-
-- [COUNTIF function - Microsoft Support](https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
-
-##### POWER
-
-Returns the result of a number raised to a power.
-
->Syntax  
-
-```excel
-POWER(number, power)
-```
-
-The POWER function syntax has the following arguments:
-
-Number Required. The base number. It can be any real number.
-Power Required. The exponent to which the base number is raised.
-
-```excel
-=POWER(5,2)
-```
-
-- [Video Tutorial: Power function in excel](https://youtu.be/Brd7LkDfPXY?si=W8I3vV92mN6WE1Cl)
-  
-further reading:
-
-- [POWER function - Microsoft Support](https://support.microsoft.com/en-au/office/power-function-d3f2908b-56f4-4c3f-895a-07fb519c362a)
-
-##### PRODUCT function
-
-- The PRODUCT function multiplies all the numbers given as arguments and returns the product.
-- The PRODUCT function is useful when you need to multiply many cells together.
-
-For example, the formula =PRODUCT(A1:A3, C1:C3) is equivalent to `=A1 * A2 * A3 * C1 * C2 * C3`.
-
-```excel
-=Product(5,2)
-=Product(C6:E6)
-```
-
-- [Video Tutorial: PRODUCT function in excel](https://youtu.be/G-6sxw5Dvpw?si=oZ4INRYwoIg223lc)
-  
-further reading:
-
-- [PRODUCT function - Microsoft Support](https://support.microsoft.com/en-gb/office/product-function-8e6b5b24-90ee-4650-aeec-80982a0512ce#:~:text=Description,arguments%20and%20returns%20the%20product.)
-
-##### Average function
-
-- Returns the average (arithmetic mean) of the arguments.
-
-For example, if the range A1:A20 contains numbers, the formula `=AVERAGE(A1:A20)` returns the average of those numbers.
-
-- [Video Tutorial: Use of AVERAGE() function in excel](https://youtu.be/WtETTSFaWSs?si=acofncokcJ9wtJIr)
-
-**See also:**
-
-- [AVERAGE function - Excel Exercises](https://excelexercises.com/practice.html?lesson=31)
-- [AVERAGE function - Microsoft Support](https://support.microsoft.com/en-gb/office/average-function-047bac88-d466-426c-a32b-8f33eb960cf6)
-
-##### Use of cell references in a formula
-
-- [Video Tutorial: Use cell refenences in a formul in Microsoft Excel](https://youtu.be/mdmYAOeGJoQ?si=xGxjvagLaCTQSlBp)
 
 ##### IF function
 
