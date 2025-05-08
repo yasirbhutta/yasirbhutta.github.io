@@ -1,4 +1,6 @@
 
+# DATE functions
+
 ##### NOW function
 
 The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.

@@ -34,9 +34,9 @@ toc: toc/ms-excel-toc.html
   - [POWER function](functions/power.md)
   - [PRODUCT function](functions/product.md)
   - [Use of cell references in a formula](functions/how-to-cell-reference.md)
-  - [DATE functions (TODAY, NOW, DATE)](functions/date-time.md)
+  - [ (TODAY, NOW, DATE)](functions/date-time.md)
   - Text manipulation functions
-    - [Functions Change the case of text](functions/text-change-case.md) 
+    - [Change the case of text](functions/text-change-case.md) 
     - [LEN and LENB functions](functions/average.md)
     - [CONCAT function](functions/concat.md)
   - Logical Functions
