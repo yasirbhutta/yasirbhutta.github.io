@@ -19,23 +19,21 @@ toc: toc/ms-excel-toc.html
   
 ## Table of Contents
 
-- Cell References
-- Copying formula
-- What is Function and Its Structure
+- [Cell References](functions/cell-references.md)
+- [What is Function and Its Structure](functions/what-is-functions.md)
 - Most popluar functions
   - [sum](functions/sum.md)
     - [Use AutoSum to sum numbers]
   - [sumif](functions/sumif.md)
-  - STATISTICAL FUNCTIONS (AVERAGE, MIN, MAX)
+  - Statistical functions
     - [max and min](functions/max-min.md)
     - [average](functions/average.md)
-  - COUNT FUNCTIONS (COUNT, COUNTA, COUNTIF)
+  - Count functions
     - [count and counta](functions/count-counta.md)
     - [countif](functions/countif.md)
   - [power](functions/power.md)
   - [product](functions/product.md)
   - [Use of cell references in a formula](functions/how-to-cell-reference.md)
-
   - [DATE functions (TODAY, NOW, DATE)](functions/date-time.md)
   - Text manipulation functions
     - [Functions Change the case of text](functions/text-change-case.md) 
@@ -66,7 +64,6 @@ toc: toc/ms-excel-toc.html
 
 - Referencing cells in formulas
 - Functions: IF, TODAY, NOW, LOWER, UPPER, PROPER, LEN
-
 
 ## Multiple Choice (Select the best answer)
 
