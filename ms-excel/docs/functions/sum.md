@@ -54,6 +54,10 @@ next: /ms-excel/docs/functions/sumif.html
 
 ---
 
+### 🛠️ Related Functions
+
+- [SUMIF function](sumif.md)
+
 ### **Tips**:
 
 - Ignores **text**, **logical values (TRUE/FALSE)**, and **empty cells**.
