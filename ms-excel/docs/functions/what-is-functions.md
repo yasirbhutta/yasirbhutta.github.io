@@ -7,34 +7,13 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+prev: /ms-excel/docs/functions/cell-references.html
+next: /ms-excel/docs/functions/sum.html
 ---
-
-# Functions
-
-- Excel has hundreds of predefined formulae known as Functions
-- Functions use specific `arguments` in a particular order or structure
-  - The arguments of functions can be anything from numbers, text, logical values, or cell references
-  - You can also have formulae or other functions as arguments in a function that are called nested functions.
-
-Functions ….
-The normal order for a function is:-
-
-- `Function Name`,
-- The opening `parenthesis (`
-- `Arguments` for the function separated by commas and `closing parenthesis )`.
-
-
-Here’s an improved and more beginner-friendly version of your content about **Excel Functions**:  
-
----  
-
-# **Excel Functions for Beginners**  
 
 ## **What Are Functions?**  
 
-Functions are predefined formulas that perform calculations by using specific values, called arguments, in a particular order, or structure. These functions help you perform calculations, analyze data, and automate tasks quickly. 
+Functions are predefined formulas that perform calculations by using specific values, called arguments, in a particular order, or structure. These functions help you perform calculations, analyze data, and automate tasks quickly. ([Microsoft Support][1])
 
 ## **How Do Functions Work?**  
 Functions follow a specific structure:  
@@ -61,7 +40,6 @@ You can use a function **inside another function** for more complex calculations
 - First, `SUM(B2:B5)` adds the values in B2 to B5.  
 - Then, `AVERAGE` calculates the mean of that sum and cell C2.  
 
-
 ## References and Bibiography
 
-[1]: 
+[1]: https://support.microsoft.com/en-us/office/using-functions-and-nested-functions-in-excel-formulas-3f4cf298-ded7-4f91-bc80-607533b65f02 "Using functions and nested functions in Excel formulas"
