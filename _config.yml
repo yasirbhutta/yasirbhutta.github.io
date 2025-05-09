@@ -17,4 +17,4 @@ exclude:
 - dev-posts
 - archive
 - admin
-- templates
+- _templates
