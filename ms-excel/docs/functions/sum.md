@@ -7,6 +7,8 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/what-is-functions.html
+next: /ms-excel/docs/functions/sumif.html
 ---
 
 ## Contents
