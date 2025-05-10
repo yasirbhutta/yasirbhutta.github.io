@@ -10,37 +10,29 @@ toc: toc/ms-excel-toc.html
 ---
 
 # Microsoft Excel - Microsoft 365
-
-- [Download: Handouts PDF](https://yasirbhutta.github.io/ms-excel/docs/functions.pdf)
-- To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/ms-excel/docs/functions.html](https://yasirbhutta.github.io/ms-excel/docs/functions.html)
-- [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
-- [Slides](https://docs.google.com/presentation/d/1z9o05Mi10xwlSupsi3lWHHxNQSeR56JmKaLw9Z6gB0o/)
   
 ## Table of Contents
 
 - [Cell References](functions/cell-references.md)
 - [What is Function and Its Structure](functions/what-is-functions.md)
-- Most popluar functions
-  - [SUM function](functions/sum.md)
-    - [Use AutoSum to sum numbers]
-  - [SUMIF function](functions/sumif.md)
-  - Statistical functions
-    - [MAX and MIN functions](functions/max-min.md)
-    - [AVERAGE function](functions/average.md)
-  - Count functions
-    - [COUNT and COUNTA functions](functions/count-counta.md)
-    - [COUNTIF function](functions/countif.md)
-  - [POWER function](functions/power.md)
-  - [PRODUCT function](functions/product.md)
-  - [Use of cell references in a formula](functions/how-to-cell-reference.md)
-  - [ (TODAY, NOW, DATE)](functions/date-time.md)
-  - Text manipulation functions
-    - [Change the case of text](functions/text-change-case.md) 
-    - [LEN and LENB functions](functions/average.md)
-    - [CONCAT function](functions/concat.md)
-  - Logical Functions
-    - [IF function](functions/if.md)
+- [SUM function and AutoSum](functions/sum.md)
+- [SUMIF function](functions/sumif.md)
+- Statistical functions
+  - [MAX and MIN functions](functions/max-min.md)
+  - [AVERAGE function](functions/average.md)
+- Count functions
+  - [COUNT and COUNTA functions](functions/count-counta.md)
+  - [COUNTIF function](functions/countif.md)
+- [POWER function](functions/power.md)
+- [PRODUCT function](functions/product.md)
+- [Use of cell references in a formula](functions/how-to-cell-reference.md)
+- [ (TODAY, NOW, DATE)](functions/date-time.md)
+- Text manipulation functions
+  - [Change the case of text](functions/text-change-case.md) 
+  - [LEN and LENB functions](functions/average.md)
+  - [CONCAT function](functions/concat.md)
+- Logical Functions
+  - [IF function](functions/if.md)
 - [Formula Errors](functions/formula-errors.md)
 - [New functions - Microsoft 365](functions/new-functions-365.md)
 - [More Functions](functions/more-functions.md)
