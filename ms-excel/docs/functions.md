@@ -8,8 +8,6 @@ course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
 ---
-
-# Microsoft Excel - Microsoft 365
   
 ## Table of Contents
 

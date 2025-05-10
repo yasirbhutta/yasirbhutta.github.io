@@ -155,3 +155,49 @@ header {
 .icon-text {
   padding-right: 2em; /* Adds space to the right of both icon and text */
 }
+
+/* Breadcrumb container */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0.75rem 1rem;
+  margin: 0;
+  background-color: #f8f9fa;
+  border-radius: 0.375rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Breadcrumb items */
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+/* Breadcrumb links */
+.breadcrumb-item a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb-item a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Separator between items */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: #6c757d;
+}
+
+/* Active breadcrumb item (current page) */
+.breadcrumb-item.active {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
