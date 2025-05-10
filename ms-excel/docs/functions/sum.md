@@ -15,7 +15,7 @@ breadcrumb:
   - title: Excel
     url: /ms-excel/
   - title: Functions
-    url: /ms-excel/docs/functions/
+    url: /ms-excel/docs/functions.html
 ---
 
 ## Contents
