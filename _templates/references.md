@@ -35,6 +35,20 @@ For a visual demonstration of how to use AutoSum in Excel, you can watch the fol
 
 ---
 
+Here’s an improved version of your content with clearer language, more engaging phrasing, and consistent formatting:
+
+---
+
+## 📘 **Related Topics**
+
+* **Decimals and Percentages** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
+  👉 [Learn more](#)
+
+* **Simplifying Fractions** – Master the techniques to reduce fractions to their lowest terms for easier understanding and use.
+  👉 [Learn more](#)
+
+---
+
 1. **Click AutoSum**: Navigate to the **Home** or **Formulas** tab on the Ribbon and click the **AutoSum (Σ)** button.([Ablebits][2])
 
 ## References and Bibliography

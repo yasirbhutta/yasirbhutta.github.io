@@ -13,10 +13,10 @@ next: /ms-excel/docs/functions/sumif.html
 
 ## Contents
 
-- [Sum function](#sum-function)
-- [Use AutoSum to sum numbers](#use-autosum-to-sum-numbers)
+1. [Sum function](#sum-function)
+2. [Use AutoSum to sum numbers](#use-autosum-to-sum-numbers)
 
-## SUM function
+## 1. SUM function
 
 - The SUM function adds values. 
 - You can add individual values, cell references or ranges or a mix of all three.
@@ -54,17 +54,13 @@ next: /ms-excel/docs/functions/sumif.html
 
 ---
 
-### 🛠️ Related Functions
-
-- [SUMIF function](sumif.md)
-
 ### **Tips**:
 
 - Ignores **text**, **logical values (TRUE/FALSE)**, and **empty cells**.
 - If a cell contains an **error**, the entire SUM function will return that error.
 - Use **SUMIF** or **SUMIFS** for conditional summing.
 
-## Use AutoSum to sum numbers
+## 2. Use AutoSum to sum numbers
 
 ### **What is AutoSum in Excel?**  
 **AutoSum** is a quick and easy way to add up numbers in Excel automatically. It uses the **SUM function** to calculate the total of a selected range of cells with just a click or a keyboard shortcut.  
@@ -175,8 +171,14 @@ Sample Date:
 | April    | 180   |
 | May      | 210   |
 
-**See also:**
+## 📘 **Related Topics**
 
-- [Sum Function - Excel Exercises](https://excelexercises.com/practice.html?lesson=1)
-- [SUM function - Microsoft Support](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)
-- Use AutoSum to sum numbers - Microsoft Support [[Windows]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706) [[Android]](https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android)
+* **SUMIF function** – Learn how to add up only the numbers that match your rule in Excel—like totaling sales for one product or expenses in a category.. 
+  👉 [Learn more](sumif.md)
+
+## References and Bibliography
+
+[1]: https://excelexercises.com/practice.html?lesson=1 "Sum Function - Excel Exercises."
+[2]: https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89 "SUM function - Microsoft Support"
+[3]: https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706 "Use AutoSum to sum numbers - Microsoft Support (Windows)"
+[4]: https://support.microsoft.com/en-us/office/use-autosum-to-sum-numbers-543941e7-e783-44ef-8317-7d1bb85fe706#ID0EBBF=Android "Use AutoSum to sum numbers (Android) - Microsoft Support"

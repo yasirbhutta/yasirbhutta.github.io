@@ -42,4 +42,4 @@ You can use a function **inside another function** for more complex calculations
 
 ## References and Bibiography
 
-[1]: https://support.microsoft.com/en-us/office/using-functions-and-nested-functions-in-excel-formulas-3f4cf298-ded7-4f91-bc80-607533b65f02 "Using functions and nested functions in Excel formulas"
+[1]: https://support.microsoft.com/en-us/office/using-functions-and-nested-functions-in-excel-formulas-3f4cf298-ded7-4f91-bc80-607533b65f02 "Using functions and nested functions in Excel formulas - Microsoft Support"
