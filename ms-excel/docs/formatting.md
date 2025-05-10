@@ -6,6 +6,7 @@ keywords: Microsoft Excel formatting, Excel formatting guide, Excel cell formatt
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: formatting
+toc: toc/ms-excel-toc.html
 ---
 # Microsoft Excel: Formatting
 

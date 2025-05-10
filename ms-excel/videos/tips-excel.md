@@ -1,11 +1,13 @@
 ---
+layout: video
 title: "Excel Mobile | TOP 25 Tips to use the Excel Mobile App | Microsoft 365"  
 description: Master Microsoft Excel with beginner-friendly tutorials, exercises, and quizzes. Learn worksheet management, formulas, data analysis, and more to enhance your Excel skills. Perfect for students and professionals.  
 keywords: Learn Microsoft Excel, Excel tutorials for beginners, Excel exercises, Excel worksheet management, Excel formulas, Excel quizzes, Excel data analysis, Microsoft Excel training, Excel basics, beginner Excel skills
 author: Muhammad Yasir Bhutta
+toc: toc/ms-excel-toc.html
 ---
 
-{% assign video_type = "short" %}
+{% assign video_type = "video" %}
 {% assign video_id = "y9m36XLI4v4" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
@@ -27,6 +29,6 @@ author: Muhammad Yasir Bhutta
   * **Cell Size**: 📐 Change the size of cells \[[07:04](http://www.youtube.com/watch?v=y9m36XLI4v4&t=424)\].
   * **Clearing Content**: 🧹 Clear formats or content from cells \[[07:21](http://www.youtube.com/watch?v=y9m36XLI4v4&t=441)\].
   * **Auto Sum**: ∑ Use the auto-sum function for quick calculations \[[08:07](http://www.youtube.com/watch?v=y9m36XLI4v4&t=487)\].
-  * **Sorting** \<0xF0\>\<0x9F\>\<0xAA\>\<0xAE\> and **Filtering** 🔎: Sort and filter data \[[08:22](http://www.youtube.com/watch?v=y9m36XLI4v4&t=502)\].
+  * **Sorting** and **Filtering** 🔎: Sort and filter data \[[08:22](http://www.youtube.com/watch?v=y9m36XLI4v4&t=502)\].
   * **Finding Data**: 🔍 Search for specific data within the sheet \[[08:43](http://www.youtube.com/watch?v=y9m36XLI4v4&t=523)\].
   * **Selecting Ranges**: 🟦➡️🟦 Select a range of cells \[[08:54](http://www.youtube.com/watch?v=y9m36XLI4v4&t=534)\].
