@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: page
 title: Microsoft Excel Formatting Guide - Learn Essential Formatting Techniques  
 description: Master Microsoft Excel formatting with this comprehensive guide. Learn how to format cells, apply borders, align text, use number formats, and more. Perfect for beginners and professionals to enhance their Excel skills.  
 keywords: Microsoft Excel formatting, Excel formatting guide, Excel cell formatting, Excel borders and shading, Excel text alignment, Excel number formats, Excel beginner tutorial, Excel professional tips, Excel formatting techniques
 author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: formatting
 ---
 # Microsoft Excel: Formatting
 
@@ -399,25 +401,11 @@ In the Gridline color box, click the color you want.
 - [Print gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-au/office/print-gridlines-in-a-worksheet-fdb32f2a-8a5a-41fe-a5b0-0a734fdfade1)- [Change the color of gridlines in a worksheet - Microsoft Support](https://support.microsoft.com/en-us/office/change-the-color-of-gridlines-in-a-worksheet-980f3978-91d1-4ff6-bd12-a17c1b5b12ed)
 
 
-## Additional Topics
 
-### Adjust Text in Column
-**See also:** 
-- [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
+## 📘 **Related Topics**
 
----
-
-## Further Reading
-
-{% assign show_heading = false %}
-{% include toc/ms-excel-toc.html show_heading=show_heading%}
-
----
-
-{% assign topic = "formatting" %}
-{% include practice-and-progress.html topic=topic %}
-
----
+* **Excel Mobile Tutorial | TOP 25 Tips to use the Excel Mobile App | Microsoft 365** – The video shares the top 25 tips for using the Excel mobile app.
+  👉 [Learn more](../videos/tips-excel.md)
 
 ## References and Bibliography
 
@@ -437,3 +425,6 @@ In the Gridline color box, click the color you want.
 [^14]: [Wrap text in a cell - Microsoft Support](https://support.microsoft.com/en-us/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84)  
 [^15]: [How to wrap text in Excel - Ablebits.com](https://www.ablebits.com/office-addins-blog/wrap-text-excel/)  
 [^16]: [Enter and format data - Microsoft Support](https://support.microsoft.com/en-au/office/Enter-and-format-data-fef13169-0a84-4b92-a5ab-d856b0d7c1f7#ID0EAABAAA)
+- [Fit more text in column headings - Microsoft Support](https://support.microsoft.com/en-au/office/fit-more-text-in-column-headings-a0a932f0-021f-4da5-9705-708a0ed75709)
+
+---

@@ -4,7 +4,12 @@ title: Python For Loop Tutorial - Examples and How to Use
 description: Learn how to use Python for loops with clear examples. This tutorial covers iteration, range(), and common use cases for beginners.
 ---
 
-# 5.3.1 Python Loops: Understanding Python For Loops
+## Table of Contents
+1. [Python Loops: Understanding Python For Loops]()
+2. Basic Syntax of the Python For Loop
+3. range() function
+   
+## Python Loops: Understanding Python For Loops
 
 - A for loop in Python is a programming statement that repeats a block of code a fixed number of times.
 - The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
@@ -23,7 +28,7 @@ for item in iterable:
 
 `iterable` is a sequence of elements such as a list, tuple, dictionary, set, or string. item is a variable that takes on the value of each element in the sequence, one at a time. The code block is executed once for each element in the sequence.
 
-**range() function:**
+## **range() function:**
 
 - We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
 - We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
@@ -99,73 +104,6 @@ for i in range(5):
 Question: Write a python program to calculate the sum of the first N natural numbers using a for loop.
 
 [video: Calculate the sum of the first N natural numbers \| Python for loop example](https://youtu.be/FgMHDLRi_G4)
-
-## Task #5.8: Sum of Numbers in a Range
-
-**Description:**
-
-Write a Python program that asks the user to input two numbers, a start and an end value, and calculates the sum of all the numbers in that range (inclusive) using a `for` loop.
-
-**Input:**
-- The program should prompt the user to enter two integers:
-  1. The start of the range.
-  2. The end of the range.
-
-**Output:**
-- The program should display the sum of all the numbers in the given range.
-
-**Example:**
-
-**Input:**
-```
-Enter the start of the range: 1
-Enter the end of the range: 5
-```
-
-**Output:**
-```
-The sum of numbers from 1 to 5 is: 15
-```
-
-**Requirements:**
-- Use a `for` loop to iterate through the range.
-- Accumulate the sum of numbers using a variable inside the loop.
-
-
-## Task #5.9: Display Even Numbers in a Range
-
-**Description:**
-
-Write a Python program that asks the user to input two numbers, a start and an end value, and displays all the even numbers between the two values (inclusive) using a `for` loop.
-
-**Input:**
-- The program should prompt the user to enter two integers:
-  1. The start of the range.
-  2. The end of the range.
-
-**Output:**
-- The program should display all the even numbers in the range in ascending order, one number per line.
-
-**Example:**
-
-**Input:**
-```
-Enter the start of the range: 2
-Enter the end of the range: 10
-```
-
-**Output:**
-```
-2
-4
-6
-8
-10
-```
-
-**Requirements:**
-- Use a `for` loop to iterate through the range.
-- Check if a number is even using the modulus (`%`) operator.
   
 ## Example #5.11: Print Even Numbers from 2 to 10 and sum of even numbers
 
@@ -179,49 +117,6 @@ for i in range(2,11):
         print(i)
 print(f"Sum of even numbers: {sum}")
 ```
-
-#### Task #5.11: Display Multiplication Tables**
-
-**Description:**
-
-Write a Python program that asks the user to input a number and displays its multiplication table up to 10 using a `for` loop.
-
-**Input:**
-- The program should prompt the user to enter an integer value.
-
-**Output:**
-- The program should display the multiplication table for the entered number in the following format:
-
-```
-n x 1 = n
-n x 2 = 2n
-...
-n x 10 = 10n
-```
-
-**Example:**
-
-**Input:**
-```
-Enter a number: 5
-```
-
-**Output:**
-```
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
-```
-
-**Requirements:**
-- Use a `for` loop to generate and display the multiplication table.
 
 #### Example #5.12: String as an iterable
 
@@ -316,3 +211,115 @@ for _ in range(5):
 Here, `_` is used instead of a variable name like `i` or `j` because the value is not important. The loop will simply print "Hello" five times without using the loop index. This helps to make the code more readable by signaling to other programmers that the loop variable is not used in the loop's body.
 
 - [video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
+
+## Tasks
+
+### Task 1: Sum of Numbers in a Range
+
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and calculates the sum of all the numbers in that range (inclusive) using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+**Output:**
+- The program should display the sum of all the numbers in the given range.
+
+**Example:**
+
+**Input:**
+```
+Enter the start of the range: 1
+Enter the end of the range: 5
+```
+
+**Output:**
+```
+The sum of numbers from 1 to 5 is: 15
+```
+
+**Requirements:**
+- Use a `for` loop to iterate through the range.
+- Accumulate the sum of numbers using a variable inside the loop.
+
+
+### Task 2: Display Even Numbers in a Range
+
+**Description:**
+
+Write a Python program that asks the user to input two numbers, a start and an end value, and displays all the even numbers between the two values (inclusive) using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter two integers:
+  1. The start of the range.
+  2. The end of the range.
+
+**Output:**
+- The program should display all the even numbers in the range in ascending order, one number per line.
+
+**Example:**
+
+**Input:**
+```
+Enter the start of the range: 2
+Enter the end of the range: 10
+```
+
+**Output:**
+```
+2
+4
+6
+8
+10
+```
+
+**Requirements:**
+- Use a `for` loop to iterate through the range.
+- Check if a number is even using the modulus (`%`) operator.
+
+### Task 3: Display Multiplication Tables**
+
+**Description:**
+
+Write a Python program that asks the user to input a number and displays its multiplication table up to 10 using a `for` loop.
+
+**Input:**
+- The program should prompt the user to enter an integer value.
+
+**Output:**
+- The program should display the multiplication table for the entered number in the following format:
+
+```
+n x 1 = n
+n x 2 = 2n
+...
+n x 10 = 10n
+```
+
+**Example:**
+
+**Input:**
+```
+Enter a number: 5
+```
+
+**Output:**
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+```
+
+**Requirements:**
+- Use a `for` loop to generate and display the multiplication table.

@@ -5,7 +5,6 @@ description: Learn Python variables with this beginner-friendly guide. Understan
 keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
 toc: toc/python-toc.html
 ---
-# 
 
 Flow control statements in Python determine the order in which your code is executed. They allow you to make decisions, repeat actions, and control the program's flow based on specific conditions.
 
