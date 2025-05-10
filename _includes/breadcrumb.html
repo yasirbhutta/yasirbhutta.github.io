@@ -1,0 +1,11 @@
+<nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+      {% for crumb in page.breadcrumb %}
+        <li class="breadcrumb-item">
+          <a href="{{ crumb.url }}">{{ crumb.title }}</a>
+        </li>
+      {% endfor %}
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+  

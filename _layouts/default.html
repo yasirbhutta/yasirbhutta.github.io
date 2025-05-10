@@ -60,6 +60,9 @@
       <section>
         <div>
           {%include social-media.html %}
+          {% if page.breadcrumb %}
+          {% include breadcrumb.html %}
+          {% endif %}
         </div>
         <div>
           <a href="https://forms.gle/DomT9rZo3b8uEnpV6"><i class="fa-solid fa-message"></i> Share Your Feedback</a>
