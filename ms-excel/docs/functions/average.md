@@ -1,3 +1,23 @@
+---
+layout: page
+title: "How to Use AVERAGE Function in Excel | Excel Formula Guide"
+description: Learn how to use the AVERAGE function in Excel to calculate mean values. Step-by-step guide with syntax, examples, and tips for accurate data analysis.
+keywords: excel AVERAGE, AVERAGE function in excel, how to use AVERAGE, calculate average in excel, excel mean function, excel formulas, excel function guide, MS excel tips, excel data analysis, excel tutorial
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/max-min.html
+next: /ms-excel/docs/functions/count-counta.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
 ## Average function
 
 - Returns the average (arithmetic mean) of the arguments.

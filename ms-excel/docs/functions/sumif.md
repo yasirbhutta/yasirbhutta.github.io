@@ -1,3 +1,23 @@
+---
+layout: page
+title: "Excel SUMIF Function Guide with Examples"
+description: Learn how to use the Excel SUMIF function with clear examples and syntax. Perfect for beginners and advanced users looking to master conditional summing..
+keywords: excel SUMIF, SUMIF function in excel, how to use SUMIF, excel conditional sum, excel formulas, SUMIF examples, MS excel tips, excel function guide, excel tutorial, excel for beginners, sumif tasks, sumif exercises
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/sum.html
+next: /ms-excel/docs/functions/max-min.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
 # SUMIF function
 
 use the SUMIF function to sum the values in a range that meet criteria that you specify.

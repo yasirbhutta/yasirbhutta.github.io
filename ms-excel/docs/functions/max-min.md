@@ -1,4 +1,23 @@
-##### MAX
+---
+layout: page
+title: "How to Use MAX and MIN Functions in Excel | Excel Guide"
+description: Master the Excel MAX and MIN functions with easy examples. Learn how to find the highest and lowest values in your data using simple Excel formulas.
+keywords: excel MAX, excel MIN, MAX function in excel, MIN function in excel, how to use MAX and MIN, excel highest value, excel lowest value, excel formulas, excel function guide, MS excel tips
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/sumif.html
+next: /ms-excel/docs/functions/average.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+## MAX
 
 Returns the largest value in a set of values.
 
