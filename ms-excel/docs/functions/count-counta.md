@@ -8,7 +8,7 @@ course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
 prev: /ms-excel/docs/functions/average.html
-next: /docs/functions/countif.html
+next: /ms-excel/docs/functions/countif.html
 breadcrumb:
   - title: Home
     url: /

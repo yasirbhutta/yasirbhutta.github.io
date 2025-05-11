@@ -8,7 +8,7 @@ course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
 prev: /ms-excel/docs/functions/power.html
-next: /ms-excel/docs/functions/how-to-cell-reference.html
+next: /ms-excel/docs/functions/date-time.html
 breadcrumb:
   - title: Home
     url: /

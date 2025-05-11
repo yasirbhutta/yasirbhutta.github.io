@@ -1,4 +1,24 @@
-#### Concat function - Combine text from two or more cells into one cell
+---
+layout: page
+title: "How to Use CONCAT Function in Excel | Excel Formula Guide"
+description: Learn how to use the CONCAT function in Excel to join text from multiple cells. Includes syntax, examples, and tips for efficient text handling.
+keywords: excel CONCAT, CONCAT function in excel, how to use CONCAT, combine text in excel, excel text functions, excel formulas, excel function guide, MS excel tips, excel tutorial, text concatenation in excel
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/len-lenb.html
+next: /ms-excel/docs/functions/if.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
+## Concat function - Combine text from two or more cells into one cell
 
 - The CONCAT function combines the text from multiple ranges and/or strings, but it doesn't provide delimiter or IgnoreEmpty arguments.
 

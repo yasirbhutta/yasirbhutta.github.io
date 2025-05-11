@@ -1,7 +1,26 @@
+---
+layout: page
+title: "Excel Date and Time Functions | Excel Formula Guide"
+description: Learn how to use Excel's date and time functions. Master date calculations, formatting, and functions like TODAY, NOW, and DATE for efficient data handling.
+keywords: excel date functions, excel time functions, excel TODAY function, excel NOW function, excel DATE function, excel time calculations, excel formulas, MS excel tips, excel function guide, excel tutorial
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/product.html
+next: /ms-excel/docs/functions/text-change-case.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
 
-# DATE functions
+## DATE functions
 
-##### NOW function
+## NOW function
 
 The NOW function is useful when you need to display the current date and time on a worksheet or calculate a value based on the current date and time, and have that value updated each time you open the worksheet.
 

@@ -28,11 +28,10 @@ breadcrumb:
   - [COUNTIF function](functions/countif.md)
 - [POWER function](functions/power.md)
 - [PRODUCT function](functions/product.md)
-- [Use of cell references in a formula](functions/how-to-cell-reference.md)
 - [ (TODAY, NOW, DATE)](functions/date-time.md)
 - Text manipulation functions
   - [Change the case of text](functions/text-change-case.md) 
-  - [LEN and LENB functions](functions/average.md)
+  - [LEN and LENB functions](functions/len-lenb.md)
   - [CONCAT function](functions/concat.md)
 - Logical Functions
   - [IF function](functions/if.md)

@@ -1,4 +1,24 @@
-##### IF function
+---
+layout: page
+title: "How to Use IF Function in Excel | Excel Formula Guide"
+description: Learn the IF function in Excel to perform conditional logic in your formulas. Learn syntax, examples, and tips for decision-making in your spreadsheets.
+keywords: excel IF function, how to use IF in excel, excel conditional logic, excel IF formula, excel formulas, MS excel tips, excel function guide, excel tutorial, decision-making in excel
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/concat.html
+next: /ms-excel/docs/functions/formula-errors.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
+## IF function
 
 - The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
 - So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.

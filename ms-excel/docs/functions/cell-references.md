@@ -1,4 +1,24 @@
-### Cell References
+---
+layout: page
+title: "Understanding Cell References in Excel | Excel Formula Guide"
+description: "Learn the types of cell references in Excel: relative, absolute, and mixed. Explore how to use them in formulas for accurate and efficient data analysis."
+keywords: excel cell references, relative cell references, absolute cell references, mixed cell references, excel formula guide, excel references explained, excel functions, excel formulas, MS excel tips, excel tutorial
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/formulas.html
+next: /ms-excel/docs/functions/what-is-functions.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
+## Cell References
 
 - A cell reference refers to a cell or a range of cells on a worksheet.
 - It identifies a cell by referring to the row and column headings. When referring to a cell, enter the column letter followed by the row number Example
@@ -38,3 +58,7 @@
 - Absolute row reference -If a dollar sign were to precede only the row number, Example
 - **A$1**, then only the column reference changes relatively when the formula is copied
 - Absolute column reference -If a dollar sign precedes only the column letter, e.g. $A1, Excel will change only the row reference relative to the change in the formula location
+
+## Use of cell references in a formula
+
+- [Video Tutorial: Use cell refenences in a formul in Microsoft Excel](https://youtu.be/mdmYAOeGJoQ?si=xGxjvagLaCTQSlBp)

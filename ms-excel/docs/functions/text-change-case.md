@@ -1,4 +1,24 @@
-#### Change the case of Text
+---
+layout: page
+title: "How to Change Text Case in Excel | Excel Text Functions"
+description: Learn how to use Excel’s text case functions like UPPER, LOWER, and PROPER. Easily change text case for efficient data formatting and analysis.
+keywords: excel change text case, excel UPPER function, excel LOWER function, excel PROPER function, excel text functions, excel text formatting, MS excel tips, excel function guide, excel tutorial, text case conversion in excel
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/date-time.html
+next: /ms-excel/docs/functions/len-lenb.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
+## Change the case of Text
 
 **LOWER function:** Converts all uppercase letters in a text string to lowercase.
 
