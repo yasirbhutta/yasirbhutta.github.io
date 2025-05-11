@@ -1,4 +1,24 @@
-##### PRODUCT function
+---
+layout: page
+title: "How to Use PRODUCT Function in Excel | Excel Formula Guide"
+description: Learn how to use the PRODUCT function in Excel to multiply values easily. Learn syntax, examples, and tips for efficient calculations in spreadsheets.
+keywords: excel PRODUCT, PRODUCT function in excel, how to use PRODUCT in excel, multiply in excel, excel multiplication formula, excel formulas, MS excel tips, excel function guide, excel math functions, excel tutorial
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/power.html
+next: /ms-excel/docs/functions/how-to-cell-reference.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+
+## PRODUCT function
 
 - The PRODUCT function multiplies all the numbers given as arguments and returns the product.
 - The PRODUCT function is useful when you need to multiply many cells together.

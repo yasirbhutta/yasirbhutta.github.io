@@ -1,5 +1,24 @@
+---
+layout: page
+title: "How to Use COUNTIF Function in Excel | Excel Formula Guide"
+description: Learn how to use the COUNTIF function in Excel to count cells based on criteria. Includes syntax, examples, and tips for accurate data filtering.
+keywords: excel COUNTIF, COUNTIF function in excel, how to use COUNTIF, count with condition in excel, excel criteria-based count, excel formulas, MS excel tips, excel function guide, excel data analysis, excel tutorial
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/count-counta.html
+next: /ms-excel/docs/functions/power.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
 
-#### COUNTIF function
+## COUNTIF function
 
 Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.
 

@@ -1,4 +1,23 @@
-#### COUNT
+---
+layout: page
+title: "Excel COUNT vs COUNTA Function Explained | Excel Formula Guide"
+description: Understand the difference between COUNT and COUNTA functions in Excel. Learn syntax, use cases, and examples to improve your data counting skills.
+keywords: excel COUNT, excel COUNTA, COUNT vs COUNTA, COUNT function in excel, COUNTA function in excel, how to use COUNT, how to use COUNTA, excel formulas, excel data functions, MS excel tips, count a examples, counta examples
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+prev: /ms-excel/docs/functions/average.html
+next: /docs/functions/countif.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
+---
+## COUNT
 
 - The COUNT function counts the number of cells that contain numbers, and counts numbers within the list of arguments. 
 - Use the COUNT function to get the number of entries in a number field that is in a range or array of numbers.
