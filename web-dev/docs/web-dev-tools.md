@@ -1,6 +1,25 @@
+---
+layout: page
+title: "Web development tools"
+description: Web development tools.
+keywords: Web development tools
+author: Muhammad Yasir Bhutta
+course: web-dev
+topic: functions
+# toc: toc/ms-excel-toc.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Web Development
+    url: /web-dev/
+---
 
 # Web development tools
 
+## Table of the Contents
+- [Visual Studio Code](#visual-studio-code)
+- [Online PHP Editors](#online-php-editors)
+  
 ## Visual Studio Code
 
 ### extensions
@@ -17,6 +36,7 @@
 
 ## Online PHP Editors
 
+- [OneCompiler](https://onecompiler.com/php/)
 - [https://www.tutorialspoint.com/execute_php_online.php](https://www.tutorialspoint.com/execute_php_online.php)
 - [http://phpfiddle.org/](http://phpfiddle.org/)
 PhpFiddle provides Web IDE and execution environment for PHP/MySQL, and HTML/CSS/JavaScript coding online.
