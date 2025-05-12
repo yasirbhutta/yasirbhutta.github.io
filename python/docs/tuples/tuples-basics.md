@@ -83,8 +83,6 @@ A nested tuple is a tuple that contains one or more tuples as element.
 {% assign video_id = "6dZUdvI8V_Q" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-### [Python tuple example 3: Learn how to print elements of a tuple in Python using while loop](../../videos/tuples-elements-using-while.md)
-
 ## Unpacking tuples
 
 **Tuple unpacking allows you to assign the values of a tuple to multiple variables in a single step.** Each element of the tuple is assigned to a corresponding variable.
@@ -110,14 +108,39 @@ print(c)  # Output: 3
 
 - The number of variables on the left side must match the number of elements in the tuple, or you’ll get a `ValueError`.
   
-## Example #2
-
 ```python
-# Tuples are immutable
-# but they can contain mutable objects
+# Correct unpacking - number of variables matches tuple elements
+point = (3, 5)
+x, y = point
+print(f"x: {x}, y: {y}")  # Output: x: 3, y: 5
+
+# Incorrect unpacking - will raise ValueError
+colors = ('red', 'green', 'blue')
+# color1, color2 = colors  # This would raise ValueError
+# Correct way would be:
+color1, color2, color3 = colors
+print(color1, color2, color3)  # Output: red green blue
 ```
 
-### **Task 6: Creating a Tuple**  
+---
+
+**Tuples are immutable**, meaning once created, their elements cannot be changed, added, or removed. However, **they can store mutable objects** (like lists or dictionaries), which *can* be modified.
+
+for more details, see [Why Integers, Strings, and Tuples Are Immutable in Python](../data-types/immutable.md)
+
+### Example:
+```python
+my_tuple = (1, 2, [3, 4])  # Tuple with an immutable list inside
+
+# my_tuple[0] = 10  ❌ Fails (can't modify tuple)
+my_tuple[2].append(5)      # ✅ Works (modifying the inner list)
+
+print(my_tuple)  # Output: (1, 2, [3, 4, 5])
+```
+
+## Tasks
+
+### **Task 1: Creating a Tuple**  
 Write a Python program that:  
 - Creates a tuple with **three** different items (e.g., a number, a word, and a decimal).  
 - Prints the **entire tuple**.  
@@ -129,7 +152,7 @@ Tuple: (10, 'Apple', 3.5)
 First item: 10
 ```
 
-### **Task 7: Tuple Unpacking**  
+### **Task 2: Tuple Unpacking**  
 Write a Python program that:  
 - Creates a tuple with three values: name, age, and country.  
 - Uses **tuple unpacking** to assign each value to separate variables.  
@@ -144,7 +167,7 @@ Country: USA
 
 ---
 
-### **Task 8: Accessing Tuple Elements**  
+### **Task 3: Accessing Tuple Elements**  
 Write a Python program that:  
 - Creates a tuple with **five numbers**.  
 - Prints the **last number** using negative indexing.  
@@ -154,14 +177,95 @@ Write a Python program that:
 Numbers: (5, 10, 15, 20, 25)
 Last number: 25
 ```
-### Task: Calculate the Sum of a Tuple Using a For Loop
+### Task 4: Calculate the Sum of a Tuple Using a For Loop
+Write a Python function called `sum_tuple` that takes one argument: a tuple of numbers. The function should return the sum of all the numbers in the tuple using a `for` loop (not the built-in `sum()` function).
+
+**Input:**
+
+A tuple containing numerical values (integers or floats).
+Example:
+
+```python
+(1, 2, 3, 4)
+```
+
+**Expected Output:**
+
+A single numerical value representing the sum of the numbers in the tuple.
+For the input above, the output would be:
+
+```python
+10
+```
 
 [Click here to see the solution ✨](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
 
-### Python tuple example 5: How to Swap Variables in One Line of Code using Tuple Unpacking
+### Task 5: Printing Tuple Elements with a While Loop
+Write a Python function called `print_tuple_while` that takes a tuple of strings as input. This function should iterate through the tuple using a `while` loop and print each element of the tuple on a separate line.
 
-{% assign video_type = "video" %}
-{% assign video_id = "MCeTYJVktmU" %}
-{% include youtube-video.html video_type=video_type video_id=video_id %}
+**Input:**
 
-<!-- - [Example #2: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45) -->
+A tuple of strings, for example:
+```python
+my_tuple = ("apple", "banana", "cherry")
+```
+
+**Expected Output:**
+
+```
+apple
+banana
+cherry
+```
+
+**Here's a starting point for the function:**
+
+```python
+def print_tuple_while(input_tuple):
+    index = 0
+    # Complete the while loop to print each element
+    # of the input_tuple
+    pass
+
+# Example usage:
+my_tuple = ("apple", "banana", "cherry")
+print_tuple_while(my_tuple)
+```
+
+[Click here to see the solution ✨](../../videos/tuples-elements-using-while.md)
+
+### Task 6: How to Swap Variables in One Line of Code using Tuple Unpacking
+
+Write a Python function called `swap_variables` that takes two variables, `a` and `b`, as input. The function should swap the values of these two variables using the one-line tuple unpacking technique and then return the new values of `a` and `b` as a tuple.
+
+**Input:**
+
+Two variables of any data type. For example:
+```python
+x = 10
+y = 5
+```
+
+**Expected Output:**
+
+A tuple containing the swapped values. For the example input above:
+```
+(5, 10)
+```
+
+**Here's a starting point for the function:**
+
+```python
+def swap_variables(a, b):
+    # Write your one-line swap using tuple unpacking here
+    return a, b
+
+# Example usage:
+x = 10
+y = 5
+swapped_x, swapped_y = swap_variables(x, y)
+print(f"Original x: {x}, y: {y}")
+print(f"Swapped x: {swapped_x}, y: {swapped_y}")
+```
+
+[Click here to see the solution ✨](../../videos/tuples-swap-variables.md)
