@@ -20,7 +20,7 @@ breadcrumb:
 
 ## Tuple in Python
 
-- In python, a tuple is an immutable sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
+- In python, a tuple is an [immutable](../data-types/immutable.md) sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
 - Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
 - Sequence types in python - list, tuple and range
 
@@ -198,7 +198,7 @@ For the input above, the output would be:
 10
 ```
 
-[Click here to see the solution ✨](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
+[Click here to see the solution ✨](/python/videos/tuples-sum-using-for-loop.md)
 
 ### Task 5: Printing Tuple Elements with a While Loop
 Write a Python function called `print_tuple_while` that takes a tuple of strings as input. This function should iterate through the tuple using a `while` loop and print each element of the tuple on a separate line.

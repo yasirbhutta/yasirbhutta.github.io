@@ -26,6 +26,3 @@ breadcrumb:
 **This video covers:**
 * ✔️ Exchange the values of two variables using a single line of code.
 
-
-
-<!-- - [Example #2: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45) -->
