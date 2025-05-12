@@ -42,7 +42,7 @@ This video explains how to create tuples in Python.
 {% assign video_id = "QpRiHuQycXg" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-## Example
+## Example 1
 
 Some common ways to create tuples in Python include:
 
@@ -71,17 +71,15 @@ A nested tuple is a tuple that contains one or more tuples as element.
 
 - A special problem is the construction of tuples containing 0 or 1 item.
 - Empty tuples are constructed by an empty pair of parentheses
-- A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses.
+- A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses).
 
-- [Python tuples example: How to create an Empty tuple and Single value tuple](/python/videos/tuples-empty-single-value.md)
+- [Python tuples example : How to create an Empty tuple and Single value tuple](/python/videos/tuples-empty-single-value.md)
 
 ## Accessing the elements of Tuple
 
-- [Example #1: Learn how to print elements of a tuple in Python using while loop](https://www.youtube.com/watch?v=MGgazFPSrS4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=32)
-
-- [Example #2: How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
-
-- [Example #3: How to Calculate the Sum of a Tuple Using a For Loop](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
+- [Python tuple example 2 : How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
+- 
+- [Python tuple example 3: Learn how to print elements of a tuple in Python using while loop](/python/videos/tuples-elements-using-while.md)
 
 ## Unpacking tuples
 
@@ -149,3 +147,6 @@ Write a Python program that:
 Numbers: (5, 10, 15, 20, 25)
 Last number: 25
 ```
+### Task: Calculate the Sum of a Tuple Using a For Loop
+
+[Click here to see the solution ✨](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
