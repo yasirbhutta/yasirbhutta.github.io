@@ -10,11 +10,11 @@ toc: toc/python-toc.html
 
 - [Tuple in Python](tuples/index.html)
   - [Tuple: Creating and Indexing](tuples/tuples-basics.md)
-  - [Tuple: Slicing and Operations](tuples/tuples-slicing-operations.md)
+  - [Tuple: Slicing](tuples/tuples-slicing.md)
   - [Tuple: Methods](tuples/tuples-methods.md)
 - [List in Python](lists/)
   - [List: Creating and Indexing](lists/lists-basics.md)
-  - [List: Slicing and Operations](lists/lists-slicing.md)
+  - [List: Slicing](lists/lists-slicing.md)
   - [List: Methods](lists/lists-methods.md)
 
 ## Introduction to Python Dictionaries: Concepts, Usage, and Examples
