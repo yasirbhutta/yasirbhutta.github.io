@@ -24,7 +24,9 @@ breadcrumb:
 - Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
 - Sequence types in python - list, tuple and range
 
-**Creating a Tuple in Python**
+## Basic Operations
+
+### 1. Creating Tuples
 
 **A tuple is created by enclosing elements within parentheses () and separating them with commas.** While parentheses are technically optional, it's generally considered best practice to use them for clarity and consistency.
 
@@ -60,14 +62,22 @@ print(tup1) # Output: (4, 5, 6)
 tup_mixed = (7, "String", 7.8)
 print(tup_mixed)
 
-tup4 = tuple('string')
-print(tup4) # Output: ('s','t','r','i','n','g')
+```
 
+### 2. Conversion
+```python
+# List to tuple
+list_data = [1, 2, 3]
+tuple_data = tuple(list_data)  # (1, 2, 3)
+
+# String to tuple
+str_data = "hello"
+tuple_chars = tuple(str_data)  # ('h', 'e', 'l', 'l', 'o')
 ```
 
 A nested tuple is a tuple that contains one or more tuples as element.
 
-## Empty and single item tuple
+Empty and single item tuple
 
 - A special problem is the construction of tuples containing 0 or 1 item.
 - Empty tuples are constructed by an empty pair of parentheses
@@ -75,7 +85,23 @@ A nested tuple is a tuple that contains one or more tuples as element.
 
 - [Python tuples example : How to create an Empty tuple and Single value tuple](../../videos/tuples-empty-single-value.md)
 
-## Accessing the elements of Tuple
+### 2. Accessing Elements
+
+```python
+my_tuple = ('a', 'b', 'c', 'd', 'e')
+
+# Indexing
+print(my_tuple[0])    # 'a' (first element)
+print(my_tuple[-1])   # 'e' (last element)
+
+# Slicing
+print(my_tuple[1:3])  # ('b', 'c')
+print(my_tuple[:2])   # ('a', 'b')
+print(my_tuple[2:])   # ('c', 'd', 'e')
+print(my_tuple[::-1]) # ('e', 'd', 'c', 'b', 'a') (reverse)
+```
+
+for more details, see [Tuples Slicing in Python](tuples-slicing.md)
 
 ### Python tuple example 2: How to Access Tuple Items in Python
 
@@ -83,9 +109,44 @@ A nested tuple is a tuple that contains one or more tuples as element.
 {% assign video_id = "6dZUdvI8V_Q" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-## Unpacking tuples
+## Tuple Operations
 
+### 3. Concatenation (+)
+```python
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5)
+combined = tuple1 + tuple2  # (1, 2, 3, 4, 5)
+```
+
+### 4. Repetition (*)
+```python
+repeated = ('hi',) * 3  # ('hi', 'hi', 'hi')
+```
+
+### 5. Membership Testing
+```python
+colors = ('red', 'green', 'blue')
+print('green' in colors)    # True
+print('yellow' not in colors)  # True
+```
+
+### 6. Iteration
+```python
+for item in ('a', 'b', 'c'):
+    print(item)
+```
+
+### 7. Unpacking tuples
 **Tuple unpacking allows you to assign the values of a tuple to multiple variables in a single step.** Each element of the tuple is assigned to a corresponding variable.
+
+```python
+point = (10, 20)
+x, y = point  # x=10, y=20
+
+# Extended unpacking
+values = (1, 2, 3, 4, 5)
+a, b, *rest = values  # a=1, b=2, rest=[3, 4, 5]
+```
 
 ### Python tuple example 4: Unpacking a Tuple in Python
 
@@ -93,16 +154,6 @@ A nested tuple is a tuple that contains one or more tuples as element.
 {% assign video_id = "fi-nvcQukRc" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-**Example:**
-
-```python
-my_tuple = (1, 2, 3)
-a, b, c = my_tuple
-
-print(a)  # Output: 1
-print(b)  # Output: 2
-print(c)  # Output: 3
-```
 
 - The number of variables on the left side must match the number of elements in the tuple, or you’ll get a `ValueError`.
   
@@ -267,3 +318,38 @@ print(f"Swapped x: {swapped_x}, y: {swapped_y}")
 ```
 
 [Click here to see the solution ✨](../../videos/tuples-swap-variables.md)
+
+# Advanced Operations
+
+### 8. Tuple Comparison
+```python
+print((1, 2, 3) < (1, 2, 4))  # True (lexicographical comparison)
+print((1, 2) < (1, 2, -1))    # True
+print((1, 2, 3) == (1.0, 2.0, 3.0))  # True
+```
+
+### 9. Zip Operation
+```python
+names = ('Alice', 'Bob', 'Charlie')
+ages = (25, 30, 35)
+zipped = zip(names, ages)  # Creates an iterator of tuples
+print(list(zipped))  # [('Alice', 25), ('Bob', 30), ('Charlie', 35)]
+```
+
+### 10. Named Tuples (from collections module)
+```python
+from collections import namedtuple
+
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(11, y=22)  # Creates a tuple with named fields
+print(p.x, p.y)      # 11 22
+```
+
+## 11. Immutability Considerations
+
+While tuples are immutable, they can contain mutable objects:
+```python
+mixed_tuple = (1, [2, 3], 4)
+mixed_tuple[1].append(5)  # Valid: The list inside the tuple is mutable
+# mixed_tuple[0] = 10    # Invalid: Will raise TypeError
+```
