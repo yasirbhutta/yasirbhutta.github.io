@@ -20,7 +20,7 @@ breadcrumb:
 
 ## Tuple in Python
 
-- In python, a tuple is an [immutable](../data-types/immutable.md) sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
+- In python, a tuple is an [immutable](../data-types/immutable-mutable.md) sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
 - Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
 - Sequence types in python - list, tuple and range
 
@@ -93,8 +93,6 @@ A nested tuple is a tuple that contains one or more tuples as element.
 {% assign video_id = "fi-nvcQukRc" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-<!-- - [Example #1: Unpacking a Tuple in Python](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105) -->
-
 **Example:**
 
 ```python
@@ -124,9 +122,9 @@ print(color1, color2, color3)  # Output: red green blue
 
 ---
 
-**Tuples are immutable**, meaning once created, their elements cannot be changed, added, or removed. However, **they can store mutable objects** (like lists or dictionaries), which *can* be modified.
+**Tuples are [immutable](../data-types/immutable-mutable.md)**, meaning once created, their elements cannot be changed, added, or removed. However, **they can store mutable objects** (like lists or dictionaries), which *can* be modified.
 
-for more details, see [Why Integers, Strings, and Tuples Are Immutable in Python](../data-types/immutable.md)
+for more details, see [Immutable vs. Mutable](../data-types/immutable-mutable.md)
 
 ### Example:
 ```python
