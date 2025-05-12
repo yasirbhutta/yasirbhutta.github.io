@@ -1,4 +1,194 @@
-Here are some multiple-choice questions (MCQs) related to tuple operations, slicing, and methods in Python:
+Here are some **Python tuple code output questions** along with their answers and explanations. These questions test understanding of tuple operations, slicing, and methods.  
+
+---
+
+### **1. Basic Tuple Creation**
+**Question:** What is the output of the following code?  
+```python
+t = (1, 2, 3, 4)
+print(type(t))
+print(len(t))
+```
+**Options:**  
+a) `<class 'list'>`, `4`  
+b) `<class 'tuple'>`, `4`  
+c) `<class 'tuple'>`, `3`  
+d) `<class 'int'>`, `4`  
+
+**Answer:**  
+✅ **b) `<class 'tuple'>`, `4`**  
+- `(1, 2, 3, 4)` is a tuple → `type(t)` is `tuple`.  
+- `len(t)` counts the elements → `4`.  
+
+---
+
+### **2. Single-Element Tuple**
+**Question:** What is the output?  
+```python
+t1 = (5)
+t2 = (5,)
+print(type(t1), type(t2))
+```
+**Options:**  
+a) `<class 'int'>`, `<class 'tuple'>`  
+b) `<class 'tuple'>`, `<class 'tuple'>`  
+c) `<class 'int'>`, `<class 'int'>`  
+d) Error  
+
+**Answer:**  
+✅ **a) `<class 'int'>`, `<class 'tuple'>`**  
+- `(5)` is just an integer (parentheses for grouping).  
+- `(5,)` is a tuple (trailing comma makes it a tuple).  
+
+---
+
+### **3. Tuple Concatenation**
+**Question:** What does this code print?  
+```python
+t1 = (1, 2)
+t2 = (3, 4)
+print(t1 + t2)
+```
+**Options:**  
+a) `(1, 2, 3, 4)`  
+b) `(4, 6)`  
+c) `(1, 2)(3, 4)`  
+d) Error  
+
+**Answer:**  
+✅ **a) `(1, 2, 3, 4)`**  
+- `+` concatenates tuples.  
+
+---
+
+### **4. Tuple Repetition**
+**Question:** What is the output?  
+```python
+t = (1, 2) * 2
+print(t)
+```
+**Options:**  
+a) `(2, 4)`  
+b) `(1, 2, 1, 2)`  
+c) `(1, 2, 2)`  
+d) Error  
+
+**Answer:**  
+✅ **b) `(1, 2, 1, 2)`**  
+- `*` repeats the tuple elements.  
+
+---
+
+### **5. Tuple Slicing**
+**Question:** What does this print?  
+```python
+t = (10, 20, 30, 40, 50)
+print(t[1:4])
+```
+**Options:**  
+a) `(20, 30, 40)`  
+b) `(10, 20, 30)`  
+c) `(20, 30, 40, 50)`  
+d) `(10, 20)`  
+
+**Answer:**  
+✅ **a) `(20, 30, 40)`**  
+- Slicing `[1:4]` includes index `1` to `3` (excludes `4`).  
+
+---
+
+### **6. Negative Indexing**
+**Question:** What is the output?  
+```python
+t = (5, 10, 15, 20)
+print(t[-2])
+```
+**Options:**  
+a) `10`  
+b) `15`  
+c) `20`  
+d) `5`  
+
+**Answer:**  
+✅ **b) `15`**  
+- `-2` refers to the second last element.  
+
+---
+
+### **7. Tuple Unpacking**
+**Question:** What does this code print?  
+```python
+a, b, c = (1, 2, 3)
+print(b)
+```
+**Options:**  
+a) `1`  
+b) `2`  
+c) `3`  
+d) Error  
+
+**Answer:**  
+✅ **b) `2`**  
+- Tuple unpacking assigns `a=1`, `b=2`, `c=3`.  
+
+---
+
+### **8. `index()` Method**
+**Question:** What is the output?  
+```python
+t = (10, 20, 30, 20)
+print(t.index(20))
+```
+**Options:**  
+a) `1`  
+b) `2`  
+c) `3`  
+d) Error  
+
+**Answer:**  
+✅ **a) `1`**  
+- `index(20)` returns the **first occurrence** of `20` (at index `1`).  
+
+---
+
+### **9. `count()` Method**
+**Question:** What does this print?  
+```python
+t = (1, 2, 2, 3, 2)
+print(t.count(2))
+```
+**Options:**  
+a) `1`  
+b) `2`  
+c) `3`  
+d) `0`  
+
+**Answer:**  
+✅ **c) `3`**  
+- `count(2)` returns how many times `2` appears in the tuple.  
+
+---
+
+### **10. Immutable Check**
+**Question:** What happens when this runs?  
+```python
+t = (1, 2, 3)
+t[0] = 10
+print(t)
+```
+**Options:**  
+a) `(10, 2, 3)`  
+b) `(1, 2, 3)`  
+c) `TypeError`  
+d) `ValueError`  
+
+**Answer:**  
+✅ **c) `TypeError`**  
+- Tuples are **immutable**, so modifying elements raises an error.  
+
+---
+
+These questions cover **tuple basics, slicing, methods, and immutability**. Let me know if you need more! 🚀
 
 ### **Tuple Basics**
 1. **What is a tuple in Python?**  
