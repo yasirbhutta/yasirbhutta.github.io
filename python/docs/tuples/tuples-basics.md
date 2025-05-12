@@ -77,16 +77,25 @@ A nested tuple is a tuple that contains one or more tuples as element.
 
 ## Accessing the elements of Tuple
 
-- [Python tuple example 2 : How to: Access Tuple Items in Python](https://www.youtube.com/watch?v=6dZUdvI8V_Q&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=81)
-- 
-- [Python tuple example 3: Learn how to print elements of a tuple in Python using while loop](/python/videos/tuples-elements-using-while.md)
+### Python tuple example 2: How to Access Tuple Items in Python
+
+{% assign video_type = "video" %}
+{% assign video_id = "6dZUdvI8V_Q" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+### [Python tuple example 3: Learn how to print elements of a tuple in Python using while loop](../../videos/tuples-elements-using-while.md)
 
 ## Unpacking tuples
 
 **Tuple unpacking allows you to assign the values of a tuple to multiple variables in a single step.** Each element of the tuple is assigned to a corresponding variable.
 
-- [Example #1: Unpacking a Tuple in Python](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105)
-- [Example #2: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45)
+### Python tuple example 4: Unpacking a Tuple in Python
+
+{% assign video_type = "video" %}
+{% assign video_id = "fi-nvcQukRc" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+<!-- - [Example #1: Unpacking a Tuple in Python](https://www.youtube.com/watch?v=fi-nvcQukRc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=105) -->
 
 **Example:**
 
@@ -107,8 +116,6 @@ print(c)  # Output: 3
 # Tuples are immutable
 # but they can contain mutable objects
 ```
-
-
 
 ### **Task 6: Creating a Tuple**  
 Write a Python program that:  
@@ -150,3 +157,11 @@ Last number: 25
 ### Task: Calculate the Sum of a Tuple Using a For Loop
 
 [Click here to see the solution ✨](https://www.youtube.com/watch?v=PFNJl8i4y1c&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=33)
+
+### Python tuple example 5: How to Swap Variables in One Line of Code using Tuple Unpacking
+
+{% assign video_type = "video" %}
+{% assign video_id = "MCeTYJVktmU" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+<!-- - [Example #2: How to Swap Variables in One Line of Code using Tuple Unpacking](https://www.youtube.com/watch?v=MCeTYJVktmU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=45) -->
