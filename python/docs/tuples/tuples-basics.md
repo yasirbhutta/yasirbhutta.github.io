@@ -318,38 +318,3 @@ print(f"Swapped x: {swapped_x}, y: {swapped_y}")
 ```
 
 [Click here to see the solution ✨](../../videos/tuples-swap-variables.md)
-
-# Advanced Operations
-
-### 8. Tuple Comparison
-```python
-print((1, 2, 3) < (1, 2, 4))  # True (lexicographical comparison)
-print((1, 2) < (1, 2, -1))    # True
-print((1, 2, 3) == (1.0, 2.0, 3.0))  # True
-```
-
-### 9. Zip Operation
-```python
-names = ('Alice', 'Bob', 'Charlie')
-ages = (25, 30, 35)
-zipped = zip(names, ages)  # Creates an iterator of tuples
-print(list(zipped))  # [('Alice', 25), ('Bob', 30), ('Charlie', 35)]
-```
-
-### 10. Named Tuples (from collections module)
-```python
-from collections import namedtuple
-
-Point = namedtuple('Point', ['x', 'y'])
-p = Point(11, y=22)  # Creates a tuple with named fields
-print(p.x, p.y)      # 11 22
-```
-
-## 11. Immutability Considerations
-
-While tuples are immutable, they can contain mutable objects:
-```python
-mixed_tuple = (1, [2, 3], 4)
-mixed_tuple[1].append(5)  # Valid: The list inside the tuple is mutable
-# mixed_tuple[0] = 10    # Invalid: Will raise TypeError
-```
