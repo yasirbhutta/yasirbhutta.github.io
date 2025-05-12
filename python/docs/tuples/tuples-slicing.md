@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Python Tuples Tutorial for Beginners | Tuples Slicing"
-description: Explore the basics of Python tuples in this beginner-friendly tutorial. Learn tuple creation, properties, and usage with clear examples to enhance your Python skills.
-keywords: Python tuples, Python tuple tutorial, Python tuple basics, tuples in Python, learn Python tuples, tuple examples Python, Python data structures, Python tutorial for beginners, immutable data types Python, how to use tuples in Python
+title: "Python Tuple Slicing: A Complete Guide with Examples"
+description: Learn how to slice tuples in Python with step-by-step examples. Master tuple indexing, slicing syntax (start:stop:step), and immutable operations for efficient coding.
+keywords: Python tuples, tuple slicing, Python tuple indexing, how to slice tuples, tuple vs list, Python immutable sequences, tuple operations, Python data structures, tuple examples, Python slicing syntax
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/ms-excel-toc.html
-prev: /python/docs/tuples/
-next: /python/docs/tuples/tuples-slicing.html
+toc: toc/python-toc.html
+prev: /python/docs/tuples/tuples-basics.html
+next: /python/docs/tuples/tuples-methods.html
 breadcrumb:
   - title: Home
     url: /

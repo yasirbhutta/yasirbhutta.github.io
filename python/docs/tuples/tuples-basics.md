@@ -6,7 +6,7 @@ keywords: Python tuples, Python tuple tutorial, Python tuple basics, tuples in P
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/ms-excel-toc.html
+toc: toc/python-toc.html
 prev: /python/docs/tuples/
 next: /python/docs/tuples/tuples-slicing.html
 breadcrumb:
@@ -94,7 +94,7 @@ print(my_tuple[2:])   # ('c', 'd', 'e')
 print(my_tuple[::-1]) # ('e', 'd', 'c', 'b', 'a') (reverse)
 ```
 
-for more details, see [Tuples Slicing in Python](tuples-slicing.md)
+for more details, see [Python Tuple Slicing: A Complete Guide with Examples](tuples-slicing.md)
 
 ### Python tuple example 2: How to Access Tuple Items in Python
 

@@ -20,3 +20,4 @@ breadcrumb:
 
 - [Tuples Basics](tuples-basics.md)
 - [Tuples Slicing](tuples-slicing.md)
+- [Tuples Methods](tuples-methods.md)
