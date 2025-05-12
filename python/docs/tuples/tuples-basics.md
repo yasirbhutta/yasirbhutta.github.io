@@ -8,7 +8,7 @@ course: python
 topic: tuples
 toc: toc/ms-excel-toc.html
 prev: /python/docs/tuples/
-next: /phthon/docs/functions/sumif.html
+next: /python/docs/tuples/tuples-slicing.html
 breadcrumb:
   - title: Home
     url: /
@@ -73,7 +73,7 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - Empty tuples are constructed by an empty pair of parentheses
 - A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses).
 
-- [Python tuples example : How to create an Empty tuple and Single value tuple](/python/videos/tuples-empty-single-value.md)
+- [Python tuples example : How to create an Empty tuple and Single value tuple](../../videos/tuples-empty-single-value.md)
 
 ## Accessing the elements of Tuple
 
