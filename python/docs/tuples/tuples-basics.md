@@ -30,20 +30,6 @@ breadcrumb:
 
 **A tuple is created by enclosing elements within parentheses () and separating them with commas.** While parentheses are technically optional, it's generally considered best practice to use them for clarity and consistency.
 
-## **📺 Python Tutorial: Learn 5 Easy Ways to Create Tuples in Python**  
-This video explains how to create tuples in Python.
-
-**This video covers:**  
-* ✔️ **Using Parentheses:** Tuples can be created by enclosing comma-separated items within parentheses \[[00:05](http://www.youtube.com/watch?v=QpRiHuQycXg&t=5)\].
-* ✔️ **Without Parentheses:** You can also create a tuple by simply separating items with commas \[[00:46](http://www.youtube.com/watch?v=QpRiHuQycXg&t=46)\].
-* ✔️ **Nested Tuples:** Tuples can contain other tuples as elements \[[00:56](http://www.youtube.com/watch?v=QpRiHuQycXg&t=56)\].
-* ✔️ **Different Data Types:** Tuples can store multiple items of different data types \[[01:20](http://www.youtube.com/watch?v=QpRiHuQycXg&t=80)\].
-* ✔️ **Tuple Function:** The `tuple` function can create a tuple from a list or other iterable, like converting a string into a tuple of characters \[[01:35](http://www.youtube.com/watch?v=QpRiHuQycXg&t=95)\].
-
-{% assign video_type = "video" %}
-{% assign video_id = "QpRiHuQycXg" %}
-{% include youtube-video.html video_type=video_type video_id=video_id %}
-
 ## Example 1
 
 Some common ways to create tuples in Python include:
@@ -64,6 +50,13 @@ print(tup_mixed)
 
 ```
 
+## **📺 Python Tutorial: Learn 5 Easy Ways to Create Tuples in Python**  
+This video explains how to create tuples in Python.
+
+{% assign video_type = "video" %}
+{% assign video_id = "QpRiHuQycXg" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
 ### 2. Conversion
 ```python
 # List to tuple
@@ -75,9 +68,9 @@ str_data = "hello"
 tuple_chars = tuple(str_data)  # ('h', 'e', 'l', 'l', 'o')
 ```
 
-A nested tuple is a tuple that contains one or more tuples as element.
+A **nested tuple** is a tuple that contains one or more tuples as element.
 
-Empty and single item tuple
+**Empty and single item tuple:**
 
 - A special problem is the construction of tuples containing 0 or 1 item.
 - Empty tuples are constructed by an empty pair of parentheses
