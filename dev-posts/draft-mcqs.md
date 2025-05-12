@@ -1,4 +1,124 @@
+Here are some multiple-choice questions (MCQs) related to tuple operations, slicing, and methods in Python:
 
+### **Tuple Basics**
+1. **What is a tuple in Python?**  
+   a) A mutable sequence of elements  
+   b) An immutable sequence of elements  
+   c) A key-value pair collection  
+   d) A single value container  
+   **Answer: b) An immutable sequence of elements**
+
+2. **How do you create an empty tuple?**  
+   a) `t = ()`  
+   b) `t = tuple()`  
+   c) Both a and b  
+   d) `t = []`  
+   **Answer: c) Both a and b**
+
+3. **Which of the following is a valid tuple declaration?**  
+   a) `t = (1)`  
+   b) `t = (1,)`  
+   c) `t = 1,`  
+   d) Both b and c  
+   **Answer: d) Both b and c** *(A single-element tuple requires a comma.)*
+
+---
+
+### **Tuple Operations**
+4. **What is the output of `(1, 2) + (3, 4)`?**  
+   a) `(1, 2, 3, 4)`  
+   b) `(4, 6)`  
+   c) `(1, 2)(3, 4)`  
+   d) Error  
+   **Answer: a) `(1, 2, 3, 4)`** *(Tuples can be concatenated.)*
+
+5. **What is the result of `(1, 2) * 3`?**  
+   a) `(3, 6)`  
+   b) `(1, 2, 1, 2, 1, 2)`  
+   c) `(1, 2, 3)`  
+   d) Error  
+   **Answer: b) `(1, 2, 1, 2, 1, 2)`** *(Repetition operation on tuples.)*
+
+6. **Which operation is NOT allowed on tuples?**  
+   a) Concatenation (`+`)  
+   b) Repetition (`*`)  
+   c) Modifying an element (`t[0] = 5`)  
+   d) Slicing (`t[1:3]`)  
+   **Answer: c) Modifying an element (`t[0] = 5`)** *(Tuples are immutable.)*
+
+---
+
+### **Tuple Slicing**
+7. **What is the output of `t = (10, 20, 30, 40, 50); print(t[1:4])`?**  
+   a) `(20, 30, 40)`  
+   b) `(10, 20, 30)`  
+   c) `(20, 30, 40, 50)`  
+   d) `(10, 20)`  
+   **Answer: a) `(20, 30, 40)`** *(Slicing includes start index, excludes end index.)*
+
+8. **What does `t[::-1]` do?**  
+   a) Reverses the tuple  
+   b) Deletes the tuple  
+   c) Returns the first element  
+   d) Raises an error  
+   **Answer: a) Reverses the tuple** *(Step `-1` reverses the sequence.)*
+
+9. **If `t = (5, 10, 15, 20)`, what is `t[-2]`?**  
+   a) `10`  
+   b) `15`  
+   c) `20`  
+   d) `5`  
+   **Answer: b) `15`** *(Negative indexing starts from the end.)*
+
+---
+
+### **Tuple Methods**
+10. **Which method returns the index of the first occurrence of a value in a tuple?**  
+    a) `find()`  
+    b) `index()`  
+    c) `search()`  
+    d) `get()`  
+    **Answer: b) `index()`** *(Example: `t.index(10)` finds the position of `10`.)*
+
+11. **What does the `count()` method do for tuples?**  
+    a) Returns the total number of elements  
+    b) Counts occurrences of a specified value  
+    c) Sums all elements  
+    d) Converts tuple to a list  
+    **Answer: b) Counts occurrences of a specified value** *(Example: `t.count(5)` gives the number of `5`s.)*
+
+12. **Which of the following is NOT a tuple method?**  
+    a) `index()`  
+    b) `count()`  
+    c) `append()`  
+    d) None of the above  
+    **Answer: c) `append()`** *(Tuples are immutable, so they don’t support `append`.)*
+
+---
+
+### **Miscellaneous**
+13. **Can tuples contain elements of different data types?**  
+    a) Yes  
+    b) No  
+    **Answer: a) Yes** *(Example: `(1, "hello", 3.14)` is valid.)*
+
+14. **What is the result of `len((1, 2, 3, 4))`?**  
+    a) `4`  
+    b) `3`  
+    c) `1`  
+    d) `10`  
+    **Answer: a) `4`** *(The `len()` function returns the number of elements.)*
+
+15. **What happens if you try to modify a tuple?**  
+    a) It works fine  
+    b) Raises `TypeError`  
+    c) Raises `ValueError`  
+    d) The tuple becomes a list  
+    **Answer: b) Raises `TypeError`** *(Tuples are immutable.)*
+
+---
+
+These MCQs cover fundamental concepts of tuples in Python, including operations, slicing, and methods. Let me know if you'd like more questions or explanations! 🚀
 ---
 
 2. What will be the output?
