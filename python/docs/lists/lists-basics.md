@@ -24,7 +24,7 @@ next: /python/docs/lists/lists-slicing.html
 
 ### Key Characteristics of Lists:
 1. **Ordered**: The items in a list have a specific order, and this order will not change unless explicitly modified.
-2. **Mutable**: You can change, add, or remove items after the list has been created.
+2. **[Mutable](../data-types/immutable-mutable.md)**: You can change, add, or remove items after the list has been created.
 3. **Heterogeneous**: A list can contain different data types, such as integers, strings, and even other lists.
 4. **Indexed**: Each item in a list has an index, starting from `0` for the first item.
 
