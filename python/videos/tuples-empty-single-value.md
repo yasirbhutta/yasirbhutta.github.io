@@ -27,3 +27,7 @@ This tutorial explains how to create empty and single value tuples in Python:
 * ✔️ An empty tuple is a tuple with no elements, represented by an empty pair of parentheses \[[00:06](http://www.youtube.com/watch?v=nGIWcYXj580&t=6)\]. It can be used as a placeholder when a tuple is expected, but there are no elements to include \[[00:19](http://www.youtube.com/watch?v=nGIWcYXj580&t=19)\].
 * ✔️ A single value tuple contains only one element, represented by a single value followed by a comma \[[00:32](http://www.youtube.com/watch?v=nGIWcYXj580&t=32)\]. Without the comma, Python will interpret the value as a simple data type, not a tuple \[[00:48](http://www.youtube.com/watch?v=nGIWcYXj580&t=48)\]. Single value tuples are useful when you want to create a tuple with only one value and you don't want to have a list \[[01:08](http://www.youtube.com/watch?v=nGIWcYXj580&t=68)\].
 
+## 📘 **Related Topics**
+
+* **Tuples in Python** – Understand the basics of tuples in Python with clear explanations and practical examples.
+  - 👉 [Learn more](../docs/tuples/tuples-basics.md)

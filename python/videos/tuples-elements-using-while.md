@@ -29,3 +29,8 @@ The video covers the following topics:
 * ✔️ **Iterating through a tuple:** Specifically using a `while` loop.
 * ✔️ **Accessing elements of a tuple:** Using indexing within the `while` loop.
 * ✔️ **Basic Python syntax:** Including loop control and printing.
+
+## 📘 **Related Topics**
+
+* **Tuples in Python** – Understand the basics of tuples in Python with clear explanations and practical examples.
+  - 👉 [Learn more](../docs/tuples/tuples-basics.md)

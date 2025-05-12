@@ -18,4 +18,5 @@ breadcrumb:
 
 # Tuples
 
-- [Tuple Basics](tuples-basics.md)
+- [Tuples Basics](tuples-basics.md)
+- [Tuples Slicing](tuples-slicing.md)
