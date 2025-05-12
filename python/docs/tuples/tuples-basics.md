@@ -168,7 +168,7 @@ print(color1, color2, color3)  # Output: red green blue
 
 **Tuples are [immutable](../data-types/immutable-mutable.md)**, meaning once created, their elements cannot be changed, added, or removed. However, **they can store mutable objects** (like lists or dictionaries), which *can* be modified.
 
-for more details, see [Immutable vs. Mutable](../data-types/immutable-mutable.md)
+for more details, see [Mutable vs Immutable Data Types: Key Differences & Examples (2025 Guide)](../data-types/immutable-mutable.md)
 
 ### Example:
 ```python

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Mutable vs Immutable Data Types: Key Differences & Examples (2024 Guide)"
+title: "Mutable vs Immutable Data Types: Key Differences & Examples (2025 Guide)"
 description: Learn the difference between mutable and immutable data types with clear examples. Discover Python's mutable (list, dict, set) and immutable (int, str, tuple) types and why they matter in programming.
 keywords: mutable vs immutable, mutable and immutable data types, difference between mutable and immutable, Python mutable types, Python immutable types, list vs tuple mutable, why use immutable objects, thread safety mutable immutable, mutable data examples, immutable data examples, Python list dictionary set, Python string tuple int, when to use mutable types, advantages of immutable objects, mutable vs immutable in programming
 author: Muhammad Yasir Bhutta
