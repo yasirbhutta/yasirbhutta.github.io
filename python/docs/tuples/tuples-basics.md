@@ -1,12 +1,24 @@
 ---
 layout: page
-title: Tuple in Python
-description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
-keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
-toc: toc/python-toc.html
+title: "Python Tuples Tutorial for Beginners | Learn Tuple Basics with Examples"
+description: Explore the basics of Python tuples in this beginner-friendly tutorial. Learn tuple creation, properties, and usage with clear examples to enhance your Python skills.
+keywords: Python tuples, Python tuple tutorial, Python tuple basics, tuples in Python, learn Python tuples, tuple examples Python, Python data structures, Python tutorial for beginners, immutable data types Python, how to use tuples in Python
+author: Muhammad Yasir Bhutta
+course: python
+topic: tuples
+toc: toc/ms-excel-toc.html
+prev: /python/docs/tuples/
+next: /phthon/docs/functions/sumif.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Tuples
+    url: /python/docs/tuples/
 ---
 
-### 3.4.1 Tuple in Python
+## Tuple in Python
 
 - In python, a tuple is an immutable sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
 - Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
@@ -16,15 +28,21 @@ toc: toc/python-toc.html
 
 **A tuple is created by enclosing elements within parentheses () and separating them with commas.** While parentheses are technically optional, it's generally considered best practice to use them for clarity and consistency.
 
-**Python Tutorial:How to create a tuple in Python**
+## **📺 Python Tutorial: Learn 5 Easy Ways to Create Tuples in Python**  
+This video explains how to create tuples in Python.
+
+**This video covers:**  
+* ✔️ **Using Parentheses:** Tuples can be created by enclosing comma-separated items within parentheses \[[00:05](http://www.youtube.com/watch?v=QpRiHuQycXg&t=5)\].
+* ✔️ **Without Parentheses:** You can also create a tuple by simply separating items with commas \[[00:46](http://www.youtube.com/watch?v=QpRiHuQycXg&t=46)\].
+* ✔️ **Nested Tuples:** Tuples can contain other tuples as elements \[[00:56](http://www.youtube.com/watch?v=QpRiHuQycXg&t=56)\].
+* ✔️ **Different Data Types:** Tuples can store multiple items of different data types \[[01:20](http://www.youtube.com/watch?v=QpRiHuQycXg&t=80)\].
+* ✔️ **Tuple Function:** The `tuple` function can create a tuple from a list or other iterable, like converting a string into a tuple of characters \[[01:35](http://www.youtube.com/watch?v=QpRiHuQycXg&t=95)\].
 
 {% assign video_type = "video" %}
 {% assign video_id = "QpRiHuQycXg" %}
-
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-
-**Example**
+## Example
 
 Some common ways to create tuples in Python include:
 
@@ -55,7 +73,7 @@ A nested tuple is a tuple that contains one or more tuples as element.
 - Empty tuples are constructed by an empty pair of parentheses
 - A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses.
 
-- [Example: How to create an Empty tuple and Single value tuple](https://www.youtube.com/watch?v=nGIWcYXj580&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=83)
+- [Python tuples example: How to create an Empty tuple and Single value tuple](/python/videos/tuples-empty-single-value.md)
 
 ## Accessing the elements of Tuple
 
