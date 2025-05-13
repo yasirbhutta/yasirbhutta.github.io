@@ -18,19 +18,26 @@ breadcrumb:
     url: /python/docs/tuples/
 ---
 
-## Tuple in Python
+## Table of the Contents
+
+1. [Tuple in Python](#tuple-in-python)
+2. [Basic Operations](#basic-operations)
+3. [Tuple Operations](#tuple-operations)
+4. [Tasks](#tasks)
+
+## **1. Tuple in Python**
 
 - In python, a tuple is an [immutable](../data-types/immutable-mutable.md) sequence of elements. it is similar to a list, but the elements of a tuple cannot be modified once they are created.
 - Tuple is a collection data type in python. It is useful for storing multiple related values as a single unit.
 - Sequence types in python - list, tuple and range
 
-## Basic Operations
+## **2. Basic Operations**
 
-### 1. Creating Tuples
+### 2.1 Creating Tuples
 
 **A tuple is created by enclosing elements within parentheses () and separating them with commas.** While parentheses are technically optional, it's generally considered best practice to use them for clarity and consistency.
 
-## Example 1
+#### Example 1
 
 Some common ways to create tuples in Python include:
 
@@ -50,14 +57,25 @@ print(tup_mixed)
 
 ```
 
-## **📺 Python Tutorial: Learn 5 Easy Ways to Create Tuples in Python**  
+**📺 Python Tutorial: Learn 5 Easy Ways to Create Tuples in Python**  
 This video explains how to create tuples in Python.
 
 {% assign video_type = "video" %}
 {% assign video_id = "QpRiHuQycXg" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-### 2. Conversion
+A **nested tuple** is a tuple that contains one or more tuples as element.
+
+#### **Empty and single item tuple:**
+
+- A special problem is the construction of tuples containing 0 or 1 item.
+- Empty tuples are constructed by an empty pair of parentheses
+- A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses).
+
+- [Python tuples example : How to create an Empty tuple and Single value tuple](../../videos/tuples-empty-single-value.md)
+
+
+### 2.2 Conversion
 ```python
 # List to tuple
 list_data = [1, 2, 3]
@@ -68,17 +86,7 @@ str_data = "hello"
 tuple_chars = tuple(str_data)  # ('h', 'e', 'l', 'l', 'o')
 ```
 
-A **nested tuple** is a tuple that contains one or more tuples as element.
-
-**Empty and single item tuple:**
-
-- A special problem is the construction of tuples containing 0 or 1 item.
-- Empty tuples are constructed by an empty pair of parentheses
-- A tuple with one item is constructed by following a value with a comma (it is not sufficient to enclose a single value in parentheses).
-
-- [Python tuples example : How to create an Empty tuple and Single value tuple](../../videos/tuples-empty-single-value.md)
-
-### 2. Accessing Elements
+### 2.3 Accessing Elements
 
 ```python
 my_tuple = ('a', 'b', 'c', 'd', 'e')
@@ -96,40 +104,40 @@ print(my_tuple[::-1]) # ('e', 'd', 'c', 'b', 'a') (reverse)
 
 for more details, see [Python Tuple Slicing: A Complete Guide with Examples](tuples-slicing.md)
 
-### Python tuple example 2: How to Access Tuple Items in Python
+**Python tuple example 2: How to Access Tuple Items in Python**
 
 {% assign video_type = "video" %}
 {% assign video_id = "6dZUdvI8V_Q" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
-## Tuple Operations
+## **3. Tuple Operations**
 
-### 3. Concatenation (+)
+### 3.1 Concatenation (+)
 ```python
 tuple1 = (1, 2, 3)
 tuple2 = (4, 5)
 combined = tuple1 + tuple2  # (1, 2, 3, 4, 5)
 ```
 
-### 4. Repetition (*)
+### 3.2 Repetition (*)
 ```python
 repeated = ('hi',) * 3  # ('hi', 'hi', 'hi')
 ```
 
-### 5. Membership Testing
+### 3.3 Membership Testing
 ```python
 colors = ('red', 'green', 'blue')
 print('green' in colors)    # True
 print('yellow' not in colors)  # True
 ```
 
-### 6. Iteration
+### 3.4. Iteration
 ```python
 for item in ('a', 'b', 'c'):
     print(item)
 ```
 
-### 7. Unpacking tuples
+### 3.5. Unpacking tuples
 **Tuple unpacking allows you to assign the values of a tuple to multiple variables in a single step.** Each element of the tuple is assigned to a corresponding variable.
 
 ```python
@@ -141,7 +149,7 @@ values = (1, 2, 3, 4, 5)
 a, b, *rest = values  # a=1, b=2, rest=[3, 4, 5]
 ```
 
-### Python tuple example 4: Unpacking a Tuple in Python
+#### Python tuple example 4: Unpacking a Tuple in Python
 
 {% assign video_type = "video" %}
 {% assign video_id = "fi-nvcQukRc" %}
@@ -171,6 +179,7 @@ print(color1, color2, color3)  # Output: red green blue
 for more details, see [Mutable vs Immutable Data Types: Key Differences & Examples (2025 Guide)](../data-types/immutable-mutable.md)
 
 ### Example:
+
 ```python
 my_tuple = (1, 2, [3, 4])  # Tuple with an immutable list inside
 
@@ -180,7 +189,7 @@ my_tuple[2].append(5)      # ✅ Works (modifying the inner list)
 print(my_tuple)  # Output: (1, 2, [3, 4, 5])
 ```
 
-## Tasks
+## 4. Tasks
 
 ### **Task 1: Creating a Tuple**  
 Write a Python program that:  
