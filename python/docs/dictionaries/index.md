@@ -15,3 +15,6 @@ breadcrumb:
   - title: Python
     url: /python/
 ---
+## Table of Contents
+
+- [Basics](dict-basics.md)
