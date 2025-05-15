@@ -8,7 +8,7 @@ course: computer-basics
 topic: hardware
 toc: toc/computer-basics.html
 prev: /computer-basics/docs/database.html
-next: /google-workspace/docs/email.html
+next: /google-workspace/docs/gmail/
 breadcrumb:
   - title: Home
     url: /

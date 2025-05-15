@@ -55,11 +55,4 @@ From your computer, you can use Google Docs to write an email draft and quickly 
 ## Practice Exercise
 
 - Using Google Docs, compose an email to a friend or family member about your plans for the upcoming holiday break.
-
-## Social Links
-
-- [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c)
-- [Web](https://yasirbhutta.github.io/)
-- [Youtube](https://www.youtube.com/yasirbhutta)
-- [Facebook](https://www.facebook.com/yasirbhutta786)
-- [Twitter](https://twitter.com/yasirbhutta)
+  

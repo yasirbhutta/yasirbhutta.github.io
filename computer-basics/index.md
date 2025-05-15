@@ -1,11 +1,21 @@
-# Computer Basics
+---
+layout: default
+title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
+description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
+keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/computer-basics.html
+next: /computer-basics/docs/computer.html
+breadcrumb:
+  - title: Home
+    url: /
+---
 
-- [Computer](docs/computer.md)
-- [Name Systems](docs/number-systems.md)
-- [Learn Computer](learn-computer.md)
-
-- [MCQs](mcqs.md)
-- [Review Questions](review-questions.md)
+{% assign show_heading = true %}
+{% include /toc/computer-basics.html show_heading=show_heading %}
+{% endif %}
 
 ## Download Slides
 
