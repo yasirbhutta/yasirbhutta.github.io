@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 course: google-workspace
 topic: google-docs
 toc: toc/google-workspace.html
-prev: /google-workspace/
+prev: /google-workspace/docs/gmail
 breadcrumb:
   - title: Home
     url: /

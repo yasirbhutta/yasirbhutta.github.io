@@ -8,7 +8,7 @@ course: google-workspace
 topic: google-search
 toc: toc/google-workspace.html
 prev: /google-workspace/
-next: /google-workspace/gmail/
+next: /google-workspace/docs/gmail/
 breadcrumb:
   - title: Home
     url: /
