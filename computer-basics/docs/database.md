@@ -1,6 +1,20 @@
-# Computer Basics: Database
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+---
+layout: page
+title: "Database Basics: Introduction to Databases for Beginners | Computer Basics"
+description: Learn the fundamentals of databases, including types, uses, and basic concepts. Perfect for beginners exploring computer basics. Start mastering databases today!
+keywords: database basics, introduction to databases, what is a database, types of databases, database management system, SQL basics, computer fundamentals, database for beginners, relational database, NoSQL database, DBMS tutorial, learn databases, data storage, database concepts, structured data
+author: Muhammad Yasir Bhutta
+course: python
+topic: functions
+toc: toc/python-toc.html
+prev: /python/docs/quick-guide.html
+next: /computer-basics/docs/networks.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/database.pdf)
 - To access the updated handouts, please click on the following link:
