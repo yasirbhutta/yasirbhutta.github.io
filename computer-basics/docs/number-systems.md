@@ -554,14 +554,6 @@ When the computer needs to access a bit of data in ROM, it sends the address of 
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Further Reading
-
-{% assign show_heading = False %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
-
-{% assign topic = "number-systems" %}
-{% include practice-and-progress.html topic=topic %}
-
 ## Fill in the Blanks
 
 1. A binary digit is also known as a _______.  

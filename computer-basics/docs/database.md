@@ -106,14 +106,6 @@ breadcrumb:
 - [Access video training - Microsoft Support](https://support.microsoft.com/en-us/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6)
 - [What is Microsoft Access? Database Management Simplified - Simplilearn](https://www.simplilearn.com/what-is-microsoft-access-article)
 
-## Further Reading
-
-{% assign show_heading = False %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
-
-{% assign topic = "database" %}
-{% include practice-and-progress.html topic=topic %}
-
 ## True/False (Mark T for True and F for False)
 
 - A database is an organized collection of data stored electronically on a computer system. **True/False**

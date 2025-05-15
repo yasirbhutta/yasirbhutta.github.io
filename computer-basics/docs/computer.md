@@ -142,12 +142,6 @@ Here are some examples of commands and programs:
 - VLC Media Player (video player)
 - Minecraft (video game)
 
-## Further Reading
-
-{% assign show_heading = False %}
-{% include toc/computer-basics-toc.html show_heading=show_heading%}
-
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
