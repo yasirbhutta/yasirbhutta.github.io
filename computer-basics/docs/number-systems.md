@@ -1,6 +1,20 @@
-# Number System
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+---
+layout: page
+title: "Understanding Number Systems in Computer Basics - Binary, Decimal, Hex & More"
+description: Learn about different number systems (Binary, Decimal, Hexadecimal) in computer science. Essential guide for beginners with conversion methods & examples.
+keywords: number systems in computer, binary number system, decimal number system, hexadecimal conversion, computer basics number systems, binary to decimal conversion, types of number systems, computer science number systems, octal number system, number system conversion, base-2 system, base-10 system, base-16 system, digital number systems, binary arithmetic, number representation in computers
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: number-systems
+toc: toc/computer-basics.html
+prev: /computer-basics/docs/computer.html
+next: /computer-basics/docs/hardware.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/number-systems.pdf)
 - To access the updated handouts, please click on the following link:

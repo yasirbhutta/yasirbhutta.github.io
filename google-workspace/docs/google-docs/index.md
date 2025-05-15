@@ -1,6 +1,19 @@
-# Google Workspace
-
-## Google Docs
+---
+layout: page
+title: "Google Docs Guide – Collaborate & Boost Productivity (Workspace Tips)"
+description: Master Google Docs in Google Workspace with this complete guide. Learn real-time collaboration, formatting tricks, add-ons, and workflow optimization.
+keywords: Master Google Docs in Google Workspace with this complete guide. Learn real-time collaboration, formatting tricks, add-ons, and workflow optimization.
+author: Muhammad Yasir Bhutta
+course: google-workspace
+topic: google-docs
+toc: toc/google-workspace.html
+prev: /google-workspace/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Google Workspace
+    url: /google-workspace/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-docs.pdf)
 

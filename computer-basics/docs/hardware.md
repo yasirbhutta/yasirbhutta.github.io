@@ -1,6 +1,22 @@
-# Computer Basics: Hardware components
+---
+layout: page
+title: "Computer Hardware Basics: Components, Functions & Examples"
+description: Learn about essential computer hardware components (CPU, RAM, HDD, GPU) and their functions. Beginner-friendly guide with diagrams and examples.
+keywords: computer hardware basics, hardware components, CPU function, RAM vs ROM, types of storage devices, motherboard components, GPU explained, input and output devices, computer parts and functions, hardware for beginners, internal vs external hardware, computer peripherals, what is a hard drive, how does a CPU work, computer hardware guide
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: hardware
+toc: toc/computer-basics.html
+prev: /computer-basics/docs/number-systems.html
+next: /computer-basics/docs/storage-devices.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Computer Basics: Hardware components
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/hardware.pdf)
 - To access the updated handouts, please click on the following link:

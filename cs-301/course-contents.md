@@ -23,7 +23,7 @@ breadcrumb:
 
 ## Internet: Browsers and Search Engines
 
-- [Google Search](../google-workspace/docs/google-search.md) \| [Download PDF](../google-workspace/docs/google-search.pdf)
+- [Google Search](../google-workspace/docs/google-search/) \| [Download PDF](../google-workspace/docs/google-search/google-search.pdf)
 
 ## Hardware
 
@@ -49,7 +49,7 @@ breadcrumb:
 
 ## The Internet
 
-- [Email](../google-workspace/docs/email.md) \| [Download PDF](../google-workspace/docs/email.pdf) 
+- [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf) 
 - [Collaborative Computing and Social Networking](../social-media/docs/socialmedia.md) \| [Download PDF](../google-workspace/docs/email.pdf)
 - E-Commerce
 - IT Security

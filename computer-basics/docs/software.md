@@ -1,6 +1,20 @@
-# Computer Basics: Software
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+---
+layout: page
+title: "Computer Software Explained: Types, Examples & Key Differences (System vs Application)"
+description: Learn about computer software types (System, Application, Utility), examples, and how they work. Essential guide for beginners in computer basics!.
+keywords: computer software, types of software, system software, application software, software examples, operating systems, utility software, difference between system and application software, free vs paid software, software definition, computer programs, what is software, software basics, open-source software, most used software, software for beginners
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: hardware
+toc: toc/computer-basics.html
+prev: /computer-basics/docs/storage-devices.html
+next: /python/docs/quick-guide.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/software.pdf)
 - To access the updated handouts, please click on the following link:

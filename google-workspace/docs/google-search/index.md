@@ -1,9 +1,22 @@
-# Google Search
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+---
+layout: page
+title: "Google Search in Workspace – Tips for Better Productivity & Results"
+description: Learn how to use Google Search effectively in Google Workspace (Gmail, Drive, Docs & more). Boost productivity with advanced search operators & best practices.
+keywords: Google Search Workspace, Google Workspace search tips, Gmail search tricks, Google Drive search, Docs search operators, Workspace productivity, Google Cloud search, advanced search Google, find files faster, Workspace search guide
+author: Muhammad Yasir Bhutta
+course: google-workspace
+topic: google-search
+toc: toc/google-workspace.html
+prev: /google-workspace/
+next: /google-workspace/gmail/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Google Workspace
+    url: /google-workspace/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-search.pdf)
-
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/google-workspace/docs/google-search.html](https://yasirbhutta.github.io/google-workspace/docs/google-search.html)
 

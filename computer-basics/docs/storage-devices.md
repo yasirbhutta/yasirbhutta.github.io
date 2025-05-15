@@ -1,6 +1,22 @@
-# Computer Basics: Computer Data Storage Devices
+---
+layout: page
+title: "Storage Devices Explained: Types, Examples & Uses (HDD, SSD, USB, Cloud)"
+description: Learn about different storage devices (HDD, SSD, USB, Cloud) – how they work, advantages, and uses. Essential guide for computer basics!.
+keywords: storage devices, types of storage devices, HDD vs SSD, USB flash drive, cloud storage, primary and secondary storage, computer memory devices, best storage devices, examples of storage devices, hard disk drive explained, solid-state drive benefits, external storage devices, data storage solutions, storage devices in computer, RAM vs storage
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: hardware
+toc: toc/computer-basics.html
+prev: /computer-basics/docs/hardware.html
+next: /computer-basics/docs/software.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Computer Basics: Computer Data Storage Devices
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/storage-devices.pdf)
 - To access the updated handouts, please click on the following link:

@@ -1,6 +1,22 @@
-# Computer Basics: Networking Basics
+---
+layout: page
+title: "Computer Networks Explained: Types, Topologies & Protocols (LAN, WAN, TCP/IP)"
+description: Learn about computer networks - types (LAN/WAN), topologies, protocols (TCP/IP), and how they work. Essential guide for networking beginners with diagrams.
+keywords: computer networks, types of networks, LAN vs WAN, network topologies, TCP/IP protocol, networking basics, what is a computer network, network devices, router vs switch, OSI model, internetworking, wireless networks, network security basics, networking for beginners, how networks work, network architecture
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: hardware
+toc: toc/computer-basics.html
+prev: /computer-basics/docs/database.html
+next: /google-workspace/docs/email.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Computer Basics
+    url: /computer-basics/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Computer Basics: Networking Basics
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/networks.pdf)
 - To access the updated handouts, please click on the following link:

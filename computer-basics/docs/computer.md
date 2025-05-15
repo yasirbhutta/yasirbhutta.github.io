@@ -8,7 +8,7 @@ course: computer-basics
 topic: computer
 toc: toc/computer-basics.html
 prev: /cs-301/course-contents.html
-next: /google-workspace/docs/google-search.html
+next: /computer-basics/docs/number-systems.html
 breadcrumb:
   - title: Home
     url: /

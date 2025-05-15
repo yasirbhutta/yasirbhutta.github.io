@@ -1,6 +1,20 @@
-# Google Workspace
-
-## Email
+---
+layout: page
+title: "Google Workspace Email Guide – Master Gmail for Business (Setup & Tips)"
+description: Learn how to set up and optimize Google Workspace Email (Gmail) for business. Includes inbox organization, filters, labels, security, and productivity hacks.
+keywords: Google Workspace Email, Gmail for business, Google Workspace Gmail setup, professional email setup, Gmail productivity tips, email filters and labels, Gmail security, business email best practices, Workspace email management, Gmail organization
+author: Muhammad Yasir Bhutta
+course: google-workspace
+topic: gmail
+toc: toc/google-workspace.html
+prev: /google-workspace/docs/google-search.html
+next: /google-workspace/docs/google-docs/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Google Workspace
+    url: /google-workspace/
+---
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/email.pdf)
 

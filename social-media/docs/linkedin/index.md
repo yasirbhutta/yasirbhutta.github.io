@@ -1,6 +1,20 @@
-# Social Media: LinkedIn
+---
+layout: page
+title: "Linkedin Tips & Best Practices"
+description: Boost your social media presence with this linkedin guide! Learn platform strategies, content creation, engagement tips, and growth hacks for LinkedIn.
+keywords: social media guide, social media marketing, LinkedIn marketing, content creation, social media engagement, best practices, platform algorithms
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: linkedin
+toc: toc/computer-basics.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Social Media
+    url: /social-media/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Social Media: LinkedIn
 
 - [Download PDF](https://yasirbhutta.github.io/social-media/docs/linkedin.pdf)
 - To access the updated handouts, please click on the following link:

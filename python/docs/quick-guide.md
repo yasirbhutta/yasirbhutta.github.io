@@ -1,9 +1,19 @@
 ---
 layout: page
-title: Quick Guide for Ultimate Python Beginner's
-description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, comments, indentation and more. Perfect for students and professionals starting their Python journey.  
-keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+title: "Python Quick Guide – Learn Python Basics Fast with Examples"
+description: Get started with Python quickly! This easy-to-follow Python quick guide covers syntax, data types, loops, functions, and more with practical examples. Perfect for beginners.
+keywords: Python quick guide, Python basics, Python tutorial, learn Python fast, Python syntax, Python for beginners, Python examples, Python programming, Python data types, Python functions
+author: Muhammad Yasir Bhutta
+course: python
+topic: quick-quide
 toc: toc/python-toc.html
+prev: /python/
+next: /python/docs/tools.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
 ---
 
 # [Python](https://yasirbhutta.github.io/python/) - Quick Guide for Ultimate Python Beginner's
