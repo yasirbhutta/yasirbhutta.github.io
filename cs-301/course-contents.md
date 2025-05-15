@@ -1,6 +1,19 @@
-# Course Contents | CS-301 Into. to ICT
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+---
+layout: page
+title: "CS-301 Applications of ICT – Key Topics, Learning Outcomes & Study Materials"
+description: Explore the complete CS-301 course syllabus, including key topics, learning objectives, and study resources. Ideal for computer science students and educators.
+keywords: CS-301 syllabus, computer science course outline, CS-301 topics, course contents, computer science curriculum, study materials, learning outcomes, programming concepts, algorithms, data structures, software engineering, exam preparation, lecture notes, academic resources, university course guide
+author: Muhammad Yasir Bhutta
+course: python
+topic: functions
+toc: toc/python-toc.html
+next: /cs-301/resources.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: CS-301
+    url: /cs-301/
+---
 
 - [Resources: Books, Websites, Tutorials](resources.md)
 

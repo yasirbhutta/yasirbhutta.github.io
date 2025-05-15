@@ -1,3 +1,20 @@
+---
+layout: page
+title: "What is a Computer? Definition, Types, Functions & Basics Explained"
+description: Learn what a computer is, its types (PC, laptop, server), functions, and basic components. Perfect for beginners to understand computer fundamentals easily!
+keywords: what is a computer, computer definition, types of computers, computer basics for beginners, functions of a computer, computer components, desktop vs laptop, how computers work, introduction to computers, computer hardware and software, parts of a computer, computer uses, computer fundamentals, computer system basics, learn about computers
+author: Muhammad Yasir Bhutta
+course: computer-basics
+topic: computer
+toc: toc/computer-basics.html
+prev: /cs-301/course-contents.html
+next: /google-workspace/docs/google-search.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Google Workspace
+    url: /google-workspace/
+---
 
 # Journey into the World Of Computers
 

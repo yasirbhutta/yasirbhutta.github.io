@@ -5,8 +5,8 @@ description: Learn the fundamentals of databases, including types, uses, and bas
 keywords: database basics, introduction to databases, what is a database, types of databases, database management system, SQL basics, computer fundamentals, database for beginners, relational database, NoSQL database, DBMS tutorial, learn databases, data storage, database concepts, structured data
 author: Muhammad Yasir Bhutta
 course: python
-topic: functions
-toc: toc/python-toc.html
+topic: database
+toc: toc/computer-basics.html
 prev: /python/docs/quick-guide.html
 next: /computer-basics/docs/networks.html
 breadcrumb:
