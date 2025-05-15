@@ -23,111 +23,63 @@ breadcrumb:
 - [Google Workspace](../docs/index.md)
 - [Download slides](https://docs.google.com/presentation/d/1oXWJboXttm2ctPDALzv6DMct5jeRH7sYCrJCVeE-S90/edit?usp=sharing)
 
-**Table of Contents:**
+## **Table of Contents**
 
-- [Google Search](#google-search)
-  - [Modules - Google Search](#modules---google-search)
-    - [Module 1](#module-1)
-    - [Module 2](#module-2)
-    - [Module 3 - Search Operators](#module-3---search-operators)
-    - [Module 4](#module-4)
-    - [Module 5](#module-5)
-  - [Module 1](#module-1-1)
-    - [What is Search Engine](#what-is-search-engine)
-    - [How to Search on Google](#how-to-search-on-google)
-    - [Flip a coin](#flip-a-coin)
-    - [“I’m feeling lucky”](#im-feeling-lucky)
-  - [Module 2](#module-2-1)
-    - [Weather Searching](#weather-searching)
-    - [Calculations](#calculations)
-    - [Unit conversions](#unit-conversions)
-  - [Module 3](#module-3)
-    - [Search social media](#search-social-media)
-    - [Search for a price](#search-for-a-price)
-    - [Search hashtags](#search-hashtags)
-    - [Exclude words from your search](#exclude-words-from-your-search)
-    - [Search for an exact match](#search-for-an-exact-match)
-  - [Module 4](#module-4-1)
-    - [Search within a range of numbers](#search-within-a-range-of-numbers)
-      - [Combine searches](#combine-searches)
-    - [Search for a specific site](#search-for-a-specific-site)
-    - [Search by file type](#search-by-file-type)
-    - [Top Results from Wikipedia](#top-results-from-wikipedia)
-    - [link Operator](#link-operator)
-  - [Module 5](#module-5-1)
-    - [Stocks Operator](#stocks-operator)
-      - [Map Operator](#map-operator)
-    - [define Operator](#define-operator)
-    - [Search image](#search-image)
-    - [Search Image with a URL](#search-image-with-a-url)
-      - [Search for an exact image size](#search-for-an-exact-image-size)
-    - [Advanced Search Operators](#advanced-search-operators)
-      - [intitle](#intitle)
-      - [Inurl](#inurl)
-      - [intext](#intext)
-    - [Search Operators](#search-operators)
-      - [Refine image searches](#refine-image-searches)
-    - [Common search techniques](#common-search-techniques)
-      - [Search with an image on Google](#search-with-an-image-on-google)
-      - [Upload an image](#upload-an-image)
-      - [Search with an image from a website](#search-with-an-image-from-a-website)
-      - [Search with an image from search results](#search-with-an-image-from-search-results)
-      - [Find related images](#find-related-images)
-    - [Review Questions](#review-questions)
-    - [True/False](#truefalse)
-    - [Multiple Choice - Select the best answer](#multiple-choice---select-the-best-answer)
-  - [Exercises](#exercises)
-  - [References](#references)
+### **[Module 1: Introduction to Google Search](#module-1)**
 
-## Modules - Google Search
+1.1 Search Engine
+1.2 How Google Works
+1.3 How to Search on Google
+1.4 Flip a Coin
+1.5 “I’m Feeling Lucky”
 
-### Module 1
+---
 
-- Search Egnine
-- How Google Work
-- How to Search on Google
-- Flip a Coin
-- “I’m feeling lucky”
+### **[Module 2: Smart Features of Google Search](#module-2)**
 
-### Module 2
+2.1 Weather Searching
+2.2 Performing Calculations on Google
+2.3 Currency Conversions
+2.4 Unit Conversions
 
-- Weather Searching
-- Performing Calculations on Google
-- Currency Conversions
-- Unit conversions
+---
 
-### Module 3 - Search Operators
+### **[Module 3: Search Operators Basics](#module-3)**
 
-- Search on Social Media
-- Search for a price
-- Searching Hashtags
-- Exclude words from your search
-- Search for an exact match
+3.1 Search on Social Media
+3.2 Search for a Price
+3.3 Searching Hashtags
+3.4 Exclude Words from Your Search
+3.5 Search for an Exact Match
 
-### Module 4
-  
-- Searching within the range
-- Combine searches
-- Search with a Specific Site
-- Searching Related Websites
-- See Google’s cached version of a site
-- Search by file type
-- Top Results from Wikipedia
-- link Operator
+---
 
-### Module 5
+### **[Module 4: Advanced Search Techniques](#module-4)**
 
-- Stocks Operator
-- Map Operator
-- Define Operator
-- Quick facts
-- Image Search
-- Search Image with a URL
-- Search for an exact image size
-- Advanced Search Operators
-  - Intitle
-  - inurl
-  - Intext
+4.1 Searching Within a Range
+4.2 Combine Searches
+4.3 Search Within a Specific Site
+4.4 Searching Related Websites
+4.5 See Google’s Cached Version of a Site
+4.6 Search by File Type
+4.7 Top Results from Wikipedia
+4.8 Link Operator
+
+---
+
+### **[Module 5: Specialized Google Search Tools](#module-5)**
+
+5.1 Stocks Operator
+5.2 Map Operator
+5.3 Define Operator
+5.4 Quick Facts
+5.5 Image Search
+5.6 Search Image with a URL
+5.7 Search for an Exact Image Size
+5.8 Advanced Search Operators
+    5.8.1 Intitle
+    5.8.2 Inurl
+    5.8.3 Intext
   
 ## Module 1
 

@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 course: computer-basics
 topic: hardware
 toc: toc/google-workspace.html
-next: /google-workspace/docs/google-search.html
+next: /google-workspace/docs/google-search/
 breadcrumb:
   - title: Home
     url: /
