@@ -7,8 +7,8 @@ author: Muhammad Yasir Bhutta
 course: google-workspace
 topic: gmail
 toc: toc/google-workspace.html
-prev: /google-workspace/docs/docs/google-search
-next: /google-workspace/docs/docs/google-docs/
+prev: /google-workspace/docs/google-search/
+next: /google-workspace/docs/google-docs/
 breadcrumb:
   - title: Home
     url: /
