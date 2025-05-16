@@ -50,7 +50,7 @@ breadcrumb:
 ## The Internet
 
 - [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf) 
-- [Collaborative Computing and Social Networking](../social-media/docs/socialmedia.md) \| [Download PDF](../google-workspace/docs/email.pdf)
+- [Collaborative Computing and Social Networking](../social-media/docs/linkedin/) \| [Download PDF](../social-media/docs/linkedin/index.md)
 - E-Commerce
 - IT Security
 
