@@ -16,9 +16,9 @@ breadcrumb:
 
 # Social Media: LinkedIn
 
-- [Download PDF](https://yasirbhutta.github.io/social-media/docs/linkedin.pdf)
+- [Download PDF](https://yasirbhutta.github.io/social-media/docs/linkedin/linkedin.pdf)
 - To access the updated handouts, please click on the following link:
-[https://yasirbhutta.github.io/social-media/docs/linkedin.pdf](https://yasirbhutta.github.io/social-media/docs/linkedin.pdf)
+[https://yasirbhutta.github.io/social-media/docs/linkedin/](https://yasirbhutta.github.io/social-media/docs/linkedin/)
 
 
 ## What is Social media
