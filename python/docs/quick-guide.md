@@ -16,10 +16,8 @@ breadcrumb:
     url: /python/
 ---
 
-# [Python](https://yasirbhutta.github.io/python/) - Quick Guide for Ultimate Python Beginner's
+## Table of the Contents
 
-
-## Modules - Quick Guide for Ultimate Python Beginner's
 ### Module 1
 - [What is Python](#what-is-python)
 - [Getting Started](#getting-started)
