@@ -1,6 +1,36 @@
 Here are some **Python tuple code output questions** along with their answers and explanations. These questions test understanding of tuple operations, slicing, and methods.  
 
 ---
+Great! Here's a Python quiz involving nested tuples and a concept of immutability:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+t = (1, 2, (3, 4))  
+t[2][0] = 10  
+print(t)
+
+🔮 Pick the right answer:
+
+🟢 A) (1, 2, (10, 4))
+🔵 B) (1, 2, [10, 4])
+🟠 C) Error: 'tuple' object does not support item assignment
+🔴 D) (1, 2, (3, 10))
+
+💬 Comment your answer below! Let’s see who gets it right.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Want to go deeper with a quiz on tuples containing mutable elements like lists?
+
+
 
 ### **1. Basic Tuple Creation**
 **Question:** What is the output of the following code?  
