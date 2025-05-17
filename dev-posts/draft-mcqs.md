@@ -1,3 +1,192 @@
+
+
+Perfect! Here’s a follow-up quiz using deepcopy() to test deep vs shallow understanding:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+import copy
+
+a = [1, [2, 3]]  
+b = copy.deepcopy(a)  
+b[1][0] = 99  
+print(a)
+
+🔮 Pick the right answer:
+
+🟢 A) [1, [2, 3]]
+🔵 B) [1, [99, 3]]
+🟠 C) [1, 2, 3]
+🔴 D) Error
+
+💬 Comment your answer below! Let’s see who gets it right.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Would you like to start a series on list comprehensions next?
+
+
+You're on a roll! Here’s a quiz that blends lists, tuples, and the copy() method:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+import copy
+
+a = [1, (2, 3)]  
+b = copy.copy(a)  
+b[1] = (4, 5)  
+print(a)
+
+🔮 Pick the right answer:
+
+🟢 A) [1, (2, 3)]
+🔵 B) [1, (4, 5)]
+🟠 C) [1, [2, 3]]
+🔴 D) [(1, 2), (4, 5)]
+
+💬 Comment your answer below! Let’s see who understands shallow copying.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Want to level up with a deepcopy() version next?
+
+Great! Here's a quiz comparing tuple vs list identity using the id() function:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+x = [1, 2, 3]  
+y = x  
+y[0] = 99  
+print(id(x) == id(y))
+
+🔮 Pick the right answer:
+
+🟢 A) True
+🔵 B) False
+🟠 C) Error
+🔴 D) None
+
+💬 Comment your answer below! Let’s see who understands reference vs copy.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Ready for a challenge mixing lists, tuples, and copy()?
+
+Awesome! Here's a quiz on tuple memory behavior—a subtle but powerful concept in Python:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+a = (1, 2, 3)  
+b = (1, 2, 3)  
+print(a is b)
+
+🔮 Pick the right answer:
+
+🟢 A) False
+🔵 B) True
+🟠 C) Error: invalid comparison
+🔴 D) None
+
+💬 Comment your answer below! Let’s see who catches the memory trick.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Want to dive into tuple vs list identity or try one involving id() next?
+
+=
+
+Nice! Here's a Python quiz that includes a tuple inside a list, testing your understanding of data structures:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+lst = [(1, 2), (3, 4)]  
+lst[0] = (5, 6)  
+print(lst)
+
+🔮 Pick the right answer:
+
+🟢 A) [(5, 6), (3, 4)]
+🔵 B) [(1, 2), (3, 4)]
+🟠 C) [[5, 6], (3, 4)]
+🔴 D) Error: tuples are immutable
+
+💬 Comment your answer below! Let’s see who gets it right.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Shall we go for one about tuple memory behavior or identity vs equality next?
+
+
+
+
+Let’s level it up with a tuple concatenation and repetition quiz:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+t = (1, 2) + (3,) * 2  
+print(t)
+
+🔮 Pick the right answer:
+
+🟢 A) (1, 2, 3, 3)
+🔵 B) (1, 2, 3, 2)
+🟠 C) (1, 2, 3, 3, 3)
+🔴 D) (1, 2, (3, 3))
+
+💬 Comment your answer below! Let’s see who gets it right.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Want the next one with a tuple inside a list or a quiz about memory behavior of tuples?
+
+
 Excellent! Here's a Python quiz focusing on tuples with mutable elements (like lists):
 
 
