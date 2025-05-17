@@ -510,3 +510,175 @@ print(employee_dept_location[['first_name', 'last_name', 'department_name', 'loc
    - HR reporting and metrics
 
 This example demonstrates how merging datasets enables comprehensive workforce analytics that wouldn't be possible with separate datasets.
+
+# Real-World Example: Merging COVID-19 and Economic Data
+
+For this example, we'll use two publicly available datasets:
+1. COVID-19 case data from Our World in Data
+2. Country economic indicators from the World Bank
+
+## Step 1: Import Libraries and Load Data Directly from URLs
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load COVID-19 data from Our World in Data
+covid_url = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+covid_data = pd.read_csv(covid_url)
+
+# Load economic data from World Bank (simplified example)
+# Note: For a real analysis, you might use the World Bank API or a preprocessed dataset
+economic_data = pd.read_csv("https://raw.githubusercontent.com/datasets/world-bank-data/main/data/country_indicators.csv")
+
+print("COVID Data Columns:", covid_data.columns.tolist())
+print("\nEconomic Data Columns:", economic_data.columns.tolist())
+```
+
+## Step 2: Preprocess the Data
+
+```python
+# Filter COVID data for recent snapshot
+latest_covid = covid_data[covid_data['date'] == covid_data['date'].max()]
+
+# Select specific columns
+covid_clean = latest_covid[['location', 'date', 'total_cases_per_million', 
+                           'total_deaths_per_million', 'people_fully_vaccinated_per_hundred']]
+
+# Clean economic data (example - would vary based on actual dataset)
+economic_clean = economic_data[economic_data['Year'] == 2020][
+    ['Country Name', 'GDP per capita (current US$)', 
+     'Population, total', 'Life expectancy at birth, total (years)']]
+economic_clean.columns = ['location', 'gdp_per_capita', 'population', 'life_expectancy']
+
+print("\nLatest COVID Data:")
+print(covid_clean.head())
+print("\nEconomic Data:")
+print(economic_clean.head())
+```
+
+## Step 3: Merge the Datasets
+
+```python
+# Merge on country name
+merged_data = pd.merge(
+    covid_clean,
+    economic_clean,
+    on='location',
+    how='inner'  # Only countries with both COVID and economic data
+)
+
+print("\nMerged Dataset Shape:", merged_data.shape)
+print("\nMerged Data Sample:")
+print(merged_data.head())
+```
+
+## Step 4: Analyze the Relationship Between Wealth and COVID Outcomes
+
+```python
+# Calculate correlation matrix
+correlation_matrix = merged_data[['total_cases_per_million', 
+                                'total_deaths_per_million',
+                                'people_fully_vaccinated_per_hundred',
+                                'gdp_per_capita', 
+                                'life_expectancy']].corr()
+
+print("\nCorrelation Matrix:")
+print(correlation_matrix)
+
+# Visualization
+plt.figure(figsize=(10, 6))
+plt.scatter(merged_data['gdp_per_capita'], 
+            merged_data['people_fully_vaccinated_per_hundred'],
+            alpha=0.6)
+plt.title('Vaccination Rates vs GDP per Capita')
+plt.xlabel('GDP per Capita (USD)')
+plt.ylabel('Fully Vaccinated (%)')
+plt.grid(True)
+plt.show()
+```
+
+## Step 5: Advanced Analysis - Regional Comparison
+
+```python
+# Add continent information (from the original COVID dataset)
+continent_mapping = covid_data[['location', 'continent']].drop_duplicates()
+merged_data = pd.merge(merged_data, continent_mapping, on='location', how='left')
+
+# Group by continent
+continent_stats = merged_data.groupby('continent').agg({
+    'total_cases_per_million': 'mean',
+    'total_deaths_per_million': 'mean',
+    'people_fully_vaccinated_per_hundred': 'mean',
+    'gdp_per_capita': 'mean'
+}).reset_index()
+
+print("\nRegional Statistics:")
+print(continent_stats.round(2))
+
+# Visualization
+continent_stats.plot(x='continent', 
+                    y=['total_cases_per_million', 'total_deaths_per_million'],
+                    kind='bar', 
+                    figsize=(10, 6),
+                    title='COVID Outcomes by Continent')
+plt.ylabel('Cases/Deaths per Million')
+plt.show()
+```
+
+## Step 6: Handling Data Quality Issues
+
+```python
+# Check for missing values
+print("\nMissing Values in Merged Data:")
+print(merged_data.isnull().sum())
+
+# Option 1: Drop rows with missing vaccination data
+clean_data = merged_data.dropna(subset=['people_fully_vaccinated_per_hundred'])
+
+# Option 2: Impute missing values (example with median)
+merged_data['people_fully_vaccinated_per_hundred'] = merged_data[
+    'people_fully_vaccinated_per_hundred'].fillna(
+    merged_data['people_fully_vaccinated_per_hundred'].median())
+
+print("\nData after handling missing values:")
+print(merged_data.isnull().sum())
+```
+
+## Step 7: Export Merged Data for Further Analysis
+
+```python
+# Save to CSV
+merged_data.to_csv('covid_economic_merged.csv', index=False)
+
+# Save to Excel with multiple sheets
+with pd.ExcelWriter('covid_economic_analysis.xlsx') as writer:
+    merged_data.to_excel(writer, sheet_name='Merged Data')
+    continent_stats.to_excel(writer, sheet_name='Regional Stats')
+    correlation_matrix.to_excel(writer, sheet_name='Correlations')
+
+print("\nData exported to CSV and Excel files.")
+```
+
+## Key Insights from This Real-World Example:
+
+1. **Data Integration**: Combined health and economic datasets from different sources
+2. **Practical Challenges**:
+   - Handling different country naming conventions
+   - Managing missing data
+   - Working with different time periods
+
+3. **Analysis Opportunities**:
+   - Examined relationships between wealth and health outcomes
+   - Compared regional patterns
+   - Visualized complex relationships
+
+4. **Real-World Applications**:
+   - Public health policy analysis
+   - Resource allocation planning
+   - Socioeconomic impact studies
+
+This example demonstrates how merging real-world datasets enables powerful analyses that can inform policy decisions and scientific research. The same approach can be applied to many other domains like:
+- Financial market data + news sentiment
+- Weather data + agricultural production
+- Education statistics + employment outcomes
