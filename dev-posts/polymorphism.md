@@ -150,3 +150,156 @@ In this example, the `checkout` function doesn't need to know what specific type
 4. **Maintainability**: Easier to maintain and update code
 
 Polymorphism is a powerful concept that helps make your Python code more flexible and easier to work with as your programs grow in complexity.
+
+Here are some beginner-friendly tasks to practice polymorphism in Python:
+
+---
+
+### **Task 1: Animal Sounds**
+**Objective**: Create classes with method overriding.  
+**Problem**:  
+- Create a base class `Animal` with a `make_sound()` method that prints "Generic animal sound".
+- Create 3 subclasses (e.g., `Dog`, `Cat`, `Cow`) that override `make_sound()` with their own sounds.
+- Store instances of all classes in a list and call `make_sound()` for each.
+
+**Example Output**:
+```
+Generic animal sound
+Woof!
+Meow!
+Moo!
+```
+
+---
+
+### **Task 2: Shape Area Calculator**
+**Objective**: Use polymorphism to calculate areas.  
+**Problem**:  
+- Create a base class `Shape` with an abstract `area()` method (use `pass`).
+- Create subclasses `Circle`, `Square`, and `Triangle` that implement `area()`.
+- Use a loop to calculate and print areas of different shapes.
+
+**Requirements**:
+- `Circle`: Initialize with radius, area = πr²
+- `Square`: Initialize with side length, area = side²
+- `Triangle`: Initialize with base/height, area = 0.5 * base * height
+
+---
+
+### **Task 3: Duck Typing in Action**
+**Objective**: Practice "duck typing" with unrelated classes.  
+**Problem**:  
+- Create two unrelated classes: `Car` and `Bird`.
+- Both classes should have a `move()` method but with different implementations:
+  - `Car.move()` prints "Car is driving"
+  - `Bird.move()` prints "Bird is flying"
+- Create a function `travel(object)` that calls `object.move()`.
+- Demonstrate polymorphism by passing both objects to `travel()`.
+
+---
+
+### **Task 4: Operator Overloading (+ and *)**
+**Objective**: Overload operators for a custom class.  
+**Problem**:  
+- Create a `Book` class with attributes `title` and `pages`.
+- Overload the `+` operator to combine two books into a new "collection" book:
+  - New title = "Collection: [Book1 Title] & [Book2 Title]"
+  - New pages = sum of both books' pages
+- Example:
+  ```python
+  book1 = Book("Python Basics", 100)
+  book2 = Book("OOP Guide", 150)
+  book3 = book1 + book2
+  print(book3.title)  # "Collection: Python Basics & OOP Guide"
+  print(book3.pages)  # 250
+  ```
+
+---
+
+### **Task 5: Media Player System**
+**Objective**: Simulate a real-world polymorphic system.  
+**Problem**:  
+- Create a base class `MediaPlayer` with a `play()` method.
+- Create subclasses for different media types: `MP3Player`, `VideoPlayer`, `StreamingPlayer`.
+- Each subclass should override `play()` with specific behavior:
+  - `MP3Player`: "Playing audio track..."
+  - `VideoPlayer`: "Playing video..."
+  - `StreamingPlayer`: "Streaming from cloud..."
+- Create a list of different players and call `play()` for each.
+
+---
+
+### **Task 6: Bank Account Interest**
+**Objective**: Polymorphism in financial calculations.  
+**Problem**:  
+- Create a base class `BankAccount` with a `calculate_interest()` method.
+- Create subclasses `SavingsAccount` (5% interest) and `FixedDeposit` (7% interest).
+- Initialize accounts with a balance, then calculate and print interest for different account types.
+
+**Example**:
+```python
+savings = SavingsAccount(1000)
+fixed = FixedDeposit(1000)
+print(savings.calculate_interest())  # 50.0
+print(fixed.calculate_interest())    # 70.0
+```
+
+---
+
+### **Task 7: Math Operations**
+**Objective**: Use polymorphism with numbers.  
+**Problem**:  
+- Create a function `double(x)` that returns `x * 2`.
+- Show that it works with integers, floats, lists, and strings (demonstrating Python's built-in polymorphism).
+- Example outputs:
+  ```python
+  print(double(5))     # 10
+  print(double(3.14))  # 6.28
+  print(double([1,2])) # [1,2,1,2]
+  print(double("Hi"))  # "HiHi"
+  ```
+
+---
+
+### **Task 8: Game Characters**
+**Objective**: Polymorphic behavior in a game.  
+**Problem**:  
+- Create a base class `GameCharacter` with an `attack()` method.
+- Create subclasses `Warrior`, `Mage`, and `Archer` with unique attack messages:
+  - Warrior: "Sword slash!"
+  - Mage: "Fireball!"
+  - Archer: "Arrow shot!"
+- Create a list of characters and call `attack()` for each.
+
+---
+
+### **Task 9: File Handling**
+**Objective**: Polymorphic file operations.  
+**Problem**:  
+- Create classes `TextFile` and `CSVFile`, both with a `read()` method.
+- `TextFile.read()` returns the text file's content as a string.
+- `CSVFile.read()` returns the data as a list of lists.
+- Write a function `process_file(file)` that calls `read()` on any file type.
+
+---
+
+### **Task 10: Advanced Challenge - Logger System**
+**Objective**: Design a flexible logging system.  
+**Problem**:  
+- Create a base class `Logger` with a `log(message)` method.
+- Implement 3 subclasses: `ConsoleLogger`, `FileLogger`, and `DatabaseLogger`.
+- Each subclass should log messages differently:
+  - Console: Print to screen
+  - File: Append to a text file
+  - Database: Simulate saving to a DB (print "Saved to DB: [message]")
+- Create a list of loggers and test all logging methods.
+
+---
+
+### **Tips for Success**:
+1. Start with simple tasks like **Task 1** or **Task 5**.
+2. Use method overriding for most tasks.
+3. For duck typing (**Task 3**), focus on shared method names rather than inheritance.
+4. Test your code with different object types.
+
+Want sample solutions for any of these? Let me know! 😊
