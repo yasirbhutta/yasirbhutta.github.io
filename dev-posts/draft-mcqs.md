@@ -1,10 +1,33 @@
-Here are some **Python tuple code output questions** along with their answers and explanations. These questions test understanding of tuple operations, slicing, and methods.  
-
----
-Great! Here's a Python quiz involving nested tuples and a concept of immutability:
+Excellent! Here's a Python quiz focusing on tuples with mutable elements (like lists):
 
 
 ---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+t = (1, [2, 3], 4)  
+t[1][0] = 99  
+print(t)
+
+🔮 Pick the right answer:
+
+🟢 A) (1, [99, 3], 4)
+🔵 B) (1, [2, 3], 4)
+🟠 C) Error: cannot modify tuple
+🔴 D) (1, 99, 3, 4)
+
+💬 Comment your answer below! Let’s see who gets it right.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Ready for a brain-twister with tuple concatenation or repetition?
+
+
 
 🚀 Think You Know Python? Test Your Skills! 🚀
 
