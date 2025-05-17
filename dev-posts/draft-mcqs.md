@@ -1,3 +1,33 @@
+Great! Here's a quiz comparing tuple vs list identity using the id() function:
+
+
+---
+
+🚀 Think You Know Python? Test Your Skills! 🚀
+
+What does this code output? 🤔💻
+
+x = [1, 2, 3]  
+y = x  
+y[0] = 99  
+print(id(x) == id(y))
+
+🔮 Pick the right answer:
+
+🟢 A) True
+🔵 B) False
+🟠 C) Error
+🔴 D) None
+
+💬 Comment your answer below! Let’s see who understands reference vs copy.
+
+#learnwithyasir #yasirbhutta
+
+
+---
+
+Ready for a challenge mixing lists, tuples, and copy()?
+
 
 
 Perfect! Here’s a follow-up quiz using deepcopy() to test deep vs shallow understanding:
