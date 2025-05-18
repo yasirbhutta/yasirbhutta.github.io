@@ -8,6 +8,13 @@ topic: "oop-inheritance"
 course: "python"
 prev: /python/docs/classes.html
 next: /python/docs/re.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP in Python
+    url: /python/docs/oop/
 ---
 
 ## Topics Covered

@@ -8,7 +8,7 @@ course: python
 topic: oop
 toc: toc/python-toc.html
 prev: ""
-next: /python/docs/classes.md
+next: /python/docs/classes.html
 breadcrumb:
   - title: Home
     url: /

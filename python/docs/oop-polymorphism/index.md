@@ -13,7 +13,7 @@ breadcrumb:
     url: /
   - title: Python
     url: /python/
-  - title: OOP
+  - title: OOP in Python
     url: /python/docs/oop/
 ---
 

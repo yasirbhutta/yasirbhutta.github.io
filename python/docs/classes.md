@@ -7,6 +7,13 @@ topic: classes
 course: python
 prev: /python/docs/decorators.html
 next: /python/docs/oop-inheritance.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP in Python
+    url: /python/docs/oop/
 ---
 
 ## Contents:
