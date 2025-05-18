@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Polymorphism in Python"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Python Polymorphism Explained – Types & Examples (OOP Guide)"
+description: Learn polymorphism in Python OOP with practical examples. Understand method overriding, duck typing, and operator overloading for flexible and reusable code.
+keywords: Python polymorphism, polymorphism in OOP, method overriding Python, duck typing Python, operator overloading Python, Python OOP concepts, polymorphism examples, Python inheritance vs polymorphism, dynamic polymorphism Python, Python method overloading
 author: Muhammad Yasir Bhutta
 course: python
 topic: polymorphism
 toc: toc/python-toc.html
-prev: /python/docs/oop-inheritance.html
-next: 
+prev: /python/docs/oop-inheritance/
+next: /python/docs/oop-encapsulation/
 breadcrumb:
   - title: Home
     url: /
@@ -329,3 +329,9 @@ print(fixed.calculate_interest())    # 70.0
 3. For duck typing (**Task 3**), focus on shared method names rather than inheritance.
 4. Test your code with different object types.
 
+## 📘 **Related Topics**
+
+* **Python OOP Basics** – Learn how to create and use classes in Python with practical examples. Master constructors, methods, attributes, and OOP principles for efficient coding.
+  - 👉 [Learn more](../classes.md)
+* **Python Inheritance** - Learn Python OOP inheritance with Beginner's examples! Understand parent & child classes, method overriding, `super()`, and multilevel inheritance.
+  - 👉 [Learn more](../oop-inheritance/)

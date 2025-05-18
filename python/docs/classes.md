@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Object-Oriented Programming in Python (OOP) - Tutorial
-description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!
+title: Python Classes Tutorial – Create, Use & Master Object-Oriented Programming (OOP)
+description: Learn how to create and use classes in Python with practical examples. Master constructors, methods, attributes, and OOP principles for efficient coding.
+keywords: Python classes, Python OOP, class in Python, Python objects, init method, Python class attributes, Python instance methods, inheritance Python, Python constructor, object-oriented programming Python
 toc: toc/python-toc.html
 topic: classes
 course: python
-prev: /python/docs/decorators.html
-next: /python/docs/oop-inheritance.html
+prev: /python/docs/oop/
+next: /python/docs/oop-inheritance/
 breadcrumb:
   - title: Home
     url: /

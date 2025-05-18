@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 course: python
 topic: oop
 toc: toc/python-toc.html
-prev: ""
+prev: /python/docs/decorators.html
 next: /python/docs/classes.html
 breadcrumb:
   - title: Home
