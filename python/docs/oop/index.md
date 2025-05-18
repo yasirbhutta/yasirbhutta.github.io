@@ -1,56 +1,59 @@
-# Object-Oriented Programming in Python (OOP): Tutorial
+---
+layout: page
+title: "Object-Oriented Programming in Python (OOP): Tutorial"
+description: Learn Python Object-Oriented Programming (OOP) with examples on classes, objects, inheritance, and polymorphism. Master Python OOP concepts for better coding practices.
+keywords: Python OOP, Python classes, Python objects, inheritance in Python, polymorphism Python, encapsulation Python, Python methods, Python attributes, object-oriented programming Python, Python OOP tutorial
+author: Muhammad Yasir Bhutta
+course: python
+topic: oop
+toc: toc/python-toc.html
+prev: ""
+next: /python/docs/classes.md
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+---
 
 ## Contents
-### Start with the Basics
-#### Introduction to OOP
-OOP: Introduction
-OOP Example
-Object Oriented Programming in Python
-Is Python Object Oriented?
 
-#### Classes & Objects
-How to create a class
-Instantiating objects
-Adding attributes to a class
-Define methods in a class
-Passing arguments to methods
-Python OOP Example
-Object-Oriented Programming in Python: Wrap-Up
-#### Methods in Classes
-### Core OOP Concepts
-#### a. Encapsulation
-#### b. Inheritance
-#### c. Polymorphism
-#### d. Abstraction and Interfaces
+### [1. Start with the Basics](../classes.md)
+
+#### 1.1 Introduction to OOP
+
+- OOP: Introduction
+- OOP Example
+- Object Oriented Programming in Python
+- Is Python Object Oriented?
+
+#### 1.2 Classes & Objects
+
+- How to create a class
+- Instantiating objects
+- Adding attributes to a class
+- Define methods in a class
+- Passing arguments to methods
+- Python OOP Example
+- Object-Oriented Programming in Python: Wrap-Up
+
+#### 1.3 Methods in Classes
+
+### 2. Core OOP Concepts
+
+#### [2.1 Inheritance](../oop-inheritance/)
+#### [2.2 Polymorphism](../oop-polymorphism/)
+#### 2.3 Encapsulation
+#### 2.4 Abstraction and Interfaces
+
 ### 3. Advanced Topics
+
 #### a. Magic Methods (`__str__`, `__eq__`, etc.)
 #### b. Composition over Inheritance
 #### c. Class Methods & Static Methods
+
 ### 4. OOP Best Practices
+
 ### 5. Project: Inventory Management System
-
-
----
-
-### **1. Start with the Basics**
-#### **a. Classes & Objects**
-- **Class**: A template for creating objects (e.g., `Car`).
-- **Object**: An instance of a class (e.g., `my_car = Car()`).
-
-**Example**:
-```python
-class Car:
-    def __init__(self, brand, model):
-        self.brand = brand  # Instance attribute
-        self.model = model
-
-    def drive(self):
-        return f"{self.brand} {self.model} is driving!"
-
-# Create an object
-my_car = Car("Tesla", "Model S")
-print(my_car.drive())  # Output: "Tesla Model S is driving!"
-```
 
 ---
 
@@ -78,48 +81,6 @@ class Temperature:
 temp = Temperature()
 temp.celsius = 25  # Uses the setter
 print(temp.celsius)  # Output: 25
-```
-
----
-
-#### **b. Inheritance**
-- Create child classes that inherit from parent classes.
-
-**Example**:
-```python
-class Animal:
-    def speak(self):
-        return "Sound"
-
-class Cat(Animal):
-    def speak(self):  # Method overriding
-        return "Meow"
-
-class Dog(Animal):
-    def speak(self):
-        return "Woof"
-
-animals = [Cat(), Dog()]
-for animal in animals:
-    print(animal.speak())  # Output: "Meow", "Woof"
-```
-
----
-
-#### **c. Polymorphism**
-- Different classes can share the same method name but behave uniquely.
-
-**Example**:
-```python
-class Rectangle:
-    def area(self, length, width):
-        return length * width
-
-class Circle:
-    def area(self, radius):
-        return 3.14 * radius ** 2
-
-# Both classes have an `area` method, but work differently
 ```
 
 ---

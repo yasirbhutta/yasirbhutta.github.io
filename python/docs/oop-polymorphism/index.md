@@ -1,15 +1,41 @@
-# Polymorphism in Python for Beginners
+---
+layout: page
+title: "Polymorphism in Python"
+description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
+keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+author: Muhammad Yasir Bhutta
+course: python
+topic: polymorphism
+toc: toc/python-toc.html
+prev: /python/docs/oop-inheritance.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP
+    url: /python/docs/oop/
+---
+
+## Table of Contents
+
+1. [What is Polymorphism?](#1-what-is-polymorphism)
+2. [Types of Polymorphism in Python](#2-types-of-polymorphism-in-python)
+3. [Examples](#3-examples)
+4. [Real-World Example: Payment Processing System](#4-real-world-example-payment-processing-system)
+5. [Tasks](#5-tasks)
+
 
 Polymorphism is a core concept in object-oriented programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. The word "polymorphism" comes from Greek meaning "many forms".
 
-## What is Polymorphism?
+## 1. What is Polymorphism?
 
 Polymorphism lets you:
 - Use the same method name across different classes
 - Have different implementations of the same method
 - Call methods without knowing the exact class of the object
 
-## Types of Polymorphism in Python
+## 2. Types of Polymorphism in Python
 
 1. **Method Overriding**: When a child class provides a different implementation of a method that is already defined in its parent class.
 
@@ -17,7 +43,7 @@ Polymorphism lets you:
 
 3. **Duck Typing**: "If it walks like a duck and quacks like a duck, it must be a duck" - we don't check types, just behavior.
 
-## Syntax Examples
+## 3. Examples
 
 ### 1. Method Overriding Example
 
@@ -108,7 +134,7 @@ Output:
 Vector(3, 5)
 ```
 
-## Real-World Example: Payment Processing System
+## 4. Real-World Example: Payment Processing System
 
 ```python
 class Payment:
@@ -151,9 +177,9 @@ In this example, the `checkout` function doesn't need to know what specific type
 
 Polymorphism is a powerful concept that helps make your Python code more flexible and easier to work with as your programs grow in complexity.
 
-Here are some beginner-friendly tasks to practice polymorphism in Python:
-
 ---
+
+## 5. Tasks
 
 ### **Task 1: Animal Sounds**
 **Objective**: Create classes with method overriding.  
@@ -302,4 +328,3 @@ print(fixed.calculate_interest())    # 70.0
 3. For duck typing (**Task 3**), focus on shared method names rather than inheritance.
 4. Test your code with different object types.
 
-Want sample solutions for any of these? Let me know! 😊
