@@ -8,6 +8,7 @@ course: python
 topic: polymorphism
 toc: toc/python-toc.html
 prev: /python/docs/oop-inheritance.html
+next: 
 breadcrumb:
   - title: Home
     url: /

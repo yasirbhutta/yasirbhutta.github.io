@@ -7,7 +7,7 @@ toc: toc/python-toc.html
 topic: "oop-inheritance"
 course: "python"
 prev: /python/docs/classes.html
-next: /python/docs/re.html
+next: /python/docs/oop-polymorphism/
 breadcrumb:
   - title: Home
     url: /
