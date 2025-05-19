@@ -1,8 +1,20 @@
-# PHP
-
-- [PHP](../docs/index.md)
-
-**updated on:** 19-Dec-2022
+---
+layout: page
+title: "PHP Form Handling Guide – Tutorial & Examples"
+description: Learn how to handle PHP forms with this step-by-step guide. Includes form validation, submission methods (GET/POST), and security best practices. Perfect for beginners!
+keywords: PHP form handling, PHP form tutorial, HTML forms with PHP, PHP form validation, GET vs POST in PHP, secure PHP forms, PHP form submission, PHP form examples, PHP form processing, form data handling in PHP, PHP form security, PHP form best practices, dynamic forms PHP, PHP form sanitization, PHP form input handling
+author: Muhammad Yasir Bhutta
+course: php
+topic: forms
+toc: toc/php.html
+prev: /ms-excel/docs/functions/what-is-functions.html
+next: /ms-excel/docs/functions/sumif.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: PHP
+    url: /php/
+---
 
 ## Form PHP
 
@@ -34,7 +46,7 @@ Further reading
 
 ### $_POST
 
-- An associative array of variables passed to the current script via the HTTP POST method when using application/x-www-form-urlencoded or multipart/form-data as the HTTP Content-Type in the request.
+- An associative array of variables passed to the current script via the HTTP POST method when using application/`x-www-form-urlencoded` or `multipart/form-data` as the HTTP Content-Type in the request.
 
 #### Example #1 $_POST example
 
@@ -43,6 +55,13 @@ Further reading
 echo 'Hello ' . htmlspecialchars($_POST["name"]) . '!';
 ?>
 ```
+
+use `htmlspecialchars` to make sure that:
+
+* `<`, `>`, `"` and `'` are **not interpreted as HTML** or JavaScript.
+* User-generated content is safely displayed in the browser.
+
+Form more details, see [what is htmlspecialchars](htmlspecialchars.md)
 
 Further reading
 
