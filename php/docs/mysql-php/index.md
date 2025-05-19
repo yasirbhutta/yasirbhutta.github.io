@@ -18,7 +18,7 @@ breadcrumb:
 
 ### WHAT IS MYSQL?
 
-- MySQL is the world's most popular open source database.
+- `MySQL` is the world's most popular open source database.
 - With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more.
 - MySQL uses standard SQL.
 - MySQL compiles on a number of platforms (windows, linux)
@@ -63,22 +63,17 @@ PHP 5 and later can work with a MySQL database using:
 
 #### Parameters
 
-- hostname
+- **hostname:**
   - can either a host name or an IP address. The local host is assumed when passing the null value or the string "localhost" to this paramter.
   - When possible, pipes will be used instead of the TCP/IP. The TCP/IP protocol is used if 
     a host name and port number are provided together e.g. localhost:3308
-- username
-the MySQL user name.
-- password
-if not provided or null, the MySQL server will attempt to authenticate the user against 
+- **username:** the MySQL user name.
+- **password:** if not provided or null, the MySQL server will attempt to authenticate the user against 
 those user records which have no password only. This allows one username to be used
 with different permissions (depending on if a password is provided or not).
-- database
-if provided will specify the default database to be used when performing queries.
-- port
-specifies the port number to attempt to connect to the MySQL server.
-- socket
-Specifies the socket or named pipe that should be used.
+- **database:** if provided will specify the default database to be used when performing queries.
+- **port:** specifies the port number to attempt to connect to the MySQL server.
+- **socket:** Specifies the socket or named pipe that should be used.
 
 ### mysqli::$connnect_error
 
@@ -244,10 +239,10 @@ $conn->close();
 ?>
 ```
 
-PHP: include
+### PHP: include
 The include statement includes and evaluates the specified file.
 
-PHP:require
+### PHP:require
 
 - require is identical to include except upon failure it will also produce a fatal E_COMPILE_ERROR level error.
 - In other words, it will halt the script whereas include only emits a warning (E_WARNING) which allows the script to continue.
@@ -471,8 +466,9 @@ die('select query failed' . $conn->error);
 </html>
 ```
 
+## References and Bibliography
 
-https://www.mysql.com/
-http://www.w3schools.com/php/php_mysql_intro.asp
-http://php.net/manual/en/function.include.php
+[1]: https://www.mysql.com/ "MySQL"
+[2]: http://www.w3schools.com/php/php_mysql_intro.asp "PHP MySQL Database - w3schools"
+[3]: http://php.net/manual/en/function.include.php "include - PHP Documentation"
 
