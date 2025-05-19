@@ -34,16 +34,17 @@ echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 ```
 
-Assuming the user entered http://example.com/?name=ahmad
+Assuming the user entered 
+
+```php
+http://example.com/?name=ahmad
+```
 
 The above example will output something similar to:
 
->Hello ahmad!
-
-Further reading
-
-- [$_GET - Manual - PHP](https://www.php.net/manual/en/reserved.variables.get.php)
-
+```php
+Hello ahmad!
+```
 ### $_POST
 
 - An associative array of variables passed to the current script via the HTTP POST method when using application/`x-www-form-urlencoded` or `multipart/form-data` as the HTTP Content-Type in the request.
@@ -62,11 +63,6 @@ use `htmlspecialchars` to make sure that:
 * User-generated content is safely displayed in the browser.
 
 Form more details, see [what is htmlspecialchars](htmlspecialchars.md)
-
-Further reading
-
-- [$_POST - Manual - PHP](https://www.php.net/manual/en/reserved.variables.post.php)
-
 
 ### Example #2
 
@@ -373,3 +369,8 @@ echo $gender;
 </html>
 
 ```
+
+## References and Bibliography
+
+[1]: https://www.php.net/manual/en/reserved.variables.get.php "$_GET - Manual - PHP"
+[2]: https://www.php.net/manual/en/reserved.variables.post.php  "$_POST - Manual - PHP"
