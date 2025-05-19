@@ -2,7 +2,7 @@
 layout: page
 title: "Top PHP Projects for Beginners | Learn PHP by Building Real Projects"
 description: Explore beginner-friendly PHP projects like a personal blog and student registration system. Build your PHP skills by learning syntax, variables, functions, and more through hands-on practice.
-keywords: PHP projects for beginners, beginner PHP projects, learn PHP, PHP tutorial, PHP syntax, PHP functions, PHP examples, PHP programming, simple PHP applications, build PHP projects
+keywords: PHP projects, PHP examples, PHP tutorials, PHP source code, Yasir Bhutta PHP, web development projects, PHP programming, learn PHP, PHP documentation
 toc: toc/php.html
 course: php
 topic: ""
