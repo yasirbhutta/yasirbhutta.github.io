@@ -1,10 +1,20 @@
-# PHP
-
-- [PHP](../docs/index.md)
-
-**updated on:** 08-Jan-2023
-
-## PHP Connect to MYSQL
+---
+layout: page
+title: "MySQL with PHP: Database Connection Guide & Examples"
+description: Learn how to connect MySQL with PHP using mysqli & PDO. Step-by-step guide on database queries, CRUD operations, security best practices, and error handling.
+keywords: MySQL PHP integration, PHP MySQL connection, mysqli tutorial, PDO PHP, PHP database queries, MySQL CRUD operations, PHP MySQL examples, secure database PHP, PHP MySQL fetch data, PHP MySQL insert data, PHP MySQL update delete, prepared statements PHP, PHP MySQL error handling, PHP MySQL best practices, connect database to PHP
+author: Muhammad Yasir Bhutta
+course: php
+topic: mysql-php
+toc: toc/php.html
+prev: /php/docs/forms/
+next: /php/docs/projects/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: PHP
+    url: /php/
+---
 
 ### WHAT IS MYSQL?
 

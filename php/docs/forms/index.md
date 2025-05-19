@@ -7,8 +7,8 @@ author: Muhammad Yasir Bhutta
 course: php
 topic: forms
 toc: toc/php.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+prev: https://yasirbhutta.github.io/php/docs/control-flow.html
+next: /php/docs/mysql-php/
 breadcrumb:
   - title: Home
     url: /
