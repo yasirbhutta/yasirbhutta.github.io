@@ -5,8 +5,8 @@ description: Explore beginner-friendly PHP projects like a personal blog and stu
 keywords: PHP projects for beginners, beginner PHP projects, learn PHP, PHP tutorial, PHP syntax, PHP functions, PHP examples, PHP programming, simple PHP applications, build PHP projects
 toc: toc/php.html
 course: php
-topic: "basics"
-mini_project: true
+topic: ""
+mini_project: ""
 prev: /php/
 next: /php/docs/basics/what-is-php.html
 ---
