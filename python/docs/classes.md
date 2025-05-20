@@ -3,7 +3,7 @@ layout: page
 title: Python Classes Tutorial – Create, Use & Master Object-Oriented Programming (OOP)
 description: Learn how to create and use classes in Python with practical examples. Master constructors, methods, attributes, and OOP principles for efficient coding.
 keywords: Python classes, Python OOP, class in Python, Python objects, init method, Python class attributes, Python instance methods, inheritance Python, Python constructor, object-oriented programming Python
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: classes
 course: python
 prev: /python/docs/oop/

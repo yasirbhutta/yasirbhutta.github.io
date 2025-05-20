@@ -6,7 +6,7 @@ keywords: Python tuples, Python tuple tutorial, Python tuple basics, tuples in P
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/
 next: /python/docs/tuples/tuples-slicing.html
 breadcrumb:

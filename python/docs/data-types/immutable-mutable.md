@@ -6,7 +6,7 @@ keywords: mutable vs immutable, mutable and immutable data types, difference bet
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 breadcrumb:
   - title: Home
     url: /

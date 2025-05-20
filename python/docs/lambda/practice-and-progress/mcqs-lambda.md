@@ -4,7 +4,7 @@ title: Python Lambda Functions MCQ Quiz - Test Your Knowledge with Practice Ques
 description: Challenge yourself with Python lambda functions multiple-choice questions (MCQs). Practice key concepts like syntax, usage with map/filter, and real-world applications.
 keywords: Python lambda MCQs, lambda function quiz, Python multiple-choice questions, lambda practice test, Python anonymous functions quiz, map filter reduce MCQs, Python functional programming quiz, lambda syntax questions, Python coding test, advanced lambda exercises, Python interview questions, lambda function examples, Python programming quiz, test Python skills, lambda debugging MCQs
 author: Muhammad Yasir Bhutta
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "lambda"
 course: "python"
 prev: /python/docs/lambda/practice-and-progress/true-false-lambda.html

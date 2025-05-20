@@ -3,7 +3,7 @@ layout: page
 title: "Formatting Strings" 
 description: Master Python strings with this guide. Learn  formatting with examples to improve your Python coding skills fast.  
 keywords: ​Python strings, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "strings"
 course: "python"
 prev: /python/docs/strings/strings-manip.html

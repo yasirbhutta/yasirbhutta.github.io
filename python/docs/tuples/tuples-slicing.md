@@ -6,7 +6,7 @@ keywords: Python tuples, tuple slicing, Python tuple indexing, how to slice tupl
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
 next: /python/docs/tuples/tuples-methods.html
 breadcrumb:

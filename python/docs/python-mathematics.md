@@ -3,7 +3,7 @@ layout: page
 title: Python Programming for Mathematics
 description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
 keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
-toc: toc/python-toc.html
+toc: toc/python.html
 ---
 
 Python is widely used in mathematics for calculations, data analysis, and visualization due to its simple syntax and powerful libraries. Here’s a quick overview of how Python can help in different areas of mathematics:

@@ -3,7 +3,7 @@ layout: page
 title: Python IDE Installation
 description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
 keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
-toc: toc/python-toc.html
+toc: toc/python.html
 ---
 
 This class focuses on installing a Python Integrated Development Environment (IDE) using a task-based approach. An IDE provides a comprehensive environment for writing, editing, and running Python code, including features like syntax highlighting, code completion, and debugging tools.

@@ -4,7 +4,7 @@ title: Find and Fix Mistakes – Python Inheritance Practice Questions.
 description: Practice Python OOP inheritance by identifying and fixing common mistakes in code examples.
 keywords: python, oop, inheritance, practice questions, find and fix, error correction
 author: Muhammad Yasir Bhutta.
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "oop-inheritance"
 course: "python"
 prev: /python/docs/oop-inheritance/practice-and-progress/true-false-oop-inheritance.html

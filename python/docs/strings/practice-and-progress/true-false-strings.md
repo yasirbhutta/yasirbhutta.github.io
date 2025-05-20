@@ -4,7 +4,7 @@ title: "Learn Python String Methods & Formatting with True or False"
 description: Test your Python skills with True or False questions on string methods and formatting. Great for beginners learning Python strings through hands-on practice.
 keywords: python string methods, python string formatting, python true or false, python quiz, learn python strings, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
 author: "Muhammad Yasir Bhutta"
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "strings"
 course: "python"
 prev: /python/docs/strings.html

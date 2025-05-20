@@ -26,7 +26,7 @@ Start learning Python today—no sign-up required!
 - [Python Posts - Tips, Tutorials, and Guides](posts/)
   
 {% assign show_heading = true %}
-{% include toc/python-toc.html show_heading=show_heading%}
+{% include toc/python.html show_heading=show_heading%}
 
 ## Tips for Practicing
 

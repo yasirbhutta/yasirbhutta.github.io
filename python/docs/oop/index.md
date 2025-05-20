@@ -6,7 +6,7 @@ keywords: Python OOP, Python classes, Python objects, inheritance in Python, pol
 author: Muhammad Yasir Bhutta
 course: python
 topic: oop
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/decorators.html
 next: /python/docs/classes.html
 breadcrumb:

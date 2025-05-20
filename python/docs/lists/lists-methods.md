@@ -3,7 +3,7 @@ layout: page
 title: Python List Methods 
 description: Explore all the essential methods for manipulating Python lists. Learn how to add, remove, sort, and search elements with clear examples..  
 keywords: Python, lists, methods, append, insert, remove, sort, index, count, pop, del,
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/lists/lists-slicing.html
 next: /python/docs/sets/
 ---

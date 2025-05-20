@@ -6,7 +6,7 @@ keywords: Python, tuple, empty tuple, single value tuple, programming, data stru
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
 breadcrumb:
   - title: Home

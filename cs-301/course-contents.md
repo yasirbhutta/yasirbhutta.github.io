@@ -6,7 +6,7 @@ keywords: CS-301 syllabus, computer science course outline, CS-301 topics, cours
 author: Muhammad Yasir Bhutta
 course: python
 topic: functions
-toc: toc/python-toc.html
+toc: toc/python.html
 next: /cs-301/resources.html
 breadcrumb:
   - title: Home

@@ -4,7 +4,7 @@ title: --.
 description: --.
 keywords: --.
 author: "Muhammad Yasir Bhutta"
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "lambda"
 course: "python"
 prev: ""

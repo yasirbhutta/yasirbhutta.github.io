@@ -4,7 +4,7 @@ title: "String Manipulation Tool: Python Project for String Operations and Forma
 description: Explore a Python-based String Manipulation Tool to reverse strings, change case, count vowels, replace substrings, and more. Learn essential string operations and formatting in Python with this interactive mini project.
 keywords: Python string manipulation, Python project, string operations, reverse string, count vowels, string formatting, Python string methods, interactive Python tool, palindrome checker, string replace, word count, Python tutorial, string case conversion, remove extra spaces, title case formatting, Python beginner project
 author: "Muhammad Yasir Bhutta"
-toc: toc/python-toc.html
+toc: toc/python.html
 topic: "strings"
 course: "python"
 prev: "/python/docs/strings/practice-and-progress/exercises-strings.html"

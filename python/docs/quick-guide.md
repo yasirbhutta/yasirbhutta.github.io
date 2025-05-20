@@ -6,7 +6,7 @@ keywords: Python quick guide, Python basics, Python tutorial, learn Python fast,
 author: Muhammad Yasir Bhutta
 course: python
 topic: quick-quide
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/
 next: /python/docs/tools.html
 breadcrumb:

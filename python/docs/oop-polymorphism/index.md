@@ -6,7 +6,7 @@ keywords: Python polymorphism, polymorphism in OOP, method overriding Python, du
 author: Muhammad Yasir Bhutta
 course: python
 topic: polymorphism
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/oop-inheritance/
 next: /python/docs/oop-encapsulation/
 breadcrumb:

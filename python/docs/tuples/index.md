@@ -6,7 +6,7 @@ keywords: what is tuple, tuple basics, create tuples, tuple basics, unpacking of
 author: Muhammad Yasir Bhutta
 course: python
 topic: functions
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/lists/
 next: /python/docs/tuples/tuples-basics.html
 breadcrumb:

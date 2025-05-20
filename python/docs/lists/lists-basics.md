@@ -3,7 +3,7 @@ layout: page
 title: "Python Lists: Basics, Operations, and Examples"
 description: Learn the fundamentals of Python lists, including creation, manipulation, indexing, and common operations. Explore practical examples and best practices.  
 keywords: Python, lists, basics, tutorial, examples, operations, indexing, programming
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/
 next: /python/docs/lists/lists-slicing.html
 ---

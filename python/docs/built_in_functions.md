@@ -3,7 +3,7 @@ layout: page
 title: Built-in Functions 
 description: The Python interpreter has a number of functions and types built into it that are always available.  
 keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
-toc: toc/python-toc.html
+toc: toc/python.html
 ---
 
 

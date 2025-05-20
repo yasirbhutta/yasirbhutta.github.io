@@ -6,7 +6,7 @@ keywords: Swap Variables using Tuple Unpacking, one liner to swap variables, pyt
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
 breadcrumb:
   - title: Home

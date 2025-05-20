@@ -3,7 +3,7 @@ layout: page
 title: "Functions in Python Modules : A Beginner's Guide | Python for Beginners"
 description: Learn how to define and use functions inside Python modules. This guide covers creating a module, importing it, and organizing your Python code for better reusability and clarity.
 keywords: Python modules, Python functions, custom modules in Python, import module Python, how to use functions in modules, Python programming, Python beginner guide, reusable Python code, Python for Beginners, python tutorial for beginners
-toc: toc/python-toc.html
+toc: toc/python.html
 course: python
 topic: "lambda"
 mini_project: false

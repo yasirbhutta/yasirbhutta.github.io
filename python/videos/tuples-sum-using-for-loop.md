@@ -6,7 +6,7 @@ keywords: calculate the Sum of a Tuple Using a for Loop, python tuples example, 
 author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
-toc: toc/python-toc.html
+toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
 breadcrumb:
   - title: Home
