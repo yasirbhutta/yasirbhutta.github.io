@@ -8,7 +8,7 @@ course: python
 topic: pandas
 toc: toc/python.html
 prev: /python/docs/pandas/
-next: /ms-excel/docs/functions/sumif.html
+next: /python/
 breadcrumb:
   - title: Home
     url: /

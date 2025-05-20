@@ -486,7 +486,7 @@ Name   Age
   9           10  Nasser, Mrs. Nicholas           14.0         1       2
   ```
 
-for more details, see [Difference Between Pandas `loc` vs `iloc` – Key Comparisons](../pandas/difference-between-iloc-loc.md)
+for more details, see [Difference Between Pandas loc vs iloc – Key Comparisons](../pandas/difference-between-iloc-loc.md)
 
 #### 3.3 **Filtering Rows Based on Conditions**
 
