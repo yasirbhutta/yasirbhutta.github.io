@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Loading and Handling Datasets in Pandas"
-description: Download free datasets for machine learning, data science, and research. Explore curated collections of open data in CSV, JSON, and more for your projects.
-keywords: free datasets, open data, machine learning datasets, data science resources, CSV datasets, JSON datasets, research data, public datasets, data analysis, dataset download
+title: "Loading & Handling Datasets in Pandas: CSV, Excel, JSON & More"
+description: Learn how to load, read, and handle datasets in Pandas (CSV, Excel, JSON, SQL). Essential techniques for data cleaning, preprocessing, and efficient data analysis.
+keywords: loading datasets in pandas, read csv pandas, read excel pandas, pandas read json, pandas read sql, handling missing data pandas, data preprocessing pandas, pandas dataframe tutorial, python pandas data cleaning, pandas import dataset
 author: Muhammad Yasir Bhutta
 course: python
 toc: toc/python.html
