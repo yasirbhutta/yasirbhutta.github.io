@@ -457,6 +457,24 @@ This might display something like:
   3            4  Futrelle, Mrs. Jacques Heath    35.0         1       1
   ```
 
+- **Select Rows with index 0 to 3 and columns name and age**
+
+```python
+df_name_age = df.loc[0:3, ["Name", "Age"]]
+# The above line will raise an error because the loc method is not used correctly.
+print(df_name_age)
+```
+
+**Output:**
+
+```
+Name   Age
+0                            Braund, Mr. Owen Harris  22.0
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  38.0
+2                             Heikkinen, Miss. Laina  26.0
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  35.0
+```
+
 - **Select Rows Where `Age` > 30**:
 
   ```python
