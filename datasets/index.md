@@ -1,6 +1,22 @@
-# Datasets for use in examples
+---
+layout: page
+title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
+description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
+keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+author: Muhammad Yasir Bhutta
+course: python
+topic: datasets
+toc: toc/python.html
+prev: ""
+next: ""
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Datasets for use in examples
 
 ## Online Datasets
 

@@ -1,7 +1,22 @@
+---
+layout: page
+title: "Python Pandas Module Guide – Functions, Examples & Usage"
+description: Learn how to use the Pandas module in Python for data analysis. Explore functions, examples, and best practices for efficient data manipulation.
+keywords: Python Pandas, Pandas module, Pandas tutorial, Python data analysis, Pandas DataFrame, Python data manipulation, Pandas functions, Python library, Pandas examples
+author: Muhammad Yasir Bhutta
+course: python
+topic: pandas
+toc: toc/python.html
+prev: /python/docs/modules/numpy.html
+next: /python/docs/modules/scipy.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+---
+
 # Pandas for Beginners
-
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaeGV0517En4iyZGWn2P) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/python/docs/modules/pandas.pdf)  
 - To access the updated handouts, please click on the following link:
@@ -204,6 +219,8 @@ url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic
 titanic = pd.read_csv(url)
 print(titanic.head())
 ```
+
+for more deta sets, see [Datasets for use in examples](../../../datasets/)
 
 #### Example: Local CSV File
 
