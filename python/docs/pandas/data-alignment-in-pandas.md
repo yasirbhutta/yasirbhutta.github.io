@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Data Alignment in Pandas: How Pandas Handles Index Matching & Operations"
+description: Learn how Pandas handles data alignment during operations. Understand index matching, automatic alignment, and how to avoid misalignment issues in DataFrames and Series.
+keywords: pandas data alignment, index matching in pandas, data alignment in python, pandas dataframe operations, handling misaligned data pandas, pandas series alignment, automatic alignment pandas, python pandas indexing, pandas label alignment, pandas arithmetic operations alignment
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
+course: python
+topic: pandas
 toc: toc/python.html
 prev: /python/docs/pandas/
 next: /ms-excel/docs/functions/sumif.html
@@ -17,8 +17,6 @@ breadcrumb:
   - title: Pandas
     url: /python/docs/pandas/
 ---
-
-### **Appendix B: 📌 Data Alignment in Pandas**
 
 **Data alignment** refers to how Pandas handles operations between data structures (such as `Series` or `DataFrames`) with differing indexes. When performing operations like addition, subtraction, or merging, Pandas automatically aligns the data by their index labels to ensure that operations happen between corresponding elements.
 
