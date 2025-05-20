@@ -17,8 +17,6 @@ breadcrumb:
     url: /python/docs/pandas.html
 ---
 
-### **Appendix A: **
-
 Pandas doesn't come with built-in datasets like some other libraries, but it offers many ways to load and handle external datasets. You can easily read data from CSV, Excel, SQL, JSON, and other formats using Pandas.
 
 Here are common datasets you can load and work with in Pandas, along with some examples of reading them into your environment:
