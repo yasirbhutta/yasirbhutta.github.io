@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Free Datasets Download – Open Data for Research & Analysis"
 description: Download free datasets for machine learning, data science, and research. Explore curated collections of open data in CSV, JSON, and more for your projects.
 keywords: free datasets, open data, machine learning datasets, data science resources, CSV datasets, JSON datasets, research data, public datasets, data analysis, dataset download
@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 course: python
 toc: toc/python.html
 prev: ""
-next: "/"
+next: "/python/"
 breadcrumb:
   - title: Home
     url: /
