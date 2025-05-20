@@ -6,16 +6,16 @@ keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Ex
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
+toc: toc/python.html
+prev: /python/docs/pandas/
 next: /ms-excel/docs/functions/sumif.html
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: Python
+    url: /python/
+  - title: Pandas
+    url: /python/docs/pandas/
 ---
 
 ### **Appendix B: 📌 Data Alignment in Pandas**
