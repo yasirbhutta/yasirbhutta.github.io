@@ -5,7 +5,6 @@ description: Download free datasets for machine learning, data science, and rese
 keywords: free datasets, open data, machine learning datasets, data science resources, CSV datasets, JSON datasets, research data, public datasets, data analysis, dataset download
 author: Muhammad Yasir Bhutta
 course: python
-topic: ""
 toc: toc/python.html
 prev: ""
 next: "/"
