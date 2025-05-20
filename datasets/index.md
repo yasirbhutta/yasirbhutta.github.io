@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Free Datasets Download – Open Data for Research & Analysis"
+description: Download free datasets for machine learning, data science, and research. Explore curated collections of open data in CSV, JSON, and more for your projects.
+keywords: free datasets, open data, machine learning datasets, data science resources, CSV datasets, JSON datasets, research data, public datasets, data analysis, dataset download
 author: Muhammad Yasir Bhutta
 course: python
 topic: datasets
 toc: toc/python.html
 prev: ""
-next: ""
+next: "/"
 breadcrumb:
   - title: Home
     url: /
