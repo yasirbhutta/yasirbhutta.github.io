@@ -5,6 +5,8 @@ description: Explore a comprehensive list of Microsoft PowerPoint practical topi
 keywords: Microsoft PowerPoint topics, PowerPoint practical list, PowerPoint syllabus overview, PowerPoint practicals for students, learn PowerPoint step-by-step, PowerPoint curriculum guide, presentation software topics, MS PowerPoint training outline, PowerPoint topics for beginners, Office software practical list
 author: Muhammad Yasir Bhutta
 course: ms-powerpoint
+show_practice_progress: false
+show_toc: false
 prev: /ms-powerpoint/docs/basics.html
 next: ""
 breadcrumb:

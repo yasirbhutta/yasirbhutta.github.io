@@ -6,7 +6,10 @@ keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Ex
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
+show_toc: false
 toc: toc/ms-excel-toc.html
+show_practice_progress: false
+show_mini_project: false
 prev: /ms-excel/docs/functions/what-is-functions.html
 next: /ms-excel/docs/functions/sumif.html
 breadcrumb:
