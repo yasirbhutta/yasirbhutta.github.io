@@ -8,7 +8,7 @@ course: php
 topic: "control-flow"
 mini_project: true
 prev: /php/docs/loops-while/
-next: /php/docs/forms.html
+next: /php/docs/forms/
 ---
 
 ## 🔄 The `do-while` Loop in PHP
