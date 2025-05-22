@@ -5,7 +5,6 @@ description: Explore the complete CS-301 course syllabus, including key topics, 
 keywords: CS-301 syllabus, computer science course outline, CS-301 topics, course contents, computer science curriculum, study materials, learning outcomes, programming concepts, algorithms, data structures, software engineering, exam preparation, lecture notes, academic resources, university course guide
 author: Muhammad Yasir Bhutta
 course: cs-301
-toc: ""
 next: /cs-301/resources.html
 breadcrumb:
   - title: Home

@@ -6,7 +6,6 @@ keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Ex
 author: Muhammad Yasir Bhutta
 course: computer-basics
 topic: ""
-toc: ""
 prev: ""
 next: /computer-basics/docs/computer.html
 breadcrumb:
