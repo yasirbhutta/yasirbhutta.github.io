@@ -39,7 +39,7 @@ layout: default
 </script>
 
    
-{% if page.show_toc != false %}
+{% if page.toc %}
 <h3>Explore More Topics</h3>
 {% assign show_heading = false %}
 {% include {{ page.toc }} show_heading=show_heading %}
