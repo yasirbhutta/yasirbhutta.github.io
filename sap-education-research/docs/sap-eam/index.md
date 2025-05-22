@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP EAM (Enterprise Asset Management) – Guide, Benefits & Best Practices"
+description: Learn how SAP EAM optimizes asset maintenance, reduces downtime & boosts efficiency. Explore key features, modules, and industry applications.
+keywords: SAP EAM, Enterprise Asset Management, SAP Plant Maintenance, SAP PM, asset maintenance software, SAP asset management, EAM best practices, SAP maintenance management, predictive maintenance SAP, SAP asset lifecycle, SAP EAM modules, asset performance management, SAP for equipment maintenance, EAM software solutions, SAP asset tracking, industrial asset management 
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/
+next: /sap-education-research/docs/sap-fico/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 
 ### 🛠️ What is **SAP EAM (Enterprise Asset Management)?**
