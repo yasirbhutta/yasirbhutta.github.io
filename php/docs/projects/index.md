@@ -5,7 +5,6 @@ description: Explore beginner-friendly PHP projects like a personal blog and stu
 keywords: PHP projects, PHP examples, PHP tutorials, PHP source code, Yasir Bhutta PHP, web development projects, PHP programming, learn PHP, PHP documentation
 toc: toc/php.html
 course: php
-topic: ""
 mini_project: ""
 prev: /php/
 next: /php/docs/basics/what-is-php.html
