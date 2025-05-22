@@ -11,25 +11,10 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
  
 ## Microsoft 365
 
-### [Microsoft Excel](ms-excel/index.md)
-
-- [Excel Basics](ms-excel/docs/basics.md) \| [PDF](ms-excel/docs/basics.pdf)
-- [Formatting in excel](ms-excel/docs/formatting.md) \| [PDF](ms-excel/docs/formatting.pdf)
-- [Formulas in excel](ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
-- [Functions in excel](ms-excel/docs/functions.md) \| [PDF](ms-excel/docs/functions.pdf)
-- [Excel Practical Topics](ms-excel/docs/excel-practicals.md) \| [PDF](ms-excel/docs/excel-practicals.pdf)
-  
-### [Microsoft Word](ms-word/index.md)
-
-- [Microsoft Word Basics](ms-word/docs/basics.md)
-- [Character Formatting](ms-word/docs/character-formatting.md)
-- [Paragraph Formatting](ms-word/docs/paragraph-formatting.md) \| [Slides](https://docs.google.com/presentation/d/1pbumUfZuugkGS31FKGpgsNz3g7v2WVDjCvHab713b9o/edit?usp=sharing)
-- [Page Formatting](ms-word/docs/page-formatting.md)
-- [Text Editing in Documents](ms-word/docs/stylish.md)
-- [Word Practical Topics](ms-word/docs/word-practical.md) \| [PDF](ms-word/docs/word-practical.pdf)
-
-### [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
-### [Microsoft Teams](teams/index.md)
+## [Microsoft Excel](ms-excel/index.md)
+## [Microsoft Word](ms-word/index.md)
+## [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
+## [Microsoft Teams](teams/index.md)
 
 ## Google Workspace
 
@@ -52,6 +37,7 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
 
 - [IT Support Desk](trainings/docs/itsupport.md)
 - [Learn Computer Lab](computer-basics/learn-computer.md)
+- [SAP for Education and Research](sap-education-research/)
 
 ## Softwares
 
