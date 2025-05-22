@@ -16,7 +16,7 @@ breadcrumb:
     url: /sap-education-research/
 ---
 
-### 🎓 What is **SAP SLCM (Student Lifecycle Management)?**
+## 🎓 What is **SAP SLCM (Student Lifecycle Management)?**
 
 **SAP SLCM** is a specialized SAP module designed specifically for **managing the academic lifecycle of students** in educational institutions. From **admission through graduation**, it supports all student-related processes including enrollment, academic records, tuition billing, and alumni tracking.
 
