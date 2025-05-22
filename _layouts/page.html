@@ -39,11 +39,11 @@ layout: default
 </script>
 
    
-    {% if page.show_toc != false %}
+{% if page.show_toc != false %}
     <h3>Explore More Topics</h3>
     {% assign show_heading = false %}
-    {% include page.toc show_heading=show_heading %}
-    {% endif %} 
+    {% include {{ page.toc }} show_heading=show_heading %}
+{% endif %}
     <hr>     
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
