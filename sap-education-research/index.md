@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: default
 title: "SAP Education & Research | Learn SAP for Academia"
 description: Explore SAP solutions for education and research. Access guides, documentation, and insights to integrate SAP in academic and research institutions effectively.
 keywords: SAP education, SAP for universities, SAP research, academic ERP, SAP SLCM, SAP in education sector, SAP campus solutions, SAP documentation, Yasir Bhutta, Learn With Yasir 
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
-toc: toc/sap-education-research.html
-prev: /sap-education-research/
+prev: /
 next: /sap-education-research/docs/sap-fico/
 breadcrumb:
   - title: Home

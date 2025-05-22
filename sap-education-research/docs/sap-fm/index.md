@@ -7,8 +7,8 @@ author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
 toc: toc/sap-education-research.html
-prev: /sap-education-research/
-next: /sap-education-research/docs/sap-fico/
+prev: /sap-education-research/docs/sap-fico/
+next: /sap-education-research/docs/sap-gm/
 breadcrumb:
   - title: Home
     url: /
