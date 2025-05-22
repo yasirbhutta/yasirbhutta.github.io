@@ -4,9 +4,8 @@ title: "CS-301 Applications of ICT – Key Topics, Learning Outcomes & Study Mat
 description: Explore the complete CS-301 course syllabus, including key topics, learning objectives, and study resources. Ideal for computer science students and educators.
 keywords: CS-301 syllabus, computer science course outline, CS-301 topics, course contents, computer science curriculum, study materials, learning outcomes, programming concepts, algorithms, data structures, software engineering, exam preparation, lecture notes, academic resources, university course guide
 author: Muhammad Yasir Bhutta
-course: python
-topic: functions
-toc: toc/python.html
+course: cs-301
+toc: ""
 next: /cs-301/resources.html
 breadcrumb:
   - title: Home
