@@ -1,13 +1,14 @@
 ---
-layout: default
-title: "SAP for Education and Research"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+layout: page
+title: "SAP Education & Research | Learn SAP for Academia"
+description: Explore SAP solutions for education and research. Access guides, documentation, and insights to integrate SAP in academic and research institutions effectively.
+keywords: SAP education, SAP for universities, SAP research, academic ERP, SAP SLCM, SAP in education sector, SAP campus solutions, SAP documentation, Yasir Bhutta, Learn With Yasir 
 author: Muhammad Yasir Bhutta
-course: sap
+course: sap-education-reasearch
+topic: sap-eam
 toc: toc/sap-education-research.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+prev: /sap-education-research/
+next: /sap-education-research/docs/sap-fico/
 breadcrumb:
   - title: Home
     url: /

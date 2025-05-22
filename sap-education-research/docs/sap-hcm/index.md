@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP HCM (Human Capital Management) – Guide, Benefits & Best Practices"
+description: Master SAP HCM – SAP’s end-to-end HR solution for payroll, time management & workforce analytics. Explore key modules, implementation steps, and career opportunities in SAP HR.
+keywords: SAP HCM, SAP HR, Human Capital Management, SAP Payroll, SAP Time Management, SAP Organizational Management, SAP Personnel Administration, SAP SuccessFactors vs HCM, SAP HCM implementation, SAP HCM certification, SAP HR modules, SAP HCM training, SAP ESS MSS, SAP HCM reports, SAP HRIS, SAP HCM integration 
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/docs/sap-gm/
+next: /sap-education-research/docs/sap-mm/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 
 ### 👥 What is **SAP HCM (Human Capital Management)?**

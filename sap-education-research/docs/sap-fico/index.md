@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "SAP EAM (Enterprise Asset Management) – Guide, Benefits & Best Practices"
-description: Learn how SAP EAM optimizes asset maintenance, reduces downtime & boosts efficiency. Explore key features, modules, and industry applications.
-keywords: SAP EAM, Enterprise Asset Management, SAP Plant Maintenance, SAP PM, asset maintenance software, SAP asset management, EAM best practices, SAP maintenance management, predictive maintenance SAP, SAP asset lifecycle, SAP EAM modules, asset performance management, SAP for equipment maintenance, EAM software solutions, SAP asset tracking, industrial asset management 
+title: "SAP FICO Guide: Financial Accounting & Controlling - Modules, Benefits & Training"
+description: Master SAP FICO (Financial Accounting & Controlling) with this complete guide. Learn key modules, benefits, career paths, and how SAP FICO streamlines finance processes.
+keywords: SAP FICO, SAP FI, SAP CO, SAP Financial Accounting, SAP Controlling, SAP FICO modules, SAP FICO training, SAP FICO certification, SAP finance software, ERP finance module, SAP GL accounting, SAP AR AP, SAP cost center accounting, SAP FICO jobs, SAP S/4HANA Finance  
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
 toc: toc/sap-education-research.html
-prev: /sap-education-research/
-next: /sap-education-research/docs/sap-fico/
+prev: /sap-education-research/docs/sap-eam/
+next: /sap-education-research/docs/sap-fm/
 breadcrumb:
   - title: Home
     url: /

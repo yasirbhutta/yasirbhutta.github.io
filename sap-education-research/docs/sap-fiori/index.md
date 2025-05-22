@@ -1,4 +1,28 @@
-### 🌐 What is **SAP Fiori**?
+---
+layout: page
+title: "SAP Fiori: The Ultimate UX Guide (2024) – Features, Benefits & Implementation"
+description: Discover SAP Fiori – SAP’s modern UX platform for seamless, role-based apps. Learn key features, benefits, implementation steps, and how it enhances SAP user experience.
+keywords: SAP Fiori, SAP Fiori apps, SAP UX design, SAP user experience, SAP Fiori launchpad, SAP Fiori implementation, SAP S/4HANA Fiori, SAP Fiori vs GUI, SAP Fiori best practices, Fiori app library, SAP Fiori development, role-based SAP apps, SAP mobile UX, Fiori elements, SAP Fiori analytics
+author: Muhammad Yasir Bhutta
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/
+next: /sap-education-research/docs/sap-fico/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: SAP
+    url: /sap-education-research/
+---
+
+## Table of Contents
+
+- What is **SAP Fiori
+- SAP Fiori for Students
+- SAP Fiori for Teachers
+
+## 🌐 What is **SAP Fiori**?
 
 **SAP Fiori** is a user experience (UX) design system developed by SAP that provides a **modern, intuitive, and responsive interface** for accessing SAP applications across devices (desktop, tablet, mobile).
 

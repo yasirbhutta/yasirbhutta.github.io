@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP PS (Project System) Guide 2025 - Project Management, WBS & Cost Control"
+description: Master SAP PS for end-to-end project management - from WBS creation to profitability analysis. Learn key structures, integration with SAP FICO/MM, and real-world implementation examples.
+keywords: SAP PS, SAP Project System, WBS in SAP, SAP project management, SAP PS vs PPM, SAP project costing, SAP PS configuration, SAP PS reports, SAP network activities, SAP PS integration, SAP PS certification, SAP PS training, SAP project budgeting, SAP milestone trend analysis, SAP PS transaction codes 
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/docs/sap-mm/
+next: /sap-education-research/docs/sap-scm/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 
 ### 📊 What is **SAP PS (Project System)?**

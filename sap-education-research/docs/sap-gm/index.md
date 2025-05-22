@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP GM (Grants Management) – Guide, Benefits & Best Practices"
+description: Discover how SAP Grant Management streamlines funding allocation, compliance, and reporting for nonprofits & research institutions. Learn key features, integration with SAP FM, and implementation best practices.
+keywords: SAP Grant Management, SAP GM, grant accounting software, SAP for nonprofits, research funding management, SAP fund tracking, grant compliance SAP, SAP GM vs FM, SAP GM implementation, SAP GM reports, award management system, SAP GM certification, SAP GM training, nonprofit ERP solutions, SAP GM best practices  
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/docs/sap-fm/
+next: /sap-education-research/docs/sap-hcm/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 
 In SAP, **GM** stands for **Grants Management** – a component primarily used in the **public sector** or **nonprofit organizations** to manage grants, sponsored programs, and research funding.

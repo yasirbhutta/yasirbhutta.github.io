@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP SLCM Guide | Student Lifecycle Management Overview"
+description: Learn SAP Student Lifecycle Management (SLCM) features, modules, and benefits. A complete educational guide to mastering SAP SLCM for academic institutions.
+keywords: SAP SLCM, SAP Student Lifecycle Management, SAP education, SAP campus management, SAP SLCM modules, student information system, academic ERP
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/docs/sap-scm/
+next: /sap-education-research/docs/sap-fiori/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 
 ### 🎓 What is **SAP SLCM (Student Lifecycle Management)?**

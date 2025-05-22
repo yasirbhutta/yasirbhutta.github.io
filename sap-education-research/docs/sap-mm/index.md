@@ -1,21 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "SAP MM (Materials Management) Guide 2025 - Procurement, Inventory & Supply Chain"
+description: Learn how SAP MM streamlines procurement, inventory control & supply chain operations. Explore key features, transaction codes, and integration with SAP SD/PP modules. 
+keywords: SAP MM, SAP Materials Management, SAP procurement, SAP inventory management, SAP MM transaction codes, SAP purchase order, SAP vendor management, SAP MM configuration, SAP MM vs S/4HANA MM, SAP MM certification, SAP MM training, SAP MRP, SAP MM reports, SAP MM integration, SAP supply chain
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/docs/sap-hcm/
+next: /sap-education-research/docs/sap-ps/
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: SAP
+    url: /sap-education-research/
 ---
 ### 📦 What is **SAP MM (Materials Management)?**
 
