@@ -2,7 +2,7 @@
 layout: default
 title: "Learn Python, Microsoft 365 & Google Workspace"  
 description: Explore beginner-friendly tutorials on Python, Microsoft 365 (Excel, Word, PowerPoint), Google Workspace, and more to enhance skills for students and professionals. 
-keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorials, Microsoft Word basics, Google Workspace tips, Excel formulas and functions, Python programming exercises, IT courses, web development tutorials, computer basics for beginners, Microsoft 365 training, Python programming for beginners, Google Sheets tips, Excel for professionals, online IT tutorials.
+keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorials, Microsoft Word basics, Google Workspace tips, Excel formulas and functions, Python programming exercises, IT courses, web development tutorials, computer basics for beginners, Microsoft 365 training, Python programming for beginners, Google Sheets tips, Excel for professionals, online IT tutorials, sap, sap for education and research, sap tutorail
 ---
 
 ## Coding
