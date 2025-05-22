@@ -42,7 +42,8 @@ layout: default
 {% if page.show_toc != false %}
     <h3>Explore More Topics</h3>
     {% assign show_heading = false %}
-    {% include {{ page.toc }} show_heading=show_heading %}
+    {% assign toc_override = page.toc %}
+    {% include {{ toc_override }} show_heading=show_heading %}
 {% endif %}
     <hr>     
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
