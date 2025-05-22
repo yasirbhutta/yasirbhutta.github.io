@@ -1,19 +1,18 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Microsoft PowerPoint Practical Topics List – Complete Overview"
+description: Explore a comprehensive list of Microsoft PowerPoint practical topics, ideal for students and educators. This structured outline covers key presentation skills from basic to advanced features.
+keywords: Microsoft PowerPoint topics, PowerPoint practical list, PowerPoint syllabus overview, PowerPoint practicals for students, learn PowerPoint step-by-step, PowerPoint curriculum guide, presentation software topics, MS PowerPoint training outline, PowerPoint topics for beginners, Office software practical list
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-toc: toc/ms-excel-toc.html
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+course: ms-powerpoint
+toc: ""
+prev: /ms-powerpoint/docs/basics.html
+next: ""
 breadcrumb:
   - title: Home
     url: /
   - title: Powerpoint
-    url: /ms-excel/
+    url: /ms-powerpoint/
 
 ---
 
