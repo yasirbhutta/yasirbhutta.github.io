@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Microsoft PowerPoint Practical Topics List – Complete Overview"
 description: Explore a comprehensive list of Microsoft PowerPoint practical topics, ideal for students and educators. This structured outline covers key presentation skills from basic to advanced features.
 keywords: Microsoft PowerPoint topics, PowerPoint practical list, PowerPoint syllabus overview, PowerPoint practicals for students, learn PowerPoint step-by-step, PowerPoint curriculum guide, presentation software topics, MS PowerPoint training outline, PowerPoint topics for beginners, Office software practical list
@@ -41,6 +41,7 @@ breadcrumb:
 7. **Hyperlinking to Slides, Web Pages, or Files**
 8. **Inserting Audio and Video**
 9. **Slide Show**
+    
 ---
 
 ## 🎓 **Exam Practice Ideas**
