@@ -11,10 +11,10 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
  
 ## Microsoft 365
 
-## [Microsoft Excel](ms-excel/index.md)
-## [Microsoft Word](ms-word/index.md)
-## [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
-## [Microsoft Teams](teams/index.md)
+- [Microsoft Excel](ms-excel/index.md)
+- [Microsoft Word](ms-word/index.md)
+- [Microsoft PowerPoint](ms-powerpoint/docs/basics.md)
+- [Microsoft Teams](teams/index.md)
 
 ## Google Workspace
 
@@ -33,11 +33,15 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
 - [Matlab for Beginners](/matlab/)
 - [Web Development](/web-dev/)
 
+## SAP
+
+- [SAP for Education and Research](sap-education-research/)
+  
 ## Training
 
 - [IT Support Desk](trainings/docs/itsupport.md)
 - [Learn Computer Lab](computer-basics/learn-computer.md)
-- [SAP for Education and Research](sap-education-research/)
+
 
 ## Softwares
 
