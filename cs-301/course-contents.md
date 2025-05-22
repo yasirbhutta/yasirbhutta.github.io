@@ -75,6 +75,7 @@ breadcrumb:
 
 ## Microsoft Powerpoint
   - [Microsoft Powerpoint Basics](../ms-powerpoint/docs/basics.md)
+  - [Powerpoint Practical Topics](../ms-powerpoint/docs/powerpoint-practical.md)
 
 ## Assignments
 
