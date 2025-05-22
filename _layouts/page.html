@@ -19,15 +19,7 @@ layout: default
     {{ content }}
     
     <hr>
-    
-{% if page.show_practice_progress != false %}
-  {% assign topic = page.topic | default: "" %}
-  {% assign course = page.course | default: "" %}
-  {% assign show_mini_project = page.mini_project | default: "" %}
-  {% include practice-and-progress.html topic=topic course=course show_mini_project=show_mini_project %}
-{% endif %}
-
-    
+      
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <!-- display square -->
