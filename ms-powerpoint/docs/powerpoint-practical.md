@@ -12,7 +12,6 @@ breadcrumb:
     url: /
   - title: Powerpoint
     url: /ms-powerpoint/
-
 ---
 
 ## ✅ **Basic Features**
@@ -47,4 +46,3 @@ breadcrumb:
 * Use at least one transition and one animation.
 * Insert an image, a chart, and a table.
 * Include a hyperlink, an audio clip and video clip.
-
