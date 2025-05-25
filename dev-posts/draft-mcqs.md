@@ -1,3 +1,27 @@
+What does this code output? 🤔💻
+
+class Animal:
+    def speak(self):
+        return "Animal speaks"
+
+class Dog(Animal):
+    def speak(self):
+        return "Dog barks"
+
+def make_animal_speak(animal):
+    print(animal.speak())
+
+make_animal_speak(Animal())
+make_animal_speak(Dog())
+
+🔮 Pick the right answer:
+
+🟢 A) Animal speaks \n Animal speaks
+🔵 B) Animal speaks \n Dog barks
+🟠 C) Dog barks \n Dog barks
+🔴 D) Error
+
+
 Great! Here's a quiz comparing tuple vs list identity using the id() function:
 
 
