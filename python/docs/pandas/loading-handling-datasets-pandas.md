@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Loading & Handling Datasets in Pandas: CSV, Excel, JSON & More"
 description: Learn how to load, read, and handle datasets in Pandas (CSV, Excel, JSON, SQL). Essential techniques for data cleaning, preprocessing, and efficient data analysis.
 keywords: loading datasets in pandas, read csv pandas, read excel pandas, pandas read json, pandas read sql, handling missing data pandas, data preprocessing pandas, pandas dataframe tutorial, python pandas data cleaning, pandas import dataset
