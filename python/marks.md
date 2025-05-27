@@ -1,3 +1,17 @@
+# Final Term Fall 2025
+
+## Topics
+
+- The math module.
+- String Manipulations
+- Formatting Strings
+- Defining and calling user-defined functions, Value-returning functions more
+- Anonymous (lambda) function
+- Storing functions in modules
+- Lists: Creating and Indexing, Slicing, Methods
+- Tuples: Basics, Slicing, Methods
+
+
 # Mid Term Fall 2024
 
 ## Topics
