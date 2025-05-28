@@ -116,7 +116,7 @@ topics:
 
       - id: py-math-018
         prompt: How is `math.isnan(x)` different from `math.isinf(x)`?
-        answer: "`math.isnan(x)` checks if x is NaN, while `math.isinf(x)` checks if x is positive or negative infinity.""
+        answer: "`math.isnan(x)` checks if x is NaN, while `math.isinf(x)` checks if x is positive or negative infinity."
         resources:
           - name: "Python Math Module - isinf() vs isfinite() Explained"
             url: https://yasirbhutta.github.io/python/docs/math-module/isfinite-vs-isinf.html
