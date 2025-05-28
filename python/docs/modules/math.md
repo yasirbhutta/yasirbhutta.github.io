@@ -1,4 +1,24 @@
-# Math Library in Python
+---
+layout: page
+title: "Python math Module Explained with Examples – Complete Guide for Beginners"
+description: Learn how to use Python’s math module with clear examples and explanations. Master mathematical functions like sqrt, sin, cos, log, and more. Ideal for beginners and Python learners.
+keywords: python math module, math module in python, python math functions, python sqrt, python sin cos tan, python log function, math module examples, python math tutorial, python math operations, built-in python modules
+author: Muhammad Yasir Bhutta
+course: python
+topic: math-module
+show_toc: false
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+prev: /python/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /Python/
+---
+
+## Table of the Contents
 
 - [Math Library in Python](#math-library-in-python)
   - [Math Library for Advanced Calculations](#math-library-for-advanced-calculations)
