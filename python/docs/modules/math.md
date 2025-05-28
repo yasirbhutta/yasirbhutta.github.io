@@ -15,7 +15,7 @@ breadcrumb:
   - title: Home
     url: /
   - title: Python
-    url: /Python/
+    url: /python/
 ---
 
 ## Table of the Contents
