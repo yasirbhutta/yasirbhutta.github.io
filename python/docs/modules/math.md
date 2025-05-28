@@ -6,9 +6,9 @@ keywords: python math module, math module in python, python math functions, pyth
 author: Muhammad Yasir Bhutta
 course: python
 topic: math-module
-show_toc: false
+show_toc: true
 toc: toc/python.html
-show_practice_progress: false
+show_practice_progress: true
 show_mini_project: false
 prev: /python/
 breadcrumb:
