@@ -1,5 +1,147 @@
 course: python
 topics:
+  - topic: math-module
+    questions:
+      - id: py-math-001
+        prompt: What is the purpose of the `math` module in Python?
+        answer: The `math` module provides access to mathematical functions defined by the C standard.
+        resources:
+          - name: Python Math Module
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html
+
+      - id: py-math-002
+        prompt: How do you import the `math` module in Python?
+        answer: You can import the `math` module using `import math`.
+        resources:
+          - name: Python Math Module
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html
+
+      - id: py-math-003
+        prompt: What is the difference between `math.floor()` and `math.ceil()`?
+        answer: "`math.floor()` returns the largest integer less than or equal to the number, while `math.ceil()` returns the smallest integer greater than or equal to the number."
+        resources:
+          - name: Floor and Ceil Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#rounding
+
+      - id: py-math-004
+        prompt: What values do `math.pi` and `math.e` represent?
+        answer: "`math.pi` represents the value of π (approximately 3.14159) and `math.e` represents Euler’s number (approximately 2.71828)."
+        resources:
+          - name: Constants in Math Module
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#constants
+
+      - id: py-math-005
+        prompt: What is the output of `print(math.tau)`?
+        answer: It prints the value of τ (tau), which is 2π or approximately 6.28318.
+        resources:
+          - name: Constants in Math Module
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#constants
+
+      - id: py-math-006
+        prompt: What does `math.pow(x, y)` return, and how is it different from `x ** y`?
+        answer: "`math.pow(x, y)` returns x raised to the power y as a float, while `x ** y` may return an int if both x and y are integers."
+        resources:
+          - name: Power and Logarithmic Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
+      - id: py-math-007
+        prompt: How do you compute the square root of a number using the `math` module?
+        answer: Use `math.sqrt(x)` to compute the square root of x.
+        resources:
+          - name: Square Root
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
+      - id: py-math-008
+        prompt: What is the difference between `math.log(x)` and `math.log10(x)`?
+        answer: "`math.log(x)` returns the natural logarithm (base e) of x, while `math.log10(x)` returns the base-10 logarithm of x."
+        resources:
+          - name: Logarithmic Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
+      - id: py-math-009
+        prompt: What is the output of `math.exp(2)`?
+        answer: It returns e raised to the power 2, approximately 7.389.
+        resources:
+          - name: Exponential Function
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
+      - id: py-math-010
+        prompt: What is the output of `math.sin(math.pi / 2)`?
+        answer: It returns 1.0.
+        resources:
+          - name: Trigonometric Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#trigonometric-functions
+
+      - id: py-math-011
+        prompt: Which function would you use to convert radians to degrees?
+        answer: Use `math.degrees(x)` to convert radians to degrees.
+        resources:
+          - name: Angular Conversion
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#angular-conversion
+
+      - id: py-math-013
+        prompt: How do you convert 180 degrees to radians using the `math` module?
+        answer: Use `math.radians(180)`, which returns π radians.
+        resources:
+          - name: Angular Conversion
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#angular-conversion
+
+      - id: py-math-014
+        prompt: What does `math.fabs(x)` do?
+        answer: It returns the absolute value of x as a float.
+        resources:
+          - name: Special Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#special-functions
+
+      - id: py-math-015
+        prompt: When would you use `math.factorial(x)`?
+        answer: When you need the factorial of a non-negative integer x.
+        resources:
+          - name: Special Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#special-functions
+
+      - id: py-math-016
+        prompt: What’s the result of `math.isqrt(10)`?
+        answer: It returns the integer square root of 10, which is 3.
+        resources:
+          - name: Special Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#special-functions
+
+      - id: py-math-017
+        prompt: What does `math.isfinite(x)` check for?
+        answer: It checks whether x is neither infinite nor NaN.
+        resources:
+          - name: "Python Math Module - isinf() vs isfinite() Explained"
+            url: https://yasirbhutta.github.io/python/docs/math-module/isfinite-vs-isinf.html
+
+      - id: py-math-018
+        prompt: How is `math.isnan(x)` different from `math.isinf(x)`?
+        answer: "`math.isnan(x)` checks if x is NaN, while `math.isinf(x)` checks if x is positive or negative infinity.""
+        resources:
+          - name: "Python Math Module - isinf() vs isfinite() Explained"
+            url: https://yasirbhutta.github.io/python/docs/math-module/isfinite-vs-isinf.html
+
+      - id: py-math-020
+        prompt: Write a Python function that returns the ceiling, floor, and rounded value of a float using the `math` module.
+        answer: Use `math.ceil(x)`, `math.floor(x)`, and `round(x)` respectively.
+        resources:
+          - name: Rounding Functions
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#rounding
+
+      - id: py-math-021
+        prompt: What will happen if you pass a negative number to `math.sqrt()`? How can you handle it?
+        answer: It raises a `ValueError`. You can handle it using a `try-except` block or use the `cmath` module for complex results.
+        resources:
+          - name: Square Root Function
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
+      - id: py-math-022
+        prompt: "Identify and correct the error in the following code: `math.sqrt(-16)`"
+        answer: The code raises a `ValueError` because the square root of a negative number is not defined in the real domain. Use `cmath.sqrt(-16)` instead.
+        resources:
+          - name: Square Root Function
+            url: https://yasirbhutta.github.io/python/docs/modules/math.html#power-logarithmic
+
   - topic: oop-inheritance
     questions:
       - id: py-rq-001

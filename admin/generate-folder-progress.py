@@ -1,7 +1,7 @@
 import os
 
-course = "php"  # Replace with the desired course name
-topic = "basics"  # Replace with the desired topic
+course = "python"  # Replace with the desired course name
+topic = "math"  # Replace with the desired topic
 # Define the directory path where the markdown files will be created
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
 file_names = [
@@ -17,16 +17,26 @@ file_names = [
 
 # Define the content for the markdown files
 markdown_content = """---
-layout: default
-title: --.
-description: --.
-keywords: --.
-author: "Muhammad Yasir Bhutta"
-toc: toc/python.html
-topic: ""
-course: ""
-prev: ""
-next: ""
+layout: page
+title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
+description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
+keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+show_toc: false
+toc: toc/ms-excel-toc.html
+show_practice_progress: false
+show_mini_project: false
+prev: /ms-excel/docs/functions/what-is-functions.html
+next: /ms-excel/docs/functions/sumif.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+  - title: Functions
+    url: /ms-excel/docs/functions.html
 ---"""
 
 # Create the directory if it doesn't exist
