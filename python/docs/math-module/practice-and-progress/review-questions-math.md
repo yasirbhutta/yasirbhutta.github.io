@@ -1,24 +1,24 @@
 ---
 layout: page
-title: "Review Questions - Math Module"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Python Math Module Review Questions – Key Concepts & Functions Explained"
+description: Master Python's math module with these comprehensive review questions covering constants, rounding, trigonometric functions, logarithms, and numerical checks like isfinite(), isinf(), and more. Ideal for coding exams and interviews.
+keywords: Python math module, math module review questions, math functions in Python, Python math constants, Python rounding functions, Python trigonometry, Python logarithmic functions, math.sqrt(), math.pow(), math.isinf(), math.isfinite(), Python exam questions, Python interview prep
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
+course: python
+topic: math-module
 show_toc: false
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+prev: /python/docs/math-module/
+next: /python/docs/math-module
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: Python
+    url: /python/
+  - title: Math
+    url: /python/docs/math-module/
 ---
 
 {% assign topic = "math-module" %}
