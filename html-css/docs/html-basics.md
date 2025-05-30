@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 course: html-css
 topic: html-basics
 show_toc: false
-toc: toc/ms-excel-toc.html
+toc: toc/html-toc.html
 show_practice_progress: false
 show_mini_project: false
 prev: /it-324/
