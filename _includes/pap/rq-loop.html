@@ -11,8 +11,9 @@
 <div class="answer-box">
 <p>{{ q.answer | escape }}</p>
 {% if q.resources and q.resources|length > 0 %}
-<div>
-<p><strong>📚 Related Resources:</strong></p>
+<div> 
+<!-- <p><strong>📚 Related Resources:</strong></p> -->
+<p><strong>📘 Related Topics:</strong></p>
 <ul>
 {% for resource in q.resources %}
 <li><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name | escape }}</a></li>

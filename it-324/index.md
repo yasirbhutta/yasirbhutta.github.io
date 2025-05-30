@@ -40,8 +40,11 @@ keywords: IT-324 course materials, IT-324 study resources, computer science cour
 {% assign show_heading = true %}
 {% include toc/css-toc.html show_heading=show_heading %}
 
+---
+
 - [Javascript](/javascript/)
 
+---
 
 {% assign show_heading = true %}
 {% include toc/php.html show_heading=show_heading %}
