@@ -1,10 +1,22 @@
 ---
-layout: default
-title: HTML Basics: Comprehensive Guide to Elements, Tags, and Structure.
+layout: page
+title: "HTML Basics: Comprehensive Guide to Elements, Tags, and Structure."
 description: Master the fundamentals of HTML with this comprehensive guide. Learn about elements, tags, attributes, and structure to build well-structured web pages for beginners and aspiring web developers.
+keywords: html basics structure, html elements, html tags, html structure, learn with yasir, yasirbhutta
+author: Muhammad Yasir Bhutta
+course: html-css
+topic: html-basics
+show_toc: false
+toc: toc/ms-excel-toc.html
+show_practice_progress: false
+show_mini_project: false
+prev: /it-324/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Web Development
+    url: /it-324/
 ---
-
-# Introduction to HTML
 
 ## HTML Basics: Table of Contents
 

@@ -1,4 +1,4 @@
-# Final Term Fall 2025
+# Final Term Spring 2025
 
 ## Topics
 
