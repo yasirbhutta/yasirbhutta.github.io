@@ -1,3 +1,19 @@
+---
+layout: page
+title: "Wireshark Filters Guide | Protocol & IP Analysis"
+description: Master Wireshark filters for protocols, IPs, ports, and more. Learn practical packet analysis techniques with this comprehensive guide.
+keywords: wireshark filters, wireshark tutorial, packet analysis, network traffic analysis, protocol filtering, IP address filtering, port filtering, MAC address filtering, subnet filtering, wireshark display filters
+author: Muhammad Yasir Bhutta
+course: wireshark
+show_toc: false
+show_practice_progress: false
+show_mini_project: false
+prev: /
+breadcrumb:
+  - title: Home
+    url: /
+---
+
 # Wireshark tasks
 
 - [Download PDF](https://yasirbhutta.github.io/wireshark/index.pdf)
