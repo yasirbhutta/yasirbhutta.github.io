@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HTML Basics Review Questions: Test Your Knowledge.
+title: "HTML Basics Review Questions: Test Your Knowledge."
 description: Test your understanding of HTML basics with these review questions. Perfect for beginners to reinforce key concepts like tags, attributes, and best practices in web development.
 ---
 
@@ -60,5 +60,4 @@ description: Test your understanding of HTML basics with these review questions.
 18. What is the purpose of the `viewport` meta tag?  
     **Answer:** It ensures the web page is responsive and adapts to different screen sizes.
 
-{% assign show_heading = true %}
-{% include toc/html-toc.html show_heading=show_heading %}
+    How do you create ordered and unordered lists in HTML? Explain with examples.

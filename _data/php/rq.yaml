@@ -27,3 +27,13 @@ topics:
           What is the difference between `include` and `require` in PHP?
         answer: >
           Both `include` and `require` are used to include files in PHP scripts. The main difference is that if the file is not found, `include` will emit a warning and continue execution, while `require` will emit a fatal error and stop the script.
+      - id: php-rq-006
+        prompt: |
+          What are local and global variables in PHP? Explain each with examples.
+
+  - topic: forms
+    questions:
+      - id: php-rq-001
+        prompt: >
+          Write an HTML page to create a form with input fields for Name and Email, along with a Submit button. Also, 
+          write the PHP code to read and display the submitted Name and Email values when the user clicks the Submit button.
