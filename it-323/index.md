@@ -1,5 +1,22 @@
-# IT-323 Python Programming 3(2-1)
-
+---
+layout: page
+title: "IT-323 Python Programming Course"
+description: Explore the IT-323 Python Programming course with weekly schedules, lesson plans, quizzes, assignments, and resources to master Python effectively.
+keywords: IT-323, Python Programming, Python course, Learn Python, Python tutorials, Python quizzes, Python assignments, Python resources, Python lesson plans, Python exercises
+author: Muhammad Yasir Bhutta
+course: python
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+prev: /
+next: /it-324/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+---
 
 ## [Course Overview](docs/course-overview-it-323.md)
 
