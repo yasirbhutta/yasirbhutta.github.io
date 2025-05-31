@@ -171,5 +171,13 @@ thermo.set_celsius(-300)  # Shows warning message
 
 ## 📘 **Related Topics**
 
+* **Classes and Objects** – Learn how to create and use classes in Python with practical examples.
+  👉 [Learn more](/python/docs/classes.html)
+* **Inheritance in Python** – Learn Python OOP inheritance with Beginner's examples! Understand parent & child classes, method overriding, `super()`, and multilevel inheritance.
+  👉 [Learn more](/python/docs/oop-inheritance/)
+* **Polymorphism** – Learn polymorphism in Python OOP with practical examples. Understand method overriding, duck typing, and operator overloading for flexible and reusable code.
+  👉 [Learn more](/python/docs/oop-polymorphism/)
+* **Abstraction and Interfaces** – Learn about abstraction in python
+  👉 [Learn more](/python/docs/oop-abstraction/)
 * **Protected Access Level** – Learn about Protected Access Level in python
   👉 [Learn more](../oop/protected.md)
