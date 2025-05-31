@@ -1,12 +1,314 @@
 course: python
 topics:
+  - topic: oop-encapsulation
+    questions:
+      - id: encap001
+        difficulty: easy
+        question: What is encapsulation in Python OOP?
+        options:
+          - "A way to hide internal implementation details and expose only necessary features"
+          - "A method to combine multiple functions into one"
+          - "A technique to make code run faster"
+          - "A way to remove unused variables"
+        answer: "A way to hide internal implementation details and expose only necessary features"
+        explanation: Encapsulation helps in restricting access to certain components and prevents unintended modifications.
+
+      - id: encap002
+        difficulty: easy
+        question: How do you make an attribute private in Python?
+        options:
+          - "By using the `private` keyword"
+          - "By prefixing the attribute name with a single underscore `_`"
+          - "By prefixing the attribute name with double underscores `__`"
+          - "By using the `hidden` keyword"
+        answer: "By prefixing the attribute name with double underscores `__`"
+        explanation: In Python, double underscores `__` make an attribute name-mangled, restricting direct access.
+
+      - id: encap003
+        difficulty: easy
+        question: What is the purpose of getter and setter methods in encapsulation?
+        options:
+          - "To directly modify private attributes"
+          - "To control access and modification of private attributes"
+          - "To delete unused variables"
+          - "To improve code execution speed"
+        answer: "To control access and modification of private attributes"
+        explanation: Getters and setters allow controlled access to private attributes, enabling validation or modification checks.
+
+      - id: encap004
+        difficulty: medium
+        question: Which of the following is true about name mangling in Python?
+        options:
+          - "It makes an attribute completely inaccessible"
+          - "It renames the attribute to `_ClassName__attribute`"
+          - "It deletes the attribute after use"
+          - "It is done using the `@mangle` decorator"
+        answer: "It renames the attribute to `_ClassName__attribute`"
+        explanation: Name mangling changes the attribute name to `_ClassName__attribute` to avoid accidental access.
+
+      - id: encap005
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class BankAccount:
+              def __init__(self):
+                  self.__balance = 100
+
+              def get_balance(self):
+                  return self.__balance
+
+          acc = BankAccount()
+          print(acc.__balance)
+        options:
+          - "100"
+          - "Error: AttributeError (private attribute access)"
+          - "None"
+          - "0"
+        answer: "Error: AttributeError (private attribute access)"
+        explanation: Double underscores make `__balance` private, so direct access outside the class raises an error.
+
+      - id: encap006
+        difficulty: easy
+        question: What is the correct way to access a private attribute from outside its class?
+        options:
+          - "By using the `public` keyword"
+          - "By calling `object._attribute`"
+          - "By using a getter method"
+          - "By using `object.__attribute`"
+        answer: "By using a getter method"
+        explanation: The safest way is to use a getter method (e.g., `get_balance()`) instead of direct access.
+
+      - id: encap007
+        difficulty: medium
+        question: Which keyword is used to define a read-only property in Python?
+        options:
+          - "`@readonly`"
+          - "`@property`"
+          - "`@getter`"
+          - "`@final`"
+        answer: "`@property`"
+        explanation: The `@property` decorator allows defining a method as a read-only attribute.
+
+      - id: encap008
+        difficulty: easy
+        question: What is the purpose of the single underscore `_` before a variable name?
+        options:
+          - "It makes the variable private"
+          - "It indicates that the variable is for internal use (convention)"
+          - "It makes the variable global"
+          - "It prevents the variable from being modified"
+        answer: "It indicates that the variable is for internal use (convention)."
+        explanation: A single underscore is a naming convention to suggest that a variable is for internal use (not enforced by Python). It should be accessed only within the class or its subclasses.
+
+      - id: encap009
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Student:
+              def __init__(self):
+                  self.__name = "Alice"
+          
+          s = Student()
+          print(s.__name)
+        options:
+          - "Alice"
+          - "None"
+          - "Error: AttributeError (private attribute access)"
+          - "'' (empty string)"
+        answer: "Error: AttributeError (private attribute access)"
+        explanation: Private attributes (prefixed with `__`) cannot be accessed directly outside the class.
+
+      - id: encap010
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Student:
+              def __init__(self):
+                  self.__name = "Alice"
+              
+              def get_name(self):
+                  return self.__name
+          
+          s = Student()
+          print(s.get_name())
+        options:
+          - "Alice"
+          - "Error: Method not defined"
+          - "None"
+          - "'' (empty string)"
+        answer: "Alice"
+        explanation: The `get_name()` method provides controlled access to the private `__name` attribute.
+
+      - id: encap011
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Temperature:
+              def __init__(self):
+                  self.__celsius = 30
+              
+              def get_fahrenheit(self):
+                  return (self.__celsius * 9/5) + 32
+          
+          t = Temperature()
+          print(t.get_fahrenheit())
+        options:
+          - "30"
+          - "86"
+          - "Error: AttributeError"
+          - "None"
+        answer: "86"
+        explanation: The private `__celsius` is used internally to compute Fahrenheit (30°C = 86°F).
+
+      - id: encap012
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Account:
+              def __init__(self):
+                  self.__balance = 0
+              
+              def deposit(self, amount):
+                  self.__balance += amount
+              
+              def withdraw(self, amount):
+                  if amount <= self.__balance:
+                      self.__balance -= amount
+                  else:
+                      print("Insufficient funds!")
+              
+              def get_balance(self):
+                  return self.__balance
+          
+          acc = Account()
+          acc.deposit(100)
+          acc.withdraw(30)
+          print(acc.get_balance())
+        options:
+          - "0"
+          - "70"
+          - "100"
+          - "Error"
+        answer: "70"
+        explanation: The private `__balance` is modified only via methods (`deposit()` and `withdraw()`).
+
+      - id: encap013
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Person:
+              def __init__(self):
+                  self.__age = 25
+              
+              @property
+              def age(self):
+                  return self.__age
+              
+              @age.setter
+              def age(self, value):
+                  if value > 0:
+                      self.__age = value
+                  else:
+                      print("Invalid age!")
+          
+          p = Person()
+          p.age = -5
+          print(p.age)
+        options:
+          - "-5"
+          - "25"
+          - "0"
+          - "Invalid age!"
+        answer: "25"
+        explanation: The setter rejects negative values, so `__age` remains unchanged (25).
+
+      - id: encap014
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Car:
+              def __init__(self):
+                  self.__speed = 0
+              
+              def accelerate(self):
+                  self.__speed += 10
+              
+              def brake(self):
+                  self.__speed = max(0, self.__speed - 10)
+              
+              def get_speed(self):
+                  return self.__speed
+          
+          c = Car()
+          c.accelerate()  # Typo in method name
+          print(c.get_speed())
+        options:
+          - "0"
+          - "10"
+          - "Error: AttributeError"
+          - "Error: Method not found"
+        answer: "Error: Method not found"
+        explanation: The typo `accelerate()` → `accelerate()` causes an `AttributeError`.
+
+      - id: encap015
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Secret:
+              def __init__(self):
+                  self.__key = "1234"
+              
+              def _get_key(self):
+                  return self.__key[::-1]  # Reversed
+          
+          s = Secret()
+          print(s._get_key())
+        options:
+          - "1234"
+          - "4321"
+          - "Error: Private method access"
+          - "None"
+        answer: "4321"
+        explanation: Single underscore `_get_key()` is
+
   - topic: oop-inheritance
     questions:
+      - id: inh001
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          class Animal:
+              def speak(self):
+                  print("Animal speaks")
+
+          class Dog(Animal):
+              pass
+
+          d = Dog()
+          d.speak()
+        options:
+          - Animal speaks
+          - Dog speaks
+          - "Error: **speak()** not defined"
+          - Nothing
+        answer: Animal speaks
+        explanation: Dog inherits the `speak()` method from Animal.
+
       - id: py-inh-002
         difficulty: medium
         question: |
           What is the output of the following Python code?
-
+        language: python
+        code: |
           class Parent:
               def greet(self):
                   print("Hello from Parent")
@@ -63,27 +365,6 @@ topics:
           - "class Parent(Child):"
         answer: "class Child(Parent):"
         explanation: In Python, a child class is defined using the syntax `class Child(Parent):`, where `Child` inherits from `Parent`.
-      - id: inh001
-        difficulty: easy
-        question: What is the output of the following code?
-        code: |
-          class Animal:
-              def speak(self):
-                  print("Animal speaks")
-
-          class Dog(Animal):
-              pass
-
-          d = Dog()
-          d.speak()
-        options:
-          - Animal speaks
-          - Dog speaks
-          - "Error: **speak()** not defined"
-          - Nothing
-        answer: Animal speaks
-        explanation: Dog inherits the `speak()` method from Animal.
-
       - id: inh002
         difficulty: easy
         question: What is the output of the following code?
@@ -262,6 +543,7 @@ topics:
           - None of the above
         answer: The ability of different classes to provide different implementations of the same method
         explanation: Polymorphism allows methods to be defined in multiple classes with different implementations.
+
       - id: py012
         difficulty: medium
         question: Which function is used to determine the type of an object in Python?
