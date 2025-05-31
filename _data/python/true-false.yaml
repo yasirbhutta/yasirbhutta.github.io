@@ -1,5 +1,56 @@
 course: python
 topics:
+
+  - topic: oop-polymorphism
+    questions:
+      - id: py-tf-001
+        difficulty: easy
+        prompt: In Python, polymorphism is only possible through inheritance.
+        answer: false
+        explanation: >
+          Polymorphism in Python can be achieved through both inheritance (method overriding) and duck typing (shared interfaces), not just inheritance.
+
+      - id: py-tf-002
+        difficulty: easy
+        prompt: Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+        answer: true
+        explanation: >
+          Polymorphism enables treating different class instances through a common interface, allowing for flexible and reusable code.
+
+      - id: py-tf-003
+        difficulty: easy
+        prompt: The built-in len() function in Python is an example of polymorphism.
+        answer: true
+        explanation: >
+          The len() function works with different types (strings, lists, tuples, etc.) because they all implement the __len__() method, demonstrating polymorphism.
+
+      - id: py-tf-004
+        difficulty: medium
+        prompt: Method overloading is a common way to achieve polymorphism in Python.
+        answer: false
+        explanation: >
+          Python doesn't support method overloading (multiple methods with same name but different parameters) in the traditional sense. Polymorphism is typically achieved through method overriding or duck typing.
+
+      - id: py-tf-005
+        difficulty: medium
+        prompt: Duck typing is a form of polymorphism where the suitability of an object is determined by the presence of certain methods and properties.
+        answer: true
+        explanation: >
+          Duck typing ("if it walks like a duck and quacks like a duck...") is a Pythonic approach to polymorphism that focuses on an object's behavior rather than its type.
+
+      - id: py-tf-006
+        difficulty: hard
+        prompt: Python's abstract base classes (ABCs) prevent polymorphism from occurring.
+        answer: false
+        explanation: >
+          ABCs actually facilitate polymorphism by enforcing a common interface that subclasses must implement, while still allowing different implementations.
+
+      - id: py-tf-007
+        difficulty: easy
+        prompt: The + operator in Python behaves differently with strings and numbers, demonstrating polymorphism.
+        answer: true
+        explanation: >
+          The + operator performs concatenation with strings and addition with numbers, showing operator overloading which is a form of polymorphism.
   - topic: oop-inheritance
     questions:
       - id: py-tf-001
