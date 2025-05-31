@@ -1,5 +1,166 @@
 course: python
 topics:
+  - topic: oop-encapsulation
+    questions:
+      - id: py-encap-001
+        difficulty: easy
+        prompt: "In Python, using a single underscore prefix (e.g., `_variable`) indicates a ________ variable by convention."
+        answer: "protected"
+        explanation: "A single underscore suggests the variable is for internal use, but Python doesn't enforce this restriction."
+
+      - id: py-encap-002
+        difficulty: easy
+        prompt: "Double underscore prefix (e.g., `__variable`) triggers name ________ in Python."
+        answer: "mangling"
+        explanation: "Name mangling changes the variable name to `_ClassName__variable` to avoid naming conflicts in subclasses."
+
+      - id: py-encap-003
+        difficulty: medium
+        prompt: "The `@property` decorator allows you to define a ________ method to control attribute access."
+        answer: "getter"
+        explanation: "The `@property` decorator creates a getter method that's called when accessing the attribute."
+
+      - id: py-encap-004
+        difficulty: medium
+        prompt: "To create a setter for a property named 'age', you would use the `@________.setter` decorator."
+        answer: "age"
+        explanation: "The setter decorator must match the property name (e.g., `@age.setter` for a property named 'age')."
+
+      - id: py-encap-005
+        difficulty: easy
+        prompt: "Encapsulation helps ________ the internal state of objects from direct external access."
+        answer: "protect"
+        explanation: "Encapsulation prevents direct access to an object's internal state, requiring controlled access through methods."
+
+      - id: py-encap-006
+        difficulty: medium
+        prompt: "The Python built-in function ________ can check if an object has a particular attribute."
+        answer: "hasattr()"
+        explanation: "`hasattr(obj, 'attribute')` returns True if the object has the specified attribute."
+
+      - id: py-encap-007
+        difficulty: hard
+        prompt: "To access a name-mangled variable `__var` from class `Person` outside the class, you would use `_Person________`."
+        answer: "__var"
+        explanation: "Name-mangled variables can be accessed externally using `_ClassName__variablename` format."
+
+      - id: py-encap-008
+        difficulty: easy
+        prompt: "A ________ method is used to modify the value of a private attribute with validation."
+        answer: "setter"
+        explanation: "Setter methods allow controlled modification of private attributes with validation logic."
+
+      - id: py-encap-009
+        difficulty: medium
+        prompt: "The ________ decorator allows you to define read-only properties in Python."
+        answer: "@property"
+        explanation: "Using `@property` without a setter creates a read-only attribute."
+
+      - id: py-encap-010
+        difficulty: hard
+        prompt: "Encapsulation is one of the four OOP principles, along with inheritance, polymorphism, and ________."
+        answer: "abstraction"
+        explanation: "The four main OOP principles are encapsulation, abstraction, inheritance, and polymorphism."
+  
+    examples:
+      - id: py-encap-ex-001
+        code: |
+          class BankAccount:
+              def __init__(self, balance):
+                  self._balance = balance
+
+              def get_balance(self):
+                  return self._balance
+        prompt: The underscore prefix in `_balance` indicates this is a ________ variable.
+        answer: protected
+        explanation: "A single underscore is a naming convention indicating protected (internal-use) members."
+
+      - id: py-encap-ex-002
+        code: |
+          class Temperature:
+              def __init__(self):
+                  self.__celsius = 0
+
+              @property
+              def celsius(self):
+                  return self.__celsius
+
+              @celsius.setter
+              def celsius(self, value):
+                  if value < -273.15:
+                      raise ValueError("Temperature too low")
+                  self.__celsius = value
+        prompt: The `@property` decorator allows ________ access to the private `__celsius` attribute.
+        answer: controlled
+        explanation: "Properties provide controlled access to private attributes with validation logic."
+
+      - id: py-encap-ex-003
+        code: |
+          class Student:
+              def __init__(self, name):
+                  self.__name = name
+
+              def get_name(self):
+                  return self.__name
+              
+              def set_name(self, new_name):
+                  if len(new_name) < 2:
+                      raise ValueError("Name too short")
+                  self.__name = new_name
+        prompt: This example demonstrates encapsulation by using ________ to access private attributes.
+        answer: getter/setter methods
+        explanation: "Getter/setter methods enforce validation while hiding implementation details."
+
+      - id: py-encap-ex-004
+        code: |
+          class SecretVault:
+              def __init__(self):
+                  self.__password = "12345"
+
+          vault = SecretVault()
+          # This will print the mangled name
+          print(dir(vault))
+        prompt: The double underscores in `__password` trigger name ________.
+        answer: mangling
+        explanation: "Name mangling changes the attribute name to `_SecretVault__password`."
+
+      - id: py-encap-ex-005
+        code: |
+          class Smartphone:
+              def __init__(self):
+                  self.__imei = "1234567890"
+              
+              @property
+              def imei(self):
+                  return "ACCESS DENIED"
+        prompt: This property makes the `imei` attribute ________.
+        answer: read-only
+        explanation: "By not providing a setter, the property becomes read-only."
+
+      - id: py-encap-ex-006
+        code: |
+          class Employee:
+              def __init__(self, salary):
+                  self._salary = salary
+
+              def _calculate_bonus(self):
+                  return self._salary * 0.1
+        prompt: Both the `_salary` attribute and `_calculate_bonus` method use the ________ convention.
+        answer: protected
+        explanation: "Single underscore prefix indicates protected members (internal API)."
+
+      - id: py-encap-ex-007
+        code: |
+          class GameCharacter:
+              def __init__(self):
+                  self.__health = 100
+              
+              def take_damage(self, amount):
+                  self.__health = max(0, self.__health - amount)
+        prompt: The `__health` attribute is ________ from direct external access.
+        answer: hidden
+        explanation: "Double underscore prefix makes it harder to access directly (name mangling)."
+
   - topic: classes
     questions:
       - id: py-co-001

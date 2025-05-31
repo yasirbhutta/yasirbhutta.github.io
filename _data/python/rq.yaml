@@ -1,5 +1,48 @@
 course: python
 topics:
+  - topic: oop-encapsulation
+    questions:
+      - id: py-encap-001
+        prompt: What is the main purpose of encapsulation in Python?
+        answer: To protect an object's internal state from direct external access and modification.
+        resources:
+          - name: Python Encapsulation
+            url: https://www.geeksforgeeks.org/encapsulation-in-python/
+
+      - id: py-encap-002
+        prompt: What does a single underscore prefix (e.g., `_variable`) indicate in Python?
+        answer: It indicates a protected variable that should only be accessed within the class or its subclasses (convention only).
+        resources:
+          - name: Python Naming Conventions
+            url: https://peps.python.org/pep-0008/#method-names-and-instance-variables
+
+      - id: py-encap-003
+        prompt: What is name mangling in Python?
+        answer: When Python changes a variable name (e.g., `__var` becomes `_ClassName__var`) to make it harder to access outside its class.
+        resources:
+          - name: Python Name Mangling
+            url: https://www.tutorialsteacher.com/python/name-mangling-in-python
+
+      - id: py-encap-004
+        prompt: What is the purpose of getter and setter methods?
+        answer: To control access to private attributes and add validation logic when getting/setting values.
+        resources:
+          - name: Python Getters and Setters
+            url: https://www.programiz.com/python-programming/property
+
+      - id: py-encap-005
+        prompt: What does the `@property` decorator do?
+        answer: It allows you to define methods that can be accessed like attributes while maintaining control over the access.
+        resources:
+          - name: Python @property
+            url: https://realpython.com/python-property/
+
+      - id: py-encap-006
+        prompt: How do you make a read-only property in Python?
+        answer: By using the `@property` decorator without defining a setter method.
+        resources:
+          - name: Python Read-Only Properties
+            url: https://www.pythontutorial.net/python-oop
   - topic: math-module
     questions:
       - id: py-math-001

@@ -1,6 +1,76 @@
 course: python
 topics:
+  - topic: oop-encapsulation
+    questions:
+      - id: py-tf-011
+        difficulty: easy
+        prompt: In Python, encapsulation is achieved only by using private variables (names starting with `__`).
+        answer: false
+        explanation: >
+          Encapsulation can also be achieved using protected variables (`_`) and getter/setter methods, not just strict private variables.
 
+      - id: py-tf-012
+        difficulty: easy
+        prompt: A class attribute marked with a single underscore (e.g., `_variable`) is treated as private and cannot be accessed outside the class.
+        answer: false
+        explanation: >
+          A single underscore is a convention for "protected" members, but Python does not enforce access restrictions—it’s still accessible.
+
+      - id: py-tf-013
+        difficulty: medium
+        prompt: Name mangling (e.g., `__variable`) in Python makes an attribute completely inaccessible from outside the class.
+        answer: false
+        explanation: >
+          Name mangling (`__var`) makes it harder to access, but it can still be accessed using `_ClassName__var`.
+
+      - id: py-tf-014
+        difficulty: medium
+        prompt: Getter and setter methods are necessary in Python to enforce encapsulation.
+        answer: false
+        explanation: >
+          Python properties (`@property`) can be used to control access without explicit getter/setter methods.
+
+      - id: py-tf-015
+        difficulty: easy
+        prompt: Encapsulation helps prevent accidental modification of internal class data.
+        answer: true
+        explanation: >
+          Encapsulation restricts direct access to data, reducing unintended changes.
+
+      - id: py-tf-016
+        difficulty: easy
+        prompt: In Python, all attributes are public by default unless explicitly marked private.
+        answer: true
+        explanation: >
+          Python does not enforce strict private members; privacy is convention-based (`_` and `__`).
+
+      - id: py-tf-017
+        difficulty: medium
+        prompt: A class that exposes all its attributes directly (without getters/setters) violates encapsulation.
+        answer: true
+        explanation: >
+          Encapsulation is about controlling access to data, and exposing all attributes breaks this principle.
+
+      - id: py-tf-018
+        difficulty: medium
+        prompt: The `@property` decorator in Python helps maintain encapsulation by allowing controlled attribute access.
+        answer: true
+        explanation: >
+          `@property` lets you add logic when getting/setting attributes while keeping the interface clean.
+
+      - id: py-tf-019
+        difficulty: hard
+        prompt: A subclass cannot access the private attributes (with `__`) of its parent class.
+        answer: true
+        explanation: >
+          Due to name mangling, a subclass cannot directly access `__var` from a parent, but it can via `_ParentClass__var`.
+
+      - id: py-tf-020
+        difficulty: easy
+        prompt: Encapsulation is only useful for security purposes.
+        answer: false
+        explanation: >
+          Encapsulation also improves maintainability, reduces bugs, and helps in modular design—not just security.
   - topic: oop-polymorphism
     questions:
       - id: py-tf-001
@@ -90,7 +160,6 @@ topics:
     resources:
     - name: Learn Inheritance in Python
       url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
-
   - topic: strings
     questions:
       - id: py-tf-001
@@ -236,7 +305,6 @@ topics:
     resources:
     - name: Learn String Methods & Formatting
       url: https://yasirbhutta.github.io/python/docs/strings.html
-
   - topic: lambda
     questions:
       - id: py-tf-001
