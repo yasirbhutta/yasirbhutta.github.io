@@ -206,4 +206,5 @@ header {
 ul.no-bullets {
   list-style-type: none;
   padding-left: 0;
+  margin-left: 20px;
 }
