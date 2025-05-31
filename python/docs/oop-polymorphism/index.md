@@ -5,7 +5,7 @@ description: Learn polymorphism in Python OOP with practical examples. Understan
 keywords: Python polymorphism, polymorphism in OOP, method overriding Python, duck typing Python, operator overloading Python, Python OOP concepts, polymorphism examples, Python inheritance vs polymorphism, dynamic polymorphism Python, Python method overloading
 author: Muhammad Yasir Bhutta
 course: python
-topic: polymorphism
+topic: oop-polymorphism
 toc: toc/python.html
 prev: /python/docs/oop-inheritance/
 next: /python/docs/oop-encapsulation/
