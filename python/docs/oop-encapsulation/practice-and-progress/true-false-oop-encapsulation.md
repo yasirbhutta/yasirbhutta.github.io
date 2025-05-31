@@ -6,8 +6,8 @@ keywords: Python encapsulation, OOP in Python, True or False questions, Python q
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/
+next: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
 ---
 
 {% assign topic = "oop-encapsulation" %}

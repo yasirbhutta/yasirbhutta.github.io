@@ -7,7 +7,7 @@ author: Muhammad Yasir Bhutta
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/true-false-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
 next: /python/docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.html
 ---
 

@@ -6,8 +6,8 @@ keywords: python encapsulation, oop exercises python, python encapsulation pract
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.html
+next: /python/docs/oop-encapsulation/practice-and-progress/mini-projects-oop-encapsulation.html
 ---
 
 {% assign topic = "oop-encapsulation" %}

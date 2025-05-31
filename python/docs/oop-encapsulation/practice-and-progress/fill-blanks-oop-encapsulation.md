@@ -6,7 +6,7 @@ keywords: python encapsulation, fill in the blanks python quiz, python oop pract
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/practice-and-progress/true-false-oop-encapsulation.html
 next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
 ---
 

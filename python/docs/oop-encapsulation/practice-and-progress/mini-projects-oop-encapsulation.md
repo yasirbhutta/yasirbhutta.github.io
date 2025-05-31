@@ -6,8 +6,8 @@ keywords: python encapsulation, mini projects python, oop mini projects, python 
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/practice-and-progress/exercises-oop-encapsulation.html
+next: /python/docs/oop-encapsulation/practice-and-progress/review-questions-oop-encapsulation.html
 ---
 
 ### **Project: Bank Account Manager with Encapsulation**  

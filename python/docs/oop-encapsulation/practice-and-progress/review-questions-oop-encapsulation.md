@@ -6,8 +6,8 @@ keywords: python encapsulation, review questions python, oop review questions, p
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+prev: /python/docs/oop-encapsulation/practice-and-progress/mini-projects-oop-encapsulation.html
+next: /python/docs/oop-abstraction/
 ---
 
 {% assign topic = "oop-encapsulation" %}
