@@ -1,8 +1,8 @@
 ---
 layout: page
-title:  encapsulation in Python - True or False Questions with Answers
+title:  Encapsulation in Python – True or False Questions with Answers
 description: Test your understanding of Object-Oriented Programming (OOP) in Python with these carefully crafted True or False questions on encapsulation. Great for beginners and intermediate learners to reinforce OOP concepts.
-keywords: Python encapsulation quiz, True or false questions on Python encapsulation, Python OOP encapsulation practice, Object oriented programming in Python, Python encapsulation MCQs, Learn Python encapsulation, Python class and object quiz, Python OOP interview questions, Python coding practice questions, encapsulation concepts in Python
+keywords: Python encapsulation, OOP in Python, True or False questions, Python quiz, encapsulation practice, object-oriented programming, Python classes, Python properties, name mangling, getter setter Python, learn with yasir, yasirbhutta, python tutorials for beginners
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"

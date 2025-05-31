@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "🧠 Mini Project: Bank Account Manager with Encapsulation"
-description: "Reinforce your Python OOP encapsulation knowledge with review questions designed to test your grasp of single, multiple, and multilevel encapsulation. Ideal for students and beginners."
-keywords: Python OOP review questions, Python encapsulation quiz, object-oriented programming questions, Python class encapsulation test, OOP MCQs Python, Python encapsulation assessment, beginner Python OOP questions, review Python OOP concepts
+title: "🧠 Mini Projects on Python Encapsulation – Apply OOP Concepts in Real Code"
+description: "Explore hands-on mini projects focused on encapsulation in Python. Apply object-oriented programming concepts like private attributes, access modifiers, and method control through practical coding challenges and real-world examples."
+keywords: python encapsulation, mini projects python, oop mini projects, python project-based learning, python encapsulation practice, object-oriented programming, python private variables, python access modifiers, python classes, python coding projects, python oop challenges, yasirbhutta
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
@@ -10,7 +10,7 @@ prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encap
 next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
 ---
 
-### ****  
+### **Project: Bank Account Manager with Encapsulation**  
 **Objective**: Create a `BankAccount` class that properly encapsulates all account details and provides controlled access through methods.
 
 #### **Features to Implement**:

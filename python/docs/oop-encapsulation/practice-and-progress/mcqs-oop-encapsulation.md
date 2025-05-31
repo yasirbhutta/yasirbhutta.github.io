@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Multiple Choice Questions (MCQs) on encapsulation in Python – OOP Practice
-description: Boost your Python skills with these MCQs on Object-Oriented Programming and encapsulation. Ideal for beginners, students, and job seekers to test and strengthen their understanding of Python OOP concepts.
-keywords: Python encapsulation MCQs, OOP MCQ Python, multiple choice questions Python encapsulation, Python class and object quiz, object oriented programming Python MCQs, Python OOP practice test, Python encapsulation quiz questions, Python interview questions OOP, Python MCQ with answers, encapsulation concepts in Python
+title: Python Encapsulation MCQs – Test Your OOP Knowledge
+description: Challenge your understanding of Python's Object-Oriented Programming with these multiple-choice questions on encapsulation. Ideal for beginners, students, and job seekers to reinforce key OOP concepts.
+keywords: python encapsulation, oop in python, python mcqs, encapsulation quiz, python multiple choice questions, learn with yasir, yasirbhutta, python classes, python access modifiers, python getter setter, python name mangling, python oop practice, python encapsulation tutorial
 author: Muhammad Yasir Bhutta
 toc: toc/python.html
 topic: "oop-encapsulation"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Fill in the Blanks – Python encapsulation Practice Questions
-description: Sharpen your understanding of Object-Oriented Programming with these fill-in-the-blank exercises on Python encapsulation. Perfect for students, beginners, and interview prep to reinforce key OOP concepts in Python.
-keywords: Python encapsulation fill in the blanks, OOP in Python exercises, Python class and object practice, fill in the blanks Python OOP, object oriented programming Python questions, encapsulation in Python quiz, Python programming MCQs, Python OOP practice problems, Python encapsulation worksheet, learn Python encapsulation concepts
+title: Python Encapsulation Fill-in-the-Blanks Quiz – Practice OOP Concepts
+description: Enhance your Python OOP skills with this fill-in-the-blanks quiz on encapsulation. Ideal for students, beginners, and those preparing for interviews. Learn with Yasir Bhutta and reinforce your understanding of access modifiers, getter/setter methods, and more.
+keywords: python encapsulation, fill in the blanks python quiz, python oop practice, learn with yasir, yasirbhutta, python getter setter, python access modifiers, python name mangling, python classes, python encapsulation quiz, python oop exercises, python encapsulation tutorial, python interview preparation
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"

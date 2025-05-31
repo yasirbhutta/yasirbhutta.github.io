@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Review Questions on Python OOP encapsulation – Test Your Understanding"
-description: "Reinforce your Python OOP encapsulation knowledge with review questions designed to test your grasp of single, multiple, and multilevel encapsulation. Ideal for students and beginners."
-keywords: Python OOP review questions, Python encapsulation quiz, object-oriented programming questions, Python class encapsulation test, OOP MCQs Python, Python encapsulation assessment, beginner Python OOP questions, review Python OOP concepts
+title: "Review Questions on Python Encapsulation – Test Your OOP Understanding"
+description: "Reinforce your understanding of encapsulation in Python with these structured review questions. Ideal for students and self-learners to assess their grasp of object-oriented concepts like access control, private variables, and class design."
+keywords: python encapsulation, review questions python, oop review questions, python encapsulation quiz, python oop practice, object-oriented programming, python private attributes, python access modifiers, python classes, python exam preparation, yasirbhutta
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"

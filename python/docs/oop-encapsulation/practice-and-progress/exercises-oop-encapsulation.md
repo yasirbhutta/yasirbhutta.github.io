@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python OOP encapsulation Coding Exercises for Beginners"
-meta_description: "Practice Python OOP encapsulation with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical encapsulation to strengthen your object-oriented programming skills."
-keywords: Python OOP exercises, Python encapsulation practice, OOP coding problems, Python class encapsulation exercises, Python beginner OOP tasks, multiple encapsulation Python examples, object-oriented programming challenges, Python coding practice
+title: "Python Encapsulation Exercises – Practice Object-Oriented Programming (OOP)"
+meta_description: "Practice and improve your understanding of encapsulation in Python with hands-on OOP exercises. These coding tasks cover real-world scenarios involving private variables, access control, getter/setter methods, and class design."
+keywords: python encapsulation, oop exercises python, python encapsulation practice, object-oriented programming, python private variables, python classes, python access modifiers, python getter setter, python properties, python coding exercises, python oop examples, yasirbhutta
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
