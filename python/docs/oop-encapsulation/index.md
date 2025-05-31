@@ -1,31 +1,175 @@
 ---
 layout: page
-title: Python- Facebook Graph API
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: "Encapsulation in Python OOP: A Beginner's Guide"  
+description: "Learn Python OOP encapsulation with Beginner's examples! Understand parent & child classes, method overriding, `super()`, and multilevel encapsulation."
+keywords: Python encapsulation tutorial, Python OOP encapsulation, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel encapsulation Python, Python OOP basics, Python programming for beginners, Python class encapsulation examples
 toc: toc/python.html
+topic: "oop-encapsulation"
+course: "python"
+prev: /python/docs/classes.html
+next: /python/docs/oop-polymorphism/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP in Python
+    url: /python/docs/oop/
 ---
-5. Encapsulation
 
-Encapsulation is the concept of hiding the internal details of a class and providing methods to interact with the data. This is often achieved using private and public attributes.
+## Table of Contents
 
-Attributes that start with an underscore (e.g., _age) are conventionally considered private.
+- What is Encapsulation?
+- Why Use Encapsulation?
+- Example 1: Basic Encapsulation
+- Access Levels in Python
+- Example 2: Real-World Usage - Temperature Converter
+- ## Summary
+- Tasks
+
+**Encapsulation** is one of the core concepts of **Object-Oriented Programming (OOP)**. It simply means **hiding the internal details of an object and only showing necessary parts to the outside world.** This helps keep data safe and makes code easier to maintain.
+
+## 🧠 What is Encapsulation?
+
+> **Encapsulation** is the practice of **binding data (variables)** and **methods (functions)** that operate on the data into a single unit (a class), and **restricting direct access** to some of the object's components.
+
+## 🔧 Why Use Encapsulation?
+
+* To **protect data** from unwanted changes
+* To **control access** using getters and setters
+* To make your code **modular, reusable, and easy to debug**
+
+---
+
+## 📦 Example in Real Life:
+
+Imagine a **bank ATM machine**.
+
+* You insert a card and enter a PIN to withdraw money.
+* You **can’t see** the inner workings of the machine.
+* You **interact only with buttons and screen** (public interface).
+
+🔁 This is encapsulation: hiding the complex internal logic and only exposing the necessary parts.
+
+---
+
+## Example 1: Basic Encapsulation
+
+```python
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.__balance = balance  # private attribute
+
+    # Getter method
+    def get_balance(self):
+        return self.__balance
+
+    # Setter method with validation
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+
+    def withdraw(self, amount):
+        if 0 < amount <= self.__balance:
+            self.__balance -= amount
+        else:
+            print("Insufficient balance or invalid amount")
+
+# Using the class
+account = BankAccount("Alice", 1000)
+
+# Try to access private attribute directly (won't work as intended)
+# print(account.__balance)  # ❌ AttributeError
+
+# Can't access __balance directly
+print(account.get_balance())  # ✅ 1000
 
 
-Example:
+account.deposit(500)
+print(account.get_balance())  # ✅ 1500
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self._age = age  # _age is considered private
+account.withdraw(2000)  # ❌ Insufficient balance
+```
 
-    def get_age(self):
-        return self._age
+---
 
-    def set_age(self, age):
-        if age > 0:
-            self._age = age
+### 🧱 How It Works:
 
-person = Person("Alice", 30)
-person.set_age(35)
-print(person.get_age())  # Output: 35
+* `__balance` is a **private variable** (name mangling in Python makes it hard to access directly).
+* You access it **only through methods** like `get_balance()`, `deposit()`, and `withdraw()`.
+
+---
+
+## 🔐 Access Levels in Python:
+
+Python doesn’t have strict private/public keywords, but we use **naming conventions**:
+
+| Type      | Syntax      | Access                  |
+| --------- | ----------- | ----------------------- |
+| Public    | `self.name` | Accessible everywhere   |
+| [Protected](../oop/protected.md) | `_name`     | Suggests limited access |
+| Private   | `__name`    | Not directly accessible |
+
+**See also:**
+- [What Does Protected Access Level Mean in Python?](../oop/protected.md)
+  
+---
+
+## Example 2: Real-World Usage - Temperature Converter
+
+```python
+class TemperatureConverter:
+    def __init__(self):
+        self.__celsius = 0  # private attribute
+    
+    def set_celsius(self, temp):
+        if temp < -273.15:  # Absolute zero check
+            print("Temperature below absolute zero is not possible")
+        else:
+            self.__celsius = temp
+    
+    def get_celsius(self):
+        return self.__celsius
+    
+    def get_fahrenheit(self):
+        return (self.__celsius * 9/5) + 32
+    
+    def get_kelvin(self):
+        return self.__celsius + 273.15
+
+# Usage
+thermo = TemperatureConverter()
+thermo.set_celsius(25)
+
+print(f"Celsius: {thermo.get_celsius()}")      # 25
+print(f"Fahrenheit: {thermo.get_fahrenheit()}")  # 77.0
+print(f"Kelvin: {thermo.get_kelvin()}")       # 298.15
+
+# Invalid temperature is prevented
+thermo.set_celsius(-300)  # Shows warning message
+```
+
+## 🎯 Real-World Usage Benefits
+
+1. **Banking Systems**: Protect account balances while allowing deposits/withdrawals
+2. **User Authentication**: Hide password storage details while providing login methods
+3. **Game Development**: Control character attributes like health points
+4. **E-commerce**: Manage product inventory with validation rules
+
+---
+
+## ✅ Tips
+
+- Remember, in Python, encapsulation is more about convention than **enforcement**. The single and double underscore prefixes are signals to other programmers about how attributes should be used, not strict access controls.
+                               
+### ✅ Summary
+
+* Encapsulation is about **hiding internal data** and exposing only what’s needed.
+* Use **methods** to control access to internal data.
+* It helps keep your code **clean, secure, and maintainable**.
+
+## 📘 **Related Topics**
+
+* **Protected Access Level** – Learn about Protected Access Level in python
+  👉 [Learn more](../oop/protected.md)

@@ -13,6 +13,7 @@ breadcrumb:
   - title: Home
     url: /
   - title: Python
+    url: /python/
 ---
 
 ## Contents
@@ -42,8 +43,8 @@ breadcrumb:
 
 #### [2.1 Inheritance](../oop-inheritance/)
 #### [2.2 Polymorphism](../oop-polymorphism/)
-#### 2.3 Encapsulation
-#### 2.4 Abstraction and Interfaces
+#### [2.3 Encapsulation](../oop-encapsulation/)
+#### [2.4 Abstraction and Interfaces](../oop-abstraction/)
 
 ### 3. Advanced Topics
 
