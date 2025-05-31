@@ -202,3 +202,8 @@ header {
   pointer-events: none;
   cursor: default;
 }
+
+ul.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}

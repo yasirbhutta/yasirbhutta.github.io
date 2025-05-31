@@ -15,7 +15,7 @@
 <pre class="line-numbers"><code class="language-{{ q.language }}">{{ q.code | escape }}</code></pre>
 {% endif %}
 
-<ul>
+<ul class="no-bullets">
   {% assign labels_list = "A,B,C,D,E,F" | split: "," %}
   {% for option in q.options %}
     <li>
