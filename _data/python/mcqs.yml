@@ -543,7 +543,6 @@ topics:
           - None of the above
         answer: The ability of different classes to provide different implementations of the same method
         explanation: Polymorphism allows methods to be defined in multiple classes with different implementations.
-
       - id: py012
         difficulty: medium
         question: Which function is used to determine the type of an object in Python?
