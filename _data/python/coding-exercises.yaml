@@ -31,7 +31,7 @@ topics:
           Nice
         resource:
           name: "View Solution"
-          url: "https://yasirbhutta.github.io/python/docs/loops-while/practice-and-progress/py-ce-wl-001.html"
+          url: "https://yasirbhutta.github.io/python/docs/loops-while/solutions/py-ce-wl-001.html"
         difficulty: "easy"
 
   - topic: oop-encapsulation

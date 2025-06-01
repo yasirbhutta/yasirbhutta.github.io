@@ -1,22 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: Python Encapsulation MCQs – Test Your OOP Knowledge
+description: Challenge your understanding of Python's Object-Oriented Programming with these multiple-choice questions on encapsulation. Ideal for beginners, students, and job seekers to reinforce key OOP concepts.
+keywords: python encapsulation, oop in python, python mcqs, encapsulation quiz, python multiple choice questions, learn with yasir, yasirbhutta, python classes, python access modifiers, python getter setter, python name mangling, python oop practice, python encapsulation tutorial
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+toc: toc/python.html
+topic: "oop-encapsulation"
+course: "python"
+prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
+next: /python/docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.html
 ---
+
+{% assign topic_name = "oop-encapsulation" %}
+{% assign topics = site.data.python.mcqs.topics %}
+{% assign selected_topic = topics | where: "topic", topic_name | first %}
+{% assign mcqs = selected_topic.questions %}
+{% assign resources = selected_topic.resources %}
+{% include pap/mcqs-loop.html mcqs=mcqs resources=resources %}

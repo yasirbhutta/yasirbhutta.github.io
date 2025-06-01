@@ -1,22 +1,19 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+title: Fix & Find Mistakes in Python Encapsulation – OOP Debugging Practice
+description: Sharpen your Python OOP skills by identifying and correcting common encapsulation mistakes. This hands-on debugging exercise covers beginner to advanced scenarios, helping you master access modifiers, properties, and data protection in real-world code.
+keywords: python encapsulation, oop debugging practice, fix and find mistakes python, yasirbhutta, python access modifiers, python properties, python data protection, python classes, python encapsulation errors, python oop exercises, python encapsulation tutorial
+author: Muhammad Yasir Bhutta.
+toc: toc/python.html
+topic: "oop-encapsulation"
+course: "python"
+prev: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+next: /python/docs/oop-encapsulation/practice-and-progress/exercises-oop-encapsulation.html
 ---
+
+{% assign topic_name = "oop-encapsulation" %}
+{% assign topics = site.data.python.find-and-fix.topics %}
+{% assign selected_topic = topics | where: "topic", topic_name | first %}
+{% assign questions = selected_topic.questions %}
+{% assign resources = selected_topic.resources %}
+{% include pap/find-and-fix-loop.html questions=questions resources=resources %}

@@ -21,7 +21,7 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
-#### Task #14: Number Guessing Game
+## Mini Project: Number Guessing Game
 
 **Instructions:**
 - Write a Python program where the computer picks a random number between 1 and 10, and the user has to guess it.

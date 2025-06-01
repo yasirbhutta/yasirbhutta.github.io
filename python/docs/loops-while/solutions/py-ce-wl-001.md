@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python While Loops: Syntax, Examples & Best Practices"
-description: Learn how to use Python while loops with clear examples, syntax rules, and best practices.
-keywords: Python while loop, while loop syntax Python, Python loops tutorial, while loop examples, break and continue Python, Python loop control, while else Python, Python programming loops
+title: "Python While Loop Exercise - Age and Input Validation | Code Example"
+description: "Step-by-step solution for Python while loop exercise age and input validation. Learn how to solve this problem efficiently with clear explanations and example code. Perfect for beginners!"
+keywords: Python while loop solution, Python exercise py-ce-wl-001, while loop code example, Python programming solution, learn Python loops, while loop problem answer, Python practice exercises solved
 author: Muhammad Yasir Bhutta
 course: python
 topic: loops-while
