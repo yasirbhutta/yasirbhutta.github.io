@@ -12,7 +12,7 @@
     {% for ex in include.exercises %}
       {% if ex.difficulty == level %}
         <li><strong>{{ ex.title | escape  }}</strong></li>
-        <p>{{ ex.task }}</p>
+        <pre>{{ ex.task }}</pre>
 
         <h4>Requirements</h4>
         {% if ex.requirements %}

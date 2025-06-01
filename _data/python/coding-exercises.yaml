@@ -10,12 +10,12 @@ topics:
           2. Gets user's name
           3. Validates exercise preference (only accepts Y/N)
           4. Prints all collected information
-        requirements: |
+        requirements:
           - Use `while True` loops for input validation
-          - For age: reject non-numeric and non-positive values
-          - For exercise preference: accept only Y or N (case insensitive)
-          - Display formatted output with name and age
-          - Handle all edge cases (empty input, wrong types, etc.)
+          - "For age: reject non-numeric and non-positive values"
+          - "For exercise preference: accept only Y or N (case insensitive)"
+          - "Display formatted output with name and age"
+          - "Handle all edge cases (empty input, wrong types, etc.)"
         input: |
           (Program should handle console input interactively)
           Example test sequence:
