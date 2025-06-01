@@ -32,7 +32,7 @@ Here, condition is a boolean expression that is evaluated before each iteration 
 
 [video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
-#### Example #5.18: Print numbers from 1 to 10 using while loop
+## Example 1: Print numbers from 1 to 10 using while loop
 
 Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
@@ -43,7 +43,7 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     count += 1  # Add 1 to the count for the next round
 ```
 
-#### Example #5.19: Print "Hello, world!" 5 times using while loop
+## Example 2: Print "Hello, world!" 5 times using while loop
 
 Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
 
@@ -54,7 +54,7 @@ while i <= 10:
     i += 1
 ```
 
-#### Task #5.12: Display Multiplication Tables**
+## Task 1: Display Multiplication Tables**
 
 **Description:**
 
@@ -97,7 +97,7 @@ Enter a number: 5
 **Requirements:**
 - Use a `while` loop to generate and display the multiplication table.
 
-#### Task #5.13: Sum Integers from 1 to 100 Using While Loop
+## Task 2: Sum Integers from 1 to 100 Using While Loop
 
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
@@ -120,7 +120,7 @@ This code uses a `while` loop to iterate through the integers from 1 to 100.
 In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
 After the loop completes, the total sum is printed.
 
-#### Example #5.20: Sum of even numbers from 2 to 20 using while loop
+## Example : Sum of even numbers from 2 to 20 using while loop
 
 Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
