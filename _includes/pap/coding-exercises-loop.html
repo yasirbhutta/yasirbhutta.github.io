@@ -34,22 +34,19 @@
         {% endif %}
 
         {% if ex.input != "" %}
-        <details>
-          <summary>Input</summary>
+          <h4>Input</h4>
           <pre><code>{{ ex.input | escape }}</code></pre>
-        </details>
         {% endif %}
-        <details>
-          <summary>Expected Output</summary>
-          <pre><code>{{ ex.output | escape }}</code></pre>
-        </details>
 
+        <h4>Expected Output</h4>
+        <pre><code>{{ ex.output | escape }}</code></pre>
         {% if ex.resource %}
           <p>📚 <a href="{{ ex.resource.url }}">{{ ex.resource.name }}</a></p>
         {% endif %}
 
         <hr>
       {% endif %}
+    <hr>
     {% endfor %}
   </ol>
 {% endfor %}

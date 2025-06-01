@@ -30,8 +30,8 @@ topics:
 
           Nice
         resource:
-          name: "Python Input Validation"
-          url: "https://example.com/python-input-validation"
+          name: "View Solution"
+          url: "https://yasirbhutta.github.io/python/docs/loops-while/practice-and-progress/py-ce-wl-001.html"
         difficulty: "easy"
 
   - topic: oop-encapsulation

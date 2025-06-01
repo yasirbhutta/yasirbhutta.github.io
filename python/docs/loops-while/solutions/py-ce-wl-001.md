@@ -19,7 +19,7 @@ breadcrumb:
     url: /python/docs/control-flow/
 ---
 
-[Click here to view problem statement](#)
+[Click here to view problem statement](https://yasirbhutta.github.io/python/docs/loops-while/practice-and-progress/exercises-loops-while.html)
 
 ## Solution
 
@@ -42,7 +42,7 @@ print(f"Your name is {name} and you are {age} years old.")
 print()
 
 exercise = input("Do you like to exercise? (Y/N) only: ").strip().upper()
-while exercise == "Y":
+while exercise != "N":
     print("Choose either Yes (Y) or No (N) only!")
     exercise = input("Do you like to exercise? (Y/N): ").strip().upper()
 
@@ -133,3 +133,7 @@ print("Nice")
 
 ---
 
+## 📘 **Related Topics**
+
+* **Python While Loops: Syntax, Examples & Best Practices** – Learn how to use Python while loops with clear examples, syntax rules, and best practices.
+  👉 [Learn more](https://yasirbhutta.github.io/python/docs/loops-while/)

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Python OOP Inheritance Coding Exercises for Beginners"
-meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
-keywords: Python OOP exercises, Python inheritance practice, OOP coding problems, Python class inheritance exercises, Python beginner OOP tasks, multiple inheritance Python examples, object-oriented programming challenges, Python coding practice
+title: "Python While Loop Exercises - Practice Problems & Solutions"
+meta_description: "Master Python while loops with hands-on exercises! Practice solving problems with while loops, improve your coding skills, and check your solutions. Perfect for beginners and intermediate learners."
+keywords: Python while loop exercises, Python while loop practice, while loop problems in Python, Python loops examples, Python coding exercises, learn Python while loops, Python programming practice, while loop solutions
 toc: toc/python.html
-topic: "oop-inheritance"
+topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
-next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
+prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-loops-while.html
+next: /python/docs/oop-inheritance/practice-and-progress/mcqs-loops-while.html
 breadcrumb:
   - title: Home
     url: /
