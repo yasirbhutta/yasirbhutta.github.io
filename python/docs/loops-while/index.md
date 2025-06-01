@@ -1,10 +1,23 @@
 ---
-layout: default
-title: Python While Loop - Beginner Tutorial with Code Examples
-description: Learn Python while loops easily! This beginner-friendly tutorial provides clear explanations and practical code examples to help you master loop control in Python.
+layout: page
+title: "Python While Loops: Syntax, Examples & Best Practices"
+description: Learn how to use Python while loops with clear examples, syntax rules, and best practices.
+keywords: Python while loop, while loop syntax Python, Python loops tutorial, while loop examples, break and continue Python, Python loop control, while else Python, Python programming loops
+author: Muhammad Yasir Bhutta
+course: python
+topic: loops-while
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: true
+prev: /python/docs/loops-for/
+next: /python/docs/loop-control-statements/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Control Flow
+    url: /python/docs/control-flow/
 ---
-
-# 5.3.2 Python While Loop: Your Beginner-Friendly Step-by-Step Guide
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
@@ -197,47 +210,6 @@ Enter another number (negative number to stop): -1
 The sum of all numbers is: 35
 ```
 
-#### Task #14: Number Guessing Game
-
-**Instructions:**
-- Write a Python program where the computer picks a random number between 1 and 10, and the user has to guess it.
-- The program should continue asking the user for a guess until they guess the correct number.
-- After each incorrect guess, the program should give a hint whether the guess is too low or too high.
-
-**Example Code:**
-
-```python
-import random
-
-# Step 1: Computer picks a random number between 1 and 10
-secret_number = random.randint(1, 10)
-
-# Step 2: Initialize the guess variable to None
-guess = None
-
-# Step 3: Use a while loop to keep asking the user for input
-
-# write your code here
-
-```
-
-**Sample Input and Output:**
-
-```
-Guess a number between 1 and 10: 4
-Too low! Try again.
-Guess a number between 1 and 10: 9
-Too high! Try again.
-Guess a number between 1 and 10: 7
-Too low! Try again.
-Guess a number between 1 and 10: 8
-Congratulations! You guessed the correct number.
-```
-
-This sample demonstrates:
-- How the user is prompted repeatedly.
-- Feedback on whether their guess is too low or too high.
-- A congratulatory message when the correct guess is made.
 - 
 #### Example #24: Infinite Loop Printing Messages with Counter
 
