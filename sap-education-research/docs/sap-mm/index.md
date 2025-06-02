@@ -96,4 +96,6 @@ SAP MM helps universities, colleges, and research institutes:
 ## 📘 **Related Topics**
 
 * **Understanding the Difference Between Material, Equipment, and Asset in SAP** – Learn the key differences between Material, Equipment, and Asset in SAP.
-  👉 [Learn more](material-equipment-assets.md)
+👉 [Learn more](material-equipment-assets.md)
+* **SAP Material Types Explained: ROH, HALB, FERT, NLAG & More for Effective Inventory Control**
+👉 [Learn more](material-types.md)
