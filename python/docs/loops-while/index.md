@@ -1,10 +1,23 @@
 ---
-layout: default
-title: Python While Loop - Beginner Tutorial with Code Examples
-description: Learn Python while loops easily! This beginner-friendly tutorial provides clear explanations and practical code examples to help you master loop control in Python.
+layout: page
+title: "Python While Loops: Syntax, Examples & Best Practices"
+description: Learn how to use Python while loops with clear examples, syntax rules, and best practices.
+keywords: Python while loop, while loop syntax Python, Python loops tutorial, while loop examples, break and continue Python, Python loop control, while else Python, Python programming loops
+author: Muhammad Yasir Bhutta
+course: python
+topic: loops-while
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: true
+prev: /python/docs/loops-for/
+next: /python/docs/loop-control-statements/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Control Flow
+    url: /python/docs/control-flow/
 ---
-
-# 5.3.2 Python While Loop: Your Beginner-Friendly Step-by-Step Guide
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
@@ -19,7 +32,7 @@ Here, condition is a boolean expression that is evaluated before each iteration 
 
 [video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
-#### Example #5.18: Print numbers from 1 to 10 using while loop
+## Example 1: Print numbers from 1 to 10 using while loop
 
 Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
@@ -30,7 +43,7 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     count += 1  # Add 1 to the count for the next round
 ```
 
-#### Example #5.19: Print "Hello, world!" 5 times using while loop
+## Example 2: Print "Hello, world!" 5 times using while loop
 
 Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
 
@@ -41,7 +54,7 @@ while i <= 10:
     i += 1
 ```
 
-#### Task #5.12: Display Multiplication Tables**
+## Task 1: Display Multiplication Tables**
 
 **Description:**
 
@@ -84,7 +97,7 @@ Enter a number: 5
 **Requirements:**
 - Use a `while` loop to generate and display the multiplication table.
 
-#### Task #5.13: Sum Integers from 1 to 100 Using While Loop
+## Task 2: Sum Integers from 1 to 100 Using While Loop
 
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
@@ -107,7 +120,7 @@ This code uses a `while` loop to iterate through the integers from 1 to 100.
 In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
 After the loop completes, the total sum is printed.
 
-#### Example #5.20: Sum of even numbers from 2 to 20 using while loop
+## Example : Sum of even numbers from 2 to 20 using while loop
 
 Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
 
@@ -197,47 +210,6 @@ Enter another number (negative number to stop): -1
 The sum of all numbers is: 35
 ```
 
-#### Task #14: Number Guessing Game
-
-**Instructions:**
-- Write a Python program where the computer picks a random number between 1 and 10, and the user has to guess it.
-- The program should continue asking the user for a guess until they guess the correct number.
-- After each incorrect guess, the program should give a hint whether the guess is too low or too high.
-
-**Example Code:**
-
-```python
-import random
-
-# Step 1: Computer picks a random number between 1 and 10
-secret_number = random.randint(1, 10)
-
-# Step 2: Initialize the guess variable to None
-guess = None
-
-# Step 3: Use a while loop to keep asking the user for input
-
-# write your code here
-
-```
-
-**Sample Input and Output:**
-
-```
-Guess a number between 1 and 10: 4
-Too low! Try again.
-Guess a number between 1 and 10: 9
-Too high! Try again.
-Guess a number between 1 and 10: 7
-Too low! Try again.
-Guess a number between 1 and 10: 8
-Congratulations! You guessed the correct number.
-```
-
-This sample demonstrates:
-- How the user is prompted repeatedly.
-- Feedback on whether their guess is too low or too high.
-- A congratulatory message when the correct guess is made.
 - 
 #### Example #24: Infinite Loop Printing Messages with Counter
 

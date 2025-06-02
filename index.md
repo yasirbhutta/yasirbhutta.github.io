@@ -18,9 +18,9 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
 
 ## Google Workspace
 
-- [How to search on Google](google-workspace/docs/google-search.md)
-- [Gmail](google-workspace/docs/email.md)
-- [Google Assistant](google-workspace/docs/google-assistant.md)
+- [How to search on Google](google-workspace/docs/google-search/)
+- [Gmail](/google-workspace/docs/gmail/)
+- [Google Docs](/google-workspace/docs/google-docs/)
 
 ## Courses
 

@@ -1,5 +1,152 @@
 course: python
 topics:
+  - topic: loops-while
+    exercises:
+      - id: py-ce-wl-001
+        title: "Age and Exercise Input Validation"
+        task: |
+          Create a program that:
+          1. Validates age input (must be positive number)
+          2. Gets user's name
+          3. Validates exercise preference (only accepts Y/N)
+          4. Prints all collected information
+        requirements:
+          - Use `while True` loops for input validation
+          - "For age: reject non-numeric and non-positive values"
+          - "For exercise preference: accept only Y or N (case insensitive)"
+          - "Display formatted output with name and age"
+          - "Handle all edge cases (empty input, wrong types, etc.)"
+        input: |
+          (Program should handle console input interactively)
+          Example test sequence:
+          Enter your age: abc
+          Enter your age: -5
+          Enter your age: 25
+          Enter your name: Alice
+          Do you like to exercise? (Y/N): maybe
+          Do you like to exercise? (Y/N): N
+        output: |
+          Your name is Alice and you are 25 years old.
+
+          Nice
+        resource:
+          name: "View Solution"
+          url: "https://yasirbhutta.github.io/python/docs/loops-while/solutions/py-ce-wl-001.html"
+        difficulty: "easy"
+
+  - topic: oop-encapsulation
+    exercises:
+      - id: py-ce-001
+        title: "Protected Attributes"
+        task: |
+          Create a `BankAccount` class with a protected `_balance` attribute.
+          Implement methods to deposit and withdraw money with basic validation.
+        requirements: |
+          - Use single underscore convention for protected attribute
+          - Prevent negative balance withdrawals
+          - Include a method to display current balance
+        input: |
+          account = BankAccount(100)
+          account.deposit(50)
+          account.withdraw(30)
+          account.display_balance()
+        output: |
+          Current balance: 120
+        resource:
+          name: "Protected Attributes Tutorial"
+          url: "https://example.com/protected-attributes"
+        difficulty: "easy"
+
+      - id: py-ce-002
+        title: "Private Attributes with Getters/Setters"
+        task: |
+          Create a `Person` class with private `__age` attribute.
+          Implement proper getter and setter methods with age validation.
+        requirements: |
+          - Use double underscores for private attribute
+          - Setter should reject ages < 0 or > 120
+          - Getter should return age with "years" suffix
+        input: |
+          person = Person()
+          person.set_age(25)
+          print(person.get_age())
+          person.set_age(150)
+        output: |
+          25 years
+          Invalid age!
+        resource:
+          name: "Private Attributes Guide"
+          url: "https://example.com/private-attributes"
+        difficulty: "easy"
+
+      - id: py-ce-003
+        title: "Property Decorators"
+        task: |
+          Create a `Temperature` class that uses @property to control access to celsius value.
+          Add validation to prevent temperatures below absolute zero (-273.15°C).
+        requirements: |
+          - Use @property for getter
+          - Use @temperature.setter for setter
+          - Raise ValueError for invalid temperatures
+        input: |
+          temp = Temperature()
+          temp.celsius = 25
+          print(temp.celsius)
+          temp.celsius = -300
+        output: |
+          25
+          ValueError: Temperature below absolute zero!
+        resource:
+          name: "Property Decorators Explained"
+          url: "https://example.com/property-decorators"
+        difficulty: "medium"
+
+      - id: py-ce-004
+        title: "Read-Only Property"
+        task: |
+          Create a `Circle` class with private `__radius` and read-only `area` property.
+          The area should be calculated when accessed but not modifiable directly.
+        requirements: |
+          - Use private attribute for radius
+          - Implement area as read-only property
+          - Area calculation: πr² (use math.pi)
+        input: |
+          circle = Circle(5)
+          print(circle.area)
+          circle.area = 100
+        output: |
+          78.53981633974483
+          AttributeError: can't set attribute
+        resource:
+          name: "Read-Only Properties"
+          url: "https://example.com/readonly-properties"
+        difficulty: "medium"
+
+      - id: py-ce-005
+        title: "Full Encapsulation Example"
+        task: |
+          Create a `Student` class that fully encapsulates student data:
+          - Private name (validated to be non-empty)
+          - Private grades list (with methods to add grades and calculate average)
+        requirements: |
+          - Use double underscore for private attributes
+          - Implement proper getters/setters
+          - Add method to calculate grade average
+          - Prevent direct modification of grades list
+        input: |
+          student = Student("Alice")
+          student.add_grade(90)
+          student.add_grade(85)
+          print(student.get_name())
+          print(student.get_average())
+        output: |
+          Alice
+          87.5
+        resource:
+          name: "Complete Encapsulation"
+          url: "https://example.com/full-encapsulation"
+        difficulty: "medium"
+
   - topic: oop-inheritance
     exercises:
       - id: py-ce-001

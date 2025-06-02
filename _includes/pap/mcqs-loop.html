@@ -12,28 +12,28 @@
 <div class="mcq">
 <h3>Q{{ question_count }}. {{ q.question | escape }}</h3>
 {% if q.code %}
-<pre><code class="language-{{ q.language }}">{{ q.code | escape }}</code></pre>
+<pre class="line-numbers"><code class="language-{{ q.language }}">{{ q.code | escape }}</code></pre>
 {% endif %}
-<ol type="A">
-    {% for option in q.options %}
-        <li>
-        <div class="icon-text">
-        {% if forloop.index == 1 %}
-            <i class="fas fa-circle" style="color: red;"></i> <!-- Icon for the first option -->
-        {% elsif forloop.index == 2 %}
-            <i class="fas fa-square" style="color: white; border: 2px solid black;"></i> <!-- Icon for the second option -->
-        {% elsif forloop.index == 3 %}
-            <i class="fas fa-check-circle" style="color: black;"></i> <!-- Icon for the third option -->
-        {% elsif forloop.index == 4 %}
-            <i class="fas fa-dot-circle" style="color: green;"></i> <!-- Icon for the fourth option -->
-        {% else %}
-            <i class="fas fa-circle" style="color: gray;"></i> <!-- Default icon for other options -->
-        {% endif %}
-        {{ option | escape }}
-        </div>
-        </li>
-    {% endfor %}
-</ol>
+
+<ul class="no-bullets">
+  {% assign labels_list = "A,B,C,D,E,F" | split: "," %}
+  {% for option in q.options %}
+    <li>
+      {% assign label = labels_list[forloop.index0] %}
+      {% if forloop.index == 1 %}
+        🟢 {{ label }}. {{ option | escape }}
+      {% elsif forloop.index == 2 %}
+        🔵 {{ label }}. {{ option | escape }}
+      {% elsif forloop.index == 3 %}
+        🟠 {{ label }}. {{ option | escape }}
+      {% elsif forloop.index == 4 %}
+        🔴 {{ label }}. {{ option | escape }}
+      {% else %}
+        ⚪ {{ label }}. {{ option | escape }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 <details>
 <summary>Answer</summary>

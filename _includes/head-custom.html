@@ -16,22 +16,18 @@
     crossorigin="anonymous"></script>
   <!--end--> 
 
-<!-- Prism CSS for light background theme -->
-<link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css" rel="stylesheet" />
+  <!-- Prism CSS for light background theme -->
+<link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css" rel="stylesheet" />
 
-<!-- Prism JS core -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+<!-- Prism JS core - load first -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
 
-<!-- Include the language syntax you need (e.g., Python) -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+<!-- Language components - load after core -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-html.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.min.js"></script>
 
-<!-- JavaScript language support -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-
-<!-- PHP language support -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/components/prism-php.min.js"></script>
-
-<!-- Add these for other languages -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-html.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
-
+<!-- Line numbers plugin -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>

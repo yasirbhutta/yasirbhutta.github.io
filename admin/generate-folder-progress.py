@@ -1,9 +1,10 @@
 import os
 
-course = "php"  # Replace with the desired course name
-topic = "mysql-php"  # Replace with the desired topic
+course = "python"  # Replace with the desired course name
+topic = "pandas"  # Replace with the desired topic
 # Define the directory path where the markdown files will be created
 directory_path = os.path.join(os.getcwd(), course,"docs", topic,"practice-and-progress")
+print(directory_path)
 file_names = [
     f"fill-blanks-{topic}.md",
     f"find-fix-mistakes-{topic}.md",

@@ -1,5 +1,157 @@
 course: python
 topics:
+  - topic: oop-encapsulation
+    questions:
+      - id: py-encap-fix-001
+        difficulty: easy
+        prompt: |
+          Identify and fix the encapsulation mistake in the following code:
+        code: |
+          class BankAccount:
+              def __init__(self, balance):
+                  self.balance = balance
+
+              def withdraw(self, amount):
+                  if amount > self.balance:
+                      print("Insufficient funds")
+                  self.balance -= amount
+        hint: Direct access to attributes violates encapsulation principles.
+        issue: The balance attribute is directly accessible and modifiable from outside the class.
+        solution: |
+          class BankAccount:
+              def __init__(self, balance):
+                  self._balance = balance
+
+              def withdraw(self, amount):
+                  if amount > self._balance:
+                      print("Insufficient funds")
+                      return
+                  self._balance -= amount
+
+              def get_balance(self):
+                  return self._balance
+
+      - id: py-encap-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the encapsulation issue in this temperature class:
+        code: |
+          class Temperature:
+              def __init__(self, celsius):
+                  self.celsius = celsius
+        hint: Temperature values should have validation to prevent impossible values.
+        issue: Direct attribute access allows setting invalid temperatures.
+        solution: |
+          class Temperature:
+              def __init__(self, celsius):
+                  self._celsius = celsius
+
+              @property
+              def celsius(self):
+                  return self._celsius
+
+              @celsius.setter
+              def celsius(self, value):
+                  if value < -273.15:
+                      raise ValueError("Temperature below absolute zero")
+                  self._celsius = value
+
+      - id: py-encap-fix-003
+        difficulty: medium
+        prompt: |
+          Find and fix the encapsulation problems in this student class:
+        code: |
+          class Student:
+              def __init__(self, name, grades):
+                  self.name = name
+                  self.grades = grades
+        hint: Both attributes need protection and grades should have controlled modification.
+        issue: Direct access to both name and grades violates encapsulation.
+        solution: |
+          class Student:
+              def __init__(self, name, grades):
+                  self._name = name
+                  self._grades = list(grades)
+
+              @property
+              def name(self):
+                  return self._name
+
+              def add_grade(self, grade):
+                  self._grades.append(grade)
+
+              def get_grades(self):
+                  return tuple(self._grades)
+
+      - id: py-encap-fix-004
+        difficulty: medium
+        prompt: |
+          Identify and fix the property implementation mistake:
+        code: |
+          class Circle:
+              def __init__(self, radius):
+                  self.__radius = radius
+
+              @property
+              def radius(self):
+                  return self.__radius
+
+              @radius.setter
+              def radius(self, value):
+                  self.radius = value
+        hint: The setter is causing infinite recursion.
+        issue: Using self.radius instead of self.__radius in the setter.
+        solution: |
+          class Circle:
+              def __init__(self, radius):
+                  self.__radius = radius
+
+              @property
+              def radius(self):
+                  return self.__radius
+
+              @radius.setter
+              def radius(self, value):
+                  if value <= 0:
+                      raise ValueError("Radius must be positive")
+                  self.__radius = value
+
+      - id: py-encap-fix-005
+        difficulty: hard
+        prompt: |
+          Fix the multiple encapsulation issues in this shopping cart implementation:
+        code: |
+          class ShoppingCart:
+              def __init__(self):
+                  self.items = []
+                  self.total = 0
+
+              def add_item(self, item, price):
+                  self.items.append((item, price))
+                  self.total += price
+        hint: Both the items list and total should be protected from direct modification.
+        issue: External code can directly modify items and total, breaking consistency.
+        solution: |
+          class ShoppingCart:
+              def __init__(self):
+                  self._items = []
+                  self._total = 0
+
+              def add_item(self, item, price):
+                  self._items.append((item, price))
+                  self._total += price
+
+              def get_items(self):
+                  return tuple(self._items)
+
+              def get_total(self):
+                  return self._total
+
+              def remove_item(self, index):
+                  if 0 <= index < len(self._items):
+                      item, price = self._items.pop(index)
+                      self._total -= price
+
   - topic: oop-inheritance
     questions:
       - id: py-inh-fix-001
@@ -322,7 +474,6 @@ topics:
     resources:
       - name: Learn Inheritance in Python
         url: https://yasirbhutta.github.io/python/docs/oop-inheritance.html
-
 
   - topic: lambda
     questions:
