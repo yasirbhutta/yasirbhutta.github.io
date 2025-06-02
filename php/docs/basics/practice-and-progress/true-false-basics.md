@@ -17,3 +17,23 @@ mini_project: false
 <!-- {% assign examples = selected_topic.examples %} -->
 {% assign resources = selected_topic.resources %}
 {% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}
+
+
+### 🔍 **True / False Questions**
+
+1. JavaScript can be used both on the client-side and server-side.
+   ✅ **True**
+
+2. PHP code is executed by the browser.
+   ❌ **False** — PHP is executed on the server.
+
+3. CSS is a server-side scripting language.
+   ❌ **False** — CSS is a client-side style language.
+
+4. Server-side scripts cannot access a database.
+   ❌ **False** — That’s one of their main purposes.
+
+5. AJAX helps send data to the server without refreshing the page.
+   ✅ **True**
+
+---
