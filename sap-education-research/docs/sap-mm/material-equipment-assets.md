@@ -5,7 +5,8 @@ description: Learn the key differences between Material, Equipment, and Asset in
 keywords: SAP Material vs Equipment vs Asset, SAP terminology, SAP material types, SAP equipment management, SAP asset accounting, consumable materials in SAP, SAP MM, SAP PM, SAP FI-AA, SAP material classification, SAP inventory vs asset, SAP maintenance objects
 author: Muhammad Yasir Bhutta
 course: sap-education-research
-topic: sap=mm
+topic: sap-mm
+show_practice_progress: false
 show_toc: yes
 toc: toc/sap-education-research.html
 show_practice_progress: false

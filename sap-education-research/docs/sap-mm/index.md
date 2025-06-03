@@ -5,6 +5,7 @@ description: Learn how SAP MM streamlines procurement, inventory control & suppl
 keywords: SAP MM, SAP Materials Management, SAP procurement, SAP inventory management, SAP MM transaction codes, SAP purchase order, SAP vendor management, SAP MM configuration, SAP MM vs S/4HANA MM, SAP MM certification, SAP MM training, SAP MRP, SAP MM reports, SAP MM integration, SAP supply chain
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
+show_practice_progress: false
 topic: sap-eam
 toc: toc/sap-education-research.html
 prev: /sap-education-research/docs/sap-hcm/

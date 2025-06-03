@@ -5,6 +5,7 @@ description: Comprehensive SAP Glossary with 50+ key terms explained. Learn abou
 keywords: Key Terms & Definitions (ABAP, HANA, FICO, S/4HANA, MM, SD), Comprehensive SAP Glossary with 50+ key terms explained. Learn about ABAP, S/4HANA, FICO, MM, SD, and more. Perfect for SAP professionals, beginners, and certification aspirants., SAP glossary, SAP terminology, ABAP definition, SAP HANA explained, SAP FICO meaning, SAP MM module, SAP SD module, S/4HANA glossary, SAP BW terms, SAP BAPI, SAP CRM, SAP ECC, SAP Fiori, SAP TCode list, SAP modules guide
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
+show_practice_progress: false
 toc: toc/sap-education-research.html
 prev: /sap-education-research/
 breadcrumb:
