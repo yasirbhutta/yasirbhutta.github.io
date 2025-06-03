@@ -3,6 +3,8 @@ layout: page
 title: Abstraction and Interfaces in Python OOP for Beginners
 description: Learn the difference between Abstraction and Interfaces in Python OOP with real-world examples. Perfect for beginners! Understand abstract classes, @abstractmethod, and how to implement interfaces in Python.  
 keywords: abstraction in python, interfaces in python, python oop concepts, abstract class python, python abc module, difference between abstraction and interface in python, how to use @abstractmethod in python, python oop tutorial for beginners, real-world examples of abstraction python, when to use abstraction vs interface, python abstract base class, abc module in python, method overriding in python, polymorphism in python, inheritance vs abstraction python, python oop principles, abstractmethod decorator, python interface example, python abstraction explained, learn python oop
+course: python
+topic: oop-abstraction
 toc: toc/python.html
 prev: /python/docs/oop-encapsulation/
 next: /python/docs/oop-inheritance/
@@ -59,12 +61,38 @@ bike.start()  # Output: Kicking the bike starter
 bike.stop()   # Output: Applying bike brakes
 ```
 
-## Understanding Interfaces
+This Python code demonstrates the use of **abstract base classes (ABC)** to define a common interface for different types of vehicles. Here's a breakdown of the code:
 
-In Python, interfaces are implemented using abstract classes. An interface defines what methods a class must implement, without providing the implementation.
+### 1. **Abstract Base Class (`Vehicle`)**
+- The `Vehicle` class inherits from `ABC` (Abstract Base Class), making it an abstract class.
+- It defines two **abstract methods** (`start()` and `stop()`) using the `@abstractmethod` decorator.
+- Any subclass of `Vehicle` **must** implement these methods, or Python will raise a `TypeError`.
 
-### Real-life Example:
-A USB port is like an interface - it defines how devices should connect (shape, protocol) but doesn't care what the device actually does (storage, mouse, keyboard).
+### 2. **Concrete Subclasses (`Car` and `Bike`)**
+- **`Car`** and **`Bike`** inherit from `Vehicle` and provide their own implementations of `start()` and `stop()`.
+  - `Car` simulates starting and stopping a car engine.
+  - `Bike` simulates kicking a starter and applying brakes.
+
+### 3. **Usage**
+- When `car.start()` is called, it prints:  
+  `"Starting the car engine"`  
+- When `bike.stop()` is called, it prints:  
+  `"Applying bike brakes"`
+
+### Key Concept: **Abstraction**
+- The `Vehicle` class enforces a **contract** (interface) that all subclasses must follow. for more details, see [What Happens if Abstract Methods Are Not Defined in the Child Class?](abc-class.md)
+- This ensures consistency in method naming and structure across different vehicle types.
+- If a subclass fails to implement any abstract method, Python prevents instantiation.
+
+### Output:
+```
+Starting the car engine
+Stopping the car engine
+Kicking the bike starter
+Applying bike brakes
+```
+
+This pattern is useful in large systems where multiple classes need to adhere to a common structure while allowing flexibility in implementation. 🚗🏍️
 
 ### Python Example:
 ```python
@@ -163,3 +191,8 @@ run_application(mongo)
 4. **Encourages good design** - Forces you to think about architecture
 
 Remember, in Python these concepts are implemented using abstract base classes (ABC), unlike some other languages that have explicit interface keywords.
+
+## 📘 **Related Topics**
+
+* **Concept of Abstract Base Classes (ABC) and Abstract Methods**  👉 [Learn more](abc-class.md)
+
