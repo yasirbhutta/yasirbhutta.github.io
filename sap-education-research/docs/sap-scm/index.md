@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "SAP SLCM Guide 2025 | Student Lifecycle Management Overview"
-description: Learn SAP Student Lifecycle Management (SLCM) features, modules, and benefits. A complete educational guide to mastering SAP SLCM for academic institutions.
-keywords: SAP EAM, Enterprise Asset Management, SAP Plant Maintenance, SAP PM, asset maintenance software, SAP asset management, EAM best practices, SAP maintenance management, predictive maintenance SAP, SAP asset lifecycle, SAP EAM modules, asset performance management, SAP for equipment maintenance, EAM software solutions, SAP asset tracking, industrial asset management 
+title: "SAP SCM (Supply Chain Management)"
+description: Explore the 2025 SAP Supply Chain Management (SCM) guide designed for academic institutions. Learn how to efficiently manage procurement, inventory, logistics, and vendor coordination to support research and education operations.
+keywords: SAP SCM, Supply Chain Management, Education SCM, Research SCM, Procurement Management, Inventory Tracking, Logistics Execution, SAP in Academia, SAP for Universities, SAP SCM 2025, Academic Supply Chain, SAP MM, SAP SD, SAP PP, SAP FI/CO, Demand Planning, Vendor Management
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
