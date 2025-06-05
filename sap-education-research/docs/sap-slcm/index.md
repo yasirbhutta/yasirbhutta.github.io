@@ -81,6 +81,10 @@ breadcrumb:
 * Donations and fundraising
 * Career services and networking
 
+
+![slcm](/assets/images/sap/slcm.png)
+
+Image source: [help.sap.com](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/0dd6552bb884415f93aaa24c788ae644/7984cf535b804808e10000000a174cb4.html)
 ---
 
 ## 🔧 Core Features of SAP SLcM
