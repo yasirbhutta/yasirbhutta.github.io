@@ -1,0 +1,15 @@
+sap-glossary:
+  - letter: A
+    terms:
+      - term: ABAP (Advanced Business Application Programming)
+        description: SAP’s proprietary programming language used for developing applications within the SAP ecosystem.
+
+      - term: ALV (ABAP List Viewer)
+        description: A tool in SAP for displaying and formatting interactive lists or reports.
+
+      - term: Ariba
+        description: SAP’s cloud-based procurement and supply chain management platform.
+
+      - term: Asset
+        description: A fixed asset like a building, machine, or vehicle that is capitalized and depreciated over time.
+        link: sap-mm/material-equipment-assets.md

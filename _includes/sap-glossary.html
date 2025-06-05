@@ -1,0 +1,16 @@
+{% assign glossary = site.data.sap-glossary %}
+
+{% for section in glossary %}
+  <h2>{{ section.letter }}</h2>
+  <ul>
+    {% for item in section.terms %}
+      <li>
+        <strong>{{ item.term }}</strong><br />
+        {{ item.description }}
+        {% if item.link %}
+          <br /><a href="{{ item.link }}">Learn more ...</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

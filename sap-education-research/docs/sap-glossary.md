@@ -107,7 +107,9 @@ A process in SAP for planning production materials and procurement.
 SAP module for manufacturing processes and scheduling.  
 
 ### **PM (Plant Maintenance)**  
-SAP module for equipment maintenance and asset management.  
+SAP module for equipment maintenance and asset management. 
+
+### 
 
 ---
 
@@ -151,3 +153,5 @@ Automated business processes in SAP (e.g., approvals, notifications).
 SAP module for inventory tracking and warehouse operations.  
 
 ---
+
+{% include sap-glossary.html %}
