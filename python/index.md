@@ -19,6 +19,7 @@ Start learning Python today—no sign-up required!
 ## Weekly Plan and Resources
 
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
+- [45-Day Beginner-Friendly Python Learning Plan](lesson-plans/45-days-beginners-friendly-python.md)
 - [Python Quizzes – Test Your Knowledge](quizzes/index.md)
 - [Python Exercises for Beginners](exercises/index.md)
 - [Python Articles](/python/posts/)
