@@ -41,6 +41,7 @@ topics:
           
           class Dog(Animal):
               pass
+          obj = Dog()
         options:
           - "The code will run without errors"
           - "TypeError at class definition"
