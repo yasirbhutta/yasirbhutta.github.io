@@ -27,12 +27,13 @@ In **SAP**, **Material Types** define important controls for how a material is m
 | Material Type | Description                      | Typical Use                                                             |
 | ------------- | -------------------------------- | ----------------------------------------------------------------------- |
 | **ROH**       | Raw Material                     | Used in production but not sold directly. No sales or purchasing views. |
-| **HALB**      | Semi-Finished Goods              | Used in production and assembled into finished products.                |
+| **[HALB](halb-material.md)**      | Semi-Finished Goods              | Used in production and assembled into finished products.                |
 | **FERT**      | Finished Product                 | Sold to customers. Has sales and distribution views.                    |
 | **HIBE**      | Operating Supplies               | Materials used in operations (e.g., lubricants, cleaning materials).    |
-| **NLAG**      | Non-Stock Material (Consumables) | Expensed directly, not managed in inventory (e.g., USB drives, cables). |
+| **[NLAG](nlag-material.md)**      | Non-Stock Material (Consumables) | Expensed directly, not managed in inventory (e.g., USB drives, cables). |
 | **VERP**      | Packaging Material               | Used to pack goods (e.g., boxes, cartons).                              |
-| **DIEN**      | Service                          | Non-material services (e.g., consulting, maintenance). No inventory.    |
+| **[DIEN](dien-material.md)**      | Service                          | Non-material services (e.g., consulting, maintenance). No inventory.    |
+| **[SERV](serv-material.md)**      | External Services | External service item for [structured service procurement](structured-service-proc.md). |
 | **ERSA**      | Spare Parts                      | Parts used for maintenance of equipment. Stock-managed.                 |
 | **LEER**      | Returnable Packaging             | Materials returned by customers (e.g., containers, bottles).            |
 | **PROD**      | Product Group                    | Group of materials for planning, not an individual material.            |
