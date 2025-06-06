@@ -56,6 +56,8 @@ This allows:
 * Easier verification
 * Better control and audit
 
+![structure service](/assets/images/sap/structured-service.png)
+
 ---
 
 ### 🔄 Difference From Unstructured (Simple) Service Procurement:
