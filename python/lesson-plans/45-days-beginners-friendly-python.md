@@ -21,12 +21,12 @@ breadcrumb:
 
 ## 📅 Week 1: Python Basics
 
-- **Day 1**: Python Introduction, Setup, Hello World
-- **Day 2**: Variables, Data Types
+- **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics.md)
+- **Day 2**: [Variables](../docs/variables.md), [Data Types](../docs/data-types.md)
 - **Day 3**: Input/Output, Type Casting
-- **Day 4**: Operators (Arithmetic, Assignment, Logical, Comparison)
-- **Day 5**: Strings and Common String Methods
-- **Day 6**: Lists & Tuples
+- **Day 4**: [Operators](../docs/operators.md) (Arithmetic, Assignment, Logical, Comparison)
+- **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
+- **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
 - **Day 7**: Practice Exercises + Quiz
 
 **🔧 Mini Project**: Simple Calculator
@@ -37,9 +37,9 @@ breadcrumb:
 
 - **Day 8**: `if`, `elif`, `else`
 - **Day 9**: Nested Conditions, Truthy/Falsy
-- **Day 10**: `for` and `while` Loops
-- **Day 11**: `break`, `continue`, `pass`
-- **Day 12**: Sets and Dictionaries
+- **Day 10**: [`for`](../docs/loops-for/) and [`while`](../docs/loops-while/) Loops
+- **Day 11**: [`break`, `continue`, `pass`](../docs/loop-control-statements/)
+- **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
 - **Day 13**: List Comprehension
 - **Day 14**: Practice + Quiz
 
@@ -49,11 +49,11 @@ breadcrumb:
 
 ## 📅 Week 3: Functions & Modules
 
-- **Day 15**: Defining Functions
-- **Day 16**: Parameters, Return Values
-- **Day 17**: Scope, `*args`, `**kwargs`
-- **Day 18**: Built-in Functions, `lambda`, `map`, `filter`
-- **Day 19**: Modules: `math`, `random`, `datetime`
+- **Day 15**: [Defining Functions](../docs/functions/)
+- **Day 16**: [Parameters, Return Values](../docs/functions/)
+- **Day 17**: [Scope](../docs/local-global/), `*args`, `**kwargs`
+- **Day 18**: Built-in Functions, [`lambda`](../docs/lambda/), `map`, `filter`
+- **Day 19**: Modules: [`math`](../docs/math-module/), `random`, `datetime`
 - **Day 20-21**: Practice + Create Your Own Module
 
 **🔧 Mini Project**: Password Generator
@@ -75,11 +75,11 @@ breadcrumb:
 
 ## 📅 Week 5: Object-Oriented Programming
 
-- **Day 29**: Classes and Objects
+- **Day 29**: [Classes and Objects](../docs/classes.md)
 - **Day 30**: `__init__()`, Instance & Class Variables
 - **Day 31**: Methods, `self`, `__str__`
-- **Day 32**: Inheritance
-- **Day 33**: Polymorphism & Encapsulation
+- **Day 32**: [Inheritance](../docs/oop-inheritance/)
+- **Day 33**: [Polymorphism](../docs/oop-polymorphism/) & [Encapsulation](../docs/oop-encapsulation/)
 - **Day 34-35**: Practice with OOP Concepts
 
 **🔧 Mini Project**: Bank Account Manager
