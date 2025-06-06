@@ -1,5 +1,359 @@
 course: python
 topics:
+  - topic: oop-abstraction
+    questions:
+      - id: abs001
+        difficulty: easy
+        question: What is the primary purpose of abstraction in OOP?
+        language: python
+        code: ""
+        options:
+          - "To hide implementation details and show only essential features"
+          - "To allow multiple inheritance in Python"
+          - "To enforce strict type checking"
+          - "To optimize code performance"
+        answer: "To hide implementation details and show only essential features"
+        explanation: Abstraction focuses on exposing only necessary features while hiding complex implementation details.
+
+      - id: abs002
+        difficulty: medium
+        question: How is abstraction typically achieved in Python?
+        language: python
+        code: ""
+        options:
+          - "Using private methods with `__` prefix"
+          - "Using abstract base classes (ABC) and `@abstractmethod`"
+          - "Through function decorators only"
+          - "By overloading operators"
+        answer: "Using abstract base classes (ABC) and `@abstractmethod`"
+        explanation: Python uses the `abc` module and `@abstractmethod` decorator to enforce abstraction by requiring subclasses to implement specific methods.
+
+      - id: abs003
+        difficulty: easy
+        question: What will happen if a subclass doesn't implement an abstract method?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class Animal(ABC):
+              @abstractmethod
+              def sound(self):
+                  pass
+          
+          class Dog(Animal):
+              pass
+        options:
+          - "The code will run without errors"
+          - "TypeError at class definition"
+          - "TypeError at instantiation"
+          - "The method will inherit the parent's implementation"
+        answer: "TypeError at instantiation"
+        explanation: Python raises a `TypeError` when you try to instantiate a subclass that doesn't implement all abstract methods.
+
+      - id: abs004
+        difficulty: medium
+        question: Which module is required to create abstract classes in Python?
+        language: python
+        code: ""
+        options:
+          - "`abstract`"
+          - "`abc`"
+          - "`oop`"
+          - "`abstractmethod` only (no module needed)"
+        answer: "`abc`"
+        explanation: The `abc` module provides the `ABC` metaclass and `@abstractmethod` decorator for creating abstract classes.
+
+      - id: abs005
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class Shape(ABC):
+              @abstractmethod
+              def area(self):
+                  pass
+          
+          class Square(Shape):
+              def __init__(self, side):
+                  self.side = side
+              def area(self):
+                  return self.side ** 2
+          
+          s = Square(4)
+          print(s.area())
+        options:
+          - "0"
+          - "16"
+          - "TypeError (Shape cannot be instantiated)"
+          - "Error (Square doesn't implement `area()`)"
+        answer: "16"
+        explanation: Since `Square` properly implements the abstract `area()` method, it can be instantiated, and the calculation works correctly.
+
+      - id: abs006
+        difficulty: medium
+        question: Which of the following is TRUE about abstraction in Python?
+        language: python
+        code: ""
+        options:
+          - "Abstract methods can have implementations in the parent class"
+          - "A class with at least one abstract method can be instantiated"
+          - "Abstract classes must inherit from `object`"
+          - "Abstract methods can be declared without the `abc` module"
+        answer: "Abstract methods can have implementations in the parent class"
+        explanation: Abstract methods in Python can have implementations, but subclasses must still override them. The `@abstractmethod` decorator marks them as requiring override.
+
+      - id: abs007
+        difficulty: easy
+        question: What does the `@abstractmethod` decorator do?
+        language: python
+        code: ""
+        options:
+          - "Prevents a method from being called"
+          - "Marks a method as requiring implementation in subclasses"
+          - "Makes a method private"
+          - "Optimizes method execution speed"
+        answer: "Marks a method as requiring implementation in subclasses"
+        explanation: The `@abstractmethod` decorator enforces that concrete subclasses must implement the decorated method.
+
+      - id: abst001
+        difficulty: easy
+        question: What is abstraction in object-oriented programming?
+        options:
+          - "Hiding the internal implementation and showing only the necessary features"
+          - "Creating private variables"
+          - "Restricting access using access modifiers"
+          - "Writing multiple methods with the same name"
+        answer: "Hiding the internal implementation and showing only the necessary features"
+        explanation: Abstraction is the concept of hiding complex implementation details and showing only the essential features to the user.
+
+      - id: abst002
+        difficulty: medium
+        question: Which module in Python provides the base class for creating abstract classes?
+        options:
+          - "abc"
+          - "abstract"
+          - "base"
+          - "oop"
+        answer: "abc"
+        explanation: The `abc` module in Python provides infrastructure for defining Abstract Base Classes.
+
+      - id: abst003
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+
+          class Shape(ABC):
+              @abstractmethod
+              def area(self):
+                  pass
+
+          class Circle(Shape):
+              def area(self):
+                  return 3.14 * 4 * 4
+
+          c = Circle()
+          print(c.area())
+        options:
+          - "50.24"
+          - "Error: Can't instantiate abstract class"
+          - "None"
+          - "8"
+        answer: "50.24"
+        explanation: Since the `Circle` class implements the abstract method `area`, it can be instantiated and will return the calculated area.
+
+      - id: abst004
+        difficulty: easy
+        question: What will happen if you try to instantiate an abstract class with an unimplemented abstract method?
+        options:
+          - "It will raise a TypeError"
+          - "It will return None"
+          - "It will call the method with default implementation"
+          - "It will execute without any error"
+        answer: "It will raise a TypeError"
+        explanation: Python will raise a `TypeError` if you attempt to instantiate an abstract class that has unimplemented abstract methods.
+
+      - id: abst005
+        difficulty: medium
+        question: Why do we use abstract base classes in Python?
+        options:
+          - "To enforce certain methods in subclasses"
+          - "To allow direct instantiation"
+          - "To reduce memory usage"
+          - "To avoid using constructors"
+        answer: "To enforce certain methods in subclasses"
+        explanation: Abstract base classes are used to define a common interface and enforce that derived classes implement specific methods.
+        
+      - id: abs008
+        difficulty: medium
+        question: What is the output of this code?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class Database(ABC):
+              @abstractmethod
+              def connect(self):
+                  print("Default connection logic")
+          
+          class MySQL(Database):
+              def connect(self):
+                  super().connect()
+                  print("MySQL connection")
+          
+          db = MySQL()
+          db.connect()
+        options:
+          - "`MySQL connection`"
+          - "`Default connection logic` followed by `MySQL connection`"
+          - "TypeError (cannot instantiate abstract class)"
+          - "Error: `super()` misuse"
+        answer: "`Default connection logic` followed by `MySQL connection`"
+        explanation: "Abstract methods CAN have implementations in Python. The subclass invokes the parent's implementation via `super()`."
+
+      - id: abs009
+        difficulty: hard
+        question: Why does this code fail?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class Logger(ABC):
+              @abstractmethod
+              def log(self, message):
+                  pass
+          
+              @abstractmethod
+              def close(self):
+                  pass
+          
+          class FileLogger(Logger):
+              def log(self, message):
+                  print(f"Log: {message}")
+          
+          logger = FileLogger()  # Error occurs here
+        options:
+          - "Missing `close()` implementation in `FileLogger`"
+          - "Abstract methods cannot have parameters like `message`"
+          - "`FileLogger` must inherit from `object` first"
+          - "`@abstractmethod` cannot be used twice"
+        answer: "Missing `close()` implementation in `FileLogger`"
+        explanation: "Subclasses must implement ALL abstract methods. Here, `close()` is missing."
+
+      - id: abs010
+        difficulty: medium
+        question: What does this code demonstrate about abstraction?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class PaymentGateway(ABC):
+              @abstractmethod
+              def process_payment(self, amount):
+                  pass
+          
+              def receipt(self, amount):
+                  print(f"Receipt for ${amount}")
+          
+          class PayPal(PaymentGateway):
+              def process_payment(self, amount):
+                  print(f"Processing ${amount} via PayPal")
+          
+          payment = PayPal()
+          payment.process_payment(100)
+          payment.receipt(100)
+        options:
+          - "Abstract classes can have both abstract and concrete methods"
+          - "`receipt()` must also be abstract"
+          - "Subclasses cannot use parent's concrete methods"
+          - "Abstract methods must return a value"
+        answer: "Abstract classes can have both abstract and concrete methods"
+        explanation: "The `receipt()` method is fully implemented in the abstract class and shared by all subclasses."
+
+      - id: abs011
+        difficulty: hard
+        question: What is the key problem in this design?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class Vehicle(ABC):
+              @abstractmethod
+              def start_engine(self):
+                  pass
+          
+              @abstractmethod
+              def stop_engine(self):
+                  pass
+          
+          class Bicycle(Vehicle):
+              def start_engine(self):
+                  raise NotImplementedError("Bicycles have no engine!")
+          
+              def stop_engine(self):
+                  raise NotImplementedError("Bicycles have no engine!")
+        options:
+          - "Violates Liskov Substitution Principle (Bicycle isn't a valid Vehicle)"
+          - "`NotImplementedError` should be replaced with `pass`"
+          - "Abstract methods cannot raise exceptions"
+          - "Missing `@abstractmethod` decorator in `Bicycle`"
+        answer: "Violates Liskov Substitution Principle (Bicycle isn't a valid Vehicle)"
+        explanation: "Forcing `Bicycle` to implement engine methods indicates a flawed abstraction hierarchy."
+
+      - id: abs012
+        difficulty: easy
+        question: What is the purpose of `ABC.register()` here?
+        language: python
+        code: |
+          from abc import ABC
+          class Duck:
+              def quack(self):
+                  print("Quack!")
+          
+          class Bird(ABC):
+              @classmethod
+              def __subclasshook__(cls, subclass):
+                  return hasattr(subclass, 'quack')
+          
+          Bird.register(Duck)
+          duck = Duck()
+          print(isinstance(duck, Bird))  # Output: True
+        options:
+          - "Ensures `Duck` implements all abstract methods of `Bird`"
+          - "Dynamically registers `Duck` as a virtual subclass of `Bird`"
+          - "Prevents `Duck` from being instantiated"
+          - "Creates a strict inheritance relationship"
+        answer: "Dynamically registers `Duck` as a virtual subclass of `Bird`"
+        explanation: "`register()` allows non-inheriting classes to be treated as subclasses if they meet the interface (duck typing)."
+
+      - id: abs013
+        difficulty: medium
+        question: What makes this code a proper abstraction?
+        language: python
+        code: |
+          from abc import ABC, abstractmethod
+          class DataExporter(ABC):
+              @abstractmethod
+              def export(self, data):
+                  pass
+          
+              def validate(self, data):
+                  return isinstance(data, list)
+          
+          class CSVExporter(DataExporter):
+              def export(self, data):
+                  if self.validate(data):
+                      print(f"Exporting {len(data)} rows to CSV")
+                  else:
+                      raise ValueError("Invalid data format")
+          
+          exporter = CSVExporter()
+          exporter.export([1, 2, 3])
+        options:
+          - "It hides validation logic inside the abstract class"
+          - "It forces subclasses to implement `export()` but shares `validate()`"
+          - "It uses `ABC` to prevent instantiation"
+          - "All of the above"
+        answer: "All of the above"
+        explanation: "This demonstrates encapsulation (validation hiding), method enforcement (`export()`), and reusable shared logic (`validate()`)."
+
   - topic: oop-encapsulation
     questions:
       - id: encap001
