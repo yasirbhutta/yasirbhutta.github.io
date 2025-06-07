@@ -6,6 +6,10 @@ keywords: Python variables, Python variable examples, Python variable exercises,
 toc: toc/python.html
 ---
 
+## Table of Content
+- [Python zip() Function](zip.md)
+- [Python filter() Function](filter.md)
+- [Python map() Function](map.md)
 
 **See also:**
 
@@ -14,8 +18,6 @@ toc: toc/python.html
 
 ### Built-in Sequence Functions
 
-- [#1 Python zip() Function](https://www.youtube.com/watch?v=7ix3cDWAsUc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=57)
-- [#2 Python Zip Function: Handling Lists with Different Numbers of Elements](https://www.youtube.com/watch?v=TOxTxP9x4ME&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=56)
 - [Python Iterators and Iterables: How to Loop Over Lists and Iterators](https://www.youtube.com/watch?v=D2YDffp1Oag&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=34)
 - [How to Iterate Over Tuples with the Enumerate Function](https://www.youtube.com/watch?v=QtjIK_knBLo&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=31)
 - [Finding the maximum value in a list using a one-liner](https://www.youtube.com/watch?v=S-c7WrZSyaQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=4)

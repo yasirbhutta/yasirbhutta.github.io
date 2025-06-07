@@ -23,7 +23,7 @@ breadcrumb:
 
 - **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics.md)
 - **Day 2**: [Variables](../docs/variables.md), [Data Types](../docs/data-types.md)
-- **Day 3**: Input/Output, Type Casting
+- **Day 3**: Input/Output, [Type Casting](../docs/data-types/type-casting.md)
 - **Day 4**: [Operators](../docs/operators.md) (Arithmetic, Assignment, Logical, Comparison)
 - **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
@@ -52,7 +52,7 @@ breadcrumb:
 - **Day 15**: [Defining Functions](../docs/functions/)
 - **Day 16**: [Parameters, Return Values](../docs/functions/)
 - **Day 17**: [Scope](../docs/local-global/), `*args`, `**kwargs`
-- **Day 18**: Built-in Functions, [lambda](../docs/lambda/), `map`, `filter`
+- **Day 18**: Built-in Functions, [lambda](../docs/lambda/), [map](../docs/built-in-functions/map.md), [filter](../docs/built-in-functions/filter.md)
 - **Day 19**: Modules: [math](../docs/math-module/), `random`, `datetime`
 - **Day 20-21**: Practice + Create Your Own Module
 

@@ -8,11 +8,7 @@ toc: toc/python.html
 
 ## Table of the Contents:
 
-- Data Structures and Sequences
-  - [Tuples Basics](tuples/tuples-basics.md)
-  - [Lists Basics](lists/lists-basics.md)
-  - [Dictionaries Basics](dictionaries/dict-basics.md)
-  - [Sets Basics](sets/sets-basics.md)
+- [Type Casting](data-types/type-casting.md)
 
 In Python, data types define the kind of value a variable can hold and the operations that can be performed on it. They act as blueprints, specifying how data is stored and manipulated in your programs.
 
@@ -94,79 +90,6 @@ The type of variable y is: <class 'float'>
 The type of variable z is: <class 'complex'>  
 ```
 ---
-
-### **Task 2: Convert Integer to String**  
-Write a Python program that:  
-- Takes an integer as input.  
-- Converts it to a string using the `str()` function.  
-- Concatenates the string with another message and prints it.  
-
-**Example Input:**  
-```
-Enter a number: 100  
-```
-
-**Expected Output:**  
-```
-Your number is: 100  
-```
-
----
-
-### **Task 3: Convert String to Integer**  
-Write a Python program that:  
-- Takes a numeric string as input (e.g., `"123"`).  
-- Converts it into an integer using the `int()` function.  
-- Multiplies the number by 2 and prints the result.  
-
-**Example Input:**  
-```
-Enter a number as a string: 50  
-```
-
-**Expected Output:**  
-```
-Double the number: 100  
-```
-
----
-
-### **Task 4: Convert Integer to Octal and Hexadecimal**  
-Write a Python program that:  
-- Takes an integer as input from the user.  
-- Converts it to **octal** using `oct()` and **hexadecimal** using `hex()`.  
-- Prints both results.  
-
-**Example Input:**  
-```
-Enter a number: 255  
-```
-
-**Expected Output:**  
-```
-Octal: 0o377  
-Hexadecimal: 0xff  
-```
-
----
-
-### **Task 5: Convert Octal and Hexadecimal to Integer**  
-Write a Python program that:  
-- Takes an **octal** and a **hexadecimal** number as input (as strings).  
-- Converts them back to integers using `int(value, base)`.  
-- Prints the decimal values.  
-
-**Example Input:**  
-```
-Enter an octal number: 0o377  
-Enter a hexadecimal number: 0xff  
-```
-
-**Expected Output:**  
-```
-Octal to Integer: 255  
-Hexadecimal to Integer: 255  
-```
 
 ## 3.5 Why Use Data Types?
 
