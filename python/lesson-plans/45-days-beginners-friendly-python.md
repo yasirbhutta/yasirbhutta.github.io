@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🐍 45-Day Beginner-Friendly Python Learning Plan
+title: 🐍 45-Days Beginner-Friendly Python Learning Plan
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
 keywords: "python tutorial for beginners, learn python programming, free python lessons, python pdf tutorials, open-source python guide, python coding for beginners, python exercises and projects, python programming basics, downloadable python resources, python step-by-step guide"
 breadcrumb:
@@ -35,10 +35,10 @@ breadcrumb:
 
 ## 📅 Week 2: Control Flow & Data Structures
 
-- **Day 8**: `if`, `elif`, `else`
+- **Day 8**: [if, elif, else](../docs/if-elif-else/)
 - **Day 9**: Nested Conditions, Truthy/Falsy
-- **Day 10**: [`for`](../docs/loops-for/) and [`while`](../docs/loops-while/) Loops
-- **Day 11**: [`break`, `continue`, `pass`](../docs/loop-control-statements/)
+- **Day 10**: [for](../docs/loops-for/) and [while](../docs/loops-while/) Loops
+- **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
 - **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
 - **Day 13**: List Comprehension
 - **Day 14**: Practice + Quiz
@@ -52,8 +52,8 @@ breadcrumb:
 - **Day 15**: [Defining Functions](../docs/functions/)
 - **Day 16**: [Parameters, Return Values](../docs/functions/)
 - **Day 17**: [Scope](../docs/local-global/), `*args`, `**kwargs`
-- **Day 18**: Built-in Functions, [`lambda`](../docs/lambda/), `map`, `filter`
-- **Day 19**: Modules: [`math`](../docs/math-module/), `random`, `datetime`
+- **Day 18**: Built-in Functions, [lambda](../docs/lambda/), `map`, `filter`
+- **Day 19**: Modules: [math](../docs/math-module/), `random`, `datetime`
 - **Day 20-21**: Practice + Create Your Own Module
 
 **🔧 Mini Project**: Password Generator
