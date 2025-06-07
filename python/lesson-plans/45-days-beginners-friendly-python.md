@@ -40,7 +40,7 @@ breadcrumb:
 - **Day 10**: [for](../docs/loops-for/) and [while](../docs/loops-while/) Loops
 - **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
 - **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
-- **Day 13**: List Comprehension
+- **Day 13**: [List Comprehension](../docs/list-comprehension/)
 - **Day 14**: Practice + Quiz
 
 **🔧 Mini Project**: Number Guessing Game
