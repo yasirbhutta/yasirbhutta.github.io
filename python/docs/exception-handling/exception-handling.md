@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Exception Handling* in Python 
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: Python Error Handling Guide - Common Exceptions & Fixes
+description: Learn how to handle Python errors and exceptions effectively. Fix common Python errors like SyntaxError, TypeError, and NameError with practical examples.
+keywords: Python errors, Python exceptions, fix Python errors, SyntaxError Python, TypeError Python, NameError Python, Python error handling, Python debugging, Python try-except, Python exception handling
 toc: toc/python.html
 ---
 
@@ -154,18 +154,5 @@ b) throw Exception("error message")
 c) exit("error message")
 d) halt("error message")
 
-**Watch this video for the answer:**
-
-**Answer key (Mutiple Choice):**
-
-## Fill in the Blanks
-
-**Answer Key (Fill in the Blanks):**
-
-## Exercises
-
-## Review Questions
-
-## References and Bibliography
 
 

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: 🐍 45-Days Beginner-Friendly Python Learning Plan
+layout: page
+title: 45-Days Beginner-Friendly Python Learning Plan
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
 keywords: "python tutorial for beginners, learn python programming, free python lessons, python pdf tutorials, open-source python guide, python coding for beginners, python exercises and projects, python programming basics, downloadable python resources, python step-by-step guide"
 breadcrumb:
@@ -21,9 +21,9 @@ breadcrumb:
 
 ## 📅 Week 1: Python Basics
 
-- **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics.md)
-- **Day 2**: [Variables](../docs/variables.md), [Data Types](../docs/data-types.md)
-- **Day 3**: Input/Output, [Type Casting](../docs/data-types/type-casting.md)
+- **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics/)
+- **Day 2**: [Variables](../docs/variables/), [Data Types](../docs/data-types/)
+- **Day 3**: [Input/Output](../docs/input-output/), [Type Casting](../docs/data-types/type-casting.md)
 - **Day 4**: [Operators](../docs/operators.md) (Arithmetic, Assignment, Logical, Comparison)
 - **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
@@ -78,8 +78,8 @@ breadcrumb:
 
 - **Day 22**: Reading and Writing Files
 - **Day 23**: File Modes, CSV Handling
-- **Day 24**: Exception Handling (`try`, `except`)
-- **Day 25**: Custom Exceptions
+- **Day 24**: [Exception Handling](../docs/exception-handling/exception-handling.md) (`try`, `except`)
+- **Day 25**: [Custom Exceptions](../docs/exception-handling/custom-exceptions.md)
 - **Day 26**: Review & Practice
 - **Day 27-28**: Exercises + Mini Project
 
