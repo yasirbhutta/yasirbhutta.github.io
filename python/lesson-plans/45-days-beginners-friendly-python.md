@@ -18,7 +18,12 @@ breadcrumb:
 - **Documentation**: [Python Docs](https://docs.python.org/3/), 
 
 ---
+## Getting Started
 
+- **Day 0**: [Python Quick Guide](../docs/quick-guide.md)
+
+---
+  
 ## 📅 Week 1: Python Basics
 
 - **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics/)
