@@ -8,6 +8,8 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
 ## Coding
 
 - [Python Tutorial for Beginners](python/)
+- [45-Days Beginner-Friendly Python Learning Plan](python/lesson-plans/45-days-beginners-friendly-python.md)
+- [Python Programming for Mathematics](python/docs/python-mathematics.md)
  
 ## Microsoft 365
 

@@ -17,6 +17,7 @@ mini_project: false
   - [Example #1: `math_utils.py` Module](#-example-1-creating-and-using-a-custom-python-module)
   - [Example #2: `greetings.py` Module](#-example-2-creating-and-using-a-custom-python-module)
 - [Special Module Variable: `__name__`](#special-module-variable-__name__)
+- [Customized Packages in Python: A Complete Guide](customized-packages.md)
 
 ## 🔷 What is a Module in Python?
 

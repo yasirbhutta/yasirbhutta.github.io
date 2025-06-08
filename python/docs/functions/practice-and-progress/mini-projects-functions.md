@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mini Projects: Build a Number Guessing Game in Python.
+title: "Mini Projects: Build a Number Guessing Game in Python."
 description: Learn how to create a number guessing game in Python with this step-by-step guide. Practice loops, conditionals, and random number generation in this fun mini-project.
 ---
 

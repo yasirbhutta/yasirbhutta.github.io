@@ -41,14 +41,14 @@ breadcrumb:
 ## 📅 Week 2: Control Flow & Data Structures
 
 - **Day 8**: [if, elif, else](../docs/if-elif-else/)
-- **Day 9**: Nested Conditions, Truthy/Falsy
+- **Day 9**: [Nested Conditions](../docs/if-elif-else/nested-conditions.md), [Truthy/Falsy](../docs/if-elif-else/truthy-falsy-values.md)
 - **Day 10**: [for](../docs/loops-for/) and [while](../docs/loops-while/) Loops
 - **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
 - **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
 - **Day 13**: [List Comprehension](../docs/list-comprehension/)
 - **Day 14**: Practice + Quiz
 
-**🔧 Mini Project**: Number Guessing Game
+**🔧 Mini Project**: [Number Guessing Game](../docs/loops-while/practice-and-progress/mini-projects-loops-while.md)
 
 ---
 
@@ -56,10 +56,10 @@ breadcrumb:
 
 - **Day 15**: [Defining Functions](../docs/functions/)
 - **Day 16**: [Parameters, Return Values](../docs/functions/)
-- **Day 17**: [Scope](../docs/local-global/), `*args`, `**kwargs`
+- **Day 17**: [Scope](../docs/local-global/), [*args, **kwargs](../docs/functions-adv-concepts/agrs-kwargs.md)
 - **Day 18**: Built-in Functions, [lambda](../docs/lambda/), [map](../docs/built-in-functions/map.md), [filter](../docs/built-in-functions/filter.md)
-- **Day 19**: Modules: [math](../docs/math-module/), `random`, `datetime`
-- **Day 20-21**: Practice + Create Your Own Module
+- **Day 19**: Modules: [math](../docs/math-module/), [random](../docs/random-module/), [datetime](../docs/datetime-module/)
+- **Day 20-21**: Practice + [Create Your Own Module](../docs/functions-in-modules/)
 
 **🔧 Mini Project**: Password Generator
 
@@ -81,8 +81,8 @@ breadcrumb:
 
 ## 📅 Week 4: File & Error Handling
 
-- **Day 22**: Reading and Writing Files
-- **Day 23**: File Modes, CSV Handling
+- **Day 22**: [Reading and Writing Files](../docs/files-handling/reading-writing-files.md)
+- **Day 23**: [File Modes](../docs/files-handling/file-modes.md), [CSV Handling](../docs/files-handling/csv-handling.md)
 - **Day 24**: [Exception Handling](../docs/exception-handling/exception-handling.md) (`try`, `except`)
 - **Day 25**: [Custom Exceptions](../docs/exception-handling/custom-exceptions.md)
 - **Day 26**: Review & Practice
@@ -107,8 +107,8 @@ breadcrumb:
 
 ## 📅 Week 6: Modules, APIs, Final Project
 
-- **Day 36**: Explore Built-in Modules: `os`, `datetime`, `json`
-- **Day 37**: Installing & Using External Libraries (`pip`)
+- **Day 36**: Explore Built-in Modules: `os`, `json`
+- **Day 37**: [Installing & Using External Libraries (`pip`)](../docs/modules/installing-using-external-libraries.md)
 - **Day 38**: HTTP Requests using `requests`
 - **Day 39-41**: Build a CLI To-Do List App
 - **Day 42**: Plan Final Project
