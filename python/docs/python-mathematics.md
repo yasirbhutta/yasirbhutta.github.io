@@ -59,7 +59,7 @@ The `math` library offers functions for more advanced calculations like square r
    sin_val = math.sin(math.pi / 2)  # sine of 90 degrees
    ```
 
-[Learn more ...](modules/math.md)
+[Learn more ...](math-module/)
 
 ### 4. **Linear Algebra with NumPy**
    For higher-level math, such as linear algebra, the `NumPy` library is very useful. It can handle matrices, arrays, and operations on them.
@@ -77,7 +77,7 @@ The `math` library offers functions for more advanced calculations like square r
    inverse = np.linalg.inv(A)     # Inverse of a matrix
    ```
 
-[Learn more ...](modules/numpy.md)
+[Learn more ...](numpy-module/)
 
 ### 5. **Plotting and Data Visualization**
 
@@ -124,7 +124,7 @@ For advanced statistical and probability functions, the `SciPy` library provides
    median_val = np.median(data)
    mode_val = stats.mode(data)
    ```
-[Learn more ...](modules/scipy.md)
+[Learn more ...](scipy-module/)
 
 ### 7. **Symbolic Mathematics with SymPy**
    For symbolic computation (e.g., solving equations, differentiation, and integration), the `SymPy` library is ideal.
@@ -143,7 +143,7 @@ For advanced statistical and probability functions, the `SciPy` library provides
    integral_eq = integrate(x ** 2 + 3 * x, x)
    ```
 
-[Learn more ...](modules/sympy.md)
+[Learn more ...](sympy-module/)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
@@ -157,3 +157,10 @@ For advanced statistical and probability functions, the `SciPy` library provides
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## 📘 **Related Topics**
+
+* **45-Days Beginner-Friendly Python Learning Plan**
+  👉 [Learn more](/python/lesson-plans/45-days-beginners-friendly-python.html)
+* **45-Days Beginner-Friendly Python Learning Plan**
+  👉 [Learn more](/python/lesson-plans/45-days-beginners-friendly-python.html)

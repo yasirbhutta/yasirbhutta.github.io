@@ -1,3 +1,26 @@
+---
+layout: page
+title: "Python Programming for Mathematics: Variables and Expressions"
+description: Learn Python variables & mathematical expressions with clear examples! Understand variable assignment, arithmetic operations, and expression evaluation in Python. Perfect for beginners!
+keywords: Python variables, Python expressions, Python variable assignment, Python arithmetic expressions, Python math variables, Python mathematical operations, Python variable examples, Python expression evaluation, Python data types, Python operators, Python beginner math, Python coding basics, Python variable naming rules, Python dynamic typing, Python calculations, Python numeric operations, Python variable scope, Python constants, Python math syntax, Python programming fundamentals
+author: Muhammad Yasir Bhutta
+course: python
+topic: variables-expressions
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+prev: /python/docs/mathematics/arithmetic-algebra.html
+next: /python/docs/math-module/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Math
+    url: /python/docs/python-mathematics.html
+---
+
 # Variables and Expressions
 
 Using variables and expressions is fundamental in programming, as it allows us to store and manipulate data. In Python, variables can hold various data types, and expressions can perform computations, comparisons, and logical operations using these variables. Here’s a detailed breakdown:

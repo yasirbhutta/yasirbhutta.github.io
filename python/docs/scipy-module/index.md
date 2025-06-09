@@ -1,4 +1,25 @@
-# SciPy in Python
+---
+layout: page
+title: "Python Programming for Mathematics: Basic Arithmetic and Algebra"
+description: Master SciPy for advanced scientific computing in Python! Learn optimization, signal processing, statistics, and linear algebra with practical examples. Essential for engineers, researchers, and data scientists.
+keywords: SciPy Python, SciPy tutorial, SciPy examples, scientific computing Python, SciPy optimization, SciPy signal processing, SciPy statistics, SciPy linear algebra, SciPy FFT, SciPy interpolation, SciPy integration, SciPy sparse matrices, SciPy special functions, SciPy vs NumPy, SciPy installation, SciPy documentation, Python scientific library, SciPy for engineers, SciPy for data science, SciPy advanced techniques
+author: Muhammad Yasir Bhutta
+course: python
+topic: scipy-module
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Math
+    url: /python/docs/python-mathematics.html
+---
+
+## SciPy in Python
 
 `SciPy` is a powerful library in Python for scientific computing, which includes modules for optimization, linear algebra, integration, and importantly, statistics and probability. `SciPy` builds on top of `NumPy` and provides functions for a variety of statistical calculations and probability distributions.
 
@@ -8,6 +29,9 @@
    Descriptive statistics summarize data to provide insights without making inferences about the entire population. The `scipy.stats` module provides functions to compute key measures like mean, median, variance, and standard deviation.
 
    ```python
+   
+   # SciPy linear algebra example)
+
    from scipy import stats
    import numpy as np
 
@@ -39,6 +63,9 @@
    Used in many natural phenomena, represented by its mean (μ) and standard deviation (σ).
 
    ```python
+   
+   # SciPy linear algebra example)
+
    # Normal distribution with mean=0 and standard deviation=1
    norm_dist = stats.norm(loc=0, scale=1)
 

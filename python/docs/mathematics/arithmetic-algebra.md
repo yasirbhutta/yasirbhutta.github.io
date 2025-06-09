@@ -1,4 +1,25 @@
-# Python Programming for Mathematics: Basic Arithmetic and Algebra
+---
+layout: page
+title: "Python Programming for Mathematics: Basic Arithmetic and Algebra"
+description: Learn Python arithmetic & algebra with practical examples! Master mathematical operations, functions, and problem-solving techniques in Python. Perfect for beginners & advanced coders.
+keywords: Python arithmetic, Python algebra, Python math operations, Python mathematical functions, Basic Python math, How to do algebra in Python, Python arithmetic operators, Python math examples, Solving equations in Python, Python division, Python multiplication, Python addition, Python subtraction, Python exponents, Python roots, Python math module tutorial, Python algebra functions, Python math for beginners, Advanced Python mathematics, Python math syntax, Python numerical calculations, Python arithmetic expressions, Python PEMDAS, Python algebra problems, Python math functions list, Python sum, Python min, Python max, Python abs, Python math library guide
+author: Muhammad Yasir Bhutta
+course: python
+topic: arithmetic-algebra
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+prev: /python/docs/python-mathematics.html
+next: /python/docs/mathematics/variables-expressions.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Math
+    url: /python/docs/python-mathematics.html
+---
 
 Basic arithmetic and algebra are foundational topics in mathematics, encompassing essential operations and rules used in everything from basic calculations to more advanced math. Here’s a detailed breakdown of these concepts in Python.
 

@@ -92,9 +92,7 @@ print(area)
 - **Use variables in calculations and operations:** Variables can be used just like regular numbers or text in expressions.
 - **Think of variables as placeholders:** They hold information that can change as your program runs.
 
-## Key Terms
 
-## Fix the Errors!
 
 # Using an undefined variable 
 

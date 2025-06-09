@@ -1,4 +1,24 @@
-# NumPy in Python
+---
+layout: page
+title: "NumPy in Python – Complete Guide with Examples for Arrays & Math Operations"
+description: Master NumPy in Python with this comprehensive guide! Learn array creation, mathematical operations, indexing, and more with practical examples. Boost your data science and numerical computing skills today!
+keywords: NumPy Python, NumPy tutorial, NumPy arrays, NumPy examples, Python numerical computing, NumPy mathematical functions, NumPy array operations, NumPy indexing, NumPy slicing, NumPy data science, NumPy vs lists, NumPy installation, NumPy cheat sheet, NumPy broadcasting, NumPy linear algebra, NumPy random module, NumPy performance, Python NumPy guide, NumPy for beginners, NumPy advanced operations
+author: Muhammad Yasir Bhutta
+course: python
+topic: numpy-module
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+prev: /python/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+---
+
+## NumPy in Python
 
 The `NumPy` library in Python is widely used for linear algebra due to its powerful array handling capabilities. It provides efficient functions for a range of linear algebra operations, such as matrix creation, matrix operations, determinants, eigenvalues, and linear equation solving.
 
