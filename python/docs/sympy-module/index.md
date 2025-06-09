@@ -257,3 +257,10 @@ SymPy integrates with Matplotlib to enable symbolic plotting.
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## 📘 **Related Topics**
+
+* **Numerical Computing with NumPy** Learn about numpy
+  👉 [Learn more](/python/docs/numpy-module)
+* **Scientific Computing with SciPy** Learn about SciPy
+  👉 [Learn more](/python/docs/scipy-module)
