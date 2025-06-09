@@ -8,7 +8,11 @@ toc: toc/python.html
 
 Python is widely used in mathematics for calculations, data analysis, and visualization due to its simple syntax and powerful libraries. Here’s a quick overview of how Python can help in different areas of mathematics:
 
-### 1. **Basic Arithmetic and Algebra**
+## 0. **Getting Started**
+
+- [Python Quick Guide](quick-guide.md)
+
+## 1. **Basic Arithmetic and Algebra**
 
 Python can perform basic arithmetic operations, making it ideal for solving algebraic equations and expressions. 
 
