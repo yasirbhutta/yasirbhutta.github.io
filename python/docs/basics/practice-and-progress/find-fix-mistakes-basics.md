@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Python Basics: Find and Fix Mistakes
+layout: page
+title: "Python Basics: Find and Fix Mistakes"
 description: "Sharpen your Python basics by identifying and fixing common coding errors. Perfect for beginners to enhance problem-solving skills and reinforce programming fundamentals."
 ---
 
