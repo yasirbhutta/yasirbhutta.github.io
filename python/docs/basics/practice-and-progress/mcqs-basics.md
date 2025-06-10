@@ -14,8 +14,6 @@ breadcrumb:
     url: /python/docs/basics/
 ---
 
-# Python Basics MCQs: Test Your Knowledge
-
 **Python**
 
 1. **What is Python?**
