@@ -2,6 +2,16 @@
 layout: page
 title: Python Basics MCQs: Test Your Knowledge
 description: "Test your Python fundamentals with our comprehensive collection of multiple-choice questions on basic concepts. Perfect for beginners to practice and reinforce their learning."
+toc: toc/python.html
+course: python
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
 ---
 
 # Python Basics MCQs: Test Your Knowledge

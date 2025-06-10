@@ -1,7 +1,17 @@
 ---
 layout: default
-title: Python Basics Mini Project: Build a Simple Expense Tracker
+title: "Python Basics Mini Project: Build a Simple Expense Tracker"
 description: Test your Python skills with this mini project! Learn to build a simple expense tracker using variables, loops, string formatting, and file handling. Perfect for beginners.
+toc: toc/python.html
+course: python
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
 ---
 
 ### Mini Project: Build a Simple Expense Tracker

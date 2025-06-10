@@ -2,6 +2,16 @@
 layout: page
 title: Python Basics Quiz
 description: "Challenge your Python knowledge with engaging fill-in-the-blank exercises on basic concepts. Ideal for beginners to practice and solidify their understanding."
+toc: toc/python.html
+course: python
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
 ---
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3gYp0_-Yb87VPVXy55f2578y8LRUehHA9EHhvcLp8CtTPxg/viewform?embedded=true" width="100%" height="4658" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

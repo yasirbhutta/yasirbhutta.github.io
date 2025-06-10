@@ -2,6 +2,16 @@
 layout: default
 title: "Python Basics: Review Questions"
 description: Test your understanding of fundamental Python concepts with these Python Basics review questions. Perfect for beginners looking to reinforce their skills through practice
+toc: toc/python.html
+course: python
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
 ---
 
 # Python Basics: Review Questions

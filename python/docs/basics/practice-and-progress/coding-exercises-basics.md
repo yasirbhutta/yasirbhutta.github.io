@@ -2,6 +2,16 @@
 layout: default
 title: "Python Basics: Coding Exercises"
 description: "Learn Python basics with coding exercises focused on input, print statements, comments, f-strings, and indentation. Improve your coding skills by mastering essential Python concepts for clean, readable code and efficient programming practices."
+toc: toc/python.html
+course: python
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
 ---
 
 ## Print Functions
