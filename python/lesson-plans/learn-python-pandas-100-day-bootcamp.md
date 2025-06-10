@@ -37,6 +37,18 @@ breadcrumb:
 - **Day 16:** `pivot_table()` → *Summarize school exam results* 📚  
 - **Day 17:** `merge()` → *Combine TikTok + Instagram hashtags*  
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ## **📊 Phase 2: Data Wrangling & Visualization (Days 31-60)**  
@@ -66,6 +78,18 @@ breadcrumb:
 **Pandas Integration:**  
 - **Day 43:** `df.plot()` → Customize plots directly in Pandas  
 - **Day 44:** Export to HTML → *Build a simple dashboard*  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -136,6 +160,17 @@ breadcrumb:
   - Add a **"Pandas Battle"** day (Day 85) where students compete to clean a messy dataset fastest.  
 
 --- 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## **📈 Tesla Stock Analysis Project**  
 **Skills Applied:** Python, Pandas, Visualization, Time Series, Financial Analysis  
@@ -163,6 +198,7 @@ breadcrumb:
 - **Discussion:**  
   - Why Tesla? (EV market, Elon Musk’s influence, volatility)  
   - Key metrics: **Open, Close, High, Low, Volume**  
+
 
 ---
 
@@ -279,3 +315,13 @@ breadcrumb:
 - “**Dataset**” for pre-cleaned CSV  
 - “**Slides**” for a ready-made lesson PowerPoint  
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -20,6 +20,7 @@ Start learning Python today—no sign-up required!
 
 - [Weekly Teaching Schedule](../it-323/docs/course-overview-it-323.html#weekly-schedule-of-classes)
 - [45-Day Beginner-Friendly Python Learning Plan](lesson-plans/45-days-beginners-friendly-python.md)
+- [Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners](lesson-plans/learn-python-pandas-100-day-bootcamp.md)
 - [Python Quizzes – Test Your Knowledge](quizzes/index.md)
 - [Python Exercises for Beginners](exercises/index.md)
 - [Python Articles](/python/posts/)
