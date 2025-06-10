@@ -101,6 +101,8 @@ print("Hello", "World", end="!")
 - [Video: How to print multiple lines](https://www.youtube.com/watch?v=Y13CX7-zzcQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=51)
 - [Video: 100 times "hello world" without loop](https://www.youtube.com/watch?v=QpqnHtD76BI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=7)
 
+[Learn more...](input-output/print.md)
+
 ## Comments
 
 ### Comments
@@ -114,6 +116,7 @@ print("Hello", "World", end="!")
 # This is a single-line comment
 print("Hello, World!")
 ```
+[Learn more...](basics/comments.md)
 
 ## Variables
 
@@ -177,7 +180,9 @@ print(area)
 **See also:**
 
 - [Variables in Python](variables.md)
-  
+
+[Learn more...](variables/)
+
 ## Types of Data
 
 - Numbers (integers, floats), strings (text), booleans (True/False)
@@ -251,6 +256,8 @@ print(type(is_hungry))  # Output: <class 'bool'>
 
 - [Video: Use of type() function in Python](https://youtu.be/6fXy1ZpQc8c?si=CjWxHfsAXp1B0-sy)
 
+[Learn more...](data-types/)
+
 ### Operators
 
 - Perform calculations and comparisons (e.g., +, -, *, /, ==, !=).
@@ -285,6 +292,8 @@ is_greater = 12 > 9  # True
 is_less_or_equal = 5 <= 5  # True
 ```
 
+[Learn more..](operators/)
+
 ### Input and Output
 
 - Get user input with input() and display output with print().
@@ -317,6 +326,8 @@ print("Hello, world!")
 print("Your name is", name, "and you are", age, "years old.")
 print("The answer is:", 42)
 ```
+
+[Learn more ...](input-output/input.md)
 
 ## Control Flow
 
@@ -402,6 +413,8 @@ else:
 
 This code will print the message "x is less than 5." to the console.
 
+[Learn more...](if-elif-else/)
+
 ### Loops
 
 - Repeat actions using `for` and `while` loops.
@@ -429,6 +442,8 @@ for i in range(5):
 - [Video: Calculate the sum of the first N natural numbers](https://youtu.be/FgMHDLRi_G4)
 - [Video: String as an iterable using for loop](https://youtu.be/uC0bbj08d4A)
 
+[Learn more...](loops-for/)
+
 #### while loop
 
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
@@ -441,6 +456,8 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     print(count)  # Print the current number
     count += 1  # Add 1 to the count for the next round
 ```
+
+[Learn more...](loops-while/)
 
 ## Multiple Choice (Select the best answer)
 
