@@ -1,3 +1,17 @@
+---
+layout: page
+title: Python Tools & Utilities – Essential Developer Resources
+description: Discover must-have Python tools and utilities for developers. Enhance productivity with debugging, testing, and automation tools in Python.  
+keywords: Python tools, Python utilities, Python developer tools, best Python tools, Python debugging tools, Python testing tools, Python automation tools, Python libraries, Python IDE, Python productivity tools
+toc: toc/python.html
+topic: basics
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+---
+
 # Python: Tools or IDE
 
 - Install Python: Download and install it from <https://www.python.org/downloads/>.
@@ -58,10 +72,6 @@ Kaggle's Code is a platform where users can write, run, and share code, particul
    - [https://www.kaggle.com/code](https://www.kaggle.com/code)
    - [How to Use Kaggle - Notebooks](https://www.kaggle.com/docs/notebooks)
 
-
-1. [https://www.online-python.com/](https://www.online-python.com/)
-2. [https://onecompiler.com/](https://onecompiler.com/python/)
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <!-- display square -->
@@ -74,3 +84,9 @@ Kaggle's Code is a platform where users can write, run, and share code, particul
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## 8. Online Python Editors
+
+1. [PythonAnywhere](https://www.pythonanywhere.com/)
+2. [https://www.online-python.com/](https://www.online-python.com/)
+3. [https://onecompiler.com/](https://onecompiler.com/python/)

@@ -29,7 +29,7 @@ breadcrumb:
 - **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics/)
 - **Day 2**: [Variables](../docs/variables/), [Data Types](../docs/data-types/)
 - **Day 3**: [Input/Output](../docs/input-output/), [Type Casting](../docs/data-types/type-casting.md)
-- **Day 4**: [Operators](../docs/operators.md) (Arithmetic, Assignment, Logical, Comparison)
+- **Day 4**: [Operators](../docs/operators/) (Arithmetic, Assignment, Logical, Comparison)
 - **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
 - **Day 7**: Practice Exercises + Quiz
