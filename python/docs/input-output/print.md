@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python `print` Function"
-description: Learn how to handle Python errors and exceptions effectively. Fix common Python errors like SyntaxError, TypeError, and NameError with practical examples.
-keywords: Python errors, Python exceptions, fix Python errors, SyntaxError Python, TypeError Python, NameError Python, Python error handling, Python debugging, Python try-except, Python exception handling
+title: "Python Input & Output: Python `print` Function"
+description: Learn how to use the Python print() function effectively! Master basic printing, formatting (f-strings, %s, .format()), file output, and advanced usage with examples.
+keywords: Python print function, print in Python, Python print examples, Python print formatting, Python print to file, Python print new line, Python print separator, Python print end parameter, Python print flush, Python print vs return, Python print multiple variables, Python print f-string, Python print format method, Python print %s formatting, Python print stdout, Python print stderr, Python print debug, Python print colored text, Python print without newline, Python print list
 toc: toc/python.html
 ---
 

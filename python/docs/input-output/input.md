@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python `input()` Function
-description: Learn how to handle Python errors and exceptions effectively. Fix common Python errors like SyntaxError, TypeError, and NameError with practical examples.
-keywords: Python errors, Python exceptions, fix Python errors, SyntaxError Python, TypeError Python, NameError Python, Python error handling, Python debugging, Python try-except, Python exception handling
+title: "Python Input & Output: `input()` Function"
+description: Learn how to use Python's input() function effectively! Get user input, handle data types (int, float, string), add prompts, and validate input with practical examples.
+keywords: Python input function, Python user input, input() in Python, Python keyboard input, Python input examples, Python input string, Python input integer, Python input validation, Python input prompt, Python raw_input vs input, Python read user input, Python input conversion, Python input loop, Python input timeout, Python multiline input, Python input EOFError, Python input best practices, Python CLI input, Python input security, Python input stripping whitespace
 toc: toc/python.html
 ---
 

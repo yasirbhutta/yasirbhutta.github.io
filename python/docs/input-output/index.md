@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python Error Handling Guide - Common Exceptions & Fixes
-description: Learn how to handle Python errors and exceptions effectively. Fix common Python errors like SyntaxError, TypeError, and NameError with practical examples.
-keywords: Python errors, Python exceptions, fix Python errors, SyntaxError Python, TypeError Python, NameError Python, Python error handling, Python debugging, Python try-except, Python exception handling
+title: "Python Input & Output: print(), input(), and f-strings Guide"
+description: Master Python input() and print() functions with f-strings for efficient I/O operations. Learn user input handling, formatted output, and string interpolation in Python.
+keywords: Python print function, Python input function, f-strings Python, Python formatted output, Python user input, Python string formatting, Python I/O basics, print() and input() in Python, Python f-strings tutorial, Python console input output
 toc: toc/python.html
 ---
 

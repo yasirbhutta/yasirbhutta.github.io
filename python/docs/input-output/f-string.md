@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "F-Strings in Python: A Comprehensive Guide"
-description: Learn how to handle Python errors and exceptions effectively. Fix common Python errors like SyntaxError, TypeError, and NameError with practical examples.
-keywords: Python errors, Python exceptions, fix Python errors, SyntaxError Python, TypeError Python, NameError Python, Python error handling, Python debugging, Python try-except, Python exception handling
+title: "Python Input & Output: F-Strings in Python"
+description: Master Python f-strings with this definitive guide! Learn syntax, formatting tricks, multiline f-strings, expressions, and advanced use cases with clear examples.
+keywords: Python f-strings, f-string Python, Python string formatting, Python 3.6 f-strings, Python formatted string literals, f-string syntax, Python string interpolation, f-string expressions, f-string formatting numbers, f-string multiline, f-string datetime, f-string dictionary, f-string alignment, f-string padding, f-string precision, f-string vs format(), f-string vs % formatting, f-string debug, f-string special characters, f-string best practices
 toc: toc/python.html
 ---
 
