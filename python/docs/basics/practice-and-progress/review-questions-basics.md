@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python Basics: Review Questions
+title: "Python Basics: Review Questions"
 description: Test your understanding of fundamental Python concepts with these Python Basics review questions. Perfect for beginners looking to reinforce their skills through practice
 ---
 
