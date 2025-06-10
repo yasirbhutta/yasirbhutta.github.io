@@ -14,102 +14,104 @@ breadcrumb:
 
 ## Table of Contents
 
-- What is Python
-- 
-## What is Python
+1. [What is Python?](#-1-what-is-python)
+2. [Setting Up Python](#-2-setting-up-python)
+3. [Your First Python Program: "Hello, World!"](#-3-your-first-python-program-hello-world)
+4. [Comments](comments.md)
+5. [Indentation](indentation.md)
 
-- Python is a high-level, general-purpose programming language.
-- It is known for its clear syntax, readability, and versatility.
-- Python is widely used for `web development`, `data science`, `machine learning`, and `automation`.
+## 🔰 1. What is Python?
 
-## Getting Started
+- Python is a **high-level**, **interpreted** general-purpose programming language.
+* Known for its **simple syntax** and **readability**.
+* Used in **web development**, **data analysis**, **AI/ML**, **automation**, **scripting**, and more.
 
-- Install Python: Download and install it from <https://www.python.org/downloads/>.
-- Choose a text editor: A program to write code, like [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial), [Jupyter Notebook](https://jupyter.org/install), `PyCharm`, or even a simple text editor like `Notepad`.
-- Text editor for Android: [Pydroid 3 - IDE for Python 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
-  - [Video: How to: Install Jupyter Notebook on an Android device](https://youtu.be/b2XNfD3xEwY?si=JFQsMiVj5xqkTgGv)
-- Interactive mode: Experiment with Python directly in your terminal or command prompt using the python command.
-- [Python IDE Installation](python-ide-installation.md)
+---
 
-> **Important:** Python source code files always use the `.py` extension.
+### Key Features:
 
-## Comments
+* Easy to learn
+* Huge standard library
+* Cross-platform
+* Strong community support
 
-- Comments are important for making code more readable and understandable, especially for other programmers who may need to read or modify the code.
-- Comments in Python are non-executable lines of code and ignored by the Python interpreter when the code is executed. 
+---
 
-There are two main types of comments in Python:
+## 💻 2. Setting Up Python
 
-- **Single-line comments:** These comments start with the hash symbol (#) and extend to the end of the line.
+### Option A: Install Python (Recommended)
+
+1. Visit [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Download the latest version for your OS (Windows/macOS/Linux).
+3. During installation, **check the box** that says **"Add Python to PATH"**.
+4. To check installation, open your terminal or command prompt and type:
+
+   ```bash
+   python --version
+   ```
+
+   Or, if that doesn't work:
+
+   ```bash
+   python3 --version
+   ```
+
+### Option B: Use Online Python Editors
+
+* [Replit](https://replit.com/)
+* [Google Colab](https://colab.research.google.com/)
+* [Jupyter Notebook](https://jupyter.org/)
+* [PythonAnywhere](https://www.pythonanywhere.com/)
+
+[Learn more ...](../tools.md)
+---
+
+## 🧪 3. Your First Python Program: "Hello, World!"
+
+### Step 1: Open a code editor or terminal.
+
+You can use:
+
+* IDLE (Python’s built-in editor)
+* VS Code
+* PyCharm
+* A simple text editor like Notepad
+
+### Step 2: Type the following code:
 
 ```python
-# This is a single-line comment
 print("Hello, World!")
 ```
 
-- **Multi-line comments:** These comments are enclosed in triple quotes (""" or ''').
+### Step 3: Save the file as `hello.py`
 
-```python
-"""
-This is a multi-line comment.
-It can span multiple lines of code.
-"""
-print("Hello, World!")
+### Step 4: Run the program
+
+In terminal/command prompt:
+
+```bash
+python hello.py
 ```
 
-**See also:**
+If successful, you’ll see:
 
-- [Video: A Comprehensive Guide to Single Line & Multi-Line Comments](https://www.youtube.com/watch?v=W7ixMGE2exc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=73)
-
-## Indentation
-
-In Python, indentation refers to the use of whitespace (spaces or tabs) to denote block-level structure in the code. Python uses indentation to define the scope of code blocks, such as:
-
-- Function definitions
-- Loops (for, while)
-- Conditional statements (if, elif, else)
-- Exception handling (try, except)
-
-In Python, indentation is mandatory and is used to determine the grouping of statements. The number of spaces used for indentation is not fixed, but it's standard to use 4 spaces for each level of indentation. Read more: [Indentation - PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/#indentation)
-
-Here's an example:
-```python
-if True:
-    print("Hello")  # This line is indented with 4 spaces
-    print("World")  # This line is also indented with 4 spaces
 ```
-In this example, the two print statements are indented with 4 spaces, indicating that they are part of the if block.
-
-Python's indentation system has several benefits, including:
-
-- Improved readability: Indentation makes the code structure clear and easy to read.
-- Reduced errors: Indentation helps avoid errors caused by mismatched braces or parentheses.
-- Simplified syntax: Python's indentation system eliminates the need for explicit block delimiters like braces or keywords.
-
-Another example, consider the following code snippet:
-
-```python
-if True:
-    print("True")
-else:
-    print("False")
+Hello, World!
 ```
 
-**Task: 15** Please correct the following Python code:
+---
 
-```python
-if True:
-  print("True")
-    print("False")
-```
-Error message: `IndentationError: unexpected indent`"
+## 📘 Explanation
 
-**See also:**
+* `print()` is a built-in Python function that outputs text to the screen.
+* `"Hello, World!"` is a **string** (text inside double or single quotes).
 
-- [Indentation in Python - geeksforgeeks.org](https://www.geeksforgeeks.org/indentation-in-python/)
-- [Indentation in Python (With Examples) - askpython.com](https://www.askpython.com/python/python-indentation)
+## 4. [Comments](comments.md)
+## 5. [Indentation](indentation.md)
+   
+---
 
-### **Task 16: Code Together, Lead Together**  
+## Task : Code Together, Lead Together  
 
 **Title:** "Teach Your Team"  
 **Instructions:**  
@@ -134,7 +136,8 @@ Error message: `IndentationError: unexpected indent`"
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-   
+
+
 ## Practice & Progress
 
 - [True or False](basics/practice-and-progress/true-false-python-basics.md)
