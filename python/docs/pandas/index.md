@@ -549,37 +549,10 @@ Filtering rows allows you to extract data that meets certain criteria. Condition
    - **Column**: A named set of data within a DataFrame.
    - **Row**: An individual record within a DataFrame.
 
+## 📘 **Related Topics**
 
-## Key Terms
-
-## True/False (Mark T for True and F for False)
-
-**Answer Key (True/False):**
-
-## Multiple Choice (Select the best answer)
-
-1. **Which function would you use to determine the type of a variable in Python?**
-   - A) id()
-   - B) type()
-   - C) str()
-   - D) isinstance()
-  
-**Watch this video for the answer:**
-
-**Answer key (Mutiple Choice):**
-
-## Fill in the Blanks
-
-**Answer Key (Fill in the Blanks):**
-
-## Exercises
-
-1. Skill Level Categories
-Define clear categories based on skill levels, such as:
-
-Beginner: Basic concepts and syntax.
-Intermediate: More complex problems involving data structures and algorithms.
-Advanced: Challenging problems that require in-depth understanding and optimization.
+* **How to Load CSV, Excel, JSON, SQL, and More into Pandas DataFrame – Complete Guide** – Learn how to load various data formats like CSV, Excel, JSON, SQL databases, HTML tables, APIs, Google Sheets, and more into a Pandas DataFrame using Python. Step-by-step guide with examples.
+  👉 [Learn more](https://yasirbhutta.github.io/python/docs/pandas/loading-handling-datasets-pandas.html)
 
 ## References and Bibliography
 
