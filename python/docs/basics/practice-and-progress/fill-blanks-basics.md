@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Python Basics: Fill in the Blanks
 description: "Challenge your Python knowledge with engaging fill-in-the-blank exercises on basic concepts. Ideal for beginners to practice and solidify their understanding."
 ---
