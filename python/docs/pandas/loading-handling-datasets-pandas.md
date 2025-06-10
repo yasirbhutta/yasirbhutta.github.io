@@ -1,8 +1,8 @@
 ---
-layout: default
-title: "Loading & Handling Datasets in Pandas: CSV, Excel, JSON & More"
-description: Learn how to load, read, and handle datasets in Pandas (CSV, Excel, JSON, SQL). Essential techniques for data cleaning, preprocessing, and efficient data analysis.
-keywords: loading datasets in pandas, read csv pandas, read excel pandas, pandas read json, pandas read sql, handling missing data pandas, data preprocessing pandas, pandas dataframe tutorial, python pandas data cleaning, pandas import dataset
+layout: page
+title: "How to Load CSV, Excel, JSON, SQL, and More into Pandas DataFrame – Complete Guide"
+description: Learn how to load various data formats like CSV, Excel, JSON, SQL databases, HTML tables, APIs, Google Sheets, and more into a Pandas DataFrame using Python. Step-by-step guide with examples.
+keywords: pandas python, load csv pandas, read excel pandas, json to dataframe, sql to pandas, html table pandas, api data pandas, google sheets pandas, zip file pandas, clipboard data pandas, sample datasets python, mysql to dataframe
 author: Muhammad Yasir Bhutta
 course: python
 toc: toc/python.html
@@ -17,11 +17,25 @@ breadcrumb:
     url: /python/docs/pandas/
 ---
 
+## Table of Contents
+
+1. [Loading CSV Datasets](#1-loading-csv-datasets)
+2. [Loading Excel Files](#2-loading-excel-files)
+3. [Loading JSON Files](#3-loading-json-files)
+4. [Loading SQL Databases](#4-loading-sql-databases)
+5. [Loading HTML Tables](#5-loading-html-tables)
+6. [Loading Data from APIs](#6-loading-data-from-apis)
+7. [Loading Data from Google Sheets](#7-loading-data-from-google-sheets)
+8. [Loading Data from Zip Files](#8-loading-data-from-zip-files)
+9. [Loading Data from a Clipboard](#9-loading-data-from-a-clipboard)
+10. [Sample Datasets in Python Libraries](#10-sample-datasets-in-python-libraries)
+11. [How to store MySQL results in a pandas DataFrame using Python](#how-to-store-mysql-results-in-a-pandas-dataframe-using-python)
+
 Pandas doesn't come with built-in datasets like some other libraries, but it offers many ways to load and handle external datasets. You can easily read data from CSV, Excel, SQL, JSON, and other formats using Pandas.
 
 Here are common datasets you can load and work with in Pandas, along with some examples of reading them into your environment:
 
-### 1. Loading CSV Datasets
+## 1. Loading CSV Datasets
 
 You can load CSV files from your local system or directly from a URL into Pandas using pd.read_csv().
 
@@ -45,7 +59,7 @@ titanic = pd.read_csv("path_to_your_file/titanic.csv")
 print(titanic.head())
 ```
 
-### 2. Loading Excel Files
+## 2. Loading Excel Files
 
 Pandas can easily read Excel files using pd.read_excel().
 
@@ -58,7 +72,7 @@ superstore = pd.read_excel("path_to_your_file/superstore_sales.xlsx")
 print(superstore.head())
 ```
 
-### 3. Loading JSON Files
+## 3. Loading JSON Files
 
 You can load JSON files using pd.read_json().
 
@@ -70,7 +84,7 @@ json_data = pd.read_json("path_to_your_file/data.json")
 print(json_data.head())
 ```
 
-### 4. Loading SQL Databases
+## 4. Loading SQL Databases
 
 If you're working with databases, Pandas can directly query them using SQL queries.
 
@@ -87,7 +101,7 @@ data = pd.read_sql_query("SELECT * FROM table_name", conn)
 print(data.head())
 ```
 
-### 5. Loading HTML Tables
+## 5. Loading HTML Tables
 
 Pandas can extract tables from HTML web pages using pd.read_html().
 
@@ -100,7 +114,7 @@ tables = pd.read_html(url)
 print(tables[0].head())  # The first table on the page
 ```
 
-### 6. Loading Data from APIs
+## 6. Loading Data from APIs
 
 You can load data from APIs that return JSON, CSV, or other formats. For example, using the Kaggle API, you can download datasets and load them into Pandas.
 
@@ -112,7 +126,7 @@ kaggle_data = pd.read_csv("path_to_downloaded_kaggle_file.csv")
 print(kaggle_data.head())
 ```
 
-### 7. Loading Data from Google Sheets
+## 7. Loading Data from Google Sheets
 
 You can also read data from Google Sheets by exporting them as CSV and reading into Pandas.
 
@@ -125,7 +139,7 @@ google_sheets_data = pd.read_csv(sheet_url)
 print(google_sheets_data.head())
 ```
 
-### 8. Loading Data from Zip Files
+## 8. Loading Data from Zip Files
 
 Pandas can read CSVs from zipped files directly without unzipping them.
 
@@ -138,7 +152,7 @@ zipped_data = pd.read_csv(zip_url, compression='zip')
 print(zipped_data.head())
 ```
 
-### 9. Loading Data from a Clipboard
+## 9. Loading Data from a Clipboard
 
 You can even copy data from somewhere and paste it into Pandas using pd.read_clipboard().
 
@@ -150,7 +164,7 @@ clipboard_data = pd.read_clipboard()
 print(clipboard_data.head())
 ```
 
-### 10. Sample Datasets in Python Libraries
+## 10. Sample Datasets in Python Libraries
 
 While Pandas itself doesn’t provide built-in datasets, you can use datasets from libraries like Seaborn and Scikit-learn and load them into Pandas:
 
