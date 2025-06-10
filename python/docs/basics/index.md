@@ -138,45 +138,6 @@ Hello, World!
 </script>
 
 
-## Practice & Progress
-
-- [True or False](basics/practice-and-progress/true-false-python-basics.md)
-- [Fill in the Blanks](basics/practice-and-progress/fill-blanks-python-basics.md)
-
----
-
-### Multiple-Choice Questions (MCQs)
-
-- [Python Basics MCQs: Test Your Knowledge](basics/practice-and-progress/mcqs-python-basics.md)
-
----
-
-### Find and Fix Mistakes
-
-- [Find and Fix Mistakes](basics/practice-and-progress/find-fix-mistakes-computer-basics.md)
-
-✅ **Online Quizzes for Python Basics**
-
-- [Python Basics Quiz](../quizzes/python-basics-quiz.md)
-
----
-
-### Coding Exercises
-
-- [Python Exercises for Basics](basics/practice-and-progress/coding-exercises-python-basics.md)
-
----
-
-### Mini Projects
-
-- [Python Basics Mini Project: Build a Simple Expense Tracker](basics/practice-and-progress/mini-project-python-basics.md)
-
----
-
-### [Review Questions](basics/practice-and-progress/review-questions-python-basics.md)
-
---- 
-
 ## References and Bibliography
 
 - [1] “Guido van Rossum,” Wikipedia, May 24, 2021. https://en.wikipedia.org/wiki/Guido_van_Rossum
