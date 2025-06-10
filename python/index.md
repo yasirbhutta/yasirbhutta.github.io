@@ -30,12 +30,35 @@ Start learning Python today—no sign-up required!
 {% assign show_heading = true %}
 {% include toc/python.html show_heading=show_heading%}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="6296238623"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Tips for Practicing
 
 - **Practice Coding by Hand:** This will help you think through the problem deeply.
 - **Focus on Understanding:** Don’t just memorize solutions; focus on understanding the underlying concepts.
 - **Explain Your Solution:** Try to explain your solution to someone else, or write comments in your code as if you’re explaining it.
 - **Use Online Platforms:** Platforms like LeetCode, HackerRank, and Codeforces are excellent for finding a wide range of problems to practice.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="7879511511"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 
