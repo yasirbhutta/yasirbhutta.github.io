@@ -4,9 +4,7 @@ title: "Python Basics: Find and Fix Mistakes"
 description: "Sharpen your Python basics by identifying and fixing common coding errors. Perfect for beginners to enhance problem-solving skills and reinforce programming fundamentals."
 ---
 
-# Python Basics: Find and Fix Mistakes
-
-### Question 1: Fix the Parenthesis Error
+## Question 1: Fix the Parenthesis Error
 **Task**: Identify and fix the syntax error in the following code snippet.
 
 ```python
@@ -22,7 +20,7 @@ print("Hello World!")
 
 ---
 
-### Question 2: Fix the Indentation Error [Python Quiz #67]
+## Question 2: Fix the Indentation Error [Python Quiz #67]
 **Task**: Fix the indentation error in the following code snippet.
 
 ```python
@@ -35,7 +33,7 @@ if True:
 
 ---
 
-### Question 3: Fix the Incorrect Variable Usage Error [Python Quiz 68]
+## Question 3: Fix the Incorrect Variable Usage Error [Python Quiz 68]
 **Task**: Fix the error where the variable name is incorrectly used.
 
 ```python
@@ -47,7 +45,7 @@ print(f"My name is {namee} and I am 30 years old.")
 
 ---
 
-### Question 3: Fix the Missing Import Error
+## Question 3: Fix the Missing Import Error
 **Task**: Correct the following code by adding the necessary module import.
 
 ```python
@@ -64,7 +62,7 @@ print(os.getcwd())
 
 ---
 
-### Question 5: Fix the File Output Error
+## Question 5: Fix the File Output Error
 **Task**: Fix the syntax issue in printing to a file.
 
 ```python

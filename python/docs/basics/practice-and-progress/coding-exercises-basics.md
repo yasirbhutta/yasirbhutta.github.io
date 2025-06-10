@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Python Basics: Coding Exercises
+title: "Python Basics: Coding Exercises"
 description: "Learn Python basics with coding exercises focused on input, print statements, comments, f-strings, and indentation. Improve your coding skills by mastering essential Python concepts for clean, readable code and efficient programming practices."
 ---
 
-# Python Basics: Coding Exercises
-
-
-###Print Functions
+## Print Functions
 
 1. **Basic Printing**
    - Write a Python program to print the following:
@@ -46,7 +43,7 @@ description: "Learn Python basics with coding exercises focused on input, print 
    print(f"My name is {name} and I am {age} years old.")
    ```
 
-### Indentation
+## Indentation
 
 4. **Correct Indentation**
    - The following code has incorrect indentation. Fix it so that it runs correctly:
@@ -80,7 +77,7 @@ description: "Learn Python basics with coding exercises focused on input, print 
        print("The number is zero.")
    ```
 
-### Comments
+## Comments
 
 6. **Single-Line Comments**
    - Add comments to the following code explaining each line:
