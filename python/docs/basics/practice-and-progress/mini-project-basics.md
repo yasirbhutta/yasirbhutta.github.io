@@ -73,7 +73,7 @@ Your expenses have been saved to 'expenses.txt'.
 
 ---
 
-#### **Bonus Challenges:**
+#### **Coding Challenge:**
 - Add a feature to categorize expenses (e.g., "Food", "Rent", "Utilities").
 - Allow the user to view expenses from a previous session by reading from the `expenses.txt` file.
 - Add a date and time stamp to each expense entry using the `datetime` module.
