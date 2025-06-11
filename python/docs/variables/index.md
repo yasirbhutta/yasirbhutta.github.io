@@ -14,6 +14,14 @@ breadcrumb:
     url: /python/docs/basics/
 ---
 
+## Table of Contents
+
+1. [Introduction to Variables](#1-introduction-to-variables)
+   - [How to Assign Values to Variables](#how-to-assign-values-to-variables)
+2. [Variable Naming Rules](#2-variable-naming-rules)
+   - [Valid vs. Invalid Variable Name](#valid-vs-invalid-variable-name)
+   - [Python Reserved Keywords (35 Total)](#-python-reserved-keywords-35-total)
+
 ## 1. Introduction to Variables
 
 - Storage containers for data (numbers, text, etc.).
@@ -32,7 +40,7 @@ breadcrumb:
 - Each box has a name (label) to identify what's inside.
 - You can put things in, take them out, and change what's inside.
 
-### **How to Assign Values to Variables in Python**  
+### **How to Assign Values to Variables**  
 
 In Python, variables are created when you assign a value to them using the `=` operator. Unlike some other languages, Python does not require explicit variable declaration (e.g., no `int x` needed).  
 
@@ -166,8 +174,8 @@ In Python, valid variable names must adhere to the following rules:
 - **Followed by letters, digits, or underscores:** After the first character, the variable name can contain letters, digits (0-9), or underscores.
 - **Case-sensitive:** Variable names are case-sensitive. For example, myVariable and myvariable would be considered different variables.
 - **No reserved keywords:** Variable names cannot be Python reserved keywords (e.g., if, for, while, class, etc.).
-
-### **Valid vs. Invalid Variable Names in Python**  
+s
+### **Valid vs. Invalid Variable Name**  
 
 #### **✅ Valid Variable Names**  
 - Can contain:  
