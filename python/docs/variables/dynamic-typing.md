@@ -4,7 +4,10 @@ title: "Dynamic Typing in Python Explained: Examples, Pitfalls & Best Practices"
 description: Learn what dynamic typing in Python means with simple examples. Discover how Python handles variables differently from statically typed languages like Java or C++.
 keywords: Python dynamic typing, Python variables, type checking Python, static vs dynamic typing, Python type hints, Python beginners tutorial, Python runtime types, python for beginners, learn with yasir, yasirbhutta
 toc: toc/python.html
+course: python
 topic: variables
+prev: /python/docs/variables/
+next: /python/docs/variables/none-constant.html
 breadcrumb:
   - title: Home
     url: /
