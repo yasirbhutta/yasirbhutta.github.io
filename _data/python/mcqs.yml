@@ -286,7 +286,7 @@ topics:
         explanation: "`None` has its own type, `NoneType`."
 
       - id: dyn008
-        difficulty: easy
+        difficulty: medium
         question: How do you check if a variable is `None` in Python?
         language: python
         code: ""
