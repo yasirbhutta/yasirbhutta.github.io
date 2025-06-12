@@ -28,7 +28,7 @@ breadcrumb:
 ## 📅 Week 1: Python Basics
 
 - **Day 1**: [Python Introduction, Setup, Hello World](../docs/basics/)
-- **Day 2**: [Variables](../docs/variables/), [Dynamic Typing](../docs/variables/dynamic-typing.md), [Data Types](../docs/data-types/) → [*The Dynamic User Profile*](../docs/variables/practice-and-progress/mini-projects-variables.md) 👤
+- **Day 2**: [Variables](../docs/variables/) 🧠, [Dynamic Typing](../docs/variables/dynamic-typing.md) 🪄, [Data Types](../docs/data-types/) 🧩 → [*The Dynamic User Profile*](../docs/variables/practice-and-progress/mini-projects-variables.md) 👤🛠️
 - **Day 3**: [Input/Output](../docs/input-output/), [Type Casting](../docs/data-types/type-casting.md)
 - **Day 4**: [Operators](../docs/operators/) (Arithmetic, Assignment, Logical, Comparison)
 - **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
