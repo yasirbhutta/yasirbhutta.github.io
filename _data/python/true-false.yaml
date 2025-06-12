@@ -1,5 +1,103 @@
 course: python
 topics:
+  - topic: variables
+    questions:
+      - id: var-tf-001
+        difficulty: easy
+        prompt: Variable names in Python are case-sensitive.
+        answer: true
+        explanation: >
+          Python treats uppercase and lowercase letters as distinct (e.g., `myVar` and `myvar` are different variables).
+
+      - id: var-tf-002
+        difficulty: easy
+        prompt: In Python, variables must be declared with a specific data type before they can be used.
+        answer: false
+        explanation: >
+          Python uses dynamic typing - variables are created when first assigned a value, without explicit type declaration.
+
+      - id: var-tf-003
+        difficulty: easy
+        prompt: The statement `x = 5` both creates the variable x and assigns it the value 5.
+        answer: true
+        explanation: >
+          In Python, assignment to a new variable name automatically creates that variable.
+
+      - id: var-tf-001
+        difficulty: easy
+        prompt: "Python variable names can start with a number."
+        answer: false
+        explanation: "Variable names must start with a letter (a-z, A-Z) or underscore (_)."
+
+      - id: var-tf-002
+        difficulty: easy
+        prompt: "`x = y = 5` is a valid way to assign the same value to multiple variables."
+        answer: true
+        explanation: "Python allows chained assignments in a single line."
+
+      - id: var-tf-003
+        difficulty: easy
+        prompt: "Variables must be explicitly deleted using `del` to free memory."
+        answer: false
+        explanation: "Python's garbage collector automatically handles memory management."
+
+      # Dynamic Typing
+      - id: var-tf-004
+        difficulty: medium
+        prompt: "Python is a statically typed language."
+        answer: false
+        explanation: "Python is dynamically typed - variable types are checked at runtime."
+
+      - id: var-tf-005
+        difficulty: medium
+        prompt: "A variable can hold an integer first, then a string later in the same program."
+        answer: true
+        explanation: "Dynamic typing allows variables to change types during execution."
+
+      - id: var-tf-006
+        difficulty: medium
+        prompt: "`type()` function returns the current type of a variable."
+        answer: true
+        explanation: "`type(x)` shows the type of object `x` currently references."
+
+      # None Related
+      - id: var-tf-007
+        difficulty: easy
+        prompt: "`None` is the same as `False` in Python."
+        answer: false
+        explanation: "`None` is a distinct object representing 'no value', while `False` is a boolean."
+
+      - id: var-tf-008
+        difficulty: medium
+        prompt: "A function without a `return` statement returns `None`."
+        answer: true
+        explanation: "Python functions implicitly return `None` if no return statement exists."
+
+      - id: var-tf-009
+        difficulty: hard
+        prompt: "`None` occupies zero bytes in memory."
+        answer: false
+        explanation: "`None` is a singleton object that does occupy memory (like any Python object)."
+
+      # Advanced Variable Concepts
+      - id: var-tf-010
+        difficulty: medium
+        prompt: "`x = None` is equivalent to not defining `x` at all."
+        answer: false
+        explanation: "`x = None` creates a variable bound to the `None` object, while an undefined variable raises a `NameError`."
+
+      - id: var-tf-011
+        difficulty: medium
+        prompt: "In Python, `a = b` creates a copy of `b`'s value."
+        answer: false
+        explanation: "Assignment creates a new reference to the same object (aliasing), not a copy."
+
+      - id: var-tf-012
+        difficulty: hard
+        prompt: "`None` can be used as a dictionary key."
+        answer: true
+        explanation: "`None` is hashable and can be used as a key, unlike mutable objects."
+        
   - topic: oop-encapsulation
     questions:
       - id: py-tf-011
