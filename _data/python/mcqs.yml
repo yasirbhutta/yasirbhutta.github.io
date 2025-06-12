@@ -179,7 +179,7 @@ topics:
         difficulty: easy
         question: What is dynamic typing in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "Variables must be declared with a fixed data type."
           - "Variables can change their type during runtime."
@@ -208,7 +208,7 @@ topics:
         difficulty: medium
         question: Which of the following is true about Python's type system?
         language: python
-        code: ""
+        code: null
         options:
           - "Python is statically typed."
           - "Python variables must be declared with a type."
@@ -236,7 +236,7 @@ topics:
         difficulty: easy
         question: What does `None` represent in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "A zero value"
           - "An empty string"
@@ -325,7 +325,7 @@ topics:
         difficulty: easy
         question: Which of the following is a valid use of `None`?
         language: python
-        code: ""
+        code: null
         options:
           - "As a default function argument"
           - "To represent an uninitialized variable"
@@ -356,7 +356,7 @@ topics:
         difficulty: easy
         question: What is the primary purpose of abstraction in OOP?
         language: python
-        code: ""
+        code: null
         options:
           - "To hide implementation details and show only essential features"
           - "To allow multiple inheritance in Python"
@@ -369,7 +369,7 @@ topics:
         difficulty: medium
         question: How is abstraction typically achieved in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "Using private methods with `__` prefix"
           - "Using abstract base classes (ABC) and `@abstractmethod`"
@@ -404,7 +404,7 @@ topics:
         difficulty: medium
         question: Which module is required to create abstract classes in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "`abstract`"
           - "`abc`"
@@ -444,7 +444,7 @@ topics:
         difficulty: medium
         question: Which of the following is TRUE about abstraction in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "Abstract methods can have implementations in the parent class"
           - "A class with at least one abstract method can be instantiated"
@@ -457,7 +457,7 @@ topics:
         difficulty: easy
         question: What does the `@abstractmethod` decorator do?
         language: python
-        code: ""
+        code: null
         options:
           - "Prevents a method from being called"
           - "Marks a method as requiring implementation in subclasses"
