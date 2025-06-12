@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python Coding Exercises: Variables, Naming Rules, Dynamic Typing & None"
-description: Practice Python with hands-on coding exercises for beginners. Master variables, naming conventions, dynamic typing, and the None constant with real-world examples and challenges.
-keywords: python coding exercises, Python variable exercises, Python naming rules, dynamic typing in Python, Python None constant, beginner Python practice, learn Python through exercises
+title: "True vs False in Python Variables | Practice & Progress Guide"
+description: "Master Python boolean variables with hands‑on exercises! Learn how to use True and False, explore type() and id(), and test your understanding with self‑grading practice questions."
+keywords: python true false variables, boolean variables python, python practice true false, type() id() python boolean, python beginners practice, true and false in python, python boolean exercises, python variable quiz, python variable practice, python boolean logic
 author: Muhammad Yasir Bhutta
 course: python
 topic: variables

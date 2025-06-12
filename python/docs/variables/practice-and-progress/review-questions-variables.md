@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python Coding Exercises: Variables, Naming Rules, Dynamic Typing & None"
-description: Practice Python with hands-on coding exercises for beginners. Master variables, naming conventions, dynamic typing, and the None constant with real-world examples and challenges.
-keywords: python coding exercises, Python variable exercises, Python naming rules, dynamic typing in Python, Python None constant, beginner Python practice, learn Python through exercises
+title: "Review Questions on Python Variables | Master Fundamentals"
+description: Reinforce your Python variable knowledge with targeted review questions. Test declaration, naming conventions, assignment, scope, and debugging via easy-to-follow quizzes.
+keywords: python review questions variables, python variable review quiz, python variables fundamentals, review python variables, python variable questions, python variables review exercises, test python variables, python variables basics review, python coding review variables, python quick review variables
 author: Muhammad Yasir Bhutta
 course: python
 topic: variables

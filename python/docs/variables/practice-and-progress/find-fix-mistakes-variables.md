@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python Coding Exercises: Variables, Naming Rules, Dynamic Typing & None"
-description: Practice Python with hands-on coding exercises for beginners. Master variables, naming conventions, dynamic typing, and the None constant with real-world examples and challenges.
-keywords: python coding exercises, Python variable exercises, Python naming rules, dynamic typing in Python, Python None constant, beginner Python practice, learn Python through exercises
+title: "Find & Fix Variable Mistakes in Python | Practice & Progress"
+description: Sharpen your Python debugging skills with ‘Find & Fix’ exercises for variable mistakes—naming errors, assignment issues, scope bugs—perfect for hands-on learning!.
+keywords: python find fix mistakes variables, python variable debugging, fix variable errors python, python variable mistakes practice, python debugging exercises, python variables find fix, python variable error quiz, python variables bug fix, debug python variables, python coding exercises variables
 author: Muhammad Yasir Bhutta
 course: python
 topic: variables
