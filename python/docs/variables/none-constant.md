@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python None, None vs null in Python, check for None in Python, NoneType explained, None default argument, Python None best practices, is None vs == None, Python null value, None singleton, handle missing values Python" 
-description: Learn what None means in Python, how to use it effectively, and best practices for comparisons, default values, and optional arguments. Includes code examples.
-keywords: Python None, None vs null in Python, check for None in Python, NoneType explained, None default argument, Python None best practices, is None vs == None, Python null value, None singleton, handle missing values Python
+title: "Python’s None and Constants Explained | Variables Guide" 
+description: Learn how Python’s built-in None constant works and how to define your own constants. Explore identity checks (is None vs == None), naming conventions, and best practices.
+keywords: python None constant, python built-in None, is None vs == None, python define constants, python NoneType, python constant naming, python constants best practices, python variables constants, python None tutorial, python identity operator None
 toc: toc/python.html
 course: python
 topic: variables
