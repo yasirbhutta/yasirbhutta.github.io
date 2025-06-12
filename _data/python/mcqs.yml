@@ -1,5 +1,364 @@
 course: python
 topics:
+  - topic: variables
+    questions:
+      - id: var001
+        difficulty: easy
+        question: What is a variable in Python?
+        language: python
+        code: ""
+        options:
+          - "A reserved word in Python"
+          - "A placeholder for storing data values"
+          - "A function that prints data"
+          - "A built-in library in Python"
+        answer: "A placeholder for storing data values"
+        explanation: A variable acts as a container to store data values in memory.
+
+      - id: var002
+        difficulty: easy
+        question: Which statement best describes a variable in Python?
+        language: python
+        code: ""
+        options:
+          - "A variable can hold multiple values at once."
+          - "A variable must be declared with a data type."
+          - "A variable is a name that refers to a value."
+          - "A variable is used only in loops."
+        answer: "A variable is a name that refers to a value."
+        explanation: In Python, variables are simply names that reference objects in memory.
+
+      - id: var003
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          print(x)
+        options:
+          - "10"
+          - "x"
+          - "Error"
+          - "None"
+        answer: "10"
+        explanation: The code assigns 10 to x and then prints the value of x.
+
+      - id: var004
+        difficulty: medium
+        question: Which of the following is not true about variables in Python?
+        language: python
+        code: ""
+        options:
+          - "Variables can be reassigned to different data types."
+          - "Variables must start with a letter or an underscore."
+          - "Variables are case-sensitive."
+          - "Variables must be declared before use."
+        answer: "Variables must be declared before use."
+        explanation: Python variables don't need declaration; they're created when first assigned.
+
+      - id: var005
+        difficulty: medium
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          x = 5
+          y = x
+          x = 7
+          print(y)
+        options:
+          - "7"
+          - "5"
+          - "0"
+          - "None"
+        answer: "5"
+        explanation: y gets the value of x (5) before x is changed to 7.
+
+      - id: var006
+        difficulty: easy
+        question: Why is it important to use meaningful variable names?
+        language: python
+        code: ""
+        options:
+          - "It is required by the Python interpreter."
+          - "It helps make the code more readable and maintainable."
+          - "It increases the execution speed of the program."
+          - "It is necessary for the code to run without errors."
+        answer: "It helps make the code more readable and maintainable."
+        explanation: Good variable names improve code understanding without affecting functionality.
+
+      - id: var007
+        difficulty: medium
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          a = 1
+          b = a
+          a = a + 1
+          print(a, b)
+        options:
+          - "1 1"
+          - "2 1"
+          - "1 2"
+          - "2 2"
+        answer: "2 1"
+        explanation: b gets the original value of a (1), then a is incremented to 2.
+
+      - id: var008
+        difficulty: easy
+        question: Which of the following is a valid variable name in Python?
+        language: python
+        code: ""
+        options:
+          - "2ndValue"
+          - "value#2"
+          - "_value2"
+          - "value-2"
+        answer: "_value2"
+        explanation: Valid names start with letters/underscores and contain alphanumerics/underscores.
+
+      - id: var009
+        difficulty: easy
+        question: Which of the following is a correct way to declare a variable in Python?
+        language: python
+        code: ""
+        options:
+          - "int x = 5"
+          - "x = 5"
+          - "declare x = 5"
+          - "var x = 5"
+        answer: "x = 5"
+        explanation: Python uses dynamic typing - just assign with = operator.
+
+      - id: var010
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 5
+          y = "Hello"
+          print(x + y)
+        options:
+          - "5Hello"
+          - "Hello5"
+          - "TypeError"
+          - "Hello 5"
+        answer: "TypeError"
+        explanation: Python cannot implicitly concatenate different types (int + str).
+
+      - id: var011
+        difficulty: easy
+        question: Which of the following is not a valid variable name in Python?
+        language: python
+        code: ""
+        options:
+          - "my_var"
+          - "_var"
+          - "2var"
+          - "var2"
+        answer: "2var"
+        explanation: Variable names cannot start with numbers.
+
+      - id: var012
+        difficulty: medium
+        question: Which of the following statements is true about variable assignment in Python?
+        language: python
+        code: ""
+        options:
+          - "Variables must be declared before they are assigned a value."
+          - "Variables are created when they are first assigned a value."
+          - "Variable names must begin with a number."
+          - "Python variables must be declared with a type."
+        answer: "Variables are created when they are first assigned a value."
+        explanation: Python variables come into existence at first assignment.
+
+      - id: var013
+        difficulty: easy
+        question: What is the purpose of declaring a variable in Python?
+        language: python
+        code: ""
+        options:
+          - "To reserve memory space for the variable"
+          - "To give the variable a name"
+          - "To initialize the variable with a value"
+          - "All of the above"
+        answer: "All of the above"
+        explanation: Variable declaration achieves all these purposes simultaneously.
+
+      - id: dyn001
+        difficulty: easy
+        question: What is dynamic typing in Python?
+        language: python
+        code: ""
+        options:
+          - "Variables must be declared with a fixed data type."
+          - "Variables can change their type during runtime."
+          - "Python enforces strict type checking at compile time."
+          - "Variables cannot be reassigned."
+        answer: "Variables can change their type during runtime."
+        explanation: Python allows variables to hold values of any type and change types dynamically.
+
+      - id: dyn002
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          x = "Hello"
+          print(type(x))
+        options:
+          - "<class 'int'>"
+          - "<class 'str'>"
+          - "Error"
+          - "None"
+        answer: "<class 'str'>"
+        explanation: Python allows reassigning `x` from an integer to a string (dynamic typing).
+
+      - id: dyn003
+        difficulty: medium
+        question: Which of the following is true about Python's type system?
+        language: python
+        code: ""
+        options:
+          - "Python is statically typed."
+          - "Python variables must be declared with a type."
+          - "Python checks types at runtime (dynamic typing)."
+          - "Python does not allow reassigning variables."
+        answer: "Python checks types at runtime (dynamic typing)."
+        explanation: Python resolves types during execution, not at compile time.
+
+      - id: dyn004
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = None
+          print(x is None)
+        options:
+          - "True"
+          - "False"
+          - "Error"
+          - "None"
+        answer: "True"
+        explanation: "`None` is a singleton in Python, and `is` checks for identity."
+
+      - id: dyn005
+        difficulty: easy
+        question: What does `None` represent in Python?
+        language: python
+        code: ""
+        options:
+          - "A zero value"
+          - "An empty string"
+          - "The absence of a value"
+          - "A placeholder for future use"
+        answer: "The absence of a value"
+        explanation: "`None` signifies <b>no value</b> or <b>null</b> in Python."
+
+      - id: dyn006
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def foo():
+              pass
+          print(foo())
+        options:
+          - "None"
+          - "Error"
+          - "0"
+          - "pass"
+        answer: "None"
+        explanation: A function without a `return` statement implicitly returns `None`.
+
+      - id: dyn007
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = [None, 1, "two"]
+          print(type(x[0]))
+        options:
+          - "<class 'NoneType'>"
+          - "<class 'int'>"
+          - "<class 'str'>"
+          - "Error"
+        answer: "<class 'NoneType'>"
+        explanation: "`None` has its own type, `NoneType`."
+
+      - id: dyn008
+        difficulty: easy
+        question: How do you check if a variable is `None` in Python?
+        language: python
+        code: ""
+        options:
+          - "if x == None:"
+          - "if x is None:"
+          - "if x = None:"
+          - "if None in x:"
+        answer: "if x is None:"
+        explanation: "`is` is preferred over `==` for `None` checks (identity vs. equality).""
+
+      - id: dyn009
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = None
+          y = None
+          print(x == y, x is y)
+        options:
+          - "True True"
+          - "False False"
+          - "True False"
+          - "Error"
+        answer: "True True"
+        explanation: "`None == None` is `True`, and `None is None` is also `True` (same object)."
+
+      - id: dyn010
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def bar():
+              return None
+          print(bar() is None)
+        options:
+          - "True"
+          - "False"
+          - "Error"
+          - "None"
+        answer: "True"
+        explanation: Explicitly returning `None` is the same as no `return` statement.
+
+      - id: dyn011
+        difficulty: easy
+        question: Which of the following is a valid use of `None`?
+        language: python
+        code: ""
+        options:
+          - "As a default function argument"
+          - "To represent an uninitialized variable"
+          - "To check if a key exists in a dictionary"
+          - "All of the above"
+        answer: "All of the above"
+        explanation: "`None` is commonly used for all these purposes."
+
+      - id: dyn012
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = "Hello"
+          x = None
+          print(x)
+        options:
+          - "Hello"
+          - "None"
+          - "Error"
+          - "null"
+        answer: "None"
+        explanation: "`x` is reassigned to `None`, which is printed."
+
   - topic: oop-abstraction
     questions:
       - id: abs001
