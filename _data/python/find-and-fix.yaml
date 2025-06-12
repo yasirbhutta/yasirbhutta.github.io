@@ -1,5 +1,101 @@
 course: python
 topics:
+  - topic: variables
+    questions:
+      - id: var-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the invalid variable name:
+        code: |
+          global-var = 10
+          print(global-var)
+        hint: Python variable names cannot contain hyphens.
+        issue: Hyphens are interpreted as subtraction operators.
+        solution: |
+          global_var = 10
+          print(global_var)
+
+      - id: var-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the variable assignment error:
+        code: |
+          print(message)
+          message = "Hello"
+        hint: Variables must be defined before use.
+        issue: Trying to access `message` before assignment.
+        solution: |
+          message = "Hello"
+          print(message)
+
+      - id: dyn-fix-001
+        difficulty: medium
+        prompt: |
+          Fix the type confusion bug:
+        code: |
+          price = "10"
+          total = price * 2
+          print(total)  # Outputs "1010" (unexpected)
+        hint: Strings and numbers behave differently with `*`.
+        issue: Dynamic typing allows the operation but produces undesired string concatenation.
+        solution: |
+          price = 10  # or int("10")
+          total = price * 2
+          print(total)  # Outputs 20
+
+      - id: dyn-fix-002
+        difficulty: hard
+        prompt: |
+          Fix the dynamic typing pitfall:
+        code: |
+          def add(a, b):
+              return a + b
+          
+          print(add(5, 3))     # 8
+          print(add("5", "3")) # "53" (unexpected for numbers)
+        hint: The `+` operator has different behaviors per type.
+        issue: Function works differently with strings vs numbers.
+        solution: |
+          def add(a, b):
+              return int(a) + int(b)
+
+      - id: none-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the None comparison:
+        code: |
+          result = None
+          if result == None:  # Works but non-idiomatic
+              print("Empty")
+        hint: Python has a dedicated operator for `None` checks.
+        issue: Should use identity comparison (`is`) for `None`.
+        solution: |
+          result = None
+          if result is None:
+              print("Empty")
+
+      - id: none-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the None-related crash:
+        code: |
+          def get_user():
+              return None
+          
+          user = get_user()
+          print(user.upper())  # AttributeError
+        hint: Methods can't be called on `None`.
+        issue: Attempting to call `.upper()` on a `None` value.
+        solution: |
+          def get_user():
+              return None
+          
+          user = get_user()
+          if user is not None:
+              print(user.upper())
+          else:
+              print("No user found")
+
   - topic: oop-encapsulation
     questions:
       - id: py-encap-fix-001
