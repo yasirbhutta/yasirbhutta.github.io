@@ -11,8 +11,10 @@ breadcrumb:
     url: /python/
 ---
 
-# Python Exercises for Beginners
+## 📅 Python Basics
 
+- **Variables**: [✅ True or False](../docs/variables/practice-and-progress/true-false-variables.md), [✍️ Fill in the Blanks](../docs/variables/practice-and-progress/fill-blanks-variables.md), [📝 Multiple-Choice Questions (MCQs)](../docs/variables/practice-and-progress/mcqs-variables.md), [🔍 Find and Fix Mistakes](../docs/variables/practice-and-progress/find-fix-mistakes-variables.md), 💻 Online Quiz, [🏋️‍♂️ Exercises](../docs/variables/practice-and-progress/exercises-variables.md), [🧪 Mini Projects](../docs/variables/practice-and-progress/mini-projects-variables.md), [🔄 Review Questions](../docs/variables/practice-and-progress/review-questions-variables.md)
+  
 ## Control Flow Statements
 
 - [Python Exercises for if elif else statement](../exercises/python-exercises-if-elif-else.md)
