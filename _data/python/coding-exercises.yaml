@@ -1,5 +1,155 @@
 course: python
 topics:
+  - topic: variables
+    exercises:
+      - id: py-ce-var-001
+        title: "Basic Variable Assignment"
+        task: |
+          1. Create a variable called `name` and assign your name to it
+          2. Create a variable called `age` and assign your age to it
+          3. Create a variable called `city` and assign your city to it
+          4. Print all three variables
+        requirements:
+          - "Use proper variable naming conventions"
+          - "Include all three variables in one print statement"
+        input: "No input required"
+        output: |
+          John 30 New York
+        resource:
+          name: "Variable Basics"
+          url: "https://www.w3schools.com/python/python_variables.asp"
+        difficulty: "easy"
+
+      - id: py-ce-var-002
+        title: "Variable Reassignment"
+        task: |
+          1. Create variable `favorite_color` with initial color
+          2. Print initial value
+          3. Reassign new color
+          4. Print new value
+        requirements:
+          - "Demonstrate variable reassignment"
+          - "Show both before/after states"
+        input: "No input required"
+        output: |
+          Blue
+          Green
+        resource:
+          name: "Variable Reassignment"
+          url: "https://realpython.com/python-variables/"
+        difficulty: "easy"
+
+      - id: py-ce-var-003
+        title: "Variable Operations"
+        task: |
+          1. Create variables `a=5` and `b=10`
+          2. Calculate sum, difference, and product
+          3. Print all results
+        requirements:
+          - "Use separate variables for each operation"
+          - "Print formatted output"
+        input: "No input required"
+        output: |
+          Sum: 15
+          Difference: -5
+          Product: 50
+        resource:
+          name: "Python Operators"
+          url: "https://www.programiz.com/python-programming/operators"
+        difficulty: "easy"
+
+      - id: py-ce-var-004
+        title: "String Concatenation"
+        task: |
+          1. Create `first_name` and `last_name` variables
+          2. Combine into `full_name` with space
+          3. Print result
+        requirements:
+          - "Use string concatenation"
+          - "Handle spacing properly"
+        input: "No input required"
+        output: |
+          Alice Johnson
+        example_solution: |
+          first_name = "Alice"
+          last_name = "Johnson"
+          full_name = first_name + " " + last_name
+          print(full_name)
+        difficulty: "easy"
+
+      - id: py-ce-var-005
+        title: "Input and Variables"
+        task: |
+          1. Get user's name via input()
+          2. Get user's age via input()
+          3. Print greeting message
+        requirements:
+          - "Use descriptive input prompts"
+          - "Format output string properly"
+        input: |
+          Enter your name: Alice
+          Enter your age: 25
+        output: |
+          Hello Alice, you are 25 years old.
+        example_solution: |
+          user_name = input("Enter your name: ")
+          user_age = input("Enter your age: ")
+          print("Hello", user_name + ", you are", user_age, "years old.")
+        difficulty: "easy"
+
+      - id: py-ce-var-006
+        title: "Circle Area Calculation"
+        task: |
+          1. Get radius from user
+          2. Calculate area (πr²)
+          3. Print result
+        requirements:
+          - "Use math.pi for π"
+          - "Handle decimal inputs"
+        input: |
+          Enter radius: 5
+        output: |
+          Area: 78.53981633974483
+        resource:
+          name: "View Solution"
+          url: "https://www.youtube.com/watch?v=QoECA8v_2tQ"
+        difficulty: "medium"
+
+      - id: py-ce-var-007
+        title: "Variable Swapping"
+        task: |
+          1. Initialize two variables
+          2. Swap values without third variable
+          3. Print before/after
+        requirements:
+          - "Use tuple unpacking method"
+          - "No temporary variables allowed"
+        input: "No input required"
+        output: |
+          Before: x=5, y=10
+          After: x=10, y=5
+        resource:
+          name: "View Solution"
+          url: "https://youtu.be/CVy3A48WXeE"
+        difficulty: "medium"
+
+      - id: py-ce-var-008
+        title: "Multiple Variable Assignment"
+        task: |
+          1. Assign multiple values to multiple variables
+          2. Demonstrate both single-line and unpacking methods
+        requirements:
+          - "Show at least 3 variables"
+          - "Include sequence unpacking example"
+        input: "No input required"
+        output: |
+          Single-line: a=1, b=2, c=3
+          Unpacking: x=10, y=20, z=30
+        resource:
+          name: "View Solution"
+          url: "https://youtu.be/ur8rkDPzuSU"
+        difficulty: "easy"
+
   - topic: loops-while
     exercises:
       - id: py-ce-wl-001
