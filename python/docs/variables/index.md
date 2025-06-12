@@ -24,7 +24,7 @@ breadcrumb:
 3. [Practical Tasks](#3-practical-tasks)  
    - [Task 1: Rectangle Calculator](#task-1-rectangle-calculator)  
    - [Task 2: Exploring `type()` and `id()`](#task-2-exploring-type-and-id)  
-4. [Dynamic Variables](dynamic-variables.md)
+4. [Dynamic Typing](dynamic-typing.md)
 5. [None Constant](none-constant.md)
 
 
