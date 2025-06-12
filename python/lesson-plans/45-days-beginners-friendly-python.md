@@ -32,7 +32,7 @@ breadcrumb:
 - **Day 4**: [Operators](../docs/operators/) (Arithmetic, Assignment, Logical, Comparison)
 - **Day 5**: [Strings](../docs/strings/strings-manip.md) and [Common String Methods](../docs/strings/strings-formatting.md)
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
-- **Day 7**: Practice Exercises + Quiz
+- **Day 7**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)
 
 **🔧 Mini Project**: Simple Calculator
 
@@ -46,7 +46,7 @@ breadcrumb:
 - **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
 - **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
 - **Day 13**: [List Comprehension](../docs/list-comprehension/)
-- **Day 14**: Practice + Quiz
+- **Day 14**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)
 
 **🔧 Mini Project**: [Number Guessing Game](../docs/loops-while/practice-and-progress/mini-projects-loops-while.md)
 
