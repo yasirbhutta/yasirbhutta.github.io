@@ -140,9 +140,9 @@ Choose one:
 
 ## 📝 Practice Resources
 
+- [Python Coding Exercises](../exercises/)
+- [Python Quizzes](../quizzes/)
 - [W3Schools Python Exercises](https://www.w3schools.com/python/python_exercises.asp)
-- [Practice Python](https://www.practicepython.org/)
-- [Python Koans](https://github.com/gregmalcolm/python_koans)
 - [Real Python Tutorials](https://realpython.com)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
