@@ -6,9 +6,9 @@ keywords: python mini projects variables, python variables projects, python hand
 author: Muhammad Yasir Bhutta
 course: python
 topic: variables
-show_toc: false
+show_toc: null
 toc: toc/python.html
-show_practice_progress: false
+show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/variables/practice-and-progress/fill-blanks-variables.html
 next: /python/docs/variables/practice-and-progress/mcqs-variables.html
