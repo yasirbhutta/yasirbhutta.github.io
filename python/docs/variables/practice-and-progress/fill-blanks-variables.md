@@ -30,15 +30,3 @@ breadcrumb:
 {% assign examples = selected_topic.examples %}
 {% assign resources = selected_topic.resources %}
 {% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
-
-## Fill in the Blanks
-
-1. Variable names in Python must start with a letter or an __________.
-2. Variables in Python are __________, meaning they can change type when assigned a new value.
-3. The assignment operator in Python is the __________ symbol.
-
-**Answer Key (Fill in the Blanks):**
-
-1.  underscore (_)
-2.  dynamic
-3.  equals (=)

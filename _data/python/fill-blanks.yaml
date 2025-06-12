@@ -1,5 +1,79 @@
 course: python
 topics:
+  - topic: variables
+    questions:
+      - id: var-fib-001
+        difficulty: easy
+        prompt: "Variable names in Python must start with a letter or an __________."
+        answer: "underscore"
+        explanation: "Python variable names can begin with a letter (a-z, A-Z) or underscore (_), but not numbers or other characters."
+
+      - id: var-fib-002
+        difficulty: medium
+        prompt: "Variables in Python are __________, meaning they can change type when assigned a new value."
+        answer: "dynamic"
+        explanation: "Python uses dynamic typing, allowing variables to hold values of any type and change types during execution."
+
+      - id: var-fib-003
+        difficulty: easy
+        prompt: "The assignment operator in Python is the __________ symbol."
+        answer: "equals"
+        explanation: "The equals sign (=) is used for assignment in Python (e.g., x = 5)."
+
+      - id: var-fib-001
+        difficulty: easy
+        prompt: "In Python, variable names are case-__________."
+        answer: "sensitive"
+        explanation: "Python treats myVar and myvar as different variables."
+
+      - id: var-fib-002
+        difficulty: easy
+        prompt: "The __________ keyword is used to delete a variable in Python."
+        answer: "del"
+        explanation: "The del statement removes the binding of a variable."
+
+      - id: var-fib-003
+        difficulty: medium
+        prompt: "Python variables are actually __________ to objects in memory."
+        answer: "references"
+        explanation: "Variables store references to objects rather than containing the objects themselves."
+
+      - id: dyn-fib-001
+        difficulty: medium
+        prompt: "Python checks variable types at __________ rather than compile time."
+        answer: "runtime"
+        explanation: "This is why Python is called a dynamically typed language."
+
+      - id: dyn-fib-002
+        difficulty: hard
+        prompt: "The __________ function can be used to check a variable's current type."
+        answer: "type"
+        explanation: "type(x) returns the class/type of object x currently references."
+
+      - id: dyn-fib-003
+        difficulty: medium
+        prompt: "When you assign a = b, both variables become __________ to the same object."
+        answer: "references"
+        explanation: "Assignment creates a new reference, not a copy of the object."
+
+      - id: none-fib-001
+        difficulty: easy
+        prompt: "The special value representing 'no value' in Python is __________."
+        answer: "None"
+        explanation: "None is Python's null/nothing value."
+
+      - id: none-fib-002
+        difficulty: medium
+        prompt: "Functions without a return statement implicitly return __________."
+        answer: "None"
+        explanation: "This is why print(my_function()) shows None when the function has no return."
+
+      - id: none-fib-003
+        difficulty: hard
+        prompt: "To properly check for None, you should use the __________ operator rather than ==."
+        answer: "is"
+        explanation: "The 'is' operator checks for identity with the None singleton."
+
   - topic: oop-encapsulation
     questions:
       - id: py-encap-001

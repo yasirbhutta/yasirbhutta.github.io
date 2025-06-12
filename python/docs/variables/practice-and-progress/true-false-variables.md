@@ -30,15 +30,3 @@ breadcrumb:
 <!-- {% assign examples = selected_topic.examples %} -->
 {% assign resources = selected_topic.resources %}
 {% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}
-
-## True/False (Mark T for True and F for False)
-
-1. Variable names in Python are case-sensitive.
-2. In Python, variables must be declared with a specific data type before they can be used.
-3. The statement x = 5 both creates the variable x and assigns it the value 5.
-
-**Answer Key (True/False):**
-
-1. True
-2. False
-3. True
