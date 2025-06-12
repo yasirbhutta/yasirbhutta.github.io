@@ -1,5 +1,39 @@
 course: python
 topics:
+
+  - topic: variables
+    questions:
+      - id: var-review-001
+        prompt: "What is a variable in computer programming?"
+        answer: "A variable is a named storage location in a computer's memory that is used to hold data or values. It allows programmers to store and manipulate data within a program."
+        examples:
+          - "integer: `age = 25`"
+          - "string: `name = 'Alice'`"
+          - "float: `price = 19.99`"
+          - "boolean: `is_active = True`"
+        resources:
+          - name: "Python Variables"
+            url: "https://yasirbhutta.github.io/python/docs/variables/variables-basics.html#1-what-are-variables"
+
+      - id: var-review-002
+        prompt: "What is the purpose of using variables in programming?"
+        answer: "Variables provide a way to store and manage data that can be used and manipulated throughout a program. They make programs more flexible and allow for dynamic data storage."
+        resources:
+          - name: "Why Use Variables"
+            url: "https://yasirbhutta.github.io/python/docs/variables/variables-basics.html"
+
+      - id: var-review-003
+        prompt: "What is the difference between declaring and initializing a variable?"
+        answer: "Declaring a variable involves specifying its name, while initializing means giving it an initial value. In Python, declaration and initialization happen simultaneously. Python is dynamically typed, so explicit type declaration isn't required."
+        example:
+          code: |
+            # Declaration and initialization in Python:
+            count = 10  # Integer
+            message = "Hello"  # String
+        resources:
+          - name: "Variable Declaration"
+            url: "https://yasirbhutta.github.io/python/docs/variables/variables-basics.html"
+
   - topic: oop-encapsulation
     questions:
       - id: py-encap-001
