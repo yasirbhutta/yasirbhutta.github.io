@@ -113,6 +113,18 @@ Any data point is considered an **outlier** if it is:
 
 These points will show up as **individual dots** **outside the whiskers** in a box plot.
 
+Example:
+Let's say you have a dataset where: **Q1 = 20**, **Q3 = 80**, and **IQR = 80 - 20 = 60**. 
+Then: 
+
+```
+Lower Fence (Q1 - 1.5 * IQR) = 20 - 1.5 * 60 = -70
+Upper Fence (Q3 + 1.5 * IQR) = 80 + 1.5 * 60 = 170
+```
+
+Any data point less than -70 or greater than 170 would be flagged as an `outlier`. 
+
+
 ---
 
 ### 🐍 Python Example Using Matplotlib and NumPy
