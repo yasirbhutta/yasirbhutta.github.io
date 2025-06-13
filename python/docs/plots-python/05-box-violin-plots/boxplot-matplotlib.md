@@ -39,16 +39,8 @@ It's great for comparing distributions across **multiple datasets**.([atlassian]
 
 ### 📊 Structure of a Box Plot
 
-<div class="mermaid">
-graph LR
-    Min[Min (|)] --> Q1[Q1 (25th)]
-    Q1 --> Q2[Q2 (Median)]
-    Q2 --> Q3[Q3 (75th)]
-    Q3 --> Max[Max (|)]
-
-    Q1 -.-> Q3[Interquartile Range (Box)]
-    Q2 --> M[(↑ Median)]
-</div>
+![box plot](https://wac-cdn.atlassian.com/dam/jcr:3ecc2cdd-2878-4b9f-a853-f0d1782ad285/box-plot-construction.png)
+Image source: [www.atlassian.com](https://www.atlassian.com/data/charts/box-plot-complete-guide)
 
 * **Q1**: 25th percentile
 * **Q2 (Median)**: 50th percentile
@@ -56,10 +48,6 @@ graph LR
 * **IQR**: Q3 - Q1
 * **Whiskers**: Extend to 1.5 × IQR or actual min/max
 * **Dots**: Outliers
-
-![box plot](https://wac-cdn.atlassian.com/dam/jcr:3ecc2cdd-2878-4b9f-a853-f0d1782ad285/box-plot-construction.png)
-
-Image source: [www.atlassian.com](https://www.atlassian.com/data/charts/box-plot-complete-guide)
 ---
 
 ### 🐍 Simple Example in Matplotlib
