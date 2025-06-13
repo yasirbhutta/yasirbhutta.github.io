@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Taylor Diagram in Python using Matplotlib and Pandas | Visualize Model Performance"
-description: Learn how to create a Taylor Diagram in Python using Matplotlib and Pandas. This guide explains model evaluation through standard deviation, correlation, and performance visualization with clear code examples.
-keywords: Taylor diagram Python, Taylor diagram matplotlib, Python Taylor plot, model evaluation Python, Taylor diagram tutorial, Taylor diagram with pandas, matplotlib Taylor diagram, visualize model accuracy Python, standard deviation correlation Python, Python model comparison chart
+title: "Box Plot in Matplotlib – Python Visualization Guide with Examples"
+description: Learn how to create box plots in Matplotlib using Python. This tutorial covers box plot components, customization, outlier detection, and side-by-side comparisons with violin plots.
+keywords: box plot matplotlib, python boxplot tutorial, boxplot example python, matplotlib box plot customization, boxplot vs violin plot, matplotlib outliers, box plot components, python data visualization, statistical plots python
 author: Muhammad Yasir Bhutta
 course: python
 topic: plots-python
