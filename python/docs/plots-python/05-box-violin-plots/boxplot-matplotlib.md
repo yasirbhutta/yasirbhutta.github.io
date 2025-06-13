@@ -57,6 +57,9 @@ graph LR
 * **Whiskers**: Extend to 1.5 × IQR or actual min/max
 * **Dots**: Outliers
 
+![box plot](https://datavizcatalogue.com/methods/images/anatomy/box_plot.png)
+
+Image source: [datavizcatalogue.com](https://datavizcatalogue.com/methods/box_plot.html)
 ---
 
 ### 🐍 Simple Example in Matplotlib
