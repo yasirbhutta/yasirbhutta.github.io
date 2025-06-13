@@ -88,4 +88,3 @@ plt.show()
 
 ---
 
-Would you like a version with **violin plot** alongside for comparison?
