@@ -40,6 +40,7 @@ It's great for comparing distributions across **multiple datasets**.([atlassian]
 ### 📊 Structure of a Box Plot
 
 ![box plot](https://wac-cdn.atlassian.com/dam/jcr:3ecc2cdd-2878-4b9f-a853-f0d1782ad285/box-plot-construction.png)
+
 Image source: [www.atlassian.com](https://www.atlassian.com/data/charts/box-plot-complete-guide)
 
 * **Q1**: 25th percentile
@@ -48,6 +49,7 @@ Image source: [www.atlassian.com](https://www.atlassian.com/data/charts/box-plot
 * **IQR**: Q3 - Q1
 * **Whiskers**: Extend to 1.5 × IQR or actual min/max
 * **Dots**: Outliers
+
 ---
 
 ### 🐍 Simple Example in Matplotlib
