@@ -5,9 +5,9 @@ description: Master data visualization in Python with Matplotlib. Learn how to c
 keywords: matplotlib plots python, python plotting tutorial, matplotlib examples, python data visualization, matplotlib line plot, scatter plot matplotlib, bar chart python, customize plots matplotlib, matplotlib guide, python matplotlib basics
 author: Muhammad Yasir Bhutta
 course: python
-topic: matplotlib
+topic: plots-python
 show_toc: null
-toc: toc/ms-excel-toc.html
+toc: toc/python.html
 show_practice_progress: null
 show_mini_project: null
 breadcrumb:
@@ -20,3 +20,5 @@ breadcrumb:
 ## Table of Contents
 
 1. [🎯 **What is a Taylor Diagram?**](what-taylor-diagram.md)
+2. [Create Taylor Diagram in Python](create-taylor-diagram.md)
+   
