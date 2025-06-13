@@ -97,8 +97,8 @@ import numpy as np
 df = pd.read_excel("test_data.xlsx")
 
 # Separate observed and model data
-obs = df['Actual FS']
-models = df.drop(columns='Actual FS')
+obs = df['Observed']
+models = df.drop(columns='Observed')
 
 # Compute statistics
 def compute_stats(model, obs):
@@ -137,9 +137,183 @@ ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
 plt.tight_layout()
 plt.show()
 ```
+
+### Code Explanation 📒
+
+#### 🔹 **1. Import Required Libraries**
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+```
+
+* `pandas`: for reading and handling tabular data from Excel.
+* `matplotlib.pyplot`: for creating the polar plot (Taylor diagram).
+* `numpy`: for numerical operations like standard deviation and correlation.
+
 ---
 
-### 📌 Taylor Diagram Shows:
+#### 🔹 **2. Read Excel File**
+
+```python
+df = pd.read_excel("test_data.xlsx")
+```
+
+* Loads the Excel file `test_data.xlsx` into a DataFrame named `df`.
+
+---
+
+#### 🔹 **3. Separate Observed and Model Data**
+
+```python
+obs = df['Observed']
+models = df.drop(columns='Observed')
+```
+
+* `obs`: the column containing the observed/reference data.
+* `models`: all other columns, each assumed to be output from a different model.
+
+---
+
+#### 🔹 **4. Define a Function to Compute Statistics**
+
+```python
+def compute_stats(model, obs):
+    std_model = np.std(model)
+    corr_coeff = np.corrcoef(model, obs)[0, 1]
+    return std_model, corr_coeff
+```
+
+* Calculates:
+
+  * `std_model`: standard deviation of the model's predictions.
+  * `corr_coeff`: correlation coefficient between the model and observations.
+
+---
+
+#### 🔹 **5. Set Up the Taylor Diagram Plot**
+
+```python
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, polar=True)
+```
+
+* Creates an 8×6 inch figure.
+* Adds a **polar subplot** (used for Taylor diagrams).
+
+---
+
+#### 🔹 **6. Adjust Polar Orientation**
+
+```python
+ax.set_theta_direction(-1)
+ax.set_theta_offset(np.pi / 2)
+```
+
+* `set_theta_direction(-1)`: clockwise direction.
+* `set_theta_offset(np.pi / 2)`: sets 0° (correlation = 1) to the top of the plot.
+
+---
+
+#### 🔹 **7. Plot the Observed Reference Point**
+
+```python
+std_ref = np.std(obs)
+ax.plot([0], [std_ref], 'ko', label='Observation')
+```
+
+* Calculates the standard deviation of the observed data.
+* Plots it as a **black circle** at angle 0 (correlation = 1) and radius = `std_ref`.
+
+---
+
+#### 🔹 **8. Draw Grid Circles (Optional Background)**
+
+```python
+rs = np.linspace(0, 1.5 * std_ref, 100)
+ts = np.arccos(np.linspace(0, 1, 100))
+for r in rs[::20]:
+    ax.plot(ts, np.full_like(ts, r), color='gray', alpha=0.3)
+```
+
+* Draws **concentric circular lines** to guide comparison of standard deviations.
+* `rs`: radial distances.
+* `ts`: angular values converted from correlation.
+
+---
+
+#### 🔹 **9. Plot Each Model's Statistics**
+
+```python
+colors = ['r', 'g', 'b', 'm', 'c']
+```
+
+* Predefined colors for different models.
+
+```python
+for i, column in enumerate(models.columns):
+    model_data = models[column].values
+    std_model, corr = compute_stats(model_data, obs)
+    theta = np.arccos(corr)
+    ax.plot(theta, std_model, 'o', label=column, color=colors[i % len(colors)])
+```
+
+* Loops through each model column:
+
+  * Gets model values.
+  * Calculates standard deviation and correlation.
+  * Converts correlation to polar angle (`theta`).
+  * Plots each model's point on the diagram with a unique color and label.
+
+---
+
+#### 🔹 **10. Final Plot Customization**
+
+```python
+ax.set_title('Model 1 - Test', pad=30)
+```
+
+* Adds title to the plot and increases vertical spacing using `pad`.
+
+```python
+ax.set_rlim(0, 1.5 * std_ref)
+```
+
+* Sets radial (standard deviation) axis limit.
+
+```python
+ax.set_rlabel_position(135)
+```
+
+* Places the radial axis labels (STD values) at 135°.
+
+```python
+ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
+```
+
+* Adds a legend outside the plot for model names.
+
+```python
+plt.tight_layout()
+plt.show()
+```
+
+* Ensures layout is neat and displays the plot.
+
+---
+
+#### 📌 Summary:
+
+This code reads observed and model data from Excel and uses a **Taylor diagram** to compare models based on:
+
+* **Standard deviation** (radial distance),
+* **Correlation** (angle),
+* And **distance from reference** (related to RMSE, visually).
+
+---
+
+#### 📌 Taylor Diagram Shows:
 
 * **Radial distance**: Standard deviation
 * **Angle**: Correlation coefficient
