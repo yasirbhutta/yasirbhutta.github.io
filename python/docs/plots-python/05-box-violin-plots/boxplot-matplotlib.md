@@ -41,14 +41,14 @@ It's great for comparing distributions across **multiple datasets**.
 
 <div class="mermaid">
 graph LR
-    A[|] --> B[==== Q1]
-    B --> C[===== Q2 (Median)]
-    C --> D[==== Q3]
-    D --> E[|]
-    B -.-> D[Box Range]
-    C --> F[(^ Median)]
-</div>
+    Min[Min (|)] --> Q1[Q1 (25th)]
+    Q1 --> Q2[Q2 (Median)]
+    Q2 --> Q3[Q3 (75th)]
+    Q3 --> Max[Max (|)]
 
+    Q1 -.-> Q3[Interquartile Range (Box)]
+    Q2 --> M[(↑ Median)]
+</div>
 
 * **Q1**: 25th percentile
 * **Q2 (Median)**: 50th percentile
