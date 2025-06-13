@@ -34,7 +34,7 @@ It's great for comparing distributions across **multiple datasets**.
 
 ### 📊 Structure of a Box Plot
 
-```
+```mermaid
 |-----|====|=====|====|-----|
 min   Q1   Q2    Q3   max
       |---- box ----|
