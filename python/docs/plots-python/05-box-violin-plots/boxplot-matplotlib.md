@@ -40,11 +40,15 @@ It's great for comparing distributions across **multiple datasets**.
 ### 📊 Structure of a Box Plot
 
 <div class="mermaid">
-|-----|====|=====|====|-----|
-min   Q1   Q2    Q3   max
-      |---- box ----|
-           ^ median
+graph LR
+    A[|] --> B[==== Q1]
+    B --> C[===== Q2 (Median)]
+    C --> D[==== Q3]
+    D --> E[|]
+    B -.-> D[Box Range]
+    C --> F[(^ Median)]
 </div>
+
 
 * **Q1**: 25th percentile
 * **Q2 (Median)**: 50th percentile
