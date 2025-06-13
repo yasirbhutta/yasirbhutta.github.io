@@ -87,6 +87,57 @@ plt.show()
 ```
 
 ---
+### Taylor Diagram in Python Using Pandas and Matplotlib \| Model Comparison Example
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+df = pd.read_excel("test_data.xlsx")
+
+# Separate observed and model data
+obs = df['Actual FS']
+models = df.drop(columns='Actual FS')
+
+# Compute statistics
+def compute_stats(model, obs):
+    std_model = np.std(model)
+    corr_coeff = np.corrcoef(model, obs)[0, 1]
+    return std_model, corr_coeff
+
+# Setup Taylor diagram
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, polar=True)
+ax.set_theta_direction(-1)
+ax.set_theta_offset(np.pi / 2)
+
+# Reference STD
+std_ref = np.std(obs)
+ax.plot([0], [std_ref], 'ko', label='Observation')
+
+# Grid and labels
+rs = np.linspace(0, 1.5 * std_ref, 100)
+ts = np.arccos(np.linspace(0, 1, 100))
+for r in rs[::20]:
+    ax.plot(ts, np.full_like(ts, r), color='gray', alpha=0.3)
+
+# Plot each model
+colors = ['r', 'g', 'b', 'm', 'c']
+for i, column in enumerate(models.columns):
+    model_data = models[column].values
+    std_model, corr = compute_stats(model_data, obs)
+    theta = np.arccos(corr)
+    ax.plot(theta, std_model, 'o', label=column, color=colors[i % len(colors)])
+
+ax.set_title('Model 1 - Test',pad=30)
+ax.set_rlim(0, 1.5 * std_ref)
+ax.set_rlabel_position(135)
+ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
+plt.tight_layout()
+plt.show()
+```
+---
 
 ### 📌 Taylor Diagram Shows:
 
