@@ -19,7 +19,7 @@ layout: default
     {{ content }}
     
     <hr>
-{% if page.show_practice_progress != false %}
+{% if page.show_practice_progress %}
 {% assign topic = page.topic | default: "" %}
 {% assign course = page.course | default: "" %}
 {% assign show_mini_project = page.mini_project | default: "" %}
