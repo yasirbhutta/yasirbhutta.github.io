@@ -149,7 +149,7 @@ import numpy as np
 ```
 
 * `pandas`: for reading and handling tabular data from Excel.
-* `matplotlib.pyplot`: for creating the polar plot (Taylor diagram).
+* `matplotlib.pyplot`: for creating the [polar plot](../polar-plot/) (Taylor diagram).
 * `numpy`: for numerical operations like standard deviation and correlation.
 
 ---
