@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Taylor Diagram of Model Predictions — Quarter Circle View with Correlation Labels"
-description: Visualize and compare model predictions with observed Factor of Safety (FS) using a Taylor Diagram in Python. This quarter-circle diagram highlights standard deviation and correlation, with labeled axes and a clean layout for intuitive analysis.
-keywords: taylor diagram, python taylor plot, model evaluation, factor of safety, FS comparison, matplotlib polar plot, model vs observed, correlation visualization, standard deviation plot, data science visualization, geotechnical model analysis, pandas data visualization
+title: "Boxplot in Matplotlib: Create Box and Whisker Plots in Python"
+description: Learn how to create boxplots in Python using Matplotlib. Visualize distributions, identify outliers, and compare data groups with clear examples and code.
+keywords: boxplot matplotlib, boxplot python, box and whisker plot matplotlib, matplotlib boxplot example, python data visualization, compare distributions python, matplotlib tutorial, outliers in boxplot, data visualization with matplotlib, boxplot guide
 author: Muhammad Yasir Bhutta
 course: python
 topic: matplotlib
