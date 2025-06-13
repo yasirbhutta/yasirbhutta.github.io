@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Matplotlib"
-description: Learn Matplotlib.
-keywords: Matplotlib
+title: "Taylor Diagram in Python | Matplotlib Guide with Examples"
+description: Learn what a Taylor Diagram is and how to create one using Python's Matplotlib. This beginner-friendly guide explains standard deviation, correlation, and variability with clear examples.
+keywords: Taylor diagram Python, Taylor diagram matplotlib, Python matplotlib tutorial, Taylor diagram example, model evaluation Python, visualize model performance, standard deviation correlation Python, Taylor diagram interpretation, Python data visualization, matplotlib Taylor plot
 author: Muhammad Yasir Bhutta
 course: python
 topic: matplotlib
@@ -160,7 +160,7 @@ This shows why you need to evaluate **both**:
 
 ## 📘 **Related Topics**
 
-* **Variability in Modeling and Taylor Diagram Context** – Learn variability and in Modeling and Taylor Diagram Context.
+* **Understanding Variability in Taylor Diagram | Python Matplotlib Tutorial** – Explore the concept of variability in a Taylor Diagram using Python and Matplotlib. Learn how variability helps interpret model performance with practical visualization examples.
   👉 [Learn more](variability-taylor-diagram.md)
 
 

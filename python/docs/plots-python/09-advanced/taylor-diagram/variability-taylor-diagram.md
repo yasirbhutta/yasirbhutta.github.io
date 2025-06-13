@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Matplotlib"
-description: Learn Matplotlib.
-keywords: Matplotlib
+title: "Understanding Variability in Taylor Diagram | Python Matplotlib Tutorial"
+description: Explore the concept of variability in a Taylor Diagram using Python and Matplotlib. Learn how variability helps interpret model performance with practical visualization examples.
+keywords: variability in Taylor diagram, Taylor diagram Python, matplotlib Taylor diagram, model comparison Python, model variability visualization, Taylor plot explanation, standard deviation Python, Python matplotlib tutorial, interpret Taylor diagram, model performance metrics
 author: Muhammad Yasir Bhutta
 course: python
 topic: matplotlib
