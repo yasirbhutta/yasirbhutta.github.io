@@ -61,7 +61,7 @@ breadcrumb:
 
 ## 📅 Week 7: Box & Violin Plots
 
-* **Day 19**: Boxplot using `matplotlib`
+* **Day 19**: [Boxplot using `matplotlib`](../docs/plots-python/05-box-violin-plots/boxplot-matplotlib.md)
 * **Day 20**: Boxplot + Violin Plot with `seaborn`
 * **Day 21**: Interactive boxplot with `plotly`
 
