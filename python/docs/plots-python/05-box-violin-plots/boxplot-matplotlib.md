@@ -33,7 +33,7 @@ A **box plot** is a graphical summary of data distribution. It helps visualize:
 * **Minimum and Maximum (within limits)**
 * **Outliers (data points that fall outside 1.5×IQR)**
 
-It's great for comparing distributions across **multiple datasets**.
+It's great for comparing distributions across **multiple datasets**.([atlassian][1])
 
 ---
 
@@ -57,9 +57,9 @@ graph LR
 * **Whiskers**: Extend to 1.5 × IQR or actual min/max
 * **Dots**: Outliers
 
-![box plot](https://datavizcatalogue.com/methods/images/anatomy/box_plot.png)
+![box plot](https://wac-cdn.atlassian.com/dam/jcr:3ecc2cdd-2878-4b9f-a853-f0d1782ad285/box-plot-construction.png)
 
-Image source: [datavizcatalogue.com](https://datavizcatalogue.com/methods/box_plot.html)
+Image source: [www.atlassian.com](https://www.atlassian.com/data/charts/box-plot-complete-guide)
 ---
 
 ### 🐍 Simple Example in Matplotlib
@@ -174,4 +174,6 @@ print("Outliers:", outliers)
 * **Dots beyond whiskers = outliers**
 
 
+## References and Bibliography
 
+[1]: https://www.atlassian.com/data/charts/box-plot-complete-guide "A complete guide to box plots"
