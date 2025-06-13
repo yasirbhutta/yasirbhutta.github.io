@@ -19,7 +19,12 @@ breadcrumb:
     url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
-### 📦 What is a Box Plot (Box-and-Whisker Plot)?
+## Table of Contents
+
+1. What is a Box Plot (Box-and-Whisker Plot)?
+2. How Outliers Are Determined in a Box Plot
+
+## 📦 What is a Box Plot (Box-and-Whisker Plot)?
 
 A **box plot** is a graphical summary of data distribution. It helps visualize:
 
@@ -87,4 +92,79 @@ plt.show()
   * Presence of outliers
 
 ---
+
+Great question! A **box plot** is specifically designed to help you **identify outliers** in your dataset.
+
+---
+
+## 📦 **How Outliers Are Determined in a Box Plot**
+
+Box plots use the **Interquartile Range (IQR)** to find outliers.
+
+#### ✅ Definitions:
+
+* **Q1**: First quartile (25th percentile)
+* **Q3**: Third quartile (75th percentile)
+* **IQR**: Q3 − Q1
+
+#### 🚨 **Outlier Rule:**
+
+Any data point is considered an **outlier** if it is:
+
+* **< Q1 − 1.5 × IQR**
+* **> Q3 + 1.5 × IQR**
+
+These points will show up as **individual dots** **outside the whiskers** in a box plot.
+
+---
+
+### 🐍 Python Example Using Matplotlib and NumPy
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Sample data with outliers
+data = np.array([12, 13, 14, 15, 16, 17, 18, 30])  # 40 is an outlier
+
+# Box plot
+plt.boxplot(data, vert=False, patch_artist=True)
+plt.title("Box Plot with Outlier")
+plt.xlabel("Value")
+plt.grid(True)
+plt.show()
+
+# Calculate outlier thresholds
+Q1 = np.percentile(data, 25)
+Q3 = np.percentile(data, 75)
+IQR = Q3 - Q1
+
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+outliers = data[(data < lower_bound) | (data > upper_bound)]
+
+print("Outliers:", outliers)
+```
+
+---
+
+### 📤 Output:
+
+* Box plot showing a dot at **30**
+* Console prints:
+
+  ```
+  Outliers: [30]
+  ```
+
+---
+
+### ✅ Summary:
+
+* **Box = middle 50% of data (Q1 to Q3)**
+* **Whiskers = within 1.5×IQR**
+* **Dots beyond whiskers = outliers**
+
+
 
