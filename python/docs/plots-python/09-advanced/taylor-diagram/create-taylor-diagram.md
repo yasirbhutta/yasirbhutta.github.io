@@ -10,11 +10,12 @@ show_toc: null
 toc: toc/python.html
 show_practice_progress: null
 show_mini_project: null
-breadcrumb:
   - title: Home
     url: /
   - title: Python
     url: /python/
+  - title: Python Visualization 
+    url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
 To create a **Taylor diagram** in Python for comparing **five models** against observations, you can use the `skill_metrics` or `taylorDiagram` implementations from various libraries. Here’s a step-by-step using **Matplotlib** and **SkillMetrics**, which is commonly used in the geoscience community.
@@ -302,6 +303,8 @@ plt.show()
 * Ensures layout is neat and displays the plot.
 
 ---
+
+## Example: [Taylor Diagram of Model Predictions — Quarter Circle View with Correlation Labels](01-example-taylor-diagram.md)
 
 #### 📌 Summary:
 
