@@ -15,6 +15,8 @@ breadcrumb:
     url: /
   - title: Python
     url: /python/
+  - title: Python Visualization 
+    url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
 ## Table of Contents
