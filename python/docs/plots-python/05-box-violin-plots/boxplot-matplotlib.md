@@ -39,12 +39,12 @@ It's great for comparing distributions across **multiple datasets**.
 
 ### 📊 Structure of a Box Plot
 
-```mermaid
+<div class="mermaid">
 |-----|====|=====|====|-----|
 min   Q1   Q2    Q3   max
       |---- box ----|
            ^ median
-```
+</div>
 
 * **Q1**: 25th percentile
 * **Q2 (Median)**: 50th percentile
