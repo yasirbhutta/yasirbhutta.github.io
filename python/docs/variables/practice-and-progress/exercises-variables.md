@@ -8,8 +8,8 @@ course: python
 topic: variables
 show_toc: false
 toc: toc/python.html
-show_practice_progress: false
-show_mini_project: false
+show_practice_progress: true
+show_mini_project: true
 prev: /python/docs/variables/practice-and-progress/fill-blanks-variables.html
 next: /python/docs/variables/practice-and-progress/mcqs-variables.html
 breadcrumb:
