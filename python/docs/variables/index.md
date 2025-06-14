@@ -6,6 +6,7 @@ keywords: Python variables, variable naming rules Python, valid variable names P
 toc: toc/python.html
 course: python
 topic: variables
+show_practice_progress: true
 next: /python/docs/variables/variables-basics.html
 breadcrumb:
   - title: Home
