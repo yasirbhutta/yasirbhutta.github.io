@@ -25,11 +25,29 @@ breadcrumb:
 ## 📅 Control Flow & Data Structures
 
 - **if, elif, else**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](../exercises/python-exercises-if-elif-else.md) 🏋️‍♂️
-- **for loop**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
+
+---
+
+### **for loop**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
+  
+---
+
 - **while loop**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](../exercises/python-exercises-loops.md) 🏋️‍♂️
+
+---
+
 - **break, continue, pass**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](../exercises/python-exercises-loop-control.md) 🏋️‍♂️
+
+---
+
 - **Sets**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
+
+---
+
 - **Dictionaries**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
+
+---
+
 - **List Comprehension**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
 
 
