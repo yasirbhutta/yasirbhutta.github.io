@@ -1,9 +1,27 @@
 ---
 layout: page
-title: Python Operators
-description: Learn Python variables with this beginner-friendly guide. Understand variable naming rules, assignments, and operations with examples and exercises. Perfect for students and professionals starting their Python journey.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: Python Operators Explained with Examples | Arithmetic, Logical, Comparison & More
+description: Master Python operators with clear examples. Learn how arithmetic, assignment, logical, comparison, identity, membership, and bitwise operators work in Python.  
+keywords: python operators, python arithmetic operators, logical operators in python, comparison operators, python operator examples, python bitwise operators, assignment operators, identity operators, membership operators, python programming basics, python tutorials
 toc: toc/python.html
+author: Muhammad Yasir Bhutta
+course: python
+topic: operators
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/basics/
+next: /python/docs/operators/practice-and-progress/find-fix-mistakes-variables.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
+  - title: Operators
+    url: /python/docs/operators/
 ---
 
 ## Table of Contents
@@ -225,13 +243,6 @@ This code will print the unique identifiers for the variables `x` and `y`. If yo
 
 - [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
 
-
-
-**Answer key (Mutiple Choice):**
-
-## Fill in the Blanks
-
-**Answer Key (Fill in the Blanks):**
 
 ## Coding Exercises
 
