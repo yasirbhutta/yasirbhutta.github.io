@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: "Python Variables MCQs | Multiple Choice Practice & Progress"
-description: Test and enhance your Python skills with variable-focused MCQs! Cover declaration, assignment, naming conventions, scope, and common errors through interactive multiple‑choice questions.
-keywords: python variables mcqs, python multiple choice questions variables, python variable quiz, python variable declaration mcq, python variable assignment mcqs, python beginner mcqs, practice python variables questions, python variables test online, python variables quiz free, python fundamentals mcqs
+title: "Python Operators MCQs – Practice and Progress for Beginners"
+description: Test your understanding of Python operators with these beginner-friendly MCQs. Practice key concepts like arithmetic, comparison, logical, bitwise, and assignment operators with instant answers and explanations.
+keywords: python operators mcqs, python operator questions, practice python mcqs, python mcqs for beginners, python quiz operators, multiple choice questions python, arithmetic operator mcqs, logical operator mcqs, bitwise operator mcqs, python mcq practice, test python skills
 author: Muhammad Yasir Bhutta
 course: python
 topic: operators
