@@ -16,24 +16,10 @@ breadcrumb:
 1. Python Basics
    - [Variables](#-variables) 
 
-## 📅 Variables
 
-### 🧠 Learn & Practice
+## 📅 Python Basics
 
-- ✅ [True or False](../docs/variables/practice-and-progress/true-false-variables.md)
-- ✍️ [Fill in the Blanks](../docs/variables/practice-and-progress/fill-blanks-variables.md)
-- 📝 [Multiple-Choice Questions (MCQs)](../docs/variables/practice-and-progress/mcqs-variables.md)
-- 🔍 [Find and Fix Mistakes](../docs/variables/practice-and-progress/find-fix-mistakes-variables.md)
-
-### 💻 Interactive
-
-- 🧪 [Online Quiz](#) *(Coming soon)*
-- 🏋️‍♂️ [Coding Exercises](../docs/variables/practice-and-progress/exercises-variables.md)
-
-### 🛠️ Projects & Review
-
-- 🧪 [Mini Projects](../docs/variables/practice-and-progress/mini-projects-variables.md)
-- 🔄 [Review Questions](../docs/variables/practice-and-progress/review-questions-variables.md)
+- **Variables**: [MCQs](../docs/variables/practice-and-progress/mcqs-variables.md) 📝, [Find and Fix Mistakes](../docs/variables/practice-and-progress/find-fix-mistakes-variables.md) 🔍, [Coding Exercises](../docs/variables/practice-and-progress/exercises-variables.md) 🏋️‍♂️
 
   
 ## Control Flow Statements
