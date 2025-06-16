@@ -12,8 +12,6 @@ layout: default
 
 <hr />
 
-<h2>📝 Multiple Choice Questions</h2>
-
 {% assign topic_name = page.topic %}
 {% assign topics = site.data.python.mcqs.topics %}
 {% assign selected_topic = topics | where: "topic", topic_name | first %}
