@@ -6,6 +6,20 @@ keywords: Python variables, Python variable examples, Python variable exercises,
 toc: toc/python.html
 ---
 
+## Table of Contents
+
+1. [What is Operators](#what-is-operators)
+2. [Major operator categories](#major-operator-categories)
+   - [2.1 Arithmetic Operators](#1-arithmetic-operators)
+   - [2.2 Comparison Operators](#2-comparison-operators)
+   - [2.3 Assignment Operators](#3-assignment-operators)
+     - [Compound assignment](#compound-assignment)
+   - [2.4 Logical Operators](#4-logical-operators)
+   - [2.5 Identity Operators](#5-identity-operators)
+   - [2.6 Membership Operators](#6-membership-operators)
+   - [2.7 Bitwise Operators](#7-bitwise-operators)
+3.  [Object Caching in Python](#object-caching-in-python-understanding-memory-optimization-for-small-integers)
+   
 ## What is Operators
 
 - Operators in Python are special symbols that perform specific operations on values and variables.
@@ -13,7 +27,7 @@ toc: toc/python.html
 
 ## Major operator categories
 
-**1. Arithmetic Operators:**
+### 1. Arithmetic Operators:
 
 - Used for performing basic mathematical calculations.
 - Operators: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `//` (floor division), `%` (modulo), `**` (exponentiation)
@@ -34,7 +48,7 @@ square = 5 ** 2  # Exponentiation
 
 For more details on floor division, see [What is the `//` Operator in Python?](../posts/floor-division.md)
 
-**2. Comparison Operators:**
+### 2. Comparison Operators:
 
 - Used to compare values and return a Boolean result (True or False).
 - Operators: `==` (equal to), `!=` (not equal to), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to)
@@ -49,7 +63,7 @@ is_greater = 12 > 9  # True
 is_less_or_equal = 5 <= 5  # True
 ```
 
-**3. Assignment Operators:**
+### 3. Assignment Operators:
 
 - Used to assign values to variables.
 - Operators: `=` 
@@ -58,7 +72,7 @@ is_less_or_equal = 5 <= 5  # True
 ```python
 x = 10  # Simple assignment
 ```
-**Compound assignment:** 
+#### Compound assignment: 
 
 A **compound assignment** is a combination of an operator and an assignment that performs an operation on a variable and then assigns the result back to that variable in a single step.
 
@@ -94,7 +108,7 @@ The `+=` operator helps to keep the code more concise and readable.
 x += 5  # Add 5 to x
 x *= 2  # Multiply x by 2
 ```
-**4. Logical Operators:**
+### 4. Logical Operators:
 
 - Used to combine Boolean expressions.
 - Operators: `and`, `or`, `not`
@@ -106,7 +120,7 @@ is_valid = (age >= 18) and (has_license == True)
 is_allowed = (is_member) or (has_ticket)
 ```
 
-**5. Identity Operators:**
+### 5. Identity Operators:
 
 - In Python, the `is` operator is used to compare the identities of two objects. It checks whether two references point to the same object in memory, not whether the values of the two objects are equal. 
 - Operators: `is`, `is not`
@@ -135,7 +149,7 @@ x = 5
 y = 5
 result = x is y  # True (they refer to the same integer object)
 ```
-**Object Caching in Python: Understanding Memory Optimization for Small Integers**
+## Object Caching in Python: Understanding Memory Optimization for Small Integers
 
 - In Python, small integer objects (typically between -5 and 256) are cached to optimize memory usage and performance. This means that if you create multiple variables with the same value within this range, they all point to the same memory location, instead of creating new objects each time. 
 - This behavior is part of Python's optimization to save memory and improve performance, as small integers are frequently used. [1]
@@ -174,7 +188,7 @@ print(x is y)  # False, as 'x' and 'y' refer to different objects
 
 This caching behavior saves memory for frequently used small integers and makes the comparison of such objects faster.
 
-**6. Membership Operators:**
+### 6. Membership Operators:
 
 - Used to check if a value is present in a sequence (like a list or string).
 - Operators: `in`, `not in`
@@ -187,7 +201,7 @@ is_present = 5 in numbers  # True
 is_missing = 2 not in numbers  # True
 ```
 
-**7. Bitwise Operators:**
+### 7. Bitwise Operators:
 
 - Used to perform operations on the binary representation of numbers.
 - Operators: `&` (bitwise AND), `|` (bitwise OR), `^` (bitwise XOR), `~` (bitwise NOT), `<<` (left shift), `>>` (right shift)
@@ -212,261 +226,6 @@ This code will print the unique identifiers for the variables `x` and `y`. If yo
 - [Walrus Operator in Python](https://youtube.com/shorts/vhEz75XZlJI)
 
 
-## Key Terms
-
-## True/False (Mark T for True and F for False)
-
-**Answer Key (True/False):**
-
-## Multiple Choice (Select the best answer)
-
-### 1. **Arithmetic Operators:**
-
-1. **What is the output of the following Python code?** [Python Quiz #2](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
-
-```python
-x = 10
-y = 5
-
-x = x + y
-y = x - y
-x = x - y
-
-print(x, y)
-
-```
-  - A) 5 0
-  - B) 5 -5
-  - C) 10 5
-  - D) 5 10
-
-**Watch this video for answers:** [https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT](https://youtube.com/shorts/gz4YuXmZvYo?si=VK50ZYFnvh5WljmT)
-
-2. **What is the output of the following expression?** [Python Quiz #12](https://youtube.com/shorts/_cHsABqmmcM)
-
-```python
-2 ** 3 + 4 // 2 - 1
-```
-  - A) 8 
-  - B) 9 
-  - C) 10 
-  - D) 11
-
-**Watch this video for the answer:** [https://youtube.com/shorts/_cHsABqmmcM](https://youtube.com/shorts/_cHsABqmmcM)
-
-3. **What is the output of the following expression?** [Python Quiz #24](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
-
-```python
-x = 10
-y = 5
-print(x % y)
-```
-
-  - A) 2
-  - B) 5
-  - C) 0
-  - D) 1
-  
-**Watch this video for the answer:** [https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A](https://youtube.com/shorts/-mPZMfg_uJ8?si=F6Hk4m4C_HVmHZ9A)
-
-4. **What is the output of the following code?** [Python Quiz #33](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
-
-```python
-print(11 % 3 == (11 - 3 * (11 // 3)))
-```
-
-  - A) True
-  - B) False
-
-**Watch the video for the answer:** [https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ](https://youtube.com/shorts/weXLcIrx2Ko?si=JlDU0qMLPgYedatJ)
-
-
-5. **What will be the output of the following code?** [Python Quiz #61]
-
-```python
-age = 25
-message = "You are " + str(age) + " years old."
-message += " Welcome!"
-print(message)
-```
-
-  - A) `You are 25 years old. Welcome!`  
-  - B) `You are 25 years old.`  
-  - C) `You are 25 Welcome!`  
-  - D) `You are Welcome!`
-
-**Watch video for the answer:** [https://youtu.be/Q2J1EEedb9E](https://youtu.be/Q2J1EEedb9E)
-
-6. **What is the output of 45 // 7?** [Python Quiz #62]
-
-  - A) 5.0
-  - B) 6
-  - C) 5
-  - D) 6.428571428571429
-  
-### 2. **Comparison Operators:**
-
-7. **What is the output of the following Python code?** [Python Quiz #10](https://youtube.com/shorts/FRa0r4UxyXM)
-```python
-x = 5
-y = 10
-
-result = x > 3 or y < 5
-print(result)
-```
-  - A) True
-  - B) False
-  - C) SyntaxError
-  - D) None of these
-
-**Watch video for the answer:** [https://youtube.com/shorts/FRa0r4UxyXM](https://youtube.com/shorts/FRa0r4UxyXM)
-
-8. **What is the output of the following PYTHON code?** [Python Quiz #82]
-
-```python
-flag = not (True and False)
-print(flag)
-```
-
-  - A) True
-  - B) False
-  - C) None
-  - D) Error
-  
-**3. Assignment Operators:**
-**4. Logical Operators:**
-**5. Identity Operators:**
-**6. Membership Operators:**
-**7. Bitwise Operators:**
-
-1. **What is the difference between and and or operators in Python?**
-
-   - A) and returns True if both operands are True and or returns True if either operand is True
-   - B) and returns True if either operand is True and or returns True if both operands are True
-   - C) and returns False if both operands are False and or returns False if either operand is False
-   - D) both A and C are correct
-
-Answer: D
-  
-What is the difference between == and = in Python?
-
-  - A) == is the comparison operator, = is the assignment operator
-  - B) == is the assignment operator, = is the comparison operator
-  - C) They are the same operator
-  - D) There is no difference
-
-**Which operator is used to raise a number to a power?**
-
-  - A) **
-  - B) ^
-  - C) pow()
-  - D) ** and ^ are both correct
-
-**What is the result of the expression 3 + 5 * 2 in Python?** [Python Quiz #63]
-
-  - A) 16
-  - B) 13
-  - C) 11
-  - D) 26
-
-**What is the purpose of the % operator in Python?**
-  - A) Exponential
-  - B) Modulus
-  - C) Floor Division
-  - D) Addition
-
-**Which operator adds a value to a variable?**
-
-  - A) +=
-  - B) -=
-  - C) *=
-  - D) /=
-
-**What is the output of x = 10; x //= 3?**
-
-  - A) 3
-  - B) 3.33
-  - C) 3.5
-  - D) 4
-
-**Which operator returns True if both operands are True?**
-
-  - A) and
-  - B) ror
-  - C) not
-  - D) xor
-
-**Which operator checks if a value is present in a sequence?**
-  - A) in
-  - B) not in
-  - C) Both in and not in
-  - D) None of the above
-
-**What is the output of the following PYTHON Code?** [Python Quiz #83]
-  ```python
-  num = 4
-  result = num in [1, 3, 4]
-  print(result)
-   ```
-    - A) `True`  
-    - B) `False`  
-    - C) `None`  
-    - D) `Error`
-
-**What will be the output of the following PYTHON Code?** [Python Quiz #84]
-
-```python
-str = 'x'
-result = str in 'python'
-print(result)
-```
-  - A) `True`  
-  - B) `False`  
-  - C) `'x'`  
-  - D) `Error`
-
-**Which operator checks if two objects refer to the same memory location?**
-
-  - A) ==
-  - B) is
-  - C) in 
-  - D) Both is and in
-
-**What will be the output of the following PYTHON Code?** [Python Quiz #85]
-```python
-x = [1, 2]; y = x; print(x is y)
-```
-
-  - A) True
-  - B) False
-  - C) [1, 2]
-  - D) Error
-
-**What is the correct way to use the exponentiation operator in Python?**
-
-  - A) x ^ y 
-  - B) x ** y 
-  - C) pow(x, y)
-  - D) either b or c
-
-Answer: B) either b or c
-
-
-**In Python, What is the output of this code?** [Python Quiz #86]
-
-```python
-x = 10
-y = 5
-x = x + y
-y = x - y
-x = x - y
-print(x, y)
-```
-
-  - A) 10, 5 
-  - B) 5, 10 
-  - C) 15, -5 
-  - D) -5, 15
 
 **Answer key (Mutiple Choice):**
 

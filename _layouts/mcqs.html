@@ -8,49 +8,18 @@ layout: default
 <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
-<p><strong>Difficulty Levels:</strong>
-    {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
-    {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
-    {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
-</p>
-
 <p><strong>Topic:</strong> {{ page.topic }}</p>
 
 <hr />
 
 <h2>📝 Multiple Choice Questions</h2>
-<ol>
-    {% for q in page.questions %}
-    <li>
-        <p><strong>{{ q.question }}</strong></p>
-        <ul>
-            {% for opt in q.options %}
-            <li{% if opt==q.answer %} style="font-weight: bold;" {% endif %}>{{ opt }}
-    </li>
-    {% endfor %}
-    </ul>
-    </li>
-    {% endfor %}
-</ol>
 
-<hr />
-
-<h2>🗝️ Answer Key</h2>
-<ol>
-    {% for q in page.questions %}
-    <li><strong>{{ q.answer }}</strong></li>
-    {% endfor %}
-</ol>
-
-{% if page.resources %}
-<hr />
-<h2>📚 Related Resources</h2>
-<ul>
-    {% for resource in page.resources %}
-    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
-    {% endfor %}
-</ul>
-{% endif %}
+{% assign topic_name = page.topic %}
+{% assign topics = site.data.python.mcqs.topics %}
+{% assign selected_topic = topics | where: "topic", topic_name | first %}
+{% assign mcqs = selected_topic.questions %}
+{% assign resources = selected_topic.resources %}
+{% include pap/mcqs-loop.html mcqs=mcqs resources=resources %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
     crossorigin="anonymous"></script>
