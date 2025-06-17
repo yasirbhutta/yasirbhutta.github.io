@@ -12,13 +12,12 @@ layout: default
 
 <hr />
 
-{% assign topic = page.topic %}
-{% assign topics = site.data.python.fill-blanks.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign topic_name = page.topic %}
+{% assign topics = site.data.python.find-and-fix.topics %}
+{% assign selected_topic = topics | where: "topic", topic_name | first %}
 {% assign questions = selected_topic.questions %}
-{% assign examples = selected_topic.examples %}
 {% assign resources = selected_topic.resources %}
-{% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
+{% include pap/find-and-fix-loop.html questions=questions resources=resources %}
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
