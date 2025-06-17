@@ -19,8 +19,8 @@ breadcrumb:
     url: /python/
   - title: Basics
     url: /python/docs/basics/
-  - title: Variables
-    url: /python/docs/variables/
+  - title: Operators
+    url: /python/docs/operators/
 ---
 
 

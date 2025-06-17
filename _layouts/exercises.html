@@ -8,41 +8,15 @@ layout: default
 <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
-<p><strong>Difficulty Levels:</strong>
-  {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
-  {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
-  {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
-</p>
-
 <p><strong>Topic:</strong> {{ page.topic }}</p>
-
 <hr />
 
-<h2>🔍 Exercises</h2>
-<ol>
-  {% for question in page.questions %}
-    <li>{{ question }}</li>
-  {% endfor %}
-</ol>
+{% assign topic = page.topic %}
+{% assign topics = site.data.python.coding-exercises.topics %}
+{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign exercises = selected_topic.exercises %}
+{% include pap/coding-exercises-loop.html exercises=exercises topic=topic %}
 
-<hr />
-
-{% if page.answers %}
-<h2>✅ Answers for Exercises</h2>
-<ol>
-  {% for answer in page.answers %}
-    <li>{{ answer }}</li>
-  {% endfor %}
-</ol>
-{% endif %}
-<hr />
-
-<h2>📚 Related Resources</h2>
-<ul>
-  {% for resource in page.resources %}
-    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
-  {% endfor %}
-</ul>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>

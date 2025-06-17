@@ -1,22 +1,24 @@
 ---
-layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+layout: exercises
+title: "Python Variable Exercises | Hands-On Practice & Progress"
+description: Enhance your Python fundamentals with practical variable exercises. Cover declaration, assignment, naming conventions, and debugging with interactive challenges!
+keywords: python variable exercises, python practice variables, python variable challenges, python variables tutorial, variable assignment practice python, python beginner variable exercises, python coding practice variables, python variables quiz, interactive python variables, python programming variables exercises
 author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
+course: python
+topic: variables
 show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: true
+prev: /python/docs/variables/practice-and-progress/fill-blanks-variables.html
+next: /python/docs/variables/practice-and-progress/mcqs-variables.html
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: Python
+    url: /python/
+  - title: Basics
+    url: /python/docs/basics/
+  - title: Variables
+    url: /python/docs/variables/
 ---

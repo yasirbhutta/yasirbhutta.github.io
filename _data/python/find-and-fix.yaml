@@ -1,5 +1,145 @@
 course: python
 topics:
+
+  - topic: operators
+    questions:
+      - id: op-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the incorrect exponentiation operation:
+        code: |
+          result = 2 ^ 3
+          print(result)
+        hint: Python uses a different operator for exponentiation than some other languages.
+        issue: The caret (^) is a bitwise XOR operator, not exponentiation.
+        solution: |
+          result = 2 ** 3
+          print(result)
+
+      - id: op-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the floating-point division issue:
+        code: |
+          average = (3 + 5 + 2) / 0
+          print(average)
+        hint: Division by zero is mathematically undefined.
+        issue: Attempting to divide by zero will raise a ZeroDivisionError.
+        solution: |
+          average = (3 + 5 + 2) / 3  # Using correct divisor
+          print(average)
+
+      - id: op-fix-003
+        difficulty: easy
+        prompt: |
+          Fix the augmented assignment operation:
+        code: |
+          count = 5
+          count =+ 2
+          print(count)
+        hint: The order of characters in augmented assignment matters.
+        issue: "<b>=+</b> is not a valid operator (it's assigning positive 2, not adding)."
+        solution: |
+          count = 5
+          count += 2
+          print(count)
+
+      - id: op-fix-004
+        difficulty: medium
+        prompt: |
+          Fix the chained comparison:
+        code: |
+          x = 5
+          if 1 < x > 10:
+              print("In range")
+        hint: Chained comparisons must express a consistent relationship.
+        issue: The condition can never be True (x cannot be both >1 and >10).
+        solution: |
+          x = 5
+          if 1 < x < 10:
+              print("In range")
+
+      - id: op-fix-005
+        difficulty: medium
+        prompt: |
+          Fix the logical operation:
+        code: |
+          is_valid = True
+          is_active = False
+          if is_valid and is_active or:
+              print("Access granted")
+        hint: The 'or' operator requires a second operand.
+        issue: Incomplete logical expression after 'or'.
+        solution: |
+          is_valid = True
+          is_active = False
+          if is_valid and is_active:
+              print("Access granted")
+
+      - id: op-fix-006
+        difficulty: hard
+        prompt: |
+          Fix the bitwise operation:
+        code: |
+          flags = 0b1010
+          mask = 0b1100
+          result = flags and mask
+          print(bin(result))
+        hint: This is using logical AND instead of bitwise AND.
+        issue: "'and' is a boolean operator, not bitwise."
+        solution: |
+          flags = 0b1010
+          mask = 0b1100
+          result = flags & mask
+          print(bin(result))
+
+      - id: op-fix-007
+        difficulty: hard
+        prompt: |
+          Fix the operation to correctly calculate the average:
+        code: |
+          a, b, c = 10, 20, 30
+          average = a + b + c / 3
+          print(average)
+        hint: Division has higher precedence than addition.
+        issue: Only 'c' is being divided by 3 due to precedence rules.
+        solution: |
+          a, b, c = 10, 20, 30
+          average = (a + b + c) / 3
+          print(average)
+
+      - id: op-fix-008
+        difficulty: easy
+        prompt: |
+          Fix the membership test:
+        code: |
+          name = "Alice"
+          if name in ["Bob", "Charlie", "Dave"]:
+              print("Found")
+        hint: The code works but doesn't match the likely intention.
+        issue: Testing for "Alice" in a list that doesn't contain it.
+        solution: |
+          name = "Alice"
+          if name in ["Alice", "Bob", "Charlie"]:
+              print("Found")
+
+      - id: op-fix-009
+        difficulty: medium
+        prompt: |
+          Fix the identity comparison:
+        code: |
+          x = [1, 2, 3]
+          y = [1, 2, 3]
+          if x is y:
+              print("Same object")
+        hint: "'is' checks for object identity, not equality."
+        issue: Two different list objects with same values.
+        solution: |
+          x = [1, 2, 3]
+          y = [1, 2, 3]
+          if x == y:
+              print("Equal values")
+
   - topic: variables
     questions:
       - id: var-fix-001

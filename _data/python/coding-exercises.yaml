@@ -1,7 +1,144 @@
 course: python
 topics:
-  - topic: variables
+
+  - topic: operators
     exercises:
+      - id: py-ce-op-001
+        title: "Basic Arithmetic Operations"
+        task: |
+          1. Create two variables `a` and `b` with values 15 and 4 respectively
+          2. Calculate and print:
+            - Sum of a and b
+            - Difference between a and b
+            - Product of a and b
+            - Quotient of a divided by b (float division)
+            - Remainder of a divided by b
+            - a raised to the power of b
+        requirements:
+          - "Use appropriate arithmetic operators for each calculation"
+          - "Print all results in one print statement"
+        input: "No input required"
+        output: |
+          19 11 60 3.75 3 50625
+        resource:
+          name: "Python Arithmetic Operators"
+          url: "https://www.w3schools.com/python/python_operators.asp"
+        difficulty: "easy"
+
+      - id: py-ce-op-002
+        title: "Temperature Conversion"
+        task: |
+          Convert 100° Fahrenheit to Celsius using the formula:
+          C = (F - 32) * (5/9)
+          1. Create a variable `fahrenheit` with value 100
+          2. Calculate the celsius equivalent
+          3. Print the result rounded to 2 decimal places
+        requirements:
+          - "Use proper operator precedence"
+          - "Use the round() function for rounding"
+        input: "No input required"
+        output: |
+          37.78
+        resource:
+          name: "Operator Precedence"
+          url: "https://docs.python.org/3/reference/expressions.html#operator-precedence"
+        difficulty: "easy"
+  - topic: Assignment Operators
+    exercises:
+      - id: py-ce-op-003
+        title: "Counter Increment"
+        task: |
+          1. Initialize a variable `counter` with value 5
+          2. Using augmented assignment operators:
+            - Add 3 to counter
+            - Multiply counter by 2
+            - Subtract 4 from counter
+            - Divide counter by 2
+          3. Print the final value
+        requirements:
+          - "Must use augmented assignment operators (+=, *=, -=, /=)"
+          - "Perform operations in the specified order"
+        input: "No input required"
+        output: |
+          6.0
+        difficulty: "easy"
+
+  - topic: Comparison Operators
+    exercises:
+      - id: py-ce-op-004
+        title: "Age Verification"
+        task: |
+          1. Create a variable `age` with your age
+          2. Check and print whether:
+            - You're 18 or older
+            - Your age is between 13 and 19 (teenager)
+            - Your age is exactly 21
+        requirements:
+          - "Use comparison operators (>, <, >=, <=, ==)"
+          - "Use logical operators (and, or) where needed"
+          - "Print results as booleans"
+        input: "No input required"
+        output: |
+          True False False
+        difficulty: "medium"
+
+  - topic: Logical Operators
+    exercises:
+      - id: py-ce-op-005
+        title: "Login System"
+        task: |
+          Create a simple login check:
+          1. Set variables `username` to "admin" and `password` to "12345"
+          2. Check if either:
+            - Both username and password are correct, OR
+            - A variable `remember_me` is True
+          3. Print "Access granted" or "Access denied"
+        requirements:
+          - "Use logical operators (and, or, not)"
+          - "Include all conditions in one if statement"
+        input: "No input required"
+        output: |
+          Access granted
+        difficulty: "medium"
+
+  - topic: Bitwise Operators
+    exercises:
+      - id: py-ce-op-006
+        title: "Flag Permissions"
+        task: |
+          Implement basic permission checks using bitwise operations:
+          1. Define permissions as:
+            - READ = 0b100
+            - WRITE = 0b010
+            - EXECUTE = 0b001
+          2. Create user permission `user_flags = 0b110`
+          3. Check and print which permissions the user has
+        requirements:
+          - "Use bitwise AND (&) operator for checks"
+          - "Print permissions as 'Can read', 'Can write', 'Can execute'"
+        input: "No input required"
+        output: |
+          Can read
+          Can write
+        difficulty: "hard"
+
+      - id: py-ce-op-007
+        title: "Expression Evaluation"
+        task: |
+          Evaluate the following expression correctly:
+          5 + 3 * 2 ** 2 / 4 - 1
+          1. Compute the result manually following operator precedence
+          2. Verify by making Python compute it
+          3. Print both your manual result and Python's result
+        requirements:
+          - "Show your manual calculation steps in comments"
+          - "Use parentheses to force different evaluation order"
+        input: "No input required"
+        output: |
+          Manual: 7.0
+          Python: 7.0
+        difficulty: "hard"
+
       - id: py-ce-var-001
         title: "Basic Variable Assignment"
         task: |
@@ -150,8 +287,6 @@ topics:
           url: "https://youtu.be/ur8rkDPzuSU"
         difficulty: "easy"
 
-  - topic: loops-while
-    exercises:
       - id: py-ce-wl-001
         title: "Age and Exercise Input Validation"
         task: |
@@ -184,8 +319,6 @@ topics:
           url: "https://yasirbhutta.github.io/python/docs/loops-while/solutions/py-ce-wl-001.html"
         difficulty: "easy"
 
-  - topic: oop-encapsulation
-    exercises:
       - id: py-ce-001
         title: "Protected Attributes"
         task: |
