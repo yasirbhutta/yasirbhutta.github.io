@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: "Python Variable Exercises | Hands-On Practice & Progress"
-description: Enhance your Python fundamentals with practical variable exercises. Cover declaration, assignment, naming conventions, and debugging with interactive challenges!
-keywords: python variable exercises, python practice variables, python variable challenges, python variables tutorial, variable assignment practice python, python beginner variable exercises, python coding practice variables, python variables quiz, interactive python variables, python programming variables exercises
+title: "Python Operators Exercises – Practice Questions with Answers"
+description: Enhance your understanding of Python operators with these practical exercises. Solve questions on arithmetic, logical, and comparison operators to test your skills and boost confidence.
+keywords: Python operators exercises, Python practice questions, operator practice in Python, arithmetic operator exercises, logical operators in Python, Python comparison operator, Python coding exercises, Python beginner practice
 author: Muhammad Yasir Bhutta
 course: python
 topic: operators

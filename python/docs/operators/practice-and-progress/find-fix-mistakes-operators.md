@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: "Find and Fix Mistakes"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Find and Fix Mistakes in Python Operators – Practice with Solutions"
+description: Sharpen your Python skills by identifying and correcting mistakes in operator usage. This hands-on practice guide covers common errors in arithmetic, logical, and comparison operators with clear solutions.
+keywords: Python operators errors, find and fix Python mistakes, Python practice questions, operator bugs in Python, debug Python code, Python logical operator errors, Python comparison mistakes, Python operator exercises, Python beginner debugging
 author: Muhammad Yasir Bhutta
 course: python
 topic: operators
