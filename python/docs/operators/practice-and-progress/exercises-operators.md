@@ -5,7 +5,7 @@ description: Enhance your Python fundamentals with practical variable exercises.
 keywords: python variable exercises, python practice variables, python variable challenges, python variables tutorial, variable assignment practice python, python beginner variable exercises, python coding practice variables, python variables quiz, interactive python variables, python programming variables exercises
 author: Muhammad Yasir Bhutta
 course: python
-topic: variables
+topic: operators
 show_toc: false
 toc: toc/python.html
 show_practice_progress: true
@@ -19,6 +19,6 @@ breadcrumb:
     url: /python/
   - title: Basics
     url: /python/docs/basics/
-  - title: Variables
-    url: /python/docs/variables/
+  - title: Operators
+    url: /python/docs/operators/
 ---
