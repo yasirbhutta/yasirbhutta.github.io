@@ -35,7 +35,7 @@ breadcrumb:
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
 - **Day 7**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)
 
-**🔧 Mini Project**: Simple Calculator
+**🔧 Mini Project**: Simple Calculator, [String Manipulation Tool](../mini-projects/string-manipulation-tool.md)
 
 ---
 

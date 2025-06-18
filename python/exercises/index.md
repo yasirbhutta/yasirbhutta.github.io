@@ -26,7 +26,7 @@ breadcrumb:
 - **Lists**: 
 - **Tuples**:
 
-**🔧 Mini Project**:
+**🔧 Mini Project**: [String Manipulation Tool](../mini-projects/index.md#string-manipulation-tool)
 
 ## 📅 Control Flow & Data Structures
 
