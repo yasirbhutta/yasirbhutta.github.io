@@ -20,33 +20,42 @@ breadcrumb:
     url: /python/docs/strings/
 ---
 
-## Formatting Strings – Adjusting Case
+## Table of Contents
 
-### 1. **Convert to Uppercase:**
+1. [Formatting Strings – Adjusting Case](#1-formatting-strings--adjusting-case)
+2. [Formatting Strings – Adding and Removing Spaces](#2-formatting-strings--adding-and-removing-spaces)
+3. [Formatting Strings – Finding and Replacing Substrings](#3-formatting-strings--finding-and-replacing-substrings)
+4. [Formatting Strings – Splitting](#4-formatting-strings--splitting)
+5. [Formatting Strings – Partitioning Strings](#5-formatting-strings--partitioning-strings)
+6. [Tasks](#6-tasks)
+
+## 1. Formatting Strings – Adjusting Case
+
+### 1.1 **Convert to Uppercase:**
 ```python
 text = "hello"
 print(text.upper())  # Output: "HELLO"
 ```
 
-### 2. **Convert to Lowercase:**
+### 1.2 **Convert to Lowercase:**
 ```python
 text = "HELLO"
 print(text.lower())  # Output: "hello"
 ```
 
-#### 3. **Capitalize First Letter:**
+#### 1.3 **Capitalize First Letter:**
 ```python
 text = "python is fun"
 print(text.capitalize())  # Output: "Python is fun"
 ```
 
-#### 4. **Title Case (First letter of each word capitalized):**
+#### 1.4 **Title Case (First letter of each word capitalized):**
 ```python
 text = "hello world"
 print(text.title())  # Output: "Hello World"
 ```
 
-#### 5. **Swap Case:**
+#### 1.5 **Swap Case:**
 ```python
 text = "PyTHon"
 print(text.swapcase())  # Output: "pYthON"
@@ -65,7 +74,7 @@ print(text.swapcase())  # Output: "pYthON"
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### Formatting Strings – Adding and Removing Spaces
+## 2. Formatting Strings – Adding and Removing Spaces
 
 #### 1. **Removing Extra Spaces:**
 - **Remove leading and trailing spaces:**
@@ -141,7 +150,7 @@ Print the word `"Code"`:
 ---
 
 
-## Formatting Strings – Finding and Replacing Substrings
+## 3. Formatting Strings – Finding and Replacing Substrings
 
 ### 🔹 `find()` Method
 - Returns the index of the first occurrence of a substring.
@@ -174,7 +183,7 @@ print(cleaned)
 
 ---
 
-## Formatting Strings – Splitting
+## 4. Formatting Strings – Splitting
 
 ### 🔹 `split()` Method
 - Splits a string into a list based on a separator.
@@ -241,7 +250,7 @@ print("Last Name:", parts[1])
 
 ---
 
-## Formatting Strings – Partitioning Strings
+## 5. Formatting Strings – Partitioning Strings
 
 ### 🔹 `partition()` Method
 - Splits the string at the first occurrence of the separator.
@@ -298,7 +307,7 @@ print("Domain:", domain)
 
 ---
 
-## Tasks
+## 6. Tasks
 
 ### ✅ Tasks: `find()` and `replace()`
 
