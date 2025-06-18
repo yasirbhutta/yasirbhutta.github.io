@@ -8,11 +8,17 @@ layout: default
 <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
+<p><strong>Topic:</strong> {{ page.topic }}</p>
+
+<hr />
+
 {% assign topic = page.topic %}
-{% assign topics = site.data.python.rq.topics %}
+{% assign topics = site.data.python.fill-blanks.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}
-{% include pap/rq-loop.html questions=questions topic=topic %}
+{% assign examples = selected_topic.examples %}
+{% assign resources = selected_topic.resources %}
+{% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>

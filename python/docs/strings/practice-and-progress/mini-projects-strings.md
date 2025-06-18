@@ -9,6 +9,16 @@ topic: "strings"
 course: "python"
 prev: "/python/docs/strings/practice-and-progress/exercises-strings.html"
 next: "/python/docs/strings/practice-and-progress/review-questions-strings.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Strings
+    url: /python/docs/strings/
 ---
 
 ## **1. Project: String Manipulation Tool**

@@ -8,66 +8,13 @@ layout: default
 <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
-<p><strong>Difficulty Levels:</strong>
-  {% if page.difficulty.beginner %} Beginner ✅ {% endif %}
-  {% if page.difficulty.intermediate %} | Intermediate ✅ {% endif %}
-  {% if page.difficulty.advanced %} | Advanced ✅ {% endif %}
-</p>
+{% assign topic = page.title %}
+{% assign topics = site.data.python.true-false.topics %}
+{% assign selected_topic = topics | where: "topic", topic | first %}
+{% assign questions = selected_topic.questions %}
+{% assign resources = selected_topic.resources %}
 
-<p><strong>Topic:</strong> {{ page.topic }}</p>
-
-<hr />
-
-<h2>🔍 True or False</h2>
-<ol>
-  {% for question in page.questions %}
-    <li>{{ question }}</li>
-  {% endfor %}
-</ol>
-
-<hr />
-
-{% if page.examples %}
-<h2>🧠 Example-Based True or False</h2>
-<ol>
-  {% for example in page.examples %}
-    <li>
-      <pre><code>{{ example.code | escape }}</code></pre>
-      <p>{{ example.prompt }}</p>
-      <!-- <p><strong>Answer:</strong> <code>{{ example.answer }}</code></p> -->
-    </li>
-  {% endfor %}
-</ol>
-
-{% endif %}
-
-<hr />
-
-<h2>🗝️ Answer Key</h2>
-<h3>✅ Answers for True or False</h3>
-<ol>
-  {% for answer in page.answers %}
-    <li>{{ answer }}</li>
-  {% endfor %}
-</ol>
-
-{% if page.examples %}
-<h3>🔍 Answers for Example-Based True or False</h3>
-<ol>
-  {% for example in page.examples %}
-    <li>{{ example.answer }}</li>
-  {% endfor %}
-</ol>
-{% endif %}
-
-<hr />
-
-<h2>📚 Related Resources</h2>
-<ul>
-  {% for resource in page.resources %}
-    <li><a href="{{ resource.url }}">{{ resource.name }}</a></li>
-  {% endfor %}
-</ul>
+{% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>

@@ -1,12 +1,22 @@
 ---
 layout: find-fix-mistakes
-title: Learn Python String Methods & Formatting with MCQs.
-description: Test your Python skills with MCQs on string methods and formatting. Great for beginners learning Python strings through hands-on practice.
-keywords: python string methods, python string formatting, python mcqs, python quiz, learn python strings, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: Find and Fix Mistakes in Python Strings – Practice with Common String Errors
+description: Improve your Python skills by identifying and correcting common string mistakes. Practice string operations, formatting, and debugging techniques with hands-on examples.
+keywords: Python string errors, find and fix string mistakes Python, Python string debugging, common Python string mistakes, string formatting Python, Python practice strings, fix string issues Python, Python string operations exercises
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "strings"
 course: "python"
 prev: "/python/docs/strings/practice-and-progress/fill-blanks-strings.html"
 next: "/python/docs/strings/practice-and-progress/find-fix-mistakes-strings.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Strings
+    url: /python/docs/strings/
 ---

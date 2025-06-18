@@ -9,10 +9,15 @@ topic: "strings"
 course: "python"
 prev: /python/docs/strings/practice-and-progress/mini-projects-strings.html
 next: /python/docs/functions.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Strings
+    url: /python/docs/strings/
 ---
 
-{% assign topic = "strings" %}
-{% assign topics = site.data.python.rq.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign questions = selected_topic.questions %}
-{% include pap/rq-loop.html questions=questions topic=topic %}

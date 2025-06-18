@@ -20,7 +20,11 @@ breadcrumb:
 ## 📅 Python Basics
 
 - **Variables**: [MCQs](../docs/variables/practice-and-progress/mcqs-variables.md) 📝, [Find and Fix Mistakes](../docs/variables/practice-and-progress/find-fix-mistakes-variables.md) 🔍, [Coding Exercises](../docs/variables/practice-and-progress/exercises-variables.md) 🏋️‍♂️
+- **Input/Output**:
 - **Operators**: [MCQs](../docs/operators/practice-and-progress/mcqs-operators.md) 📝, [Find and Fix Mistakes](../docs/operators/practice-and-progress/find-fix-mistakes-operators.md) 🔍, [Coding Exercises](../docs/operators/practice-and-progress/exercises-operators.md) 🏋️‍♂️
+- **Strings, Common String Methods**: [MCQs](../docs/strings/practice-and-progress/mcqs-strings.md) 📝, [Find and Fix Mistakes](../docs/strings/practice-and-progress/find-fix-mistakes-strings.md) 🔍, [Coding Exercises](../docs/strings/practice-and-progress/exercises-strings.md) 🏋️‍♂️
+- **Lists**: 
+- **Tuples**:
 
 **🔧 Mini Project**:
 
