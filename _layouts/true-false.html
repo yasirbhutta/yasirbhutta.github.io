@@ -8,7 +8,7 @@ layout: default
 <meta name="keywords" content="{{ page.keywords }}">
 {% endif %}
 
-{% assign topic = page.title %}
+{% assign topic = page.topic %}
 {% assign topics = site.data.python.true-false.topics %}
 {% assign selected_topic = topics | where: "topic", topic | first %}
 {% assign questions = selected_topic.questions %}
