@@ -20,6 +20,6 @@ breadcrumb:
 
 ## Contents
 
-- [String Manipulations](strings/strings-manip.md)
-- [Formatting Strings](strings/strings-formatting.md)
+- [String Manipulations](strings-manip.md)
+- [Formatting Strings](strings-formatting.md)
 

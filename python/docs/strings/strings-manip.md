@@ -20,7 +20,13 @@ breadcrumb:
     url: /python/docs/strings/
 ---
 
-## What is a String?
+## Table of Contents
+
+1. [What is a String?](#1-what-is-a-string)
+2. [Common String Operations](#2-common-string-operations)
+3. [Tasks](#tasks)
+
+## 1. What is a String?
 - A **string** is a sequence of characters enclosed in quotes.
   - Examples: `"hello"`, `'Python'`, `"1234"`
 
@@ -30,7 +36,7 @@ name = "Alice"
 greeting = 'Hello'
 ```
 
-### Common String Operations:
+## 2. Common String Operations:
 1. **Concatenation (joining strings):**
    ```python
    first = "Hello"

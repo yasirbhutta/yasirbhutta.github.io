@@ -1,6 +1,138 @@
 course: python
 topics:
 
+  - topic: strings
+    questions:
+      - id: str-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the incorrect string concatenation:
+        code: |
+          name = "Alice"
+          age = 25
+          message = "Hello " + name + ", you are " + age + " years old."
+          print(message)
+        hint: You can't concatenate strings with integers directly in Python. Consider using string formatting.
+        issue: Trying to concatenate strings with integers using the + operator causes a TypeError.
+        solution: |
+          name = "Alice"
+          age = 25
+          message = "Hello " + name + ", you are " + str(age) + " years old."
+          print(message)
+          # Or using f-strings (Python 3.6+):
+          # message = f"Hello {name}, you are {age} years old."
+
+      - id: str-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the incorrect string formatting:
+        code: |
+          item = "book"
+          price = 19.99
+          print("%s costs %d" % (item, price))
+        hint: The format specifier doesn't match the variable type. %d is for integers.
+        issue: Using %d for a floating-point number truncates the decimal places.
+        solution: |
+          item = "book"
+          price = 19.99
+          print("%s costs %.2f" % (item, price))
+          # Or using f-strings:
+          # print(f"{item} costs {price:.2f}")
+
+      - id: str-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the incorrect string concatenation:
+        code: |
+          first_name = "John"
+          last_name = "Doe"
+          full_name = first_name + last_name
+          print(full_name)
+        hint: Missing a space between first and last name.
+        issue: The names are concatenated without a space, resulting in "JohnDoe".
+        solution: |
+          first_name = "John"
+          last_name = "Doe"
+          full_name = first_name + " " + last_name
+          print(full_name)
+
+      - id: str-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to access a character in a string:
+        code: |
+          word = "Python"
+          first_char = word[0]
+          last_char = word[6]
+          print(first_char, last_char)
+        hint: Python strings are zero-indexed, and the last index is len(string) - 1.
+        issue: Index 6 is out of range for "Python" (valid indices are 0 to 5).
+        solution: |
+          word = "Python"
+          first_char = word[0]
+          last_char = word[-1]  # or word[5]
+          print(first_char, last_char)
+
+      - id: str-fix-003
+        difficulty: easy
+        prompt: |
+          Fix the incorrect string slicing:
+        code: |
+          text = "Hello, World!"
+          substring = text[7:12]
+          print(substring)
+        hint: Check the indices for "World!" in the string.
+        issue: The slice [7:12] gives "World" but misses the "!".
+        solution: |
+          text = "Hello, World!"
+          substring = text[7:13]  # or text[7:]
+          print(substring)
+
+      - id: str-fix-004
+        difficulty: easy
+        prompt: |
+          Fix the incorrect f-string usage:
+        code: |
+          name = "Alice"
+          age = 30
+          print(f"Name: {name}, Age: {age}")
+        hint: The f-string syntax is correct, but the output format could be improved.
+        issue: The output is correct but lacks proper spacing/punctuation.
+        solution: |
+          name = "Alice"
+          age = 30
+          print(f"Name: {name}, Age: {age}.")  # Added a period for better formatting
+
+      - id: str-fix-005
+        difficulty: easy
+        prompt: |
+          Fix the incorrect .format() method usage:
+        code: |
+          item = "coffee"
+          price = 2.5
+          print("The {} costs {}".format(price, item))
+        hint: The order of arguments in .format() matters.
+        issue: The placeholders and variables are in the wrong order.
+        solution: |
+          item = "coffee"
+          price = 2.5
+          print("The {} costs ${}".format(item, price))
+
+      - id: str-fix-006
+        difficulty: easy
+        prompt: |
+          Fix the incorrect %-formatting:
+        code: |
+          x = 10
+          y = 3
+          print("Division result: %d" % (x / y))
+        hint: "%d is for integers, but the result is a float."
+        issue: Using %d truncates the decimal part of the division.
+        solution: |
+          x = 10
+          y = 3
+          print("Division result: %.2f" % (x / y))  # Shows 2 decimal places
+
   - topic: operators
     questions:
       - id: op-fix-001
