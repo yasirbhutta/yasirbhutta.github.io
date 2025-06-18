@@ -8,6 +8,14 @@ topic: "strings"
 course: "python"
 prev: /python/docs/control-flow.html
 next: /python/docs/functions.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
 ---
 
 ## Contents

@@ -8,6 +8,16 @@ topic: "strings"
 course: "python"
 prev: /python/docs/strings.html
 next: /python/docs/strings/strings-formatting.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Strings
+    url: /python/docs/strings/
 ---
 
 ## What is a String?

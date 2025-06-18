@@ -6,8 +6,18 @@ keywords: ​Python strings, string formatting, Python tutorial, string methods,
 toc: toc/python.html
 topic: "strings"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/strings/strings-manip.html
 next: /python/docs/functions.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Strings
+    url: /python/docs/strings/
 ---
 
 ## Formatting Strings – Adjusting Case
