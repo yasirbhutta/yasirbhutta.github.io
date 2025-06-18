@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Learn Python String Methods & Formatting with Fill in the Blanks"
-description: Test your Python skills with Fill in the Blanks on string methods and formatting. Great for beginners learning Python strings through hands-on practice.
-keywords: python string methods, python string formatting, python fill in the blanks, python quiz, learn python strings, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: "Python Strings Fill in the Blanks – Practice Exercises for Beginners"
+description: Practice Python string concepts with engaging fill-in-the-blank exercises. Improve your understanding of string methods, formatting, and manipulation through interactive questions with answers.
+keywords: Python string fill in the blanks, Python strings practice exercises, string methods Python quiz, Python string manipulation practice, Python beginner exercises, learn Python strings, string formatting fill in the blanks, Python programming practice
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "strings"
