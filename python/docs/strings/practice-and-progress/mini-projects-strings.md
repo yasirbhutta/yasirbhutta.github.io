@@ -23,6 +23,6 @@ breadcrumb:
 
 ## Table of Contents
 
-1. [Mini Project: String Manipulation Tool](../../../mini-projects/string-manipulation-tool.md)
-2. [String Formatter Toolkit](../../../mini-projects/string-formatter-toolkit.md)
+1. [Mini Project: String Manipulation Tool](../../../mini-projects/index.md#string-manipulation-tool)
+2. [String Formatter Toolkit](../../../mini-projects/index.md#string-formatter-toolkit)
 
