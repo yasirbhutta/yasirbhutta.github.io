@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Mini Project: Student Grade Tracker Solution"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Student Grade Tracker Solution – Python Mini Project with Code"
+description: Explore the complete Python solution for the Student Grade Tracker mini project. Learn how to implement grade entry, calculation, and file-based data management with clean and beginner-friendly code.
+keywords: Python student grade tracker solution, Python mini project code, grade tracker Python example, student grade management Python, Python file handling project, beginner Python project solution, Python grading system, Python student record program
 author: Muhammad Yasir Bhutta
 course: python
 topic: mini-projects
