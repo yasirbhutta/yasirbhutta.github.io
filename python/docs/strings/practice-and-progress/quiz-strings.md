@@ -1,8 +1,8 @@
 ---
 layout: page
-title: String Quiz.
-description: Test your Python skills with Review Questions on string methods and formatting. Great for beginners learning Python strings through hands-on practice.
-keywords: python string methods, python string formatting, python review questions, python quiz, learn python strings, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: Python Strings Quiz – Test Your Knowledge with Interactive Questions
+description: Challenge yourself with this interactive Python strings quiz. Practice string methods, slicing, formatting, and manipulation through beginner-level multiple choice and fill-in-the-blank questions.
+keywords: Python strings quiz, Python interactive quiz, string methods Python, test Python strings, Python quiz for beginners, Python string slicing quiz, Python string operations quiz, Python string formatting test
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"
