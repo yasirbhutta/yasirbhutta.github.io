@@ -8,6 +8,7 @@ course: sap-education-reasearch
 show_practice_progress: false
 topic: sap-eam
 toc: toc/sap-education-research.html
+show_toc: yes
 prev: /sap-education-research/docs/sap-hcm/
 next: /sap-education-research/docs/sap-ps/
 breadcrumb:

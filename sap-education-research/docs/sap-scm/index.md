@@ -7,6 +7,7 @@ author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
 toc: toc/sap-education-research.html
+show_toc: yes
 prev: /sap-education-research/docs/sap-ps/
 next: /sap-education-research/docs/sap-slcm/
 breadcrumb:
