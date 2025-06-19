@@ -20,7 +20,7 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 9.  [Python Match Case Quiz](#)
 10. [Python Functions Quiz](python-functions-quiz.md)
 11. [Python String Quiz](python-string-quiz.md)
-12. [Python List Quiz](python-list-quiz.md)
+12. [Python List Quiz](../docs/lists/practice-and-progress/quiz-lists.md)
 13. [Python Generator Quiz](python-generators-quiz.md)  
    
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
