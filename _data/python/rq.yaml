@@ -1,5 +1,71 @@
 course: python
 topics:
+  - topic: lists
+    questions:
+      - id: list-review-001
+        prompt: "What is a list in Python and how is it created?"
+        answer: "A list is an ordered, mutable collection of elements enclosed in square brackets []. Lists are created by placing comma-separated values between square brackets or using the list() constructor."
+        examples:
+          - "Empty list: `my_list = []` or `my_list = list()`"
+          - "Number list: `numbers = [1, 2, 3]`"
+          - "Mixed types: `mixed = [1, 'a', True, 3.14]`"
+        resources:
+          - name: "Python Lists Documentation"
+            url: "https://docs.python.org/3/tutorial/introduction.html#lists"
+
+      - id: list-review-002
+        prompt: "How does Python list indexing work?"
+        answer: "Python lists use zero-based indexing where the first element is at index 0. Negative indices count backward from the end (-1 is last element)."
+        examples:
+          - "First element: `my_list[0]`"
+          - "Last element: `my_list[-1]`"
+          - "Second last: `my_list[-2]`"
+        resources:
+          - name: "Python List Indexing"
+            url: "https://realpython.com/python-lists-tuples/#list-elements-can-be-accessed-by-index"
+
+      - id: list-review-003
+        prompt: "What is list slicing and what is its syntax?"
+        answer: "Slicing extracts a portion of a list using the syntax list[start:stop:step]. Start is inclusive, stop is exclusive, and step determines the interval."
+        examples:
+          - "First 3 elements: `my_list[0:3]` or `my_list[:3]`"
+          - "Last 3 elements: `my_list[-3:]`"
+          - "Every other element: `my_list[::2]`"
+          - "Reverse: `my_list[::-1]`"
+        resources:
+          - name: "Python List Slicing"
+            url: "https://www.geeksforgeeks.org/python-list-slicing/"
+
+      - id: list-review-004
+        prompt: "What are the key differences between append(), extend(), and insert() methods?"
+        answer: |
+          - append(): Adds a single element to the end
+          - extend(): Adds all elements from an iterable to the end
+          - insert(): Adds an element at a specific position
+        examples:
+          - "append: `my_list.append(4)`"
+          - "extend: `my_list.extend([4, 5])`"
+          - "insert: `my_list.insert(1, 'new')`"
+        resources:
+          - name: "Python List Methods"
+            url: "https://www.w3schools.com/python/python_ref_list.asp"
+
+      - id: list-review-005
+        prompt: "How do you remove elements from a list in Python?"
+        answer: |
+          Common removal methods:
+          - remove(): Removes first matching value
+          - pop(): Removes item at given index (default last)
+          - del: Deletes item(s) by index/slice
+          - clear(): Empties entire list
+        examples:
+          - "remove: `my_list.remove('a')`"
+          - "pop: `my_list.pop(1)`"
+          - "del: `del my_list[0:2]`"
+          - "clear: `my_list.clear()`"
+        resources:
+          - name: "Removing List Items"
+            url: "https://www.programiz.com/python-programming/methods/list/remove"
 
   - topic: variables
     questions:

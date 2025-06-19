@@ -1,6 +1,88 @@
 course: python
 topics:
 
+  - topic: lists
+    questions:
+      - id: list-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the list creation error:
+        code: |
+          fruits = ['apple', 'banana', 'orange']
+          print(fruits[3])
+        hint: Remember how list indexing works in Python.
+        issue: Trying to access an index that's out of range.
+        solution: |
+          fruits = ['apple', 'banana', 'orange']
+          print(fruits[2])  # Last element is at index 2 (0-based indexing)
+
+      - id: list-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the list slicing operation:
+        code: |
+          numbers = [0, 1, 2, 3, 4, 5]
+          middle = numbers[2:5]
+          print(middle[-1])  # Should print 4
+        hint: Check the slice end index and negative indexing.
+        issue: The slice doesn't include the desired last element.
+        solution: |
+          numbers = [0, 1, 2, 3, 4, 5]
+          middle = numbers[2:6]  # or numbers[2:]
+          print(middle[-1])  # Now correctly prints 4
+
+      - id: list-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the list method usage:
+        code: |
+          items = [1, 2, 3]
+          items.append([4, 5])
+          print(items)  # Should show [1, 2, 3, 4, 5]
+        hint: Check the difference between append() and extend().
+        issue: append() adds the entire list as a single element.
+        solution: |
+          items = [1, 2, 3]
+          items.extend([4, 5])  # or items += [4, 5]
+          print(items)  # Now correctly shows [1, 2, 3, 4, 5]
+
+      - id: list-fix-004
+        difficulty: hard
+        prompt: |
+          Fix the list reverse operation:
+        code: |
+          values = [10, 20, 30, 40]
+          reversed_values = values.reverse()
+          print(reversed_values)  # Should print [40, 30, 20, 10]
+        hint: Remember that some list methods modify in-place and return None.
+        issue: reverse() modifies the list in-place and returns None.
+        solution: |
+          # Solution 1: Use the method then print the original
+          values = [10, 20, 30, 40]
+          values.reverse()
+          print(values)
+
+          # Solution 2: Use slicing to create a reversed copy
+          values = [10, 20, 30, 40]
+          reversed_values = values[::-1]
+          print(reversed_values)
+
+      - id: list-fix-005
+        difficulty: easy
+        prompt: |
+          Fix the list element removal:
+        code: |
+          colors = ['red', 'green', 'blue']
+          colors.remove('yellow')
+          print(colors)
+        hint: What happens when removing a non-existent element?
+        issue: Trying to remove an element that doesn't exist in the list.
+        solution: |
+          colors = ['red', 'green', 'blue']
+          if 'yellow' in colors:
+              colors.remove('yellow')
+          print(colors)  # Now won't raise ValueError
+
   - topic: strings
     questions:
       - id: str-fix-001
