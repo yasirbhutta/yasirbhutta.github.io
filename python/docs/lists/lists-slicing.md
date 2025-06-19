@@ -6,7 +6,18 @@ keywords: Python, List, Slicing, Syntax, Examples, Tutorial, Guide, Coding, list
 toc: toc/python.html
 prev: /python/docs/lists/lists-basics.html
 next: /python/docs/lists/lists-methods.html
-
+course: python
+topic: lists
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Lists
+    url: /python/docs/lists/
 ---
 
 **Slicing** a list in Python means extracting a portion (or subsequence) of the list using a specific syntax:

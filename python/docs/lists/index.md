@@ -6,6 +6,18 @@ keywords: python lists, python list tutorial, python list examples, how to use l
 toc: toc/python.html
 prev: /python/docs/dss.html
 next: /python/docs/lists/lists-basics.html
+course: python
+topic: lists
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Lists
+    url: /python/docs/lists/
 ---
 
 ## Tables of Contents
