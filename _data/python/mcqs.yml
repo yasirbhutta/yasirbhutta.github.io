@@ -1,5 +1,105 @@
 course: python
 topics:
+  - topic: lists
+    questions:
+      - id: list001
+        difficulty: easy
+        question: What is the correct way to create an empty list in Python?
+        language: python
+        options:
+          - "[]"
+          - "list()"
+          - "Both of the above"
+          - "None of the above"
+        answer: "Both of the above"
+        explanation: "Both [] and list() can be used to create an empty list in Python."
+
+      - id: list002
+        difficulty: easy
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          my_list = ['a', 'b', 'c']
+          print(my_list[1])
+        options:
+          - "'a'"
+          - "'b'"
+          - "'c'"
+          - "Error"
+        answer: "'b'"
+        explanation: "List indices start at 0, so index 1 refers to the second element 'b'."
+
+      - id: list003
+        difficulty: medium
+        question: What does the following code return?
+        language: python
+        code: |
+          nums = [0, 1, 2, 3, 4, 5]
+          print(nums[1:4])
+        options:
+          - "[0, 1, 2, 3]"
+          - "[1, 2, 3]"
+          - "[1, 2, 3, 4]"
+          - "[0, 1, 2]"
+        answer: "[1, 2, 3]"
+        explanation: "Slicing is inclusive of the start index and exclusive of the end index."
+
+      - id: list004
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          numbers = [1, 2, 3, 4]
+          print(numbers[::-1])
+        options:
+          - "[1, 2, 3, 4]"
+          - "[4, 3, 2, 1]"
+          - "[4]"
+          - "Error"
+        answer: "[4, 3, 2, 1]"
+        explanation: "The [::-1] slice creates a reversed copy of the list."
+
+      - id: list005
+        difficulty: easy
+        question: Which method adds an element to the end of a list?
+        language: python
+        options:
+          - "append()"
+          - "add()"
+          - "insert()"
+          - "extend()"
+        answer: "append()"
+        explanation: "The append() method adds a single element to the end of the list."
+
+      - id: list006
+        difficulty: medium
+        question: What is the difference between list.pop() and list.remove()?
+        language: python
+        options:
+          - "pop() removes by index, remove() removes by value"
+          - "pop() removes by value, remove() removes by index"
+          - "Both remove by index"
+          - "Both remove by value"
+        answer: "pop() removes by index, remove() removes by value"
+        explanation: "pop() removes and returns an item at the given index (last by default), while remove() deletes the first occurrence of the specified value."
+
+      - id: list007
+        difficulty: hard
+        question: What will be the value of `a` after executing this code?
+        language: python
+        code: |
+          a = [1, 2]
+          b = [3, 4]
+          a.extend(b)
+          print(a)
+        options:
+          - "[1, 2, 3, 4]"
+          - "[1, 2, [3, 4]]"
+          - "[3, 4, 1, 2]"
+          - "[1, 3, 2, 4]"
+        answer: "[1, 2, 3, 4]"
+        explanation: "extend() adds all elements of an iterable to the end of the list, flattening them."
+
   - topic: operators
     questions:
       - id: arith004
