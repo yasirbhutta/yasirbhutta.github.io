@@ -1,3 +1,22 @@
+---
+layout: page
+title: "SAP EAM Work Center Guide – Definition, Attributes, T-Codes, and IT Support Example"
+description: Explore a complete guide on SAP EAM Work Centers including definitions, key attributes, usage in maintenance orders, related transaction codes, and a real-world IT support center example for universities.
+keywords: SAP EAM work center, SAP maintenance work center, SAP CR01 CR02 CR03, SAP work center example, SAP work center attributes, IT support in SAP EAM, SAP maintenance order work center, SAP PM functional location, SAP EAM university example, SAP work center cost planning, SAP PM training content
+author: Muhammad Yasir Bhutta
+course: sap-education-reasearch
+topic: sap-eam
+toc: toc/sap-education-research.html
+prev: /sap-education-research/
+next: /sap-education-research/docs/sap-fico/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: SAP
+    url: /sap-education-research/
+  - title: LO
+    url: /sap-education-research/docs/sap-lo/
+---
 
 
 ### 🌿 What is a **Plant in SAP**?

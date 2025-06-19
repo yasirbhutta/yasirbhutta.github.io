@@ -20,11 +20,11 @@ breadcrumb:
 
 ## Table of Contents
 
-1. 📦 **What is **SAP Logistics – General (LO)?
-2. 2. 🧱 Key Functionalities of SAP LO
-3. 🔗 Integration with Other SAP Modules
-4. 4. 🛠️ Common LO T-Codes
-5. 5. 🏛️ Why SAP LO Matters in a University or Non-Manufacturing Setup
+1. [What is **SAP Logistics – General (LO)?](#1--what-is-sap-logistics--general-lo)
+2. [Key Functionalities of SAP LO](#2--key-functionalities-of-sap-lo)
+3. [Integration with Other SAP Modules](#3--integration-with-other-sap-modules)
+4. [Common LO T-Codes](#4-️-common-lo-t-codes)
+5. [Why SAP LO Matters in a University or Non-Manufacturing Setup](#5-️-why-sap-lo-matters-in-a-university-or-non-manufacturing-setup)
    
 ## 1. 📦 **What is **SAP Logistics – General (LO)?**
 
@@ -97,5 +97,5 @@ In universities, hospitals, or public sector organizations, **SAP LO** helps man
 
 ## 📘 **Related Topics**
 
-* **Plants** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
-  👉 [Learn more](#)
+* **Plants** – In **SAP ERP**, a **Plant** is a **central organizational unit** within logistics used to manage operations such as **procurement**, **production**, **maintenance**, **inventory**, and **services**.
+  👉 [Learn more](plants.md)
