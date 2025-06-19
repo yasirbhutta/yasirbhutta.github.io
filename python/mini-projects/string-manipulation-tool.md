@@ -6,7 +6,7 @@ keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Ex
 author: Muhammad Yasir Bhutta
 course: python
 topic: mini-projects
-show_toc: false
+show_toc: true
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false

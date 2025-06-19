@@ -6,7 +6,7 @@ keywords:
 author: Muhammad Yasir Bhutta
 course: python
 topic: mini-projects
-show_toc: false
+show_toc: true
 toc: toc/ms-excel-toc.html
 show_practice_progress: false
 show_mini_project: false
