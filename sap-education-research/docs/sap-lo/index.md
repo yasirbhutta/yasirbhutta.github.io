@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "SAP EAM Work Center Guide – Definition, Attributes, T-Codes, and IT Support Example"
-description: Explore a complete guide on SAP EAM Work Centers including definitions, key attributes, usage in maintenance orders, related transaction codes, and a real-world IT support center example for universities.
-keywords: SAP EAM work center, SAP maintenance work center, SAP CR01 CR02 CR03, SAP work center example, SAP work center attributes, IT support in SAP EAM, SAP maintenance order work center, SAP PM functional location, SAP EAM university example, SAP work center cost planning, SAP PM training content
+title: "SAP Logistics – General (LO) Overview: Key Functions, T-Codes, and Use in Universities"
+description: Learn about SAP Logistics – General (LO), its core functionalities, integration with MM, SD, PM, and its practical use in universities and non-manufacturing sectors. Includes common T-Codes and examples..
+keywords: SAP LO module, SAP Logistics General, SAP LO T-Codes, SAP LO functionalities, SAP LO for universities, SAP LO integration MM SD PM, SAP LO document management, SAP classification system, SAP enterprise structure, SAP batch management, SAP LO non-manufacturing, SAP LO material master
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -20,7 +20,7 @@ breadcrumb:
 
 ## Table of Contents
 
-1. [What is **SAP Logistics – General (LO)?](#1--what-is-sap-logistics--general-lo)
+1. [What is SAP Logistics – General (LO)?](#1--what-is-sap-logistics--general-lo)
 2. [Key Functionalities of SAP LO](#2--key-functionalities-of-sap-lo)
 3. [Integration with Other SAP Modules](#3--integration-with-other-sap-modules)
 4. [Common LO T-Codes](#4-️-common-lo-t-codes)

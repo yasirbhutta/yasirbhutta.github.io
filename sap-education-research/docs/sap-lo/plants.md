@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "SAP EAM Work Center Guide – Definition, Attributes, T-Codes, and IT Support Example"
-description: Explore a complete guide on SAP EAM Work Centers including definitions, key attributes, usage in maintenance orders, related transaction codes, and a real-world IT support center example for universities.
-keywords: SAP EAM work center, SAP maintenance work center, SAP CR01 CR02 CR03, SAP work center example, SAP work center attributes, IT support in SAP EAM, SAP maintenance order work center, SAP PM functional location, SAP EAM university example, SAP work center cost planning, SAP PM training content
+title: "SAP Plant Overview – Definition, Structure, and University Use Case with Examples"
+description: Understand what a Plant is in SAP ERP, its key characteristics, usage across modules, and how universities and non-manufacturing setups can structure campuses and departments using SAP Plant configurations.
+keywords: SAP plant definition, SAP plant in university, SAP create plant OX10, SAP plant structure example, SAP storage location setup, SAP campus configuration, SAP functional location, SAP MM plant setup, SAP PM plant assignment, SAP work center by plant, SAP non-manufacturing example, SAP plant code university
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -18,8 +18,16 @@ breadcrumb:
     url: /sap-education-research/docs/sap-lo/
 ---
 
+## Table of Contents
 
-### 🌿 What is a **Plant in SAP**?
+1. [What is a Plant in SAP?](#1--what-is-a-plant-in-sap)
+2. [Key Characteristics of a Plant in SAP](#2--key-characteristics-of-a-plant-in-sap)
+3. [Plant Examples by Industry](#3--plant-examples-by-industry)
+4. [Modules Where Plants Are Used](#4--modules-where-plants-are-used)
+5. [How to Create a Plant in SAP (Basic Overview)](#5-️-how-to-create-a-plant-in-sap-basic-overview)
+6. [Plant Structure for Departments or Campuses in a University](#6-️-sap-plant-structure-for-departments-or-campuses-in-a-university)
+
+## 1. 🌿 What is a **Plant in SAP**?
 
 In **SAP ERP**, a **Plant** is a **central organizational unit** within logistics used to manage operations such as **procurement**, **production**, **maintenance**, **inventory**, and **services**.
 
@@ -31,7 +39,7 @@ In **SAP ERP**, a **Plant** is a **central organizational unit** within logistic
 
 ---
 
-### 🧩 **Key Characteristics of a Plant in SAP:**
+## 2. 🧩 **Key Characteristics of a Plant in SAP:**
 
 | Attribute                      | Description                                                                                  |
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
@@ -42,7 +50,7 @@ In **SAP ERP**, a **Plant** is a **central organizational unit** within logistic
 
 ---
 
-### 🏢 **Plant Examples by Industry:**
+## 3. 🏢 **Plant Examples by Industry:**
 
 | Industry      | SAP Plant Example                           |
 | ------------- | ------------------------------------------- |
@@ -54,7 +62,7 @@ In **SAP ERP**, a **Plant** is a **central organizational unit** within logistic
 
 ---
 
-### 🔗 **Modules Where Plants Are Used:**
+## 4. 🔗 **Modules Where Plants Are Used:**
 
 | SAP Module                      | Role of Plant                             |
 | ------------------------------- | ----------------------------------------- |
@@ -67,7 +75,7 @@ In **SAP ERP**, a **Plant** is a **central organizational unit** within logistic
 
 ---
 
-### 🛠️ **How to Create a Plant in SAP (Basic Overview)**
+## 5 🛠️ **How to Create a Plant in SAP (Basic Overview)**
 
 1. **Define Plant**
 
@@ -96,10 +104,7 @@ In **SAP ERP**, a **Plant** is a **central organizational unit** within logistic
 
 ---
 
-
----
-
-## 🏛️ SAP **Plant Structure for Departments or Campuses** in a University
+## 6. 🏛️ SAP **Plant Structure for Departments or Campuses** in a University
 
 In SAP, you can structure your university's operations by assigning **each campus or major department** as a **Plant**, and sub-divide it into **Storage Locations**, **Work Centers**, and **Functional Locations**.
 
