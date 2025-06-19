@@ -21,4 +21,7 @@ breadcrumb:
     url: /python/docs/lists/
 ---
 
-## Table of Contents
+## Mini Projects
+
+- [Mini Project: Student Grade Tracker](../../../mini-projects/student-grade-tracker-python-mini-project.md)
+

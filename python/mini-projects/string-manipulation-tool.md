@@ -15,6 +15,8 @@ breadcrumb:
     url: /
   - title: Python
     url: /python/
+  - title: Mini Projects
+    url: /python/mini-projects/
 ---
 
 ### 📖 **Objective**

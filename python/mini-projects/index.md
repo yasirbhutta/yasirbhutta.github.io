@@ -19,7 +19,9 @@ breadcrumb:
     url: /python/
 ---
 
-## 🔤 String Projects
+## 🔤 Mini Projects
+
+---
 
 ### [String Manipulation Tool](string-manipulation-tool.md)
 
@@ -30,3 +32,9 @@ breadcrumb:
 ### [String Formatter Toolkit](string-formatter-toolkit.md)
 
 **📝 Overview:** A Python-based interactive console tool for string manipulation offering reversing, case conversion, substring replacement, vowel/consonant counting, title casing, space trimming, palindrome checking, and word counting with a user-friendly menu-driven interface.
+
+---
+
+### [Student Grade Tracker](student-grade-tracker-python-mini-project.md)
+
+**📝 Overview:** A Python mini-project using lists to store student records and tuples for individual (name, grades) data, with functions to add students, calculate averages, and display rankings. Perfect for beginners to practice core data structures!.
