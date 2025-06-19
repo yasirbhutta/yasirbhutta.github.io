@@ -1,5 +1,81 @@
 course: python
 topics:
+  - topic: lists
+    questions:
+      - id: list-fib-001
+        difficulty: easy
+        prompt: "To create a list with elements 1, 2, and 3, we write: ______ = [1, 2, 3]"
+        answer: "any_valid_variable_name"
+        explanation: "Lists are created using square brackets, and can be assigned to any valid variable name."
+
+      - id: list-fib-002
+        difficulty: easy
+        prompt: "To access the last element of list `my_list`, we use: my_list[______]"
+        answer: "-1"
+        explanation: "Negative indices count from the end (-1 is last element, -2 is second last, etc.)"
+
+      - id: list-fib-003
+        difficulty: medium
+        prompt: "To get every second element from index 1 to 5 in `nums`, we write: nums[______]"
+        answer: "1:6:2"
+        explanation: "The slice start:stop:step gets elements from start to stop-1, stepping by step"
+
+      - id: list-fib-004
+        difficulty: easy
+        prompt: "To add an element 5 to the end of `my_list`, we use: my_list.______(5)"
+        answer: "append"
+        explanation: "append() adds a single element to the end of the list"
+
+      - id: list-fib-005
+        difficulty: medium
+        prompt: "To reverse a list `items` in-place, we use: items.______()"
+        answer: "reverse"
+        explanation: "The reverse() method reverses the list elements in their place"
+
+      - id: list-fib-006
+        difficulty: hard
+        prompt: "To create a shallow copy of `original_list`, we can use: new_list = ______[:]"
+        answer: "original_list"
+        explanation: "Slicing with [:] creates a new copy of the entire list"
+
+      - id: list-fib-007
+        difficulty: medium
+        prompt: "To find the index of first occurrence of 'apple' in `fruits`, we use: fruits.______('apple')"
+        answer: "index"
+        explanation: "index() returns the position of the first matching element"
+
+      - id: list-fib-008
+        difficulty: hard
+        prompt: "To remove all elements from `my_list` while keeping the object, we use: my_list.______()"
+        answer: "clear"
+        explanation: "clear() empties the list while maintaining the list object"
+
+    examples:
+      - id: list-fib-ex-001
+        code: |
+          colors = ['red', 'green', 'blue']
+          print(colors[______])
+        prompt: "To print 'green' from the list, fill in the blank"
+        answer: "1"
+        explanation: "List indices start at 0, so 'green' is at position 1"
+
+      - id: list-fib-ex-002
+        code: |
+          numbers = [1, 2, 3, 4, 5]
+          subset = numbers[______]  # Gets [2, 3, 4]
+        prompt: "Fill in the slice to get elements at indices 1 to 3"
+        answer: "1:4"
+        explanation: "Slices are start-inclusive and end-exclusive"
+
+      - id: list-fib-ex-003
+        code: |
+          data = [10, 20, 30]
+          data.______(40)
+          print(data)  # Outputs [10, 20, 30, 40]
+        prompt: "Fill in the method call to add 40 to the list"
+        answer: "append"
+        explanation: "append() adds an element to the end of the list"
+
   - topic: variables
     questions:
       - id: var-fib-001
