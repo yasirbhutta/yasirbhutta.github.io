@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python List Mini Projects – Hands-On Practice for Beginners"
-description: Explore beginner-friendly mini projects using Python lists. Practice real-world scenarios involving list operations, sorting, searching, and data manipulation to strengthen your Python coding skills.
-keywords: Python list mini projects, beginner Python projects, list-based Python exercises, hands-on Python list practice, Python list operations, Python list manipulation projects, simple Python coding projects, Python mini tasks with lists
+title: "Python Lists Quiz – Interactive Practice for Beginners"
+description: Test your Python knowledge with this interactive quiz on lists. Practice list operations, indexing, slicing, and methods with auto-graded questions designed for beginners.
+keywords: Python lists quiz, Python interactive quiz, list operations Python, Python list practice quiz, Python beginner quiz, test Python lists, list methods quiz Python, Python list comprehension quiz, Python quiz for students
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"
