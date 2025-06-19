@@ -101,4 +101,4 @@ SAP MM helps universities, colleges, and research institutes:
 * **SAP Material Types Explained: ROH, HALB, FERT, NLAG & More for Effective Inventory Control**
 👉 [Learn more](material-types.md)
 * **"Understanding Units of Measure (UoM) in SAP: Types, Examples & Usage**
-👉 [Learn more](mou.md)
+👉 [Learn more](uom.md)

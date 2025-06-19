@@ -7,6 +7,7 @@ author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-mm
 toc: toc/sap-education-research.html
+show_toc: yes
 prev: /sap-education-research/docs/sap-mm/
 next: /sap-education-research/docs/sap-ps/
 breadcrumb:
@@ -62,4 +63,9 @@ Use:
 * **NLAG** (Non-Stock Material): For items like mouse, cables, adapters.
 * **HIBE** (Operating Supplies): For operational materials used regularly.
 * **ERSA** (Spare Parts): If the item is stock-managed and replaceable.
+
+## 📘 **Related Topics**
+
+* **Decimals and Percentages** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
+  👉 [Learn more](#)
 

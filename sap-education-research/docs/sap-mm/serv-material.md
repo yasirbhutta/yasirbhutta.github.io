@@ -6,6 +6,7 @@ keywords: SERV material type SAP, SAP service material, external services SAP, S
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-mm
+show_toc: yes
 toc: toc/sap-education-research.html
 prev: /sap-education-research/docs/sap-mm/
 next: /sap-education-research/docs/sap-ps/
