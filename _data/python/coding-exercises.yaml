@@ -1,5 +1,93 @@
 course: python
 topics:
+  - topic: lists
+    exercises:
+      - id: py-ce-list-001
+        title: "List Creation and Indexing"
+        task: |
+          1. Create a list called `fruits` with these elements: 'apple', 'banana', 'cherry', 'date'
+          2. Print the first and last elements using indexing
+          3. Print every alternate fruit starting from the second one
+        requirements:
+          - "Use positive and negative indexing"
+          - "Use slicing for alternate elements"
+        input: "No input required"
+        output: |
+          First: apple
+          Last: date
+          Alternate: ['banana', 'date']
+        resource:
+          name: "Python Lists"
+          url: "https://docs.python.org/3/tutorial/introduction.html#lists"
+        difficulty: "easy"
+
+      - id: py-ce-list-002
+        title: "List Slicing Operations"
+        task: |
+          Given the list: numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+          1. Create a new list with first 5 numbers
+          2. Create a new list with last 3 numbers
+          3. Create a new list with even-indexed numbers
+          4. Create a reversed version of the list
+        requirements:
+          - "Use slicing operations only"
+          - "Don't use any loop constructs"
+        input: "No input required"
+        output: |
+          First 5: [0, 1, 2, 3, 4]
+          Last 3: [7, 8, 9]
+          Even indexed: [0, 2, 4, 6, 8]
+          Reversed: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+        resource:
+          name: "Python List Slicing"
+          url: "https://www.geeksforgeeks.org/python-list-slicing/"
+        difficulty: "medium"
+
+      - id: py-ce-list-003
+        title: "List Methods Practice"
+        task: |
+          Start with an empty list called `inventory`
+          1. Add items: 'sword', 'shield', 'potion' (in this order)
+          2. Insert 'helmet' at the beginning
+          3. Remove 'shield' from the list
+          4. Sort the items alphabetically
+          5. Count how many 'potion' items exist
+        requirements:
+          - "Use appropriate list methods for each operation"
+          - "Print the list after each step"
+        input: "No input required"
+        output: |
+          After adding: ['sword', 'shield', 'potion']
+          After inserting: ['helmet', 'sword', 'shield', 'potion']
+          After removing: ['helmet', 'sword', 'potion']
+          After sorting: ['helmet', 'potion', 'sword']
+          Potion count: 1
+        resource:
+          name: "Python List Methods"
+          url: "https://www.w3schools.com/python/python_ref_list.asp"
+        difficulty: "medium"
+
+      - id: py-ce-list-004
+        title: "Combined List Operations"
+        task: |
+          Given two lists:
+          list1 = [1, 2, 3, 4, 5]
+          list2 = [10, 20, 30, 40, 50]
+          
+          1. Create a new list containing elements from both lists
+          2. Replace the middle three elements (2,3,4) with [99, 100]
+          3. Remove the last two elements
+          4. Double each remaining element
+        requirements:
+          - "Don't modify the original lists"
+          - "Use list concatenation, slicing, and comprehension"
+        input: "No input required"
+        output: |
+          Final list: [2, 200, 10, 20, 30, 40, 50]
+        resource:
+          name: "Python List Operations"
+          url: "https://realpython.com/python-lists-tuples/"
+        difficulty: "hard"
 
   - topic: operators
     exercises:
