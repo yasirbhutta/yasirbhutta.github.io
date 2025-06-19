@@ -97,19 +97,23 @@ A general item used in procurement, production, inventory, or sales. It can be r
 ### **MM (Materials Management)**  
 SAP module for procurement, inventory, and logistics.  [Learn more ...](sap-mm/)
 
-### **MRP (Material Requirements Planning)**  
-A process in SAP for planning production materials and procurement.  
+
+### **Maintance Store**  
+In SAP EAM, a **Maintenance Store** refers to the **storage location** or **warehouse** from which spare parts, tools, and materials are issued for maintenance work (e.g., corrective, preventive, or shutdown maintenance). [Learn more...](sap-eam/maintance-store.md)
 
 ---
 
 ## P  
+
 ### **PP (Production Planning)**  
-SAP module for manufacturing processes and scheduling.  
+SAP module for manufacturing processes and scheduling.
+
+### **Plants**  
+In **SAP ERP**, a **Plant** is a **central organizational unit** within logistics used to manage operations such as **procurement**, **production**, **maintenance**, **inventory**, and **services**. [Learn more...](sap-lo/plants.md)
 
 ### **PM (Plant Maintenance)**  
 SAP module for equipment maintenance and asset management. 
 
-### 
 
 ---
 
@@ -147,7 +151,9 @@ A **measuring unit** (Unit of Measure - UoM) represents the **quantity basis** f
 
 ## W  
 ### **Workflow**  
-Automated business processes in SAP (e.g., approvals, notifications).  
+Automated business processes in SAP (e.g., approvals, notifications). 
+### **Work Store**  
+In **SAP EAM (Enterprise Asset Management)**, a **Work Center** is a key master data object that represents a **location where maintenance work is carried out**. It can refer to a group of people (like technicians or electricians), a physical place (like a workshop), or a piece of equipment used to perform work. [Learn more...](sap-eam/work-center.md)   
 
 ### **WM (Warehouse Management)**  
 SAP module for inventory tracking and warehouse operations.  
