@@ -7,6 +7,9 @@ author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
 toc: toc/ms-excel-toc.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 prev: /python/docs/tuples/tuples-slicing.html
 next: /python/docs/sorting.html
 breadcrumb:

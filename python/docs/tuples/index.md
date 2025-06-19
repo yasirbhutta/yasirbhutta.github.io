@@ -5,18 +5,20 @@ description: Learn how to use the tuple in python.
 keywords: what is tuple, tuple basics, create tuples, tuple basics, unpacking of tuples, packing of tuples
 author: Muhammad Yasir Bhutta
 course: python
-topic: functions
-toc: toc/python.html
-prev: /python/docs/lists/
-next: /python/docs/tuples/tuples-basics.html
+topic: tuples
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 breadcrumb:
   - title: Home
     url: /
   - title: Python
     url: /python/
+  - title: Tuples
+    url: /python/docs/tuples/
 ---
 
-# Tuples
+# Table of Contents
 
 - [Tuples Basics](tuples-basics.md)
 - [Tuples Slicing](tuples-slicing.md)

@@ -9,6 +9,9 @@ topic: tuples
 toc: toc/python.html
 prev: /python/docs/tuples/
 next: /python/docs/tuples/tuples-slicing.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 breadcrumb:
   - title: Home
     url: /

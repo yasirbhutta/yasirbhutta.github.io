@@ -7,6 +7,9 @@ author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
 toc: toc/python.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 prev: /python/docs/tuples/tuples-basics.html
 next: /python/docs/tuples/tuples-methods.html
 breadcrumb:
