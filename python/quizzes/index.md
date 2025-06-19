@@ -19,7 +19,7 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](python-break-continue-else-loop-quiz.md)
 9.  [Python Match Case Quiz](#)
 10. [Python Functions Quiz](python-functions-quiz.md)
-11. [Python String Quiz](python-string-quiz.md)
+11. [Python String Quiz](../docs/strings/practice-and-progress/quiz-strings.md)
 12. [Python List Quiz](../docs/lists/practice-and-progress/quiz-lists.md)
 13. [Python Generator Quiz](python-generators-quiz.md)  
    
