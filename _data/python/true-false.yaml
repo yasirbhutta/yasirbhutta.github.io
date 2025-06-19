@@ -1,5 +1,91 @@
 course: python
 topics:
+  - topic: lists
+    questions:
+      - id: list-tf-001
+        difficulty: easy
+        prompt: In Python, lists can contain elements of different data types.
+        answer: true
+        explanation: >
+          Python lists are heterogeneous and can contain any mix of data types (e.g., [1, 'a', True, 3.14]).
+
+      - id: list-tf-002
+        difficulty: easy
+        prompt: The index -1 in a list refers to the first element.
+        answer: false
+        explanation: >
+          Negative indices count from the end, so -1 refers to the last element, -2 refers to the second last, etc.
+
+      - id: list-tf-003
+        difficulty: medium
+        prompt: The expression `list('hello')` creates a list of individual characters.
+        answer: true
+        explanation: >
+          When a string is passed to list(), it creates a list where each character becomes a separate element: ['h', 'e', 'l', 'l', 'o'].
+
+      - id: list-tf-004
+        difficulty: easy
+        prompt: The slice my_list[1:3] includes the element at index 3.
+        answer: false
+        explanation: >
+          Slicing is inclusive of the start index and exclusive of the end index, so it includes indices 1 and 2 but not 3.
+
+      - id: list-tf-005
+        difficulty: medium
+        prompt: my_list[:] creates a shallow copy of the original list.
+        answer: true
+        explanation: >
+          Using [:] without start or end indices creates a new list with all elements copied from the original.
+
+      - id: list-tf-006
+        difficulty: hard
+        prompt: The slice my_list[::2] returns every third element of the list.
+        answer: false
+        explanation: >
+          The step value of 2 returns every second element (elements at even indices), not every third element.
+
+      - id: list-tf-007
+        difficulty: easy
+        prompt: The append() method can add multiple elements to a list at once.
+        answer: false
+        explanation: >
+          append() adds a single element to the end of the list. To add multiple elements, use extend() or += operator.
+
+      - id: list-tf-008
+        difficulty: medium
+        prompt: The sort() method modifies the original list and returns None.
+        answer: true
+        explanation: >
+          sort() sorts the list in place and returns None, unlike sorted() which returns a new sorted list.
+
+      - id: list-tf-009
+        difficulty: hard
+        prompt: The remove() method removes all occurrences of a value from a list.
+        answer: false
+        explanation: >
+          remove() only removes the first occurrence of the specified value. To remove all occurrences, you need to use a loop or list comprehension.
+
+      - id: list-tf-010
+        difficulty: easy
+        prompt: Lists in Python are immutable.
+        answer: false
+        explanation: >
+          Lists are mutable - their elements can be changed after creation, unlike tuples which are immutable.
+
+      - id: list-tf-011
+        difficulty: medium
+        prompt: The insert() method can add an element at any position in the list.
+        answer: true
+        explanation: >
+          insert(index, element) allows you to add an element at any valid index, including at the beginning or end.
+
+      - id: list-tf-012
+        difficulty: hard
+        prompt: The clear() method and assigning an empty list [] are identical operations.
+        answer: false
+        explanation: >
+          clear() modifies the existing list object, while assigning [] creates a new list object. This affects other references to the list.
+
   - topic: variables
     questions:
       - id: var-tf-001
