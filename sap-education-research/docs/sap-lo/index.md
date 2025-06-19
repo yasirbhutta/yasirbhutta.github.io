@@ -30,7 +30,7 @@ breadcrumb:
 
 **SAP Logistics – General (LO)** is a **core component of SAP ERP** that provides **foundational logistics functions** used by other SAP logistics modules like:
 
-* **MM (Materials Management)**
+* **[MM (Materials Management)](../sap-mm/**
 * **SD (Sales and Distribution)**
 * **PP (Production Planning)**
 * **PM (Plant Maintenance)**
@@ -97,5 +97,5 @@ In universities, hospitals, or public sector organizations, **SAP LO** helps man
 
 ## 📘 **Related Topics**
 
-* **Plants** – In **SAP ERP**, a **Plant** is a **central organizational unit** within logistics used to manage operations such as **procurement**, **production**, **maintenance**, **inventory**, and **services**.
+* **What is Plant** – In **SAP ERP**, a **Plant** is a **central organizational unit** within logistics used to manage operations such as **procurement**, **production**, **maintenance**, **inventory**, and **services**.
   👉 [Learn more](plants.md)
