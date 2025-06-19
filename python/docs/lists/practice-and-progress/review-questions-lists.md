@@ -1,8 +1,8 @@
 ---
 layout: review-questions
-title: Learn Python String Methods & Formatting with Review Questions.
-description: Test your Python skills with Review Questions on string methods and formatting. Great for beginners learning Python lists through hands-on practice.
-keywords: python string methods, python string formatting, python review questions, python quiz, learn python lists, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: Python Lists Review Questions – Test Your Understanding
+description: Reinforce your Python list knowledge with structured review questions. Cover key concepts like list creation, indexing, slicing, and manipulation with clear, beginner-friendly Q&A.
+keywords: Python list review questions, Python lists Q&A, list operations review, Python list practice questions, list indexing and slicing, review exercises Python, beginner Python list questions, Python programming review quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

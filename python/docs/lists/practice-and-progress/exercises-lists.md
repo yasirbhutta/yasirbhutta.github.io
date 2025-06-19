@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Learn Python String Methods & Formatting with Coding Exercises.
-description: Test your Python skills with Coding Exercises on string methods and formatting. Great for beginners learning Python lists through hands-on practice.
-keywords: python string methods, python string formatting, python coding exercises, python quiz, learn python lists, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: Python List Exercises – Practice Questions for Beginners
+description: Practice Python list concepts with beginner-friendly exercises. Strengthen your understanding of list creation, indexing, slicing, and manipulation with hands-on coding problems and solutions.
+keywords: Python list exercises, Python list practice questions, list manipulation Python, beginner Python list problems, Python list coding exercises, list slicing Python, Python list indexing practice, hands-on Python list practice
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"

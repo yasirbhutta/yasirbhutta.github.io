@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: Find and Fix Mistakes in Python lists – Practice with Common String Errors
-description: Improve your Python skills by identifying and correcting common string mistakes. Practice string operations, formatting, and debugging techniques with hands-on examples.
-keywords: Python string errors, find and fix string mistakes Python, Python string debugging, common Python string mistakes, string formatting Python, Python practice lists, fix string issues Python, Python string operations exercises
+title: Find and Fix Mistakes in Python Lists – Practice Debugging Exercises
+description: Boost your Python skills by identifying and correcting common mistakes in list operations. Practice debugging Python list syntax, indexing errors, and method misuse with hands-on examples.
+keywords: Python list debugging, find and fix Python list errors, Python list mistakes, list troubleshooting Python, Python list error practice, Python syntax errors in lists, beginner Python list debugging, Python list exercises with solutions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"

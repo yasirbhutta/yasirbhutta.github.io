@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python lists: True or False Practice Questions with Answers"
-description: Test your understanding of Python lists with true or false questions. Strengthen your concepts on string methods, formatting, and operations through quick evaluations and instant answers.
-keywords: Python string quiz, true or false Python lists, Python string practice questions, string methods Python, Python string exercises, Python string MCQs, test Python string knowledge, Python lists true false quiz
+title: "Python Lists True or False Questions – Practice for Beginners"
+description: Test your knowledge of Python lists with true or false practice questions. Strengthen your understanding of list operations, indexing, slicing, and common methods with instant feedback.
+keywords: Python lists true or false, Python list quiz, list operations Python, Python beginner list practice, Python true false quiz, Python list questions and answers, Python MCQs lists, learn Python lists
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"

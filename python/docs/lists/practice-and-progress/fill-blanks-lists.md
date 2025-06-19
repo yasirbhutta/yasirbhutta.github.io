@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python lists Fill in the Blanks – Practice Exercises for Beginners"
-description: Practice Python string concepts with engaging fill-in-the-blank exercises. Improve your understanding of string methods, formatting, and manipulation through interactive questions with answers.
-keywords: Python string fill in the blanks, Python lists practice exercises, string methods Python quiz, Python string manipulation practice, Python beginner exercises, learn Python lists, string formatting fill in the blanks, Python programming practice
+title: "Python Lists Fill in the Blanks – Practice Exercises for Beginners"
+description: Sharpen your Python list skills with fill-in-the-blank exercises. Practice indexing, slicing, list methods, and more to reinforce your understanding of core list operations in Python.
+keywords: Python list fill in the blanks, Python list practice, beginner Python list exercises, Python list operations quiz, list methods Python practice, fill in the blanks Python lists, Python coding exercises, learn Python list manipulation
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"

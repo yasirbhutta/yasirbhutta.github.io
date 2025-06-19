@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: Learn Python String Methods & Formatting with MCQs.
-description: Test your Python skills with MCQs on string methods and formatting. Great for beginners learning Python lists through hands-on practice.
-keywords: python string methods, python string formatting, python mcqs, python quiz, learn python lists, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
+title: Python Lists MCQs – Multiple Choice Questions for Practice
+description: Practice Python lists with multiple choice questions (MCQs). Test your knowledge on list creation, indexing, slicing, and common list methods with beginner-friendly questions and answers.
+keywords: Python list MCQs, multiple choice questions Python lists, Python list quiz, list operations Python MCQs, Python list methods questions, beginner Python list test, practice Python lists, Python programming MCQs
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "String Manipulation Tool: Python Project for String Operations and Formatting"
-description: Explore a Python-based String Manipulation Tool to reverse lists, change case, count vowels, replace sublists, and more. Learn essential string operations and formatting in Python with this interactive mini project.
-keywords: Python string manipulation, Python project, string operations, reverse string, count vowels, string formatting, Python string methods, interactive Python tool, palindrome checker, string replace, word count, Python tutorial, string case conversion, remove extra spaces, title case formatting, Python beginner project
+title: "Python List Mini Projects – Hands-On Practice for Beginners"
+description: Explore beginner-friendly mini projects using Python lists. Practice real-world scenarios involving list operations, sorting, searching, and data manipulation to strengthen your Python coding skills.
+keywords: Python list mini projects, beginner Python projects, list-based Python exercises, hands-on Python list practice, Python list operations, Python list manipulation projects, simple Python coding projects, Python mini tasks with lists
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "lists"
