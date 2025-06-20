@@ -25,3 +25,10 @@ breadcrumb:
 - [Lists: Creating and Indexing](lists-basics.md)
 - [Lists: Slicing](lists-slicing.md)
 - [Lists: Methods](lists-methods.md)
+
+## 📘 **Related Topics**
+
+* **What is a Shallow Copy** – In Python, a **shallow copy** is a new object that is a **copy of the original object**, but it **does not create copies of nested objects** (objects inside objects).
+  👉 [Learn more](swallow-copy.md)
+* **What is a Deep Copy in Python?** – In Python, a **shallow copy** is a new object that is a **copy of the original object**, but it **does not create copies of nested objects** (objects inside objects).
+  👉 [Learn more](deep-copy.md)
