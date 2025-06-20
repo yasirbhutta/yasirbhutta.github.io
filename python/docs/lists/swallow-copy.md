@@ -88,7 +88,7 @@ Use shallow copy when:
 
 ## 📘 **Related Topics**
 
-* **What is a Deep Copy in Python?** – In Python, a **shallow copy** is a new object that is a **copy of the original object**, but it **does not create copies of nested objects** (objects inside objects).
+* **What is a Deep Copy in Python?** – A deep copy creates a completely independent copy of an object and all nested objects inside it.
   👉 [Learn more](deep-copy.md)
 
 
