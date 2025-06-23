@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: Find and Fix Mistakes in Python if-elif-else – Practice Debugging Exercises
-description: Boost your Python skills by identifying and correcting common mistakes in list operations. Practice debugging Python list syntax, indexing errors, and method misuse with hands-on examples.
-keywords: Python list debugging, find and fix Python list errors, Python list mistakes, list troubleshooting Python, Python list error practice, Python syntax errors in if-elif-else, beginner Python list debugging, Python list exercises with solutions
+title: Find and Fix Mistakes – Python if‑elif‑else Practice for Beginners
+description: Sharpen your Python debugging skills by identifying and correcting common mistakes in if‑elif‑else statements. Perfect for beginners practicing logic errors and syntax fixes.
+keywords: Python if elif else debugging, Python conditional statement errors, find and fix Python code, Python syntax practice, Python logic error exercises, beginner Python debugging, if else statement fix Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"

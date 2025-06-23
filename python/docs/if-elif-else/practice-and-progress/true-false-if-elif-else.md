@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python if-elif-else True or False Questions – Practice for Beginners"
-description: Test your knowledge of Python if-elif-else with true or false practice questions. Strengthen your understanding of list operations, indexing, slicing, and common methods with instant feedback.
-keywords: Python if-elif-else true or false, Python list quiz, list operations Python, Python beginner list practice, Python true false quiz, Python list questions and answers, Python MCQs if-elif-else, learn Python if-elif-else
+title: "Python if‑elif‑else True or False Questions – Practice for Beginners"
+description: Test your understanding of Python if‑elif‑else conditional statements with beginner-friendly true or false questions. Practice decision-making logic with simple and clear examples.
+keywords: Python if elif else quiz, Python conditional statements practice, Python true false questions, Python if statement test, beginner Python logic questions, Python elif examples, Python decision making practice
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"

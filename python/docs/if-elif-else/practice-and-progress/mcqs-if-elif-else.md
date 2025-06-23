@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: Python if-elif-else MCQs – Multiple Choice Questions for Practice
-description: Practice Python if-elif-else with multiple choice questions (MCQs). Test your knowledge on list creation, indexing, slicing, and common list methods with beginner-friendly questions and answers.
-keywords: Python list MCQs, multiple choice questions Python if-elif-else, Python list quiz, list operations Python MCQs, Python list methods questions, beginner Python list test, practice Python if-elif-else, Python programming MCQs
+title: Python if‑elif‑else MCQs – Multiple Choice Questions for Practice
+description: Test your Python skills with multiple choice questions on if‑elif‑else statements. Practice conditional logic, syntax, and flow control with beginner-level Python MCQs.
+keywords: Python if elif else MCQs, Python conditionals quiz, Python multiple choice questions, Python control flow MCQs, if else in Python practice, beginner Python quiz, Python decision making questions, Python logic MCQs
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"

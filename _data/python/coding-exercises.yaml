@@ -6,7 +6,10 @@ topics:
       - id: py-ce-cond-001
         title: "FizzBuzz"
         task: |
-          Write a program that prints the numbers from 1 to n. But for multiples of 3, print "Fizz" instead of the number, and for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
+          Write a program that prints the numbers from 1 to n. 
+          - But for multiples of 3, print "Fizz" instead of the number
+          - and for the multiples of 5, print "Buzz". 
+          - For numbers which are multiples of both 3 and 5, print "FizzBuzz".
         requirements:
           - "Use if-elif-else structure"
           - "Handle numbers from 1 to n inclusive"

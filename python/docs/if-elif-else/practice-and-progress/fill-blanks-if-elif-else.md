@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python if-elif-else Fill in the Blanks – Practice Exercises for Beginners"
-description: Sharpen your Python list skills with fill-in-the-blank exercises. Practice indexing, slicing, list methods, and more to reinforce your understanding of core list operations in Python.
-keywords: Python list fill in the blanks, Python list practice, beginner Python list exercises, Python list operations quiz, list methods Python practice, fill in the blanks Python if-elif-else, Python coding exercises, learn Python list manipulation
+title: "Python if‑elif‑else Fill in the Blanks – Practice Conditional Logic"
+description: Enhance your understanding of Python conditional statements with fill-in-the-blank exercises. Practice if‑elif‑else syntax and logic flow through beginner-friendly code examples.
+keywords: Python if elif else fill in the blanks, conditional logic Python practice, Python if else exercises, beginner Python conditionals, Python if elif else syntax quiz, Python logic questions, Python control flow worksheet.
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"
