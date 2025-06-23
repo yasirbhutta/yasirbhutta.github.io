@@ -14,7 +14,7 @@ topics:
               print("x is greater than 5")
           elif x > 0:
               print("x is positive")
-        hint: `elif` is only checked if the `if` condition fails.
+        hint: " `elif` is only checked if the `if` condition fails."
         issue: The second condition won't run because the first is already true.
         solution: |
           x = 7

@@ -35,7 +35,7 @@ breadcrumb:
 - **Day 6**: [Lists](../docs/lists/index.md) & [Tuples](../docs/tuples/index.md)
 - **Day 7**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)
 
-**🔧 Mini Project**: Simple Calculator, [String Manipulation Tool](../mini-projects/index.md#string-manipulation-tool), [Student Grade Tracker](../mini-projects/student-grade-tracker-python-mini-project.md)
+**🔧 Mini Project**: [String Manipulation Tool](../mini-projects/index.md#string-manipulation-tool), [Student Grade Tracker](../mini-projects/student-grade-tracker-python-mini-project.md) [More ...](../mini-projects/)
 
 ---
 
@@ -49,7 +49,7 @@ breadcrumb:
 - **Day 13**: [List Comprehension](../docs/list-comprehension/)
 - **Day 14**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)
 
-**🔧 Mini Project**: [Number Guessing Game](../docs/loops-while/practice-and-progress/mini-projects-loops-while.md)
+**🔧 Mini Project**: [Simple Calculator](../mini-projects/simple-calculator-python-mini-project.md), [Number Guessing Game](../docs/loops-while/practice-and-progress/mini-projects-loops-while.md), [More ...](../mini-projects/)
 
 ---
 
