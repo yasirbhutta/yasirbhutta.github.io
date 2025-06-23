@@ -7,7 +7,7 @@ toc: toc/python.html
 prev: /python/docs/dss.html
 next: /python/docs/lists/lists-basics.html
 course: python
-topic: lists
+topic: if-elif-else
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
