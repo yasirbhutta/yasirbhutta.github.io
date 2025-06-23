@@ -1,5 +1,94 @@
 course: python
 topics:
+  - topic: if-elif-else
+    questions:
+      - id: if001
+        difficulty: easy
+        question: What is the syntax for a simple if statement in Python?
+        language: python
+        code: null
+        options:
+          - "if x == 10:"
+          - "for x in range(10):"
+          - "while x < 10:"
+          - "if (x == 10) then:"
+        answer: "if x == 10:"
+        explanation: "The correct syntax for a simple if statement in Python uses a colon at the end, like: if condition:"
+
+      - id: if002
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          y = 5
+
+          if x == y * 2:
+              print("True")
+          else:
+              print("False")
+        options:
+          - "True"
+          - "False"
+          - "Error"
+          - "Nothing"
+        answer: "True"
+        explanation: "x is 10 and y*2 is also 10, so the condition is True."
+
+      - id: if003
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 3
+          y = 5
+
+          if x == 3 and y != 5:
+              print("True")
+          else:
+              print("False")
+        options:
+          - "True"
+          - "False"
+          - "Syntax error"
+          - "Name error"
+        answer: "False"
+        explanation: "x == 3 is True, but y != 5 is False, so the entire condition is False."
+
+      - id: if004
+        difficulty: easy
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          x = 10
+          if  5 < x < 15:
+              print("x is between 5 and 15")
+          else:
+              print("x is not between 5 and 15")
+        options:
+          - "x is between 5 and 15"
+          - "x is not between 5 and 15"
+          - "Error"
+          - "No output"
+        answer: "x is between 5 and 15"
+        explanation: "Python supports chained comparisons. 5 < x < 15 evaluates to True."
+
+      - id: if005
+        difficulty: easy
+        question: Which of the following correctly fixes the syntax error in the code below?
+        language: python
+        code: |
+          x = 10
+          if x == 10
+              print("x is 10")
+        options:
+          - "Remove the comment."
+          - "Add a colon after `if x == 10`."
+          - "Add parentheses around `x == 10`."
+          - "Indent the print statement correctly."
+        answer: "Add a colon after `if x == 10`."
+        explanation: "Python requires a colon at the end of the if statement line."
+
   - topic: lists
     questions:
       - id: list001
