@@ -77,6 +77,78 @@ print("Shallow:", shallow)    # [[100, 2], [3, 4]]
 
 ---
 
+Here's a line-by-line explanation of the code:
+
+---
+
+### 🔸 Code:
+
+```python
+import copy
+```
+
+✅ This imports Python’s built-in `copy` module, which provides functions to perform shallow and deep copies.
+
+---
+
+```python
+original = [[1, 2], [3, 4]]
+```
+
+✅ A list named `original` is created. It contains **two inner lists**, making it a nested list (a list of lists).
+
+---
+
+```python
+shallow = copy.copy(original)
+```
+
+✅ This creates a **shallow copy** of `original` and stores it in `shallow`.
+
+* A **new outer list** is created.
+* The **inner lists are not copied**; only their **references** are copied.
+
+So now:
+
+* `original` and `shallow` are two different outer lists.
+* But `original[0]` and `shallow[0]` point to the **same inner list** `[1, 2]`.
+
+---
+
+```python
+shallow[0][0] = 100
+```
+
+✅ This changes the first element of the first inner list **through the shallow copy**.
+
+Since the inner list `[1, 2]` is **shared** between `original` and `shallow`, the change affects both.
+
+---
+
+```python
+print("Original:", original)  # [[100, 2], [3, 4]]
+print("Shallow:", shallow)    # [[100, 2], [3, 4]]
+```
+
+✅ Output shows that **both `original` and `shallow` are affected**:
+
+```
+Original: [[100, 2], [3, 4]]
+Shallow:  [[100, 2], [3, 4]]
+```
+
+---
+
+![shallow copy](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1750654377/shallow-copy_gjknoc.png)
+
+### 🔍 Summary:
+
+* `copy.copy()` only copies the outer list.
+* The inner lists are **shared** between `original` and `shallow`.
+* Changes to inner lists in the copy will **affect the original**.
+
+---
+
 ## 4. ✅ When to Use Shallow Copy
 
 Use shallow copy when:
