@@ -1,7 +1,7 @@
 course: python
 topics:
 
-  - topic: if elif else
+  - topic: if-elif-else
     exercises:
       - id: py-ce-cond-001
         title: "Basic Grade Classifier"

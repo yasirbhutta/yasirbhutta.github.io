@@ -1,6 +1,6 @@
 course: python
 topics:
-  - topic: if elif else  
+  - topic: if-elif-else  
     questions:  
       - id: if-fib-001  
         difficulty: easy  

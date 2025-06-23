@@ -1,6 +1,6 @@
 course: python
 topics:
-  - topic: if elif else
+  - topic: if-elif-else
     questions:
       - id: cond-review-001
         prompt: "What is the purpose of the 'if' statement in Python?"
