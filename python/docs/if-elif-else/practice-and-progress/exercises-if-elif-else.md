@@ -1,22 +1,24 @@
 ---
-layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+layout: exercises
+title: Python List Exercises – Practice Questions for Beginners
+description: Practice Python list concepts with beginner-friendly exercises. Strengthen your understanding of list creation, indexing, slicing, and manipulation with hands-on coding problems and solutions.
+keywords: Python list exercises, Python list practice questions, list manipulation Python, beginner Python list problems, Python list coding exercises, list slicing Python, Python list indexing practice, hands-on Python list practice
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "if-elif-else"
+course: "python"
+prev: "/python/docs/if-elif-else/practice-and-progress/find-fix-mistakes-if-elif-else.html"
+next: "/python/docs/if-elif-else/practice-and-progress/mini-projects-if-elif-else.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: if-elif-else
+    url: /python/docs/if-elif-else/
 ---

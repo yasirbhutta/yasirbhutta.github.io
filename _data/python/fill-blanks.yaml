@@ -1,5 +1,49 @@
 course: python
 topics:
+  - topic: if elif else  
+    questions:  
+      - id: if-fib-001  
+        difficulty: easy  
+        prompt: "The basic structure of an 'if' statement in Python is: ______ condition:"  
+        answer: "if"  
+        explanation: "The 'if' keyword starts a conditional block, followed by a condition and a colon."  
+
+      - id: if-fib-002  
+        difficulty: easy  
+        prompt: "To check an alternative condition after an 'if', we use: ______ condition:"  
+        answer: "elif"  
+        explanation: "'elif' (short for 'else if') is used to check additional conditions after the initial 'if'."  
+
+      - id: if-fib-003  
+        difficulty: easy  
+        prompt: "The ______ block executes when none of the previous 'if' or 'elif' conditions are true."  
+        answer: "else"  
+        explanation: "The 'else' block serves as a fallback when no other conditions are met."  
+
+      - id: if-fib-004  
+        difficulty: medium  
+        prompt: "In Python, the correct syntax for an 'if-elif-else' chain requires ______ after each condition."  
+        answer: "a colon (:)"  
+        explanation: "Python uses colons (:) to indicate the start of a block after 'if', 'elif', or 'else'."  
+
+      - id: if-fib-005  
+        difficulty: medium  
+        prompt: "An 'if' statement without an 'else' will simply ______ if the condition is false."  
+        answer: "do nothing"  
+        explanation: "If the 'if' condition is false and there is no 'else', the code inside the block is skipped."  
+
+      - id: if-fib-006  
+        difficulty: hard  
+        prompt: "In a nested 'if' structure, each inner 'if' must be indented ______ than its outer 'if'."  
+        answer: "further (with more spaces/tabs)"  
+        explanation: "Python uses indentation to define code blocks, so inner 'if' statements must be indented deeper than their parent blocks."  
+
+      - id: if-fib-007  
+        difficulty: hard  
+        prompt: "The ______ operator can be used to write a simple 'if-else' statement in a single line."  
+        answer: "ternary (conditional)"  
+        explanation: "Python's ternary operator (x if condition else y) allows concise single-line conditionals."  
+
   - topic: lists
     questions:
       - id: list-fib-001

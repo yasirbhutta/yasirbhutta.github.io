@@ -1,5 +1,63 @@
 course: python
 topics:
+  - topic: if elif else
+    questions:
+      - id: if-tf-001
+        difficulty: easy
+        prompt: In Python, the 'elif' keyword is short for "else if".
+        answer: true
+        explanation: >
+          'elif' is indeed Python's shorthand for "else if" and serves the same purpose as in other languages.
+
+      - id: if-tf-002
+        difficulty: easy
+        prompt: An 'if' statement must always be followed by an 'else' block.
+        answer: false
+        explanation: >
+          'else' blocks are optional in Python. An 'if' statement can stand alone or be paired with only 'elif' blocks.
+
+      - id: if-tf-003
+        difficulty: easy
+        prompt: You can have multiple 'elif' blocks in a single 'if' statement.
+        answer: true
+        explanation: >
+          Python allows any number of 'elif' blocks to handle multiple conditions after an initial 'if'.
+
+      - id: if-tf-004
+        difficulty: medium
+        prompt: In Python, 'else if' is the correct syntax for adding additional conditions after an 'if' statement.
+        answer: false
+        explanation: >
+          Python uses 'elif' for additional conditions, not 'else if'. Using 'else if' would result in a syntax error.
+
+      - id: if-tf-005
+        difficulty: medium
+        prompt: The code in an 'else' block will execute only if all previous 'if' and 'elif' conditions were false.
+        answer: true
+        explanation: >
+          The 'else' block serves as the default case that runs when no other conditions in the 'if-elif' chain were met.
+
+      - id: if-tf-006
+        difficulty: medium
+        prompt: In Python, 'if' statements can be nested inside other 'if' statements.
+        answer: true
+        explanation: >
+          Python allows nesting of 'if' statements, where one 'if' statement can be placed inside another's block.
+
+      - id: if-tf-007
+        difficulty: hard
+        prompt: The 'elif' and 'else' blocks must be indented at the same level as their corresponding 'if' statement.
+        answer: false
+        explanation: >
+          'elif' and 'else' blocks must be indented to match the 'if' they belong to, not the initial 'if' statement in nested cases.
+
+      - id: if-tf-008
+        difficulty: hard
+        prompt: In Python, 'if' statements can be written on a single line without using colons.
+        answer: false
+        explanation: >
+          While Python supports single-line 'if' statements (using the ternary operator for simple cases), colons are always required after the condition.
+
   - topic: lists
     questions:
       - id: list-tf-001

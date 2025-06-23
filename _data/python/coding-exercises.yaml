@@ -1,5 +1,133 @@
 course: python
 topics:
+
+  - topic: if elif else
+    exercises:
+      - id: py-ce-cond-001
+        title: "Basic Grade Classifier"
+        task: |
+          Write a program that:
+          1. Takes a numerical score as input (0-100)
+          2. Prints the grade based on:
+             - A (90-100)
+             - B (80-89)
+             - C (70-79)
+             - D (60-69)
+             - F (<60)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle edge cases (scores exactly at boundaries)"
+        input: "85"
+        output: "Grade: B"
+        resource:
+          name: "Python if statements"
+          url: "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+        difficulty: "easy"
+
+      - id: py-ce-cond-002
+        title: "Number Properties Checker"
+        task: |
+          Write a program that:
+          1. Takes a number as input
+          2. Prints whether the number is:
+             - Positive, negative or zero
+             - Even or odd (only if non-zero)
+        requirements:
+          - "Use nested if statements"
+          - "Handle zero case separately"
+        input: "-7"
+        output: |
+          Negative
+          Odd
+        resource:
+          name: "Python nested if"
+          url: "https://www.w3schools.com/python/python_conditions.asp"
+        difficulty: "easy"
+
+      - id: py-ce-cond-003
+        title: "Login System Simulator"
+        task: |
+          Create a simple login system that:
+          1. Takes username and password as input
+          2. Checks:
+             - If username is "admin" and password is "12345", print "Access granted"
+             - If username is correct but password wrong, print "Wrong password"
+             - If username doesn't exist, print "User not found"
+        requirements:
+          - "Use if-elif-else with multiple conditions"
+          - "Use string comparison"
+        input: |
+          admin
+          12345
+        output: "Access granted"
+        resource:
+          name: "Python logical operators"
+          url: "https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not"
+        difficulty: "medium"
+
+      - id: py-ce-cond-004
+        title: "Leap Year Calculator"
+        task: |
+          Write a program that:
+          1. Takes a year as input
+          2. Determines if it's a leap year (print "Leap year" or "Not a leap year")
+             - Rules:
+               - Divisible by 4 → leap year
+               - Except if divisible by 100 → not leap year
+               - Unless also divisible by 400 → leap year
+        requirements:
+          - "Use nested if statements"
+          - "Handle all leap year conditions"
+        input: "2000"
+        output: "Leap year"
+        resource:
+          name: "Python condition precedence"
+          url: "https://docs.python.org/3/reference/expressions.html#operator-precedence"
+        difficulty: "medium"
+
+      - id: py-ce-cond-005
+        title: "Shopping Discount Calculator"
+        task: |
+          Create a program that:
+          1. Takes total purchase amount as input
+          2. Applies discounts:
+             - 5% if amount ≥ 1000
+             - 10% if amount ≥ 5000
+             - 15% if amount ≥ 10000
+          3. Prints final amount after discount
+        requirements:
+          - "Use if-elif-else structure"
+          - "Calculate discount mathematically"
+        input: "7500"
+        output: "6750.0"
+        resource:
+          name: "Python math operations"
+          url: "https://docs.python.org/3/tutorial/introduction.html#numbers"
+        difficulty: "medium"
+
+      - id: py-ce-cond-006
+        title: "Triangle Type Checker"
+        task: |
+          Write a program that:
+          1. Takes three side lengths (a, b, c) as input
+          2. Determines if they form:
+             - Equilateral triangle (all sides equal)
+             - Isosceles triangle (exactly two sides equal)
+             - Scalene triangle (no sides equal)
+             - Not a triangle (sum of any two sides ≤ third side)
+        requirements:
+          - "Use nested if statements"
+          - "Check triangle validity first"
+        input: |
+          5
+          5
+          8
+        output: "Isosceles triangle"
+        resource:
+          name: "Python comparison operators"
+          url: "https://docs.python.org/3/library/stdtypes.html#comparisons"
+        difficulty: "hard"
+
   - topic: lists
     exercises:
       - id: py-ce-list-001

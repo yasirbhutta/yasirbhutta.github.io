@@ -1,5 +1,84 @@
 course: python
 topics:
+  - topic: if elif else
+    questions:
+      - id: cond-review-001
+        prompt: "What is the purpose of the 'if' statement in Python?"
+        answer: "The 'if' statement is used for conditional execution. It evaluates a condition and executes its block of code only if the condition is True."
+        examples:
+          - "Basic if: `if x > 0: print('Positive')`"
+          - "With variable: `if logged_in: print('Welcome')`"
+        resources:
+          - name: "Python if Statements"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#if-statements"
+
+      - id: cond-review-002
+        prompt: "When should you use 'elif' instead of separate 'if' statements?"
+        answer: "'elif' should be used when checking multiple exclusive conditions where only one block should execute. Separate 'if' statements check independently and multiple blocks could execute."
+        examples:
+          - "Good (exclusive): `if grade >= 90: ... elif grade >= 80: ...`"
+          - "Bad (non-exclusive): `if x > 0: ... if x < 10: ...` (both could run)"
+        resources:
+          - name: "Python if-elif-else"
+            url: "https://www.w3schools.com/python/python_conditions.asp"
+
+      - id: cond-review-003
+        prompt: "What is the purpose of the 'else' clause in conditionals?"
+        answer: "The 'else' clause provides a default block of code that executes when all preceding 'if' and 'elif' conditions evaluate to False."
+        examples:
+          - "Basic else: `if x > 0: ... else: print('Not positive')`"
+          - "After elif: `if x > 0: ... elif x < 0: ... else: print('Zero')`"
+        resources:
+          - name: "Python else Clause"
+            url: "https://realpython.com/python-conditional-statements/"
+
+      - id: cond-review-004
+        prompt: "What is a nested conditional and when would you use one?"
+        answer: "A nested conditional is an 'if' statement inside another 'if' statement. It's used when you need to check additional conditions only after a primary condition is met."
+        examples:
+          - "Basic nesting: `if x > 0: if x % 2 == 0: print('Positive even')`"
+          - "Login system: `if user_exists: if password_correct: ...`"
+        resources:
+          - name: "Python Nested If"
+            url: "https://www.programiz.com/python-programming/nested-if"
+
+      - id: cond-review-005
+        prompt: "How does Python determine which block to execute in an if-elif-else chain?"
+        answer: "Python evaluates conditions from top to bottom. It executes the first block where the condition is True, skips all remaining conditions, and executes the 'else' block only if all conditions were False."
+        examples:
+          - "Order matters: `if x > 10: ... elif x > 5: ...` (second won't run if x=12)"
+          - "Only one executes: `if True: ... elif True: ...` (second never reached)"
+        resources:
+          - name: "Conditional Execution Flow"
+            url: "https://docs.python.org/3/reference/compound_stmts.html#if"
+
+      - id: cond-review-006
+        prompt: "What are some common mistakes beginners make with Python conditionals?"
+        answer: |
+          Common mistakes include:
+          1. Forgetting colons after conditions
+          2. Using assignment (=) instead of comparison (==)
+          3. Incorrect indentation of blocks
+          4. Over-nesting conditionals unnecessarily
+          5. Not covering all possible cases
+        examples:
+          - "Syntax error: `if x > 0 print('Positive')` (missing colon)"
+          - "Logical error: `if x = 5: ...` (assignment not comparison)"
+        resources:
+          - name: "Common Python Mistakes"
+            url: "https://realpython.com/python-common-mistakes/"
+
+      - id: cond-review-007
+        prompt: "How can you test multiple conditions in a single 'if' statement?"
+        answer: "Use logical operators: 'and' (both true), 'or' (either true), 'not' (inverse). Parentheses can group conditions for clarity and proper evaluation order."
+        examples:
+          - "AND: `if x > 0 and x < 10: ...`"
+          - "OR: `if x == 'yes' or x == 'y': ...`"
+          - "Combined: `if (x > 0 or y > 0) and not z: ...`"
+        resources:
+          - name: "Python Boolean Operations"
+            url: "https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not"
+
   - topic: lists
     questions:
       - id: list-review-001

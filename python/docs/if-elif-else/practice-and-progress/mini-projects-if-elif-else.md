@@ -1,22 +1,28 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+title: "Python List Mini Projects – Hands-On Practice for Beginners"
+description: Explore beginner-friendly mini projects using Python if-elif-else. Practice real-world scenarios involving list operations, sorting, searching, and data manipulation to strengthen your Python coding skills.
+keywords: Python list mini projects, beginner Python projects, list-based Python exercises, hands-on Python list practice, Python list operations, Python list manipulation projects, simple Python coding projects, Python mini tasks with if-elif-else
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "if-elif-else"
+course: "python"
+prev: "/python/docs/if-elif-else/practice-and-progress/exercises-if-elif-else.html"
+next: "/python/docs/if-elif-else/practice-and-progress/review-questions-if-elif-else.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: if-elif-else
+    url: /python/docs/if-elif-else/
 ---
+
+## Mini Projects
+
+- [Simple Calculator - Mini Project](../../../mini-projects/simple-calculator-python-mini-project.md)
