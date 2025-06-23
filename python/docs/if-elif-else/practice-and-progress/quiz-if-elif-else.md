@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Python if elif else Quiz – Interactive Practice for Beginners"
-description: Test your Python knowledge with this interactive quiz on lists. Practice list operations, indexing, slicing, and methods with auto-graded questions designed for beginners.
-keywords: Python lists quiz, Python interactive quiz, list operations Python, Python list practice quiz, Python beginner quiz, test Python lists, list methods quiz Python, Python list comprehension quiz, Python quiz for students
+title: "Python if‑elif‑else Quiz – Test Your Conditional Logic Skills"
+description: Take this interactive Python quiz to test your understanding of if‑elif‑else statements. Practice decision-making, syntax, and control flow with multiple choice questions for beginners.
+keywords: Python if elif else quiz, Python conditional statements quiz, Python control flow quiz, Python if else MCQs, Python beginner quiz, test Python logic, Python decision making questions, Python programming quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "lists"
+topic: "if-elif-else"
 course: "python"
-prev: "/python/docs/lists/practice-and-progress/exercises-lists.html"
-next: "/python/docs/lists/practice-and-progress/review-questions-lists.html"
+prev: "/python/docs/if-elif-else/practice-and-progress/exercises-if-elif-else.html"
+next: "/python/docs/if-elif-else/practice-and-progress/review-questions-if-elif-else.html"
 breadcrumb:
   - title: Home
     url: /
