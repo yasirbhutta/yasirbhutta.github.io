@@ -6,7 +6,7 @@ keywords: Python if elif else review questions, Python conditional statements pr
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"
-topic: "lists"
+topic: "if-elif-else"
 prev: /python/docs/lists/practice-and-progress/mini-projects-lists.html
 next: /python/docs/functions.html
 show_practice_progress: true
