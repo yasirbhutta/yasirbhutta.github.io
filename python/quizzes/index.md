@@ -13,7 +13,7 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 2. [Python variables Quiz](python-variables-quiz.md)
 3. [Python Scalar Types Quiz](python-scalar-types-quiz.md)
 4. [Python Operators Quiz](python-operators-quiz.md)
-5. [Python if elif else Quiz](python-if-elif-else-quiz.md)
+5. [Python if elif else Quiz](../docs/if-elif-else/practice-and-progress/quiz-if-elif-else.md)
 6. [Python for loop Quiz](python-for-loop-quiz.md) - Test your knowledge of python about for loop and range() function
 7. [Python while loop Quiz](python-while-loop-quiz.md)
 8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](python-break-continue-else-loop-quiz.md)

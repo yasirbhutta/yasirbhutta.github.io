@@ -1,17 +1,14 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+title: "Python if elif else Quiz – Interactive Practice for Beginners"
+description: Test your Python knowledge with this interactive quiz on lists. Practice list operations, indexing, slicing, and methods with auto-graded questions designed for beginners.
+keywords: Python lists quiz, Python interactive quiz, list operations Python, Python list practice quiz, Python beginner quiz, test Python lists, list methods quiz Python, Python list comprehension quiz, Python quiz for students
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "lists"
+course: "python"
+prev: "/python/docs/lists/practice-and-progress/exercises-lists.html"
+next: "/python/docs/lists/practice-and-progress/review-questions-lists.html"
 breadcrumb:
   - title: Home
     url: /
@@ -22,3 +19,20 @@ breadcrumb:
   - title: if-elif-else
     url: /python/docs/if-elif-else/
 ---
+
+To learn more about using the `if` statement in Python, please visit **[Control Flow Statements: if Statement](../if-elif-else.md)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsRDCa_yFjdXhVKfcGfkmJAHAFxsgSgUsa9XUoWmslw7f1bA/viewform?embedded=true" width="100%" height="4646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
