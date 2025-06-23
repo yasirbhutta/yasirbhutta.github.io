@@ -1,7 +1,26 @@
 ---
 layout: page
-title: Python Conditional Statements Tutorial - Truthy and Falsy Values
-description: Learn Python conditional statements with this comprehensive tutorial. Master if, elif, and else with examples, syntax, and practical tasks for beginners..
+title: Truthy and Falsy Values in Python – Conditional Logic Simplified
+description: Understand how truthy and falsy values work in Python. Learn which values evaluate to True or False in conditional statements, with examples and practical tips for beginners.
+keywords: truthy falsy Python, Python boolean logic, Python condition evaluation, Python true false values, falsy values list Python, Python truthy values explained, conditional checks Python, Python boolean conversion
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+course: "python"
+topic: "if-elif-else"
+prev: /python/docs/lists/practice-and-progress/mini-projects-lists.html
+next: /python/docs/functions.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: if-elif-else
+    url: /python/docs/if-elif-else/
 ---
 
 In Python, some values are treated as `True` or `False` automatically when used in conditions.

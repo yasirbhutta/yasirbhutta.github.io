@@ -1,7 +1,26 @@
 ---
 layout: page
-title: Nested Conditions of if, elif, else in Python
-description: Learn Python conditional statements with this comprehensive tutorial. Master if, elif, and else with examples, syntax, and practical tasks for beginners..
+title: Nested if‑elif‑else Statements in Python – With Examples
+description: Learn how to use nested if‑elif‑else statements in Python to handle complex decision-making. Includes clear syntax, beginner-friendly examples, and practical use cases.
+keywords: nested if statements Python, Python nested conditions, Python nested if elif else, conditional logic in Python, Python decision making, beginner Python conditions, nested control flow Python, Python nested example code
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+course: "python"
+topic: "if-elif-else"
+prev: /python/docs/lists/practice-and-progress/mini-projects-lists.html
+next: /python/docs/functions.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: if-elif-else
+    url: /python/docs/if-elif-else/
 ---
 
 ## 🔹 What is **Nested Conditions** in Python?
