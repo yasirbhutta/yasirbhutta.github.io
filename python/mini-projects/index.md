@@ -21,6 +21,10 @@ breadcrumb:
 
 ## 🔤 Mini Projects
 
+### [Simple Calculator](simple-calculator-python-mini-project.md)
+
+**📝 Overview:** Use find(), replace(), split(), and partition() to manipulate user input.
+
 ---
 
 ### [String Manipulation Tool](string-manipulation-tool.md)

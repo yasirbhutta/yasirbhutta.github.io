@@ -1,6 +1,24 @@
-# Control Flow Statements in Python: Mini Projects
-
-## Project #1: Simple Calculator
+---
+layout: page
+title: "Mini Project: Simple Calculator"
+description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
+keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+author: Muhammad Yasir Bhutta
+course: python
+topic: mini-projects
+show_toc: true
+toc: toc/python.html
+show_practice_progress: false
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Mini Projects
+    url: /python/mini-projects/
+---
+## Project #1: 
 
 Write a Python program that allows the user to perform basic arithmetic operations (addition, subtraction, multiplication, and division) until they choose to exit. The program should take two numbers and an operation from the user, perform the calculation, and display the result.
 
