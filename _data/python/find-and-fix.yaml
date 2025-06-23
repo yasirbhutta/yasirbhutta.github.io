@@ -1,6 +1,343 @@
 course: python
 topics:
 
+  - topic: if-elif-else
+    questions:
+      - id: if-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the logical mistake in if-elif structure.
+        code: |
+          x = 7
+
+          if x > 5:
+              print("x is greater than 5")
+          elif x > 0:
+              print("x is positive")
+        hint: `elif` is only checked if the `if` condition fails.
+        issue: The second condition won't run because the first is already true.
+        solution: |
+          x = 7
+
+          if x > 5:
+              print("x is greater than 5")
+          if x > 0:
+              print("x is positive")
+
+      - id: if-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the infinite loop caused by a missing update in a while loop.
+        code: |
+          n = 10
+
+          while n > 0:
+              print(n)
+        hint: The loop condition never changes.
+        issue: Missing update to `n` causes an infinite loop.
+        solution: |
+          n = 10
+
+          while n > 0:
+              print(n)
+              n -= 1
+
+      - id: if-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the misuse of `continue` in a while loop that leads to an infinite loop.
+        code: |
+          i = 0
+
+          while i < 5:
+              if i == 2:
+                  continue
+              print(i)
+              i += 1
+        hint: Ensure the counter increments even when `continue` is used.
+        issue: "`i` is never incremented when `i == 2`, causing infinite loop."
+        solution: |
+          i = 0
+
+          while i < 5:
+              if i == 2:
+                  i += 1
+                  continue
+              print(i)
+              i += 1
+
+      - id: if-fix-004
+        difficulty: easy
+        prompt: |
+          Simplify and correct the final condition in if-elif chain.
+        code: |
+          score = 75
+
+          if score >= 90:
+              print("A")
+          elif score >= 80:
+              print("B")
+          elif score >= 70:
+              print("C")
+          elif score >= 60:
+              print("D")
+          elif score < 70:
+              print("F")
+        hint: Use `else` to catch all remaining cases.
+        issue: The last condition is redundant.
+        solution: |
+          score = 75
+
+          if score >= 90:
+              print("A")
+          elif score >= 80:
+              print("B")
+          elif score >= 70:
+              print("C")
+          elif score >= 60:
+              print("D")
+          else:
+              print("F")
+
+      - id: if-fix-005
+        difficulty: easy
+        prompt: |
+          Identify and fix the syntax error caused by a missing colon.
+        code: |
+          if x > 5  # Missing colon here
+            print("X is greater than 5")
+        hint: All `if` statements must end with a colon.
+        issue: Syntax error due to missing colon.
+        solution: |
+          if x > 5:
+              print("X is greater than 5")
+
+      - id: if-fix-006
+        difficulty: easy
+        prompt: |
+          Fix the indentation error in the following loop.
+        code: |
+          for i in range(0, 11):
+          if i % 2 == 0:
+              print(i)
+        hint: "`if` needs to be part of the `for` loop body."
+        issue: Improper indentation of `if` statement.
+        solution: |
+          for i in range(0, 11):
+              if i % 2 == 0:
+                  print(i)
+
+      - id: if-fix-007
+        difficulty: easy
+        prompt: |
+          Add the missing colon in the if statement.
+        code: |
+          x = 10
+
+          if x > 5
+              print("x is greater than 5")
+        hint: A colon is required after the condition.
+        issue: Syntax error due to missing colon.
+        solution: |
+          x = 10
+
+          if x > 5:
+              print("x is greater than 5")
+
+      - id: if-fix-008
+        difficulty: easy
+        prompt: |
+          Fix the incorrect indentation in the else block.
+        code: |
+          y = -3
+
+          if y > 0:
+              print("y is positive")
+              print("This is always printed")
+          else:
+          print("y is not positive")
+        hint: Align all code blocks correctly under their headers.
+        issue: "`else` block is not indented."
+        solution: |
+          y = -3
+
+          if y > 0:
+              print("y is positive")
+              print("This is always printed")
+          else:
+              print("y is not positive")
+
+      - id: if-fix-009
+        difficulty: easy
+        prompt: |
+          Fix the loop condition that causes the while loop to never execute.
+        code: |
+          count = 10
+
+          while count > 10:
+              print("This will never print")
+              count -= 1
+        hint: Change the condition so the loop runs at least once.
+        issue: Initial condition is false, loop never runs.
+        solution: |
+          count = 10
+
+          while count >= 0:
+              print("Count:", count)
+              count -= 1
+
+      - id: if-fix-010
+        difficulty: medium
+        prompt: |
+          Fix the incorrect use of step in `range`.
+        code: |
+          for i in range(1, 10, -1):
+              print(i)
+        hint: A negative step requires the start value to be greater than the stop value.
+        issue: Loop never runs due to range direction mismatch.
+        solution: |
+          for i in range(10, 0, -1):
+              print(i)
+
+      - id: if-fix-011
+        difficulty: medium
+        prompt: |
+          Fix the incorrect usage of the `else` block in the loop.
+        code: |
+          for i in range(5):
+              if i == 2:
+                  break
+              else:
+                  print(i)
+        hint: The `else` here is tied to `if`, not the `for` loop.
+        issue: The `else` block is misleading inside the loop.
+        solution: |
+          for i in range(5):
+              if i == 2:
+                  break
+              print(i)
+          else:
+              print("Loop completed without a break")
+
+      - id: if-fix-012
+        difficulty: medium
+        prompt: |
+          Handle the correct exception for division by zero.
+        code: |
+          try:
+              print(5 / 0)
+          except TypeError:
+              print("A TypeError occurred")
+        hint: Understand what kind of error is raised by dividing by zero.
+        issue: Catching the wrong exception type.
+        solution: |
+          try:
+              print(5 / 0)
+          except ZeroDivisionError:
+              print("You can't divide by zero!")
+
+      - id: if-fix-013
+        difficulty: medium
+        prompt: |
+          Remove the unreachable print statement after a `continue`.
+        code: |
+          for i in range(5):
+              if i == 3:
+                  continue
+                  print("This will never be printed")
+              print(i)
+        hint: Code after `continue` is never executed.
+        issue: Unreachable code after `continue`.
+        solution: |
+          for i in range(5):
+              if i == 3:
+                  continue
+              print(i)
+
+      - id: if-fix-014
+        difficulty: medium
+        prompt: |
+          Refactor the logic to better reflect specific numeric ranges.
+        code: |
+          z = 20
+
+          if z > 30:
+              print("z is greater than 30")
+          elif z > 10:
+              print("z is greater than 10")
+          else:
+              print("z is less than 10")
+        hint: Add more precise conditions if needed.
+        issue: Ranges are too broad and overlap logically.
+        solution: |
+          z = 20
+
+          if z > 30:
+              print("z is greater than 30")
+          elif z > 20:
+              print("z is greater than 20 but less than 30")
+          elif z > 10:
+              print("z is greater than 10")
+          else:
+              print("z is less than or equal to 10")
+
+      - id: if-fix-015
+        difficulty: easy
+        prompt: |
+          What will happen when you use `break` incorrectly with a `for-else` loop?
+        code: |
+          for i in range(5):
+              print(i)
+          else:
+              break
+        hint: "`break` cannot be used outside of a loop body."
+        issue: "`break` is used in an invalid position."
+        solution: |
+          # Cannot use `break` directly in an `else` clause of a loop
+          for i in range(5):
+              print(i)
+          # Removed invalid `break`
+
+      - id: if-fix-016
+        difficulty: medium
+        prompt: |
+          Understand how `pass` works and fix the unintended print behavior.
+        code: |
+          for i in range(5):
+              if i == 2:
+                  pass
+                  print("This should not print")
+              print(i)
+        hint: "`pass` does nothing; code after it still runs."
+        issue: Misconception about how `pass` affects control flow.
+        solution: |
+          for i in range(5):
+              if i == 2:
+                  pass
+              print(i)
+
+      - id: if-fix-017
+        difficulty: medium
+        prompt: |
+          Rearrange exception handling to use `finally` correctly.
+        code: |
+          try:
+              result = 10 / 0
+          finally:
+              print("This will run no matter what.")
+          except ZeroDivisionError:
+              print("You can't divide by zero!")
+        hint: "`finally` must follow the `except` block."
+        issue: Misplaced `finally` block causes syntax error.
+        solution: |
+          try:
+              result = 10 / 0
+          except ZeroDivisionError:
+              print("You can't divide by zero!")
+          finally:
+              print("This will run no matter what.")
+
+
   - topic: lists
     questions:
       - id: list-fix-001
@@ -22,13 +359,13 @@ topics:
           Fix the list slicing operation:
         code: |
           numbers = [0, 1, 2, 3, 4, 5]
-          middle = numbers[2:5]
+          middle = numbers[2:4]
           print(middle[-1])  # Should print 4
         hint: Check the slice end index and negative indexing.
         issue: The slice doesn't include the desired last element.
         solution: |
           numbers = [0, 1, 2, 3, 4, 5]
-          middle = numbers[2:6]  # or numbers[2:]
+          middle = numbers[2:5]  # or numbers[2:]
           print(middle[-1])  # Now correctly prints 4
 
       - id: list-fix-003
