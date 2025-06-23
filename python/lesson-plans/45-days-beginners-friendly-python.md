@@ -41,7 +41,7 @@ breadcrumb:
 
 ## 📅 Week 2: Control Flow & Data Structures
 
-- **Day 8**: [if, elif, else](../docs/if-elif-else/)
+- **Day 8**: [if, elif, else](../docs/if-elif-else/if-elif-else.md)
 - **Day 9**: [Nested Conditions](../docs/if-elif-else/nested-conditions.md), [Truthy/Falsy](../docs/if-elif-else/truthy-falsy-values.md)
 - **Day 10**: [for](../docs/loops-for/) and [while](../docs/loops-while/) Loops
 - **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
