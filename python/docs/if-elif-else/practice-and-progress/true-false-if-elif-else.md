@@ -1,14 +1,14 @@
 ---
 layout: true-false
-title: "Python Lists True or False Questions – Practice for Beginners"
-description: Test your knowledge of Python lists with true or false practice questions. Strengthen your understanding of list operations, indexing, slicing, and common methods with instant feedback.
-keywords: Python lists true or false, Python list quiz, list operations Python, Python beginner list practice, Python true false quiz, Python list questions and answers, Python MCQs lists, learn Python lists
+title: "Python if-elif-else True or False Questions – Practice for Beginners"
+description: Test your knowledge of Python if-elif-else with true or false practice questions. Strengthen your understanding of list operations, indexing, slicing, and common methods with instant feedback.
+keywords: Python if-elif-else true or false, Python list quiz, list operations Python, Python beginner list practice, Python true false quiz, Python list questions and answers, Python MCQs if-elif-else, learn Python if-elif-else
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "lists"
+topic: "if-elif-else"
 course: "python"
-prev: /python/docs/lists/
-next: /python/docs/lists/practice-and-progress/fill-blanks-lists.html
+prev: /python/docs/if-elif-else/
+next: /python/docs/if-elif-else/practice-and-progress/fill-blanks-if-elif-else.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
