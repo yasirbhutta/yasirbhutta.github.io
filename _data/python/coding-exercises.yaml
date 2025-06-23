@@ -4,6 +4,289 @@ topics:
   - topic: if-elif-else
     exercises:
       - id: py-ce-cond-001
+        title: "FizzBuzz"
+        task: |
+          Write a program that prints the numbers from 1 to n. But for multiples of 3, print "Fizz" instead of the number, and for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle numbers from 1 to n inclusive"
+        input: "15"
+        output: |
+          1
+          2
+          Fizz
+          4
+          Buzz
+          Fizz
+          7
+          8
+          Fizz
+          Buzz
+          11
+          Fizz
+          13
+          14
+          FizzBuzz
+        difficulty: "easy"
+
+      - id: py-ce-cond-002
+        title: "Check Positive, Negative, or Zero"
+        task: |
+          Write a program to check if a number is positive, negative, or zero.
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle all three cases"
+        input: "-5"
+        output: "Negative"
+        difficulty: "easy"
+
+      - id: py-ce-cond-003
+        title: "Even or Odd"
+        task: |
+          Write a program to check if a number is even or odd.
+        requirements:
+          - "Use if-else structure"
+          - "Handle both cases"
+        input: "7"
+        output: "Odd"
+        difficulty: "easy"
+
+      - id: py-ce-cond-004
+        title: "Largest of Three Numbers"
+        task: |
+          Write a program to find the largest of three numbers.
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle all possible cases"
+        input: |
+          5
+          9
+          2
+        output: "9"
+        difficulty: "easy"
+
+      - id: py-ce-cond-005
+        title: "Grade Assignment"
+        task: |
+          Write a program to assign grades based on the score:
+          - A (90-100)
+          - B (80-89)
+          - C (70-79)
+          - D (60-69)
+          - F (<60)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle edge cases"
+        input: "85"
+        output: "B"
+        difficulty: "easy"
+
+      - id: py-ce-cond-006
+        title: "Leap Year Check"
+        task: |
+          Write a program to check if a year is a leap year or not.
+          A leap year is divisible by 4, but not by 100 unless also divisible by 400.
+        requirements:
+          - "Use nested if-elif-else structure"
+          - "Handle all leap year conditions"
+        input: "2020"
+        output: "Leap year"
+        difficulty: "medium"
+
+      - id: py-ce-cond-007
+        title: "Age Group Classification"
+        task: |
+          Write a program to classify age into:
+          - Child (0-12)
+          - Teenager (13-19)
+          - Adult (20-64)
+          - Senior (65+)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle all age ranges"
+        input: "25"
+        output: "Adult"
+        difficulty: "easy"
+
+      - id: py-ce-cond-008
+        title: "Temperature Description"
+        task: |
+          Write a program to describe the temperature:
+          - Hot (>30°C)
+          - Warm (20-30°C)
+          - Cold (<20°C)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle all temperature ranges"
+        input: "25.5"
+        output: "Warm"
+        difficulty: "easy"
+
+      - id: py-ce-cond-009
+        title: "Voter Eligibility"
+        task: |
+          Write a program to check if a person is eligible to vote (18+ years).
+        requirements:
+          - "Use if-else structure"
+          - "Handle edge case (exactly 18)"
+        input: "17"
+        output: "Not eligible"
+        difficulty: "easy"
+
+      - id: py-ce-cond-010
+        title: "Password Strength Checker"
+        task: |
+          Write a program to check the strength of a password:
+          - Weak (length <6)
+          - Medium (6-10 characters)
+          - Strong (>10 characters)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Check only length for simplicity"
+        input: "password123"
+        output: "Strong"
+        difficulty: "easy"
+
+      - id: py-ce-cond-011
+        title: "Simple Calculator"
+        task: |
+          Write a simple calculator program that performs:
+          - Addition (+)
+          - Subtraction (-)
+          - Multiplication (*)
+          - Division (/)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle division by zero"
+        input: |
+          5
+          2
+          /
+        output: "2.5"
+        difficulty: "medium"
+
+      - id: py-ce-cond-012
+        title: "BMI Calculator"
+        task: |
+          Write a program to calculate BMI and categorize:
+          - Underweight (<18.5)
+          - Normal (18.5-24.9)
+          - Overweight (25-29.9)
+          - Obese (30+)
+        requirements:
+          - "Use if-elif-else structure"
+          - "Calculate BMI as weight(kg)/height(m)^2"
+        input: |
+          1.75
+          70
+        output: "Normal"
+        difficulty: "medium"
+
+      - id: py-ce-cond-013
+        title: "Triangle Type Checker"
+        task: |
+          Write a program to check the type of a triangle:
+          - Equilateral (all sides equal)
+          - Isosceles (two sides equal)
+          - Scalene (all sides different)
+        requirements:
+          - "Use if-elif-else structure"
+          - "First validate if sides can form a triangle"
+        input: |
+          5
+          5
+          5
+        output: "Equilateral"
+        difficulty: "medium"
+
+      - id: py-ce-cond-014
+        title: "Day of the Week"
+        task: |
+          Write a program to print the day of the week based on a number (1-7).
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle invalid inputs"
+        input: "3"
+        output: "Wednesday"
+        difficulty: "easy"
+
+      - id: py-ce-cond-015
+        title: "Month Days"
+        task: |
+          Write a program to print the number of days in a given month (1-12).
+          Assume February has 28 days (ignore leap years).
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle invalid inputs"
+        input: "4"
+        output: "30"
+        difficulty: "medium"
+
+      - id: py-ce-cond-016
+        title: "Discount Calculator"
+        task: |
+          Write a program to calculate the discount on a product:
+          - 10% if price >=1000
+          - 5% if price >=500
+          - No discount otherwise
+        requirements:
+          - "Use if-elif-else structure"
+          - "Calculate final price after discount"
+        input: "750"
+        output: "712.5"
+        difficulty: "easy"
+
+      - id: py-ce-cond-017
+        title: "Character Checker"
+        task: |
+          Write a program to check if a character is a vowel or consonant.
+        requirements:
+          - "Use if-elif-else structure"
+          - "Handle both uppercase and lowercase"
+        input: "E"
+        output: "Vowel"
+        difficulty: "easy"
+
+      - id: py-ce-cond-018
+        title: "Valid Triangle Checker"
+        task: |
+          Write a program to check if three given lengths can form a triangle.
+          (Sum of any two sides must be greater than the third)
+        requirements:
+          - "Use if-else structure with logical operators"
+          - "Check all three conditions"
+        input: |
+          3
+          4
+          5
+        output: "Valid triangle"
+        difficulty: "easy"
+
+      - id: py-ce-cond-019
+        title: "Multiples of Five"
+        task: |
+          Write a program to check if a number is a multiple of five.
+        requirements:
+          - "Use if-else structure"
+          - "Handle both cases"
+        input: "25"
+        output: "Multiple of five"
+        difficulty: "easy"
+
+      - id: py-ce-cond-020
+        title: "Alphabet Case Checker"
+        task: |
+          Write a program to check if an alphabet is uppercase or lowercase.
+        requirements:
+          - "Use if-else structure"
+          - "Handle non-alphabet inputs"
+        input: "H"
+        output: "Uppercase"
+        difficulty: "easy"
+
+  - topic: if-elif-else
+    exercises:
+      - id: py-ce-cond-001
         title: "Basic Grade Classifier"
         task: |
           Write a program that:
