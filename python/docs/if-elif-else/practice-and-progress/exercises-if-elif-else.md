@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Python List Exercises – Practice Questions for Beginners
-description: Practice Python list concepts with beginner-friendly exercises. Strengthen your understanding of list creation, indexing, slicing, and manipulation with hands-on coding problems and solutions.
-keywords: Python list exercises, Python list practice questions, list manipulation Python, beginner Python list problems, Python list coding exercises, list slicing Python, Python list indexing practice, hands-on Python list practice
+title: Python if‑elif‑else Exercises – Practice Conditional Logic
+description: Practice Python if‑elif‑else statements with beginner-friendly exercises. Strengthen your understanding of conditional logic, syntax, and control flow with hands-on coding problems.
+keywords: Python if elif else exercises, Python conditional logic practice, if else statements Python, beginner Python exercises, Python control flow practice, Python decision making problems, Python conditionals coding tasks
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"

@@ -1,8 +1,8 @@
 ---
 layout: review-questions
-title: Python Lists Review Questions – Test Your Understanding
-description: Reinforce your Python list knowledge with structured review questions. Cover key concepts like list creation, indexing, slicing, and manipulation with clear, beginner-friendly Q&A.
-keywords: Python list review questions, Python lists Q&A, list operations review, Python list practice questions, list indexing and slicing, review exercises Python, beginner Python list questions, Python programming review quiz
+title: Python if‑elif‑else Review Questions – Test Your Understanding
+description: Review your knowledge of Python if‑elif‑else conditional statements with structured questions. Great for beginners preparing for exams, quizzes, or coding interviews.
+keywords: Python if elif else review questions, Python conditional statements practice, Python if else Q&A, Python logic review, beginner Python conditionals test, Python control flow questions, Python if elif else examples
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

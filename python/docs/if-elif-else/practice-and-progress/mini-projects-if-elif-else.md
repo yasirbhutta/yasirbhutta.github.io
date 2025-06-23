@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python List Mini Projects – Hands-On Practice for Beginners"
-description: Explore beginner-friendly mini projects using Python if-elif-else. Practice real-world scenarios involving list operations, sorting, searching, and data manipulation to strengthen your Python coding skills.
-keywords: Python list mini projects, beginner Python projects, list-based Python exercises, hands-on Python list practice, Python list operations, Python list manipulation projects, simple Python coding projects, Python mini tasks with if-elif-else
+title: "Python if‑elif‑else Mini Projects – Beginner Practice Projects"
+description: Explore beginner-friendly mini projects using Python if‑elif‑else statements. Apply conditional logic to real-world scenarios with hands-on coding challenges and practical examples.
+keywords: Python if elif else mini projects, beginner Python projects, Python conditionals practice, if else coding projects, real-world Python logic examples, Python decision making projects, hands-on Python exercises
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "if-elif-else"

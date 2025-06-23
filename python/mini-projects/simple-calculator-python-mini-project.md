@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Mini Project: Simple Calculator"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Simple Calculator in Python – Mini Project for Beginners"
+description: Build a simple calculator using Python in this beginner-friendly mini project. Learn how to implement basic arithmetic operations like addition, subtraction, multiplication, and division.
+keywords: Python calculator project, simple calculator Python, Python mini project for beginners, basic arithmetic in Python, Python calculator code, Python project with source code, calculator app Python, beginner Python coding project
 author: Muhammad Yasir Bhutta
 course: python
 topic: mini-projects
@@ -18,7 +18,6 @@ breadcrumb:
   - title: Mini Projects
     url: /python/mini-projects/
 ---
-## Project #1: 
 
 Write a Python program that allows the user to perform basic arithmetic operations (addition, subtraction, multiplication, and division) until they choose to exit. The program should take two numbers and an operation from the user, perform the calculation, and display the result.
 
