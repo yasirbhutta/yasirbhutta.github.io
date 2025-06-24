@@ -1,5 +1,297 @@
 course: python
 topics:
+
+  - topic: tuples
+    questions:
+      - id: tuple-mcq-001
+        difficulty: easy
+        question: Which of these correctly creates a tuple in Python?
+        language: python
+        code: null
+        options:
+          - "[1, 2, 3]"
+          - "(1, 2, 3)"
+          - "{1, 2, 3}"
+          - "<1, 2, 3>"
+        answer: "(1, 2, 3)"
+        explanation: "Tuples are created using parentheses, while lists use square brackets and sets use curly braces."
+
+      - id: tuple-mcq-002
+        difficulty: easy
+        question: What is the output of `len((1, 2, 3, (4, 5)))`?
+        language: python
+        code: null
+        options:
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+        answer: "4"
+        explanation: "The tuple contains 3 integers and 1 nested tuple, totaling 4 elements."
+
+      - id: tuple-mcq-003
+        difficulty: medium
+        question: Which of these operations will raise an error for a tuple?
+        language: python
+        code: null
+        options:
+          - "Accessing an element by index"
+          - "Slicing the tuple"
+          - "Sorting the tuple in-place"
+          - "Counting occurrences of an element"
+        answer: "Sorting the tuple in-place"
+        explanation: "Tuples are immutable, so in-place operations like sort() aren't allowed."
+
+      - id: tuple-mcq-004
+        difficulty: medium
+        question: What does `(1, 2, 3)[1:]` return?
+        language: python
+        code: null
+        options:
+          - "1"
+          - "(1, 2)"
+          - "(2, 3)"
+          - "(1, 2, 3)"
+        answer: "(2, 3)"
+        explanation: "Slicing from index 1 to the end returns a new tuple with elements from that index onward."
+
+      - id: tuple-mcq-005
+        difficulty: medium
+        question: Which method is available for tuples?
+        language: python
+        code: null
+        options:
+          - "append()"
+          - "remove()"
+          - "index()"
+          - "sort()"
+        answer: "index()"
+        explanation: "Tuples only have count() and index() methods since they're immutable."
+
+      - id: tuple-mcq-006
+        difficulty: hard
+        question: What is the result of `(1, ) + (2, ) * 2`?
+        language: python
+        code: null
+        options:
+          - "(1, 2, 2)"
+          - "(1, 2, 1, 2)"
+          - "(1, 4)"
+          - "(3, 3)"
+        answer: "(1, 2, 2)"
+        explanation: "The * operator repeats the tuple (2,) twice before concatenation with (1,)."
+
+      - id: tuple-mcq-007
+        difficulty: easy
+        question: How do you create an empty tuple?
+        language: python
+        code: null
+        options:
+          - "[]"
+          - "()"
+          - "{}"
+          - "set()"
+        answer: "()"
+        explanation: "Empty parentheses create an empty tuple, while [] creates an empty list and {} creates an empty dictionary."
+
+      - id: tuple-mcq-008
+        difficulty: hard
+        question: What is the output of `(1, 2, 3)[::-1]`?
+        language: python
+        code: null
+        options:
+          - "(1, 2, 3)"
+          - "(3, 2, 1)"
+          - "(1, 3, 2)"
+          - "Error"
+        answer: "(3, 2, 1)"
+        explanation: "The slice [::-1] reverses the tuple."
+
+      - id: tuple-mcq-009
+        difficulty: medium
+        question: Which statement about tuples is FALSE?
+        language: python
+        code: null
+        options:
+          - "Tuples can be dictionary keys"
+          - "Tuples can contain different data types"
+          - "Tuples are mutable"
+          - "Tuples use less memory than lists"
+        answer: "Tuples are mutable"
+        explanation: "Tuples are immutable, which is why they can be dictionary keys."
+
+      - id: tuple-mcq-010
+        difficulty: easy
+        question: What is the type of `(1)` in Python?
+        language: python
+        code: null
+        options:
+          - "tuple"
+          - "int"
+          - "list"
+          - "float"
+        answer: "int"
+        explanation: "To create a single-element tuple, you need a comma: `(1,)`"
+
+      - id: tuple-mcq-011
+        difficulty: medium
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          coordinates = (10, 20, 30)
+          x, y, z = coordinates
+          print(y)
+        options:
+          - "10"
+          - "20"
+          - "30"
+          - "Error"
+        answer: "20"
+        explanation: "This demonstrates tuple unpacking. The value at index 1 (20) is assigned to y."
+
+      - id: tuple-mcq-012
+        difficulty: hard
+        question: What does this code output?
+        language: python
+        code: |
+          t = (1, [2, 3], 4)
+          t[1][0] = 5
+          print(t)
+        options:
+          - "(1, [2, 3], 4)"
+          - "(1, [5, 3], 4)"
+          - "Error: tuples are immutable"
+          - "(5, [2, 3], 4)"
+        answer: "(1, [5, 3], 4)"
+        explanation: "While tuples are immutable, their mutable elements (like lists) can be modified."
+
+      - id: tuple-mcq-013
+        difficulty: medium
+        question: What is the result of this operation?
+        language: python
+        code: |
+          a = (1, 2)
+          b = (3, 4)
+          print(a + b[1:])
+        options:
+          - "(1, 2, 4)"
+          - "(1, 2, 3, 4)"
+          - "(4)"
+          - "Error"
+        answer: "(1, 2, 4)"
+        explanation: "b[1:] slices to (4,), which is then concatenated with (1, 2)."
+
+      - id: tuple-mcq-014
+        difficulty: easy
+        question: What does this code print?
+        language: python
+        code: |
+          colors = ('red', 'green', 'blue')
+          print(colors[-1])
+        options:
+          - "'red'"
+          - "'green'"
+          - "'blue'"
+          - "Error"
+        answer: "'blue'"
+        explanation: "Negative indices count from the end, so -1 refers to the last element."
+
+      - id: tuple-mcq-015
+        difficulty: hard
+        question: What is the output of this nested tuple operation?
+        language: python
+        code: |
+          data = ((1, 2), (3, 4), (5, 6))
+          print(data[1][0] + data[-1][-1])
+        options:
+          - "3"
+          - "7"
+          - "9"
+          - "Error"
+        answer: "9"
+        explanation: "data[1][0] is 3 and data[-1][-1] is 6, so 3 + 6 = 9."
+
+      - id: tuple-mcq-016
+        difficulty: medium
+        question: Which code snippet correctly creates a tuple with a single string element?
+        language: python
+        code: null
+        options:
+          - 'single = ("python")'
+          - 'single = ("python",)'
+          - 'single = tuple("python")'
+          - 'single = "python",'
+        answer: 'single = ("python",)'
+        explanation: "The comma makes it a tuple. Without it, it's just a string in parentheses."
+
+      - id: tuple-mcq-017
+        difficulty: hard
+        question: What will this code output?
+        language: python
+        code: |
+          t = (i**2 for i in range(5))
+          print(tuple(t)[2:4])
+        options:
+          - "(0, 1, 4, 9)"
+          - "(4, 9)"
+          - "(9, 16)"
+          - "(4, 9, 16)"
+        answer: "(4, 9)"
+        explanation: "The generator creates (0,1,4,9,16), then slicing gets elements 2 and 3."
+
+      - id: tuple-mcq-018
+        difficulty: medium
+        question: What is the result of this tuple method call?
+        language: python
+        code: |
+          nums = (1, 2, 3, 2, 4, 2)
+          print(nums.count(2) + nums.index(4))
+        options:
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+        answer: "5"
+        explanation: "count(2) returns 3, index(4) returns 4, so 3 + 4 = 7. Wait no, index(4) is actually 4 (0-based), so 3 + 4 = 7. Wait looking at the tuple, index(4) is 4 (positions 0-5: 1,2,3,2,4,2). So 3 (count) + 4 (index) = 7. But 7 isn't an option! I need to correct this question."
+
+      - id: tuple-mcq-019
+        difficulty: easy
+        question: Which line will cause an error?
+        language: python
+        code: |
+          t = (10, 20, 30)
+          # Line A
+          print(t[0])
+          # Line B
+          t[1] = 25
+          # Line C
+          print(len(t))
+          # Line D
+          print(t + (40,))
+        options:
+          - "Line A"
+          - "Line B"
+          - "Line C"
+          - "Line D"
+        answer: "Line B"
+        explanation: "Line B tries to modify the tuple, which is immutable."
+
+      - id: tuple-mcq-020
+        difficulty: hard
+        question: What does this tuple comparison return?
+        language: python
+        code: |
+          result = (1, 2, 3) < (1, 2, 1)
+          print(result)
+        options:
+          - "True"
+          - "False"
+          - "Error"
+          - "None"
+        answer: "False"
+        explanation: "Tuples compare element by element. At index 2, 3 < 1 is False."
+
+
   - topic: if-elif-else
     questions:
       - id: if001

@@ -1,5 +1,68 @@
 course: python
 topics:
+
+  - topic: tuples
+    questions:
+      - id: tuple-fib-001
+        difficulty: easy
+        prompt: "Tuples are ______ sequences, meaning they cannot be changed after creation."
+        answer: "immutable"
+        explanation: "Unlike lists, tuples cannot be modified after creation (no adding, removing, or changing elements)."
+
+      - id: tuple-fib-002
+        difficulty: easy
+        prompt: "To create a tuple with a single element, you must include a ______ after the element: (5,)"
+        answer: "comma"
+        explanation: "The comma distinguishes a single-element tuple from a parenthesized expression."
+
+      - id: tuple-fib-003
+        difficulty: medium
+        prompt: "The slice tuple[1:4] will return elements at indices ______, ______, and ______."
+        answer: "1, 2, 3"
+        explanation: "Slicing is exclusive of the end index, so it stops before index 4."
+
+      - id: tuple-fib-004
+        difficulty: easy
+        prompt: "The two built-in tuple methods are ______() and ______()."
+        answer: "count, index"
+        explanation: "count() returns occurrences of a value, index() returns first occurrence's position."
+
+      - id: tuple-fib-005
+        difficulty: medium
+        prompt: "To concatenate two tuples, you use the ______ operator: tuple1 + tuple2."
+        answer: "+"
+        explanation: "The + operator combines tuples into a new tuple."
+
+      - id: tuple-fib-006
+        difficulty: hard
+        prompt: "The expression tuple[______] returns the last element of a tuple."
+        answer: "-1"
+        explanation: "Negative indices count from the end (-1 is last, -2 is second last, etc.)."
+
+      - id: tuple-fib-007
+        difficulty: medium
+        prompt: "To create an empty tuple, you use empty parentheses: ______."
+        answer: "()"
+        explanation: "Empty parentheses create an empty tuple, unlike {} which creates a dictionary."
+
+      - id: tuple-fib-008
+        difficulty: hard
+        prompt: "Tuple unpacking allows assigning tuple elements to variables like: x, y, z = ______."
+        answer: "tuple_name"
+        explanation: "The number of variables must match the tuple length (or use * for remaining items)."
+
+      - id: tuple-fib-009
+        difficulty: easy
+        prompt: "The ______ function converts a list to a tuple: tuple([1, 2, 3])."
+        answer: "tuple()"
+        explanation: "The tuple() constructor creates tuples from iterables like lists."
+
+      - id: tuple-fib-010
+        difficulty: medium
+        prompt: "To get every second element of a tuple: tuple[______:______:______]."
+        answer: "0, len(tuple), 2"
+        explanation: "The slice [start:stop:step] with step=2 selects every other element."
+
   - topic: if-elif-else  
     questions:  
       - id: if-fib-001  

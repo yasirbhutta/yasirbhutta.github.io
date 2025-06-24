@@ -1,6 +1,128 @@
 course: python
 topics:
 
+  - topic: tuples
+    exercises:
+      - id: py-ce-tuple-001
+        title: "Create and Access Tuple"
+        task: |
+          Create a tuple containing three colors and print the second element.
+        requirements:
+          - "Create a tuple with exactly 3 elements"
+          - "Access the element at index 1"
+        input: ""
+        output: "green"
+        difficulty: "easy"
+        hint: "Remember tuple indexing starts at 0"
+
+      - id: py-ce-tuple-002
+        title: "Tuple Slicing"
+        task: |
+          Given a tuple (1, 2, 3, 4, 5), create a new tuple with elements from index 1 to 3.
+        requirements:
+          - "Use slicing operation"
+          - "Store result in a new variable"
+        input: ""
+        output: "(2, 3, 4)"
+        difficulty: "easy"
+        hint: "Slicing includes start index but excludes end index"
+
+      - id: py-ce-tuple-003
+        title: "Count Occurrences"
+        task: |
+          Count how many times the number 2 appears in the tuple (1, 2, 3, 2, 4, 2).
+        requirements:
+          - "Use the count() method"
+          - "Print the result"
+        input: ""
+        output: "3"
+        difficulty: "easy"
+        hint: "Tuple methods are called using dot notation"
+
+      - id: py-ce-tuple-004
+        title: "Tuple Concatenation"
+        task: |
+          Combine two tuples (1, 2, 3) and (4, 5, 6) into a single tuple.
+        requirements:
+          - "Use the + operator"
+          - "Print the combined tuple"
+        input: ""
+        output: "(1, 2, 3, 4, 5, 6)"
+        difficulty: "easy"
+        hint: "The + operator works for sequence types"
+
+      - id: py-ce-tuple-005
+        title: "Find Index"
+        task: |
+          Find the index of the first occurrence of "apple" in the tuple ("banana", "apple", "orange", "apple").
+        requirements:
+          - "Use the index() method"
+          - "Print the result"
+        input: ""
+        output: "1"
+        difficulty: "easy"
+        hint: "Indexing starts at 0"
+
+      - id: py-ce-tuple-006
+        title: "Unpack Tuple"
+        task: |
+          Unpack the tuple (10, 20, 30) into three variables a, b, c and print them.
+        requirements:
+          - "Use tuple unpacking"
+          - "Print all three variables"
+        input: ""
+        output: "10 20 30"
+        difficulty: "medium"
+        hint: "Number of variables must match tuple length"
+
+      - id: py-ce-tuple-007
+        title: "Reverse Tuple"
+        task: |
+          Reverse the tuple (1, 2, 3, 4, 5) using slicing.
+        requirements:
+          - "Use slicing with step parameter"
+          - "Print the reversed tuple"
+        input: ""
+        output: "(5, 4, 3, 2, 1)"
+        difficulty: "medium"
+        hint: "Remember the slice syntax [start:stop:step]"
+
+      - id: py-ce-tuple-008
+        title: "Nested Tuple Access"
+        task: |
+          Access the value "python" from the nested tuple (("java", "python"), ("c++", "ruby")).
+        requirements:
+          - "Use chained indexing"
+          - "Print the value"
+        input: ""
+        output: "python"
+        difficulty: "medium"
+        hint: "You'll need two index operations"
+
+      - id: py-ce-tuple-009
+        title: "Convert List to Tuple"
+        task: |
+          Convert the list [1, 2, 3] to a tuple and print it.
+        requirements:
+          - "Use the tuple() constructor"
+          - "Print the resulting tuple"
+        input: ""
+        output: "(1, 2, 3)"
+        difficulty: "easy"
+        hint: "The tuple() function accepts any iterable"
+
+      - id: py-ce-tuple-010
+        title: "Tuple Repetition"
+        task: |
+          Create a new tuple by repeating the tuple (1, 2) three times.
+        requirements:
+          - "Use the * operator"
+          - "Print the result"
+        input: ""
+        output: "(1, 2, 1, 2, 1, 2)"
+        difficulty: "easy"
+        hint: "The * operator works with sequences"
+
   - topic: if-elif-else
     exercises:
       - id: py-ce-cond-001

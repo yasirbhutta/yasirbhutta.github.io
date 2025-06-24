@@ -1,5 +1,78 @@
 course: python
 topics:
+
+  - topic: tuples
+    questions:
+      - id: tuple-tf-001
+        difficulty: easy
+        prompt: Tuples in Python are immutable.
+        answer: true
+        explanation: >
+          Once a tuple is created, its elements cannot be changed, added, or removed.
+
+      - id: tuple-tf-002
+        difficulty: easy
+        prompt: Tuples can contain elements of different data types.
+        answer: true
+        explanation: >
+          A tuple can hold elements of various types, such as integers, strings, and even other tuples.
+
+      - id: tuple-tf-003
+        difficulty: easy
+        prompt: The parentheses are required when creating a tuple.
+        answer: false
+        explanation: >
+          While parentheses are commonly used, they're not strictly necessary. A tuple can be created by just separating values with commas.
+
+      - id: tuple-tf-004
+        difficulty: medium
+        prompt: Tuple slicing works the same way as list slicing.
+        answer: true
+        explanation: >
+          Both tuples and lists use the same slicing syntax and behavior, though tuples return new tuples while lists return new lists.
+
+      - id: tuple-tf-005
+        difficulty: medium
+        prompt: The method 'append()' can be used to add an element to a tuple.
+        answer: false
+        explanation: >
+          Tuples are immutable and don't support methods that modify them, including append().
+
+      - id: tuple-tf-006
+        difficulty: medium
+        prompt: The expression 'my_tuple[1:3]' returns elements at index 1 and 2.
+        answer: true
+        explanation: >
+          Slices are exclusive of the end index, so this returns elements from index 1 up to but not including index 3.
+
+      - id: tuple-tf-007
+        difficulty: easy
+        prompt: The 'count()' method is available for tuples.
+        answer: true
+        explanation: >
+          Tuples have the count() method which returns the number of times a specified value appears in the tuple.
+
+      - id: tuple-tf-008
+        difficulty: easy
+        prompt: The 'index()' method can be used to find the position of an element in a tuple.
+        answer: true
+        explanation: >
+          The index() method returns the first occurrence of the specified value in the tuple.
+
+      - id: tuple-tf-009
+        difficulty: medium
+        prompt: Tuples are faster than lists for accessing elements.
+        answer: true
+        explanation: >
+          Because of their immutability, tuples can be slightly faster than lists for element access operations.
+
+      - id: tuple-tf-010
+        difficulty: hard
+        prompt: A tuple with a single element can be created by placing a comma after the element.
+        answer: true
+        explanation: >
+          To create a single-element tuple, you need to include a trailing comma (e.g., (1,) or just 1,).
+
   - topic: if-elif-else
     questions:
       - id: if-tf-001

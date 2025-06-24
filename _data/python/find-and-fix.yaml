@@ -1,6 +1,114 @@
 course: python
 topics:
 
+  - topic: tuples
+    questions:
+      - id: tuple-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the tuple creation error in this code.
+        code: |
+          colors = ('red', 'green' 'blue')
+          print(colors)
+        hint: "Tuples require commas between elements."
+        issue: Missing comma between 'green' and 'blue' causes string concatenation.
+        solution: |
+          colors = ('red', 'green', 'blue')
+          print(colors)
+
+      - id: tuple-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the tuple modification attempt.
+        code: |
+          coordinates = (10, 20, 30)
+          coordinates[1] = 25
+          print(coordinates)
+        hint: "Tuples are immutable - consider creating a new tuple."
+        issue: Cannot modify tuple elements directly.
+        solution: |
+          coordinates = (10, 20, 30)
+          new_coordinates = (coordinates[0], 25, coordinates[2])
+          print(new_coordinates)
+
+      - id: tuple-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the incorrect single-element tuple creation.
+        code: |
+          single = (5)
+          print(type(single))
+        hint: "Single-element tuples require a trailing comma."
+        issue: Without comma, it's just an integer in parentheses.
+        solution: |
+          single = (5,)
+          print(type(single))
+
+      - id: tuple-fix-004
+        difficulty: hard
+        prompt: |
+          Fix the tuple unpacking error.
+        code: |
+          point = (1, 2, 3)
+          x, y = point
+          print(x, y)
+        hint: "Number of variables must match tuple length, or use extended unpacking."
+        issue: Too many values to unpack (expected 2).
+        solution: |
+          point = (1, 2, 3)
+          x, y, z = point
+          print(x, y)
+          # OR
+          x, y, _ = point
+          print(x, y)
+
+      - id: tuple-fix-005
+        difficulty: medium
+        prompt: |
+          Fix the incorrect tuple method usage.
+        code: |
+          numbers = (1, 2, 3)
+          numbers.append(4)
+          print(numbers)
+        hint: "Tuples don't support append - consider alternatives."
+        issue: Tuples are immutable and have no append method.
+        solution: |
+          numbers = (1, 2, 3)
+          numbers = numbers + (4,)
+          print(numbers)
+
+      - id: tuple-fix-006
+        difficulty: hard
+        prompt: |
+          Fix the slicing mistake to get the last two elements.
+        code: |
+          data = (10, 20, 30, 40)
+          last_two = data[2:3]
+          print(last_two)
+        hint: "Slice end index is exclusive - need to go beyond the last element."
+        issue: Current slice only gets element at index 2.
+        solution: |
+          data = (10, 20, 30, 40)
+          last_two = data[-2:]
+          print(last_two)
+
+      - id: tuple-fix-007
+        difficulty: easy
+        prompt: |
+          Fix the incorrect tuple comparison.
+        code: |
+          t1 = (1, 2)
+          t2 = (1, 2, 3)
+          result = t1 > t2
+          print(result)
+        hint: "Longer tuples are considered greater if preceding elements are equal."
+        issue: Incorrect comparison operator for the intended check.
+        solution: |
+          t1 = (1, 2)
+          t2 = (1, 2, 3)
+          result = len(t1) > len(t2)  # Or whatever comparison was intended
+          print(result)
+
   - topic: if-elif-else
     questions:
       - id: if-fix-001
