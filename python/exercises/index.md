@@ -18,7 +18,7 @@ breadcrumb:
 - **Operators**: [MCQs](../docs/operators/practice-and-progress/mcqs-operators.md) 📝, [Find and Fix Mistakes](../docs/operators/practice-and-progress/find-fix-mistakes-operators.md) 🔍, [Coding Exercises](../docs/operators/practice-and-progress/exercises-operators.md) 🏋️‍♂️
 - **Strings, Common String Methods**: [MCQs](../docs/strings/practice-and-progress/mcqs-strings.md) 📝, [Find and Fix Mistakes](../docs/strings/practice-and-progress/find-fix-mistakes-strings.md) 🔍, [Coding Exercises](../docs/strings/practice-and-progress/exercises-strings.md) 🏋️‍♂️
 - **Lists**: [MCQs](../docs/lists/practice-and-progress/mcqs-lists.md) 📝, [Find and Fix Mistakes](../docs/lists/practice-and-progress/find-fix-mistakes-lists.md) 🔍, [Coding Exercises](../docs/lists/practice-and-progress/exercises-lists.md) 🏋️‍♂️
-- **Tuples**:
+- **Tuples**: [MCQs](../docs/tuples/practice-and-progress/mcqs-tuples.md) 📝, [Find and Fix Mistakes](../docs/tuples/practice-and-progress/find-fix-mistakes-tuples.md) 🔍, [Coding Exercises](../docs/tuples/practice-and-progress/exercises-tuples.md) 🏋️‍♂️
 
 **🔧 Mini Project**: [String Manipulation Tool](../mini-projects/index.md#string-manipulation-tool), [Student Grade Tracker](../mini-projects/student-grade-tracker-python-mini-project.md) [More ...](../mini-projects/)
 

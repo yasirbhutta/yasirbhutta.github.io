@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python tuples True or False Questions – Practice for Beginners"
-description: Test your knowledge of Python tuples with true or false practice questions. Strengthen your understanding of list operations, indexing, slicing, and common methods with instant feedback.
-keywords: Python tuples true or false, Python list quiz, list operations Python, Python beginner list practice, Python true false quiz, Python list questions and answers, Python MCQs tuples, learn Python tuples
+title: "Python Tuples – True or False Questions for Quick Practice"
+description: Test your understanding of Python tuples with these beginner-level true or false questions. Practice key tuple concepts like immutability, indexing, and syntax in a quick review format.
+keywords: Python tuples quiz, true false tuples Python, Python tuple practice, Python tuple questions, Python tuple basics, Python tuple syntax quiz, tuple immutability Python, beginner Python tuple quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"

@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: Find and Fix Mistakes in Python tuples – Practice Debugging Exercises
-description: Boost your Python skills by identifying and correcting common mistakes in list operations. Practice debugging Python list syntax, indexing errors, and method misuse with hands-on examples.
-keywords: Python list debugging, find and fix Python list errors, Python list mistakes, list troubleshooting Python, Python list error practice, Python syntax errors in tuples, beginner Python list debugging, Python list exercises with solutions
+title: Find and Fix Mistakes – Python Tuples Practice for Beginners
+description: Improve your Python debugging skills by identifying and correcting common mistakes in tuple usage. Practice tuple syntax, immutability, and structure with real code examples.
+keywords: Python tuples debugging, fix tuple errors Python, Python tuple syntax mistakes, find and fix Python code, tuple immutability errors, beginner Python practice, Python tuple exercises, Python debug practice
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"

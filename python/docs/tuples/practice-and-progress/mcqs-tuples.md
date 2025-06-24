@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: Python tuples MCQs – Multiple Choice Questions for Practice
-description: Practice Python tuples with multiple choice questions (MCQs). Test your knowledge on list creation, indexing, slicing, and common list methods with beginner-friendly questions and answers.
-keywords: Python list MCQs, multiple choice questions Python tuples, Python list quiz, list operations Python MCQs, Python list methods questions, beginner Python list test, practice Python tuples, Python programming MCQs
+title: Python Tuples MCQs – Multiple Choice Questions for Practice
+description: Boost your Python skills with multiple choice questions on tuples. These beginner-friendly MCQs cover syntax, properties, and usage of tuples in Python programming.
+keywords: Python tuples MCQs, Python tuple quiz, tuple multiple choice questions, Python tuple practice, beginner Python MCQ, tuple in Python test, immutable data types Python, Python tuple basics quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"

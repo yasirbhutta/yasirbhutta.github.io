@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python List Mini Projects – Hands-On Practice for Beginners"
-description: Explore beginner-friendly mini projects using Python tuples. Practice real-world scenarios involving list operations, sorting, searching, and data manipulation to strengthen your Python coding skills.
-keywords: Python list mini projects, beginner Python projects, list-based Python exercises, hands-on Python list practice, Python list operations, Python list manipulation projects, simple Python coding projects, Python mini tasks with tuples
+title: "Python Tuples Mini Projects – Hands-On Practice for Beginners"
+description: Explore beginner-friendly mini projects using Python tuples. Learn how to apply tuple concepts in real-world scenarios with hands-on coding tasks and creative project ideas.
+keywords: Python tuples mini projects, beginner Python projects, tuple coding examples, hands-on tuple practice, real-world Python tuple use, Python tuple applications, Python tuple programming tasks, tuple-based exercises Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"

@@ -1,8 +1,8 @@
 ---
-layout: review-questions
-title: Python tuples Review Questions – Test Your Understanding
-description: Reinforce your Python list knowledge with structured review questions. Cover key concepts like list creation, indexing, slicing, and manipulation with clear, beginner-friendly Q&A.
-keywords: Python list review questions, Python tuples Q&A, list operations review, Python list practice questions, list indexing and slicing, review exercises Python, beginner Python list questions, Python programming review quiz
+layout: page
+title: Python Tuples Quiz – Test Your Knowledge with Quick Questions
+description: Take this Python tuples quiz to test your understanding of tuple syntax, properties, and usage. Perfect for beginners learning Python data structures and immutability.
+keywords: Python tuples quiz, Python tuple test, tuple MCQ Python, beginner Python quiz, Python data structure quiz, Python tuple properties, tuple practice Python, immutable types quiz Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

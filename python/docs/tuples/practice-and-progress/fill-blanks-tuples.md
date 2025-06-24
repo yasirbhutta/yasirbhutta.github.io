@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python tuples Fill in the Blanks – Practice Exercises for Beginners"
-description: Sharpen your Python list skills with fill-in-the-blank exercises. Practice indexing, slicing, list methods, and more to reinforce your understanding of core list operations in Python.
-keywords: Python list fill in the blanks, Python list practice, beginner Python list exercises, Python list operations quiz, list methods Python practice, fill in the blanks Python tuples, Python coding exercises, learn Python list manipulation
+title: "Python Tuples – Fill in the Blanks Exercises for Beginners"
+description: Practice Python tuple concepts with fill-in-the-blank questions designed for beginners. Reinforce syntax, immutability, indexing, and key features of tuples through hands-on exercises.
+keywords: Python tuples fill in the blanks, tuple exercises Python, Python tuple practice questions, beginner Python tuples, tuple syntax Python, Python tuple worksheet, Python tuple indexing, immutable data types Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"

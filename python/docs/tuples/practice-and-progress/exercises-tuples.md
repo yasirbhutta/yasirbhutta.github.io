@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Python List Exercises – Practice Questions for Beginners
-description: Practice Python list concepts with beginner-friendly exercises. Strengthen your understanding of list creation, indexing, slicing, and manipulation with hands-on coding problems and solutions.
-keywords: Python list exercises, Python list practice questions, list manipulation Python, beginner Python list problems, Python list coding exercises, list slicing Python, Python list indexing practice, hands-on Python list practice
+title: Python Tuples Exercises – Practice Questions for Beginners
+description: Strengthen your understanding of Python tuples with beginner-friendly exercises. Practice tuple creation, indexing, unpacking, and immutability through hands-on coding questions.
+keywords: Python tuple exercises, tuples practice questions, Python tuple coding tasks, beginner Python tuples, tuple operations in Python, Python data structure practice, immutable types Python, Python tuple indexing
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "tuples"
