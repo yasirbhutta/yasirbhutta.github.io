@@ -23,7 +23,8 @@ breadcrumb:
 
 1. [What is while loop?](#1-what-is-while-loop)
 2. [Examples](#2-examples)
-3. [Tasks](#3-tasks)
+3. [Python Loops Performance Comparison: For vs. While | Which is Faster?](#3-python-loops-performance-comparison-for-vs-while--which-is-faster)
+4. [Tasks](#4-tasks)
 
 ## 1. What is while loop?
 
@@ -115,7 +116,7 @@ print(f'The sum of the numbers is: {sum}')
 
 ### Example 6: Infinite Loop Printing Messages with Counter
 
-[Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49))
+[Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49)
 
 ```python
 x = 1
@@ -124,7 +125,13 @@ while True:
     x += 1
 ```
 
-## 3. Tasks
+## 3. Python Loops Performance Comparison: For vs. While | Which is Faster?
+
+{% assign video_type = "video" %}
+{% assign video_id = "6JNeo6TVQN8" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+## 4. Tasks
 
 ### Task 1: Display Multiplication Tables**
 
@@ -234,12 +241,4 @@ Enter another number (negative number to stop): -1
 The sum of all numbers is: 35
 ```
 
-- 
 
-**See also:**
-
-- [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)
-
-- [Video: Python while loop](https://www.youtube.com/watch?v=ieU3ZRSZVf8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=86)
-
-[video: Python Loops Performance Comparison: For vs. While | Which is Faster?](https://youtu.be/6JNeo6TVQN8)
