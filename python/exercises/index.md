@@ -25,7 +25,7 @@ breadcrumb:
 ## 📅 Control Flow & Data Structures
 
 1. **if, elif, else**: [MCQs](../docs/if-elif-else/practice-and-progress/mcqs-if-elif-else.md) 📝, [Find and Fix Mistakes](../docs/if-elif-else/practice-and-progress/find-fix-mistakes-if-elif-else.md) 🔍, [Coding Exercises](../docs/if-elif-else/practice-and-progress/exercises-if-elif-else.md) 🏋️‍♂️
-2. **for loop**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](#) 🏋️‍♂️
+2. **for loop**: [MCQs](../docs/loops-for/practice-and-progress/mcqs-loops-for.md) 📝, [Find and Fix Mistakes](../docs/loops-for/practice-and-progress/find-fix-mistakes-loops-for.md) 🔍, [Coding Exercises](../docs/loops-for/practice-and-progress/exercises-loops-for.md) 🏋️‍♂️
 3. **while loop**: [MCQs](../docs/loops-while/practice-and-progress/mcqs-loops-while.md) 📝, [Find and Fix Mistakes](../docs/loops-while/practice-and-progress/find-fix-mistakes-loops-while.md) 🔍, [Coding Exercises](../docs/loops-while/practice-and-progress/exercises-loops-while.md) 🏋️‍♂️
 4. **break, continue, pass**: [MCQs](#) 📝, [Find and Fix Mistakes](#) 🔍, [Coding Exercises](../exercises/python-exercises-loop-control.md) 🏋️‍♂️
 5. **Sets**: 
