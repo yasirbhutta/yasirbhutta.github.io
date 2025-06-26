@@ -243,8 +243,8 @@ The sum of all numbers is: 35
 
 ## 📘 **Related Topics**
 
-* **Loop Control Statements (break, continue, pass)** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
-  👉 [Learn more](#)
-* **The else Clauses on Loops)** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
-  👉 [Learn more](#)
+* **Loop Control Statements (break, continue, pass)** – **break:** Terminates the loop entirely. **continue:** Skips the current iteration and moves to the next one. **pass:** Does nothing, often used as a placeholder.
+  👉 [Learn more](../loop-control-statements/)
+* **The else Clauses on Loops)** – In Python, the else clause can be used with loops (for and while). This may be surprising at first since most people associate else with if statements.
+  👉 [Learn more](../else-clauses-on-loops/)
 
