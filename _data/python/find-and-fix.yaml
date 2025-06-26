@@ -1,6 +1,117 @@
 course: python
 topics:
 
+  - topic: loops-while
+    questions:
+      - id: while-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the syntax error in this while loop.
+        code: |
+          count = 0
+          while count < 5
+              print(count)
+              count += 1
+        hint: "Check the punctuation at the end of the while statement."
+        issue: "Missing colon at the end of the while condition."
+        solution: |
+          count = 0
+          while count < 5:
+              print(count)
+              count += 1
+
+      - id: while-fix-002
+        difficulty: easy
+        prompt: |
+          This loop will run infinitely. Fix it.
+        code: |
+          x = 1
+          while x < 10:
+              print(x)
+        hint: "The loop variable is not being updated."
+        issue: "Missing increment operation causes infinite loop."
+        solution: |
+          x = 1
+          while x < 10:
+              print(x)
+              x += 1
+
+      - id: while-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the logical error in this loop that prints even numbers.
+        code: |
+          num = 0
+          while num <= 10:
+              if num % 2 == 1:
+                  print(num)
+              num += 1
+        hint: "The condition checks for odd numbers instead of even."
+        issue: "The modulo condition checks for odd numbers (==1) when it should check for even numbers (==0)."
+        solution: |
+          num = 0
+          while num <= 10:
+              if num % 2 == 0:
+                  print(num)
+              num += 1
+
+      - id: while-fix-004
+        difficulty: medium
+        prompt: |
+          Fix the indentation error in this nested while loop.
+        code: |
+          i = 1
+          while i <= 3:
+              j = 1
+          while j <= 3:
+              print(i, j)
+              j += 1
+              i += 1
+        hint: "The inner while loop should be indented inside the outer one."
+        issue: "Improper indentation of the inner while loop."
+        solution: |
+          i = 1
+          while i <= 3:
+              j = 1
+              while j <= 3:
+                  print(i, j)
+                  j += 1
+              i += 1
+
+      - id: while-fix-005
+        difficulty: hard
+        prompt: |
+          This loop should print numbers 1 through 5 but has multiple issues. Fix them.
+        code: |
+          counter == 1
+          while counter < 6
+          print(counter)
+          counter =+ 1
+        hint: "Look for assignment vs comparison, missing colon, incorrect operator, and indentation."
+        issue: "Multiple errors: assignment vs comparison (==), missing colon, incorrect increment operator (=+), and missing indentation."
+        solution: |
+          counter = 1
+          while counter < 6:
+              print(counter)
+              counter += 1
+
+      - id: while-fix-006
+        difficulty: medium
+        prompt: |
+          Fix the loop that should exit when the user enters 'quit'.
+        code: |
+          while True:
+              user_input = input("Enter something (or 'quit' to exit): ")
+              if user_input = 'quit':
+                  break
+        hint: "Check the comparison operator in the if statement."
+        issue: "Using assignment operator (=) instead of equality operator (==)."
+        solution: |
+          while True:
+              user_input = input("Enter something (or 'quit' to exit): ")
+              if user_input == 'quit':
+                  break
+
   - topic: loops-for
     questions:
       - id: for-fix-001

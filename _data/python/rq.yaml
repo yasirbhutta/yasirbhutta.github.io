@@ -1,6 +1,99 @@
 course: python
 topics:
 
+  - topic: loops-while
+    questions:
+      - id: while-review-001
+        prompt: "What are the basic components and syntax of a Python while loop?"
+        answer: >
+          A Python while loop repeatedly executes a block of code as long as its condition remains True.
+          The basic syntax is: `while condition:` followed by an indented block of code.
+          The loop continues until the condition evaluates to False or a break statement is encountered.
+        examples:
+          - "Basic loop: `count = 0`\n`while count < 5: print(count); count += 1`"
+          - "Infinite loop: `while True: print('Running...')`"
+        resources:
+          - name: "Python while Loops Documentation"
+            url: "https://docs.python.org/3/reference/compound_stmts.html#while"
+
+      - id: while-review-002
+        prompt: "How do you prevent and handle infinite while loops?"
+        answer: >
+          To prevent infinite loops:
+          1. Ensure the loop condition will eventually become False
+          2. Include a way to modify the condition variable within the loop
+          3. Use break statements with clear exit conditions
+          4. Consider adding a maximum iteration count as a safeguard
+        examples:
+          - "Safe counter: `max_attempts = 3`\n`attempts = 0`\n`while attempts < max_attempts: ...`"
+          - "User input exit: `while True: if input('Quit? ') == 'y': break`"
+        resources:
+          - name: "Python Loop Control"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
+
+      - id: while-review-003
+        prompt: "What are the differences between break, continue, and pass in while loops?"
+        answer: >
+          - break: Immediately exits the entire loop
+          - continue: Skips the rest of current iteration and jumps to next condition check
+          - pass: Does nothing (placeholder for empty blocks)
+          The else clause executes only if the loop completes normally (no break).
+        examples:
+          - "break: `while True: if condition: break`"
+          - "continue: `while x > 0: x -= 1; if x%2: continue; print(x)`"
+          - "pass: `while condition: pass  # TODO: implement later`"
+        resources:
+          - name: "Python Loop Statements"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools"
+
+      - id: while-review-004
+        prompt: "When should you use a while loop versus a for loop in Python?"
+        answer: >
+          Use while loops when:
+          - You don't know the number of iterations in advance
+          - You need to loop until a condition changes
+          - You're waiting for external events (e.g., user input)
+          Use for loops when:
+          - You need to iterate over a known sequence
+          - You need a specific number of iterations
+          - You're processing each item in a collection
+        examples:
+          - "while: `while server_is_running: process_requests()`"
+          - "for: `for item in collection: process(item)`"
+        resources:
+          - name: "Python Loops Comparison"
+            url: "https://realpython.com/python-while-loop/#while-loops-vs-for-loops"
+
+      - id: while-review-005
+        prompt: "What is the purpose and behavior of the else clause in while loops?"
+        answer: >
+          The else clause in while loops:
+          - Executes only if the loop condition becomes False (normal termination)
+          - Does not execute if the loop exits via break
+          - Useful for search loops where you want to handle both found and not-found cases
+          - Provides cleaner alternative to flag variables
+        examples:
+          - "Search loop: `while items: item = items.pop()`\n`if match(item): break`\n`else: print('Not found')`"
+        resources:
+          - name: "Python while-else Documentation"
+            url: "https://docs.python.org/3/reference/compound_stmts.html#the-while-statement"
+
+      - id: while-review-006
+        prompt: "How can you implement common patterns like counters, input validation, and event loops using while?"
+        answer: >
+          Common while loop patterns:
+          1. Counters: Initialize variable, condition checks limit, increment in loop
+          2. Input validation: Loop until valid input received
+          3. Event loops: while True with break conditions
+          4. Sentinel values: Loop until special value encountered
+        examples:
+          - "Counter: `count = 0`\n`while count < 10: print(count); count += 1`"
+          - "Input: `while True: age = input('Age? ')`\n`if age.isdigit(): break`"
+          - "Event: `while not shutdown_event.is_set(): process_events()`"
+        resources:
+          - name: "Python while Loop Patterns"
+            url: "https://realpython.com/python-while-loop/#common-while-loop-patterns"
+
   - topic: loops-for
     questions:
       - id: for-review-001

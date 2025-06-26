@@ -1,6 +1,50 @@
 course: python
 topics:
 
+  - topic: loops-while
+    questions:
+      - id: while-tf-001
+        difficulty: easy
+        prompt: "A `while` loop in Python executes as long as its condition is True."
+        answer: true
+        explanation: "The `while` loop continues running its block of code while the condition remains `True`."
+
+      - id: while-tf-002
+        difficulty: easy
+        prompt: "A `while` loop always runs at least once, even if the condition is initially False."
+        answer: false
+        explanation: "If the condition is `False` at the start, the loop body is skipped entirely."
+
+      - id: while-tf-003
+        difficulty: medium
+        prompt: "The `break` statement in a `while` loop skips the current iteration and continues to the next one."
+        answer: false
+        explanation: "`break` exits the entire loop, whereas `continue` skips to the next iteration."
+
+      - id: while-tf-004
+        difficulty: medium
+        prompt: "An infinite loop occurs if the loop condition never becomes `False`."
+        answer: true
+        explanation: "If the condition remains `True` indefinitely, the loop runs forever."
+
+      - id: while-tf-005
+        difficulty: hard
+        prompt: "The `else` block in a `while` loop executes only if the loop exits due to a `break` statement."
+        answer: false
+        explanation: "The `else` block runs only if the loop completes normally (without `break`)."
+
+      - id: while-tf-006
+        difficulty: easy
+        prompt: "A `while` loop can be used to iterate over elements in a list."
+        answer: true
+        explanation: "While loops can iterate over lists using an index counter, though `for` loops are more common for this purpose."
+
+      - id: while-tf-007
+        difficulty: medium
+        prompt: "A `while` loop must always have an `else` clause."
+        answer: false
+        explanation: "The `else` clause is optional and only used when needed."
+
   - topic: loops-for
     questions:
       - id: for-tf-001

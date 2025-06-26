@@ -1,6 +1,122 @@
 course: python
 topics:
 
+  - topic: loops-while
+    questions:
+      - id: while-mcq-001
+        difficulty: easy
+        question: What is the correct syntax for a basic while loop in Python?
+        language: python
+        code: null
+        options:
+          - "while (condition) { code }"
+          - "while condition: code"
+          - "while condition { code }"
+          - "while condition then code"
+        answer: "while condition: code"
+        explanation: "Python uses the 'while condition:' syntax with indentation for blocks, not curly braces."
+
+      - id: while-mcq-002
+        difficulty: easy
+        question: What is the output of this while loop?
+        language: python
+        code: |
+          x = 3
+          while x > 0:
+              print(x)
+              x -= 1
+        options:
+          - "3 2 1"
+          - "3 2 1 0"
+          - "2 1 0"
+          - "Infinite loop"
+        answer: "3 2 1"
+        explanation: "The loop prints x then decrements it, stopping when x is no longer greater than 0."
+
+      - id: while-mcq-003
+        difficulty: medium
+        question: How can you prevent an infinite loop?
+        language: python
+        code: null
+        options:
+          - "By ensuring the loop condition eventually becomes False"
+          - "By using a for loop instead"
+          - "By adding a sleep statement"
+          - "All of the above"
+        answer: "By ensuring the loop condition eventually becomes False"
+        explanation: "The essential way to prevent infinite loops is to make sure the condition will eventually evaluate to False."
+
+      - id: while-mcq-004
+        difficulty: medium
+        question: What does the 'break' statement do in a while loop?
+        language: python
+        code: null
+        options:
+          - "Pauses the loop for 1 second"
+          - "Skips to the next iteration"
+          - "Exits the loop immediately"
+          - "Restarts the loop"
+        answer: "Exits the loop immediately"
+        explanation: "The break statement exits the entire loop structure regardless of the loop condition."
+
+      - id: while-mcq-005
+        difficulty: medium
+        question: What is the purpose of the 'else' clause in a while loop?
+        language: python
+        code: null
+        options:
+          - "It executes if the loop condition is False"
+          - "It executes if the loop completes normally (without break)"
+          - "It executes after every iteration"
+          - "Python doesn't support else with while loops"
+        answer: "It executes if the loop completes normally (without break)"
+        explanation: "The else clause executes after the loop finishes normally, but not if break was called."
+
+      - id: while-mcq-006
+        difficulty: hard
+        question: What will this code output?
+        language: python
+        code: |
+          x = 5
+          while x > 0:
+              x -= 1
+              if x == 2:
+                  continue
+              print(x, end=' ')
+        options:
+          - "4 3 2 1 0"
+          - "4 3 1 0"
+          - "5 4 3 2 1"
+          - "4 3 1 0 -1"
+        answer: "4 3 1 0"
+        explanation: "The continue skips printing when x is 2, and the loop stops when x reaches 0."
+
+      - id: while-mcq-007
+        difficulty: hard
+        question: Which scenario is best suited for a while loop rather than a for loop?
+        language: python
+        code: null
+        options:
+          - "When you know the exact number of iterations needed"
+          - "When you need to iterate until a certain condition is met"
+          - "When you need to iterate through a list"
+          - "When you need the fastest possible loop"
+        answer: "When you need to iterate until a certain condition is met"
+        explanation: "While loops are ideal when the number of iterations isn't known beforehand but depends on a condition."
+
+      - id: while-mcq-008
+        difficulty: easy
+        question: What will happen if the condition in a while loop starts as False?
+        language: python
+        code: null
+        options:
+          - "The loop will execute once"
+          - "The loop will never execute"
+          - "It will cause a syntax error"
+          - "The loop will run indefinitely"
+        answer: "The loop will never execute"
+        explanation: "If the condition is False initially, the loop body is skipped entirely."
+
   - topic: loops-for
     questions:
       - id: for-mcq-001

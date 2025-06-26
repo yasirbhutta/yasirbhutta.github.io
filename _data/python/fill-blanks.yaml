@@ -1,6 +1,50 @@
 course: python
 topics:
 
+  - topic: loops-while
+    questions:
+      - id: while-loop-001
+        difficulty: easy
+        prompt: "A `while` loop in Python continues to execute as long as the specified ______ remains True."
+        answer: "condition"
+        explanation: "The while loop repeats its block of code while the condition evaluates to True."
+
+      - id: while-loop-002
+        difficulty: easy
+        prompt: "To prevent an infinite loop, you must ensure the loop's condition eventually becomes ______."
+        answer: "False"
+        explanation: "If the condition never becomes False, the loop will run indefinitely."
+
+      - id: while-loop-003
+        difficulty: medium
+        prompt: "The ______ statement can be used to immediately exit a while loop before the condition becomes False."
+        answer: "break"
+        explanation: "The break statement provides a way to exit the loop even when the condition is still True."
+
+      - id: while-loop-004
+        difficulty: medium
+        prompt: "The ______ statement skips the rest of the current iteration and moves to the next evaluation of the condition."
+        answer: "continue"
+        explanation: "Continue jumps to the next iteration without executing the remaining code in the current iteration."
+
+      - id: while-loop-005
+        difficulty: hard
+        prompt: "A while loop can have an ______ clause that executes when the loop condition becomes False."
+        answer: "else"
+        explanation: "The else clause in a while loop runs when the condition becomes False, unless the loop was exited with break."
+
+      - id: while-loop-006
+        difficulty: easy
+        prompt: "The expression `while True:` creates a loop that will run ______ unless interrupted."
+        answer: "forever"
+        explanation: "Since the condition is always True, the loop will run indefinitely until a break statement or external interruption occurs."
+
+      - id: while-loop-007
+        difficulty: medium
+        prompt: "In a while loop, the condition is checked ______ each iteration."
+        answer: "before"
+        explanation: "The loop condition is evaluated at the start of each iteration; if False, the loop exits."
+
   - topic: loops-for
     questions:
       - id: for-loop-001
