@@ -15,8 +15,8 @@ next: null
 breadcrumb:
   - title: Home
     url: /
-  - title: Canva
-    url: /canva/
+  - title: Artistic Design and Computer Graphics
+    url: /artistic-design/
 ---
 
 

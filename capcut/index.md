@@ -15,8 +15,8 @@ next: null
 breadcrumb:
   - title: Home
     url: /
-  - title: Capcut
-    url: /capcut/
+  - title: Artistic Design and Computer Graphics
+    url: /artistic-design/
 ---
 
 ## Learn CAPCUT

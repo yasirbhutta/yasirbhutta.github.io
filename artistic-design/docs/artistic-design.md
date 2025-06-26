@@ -1,5 +1,25 @@
+---
+layout: page
+title: What is Artistic Design? Principles, Elements & Creative Techniques
+description: Explore the meaning of artistic design and its key elements like color, form, balance, and composition. Learn how these principles are used in visual and digital design to create impactful art.
+keywords: what is artistic design, elements of design, principles of design, visual design concepts, artistic techniques, color and composition, creative design guide, design fundamentals, digital art design basics
+author: Muhammad Yasir Bhutta
+course: canva
+topic: getting-started
+show_toc: false
+toc: null
+show_practice_progress: false
+show_mini_project: false
+prev: null
+next: null
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Artistic Design and Computer Graphics
+    url: /artistic-design/
+---
 
-# Introduction to Artistic Design
+## Introduction to Artistic Design
 
    * Elements and principles of design
    * Color theory and application
