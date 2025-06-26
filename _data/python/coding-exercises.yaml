@@ -153,7 +153,7 @@ topics:
           name: "Watch the Solution Now"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
-      - id: py-ce-while-011
+      - id: py-ce-while-010
         title: "Count Occurrence of a Specific Digit"
         task: |
           Write a program to count occurrences of a specific digit in a number using Python.
