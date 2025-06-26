@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python for Loops – Fill in the Blanks Exercises for Beginners"
-description: Practice Python for loops with fill-in-the-blank exercises designed for beginners. Reinforce loop structure, syntax, and logic through interactive and engaging questions.
-keywords: Python for loop fill in the blanks, Python loop exercises, beginner Python loops, Python iteration practice, for loop syntax Python, Python fill in the blank coding, Python loop structure, loop logic Python
+title: "Python While Loops: Fill in the Blanks Exercises"
+description: Improve your Python while loop skills with interactive fill-in-the-blanks exercises designed for beginners. Practice essential loop concepts and solidify your understanding.
+keywords: Python, while loops, fill in the blanks, Python exercises, beginner Python, programming practice, Python loops, coding drills, learn Python, interactive exercises
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"

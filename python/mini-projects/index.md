@@ -42,3 +42,9 @@ breadcrumb:
 ### [Student Grade Tracker](student-grade-tracker-python-mini-project.md)
 
 **📝 Overview:** A Python mini-project using lists to store student records and tuples for individual (name, grades) data, with functions to add students, calculate averages, and display rankings. Perfect for beginners to practice core data structures!.
+
+---
+
+### [Guess the Number Game](guess-number-game.md)
+
+**📝 Overview:** To create a simple "Guess the Number" game in Python using a `while` loop, demonstrating core programming concepts such as random number generation, user input, conditional statements (`if-elif-else`), and iteration.

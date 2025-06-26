@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python for Loops Quiz – Test Your Looping Skills
-description: Take this Python for loops quiz to assess your understanding of loop syntax, iteration, and logic. Great for beginners who want to practice and test their Python knowledge.
-keywords: Python for loop quiz, Python loop test, beginner Python quiz, for loop syntax Python, Python loop logic practice, Python iteration quiz, Python range loop quiz, Python for loop questions
+title: "Python While Loops: Online Quiz for Beginners"
+description: Test your Python while loop knowledge with this interactive online quiz. Practice loop syntax, iteration, and logic to assess and improve your coding skills.
+keywords: Python, while loops, online quiz, Python practice, programming quiz, coding assessment, beginner Python, learn Python, loop syntax, Python logic, interactive quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"

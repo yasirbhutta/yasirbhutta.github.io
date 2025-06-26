@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: Python for Loops MCQs – Multiple Choice Questions for Practice
-description: Test your understanding of Python for loops with multiple choice questions. These beginner-friendly MCQs cover loop syntax, iteration, range, and nested loops in Python.
-keywords: Python for loop MCQs, Python loop quiz, for loop multiple choice questions, Python loop test, beginner Python quiz, Python for loop practice, Python iteration MCQ, Python range questions
+title: "Python While Loops: MCQs for Practice"
+description: Sharpen your Python while loop skills with multiple-choice questions covering beginner, intermediate, and advanced concepts. Practice loop syntax, iteration, break, continue, and the else clause.
+keywords: Python, while loops, MCQs, multiple choice questions, Python practice, programming quizzes, Python exercises, loops, control flow, break statement, continue statement, else in loops
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"

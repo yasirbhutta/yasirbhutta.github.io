@@ -153,26 +153,6 @@ topics:
           name: "Watch the Solution Now"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
-      - id: py-ce-while-010
-        title: "Guess the Number Game"
-        task: |
-          Create a simple number guessing game with a secret number (e.g., 7) that continues until correct.
-        requirements:
-          - "Use while loop"
-          - "Set secret number"
-          - "Break on correct guess"
-        input: |
-          5
-          8
-          7
-        output: |
-          Correct!
-        difficulty: "easy"
-        hint: "Use infinite loop with break condition"
-        resource:
-          name: "Watch the Solution Now"
-          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
-
       - id: py-ce-while-011
         title: "Count Occurrence of a Specific Digit"
         task: |

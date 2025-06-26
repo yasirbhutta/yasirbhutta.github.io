@@ -25,4 +25,8 @@ breadcrumb:
 
 ## Mini Projects
 
-- [Simple Calculator - Mini Project](../../../mini-projects/simple-calculator-python-mini-project.md)
+### [Guess the Number Game](guess-number-game.md)
+
+**📝 Overview:** To create a simple "Guess the Number" game in Python using a `while` loop, demonstrating core programming concepts such as random number generation, user input, conditional statements (`if-elif-else`), and iteration.
+
+[More Projects ...](../../../mini-projects/)

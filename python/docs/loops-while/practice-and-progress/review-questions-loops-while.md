@@ -1,8 +1,8 @@
 ---
 layout: review-questions
-title: Python for Loops Review Questions – Strengthen Your Looping Concepts
-description: Review your understanding of Python for loops with structured questions. Cover essential topics like iteration, range, nested loops, and loop control in Python programming.
-keywords: Python for loop review questions, Python loop practice, Python iteration review, beginner Python loops, Python loop control questions, review Python programming, Python range review, for loop coding concepts
+title: "Python While Loops: Review Questions & Answers"
+description: Strengthen your Python while loop concepts with comprehensive review questions and answers. Cover syntax, infinite loops, break, continue, pass, else clause, and common patterns.
+keywords: Python, while loops, review questions, Python practice, programming concepts, loop syntax, infinite loops, break statement, continue statement, pass statement, else in loops, Python for beginners
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

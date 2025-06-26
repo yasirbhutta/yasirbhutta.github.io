@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Python for Loop Mini Projects – Real-World Practice for Beginners
-description: Apply your Python for loop knowledge through mini projects designed for beginners. Build practical coding skills with fun and educational loop-based project ideas.
-keywords: Python for loop mini projects, beginner Python projects, loop-based coding tasks, Python for loop practice, real-world Python exercises, Python programming projects, for loop applications, Python logic building
+title: "Python While Loop Mini Projects: Number Guessing Game | Learn with Yasir"
+description: Learn Python while loops through practical mini-projects, including a step-by-step guide to building a Number Guessing Game. Enhance your coding skills with real-world applications.
+keywords: Python, while loop, mini projects, number guessing game, Python projects, coding exercises, programming practice, learn Python, Python development, beginner projects
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"
@@ -25,4 +25,8 @@ breadcrumb:
 
 ## Mini Projects
 
-- [Simple Calculator - Mini Project](../../../mini-projects/simple-calculator-python-mini-project.md)
+### [Guess the Number Game](guess-number-game.md)
+
+**📝 Overview:** To create a simple "Guess the Number" game in Python using a `while` loop, demonstrating core programming concepts such as random number generation, user input, conditional statements (`if-elif-else`), and iteration.
+
+[More Projects ...](../../../mini-projects/)

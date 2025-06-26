@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: Python for Loops – True or False Questions for Quick Practice
-description: Test your knowledge of Python for loops with true or false questions. A fast and effective way for beginners to reinforce concepts like syntax, iteration, and loop behavior.
-keywords: Python for loop true false, Python loop quiz, for loop quick practice, beginner Python questions, Python syntax quiz, Python iteration check, Python true or false test, loop understanding Python
+title: "Python While Loops: True/False Questions for Practice"
+description: Test your Python while loop knowledge with true or false questions. Practice beginner, intermediate, and advanced concepts including conditions, iteration, and control statements like break and else.
+keywords: Python, while loops, true false questions, Python practice, programming, coding, Python exercises, loops, control flow, break statement, else in loops
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"
