@@ -5,6 +5,9 @@ description: "Sharpen your Python basics by identifying and fixing common coding
 toc: toc/python.html
 course: python
 topic: basics
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 breadcrumb:
   - title: Home
     url: /

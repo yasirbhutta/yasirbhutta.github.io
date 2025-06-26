@@ -19,10 +19,6 @@ toc: toc/python.html
 4. [Why Data Types Matter in Python](why-use-data-types.md)
 5. [Type Hints](type-hints.md)
 
-
-
-
-
 ## Key Terms
 
 ## Fix the error

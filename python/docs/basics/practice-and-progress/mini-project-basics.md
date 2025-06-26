@@ -5,6 +5,9 @@ description: Test your Python skills with this mini project! Learn to build a si
 toc: toc/python.html
 course: python
 topic: basics
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 breadcrumb:
   - title: Home
     url: /

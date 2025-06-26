@@ -9,16 +9,16 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 
 ## List of Python Online Tests
 
-1. [Python Basics Quiz](python-basics-quiz.md) - Test your fundamental knowledge of Python syntax, comments and fstring.
-2. [Python variables Quiz](python-variables-quiz.md)
-3. [Python Scalar Types Quiz](python-scalar-types-quiz.md)
-4. [Python Operators Quiz](python-operators-quiz.md)
+1. [Python Basics Quiz](../docs/basics/practice-and-progress/quiz-basics.md) - Test your fundamental knowledge of Python syntax, comments and fstring.
+2. [Python variables Quiz](../docs/variables/practice-and-progress/quiz-variables.md)
+3. [Python Scalar Types Quiz](../docs/data-types/practice-and-progress/quiz-data-types.md)
+4. [Python Operators Quiz](../docs/operators/practice-and-progress/quiz-operators.md)
 5. [Python if elif else Quiz](../docs/if-elif-else/practice-and-progress/quiz-if-elif-else.md)
 6. [Python for loop Quiz](../docs/loops-for/practice-and-progress/quiz-loops-for.md) - Test your knowledge of python about for loop and range() function
 7. [Python while loop Quiz](../docs/loops-while/practice-and-progress/quiz-loops-while.md)
-8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](python-break-continue-else-loop-quiz.md)
+8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](../docs/loop-control-statements/practice-and-progress/quiz-loop-control-statements.md)
 9.  [Python Match Case Quiz](#)
-10. [Python Functions Quiz](python-functions-quiz.md)
+10. [Python Functions Quiz](../docs/functions/practice-and-progress/quiz-functions.md)
 11. [Python String Quiz](../docs/strings/practice-and-progress/quiz-strings.md)
 12. [Python List Quiz](../docs/lists/practice-and-progress/quiz-lists.md)
 13. [Python Generator Quiz](python-generators-quiz.md)  

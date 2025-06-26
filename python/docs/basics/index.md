@@ -6,6 +6,9 @@ keywords: Python basics, Python tutorials for beginners, Python examples, Python
 toc: toc/python.html
 course: python
 topic: basics
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
 breadcrumb:
   - title: Home
     url: /
