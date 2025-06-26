@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python if‑elif‑else True or False Questions – Practice for Beginners"
-description: Test your understanding of Python if‑elif‑else conditional statements with beginner-friendly true or false questions. Practice decision-making logic with simple and clear examples.
-keywords: Python if elif else quiz, Python conditional statements practice, Python true false questions, Python if statement test, beginner Python logic questions, Python elif examples, Python decision making practice
+title: Python for Loops – True or False Questions for Quick Practice
+description: Test your knowledge of Python for loops with true or false questions. A fast and effective way for beginners to reinforce concepts like syntax, iteration, and loop behavior.
+keywords: Python for loop true false, Python loop quiz, for loop quick practice, beginner Python questions, Python syntax quiz, Python iteration check, Python true or false test, loop understanding Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-for"

@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: Python if‑elif‑else MCQs – Multiple Choice Questions for Practice
-description: Test your Python skills with multiple choice questions on if‑elif‑else statements. Practice conditional logic, syntax, and flow control with beginner-level Python MCQs.
-keywords: Python if elif else MCQs, Python conditionals quiz, Python multiple choice questions, Python control flow MCQs, if else in Python practice, beginner Python quiz, Python decision making questions, Python logic MCQs
+title: Python for Loops MCQs – Multiple Choice Questions for Practice
+description: Test your understanding of Python for loops with multiple choice questions. These beginner-friendly MCQs cover loop syntax, iteration, range, and nested loops in Python.
+keywords: Python for loop MCQs, Python loop quiz, for loop multiple choice questions, Python loop test, beginner Python quiz, Python for loop practice, Python iteration MCQ, Python range questions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-for"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python if‑elif‑else Mini Projects – Beginner Practice Projects"
-description: Explore beginner-friendly mini projects using Python if‑elif‑else statements. Apply conditional logic to real-world scenarios with hands-on coding challenges and practical examples.
-keywords: Python if elif else mini projects, beginner Python projects, Python conditionals practice, if else coding projects, real-world Python logic examples, Python decision making projects, hands-on Python exercises
+title: Python for Loop Mini Projects – Real-World Practice for Beginners
+description: Apply your Python for loop knowledge through mini projects designed for beginners. Build practical coding skills with fun and educational loop-based project ideas.
+keywords: Python for loop mini projects, beginner Python projects, loop-based coding tasks, Python for loop practice, real-world Python exercises, Python programming projects, for loop applications, Python logic building
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-for"

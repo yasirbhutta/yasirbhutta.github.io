@@ -1,8 +1,8 @@
 ---
 layout: review-questions
-title: Python if‑elif‑else Review Questions – Test Your Understanding
-description: Review your knowledge of Python if‑elif‑else conditional statements with structured questions. Great for beginners preparing for exams, quizzes, or coding interviews.
-keywords: Python if elif else review questions, Python conditional statements practice, Python if else Q&A, Python logic review, beginner Python conditionals test, Python control flow questions, Python if elif else examples
+title: Python for Loops Review Questions – Strengthen Your Looping Concepts
+description: Review your understanding of Python for loops with structured questions. Cover essential topics like iteration, range, nested loops, and loop control in Python programming.
+keywords: Python for loop review questions, Python loop practice, Python iteration review, beginner Python loops, Python loop control questions, review Python programming, Python range review, for loop coding concepts
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

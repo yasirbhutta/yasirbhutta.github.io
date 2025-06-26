@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Python loops-for Exercises – Practice Conditional Logic
-description: Practice Python loops-for statements with beginner-friendly exercises. Strengthen your understanding of conditional logic, syntax, and control flow with hands-on coding problems.
-keywords: Python if elif else exercises, Python conditional logic practice, if else statements Python, beginner Python exercises, Python control flow practice, Python decision making problems, Python conditionals coding tasks
+title: Python for Loop Exercises – Practice Iteration with Coding Tasks
+description: Sharpen your Python skills with beginner-friendly for loop exercises. Practice iteration, range, nested loops, and real coding tasks to master Python loops step-by-step.
+keywords: Python for loop exercises, for loop practice Python, Python iteration tasks, beginner Python loops, Python range examples, coding exercises Python, loop logic Python, Python loop challenges
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-for"

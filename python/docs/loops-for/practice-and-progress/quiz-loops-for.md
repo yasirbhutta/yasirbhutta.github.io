@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python if‑elif‑else Quiz – Test Your Conditional Logic Skills"
-description: Take this interactive Python quiz to test your understanding of if‑elif‑else statements. Practice decision-making, syntax, and control flow with multiple choice questions for beginners.
-keywords: Python if elif else quiz, Python conditional statements quiz, Python control flow quiz, Python if else MCQs, Python beginner quiz, test Python logic, Python decision making questions, Python programming quiz
+title: Python for Loops Quiz – Test Your Looping Skills
+description: Take this Python for loops quiz to assess your understanding of loop syntax, iteration, and logic. Great for beginners who want to practice and test their Python knowledge.
+keywords: Python for loop quiz, Python loop test, beginner Python quiz, for loop syntax Python, Python loop logic practice, Python iteration quiz, Python range loop quiz, Python for loop questions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-for"
