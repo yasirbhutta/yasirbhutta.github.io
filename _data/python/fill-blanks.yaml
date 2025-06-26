@@ -1,6 +1,50 @@
 course: python
 topics:
 
+  - topic: loops-for
+    questions:
+      - id: for-loop-001
+        difficulty: easy
+        prompt: "The `for` loop in Python is used to ______ over a sequence (like a list, tuple, or string)."
+        answer: "iterate"
+        explanation: "For loops are used to execute a block of code repeatedly for each item in a sequence."
+
+      - id: for-loop-002
+        difficulty: easy
+        prompt: "The basic syntax of a `for` loop is: `for ___ in sequence:`"
+        answer: "item"
+        explanation: "The loop variable (often named 'item') takes the value of each element in the sequence during each iteration."
+
+      - id: for-loop-003
+        difficulty: medium
+        prompt: "To execute code when a `for` loop completes normally (without a `break`), you can use the ______ clause."
+        answer: "else"
+        explanation: "The `else` clause in a for loop executes only if the loop completes all iterations without encountering a break statement."
+
+      - id: for-loop-004
+        difficulty: medium
+        prompt: "The ______ function is often used with `for` loops to generate a sequence of numbers."
+        answer: "range"
+        explanation: "range() generates a sequence of numbers, commonly used for looping a specific number of times."
+
+      - id: for-loop-005
+        difficulty: hard
+        prompt: "A ______ loop is a loop inside another loop, often used with nested data structures."
+        answer: "nested"
+        explanation: "Nested loops are useful when you need to iterate through multi-dimensional data structures like lists of lists."
+
+      - id: for-loop-006
+        difficulty: easy
+        prompt: "To exit a `for` loop prematurely, you can use the ______ statement."
+        answer: "break"
+        explanation: "The break statement immediately terminates the loop and continues with the code after the loop."
+
+      - id: for-loop-007
+        difficulty: medium
+        prompt: "To skip the current iteration and move to the next one in a `for` loop, you use the ______ statement."
+        answer: "continue"
+        explanation: "The continue statement skips the rest of the current iteration and moves to the next item in the sequence."
+
   - topic: tuples
     questions:
       - id: tuple-fib-001

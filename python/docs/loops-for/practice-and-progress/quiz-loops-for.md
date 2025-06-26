@@ -5,10 +5,10 @@ description: Take this interactive Python quiz to test your understanding of ifâ
 keywords: Python if elif else quiz, Python conditional statements quiz, Python control flow quiz, Python if else MCQs, Python beginner quiz, test Python logic, Python decision making questions, Python programming quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "if-elif-else"
+topic: "loops-for"
 course: "python"
-prev: "/python/docs/if-elif-else/practice-and-progress/exercises-if-elif-else.html"
-next: "/python/docs/if-elif-else/practice-and-progress/review-questions-if-elif-else.html"
+prev: "/python/docs/loops-for/practice-and-progress/exercises-loops-for.html"
+next: "/python/docs/loops-for/practice-and-progress/review-questions-loops-for.html"
 breadcrumb:
   - title: Home
     url: /
@@ -16,8 +16,8 @@ breadcrumb:
     url: /python/
   - title: Control Flow
     url: /python/docs/control-flow/
-  - title: if-elif-else
-    url: /python/docs/if-elif-else/
+  - title: loops-for
+    url: /python/docs/loops-for/
 ---
 
 To learn more about using the `for loop` statement in Python, please visit **[Control Flow Statements: For loop](../index.md)

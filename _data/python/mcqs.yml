@@ -1,6 +1,159 @@
 course: python
 topics:
 
+  - topic: loops-for
+    questions:
+      - id: for-mcq-001
+        difficulty: easy
+        question: What is the correct syntax for a basic for loop in Python?
+        language: python
+        code: null
+        options:
+          - "for i in range(10) { print(i) }"
+          - "for (i = 0; i < 10; i++) { print(i) }"
+          - "for i in range(10): print(i)"
+          - "loop i from 0 to 9: print(i)"
+        answer: "for i in range(10): print(i)"
+        explanation: "Python uses the 'for item in iterable:' syntax with indentation for blocks."
+
+      - id: for-mcq-002
+        difficulty: easy
+        question: What does the range(5) function generate?
+        language: python
+        code: null
+        options:
+          - "[0, 1, 2, 3, 4, 5]"
+          - "[1, 2, 3, 4, 5]"
+          - "[0, 1, 2, 3, 4]"
+          - "[5, 4, 3, 2, 1, 0]"
+        answer: "[0, 1, 2, 3, 4]"
+        explanation: "range(n) generates numbers from 0 to n-1."
+
+      - id: for-mcq-003
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          for i in range(3):
+              print(i)
+          else:
+              print("Done")
+        options:
+          - "0\n1\n2"
+          - "0\n1\n2\nDone"
+          - "Done"
+          - "3\nDone"
+        answer: "0\n1\n2\nDone"
+        explanation: "The else clause executes after the loop completes normally."
+
+      - id: for-mcq-004
+        difficulty: medium
+        question: How many times will 'Hello' be printed?
+        language: python
+        code: |
+          for i in range(2, 8, 2):
+              print("Hello")
+        options:
+          - "2"
+          - "3"
+          - "4"
+          - "6"
+        answer: "3"
+        explanation: "range(2, 8, 2) generates 2, 4, 6 - so 3 iterations."
+
+      - id: for-mcq-005
+        difficulty: hard
+        question: What is the output of this nested loop?
+        language: python
+        code: |
+          result = []
+          for i in range(2):
+              for j in range(2):
+                  result.append((i, j))
+          print(result)
+        options:
+          - "[(0, 0), (0, 1)]"
+          - "[(0, 0), (1, 0)]"
+          - "[(0, 0), (0, 1), (1, 0), (1, 1)]"
+          - "[(0, 1), (1, 0)]"
+        answer: "[(0, 0), (0, 1), (1, 0), (1, 1)]"
+        explanation: "The nested loop generates all combinations of i and j."
+
+      - id: for-mcq-006
+        difficulty: medium
+        question: Which statement immediately exits a for loop?
+        language: python
+        code: null
+        options:
+          - "stop"
+          - "exit"
+          - "break"
+          - "return"
+        answer: "break"
+        explanation: "The break statement exits the nearest enclosing loop."
+
+      - id: for-mcq-007
+        difficulty: medium
+        question: What does this loop print?
+        language: python
+        code: |
+          for char in "Python":
+              if char == 'h':
+                  break
+              print(char, end='')
+        options:
+          - "Python"
+          - "Pyt"
+          - "Pyth"
+          - "Pytho"
+        answer: "Pyt"
+        explanation: "The loop breaks when it encounters 'h'."
+
+      - id: for-mcq-008
+        difficulty: hard
+        question: What is the value of x after this loop?
+        language: python
+        code: |
+          x = 0
+          for i in range(5):
+              if i % 2 == 0:
+                  continue
+              x += i
+        options:
+          - "0"
+          - "4"
+          - "6"
+          - "10"
+        answer: "4"
+        explanation: "Only odd numbers (1 and 3) are added to x (1+3=4)."
+
+      - id: for-mcq-009
+        difficulty: easy
+        question: Which of these is NOT a valid iterable for a for loop?
+        language: python
+        code: null
+        options:
+          - "[1, 2, 3]"
+          - "(1, 2, 3)"
+          - "123"
+          - "range(3)"
+        answer: "123"
+        explanation: "Integers are not iterable in Python."
+
+      - id: for-mcq-010
+        difficulty: hard
+        question: What does this list comprehension equivalent to?
+        language: python
+        code: |
+          result = [x**2 for x in range(5)]
+        options:
+          - "[0, 1, 2, 3, 4]"
+          - "[1, 4, 9, 16, 25]"
+          - "[0, 1, 4, 9, 16]"
+          - "[0, 1, 8, 27, 64]"
+        answer: "[0, 1, 4, 9, 16]"
+        explanation: "It squares each number from 0 to 4."
+
   - topic: tuples
     questions:
       - id: tuple-mcq-001

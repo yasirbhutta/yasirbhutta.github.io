@@ -1,6 +1,99 @@
 course: python
 topics:
 
+  - topic: loops-for
+    questions:
+      - id: for-review-001
+        prompt: "What are the basic components and syntax of a Python for loop?"
+        answer: >
+          A Python for loop iterates over items in any sequence (list, tuple, string, etc.) or other iterable object.
+          The basic syntax is: `for item in iterable:` followed by an indented block of code.
+          The loop variable (item) takes each value from the iterable in sequence.
+        examples:
+          - "Basic loop: `for fruit in ['apple', 'banana', 'cherry']: print(fruit)`"
+          - "With range: `for i in range(5): print(i)`"
+        resources:
+          - name: "Python for Loops Documentation"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#for-statements"
+
+      - id: for-review-002
+        prompt: "How does the range() function work with for loops?"
+        answer: >
+          The range() function generates a sequence of numbers, commonly used for looping a specific number of times.
+          It can take 1-3 arguments: start (inclusive), stop (exclusive), and step size.
+          range() is memory efficient as it generates numbers on demand rather than storing them all.
+        examples:
+          - "range(5) → 0, 1, 2, 3, 4"
+          - "range(2, 6) → 2, 3, 4, 5"
+          - "range(0, 10, 2) → 0, 2, 4, 6, 8"
+        resources:
+          - name: "Python range() Documentation"
+            url: "https://docs.python.org/3/library/stdtypes.html#range"
+
+      - id: for-review-003
+        prompt: "What are the loop control statements (break, continue, else) and how do they work?"
+        answer: >
+          break: Immediately exits the entire loop
+          continue: Skips the current iteration and moves to the next
+          else: Executes after the loop completes normally (only if no break occurred)
+          These statements help customize loop behavior and handle special cases.
+        examples:
+          - "break: `for num in nums: if num == 0: break`"
+          - "continue: `for num in nums: if num%2==0: continue`"
+          - "else: `for n in range(2,10): ... else: print('All primes checked')`"
+        resources:
+          - name: "Loop Control Statements"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
+
+      - id: for-review-004
+        prompt: "What are some common iterables used with for loops?"
+        answer: >
+          Common iterables include:
+          - Sequences: lists, tuples, strings
+          - Dictionaries (iterates over keys by default)
+          - Sets
+          - File objects (iterates lines)
+          - Generator expressions
+          - range() objects
+          Any object implementing the iterator protocol can be used.
+        examples:
+          - "String: `for char in 'hello': ...`"
+          - "Dictionary: `for key in my_dict:` or `for key, value in my_dict.items():`"
+          - "File: `for line in open('file.txt'): ...`"
+        resources:
+          - name: "Python Iterators"
+            url: "https://docs.python.org/3/glossary.html#term-iterator"
+
+      - id: for-review-005
+        prompt: "What are nested loops and what are their common use cases?"
+        answer: >
+          Nested loops are loops within loops, where each iteration of the outer loop triggers a complete run of the inner loop.
+          Common uses include:
+          - Processing multi-dimensional data (matrices, tables)
+          - Generating combinations/permutations
+          - Comparing all elements between collections
+          - Implementing algorithms like bubble sort
+        examples:
+          - "Matrix processing: `for row in matrix: for cell in row: ...`"
+          - "Combinations: `for x in range(3): for y in range(3): print(x,y)`"
+        resources:
+          - name: "Nested Loops Tutorial"
+            url: "https://realpython.com/python-for-loop/#nested-for-loops"
+
+      - id: for-review-006
+        prompt: "What are list comprehensions and how do they relate to for loops?"
+        answer: >
+          List comprehensions provide a concise way to create lists by applying an expression to each item in an iterable.
+          They are essentially a compact syntax for transforming one list into another using a for loop.
+          They can include conditional logic and multiple for clauses (nested loops).
+        examples:
+          - "Basic: `squares = [x**2 for x in range(10)]`"
+          - "With condition: `evens = [x for x in nums if x%2==0]`"
+          - "Nested: `pairs = [(x,y) for x in range(3) for y in range(3)]`"
+        resources:
+          - name: "List Comprehensions"
+            url: "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+
   - topic: tuples
     questions:
       - id: tuple-review-001

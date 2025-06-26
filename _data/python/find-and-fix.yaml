@@ -1,6 +1,115 @@
 course: python
 topics:
 
+  - topic: loops-for
+    questions:
+      - id: for-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the syntax error in this for loop.
+        code: |
+          fruits = ['apple', 'banana', 'cherry']
+          for fruit in fruits
+              print(fruit)
+        hint: "Check the punctuation at the end of the for statement."
+        issue: "Missing colon at the end of the for statement."
+        solution: |
+          fruits = ['apple', 'banana', 'cherry']
+          for fruit in fruits:
+              print(fruit)
+
+      - id: for-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the infinite loop in this code.
+        code: |
+          numbers = [1, 2, 3]
+          for i in range(len(numbers)):
+              print(numbers[i])
+              i += 2
+        hint: "The loop variable in a for loop is automatically updated."
+        issue: "Manually modifying the loop variable (i) doesn't affect the iteration."
+        solution: |
+          numbers = [1, 2, 3]
+          for i in range(len(numbers)):
+              print(numbers[i])
+
+      - id: for-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the logic error in this loop that skips elements.
+        code: |
+          numbers = [10, 20, 30, 40, 50]
+          for i in range(len(numbers)):
+              if i % 2 == 0:
+                  continue
+              print(numbers[i])
+        hint: "The code is printing elements at odd indices, not even ones."
+        issue: "Condition is reversed - prints odd-indexed elements when it should print even-indexed."
+        solution: |
+          numbers = [10, 20, 30, 40, 50]
+          for i in range(len(numbers)):
+              if i % 2 != 0:
+                  continue
+              print(numbers[i])
+
+      - id: for-fix-004
+        difficulty: medium
+        prompt: |
+          Fix the NameError in this nested loop.
+        code: |
+          matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+          for row in matrix:
+              for element in row:
+                  total += element
+          print(total)
+        hint: "Variables need to be initialized before use."
+        issue: "total variable is used but never initialized."
+        solution: |
+          matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+          total = 0
+          for row in matrix:
+              for element in row:
+                  total += element
+          print(total)
+
+      - id: for-fix-005
+        difficulty: hard
+        prompt: |
+          Fix the unintended behavior in this loop that modifies a list while iterating.
+        code: |
+          numbers = [1, 2, 3, 4, 5]
+          for num in numbers:
+              if num % 2 == 0:
+                  numbers.remove(num)
+          print(numbers)
+        hint: "Modifying a list while iterating over it can cause unexpected behavior."
+        issue: "Modifying a list during iteration can skip elements."
+        solution: |
+          numbers = [1, 2, 3, 4, 5]
+          numbers_copy = numbers.copy()
+          for num in numbers_copy:
+              if num % 2 == 0:
+                  numbers.remove(num)
+          print(numbers)
+          # Better alternative:
+          # numbers = [num for num in numbers if num % 2 != 0]
+          # print(numbers)
+
+      - id: for-fix-006
+        difficulty: medium
+        prompt: |
+          Fix the off-by-one error in this range-based loop.
+        code: |
+          for i in range(1, 10, 2):
+              print(i)
+          # Expected to print numbers 1 through 10
+        hint: "Check the stop parameter of the range function."
+        issue: "range(1, 10, 2) stops at 9, not 10."
+        solution: |
+          for i in range(1, 11, 2):
+              print(i)
+
   - topic: tuples
     questions:
       - id: tuple-fix-001

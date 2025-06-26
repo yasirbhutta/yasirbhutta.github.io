@@ -5,10 +5,10 @@ description: Practice Python loops-for statements with beginner-friendly exercis
 keywords: Python if elif else exercises, Python conditional logic practice, if else statements Python, beginner Python exercises, Python control flow practice, Python decision making problems, Python conditionals coding tasks
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "if-elif-else"
+topic: "loops-for"
 course: "python"
-prev: "/python/docs/if-elif-else/practice-and-progress/find-fix-mistakes-if-elif-else.html"
-next: "/python/docs/if-elif-else/practice-and-progress/mini-projects-if-elif-else.html"
+prev: "/python/docs/loops-for/practice-and-progress/find-fix-mistakes-loops-for.html"
+next: "/python/docs/loops-for/practice-and-progress/mini-projects-loops-for.html"
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
@@ -19,6 +19,6 @@ breadcrumb:
     url: /python/
   - title: Control Flow
     url: /python/docs/control-flow/
-  - title: if-elif-else
-    url: /python/docs/if-elif-else/
+  - title: For Loop
+    url: /python/docs/loops-for/
 ---

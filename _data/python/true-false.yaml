@@ -1,6 +1,91 @@
 course: python
 topics:
 
+  - topic: loops-for
+    questions:
+      - id: for-tf-001
+        difficulty: easy
+        prompt: "A for loop in Python requires parentheses around its condition."
+        answer: false
+        explanation: >
+          Python for loops use the syntax `for item in iterable:` without parentheses.
+          Parentheses are used in some other languages but not in Python's for loops.
+
+      - id: for-tf-002
+        difficulty: easy
+        prompt: "The range() function includes both the start and stop values in its sequence."
+        answer: false
+        explanation: >
+          range(start, stop) generates numbers from start (inclusive) to stop (exclusive).
+          For example, range(1, 5) produces 1, 2, 3, 4.
+
+      - id: for-tf-003
+        difficulty: medium
+        prompt: "The else clause in a for loop executes only if the loop completes without encountering a break statement."
+        answer: true
+        explanation: >
+          The else clause in Python's for loops is unique and executes only when
+          the loop exhausts the iterable (for loop) or the condition becomes false (while loop)
+          without hitting a break statement.
+
+      - id: for-tf-004
+        difficulty: easy
+        prompt: "You can modify the list you're iterating over within a for loop without consequences."
+        answer: false
+        explanation: >
+          Modifying a list while iterating over it can lead to unexpected behavior,
+          including skipped elements or infinite loops. It's generally safer to
+          iterate over a copy of the list if modifications are needed.
+
+      - id: for-tf-005
+        difficulty: medium
+        prompt: "The continue statement skips the current iteration and moves to the next item in the sequence."
+        answer: true
+        explanation: >
+          The continue statement immediately jumps to the next iteration of the loop,
+          skipping any remaining code in the current iteration.
+
+      - id: for-tf-006
+        difficulty: hard
+        prompt: "A for loop in Python can only iterate over numerical ranges created by the range() function."
+        answer: false
+        explanation: >
+          Python for loops can iterate over any iterable, including lists, tuples,
+          strings, dictionaries, sets, and custom iterable objects - not just numerical ranges.
+
+      - id: for-tf-007
+        difficulty: medium
+        prompt: "In a nested for loop, a break statement in the inner loop will exit both the inner and outer loops."
+        answer: false
+        explanation: >
+          A break statement only exits the innermost loop it's contained in.
+          To exit multiple loops, you would need additional logic or flags.
+
+      - id: for-tf-008
+        difficulty: easy
+        prompt: "The loop variable in a for loop maintains its value after the loop completes."
+        answer: true
+        explanation: >
+          The loop variable remains in scope after the loop finishes and retains
+          its last assigned value from the loop.
+
+      - id: for-tf-009
+        difficulty: medium
+        prompt: "You can use a for loop to iterate over the key-value pairs of a dictionary using the items() method."
+        answer: true
+        explanation: >
+          dict.items() returns an iterable view of (key, value) pairs, allowing
+          you to iterate over both simultaneously: `for k, v in my_dict.items():`
+
+      - id: for-tf-010
+        difficulty: hard
+        prompt: "List comprehensions are just syntactic sugar for equivalent for loops."
+        answer: true
+        explanation: >
+          List comprehensions are indeed a more concise way to write certain for loops
+          that build lists, and they compile to similar bytecode as the equivalent
+          explicit for loop implementation.
+
   - topic: tuples
     questions:
       - id: tuple-tf-001
