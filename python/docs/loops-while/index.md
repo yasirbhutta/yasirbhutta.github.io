@@ -23,7 +23,7 @@ breadcrumb:
 
 1. [What is while loop?](#1-what-is-while-loop)
 2. [Examples](#2-examples)
-3. [Python Loops Performance Comparison: For vs. While | Which is Faster?](#3-python-loops-performance-comparison-for-vs-while--which-is-faster)
+3. [Python Loops Performance Comparison: For vs. While \| Which is Faster?](#3-python-loops-performance-comparison-for-vs-while--which-is-faster)
 4. [Tasks](#4-tasks)
 
 ## 1. What is while loop?
