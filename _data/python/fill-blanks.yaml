@@ -1,6 +1,35 @@
 course: python
 topics:
 
+  - topic: loop-control-statements
+    questions:
+
+      - id: while-loop-003
+        difficulty: medium
+        prompt: "The ______ statement can be used to immediately exit a while loop before the condition becomes False."
+        answer: "break"
+        explanation: "The break statement provides a way to exit the loop even when the condition is still True."
+
+
+      - id: while-loop-004
+        difficulty: medium
+        prompt: "The ______ statement skips the rest of the current iteration and moves to the next evaluation of the condition."
+        answer: "continue"
+        explanation: "Continue jumps to the next iteration without executing the remaining code in the current iteration."
+
+
+      - id: for-loop-006
+        difficulty: easy
+        prompt: "To exit a `for` loop prematurely, you can use the ______ statement."
+        answer: "break"
+        explanation: "The break statement immediately terminates the loop and continues with the code after the loop."
+
+      - id: for-loop-007
+        difficulty: medium
+        prompt: "To skip the current iteration and move to the next one in a `for` loop, you use the ______ statement."
+        answer: "continue"
+        explanation: "The continue statement skips the rest of the current iteration and moves to the next item in the sequence."
+
   - topic: loops-while
     questions:
       - id: while-loop-001
@@ -14,18 +43,6 @@ topics:
         prompt: "To prevent an infinite loop, you must ensure the loop's condition eventually becomes ______."
         answer: "False"
         explanation: "If the condition never becomes False, the loop will run indefinitely."
-
-      - id: while-loop-003
-        difficulty: medium
-        prompt: "The ______ statement can be used to immediately exit a while loop before the condition becomes False."
-        answer: "break"
-        explanation: "The break statement provides a way to exit the loop even when the condition is still True."
-
-      - id: while-loop-004
-        difficulty: medium
-        prompt: "The ______ statement skips the rest of the current iteration and moves to the next evaluation of the condition."
-        answer: "continue"
-        explanation: "Continue jumps to the next iteration without executing the remaining code in the current iteration."
 
       - id: while-loop-005
         difficulty: hard
@@ -77,17 +94,6 @@ topics:
         answer: "nested"
         explanation: "Nested loops are useful when you need to iterate through multi-dimensional data structures like lists of lists."
 
-      - id: for-loop-006
-        difficulty: easy
-        prompt: "To exit a `for` loop prematurely, you can use the ______ statement."
-        answer: "break"
-        explanation: "The break statement immediately terminates the loop and continues with the code after the loop."
-
-      - id: for-loop-007
-        difficulty: medium
-        prompt: "To skip the current iteration and move to the next one in a `for` loop, you use the ______ statement."
-        answer: "continue"
-        explanation: "The continue statement skips the rest of the current iteration and moves to the next item in the sequence."
 
   - topic: tuples
     questions:

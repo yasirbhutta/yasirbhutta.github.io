@@ -44,7 +44,7 @@ breadcrumb:
 - **Day 8**: [if, elif, else](../docs/if-elif-else/if-elif-else.md)
 - **Day 9**: [Nested Conditions](../docs/if-elif-else/nested-conditions.md), [Truthy/Falsy](../docs/if-elif-else/truthy-falsy-values.md)
 - **Day 10**: [for](../docs/loops-for/) and [while](../docs/loops-while/) Loops
-- **Day 11**: [break, continue, pass](../docs/loop-control-statements/)
+- **Day 11**: [break, continue, pass](../docs/loop-control-statements/), [The else Clauses on Loops](../docs/else-clauses-on-loops/)
 - **Day 12**: [Sets](../docs/sets/) and [Dictionaries](../docs/dictionaries/)
 - **Day 13**: [List Comprehension](../docs/list-comprehension/)
 - **Day 14**: [Practice Exercises](../exercises/) + [Quizzes](../quizzes/)

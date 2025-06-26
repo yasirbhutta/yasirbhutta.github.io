@@ -1,8 +1,26 @@
 course: python
 topics:
 
+  - topic: loop-control-statements
+    questions:
+
+      - id: while-tf-003
+        difficulty: medium
+        prompt: "The `break` statement in a `while` loop skips the current iteration and continues to the next one."
+        answer: false
+        explanation: "`break` exits the entire loop, whereas `continue` skips to the next iteration."
+
+      - id: for-tf-005
+        difficulty: medium
+        prompt: "The continue statement skips the current iteration and moves to the next item in the sequence."
+        answer: true
+        explanation: >
+          The continue statement immediately jumps to the next iteration of the loop,
+          skipping any remaining code in the current iteration.
+
   - topic: loops-while
     questions:
+
       - id: while-tf-001
         difficulty: easy
         prompt: "A `while` loop in Python executes as long as its condition is True."
@@ -14,12 +32,6 @@ topics:
         prompt: "A `while` loop always runs at least once, even if the condition is initially False."
         answer: false
         explanation: "If the condition is `False` at the start, the loop body is skipped entirely."
-
-      - id: while-tf-003
-        difficulty: medium
-        prompt: "The `break` statement in a `while` loop skips the current iteration and continues to the next one."
-        answer: false
-        explanation: "`break` exits the entire loop, whereas `continue` skips to the next iteration."
 
       - id: while-tf-004
         difficulty: medium
@@ -80,14 +92,6 @@ topics:
           Modifying a list while iterating over it can lead to unexpected behavior,
           including skipped elements or infinite loops. It's generally safer to
           iterate over a copy of the list if modifications are needed.
-
-      - id: for-tf-005
-        difficulty: medium
-        prompt: "The continue statement skips the current iteration and moves to the next item in the sequence."
-        answer: true
-        explanation: >
-          The continue statement immediately jumps to the next iteration of the loop,
-          skipping any remaining code in the current iteration.
 
       - id: for-tf-006
         difficulty: hard

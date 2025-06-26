@@ -1,6 +1,50 @@
 course: python
 topics:
 
+
+  - topic: loop-control-statements
+    questions:
+
+
+      - id: while-fix-006
+        difficulty: medium
+        prompt: |
+          Fix the loop that should exit when the user enters 'quit'.
+        code: |
+          while True:
+              user_input = input("Enter something (or 'quit' to exit): ")
+              if user_input = 'quit':
+                  break
+        hint: "Check the comparison operator in the if statement."
+        issue: "Using assignment operator (=) instead of equality operator (==)."
+        solution: |
+          while True:
+              user_input = input("Enter something (or 'quit' to exit): ")
+              if user_input == 'quit':
+                  break
+
+      - id: for-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the logic error in this loop that skips elements.
+        code: |
+          numbers = [10, 20, 30, 40, 50]
+          for i in range(len(numbers)):
+              if i % 2 == 0:
+                  continue
+              print(numbers[i])
+        hint: "The code is printing elements at odd indices, not even ones."
+        issue: "Condition is reversed - prints odd-indexed elements when it should print even-indexed."
+        solution: |
+          numbers = [10, 20, 30, 40, 50]
+          for i in range(len(numbers)):
+              if i % 2 != 0:
+                  continue
+              print(numbers[i])
+
+
+
+
   - topic: loops-while
     questions:
       - id: while-fix-001
@@ -95,23 +139,6 @@ topics:
               print(counter)
               counter += 1
 
-      - id: while-fix-006
-        difficulty: medium
-        prompt: |
-          Fix the loop that should exit when the user enters 'quit'.
-        code: |
-          while True:
-              user_input = input("Enter something (or 'quit' to exit): ")
-              if user_input = 'quit':
-                  break
-        hint: "Check the comparison operator in the if statement."
-        issue: "Using assignment operator (=) instead of equality operator (==)."
-        solution: |
-          while True:
-              user_input = input("Enter something (or 'quit' to exit): ")
-              if user_input == 'quit':
-                  break
-
   - topic: loops-for
     questions:
       - id: for-fix-001
@@ -143,25 +170,6 @@ topics:
         solution: |
           numbers = [1, 2, 3]
           for i in range(len(numbers)):
-              print(numbers[i])
-
-      - id: for-fix-003
-        difficulty: medium
-        prompt: |
-          Fix the logic error in this loop that skips elements.
-        code: |
-          numbers = [10, 20, 30, 40, 50]
-          for i in range(len(numbers)):
-              if i % 2 == 0:
-                  continue
-              print(numbers[i])
-        hint: "The code is printing elements at odd indices, not even ones."
-        issue: "Condition is reversed - prints odd-indexed elements when it should print even-indexed."
-        solution: |
-          numbers = [10, 20, 30, 40, 50]
-          for i in range(len(numbers)):
-              if i % 2 != 0:
-                  continue
               print(numbers[i])
 
       - id: for-fix-004

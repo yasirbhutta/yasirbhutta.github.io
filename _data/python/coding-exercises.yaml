@@ -1,6 +1,30 @@
 course: python
 topics:
 
+  - topic: loop-control-statements
+    questions:
+
+
+      - id: py-ce-while-008
+        title: "Infinite Loop with Break"
+        task: |
+          Create a loop that runs infinitely until the user types "stop".
+        requirements:
+          - "Use while True"
+          - "Break on 'stop' input"
+          - "Case insensitive check"
+        input: |
+          hello
+          world
+          STOP
+        output: "(program exits)"
+        difficulty: "medium"
+        hint: "Use lower() or upper() for case insensitivity"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+
   - topic: loops-while
     exercises:
       - id: py-ce-while-001
@@ -114,25 +138,6 @@ topics:
         output: "2 4 6 8 10 12 14 16 18 20"
         difficulty: "easy"
         hint: "Check remainder when divided by 2"
-        resource:
-          name: "Watch the Solution Now"
-          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
-
-      - id: py-ce-while-008
-        title: "Infinite Loop with Break"
-        task: |
-          Create a loop that runs infinitely until the user types "stop".
-        requirements:
-          - "Use while True"
-          - "Break on 'stop' input"
-          - "Case insensitive check"
-        input: |
-          hello
-          world
-          STOP
-        output: "(program exits)"
-        difficulty: "medium"
-        hint: "Use lower() or upper() for case insensitivity"
         resource:
           name: "Watch the Solution Now"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
