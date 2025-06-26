@@ -241,4 +241,10 @@ Enter another number (negative number to stop): -1
 The sum of all numbers is: 35
 ```
 
+## 📘 **Related Topics**
+
+* **Loop Control Statements (break, continue, pass)** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
+  👉 [Learn more](#)
+* **The else Clauses on Loops)** – Learn how to convert fractions into decimals and percentages, and apply them in everyday situations.
+  👉 [Learn more](#)
 
