@@ -1,6 +1,364 @@
 course: python
 topics:
 
+  - topic: loops-for
+    exercises:
+      - id: py-ce-loop-001
+        title: "Print 'Python' 5 times"
+        task: |
+          Write a `for` loop to print the word "Python" five times.
+        requirements:
+          - "Use a for loop"
+          - "Print exactly 5 times"
+        input: ""
+        output: |
+          Python
+          Python
+          Python
+          Python
+          Python
+        difficulty: "easy"
+        hint: "Use range(5) in your for loop"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtu.be/LDULv7B9QdQ"
+
+      - id: py-ce-loop-002
+        title: "Print numbers 0 to 9"
+        task: |
+          Write a `for` loop to print numbers from 0 to 9.
+        requirements:
+          - "Use a for loop"
+          - "Print numbers 0 through 9 inclusive"
+        input: ""
+        output: "0 1 2 3 4 5 6 7 8 9"
+        difficulty: "easy"
+        hint: "Use range(10)"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtube.com/shorts/zIU3X59TcBE"
+
+      - id: py-ce-loop-003
+        title: "Print even numbers 2 to 20"
+        task: |
+          Write a `for` loop to print all even numbers from 2 to 20.
+        requirements:
+          - "Use a for loop"
+          - "Print only even numbers"
+          - "Include 2 and 20 if applicable"
+        input: ""
+        output: "2 4 6 8 10 12 14 16 18 20"
+        difficulty: "easy"
+        hint: "Use range() with step parameter"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-004
+        title: "Print each character in a string"
+        task: |
+          Write a `for` loop to iterate through the string "Hello, World!" and print each character.
+        requirements:
+          - "Iterate through each character"
+          - "Print each character on a new line"
+        input: ""
+        output: |
+          H
+          e
+          l
+          l
+          o
+          ,
+           
+          W
+          o
+          r
+          l
+          d
+          !
+        difficulty: "easy"
+        hint: "Strings are iterable in Python"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtu.be/FgMHDLRi_G4"
+
+      - id: py-ce-loop-005
+        title: "Find the factorial of a number"
+        task: |
+          Write a `for` loop to calculate the factorial of a given number, e.g., 5! = 5 × 4 × 3 × 2 × 1.
+        requirements:
+          - "Use a for loop"
+          - "Calculate factorial correctly"
+          - "Handle input 0 (0! = 1)"
+        input: "5"
+        output: "120"
+        difficulty: "easy"
+        hint: "Initialize result variable to 1 before loop"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtu.be/K5LV5I2hFg4"
+
+      - id: py-ce-loop-006
+        title: "Squares of numbers 1 to 5"
+        task: |
+          Write a Python for loop that prints the square of each number from 1 to 5.
+        requirements:
+          - "Use a for loop"
+          - "Print square of each number"
+        input: ""
+        output: "1 4 9 16 25"
+        difficulty: "easy"
+        hint: "Use ** operator for exponentiation"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtu.be/ecGCXSxHjsw"
+
+      - id: py-ce-loop-007
+        title: "Count down from 10 to 1"
+        task: |
+          Use a `for` loop to print numbers from 10 down to 1.
+        requirements:
+          - "Use a for loop"
+          - "Print numbers in descending order"
+        input: ""
+        output: "10 9 8 7 6 5 4 3 2 1"
+        difficulty: "easy"
+        hint: "Use range() with negative step"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://bit.ly/3yrTe0e"
+
+      - id: py-ce-loop-008
+        title: "Calculate the sum of the first N natural numbers"
+        task: |
+          Calculate the sum of the first N natural numbers using a for loop.
+        requirements:
+          - "Use a for loop"
+          - "Calculate correct sum"
+        input: "5"
+        output: "15"
+        difficulty: "easy"
+        hint: "Initialize sum variable before loop"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://youtu.be/FgMHDLRi_G4"
+
+      - id: py-ce-loop-009
+        title: "Print the multiplication table for 5"
+        task: |
+          Write a `for` loop to print the multiplication table for the number 5.
+        requirements:
+          - "Use a for loop"
+          - "Print table up to 10x5"
+        input: ""
+        output: |
+          5 x 1 = 5
+          5 x 2 = 10
+          5 x 3 = 15
+          5 x 4 = 20
+          5 x 5 = 25
+          5 x 6 = 30
+          5 x 7 = 35
+          5 x 8 = 40
+          5 x 9 = 45
+          5 x 10 = 50
+        difficulty: "intermediate"
+        hint: "Use string formatting for clean output"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41"
+
+      - id: py-ce-loop-010
+        title: "Print the first 10 Fibonacci numbers"
+        task: |
+          Write a `for` loop to generate the first 10 numbers in the Fibonacci sequence.
+        requirements:
+          - "Use a for loop"
+          - "Generate correct sequence"
+        input: ""
+        output: "0 1 1 2 3 5 8 13 21 34"
+        difficulty: "intermediate"
+        hint: "You'll need to track two previous numbers"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-011
+        title: "Check if a number is prime"
+        task: |
+          Write a `for` loop to check if a given number is prime.
+        requirements:
+          - "Use a for loop"
+          - "Correctly identify prime numbers"
+        input: "7"
+        output: "True"
+        difficulty: "intermediate"
+        hint: "Check divisors up to square root of number"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-012
+        title: "Sum of digits of a number"
+        task: |
+          Write a `for` loop to calculate the sum of the digits of a given number, e.g., 1234.
+        requirements:
+          - "Use a for loop"
+          - "Calculate correct sum"
+        input: "1234"
+        output: "10"
+        difficulty: "intermediate"
+        hint: "Convert number to string to iterate digits"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-013
+        title: "Print a pattern of stars"
+        task: |
+          Use nested `for` loops to print a right-aligned triangle pattern.
+        requirements:
+          - "Use nested for loops"
+          - "Print correct pattern"
+        input: ""
+        output: |
+          *
+          **
+          ***
+          ****
+          *****
+        difficulty: "intermediate"
+        hint: "Outer loop for rows, inner loop for columns"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-014
+        title: "Print odd numbers between 1 and 20"
+        task: |
+          Write a `for` loop to print all odd numbers between 1 and 20.
+        requirements:
+          - "Use a for loop"
+          - "Print only odd numbers"
+        input: ""
+        output: "1 3 5 7 9 11 13 15 17 19"
+        difficulty: "intermediate"
+        hint: "Check remainder using modulo operator"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-015
+        title: "Count vowels in a string"
+        task: |
+          Use a `for` loop to count the number of vowels in the string "Hello, World!".
+        requirements:
+          - "Use a for loop"
+          - "Count all vowels (case-insensitive)"
+        input: ""
+        output: "3"
+        difficulty: "intermediate"
+        hint: "Check each character against a set of vowels"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-016
+        title: "Generate a list of even numbers"
+        task: |
+          Use a `for` loop to generate a list of even numbers between 1 and 20.
+        requirements:
+          - "Use a for loop"
+          - "Create a list of even numbers"
+        input: ""
+        output: "[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]"
+        difficulty: "advanced"
+        hint: "Use list comprehension or append to list"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-017
+        title: "Print numbers divisible by 3 and 5 between 1 and 50"
+        task: |
+          Use a `for` loop to print all numbers between 1 and 50 that are divisible by both 3 and 5.
+        requirements:
+          - "Use a for loop"
+          - "Check divisibility by both 3 and 5"
+        input: ""
+        output: "15 30 45"
+        difficulty: "advanced"
+        hint: "Check divisibility by 15 (LCM of 3 and 5)"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-018
+        title: "Print a right-angle triangle of numbers"
+        task: |
+          Use nested `for` loops to print a right-angle triangle of numbers.
+        requirements:
+          - "Use nested for loops"
+          - "Print correct pattern"
+        input: ""
+        output: |
+          1
+          12
+          123
+          1234
+          12345
+        difficulty: "advanced"
+        hint: "Outer loop for rows, inner loop for columns"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-019
+        title: "Print multiples of 3 up to 30"
+        task: |
+          Use a `for` loop to print all multiples of 3 up to 30.
+        requirements:
+          - "Use a for loop"
+          - "Print correct multiples"
+        input: ""
+        output: "3 6 9 12 15 18 21 24 27 30"
+        difficulty: "advanced"
+        hint: "Use range() with step parameter"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-020
+        title: "Find numbers divisible by 7 and 11 between 1 and 100"
+        task: |
+          Use a `for` loop to print all numbers between 1 and 100 that are divisible by both 7 and 11.
+        requirements:
+          - "Use a for loop"
+          - "Check divisibility by both 7 and 11"
+        input: ""
+        output: "77"
+        difficulty: "advanced"
+        hint: "Check divisibility by 77 (LCM of 7 and 11)"
+        resource:
+          name: ""
+          url: ""
+
+      - id: py-ce-loop-021
+        title: "Calculate the harmonic sum of n numbers"
+        task: |
+          Calculate the harmonic sum of n numbers using a for loop.
+        requirements:
+          - "Use a for loop"
+          - "Calculate correct harmonic sum"
+        input: "5"
+        output: "2.283333333333333"
+        difficulty: "advanced"
+        hint: "Harmonic sum is 1 + 1/2 + 1/3 + ... + 1/n"
+        resource:
+          name: ""
+          url: ""
+
+
   - topic: tuples
     exercises:
       - id: py-ce-tuple-001
@@ -14,6 +372,9 @@ topics:
         output: "green"
         difficulty: "easy"
         hint: "Remember tuple indexing starts at 0"
+        resource:
+          name: "View Solution"
+          url: null
 
       - id: py-ce-tuple-002
         title: "Tuple Slicing"

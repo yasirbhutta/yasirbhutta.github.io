@@ -1,15 +1,35 @@
 ---
-layout: default
-title: Python For Loop Tutorial - Examples and How to Use
-description: Learn how to use Python for loops with clear examples. This tutorial covers iteration, range(), and common use cases for beginners.
+layout: page
+title: Python for Loops – Complete Guide with Syntax and Examples
+description: Master Python for loops with this beginner-friendly guide. Learn syntax, how iteration works, loop control statements, and practical examples to build your programming logic. 
+keywords: Python for loop, Python loop examples, for loop syntax Python, iteration in Python, loop control Python, beginner Python loops, Python range loop, Python programming basics
+toc: toc/python.html
+prev: /python/docs/if-elif-else/truthy-falsy-values.html
+next: /python/docs/loops-while/
+course: python
+topic: loops-for
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: For Loop
+    url: /python/docs/loops-for/
 ---
 
 ## Table of Contents
-1. [Python Loops: Understanding Python For Loops]()
-2. Basic Syntax of the Python For Loop
-3. range() function
+1. [Python Loops: Understanding Python For Loops](#1-python-loops-understanding-python-for-loops)
+2. [Basic Syntax of the Python For Loop](#2-basic-syntax-of-the-python-for-loop)
+3. [range() function](#3-range-function)
+4. [Using the range() Function in For Loops](#4-using-the-range-function-in-for-loops)
+5. [Why We Use Variables in For Loops](#5-why-we-use-variables-in-for-loops)
+6. [Use of underscore in 'For Loop](#6-use-of-underscore-in-for-loop)
+7. [Tasks](#7-tasks)
    
-## Python Loops: Understanding Python For Loops
+## 1. Python Loops: Understanding Python For Loops
 
 - A for loop in Python is a programming statement that repeats a block of code a fixed number of times.
 - The for-loop is always used in combination with an iterable object[^1], like a list or a range. 
@@ -17,7 +37,7 @@ description: Learn how to use Python for loops with clear examples. This tutoria
 
 [video: What is it and Why do we Use it? \| Python For loop Tutorial](https://youtu.be/2mhrDgBEp10)
 
-## Basic Syntax of the Python For Loop
+## 2. Basic Syntax of the Python For Loop
 
 **Syntax:**
 
@@ -28,7 +48,7 @@ for item in iterable:
 
 `iterable` is a sequence of elements such as a list, tuple, dictionary, set, or string. item is a variable that takes on the value of each element in the sequence, one at a time. The code block is executed once for each element in the sequence.
 
-## **range() function:**
+## 3. **range() function:**
 
 - We can use the `range()` function as an iterable in a for loop in Python. The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number. 
 - We can also specify the starting value and the increment value of the sequence using the range() function. For example, range(2, 10, 2) returns a sequence of numbers starting from 2, incrementing by 2, and ending at 8. [read more ...](https://www.w3schools.com/python/gloss_python_for_range.asp)
@@ -74,7 +94,7 @@ Here are the common usages:
 list(range(5))  # Output: [0, 1, 2, 3, 4]
 ```
 
-## Using the range() Function in For Loops
+## 4. Using the range() Function in For Loops
 
 - [Video: The range() Function](https://www.youtube.com/watch?v=cRa_nnO6L00&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=87)
 - [Video: Use of range() in for loop](https://www.youtube.com/watch?v=ZEVsokTGbwA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=88)
@@ -150,7 +170,7 @@ for i in range(1, 11):
         print('%d * %d = %d' % (i, j, i*j))
 ```
 
-#### Why We Use Variables in For Loops
+## 5. Why We Use Variables in For Loops
 
 In Python, a variable in a `for` loop is used to iterate over a sequence (like a list, tuple, string, or range) and access each element in that sequence one at a time. This variable is often called the "loop variable" or "iterator variable." 
 
@@ -194,7 +214,7 @@ cherry
 
 The variable `fruit` is used to access and print each element in the `fruits` list.
 
-#### Use of underscore in 'For Loop'
+## 6. Use of underscore in 'For Loop'
 
 - In Python, an underscore (`_`) is often used as a variable name in a for loop (or any other context) when the value of the variable is not needed. 
 - This is a common convention to indicate that the value is intentionally being ignored or discarded.
@@ -212,7 +232,7 @@ Here, `_` is used instead of a variable name like `i` or `j` because the value i
 
 - [video: Underscore to Ignore Values in for loop](https://www.youtube.com/watch?v=bZOgrIHCHbQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=2)
 
-## Tasks
+## 7. Tasks
 
 ### Task 1: Sum of Numbers in a Range
 
