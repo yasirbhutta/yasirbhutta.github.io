@@ -1,3 +1,24 @@
+---
+layout: page
+title: "Python Loop Control Statements (break, continue, pass)"
+description: Learn how to use Python while loops with clear examples, syntax rules, and best practices.
+keywords: Python while loop, while loop syntax Python, Python loops tutorial, while loop examples, break and continue Python, Python loop control, while else Python, Python programming loops
+author: Muhammad Yasir Bhutta
+course: python
+topic: loop-control-statements
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: true
+prev: /python/docs/loops-for/
+next: /python/docs/loop-control-statements/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Control Flow
+    url: /python/docs/control-flow/
+---
+
 # Python Loop Control Statements (break, continue, pass)
 
 These statements modify the behavior of loops.

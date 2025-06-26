@@ -1,22 +1,24 @@
 ---
-layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+layout: find-fix-mistakes
+title: "Python While Loops: Find & Fix Mistakes | Debugging Practice"
+description: Enhance your Python while loop debugging skills by identifying and correcting common errors in code. Practice with beginner, intermediate, and advanced challenges.
+keywords: Python, while loops, debugging, fix mistakes, find errors, Python practice, programming, coding, Python exercises, loop errors, syntax errors, indentation errors, problem solving
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "loop-control-statements"
+course: "python"
+prev: "/python/docs/loop-control-statements/practice-and-progress/fill-blanks-loop-control-statements.html"
+next: "/python/docs/loop-control-statements/practice-and-progress/find-fix-mistakes-loop-control-statements.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loop-control-statements
+    url: /python/docs/loop-control-statements/
 ---

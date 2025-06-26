@@ -1,6 +1,91 @@
 course: python
 topics:
 
+  - topic: loop-control-statements
+    questions:
+      - id: while-mcq-004
+        difficulty: medium
+        question: What does the 'break' statement do in a while loop?
+        language: python
+        code: null
+        options:
+          - "Pauses the loop for 1 second"
+          - "Skips to the next iteration"
+          - "Exits the loop immediately"
+          - "Restarts the loop"
+        answer: "Exits the loop immediately"
+        explanation: "The break statement exits the entire loop structure regardless of the loop condition."
+
+      - id: while-mcq-006
+        difficulty: hard
+        question: What will this code output?
+        language: python
+        code: |
+          x = 5
+          while x > 0:
+              x -= 1
+              if x == 2:
+                  continue
+              print(x, end=' ')
+        options:
+          - "4 3 2 1 0"
+          - "4 3 1 0"
+          - "5 4 3 2 1"
+          - "4 3 1 0 -1"
+        answer: "4 3 1 0"
+        explanation: "The continue skips printing when x is 2, and the loop stops when x reaches 0."
+
+
+      - id: for-mcq-008
+        difficulty: hard
+        question: What is the value of x after this loop?
+        language: python
+        code: |
+          x = 0
+          for i in range(5):
+              if i % 2 == 0:
+                  continue
+              x += i
+        options:
+          - "0"
+          - "4"
+          - "6"
+          - "10"
+        answer: "4"
+        explanation: "Only odd numbers (1 and 3) are added to x (1+3=4)."
+
+      - id: for-mcq-007
+        difficulty: medium
+        question: What does this loop print?
+        language: python
+        code: |
+          for char in "Python":
+              if char == 'h':
+                  break
+              print(char, end='')
+        options:
+          - "Python"
+          - "Pyt"
+          - "Pyth"
+          - "Pytho"
+        answer: "Pyt"
+        explanation: "The loop breaks when it encounters 'h'."
+
+
+      - id: for-mcq-006
+        difficulty: medium
+        question: Which statement immediately exits a for loop?
+        language: python
+        code: null
+        options:
+          - "stop"
+          - "exit"
+          - "break"
+          - "return"
+        answer: "break"
+        explanation: "The break statement exits the nearest enclosing loop."
+
+
   - topic: loops-while
     questions:
       - id: while-mcq-001
@@ -46,18 +131,6 @@ topics:
         answer: "By ensuring the loop condition eventually becomes False"
         explanation: "The essential way to prevent infinite loops is to make sure the condition will eventually evaluate to False."
 
-      - id: while-mcq-004
-        difficulty: medium
-        question: What does the 'break' statement do in a while loop?
-        language: python
-        code: null
-        options:
-          - "Pauses the loop for 1 second"
-          - "Skips to the next iteration"
-          - "Exits the loop immediately"
-          - "Restarts the loop"
-        answer: "Exits the loop immediately"
-        explanation: "The break statement exits the entire loop structure regardless of the loop condition."
 
       - id: while-mcq-005
         difficulty: medium
@@ -72,24 +145,6 @@ topics:
         answer: "It executes if the loop completes normally (without break)"
         explanation: "The else clause executes after the loop finishes normally, but not if break was called."
 
-      - id: while-mcq-006
-        difficulty: hard
-        question: What will this code output?
-        language: python
-        code: |
-          x = 5
-          while x > 0:
-              x -= 1
-              if x == 2:
-                  continue
-              print(x, end=' ')
-        options:
-          - "4 3 2 1 0"
-          - "4 3 1 0"
-          - "5 4 3 2 1"
-          - "4 3 1 0 -1"
-        answer: "4 3 1 0"
-        explanation: "The continue skips printing when x is 2, and the loop stops when x reaches 0."
 
       - id: while-mcq-007
         difficulty: hard
@@ -195,53 +250,6 @@ topics:
         answer: "[(0, 0), (0, 1), (1, 0), (1, 1)]"
         explanation: "The nested loop generates all combinations of i and j."
 
-      - id: for-mcq-006
-        difficulty: medium
-        question: Which statement immediately exits a for loop?
-        language: python
-        code: null
-        options:
-          - "stop"
-          - "exit"
-          - "break"
-          - "return"
-        answer: "break"
-        explanation: "The break statement exits the nearest enclosing loop."
-
-      - id: for-mcq-007
-        difficulty: medium
-        question: What does this loop print?
-        language: python
-        code: |
-          for char in "Python":
-              if char == 'h':
-                  break
-              print(char, end='')
-        options:
-          - "Python"
-          - "Pyt"
-          - "Pyth"
-          - "Pytho"
-        answer: "Pyt"
-        explanation: "The loop breaks when it encounters 'h'."
-
-      - id: for-mcq-008
-        difficulty: hard
-        question: What is the value of x after this loop?
-        language: python
-        code: |
-          x = 0
-          for i in range(5):
-              if i % 2 == 0:
-                  continue
-              x += i
-        options:
-          - "0"
-          - "4"
-          - "6"
-          - "10"
-        answer: "4"
-        explanation: "Only odd numbers (1 and 3) are added to x (1+3=4)."
 
       - id: for-mcq-009
         difficulty: easy

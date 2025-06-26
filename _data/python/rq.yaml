@@ -1,6 +1,42 @@
 course: python
 topics:
 
+  - topic: loop-control-statements
+    questions:
+
+      - id: while-review-003
+        prompt: "What are the differences between break, continue, and pass in while loops?"
+        answer: >
+          - break: Immediately exits the entire loop
+          - continue: Skips the rest of current iteration and jumps to next condition check
+          - pass: Does nothing (placeholder for empty blocks)
+          The else clause executes only if the loop completes normally (no break).
+        examples:
+          - "break: `while True: if condition: break`"
+          - "continue: `while x > 0: x -= 1; if x%2: continue; print(x)`"
+          - "pass: `while condition: pass  # TODO: implement later`"
+        resources:
+          - name: "Python Loop Statements"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools"
+
+
+      - id: for-review-003
+        prompt: "What are the loop control statements (break, continue, else) and how do they work?"
+        answer: >
+          break: Immediately exits the entire loop
+          continue: Skips the current iteration and moves to the next
+          else: Executes after the loop completes normally (only if no break occurred)
+          These statements help customize loop behavior and handle special cases.
+        examples:
+          - "break: `for num in nums: if num == 0: break`"
+          - "continue: `for num in nums: if num%2==0: continue`"
+          - "else: `for n in range(2,10): ... else: print('All primes checked')`"
+        resources:
+          - name: "Loop Control Statements"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
+
+
+
   - topic: loops-while
     questions:
       - id: while-review-001
@@ -30,21 +66,6 @@ topics:
         resources:
           - name: "Python Loop Control"
             url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
-
-      - id: while-review-003
-        prompt: "What are the differences between break, continue, and pass in while loops?"
-        answer: >
-          - break: Immediately exits the entire loop
-          - continue: Skips the rest of current iteration and jumps to next condition check
-          - pass: Does nothing (placeholder for empty blocks)
-          The else clause executes only if the loop completes normally (no break).
-        examples:
-          - "break: `while True: if condition: break`"
-          - "continue: `while x > 0: x -= 1; if x%2: continue; print(x)`"
-          - "pass: `while condition: pass  # TODO: implement later`"
-        resources:
-          - name: "Python Loop Statements"
-            url: "https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools"
 
       - id: while-review-004
         prompt: "When should you use a while loop versus a for loop in Python?"
@@ -122,21 +143,6 @@ topics:
         resources:
           - name: "Python range() Documentation"
             url: "https://docs.python.org/3/library/stdtypes.html#range"
-
-      - id: for-review-003
-        prompt: "What are the loop control statements (break, continue, else) and how do they work?"
-        answer: >
-          break: Immediately exits the entire loop
-          continue: Skips the current iteration and moves to the next
-          else: Executes after the loop completes normally (only if no break occurred)
-          These statements help customize loop behavior and handle special cases.
-        examples:
-          - "break: `for num in nums: if num == 0: break`"
-          - "continue: `for num in nums: if num%2==0: continue`"
-          - "else: `for n in range(2,10): ... else: print('All primes checked')`"
-        resources:
-          - name: "Loop Control Statements"
-            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
 
       - id: for-review-004
         prompt: "What are some common iterables used with for loops?"

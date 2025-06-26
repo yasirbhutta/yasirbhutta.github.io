@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: Python for Loop Exercises – Practice Iteration with Coding Tasks
-description: Sharpen your Python skills with beginner-friendly for loop exercises. Practice iteration, range, nested loops, and real coding tasks to master Python loops step-by-step.
-keywords: Python for loop exercises, for loop practice Python, Python iteration tasks, beginner Python loops, Python range examples, coding exercises Python, loop logic Python, Python loop challenges
+title: "Python While Loop Exercises: Practice & Master Loops"
+description: harpen your Python skills with interactive while loop exercises. Ideal for students and developers, these practice problems help you master iterative programming concepts.
+keywords: python while loop exercises, python loop practice, while loop examples, python programming exercises, learn python loops, iterative programming, python for beginners, coding challenges python, python practice problems, yasir bhutta python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"
@@ -19,6 +19,6 @@ breadcrumb:
     url: /python/
   - title: Control Flow
     url: /python/docs/control-flow/
-  - title: For Loop
+  - title: While Loop
     url: /python/docs/loops-while/
 ---
