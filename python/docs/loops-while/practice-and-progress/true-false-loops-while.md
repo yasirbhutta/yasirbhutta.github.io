@@ -1,19 +1,24 @@
 ---
-layout: page
-title:  Encapsulation in Python – True or False Questions with Answers
-description: Test your understanding of Object-Oriented Programming (OOP) in Python with these carefully crafted True or False questions on encapsulation. Great for beginners and intermediate learners to reinforce OOP concepts.
-keywords: Python encapsulation, OOP in Python, True or False questions, Python quiz, encapsulation practice, object-oriented programming, Python classes, Python properties, name mangling, getter setter Python, learn with yasir, yasirbhutta, python tutorials for beginners
+layout: true-false
+title: Python for Loops – True or False Questions for Quick Practice
+description: Test your knowledge of Python for loops with true or false questions. A fast and effective way for beginners to reinforce concepts like syntax, iteration, and loop behavior.
+keywords: Python for loop true false, Python loop quiz, for loop quick practice, beginner Python questions, Python syntax quiz, Python iteration check, Python true or false test, loop understanding Python
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "oop-encapsulation"
+topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-encapsulation/
-next: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
+prev: /python/docs/loops-while/
+next: /python/docs/loops-while/practice-and-progress/fill-blanks-loops-while.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic = "oop-encapsulation" %}
-{% assign topics = site.data.python.true-false.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign questions = selected_topic.questions %}
-<!-- {% assign examples = selected_topic.examples %} -->
-{% assign resources = selected_topic.resources %}
-{% include pap/true-false-loop.html questions=questions resources=resources topic=topic %}

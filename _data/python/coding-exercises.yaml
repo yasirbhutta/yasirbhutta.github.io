@@ -1,6 +1,196 @@
 course: python
 topics:
 
+  - topic: loops-while
+    exercises:
+      - id: py-ce-while-001
+        title: "Print Numbers from 1 to 10"
+        task: |
+          Write a `while` loop to print numbers from 1 to 10.
+        requirements:
+          - "Use a while loop"
+          - "Print numbers 1 through 10 inclusive"
+        input: ""
+        output: "1 2 3 4 5 6 7 8 9 10"
+        difficulty: "easy"
+        hint: "Initialize counter before loop, increment it inside loop"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-002
+        title: "Sum of First N Natural Numbers"
+        task: |
+          Write a program that asks the user for a number `n` and calculates the sum of numbers from 1 to `n` using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Handle user input"
+          - "Calculate correct sum"
+        input: "5"
+        output: "15"
+        difficulty: "easy"
+        hint: "Initialize sum to 0 before loop, add each number in sequence"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-003
+        title: "Multiplication Table"
+        task: |
+          Write a program to print the multiplication table of a given number using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Print table up to 10"
+          - "Format as 'num x i = result'"
+        input: "5"
+        output: |
+          5 x 1 = 5
+          5 x 2 = 10
+          ...
+          5 x 10 = 50
+        difficulty: "easy"
+        hint: "Loop from 1 to 10, multiply input number by counter"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-004
+        title: "Reverse a Number"
+        task: |
+          Ask the user to enter a number and print its reverse using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Handle multi-digit numbers"
+          - "Properly reverse digits"
+        input: "1234"
+        output: "4321"
+        difficulty: "medium"
+        hint: "Use modulo and integer division to extract digits"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-005
+        title: "Count Digits in a Number"
+        task: |
+          Write a program to count the number of digits in a given number using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Handle all positive integers"
+          - "Count digits correctly"
+        input: "12345"
+        output: "5"
+        difficulty: "easy"
+        hint: "Remove one digit at a time using integer division"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-006
+        title: "Factorial Calculation"
+        task: |
+          Create a program to calculate the factorial of a given number using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Handle 0 and 1 cases"
+          - "Calculate correct factorial"
+        input: "5"
+        output: "120"
+        difficulty: "easy"
+        hint: "Multiply numbers from 1 to n sequentially"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-007
+        title: "Print Even Numbers"
+        task: |
+          Write a program to print even numbers between 1 and 20 using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Print only even numbers"
+          - "Include 20 if even"
+        input: ""
+        output: "2 4 6 8 10 12 14 16 18 20"
+        difficulty: "easy"
+        hint: "Check remainder when divided by 2"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-008
+        title: "Infinite Loop with Break"
+        task: |
+          Create a loop that runs infinitely until the user types "stop".
+        requirements:
+          - "Use while True"
+          - "Break on 'stop' input"
+          - "Case insensitive check"
+        input: |
+          hello
+          world
+          STOP
+        output: "(program exits)"
+        difficulty: "medium"
+        hint: "Use lower() or upper() for case insensitivity"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-009
+        title: "Sum of Digits"
+        task: |
+          Write a program to calculate the sum of digits of a given number using a `while` loop.
+        requirements:
+          - "Use while loop"
+          - "Handle multi-digit numbers"
+          - "Calculate correct sum"
+        input: "123"
+        output: "6"
+        difficulty: "medium"
+        hint: "Extract last digit using modulo, remove it using division"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-010
+        title: "Guess the Number Game"
+        task: |
+          Create a simple number guessing game with a secret number (e.g., 7) that continues until correct.
+        requirements:
+          - "Use while loop"
+          - "Set secret number"
+          - "Break on correct guess"
+        input: |
+          5
+          8
+          7
+        output: |
+          Correct!
+        difficulty: "easy"
+        hint: "Use infinite loop with break condition"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-011
+        title: "Count Occurrence of a Specific Digit"
+        task: |
+          Write a program to count occurrences of a specific digit in a number using Python.
+        requirements:
+          - "Use while loop"
+          - "Handle string or numeric input"
+          - "Count all occurrences"
+        input: |
+          122333
+          2
+        output: "2"
+        difficulty: "medium"
+        hint: "Convert number to string or use modulo operations"
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=MXWbTdvSBVs"
+
   - topic: loops-for
     exercises:
       - id: py-ce-loop-001

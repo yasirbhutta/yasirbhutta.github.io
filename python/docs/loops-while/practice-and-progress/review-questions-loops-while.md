@@ -1,17 +1,24 @@
 ---
-layout: page
-title: "Review Questions on Python Encapsulation – Test Your OOP Understanding"
-description: "Reinforce your understanding of encapsulation in Python with these structured review questions. Ideal for students and self-learners to assess their grasp of object-oriented concepts like access control, private variables, and class design."
-keywords: python encapsulation, review questions python, oop review questions, python encapsulation quiz, python oop practice, object-oriented programming, python private attributes, python access modifiers, python classes, python exam preparation, yasirbhutta
+layout: review-questions
+title: Python for Loops Review Questions – Strengthen Your Looping Concepts
+description: Review your understanding of Python for loops with structured questions. Cover essential topics like iteration, range, nested loops, and loop control in Python programming.
+keywords: Python for loop review questions, Python loop practice, Python iteration review, beginner Python loops, Python loop control questions, review Python programming, Python range review, for loop coding concepts
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "oop-encapsulation"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/mini-projects-oop-encapsulation.html
-next: /python/docs/oop-abstraction/
+topic: "loops-while"
+prev: /python/docs/lists/practice-and-progress/mini-projects-lists.html
+next: /python/docs/functions.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic = "oop-encapsulation" %}
-{% assign topics = site.data.python.rq.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign questions = selected_topic.questions %}
-{% include pap/rq-loop.html questions=questions topic=topic %}

@@ -1,19 +1,24 @@
 ---
-layout: page
-title: Python Encapsulation MCQs – Test Your OOP Knowledge
-description: Challenge your understanding of Python's Object-Oriented Programming with these multiple-choice questions on encapsulation. Ideal for beginners, students, and job seekers to reinforce key OOP concepts.
-keywords: python encapsulation, oop in python, python mcqs, encapsulation quiz, python multiple choice questions, learn with yasir, yasirbhutta, python classes, python access modifiers, python getter setter, python name mangling, python oop practice, python encapsulation tutorial
-author: Muhammad Yasir Bhutta
+layout: mcqs
+title: Python for Loops MCQs – Multiple Choice Questions for Practice
+description: Test your understanding of Python for loops with multiple choice questions. These beginner-friendly MCQs cover loop syntax, iteration, range, and nested loops in Python.
+keywords: Python for loop MCQs, Python loop quiz, for loop multiple choice questions, Python loop test, beginner Python quiz, Python for loop practice, Python iteration MCQ, Python range questions
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "oop-encapsulation"
+topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.html
+prev: "/python/docs/loops-while/practice-and-progress/fill-blanks-loops-while.html"
+next: "/python/docs/loops-while/practice-and-progress/find-fix-mistakes-loops-while.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic_name = "oop-encapsulation" %}
-{% assign topics = site.data.python.mcqs.topics %}
-{% assign selected_topic = topics | where: "topic", topic_name | first %}
-{% assign mcqs = selected_topic.questions %}
-{% assign resources = selected_topic.resources %}
-{% include pap/mcqs-loop.html mcqs=mcqs resources=resources %}

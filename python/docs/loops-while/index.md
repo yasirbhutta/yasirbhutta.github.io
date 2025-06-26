@@ -19,6 +19,14 @@ breadcrumb:
     url: /python/docs/control-flow/
 ---
 
+## Table of Contents
+
+1. [What is while loop?](#1-what-is-while-loop)
+2. [Examples](#2-examples)
+3. [Tasks](#3-tasks)
+
+## 1. What is while loop?
+
 - A while loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
 
 **Syntax:**
@@ -32,7 +40,9 @@ Here, condition is a boolean expression that is evaluated before each iteration 
 
 [video: Python while loop example - Learn how to use while loop](https://youtu.be/zF-x4JBgn4A?si=P_IAHHTwg9Yk9nSD)
 
-## Example 1: Print numbers from 1 to 10 using while loop
+## 2. Examples
+
+### Example 1: Print numbers from 1 to 10 using while loop
 
 Question: Write a Python program to print the numbers from 1 to 10, using a while loop?
 
@@ -43,7 +53,7 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
     count += 1  # Add 1 to the count for the next round
 ```
 
-## Example 2: Print "Hello, world!" 5 times using while loop
+### Example 2: Print "Hello, world!" 5 times using while loop
 
 Question: Write a Python program to print the string "Hello, world!" 5 times, using a while loop?
 
@@ -54,7 +64,69 @@ while i <= 10:
     i += 1
 ```
 
-## Task 1: Display Multiplication Tables**
+### Example 3: Sum of even numbers from 2 to 20 using while loop
+
+Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
+
+```python
+sum = 0  # Initialize a variable to store the sum
+number = 1  
+
+while number <= 20:
+    if number%2 == 0:
+      sum += number  # Add the current number to the sum
+    number += 1
+
+print(f'The sum of even numbers from 1 to 20 is: {sum}')
+```
+
+
+### Example 4: Prompt User for Input Until Blank Line is Entered
+
+Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
+
+```python
+inputStr = 'Start'
+
+while inputStr != "":
+  inputStr = input("Enter a line of text:")
+
+print('You entered a blank line.')
+```
+
+## Example 5: Sum User-Entered Numbers Until Zero is Entered
+
+Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
+
+```python
+sum = 0; # Initialize the sum
+
+# Prompt the user to enter a number
+number = int(input('Enter a number: ')) # int() Convert string input to integer
+
+# While the number entered is not zero, add the number to the sum and prompt the user to enter another number
+while number != 0:
+    sum += number
+    number = int(input('Enter another number: ')) # int() Convert string input to integer
+    
+# Display the sum of the numbers
+print(f'The sum of the numbers is: {sum}')
+```
+
+### Example 6: Infinite Loop Printing Messages with Counter
+
+[Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49))
+
+```python
+x = 1
+while True:
+    print("To infinity and beyond! We're getting close, on %d now!" % (x))
+    x += 1
+```
+
+## 3. Tasks
+
+### Task 1: Display Multiplication Tables**
 
 **Description:**
 
@@ -97,7 +169,7 @@ Enter a number: 5
 **Requirements:**
 - Use a `while` loop to generate and display the multiplication table.
 
-## Task 2: Sum Integers from 1 to 100 Using While Loop
+### Task 2: Sum Integers from 1 to 100 Using While Loop
 
 Write a Python program that calculates the sum of all integers from 1 to 100. The program should use a `while` loop to iterate through these integers and accumulate their sum.
 
@@ -120,23 +192,7 @@ This code uses a `while` loop to iterate through the integers from 1 to 100.
 In each iteration, the current value of `i` is added to the variable `sum`, and `i` is incremented by 1.
 After the loop completes, the total sum is printed.
 
-## Example : Sum of even numbers from 2 to 20 using while loop
-
-Question: Write a Python program to calculate the sum of the even numbers from 2 to 20 using a while loop.
-
-```python
-sum = 0  # Initialize a variable to store the sum
-number = 1  
-
-while number <= 20:
-    if number%2 == 0:
-      sum += number  # Add the current number to the sum
-    number += 1
-
-print(f'The sum of even numbers from 1 to 20 is: {sum}')
-```
-
-#### Task #5.14: Calculate Squares of Numbers from 1 to 4 Using While Loop
+### Task 3: Calculate Squares of Numbers from 1 to 4 Using While Loop
 
 Write a Python program that calculates and prints the square of the numbers from 1 to 4. The program should use a `while` loop to iterate through these numbers.
 
@@ -161,39 +217,7 @@ This code uses a `while` loop to calculate the square of the variable `i`,
 which starts at 1 and increments by 1 in each iteration until it reaches 5. 
 The squares of the numbers 1 through 4 are printed during each iteration.
 
-#### Example #5.21: Prompt User for Input Until Blank Line is Entered
-
-Question: Write a Python program to prompt the user to enter lines of text until the user enters a blank line. The program should then display the message "You entered a blank line.".
-
-```python
-inputStr = 'Start'
-
-while inputStr != "":
-  inputStr = input("Enter a line of text:")
-
-print('You entered a blank line.')
-```
-
-#### Example #5.22: Sum User-Entered Numbers Until Zero is Entered
-
-Question: Write a Python program to add all the numbers entered by the user until the user enters zero. The program should display the sum of the numbers.
-
-```python
-sum = 0; # Initialize the sum
-
-# Prompt the user to enter a number
-number = int(input('Enter a number: ')) # int() Convert string input to integer
-
-# While the number entered is not zero, add the number to the sum and prompt the user to enter another number
-while number != 0:
-    sum += number
-    number = int(input('Enter another number: ')) # int() Convert string input to integer
-    
-# Display the sum of the numbers
-print(f'The sum of the numbers is: {sum}')
-```
-
-#### Task #5.15: Sum User-Entered Numbers Until a Negative Number is Entered
+### Task 4: Sum User-Entered Numbers Until a Negative Number is Entered
 
 Write a Python program that prompts the user to enter numbers. The program should keep accepting numbers until the user enters a negative number. Once a negative number is entered, the program should stop and display the sum of all the numbers entered (excluding the negative number).
 
@@ -211,19 +235,7 @@ The sum of all numbers is: 35
 ```
 
 - 
-#### Example #24: Infinite Loop Printing Messages with Counter
 
-[Video: Learn how to use INFINITE while loop](https://www.youtube.com/watch?v=4qZyBEKSfaA&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=49))
-
-```python
-x = 1
-while True:
-    print("To infinity and beyond! We're getting close, on %d now!" % (x))
-    x += 1
-```
-
-**while loop examples:**
-  
 **See also:**
 
 - [Video: Learn how to use while loops](https://www.youtube.com/watch?v=zF-x4JBgn4A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=50)

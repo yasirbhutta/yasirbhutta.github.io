@@ -1,19 +1,24 @@
 ---
-layout: page
-title: Fix & Find Mistakes in Python Encapsulation – OOP Debugging Practice
-description: Sharpen your Python OOP skills by identifying and correcting common encapsulation mistakes. This hands-on debugging exercise covers beginner to advanced scenarios, helping you master access modifiers, properties, and data protection in real-world code.
-keywords: python encapsulation, oop debugging practice, fix and find mistakes python, yasirbhutta, python access modifiers, python properties, python data protection, python classes, python encapsulation errors, python oop exercises, python encapsulation tutorial
-author: Muhammad Yasir Bhutta.
+layout: find-fix-mistakes
+title: Find and Fix Mistakes – Python for Loops Debugging Practice
+description: Improve your Python debugging skills by finding and fixing common errors in for loop code. Practice loop logic, syntax, and indentation with real-world examples.
+keywords: Python for loop debugging, find and fix Python loops, for loop error correction, Python loop mistakes, beginner Python debugging, Python syntax errors, Python loop logic errors, Python for loop practice
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "oop-encapsulation"
+topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/exercises-oop-encapsulation.html
+prev: "/python/docs/loops-while/practice-and-progress/fill-blanks-loops-while.html"
+next: "/python/docs/loops-while/practice-and-progress/find-fix-mistakes-loops-while.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic_name = "oop-encapsulation" %}
-{% assign topics = site.data.python.find-and-fix.topics %}
-{% assign selected_topic = topics | where: "topic", topic_name | first %}
-{% assign questions = selected_topic.questions %}
-{% assign resources = selected_topic.resources %}
-{% include pap/find-and-fix-loop.html questions=questions resources=resources %}

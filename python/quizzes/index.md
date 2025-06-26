@@ -15,7 +15,7 @@ Welcome to the Python Quizzes section! Here, you can test your Python knowledge 
 4. [Python Operators Quiz](python-operators-quiz.md)
 5. [Python if elif else Quiz](../docs/if-elif-else/practice-and-progress/quiz-if-elif-else.md)
 6. [Python for loop Quiz](../docs/loops-for/practice-and-progress/quiz-loops-for.md) - Test your knowledge of python about for loop and range() function
-7. [Python while loop Quiz](python-while-loop-quiz.md)
+7. [Python while loop Quiz](../docs/loops-while/practice-and-progress/quiz-loops-while.md)
 8. [Python Quiz: `break`, `continue` Statements, and `else` Clauses in Loops](python-break-continue-else-loop-quiz.md)
 9.  [Python Match Case Quiz](#)
 10. [Python Functions Quiz](python-functions-quiz.md)

@@ -1,22 +1,24 @@
 ---
-layout: page
-title: "Python While Loop Exercises - Practice Problems & Solutions"
-meta_description: "Master Python while loops with hands-on exercises! Practice solving problems with while loops, improve your coding skills, and check your solutions. Perfect for beginners and intermediate learners."
-keywords: Python while loop exercises, Python while loop practice, while loop problems in Python, Python loops examples, Python coding exercises, learn Python while loops, Python programming practice, while loop solutions
+layout: exercises
+title: Python for Loop Exercises – Practice Iteration with Coding Tasks
+description: Sharpen your Python skills with beginner-friendly for loop exercises. Practice iteration, range, nested loops, and real coding tasks to master Python loops step-by-step.
+keywords: Python for loop exercises, for loop practice Python, Python iteration tasks, beginner Python loops, Python range examples, coding exercises Python, loop logic Python, Python loop challenges
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-loops-while.html
-next: /python/docs/oop-inheritance/practice-and-progress/mcqs-loops-while.html
+prev: "/python/docs/loops-while/practice-and-progress/find-fix-mistakes-loops-while.html"
+next: "/python/docs/loops-while/practice-and-progress/mini-projects-loops-while.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
+  - title: python
+    url: /python/
   - title: Control Flow
     url: /python/docs/control-flow/
+  - title: For Loop
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic = "loops-while" %}
-{% assign topics = site.data.python.coding-exercises.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign exercises = selected_topic.exercises %}
-{% include pap/coding-exercises-loop.html exercises=exercises topic=topic %}

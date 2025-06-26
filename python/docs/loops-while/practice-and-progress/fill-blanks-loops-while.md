@@ -1,19 +1,24 @@
 ---
-layout: page
-title: Python Encapsulation Fill-in-the-Blanks Quiz – Practice OOP Concepts
-description: Enhance your Python OOP skills with this fill-in-the-blanks quiz on encapsulation. Ideal for students, beginners, and those preparing for interviews. Learn with Yasir Bhutta and reinforce your understanding of access modifiers, getter/setter methods, and more.
-keywords: python encapsulation, fill in the blanks python quiz, python oop practice, learn with yasir, yasirbhutta, python getter setter, python access modifiers, python name mangling, python classes, python encapsulation quiz, python oop exercises, python encapsulation tutorial, python interview preparation
+layout: fill-blanks
+title: "Python for Loops – Fill in the Blanks Exercises for Beginners"
+description: Practice Python for loops with fill-in-the-blank exercises designed for beginners. Reinforce loop structure, syntax, and logic through interactive and engaging questions.
+keywords: Python for loop fill in the blanks, Python loop exercises, beginner Python loops, Python iteration practice, for loop syntax Python, Python fill in the blank coding, Python loop structure, loop logic Python
+author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: "oop-encapsulation"
+topic: "loops-while"
 course: "python"
-prev: /python/docs/oop-encapsulation/practice-and-progress/true-false-oop-encapsulation.html
-next: /python/docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.html
+prev: /python/docs/loops-while/practice-and-progress/true-false-loops-while.html
+next: /python/docs/loops-while/practice-and-progress/mcqs-loops-while.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
-
-{% assign topic = "oop-encapsulation" %}
-{% assign topics = site.data.python.fill-blanks.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign questions = selected_topic.questions %}
-{% assign examples = selected_topic.examples %}
-{% assign resources = selected_topic.resources %}
-{% include pap/fill-blanks-loop.html questions=questions examples=examples resources=resources topic=topic %}

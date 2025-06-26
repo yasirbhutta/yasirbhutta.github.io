@@ -1,22 +1,38 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel  Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: functions
-show_toc: false
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+title: Python for Loops Quiz – Test Your Looping Skills
+description: Take this Python for loops quiz to assess your understanding of loop syntax, iteration, and logic. Great for beginners who want to practice and test their Python knowledge.
+keywords: Python for loop quiz, Python loop test, beginner Python quiz, for loop syntax Python, Python loop logic practice, Python iteration quiz, Python range loop quiz, Python for loop questions
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "loops-while"
+course: "python"
+prev: "/python/docs/loops-while/practice-and-progress/exercises-loops-while.html"
+next: "/python/docs/loops-while/practice-and-progress/review-questions-loops-while.html"
 breadcrumb:
   - title: Home
     url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+  - title: python
+    url: /python/
+  - title: Control Flow
+    url: /python/docs/control-flow/
+  - title: loops-while
+    url: /python/docs/loops-while/
 ---
+
+To learn more about using the `while loop` statement in Python, please visit **[Control Flow Statements: while loop](../index.md)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvon6kjPgu4wcWgDUwSisKnTcPdANiGs5ZxOOGIOowX1lqxw/viewform?embedded=true" width="100%" height="4733" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
+     crossorigin="anonymous"></script>
+<!-- display square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1602443888929206"
+     data-ad-slot="9845543342"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
