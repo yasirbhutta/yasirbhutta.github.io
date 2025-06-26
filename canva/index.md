@@ -1,5 +1,25 @@
+---
+layout: page
+title: "Learn Canva for Beginners – Design Stunning Graphics Easily"
+description: Master Canva with beginner-friendly tutorials and resources. Learn to create beautiful social media posts, presentations, posters, and more using Canva’s drag-and-drop tools.
+keywords: Canva tutorial for beginners, learn Canva design, how to use Canva, Canva guide, graphic design with Canva, social media design Canva, free Canva training, Canva basics
+author: Muhammad Yasir Bhutta
+course: canva
+topic: getting-started
+show_toc: false
+toc: null
+show_practice_progress: false
+show_mini_project: false
+prev: null
+next: null
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Canva
+    url: /canva/
+---
 
-# Getting started with Canva
+## Getting started with Canva
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 

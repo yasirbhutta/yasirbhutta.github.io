@@ -1,6 +1,25 @@
-# Learn CAPCUT
+---
+layout: page
+title: "CapCut Video Editing Tutorials – Learn to Edit Videos Like a Pro"
+description: Master CapCut with step-by-step tutorials for beginners. Learn how to trim clips, add effects, transitions, text, and music to create stunning videos for TikTok, YouTube, and Instagram.
+keywords: CapCut tutorial for beginners, how to use CapCut, CapCut video editing, CapCut tips and tricks, mobile video editing, TikTok video editor, CapCut effects guide, CapCut transitions, CapCut editing course
+author: Muhammad Yasir Bhutta
+course: capcut
+topic: getting-started
+show_toc: false
+toc: null
+show_practice_progress: false
+show_mini_project: false
+prev: null
+next: null
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Capcut
+    url: /capcut/
+---
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+## Learn CAPCUT
 
 - [Download PDF](https://yasirbhutta.github.io/capcut/index.pdf)  
 - To access the updated Class Notes of CapCut, please click on the following link:
