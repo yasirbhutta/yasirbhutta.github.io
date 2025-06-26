@@ -24,3 +24,18 @@ layout: default
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+{% if page.show_practice_progress %}
+{% assign topic = page.topic | default: "" %}
+{% assign course = page.course | default: "" %}
+{% assign show_mini_project = page.mini_project | default: "" %}
+{% include practice-and-progress.html topic=topic course=course show_mini_project=show_mini_project %}
+{% endif %}
+
+{% if page.show_toc %} 
+{% if page.toc %}
+<h3>Explore More Topics</h3>
+{% assign show_heading = false %}
+{% include {{ page.toc }} show_heading=show_heading %}
+{% endif %}
+{% endif %}
