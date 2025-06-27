@@ -6,6 +6,9 @@ keywords: python encapsulation, review questions python, oop review questions, p
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/oop-encapsulation/practice-and-progress/mini-projects-oop-encapsulation.html
 next: /python/docs/oop-abstraction/
 ---

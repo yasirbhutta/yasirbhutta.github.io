@@ -1,4 +1,28 @@
-
+---
+layout: page
+title: Python MRO (Method Resolution Order) – OOP Guide
+description: Understand MRO (Method Resolution Order) in Python OOP. Learn how Python resolves method calls in multiple inheritance using C3 linearization with examples.
+keywords: Python MRO, method resolution order, Python inheritance, OOP MRO, multiple inheritance Python, C3 linearization, Python class hierarchy, method lookup order, Python OOP tutorial
+toc: toc/python.html
+author: Muhammad Yasir Bhutta
+course: python
+topic: oop-inheritance
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/basics/
+next: /python/docs/operators/practice-and-progress/find-fix-mistakes-variables.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP
+    url: /python/docs/oop/
+  - title: Inheritance
+    url: /python/docs/oop-inheritance/
+---
 
 ## 🧠 What is MRO?
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: exercises
 title: "Python OOP Inheritance Coding Exercises for Beginners"
 meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
 keywords: Python OOP exercises, Python inheritance practice, OOP coding problems, Python class inheritance exercises, Python beginner OOP tasks, multiple inheritance Python examples, object-oriented programming challenges, Python coding practice
@@ -8,6 +8,9 @@ topic: "oop-inheritance"
 course: "python"
 prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
 next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
@@ -17,11 +20,6 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
-{% assign topic = "oop-inheritance" %}
-{% assign topics = site.data.python.coding-exercises.topics %}
-{% assign selected_topic = topics | where: "topic", topic | first %}
-{% assign exercises = selected_topic.exercises %}
-{% include pap/coding-exercises-loop.html exercises=exercises topic=topic %}
 
 
 <!-- ## 🧪 Practice Time!

@@ -6,6 +6,9 @@ keywords: python abstraction, oop exercises python, python abstraction practice,
 toc: toc/python.html
 topic: "oop-abstraction"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/oop-abstraction/practice-and-progress/find-fix-mistakes-oop-abstraction.html
 next: /python/docs/oop-abstraction/practice-and-progress/mini-projects-oop-abstraction.html
 ---

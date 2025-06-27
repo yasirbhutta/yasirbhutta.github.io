@@ -8,6 +8,9 @@ topic: "oop-encapsulation"
 course: "python"
 prev: /python/docs/classes.html
 next: /python/docs/oop-polymorphism/
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /

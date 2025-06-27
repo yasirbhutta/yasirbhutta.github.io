@@ -6,6 +6,9 @@ keywords: python encapsulation, oop exercises python, python encapsulation pract
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.html
 next: /python/docs/oop-encapsulation/practice-and-progress/mini-projects-oop-encapsulation.html
 ---

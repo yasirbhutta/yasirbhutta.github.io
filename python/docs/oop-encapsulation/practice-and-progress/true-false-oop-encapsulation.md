@@ -6,6 +6,9 @@ keywords: Python encapsulation, OOP in Python, True or False questions, Python q
 toc: toc/python.html
 topic: "oop-encapsulation"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/oop-encapsulation/
 next: /python/docs/oop-encapsulation/practice-and-progress/fill-blanks-oop-encapsulation.html
 ---

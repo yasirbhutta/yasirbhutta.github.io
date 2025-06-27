@@ -1,8 +1,30 @@
-### Python Multiple Inheritance: Beginner's Guide with Detailed Examples
-
+---
+layout: page
+title: Python Multiple Inheritance – OOP Explained with Examples
+description: Learn Python multiple inheritance in object-oriented programming. Understand how classes inherit from multiple parents with clear syntax and real-life examples.
+keywords: Python multiple inheritance, OOP inheritance Python, object oriented programming, Python classes, multiple parent classes, Python inheritance examples, OOP concepts, Python programming tutorial
+toc: toc/python.html
+author: Muhammad Yasir Bhutta
+course: python
+topic: oop-inheritance
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/basics/
+next: /python/docs/operators/practice-and-progress/find-fix-mistakes-variables.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: OOP
+    url: /python/docs/oop/
+  - title: Inheritance
+    url: /python/docs/oop-inheritance/
 ---
 
-#### **1. What is Multiple Inheritance?**
+## **1. What is Multiple Inheritance?**
 - **Definition**: A class can inherit attributes and methods from **multiple parent classes**.
 - **Comparison**: 
   - **Single Inheritance**: A class inherits from **one** parent.

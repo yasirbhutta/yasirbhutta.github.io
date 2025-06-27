@@ -6,6 +6,9 @@ keywords: Python Abstract Base Class, ABC in Python, @abstractmethod, abstract m
 toc: toc/python.html
 prev: /python/docs/oop-encapsulation/
 next: /python/docs/oop-inheritance/
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /

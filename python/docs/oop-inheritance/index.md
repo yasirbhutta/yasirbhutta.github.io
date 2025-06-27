@@ -8,6 +8,9 @@ topic: "oop-inheritance"
 course: "python"
 prev: /python/docs/classes.html
 next: /python/docs/oop-polymorphism/
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 breadcrumb:
   - title: Home
     url: /
@@ -17,12 +20,14 @@ breadcrumb:
     url: /python/docs/oop/
 ---
 
-## Topics Covered
+## Table of Contents
 - [What is Inheritiance?](#-what-is-inheritance)
 - [Single Inheritance](#single-inheritance)
 - [Multilevel Inheritance](#multilevel-inheritance-in-python)
   - [Multilevel Inheritance Example: Person, Student, and GraduateStudent in Python](#multilevel-inheritance-example-person-student-and-graduatestudent-in-python)
   - [Multilevel Inheritance Example: E-Commerce Product Catalog](#example-e-commerce-product-catalog)
+- [Python Multiple Inheritance](multiple-inheritance.md)
+- [What is Method Resolution Order (MRO) in Python?](what-is-mro.md)
   
 ## 🔷 What is Inheritance?
 
@@ -335,5 +340,5 @@ This example mirrors real-world systems like Shopify or WooCommerce, where inher
 
 ## Further reading
 
-- [What is Method Resolution Order (MRO) in Python?](oop-inheritance/what-is-mro.md)
-- [Multiple Inheritance in Python: Child Class with More Than One Parent](https://yasirbhutta.github.io/python/docs/oop-inheritance/multiple-inheritance.html)
+- [What is Method Resolution Order (MRO) in Python?](what-is-mro.md)
+- [Multiple Inheritance in Python: Child Class with More Than One Parent](multiple-inheritance.md)

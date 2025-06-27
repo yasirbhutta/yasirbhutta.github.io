@@ -6,6 +6,9 @@ keywords: Python OOP review questions, Python inheritance quiz, object-oriented 
 toc: toc/python.html
 topic: "oop-inheritance"
 course: "python"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
 prev: /python/docs/oop-inheritance/practice-and-progress/fill-blanks-oop-inheritance.html
 next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.html
 ---
