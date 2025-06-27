@@ -74,7 +74,7 @@ Follow these steps to install and run Jupyter Notebook on your Android device:
 
 ---
 
-{% assign video_type = "video" %}
+{% assign video_type = "short" %}
 {% assign video_id = "b2XNfD3xEwY" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
