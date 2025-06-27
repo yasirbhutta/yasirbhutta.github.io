@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Python Loop Control Quiz – Test Break, Continue"
+title: "Python Loop Control Quiz – Test Break, Continue and Else"
 description: Take this interactive Python quiz on loop control statements. Test your understanding of break, continue, and else with real coding questions.
 keywords: Python loop control quiz, break continue else quiz, Python quiz online, Python loop questions, loop control statements test, coding quiz Python, Python programming MCQs, interactive Python quiz
 author: "Muhammad Yasir Bhutta"

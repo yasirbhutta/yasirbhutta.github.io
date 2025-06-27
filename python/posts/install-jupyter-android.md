@@ -72,9 +72,11 @@ Follow these steps to install and run Jupyter Notebook on your Android device:
   - Type your Python code in the cell.
   - Tap on `Run` to execute your code.
 
-<div class="yt-short">
-<iframe src="https://www.youtube.com/embed/b2XNfD3xEwY?si=GGOHHcgmdYno53bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+---
+
+{% assign video_type = "video" %}
+{% assign video_id = "b2XNfD3xEwY" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
