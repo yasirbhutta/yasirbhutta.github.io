@@ -1,10 +1,23 @@
 ---
-layout: default
-title: Python Match Statement Tutorial - Master Structural Pattern Matching with Examples.
+layout: page
+title: "Python Control Flow Statements: Match Statement (Python 3.10+)"
 description: Learn Python's match-case statement introduced in Python 3.10. Explore structural pattern matching with examples, syntax, and practical use cases for cleaner and efficient code.
+keywords: Python match statement, structural pattern matching, Python pattern match, match case Python, Python conditional statements, Python 3.10 features, pattern matching examples, match case tutorial
+author: Muhammad Yasir Bhutta
+course: python
+topic: match-statement
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: null
+prev: /python/docs/control-flow/
+next: /python/docs/loop-control-statements/
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Control Flow
+    url: /python/docs/control-flow/
 ---
-
-# Python Control Flow Statements: Match Statement (Python 3.10+)
 
 ## **What is Structural Pattern Matching?**  
 
