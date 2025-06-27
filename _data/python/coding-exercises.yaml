@@ -1731,7 +1731,7 @@ topics:
   - topic: strings
     exercises:
 
-      - id: py-str-004
+      - id: py-ex-str-001
         title: "Replace Second Character Occurrence"
         task: |
           Write a Python function `replace_second_occurrence(main_string, old_char, new_char)` that replaces the second occurrence of `old_char` with `new_char` in `main_string`. If `old_char` appears fewer than two times, the string should remain unchanged.
@@ -1768,8 +1768,8 @@ topics:
         difficulty: "medium"
         resource:
           name: "📺 Watch the solution now!"
-          url: "https://www.youtube.com/watch?v=N7r1L5qpVKw"        
-
+          url: "https://yasirbhutta.github.io/python/docs/strings/practice-and-progress/solutions/py-ex-str-001.html"
+          
       - id: py-str-001
         title: "String Information"
         task: |
