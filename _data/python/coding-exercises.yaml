@@ -1734,9 +1734,12 @@ topics:
       - id: py-ex-str-001
         title: "Replace Second Character Occurrence"
         task: |
-          Write a Python function `replace_second_occurrence(main_string, old_char, new_char)` that replaces the second occurrence of `old_char` with `new_char` in `main_string`. If `old_char` appears fewer than two times, the string should remain unchanged.
+          Write a Python function `replace_second_occurrence(main_string, old_char, new_char)` 
+          - that replaces the second occurrence of `old_char` with `new_char` in `main_string`. 
+          - If `old_char` appears fewer than two times, the string should remain unchanged.
         requirements: |
-          - Define a function named `replace_second_occurrence` that accepts three arguments: the main string, the character to be replaced (old_char), and the new character (new_char).
+          - Define a function named `replace_second_occurrence` that accepts three arguments: 
+            - the main string, the character to be replaced (old_char), and the new character (new_char).
           - Use `str.find()` or `str.index()` to locate the position of the first occurrence of `old_char`.
           - Use string slicing and concatenation to reconstruct the string, ensuring only the second occurrence is replaced.
           - Handle cases where the `old_char` does not appear at least twice in the string.
