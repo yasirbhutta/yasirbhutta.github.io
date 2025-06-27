@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python While Loops: Fill in the Blanks Exercises"
-description: Improve your Python while loop skills with interactive fill-in-the-blanks exercises designed for beginners. Practice essential loop concepts and solidify your understanding.
-keywords: Python, while loops, fill in the blanks, Python exercises, beginner Python, programming practice, Python loops, coding drills, learn Python, interactive exercises
+title: "Python Loop Control – Fill in the Blanks Exercise"
+description: Test your knowledge of Python loop control statements with this fill-in-the-blanks exercise. Practice using break, continue, and else effectively.
+keywords: Python loop control, fill in the blanks Python, break continue else, Python loop exercise, loop control statements, Python coding practice, Python programming quiz, Python blanks worksheet
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: "Python While Loop Exercises: Practice & Master Loops"
-description: harpen your Python skills with interactive while loop exercises. Ideal for students and developers, these practice problems help you master iterative programming concepts.
-keywords: python while loop exercises, python loop practice, while loop examples, python programming exercises, learn python loops, iterative programming, python for beginners, coding challenges python, python practice problems, yasir bhutta python
+title: "Python Loop Control Exercises – Practice with Code"
+description: Strengthen your Python skills with hands-on loop control exercises. Practice using break, continue, and else to improve logic and flow control.
+keywords: Python loop exercises, loop control practice, break continue else Python, Python programming exercises, Python coding practice, control flow Python, loop control statements, Python hands-on tasks
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

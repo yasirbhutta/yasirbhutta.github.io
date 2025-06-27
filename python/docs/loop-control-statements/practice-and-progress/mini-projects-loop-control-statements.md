@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python While Loop Mini Projects: Number Guessing Game | Learn with Yasir"
-description: Learn Python while loops through practical mini-projects, including a step-by-step guide to building a Number Guessing Game. Enhance your coding skills with real-world applications.
-keywords: Python, while loop, mini projects, number guessing game, Python projects, coding exercises, programming practice, learn Python, Python development, beginner projects
+title: "Python Loop Control Mini Projects – Apply Your Skills"
+description: Apply your knowledge of Python loop control in real-world mini projects. Use break, continue, and else to build logic-driven programs and solve problems.
+keywords: Python mini projects, loop control projects, break continue else Python, Python coding mini tasks, hands-on Python projects, Python beginner projects, loop control practice, real-world Python problems
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

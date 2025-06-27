@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python While Loops: True/False Questions for Practice"
-description: Test your Python while loop knowledge with true or false questions. Practice beginner, intermediate, and advanced concepts including conditions, iteration, and control statements like break and else.
-keywords: Python, while loops, true false questions, Python practice, programming, coding, Python exercises, loops, control flow, break statement, else in loops
+title: "Python True/False Loop Practice – Loop Control Exercises"
+description: Practice Python loop control with true/false exercises. Strengthen your understanding of break, continue, and loop else through guided practice.
+keywords: Python loop exercises, break continue loop practice, loop else examples, true false loop control, Python loop quiz, Python practice problems, loop control statements, programming exercises Python
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

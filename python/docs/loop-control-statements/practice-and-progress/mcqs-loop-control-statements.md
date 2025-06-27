@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: "Python While Loops: MCQs for Practice"
-description: Sharpen your Python while loop skills with multiple-choice questions covering beginner, intermediate, and advanced concepts. Practice loop syntax, iteration, break, continue, and the else clause.
-keywords: Python, while loops, MCQs, multiple choice questions, Python practice, programming quizzes, Python exercises, loops, control flow, break statement, continue statement, else in loops
+title: "Python Loop Control MCQs – Break, Continue"
+description: Sharpen your Python skills with multiple-choice questions on loop control statements. Practice break, continue, and else with real coding scenarios.
+keywords: Python MCQs loop control, break continue else quiz, Python loop MCQs, Python loop control questions, programming MCQs, Python quiz for beginners, loop control multiple choice, Python coding test
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python While Loops: Online Quiz for Beginners"
-description: Test your Python while loop knowledge with this interactive online quiz. Practice loop syntax, iteration, and logic to assess and improve your coding skills.
-keywords: Python, while loops, online quiz, Python practice, programming quiz, coding assessment, beginner Python, learn Python, loop syntax, Python logic, interactive quiz
+title: "Python Loop Control Quiz – Test Break, Continue"
+description: Take this interactive Python quiz on loop control statements. Test your understanding of break, continue, and else with real coding questions.
+keywords: Python loop control quiz, break continue else quiz, Python quiz online, Python loop questions, loop control statements test, coding quiz Python, Python programming MCQs, interactive Python quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"

@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: "Python While Loops: Find & Fix Mistakes | Debugging Practice"
-description: Enhance your Python while loop debugging skills by identifying and correcting common errors in code. Practice with beginner, intermediate, and advanced challenges.
-keywords: Python, while loops, debugging, fix mistakes, find errors, Python practice, programming, coding, Python exercises, loop errors, syntax errors, indentation errors, problem solving
+title: "Python Loop Control – Find & Fix Code Errors"
+description: Practice debugging Python code with common loop control mistakes. Identify and fix errors using break, continue in realistic scenarios.
+keywords: Python loop debugging, find and fix Python errors, break continue else mistakes, Python loop control errors, Python practice exercises, debug Python code, loop control fix problems, Python loop quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "loop-control-statements"
