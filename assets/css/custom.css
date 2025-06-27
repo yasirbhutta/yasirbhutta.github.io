@@ -60,7 +60,7 @@ header {
     padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
 }
 
-.yt-video iframe, .yt-short iframe {
+.yt-video iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -68,7 +68,7 @@ header {
   height: 100%;
 }
 
-.yt-short {
+.yt-short-del {
   position: relative;
   width: 100%;
   max-width: 360px;
@@ -79,6 +79,19 @@ header {
   min-height:360px;
 }
 
+.yt-short {
+    width: 100%;
+    aspect-ratio: 9 / 16; /* Directly specifies the aspect ratio */
+    /* You might want to add a max-width if you don't want it to get too big on very large screens */
+    max-width: 400px; /* Example: limit the max width */
+    margin: 0 auto; /* Center the video if max-width is applied */
+}
+
+.yt-short iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 /* #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
