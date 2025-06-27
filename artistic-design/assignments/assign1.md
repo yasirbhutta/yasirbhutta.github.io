@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Social Media Campaign Design Assignment \| Assignment
+title: "Social Media Campaign Design – Assignment"
 description: "Assignment #1 introduces students to designing a social media campaign using Canva. This hands-on task builds essential skills in layout, color theory, and visual composition."
 keywords: YouTube thumbnail design, Canva tutorial, digital design assignment, artistic design, visual branding, graphic design tutorial, Canva thumbnail example, design assignment 1
 author: Muhammad Yasir Bhutta

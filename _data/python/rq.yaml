@@ -19,6 +19,37 @@ topics:
           - name: "Python Loop Statements"
             url: "https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools"
 
+      - id: while-review-004
+        prompt: "What is printed when `mystery_loop()` is called? Explain why the loop terminates early."
+        answer: >
+          The output will be:
+          5
+          4
+          3
+          Loop ended!
+          The loop terminates early because of the `break` statement when x becomes 2.
+        examples:
+          - code: |
+              def mystery_loop():
+                  x = 5
+                  while x > 0:
+                      print(x)
+                      x -= 1
+                      if x == 2:
+                          break
+                  print("Loop ended!")
+          - output: |
+              5
+              4
+              3
+              Loop ended!
+        explanation: >
+          The while loop normally would iterate from 5 down to 1, but the `break` statement
+          causes an early exit when x reaches 2. This demonstrates how `break` can be used
+          to terminate a loop before its normal completion condition is met.
+        resources:
+          - name: "Python break statement"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
 
       - id: for-review-003
         prompt: "What are the loop control statements (break, continue, else) and how do they work?"
@@ -35,10 +66,125 @@ topics:
           - name: "Loop Control Statements"
             url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
 
-
-
   - topic: loops-while
     questions:
+
+course: python
+topics:
+  - topic: loops-while
+    questions:
+      - id: while-mcq-001
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          i = 1
+          while i < 10:
+              print(i)
+              i += 2
+        options:
+          - "1 2 3 4 5 6 7 8 9"
+          - "1 3 5 7 9"
+          - "0"
+          - "IndentationError: expected an indented block"
+        answer: "1 3 5 7 9"
+        explanation: "The loop starts at 1 and increments by 2 each iteration, printing odd numbers until i reaches 9."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/zdLNmwO1u8Y"
+
+      - id: while-mcq-002
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          i = 0
+          while i < 5:
+              print(i)
+              i += 1
+          else:
+              print("Done")
+        options:
+          - "0 1 2 3 4 Done"
+          - "0 1 2 3 Done"
+          - "SyntaxError: invalid syntax"
+          - "IndentationError: expected an indented block"
+        answer: "0 1 2 3 4 Done"
+        explanation: "The loop prints 0-4, then the else clause executes after normal loop completion."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/9Zw-LuNX9h0"
+
+      - id: while-mcq-003
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          while x > 0:
+              print(x)
+              x -= 2
+        options:
+          - "9 7 5 3 1"
+          - "10 8 6 4 2"
+          - "10 9 8 7 6"
+          - "The code will run indefinitely."
+        answer: "10 8 6 4 2"
+        explanation: "The loop starts at 10 and decrements by 2 each iteration, stopping when x reaches 0."
+        resources:
+          - type: video
+            url: "https://bit.ly/3AdTqka"
+
+      - id: while-mcq-004
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          count = 0
+          while count < 3:
+              print(count)
+              count += 1
+        options:
+          - "0 1 2"
+          - "0 1"
+          - "1 2 3"
+          - "The code will run indefinitely."
+        answer: "0 1 2"
+        explanation: "The loop prints count values from 0 up to (but not including) 3."
+
+      - id: while-review-001
+        difficulty: medium
+        question: What are the basic components and syntax of a Python while loop?
+        language: python
+        code: null
+        answer: >
+          A Python while loop repeatedly executes a block of code as long as its condition remains True.
+          The basic syntax is: `while condition:` followed by an indented block of code.
+          The loop continues until the condition evaluates to False or a break statement is encountered.
+        examples:
+          - "Basic loop: `count = 0`\n`while count < 5: print(count); count += 1`"
+          - "Infinite loop: `while True: print('Running...')`"
+        resources:
+          - name: "Python while Loops Documentation"
+            url: "https://docs.python.org/3/reference/compound_stmts.html#while"
+
+      - id: while-review-002
+        difficulty: medium
+        question: How do you prevent and handle infinite while loops?
+        language: python
+        code: null
+        answer: >
+          To prevent infinite loops:
+          1. Ensure the loop condition will eventually become False
+          2. Include a way to modify the condition variable within the loop
+          3. Use break statements with clear exit conditions
+          4. Consider adding a maximum iteration count as a safeguard
+        examples:
+          - "Safe counter: `max_attempts = 3`\n`attempts = 0`\n`while attempts < max_attempts: ...`"
+          - "User input exit: `while True: if input('Quit? ') == 'y': break`"
+        resources:
+          - name: "Python Loop Control"
+            url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
       - id: while-review-001
         prompt: "What are the basic components and syntax of a Python while loop?"
         answer: >
@@ -66,6 +212,23 @@ topics:
         resources:
           - name: "Python Loop Control"
             url: "https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops"
+
+      - id: while-review-005
+        prompt: "Why does this loop run infinitely? How would you fix it?"
+        code: |
+          def countdown(n):
+              while n > 0:
+                  print(n)
+                  n += 1  # Problem here
+              print("Blastoff!")
+        answer: >
+          The loop runs infinitely because:
+          1. The condition `n > 0` remains always true since `n` is incremented (`n += 1`) instead of decremented
+          2. For any positive starting `n`, the value keeps increasing forever
+          To fix it, change `n += 1` to `n -= 1` to create a proper countdown.
+        resources:
+          - name: "Python while loops"
+            url: "https://docs.python.org/3/reference/compound_stmts.html#the-while-statement"
 
       - id: while-review-004
         prompt: "When should you use a while loop versus a for loop in Python?"
@@ -263,6 +426,23 @@ topics:
 
   - topic: if-elif-else
     questions:
+      - id: cond-review-001
+        prompt: "This code incorrectly classifies some leap years (e.g., 2000). Identify the flaw and fix the logic."
+        code: |
+          def is_leap_year(year):  
+            if year % 4 == 0:  
+              return True  
+            elif year % 100 == 0:  
+              return False  
+            elif year % 400 == 0:  
+              return True  
+            else:  
+              return False  
+        answer: null
+        examples:
+        resources:
+          - name: null
+            url: null
       - id: cond-review-001
         prompt: "What is the purpose of the 'if' statement in Python?"
         answer: "The 'if' statement is used for conditional execution. It evaluates a condition and executes its block of code only if the condition is True."

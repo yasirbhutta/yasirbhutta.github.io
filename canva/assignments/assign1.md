@@ -1,4 +1,25 @@
-# Canva Assignment: Create a YouTube Thumbnail!
+---
+layout: page
+title: "Canva Assignment: Create a YouTube Thumbnail (Assignment #1)"
+description: Learn how to design a YouTube thumbnail using Canva in Assignment #1. Follow step-by-step instructions to create eye-catching, professional visuals for your videos.
+keywords: Canva YouTube thumbnail, YouTube thumbnail design, Canva assignment, graphic design assignment, YouTube template, social media design, create thumbnail, assignment 1 Canva, visual design task
+author: Muhammad Yasir Bhutta
+course: canva
+topic: getting-started
+show_toc: false
+toc: null
+show_practice_progress: false
+show_mini_project: false
+prev: /canva/
+next: null
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Canva
+    url: /canva/
+---
+
+## Canva Assignment: Create a YouTube Thumbnail!
 
 - [Download PDF](assign1.pdf)
 

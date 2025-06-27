@@ -1,8 +1,84 @@
 course: python
 topics:
-
   - topic: loop-control-statements
     questions:
+      - id: for-mcq-001
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          for i in range(5):
+              if i == 3:
+                  continue
+              print(i)
+        options:
+          - "0 1 2 3"
+          - "0 1 2 4"
+          - "SyntaxError: invalid syntax"
+          - "IndentationError: expected an indented block"
+        answer: "0 1 2 4"
+        explanation: "The continue statement skips iteration when i==3, so 3 is not printed."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/x7CIxqoqccY"
+
+      - id: for-mcq-002
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          for i in range(5):
+              if i == 3:
+                  break
+              print(i)
+        options:
+          - "0 1 2"
+          - "0 1 2 3"
+          - "1 2 3"
+          - "0 1 2 3 4"
+        answer: "0 1 2"
+        explanation: "The break statement exits the loop completely when i==3."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/XNLL6j-P61A"
+
+      - id: while-mcq-003
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          i = 0
+          while i < 5:
+              i += 1
+              if i == 3:
+                  break
+              print(i)
+          else:
+              print("Loop completed")
+        options:
+          - "1 2"
+          - "1 2 Loop completed"
+          - "1 2 3"
+          - "1 2 3 Loop completed"
+        answer: "1 2"
+        explanation: "The break exits the loop before completion, so the else clause doesn't execute."
+        resources:
+          - type: video
+            url: "https://youtu.be/LfF9CsyVRgU"
+
+      - id: while-mcq-004
+        difficulty: medium
+        question: What does the 'break' statement do in a while loop?
+        language: python
+        code: null
+        options:
+          - "Pauses the loop for 1 second"
+          - "Skips to the next iteration"
+          - "Exits the loop immediately"
+          - "Restarts the loop"
+        answer: "Exits the loop immediately"
+        explanation: "The break statement exits the entire loop structure regardless of the loop condition."
+
       - id: while-mcq-004
         difficulty: medium
         question: What does the 'break' statement do in a while loop?
@@ -101,6 +177,98 @@ topics:
         answer: "while condition: code"
         explanation: "Python uses the 'while condition:' syntax with indentation for blocks, not curly braces."
 
+      - id: while-mcq-001
+        difficulty: easy
+        question: What is the correct syntax for a basic while loop in Python?
+        language: python
+        code: null
+        options:
+          - "while (condition) { code }"
+          - "while condition: code"
+          - "while condition { code }"
+          - "while condition then code"
+        answer: "while condition: code"
+        explanation: "Python uses the 'while condition:' syntax with indentation for blocks, not curly braces."
+
+      - id: while-mcq-002
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          i = 1
+          while i < 10:
+              print(i)
+              i += 2
+        options:
+          - "1 2 3 4 5 6 7 8 9"
+          - "1 3 5 7 9"
+          - "0"
+          - "IndentationError: expected an indented block"
+        answer: "1 3 5 7 9"
+        explanation: "The loop starts at 1 and increments by 2 each iteration, printing odd numbers until i reaches 9."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/zdLNmwO1u8Y"
+
+      - id: while-mcq-003
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          i = 0
+          while i < 5:
+              print(i)
+              i += 1
+          else:
+              print("Done")
+        options:
+          - "0 1 2 3 4 Done"
+          - "0 1 2 3 Done"
+          - "SyntaxError: invalid syntax"
+          - "IndentationError: expected an indented block"
+        answer: "0 1 2 3 4 Done"
+        explanation: "The loop prints 0-4, then the else clause executes after normal loop completion."
+        resources:
+          - type: video
+            url: "https://youtube.com/shorts/9Zw-LuNX9h0"
+
+      - id: while-mcq-004
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          while x > 0:
+              print(x)
+              x -= 2
+        options:
+          - "9 7 5 3 1"
+          - "10 8 6 4 2"
+          - "10 9 8 7 6"
+          - "The code will run indefinitely."
+        answer: "10 8 6 4 2"
+        explanation: "The loop starts at 10 and decrements by 2 each iteration, stopping when x reaches 0."
+        resources:
+          - type: video
+            url: "https://bit.ly/3AdTqka"
+
+      - id: while-mcq-005
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          count = 0
+          while count < 3:
+              print(count)
+              count += 1
+        options:
+          - "0 1 2"
+          - "0 1"
+          - "1 2 3"
+          - "The code will run indefinitely."
+        answer: "0 1 2"
+        explanation: "The loop prints count values from 0 up to (but not including) 3."
+
       - id: while-mcq-002
         difficulty: easy
         question: What is the output of this while loop?
@@ -186,6 +354,177 @@ topics:
           - "loop i from 0 to 9: print(i)"
         answer: "for i in range(10): print(i)"
         explanation: "Python uses the 'for item in iterable:' syntax with indentation for blocks."
+
+      - id: for-mcq-001
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          for i in range(10):
+              if i % 2 == 0:
+                  print(i)
+        options:
+          - "0 1 2 3 4 5 6 7 8 9"
+          - "0 2 4 6 8"
+          - "2 4 6 8"
+          - "IndentationError: expected an indented block"
+        answer: "0 2 4 6 8"
+        explanation: "The code prints even numbers between 0-9 (inclusive) since i%2==0 checks for even numbers."
+        resources:
+          - type: video
+            url: "https://bit.ly/3WKH9wE"
+
+      - id: for-mcq-002
+        difficulty: easy
+        question: What is the correct syntax for a for loop in Python?
+        language: python
+        code: null
+        options:
+          - "for (int i = 0; i < 10; i++):"
+          - "for i in range(10):"
+          - "for i = 0 to 9:"
+          - "for i in 10:"
+        answer: "for i in range(10):"
+        explanation: "Python uses 'for item in iterable:' syntax, with range() being the most common way to generate number sequences."
+        resources:
+          - type: video
+            url: "https://youtu.be/2mhrDgBEp10"
+
+      - id: for-mcq-003
+        difficulty: easy
+        question: What will be the output of the following code?
+        language: python
+        code: |
+          for i in range(5):
+            print(i * 2)
+        options:
+          - "0 1 2 3 4"
+          - "2 4 6 8 10"
+          - "10 8 6 4 2"
+          - "0 2 4 6 8"
+        answer: "0 2 4 6 8"
+        explanation: "The loop iterates 0-4 and prints each number multiplied by 2."
+        resources:
+          - type: video
+            url: "https://bit.ly/3WqjjEP"
+
+      - id: for-mcq-004
+        difficulty: medium
+        question: How many times is the print statement executed?
+        language: python
+        code: |
+          for i in range(3):
+              for j in range(2):
+                  print(f"i = {i}, j = {j}")
+        options:
+          - "3 times"
+          - "5 times"
+          - "6 times"
+          - "9 times"
+        answer: "6 times"
+        explanation: "Outer loop runs 3 times, inner loop runs 2 times for each outer iteration (3×2=6)."
+        resources:
+          - type: video
+            url: "https://youtu.be/CYeZI3uCiTI"
+
+      - id: for-mcq-005
+        difficulty: medium
+        question: What will the program output if the number variable is set to 5?
+        language: python
+        code: |
+          number = 5
+          if number < 0:
+              print("Factorial is not defined for negative numbers.")
+              result = None
+          elif number == 0 or number ==1:
+              result = 1
+          else:
+              result = 1
+              for i in range(2, number + 1):
+                  result *= i
+          if result is not None:
+              print("Factorial of", number, "is", result)
+        options:
+          - "Factorial is not defined for negative numbers."
+          - "Factorial of 5 is 5"
+          - "Factorial of 5 is 120"
+          - "Factorial of 5 is 24"
+        answer: "Factorial of 5 is 120"
+        explanation: "The code calculates 5! (5×4×3×2×1=120) using a for loop."
+        resources:
+          - type: video
+            url: "https://youtu.be/K5LV5I2hFg4"
+
+      - id: for-mcq-006
+        difficulty: easy
+        question: What is the primary purpose of a for loop in Python?
+        language: python
+        code: null
+        options:
+          - "To define a function"
+          - "To iterate over a sequence"
+          - "To create a conditional statement"
+          - "To perform mathematical operations"
+        answer: "To iterate over a sequence"
+        explanation: "For loops are designed to iterate over iterables like lists, strings, or range objects."
+
+      - id: for-mcq-007
+        difficulty: easy
+        question: What does the range() function do when used in a for loop?
+        language: python
+        code: null
+        options:
+          - "Generates a sequence of numbers"
+          - "Defines a list"
+          - "Calculates the average"
+          - "Determines the length of a string"
+        answer: "Generates a sequence of numbers"
+        explanation: "range() generates number sequences without creating the full list in memory."
+
+      - id: for-mcq-008
+        difficulty: medium
+        question: How can you create a nested loop in Python?
+        language: python
+        code: null
+        options:
+          - "by using a loop inside another loop with proper indentation"
+          - "by using a loop inside another loop with parentheses"
+          - "by using a nested keyword before the inner loop"
+          - "by using a colon after the outer loop and before the inner loop"
+        answer: "by using a loop inside another loop with proper indentation"
+        explanation: "Python uses indentation to define nested blocks, including loops."
+
+      - id: for-mcq-009
+        difficulty: medium
+        question: What does this code accomplish?
+        language: python
+        code: |
+          total = 0
+          for i in range(1, 6):
+              total += i
+          print(total)
+        options:
+          - "It prints numbers from 1 to 5."
+          - "It calculates the sum of numbers from 1 to 5."
+          - "It prints the sum of numbers from 1 to 6."
+          - "It calculates the sum of numbers from 0 to 5."
+        answer: "It calculates the sum of numbers from 1 to 5."
+        explanation: "The loop iterates from 1 to 5 (inclusive) and accumulates the sum in 'total'."
+
+      - id: for-mcq-010
+        difficulty: easy
+        question: What does the following code print?
+        language: python
+        code: |
+          for x in range(5, 8):
+              print(x)
+        options:
+          - "5 6 7"
+          - "5 6 7 8"
+          - "4 5 6 7"
+          - "5 6 7 8 9"
+        answer: "5 6 7"
+        explanation: "range(5,8) generates numbers from 5 up to but not including 8."
 
       - id: for-mcq-002
         difficulty: easy
