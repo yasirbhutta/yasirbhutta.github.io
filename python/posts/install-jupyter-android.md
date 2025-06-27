@@ -1,13 +1,32 @@
 ---
-layout: default
-title: How to - Install Jupyter Notebook on an Android device
+layout: page
+title: "How to: Install Jupyter Notebook on an Android device | Python Tutorial for Beginners"
 description: Step-by-step guide to install Jupyter Notebook on Android using Pydroid 3 IDE. Learn how to set up Python coding on the go with Jupyter Notebook on your mobile device.
-keywords: "install jupyter notebook android, jupyter notebook mobile, python on android, pydroid 3 jupyter setup, jupyter notebook tutorial android, python coding on android, jupyter notebook step-by-step guide, run jupyter on android, python beginners android, jupyter notebook installation guide"
+keywords: install jupyter notebook android, jupyter notebook mobile, python on android, pydroid 3 jupyter setup, jupyter notebook tutorial android, python coding on android, jupyter notebook step-by-step guide, run jupyter on android, python beginners android, jupyter notebook installation guide
+toc: toc/python.html
+prev: null
+next: null
+course: python
+topic: lists
+show_toc: true
+show_practice_progress: null
+show_mini_project: null
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Tools
+    url: /python/docs/tools.html
 ---
 
-# How to: Install Jupyter Notebook on an Android device \| Python Tutorial for Beginners
+## **📺 Video Tutorial: How to: Install Jupyter Notebook on an Android device | Python Tutorial for Beginners**  
 
-# Install Jupyter Notebook on an Android Device
+{% assign video_type = "short" %}
+{% assign video_id = "b2XNfD3xEwY" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+## Install Jupyter Notebook on an Android Device
 
 Follow these steps to install and run Jupyter Notebook on your Android device:
 
@@ -73,10 +92,6 @@ Follow these steps to install and run Jupyter Notebook on your Android device:
   - Tap on `Run` to execute your code.
 
 ---
-
-{% assign video_type = "short" %}
-{% assign video_id = "b2XNfD3xEwY" %}
-{% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ## 📘 **Related Topics**
 
