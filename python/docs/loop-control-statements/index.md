@@ -32,7 +32,7 @@ These statements modify the behavior of loops.
 **continue:** Skips the current iteration and moves to the next one.
 **pass:** Does nothing, often used as a placeholder.
 
-## 1. `break`
+## 1. `break` Statement
 
 Exits the loop prematurely.
 
@@ -42,7 +42,7 @@ for item in sequence:
         break  # exit the loop
 ```
 
- ### Example 1: Using Break Statement in a Loop with Range
+### Example 1: Using Break Statement in a Loop with Range
 
 ```python
 for x in range(3):
@@ -116,7 +116,7 @@ ALERT: Temperature 45°C is unsafe! Shutting down.
 
 ---
 
-## 2. `continue`
+## 2. `continue` Statement
 
 Skips the current iteration and proceeds to the next iteration of the loop.
 
@@ -190,7 +190,7 @@ The `pass` statement is often used in loops as a placeholder or to intentionally
 
 ---
 
-### **1. Basic `pass` in a `for` Loop**  
+### **Example 7: Basic `pass` in a `for` Loop**  
 **Use Case:** Skip specific items without any action.  
 
 ```python
@@ -217,7 +217,7 @@ kiwi
 
 ---
 
-### **2. `pass` vs `continue` in a Loop**  
+### **Example 8: `pass` vs `continue` in a Loop**  
 **Key Difference:**  
 - `pass` → Does nothing, continues execution.  
 - `continue` → Skips the rest of the loop body and moves to the next iteration.  
@@ -259,7 +259,7 @@ for num in numbers:
 
 ---
 
-### **3. `pass` in a `while` Loop (Placeholder Logic)**  
+### **Example 9: `pass` in a `while` Loop (Placeholder Logic)**  
 **Use Case:** Temporarily ignore a condition while developing.  
 
 ```python
@@ -287,7 +287,7 @@ Count: 4
 
 ---
 
-### **4. Using `pass` in Nested Loops**  
+### **Example 10: Using `pass` in Nested Loops**  
 **Use Case:** Skip certain combinations in a nested loop.  
 
 ```python
