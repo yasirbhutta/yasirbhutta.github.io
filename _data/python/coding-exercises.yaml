@@ -1730,6 +1730,46 @@ topics:
 
   - topic: strings
     exercises:
+
+      - id: py-str-004
+        title: "Replace Second Character Occurrence"
+        task: |
+          Write a Python function `replace_second_occurrence(main_string, old_char, new_char)` that replaces the second occurrence of `old_char` with `new_char` in `main_string`. If `old_char` appears fewer than two times, the string should remain unchanged.
+        requirements: |
+          - Define a function named `replace_second_occurrence` that accepts three arguments: the main string, the character to be replaced (old_char), and the new character (new_char).
+          - Use `str.find()` or `str.index()` to locate the position of the first occurrence of `old_char`.
+          - Use string slicing and concatenation to reconstruct the string, ensuring only the second occurrence is replaced.
+          - Handle cases where the `old_char` does not appear at least twice in the string.
+        input: |
+          # Example 1: Basic replacement
+          main_string_1 = "hello world"
+          old_char_1 = "l"
+          new_char_1 = "X"
+
+          # Example 2: Another replacement
+          main_string_2 = "banana"
+          old_char_2 = "a"
+          new_char_2 = "Z"
+
+          # Example 3: Character appears only once
+          main_string_3 = "apple"
+          old_char_3 = "P" # Case sensitive, no match for 'P'
+          new_char_3 = "Q"
+
+          # Example 4: Character does not exist
+          main_string_4 = "test"
+          old_char_4 = "z"
+          new_char_4 = "Q"
+        output: |
+          Original: hello world, Old Char: l, New Char: X -> Result: helXo world
+          Original: banana, Old Char: a, New Char: Z -> Result: banZna
+          Original: apple, Old Char: P, New Char: Q -> Result: apple
+          Original: test, Old Char: z, New Char: Q -> Result: test
+        difficulty: "medium"
+        resource:
+          name: "📺 Watch the solution now!"
+          url: "https://www.youtube.com/watch?v=N7r1L5qpVKw"        
+
       - id: py-str-001
         title: "String Information"
         task: |
