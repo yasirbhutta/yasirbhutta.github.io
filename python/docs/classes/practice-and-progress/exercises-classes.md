@@ -9,10 +9,6 @@ prev: /python/docs/classes/practice-and-progress/find-fix-mistakes-classes.html
 next: /python/docs/classes/practice-and-progress/mini-projects-classes.html
 ---
 
-Sure! Here's a beginner-friendly exercise involving classes and basic tasks like defining attributes, methods, and creating objects.
-
----
-
 ### 🧠 **Exercise: Create a `Book` Class**
 
 **Task**: Write a class called `Book` that represents a book in a library. The class should have:
@@ -62,5 +58,3 @@ Book was not checked out.
 ```
 
 ---
-
-Let me know when you're ready to see the solution — or I can review your version if you write it!

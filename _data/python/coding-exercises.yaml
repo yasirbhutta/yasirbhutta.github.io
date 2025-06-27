@@ -145,7 +145,9 @@ topics:
       - id: py-ce-while-011
         title: "Sum Numbers Until Zero Input"
         task: |
-          Write a Python program that continuously prompts the user to enter numbers. The program should calculate and display the sum of all entered numbers. The input process should terminate when the user enters the number `0`.
+          Write a Python program that continuously prompts the user to enter numbers. 
+          The program should calculate and display the sum of all entered numbers. 
+          The input process should terminate when the user enters the number `0`.
         requirements:
           - "Use a `while` loop to repeatedly take input."
           - "The loop must terminate when the user enters `0`."
