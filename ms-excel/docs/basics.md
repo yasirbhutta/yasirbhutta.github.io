@@ -88,6 +88,7 @@ Microsoft Excel: Interface
    - **Microsoft Excel** is also available as a **mobile app** for smartphones and tablets.
    - You can download the Excel app from app stores (such as **Google Play Store** for Android devices or the **Apple App Store** for iOS devices).
    - The mobile app allows you to view, edit, and collaborate on Excel files while on the go.
+   - [Video Tutorial: Install Excel App on android phone](basics/install-excel-app-on-android.md)
 
 3. **Online Version (Excel Online) 🌐**:
    - **Excel Online** is the web-based version of Excel.
@@ -111,10 +112,6 @@ Microsoft Excel: Interface
 ## Enter data manually in worksheet cells
 
 **Excel Tutorial in Urdu: Enter data manually in worksheet cells** 
-
-<!-- <div class="yt-video">
-<iframe src="https://www.youtube.com/embed/r84zUXFUIfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
 
 {% assign video_type = "video" %}
 {% assign video_id = "r84zUXFUIfc" %}
