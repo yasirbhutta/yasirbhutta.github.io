@@ -78,6 +78,11 @@ Follow these steps to install and run Jupyter Notebook on your Android device:
 {% assign video_id = "b2XNfD3xEwY" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
+## 📘 **Related Topics**
+
+* **PYTHON IDE or Editors** – Learn how to Install python.
+  👉 [Learn more](../docs/tools.md)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
