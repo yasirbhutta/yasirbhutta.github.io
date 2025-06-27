@@ -120,7 +120,7 @@ topics:
           - "Calculate correct factorial"
         input: "5"
         output: "120"
-        difficulty: "easy"
+        difficulty: "hard"
         hint: "Multiply numbers from 1 to n sequentially"
         resource:
           name: "Watch the Solution Now"
@@ -141,6 +141,24 @@ topics:
         resource:
           name: "Watch the Solution Now"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
+
+      - id: py-ce-while-011
+        title: "Sum Numbers Until Zero Input"
+        task: |
+          Write a Python program that continuously prompts the user to enter numbers. The program should calculate and display the sum of all entered numbers. The input process should terminate when the user enters the number `0`.
+        requirements:
+          - "Use a `while` loop to repeatedly take input."
+          - "The loop must terminate when the user enters `0`."
+          - "Initialize a sum variable to accumulate the numbers."
+          - "Convert user input to an integer before performing calculations."
+          - "Print the final sum after the loop finishes."
+        input: "5\n7\n8\n2\n0"
+        output: "Sum of the numbers: 22"
+        difficulty: "easy"
+        hint: "Initialize your sum to 0. Get the first number outside the loop. The `while` loop condition should check if the number is not 0. Inside the loop, add the number to the sum, then get the next number."
+        resource:
+          name: "Watch the Solution Now"
+          url: "https://www.youtube.com/watch?v=xvg69k1Fldc"
 
       - id: py-ce-while-009
         title: "Sum of Digits"

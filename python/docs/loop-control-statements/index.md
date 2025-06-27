@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python Loop Control Statements (break, continue, pass)"
-description: Learn how to use Python while loops with clear examples, syntax rules, and best practices.
-keywords: Python while loop, while loop syntax Python, Python loops tutorial, while loop examples, break and continue Python, Python loop control, while else Python, Python programming loops
+title: "Python Loop Control Statements – Break, Continue"
+description: Explore Python loop control statements—break, continue. Learn how to manage loop flow for more efficient and readable code.
+keywords: Python loop control statements, break continue else, Python loops tutorial, loop flow control in Python, Python programming guide, Python break example, Python continue usage, Python loop else
 author: Muhammad Yasir Bhutta
 course: python
 topic: loop-control-statements
@@ -19,7 +19,12 @@ breadcrumb:
     url: /python/docs/control-flow/
 ---
 
-# Python Loop Control Statements (break, continue, pass)
+## Table of Contents
+
+1. [break Statement](#1-break)
+2. [continue Statement](#2-continue)
+3. [pass Statement](#3-pass)
+4. [Tasks](#4-tasks)
 
 These statements modify the behavior of loops.
 
@@ -27,7 +32,7 @@ These statements modify the behavior of loops.
 **continue:** Skips the current iteration and moves to the next one.
 **pass:** Does nothing, often used as a placeholder.
 
-#### `break`
+## 1. `break`
 
 Exits the loop prematurely.
 
@@ -37,37 +42,15 @@ for item in sequence:
         break  # exit the loop
 ```
 
-#### `continue`
-
-Skips the current iteration and proceeds to the next iteration of the loop.
-
-```python
-for item in sequence:
-    if some_condition:
-        continue  # skip the rest of the code in this iteration
-    # code to execute if some_condition is False
-```
-
-#### `pass`
-
-A null statement, used as a placeholder.
-
-```python
-if condition:
-    pass  # do nothing
-```
-
-- [Video: How to Effectively Use Break and Continue Statements](https://www.youtube.com/watch?v=LfF9CsyVRgU&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=68)
-- [Video: Using Python break statement with a while loop](https://www.youtube.com/watch?v=KWuyQ7HQUBE&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=85)
-
-## Example #: Using Break Statement in a Loop with Range
+ ### Example 1: Using Break Statement in a Loop with Range
 
 ```python
 for x in range(3):
     if x == 1:
         break
+    print(x)
 ```
-#### Example 1: Exit a loop when a number is found
+### Example 2: Exit a loop when a number is found
 ```python
 # Search for the number 5 and exit the loop when found
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -89,9 +72,14 @@ Checking 5...
 Number 5 found! Exiting the loop.
 ```
 
----
+### **📺 Python Tutorial in Urdu: Using Python break statement with a while loop**  
 
-#### Example 2: Password validation with `while` loop
+{% assign video_type = "video" %}
+{% assign video_id = "v=KWuyQ7HQUBE" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+
+
+### Example 3: Password validation with `while` loop
 ```python
 # Keep asking for a password until the correct one is entered
 correct_password = "python123"
@@ -105,32 +93,7 @@ while True:
         print("Wrong password. Try again!")
 ```
 
----
-
-### Example 1: Skip even numbers using `continue` Statement
-
-Skips the **current iteration** and moves to the next loop cycle.
-
-```python
-# Print only odd numbers (skip even numbers)
-for num in range(1, 11):
-    if num % 2 == 0:
-        continue  # Skip even numbers
-    print(num)
-```
-
-**Output**:
-```
-1
-3
-5
-7
-9
-```
-
----
-
-#### Example 2: **Temperature Monitoring**  
+### Example 4: **Temperature Monitoring**  
 Stop monitoring if temperature exceeds a safe limit.
 ```python
 temperatures = [25, 30, 32, 28, 45, 29, 33]  # Sensor readings
@@ -153,7 +116,45 @@ ALERT: Temperature 45°C is unsafe! Shutting down.
 
 ---
 
-### Example 1: **Data Cleaning using `continue` Statement**  
+## 2. `continue`
+
+Skips the current iteration and proceeds to the next iteration of the loop.
+
+```python
+for item in sequence:
+    if some_condition:
+        continue  # skip the rest of the code in this iteration
+    # code to execute if some_condition is False
+```
+
+### **📺 Video Tutorial: How to Effectively Use Break and Continue Statements**  
+
+{% assign video_type = "video" %}
+{% assign video_id = "v=LfF9CsyVRgU" %}
+{% include youtube-video.html video_type=video_type video_id=video_id %}
+ 
+### Example 5: Skip even numbers using `continue` Statement
+
+Skips the **current iteration** and moves to the next loop cycle.
+
+```python
+# Print only odd numbers (skip even numbers)
+for num in range(1, 11):
+    if num % 2 == 0:
+        continue  # Skip even numbers
+    print(num)
+```
+
+**Output**:
+```
+1
+3
+5
+7
+9
+```
+
+### Example 6: **Data Cleaning using `continue` Statement**  
 Skip invalid entries when processing a dataset.
 ```python
 user_ages = [20, 15, "unknown", 30, -5, 25]  # Some invalid data
@@ -176,7 +177,19 @@ Valid ages:
 
 ---
 
-### **Task: Coffee Machine Stock Check using `break` Statement**  
+## 3. `pass`
+
+A null statement, used as a placeholder.
+
+```python
+if condition:
+    pass  # do nothing
+```
+---
+
+## 4. Tasks
+
+### **Task 1: Coffee Machine Stock Check using `break` Statement**  
    Simulate a coffee machine that stops serving when a drink is out of stock.  
    - **Input List**: `["latte", "cappuccino", "espresso", "mocha", "out_of_stock", "latte"]`  
    - **Goal**: Loop through the list and stop when "out_of_stock" is found.  
@@ -189,13 +202,13 @@ Valid ages:
      Out of stock! Machine stopping.  
      ```
      
-**Task: Skip Negative Numbers**  
+### **Task 2: Skip Negative Numbers**  
    Calculate the sum of positive numbers in a list, ignoring negatives.  
    - **Input**: `[5, -2, 10, -8, 3]`  
    - **Goal**: Use `continue` to skip negative values.  
    - **Output**: `Sum of positive numbers: 18`
 
-**Task: Simple Calculator with Exit using `continue` and `break`**  
+### **Task 3: Simple Calculator with Exit using `continue` and `break`**  
    Create a loop that:  
    - Lets users type numbers to add.  
    - Skips non-numeric inputs (use `continue`).  
@@ -210,7 +223,7 @@ Valid ages:
      Total: 8  
      ```
 
- 7. **Task: Movie Ticket Checker**  
+### **Task 4: Movie Ticket Checker**  
    Loop through a list of ages and:  
    - Skip ages < 0 (invalid).  
    - Stop if a "VIP" (age 100+) is found.  
@@ -223,7 +236,7 @@ Valid ages:
      VIP detected! Stopping sales.  
      ```
 
-8. **Task: Flight Booking System**  
+### **Task 5: Flight Booking System**  
    Check seat availability in a list. Stop when a seat is found, or skip "reserved" seats.  
    - **Input**: `["reserved", "reserved", "available", "reserved"]`  
    - **Output**:  
