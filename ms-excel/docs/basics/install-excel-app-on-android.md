@@ -25,6 +25,8 @@ breadcrumb:
 {% assign video_id = "Ii4pl4f6mS8" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
+---
+
 To install the **Excel App on your Android phone**, follow these simple steps:
 
 ---
@@ -66,3 +68,7 @@ You can also open Excel files directly from **email attachments**, **Google Driv
 
 ---
 
+## 📘 **Related Topics**
+
+* **Microsoft Excel Basics** – Learn Microsoft Excel basics with this comprehensive guide. Explore topics like workbooks, worksheets, managing sheets, entering data, formulas, functions, and Excel's availability across platforms. Perfect for beginners to master Excel fundamentals.
+  👉 [Learn more](index.md)
