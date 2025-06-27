@@ -88,7 +88,7 @@ Microsoft Excel: Interface
    - **Microsoft Excel** is also available as a **mobile app** for smartphones and tablets.
    - You can download the Excel app from app stores (such as **Google Play Store** for Android devices or the **Apple App Store** for iOS devices).
    - The mobile app allows you to view, edit, and collaborate on Excel files while on the go.
-   - [Video Tutorial: Install Excel App on android phone](basics/install-excel-app-on-android.md)
+   - [Video Tutorial: Install Excel App on android phone](install-excel-app-on-android.md)
 
 3. **Online Version (Excel Online) 🌐**:
    - **Excel Online** is the web-based version of Excel.
