@@ -10,8 +10,8 @@ show_toc: true
 toc: toc/ms-excel-toc.html
 show_practice_progress: false
 show_mini_project: false
-prev: /ms-excel/docs/excel/
-next: /ms-excel/docs/functions/sumif.html
+prev: /ms-excel/
+next: /ms-excel/docs/basics/
 breadcrumb:
   - title: Home
     url: /
