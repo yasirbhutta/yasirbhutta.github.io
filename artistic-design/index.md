@@ -4,7 +4,7 @@ title: Artistic Design Concepts – Explore Creativity in Digital & Visual Arts
 description: Discover the fundamentals of artistic design, including color theory, composition, typography, and digital tools. Learn how to create visually stunning art for web, print, and media.
 keywords: artistic design concepts, visual design basics, creative design ideas, digital art principles, color theory design, design composition, artistic techniques, graphic design learning, elements of art and design
 author: Muhammad Yasir Bhutta
-course: canva
+course: artistic-design
 topic: getting-started
 show_toc: false
 toc: null
