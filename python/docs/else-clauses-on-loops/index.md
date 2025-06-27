@@ -1,10 +1,32 @@
 ---
-layout: default
+layout: page
 title: Python else Clause in Loops - Master for and while else with Examples
 description: Learn how to use the else clause with Python loops. Explore for and while else with examples, syntax, and practical use cases for better control flow understanding..
+keywords: Python for loop, Python loop examples, for loop syntax Python, iteration in Python, loop control Python, beginner Python loops, Python range loop, Python programming basics
+toc: toc/python.html
+prev: /python/docs/control-flow/
+next: /python/docs/match-statement/
+course: python
+topic: else-clauses-on-loops
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Control Flow Statements
+    url: /python/docs/python/docs/control-flow/
 ---
+## Table of Contents
 
-# Python Control Flow Statements: The else Clauses on Loops
+1. [The else Clauses on Loops](#1-the-else-clauses-on-loops)
+2. [Syntax for Python `else` Clause in Loops](#2-syntax-for-python-else-clause-in-loops)
+3. [Example with a `for` loop](#3-example-with-a-for-loop)
+4. [Example with a `while` loop](#4-example-with-a-while-loop)
+
+## 1. The else Clauses on Loops
 
 In Python, the `else` clause can be used with loops (`for` and `while`). This may be surprising at first since most people associate `else` with `if` statements. However, in loops, the `else` clause has a unique behavior:
 
@@ -13,7 +35,7 @@ In Python, the `else` clause can be used with loops (`for` and `while`). This ma
 
 The `else` clause in loops (`for` and `while`) in Python is a bit unusual because most people associate `else` with `if` statements. In the context of loops, the `else` clause is executed only when the loop finishes normally, meaning it wasn’t interrupted by a `break` statement.
 
-## Syntax for Python `else` Clause in Loops
+## 2. Syntax for Python `else` Clause in Loops
 
 The `else` clause can be used with both `for` and `while` loops in Python. Here's the general syntax:
 
@@ -27,7 +49,7 @@ else:
     # Code block to execute if the loop completes without a break
 ```
 
-**While Loop with else**
+### **While Loop with else**
 
 ```python
 while condition:
@@ -50,7 +72,7 @@ else:
    - If the loop is terminated by a `break`, the `else` block is skipped.
 
 
-## Example with a `for` loop
+### 3. Example with a `for` loop
 
 Let’s say we’re searching for a specific number in a list.
 
@@ -87,37 +109,7 @@ else:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### **3. Combined Example**  
-**Use Case:** Login system with limited attempts.
-```python
-max_attempts = 3
-correct_password = "secret123"
-
-for attempt in range(1, max_attempts + 1):
-    password = input(f"Attempt {attempt}: Enter password: ")
-    if password != correct_password:
-        print("Wrong password. Try again.")
-        continue  # Skip to next attempt
-    else:
-        print("Login successful!")
-        break  # Exit loop on success
-else:
-    print("Account locked. Too many failed attempts.")
-```
-
-**Output** (if user fails 3 times):
-```
-Attempt 1: Enter password: hello
-Wrong password. Try again.
-Attempt 2: Enter password: test
-Wrong password. Try again.
-Attempt 3: Enter password: 123
-Wrong password. Try again.
-Account locked. Too many failed attempts.
-```
-
-
-#### Example with a `while` loop
+### 4. Example with a `while` loop
 
 ```python
 # Counter
@@ -139,16 +131,13 @@ else:
 - If `i` equals 3, the loop breaks.
 - Since the loop is broken before it naturally ends, the `else` block is skipped.
 
-#### Why Use the `else` Clause with Loops?
+## 📘 **Related Topics**
 
-Using `else` with loops can be helpful when you're performing a search or some operation where you want to know if the loop completed successfully or was interrupted by a `break`. It’s a clean way to handle scenarios where the loop might end early.
-  
-
-#### Example #: for..else
-
-```python
-for x in range(3):
-    print(x)
-else:
-    print('Final x = %d' % (x))
-```
+* **Python FOR Loops** – A `for` loop in Python is a programming statement that repeats a block of code a fixed number of times.
+  👉 [Learn more](../loops-for/)
+* **Python while Loops** – A `while` loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
+  👉 [Learn more](../loops-while/)
+* **Python Loop Control Statements** – Learn about Break, Continue & Pass. 
+  👉 [Learn more](../loop-control-statements/)
+* **Match Statement (Python 3.10+)** – Introduced in Python 3.10, **`match-case`** is a modern way to handle data-driven decision-making.
+  👉 [Learn more](../match-statement/)

@@ -125,3 +125,14 @@ match day:
         print("Invalid day.")
 ```
 for more details, [Say Goodbye to Long If-Elif Chains with Python's Match Case](../../posts/match-case.md)
+
+## 📘 **Related Topics**
+
+* **Python FOR Loops** – A `for` loop in Python is a programming statement that repeats a block of code a fixed number of times.
+  👉 [Learn more](../loops-for/)
+* **Python while Loops** – A `while` loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
+  👉 [Learn more](../loops-while/)
+* **Python Loop Control Statements** – Learn about Break, Continue & Pass. 
+  👉 [Learn more](../loop-control-statements/)
+* **Python else Clause in Loops** – In Python, the `else` clause can be used with loops (`for` and `while`).
+  👉 [Learn more](../else-clauses-on-loops/)

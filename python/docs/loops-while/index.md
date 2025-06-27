@@ -243,8 +243,12 @@ The sum of all numbers is: 35
 
 ## 📘 **Related Topics**
 
-* **Loop Control Statements (break, continue, pass)** – **break:** Terminates the loop entirely. **continue:** Skips the current iteration and moves to the next one. **pass:** Does nothing, often used as a placeholder.
+* **Python FOR Loops** – A `for` loop in Python is a programming statement that repeats a block of code a fixed number of times.
+  👉 [Learn more](../loops-for/)
+* **Python Loop Control Statements** – Learn about Break, Continue & Pass. 
   👉 [Learn more](../loop-control-statements/)
-* **The else Clauses on Loops)** – In Python, the else clause can be used with loops (for and while). This may be surprising at first since most people associate else with if statements.
+* **Python else Clause in Loops** – In Python, the `else` clause can be used with loops (`for` and `while`).
   👉 [Learn more](../else-clauses-on-loops/)
+* **Match Statement (Python 3.10+)** – Introduced in Python 3.10, **`match-case`** is a modern way to handle data-driven decision-making.
+  👉 [Learn more](../match-statement/)
 

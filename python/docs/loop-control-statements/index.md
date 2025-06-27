@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Python Loop Control Statements – Break, Continue"
+title: "Python Loop Control Statements – Break, Continue & Pass"
 description: Explore Python loop control statements—break, continue. Learn how to manage loop flow for more efficient and readable code.
 keywords: Python loop control statements, break continue else, Python loops tutorial, loop flow control in Python, Python programming guide, Python break example, Python continue usage, Python loop else
 author: Muhammad Yasir Bhutta
@@ -116,6 +116,36 @@ ALERT: Temperature 45°C is unsafe! Shutting down.
 
 ---
 
+### Example 5: **Login system with limited attempts.** 
+
+**Use Case:** 
+```python
+max_attempts = 3
+correct_password = "secret123"
+
+for attempt in range(1, max_attempts + 1):
+    password = input(f"Attempt {attempt}: Enter password: ")
+    if password != correct_password:
+        print("Wrong password. Try again.")
+        continue  # Skip to next attempt
+    else:
+        print("Login successful!")
+        break  # Exit loop on success
+else:
+    print("Account locked. Too many failed attempts.")
+```
+
+**Output** (if user fails 3 times):
+```
+Attempt 1: Enter password: hello
+Wrong password. Try again.
+Attempt 2: Enter password: test
+Wrong password. Try again.
+Attempt 3: Enter password: 123
+Wrong password. Try again.
+Account locked. Too many failed attempts.
+```
+
 ## 2. `continue` Statement
 
 Skips the current iteration and proceeds to the next iteration of the loop.
@@ -133,7 +163,7 @@ for item in sequence:
 {% assign video_id = "LfF9CsyVRgU" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
  
-### Example 5: Skip even numbers using `continue` Statement
+### Example 6: Skip even numbers using `continue` Statement
 
 Skips the **current iteration** and moves to the next loop cycle.
 
@@ -154,7 +184,7 @@ for num in range(1, 11):
 9
 ```
 
-### Example 6: **Data Cleaning using `continue` Statement**  
+### Example 7: **Data Cleaning using `continue` Statement**  
 Skip invalid entries when processing a dataset.
 ```python
 user_ages = [20, 15, "unknown", 30, -5, 25]  # Some invalid data
@@ -190,7 +220,7 @@ The `pass` statement is often used in loops as a placeholder or to intentionally
 
 ---
 
-### **Example 7: Basic `pass` in a `for` Loop**  
+### **Example 8: Basic `pass` in a `for` Loop**  
 **Use Case:** Skip specific items without any action.  
 
 ```python
@@ -217,7 +247,7 @@ kiwi
 
 ---
 
-### **Example 8: `pass` vs `continue` in a Loop**  
+### **Example 9: `pass` vs `continue` in a Loop**  
 **Key Difference:**  
 - `pass` → Does nothing, continues execution.  
 - `continue` → Skips the rest of the loop body and moves to the next iteration.  
@@ -259,7 +289,7 @@ for num in numbers:
 
 ---
 
-### **Example 9: `pass` in a `while` Loop (Placeholder Logic)**  
+### **Example 10: `pass` in a `while` Loop (Placeholder Logic)**  
 **Use Case:** Temporarily ignore a condition while developing.  
 
 ```python
@@ -287,7 +317,7 @@ Count: 4
 
 ---
 
-### **Example 10: Using `pass` in Nested Loops**  
+### **Example 11: Using `pass` in Nested Loops**  
 **Use Case:** Skip certain combinations in a nested loop.  
 
 ```python
@@ -384,3 +414,14 @@ i=2, j=1
      Seat 2: Reserved.  
      Seat 3: Available! Booked successfully.  
      ```
+
+## 📘 **Related Topics**
+
+* **Python FOR Loops** – A `for` loop in Python is a programming statement that repeats a block of code a fixed number of times.
+  👉 [Learn more](../loops-for/)
+* **Python while Loops** – A `while` loop in python is a control flow statement that repeatedly executes a block of code until a specified condition is met.
+  👉 [Learn more](../loops-while/)
+* **Python else Clause in Loops** – In Python, the `else` clause can be used with loops (`for` and `while`).
+  👉 [Learn more](../else-clauses-on-loops/)
+* **Match Statement (Python 3.10+)** – Introduced in Python 3.10, **`match-case`** is a modern way to handle data-driven decision-making.
+  👉 [Learn more](../match-statement/)
