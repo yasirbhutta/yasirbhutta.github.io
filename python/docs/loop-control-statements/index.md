@@ -177,7 +177,7 @@ Valid ages:
 
 ---
 
-## 3. `pass`
+## 3. `pass` Statement
 
 A null statement, used as a placeholder.
 
@@ -185,6 +185,145 @@ A null statement, used as a placeholder.
 if condition:
     pass  # do nothing
 ```
+
+The `pass` statement is often used in loops as a placeholder or to intentionally skip certain conditions without any action. Here are practical examples demonstrating `pass` in different loop scenarios.  
+
+---
+
+### **1. Basic `pass` in a `for` Loop**  
+**Use Case:** Skip specific items without any action.  
+
+```python
+fruits = ["apple", "banana", "cherry", "kiwi"]  
+
+for fruit in fruits:  
+    if fruit == "banana":  
+        pass  # Do nothing for banana  
+    else:  
+        print(fruit)  
+```
+
+**Output:**  
+```
+apple  
+cherry  
+kiwi  
+```  
+
+**Explanation:**  
+- The loop checks if the fruit is `"banana"`.  
+- If yes, `pass` does nothing and moves to the next iteration.  
+- Otherwise, it prints the fruit.  
+
+---
+
+### **2. `pass` vs `continue` in a Loop**  
+**Key Difference:**  
+- `pass` → Does nothing, continues execution.  
+- `continue` → Skips the rest of the loop body and moves to the next iteration.  
+
+#### **Example with `pass`**  
+```python
+numbers = [1, 2, 3, 4, 5]  
+
+for num in numbers:  
+    if num == 3:  
+        pass  # Just a placeholder, no action  
+    print(num)  # This line still runs  
+```
+
+**Output:**  
+```
+1  
+2  
+3  
+4  
+5  
+```  
+
+#### **Example with `continue`**  
+```python
+for num in numbers:  
+    if num == 3:  
+        continue  # Skips printing for 3  
+    print(num)  
+```
+
+**Output:**  
+```
+1  
+2  
+4  
+5  
+```  
+
+---
+
+### **3. `pass` in a `while` Loop (Placeholder Logic)**  
+**Use Case:** Temporarily ignore a condition while developing.  
+
+```python
+count = 0  
+
+while count < 5:  
+    if count == 2:  
+        pass  # Will handle this case later  
+    else:  
+        print(f"Count: {count}")  
+    count += 1  
+```
+
+**Output:**  
+```
+Count: 0  
+Count: 1  
+Count: 3  
+Count: 4  
+```  
+
+**Explanation:**  
+- When `count == 2`, `pass` does nothing, but the loop continues.  
+- All other values are printed normally.  
+
+---
+
+### **4. Using `pass` in Nested Loops**  
+**Use Case:** Skip certain combinations in a nested loop.  
+
+```python
+for i in range(3):  
+    for j in range(3):  
+        if i == j:  
+            pass  # Skip when i and j are equal  
+        else:  
+            print(f"i={i}, j={j}")  
+```
+
+**Output:**  
+```
+i=0, j=1  
+i=0, j=2  
+i=1, j=0  
+i=1, j=2  
+i=2, j=0  
+i=2, j=1  
+```  
+
+**Explanation:**  
+- When `i == j`, `pass` ignores the case.  
+- Otherwise, it prints the combination.  
+
+---
+
+## **When to Use `pass`?**  
+✅ **Placeholder for future code**  
+✅ **Intentionally doing nothing in a condition**  
+✅ **Silently ignoring exceptions**  
+
+🚫 **Don’t use when:**  
+- You want to skip iterations (use `continue`).  
+- You want to exit a loop (use `break`).  
+
 ---
 
 ## 4. Tasks
