@@ -21,7 +21,7 @@ topics:
         difficulty: "medium"
         hint: "Use lower() or upper() for case insensitivity"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
 
@@ -39,7 +39,7 @@ topics:
         difficulty: "easy"
         hint: "Initialize counter before loop, increment it inside loop"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-002
@@ -55,7 +55,7 @@ topics:
         difficulty: "easy"
         hint: "Initialize sum to 0 before loop, add each number in sequence"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-003
@@ -75,7 +75,7 @@ topics:
         difficulty: "easy"
         hint: "Loop from 1 to 10, multiply input number by counter"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-004
@@ -91,7 +91,7 @@ topics:
         difficulty: "medium"
         hint: "Use modulo and integer division to extract digits"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-005
@@ -107,7 +107,7 @@ topics:
         difficulty: "easy"
         hint: "Remove one digit at a time using integer division"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-006
@@ -123,7 +123,7 @@ topics:
         difficulty: "hard"
         hint: "Multiply numbers from 1 to n sequentially"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-007
@@ -139,7 +139,7 @@ topics:
         difficulty: "easy"
         hint: "Check remainder when divided by 2"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-011
@@ -157,7 +157,7 @@ topics:
         difficulty: "easy"
         hint: "Initialize your sum to 0. Get the first number outside the loop. The `while` loop condition should check if the number is not 0. Inside the loop, add the number to the sum, then get the next number."
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=xvg69k1Fldc"
 
       - id: py-ce-while-009
@@ -173,7 +173,7 @@ topics:
         difficulty: "medium"
         hint: "Extract last digit using modulo, remove it using division"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
 
       - id: py-ce-while-010
@@ -191,7 +191,7 @@ topics:
         difficulty: "medium"
         hint: "Convert number to string or use modulo operations"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=MXWbTdvSBVs"
 
   - topic: loops-for
@@ -213,7 +213,7 @@ topics:
         difficulty: "easy"
         hint: "Use range(5) in your for loop"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtu.be/LDULv7B9QdQ"
 
       - id: py-ce-loop-002
@@ -228,7 +228,7 @@ topics:
         difficulty: "easy"
         hint: "Use range(10)"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtube.com/shorts/zIU3X59TcBE"
 
       - id: py-ce-loop-003
@@ -272,7 +272,7 @@ topics:
         difficulty: "easy"
         hint: "Strings are iterable in Python"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtu.be/FgMHDLRi_G4"
 
       - id: py-ce-loop-005
@@ -288,7 +288,7 @@ topics:
         difficulty: "easy"
         hint: "Initialize result variable to 1 before loop"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtu.be/K5LV5I2hFg4"
 
       - id: py-ce-loop-006
@@ -303,7 +303,7 @@ topics:
         difficulty: "easy"
         hint: "Use ** operator for exponentiation"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtu.be/ecGCXSxHjsw"
 
       - id: py-ce-loop-007
@@ -318,7 +318,7 @@ topics:
         difficulty: "easy"
         hint: "Use range() with negative step"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://bit.ly/3yrTe0e"
 
       - id: py-ce-loop-008
@@ -333,7 +333,7 @@ topics:
         difficulty: "easy"
         hint: "Initialize sum variable before loop"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://youtu.be/FgMHDLRi_G4"
 
       - id: py-ce-loop-009
@@ -358,7 +358,7 @@ topics:
         difficulty: "intermediate"
         hint: "Use string formatting for clean output"
         resource:
-          name: "Watch the Solution Now"
+          name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=wqtVGYn7NpQ&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=41"
 
       - id: py-ce-loop-010

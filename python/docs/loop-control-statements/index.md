@@ -75,7 +75,7 @@ Number 5 found! Exiting the loop.
 ### **📺 Python Tutorial in Urdu: Using Python break statement with a while loop**  
 
 {% assign video_type = "video" %}
-{% assign video_id = "v=KWuyQ7HQUBE" %}
+{% assign video_id = "KWuyQ7HQUBE" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
 
@@ -130,7 +130,7 @@ for item in sequence:
 ### **📺 Video Tutorial: How to Effectively Use Break and Continue Statements**  
 
 {% assign video_type = "video" %}
-{% assign video_id = "v=LfF9CsyVRgU" %}
+{% assign video_id = "LfF9CsyVRgU" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
  
 ### Example 5: Skip even numbers using `continue` Statement
