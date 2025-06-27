@@ -10,6 +10,7 @@
 <summary>Answer</summary>
 <div class="answer-box">
 <p>{{ q.answer | escape }}</p>
+<pre>{{ q.examples | escape }}</pre>
 {% if q.resources and q.resources|length > 0 %}
 <div> 
 <!-- <p><strong>📚 Related Resources:</strong></p> -->
