@@ -91,12 +91,6 @@ age = 30
 print(f"My name is {name} and I am {age} years old.")
 ```
 
-[Python f-Strings Explained: What Does print(f'{a=}') Do?](https://youtube.com/shorts/a34qr0OfxjQ)
-
-The expression print(f"{a=}") is part of Python's f-string formatting introduced in Python 3.8.
-
-When you use a=, Python prints both the name of the variable and its value. Essentially, it shows what the variable is and its corresponding value.
-
 ## 4. Real-Life Examples
 
 ### 1. Database query results
@@ -131,6 +125,8 @@ x = 10
 y = 20
 print(f"DEBUG: x={x}, y={y}, x*y={x*y}")
 ```
+[Video Tutorial: Python f-Strings Explained - What Does print(f'{a=}') Do?](https://youtube.com/shorts/a34qr0OfxjQ)
+
 for more details, see [Python f-Strings with = and Format Specifiers (Debugging Made Easy)](f-string-with-equal.md)
 
 ## Advanced Features
@@ -163,5 +159,5 @@ F-strings have become the preferred string formatting method in modern Python du
 
 ## 📘 **Related Topics**
 
-* [**Python `print` Function**](print.md)
-* [`input()` Function](input.md) 
+* [Python print() Function](print.md)
+* [Python input() Function](input.md) 
