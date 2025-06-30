@@ -1,41 +1,21 @@
+## Table of Contents  
+(Note: ✅ Beginner 🟢 | ⚙️ Intermediate 🟡 | 🚀 Advanced 🔵)
 
-**AutoSum** is a feature in Microsoft Excel that allows you to quickly and automatically calculate the sum of a range of numbers. It eliminates the need for manual data entry and calculation, saving you time and effort. With AutoSum, you can easily add up a column or row of numbers with just a few clicks. ([Lenovo][1])
+5.2 Conditional Statements — if, else, elif ✅🟢 [PDF]
 
----
+5.3 Looping Statements — for, while ✅🟢
+   There are two ways to create loops in Python: with the for-loop and the while-loop.
+   Repeat actions using for and while loops.
 
-### 🔧 How to Use AutoSum in Excel
+   5.3.1 for loop ✅🟢 [PDF]  
+   5.3.2 while loop ✅🟢 [PDF]
 
-1. **Select the Cell**: Click on the empty cell where you want the sum to appear.
+5.4 Loop Control Statements — break, continue, pass ✅🟢 [PDF]
 
+5.5 The else Clauses on Loops ✅🟢 [PDF]
 
+5.6 Match Statement (Python 3.10+) ⚙️🟡 [PDF]
 
-3. **Confirm the Range**: Excel will automatically detect the adjacent range of numbers to sum. If the selection is correct, press **Enter**. If not, adjust the range manually by selecting the desired cells.([Lenovo][3])
-
-Alternatively, you can use the keyboard shortcut **Alt + =** to quickly insert the AutoSum function into the selected cell. ([Lenovo][3])
-
----
-
-### ✨ Additional Features of AutoSum
-
-* **Multiple Functions**: By clicking the drop-down arrow next to the AutoSum button, you can access other functions like **Average**, **Count**, **Max**, and **Min**.([Lenovo][3])
-
-* **Non-Adjacent Cells**: To sum non-adjacent cells, hold down the **Ctrl** key while selecting the cells you want to include in the sum.([Lenovo][3])
-
-* **Summing Visible Cells Only**: When working with filtered data, AutoSum uses the **SUBTOTAL** function to sum only the visible cells, ensuring accurate calculations. ([Ablebits][2])
-
-* **Copying AutoSum Formulas**: After creating an AutoSum formula, you can copy it to other cells. Excel will adjust the cell references automatically based on the new location.([Microsoft Support][4])
-
----
-
-### 📺 Learn More About AutoSum
-
-For a visual demonstration of how to use AutoSum in Excel, you can watch the following tutorial:
-
-[How to Use AutoSum in Excel](https://www.youtube.com/watch?v=xkOe8Vm6onM&utm_source=chatgpt.com)
-
----
-
-Here’s an improved version of your content with clearer language, more engaging phrasing, and consistent formatting:
 
 ---
 

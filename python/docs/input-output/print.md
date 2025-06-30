@@ -3,7 +3,21 @@ layout: page
 title: "Python Input & Output: Python `print` Function"
 description: Learn how to use the Python print() function effectively! Master basic printing, formatting (f-strings, %s, .format()), file output, and advanced usage with examples.
 keywords: Python print function, print in Python, Python print examples, Python print formatting, Python print to file, Python print new line, Python print separator, Python print end parameter, Python print flush, Python print vs return, Python print multiple variables, Python print f-string, Python print format method, Python print %s formatting, Python print stdout, Python print stderr, Python print debug, Python print colored text, Python print without newline, Python print list
+course: python
+topic: input-output
+show_toc: true
 toc: toc/python.html
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/input-output/
+next: /python/docs/input-output/f-string.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Input - Output
+    url: /python/docs/input-output/
 ---
 
 ## Lesson 1: Python `print` Function
@@ -277,3 +291,9 @@ print("Hello World!"
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## 📘 **Related Topics**
+
+* **F-Strings in Python** – F-strings (formatted string literals) are a feature introduced in Python 3.6 that provide a concise and readable way to embed expressions inside string literals. 
+  👉 [Learn more](f-string.md)
+* [`input()` Function](input.md) 

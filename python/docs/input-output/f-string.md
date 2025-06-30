@@ -3,14 +3,36 @@ layout: page
 title: "Python Input & Output: F-Strings in Python"
 description: Master Python f-strings with this definitive guide! Learn syntax, formatting tricks, multiline f-strings, expressions, and advanced use cases with clear examples.
 keywords: Python f-strings, f-string Python, Python string formatting, Python 3.6 f-strings, Python formatted string literals, f-string syntax, Python string interpolation, f-string expressions, f-string formatting numbers, f-string multiline, f-string datetime, f-string dictionary, f-string alignment, f-string padding, f-string precision, f-string vs format(), f-string vs % formatting, f-string debug, f-string special characters, f-string best practices
+course: python
+topic: input-output
+show_toc: true
 toc: toc/python.html
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/input-output/print.html
+next: /python/docs/input-output/input.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Input - Output
+    url: /python/docs/input-output/
 ---
 
-## What are F-Strings?
+## Table of Contents
+
+1. [What are F-Strings?](#1-what-are-f-strings)
+2. [Why Use F-Strings?](#2-why-use-f-strings)
+3. [Basic Examples for Beginners](#3-basic-examples-for-beginners)
+4. [Advanced Features](#advanced-features)
+5. [Real-Life Examples](#4-real-life-examples)
+   
+## 1. What are F-Strings?
 
 F-strings (formatted string literals) are a feature introduced in Python 3.6 that provide a concise and readable way to embed expressions inside string literals. The "f" stands for "formatted" - these strings are evaluated at runtime.
 
-## Why Use F-Strings?
+## 2. Why Use F-Strings?
 
 1. **Readability**: Much cleaner syntax compared to older formatting methods
 2. **Performance**: Faster than %-formatting and str.format()
@@ -25,7 +47,7 @@ The basic syntax is simple - prefix your string with 'f' or 'F' and include expr
 f"string text {expression} more text"
 ```
 
-## Basic Examples for Beginners
+## 3. Basic Examples for Beginners
 
 ### 1. Simple variable insertion
 ```python
@@ -75,7 +97,7 @@ The expression print(f"{a=}") is part of Python's f-string formatting introduced
 
 When you use a=, Python prints both the name of the variable and its value. Essentially, it shows what the variable is and its corresponding value.
 
-## Real-Life Examples
+## 4. Real-Life Examples
 
 ### 1. Database query results
 ```python
@@ -109,6 +131,7 @@ x = 10
 y = 20
 print(f"DEBUG: x={x}, y={y}, x*y={x*y}")
 ```
+for more details, see [Python f-Strings with = and Format Specifiers (Debugging Made Easy)](f-string-with-equal.md)
 
 ## Advanced Features
 
@@ -138,5 +161,7 @@ print(f"Today is {today:%B %d, %Y}")
 
 F-strings have become the preferred string formatting method in modern Python due to their clarity and efficiency. They're widely used in logging, debugging, report generation, and anywhere you need to combine variables with text.
 
+## 📘 **Related Topics**
 
-
+* [**Python `print` Function**](print.md)
+* [`input()` Function](input.md) 
