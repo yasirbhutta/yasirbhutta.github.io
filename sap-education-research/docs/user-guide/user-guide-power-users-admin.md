@@ -15,3 +15,7 @@ breadcrumb:
   - title: SAP
     url: /sap-education-research/
 ---
+
+## Popular Articles
+
+- [How to Log in to SAP GUI: Step-by-Step SAP Login Guide for Beginners](posts/how-to-login-on-sap)
