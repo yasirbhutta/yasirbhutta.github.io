@@ -44,12 +44,12 @@ These are usually shared by your SAP administrator.
 
 ---
 
-**4️⃣ Select or Add the SAP System**
+**4️⃣ Select or Add the SAP System - SAP Logon 800**
 
 * If your system is already listed, click it.
 * If not:
 
-  1. Click **New Item**.
+  1. Click **New > Connection **.
 
   2. Enter:
 
