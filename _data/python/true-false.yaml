@@ -1,6 +1,68 @@
 course: python
 topics:
 
+  - topic: sets
+    questions:
+      - id: sets-tf-001
+        difficulty: easy
+        prompt: "In Python, sets can contain duplicate elements."
+        answer: false
+        explanation: "Sets automatically remove duplicate elements, as they only store unique values."
+
+      - id: sets-tf-002
+        difficulty: easy
+        prompt: "Sets in Python are mutable objects."
+        answer: true
+        explanation: "Sets are mutable, meaning you can add or remove elements after creation."
+
+      - id: sets-tf-003
+        difficulty: medium
+        prompt: "Frozen sets in Python are mutable versions of regular sets."
+        answer: false
+        explanation: "Frozen sets are immutable versions of regular sets."
+
+      - id: sets-tf-004
+        difficulty: medium
+        prompt: "The union() method returns a new set containing elements from both sets without modifying the original sets."
+        answer: true
+        explanation: "union() creates and returns a new set without modifying the original sets."
+
+      - id: sets-tf-005
+        difficulty: hard
+        prompt: "Set comprehension in Python uses the same syntax as list comprehension but with angle brackets instead of square brackets."
+        answer: false
+        explanation: "Set comprehension uses curly braces {}, like dictionary comprehension, but without key-value pairs."
+
+      - id: sets-tf-006
+        difficulty: medium
+        prompt: "The difference_update() method modifies the original set by removing elements found in another set."
+        answer: true
+        explanation: "difference_update() modifies the set in-place, unlike difference() which returns a new set."
+
+      - id: sets-tf-007
+        difficulty: easy
+        prompt: "You can create an empty set in Python using empty curly braces: {}."
+        answer: false
+        explanation: "Empty curly braces create an empty dictionary. To create an empty set, you must use set()."
+
+      - id: sets-tf-008
+        difficulty: medium
+        prompt: "The symmetric_difference() method returns elements that are in exactly one of the sets."
+        answer: true
+        explanation: "symmetric_difference() returns elements that are in either set but not in both."
+
+      - id: sets-tf-009
+        difficulty: hard
+        prompt: "Sets in Python maintain the insertion order of elements."
+        answer: false
+        explanation: "Sets are unordered collections and do not maintain insertion order (though since Python 3.7, they maintain insertion order as an implementation detail, this shouldn't be relied upon)."
+
+      - id: sets-tf-010
+        difficulty: easy
+        prompt: "You can add a list as an element to a set in Python."
+        answer: false
+        explanation: "Lists are unhashable (mutable) and cannot be added to sets. You would need to convert the list to a tuple first."
+
   - topic: loop-control-statements
     questions:
 

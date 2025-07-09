@@ -29,7 +29,7 @@ breadcrumb:
 3. **while loop**: [MCQs](../docs/loops-while/practice-and-progress/mcqs-loops-while.md) 📝, [Find and Fix Mistakes](../docs/loops-while/practice-and-progress/find-fix-mistakes-loops-while.md) 🔍, [Coding Exercises](../docs/loops-while/practice-and-progress/exercises-loops-while.md) 🏋️‍♂️
 4. **break, continue, pass**: [MCQs](../docs/loop-control-statements/practice-and-progress/mcqs-loop-control-statements.md) 📝, [Find and Fix Mistakes](../docs/loop-control-statements/practice-and-progress/find-fix-mistakes-loop-control-statements.md) 🔍, [Coding Exercises](../docs/loop-control-statements/practice-and-progress/exercises-loop-control-statements.md) 🏋️‍♂️
 5. **else Clause in Loops**
-6. **Sets**: 
+6. **Sets**: [MCQs](../docs/sets/practice-and-progress/mcqs-sets.md) 📝, [Find and Fix Mistakes](../docs/sets/practice-and-progress/find-fix-mistakes-sets.md) 🔍, [Coding Exercises](../docs/sets/practice-and-progress/exercises-sets.md) 🏋️‍♂️
 7. **Dictionaries**: 
 8. **List Comprehension**: 
 

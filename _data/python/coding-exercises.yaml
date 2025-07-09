@@ -1,5 +1,121 @@
 course: python
 topics:
+  - topic: sets
+    questions:
+      - id: py-ce-sets-001
+        title: "Unique Elements Filter"
+        task: |
+          Write a function that takes a list and returns a new list containing only unique elements using sets.
+        requirements:
+          - "Use a set to remove duplicates"
+          - "Return the result as a list"
+          - "Preserve original order of first occurrences"
+        input: |
+          [3, 1, 2, 2, 4, 3, 5]
+        output: |
+          [3, 1, 2, 4, 5]
+        difficulty: "easy"
+        hint: "Convert to set and back to list, but order won't be preserved. Find another approach."
+        resource:
+          name: "Python Sets Documentation"
+          url: "https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset"
+
+      - id: py-ce-sets-002
+        title: "Common Elements Finder"
+        task: |
+          Write a function that finds common elements between two lists using sets.
+        requirements:
+          - "Return the common elements as a set"
+          - "Handle empty lists"
+          - "Case sensitive comparison"
+        input: |
+          [1, 2, 3, 4]
+          [3, 4, 5, 6]
+        output: |
+          {3, 4}
+        difficulty: "easy"
+        hint: "Use set intersection operation"
+        resource:
+          name: "Python Set Operations"
+          url: "https://realpython.com/python-sets/"
+
+      - id: py-ce-sets-003
+        title: "Set Operations Calculator"
+        task: |
+          Create a program that performs union, intersection, and difference operations on two sets.
+        requirements:
+          - "Take two sets as input"
+          - "Print all three operations results"
+          - "Format output clearly"
+        input: |
+          {1, 2, 3}
+          {3, 4, 5}
+        output: |
+          Union: {1, 2, 3, 4, 5}
+          Intersection: {3}
+          Difference (A-B): {1, 2}
+        difficulty: "medium"
+        hint: "Use |, &, and - operators"
+        resource:
+          name: "Set Operations Video"
+          url: "https://www.youtube.com/watch?v=sBvaPopWOmQ"
+
+      - id: py-ce-sets-004
+        title: "Set Comprehension Challenge"
+        task: |
+          Use set comprehension to create a set of all vowels found in a given string.
+        requirements:
+          - "Use single line set comprehension"
+          - "Case insensitive matching"
+          - "Return only unique vowels"
+        input: |
+          "Hello World! Programming is fun!"
+        output: |
+          {'e', 'o', 'i', 'u', 'a'}
+        difficulty: "medium"
+        hint: "Convert string to lowercase first"
+        resource:
+          name: "Set Comprehension Tutorial"
+          url: "https://www.datacamp.com/tutorial/python-set-comprehension"
+
+      - id: py-ce-sets-005
+        title: "FrozenSet Dictionary Keys"
+        task: |
+          Create a dictionary where keys are frozensets and values are their string representations.
+        requirements:
+          - "Create at least 3 frozenset keys"
+          - "Handle empty frozenset"
+          - "Demonstrate dictionary lookup"
+        input: |
+          (no input, program creates data)
+        output: |
+          {frozenset({1, 2}): 'frozenset({1, 2})', frozenset(): 'frozenset()'}
+        difficulty: "hard"
+        hint: "Regular sets can't be dictionary keys"
+        resource:
+          name: "FrozenSet Documentation"
+          url: "https://docs.python.org/3/library/stdtypes.html#frozenset"
+
+      - id: py-ce-sets-006
+        title: "Set Symmetric Difference"
+        task: |
+          Write a function that returns elements present in exactly one of three sets.
+        requirements:
+          - "Handle three input sets"
+          - "Use symmetric difference operation"
+          - "Return result as sorted list"
+        input: |
+          {1, 2, 3, 4}
+          {3, 4, 5, 6}
+          {4, 6, 7, 8}
+        output: |
+          [1, 2, 5, 7, 8]
+        difficulty: "hard"
+        hint: "Combine multiple symmetric differences"
+        resource:
+          name: "Advanced Set Operations"
+          url: "https://www.geeksforgeeks.org/python-set-operations/"
+
 
   - topic: loop-control-statements
     questions:

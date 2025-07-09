@@ -1,5 +1,135 @@
+
 course: python
 topics:
+  - topic: sets
+    questions:
+      - id: sets-mcq-001
+        difficulty: easy
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          fruits = {"apple", "banana", "cherry"}
+          fruits.add("apple")
+          print(len(fruits))
+        options:
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+        answer: "3"
+        explanation: "Sets only store unique elements, so adding 'apple' again doesn't change the set size."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset"
+
+      - id: sets-mcq-002
+        difficulty: medium
+        question: Which operation will return the elements present in both sets?
+        language: python
+        code: |
+          set1 = {1, 2, 3}
+          set2 = {2, 3, 4}
+        options:
+          - "set1 - set2"
+          - "set1 | set2"
+          - "set1 & set2"
+          - "set1 ^ set2"
+        answer: "set1 & set2"
+        explanation: "The & operator performs intersection, returning elements common to both sets."
+        resources:
+          - type: video
+            url: "https://youtu.be/sBvaPopWOmQ"
+
+      - id: sets-mcq-003
+        difficulty: hard
+        question: What is the output of the following code snippet?
+        language: python
+        code: |
+          a = frozenset([1, 2, 3])
+          b = {2, 3, a}
+          print(b)
+        options:
+          - "{2, 3, frozenset({1, 2, 3})}"
+          - "TypeError: unhashable type: 'set'"
+          - "{2, 3, {1, 2, 3}}"
+          - "SyntaxError: invalid syntax"
+        answer: "{2, 3, frozenset({1, 2, 3})}"
+        explanation: "frozenset is hashable and can be added to a regular set, but a regular set can't be added to another set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#frozenset"
+
+      - id: sets-mcq-004
+        difficulty: medium
+        question: Which method completely empties a set?
+        language: python
+        code: |
+          numbers = {1, 2, 3, 4, 5}
+        options:
+          - "numbers.delete()"
+          - "numbers.clear()"
+          - "numbers.remove_all()"
+          - "numbers.empty()"
+        answer: "numbers.clear()"
+        explanation: "The clear() method removes all elements from the set, leaving it empty."
+        resources:
+          - type: video
+            url: "https://youtu.be/2ZQi6TFE4l0"
+
+      - id: sets-mcq-005
+        difficulty: easy
+        question: What is the correct way to create an empty set?
+        language: python
+        code: ""
+        options:
+          - "{}"
+          - "set()"
+          - "[]"
+          - "set{}"
+        answer: "set()"
+        explanation: "Empty curly braces {} create an empty dictionary. set() is required to create an empty set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/tutorial/datastructures.html#sets"
+
+      - id: sets-mcq-006
+        difficulty: medium
+        question: What does the symmetric_difference() method return?
+        language: python
+        code: |
+          set1 = {1, 2, 3}
+          set2 = {3, 4, 5}
+        options:
+          - "Elements in either set but not in both"
+          - "Elements common to both sets"
+          - "Elements only in the first set"
+          - "All elements from both sets"
+        answer: "Elements in either set but not in both"
+        explanation: "symmetric_difference() returns elements that are in exactly one of the sets."
+        resources:
+          - type: video
+            url: "https://youtu.be/6N4y7V2toW0"
+
+      - id: sets-mcq-007
+        difficulty: hard
+        question: What is the output of this set comprehension?
+        language: python
+        code: |
+          word = "mississippi"
+          letters = {x for x in word if word.count(x) > 2}
+          print(letters)
+        options:
+          - "{'m', 'i', 's', 's', 'i', 'p', 'p', 'i'}"
+          - "{'i', 's', 'p'}"
+          - "{'i', 's'}"
+          - "{'p'}"
+        answer: "{'i', 's'}"
+        explanation: "The comprehension creates a set of unique letters appearing more than twice in the word."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/tutorial/datastructures.html#sets"
+
+
   - topic: loop-control-statements
     questions:
       - id: for-mcq-001

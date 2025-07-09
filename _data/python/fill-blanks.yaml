@@ -1,5 +1,66 @@
 course: python
 topics:
+  - topic: sets
+    questions:
+      - id: sets-fill-001
+        difficulty: easy
+        prompt: "To create an empty set in Python, you use the ______ constructor."
+        answer: "set()"
+        explanation: "Empty curly braces {} create an empty dictionary, so set() must be used to create an empty set."
+
+      - id: sets-fill-002
+        difficulty: easy
+        prompt: "The ______ method removes all elements from a set, leaving it empty."
+        answer: "clear()"
+        explanation: "clear() is the method that empties a set without deleting the set object itself."
+
+      - id: sets-fill-003
+        difficulty: medium
+        prompt: "The ______ operation returns elements that are in either set but not in both."
+        answer: "symmetric_difference"
+        explanation: "symmetric_difference() or the ^ operator gives elements that are in exactly one of the sets."
+
+      - id: sets-fill-004
+        difficulty: medium
+        prompt: "A ______ is an immutable version of a set that can be used as a dictionary key."
+        answer: "frozenset"
+        explanation: "frozenset is hashable and immutable, making it suitable as a dictionary key unlike regular sets."
+
+      - id: sets-fill-005
+        difficulty: easy
+        prompt: "The ______ method removes and returns an arbitrary element from the set."
+        answer: "pop()"
+        explanation: "pop() removes and returns a random element from the set, useful when you need to process elements."
+
+      - id: sets-fill-006
+        difficulty: hard
+        prompt: "Set comprehensions use ______ braces instead of square brackets like list comprehensions."
+        answer: "curly"
+        explanation: "Set comprehensions use {} (curly braces) similar to dictionary comprehensions but without key-value pairs."
+
+      - id: sets-fill-007
+        difficulty: medium
+        prompt: "The ______ method updates the set by adding elements from another set (in-place operation)."
+        answer: "update()"
+        explanation: "update() modifies the original set by adding elements from another set or iterable."
+
+      - id: sets-fill-008
+        difficulty: easy
+        prompt: "The ______ operator performs union of two sets."
+        answer: "|"
+        explanation: "The | operator combines elements from both sets, similar to the union() method."
+
+      - id: sets-fill-009
+        difficulty: medium
+        prompt: "The ______ method removes an element from the set if it exists, without raising an error if it doesn't."
+        answer: "discard()"
+        explanation: "discard() safely removes an element if present, unlike remove() which raises KeyError if missing."
+
+      - id: sets-fill-010
+        difficulty: hard
+        prompt: "To check if one set is a subset of another, you would use the ______ method or <= operator."
+        answer: "issubset()"
+        explanation: "issubset() or <= checks if all elements of one set are contained in another set."
 
   - topic: loop-control-statements
     questions:

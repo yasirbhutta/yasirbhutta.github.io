@@ -1,10 +1,102 @@
 course: python
 topics:
+  - topic: sets
+    questions:
+      - id: sets-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the code that attempts to create a set with duplicate elements.
+        code: |
+          my_set = {1, 2, 2, 3, 3, 3}
+          print(my_set)
+        hint: "Sets automatically handle duplicates - is there actually a mistake here?"
+        issue: "There is no mistake - the code works as intended (sets remove duplicates)"
+        solution: |
+          # The original code is actually correct
+          my_set = {1, 2, 2, 3, 3, 3}
+          print(my_set)  # Output will be {1, 2, 3}
+
+      - id: sets-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the code that tries to add a list to a set.
+        code: |
+          my_set = {1, 2, 3}
+          my_set.add([4, 5])
+        hint: "Remember what types of elements can be added to sets."
+        issue: "Cannot add mutable list to a set (lists are unhashable)"
+        solution: |
+          my_set = {1, 2, 3}
+          my_set.add(4)  # Add individual elements
+          # OR convert to tuple if you need to add multiple items
+          my_set.add(tuple([4, 5]))
+
+      - id: sets-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the set operation that's supposed to find elements in set1 but not in set2.
+        code: |
+          set1 = {1, 2, 3, 4}
+          set2 = {3, 4, 5, 6}
+          difference = set1.intersection(set2)
+        hint: "Check which set method finds the difference between sets."
+        issue: "Using intersection() instead of difference()"
+        solution: |
+          set1 = {1, 2, 3, 4}
+          set2 = {3, 4, 5, 6}
+          difference = set1.difference(set2)  # Correct method for set difference
+          # Alternatively: difference = set1 - set2
+
+      - id: sets-fix-004
+        difficulty: hard
+        prompt: |
+          Fix the code that attempts to use a set as a dictionary key.
+        code: |
+          my_dict = {}
+          my_set = {1, 2, 3}
+          my_dict[my_set] = "value"
+        hint: "Only immutable types can be dictionary keys."
+        issue: "Regular sets are mutable and cannot be dictionary keys"
+        solution: |
+          my_dict = {}
+          my_set = frozenset({1, 2, 3})  # Convert to frozenset
+          my_dict[my_set] = "value"  # Now works because frozenset is immutable
+
+      - id: sets-fix-005
+        difficulty: easy
+        prompt: |
+          Fix the attempt to create an empty set.
+        code: |
+          empty_set = {}
+          print(type(empty_set))
+        hint: "What does {} actually create in Python?"
+        issue: "{} creates an empty dictionary, not an empty set"
+        solution: |
+          empty_set = set()  # Correct way to create empty set
+          print(type(empty_set))  # Will show <class 'set'>
+
+      - id: sets-fix-006
+        difficulty: medium
+        prompt: |
+          Fix the set comprehension that's not producing the expected output.
+        code: |
+          numbers = [1, 2, 2, 3, 4, 4, 5]
+          unique_squares = [x**2 for x in numbers if x not in unique_squares]
+        hint: "There are multiple issues here - both with the approach and syntax."
+        issue: |
+          1. Using list comprehension brackets [] instead of set comprehension {}
+          2. Trying to reference unique_squares in its own comprehension
+          3. Not actually using set properties to handle uniqueness
+        solution: |
+          numbers = [1, 2, 2, 3, 4, 4, 5]
+          # Simple solution using set properties:
+          unique_squares = {x**2 for x in numbers}
+          # Or alternatively:
+          unique_squares = set(x**2 for x in numbers)
 
 
   - topic: loop-control-statements
     questions:
-
 
       - id: while-fix-006
         difficulty: medium
@@ -41,9 +133,6 @@ topics:
               if i % 2 != 0:
                   continue
               print(numbers[i])
-
-
-
 
   - topic: loops-while
     questions:
