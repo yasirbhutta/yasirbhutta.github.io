@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python While Loops: Online Quiz for Beginners"
-description: Test your Python while loop knowledge with this interactive online quiz. Practice loop syntax, iteration, and logic to assess and improve your coding skills.
-keywords: Python, while loops, online quiz, Python practice, programming quiz, coding assessment, beginner Python, learn Python, loop syntax, Python logic, interactive quiz
+title: "Python Sets Quiz – Test Your Knowledge with Interactive Questions"
+description: Assess your understanding of Python sets with this interactive online quiz. Practice set operations, membership, and manipulation to improve your Python programming skills. Ideal for beginners and students preparing for exams or interviews.
+keywords: Python sets quiz, Python sets questions, Python set operations, Python set practice, Python programming quiz, Python set membership, Python set manipulation, Python exercises, beginner Python quiz, interactive Python quiz
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

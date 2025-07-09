@@ -1,8 +1,8 @@
 ---
 layout: true-false
-title: "Python While Loops: True/False Questions for Practice"
-description: Test your Python while loop knowledge with true or false questions. Practice beginner, intermediate, and advanced concepts including conditions, iteration, and control statements like break and else.
-keywords: Python, while loops, true false questions, Python practice, programming, coding, Python exercises, loops, control flow, break statement, else in loops
+title: "Python Sets True/False Questions – Practice and Test Your Knowledge"
+description: Test your understanding of Python sets with true/false questions. Practice set operations, membership, and manipulation to strengthen your Python programming skills. Ideal for beginners and students preparing for exams or interviews.
+keywords: Python sets true false questions, Python sets practice, Python set operations, Python set quiz, Python programming exercises, Python set membership, Python set manipulation, beginner Python sets, Python coding practice, Python interview questions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

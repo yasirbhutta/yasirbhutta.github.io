@@ -1,8 +1,8 @@
 ---
 layout: fill-blanks
-title: "Python While Loops: Fill in the Blanks Exercises"
-description: Improve your Python while loop skills with interactive fill-in-the-blanks exercises designed for beginners. Practice essential loop concepts and solidify your understanding.
-keywords: Python, while loops, fill in the blanks, Python exercises, beginner Python, programming practice, Python loops, coding drills, learn Python, interactive exercises
+title: Python Sets Fill in the Blanks – Interactive Exercises for Beginners
+description: Practice and master Python sets with interactive fill-in-the-blanks exercises. Strengthen your understanding of set operations, membership, and manipulation. Ideal for beginners and students learning Python.
+keywords: Python sets fill in the blanks, Python sets exercises, Python set operations, Python set practice, learn Python sets, Python programming exercises, beginner Python sets, interactive Python sets, Python set membership, Python set manipulation
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

@@ -1,8 +1,8 @@
 ---
 layout: review-questions
-title: "Python While Loops: Review Questions & Answers"
-description: Strengthen your Python while loop concepts with comprehensive review questions and answers. Cover syntax, infinite loops, break, continue, pass, else clause, and common patterns.
-keywords: Python, while loops, review questions, Python practice, programming concepts, loop syntax, infinite loops, break statement, continue statement, pass statement, else in loops, Python for beginners
+title: "Python Sets Review Questions – Practice and Test Your Understanding"
+description: Review and test your knowledge of Python sets with comprehensive questions and answers. Practice set operations, membership, and manipulation to strengthen your Python programming skills. Ideal for beginners and students preparing for exams or interviews.
+keywords: Python sets review questions, Python sets practice, Python set operations, Python set questions and answers, Python programming review, Python set membership, Python set manipulation, Python exercises, beginner Python sets, Python interview questions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 course: "python"

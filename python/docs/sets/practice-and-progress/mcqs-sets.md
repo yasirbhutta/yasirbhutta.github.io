@@ -1,8 +1,8 @@
 ---
 layout: mcqs
-title: "Python While Loops: MCQs for Practice"
-description: Sharpen your Python while loop skills with multiple-choice questions covering beginner, intermediate, and advanced concepts. Practice loop syntax, iteration, break, continue, and the else clause.
-keywords: Python, while loops, MCQs, multiple choice questions, Python practice, programming quizzes, Python exercises, loops, control flow, break statement, continue statement, else in loops
+title: "Python Sets MCQs – Multiple Choice Questions for Practice and Learning"
+description: Test and improve your understanding of Python sets with these multiple choice questions. Practice set operations, membership, and manipulation with beginner-friendly MCQs and detailed answers. Ideal for students and Python learners.
+keywords: Python sets MCQs, Python sets multiple choice questions, Python set practice, Python set operations, Python set quiz, Python programming MCQs, Python set membership, Python set manipulation, Python exercises, beginner Python sets
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

@@ -1,8 +1,8 @@
 ---
 layout: find-fix-mistakes
-title: "Python While Loops: Find & Fix Mistakes | Debugging Practice"
-description: Enhance your Python while loop debugging skills by identifying and correcting common errors in code. Practice with beginner, intermediate, and advanced challenges.
-keywords: Python, while loops, debugging, fix mistakes, find errors, Python practice, programming, coding, Python exercises, loop errors, syntax errors, indentation errors, problem solving
+title: Python Sets Debugging – Find and Fix Mistakes Exercises for Beginners
+description: Improve your Python skills by finding and fixing common mistakes in sets code. Practice debugging set operations, membership, and manipulation with beginner-friendly exercises and solutions.
+keywords: Python sets debugging, find and fix mistakes Python sets, Python sets exercises, Python set errors, Python set practice, debug Python sets, Python programming exercises, beginner Python sets, Python set
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

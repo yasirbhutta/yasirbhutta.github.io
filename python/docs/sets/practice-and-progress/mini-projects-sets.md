@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Python While Loop Mini Projects: Number Guessing Game | Learn with Yasir"
-description: Learn Python while loops through practical mini-projects, including a step-by-step guide to building a Number Guessing Game. Enhance your coding skills with real-world applications.
-keywords: Python, while loop, mini projects, number guessing game, Python projects, coding exercises, programming practice, learn Python, Python development, beginner projects
+title: "Python Sets Mini Projects – Practice with Real-World Coding Challenges"
+description: Enhance your Python skills with mini projects focused on sets. Build practical projects like the Guess the Number game using while loops, set operations, and more. Perfect for beginners and students to apply Python concepts in real-world scenarios.
+keywords: Python sets mini projects, Python set practice, Python projects for beginners, Guess the Number game Python, Python while loop projects, Python coding challenges, Python set operations, learn Python by projects, beginner Python projects, Python programming
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"

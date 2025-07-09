@@ -1,8 +1,8 @@
 ---
 layout: exercises
-title: "Python While Loop Exercises: Practice & Master Loops"
-description: harpen your Python skills with interactive while loop exercises. Ideal for students and developers, these practice problems help you master iterative programming concepts.
-keywords: python while loop exercises, python loop practice, while loop examples, python programming exercises, learn python loops, iterative programming, python for beginners, coding challenges python, python practice problems, yasir bhutta python
+title: "Python Sets Exercises – Practice Problems and Solutions for Beginners"
+description: Sharpen your Python skills with beginner-friendly sets exercises. Practice set operations, membership, and manipulation with interactive problems and solutions. Perfect for students and developers learning Python sets.
+keywords: Python sets exercises, Python set practice, Python set operations, Python set problems, Python set solutions, learn Python sets, Python set membership, Python set manipulation, Python programming exercises, beginner Python sets
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "sets"
