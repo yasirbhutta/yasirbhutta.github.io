@@ -18,8 +18,8 @@ breadcrumb:
 
 ## User Guide for End Users
 
-### [User Guide for Student's](user-guide-students.md)
-### [User Guide for Teacher's](user-guide-teachers.md)
-### [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
+1. ### [User Guide for Student's](user-guide-students.md)
+2. ### [User Guide for Teacher's](user-guide-teachers.md)
+3. ### [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
 
 ## [User Guide for Key Users](user-guide-power-users-admin.md)
