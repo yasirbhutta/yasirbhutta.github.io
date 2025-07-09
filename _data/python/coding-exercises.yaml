@@ -116,11 +116,8 @@ topics:
           name: "Advanced Set Operations"
           url: "https://www.geeksforgeeks.org/python-set-operations/"
 
-
   - topic: loop-control-statements
     questions:
-
-
       - id: py-ce-while-008
         title: "Infinite Loop with Break"
         task: |
@@ -139,7 +136,6 @@ topics:
         resource:
           name: "📺 Watch the solution now!"
           url: "https://www.youtube.com/watch?v=33n-lb1Ujp4"
-
 
   - topic: loops-while
     exercises:
