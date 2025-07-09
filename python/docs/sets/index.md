@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Python Sets Tutorial: Create, Use, and Perform Set Operations with Examples"
-description: "Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills."  
-keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
+title: "Python Sets Tutorial – Create, Use, and Perform Set Operations with Examples"  
+description: "Learn Python sets with this comprehensive tutorial. Discover how to create sets, perform set operations, remove duplicates, and solve real-world problems with practical examples and tasks. Perfect for beginners and students to master Python set concepts."  
+keywords: Python sets tutorial, Python set operations, create sets in Python, remove duplicates Python, Python set examples, Python set tasks, Python set methods, Python programming for beginners, learn Python sets, Python collection types
 course: python
-topic: input-output
+topic: sets
 show_toc: true
 toc: toc/python.html
 show_practice_progress: true
 show_mini_project: false
-prev: /python/docs/sets/
+prev: /python/docs/else-clauses-on-loops/
 next: /python/docs/dictionaries/
 breadcrumb:
   - title: Home
