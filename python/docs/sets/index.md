@@ -7,7 +7,7 @@ course: python
 topic: input-output
 show_toc: true
 toc: toc/python.html
-show_practice_progress: null
+show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/sets/
 next: /python/docs/dictionaries/
