@@ -1,14 +1,17 @@
 ---
 layout: page
-title: "How to Use the SUM Function and AutoSum in Excel – Complete Guide"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+title: "Python Dictionaries Tutorial – Create, Access, and Manipulate Dictionary Data"
+description: Learn how to use dictionaries in Python with this beginner-friendly guide. Discover how to create, access, update, and manipulate dictionary data with practical examples and tips. Perfect for students and professionals to master Python dictionaries.
+keywords: Python dictionaries, Python dictionary tutorial, create dictionary in Python, access dictionary values, update dictionary Python, manipulate dictionary Python, Python dictionary examples, beginner Python dictionaries, Python data structures, learn Python dictionaries
 author: Muhammad Yasir Bhutta
 course: python
-topic: functions
+topic: dictionaries
 toc: toc/python.html
-prev: /python/docs/functions/what-is-functions.html
-next: /phthon/docs/functions/sumif.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/sets/
+next: /python/docs/list-comprehension/
 breadcrumb:
   - title: Home
     url: /
@@ -18,3 +21,4 @@ breadcrumb:
 ## Table of Contents
 
 - [Basics](dict-basics.md)
+- [Dictionaries: Methods](dict-methods.md)

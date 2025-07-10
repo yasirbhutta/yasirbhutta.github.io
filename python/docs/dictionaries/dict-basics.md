@@ -1,28 +1,43 @@
 ---
 layout: page
-title: "Introduction to Python Dictionaries: Concepts, Usage, and Examples"
-
-description: Master Python data types with this comprehensive guide. Learn about numeric, string, boolean, and collection data types with examples, exercises, and tasks. Perfect for beginners and professionals to enhance their Python programming skills.  
-keywords: Python data types, Python numeric types, Python string type, Python boolean type, Python collection types, Python data type examples, Python data type exercises, Python programming for beginners, learn Python data types, Python coding tasks
+title: Introduction to Python Dictionaries – Concepts, Usage, and Examples  
+description: Learn the basics of Python dictionaries with this beginner-friendly guide. Understand key-value pairs, how to create, access, update, and manipulate dictionaries in Python with practical examples and coding tasks. Perfect for students and professionals to master Python dictionaries.  
+keywords: Python dictionaries, Python dictionary tutorial, create dictionary in Python, access dictionary values, update dictionary Python, manipulate dictionary Python, Python dictionary examples, beginner Python dictionaries, Python data structures, learn Python
+course: python
+topic: dictionaries
 toc: toc/python.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+prev: /python/docs/dictionaries/
+next: /python/docs/dictionaries/dict-methods.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
 ---
 
 In Python, a **dictionary** is a collection of key-value pairs. Each key in a dictionary is unique, and it is associated with a value. Dictionaries are used to store data values like a map or a real-life dictionary where each word (key) has a definition (value). They are mutable, meaning you can change, add, or remove items after the dictionary is created.
 
-**Creating a Dictionary**
+**Example:**
+
+> Think of a Python dictionary like a real dictionary: each word (key) has a definition (value).
+
+## **Creating a Dictionary**
 
 You create a dictionary using curly braces `{}` with keys and values separated by a colon `:`. Multiple key-value pairs are separated by commas.
 
 ```python
-# Example of a dictionary
+# Creating a dictionary with student information
 student = {
-    "name": "John",
-    "age": 20,
-    "courses": ["Math", "Science"]
+    "name": "John",      # Key: "name", Value: "John"
+    "age": 20,           # Key: "age", Value: 20
+    "courses": ["Math", "Science"]  # Key: "courses", Value: list of courses
 }
 ```
 
-**Accessing Values**
+## **Accessing Values**
 
 You can access the value associated with a specific key by using square brackets `[]` or the `get()` method.
 
@@ -32,7 +47,7 @@ print(student["name"])  # Output: John
 print(student.get("age"))  # Output: 20
 ```
 
-**Adding or Updating Elements**
+## **Adding or Updating Elements**
 
 You can add a new key-value pair or update an existing one by assigning a value to the key.
 
@@ -44,7 +59,13 @@ student["grade"] = "A"
 student["age"] = 21
 ```
 
-### **Task 12: Creating a Dictionary**  
+## **Common Mistake:**  
+
+Trying to use a list as a key will cause an error because lists are not hashable.
+
+## Tasks
+
+### **Task 1: Creating a Dictionary**  
 Write a Python program that:  
 - Creates a dictionary with **two items** (name and age).  
 - Prints the dictionary.  
@@ -71,3 +92,5 @@ Updated Dictionary: {'name': 'John', 'country': 'USA', 'hobby': 'Reading'}
 ```
 
 ---
+
+
