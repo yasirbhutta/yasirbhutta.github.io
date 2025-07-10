@@ -1,5 +1,6 @@
 course: python
 topics:
+
   - topic: sets
     questions:
       - id: py-ce-sets-001
@@ -665,7 +666,6 @@ topics:
           name: ""
           url: ""
 
-
   - topic: tuples
     exercises:
       - id: py-ce-tuple-001
@@ -1077,8 +1077,7 @@ topics:
         output: "Uppercase"
         difficulty: "easy"
 
-  - topic: if-elif-else
-    exercises:
+
       - id: py-ce-cond-001
         title: "Basic Grade Classifier"
         task: |

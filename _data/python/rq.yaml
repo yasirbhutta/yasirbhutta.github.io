@@ -149,8 +149,6 @@ topics:
   - topic: loops-while
     questions:
 
-course: python
-topics:
   - topic: loops-while
     questions:
       - id: while-mcq-001

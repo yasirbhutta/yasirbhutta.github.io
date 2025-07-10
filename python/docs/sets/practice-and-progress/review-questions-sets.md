@@ -5,8 +5,8 @@ description: Review and test your knowledge of Python sets with comprehensive qu
 keywords: Python sets review questions, Python sets practice, Python set operations, Python set questions and answers, Python programming review, Python set membership, Python set manipulation, Python exercises, beginner Python sets, Python interview questions
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-course: "python"
-topic: "sets"
+course: python
+topic: sets
 prev: /python/docs/lists/practice-and-progress/mini-projects-lists.html
 next: /python/docs/functions.html
 show_practice_progress: true
