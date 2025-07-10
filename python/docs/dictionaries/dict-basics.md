@@ -18,13 +18,20 @@ breadcrumb:
     url: /python/
 ---
 
+## Table of Contents
+
+1. [Creating a Dictionary](#1-creating-a-dictionary)
+2. [Accessing Values](#2-accessing-values)
+3. [Adding or Updating Elements](#3-adding-or-updating-elements)
+4. [Common Mistake](#4-common-mistake)  
+
 In Python, a **dictionary** is a collection of key-value pairs. Each key in a dictionary is unique, and it is associated with a value. Dictionaries are used to store data values like a map or a real-life dictionary where each word (key) has a definition (value). They are mutable, meaning you can change, add, or remove items after the dictionary is created.
 
 **Example:**
 
 > Think of a Python dictionary like a real dictionary: each word (key) has a definition (value).
 
-## **Creating a Dictionary**
+## 1. **Creating a Dictionary**
 
 You create a dictionary using curly braces `{}` with keys and values separated by a colon `:`. Multiple key-value pairs are separated by commas.
 
@@ -37,7 +44,7 @@ student = {
 }
 ```
 
-## **Accessing Values**
+## 2. **Accessing Values**
 
 You can access the value associated with a specific key by using square brackets `[]` or the `get()` method.
 
@@ -47,7 +54,7 @@ print(student["name"])  # Output: John
 print(student.get("age"))  # Output: 20
 ```
 
-## **Adding or Updating Elements**
+## 3. **Adding or Updating Elements**
 
 You can add a new key-value pair or update an existing one by assigning a value to the key.
 
@@ -59,11 +66,11 @@ student["grade"] = "A"
 student["age"] = 21
 ```
 
-## **Common Mistake:**  
+## 4. **Common Mistake:**  
 
 Trying to use a list as a key will cause an error because lists are not hashable.
 
-## Tasks
+## 5. **Tasks**
 
 ### **Task 1: Creating a Dictionary**  
 Write a Python program that:  
@@ -79,7 +86,7 @@ Name: Alice
 
 ---
 
-### **Task 13: Adding to a Dictionary**  
+### **Task 2: Adding to a Dictionary**  
 Write a Python program that:  
 - Creates a dictionary with **name and country**.  
 - Adds a new key **"hobby"** with a value.  

@@ -18,9 +18,16 @@ breadcrumb:
     url: /python/
 ---
 
+## Table of Contents
+
+1. [Dictionaries Common Methods](#1-common-methods)
+2. [Tasks](#2-tasks)
+3. 
 Dictionaries in Python are versatile data structures that store key-value pairs. Here are some essential dictionary methods with beginner-friendly explanations and real-world examples:
 
-## 1. `get(key[, default])`
+## 1. Common Methods
+
+### 1.1 `get(key[, default])`
 **Purpose:** Safely retrieve a value for a given key without raising an error if the key doesn't exist.
 
 **Example:**
@@ -37,7 +44,7 @@ print(user.get('address', 'Not provided'))  # Output: Not provided
 
 **Real-world use:** Looking up product prices in an e-commerce system where some products might not have prices defined.
 
-## 2. `keys()`
+### 1.2 `keys()`
 **Purpose:** Get all keys in the dictionary.
 
 **Example:**
@@ -49,7 +56,7 @@ print(car.keys())  # Output: dict_keys(['make', 'model', 'year'])
 
 **Real-world use:** Getting all field names from a database record before processing them.
 
-## 3. `values()`
+### 1.3 `values()`
 **Purpose:** Get all values in the dictionary.
 
 **Example:**
@@ -61,7 +68,7 @@ print(grades.values())  # Output: dict_values([90, 85, 88])
 
 **Real-world use:** Calculating the average of all values in a gradebook or survey results.
 
-## 4. `items()`
+### 1.4 `items()`
 **Purpose:** Get all key-value pairs as tuples.
 
 **Example:**
@@ -74,7 +81,7 @@ for item, quantity in inventory.items():
 
 **Real-world use:** Displaying all items in a shopping cart with their quantities.
 
-## 5. `update([other])`
+### 1.5 `update([other])`
 **Purpose:** Update the dictionary with key-value pairs from another dictionary.
 
 **Example:**
@@ -89,7 +96,7 @@ print(profile)
 
 **Real-world use:** Merging user profile information from multiple sources.
 
-## 6. `pop(key[, default])`
+### 1.6 `pop(key[, default])`
 **Purpose:** Remove and return the value for a key.
 
 **Example:**
@@ -103,7 +110,7 @@ print(config)  # Output: {'font_size': 14, 'language': 'en'}
 
 **Real-world use:** Removing and processing items from a task queue.
 
-## 7. `popitem()`
+### 1.7 `popitem()`
 **Purpose:** Remove and return the last inserted key-value pair.
 
 **Example:**
@@ -116,7 +123,7 @@ print(last_setting)  # Output: ('contrast', 50)
 
 **Real-world use:** Processing items in LIFO (last-in, first-out) order.
 
-## 8. `clear()`
+### 1.8 `clear()`
 **Purpose:** Remove all items from the dictionary.
 
 **Example:**
@@ -129,7 +136,7 @@ print(shopping_cart)  # Output: {}
 
 **Real-world use:** Emptying a shopping cart after checkout.
 
-## 9. `setdefault(key[, default])`
+### 1.9 `setdefault(key[, default])`
 **Purpose:** Get a value for a key, setting it to a default if the key doesn't exist.
 
 **Example:**
@@ -143,7 +150,7 @@ print(employee)  # Output: {'name': 'John', 'position': 'manager', 'salary': 500
 
 **Real-world use:** Initializing default values in configuration settings.
 
-## 10. `copy()`
+### 1.10 `copy()`
 **Purpose:** Create a shallow copy of the dictionary.
 
 **Example:**
@@ -160,7 +167,7 @@ print(duplicate)  # Output: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 Here are three beginner-friendly tasks to practice working with Python dictionaries, along with sample solutions:
 
-## Tasks
+## 2. Tasks
 
 ### **Task 1: Student Grade Tracker**
 **Objective:** Create a program that stores student names and their grades, then calculates the average grade.
@@ -211,22 +218,6 @@ Current Inventory: {'apples': 10, 'bananas': 3, 'oranges': 7}
 Warning: bananas stock is low (3 left)!
 ```
 
-<details>
-<summary>🔹 Solution</summary>
-
-```python
-inventory = {"apples": 10, "bananas": 3, "oranges": 7}
-
-def check_stock():
-    print(f"Current Inventory: {inventory}")
-    for item, quantity in inventory.items():
-        if quantity < 5:
-            print(f"Warning: {item} stock is low ({quantity} left)!")
-
-check_stock()
-```
-</details>
-
 ---
 
 ### **Task 3: Contact Book**
@@ -245,56 +236,4 @@ Contacts:
 Search for 'Alice': 123-456-7890
 ```
 
-<details>
-<summary>🔹 Solution</summary>
-
-```python
-contacts = {}
-
-# Add contacts
-contacts["Alice"] = "123-456-7890"
-contacts["Bob"] = "987-654-3210"
-
-# Search function
-def search_contact(name):
-    return contacts.get(name, "Contact not found")
-
-# Print all contacts
-print("Contacts:")
-for name, phone in contacts.items():
-    print(f"- {name}: {phone}")
-
-# Search example
-print(f"Search for 'Alice': {search_contact('Alice')}")
-```
-</details>
-
 ---
-
-### **Bonus Challenge (Intermediate)**
-**Task:** Word Frequency Counter  
-Count how many times each word appears in a given sentence.
-
-**Example Input:** `"hello world hello python world"`  
-**Expected Output:** `{'hello': 2, 'world': 2, 'python': 1}`
-
-<details>
-<summary>🔹 Solution</summary>
-
-```python
-sentence = "hello world hello python world"
-words = sentence.split()
-frequency = {}
-
-for word in words:
-    frequency[word] = frequency.get(word, 0) + 1
-
-print(frequency)
-```
-</details>
-
-These tasks helps to practice dictionary operations like:
-- Adding, updating, and deleting items (`dict[key] = value`, `del dict[key]`)
-- Looping through keys and values (`for key, value in dict.items()`)
-- Using `.get()` to safely access values
-- Calculating statistics (sum, average, frequency)  
