@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "SAP User Guides"
-description: SAP User Guide for Teacher's
-keywords: SAP User Guide for Teacher's
+title: "SAP User Guides – Comprehensive Manuals for Teachers, Students, and Key Users"
+description: Access comprehensive SAP user guides for teachers, students, and departmental focal persons. Learn how to use SAP for education and research with step-by-step instructions, tips, and best practices. Perfect for educators and academic institutions.
+keywords: SAP user guide, SAP for teachers, SAP for students, SAP education and research, SAP manuals, SAP step-by-step guide, SAP academic resources, SAP departmental focal person, SAP key users, SAP training
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 show_practice_progress: false
