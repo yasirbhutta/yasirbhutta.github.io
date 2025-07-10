@@ -1,5 +1,6 @@
 course: python
 topics:
+
   - topic: sets
     questions:
       - id: py-ce-sets-001
