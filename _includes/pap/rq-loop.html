@@ -9,8 +9,8 @@
 <details>
 <summary>Answer</summary>
 <div class="answer-box">
-<pre>{{ q.answer }}</pre>
-<pre>{{ q.examples }}</pre>
+<pre>{{ q.answer | escape }}</pre>
+<pre>{{ q.examples | escape }}</pre>
 {% if q.resources and q.resources|length > 0 %}
 <div> 
 <!-- <p><strong>📚 Related Resources:</strong></p> -->

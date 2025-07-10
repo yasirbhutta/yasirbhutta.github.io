@@ -5,14 +5,14 @@ topics:
     questions:
       - id: sets-review-001
         prompt: "What are the key characteristics of Python sets and how do they differ from lists and dictionaries?"
-        answer: >
+        answer: |
           - Sets are unordered collections of unique elements
           - They are mutable but can only contain immutable (hashable) elements
           - Unlike lists, sets don't allow duplicates and don't maintain order
           - Unlike dictionaries, sets don't have key-value pairs
           - Sets are optimized for membership tests (x in set)
           - They support mathematical set operations like union, intersection
-        examples:
+        examples: |
           - "Creating: `s = {1, 2, 3}` or `s = set([1, 2, 3])`"
           - "Membership test: `2 in s` returns `True`"
           - "Operations: `s1 | s2` (union), `s1 & s2` (intersection)"
@@ -22,7 +22,7 @@ topics:
 
       - id: sets-review-002
         prompt: "Explain the difference between the update() and union() methods for sets, with examples."
-        answer: >
+        answer: |
           - union(): Returns a new set containing elements from both sets without modifying originals
           - update(): Modifies the original set by adding elements from another set (in-place operation)
           - union() can take any iterable while update() takes any iterable
