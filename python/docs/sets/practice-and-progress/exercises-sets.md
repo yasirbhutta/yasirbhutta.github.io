@@ -5,8 +5,8 @@ description: Sharpen your Python skills with beginner-friendly sets exercises. P
 keywords: Python sets exercises, Python set practice, Python set operations, Python set problems, Python set solutions, learn Python sets, Python set membership, Python set manipulation, Python programming exercises, beginner Python sets
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
-topic: sets
-course: python
+topic: "sets"
+course: "python"
 prev: "/python/docs/sets/practice-and-progress/find-fix-mistakes-sets.html"
 next: "/python/docs/sets/practice-and-progress/mini-projects-sets.html"
 show_practice_progress: true
