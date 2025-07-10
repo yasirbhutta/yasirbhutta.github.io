@@ -27,7 +27,7 @@ topics:
           - update(): Modifies the original set by adding elements from another set (in-place operation)
           - union() can take any iterable while update() takes any iterable
           - union() is similar to | operator, update() is similar to |= operator
-        examples:
+        examples: |
           - "union(): `s3 = s1.union(s2)` or `s3 = s1 | s2`"
           - "update(): `s1.update(s2)` or `s1 |= s2`"
         resources:
@@ -36,13 +36,13 @@ topics:
 
       - id: sets-review-003
         prompt: "What are frozen sets in Python and when would you use them?"
-        answer: >
+        answer: |
           - Frozen sets are immutable versions of regular sets
           - Created using frozenset() constructor
           - They are hashable so can be used as dictionary keys or elements of other sets
           - Useful when you need an immutable collection of unique items
           - Support all set operations except those that modify the set
-        examples:
+        examples: |
           - "Creating: `fs = frozenset([1, 2, 3])`"
           - "As dictionary key: `d = {fs: 'value'}`"
         resources:
@@ -51,13 +51,13 @@ topics:
 
       - id: sets-review-004
         prompt: "Explain set comprehension and how it differs from list comprehension."
-        answer: >
+        answer: |
           - Set comprehension creates sets using similar syntax to list comprehension
           - Uses curly braces {} instead of square brackets []
           - Results in a set (unique, unordered elements) instead of a list
           - Can include conditions like list comprehension
           - Syntax: `{expression for item in iterable if condition}`
-        examples:
+        examples: |
           - "Basic: `{x**2 for x in range(10)}`"
           - "With condition: `{x for x in 'abracadabra' if x not in 'abc'}`"
         resources:
@@ -66,14 +66,14 @@ topics:
 
       - id: sets-review-005
         prompt: "What are the differences between remove(), discard(), and pop() methods for sets?"
-        answer: >
+        answer: |
           - remove(x): Removes element x, raises KeyError if x not found
           - discard(x): Removes element x if present, does nothing if not found
           - pop(): Removes and returns an arbitrary element, raises KeyError if empty
           - remove() is for when you want to know if element was missing
           - discard() is for safe removal when you don't care if element exists
           - pop() is useful for processing elements when order doesn't matter
-        examples:
+        examples: |
           - "remove(): `s.remove(2)`"
           - "discard(): `s.discard(3)`"
           - "pop(): `elem = s.pop()`"
