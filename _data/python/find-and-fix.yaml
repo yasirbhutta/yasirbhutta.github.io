@@ -1,5 +1,73 @@
 course: python
 topics:
+
+  - topic: dictionaries
+    questions:
+      - id: dict-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to create an empty dictionary but actually creates an empty set.
+        code: |
+          my_dict = {}
+          my_dict.add('key', 'value')
+        hint: "Empty curly braces create a dictionary, but 'add' is not a dictionary method."
+        issue: "Using 'add' method, which is not valid for dictionaries."
+        solution: |
+          my_dict = {}
+          my_dict['key'] = 'value'
+
+      - id: dict-fix-002
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to access a non-existing key without handling the error.
+        code: |
+          my_dict = {'name': 'Alice'}
+          print(my_dict['age'])
+        hint: "What happens if the key doesn't exist?"
+        issue: "KeyError when accessing a non-existent key."
+        solution: |
+          my_dict = {'name': 'Alice'}
+          print(my_dict.get('age'))  # Returns None if key doesn't exist
+
+      - id: dict-fix-003
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to use a list as a dictionary key.
+        code: |
+          my_dict = {[1, 2]: "value"}
+        hint: "Keys must be immutable types."
+        issue: "Lists are unhashable and cannot be used as keys."
+        solution: |
+          my_dict = {(1, 2): "value"}
+
+      - id: dict-fix-004
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to delete a key that may not exist.
+        code: |
+          my_dict = {'a': 1}
+          del my_dict['b']
+        hint: "How can you safely remove a key?"
+        issue: "KeyError if the key doesn't exist."
+        solution: |
+          my_dict = {'a': 1}
+          my_dict.pop('b', None)
+
+      - id: dict-fix-005
+        difficulty: easy
+        prompt: |
+          Fix the code that tries to iterate over dictionary keys incorrectly.
+        code: |
+          my_dict = {'a': 1, 'b': 2}
+          for key, value in my_dict:
+              print(key, value)
+        hint: "How do you get key-value pairs in a loop?"
+        issue: "Iterating directly over dict gives keys, not key-value pairs."
+        solution: |
+          my_dict = {'a': 1, 'b': 2}
+          for key, value in my_dict.items():
+              print(key, value)
+
   - topic: sets
     questions:
       - id: sets-fix-001

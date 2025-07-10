@@ -1,5 +1,68 @@
 course: python
 topics:
+
+  - topic: dictionaries
+    questions:
+      - id: dict-fill-001
+        difficulty: easy
+        prompt: "A Python dictionary stores data in ______ pairs."
+        answer: "key-value"
+        explanation: "Dictionaries store data as key-value pairs where each key maps to a value."
+
+      - id: dict-fill-002
+        difficulty: easy
+        prompt: "To create an empty dictionary, you use ______."
+        answer: "{}"
+        explanation: "You can create an empty dictionary using curly braces {} or the dict() constructor."
+
+      - id: dict-fill-003
+        difficulty: easy
+        prompt: "To access a value in a dictionary, you use its ______."
+        answer: "key"
+        explanation: "Values are accessed by using their keys inside square brackets: dict[key]."
+
+      - id: dict-fill-004
+        difficulty: easy
+        prompt: "To add a new key-value pair, use the ______ brackets."
+        answer: "square"
+        explanation: "Use square brackets to assign a value to a new or existing key: dict[key] = value."
+
+      - id: dict-fill-005
+        difficulty: easy
+        prompt: "The ______ method returns all keys in a dictionary."
+        answer: "keys()"
+        explanation: "The keys() method returns a view object of all keys in the dictionary."
+
+      - id: dict-fill-006
+        difficulty: easy
+        prompt: "The ______ method returns all values in a dictionary."
+        answer: "values()"
+        explanation: "The values() method returns a view object of all values in the dictionary."
+
+      - id: dict-fill-007
+        difficulty: easy
+        prompt: "The ______ method removes a key and returns its value."
+        answer: "pop()"
+        explanation: "The pop() method removes the specified key and returns its value."
+
+      - id: dict-fill-008
+        difficulty: easy
+        prompt: "To get a list of key-value pairs, use the ______ method."
+        answer: "items()"
+        explanation: "The items() method returns a view object with the dictionary’s key-value pairs."
+
+      - id: dict-fill-009
+        difficulty: easy
+        prompt: "To check if a key exists, use the ______ operator."
+        answer: "in"
+        explanation: "Use 'in' to check if a key exists: 'key' in dict."
+
+      - id: dict-fill-010
+        difficulty: easy
+        prompt: "Dictionaries in Python are ______, meaning their keys must be unique."
+        answer: "unordered and unique-keyed"
+        explanation: "Python dictionaries are unordered collections and do not allow duplicate keys."
+
   - topic: sets
     questions:
       - id: sets-fill-001

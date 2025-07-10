@@ -1,6 +1,68 @@
 course: python
 topics:
 
+  - topic: dictionaries
+    questions:
+      - id: dict-tf-001
+        difficulty: easy
+        prompt: "Dictionary keys must be immutable data types."
+        answer: true
+        explanation: "Dictionary keys must be hashable (immutable) types like strings, numbers, or tuples. This is because Python uses the key's hash value for quick lookups."
+
+      - id: dict-tf-002
+        difficulty: easy
+        prompt: "Dictionaries maintain insertion order in all versions of Python."
+        answer: false
+        explanation: "Dictionaries only maintain insertion order in Python 3.7+. In earlier versions, dictionaries were unordered."
+
+      - id: dict-tf-003
+        difficulty: easy
+        prompt: "The values in a dictionary can be of any data type."
+        answer: true
+        explanation: "While keys must be immutable, values can be any Python object - lists, dictionaries, functions, etc."
+
+      - id: dict-tf-004
+        difficulty: medium
+        prompt: "The get() method raises a KeyError if the key doesn't exist."
+        answer: false
+        explanation: "The get() method returns None (or a specified default) if the key doesn't exist, unlike direct access with square brackets which raises KeyError."
+
+      - id: dict-tf-005
+        difficulty: medium
+        prompt: "You can use lists as dictionary keys."
+        answer: false
+        explanation: "Lists are mutable and cannot be used as dictionary keys. However, you can use tuples as keys since they're immutable."
+
+      - id: dict-tf-006
+        difficulty: medium
+        prompt: "The update() method completely replaces the existing dictionary with the new one."
+        answer: false
+        explanation: "update() merges the new dictionary into the existing one, adding new keys and updating values for existing keys."
+
+      - id: dict-tf-007
+        difficulty: hard
+        prompt: "Dictionary comprehensions can only be used with numeric keys."
+        answer: false
+        explanation: "Dictionary comprehensions can use any valid key-value pairs, not just numeric keys. For example: {str(x): x**2 for x in range(5)}"
+
+      - id: dict-tf-008
+        difficulty: hard
+        prompt: "The popitem() method removes a random item in Python versions before 3.7."
+        answer: true
+        explanation: "Before Python 3.7 (when dictionaries became ordered), popitem() would remove an arbitrary item. Now it removes the last inserted item."
+
+      - id: dict-tf-009
+        difficulty: easy
+        prompt: "You can nest dictionaries inside other dictionaries."
+        answer: true
+        explanation: "Dictionaries can contain other dictionaries as values, allowing for complex nested data structures."
+
+      - id: dict-tf-010
+        difficulty: medium
+        prompt: "The in operator checks for both keys and values in a dictionary."
+        answer: false
+        explanation: "The in operator only checks for keys in a dictionary. To check for values, you need to use the values() method (value in my_dict.values())."
+
   - topic: sets
     questions:
       - id: sets-tf-001

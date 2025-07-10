@@ -1,6 +1,87 @@
 course: python
 topics:
 
+  - topic: dictionaries
+    questions:
+      - id: dict-review-001
+        prompt: "What are the key characteristics of Python dictionaries and how do they differ from lists?"
+        answer: |
+          - Dictionaries are unordered (before Python 3.7) collections of key-value pairs
+          - Keys must be unique and immutable (strings, numbers, tuples)
+          - Values can be any Python object
+          - Unlike lists, dictionaries are accessed by keys rather than indices
+          - Dictionaries are optimized for fast lookups by key
+          - They use curly braces {} instead of square brackets []
+        examples: |
+          - "Creating: `d = {'name': 'Alice', 'age': 25}`"
+          - "Accessing: `d['name']` returns 'Alice'"
+          - "Checking keys: `'age' in d` returns `True`"
+        resources:
+          - name: "Python Dictionaries"
+            url: "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+
+      - id: dict-review-002
+        prompt: "Explain three common dictionary methods and their uses with examples."
+        answer: |
+          1. `get(key[, default])`: Safely retrieves a value, returns None or default if key doesn't exist
+          2. `items()`: Returns view of (key, value) pairs for iteration
+          3. `update()`: Merges another dictionary into current one
+        examples: |
+          - "`ages.get('Bob', 0)` returns 0 if 'Bob' not in dictionary"
+          - "`for k, v in my_dict.items():` iterates through pairs"
+          - "`dict1.update(dict2)` adds dict2's items to dict1"
+        resources:
+          - name: "Dictionary Methods"
+            url: "https://docs.python.org/3/library/stdtypes.html#mapping-types-dict"
+
+      - id: dict-review-003
+        prompt: "How would you handle missing keys in a dictionary? Compare different approaches."
+        answer: |
+          - Direct access (`dict[key]`) raises KeyError if missing
+          - `get()` method returns None or specified default
+          - `setdefault()` both checks and sets default if missing
+          - `collections.defaultdict` automatically handles missing keys
+          - `try/except` blocks can catch KeyError
+        examples: |
+          - "`value = my_dict.get('missing', 'default')`"
+          - "`value = my_dict.setdefault('new_key', [])`"
+          - "`from collections import defaultdict; d = defaultdict(int)`"
+        resources:
+          - name: "Handling Missing Keys"
+            url: "https://realpython.com/python-dicts/#handling-missing-keys"
+
+      - id: dict-review-004
+        prompt: "What are dictionary comprehensions and how do they work?"
+        answer: |
+          - Compact way to create dictionaries from iterables
+          - Similar to list comprehensions but produces key-value pairs
+          - Syntax: `{key_expr: value_expr for item in iterable}`
+          - Can include conditional statements
+          - Often more readable than traditional loops
+        examples: |
+          - "`{x: x**2 for x in range(5)}` creates {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}"
+          - "`{k: v.upper() for k, v in d.items() if len(v) > 3}` filters and transforms"
+        resources:
+          - name: "Dictionary Comprehensions"
+            url: "https://www.python.org/dev/peps/pep-0274/"
+
+      - id: dict-review-005
+        prompt: "When would you choose a dictionary over other data structures?"
+        answer: |
+          - When you need to associate keys with values (mappings)
+          - For fast lookups by unique identifiers
+          - When data is naturally key-value pairs (like JSON)
+          - For counting occurrences (using keys as items)
+          - When order matters (Python 3.7+ maintains insertion order)
+          - For implementing sparse data structures
+        examples: |
+          - "Storing user profiles with usernames as keys"
+          - "Counting word frequencies: `{'the': 15, 'a': 7}`"
+          - "Representing graph adjacency lists"
+        resources:
+          - name: "Choosing Data Structures"
+            url: "https://docs.python.org/3/tutorial/datastructures.html#comparing-sequences-and-other-types"
+
   - topic: sets
     questions:
       - id: sets-review-001

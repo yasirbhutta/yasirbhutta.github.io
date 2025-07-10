@@ -1,6 +1,462 @@
 
 course: python
 topics:
+
+  - topic: dictionaries
+    questions:
+
+      - id: dict-mcq-001
+        difficulty: easy
+        question: Which of the following correctly creates an empty dictionary in Python?
+        language: python
+        code: null
+        options:
+          - "my_dict = []"
+          - "my_dict = {}"
+          - "my_dict = set()"
+          - "my_dict = dict[]"
+        answer: "my_dict = {}"
+        explanation: "Using {} or dict() creates an empty dictionary. [] creates an empty list."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict"
+
+      - id: dict-mcq-002
+        difficulty: easy
+        question: Which method would you use to get all keys from a dictionary?
+        language: python
+        code: null
+        options:
+          - "get()"
+          - "keys()"
+          - "values()"
+          - "items()"
+        answer: "keys()"
+        explanation: "The keys() method returns a view of all dictionary keys."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict.keys"
+
+      - id: dict-mcq-003
+        difficulty: easy
+        question: What will `my_dict.get('key')` return if 'key' does not exist in the dictionary?
+        language: python
+        code: |
+          my_dict = {'a': 1, 'b': 2}
+          print(my_dict.get('c'))
+        options:
+          - "0"
+          - "KeyError"
+          - "None"
+          - "'c'"
+        answer: "None"
+        explanation: "The get() method returns None if the key is not found, instead of raising KeyError."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict.get"
+
+      - id: dict-mcq-004
+        difficulty: easy
+        question: Which of these types can NOT be used as a dictionary key?
+        language: python
+        code: null
+        options:
+          - "int"
+          - "str"
+          - "tuple"
+          - "list"
+        answer: "list"
+        explanation: "Dictionary keys must be immutable and hashable; lists are mutable and unhashable."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+
+      - id: dict-mcq-005
+        difficulty: easy
+        question: How do you remove a key-value pair from a dictionary by key?
+        language: python
+        code: null
+        options:
+          - "remove()"
+          - "pop()"
+          - "discard()"
+          - "delete()"
+        answer: "pop()"
+        explanation: "The pop() method removes the specified key and returns its value."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict.pop"
+
+      - id: dict-mcq-006
+        difficulty: easy
+        question: Which statement checks if the key 'age' exists in a dictionary called my_dict?
+        language: python
+        code: null
+        options:
+          - "'age' in my_dict"
+          - "my_dict.has('age')"
+          - "'age' exists my_dict"
+          - "'age' == my_dict"
+        answer: "'age' in my_dict"
+        explanation: "Use the 'in' operator to check if a key exists in a dictionary."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+
+      - id: dict-mcq-007
+        difficulty: easy
+        question: What does the `items()` method return?
+        language: python
+        code: null
+        options:
+          - "A list of keys"
+          - "A list of values"
+          - "A view object of key-value pairs"
+          - "The length of the dictionary"
+        answer: "A view object of key-value pairs"
+        explanation: "items() returns a view object of (key, value) pairs."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict.items"
+
+      - id: sets-mcq-001
+        difficulty: easy
+        question: Which of the following is a correct way to create a set in Python?
+        language: python
+        code: ""
+        options:
+          - "myset = {}"
+          - "myset = []"
+          - "myset = set()"
+          - "myset = dict()"
+        answer: "myset = set()"
+        explanation: "Using set() creates an empty set. Using {} creates an empty dictionary."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set"
+
+      - id: sets-mcq-002
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          myset = {1, 2, 2, 3}
+          print(len(myset))
+        options:
+          - "2"
+          - "3"
+          - "4"
+          - "1"
+        answer: "3"
+        explanation: "Sets store only unique elements, so duplicate 2 is ignored."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set"
+
+      - id: sets-mcq-003
+        difficulty: easy
+        question: Which method is used to add an item to a set?
+        language: python
+        code: ""
+        options:
+          - "append()"
+          - "add()"
+          - "insert()"
+          - "extend()"
+        answer: "add()"
+        explanation: "The add() method adds a single element to a set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.add"
+
+      - id: sets-mcq-004
+        difficulty: easy
+        question: What will be the output?
+        language: python
+        code: |
+          a = {1, 2, 3}
+          a.add(2)
+          print(a)
+        options:
+          - "{1, 2, 3, 2}"
+          - "{1, 2, 3}"
+          - "{1, 3}"
+          - "{1, 2}"
+        answer: "{1, 2, 3}"
+        explanation: "Adding an existing element has no effect because sets contain only unique items."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.add"
+
+      - id: sets-mcq-005
+        difficulty: easy
+        question: Which method removes an element from a set without raising an error if the element does not exist?
+        language: python
+        code: ""
+        options:
+          - "remove()"
+          - "discard()"
+          - "pop()"
+          - "clear()"
+        answer: "discard()"
+        explanation: "The discard() method does not raise an error if the item is not present."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.discard"
+
+      - id: sets-mcq-006
+        difficulty: easy
+        question: Which of these is true about sets?
+        language: python
+        code: ""
+        options:
+          - "Sets are ordered collections"
+          - "Sets can contain duplicate elements"
+          - "Sets are mutable"
+          - "Sets can contain lists"
+        answer: "Sets are mutable"
+        explanation: "You can add and remove elements, but elements must be immutable."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set"
+
+      - id: sets-mcq-007
+        difficulty: easy
+        question: Which operator is used for set union?
+        language: python
+        code: ""
+        options:
+          - "+"
+          - "&"
+          - "|"
+          - "-"
+        answer: "|"
+        explanation: "The '|' operator returns the union of two sets."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.union"
+
+      - id: sets-mcq-008
+        difficulty: easy
+        question: What is the output?
+        language: python
+        code: |
+          a = {1, 2}
+          b = {2, 3}
+          print(a | b)
+        options:
+          - "{1, 2, 3}"
+          - "{2}"
+          - "{1, 3}"
+          - "{1, 2}"
+        answer: "{1, 2, 3}"
+        explanation: "Union combines elements from both sets, removing duplicates."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.union"
+
+      - id: sets-mcq-009
+        difficulty: easy
+        question: Which method removes all items from a set?
+        language: python
+        code: ""
+        options:
+          - "delete()"
+          - "remove()"
+          - "clear()"
+          - "discard()"
+        answer: "clear()"
+        explanation: "clear() empties the set completely."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.clear"
+
+      - id: sets-mcq-010
+        difficulty: easy
+        question: Which method can be used to get a copy of a set?
+        language: python
+        code: ""
+        options:
+          - "copy()"
+          - "clone()"
+          - "duplicate()"
+          - "replicate()"
+        answer: "copy()"
+        explanation: "copy() returns a shallow copy of the set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.copy"
+
+      - id: sets-mcq-011
+        difficulty: easy
+        question: Which set operation returns elements common to both sets?
+        language: python
+        code: ""
+        options:
+          - "Union"
+          - "Difference"
+          - "Intersection"
+          - "Symmetric Difference"
+        answer: "Intersection"
+        explanation: "Intersection returns common elements."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.intersection"
+
+      - id: sets-mcq-012
+        difficulty: easy
+        question: What is the output?
+        language: python
+        code: |
+          a = {1, 2, 3}
+          b = {3, 4, 5}
+          print(a & b)
+        options:
+          - "{1, 2, 3, 4, 5}"
+          - "{3}"
+          - "{1, 2}"
+          - "{}"
+        answer: "{3}"
+        explanation: "The '&' operator returns the intersection of the sets."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.intersection"
+
+      - id: sets-mcq-013
+        difficulty: easy
+        question: Which operation returns elements that are in either set but not both?
+        language: python
+        code: ""
+        options:
+          - "Union"
+          - "Intersection"
+          - "Difference"
+          - "Symmetric Difference"
+        answer: "Symmetric Difference"
+        explanation: "Symmetric difference excludes common elements."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.symmetric_difference"
+
+      - id: sets-mcq-014
+        difficulty: easy
+        question: What does the pop() method do on a set?
+        language: python
+        code: ""
+        options:
+          - "Removes and returns an arbitrary element"
+          - "Removes a specific element"
+          - "Removes all elements"
+          - "Adds an element"
+        answer: "Removes and returns an arbitrary element"
+        explanation: "Sets are unordered; pop() removes any item."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.pop"
+
+      - id: sets-mcq-015
+        difficulty: easy
+        question: What is the output?
+        language: python
+        code: |
+          myset = {1, 2, 3}
+          myset.remove(4)
+        options:
+          - "Removes nothing"
+          - "Raises KeyError"
+          - "Removes 4"
+          - "Adds 4"
+        answer: "Raises KeyError"
+        explanation: "remove() raises an error if the element is not found."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.remove"
+
+      - id: sets-mcq-016
+        difficulty: easy
+        question: What is the result of set([1, 2, 2, 3])?
+        language: python
+        code: ""
+        options:
+          - "[1, 2, 2, 3]"
+          - "{1, 2, 2, 3}"
+          - "{1, 2, 3}"
+          - "(1, 2, 3)"
+        answer: "{1, 2, 3}"
+        explanation: "The set() constructor removes duplicates."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set"
+
+      - id: sets-mcq-017
+        difficulty: easy
+        question: Which set method returns the difference of two sets?
+        language: python
+        code: ""
+        options:
+          - "intersection()"
+          - "difference()"
+          - "union()"
+          - "symmetric_difference()"
+        answer: "difference()"
+        explanation: "difference() returns elements only in the first set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.difference"
+
+      - id: sets-mcq-018
+        difficulty: easy
+        question: What is the output?
+        language: python
+        code: |
+          a = {1, 2, 3}
+          b = {2, 3, 4}
+          print(a - b)
+        options:
+          - "{1, 4}"
+          - "{2, 3}"
+          - "{1}"
+          - "{}"
+        answer: "{1}"
+        explanation: "Difference returns items in a but not in b."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set.difference"
+
+      - id: sets-mcq-019
+        difficulty: easy
+        question: What is the data type of { } in Python?
+        language: python
+        code: ""
+        options:
+          - "Set"
+          - "List"
+          - "Tuple"
+          - "Dictionary"
+        answer: "Dictionary"
+        explanation: "Empty {} is a dictionary. Use set() for an empty set."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#dict"
+
+      - id: sets-mcq-020
+        difficulty: easy
+        question: Which is a valid way to check if an item exists in a set?
+        language: python
+        code: |
+          fruits = {"apple", "banana"}
+          print("apple" ____ fruits)
+        options:
+          - "has"
+          - "in"
+          - "exists"
+          - "inside"
+        answer: "in"
+        explanation: "Use 'in' to check membership in sets."
+        resources:
+          - type: documentation
+            url: "https://docs.python.org/3/library/stdtypes.html#set"
+
   - topic: sets
     questions:
 
