@@ -34,7 +34,7 @@ breadcrumb:
 4. **break, continue, pass**: [MCQs](../docs/loop-control-statements/practice-and-progress/mcqs-loop-control-statements.md) 📝, [Find and Fix Mistakes](../docs/loop-control-statements/practice-and-progress/find-fix-mistakes-loop-control-statements.md) 🔍, [Coding Exercises](../docs/loop-control-statements/practice-and-progress/exercises-loop-control-statements.md) 🏋️‍♂️
 5. **else Clause in Loops**
 6. **Sets**: [MCQs](../docs/sets/practice-and-progress/mcqs-sets.md) 📝, [Find and Fix Mistakes](../docs/sets/practice-and-progress/find-fix-mistakes-sets.md) 🔍, [Coding Exercises](../docs/sets/practice-and-progress/exercises-sets.md) 🏋️‍♂️
-7. **Dictionaries**: 
+7. **Dictionaries**: [MCQs](../docs/dictionaries/practice-and-progress/mcqs-dictionaries.md) 📝, [Find and Fix Mistakes](../docs/dictionaries/practice-and-progress/find-fix-mistakes-dictionaries.md) 🔍, [Coding Exercises](../docs/dictionaries/practice-and-progress/exercises-dictionaries.md) 🏋️‍♂️
 8. **List Comprehension**: 
 
 **🔧 Mini Project**:
