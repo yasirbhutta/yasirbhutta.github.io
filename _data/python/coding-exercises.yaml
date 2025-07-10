@@ -1,6 +1,104 @@
 course: python
 topics:
 
+  - topic: dictionaries
+    questions:
+      - id: py-ce-dict-001
+        title: "Word Frequency Counter"
+        task: |
+          Write a function that takes a string and returns a dictionary
+          where keys are words and values are their counts in the string.
+        requirements:
+          - "Convert string to lowercase"
+          - "Ignore punctuation"
+          - "Return the dictionary sorted alphabetically by keys"
+        input: |
+          "Hello hello world! Python is great. Python is fun."
+        output: |
+          {'fun': 1, 'great': 1, 'hello': 2, 'is': 2, 'python': 2, 'world': 1}
+        difficulty: "easy"
+        hint: "Use str.lower(), str.split(), and dictionary get() method with default"
+        resource:
+          name: "Python Dictionaries Documentation"
+          url: "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+
+      - id: py-ce-dict-002
+        title: "Dictionary Merger"
+        task: |
+          Write a function that takes two dictionaries and returns a new dictionary
+          that combines them. If keys overlap, values from the second dictionary should be kept.
+        requirements:
+          - "Create a new dictionary (don't modify originals)"
+          - "Handle overlapping keys"
+          - "Use dictionary methods"
+        input: |
+          {'a': 1, 'b': 2}, {'b': 3, 'c': 4}
+        output: |
+          {'a': 1, 'b': 3, 'c': 4}
+        difficulty: "medium"
+        hint: "Consider using dictionary copy() and update() methods"
+        resource:
+          name: "Dictionary update() method"
+          url: "https://docs.python.org/3/library/stdtypes.html#dict.update"
+
+      - id: py-ce-dict-003
+        title: "Invert Dictionary"
+        task: |
+          Write a function that takes a dictionary and returns a new dictionary
+          where keys and values are swapped. Handle duplicate values by storing
+          inverted values as lists.
+        requirements:
+          - "Handle duplicate values by creating lists"
+          - "Return empty dictionary if input is empty"
+          - "Handle non-unique values correctly"
+        input: |
+          {'apple': 'fruit', 'banana': 'fruit', 'carrot': 'vegetable'}
+        output: |
+          {'fruit': ['apple', 'banana'], 'vegetable': ['carrot']}
+        difficulty: "hard"
+        hint: "Check if value exists in new dict before adding, handle list creation"
+        resource:
+          name: "Dictionary Comprehensions"
+          url: "https://www.python.org/dev/peps/pep-0274/"
+
+      - id: py-ce-dict-004
+        title: "Dictionary Filter"
+        task: |
+          Write a function that filters a dictionary based on key-value conditions.
+          Return a new dictionary with items where the value is greater than the threshold.
+        requirements:
+          - "Take dictionary and threshold as parameters"
+          - "Return new dictionary"
+          - "Use dictionary comprehension"
+        input: |
+          {'a': 5, 'b': 12, 'c': 3, 'd': 8}, 7
+        output: |
+          {'b': 12, 'd': 8}
+        difficulty: "medium"
+        hint: "Dictionary comprehension can include conditional"
+        resource:
+          name: "Dictionary Comprehensions"
+          url: "https://realpython.com/iterate-through-dictionary-python/#using-comprehensions"
+
+      - id: py-ce-dict-005
+        title: "Nested Dictionary Access"
+        task: |
+          Write a function that safely accesses a value in a nested dictionary
+          using a list of keys. Return None if any key doesn't exist.
+        requirements:
+          - "Handle arbitrary depth of nesting"
+          - "Return None for missing keys at any level"
+          - "Use recursion or iterative approach"
+        input: |
+          {'a': {'b': {'c': 42}}}, ['a', 'b', 'c']
+        output: |
+          42
+        difficulty: "hard"
+        hint: "Use get() method with default for safe access"
+        resource:
+          name: "Recursive Dictionary Access"
+          url: "https://realpython.com/python-recursion/"
+
   - topic: sets
     questions:
       - id: py-ce-sets-001
