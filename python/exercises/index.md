@@ -11,6 +11,10 @@ breadcrumb:
     url: /python/
 ---
 
+## Learn Python
+
+- [45-Day Beginner-Friendly Python Learning Plan](../lesson-plans/45-days-beginners-friendly-python.md)
+
 ## 📅 Python Basics
 
 - **Variables**: [MCQs](../docs/variables/practice-and-progress/mcqs-variables.md) 📝, [Find and Fix Mistakes](../docs/variables/practice-and-progress/find-fix-mistakes-variables.md) 🔍, [Coding Exercises](../docs/variables/practice-and-progress/exercises-variables.md) 🏋️‍♂️
