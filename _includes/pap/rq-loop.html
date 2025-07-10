@@ -6,14 +6,14 @@
 <pre><code class="language-{{ q.language | escape }}">{{ q.code | escape }}</code></pre>
 {% endif %}
 {% if q.answer %}
-<h3>Answer</h3>
+<h3>💬 Answer</h3>
 <pre>{{ q.answer | escape }}</pre>
 {% if q.examples %} 
 <h3>💡 Examples:</h3>
 <pre>{{ q.examples | escape }}</pre>
 {% endif %}
 {% if q.resources and q.resources|length > 0 %}
-<p><strong>📘 Related Topics:</strong></p>
+<h3>📘 Related Topics:</h3>
 <ul>
 {% for resource in q.resources %}
 <li><a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.name | escape }}</a></li>
