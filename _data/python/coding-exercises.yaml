@@ -1334,6 +1334,7 @@ topics:
           name: "Operator Precedence"
           url: "https://docs.python.org/3/reference/expressions.html#operator-precedence"
         difficulty: "easy"
+ 
   - topic: Assignment Operators
     exercises:
       - id: py-ce-op-003
@@ -1956,6 +1957,7 @@ topics:
         output: |
           My name is Alice and I am 30 years old.
         difficulty: "easy"
+ 
   - topic: lambda
     exercises:
       - id: py-lf-001
