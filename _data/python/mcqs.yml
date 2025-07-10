@@ -8,7 +8,7 @@ topics:
         difficulty: easy
         question: Which of the following is a correct way to create a set in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "myset = {}"
           - "myset = []"
@@ -42,7 +42,7 @@ topics:
         difficulty: easy
         question: Which method is used to add an item to a set?
         language: python
-        code: ""
+        code: null
         options:
           - "append()"
           - "add()"
@@ -77,7 +77,7 @@ topics:
         difficulty: easy
         question: Which method removes an element from a set without raising an error if the element does not exist?
         language: python
-        code: ""
+        code: null
         options:
           - "remove()"
           - "discard()"
@@ -93,7 +93,7 @@ topics:
         difficulty: easy
         question: Which of these is true about sets?
         language: python
-        code: ""
+        code: null
         options:
           - "Sets are ordered collections"
           - "Sets can contain duplicate elements"
@@ -109,7 +109,7 @@ topics:
         difficulty: easy
         question: Which operator is used for set union?
         language: python
-        code: ""
+        code: null
         options:
           - "+"
           - "&"
@@ -144,7 +144,7 @@ topics:
         difficulty: easy
         question: Which method removes all items from a set?
         language: python
-        code: ""
+        code: null
         options:
           - "delete()"
           - "remove()"
@@ -160,7 +160,7 @@ topics:
         difficulty: easy
         question: Which method can be used to get a copy of a set?
         language: python
-        code: ""
+        code: null
         options:
           - "copy()"
           - "clone()"
@@ -176,7 +176,7 @@ topics:
         difficulty: easy
         question: Which set operation returns elements common to both sets?
         language: python
-        code: ""
+        code: null
         options:
           - "Union"
           - "Difference"
@@ -211,7 +211,7 @@ topics:
         difficulty: easy
         question: Which operation returns elements that are in either set but not both?
         language: python
-        code: ""
+        code: null
         options:
           - "Union"
           - "Intersection"
@@ -227,7 +227,7 @@ topics:
         difficulty: easy
         question: What does the pop() method do on a set?
         language: python
-        code: ""
+        code: null
         options:
           - "Removes and returns an arbitrary element"
           - "Removes a specific element"
@@ -261,7 +261,7 @@ topics:
         difficulty: easy
         question: What is the result of set([1, 2, 2, 3])?
         language: python
-        code: ""
+        code: null
         options:
           - "[1, 2, 2, 3]"
           - "{1, 2, 2, 3}"
@@ -277,7 +277,7 @@ topics:
         difficulty: easy
         question: Which set method returns the difference of two sets?
         language: python
-        code: ""
+        code: null
         options:
           - "intersection()"
           - "difference()"
@@ -312,7 +312,7 @@ topics:
         difficulty: easy
         question: What is the data type of { } in Python?
         language: python
-        code: ""
+        code: null
         options:
           - "Set"
           - "List"
