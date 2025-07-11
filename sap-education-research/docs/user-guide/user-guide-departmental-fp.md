@@ -14,8 +14,8 @@ breadcrumb:
     url: /
   - title: SAP
     url: /sap-education-research/
-  - title: SAP
-    url: /sap-education-research/user-
+  - title: SAP User Guides
+    url: /sap-education-research/user-guide/
 ---
 
 ## Popular Articles

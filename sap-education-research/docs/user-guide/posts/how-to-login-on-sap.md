@@ -14,6 +14,8 @@ breadcrumb:
     url: /
   - title: SAP
     url: /sap-education-research/
+  - title: SAP User Guides
+    url: /sap-education-research/user-guide/
 ---
 
 ## ✅ **Steps to Log in on SAP GUI**
