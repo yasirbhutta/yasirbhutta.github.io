@@ -27,6 +27,9 @@ breadcrumb:
 
 1. **Open SAP Logon** and connect to your system.
 2. On the top menu, click **Customize Local Layout** (the icon that looks like a monitor with a wrench, or press `Alt + F12`).
+
+![customize local layout](https://res.cloudinary.com/da0pjikvw/image/upload/v1752227765/cutomize_layout_cya3vc.png)
+
 3. Select **Options**.
 4. In the left panel, expand **SAP GUI settings and actions** → **Visual Design** → **Theme Settings**.
 5. You will see the list of available themes (e.g., **SAP Signature Theme**, **Blue Crystal**, **Quartz**, etc.).
