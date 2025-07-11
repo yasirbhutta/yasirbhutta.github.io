@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "SAP User Guide for Teacher's"
+title: "SAP User Guide – Common Features and Essential Functions for All"
 description: SAP User Guide for Teacher's
 keywords: SAP User Guide for Teacher's
 author: Muhammad Yasir Bhutta
@@ -14,14 +14,20 @@ breadcrumb:
     url: /
   - title: SAP
     url: /sap-education-research/
+  - title: SAP
+    url: /sap-education-research/user-guide/
 ---
 
+## Popular Articles
+
+- [How to Log in to SAP GUI: Step-by-Step SAP Login Guide for Beginners](posts/how-to-login-on-sap.md)
+- [How to Change Theme Settings in SAP](posts/sap-change-theme-settings.md)
 
 ---
 
 ## 📘 **Related Topics**
 
-- [SAP User Guide – Common Features and Essential Functions for All](posts/sap-change-theme-settings.md)
 - [User Guide for Student's](user-guide-students.md)
+- [User Guide for Teacher's](user-guide-teachers.md)
 - [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
 - [User Guide for Key Users](user-guide-power-users-admin.md)

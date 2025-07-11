@@ -14,8 +14,18 @@ breadcrumb:
     url: /
   - title: SAP
     url: /sap-education-research/
+  - title: SAP
+    url: /sap-education-research/user-
 ---
 
 ## Popular Articles
 
-- [How to Log in to SAP GUI: Step-by-Step SAP Login Guide for Beginners](posts/how-to-login-on-sap.md)
+
+---
+
+## 📘 **Related Topics**
+
+- [SAP User Guide – Common Features and Essential Functions for All](posts/sap-change-theme-settings.md)
+- [User Guide for Student's](user-guide-students.md)
+- [User Guide for Teacher's](user-guide-teachers.md)
+- [User Guide for Key Users](user-guide-power-users-admin.md)
