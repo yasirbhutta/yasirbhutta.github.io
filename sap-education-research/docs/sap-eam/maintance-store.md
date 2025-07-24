@@ -151,3 +151,6 @@ In the Components tab:
 
 ---
 
+## 📘 **Related Topics**
+
+* [EAM Maintenance Store for University IT Support Centre - Efficient IT Asset Management](it-support-maintance-store.md)
