@@ -90,7 +90,7 @@ Once your documents are uploaded and processed, NotebookLM becomes an "expert" o
 4.  **Crucial Feature: Citations!**
     * A key differentiator of NotebookLM is that its responses are *grounded* in your sources. It will provide citations (linking back to the specific parts of your documents) for the information it provides. This helps you verify the accuracy and trace the information back to its origin.
 
-**Best Practices for Using NotebookLM Effectively:**
+## **Best Practices for Using NotebookLM Effectively:**
 
 * **Organize Your Notebooks:** Create separate notebooks for different projects, courses, or topics to keep your sources focused.
 * **Clear Prompts:** While NotebookLM is powerful, clear and concise prompts will yield the best results.
