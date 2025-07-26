@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "GGoogle NotebookLM: Your AI Research & Note-Taking Assistant"
+title: "Google NotebookLM: Your AI Research & Note-Taking Assistant"
 description: Discover Google NotebookLM, the AI-powered tool that acts as your personal research and note-taking assistant. Learn how it summarizes, analyzes, and helps you understand your uploaded documents, perfect for teachers and researchers.
 keywords: Google NotebookLM, AI research tool, AI note-taking, Google Labs, Gemini AI, document analysis, research assistant, study tool, lesson planning, information synthesis
 author: Muhammad Yasir Bhutta
@@ -24,15 +24,17 @@ breadcrumb:
 1. [What is Google NotebookLM](#what-is-google-notebooklm)
 2. [How is Google NotebookLM helpful?](#2-how-is-google-notebooklm-helpful)
 3. [Key benefits summary](#3-key-benefits-summary)
+4. [Getting Started with Google NotebookLM](getting-started-google-nootbooklm.md)
   
-
 ## 1. What is Google NotebookLM
 
 *Google NotebookLM* is an AI-powered research and note-taking tool developed by Google Labs. It essentially acts as a "virtual research assistant" or "thinking partner," grounded in the information you provide it. Unlike a general AI chatbot that pulls information from the vast internet, NotebookLM focuses *only* on the sources you upload.
 
 ![Google NotebookLM](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1753524658/google-notebooknl_mi8njd.png)
 
-Here's how it generally works:
+[https://notebooklm.google.com/](https://notebooklm.google.com/)
+
+## How Does Google NotebookLM Work?
 
 1.  **You upload sources:** You can upload a variety of document types, including PDFs, Google Docs, Google Slides, text files, websites (via URL), and even audio and YouTube videos (if they have transcripts). You can typically have up to 50 sources per notebook, with substantial word limits per source.
 2.  **NotebookLM becomes an expert on your sources:** Once uploaded, NotebookLM uses Google's Gemini AI to analyze and understand the content within your specific documents.
