@@ -32,7 +32,7 @@ breadcrumb:
     * Give your notebook a meaningful name (e.g., "History Class Readings," "Research on Climate Change," "Lesson Plans - Term 1"). This helps with organization.
 
 3.  **Upload Your Documents (Sources):**
-    * Inside your newly created notebook, you'll see an **"Add Source"** or "Upload" button (often represented by a plus sign). Click on it.
+    * Inside your newly created notebook, you'll see an **"Add Source"** or **"Upload sources"* button (often represented by a plus sign). Click on it.
     * NotebookLM supports a variety of source types:
         * **Local Files:** PDF, .txt, Markdown files from your computer.
         * **Google Drive:** Google Docs, Google Slides (it creates a static copy, so changes to the original won't automatically sync unless you manually re-sync).
