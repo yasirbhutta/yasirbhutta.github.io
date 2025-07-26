@@ -27,7 +27,7 @@ breadcrumb:
 4. [Key benefits summary](#4-key-benefits-summary)
 5. [Getting Started with Google NotebookLM](getting-started-google-nootbooklm.md)
   
-## 1. What is Google NotebookLM
+## 1. What is Google NotebookLM? 
 
 *Google NotebookLM* is an AI-powered research and note-taking tool developed by Google Labs. It essentially acts as a "virtual research assistant" or "thinking partner," grounded in the information you provide it. Unlike a general AI chatbot that pulls information from the vast internet, NotebookLM focuses *only* on the sources you upload.
 
