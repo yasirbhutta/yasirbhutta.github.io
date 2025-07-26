@@ -24,6 +24,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 
 ## Google Workspace
 
+- [Google NotebookLM (new)](google-workspace/docs/google-notebooklm/)
 - [How to search on Google](google-workspace/docs/google-search/)
 - [Gmail](/google-workspace/docs/gmail/)
 - [Google Docs](/google-workspace/docs/google-docs/)
