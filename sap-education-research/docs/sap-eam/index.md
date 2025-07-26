@@ -99,7 +99,6 @@ SAP EAM helps universities and research institutions:
 
 ## 📘 **Related Topics**
 
-* **Maintenance Store in SAP EAM** – In SAP EAM, a **Maintenance Store** refers to the **storage location** or **warehouse** from which spare parts, tools, and materials are issued for maintenance work.
-  👉 [Learn more](maintance-store.md)
-* **SAP EAM Work Center Guide** – In **SAP EAM (Enterprise Asset Management)**, a **Work Center** is a key master data object that represents a **location where maintenance work is carried out**.
-  👉 [Learn more](work-center.md)
+* [Maintenance Store in SAP EAM](maintance-store.md)
+  * [EAM Maintenance Store for University IT Support Centre - Efficient IT Asset Management](it-support-maintance-store.md)
+* [SAP EAM Work Center Guide](work-center.md)

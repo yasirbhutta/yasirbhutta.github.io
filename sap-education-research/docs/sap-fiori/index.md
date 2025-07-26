@@ -66,6 +66,7 @@ SAP Fiori is widely adopted in **universities and research institutions** to:
 | **Student**         | Register for classes    | "My Course Registration"  |
 | **Student**         | Pay tuition fees        | "Tuition Fee Payment"     |
 | **Student**         | View exam results       | "My Grades"               |
+| **Faculty**         | Enter student attendance| "Marking Attendance"        |
 | **Faculty**         | Enter student grades    | "Grade Submission"        |
 | **Faculty**         | View teaching schedule  | "Teaching Calendar"       |
 | **HR Admin**        | Approve leave requests  | "Approve Leave Requests"  |
