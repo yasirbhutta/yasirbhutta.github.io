@@ -23,12 +23,12 @@ breadcrumb:
 
 1.  **Access NotebookLM:**
     * Go to the official NotebookLM website: [https://notebooklm.google/](https://notebooklm.google/)
-    * You'll need to sign in with your Google account.
+    * You'll need to sign in with your Google account. ([NotebookLM Help][2])
 
 ![Google Notebook](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1753522996/notebooknl_lsnuq2.png)
 
 2.  **Create a New Notebook:**
-    * Once you're in, you'll likely see an option to **"Create a new notebook"** or similar. Click on it.
+    * Once you're in, you'll likely see an option to **"Create a new notebook"** or similar. Click on it. ([NotebookLM Help][3])
     * Give your notebook a meaningful name (e.g., "History Class Readings," "Research on Climate Change," "Lesson Plans - Term 1"). This helps with organization.
 
 3.  **Upload Your Documents (Sources):**
@@ -45,8 +45,8 @@ breadcrumb:
 
 ### **Tips for Uploading:**
 
-* You can upload up to 50 sources per notebook.
-* Each source can have a substantial word count (e.g., up to 500,000 words).
+* You can upload up to 50 sources per notebook.([NotebookLM Help][1])
+* Each source can have a substantial word count (e.g., up to 500,000 words).([NotebookLM Help][1])
 * If you have very large PDFs, sometimes splitting them into smaller sections can help with processing.
 * Be mindful of file sizes.
 * Some users have reported issues with ad-blockers interfering with uploads, so you might need to temporarily disable them if you encounter problems.
@@ -80,7 +80,7 @@ Once your documents are uploaded and processed, NotebookLM becomes an "expert" o
     * **Study Guides:** "Generate a study guide for [topic] from my lecture notes and textbook." This can include key terms, definitions, and even sample quiz questions.
     * **FAQs:** "Create a list of Frequently Asked Questions based on the information in the 'Product Manual'."
     * **Timelines:** If your documents contain chronological information, you can ask it to generate a timeline of events.
-    * **Mind Maps (Conceptual Connections):** While not always a visual mind map, you can ask it to "Identify the key connections between [concept A] and [concept B] across all sources."
+    * **Mind Maps (Conceptual Connections):** While not always a visual mind map, you can ask it to "Identify the key connections between [concept A] and [concept B] across all sources." ([NotebookLM Help][4])
     * **Audio Overviews:** This is a powerful feature! You can ask NotebookLM to generate a podcast-style audio discussion of your sources. This is fantastic for reviewing material on the go.
     * **Identifying Key Terms/Concepts:** "Extract the 10 most important terms related to quantum physics from these documents."
     * **Pro/Con Lists:** "Based on the provided articles, give me a pros and cons list for implementing a new grading system."
@@ -98,3 +98,13 @@ Once your documents are uploaded and processed, NotebookLM becomes an "expert" o
 * **Review and Verify:** Always review the AI's output, especially for critical information. While it aims for accuracy based on your sources, human review is always recommended.
 * **Prioritize Key Sources:** If you have many documents, you might want to start with the most important ones to get initial insights quickly.
 
+## 📘 **Related Topics**
+
+- [Google NotebookLM: Your AI Research & Note-Taking Assistant](index.md)
+
+## References and Bibliography
+
+[1]: https://support.google.com/notebooklm/answer/16269187?hl=en "Frequently asked questions - NotebookLM Help" 
+[2]: https://support.google.com/notebooklm/answer/16164461?hl=en "Learn about NotebookLM - NotebookLM Help"
+[3]: https://support.google.com/notebooklm/answer/16206563?hl=en "Create a notebook in NotebookLM - NotebookLM Help"
+[4]: https://support.google.com/notebooklm/answer/16212283?hl=en "Use Mind Maps in NotebookLM - NotebookLM Help"
