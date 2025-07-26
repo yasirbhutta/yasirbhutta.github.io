@@ -43,13 +43,13 @@ breadcrumb:
 
 ![google notebooklm add sources](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1753523241/google-notebooknl-add-sources_cw5jna.png)
 
-**Tips for Uploading:**
+### **Tips for Uploading:**
 
-    * You can upload up to 50 sources per notebook.
-    * Each source can have a substantial word count (e.g., up to 500,000 words).
-    * If you have very large PDFs, sometimes splitting them into smaller sections can help with processing.
-    * Be mindful of file sizes.
-    * Some users have reported issues with ad-blockers interfering with uploads, so you might need to temporarily disable them if you encounter problems.
+* You can upload up to 50 sources per notebook.
+* Each source can have a substantial word count (e.g., up to 500,000 words).
+* If you have very large PDFs, sometimes splitting them into smaller sections can help with processing.
+* Be mindful of file sizes.
+* Some users have reported issues with ad-blockers interfering with uploads, so you might need to temporarily disable them if you encounter problems.
 
 ## **Interacting with Your Documents (Asking Questions & Getting Insights):**
 
