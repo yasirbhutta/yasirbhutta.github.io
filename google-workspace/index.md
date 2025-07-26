@@ -5,8 +5,12 @@ description: Learn how to use Google Workspace (Gmail, Drive, Docs, Meet & more)
 keywords: Google Workspace, Google Workspace setup, Gmail tips, Google Drive guide, Google Docs tutorial, Google Meet, Google Workspace features, Google Cloud productivity, Workspace admin guide, collaboration tools
 author: Muhammad Yasir Bhutta
 course: computer-basics
-topic: hardware
+topic: google-workspace
+show_toc: true
 toc: toc/google-workspace.html
+show_practice_progress: false
+show_mini_project: false
+prev: null
 next: /google-workspace/docs/google-search/
 breadcrumb:
   - title: Home
@@ -18,3 +22,4 @@ breadcrumb:
 - [How to search on Google](docs/google-search/)
 - [What is Email](docs/gmail/)
 - [Google Docs](docs/google-docs/)
+- [Google NotebookLM](docs/google-notebooklm/)
