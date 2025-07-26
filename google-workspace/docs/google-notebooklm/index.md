@@ -94,3 +94,10 @@ In essence, NotebookLM is designed to be a powerful assistant for anyone who wor
 ## 📘 **Related Topics**
 
 - [Getting Started with AI-Powered Research and Note-Taking](getting-started-google-nootbooklm.md)
+
+## References and Bibliography
+
+[1]: https://support.google.com/notebooklm/answer/16269187?hl=en "Frequently asked questions - NotebookLM Help" 
+[2]: https://support.google.com/notebooklm/answer/16164461?hl=en "Learn about NotebookLM - NotebookLM Help"
+[3]: https://support.google.com/notebooklm/answer/16206563?hl=en "Create a notebook in NotebookLM - NotebookLM Help"
+[4]: https://support.google.com/notebooklm/answer/16212283?hl=en "Use Mind Maps in NotebookLM - NotebookLM Help"
