@@ -19,7 +19,18 @@ breadcrumb:
     url: /google-workspace/    
 ---
 
-Google NotebookLM is an AI-powered research and note-taking tool developed by Google Labs. It essentially acts as a "virtual research assistant" or "thinking partner," grounded in the information you provide it. Unlike a general AI chatbot that pulls information from the vast internet, NotebookLM focuses *only* on the sources you upload.
+## Table of Contents
+
+1. [What is Google NotebookLM](#what-is-google-notebooklm)
+2. [How is Google NotebookLM helpful?](#2-how-is-google-notebooklm-helpful)
+3. [Key benefits summary](#3-key-benefits-summary)
+  
+
+## 1. What is Google NotebookLM
+
+*Google NotebookLM* is an AI-powered research and note-taking tool developed by Google Labs. It essentially acts as a "virtual research assistant" or "thinking partner," grounded in the information you provide it. Unlike a general AI chatbot that pulls information from the vast internet, NotebookLM focuses *only* on the sources you upload.
+
+![Google NotebookLM](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1753524658/google-notebooknl_mi8njd.png)
 
 Here's how it generally works:
 
@@ -33,7 +44,7 @@ Here's how it generally works:
     * **Generate "Audio Overviews":** This is a standout feature where NotebookLM can turn your source materials into engaging, podcast-style audio discussions, often with two AI "hosts."
     * **Get citations:** It provides clear citations, showing you exactly where in your sources the information came from, increasing reliability.
 
-**How is Google NotebookLM helpful?**
+## 2. **How is Google NotebookLM helpful?**
 
 NotebookLM is incredibly helpful for anyone dealing with large volumes of information, especially for tasks that require deep comprehension, synthesis, and organization.
 
@@ -61,7 +72,7 @@ As a teacher, you'll find NotebookLM particularly beneficial in several ways:
     * Quickly retrieve specific information from your vast collection of teaching materials.
     * Create audio summaries of lengthy articles or reports to listen to on the go.
 
-**Key benefits summary:**
+## 3. **Key benefits summary:**
 
 * **Personalized AI Expert:** It becomes an expert on *your* information, not the general internet.
 * **Enhanced Comprehension:** Helps you understand and synthesize complex information more deeply.
@@ -72,6 +83,8 @@ As a teacher, you'll find NotebookLM particularly beneficial in several ways:
 * **Privacy-focused:** Google states that your personal data (uploads, queries, responses) are *not* used to train NotebookLM.
 
 In essence, NotebookLM is designed to be a powerful assistant for anyone who works with a lot of information, helping you to not just manage it, but truly understand and leverage it.
+
+## 4. [Getting Started with Google NotebookLM](getting-started-google-nootbooklm.md)
 
 ---
 
