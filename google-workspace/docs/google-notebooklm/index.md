@@ -97,7 +97,7 @@ In essence, NotebookLM is designed to be a powerful assistant for anyone who wor
 - [Getting Started with AI-Powered Research and Note-Taking](getting-started-google-nootbooklm.md)
 - [How to Install Google NotebookLM on Android: Full Step-by-Step Guide (2025)](install-google-nootebook-android.md)
 
-## References and Bibliography
+---
 
 [1]: https://support.google.com/notebooklm/answer/16269187?hl=en "Frequently asked questions - NotebookLM Help" 
 [2]: https://support.google.com/notebooklm/answer/16164461?hl=en "Learn about NotebookLM - NotebookLM Help"

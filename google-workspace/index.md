@@ -19,7 +19,8 @@ breadcrumb:
 
 ## Google Services
 
+- [Google NotebookLM](docs/google-notebooklm/)
 - [How to search on Google](docs/google-search/)
 - [What is Email](docs/gmail/)
 - [Google Docs](docs/google-docs/)
-- [Google NotebookLM](docs/google-notebooklm/)
+

@@ -116,17 +116,15 @@ From any app (like a browser or PDF reader), use the **Share** menu and select *
 
 ---
 
-## References and Bibliography
-
-[1]: https://cincodias.elpais.com/smartlife/lifestyle/2025-05-20/notebooklm-de-google-llega-espana.html?utm_source=chatgpt.com "La app de NotebookLM de Google llega a España para iOS y Android, así la descargas gratis"
-[2]: https://www.sammobile.com/news/google-notebooklm-app-launched-android-galaxy-phones-tablets/?utm_source=chatgpt.com "Google's NotebookLM app now available for Galaxy phones"
-[3]: https://play.google.com/store/apps/details?hl=en_US&id=com.google.android.apps.labs.language.tailwind&utm_source=chatgpt.com "Google NotebookLM - Apps on Google Play"
-[4]: https://sites.google.com/view/notebook-lm?utm_source=chatgpt.com "Google Notebook LM"
-[5]: https://www.theverge.com/news/669828/google-releases-its-notebooklm-mobile-app?utm_source=chatgpt.com "Google releases its NotebookLM mobile app"
-[6]: https://www.tomsguide.com/phones/how-to-use-googles-ai-powered-notebooklm-5-tips-to-get-started?utm_source=chatgpt.com "How to use Google's AI-powered NotebookLM - 5 tips to get started"
-[7]: https://en.wikipedia.org/wiki/NotebookLM?utm_source=chatgpt.com "NotebookLM"
-[8]: https://www.youtube.com/watch?pp=0gcJCfwAo7VqN5tD&v=nMZ7apHQR3I&utm_source=chatgpt.com "How to Download & Install Google NotebookLM AI App 2025"
-[9]: https://www.reddit.com/r/notebooklm/comments/1i3zl2l/notebooklm_app/?utm_source=chatgpt.com "NotebookLM App - Reddit"
-[10]: https://notebooklm.google.com/?utm_source=chatgpt.com "Google NotebookLM"
+[1]: https://cincodias.elpais.com/smartlife/lifestyle/2025-05-20/notebooklm-de-google-llega-espana.html "La app de NotebookLM de Google llega a España para iOS y Android, así la descargas gratis"
+[2]: https://www.sammobile.com/news/google-notebooklm-app-launched-android-galaxy-phones-tablets/ "Google's NotebookLM app now available for Galaxy phones"
+[3]: https://play.google.com/store/apps/details?hl=en_US&id=com.google.android.apps.labs.language.tailwind "Google NotebookLM - Apps on Google Play"
+[4]: https://sites.google.com/view/notebook-lm "Google Notebook LM"
+[5]: https://www.theverge.com/news/669828/google-releases-its-notebooklm-mobile-app "Google releases its NotebookLM mobile app"
+[6]: https://www.tomsguide.com/phones/how-to-use-googles-ai-powered-notebooklm-5-tips-to-get-started "How to use Google's AI-powered NotebookLM - 5 tips to get started"
+[7]: https://en.wikipedia.org/wiki/NotebookLM "NotebookLM"
+[8]: https://www.youtube.com/watch?pp=0gcJCfwAo7VqN5tD&v=nMZ7apHQR3I "How to Download & Install Google NotebookLM AI App 2025"
+[9]: https://www.reddit.com/r/notebooklm/comments/1i3zl2l/notebooklm_app/ "NotebookLM App - Reddit"
+[10]: https://notebooklm.google.com/ "Google NotebookLM"
 
 

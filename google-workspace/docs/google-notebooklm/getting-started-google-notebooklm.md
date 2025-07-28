@@ -103,7 +103,7 @@ Once your documents are uploaded and processed, NotebookLM becomes an "expert" o
 - [Google NotebookLM: Your AI Research & Note-Taking Assistant](index.md)
 - [How to Install Google NotebookLM on Android: Full Step-by-Step Guide (2025)](install-google-nootebook-android.md)
 
-## References and Bibliography
+---
 
 [1]: https://support.google.com/notebooklm/answer/16269187?hl=en "Frequently asked questions - NotebookLM Help" 
 [2]: https://support.google.com/notebooklm/answer/16164461?hl=en "Learn about NotebookLM - NotebookLM Help"
