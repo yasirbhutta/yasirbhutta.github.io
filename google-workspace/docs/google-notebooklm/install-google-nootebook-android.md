@@ -48,7 +48,7 @@ Look for the official "NotebookLM" app from Google LLC.
 
 The current version was updated on **July 25, 2025** and has over **1 million downloads**, with a rating around **4.7 out of 5**. ([Google Play][3])
 
-![google notebooklm-mobile-app](https://res.cloudinary.com/da0pjikvw/image/upload/v1753708308/notebooklm-mobile-app_dihh1s.jpg)
+![google notebooklm-mobile-app](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1753708308/notebooklm-mobile-app_dihh1s.jpg)
 
 ### 5. Tap "Install
 
