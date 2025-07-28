@@ -27,7 +27,6 @@ breadcrumb:
 4. [Quick Research Tips](#-quick-research-tips)
 5. [Summary](#-summary)
 
-
 ## 📥 Step‑by‑Step Installation Guide
 
 ### 1. Check Android Compatibility
