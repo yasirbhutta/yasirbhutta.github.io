@@ -4,8 +4,8 @@ title: "Google NotebookLM Guide – Getting Started with AI-Powered Research and
 description: Learn how to use Google NotebookLM, the AI-powered research and note-taking assistant. Discover features like document upload, summarization, analysis, study guides, and citations to enhance your productivity. Perfect for teachers, students, and researchers using Google Workspace.
 keywords: Google NotebookLM, AI research assistant, AI note-taking, Google Workspace tools, document summarization, study guide generator, Google Labs, Gemini AI, research productivity, education technology,
 author: Muhammad Yasir Bhutta
-course: computer-basics
-topic: google-workspace
+course: google-workspace
+topic: google-notebooklm
 show_toc: true
 toc: toc/google-workspace.html
 show_practice_progress: false

@@ -4,13 +4,13 @@ title: "How to Install Google NotebookLM on Android: Full Step-by-Step Guide (20
 description: Learn how to install and use Google NotebookLM on your Android phone in 2025. Follow this easy guide to download the app from the Play Store, set it up, upload content, and start using AI-powered features like summaries and audio overviews.
 keywords: Google NotebookLM Android, install NotebookLM app, NotebookLM mobile guide, NotebookLM Android setup, Google AI notebook app, AI study tool Android, NotebookLM features, how to use NotebookLM, download Google NotebookLM, Android AI tools 2025
 author: Muhammad Yasir Bhutta
-course: computer-basics
-topic: google-workspace
+course: google-workspace
+topic: google-notebooklm
 show_toc: true
 toc: toc/google-workspace.html
 show_practice_progress: false
 show_mini_project: false
-prev: /google-workspace/docs/google-docs/
+prev: /google-workspace/docs/google-notebooklm/getting-started-google-notebooklm.html
 next: /google-workspace/docs/google-search/
 breadcrumb:
   - title: Home

@@ -4,8 +4,8 @@ title: "Google NotebookLM: Your AI Research & Note-Taking Assistant"
 description: Discover Google NotebookLM, the AI-powered tool that acts as your personal research and note-taking assistant. Learn how it summarizes, analyzes, and helps you understand your uploaded documents, perfect for teachers and researchers.
 keywords: Google NotebookLM, AI research tool, AI note-taking, Google Labs, Gemini AI, document analysis, research assistant, study tool, lesson planning, information synthesis
 author: Muhammad Yasir Bhutta
-course: computer-basics
-topic: google-workspace
+course: google-workspace
+topic: google-notebooklm
 show_toc: true
 toc: toc/google-workspace.html
 show_practice_progress: false
