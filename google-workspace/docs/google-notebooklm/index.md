@@ -25,7 +25,8 @@ breadcrumb:
 2. [How Does Google NotebookLM Work?](#2-how-does-google-notebooklm-work)
 3. [How is Google NotebookLM helpful?](#3-how-is-google-notebooklm-helpful)
 4. [Key benefits summary](#4-key-benefits-summary)
-5. [Getting Started with Google NotebookLM](getting-started-google-nootbooklm.md)
+5. [Getting Started with Google NotebookLM](getting-started-google-notebooklm.md)
+6. [How to Install Google NotebookLM on Android: Full Step-by-Step Guide (2025)](install-google-nootebook-android.md)
   
 ## 1. What is Google NotebookLM? 
 
@@ -94,6 +95,7 @@ In essence, NotebookLM is designed to be a powerful assistant for anyone who wor
 ## 📘 **Related Topics**
 
 - [Getting Started with AI-Powered Research and Note-Taking](getting-started-google-nootbooklm.md)
+- [How to Install Google NotebookLM on Android: Full Step-by-Step Guide (2025)](install-google-nootebook-android.md)
 
 ## References and Bibliography
 
