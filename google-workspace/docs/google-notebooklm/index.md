@@ -88,8 +88,6 @@ As a teacher, you'll find NotebookLM particularly beneficial in several ways:
 
 In essence, NotebookLM is designed to be a powerful assistant for anyone who works with a lot of information, helping you to not just manage it, but truly understand and leverage it.
 
-## 5. [Getting Started with Google NotebookLM](getting-started-google-nootbooklm.md)
-
 ---
 
 ## 📘 **Related Topics**
