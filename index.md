@@ -49,6 +49,10 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 
 - [Blackboard LMS](/blackboard-lms/)
 
+## Microsoft
+
+- [SharePoint](/microsoft-sharepoint/)
+  
 ## Training
 
 - [IT Support Desk](trainings/docs/itsupport.md)
