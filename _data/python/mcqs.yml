@@ -2,9 +2,9 @@
 course: python
 topics:
 
-  - topic: list comprehension
+  - topic: list-comprehension
     questions:
-
+    
       - id: lc-mcq-001
         difficulty: easy
         question: What is the output of this list comprehension?

@@ -229,4 +229,4 @@ Convert each string in a list to uppercase using list comprehension.
 ### **1. Multiple-Choice Questions (MCQs)**
 - A set of questions with multiple answer options to test your understanding of Python concepts, syntax, or expected outcomes. Ideal for assessing your knowledge in a structured format.
 
-- [List Comprehension (MCQs)](#)
+- [List Comprehension (MCQs)](practice-and-progress/mcqs-list-comprehension.md)
