@@ -18,5 +18,5 @@ breadcrumb:
 ---
 
 {% assign video_type = "video" %}
-{% assign video_id = "v=1fVckZom4K0" %}
+{% assign video_id = "1fVckZom4K0" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}

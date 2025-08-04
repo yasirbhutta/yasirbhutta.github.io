@@ -141,11 +141,92 @@ While list comprehensions are powerful, they're not always the best choice:
 In these cases, a traditional `for` loop might be more appropriate.
 
 
-- [Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
-- [How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
+
 - [How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
 - [Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
 
+
+## Tasks
+
+### **Task 1: Square all numbers**
+
+Create a list of numbers from 1 to 10. Use list comprehension to generate a new list with the square of each number.
+
+```python
+# Expected Output: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+[Video Solution](../../videos/list-comprehension.md)
+
+---
+
+#### **Task 2: Filter odd numbers**
+
+From a list of numbers, create a new list containing only the odd numbers using list comprehension.
+
+```python
+# Input: [10, 15, 20, 25, 30, 35]
+# Expected Output: [15, 25, 35]
+```
+
+---
+
+#### **Task 3: Cube of even numbers**
+
+Use list comprehension to get the cube of even numbers from the list.
+
+```python
+# Input: [1, 2, 3, 4, 5, 6]
+# Expected Output: [8, 64, 216]
+```
+
+---
+
+#### **Task 4: Multiply by 10 if number is divisible by 5**
+
+Write a list comprehension to multiply only the numbers divisible by 5 by 10.
+
+```python
+# Input: [5, 8, 10, 13, 20, 21]
+# Expected Output: [50, 100, 200]
+```
+
+---
+
+#### **Task 5: Replace even numbers with "Even"**
+
+Replace all even numbers in a list with the string `"Even"` using list comprehension.
+
+```python
+# Input: [3, 6, 9, 12, 15]
+# Expected Output: [3, 'Even', 9, 'Even', 15]
+```
+
+---
+
+#### **Task 6: Create a list of first letters**
+
+Given a list of names, create a list of the first letter of each name using list comprehension.
+
+```python
+# Input: ["Alice", "Bob", "Charlie"]
+# Expected Output: ['A', 'B', 'C']
+```
+
+---
+
+#### **Task 7: Convert all strings to uppercase**
+
+Convert each string in a list to uppercase using list comprehension.
+
+```python
+# Input: ["apple", "banana", "cherry"]
+# Expected Output: ["APPLE", "BANANA", "CHERRY"]
+```
+
+[View Solution](../../videos/list-comprehension-example2.md)
+
+---
 
 ## Practice & Progress
 
