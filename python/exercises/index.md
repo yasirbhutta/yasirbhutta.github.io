@@ -35,7 +35,7 @@ breadcrumb:
 5. **else Clause in Loops**
 6. **Sets**: [MCQs](../docs/sets/practice-and-progress/mcqs-sets.md) 📝, [Find and Fix Mistakes](../docs/sets/practice-and-progress/find-fix-mistakes-sets.md) 🔍, [Coding Exercises](../docs/sets/practice-and-progress/exercises-sets.md) 🏋️‍♂️
 7. **Dictionaries**: [MCQs](../docs/dictionaries/practice-and-progress/mcqs-dictionaries.md) 📝, [Find and Fix Mistakes](../docs/dictionaries/practice-and-progress/find-fix-mistakes-dictionaries.md) 🔍, [Coding Exercises](../docs/dictionaries/practice-and-progress/exercises-dictionaries.md) 🏋️‍♂️
-8. **List Comprehension**: 
+8. **List Comprehension**: [MCQs](../docs/list-comprehension/practice-and-progress/mcqs-list-comprehension.md) 📝
 
 **🔧 Mini Project**:
 
