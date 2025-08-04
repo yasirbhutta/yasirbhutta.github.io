@@ -27,6 +27,8 @@ breadcrumb:
 4. [Examples for Beginners](#4-examples-for-beginners)
 5. [Real-Life Usage Examples](#5-real-life-usage-examples)
 6. [When Not to Use List Comprehension](#6-when-not-to-use-list-comprehension)
+7. [Tasks](#7-tasks)
+8. [Practice & Progress](#8-practice--progress)
 
 ## 1. What is List Comprehension?
 
@@ -140,13 +142,7 @@ While list comprehensions are powerful, they're not always the best choice:
 
 In these cases, a traditional `for` loop might be more appropriate.
 
-
-
-- [How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
-- [Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
-
-
-## Tasks
+## 7. Tasks
 
 ### **Task 1: Square all numbers**
 
@@ -228,9 +224,9 @@ Convert each string in a list to uppercase using list comprehension.
 
 ---
 
-## Practice & Progress
+## 8. Practice & Progress
 
 ### **1. Multiple-Choice Questions (MCQs)**
 - A set of questions with multiple answer options to test your understanding of Python concepts, syntax, or expected outcomes. Ideal for assessing your knowledge in a structured format.
 
-- [.... (MCQs)](#)
+- [List Comprehension (MCQs)](#)
