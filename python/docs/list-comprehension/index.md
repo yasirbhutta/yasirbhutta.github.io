@@ -19,16 +19,28 @@ breadcrumb:
     url: /python/
 ---
 
-## What is List Comprehension?
-List comprehension is a concise way to create lists in Python. It provides a compact syntax for transforming or filtering data from one list (or any iterable) to another. Instead of using a traditional `for` loop with `.append()`, you can often express list operations more elegantly with list comprehension.
+## Table of Contents
 
-## Why Use List Comprehension?
+1. [What is List Comprehension?](#1-what-is-list-comprehension)
+2. [Why Use List Comprehension?](#2-why-use-list-comprehension)
+3. [Basic Syntax](#3-basic-syntax)
+4. [Examples for Beginners](#4-examples-for-beginners)
+5. [Real-Life Usage Examples](#5-real-life-usage-examples)
+6. [When Not to Use List Comprehension](#6-when-not-to-use-list-comprehension)
+
+## 1. What is List Comprehension?
+
+List comprehensions are a shorter and cleaner way to create lists. Instead of writing multiple lines with a for loop, you can do the same in just one line.
+
+## 2. Why Use List Comprehension?
+
 1. **Readability**: Once you're familiar with the syntax, list comprehensions are often more readable than equivalent loop constructs.
 2. **Conciseness**: They allow you to express complex operations in a single line.
 3. **Performance**: List comprehensions can be slightly faster than equivalent `for` loops in many cases.
 4. **Pythonic**: They are considered a more "Pythonic" way to create lists.
 
-## Basic Syntax
+## 3. Basic Syntax
+
 ```python
 [expression for item in iterable if condition]
 ```
@@ -38,7 +50,7 @@ List comprehension is a concise way to create lists in Python. It provides a com
 - `iterable`: The sequence you're looping through (list, tuple, string, etc.)
 - `condition` (optional): Filters which items to include
 
-## Examples for Beginners
+## 4. Examples for Beginners
 
 ### Example 1: Basic transformation
 ```python
@@ -53,6 +65,8 @@ squares = [num ** 2 for num in numbers]
 # Result: [1, 4, 9, 16]
 ```
 
+[Python List Comprehension Tutorial – Easy Code Example and Video for Beginners](../../videos/list-comprehension.md)
+
 ### Example 2: Filtering
 ```python
 # Only even numbers
@@ -60,6 +74,8 @@ numbers = [1, 2, 3, 4, 5, 6]
 evens = [num for num in numbers if num % 2 == 0]
 # Result: [2, 4, 6]
 ```
+
+🔎 means: “From numbers 1 to 6, pick x only if x is even”
 
 ### Example 3: Combining transformation and filtering
 ```python
@@ -69,7 +85,7 @@ even_squares = [num ** 2 for num in numbers if num % 2 == 0]
 # Result: [4, 16, 36]
 ```
 
-## Real-Life Usage Examples
+## 5. Real-Life Usage Examples
 
 ### 1. Processing user input
 ```python
@@ -115,7 +131,8 @@ active_users = [user["name"] for user in api_response if user["active"]]
 # Result: ["Alice", "Charlie"]
 ```
 
-## When Not to Use List Comprehension
+## 6. When Not to Use List Comprehension
+
 While list comprehensions are powerful, they're not always the best choice:
 - When the logic is too complex (becomes hard to read)
 - When you need to use multiple conditions that would make the comprehension too long
@@ -124,12 +141,15 @@ While list comprehensions are powerful, they're not always the best choice:
 In these cases, a traditional `for` loop might be more appropriate.
 
 
-**List comprehension examples:**
-https://youtube.com/shorts/cnSLqqx_huQ?si=5J19IZzT23VvtDmp
-
-
-- [List Comprehension with Easy-to-Understand Code Example](https://www.youtube.com/watch?v=1fVckZom4K0&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=71)
 - [Create a list of squares of all even numbers](https://www.youtube.com/watch?v=4qy1QRTn6r4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=70)
 - [How to Convert List Elements to Upper Case](https://www.youtube.com/watch?v=RXKMwEGYKs4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=63)
 - [How to: Use list comprehension for DATA CLEANING](https://www.youtube.com/watch?v=geI-5gXMrks&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=62)
 - [Real-Life Use Case for List Comprehension](https://www.youtube.com/watch?v=MZwEfGXgpfI&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=61)
+
+
+## Practice & Progress
+
+### **1. Multiple-Choice Questions (MCQs)**
+- A set of questions with multiple answer options to test your understanding of Python concepts, syntax, or expected outcomes. Ideal for assessing your knowledge in a structured format.
+
+- [.... (MCQs)](#)
