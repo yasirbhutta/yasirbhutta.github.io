@@ -133,6 +133,7 @@ print(result)  # Output: 8
 
    result = multiply(b=3, a=5)  # You can specify arguments in any order
    ```
+---
 
 ## 6. Tasks
 
