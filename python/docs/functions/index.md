@@ -220,9 +220,9 @@ Encourage beginners to test the function with various numbers:
 
 [Python Quiz - Functions](https://forms.gle/ZxyA5p98T9f8CZsA6)
 
-## Fix the Errors
+## Task 5: Fix the Errors
 
-1. Fixing Errors in Function Calls and Assignments 
+1. **Fixing Errors in Function Calls and Assignments** 
    
 ```python
 def greet():
@@ -231,7 +231,7 @@ def greet():
 greeting = greet
 ```
 
-**Which of the following will cause a syntax error due to incorrect indentation in Python?**
+2. **Which of the following will cause a syntax error due to incorrect indentation in Python?**
 
 A)
 ```python
