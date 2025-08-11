@@ -1,41 +1,30 @@
 ---
-layout: default
-title: "Mini Projects: Build a Number Guessing Game in Python."
-description: Learn how to create a number guessing game in Python with this step-by-step guide. Practice loops, conditionals, and random number generation in this fun mini-project.
+layout: page
+title: "Python Functions Mini Projects – Real-World Coding Challenges for Beginners"
+description: Boost your Python skills with mini projects focused on functions. Practice real-world coding challenges like the Guess the Number game, user input handling, and more. Perfect for beginners and students to apply Python function concepts in practical scenarios.
+keywords: Python functions mini projects, Python function practice, Python projects for beginners, Guess the Number game Python, Python coding challenges, Python function exercises, beginner Python projects, learn Python functions, Python programming, real-world Python
+author: "Muhammad Yasir Bhutta"
+toc: toc/python.html
+topic: "functions"
+course: "python"
+prev: "/python/docs/functions/practice-and-progress/exercises-functions.html"
+next: "/python/docs/functions/practice-and-progress/review-questions-functions.html"
+show_practice_progress: true
+show_mini_project: null
+show_toc: true
+breadcrumb:
+  - title: Home
+    url: /
+  - title: python
+    url: /python/
+  - title: functions
+    url: /python/docs/functions/
 ---
 
-# Mini Projects: Create a Number Guessing Game in Python
+## Mini Projects
 
-**Function Requirements:**
-1. Define a function named `guess_number` that takes no parameters.
-2. The function should randomly select a number between 1 and 100.
-3. Prompt the user to guess the number, providing feedback on whether their guess is too high, too low, or correct.
-4. The game should continue until the user guesses the correct number.
-5. Once the user guesses correctly, the function should print a congratulatory message and the number of attempts it took.
+### [Guess the Number Game](../../../mini-projects/guess-number-game.md)
 
-**Input:**
-- User input (guesses) from the console
+**📝 Overview:** To create a simple "Guess the Number" game in Python using a `while` loop, demonstrating core programming concepts such as random number generation, user input, conditional statements (`if-elif-else`), and iteration.
 
-**Output:**
-- Feedback on each guess and a congratulatory message upon a correct guess
-
-### Expected Output
-
-When the user plays the game, the interaction might look like this:
-
-```
-Welcome to the Number Guessing Game!
-Guess a number between 1 and 100.
-Enter your guess: 50
-Too low! Try again.
-Enter your guess: 75
-Too high! Try again.
-Enter your guess: 60
-Congratulations! You've guessed the number 60 in 3 attempts.
-```
-
-### Notes for Beginners
-
-1. **Random Number Generation:** You can use the `random` module to select a random number.
-2. **Input Handling:** Use `input()` to get the user's guess and convert it to an integer.
-3. **Loops and Conditionals:** This task will help practice loops for continuous guessing and conditionals for feedback
+[More Projects ...](../../../mini-projects/)

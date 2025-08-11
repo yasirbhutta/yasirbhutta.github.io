@@ -18,7 +18,7 @@ breadcrumb:
   - title: Python
     url: /Python/
   - title: Functions
-    url: /python/functions
+    url: /python/docs/functions
 ---
 
 ## Table of Contents
@@ -103,7 +103,6 @@ print(result)  # Output: 8
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
 
 ## 4. Default Arguments
 

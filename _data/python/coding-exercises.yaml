@@ -1,6 +1,176 @@
 course: python
 topics:
 
+  - topic: functions
+    questions:
+      - id: py-ce-func-001
+        title: "Sum of Two Numbers"
+        task: |
+          Write a Python program that takes two numbers as input and prints their sum.
+        difficulty: "easy"
+        resource:
+          name: "Python Input and Output"
+          url: "https://docs.python.org/3/tutorial/inputoutput.html"
+
+      - id: py-ce-func-002
+        title: "Sum of Three Numbers"
+        task: |
+          Write a function `sum3(num1, num2, num3)` that takes three numbers as input and returns the sum.
+        difficulty: "easy"
+        resource:
+          name: "Defining Functions"
+          url: "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+
+      - id: py-ce-func-003
+        title: "Sum from 1 to N"
+        task: |
+          Write a function `SumNum(num1)` that takes a number as input and returns the sum of numbers from 1 to that number.
+        difficulty: "easy"
+
+      - id: py-ce-func-004
+        title: "Sum of Squares"
+        task: |
+          Write a function `sumSquares(x)` that takes a list of numbers as input and returns the sum of their squares.
+        difficulty: "easy"
+
+      - id: py-ce-func-005
+        title: "Order Food Function"
+        task: |
+          Write a function `order_food` that accepts a main dish, an optional side dish (default 'fries'), and an optional drink (default 'water').
+          Call the function using positional and keyword arguments.
+        examples:
+          - "order_food('burger')"
+          - "order_food('pizza', drink='soda')"
+          - "order_food('salad', side_dish='breadsticks', drink='juice')"
+        difficulty: "easy"
+
+      - id: py-ce-func-006
+        title: "Introduce Function"
+        task: |
+          Create a function `introduce` that takes parameters name, age (default 18), and city (default 'Unknown').
+          Test the function with different combinations of arguments.
+        examples:
+          - "introduce('John')"
+          - "introduce('John', 25)"
+          - "introduce('John', 25, 'New York')"
+        difficulty: "easy"
+
+      - id: py-ce-func-007
+        title: "Student Profile Function"
+        task: |
+          Define a function `student_profile` that accepts name, grade, and subject (default 'Math').
+          Use keyword arguments to call the function in different orders.
+        examples:
+          - "student_profile(grade='A', name='Emma')"
+          - "student_profile('Sophia', 'B', subject='History')"
+        difficulty: "easy"
+
+      - id: py-ce-func-008
+        title: "Add Numbers Function"
+        task: |
+          Write a function `add_numbers` that takes two numbers and returns their sum.
+        input: |
+          3, 5
+        output: |
+          8
+        difficulty: "easy"
+
+      - id: py-ce-func-009
+        title: "Circle Area Calculator"
+        task: |
+          Write a function `circle_area` that calculates the area of a circle given its radius. Use π=3.14.
+        input: |
+          3
+        output: |
+          28.26
+        difficulty: "easy"
+
+      - id: py-ce-func-010
+        title: "Celsius to Fahrenheit"
+        task: |
+          Write a function `celsius_to_fahrenheit` that converts Celsius to Fahrenheit using: F = C*(9/5) + 32.
+        input: |
+          25
+        output: |
+          77.0
+        difficulty: "easy"
+
+      - id: py-ce-func-011
+        title: "Even Number Checker"
+        task: |
+          Write a function `is_even` that returns True if a number is even, otherwise False.
+        input: |
+          4
+        output: |
+          True
+        difficulty: "easy"
+
+      - id: py-ce-func-012
+        title: "Maximum of Three Numbers"
+        task: |
+          Write a function `max_of_three` that returns the largest of three numbers.
+        input: |
+          3, 7, 5
+        output: |
+          7
+        difficulty: "easy"
+
+      - id: py-ce-func-013
+        title: "Simple Interest Calculator"
+        task: |
+          Write a function `simple_interest` that calculates simple interest: (principal * rate * time) / 100.
+        input: |
+          1000, 5, 2
+        output: |
+          100.0
+        difficulty: "easy"
+
+      - id: py-ce-func-014
+        title: "Prime Number Checker"
+        task: |
+          Write a function `is_prime` that checks if a number is prime.
+        input: |
+          7
+        output: |
+          True
+        difficulty: "intermediate"
+
+      - id: py-ce-func-015
+        title: "Factorial Calculator"
+        task: |
+          Write a function `factorial` that takes a number and returns its factorial.
+        input: |
+          5
+        output: |
+          120
+        difficulty: "intermediate"
+
+      - id: py-ce-func-016
+        title: "Even Number Multiplication Table"
+        task: |
+          Program with `isEven`, `printTable`, and `main` functions.
+          If the input number is even, print its multiplication table; otherwise, show a message.
+        output: |
+          Enter an integer: 4
+          4 is even! Here's its multiplication table:
+          4 * 1 = 4
+          4 * 2 = 8
+          4 * 3 = 12
+          ...
+          4 * 10 = 40
+        difficulty: "intermediate"
+
+      - id: py-ce-func-017
+        title: "Fibonacci Sequence"
+        task: |
+          Write a function `fibonacci(n)` that returns the nth Fibonacci number.
+        input: |
+          5
+        output: |
+          5
+        difficulty: "intermediate"
+
+
   - topic: dictionaries
     questions:
       - id: py-ce-dict-001

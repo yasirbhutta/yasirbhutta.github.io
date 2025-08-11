@@ -41,7 +41,7 @@ breadcrumb:
 
 ## 📅 Functions & Modules
 
-- **Defining Functions, Parameters, Return Values, Scope, *args, **kwargs**: 
+- **Defining Functions, Parameters, Return Values, Scope, *args, **kwargs**: [MCQs](../docs/functions/practice-and-progress/mcqs-functions.md) 📝 , [Find and Fix Mistakes](../docs/functions/practice-and-progress/find-fix-mistakes-functions.md) 🔍, [Coding Exercises](../docs/functions/practice-and-progress/exercises-functions.md) 🏋️‍♂️
 - **lambda:**
 - **Built-in Functions: map, filter, zip**
 
