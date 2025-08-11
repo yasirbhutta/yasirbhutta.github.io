@@ -1,6 +1,263 @@
 course: python
 topics:
 
+  - topic: functions
+    questions:
+      - id: func-fix-001
+        difficulty: easy
+        prompt: |
+          Fix the code so that the function prints "Hello, World!" when called.
+        code: |
+          def greet()
+              print("Hello, World!")
+          greet
+        hint: "Check the function definition syntax and how it's being called."
+        issue: "Missing colon after function definition and not actually calling the function."
+        solution: |
+          def greet():
+              print("Hello, World!")
+          greet()
+
+      - id: func-fix-002
+        difficulty: medium
+        prompt: |
+          Fix the code so that the function returns the sum of two numbers instead of None.
+        code: |
+          def add_numbers(a, b):
+              total = a + b
+          result = add_numbers(3, 4)
+          print(result)
+        hint: "Make sure the function uses the 'return' statement."
+        issue: "The function calculates the sum but does not return it."
+        solution: |
+          def add_numbers(a, b):
+              total = a + b
+              return total
+          result = add_numbers(3, 4)
+          print(result)
+
+      - id: func-fix-003
+        difficulty: medium
+        prompt: |
+          Fix the code so that it correctly uses a default parameter for the greeting.
+        code: |
+          def greet(name = "User"):
+              print("Hello, " + name)
+          greet
+        hint: "Check the function call — it's missing parentheses."
+        issue: "Function is not being called; it's only referenced."
+        solution: |
+          def greet(name="User"):
+              print("Hello, " + name)
+          greet()
+
+      - id: func-fix-004
+        difficulty: hard
+        prompt: |
+          Fix the code so that the recursive factorial function works without errors.
+        code: |
+          def factorial(n):
+              if n = 1:
+                  return 1
+              else:
+                  return n * factorial(n - 1)
+          print(factorial(5))
+        hint: "Check the conditional statement syntax."
+        issue: "Used '=' instead of '==' in the if condition."
+        solution: |
+          def factorial(n):
+              if n == 1:
+                  return 1
+              else:
+                  return n * factorial(n - 1)
+          print(factorial(5))
+
+      - id: func-fix-005
+        difficulty: hard
+        prompt: |
+          Fix the code so that it correctly unpacks keyword arguments.
+        code: |
+          def print_info(name, age):
+              print(f"Name: {name}, Age: {age}")
+          info = {"name": "Alice", "age": 25}
+          print_info(info)
+        hint: "Check how to pass dictionary values to a function."
+        issue: "Passing the dictionary directly instead of unpacking it."
+        solution: |
+          def print_info(name, age):
+              print(f"Name: {name}, Age: {age}")
+          info = {"name": "Alice", "age": 25}
+          print_info(**info)
+
+      - id: func-fix-006
+        difficulty: easy
+        prompt: |
+          Fix the code so that the function takes two parameters and prints their sum.
+        code: |
+          def sum_numbers(a b):
+              print(a + b)
+          sum_numbers(3, 4)
+        hint: "Check the parameter list syntax."
+        issue: "Missing comma between parameters."
+        solution: |
+          def sum_numbers(a, b):
+              print(a + b)
+          sum_numbers(3, 4)
+
+      - id: func-fix-007
+        difficulty: easy
+        prompt: |
+          Fix the code so that it doesn't throw a NameError.
+        code: |
+          def say_hello():
+              print(message)
+          say_hello()
+        hint: "The variable used inside the function must be defined or passed as a parameter."
+        issue: "Variable 'message' is undefined inside the function."
+        solution: |
+          def say_hello():
+              message = "Hello!"
+              print(message)
+          say_hello()
+
+      - id: func-fix-008
+        difficulty: medium
+        prompt: |
+          Fix the code so that it returns the correct average of a list of numbers.
+        code: |
+          def average(nums):
+              return sum(nums) / len(num)
+          print(average([1, 2, 3]))
+        hint: "Check the variable name in the division part."
+        issue: "Incorrect variable name 'num' instead of 'nums'."
+        solution: |
+          def average(nums):
+              return sum(nums) / len(nums)
+          print(average([1, 2, 3]))
+
+      - id: func-fix-009
+        difficulty: medium
+        prompt: |
+          Fix the code so that it accepts any number of arguments.
+        code: |
+          def print_all(args):
+              for item in args:
+                  print(item)
+          print_all(1, 2, 3)
+        hint: "Use the correct syntax for variable-length arguments."
+        issue: "Missing '*' in the function parameter for variable-length arguments."
+        solution: |
+          def print_all(*args):
+              for item in args:
+                  print(item)
+          print_all(1, 2, 3)
+
+      - id: func-fix-010
+        difficulty: medium
+        prompt: |
+          Fix the code so that it calculates the square of each number in a list.
+        code: |
+          def squares(numbers):
+              return [n ** 2 numbers]
+          print(squares([1, 2, 3]))
+        hint: "Check the list comprehension syntax."
+        issue: "Missing 'for' keyword in the list comprehension."
+        solution: |
+          def squares(numbers):
+              return [n ** 2 for n in numbers]
+          print(squares([1, 2, 3]))
+
+      - id: func-fix-011
+        difficulty: hard
+        prompt: |
+          Fix the code so that it doesn't cause a TypeError when using default mutable arguments.
+        code: |
+          def append_item(item, my_list=[]):
+              my_list.append(item)
+              return my_list
+          print(append_item(1))
+          print(append_item(2))
+        hint: "Default mutable arguments can cause unexpected behavior."
+        issue: "Using a mutable default argument causes shared state between calls."
+        solution: |
+          def append_item(item, my_list=None):
+              if my_list is None:
+                  my_list = []
+              my_list.append(item)
+              return my_list
+          print(append_item(1))
+          print(append_item(2))
+
+      - id: func-fix-012
+        difficulty: hard
+        prompt: |
+          Fix the code so that it can handle division by zero without crashing.
+        code: |
+          def divide(a, b):
+              return a / b
+          print(divide(5, 0))
+        hint: "Use exception handling for division by zero."
+        issue: "Division by zero raises a ZeroDivisionError."
+        solution: |
+          def divide(a, b):
+              try:
+                  return a / b
+              except ZeroDivisionError:
+                  return "Cannot divide by zero"
+          print(divide(5, 0))
+
+      - id: func-fix-013
+        difficulty: hard
+        prompt: |
+          Fix the code so that the lambda function works correctly for squaring numbers.
+        code: |
+          square = lambda x: return x ** 2
+          print(square(4))
+        hint: "Lambda functions cannot contain 'return'."
+        issue: "Using 'return' inside a lambda function is invalid."
+        solution: |
+          square = lambda x: x ** 2
+          print(square(4))
+
+      - id: func-fix-014
+        difficulty: hard
+        prompt: |
+          Fix the code so that the function correctly modifies a global variable.
+        code: |
+          count = 0
+          def increment():
+              count += 1
+          increment()
+          print(count)
+        hint: "Use the 'global' keyword when modifying global variables inside a function."
+        issue: "Trying to modify a global variable without declaring it global."
+        solution: |
+          count = 0
+          def increment():
+              global count
+              count += 1
+          increment()
+          print(count)
+
+      - id: func-fix-015
+        difficulty: hard
+        prompt: |
+          Fix the code so that it uses recursion correctly to sum a list.
+        code: |
+          def recursive_sum(lst):
+              if len(lst) == 0:
+                  return 0
+              return lst[0] + recursive_sum(lst[2:])
+          print(recursive_sum([1, 2, 3, 4]))
+        hint: "Check the slicing — it skips elements incorrectly."
+        issue: "Using lst[2:] instead of lst[1:], which skips every other element."
+        solution: |
+          def recursive_sum(lst):
+              if len(lst) == 0:
+                  return 0
+              return lst[0] + recursive_sum(lst[1:])
+          print(recursive_sum([1, 2, 3, 4]))
+
   - topic: dictionaries
     questions:
       - id: dict-fix-001
