@@ -2,6 +2,209 @@
 course: python
 topics:
 
+  - topic: functions
+    questions:
+
+      - id: func-mcq-001
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def myfunction(val):
+              return val % 4 == 0
+          print(myfunction(13) or myfunction(8))
+        options:
+          - "0"
+          - "13"
+          - "False"
+          - "True"
+          - "3.5"
+        answer: "True"
+        explanation: "myfunction(13) returns False, myfunction(8) returns True, and False or True evaluates to True."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: func-mcq-002
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def greet(name="User"):
+              return "Hello, " + name
+          print(greet("Ahmad"))
+        options:
+          - "Hello, User"
+          - "Hello, Ahmad"
+          - "Hello"
+          - "Error"
+        answer: "Hello, Ahmad"
+        explanation: "The function is called with 'Ahmad', overriding the default value 'User'."
+        resources:
+          - type: video
+            url: "https://youtu.be/1v9gvCXqnD0"
+
+      - id: func-mcq-003
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def my_function():
+              pass
+          print(my_function())
+        options:
+          - "None"
+          - "0"
+          - "True"
+          - "Error"
+        answer: "None"
+        explanation: "Functions without a return statement return None by default."
+        resources:
+          - type: video
+            url: "https://youtu.be/VzjZoeQf4KU"
+
+      - id: func-mcq-004
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def my_func(a, b=2, c=3):
+              return a + b + c
+          print(my_func(5, c=4))
+        options:
+          - "11"
+          - "12"
+          - "10"
+          - "Error"
+        answer: "11"
+        explanation: "a=5, b=2 (default), c=4 (passed), so 5+2+4=11."
+        resources:
+          - type: video
+            url: "https://youtu.be/w2M0XAl4DsQ"
+
+      - id: func-mcq-005
+        difficulty: medium
+        question: Which of the following function calls is invalid for this function definition?
+        language: python
+        code: |
+          def my_func(a, b, c=3):
+              return a + b + c
+        options:
+          - "my_func(1, 2)"
+          - "my_func(1, 2, 4)"
+          - "my_func(a=1, b=2, c=5)"
+          - "my_func(1, c=4, b=2, 5)"
+        answer: "my_func(1, c=4, b=2, 5)"
+        explanation: "Positional arguments cannot follow keyword arguments."
+        resources:
+          - type: video
+            url: "https://youtu.be/bZpn17PyUBQ"
+
+      - id: func-mcq-006
+        difficulty: easy
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def change_value(x):
+              x = 10
+
+          num = 5
+          change_value(num)
+          print(num)
+        options:
+          - "5"
+          - "10"
+          - "Error"
+          - "None"
+        answer: "5"
+        explanation: "Integers are immutable; changing x inside the function doesn't affect the original variable."
+        resources:
+          - type: video
+            url: "https://youtu.be/n67LfbwdV_E"
+
+      - id: func-mcq-007
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def greet(name: str) -> str:
+              return "Hello, " + name + "!"
+          result = greet(5)
+          print(result)
+        options:
+          - "Hello, 5!"
+          - "TypeError"
+          - "None"
+          - "Hello, !"
+        answer: "Hello, 5!"
+        explanation: "Type hints are not enforced at runtime by default; 5 is converted to a string."
+        resources:
+          - type: video
+            url: "https://youtu.be/Pa1rH5ZBlL0"
+
+      - id: func-mcq-008
+        difficulty: easy
+        question: What will be the output of this code?
+        language: python
+        code: |
+          def func(x, y=2):
+              return x * y
+          print(func(3))
+        options:
+          - "2"
+          - "6"
+          - "3"
+          - "Error"
+        answer: "6"
+        explanation: "x=3, y=2 (default), so result is 3*2=6."
+        resources:
+          - type: video
+            url: "https://youtu.be/wZ4keDHGKYI"
+
+      - id: func-mcq-009
+        difficulty: easy
+        question: What is the main purpose of a function in Python?
+        options:
+          - "To group a set of related code into a single unit"
+          - "To create a new type of data"
+          - "To write a program in a single line"
+          - "To change the value of global variables"
+        answer: "To group a set of related code into a single unit"
+        explanation: "Functions help in organizing code and improving reusability."
+
+      - id: func-mcq-010
+        difficulty: easy
+        question: What is the purpose of the return statement in a function in Python?
+        options:
+          - "To print the output of the function"
+          - "To exit the function and return a value"
+          - "To execute the function without returning anything"
+          - "To stop the function and start a new one"
+        answer: "To exit the function and return a value"
+        explanation: "The return statement ends function execution and optionally passes a value back."
+
+      - id: func-mcq-011
+        difficulty: easy
+        question: What is the correct way to define a function in Python?
+        options:
+          - "function my_function():"
+          - "def my_function():"
+          - "define my_function():"
+          - "my_function() {"
+        answer: "def my_function():"
+        explanation: "Functions are defined using the def keyword in Python."
+
+      - id: func-mcq-012
+        difficulty: easy
+        question: What happens if you don't include a return statement in a function?
+        options:
+          - "The function will return None."
+          - "The function will cause an error."
+          - "The function will return 0."
+          - "The function will return the last variable used."
+        answer: "The function will return None."
+        explanation: "Functions return None by default if no return statement is provided."
+
   - topic: list-comprehension
     questions:
     
