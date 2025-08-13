@@ -185,3 +185,7 @@ Real-time dashboards and reports for academic and administrative data.
 
 SAP Student Life Cycle Management transforms how educational institutions operate by providing a holistic, integrated, and student-centered approach. It not only supports operational excellence but also improves the academic experience for students and faculty alike.
 ---
+
+## 📘 **Related Topics**
+
+- [DType in SAP SLCM Courses: Meaning, Purpose, and Step-by-Step Creation Guide](slcm-dtype.md)
