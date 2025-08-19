@@ -245,7 +245,7 @@ topics:
 
       - id: var-mcq-013
         difficulty: medium
-        question: In Python, constants are:
+        question: "In Python, constants are:"
         language: python
         code: |
           # Choose the correct answer
@@ -323,7 +323,7 @@ topics:
 
       - id: var-mcq-017
         difficulty: easy
-        question: A global variable is defined:
+        question: "A global variable is defined:"
         language: python
         code: |
           # Choose the correct answer
