@@ -3,15 +3,37 @@ layout: page
 title: "Local and Global Variables in Python: Explained with Examples and Tasks | Python for Beginners"
 description: Learn the difference between local and global variables in Python with simple explanations, practical examples, and beginner-friendly tasks. Understand constants, best practices, and how to manage variables effectively in your programs.
 keywords: local variables in Python, global variables in Python, Python constants, Python variable examples, Python beginner tasks, Python global keyword, Python local vs global variables, Python programming basics, how to use variables in Python, Python coding exercises, Python for Beginners, python tutorial for beginners
-toc: toc/python.html
-course: python
 topic: "local-global"
 mini_project: false
+author: Muhammad Yasir Bhutta
+course: python
+topic: local-global
+show_toc: true
+toc: toc/python.html
+show_practice_progress: true
+show_mini_project: null
+prev: /python/docs/functions/
+next: /python/docs/functions-adv-concepts/agrs-kwargs.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /Python/
+  - title: Functions
+    url: /python/docs/functions
 ---
 
-## Local Variables
+## Table of Contents
 
-## What is a Local Variable?
+1. [Local Variables](#1-local-variables)
+2. [Global Variables](#2-global-variables)
+3. [Constants](#3-constants)
+4. [Best Practices](#4-best-practices)
+5. [Tasks](#5-tasks)
+
+## 1. Local Variables
+
+### What is a Local Variable?
 
 - **Local variables** are variables declared inside a function. They can only be accessed within that function and are **destroyed** when the function completes execution..
 - It **only exists** while the function is running.
@@ -44,7 +66,7 @@ greet()
 - They **do not affect** variables outside the function.
 
 ---
-## Task for Students:
+### Task for Students:
 
 Write a function called `add_numbers` that:
 - Takes two numbers as input.
@@ -64,9 +86,9 @@ add_numbers(5, 10)
 
 ---
 
-## Global Variables and Constants
+## 2. Global Variables
 
-## What is a Global Variable?
+### What is a Global Variable?
 
 - A **global variable** is a variable that is **declared outside all functions** and can be accessed throughout the entire program..
 - It **can be used** both **inside** and **outside** functions.
@@ -87,7 +109,7 @@ print("Goodbye", name)
 
 ---
 
-## Changing a Global Variable Inside a Function
+### Changing a Global Variable Inside a Function
 
 - If you **want to modify** a global variable **inside a function**, you must use the `global` keyword.
 
@@ -113,7 +135,7 @@ print(count)  # Output: 1
 
 ---
 
-## Constants
+## 3. Constants
 
 - A **constant** is a variable that **should not change** once assigned.
 - In Python, constants are typically declared as global variables with **ALL_CAPS** names by convention.
@@ -147,14 +169,15 @@ def calculate_tax(amount):
 print(calculate_tax(100))  # Output: 20.0
 ```
 
-## Best Practices:
+## 4. Best Practices:
 
 1. Avoid excessive use of **global variables** as they can make code harder to maintain
 2. Use ALL_CAPS for constants to indicate they shouldn't be modified
 3. When you must use global variables, declare them clearly at the top of your file
+
 ---
 
-## Tasks:
+## 5. Tasks:
 
 ### Task #1: Global Variable Task
 - Create a global variable called `language` set to `"Python"`.
@@ -170,3 +193,7 @@ Create a program with:
 2. A global variable total_purchases initialized to 0
 3. A function make_purchase(amount) that adds to total_purchases and applies the discount
 4. A function show_total() that prints the current total
+
+## Practice & Progress
+
+- [Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-local-global.md)

@@ -1,6 +1,407 @@
-
 course: python
 topics:
+
+  - topic: variables
+    questions:
+
+      - id: var-mcq-001
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          x = 10
+          def my_function():
+              x = 5
+              return x
+          print(my_function(), x)
+        options:
+          - "(5, 10)"
+          - "(10, 10)"
+          - "(5, 5)"
+          - "(10, 5)"
+        answer: "(5, 10)"
+        explanation: "Inside the function, a local variable x shadows the global variable. So my_function() returns 5 and the global x remains 10."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-002
+        difficulty: medium
+        question: What is printed by the following code?
+        language: python
+        code: |
+          x = 15
+          def foo():
+              global x
+              x = x + 5
+          foo()
+          print(x)
+        options:
+          - "15"
+          - "5"
+          - "20"
+          - "10"
+        answer: "20"
+        explanation: "The global keyword allows the function to modify the global variable x. x becomes 20."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-003
+        difficulty: easy
+        question: Which keyword allows you to modify a global variable inside a function in Python?
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "local"
+          - "global"
+          - "static"
+          - "constant"
+        answer: "global"
+        explanation: "The global keyword makes the variable refer to the global scope."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-004
+        difficulty: medium
+        question: What will be the value of y after the code is executed?
+        language: python
+        code: |
+          Y_CONSTANT = 50
+          def change():
+              y = 10
+              return y
+          y = change()
+          print(y)
+        options:
+          - "50"
+          - "10"
+          - "60"
+          - "0"
+        answer: "10"
+        explanation: "The constant Y_CONSTANT remains 50 and is not used in change(). y gets the local value 10 returned from change()."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-005
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          PI = 3.14
+          def area(radius):
+            return PI * radius * radius
+          PI = 3
+          print(area(2))
+        options:
+          - "12.56"
+          - "9"
+          - "6"
+          - "4"
+        answer: "12.56"
+        explanation: "area() uses the value 3 for PI when executing, even though PI is conventionally a constant."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-006
+        difficulty: easy
+        question: What is a local variable in Python?
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "A variable defined outside any function"
+          - "A variable defined inside a function"
+          - "A variable with uppercase letters"
+          - "A built-in Python variable"
+        answer: "A variable defined inside a function"
+        explanation: "Local variables are declared inside functions and only exist while the function runs."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-007
+        difficulty: easy
+        question: Which of the following is considered a constant in Python by convention?
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "pi"
+          - "radius"
+          - "PI"
+          - "var_name"
+        answer: "PI"
+        explanation: "Variables written in uppercase are treated as constants by convention in Python."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-008
+        difficulty: medium
+        question: What will be printed?
+        language: python
+        code: |
+          count = 5
+          def show():
+              count = 3
+              print(count)
+          show()
+          print(count)
+        options:
+          - "3 5"
+          - "5 3"
+          - "3 3"
+          - "5 5"
+        answer: "3 5"
+        explanation: "The function defines a new local variable count=3; the global count remains 5."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-009
+        difficulty: medium
+        question: What is the output of the code?
+        language: python
+        code: |
+          A = 7
+          def test():
+              return A * 2
+          print(test())
+        options:
+          - "7"
+          - "14"
+          - "0"
+          - "TypeError"
+        answer: "14"
+        explanation: "A is global and can be used inside the function for computing the result."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-010
+        difficulty: medium
+        question: What happens if you try to assign a value to a global variable inside a function without using the 'global' keyword?
+        language: python
+        code: |
+          x = 1
+          def func():
+              x = x + 1
+              return x
+          print(func())
+        options:
+          - "2"
+          - "1"
+          - "UnboundLocalError"
+          - "True"
+        answer: "UnboundLocalError"
+        explanation: "Python treats x as a local variable inside the function and raises an UnboundLocalError."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-011
+        difficulty: easy
+        question: Where can a global variable be accessed?
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "Inside any function"
+          - "Outside any function"
+          - "Both inside and outside functions"
+          - "Only inside a class"
+        answer: "Both inside and outside functions"
+        explanation: "Global variables are accessible throughout the program."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-012
+        difficulty: medium
+        question: What will the following code print?
+        language: python
+        code: |
+          MAX_SIZE = 100
+          def reset():
+              global MAX_SIZE
+              MAX_SIZE = 50
+          reset()
+          print(MAX_SIZE)
+        options:
+          - "100"
+          - "0"
+          - "50"
+          - "None"
+        answer: "50"
+        explanation: "Using global inside the function modifies the global constant MAX_SIZE."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-013
+        difficulty: medium
+        question: In Python, constants are:
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "Enforced by the interpreter"
+          - "Declared using const keyword"
+          - "Only a naming convention"
+          - "Not allowed in Python"
+        answer: "Only a naming convention"
+        explanation: "Python does not enforce constants; they are written in uppercase by convention."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-014
+        difficulty: medium
+        question: What is the output?
+        language: python
+        code: |
+          def example():
+              a = 6
+              def inner():
+                  nonlocal a
+                  a += 2
+                  return a
+              return inner()
+          print(example())
+        options:
+          - "6"
+          - "8"
+          - "4"
+          - "Error"
+        answer: "8"
+        explanation: "nonlocal is used to modify the variable from the parent function scope."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-015
+        difficulty: medium
+        question: What does the 'nonlocal' keyword do?
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "Defines a global variable"
+          - "Defines a local variable"
+          - "Refers to a variable in an outer function"
+          - "Creates a constant"
+        answer: "Refers to a variable in an outer function"
+        explanation: "The nonlocal keyword refers to variables in the nearest enclosing scope that is not global."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-016
+        difficulty: medium
+        question: What will be printed?
+        language: python
+        code: |
+          RATE = 5
+          def calc(val):
+              return val + RATE
+          print(calc(10))
+        options:
+          - "15"
+          - "10"
+          - "5"
+          - "0"
+        answer: "15"
+        explanation: "RATE is treated as a constant and is available inside the function."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-017
+        difficulty: easy
+        question: A global variable is defined:
+        language: python
+        code: |
+          # Choose the correct answer
+        options:
+          - "Inside the body of a function"
+          - "Inside a loop"
+          - "At the top level of a module"
+          - "Only inside classes"
+        answer: "At the top level of a module"
+        explanation: "A variable declared outside all functions is global."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-018
+        difficulty: medium
+        question: What is the result of executing the following code?
+        language: python
+        code: |
+          x = 2
+          def add():
+              return x + 3
+          x = 7
+          print(add())
+        options:
+          - "5"
+          - "10"
+          - "2"
+          - "3"
+        answer: "10"
+        explanation: "The value of x used is the updated global value 7."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-019
+        difficulty: medium
+        question: What will be the value of z after the code runs?
+        language: python
+        code: |
+          z = 4
+          def test():
+              z = 6
+              return z
+          test()
+          print(z)
+        options:
+          - "4"
+          - "6"
+          - "10"
+          - "0"
+        answer: "4"
+        explanation: "z inside the function is local and does not affect the global z."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
+
+      - id: var-mcq-020
+        difficulty: medium
+        question: Which of the following will correctly update the global variable 'count'?
+        language: python
+        code: |
+          count = 5
+          def update():
+              # fill the blank
+              count = count + 1
+          update()
+          print(count)
+        options:
+          - "global count"
+          - "local count"
+          - "nonlocal count"
+          - "static count"
+        answer: "global count"
+        explanation: "Using the global keyword is required to update the global variable inside the function."
+        resources:
+          - type: video
+            url: "https://youtu.be/laKpsLlq60I"
 
   - topic: functions
     questions:
