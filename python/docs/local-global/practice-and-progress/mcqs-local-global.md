@@ -9,7 +9,7 @@ topic: "local-global"
 course: "python"
 prev: "/python/docs/local-global/practice-and-progress/fill-blanks-local-global.html"
 next: "/python/docs/local-global/practice-and-progress/find-fix-mistakes-local-global.html"
-show_practice_progress: true
+show_practice_progress: null
 show_mini_project: null
 show_toc: true
 breadcrumb:
@@ -17,6 +17,6 @@ breadcrumb:
     url: /
   - title: python
     url: /python/
-  - title: local-global
+  - title: Local and Global Variables
     url: /python/docs/local-global/
 ---
