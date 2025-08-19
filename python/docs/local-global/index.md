@@ -10,7 +10,7 @@ course: python
 topic: local-global
 show_toc: true
 toc: toc/python.html
-show_practice_progress: true
+show_practice_progress: null
 show_mini_project: null
 prev: /python/docs/functions/
 next: /python/docs/functions-adv-concepts/agrs-kwargs.html
@@ -194,6 +194,6 @@ Create a program with:
 3. A function make_purchase(amount) that adds to total_purchases and applies the discount
 4. A function show_total() that prints the current total
 
-## Practice & Progress
+## 🧠 Practice & Progress
 
-- [Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-local-global.md)
+- [📝 Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-local-global.md)
