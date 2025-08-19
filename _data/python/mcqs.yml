@@ -221,7 +221,7 @@ topics:
         difficulty: medium
         question: What will the following code print?
         language: python
-        code: null
+        code: |
           MAX_SIZE = 100
           def reset():
               global MAX_SIZE
