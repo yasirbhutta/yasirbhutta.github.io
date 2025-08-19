@@ -51,8 +51,7 @@ topics:
         difficulty: easy
         question: Which keyword allows you to modify a global variable inside a function in Python?
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "local"
           - "global"
@@ -111,8 +110,7 @@ topics:
         difficulty: easy
         question: What is a local variable in Python?
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "A variable defined outside any function"
           - "A variable defined inside a function"
@@ -128,8 +126,7 @@ topics:
         difficulty: easy
         question: Which of the following is considered a constant in Python by convention?
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "pi"
           - "radius"
@@ -208,8 +205,7 @@ topics:
         difficulty: easy
         question: Where can a global variable be accessed?
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "Inside any function"
           - "Outside any function"
@@ -225,7 +221,7 @@ topics:
         difficulty: medium
         question: What will the following code print?
         language: python
-        code: |
+        code: null
           MAX_SIZE = 100
           def reset():
               global MAX_SIZE
@@ -247,8 +243,7 @@ topics:
         difficulty: medium
         question: "In Python, constants are:"
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "Enforced by the interpreter"
           - "Declared using const keyword"
@@ -288,8 +283,7 @@ topics:
         difficulty: medium
         question: What does the 'nonlocal' keyword do?
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "Defines a global variable"
           - "Defines a local variable"
@@ -325,8 +319,7 @@ topics:
         difficulty: easy
         question: "A global variable is defined:"
         language: python
-        code: |
-          # Choose the correct answer
+        code: null
         options:
           - "Inside the body of a function"
           - "Inside a loop"
