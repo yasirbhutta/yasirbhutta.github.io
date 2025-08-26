@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Add Room in SAP Using Transaction OORA | Step-by-Step Guide
+title: "How to Add Room in SAP Using Transaction OORA | Step-by-Step Guide"
 description: Learn how to add a room in SAP using transaction OORA. Step-by-step guide with tips to define rooms in SAP Organizational Management and Real Estate.
 keywords: change SAP theme, SAP GUI theme settings, SAP Fiori theme, customize SAP appearance, SAP user guide, SAP desktop theme, SAP web theme, SAP interface customization, SAP education, SAP
 author: Muhammad Yasir Bhutta

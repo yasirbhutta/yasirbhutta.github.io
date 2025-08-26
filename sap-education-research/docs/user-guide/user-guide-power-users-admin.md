@@ -25,6 +25,10 @@ breadcrumb:
 
 ---
 
+## SAP HCM
+
+- [SAP HCM Ad Hoc Query Guide](posts/sap-hcm-ad-hoc-query-guide-0006.md)
+
 ## 📘 **Related Topics**
 
 - [SAP User Guide – Common Features and Essential Functions for All](user-guide-common-features.md)
