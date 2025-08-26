@@ -41,7 +41,7 @@ You can open Ad Hoc Query using one of the following methods:
 
 * **Transaction Code**:
 
-  * Enter `S_PH0_48000510` → Directly opens Ad Hoc Query.
+  * Enter `S_PH0_48000513` → Directly opens Ad Hoc Query.
   * Enter `SQ01` → Opens SAP Query (for broader query management).
 
 * **Menu Path**:
