@@ -18,10 +18,8 @@ breadcrumb:
 
 ## User Guide for End Users
  
-1. ### [SAP User Guide – Common Features and Essential Functions for All](user-guide-common-features.md)
-2. ### [User Guide for Student's](user-guide-students.md)
-3. ### [User Guide for Teacher's](user-guide-teachers.md)
-4. ### [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
-
-## [User Guide for Key Users](user-guide-power-users-admin.md)
+1. [SAP User Guide – Common Features and Essential Functions for All](user-guide-common-features.md)
+2. [User Guide for Student's](user-guide-students.md)
+3. [User Guide for Teacher's](user-guide-teachers.md)
+4. [User Guide for Key Users](user-guide-power-users-admin.md)
 
