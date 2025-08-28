@@ -173,4 +173,6 @@ Based on the \*args and \*\*kwargs overview from the page you shared, here are *
 
 ---
 
+## 🧠 Practice & Progress
 
+- [📝 Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-args-kwargs.md)

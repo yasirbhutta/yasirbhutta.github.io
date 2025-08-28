@@ -1,5 +1,257 @@
 course: python
 topics:
+  - topic: args-kwargs
+    questions:
+      - id: ak-mcq-001
+        difficulty: easy
+        question: What is the type of the variable that collects positional arguments when using `*args` in a Python function?
+        options:
+          - "list"
+          - "tuple"
+          - "dict"
+          - "set"
+        answer: "tuple"
+        explanation: "`*args` collects all extra positional arguments into a tuple inside the function."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-002
+        difficulty: easy
+        question: What does `**kwargs` collect inside a Python function?
+        options:
+          - "a list of positional arguments"
+          - "a tuple of positional arguments"
+          - "a dictionary of keyword arguments"
+          - "a set of keyword arguments"
+        answer: "a dictionary of keyword arguments"
+        explanation: "`**kwargs` collects all extra keyword arguments into a dictionary inside the function."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-003
+        difficulty: easy
+        question: Which symbol is used to define `*args` in a Python function?
+        options:
+          - "*"
+          - "**"
+          - "&"
+          - "#"
+        answer: "*"
+        explanation: "The single asterisk `*` is used to collect positional arguments."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-004
+        difficulty: easy
+        question: Which symbol is used to define `**kwargs` in a Python function?
+        options:
+          - "*"
+          - "**"
+          - "&"
+          - "##"
+        answer: "**"
+        explanation: "The double asterisk `**` is used to collect keyword arguments into a dictionary."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-005
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def test(*args):
+              return args
+          print(test(1, 2, 3))
+        options:
+          - "[1, 2, 3]"
+          - "(1, 2, 3)"
+          - "{1: 2, 3: None}"
+          - "Error"
+        answer: "(1, 2, 3)"
+        explanation: "`*args` packs the arguments into a tuple, so the output is (1, 2, 3)."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-006
+        difficulty: medium
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def test(**kwargs):
+              return kwargs
+          print(test(a=1, b=2))
+        options:
+          - "{'a': 1, 'b': 2}"
+          - "[('a', 1), ('b', 2)]"
+          - "('a', 'b')"
+          - "Error"
+        answer: "{'a': 1, 'b': 2}"
+        explanation: "`**kwargs` collects the keyword arguments into a dictionary."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-007
+        difficulty: medium
+        question: Which of the following is TRUE about using both `*args` and `**kwargs` in the same function?
+        options:
+          - "`*args` must come before `**kwargs`"
+          - "`**kwargs` must come before `*args`"
+          - "Order does not matter"
+          - "They cannot be used together"
+        answer: "`*args` must come before `**kwargs`"
+        explanation: "In function definitions, `*args` must appear before `**kwargs`."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-008
+        difficulty: medium
+        question: What will the following function print?
+        language: python
+        code: |
+          def show(*args, **kwargs):
+              print(args)
+              print(kwargs)
+          show(1, 2, x=3, y=4)
+        options:
+          - "(1, 2) and {'x': 3, 'y': 4}"
+          - "[1, 2] and {'x': 3, 'y': 4}"
+          - "(1, 2, 'x', 'y') and {}"
+          - "() and {'1': 2, 'x': 3, 'y': 4}"
+        answer: "(1, 2) and {'x': 3, 'y': 4}"
+        explanation: "`*args` captures positional arguments into a tuple, `**kwargs` captures keyword arguments into a dictionary."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-009
+        difficulty: medium
+        question: What is the correct order of parameters in a Python function definition when using `*args` and `**kwargs`?
+        options:
+          - "Regular arguments → *args → **kwargs"
+          - "*args → Regular arguments → **kwargs"
+          - "**kwargs → *args → Regular arguments"
+          - "Any order is valid"
+        answer: "Regular arguments → *args → **kwargs"
+        explanation: "The correct order is: regular parameters first, then *args, then **kwargs."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-010
+        difficulty: hard
+        question: What is the output of the following code?
+        language: python
+        code: |
+          def func(a, *args, **kwargs):
+              print(a, args, kwargs)
+          func(1, 2, 3, x=4, y=5)
+        options:
+          - "1 (2, 3) {'x': 4, 'y': 5}"
+          - "1 [2, 3] {'x': 4, 'y': 5}"
+          - "1 (2, 3, 'x', 'y') {}"
+          - "1 () {'a': 1, 'x': 4, 'y': 5}"
+        answer: "1 (2, 3) {'x': 4, 'y': 5}"
+        explanation: "`a` takes the first positional argument, `*args` captures the remaining ones, and `**kwargs` captures the keyword arguments."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-011
+        difficulty: hard
+        question: Which function definition is valid?
+        options:
+          - "def func(*args, a, **kwargs): pass"
+          - "def func(a, *args, **kwargs): pass"
+          - "def func(**kwargs, *args, a): pass"
+          - "def func(**kwargs, *args): pass"
+        answer: "def func(a, *args, **kwargs): pass"
+        explanation: "The correct order is normal arguments, then *args, then **kwargs."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-012
+        difficulty: hard
+        question: What will this code print?
+        language: python
+        code: |
+          def calc(*args):
+              return sum(args)
+          print(calc(1, 2, 3, 4))
+        options:
+          - "10"
+          - "(1, 2, 3, 4)"
+          - "Error"
+          - "[1, 2, 3, 4]"
+        answer: "10"
+        explanation: "`*args` collects (1,2,3,4) into a tuple, and sum() adds them to return 10."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-013
+        difficulty: hard
+        question: What will this code print?
+        language: python
+        code: |
+          def merge_dicts(**kwargs):
+              return kwargs
+          print(merge_dicts(a=1, b=2, c=3))
+        options:
+          - "{'a': 1, 'b': 2, 'c': 3}"
+          - "['a', 'b', 'c']"
+          - "(1, 2, 3)"
+          - "Error"
+        answer: "{'a': 1, 'b': 2, 'c': 3}"
+        explanation: "`**kwargs` collects keyword arguments into a dictionary."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-014
+        difficulty: hard
+        question: What is the output of this code?
+        language: python
+        code: |
+          def show_args_kwargs(*args, **kwargs):
+              return len(args) + len(kwargs)
+          print(show_args_kwargs(1,2,3,x=4,y=5))
+        options:
+          - "2"
+          - "3"
+          - "5"
+          - "Error"
+        answer: "5"
+        explanation: "`*args` captures (1,2,3) → length 3, `**kwargs` captures {'x':4,'y':5} → length 2, total = 5."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
+
+      - id: ak-mcq-015
+        difficulty: hard
+        question: What will happen if you pass duplicate keyword arguments to a function with `**kwargs`?
+        language: python
+        code: |
+          def test(**kwargs):
+              print(kwargs)
+          # test(x=1, x=2)
+        options:
+          - "The last value will overwrite the previous one"
+          - "Both values will be stored"
+          - "Python raises a SyntaxError"
+          - "Python raises a RuntimeError"
+        answer: "Python raises a SyntaxError"
+        explanation: "In Python, duplicate keyword arguments are not allowed, and defining them results in a SyntaxError."
+        resources:
+          - type: doc
+            url: "https://yasirbhutta.github.io/python/docs/functions-adv-concepts/agrs-kwargs.html"
 
   - topic: local-global
     questions:
