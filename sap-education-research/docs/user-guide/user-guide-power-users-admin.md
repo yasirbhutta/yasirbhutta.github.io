@@ -30,7 +30,7 @@ breadcrumb:
 
 ## SAP HCM
 
-- [SAP HCM Ad Hoc Query Guide](posts/sap-hcm-ad-hoc-query-guide-0006.md)
+- [SAP HCM Ad Hoc Query Guide](posts/sap-hcm-ad-hoc-query-0006.md)
 
 ## 📘 **Related Topics**
 
