@@ -1,8 +1,8 @@
 ---
 layout: video
-title: How to Use *args in Python Functions – Easy Code Example and Video for Beginners  
-description: Learn how to use *args in Python functions with this beginner-friendly video tutorial. Discover how to handle variable numbers of arguments, write flexible functions, and see clear code examples. Perfect for students and new Python programmers.  
-keywords: Python *args, Python function arguments, Python video tutorial, Python code example, beginner Python, Python programming, variable arguments Python, learn Python functions, Python for students,
+title: "Understanding *args in Python Functions – Add Any Number of Arguments (Video Tutorial)"
+description: "Learn how to use *args in Python functions with this easy video tutorial. Discover how to add any number of arguments, write flexible functions, and see practical code examples. Perfect for beginners and students learning Python programming."
+keywords: Python *args, Python function arguments, Python video tutorial, add multiple arguments Python, beginner Python, Python programming, flexible functions Python, Python code examples,
 toc: toc/python.html
 course: python
 topic: args-kwargs
@@ -22,11 +22,12 @@ breadcrumb:
 ---
 
 {% assign video_type = "video" %}
-{% assign video_id = "7ejTzBybkw4" %}
+{% assign video_id = "0noa3Sgxmg8" %}
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
 ## 📘 **Related Topics**
 
 - [*args and **kwargs in Python – Beginner’s Guide with Examples and Coding Tasks](../docs/functions-adv-concepts/agrs-kwargs.md)
+
 
 

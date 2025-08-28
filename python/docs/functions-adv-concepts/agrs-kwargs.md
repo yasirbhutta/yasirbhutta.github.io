@@ -34,8 +34,8 @@ breadcrumb:
    
 These allow a function to take any number of positional arguments. Inside the function, `*args` collects all the positional arguments as a tuple.
 
-- [Video: How to Use *args in Python Functions](https://www.youtube.com/watch?v=7ejTzBybkw4&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=5)
-- [Video: Understanding *args in Functions - How to Add Any Number of Arguments with *args](https://www.youtube.com/watch?v=0noa3Sgxmg8&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=6)
+- [Video: How to Use *args in Python Functions](../../videos/arg-python-video.md)
+- [Video: Understanding *args in Functions - How to Add Any Number of Arguments with *args](../../videos/arg-python-example-video.md)
 
 **Example:**
 ```python
