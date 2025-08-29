@@ -6,10 +6,30 @@ keywords: Python lambda functions, lambda function tutorial, Python programming,
 toc: toc/python.html
 course: python
 topic: "lambda"
-mini_project: false
+toc: toc/python.html
+prev: /python/docs/functions-adv-concepts/agrs-kwargs.html
+next: /python/docs/built-in-functions/map.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Python
+    url: /python/
+  - title: Lambda
+    url: /python/docs/lambda/
 ---
 
-## Python Anonymous (Lambda) Functions
+## Table of Contents
+
+1. Python Anonymous (Lambda) Functions
+2. Examples 
+3. Tasks
+
+---
+
+## 1. Python Anonymous (Lambda) Functions
 
 - A lambda function in Python is a small, anonymous function that can be defined without name.
 - Lamdba functions are used to write functions consisting of a single statement.
@@ -24,7 +44,9 @@ The syntax of a lambda is
 lambda arguments:express
 ```
 
-**Example #1: Add 10 Using Lambda in Python**
+## 2. Examples 
+
+### Example #1: Add 10 Using Lambda in Python*
 
 Following code is used to write the function to add 10 in given number.
 
@@ -42,7 +64,7 @@ print(add_ten(5) # 15
 
 ```
 
-**Example #2:** Multiply two numbers using lambda
+### Example #2: Multiply two numbers using lambda
 
 use of lambda function to multiple two numbers
 
@@ -51,14 +73,14 @@ mul = lambda a, b : a * b
 print(mul(2,4)) # 8
 ```
 
-**Example #3: Check Even Number**
+### Example #3: Check Even Number
 
 ```python
 is_even = lambda x: x % 2 == 0
 print(is_even(6))  # Output: True
 ```
 
-**Example #4:** Immediately invoked function expression
+### Example #4: Immediately invoked function expression
 
 ```python
 (lambda x, y : x + y)(6,8) # 14
@@ -66,7 +88,7 @@ print(is_even(6))  # Output: True
 
 The lambda function above is defined and then immediately called with two arguments (6,8). it retuns the value **14**, which is the sum of the arguments.
 
-**Example #5:**
+### Example #5:
 
 ```python
 def multiply(x, y):
@@ -82,7 +104,7 @@ result = mult(6, 2)
 print(result)  # Output: 12
 ```
 
-**Example #6:**
+### Example #6:
 
 ```python
 lambda x, y : x + y
@@ -101,7 +123,7 @@ _(6,8) # 14
 
 ---
 
-## Tasks
+## 3. Tasks
 
 ### Task 1: Add Two Numbers
 Create a lambda function that adds two numbers.  
