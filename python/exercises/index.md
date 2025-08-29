@@ -42,7 +42,9 @@ breadcrumb:
 ## 📅 Functions & Modules
 
 - **Defining Functions, Parameters, Return Values, Scope, *args, **kwargs**: [MCQs](../docs/functions/practice-and-progress/mcqs-functions.md) 📝 , [Find and Fix Mistakes](../docs/functions/practice-and-progress/find-fix-mistakes-functions.md) 🔍, [Coding Exercises](../docs/functions/practice-and-progress/exercises-functions.md) 🏋️‍♂️
-- **lambda:**
+- **Scope of variables:** [MCQs](../docs/local-global/practice-and-progress/mcqs-local-global.md) 📝
+- ***args, **kwargs:** [MCQs](../docs/functions-adv-concepts/practice-and-progress/mcqs-args-kwargs.md) 📝
+- **lambda:**[MCQs](../docs/lambda/practice-and-progress/mcqs-lambda.md) 📝
 - **Built-in Functions: map, filter, zip**
 
 **🔧 Mini Project**:
