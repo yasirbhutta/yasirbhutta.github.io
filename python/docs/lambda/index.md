@@ -23,9 +23,9 @@ breadcrumb:
 
 ## Table of Contents
 
-1. Python Anonymous (Lambda) Functions
-2. Examples 
-3. Tasks
+1. [Python Anonymous (Lambda) Functions](#1-python-anonymous-lambda-functions)
+2. [Examples](#2-examples)
+3. [Tasks](#3-tasks)
 
 ---
 
