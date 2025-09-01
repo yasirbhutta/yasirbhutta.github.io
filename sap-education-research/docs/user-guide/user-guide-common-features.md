@@ -23,6 +23,7 @@ breadcrumb:
 - [How to Log in to SAP GUI: Step-by-Step SAP Login Guide for Beginners](posts/how-to-login-on-sap.md)
 - [How to Change Theme Settings in SAP](posts/sap-change-theme-settings.md)
 - [SAP Menu Guide – How to Switch Between User Menu and SAP Menu in SAP GUI](posts/sap-menu.md)
+- [Display Icon in SAP GUI](posts/display-icon-0008.md)
 
 ---
 
