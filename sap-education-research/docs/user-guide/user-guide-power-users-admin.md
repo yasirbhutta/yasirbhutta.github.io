@@ -21,12 +21,13 @@ breadcrumb:
 ## Popular Articles
 
 - [How to Change User Password in SAP GUI](posts/how-to-change-user-password-sap.md)
-- [How to Add Room in SAP Using Transaction OORA](posts/oora-add-room-guide-0005.md)
+
 
 ---
 
 ## SAP SLcM
 
+- [How to Add Room in SAP Using Transaction OORA](posts/oora-add-room-guide-0005.md)
 
 ## SAP HCM
 

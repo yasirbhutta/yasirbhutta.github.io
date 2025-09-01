@@ -18,6 +18,9 @@ breadcrumb:
     url: /sap-education-research/user-guide/
 ---
 
+## Popular Articles
+
+- [How to Find T-Code in SAP Easy Access](posts/check-t-code-0007.md)
 
 ---
 
@@ -25,5 +28,4 @@ breadcrumb:
 
 - [SAP User Guide – Common Features and Essential Functions for All](user-guide-common-features.md)
 - [User Guide for Teacher's](user-guide-teachers.md)
-- [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
 - [User Guide for Key Users](user-guide-power-users-admin.md)
