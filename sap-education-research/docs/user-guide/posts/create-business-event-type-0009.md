@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to Create a Business Event Type in SAP SLCM | Step-by-Step User Guide
+title: "How to Create a Business Event Type in SAP SLCM | Step-by-Step User Guide"
 description: Learn how to create a Business Event Type in SAP Student Lifecycle Management (SLCM) using transaction code PV10. Step-by-step user guide with navigation, fields explanation, and tips for scheduling academic and training events.
 keywords: SAP SLCM business event type, create business event type SAP, SAP PV10 guide, SAP training and event management, SAP course scheduling, SAP TEM event type, SAP academic structure, SAP student lifecycle management
 author: Muhammad Yasir Bhutta
