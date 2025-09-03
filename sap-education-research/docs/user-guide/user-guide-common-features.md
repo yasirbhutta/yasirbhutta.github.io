@@ -24,6 +24,7 @@ breadcrumb:
 - [How to Change Theme Settings in SAP](posts/sap-change-theme-settings.md)
 - [SAP Menu Guide – How to Switch Between User Menu and SAP Menu in SAP GUI](posts/sap-menu.md)
 - [Display Icon in SAP GUI](posts/display-icon-0008.md)
+- [How to Check Transaction Code in SAP GUI Using System > Status](posts/check-transaction-code-0011.md)
 
 ---
 
