@@ -29,6 +29,7 @@ breadcrumb:
 
 - [How to Add Room in SAP Using Transaction OORA](posts/oora-add-room-guide-0005.md)
 - [How to Create a Business Event Type in SAP SLCM](posts/create-business-event-type-0009.md)
+- [How to Display Event Offerings in SAP SLCM](posts/display-event-offerings-guide-0010.md)
 
 ## SAP HCM
 

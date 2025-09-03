@@ -67,6 +67,8 @@ PIQACADOFFER00_D
 * In the SAP Easy Access menu, follow the navigation path.
 * Or enter **PIQACADOFFER00_D** in the command field and press **Enter**.
 
+![display event offering](https://res.cloudinary.com/da0pjikvw/image/upload/c_pad,w_512/v1756898923/display_event_offering_c3vlym.png)
+
 #### Step 3: Enter Selection Criteria
 
 Fill in the required fields:
