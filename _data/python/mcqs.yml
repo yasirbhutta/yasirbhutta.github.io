@@ -1,8 +1,291 @@
 course: python
 topics:
 
+
   - topic: built-in-functions
     questions:
+
+      - id: mfz-mcq-001
+        difficulty: easy
+        question: What does the `map()` function return in Python 3?
+        options:
+          - "list"
+          - "tuple"
+          - "iterator"
+          - "dict"
+        answer: "iterator"
+        explanation: "`map()` in Python 3 returns a map object which is an iterator."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-002
+        difficulty: medium
+        question: Which of the following correctly applies `map()` to square a list of numbers `[1, 2, 3]`?
+        options:
+          - "map(lambda x: x**2, [1,2,3])"
+          - "map(x**2, [1,2,3])"
+          - "map([1,2,3], lambda x: x**2)"
+          - "map(lambda: x**2, [1,2,3])"
+        answer: "map(lambda x: x**2, [1,2,3])"
+        explanation: The correct syntax is `map(function, iterable)`; here the function is `lambda x: x**2`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-003
+        difficulty: easy
+        question: What does the `filter()` function return in Python 3?
+        options:
+          - "list"
+          - "iterator"
+          - "set"
+          - "tuple"
+        answer: "iterator"
+        explanation: "`filter()` returns a filter object which is an iterator."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+      - id: mfz-mcq-004
+        difficulty: medium
+        question: Which of the following keeps only even numbers from a list using `filter()`?
+        options:
+          - "filter(lambda x: x%2==0, [1,2,3,4])"
+          - "filter(x%2==0, [1,2,3,4])"
+          - "filter([1,2,3,4], lambda x: x%2==0)"
+          - "filter(lambda: x%2==0, [1,2,3,4])"
+        answer: "filter(lambda x: x%2==0, [1,2,3,4])"
+        explanation: The lambda returns `True` for even numbers; `filter()` keeps only those values."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+      - id: mfz-mcq-005
+        difficulty: hard
+        question: What happens if `map()` is used with multiple iterables of different lengths?
+        options:
+          - "Raises an error"
+          - "Stops at the longest iterable"
+          - "Stops at the shortest iterable"
+          - "Fills missing values with None"
+        answer: "Stops at the shortest iterable"
+        explanation: `map()` stops when the shortest iterable is exhausted."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-006
+        difficulty: easy
+        question: What does `list(zip([1,2], [3,4]))` return?
+        options:
+          - "[(1,3), (2,4)]"
+          - "[(1,2), (3,4)]"
+          - "[1,2,3,4]"
+          - "{1:3, 2:4}"
+        answer: "[(1,3), (2,4)]"
+        explanation: `zip()` pairs items from both lists by index into tuples."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: mfz-mcq-007
+        difficulty: medium
+        question: Which of the following correctly transposes a matrix using `zip()`?
+        options:
+          - "list(zip(matrix))"
+          - "list(zip(*matrix))"
+          - "zip(matrix)"
+          - "zip(matrix, matrix)"
+        answer: "list(zip(*matrix))"
+        explanation: Unpacking with `*` allows `zip()` to transpose rows into columns."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: mfz-mcq-008
+        difficulty: medium
+        question: Which function can be used with `filter()` to remove all falsy values from a list?
+        options:
+          - "bool"
+          - "int"
+          - "str"
+          - "list"
+        answer: "bool"
+        explanation: "`filter(bool, iterable)` keeps only truthy values."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+      - id: mfz-mcq-009
+        difficulty: easy
+        question: What is the type of object returned by `map()` in Python 3?
+        options:
+          - "list"
+          - "map"
+          - "iterator"
+          - "tuple"
+        answer: "map"
+        explanation: The object is of type `map`, which is an iterator."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-010
+        difficulty: hard
+        question: What is the output of `list(filter(None, [0, 1, 2, '', 'hello']))`?
+        options:
+          - "[0, 1, 2, '', 'hello']"
+          - "[1, 2, 'hello']"
+          - "['', 'hello']"
+          - "[0, '', 'hello']"
+        answer: "[1, 2, 'hello']"
+        explanation: `filter(None, iterable)` removes all falsy values like `0` and `''`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+      - id: mfz-mcq-011
+        difficulty: medium
+        question: Which of these expressions returns `[(1,4), (2,5)]`?
+        options:
+          - "list(zip([1,2,3], [4,5]))"
+          - "list(zip([1,2], [4,5,6]))"
+          - "list(zip([1,2,3], [4,5,6]))"
+          - "list(zip([1,2], [4,5]))"
+        answer: "list(zip([1,2,3], [4,5]))"
+        explanation: `zip()` stops at the shortest iterable, here `[4,5]`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: mfz-mcq-012
+        difficulty: hard
+        question: What is the result of `list(map(str.upper, ['a','b']))`?
+        options:
+          - "['a','b']"
+          - "['A','B']"
+          - "['upper(a)', 'upper(b)']"
+          - "['a.upper()', 'b.upper()']"
+        answer: "['A','B']"
+        explanation: `map(str.upper, iterable)` applies `str.upper` method to each string."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-013
+        difficulty: medium
+        question: Which of these functions can be combined with `map()` to apply multiple functions sequentially?
+        options:
+          - "lambda"
+          - "zip"
+          - "filter"
+          - "reduce"
+        answer: "lambda"
+        explanation: A lambda function can wrap multiple function calls and be passed to `map()`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-014
+        difficulty: easy
+        question: What does `list(zip('abc','123'))` return?
+        options:
+          - "[('abc','123')]"
+          - "[('a','1'), ('b','2'), ('c','3')]"
+          - "[('a','b','c'), ('1','2','3')]"
+          - "[('abc1'), ('abc2'), ('abc3')]"
+        answer: "[('a','1'), ('b','2'), ('c','3')]"
+        explanation: Each character of the strings is paired by index."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: mfz-mcq-015
+        difficulty: medium
+        question: Which of the following correctly filters words with length greater than 3?
+        options:
+          - "filter(lambda w: len(w)>3, ['a','word','python'])"
+          - "filter(len(w)>3, ['a','word','python'])"
+          - "filter(['a','word','python'], lambda w: len(w)>3)"
+          - "filter(lambda: len(w)>3, ['a','word','python'])"
+        answer: "filter(lambda w: len(w)>3, ['a','word','python'])"
+        explanation: The lambda correctly checks length and `filter()` applies it to each element."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+      - id: mfz-mcq-016
+        difficulty: hard
+        question: What is the output of `list(map(lambda x,y: x+y, [1,2,3], [4,5,6,7]))`?
+        options:
+          - "[5,7,9,7]"
+          - "[5,7,9]"
+          - "[1,2,3,4,5,6,7]"
+          - "Error"
+        answer: "[5,7,9]"
+        explanation: `map()` stops at the shortest iterable, producing three results."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-017
+        difficulty: medium
+        question: Which statement best describes the relationship between `map()` and `filter()`?
+        options:
+          - "Both transform data"
+          - "map() transforms, filter() selects"
+          - "filter() transforms, map() selects"
+          - "Both select data"
+        answer: "map() transforms, filter() selects"
+        explanation: `map()` applies a function to every element, while `filter()` only keeps those that satisfy a condition."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html"
+
+      - id: mfz-mcq-018
+        difficulty: easy
+        question: What does `list(map(int, ['1','2','3']))` return?
+        options:
+          - "['1','2','3']"
+          - "[1,2,3]"
+          - "[(1),(2),(3)]"
+          - "Error"
+        answer: "[1,2,3]"
+        explanation: The `int` constructor is applied to each string in the list."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: mfz-mcq-019
+        difficulty: hard
+        question: Which of the following statements about `zip()` is true?
+        options:
+          - "It always returns a list"
+          - "It returns an iterator of tuples"
+          - "It fills shorter iterables with None"
+          - "It can only combine two iterables"
+        answer: "It returns an iterator of tuples"
+        explanation: `zip()` produces an iterator of tuples and works with any number of iterables."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: mfz-mcq-020
+        difficulty: medium
+        question: What is the output of `list(filter(lambda x: x>5, range(10)))`?
+        options:
+          - "[5,6,7,8,9]"
+          - "[6,7,8,9]"
+          - "[10]"
+          - "Error"
+        answer: "[6,7,8,9]"
+        explanation: The filter keeps only numbers greater than 5 from the range 0–9."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#filter"
+
+
       - id: bif-mcq-001
         difficulty: easy
         question: What does the built-in function `len()` return when used on a string?
