@@ -45,7 +45,7 @@ breadcrumb:
 - **Scope of variables:** [MCQs](../docs/local-global/practice-and-progress/mcqs-local-global.md) 📝
 - ***args, **kwargs:** [MCQs](../docs/functions-adv-concepts/practice-and-progress/mcqs-args-kwargs.md) 📝
 - **lambda:**[MCQs](../docs/lambda/practice-and-progress/mcqs-lambda.md) 📝
-- **Built-in Functions: map, filter, zip**
+- **Built-in Functions: map, filter, zip** [MCQs](../docs/built-in-functions/practice-and-progress/mcqs-built-in-functions.md) 📝
 
 **🔧 Mini Project**:
 

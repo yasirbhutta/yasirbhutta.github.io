@@ -27,7 +27,7 @@ topics:
           - "map([1,2,3], lambda x: x**2)"
           - "map(lambda: x**2, [1,2,3])"
         answer: "map(lambda x: x**2, [1,2,3])"
-        explanation: The correct syntax is `map(function, iterable)`; here the function is `lambda x: x**2`."
+        explanation: "The correct syntax is `map(function, iterable)`; here the function is `lambda x: x**2`."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#map"
@@ -69,7 +69,7 @@ topics:
           - "Stops at the shortest iterable"
           - "Fills missing values with None"
         answer: "Stops at the shortest iterable"
-        explanation: `map()` stops when the shortest iterable is exhausted."
+        explanation: "`map()` stops when the shortest iterable is exhausted."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#map"
@@ -83,7 +83,7 @@ topics:
           - "[1,2,3,4]"
           - "{1:3, 2:4}"
         answer: "[(1,3), (2,4)]"
-        explanation: `zip()` pairs items from both lists by index into tuples."
+        explanation: "`zip()` pairs items from both lists by index into tuples."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#zip"
@@ -139,7 +139,7 @@ topics:
           - "['', 'hello']"
           - "[0, '', 'hello']"
         answer: "[1, 2, 'hello']"
-        explanation: `filter(None, iterable)` removes all falsy values like `0` and `''`."
+        explanation: "`filter(None, iterable)` removes all falsy values like `0` and `''`."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#filter"
@@ -153,7 +153,7 @@ topics:
           - "list(zip([1,2,3], [4,5,6]))"
           - "list(zip([1,2], [4,5]))"
         answer: "list(zip([1,2,3], [4,5]))"
-        explanation: `zip()` stops at the shortest iterable, here `[4,5]`."
+        explanation: "`zip()` stops at the shortest iterable, here `[4,5]`."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#zip"
@@ -167,7 +167,7 @@ topics:
           - "['upper(a)', 'upper(b)']"
           - "['a.upper()', 'b.upper()']"
         answer: "['A','B']"
-        explanation: `map(str.upper, iterable)` applies `str.upper` method to each string."
+        explanation: "`map(str.upper, iterable)` applies `str.upper` method to each string."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#map"
@@ -216,14 +216,14 @@ topics:
 
       - id: mfz-mcq-016
         difficulty: hard
-        question: What is the output of `list(map(lambda x,y: x+y, [1,2,3], [4,5,6,7]))`?
+        question: "What is the output of `list(map(lambda x,y: x+y, [1,2,3], [4,5,6,7]))`?
         options:
           - "[5,7,9,7]"
           - "[5,7,9]"
           - "[1,2,3,4,5,6,7]"
           - "Error"
         answer: "[5,7,9]"
-        explanation: `map()` stops at the shortest iterable, producing three results."
+        explanation: "`map()` stops at the shortest iterable, producing three results."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#map"
@@ -237,7 +237,7 @@ topics:
           - "filter() transforms, map() selects"
           - "Both select data"
         answer: "map() transforms, filter() selects"
-        explanation: `map()` applies a function to every element, while `filter()` only keeps those that satisfy a condition."
+        explanation: "`map()` applies a function to every element, while `filter()` only keeps those that satisfy a condition."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html"
@@ -265,14 +265,14 @@ topics:
           - "It fills shorter iterables with None"
           - "It can only combine two iterables"
         answer: "It returns an iterator of tuples"
-        explanation: `zip()` produces an iterator of tuples and works with any number of iterables."
+        explanation: "`zip()` produces an iterator of tuples and works with any number of iterables."
         resources:
           - type: doc
             url: "https://docs.python.org/3/library/functions.html#zip"
 
       - id: mfz-mcq-020
         difficulty: medium
-        question: What is the output of `list(filter(lambda x: x>5, range(10)))`?
+        question: "What is the output of `list(filter(lambda x: x>5, range(10)))`?"
         options:
           - "[5,6,7,8,9]"
           - "[6,7,8,9]"
