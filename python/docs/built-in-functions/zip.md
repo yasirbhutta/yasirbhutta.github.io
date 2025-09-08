@@ -10,8 +10,8 @@ show_toc: false
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-prev: /ms-excel/docs/functions/what-is-functions.html
-next: /ms-excel/docs/functions/sumif.html
+prev: null
+next: null
 breadcrumb:
   - title: Home
     url: /
@@ -121,3 +121,11 @@ The `zip()` function is a powerful tool for working with multiple sequences in P
 - [#1 Python zip() Function](https://www.youtube.com/watch?v=7ix3cDWAsUc&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=57)
 
 - [#2 Python Zip Function: Handling Lists with Different Numbers of Elements](https://www.youtube.com/watch?v=TOxTxP9x4ME&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=56)
+
+## 🧠 Practice & Progress
+
+- [📝 Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-built-in-functions.md)
+
+## 📘 **Related Topics**
+
+- [Python Built-in Functions](index.md)

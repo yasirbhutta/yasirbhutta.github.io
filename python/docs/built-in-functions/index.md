@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Built-in Functions 
-description: The Python interpreter has a number of functions and types built into it that are always available.  
-keywords: Python variables, Python variable examples, Python variable exercises, Python variable naming rules, Python variable assignment, Python beginner tutorials, Python programming basics, learn Python variables, Python coding exercises
+title: Python Built-in Functions – Complete Guide with Examples, MCQs, and Practice  
+description: Explore Python built-in functions with this comprehensive guide. Learn how to use functions like zip(), filter(), and map() with clear examples, MCQs, quizzes, and coding exercises. Perfect for beginners and students to master Python programming basics.  
+keywords: Python built-in functions, Python zip function, Python filter function, Python map function, Python MCQs, Python quizzes, Python coding exercises, Python programming for beginners, learn Python functions,
 toc: toc/python.html
 ---
 
 ## Table of Content
+
 - [Python zip() Function](zip.md)
 - [Python filter() Function](filter.md)
 - [Python map() Function](map.md)

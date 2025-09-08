@@ -19,7 +19,8 @@ breadcrumb:
     url: /python/
 ---
 
-# The `map()` Function: A Beginner's Guide
+## Table of Contents
+
 
 The `map()` function is a built-in Python function that applies a given function to each item of an iterable (like a list, tuple, etc.) and returns an iterator of the results.
 
@@ -100,3 +101,10 @@ print("Sum:", sum(numbers))  # Output: Sum: 150
 3. The function you pass can be a lambda (for simple operations) or a named function
 4. `map()` is often used with other functional tools like `filter()` and `reduce()`
 
+## 🧠 Practice & Progress
+
+- [📝 Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-built-in-functions.md)
+
+## 📘 **Related Topics**
+
+- [Python Built-in Functions](index.md)

@@ -1,5 +1,288 @@
 course: python
 topics:
+
+  - topic: built-in-functions
+    questions:
+      - id: bif-mcq-001
+        difficulty: easy
+        question: What does the built-in function `len()` return when used on a string?
+        options:
+          - "The number of characters in the string"
+          - "The number of unique characters"
+          - "The ASCII value of the first character"
+          - "The last character of the string"
+        answer: "The number of characters in the string"
+        explanation: "`len()` returns the total count of characters in the string."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#len"
+
+      - id: bif-mcq-002
+        difficulty: medium
+        question: Which built-in function can be used to get the largest item from an iterable?
+        options:
+          - "min()"
+          - "max()"
+          - "sum()"
+          - "sorted()"
+        answer: "max()"
+        explanation: "`max()` returns the largest item from an iterable based on natural ordering or a provided key."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#max"
+
+      - id: bif-mcq-003
+        difficulty: easy
+        question: What is the return type of the `type()` function in Python?
+        options:
+          - "str"
+          - "int"
+          - "type"
+          - "object"
+        answer: "type"
+        explanation: "`type()` returns the type of the given object, which itself is an instance of `type`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#type"
+
+      - id: bif-mcq-004
+        difficulty: medium
+        question: Which function is used to convert a string into a list of its characters?
+        options:
+          - "list()"
+          - "tuple()"
+          - "set()"
+          - "str()"
+        answer: "list()"
+        explanation: "`list('abc')` results in `['a', 'b', 'c']`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#func-list"
+
+      - id: bif-mcq-005
+        difficulty: hard
+        question: What does the `zip()` function return in Python 3?
+        options:
+          - "list"
+          - "tuple"
+          - "iterator"
+          - "dict"
+        answer: "iterator"
+        explanation: In Python 3, `zip()` returns an iterator of tuples, unlike Python 2 which returned a list.
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: bif-mcq-006
+        difficulty: easy
+        question: Which built-in function converts an object to its string representation?
+        options:
+          - "str()"
+          - "repr()"
+          - "ascii()"
+          - "format()"
+        answer: "str()"
+        explanation: "`str()` returns a readable string version of an object, often more user-friendly than `repr()`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#func-str"
+
+      - id: bif-mcq-007
+        difficulty: medium
+        question: Which function returns the absolute value of a number?
+        options:
+          - "round()"
+          - "abs()"
+          - "pow()"
+          - "math.fabs()"
+        answer: "abs()"
+        explanation: "`abs()` returns the absolute value of integers, floats, or complex numbers."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#abs"
+
+      - id: bif-mcq-008
+        difficulty: easy
+        question: What does the `sorted()` function return?
+        options:
+          - "tuple"
+          - "list"
+          - "iterator"
+          - "dict"
+        answer: "list"
+        explanation: "`sorted()` always returns a new list containing the sorted elements."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#sorted"
+
+      - id: bif-mcq-009
+        difficulty: hard
+        question: Which function can be used to dynamically execute a string as Python code?
+        options:
+          - "eval()"
+          - "exec()"
+          - "compile()"
+          - "globals()"
+        answer: "exec()"
+        explanation: "`exec()` executes dynamic Python code, while `eval()` only evaluates expressions."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#exec"
+
+      - id: bif-mcq-010
+        difficulty: medium
+        question: Which built-in function combines elements from multiple iterables into tuples?
+        options:
+          - "map()"
+          - "zip()"
+          - "filter()"
+          - "reduce()"
+        answer: "zip()"
+        explanation: "`zip()` pairs items from multiple iterables into tuples until the shortest iterable is exhausted."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#zip"
+
+      - id: bif-mcq-011
+        difficulty: easy
+        question: What does the `any()` function return when all elements of an iterable are `False`?
+        options:
+          - "True"
+          - "False"
+          - "None"
+          - "Error"
+        answer: "False"
+        explanation: "`any()` returns `True` if at least one element is truthy; otherwise, it returns `False`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#any"
+
+      - id: bif-mcq-012
+        difficulty: medium
+        question: Which built-in function applies a function to all items in an iterable and returns an iterator?
+        options:
+          - "filter()"
+          - "map()"
+          - "reduce()"
+          - "zip()"
+        answer: "map()"
+        explanation: "`map()` applies the given function to every item in the iterable and returns an iterator."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#map"
+
+      - id: bif-mcq-013
+        difficulty: hard
+        question: Which function can be used to create an iterable of numbers, but is not itself a built-in function?
+        options:
+          - "range()"
+          - "xrange()"
+          - "enumerate()"
+          - "count()"
+        answer: "xrange()"
+        explanation: "`xrange()` was available in Python 2 but not in Python 3; `range()` in Python 3 behaves like `xrange()`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#func-range"
+
+      - id: bif-mcq-014
+        difficulty: easy
+        question: Which built-in function returns the Unicode code point of a character?
+        options:
+          - "ord()"
+          - "chr()"
+          - "ascii()"
+          - "bytes()"
+        answer: "ord()"
+        explanation: "`ord('A')` returns `65`, the Unicode code point for 'A'."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#ord"
+
+      - id: bif-mcq-015
+        difficulty: medium
+        question: What does the `enumerate()` function return?
+        options:
+          - "list of tuples"
+          - "iterator of tuples"
+          - "set of tuples"
+          - "dict of tuples"
+        answer: "iterator of tuples"
+        explanation: "`enumerate()` returns an iterator of `(index, element)` tuples."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#enumerate"
+
+      - id: bif-mcq-016
+        difficulty: easy
+        question: Which function can be used to find the smallest item in an iterable?
+        options:
+          - "max()"
+          - "min()"
+          - "sorted()"
+          - "filter()"
+        answer: "min()"
+        explanation: "`min()` returns the smallest element from the iterable."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#min"
+
+      - id: bif-mcq-017
+        difficulty: hard
+        question: Which built-in function returns the memory address of an object?
+        options:
+          - "id()"
+          - "hash()"
+          - "repr()"
+          - "globals()"
+        answer: "id()"
+        explanation: "`id()` returns the unique identity of an object, which is its memory address in CPython."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#id"
+
+      - id: bif-mcq-018
+        difficulty: medium
+        question: Which function is used to check if an object is an instance of a class?
+        options:
+          - "issubclass()"
+          - "type()"
+          - "isinstance()"
+          - "callable()"
+        answer: "isinstance()"
+        explanation: "`isinstance(obj, Class)` checks whether `obj` is an instance of `Class` or its subclasses."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#isinstance"
+
+      - id: bif-mcq-019
+        difficulty: easy
+        question: Which built-in function converts an integer to binary string?
+        options:
+          - "oct()"
+          - "bin()"
+          - "hex()"
+          - "format()"
+        answer: "bin()"
+        explanation: "`bin(5)` returns `'0b101'`."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#bin"
+
+      - id: bif-mcq-020
+        difficulty: medium
+        question: Which built-in function returns the sum of all elements in an iterable?
+        options:
+          - "reduce()"
+          - "sum()"
+          - "map()"
+          - "all()"
+        answer: "sum()"
+        explanation: "`sum()` returns the arithmetic sum of all numeric elements in an iterable."
+        resources:
+          - type: doc
+            url: "https://docs.python.org/3/library/functions.html#sum"
+
   - topic: args-kwargs
     questions:
       - id: ak-mcq-001

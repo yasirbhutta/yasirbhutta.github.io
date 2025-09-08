@@ -133,3 +133,11 @@ even_numbers = [x for x in numbers if x % 2 == 0]
 ```
 
 Choose based on readability and performance needs - `filter()` can be more memory efficient for very large datasets.
+
+## 🧠 Practice & Progress
+
+- [📝 Multiple-Choice Questions (MCQs)](practice-and-progress/mcqs-built-in-functions.md)
+
+## 📘 **Related Topics**
+
+- [Python Built-in Functions](index.md)
