@@ -216,7 +216,7 @@ topics:
 
       - id: mfz-mcq-016
         difficulty: hard
-        question: "What is the output of `list(map(lambda x,y: x+y, [1,2,3], [4,5,6,7]))`?
+        question: "What is the output of `list(map(lambda x,y: x+y, [1,2,3], [4,5,6,7]))`?"
         options:
           - "[5,7,9,7]"
           - "[5,7,9]"
