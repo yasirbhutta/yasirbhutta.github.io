@@ -28,7 +28,7 @@ breadcrumb:
 ## SAP SLcM
 
 - [How to Add Room in SAP Using Transaction OORA](posts/oora-add-room-guide-0005.md)
-- [Standard Naming Convention for Business Event Type](posts/wild-cards-sap-0011.md)
+- [Standard Naming Convention for Business Event Type](posts/standard-naming-conv-business-event-0012.md)
 - [How to Create a Business Event Type in SAP SLCM](posts/create-business-event-type-0009.md)
 - [How to Display Event Offerings in SAP SLCM](posts/display-event-offerings-guide-0010.md)
 

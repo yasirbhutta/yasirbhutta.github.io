@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Difference Between Business Event Type, Event Packages and Business Event in SAP SLCM – Definitions, Examples, and Key Distinctions"
+title: "SAP SLCM: Difference Between Business Event Type, Event Package, and Business Event with Definitions, Examples, and Key Distinctions"
 description: Understand the difference between Business Event Type and Business Event in SAP Student Lifecycle Management (SLCM). Learn how event types serve as templates, how business events are scheduled instances, and why this distinction matters for academic scheduling and course management. Includes clear definitions, practical examples, and best practices for university SAP users.
 keywords: SAP SLCM business event type, SAP business event, difference business event type vs event, SAP event template, SAP event instance, SAP academic scheduling, SAP course management, SAP education, SAP user
 author: Muhammad Yasir Bhutta
