@@ -123,3 +123,6 @@ It can now be used to schedule actual **Business Events** (instances) using **PV
 * Ensure consistency by linking Event Types with the appropriate **Modules/Courses** in Academic Structure.
 
 ---
+
+* [Difference Between Business Event Type and Business Event in SAP SLCM](../../sap-slcm/difference-bet-business-event-type.md)
+* [Standard Naming Convention for Business Event Type in SAP SLCM](standard-naming-conv-business-event-0012.md)

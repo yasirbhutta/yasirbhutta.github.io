@@ -28,6 +28,7 @@ breadcrumb:
 ## SAP SLcM
 
 - [How to Add Room in SAP Using Transaction OORA](posts/oora-add-room-guide-0005.md)
+- [Standard Naming Convention for Business Event Type](posts/wild-cards-sap-0011.md)
 - [How to Create a Business Event Type in SAP SLCM](posts/create-business-event-type-0009.md)
 - [How to Display Event Offerings in SAP SLCM](posts/display-event-offerings-guide-0010.md)
 
@@ -40,4 +41,3 @@ breadcrumb:
 - [SAP User Guide – Common Features and Essential Functions for All](user-guide-common-features.md)
 - [User Guide for Student's](user-guide-students.md)
 - [User Guide for Teacher's](user-guide-teachers.md)
-- [User Guide for Department Focal Persons](user-guide-departmental-fp.md)

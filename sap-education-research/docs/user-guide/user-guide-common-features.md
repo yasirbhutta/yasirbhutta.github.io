@@ -28,9 +28,12 @@ breadcrumb:
 
 ---
 
+## Search & Filters
+
+- [How to Use Wildcards in SAP SLCM](posts/wild-cards-sap-0011.md)
+
 ## 📘 **Related Topics**
 
 - [User Guide for Student's](user-guide-students.md)
 - [User Guide for Teacher's](user-guide-teachers.md)
-- [User Guide for Department Focal Persons](user-guide-departmental-fp.md)
 - [User Guide for Key Users](user-guide-power-users-admin.md)
