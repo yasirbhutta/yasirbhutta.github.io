@@ -102,3 +102,5 @@ SAP EAM helps universities and research institutions:
 * [Maintenance Store in SAP EAM](maintance-store.md)
   * [EAM Maintenance Store for University IT Support Centre - Efficient IT Asset Management](it-support-maintance-store.md)
 * [SAP EAM Work Center Guide](work-center.md)
+* [PM Notification in SAP EAM](pm-notifications.md)
+* [Work Center vs Maintenance Store in SAP EAM](work-center-maintance-store.md)

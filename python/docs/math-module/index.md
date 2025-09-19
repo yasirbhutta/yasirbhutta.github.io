@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Python math Module Explained with Examples – Complete Guide for Beginners"
-description: Learn how to use Python’s math module with clear examples and explanations. Master mathematical functions like sqrt, sin, cos, log, and more. Ideal for beginners and Python learners.
+title: "Python math Module Tutorial – Functions, Examples, and Usage"
+description: Learn the Python math module with examples of sqrt, pow, ceil, floor, sin, cos, log, and more. Beginner-friendly guide with functions explained.
 keywords: python math module, math module in python, python math functions, python sqrt, python sin cos tan, python log function, math module examples, python math tutorial, python math operations, built-in python modules
 author: Muhammad Yasir Bhutta
 course: python
@@ -65,7 +65,7 @@ The `math` library is built-in, so you don’t need to install anything to use i
    factorial_val = math.factorial(5)  # Output: 120
    ```
 
-### 2. **Exponential and Logarithmic Functions**
+### 2. **Logarithms and Exponentials in Python (log, exp)**
    These functions are useful for growth calculations, interest calculations, and scientific computations.
 
    - **Exponent** (`math.exp(x)`): Returns e raised to the power of x.
