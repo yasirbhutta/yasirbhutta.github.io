@@ -27,13 +27,13 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 ### Microsoft Office
 
-### [Microsoft Excel](../ms-excel/index.md)
+### [Microsoft Excel](/ms-excel/index.md)
 
-- [Excel Basics](../ms-excel/docs/basics.md) \| [PDF](/downloads/ms-excel/basics.pdf)
-- [Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](/downloads/ms-excel/formatting.pdf)
-- [Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](/downloads/ms-excel/formulas.pdf)
-- [Functions in excel](../ms-excel/docs/functions.md) \| [PDF](/downloads/ms-excel/functions.pdf)
-- [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](/downloads/ms-excel/excel-practicals.pdf)
+- [Excel Basics](/ms-excel/docs/basics.md) \| [PDF](/downloads/ms-excel/basics.pdf)
+- [Formatting in excel](/ms-excel/docs/formatting.md) \| [PDF](/downloads/ms-excel/formatting.pdf)
+- [Formulas in excel](/ms-excel/docs/formulas.md) \| [PDF](/downloads/ms-excel/formulas.pdf)
+- [Functions in excel](/ms-excel/docs/functions.md) \| [PDF](/downloads/ms-excel/functions.pdf)
+- [Excel Practical Topics](/ms-excel/docs/excel-practicals.md) \| [PDF](/downloads/ms-excel/excel-practicals.pdf)
   
 ### [Microsoft Word](../ms-word/index.md)
 
