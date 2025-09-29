@@ -16,9 +16,9 @@ breadcrumb:
     url: /cs301-aict/
 ---
 
-**Course Title:** Applications of information and communication technologies
-**Course Code:** CS-301
-**Credit Hours:** 3(2-1)
+- **Course Title:** Applications of information and communication technologies
+- **Course Code:** CS-301
+- **Credit Hours:** 3(2-1)
 
 ## DESCRIPTION
 
