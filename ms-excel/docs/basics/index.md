@@ -7,6 +7,19 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: basics
 toc: toc/ms-excel-toc.html
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: basics
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+prev: /ms-excel/
+next: /ms-excel/docs/formatting.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
 ---
 
 # Microsoft Excel: Basics
@@ -98,18 +111,6 @@ Microsoft Excel: Interface
    - Users can access Excel Online through their **Microsoft OneDrive** or **Microsoft 365** accounts.
    - Excel Online provides basic spreadsheet functionality and allows collaboration with others in real time.
    - [Microsoft 365 for the web](https://www.microsoft365.com/)
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## Enter data manually in worksheet cells
 
