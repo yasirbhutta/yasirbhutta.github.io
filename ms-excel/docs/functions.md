@@ -14,6 +14,8 @@ breadcrumb:
     url: /ms-excel/
 ---
   
+[Download PDF](/downloads/ms-excel/functions.pdf)
+
 ## Table of Contents
 
 - [Cell References](functions/cell-references.md)

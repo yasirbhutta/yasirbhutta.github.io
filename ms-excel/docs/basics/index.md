@@ -14,6 +14,8 @@ toc: toc/ms-excel-toc.html
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)
 - [Slides](https://docs.google.com/presentation/d/1rB0PnP-Rbw28GiBKTSv_GgFTMSA71BnSIlUpGi9GfH4/)
 
+[Download PDF](/downloads/ms-excel/basics.pdf)
+
 ## Contents
 
 - [What is Excel?](#microsoft-excel)

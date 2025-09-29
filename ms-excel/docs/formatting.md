@@ -8,6 +8,9 @@ course: ms-excel
 topic: formatting
 toc: toc/ms-excel-toc.html
 ---
+
+[Download PDF](/downloads/ms-excel/formatting.pdf)
+
 # Microsoft Excel: Formatting
 
 - [Youtube Playlist to learn excel](https://youtube.com/playlist?list=PLKYRx0Ibk7Vh3MomITbYSF5I-NGTW5s7f&si=TBb3FDR21BnlJO9r)

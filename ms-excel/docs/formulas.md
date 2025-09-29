@@ -1,6 +1,22 @@
-# Formulas in Excel
+---
+layout: page
+title: "Formulas in Excel"
+description: Formulas in Excel.
+keywords: Excel functions, Excel formulas, Excel tutorial, Excel tips, Excel training, Excel how to, Microsoft Excel, Spreadsheet functions
+author: Muhammad Yasir Bhutta
+course: ms-excel
+topic: functions
+toc: toc/ms-excel-toc.html
+breadcrumb:
+  - title: Home
+    url: /
+  - title: Excel
+    url: /ms-excel/
+---
 
+[Download PDF](/downloads/ms-excel/formulas.pdf)
 
+## Table of Contents
 - [Formulas in Excel](#formulas-in-excel)
   - [Module 3: Formulas in Excel](#module-3-formulas-in-excel)
   - [Formula](#formula)
