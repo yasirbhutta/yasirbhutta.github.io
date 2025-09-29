@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/countif.pdf)
+
 ## COUNTIF function
 
 Use COUNTIF, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list.

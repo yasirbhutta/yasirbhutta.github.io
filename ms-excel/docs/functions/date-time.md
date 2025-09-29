@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/date-time.pdf)
+
 ## DATE functions
 
 ## NOW function

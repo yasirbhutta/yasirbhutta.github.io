@@ -17,6 +17,9 @@ breadcrumb:
   - title: Functions
     url: /ms-excel/docs/functions.html
 ---
+
+[Download PDF](/downloads/ms-excel/functions/count-counta.pdf)
+
 ## COUNT
 
 - The COUNT function counts the number of cells that contain numbers, and counts numbers within the list of arguments. 

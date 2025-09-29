@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/len-lenb.pdf)
+
 ## LEN function
 
 LEN returns the number of characters in a text string.

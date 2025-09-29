@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/if.pdf)
+
 ## IF function
 
 - The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.

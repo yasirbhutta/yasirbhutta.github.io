@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/product.pdf)
+
 ## PRODUCT function
 
 - The PRODUCT function multiplies all the numbers given as arguments and returns the product.

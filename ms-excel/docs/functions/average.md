@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/average.pdf)
+
 ## Average function
 
 - Returns the average (arithmetic mean) of the arguments.

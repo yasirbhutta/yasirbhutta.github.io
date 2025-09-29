@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/sumif.pdf)
+
 # SUMIF function
 
 use the SUMIF function to sum the values in a range that meet criteria that you specify.

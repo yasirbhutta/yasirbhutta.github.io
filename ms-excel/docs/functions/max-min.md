@@ -17,6 +17,9 @@ breadcrumb:
   - title: Functions
     url: /ms-excel/docs/functions.html
 ---
+
+[Download PDF](/downloads/ms-excel/functions/max-min.pdf)
+
 ## MAX
 
 Returns the largest value in a set of values.

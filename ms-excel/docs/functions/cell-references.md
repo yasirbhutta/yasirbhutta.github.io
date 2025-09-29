@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/cell-references.pdf)
+
 ## Cell References
 
 - A cell reference refers to a cell or a range of cells on a worksheet.

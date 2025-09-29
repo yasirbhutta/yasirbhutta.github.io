@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/what-is-functions.pdf)
+
 ## **What Are Functions?**  
 
 Functions are predefined formulas that perform calculations by using specific values, called arguments, in a particular order, or structure. These functions help you perform calculations, analyze data, and automate tasks quickly. ([Microsoft Support][1])

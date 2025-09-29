@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/formula-errors.pdf)
+
 ## Formula Errors
 
 - [Video Tutorial: Top 4 Most Common Excel Errors](https://youtu.be/Rh0I5B-0uHM?si=nv9OyoivwApx0ssf)

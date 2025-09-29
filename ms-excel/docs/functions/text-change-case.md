@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/text-change-case.pdf)
+
 ## Change the case of Text
 
 **LOWER function:** Converts all uppercase letters in a text string to lowercase.

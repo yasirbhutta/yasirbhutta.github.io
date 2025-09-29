@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/power.pdf)
+
 ## POWER
 
 Returns the result of a number raised to a power.

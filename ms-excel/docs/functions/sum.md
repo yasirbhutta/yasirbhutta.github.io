@@ -18,6 +18,8 @@ breadcrumb:
     url: /ms-excel/docs/functions.html
 ---
 
+[Download PDF](/downloads/ms-excel/functions/sum.pdf)
+
 ## Contents
 
 1. [Sum function](#sum-function)
