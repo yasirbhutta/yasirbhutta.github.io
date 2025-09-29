@@ -102,5 +102,4 @@ platforms commonly used in education and the workplace.
 1. "Discovering Computers" by Vermaat, Shaffer, and Freund.
 2. "GO! with Microsoft Office" Series by Gaskin, Vargas, and McLellan.
 3. "Exploring Microsoft Office" Series by Grauer and Poatsy.
-4. "Computing Essentials" by Morley and Parker. 5. "Technology in Action" by Evans,
-Martin, and Poatsy.
+4. "Computing Essentials" by Morley and Parker. 5. "Technology in Action" by Evans, Martin, and Poatsy.

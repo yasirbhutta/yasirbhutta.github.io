@@ -8,13 +8,18 @@ keywords: CS-301 Applications of Information and Communications Technologies
 ## [Course Overview]
 
 - [Course Contents](docs/course-overview-cs301-aict.md)
-- [Weekly Schedule of Classes](#)
+- [Weekly Schedule of Classes](docs/weekly-schedule-cs301-aict.md)
 - [Lessons Plans]()
 - [Timetable](#)
   
 ## Related Links
 
 ## Reference Books
+
+1. "Discovering Computers" by Vermaat, Shaffer, and Freund.
+2. "GO! with Microsoft Office" Series by Gaskin, Vargas, and McLellan.
+3. "Exploring Microsoft Office" Series by Grauer and Poatsy.
+4. "Computing Essentials" by Morley and Parker. 5. "Technology in Action" by Evans, Martin, and Poatsy.
 
 ## Lecture Videos
   
