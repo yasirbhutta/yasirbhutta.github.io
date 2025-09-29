@@ -5,8 +5,9 @@ description: CS-301 Applications of Information and Communications Technologies
 keywords: CS-301 Applications of Information and Communications Technologies
 ---
 
-## [Course Overview](docs/course-overview-cs301-aict.md)
+## [Course Overview]
 
+- [Course Contents](docs/course-overview-cs301-aict.md)
 - [Weekly Schedule of Classes](#)
 - [Lessons Plans]()
 - [Timetable](#)
