@@ -44,6 +44,8 @@ toc: toc/ms-excel-toc.html
 
 ### 2.8 Format Painter
 
+### 2.9 Fill
+
 ## 3. Formulas in Excel
 
 ### 3.1 Operators and Order of Operations
@@ -69,7 +71,14 @@ toc: toc/ms-excel-toc.html
 #### 4.1.15 len
 #### 4.1.16 contcat
 
-## 5. [Excel Assignments [1-3]](https://yasirbhutta.github.io/ms-excel/assignments/)
+## 5. More Features
+
+### 5.1 AutoSum
+### 5.2 Conditional Formatting
+### 5.3 Sort and Filter
+### 5.4 Charts - Pie Chart, Bar Chart
+
+## 6. [Excel Assignments [1-3]](https://yasirbhutta.github.io/ms-excel/assignments/)
 
 ## Further Reading
 
