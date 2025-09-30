@@ -30,8 +30,6 @@ LEN returns the number of characters in a text string.
 LEN(text)
 ```
 
-LENB(text)
-
 Text Required. The text whose length you want to find. Spaces count as characters.
 
 **See also:**
