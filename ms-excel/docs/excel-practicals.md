@@ -74,7 +74,7 @@ toc: toc/ms-excel-toc.html
 ## 5. More Features
 
 ### 5.1 AutoSum
-### 5.2 Conditional Formatting
+### 5.2 Conditional Formatting (Windows / Web)
 ### 5.3 Sort and Filter
 ### 5.4 Charts - Pie Chart, Bar Chart
 
