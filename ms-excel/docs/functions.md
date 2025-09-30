@@ -7,6 +7,11 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
+show_toc: true
+show_practice_progress: true
+show_mini_project: false
+prev: /ms-excel/docs/formulas.html
+
 breadcrumb:
   - title: Home
     url: /
