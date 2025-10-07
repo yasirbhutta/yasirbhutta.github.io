@@ -87,10 +87,11 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 ### Assignments
 
-1. Assignment #1: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)
-2. Assignment #2: [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
-3. Assignment #3: [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
-4. Assignment #4: [Microsoft Excel Assignment - Excel Functions](../ms-excel/assignments/assign8.md)
+1. Assignment #1: [Microsoft Excel Assignment - Excel Functions](../ms-excel/assignments/assign8.md) \| [PDF](/downloads/ms-excel/assignments/assign8.pdf)
+2. Assignment #2: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)
+3. Assignment #3: [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
+4. Assignment #4: [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
+
    
 **Quizzes for Practice**
 
