@@ -27,59 +27,59 @@ breadcrumb:
 
 ### **[Module 1: Introduction to Google Search](#module-1)**
 
-1.1 Search Engine
-1.2 How Google Works
-1.3 How to Search on Google
-1.4 Flip a Coin
-1.5 “I’m Feeling Lucky”
+#### 1.1 Search Engine
+#### 1.2 How Google Works
+#### 1.3 How to Search on Google
+#### 1.4 Flip a Coin
+#### 1.5 “I’m Feeling Lucky”
 
 ---
 
 ### **[Module 2: Smart Features of Google Search](#module-2)**
 
-2.1 Weather Searching
-2.2 Performing Calculations on Google
-2.3 Currency Conversions
-2.4 Unit Conversions
+#### 2.1 Weather Searching
+#### 2.2 Performing Calculations on Google
+#### 2.3 Currency Conversions
+#### 2.4 Unit Conversions
 
 ---
 
 ### **[Module 3: Search Operators Basics](#module-3)**
 
-3.1 Search on Social Media
-3.2 Search for a Price
-3.3 Searching Hashtags
-3.4 Exclude Words from Your Search
-3.5 Search for an Exact Match
+#### 3.1 Search on Social Media
+#### 3.2 Search for a Price
+#### 3.3 Searching Hashtags
+#### 3.4 Exclude Words from Your Search
+#### 3.5 Search for an Exact Match
 
 ---
 
 ### **[Module 4: Advanced Search Techniques](#module-4)**
 
-4.1 Searching Within a Range
-4.2 Combine Searches
-4.3 Search Within a Specific Site
-4.4 Searching Related Websites
-4.5 See Google’s Cached Version of a Site
-4.6 Search by File Type
-4.7 Top Results from Wikipedia
-4.8 Link Operator
+#### 4.1 Searching Within a Range
+#### 4.2 Combine Searches
+#### 4.3 Search Within a Specific Site
+#### 4.4 Searching Related Websites
+#### 4.5 See Google’s Cached Version of a Site
+#### 4.6 Search by File Type
+#### 4.7 Top Results from Wikipedia
+#### 4.8 Link Operator
 
 ---
 
 ### **[Module 5: Specialized Google Search Tools](#module-5)**
 
-5.1 Stocks Operator
-5.2 Map Operator
-5.3 Define Operator
-5.4 Quick Facts
-5.5 Image Search
-5.6 Search Image with a URL
-5.7 Search for an Exact Image Size
-5.8 Advanced Search Operators
-    5.8.1 Intitle
-    5.8.2 Inurl
-    5.8.3 Intext
+#### 5.1 Stocks Operator
+#### 5.2 Map Operator
+#### 5.3 Define Operator
+#### 5.4 Quick Facts
+#### 5.5 Image Search
+#### 5.6 Search Image with a URL
+#### 5.7 Search for an Exact Image Size
+#### 5.8 Advanced Search Operators
+##### 5.8.1 Intitle
+##### 5.8.2 Inurl
+##### 5.8.3 Intext
   
 ## Module 1
 
