@@ -15,6 +15,7 @@ author: Muhammad Yasir Bhutta
 - [Excel Sheet Assignment 5: Task Planner](assign5.md)
 - [Excel Sheet Assignment 6: Sales Analysis](assign6.md)
 - [Excel Sheet Assignment 7: Product Sales](assign7.md)
+- [Microsoft Excel Assignment - Excel Functions](assign8.md)
 
 ## Explore More Excel Topics
 
