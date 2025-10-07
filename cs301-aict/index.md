@@ -25,6 +25,25 @@ keywords: CS-301 Applications of Information and Communications Technologies
   
 ## Course Notes
 
+[📘 Download PDFs of Course Notes ⬇️](https://drive.google.com/drive/folders/1-9lPagVm1EYfqn3--3WtEu4CV9kJoD0B?usp=sharing)
+
+### Computer Definitions & Concepts
+
+- [Computer](../computer-basics/docs/computer.md)
+
+### Internet: Browsers and Search Engines
+
+- [Google Search](../google-workspace/docs/google-search/) \| [Download PDF](../google-workspace/docs/google-search/google-search.pdf)
+
+### Hardware
+
+- [Computer Systems & Components](../computer-basics/docs/hardware.md) \| [PDF](../computer-basics/docs/hardware.pdf)
+- [Storage Devices](../computer-basics/docs/storage-devices.md) \| [PDF](../computer-basics/docs/storage-devices.pdf)
+
+### Software
+
+- [Software](../computer-basics/docs/software.md) \| [PDF](../computer-basics/docs/software.pdf)
+  
 ### Microsoft Office
 
 ### [Microsoft Excel](../ms-excel/index.md)
