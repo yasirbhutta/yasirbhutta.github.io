@@ -130,18 +130,6 @@ unemployment rate pakistan
 unemployment rate china
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ### Flip a coin
 
 - To flip a coin in Google Search, simply type "flip a coin" in the search bar and click on the "Search" button. Google will then display a coin flipping animation, and the result will be either "Heads" or "Tails".
