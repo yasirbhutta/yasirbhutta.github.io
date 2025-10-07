@@ -44,9 +44,15 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 - [Software](../computer-basics/docs/software.md) \| [PDF](../computer-basics/docs/software.pdf)
   
-### Microsoft Office
 
-### [Microsoft Excel](../ms-excel/index.md)
+## The Internet
+
+- [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf) 
+- [Collaborative Computing and Social Networking](../social-media/docs/linkedin/) \| [Download PDF](../social-media/docs/linkedin/index.md)
+  
+### Microsoft 365
+
+#### 1. [Microsoft Excel](../ms-excel/index.md)
 
 - [Excel Basics](/ms-excel/docs/basics/) \| [PDF](/downloads/ms-excel/basics.pdf)
 - [Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](/downloads/ms-excel/formatting.pdf)
@@ -56,7 +62,7 @@ keywords: CS-301 Applications of Information and Communications Technologies
 - [Sort and Filter](../ms-excel/docs/sort-filter.md)
 - [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](/downloads/ms-excel/excel-practicals.pdf)
   
-### [Microsoft Word](../ms-word/index.md)
+#### 2. [Microsoft Word](../ms-word/index.md)
 
 - [Microsoft Word Basics](../ms-word/docs/basics.md)
 - [Character Formatting](../ms-word/docs/character-formatting.md)
@@ -65,7 +71,7 @@ keywords: CS-301 Applications of Information and Communications Technologies
 - [Text Editing in Documents](../ms-word/docs/stylish.md)
 - [Word Practical Topics](../ms-word/docs/word-practical.md) \| [PDF](../ms-word/docs/word-practical.pdf)
 
-## Microsoft Powerpoint
+#### 3. Microsoft Powerpoint
   - [Microsoft Powerpoint Basics](../ms-powerpoint/docs/basics.md)
   - [Powerpoint Practical Topics](../ms-powerpoint/docs/powerpoint-practical.md)
 
