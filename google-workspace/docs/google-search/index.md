@@ -579,192 +579,9 @@ At the top right, click Search inside image .
 
 [Google Maps](https://maps.google.com/): Find local businesses, view maps and get driving directions in Google Maps.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+---
 
-### Review Questions
-
-1. What does the minus sign (-) do in a Google search query?
-2. How can I use Google to search for information on specific websites?
-3. What is the purpose of using quotation marks in a Google search query, and how can they enhance your search results?
-4. Explain how the use of the "site:" operator in a Google search query can help you narrow down your search to a specific website or domain.
-5. How can you use the "filetype:" operator in Google search to find specific types of files, such as PDFs or Word documents?
-6. Describe the significance of using the "intitle:" operator in a search query and provide an example of when you might use it.
-7. Explain the purpose of the "related:" operator in Google search and how it can be used to discover related websites.
-8. Describe the steps to use Google's "define:" operator to look up the definition of a word or term directly from the search bar.
-9. How can you use Google search to perform calculations, conversions, and unit conversions without leaving the search results page?
-10. How do you use the "intitle:" and "inurl:" search operators effectively in Google searches?
-11. How can you use Google to search for information on specific websites?
-12. What is the Google search tip that you find most useful?
-
-### True/False
-
-1. Use the Google Translate search engine to translate web pages into other languages. True/False
-2. Use the site: operator to search for results of a specific file type. True/False
-3. Use the Google Bookmarks feature to save websites that you want to come back to later. True/False
-4. You can use quotation marks around a phrase to search for the exact words in that order. True/False
-5. Google offers advanced search operators like "filetype:" to find specific types of files (e.g., PDF, DOC) on the web. True/False
-6. You should use the plus sign (+) to include words in your search results. True/False
-7. Google's "Define:" operator can be used to look up definitions of words or phrases. True/False
-
-### Multiple Choice - Select the best answer
-
-> Which of the following Google Search tips is the most effective way to find a specific phrase or sentence?
-
-1. [ ] Use quotation marks around the phrase or sentence.
-2. [ ] Use the site: operator to search within a specific website.
-3. [ ] Use the - sign to exclude a term from your search results.
-4. [ ] Use the * wildcard to replace any word or group of words.
-
-> Which of the following Google Search tricks can you use to find images of a specific size?
-
-1. [ ] Use the imagesize: operator followed by the desired width and height of the image, in pixels.
-2. [ ] Use the filetype: operator followed by the desired file type of the image, such as jpg or png.
-3. [ ] Use the site: operator to search for images within a specific website.
-4. [ ] Use the - sign to exclude a term from your search results.
-
-> Which of the following Google Search tips can you use to search for a specific file type?
-
-1. [ ] Use the filetype: operator followed by the desired file type, such as pdf or docx.
-2. [ ] Use the imagesize: operator followed by the desired width and height of the file, in pixels.
-3. [ ] Use the site: operator to search for files within a specific website.
-4. [ ] Use the - sign to exclude a term from your search results.
-
-> Which of the following Google Search tricks can you use to combine two or more search terms?
-
-1. [ ] Use the OR operator to combine two or more synonyms, such as "cat OR kitten."
-2. [ ] Use the AND operator to combine two or more related terms, such as "cat AND food."
-3. [ ] Use the * wildcard to replace any word or group of words.
-4. [ ] All of the above.
-
-> Which of the following search operators can be used to search for results within a specific website?
-
-1. [ ] "
-2. [ ] +
-3. [ ] site:
-4. [ ] *
-
-> Which of the following search operators can be used to exclude a word from your search results?
-
-1. [ ] "
-2. [ ] +
-3. [ ] -
-4. [ ] *
-
-> Which of the following is NOT a valid Google search operator?
-
-1. [ ] site:
-2. [ ] filetype:
-3. [ ] intitle:
-4. [ ] quick:
-
-> Which Google operator can help you find the definition of a word?
-
-1. [ ] define:
-2. [ ] word:
-3. [ ] meaning:
-4. [ ] lookup:
-
-> What is the purpose of the "intitle:" operator in a Google search?
-
-1. [ ] To find results with the specified keyword in the title
-2. [ ] To exclude results with the specified keyword in the title
-3. [ ] To find results from a specific website
-4. [ ] To search for images with the specified keyword
-
-> Which feature allows you to search for books and publications on Google?
-
-1. [ ] Google Books
-2. [ ] Google News
-3. [ ] Google Trends
-4. [ ] Google Scholar
-
-> What is the function of the "inurl:" operator in a Google search query?
-
-1. [ ] To exclude results with the specified keyword in the URL
-2. [ ] To find results from a specific website
-3. [ ] To find results with the specified keyword in the URL
-4. [ ] To search for images with the specified keyword
-
-> Which of the following is NOT a Google search operator?
-
-1. [ ]  site:
-2. [ ]  inurl:
-3. [ ]  find:
-4. [ ]  intext:
-
-> Which Google operator is used to find pages linking to a specific URL?
-
-1. [ ] link:
-2. [ ] to:
-3. [ ] from:
-4. [ ] connect:
-
-> Google's "I'm Feeling Lucky" button takes you directly to:
-
-1. [ ] The first search result
-2. [ ] A random webpage
-3. [ ] A list of related searches
-4. [ ] Google Maps
-
-> How can you use Google search as a calculator?
-
-1. [ ] Type calc: followed by the expression
-2. [ ] Type math: followed by the equation
-3. [ ] Type the expression or equation directly
-4. [ ] Type solve: followed by the problem
-
-What is a search engine?
-A) A program that creates websites
-B) A tool to find information on the internet
-C) A software for sending emails
-D) A social media platform
-
-
-Here are some easier multiple-choice questions (MCQs) about search engines and Google Search suitable for beginners:
-
-1. What is a search engine?
-A) A program that creates websites
-B) A tool to find information on the internet
-C) A software for sending emails
-D) A social media platform
-
-Answer: B) A tool to find information on the internet
-
-2. What does Google do?
-A) Hosts websites
-B) Provides online shopping
-C) Searches for and displays web pages
-D) Creates videos
-
-Answer: C) Searches for and displays web pages
-
-3. Which of the following is a popular search engine?
-A) Facebook
-B) Google
-C) Instagram
-D) Twitter
-
-Answer: B) Google
-
-7. What does the "I'm Feeling Lucky" button do in Google?
-A) It takes you to a random website
-B) It shows you the first search result directly
-C) It provides related searches
-D) It changes the search language
-
-Answer: B) It shows you the first search result directly
-
-## Exercises
+## Tasks
 
 1. Find the name of the first woman to win a Nobel Prize in Physics. Use the site: operator to limit your search to official Nobel Prize websites.
 2. What is the capital city of Pakistan? Use the define: operator to find the meaning of the word “capital” in the context of geography.
@@ -777,6 +594,15 @@ Answer: B) It shows you the first search result directly
 9. Use the site: operator to find articles about climate change from the New York Times website.
 10. Find a translation of the phrase "If you can dream it, you can do it." into 10 different languages.
 11. Find a scientific article about the benefits of exercise for mental health.
+
+---
+
+## Practice & Progress
+
+- [True or False for Google Search](practice-and-progress/true-false-google-search.md)
+- [Google Search (MCQs)](practice-and-progress/mcqs-google-search.md)
+- [Review Questions for Google Search](practice-and-progress/review-questions-google-search.md)
+
 
 ## References
 
