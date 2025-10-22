@@ -6,7 +6,6 @@ keywords: Microsoft Word assignment, MS Word formatting, report assignment, news
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: null
-toc: toc/ms-word-toc.html
 show_toc: true
 show_practice_progress: null
 show_mini_project: null
