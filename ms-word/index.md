@@ -15,3 +15,4 @@
 ## Assignments
 
 - [Microsoft Word Assignment: Building a Professional Resume](assignments/ms-word-assign1.md)
+- [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](assignments/ms-word-assign2.md)

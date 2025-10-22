@@ -88,13 +88,16 @@ keywords: CS-301 Applications of Information and Communications Technologies
 ### Assignments
 
 1. Assignment #1: [Microsoft Excel Assignment - Excel Functions](../ms-excel/assignments/assign8.md) \| [PDF](/downloads/ms-excel/assignments/assign8.pdf)
-2. Assignment #2: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)
-3. Assignment #3: [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
-4. Assignment #4: [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
+2. Assignment #2: [Microsoft Excel Assignment - Sales Sheet, Marks Sheet and Attendance Result](https://yasirbhutta.github.io/ms-excel/assignments/)
+3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)Ta
+5. Assignment #4: [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](../ms-word/assignments/ms-word-assign2.md)
 
-   
+## Tasks
+
+1. Task 1: [Solve Google Search Tasks/Exercises, Use of Google Map and add classes timetable in Google Calender]
+2. Task 2: [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
+
 **Quizzes for Practice**
-
 
 ## Course Grading Scheme
 
