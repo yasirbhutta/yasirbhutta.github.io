@@ -4,7 +4,7 @@ title: "Microsoft Word Assignment – Formatting, Reports & Newsletter Design Ta
 description: "Practice MS Word formatting and document design: create a 2–3 page formatted report with TOC, headers/footers, and charts/SmartArt, plus a two-page newsletter with two-column layout and images. Ideal for students learning professional document layout and Word features."
 keywords: Microsoft Word assignment, MS Word formatting, report assignment, newsletter design, table of contents, headers and footers, SmartArt, Word charts, two-column layout, document design, student assignment
 author: Muhammad Yasir Bhutta
-course: ms-excel
+course: ms-word
 topic: null
 show_toc: true
 show_practice_progress: null
@@ -17,9 +17,7 @@ breadcrumb:
     url: /ms-word/
 ---
 
-## Microsoft Word Assignment: MS Word formatting and design tasks
-
-### 🧾 **Task 1: Prepare a Report on “Impact of Social Media on Students**
+## 🧾 **Task 1: Prepare a Report on “Impact of Social Media on Students**
 
 **Instructions:**
 
@@ -47,7 +45,7 @@ breadcrumb:
 
 ---
 
-### 📰 **Task 2: Design a University Newsletter**
+## 📰 **Task 2: Design a University Newsletter**
 
 **Instructions:**
 
