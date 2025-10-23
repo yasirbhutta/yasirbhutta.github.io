@@ -79,11 +79,15 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 ## Course Assignments, Quizzes
 
+---
+
 ### Quizzes
 
 1. Quiz #1: 
 2. Quiz #2: 
 3. Quiz #3: **Microsoft Excel: Formulas and Functions**
+
+---
 
 ### Assignments
 
@@ -92,16 +96,10 @@ keywords: CS-301 Applications of Information and Communications Technologies
 3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)Ta
 5. Assignment #4: [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](../ms-word/assignments/ms-word-assign2.md)
 
-Got it 👍 — so you want the **course page section** to show **summaries** of each topic’s tasks, while the **details** (like step-by-step instructions or examples) stay on their **linked pages** (e.g., `linkedin-assign1.md`).
-
-Here’s the improved version of your **course page content** that follows that approach:
 
 ---
 
-## **Digital Skills Course — Task Overview**
-
-This course develops essential digital skills through practical, hands-on exercises.
-Each topic below includes multiple tasks, with detailed instructions available on their linked pages.
+## **Digital Skills**
 
 ---
 
