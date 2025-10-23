@@ -92,14 +92,14 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
   
 **How to Send an Email Using the Gmail App**
 
-{% assign video_type = "short" %}
+{% assign video_type = "video" %}
 {% assign video_id = "rcVVfyeJfLk" %}
 
 {% include youtube-video.html video_type=video_type video_id=video_id %}
 
 **Why we use CC and BCC in email**
 
-{% assign video_type = "short" %}
+{% assign video_type = "video" %}
 {% assign video_id = "66N2Kmca21U" %}
 
 {% include youtube-video.html video_type=video_type video_id=video_id %}
@@ -118,7 +118,7 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 **Gmail Tutorial: How to send and open confidential emails**
 
-{% assign video_type = "short" %}
+{% assign video_type = "video" %}
 {% assign video_id = "aW24qeTJy0Q" %}
 
 {% include youtube-video.html video_type=video_type video_id=video_id %}
@@ -166,4 +166,71 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 * **Be cautious about opening attachments:** Only open attachments from people you know and trust.
 
 * **Avoid phishing scams:** Be aware of phishing scams, which are emails that try to trick you into revealing personal information.
+
+Here’s a clear and organized **task list** for teaching how to use an email account — step by step and suitable for classroom or training use:
+
+---
+
+## 🧭 **Tasks: Learning to Use an Email Account**
+
+### **Task 1: Create an Email Account**
+
+* Visit [https://mail.google.com](https://mail.google.com) or another email service provider (e.g., Outlook, Yahoo).
+* Click on **“Create account.”**
+* Fill in personal details (name, username, password).
+* Verify your phone number or alternate email (if required).
+* Sign in to your new account.
+
+---
+
+### **Task 2: Send an Email (with CC and BCC)**
+
+* Click **“Compose”** to create a new email.
+* Enter the **recipient’s email address** in the “To” field.
+* Add additional recipients in **“CC”** (carbon copy) and **“BCC”** (blind carbon copy) fields.
+* Type a subject and message body.
+* Click **“Send.”**
+
+---
+
+### **Task 3: Send an Email with an Attachment**
+
+* Click **“Compose.”**
+* Enter recipient, subject, and message.
+* Click the **paperclip icon** to attach a file (image, document, PDF, etc.).
+* Select the file from your computer.
+* Wait for the upload to complete and click **“Send.”**
+
+---
+
+### **Task 4: Send an Email Using Google Drive**
+
+* Click **“Compose.”**
+* Enter recipient, subject, and message.
+* Click the **Google Drive icon** (triangle symbol).
+* Choose a file from your Google Drive.
+* Select **“Insert as Drive link”** or **“Attachment”** as appropriate.
+* Click **“Send.”**
+
+---
+
+### **Task 5: Enable Two-Step Verification**
+
+* Click on your **profile icon → Manage your Google Account.**
+* Go to **Security → 2-Step Verification.**
+* Click **“Get Started.”**
+* Enter your password to confirm identity.
+* Add your phone number and choose **SMS** or **Google Prompt.**
+* Verify and turn on **2-Step Verification.**
+
+---
+
+### **Task 6: Set Recovery Email and Phone Number**
+
+* In your **Google Account → Security** section, find **“Ways we can verify it’s you.”**
+* Click **Recovery email** → Add your alternate email address.
+* Click **Recovery phone** → Add your phone number.
+* Save your settings.
+
+---
 
