@@ -92,10 +92,57 @@ keywords: CS-301 Applications of Information and Communications Technologies
 3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](/cs-301/assignments/assign1.md)Ta
 5. Assignment #4: [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](../ms-word/assignments/ms-word-assign2.md)
 
-## Tasks
+Got it 👍 — so you want the **course page section** to show **summaries** of each topic’s tasks, while the **details** (like step-by-step instructions or examples) stay on their **linked pages** (e.g., `linkedin-assign1.md`).
 
-1. Task 1: [Solve Google Search Tasks/Exercises, Use of Google Map and add classes timetable in Google Calender]
-2. Task 2: [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
+Here’s the improved version of your **course page content** that follows that approach:
+
+---
+
+## **Digital Skills Course — Task Overview**
+
+This course develops essential digital skills through practical, hands-on exercises.
+Each topic below includes multiple tasks, with detailed instructions available on their linked pages.
+
+---
+
+### 🧭 **Topic 1: Google Search Tools and Productivity**
+
+**Tasks:**
+
+1. Solve **Google Search exercises** to improve online research skills.
+2. Use **Google Maps** to find, locate, and share destinations.
+3. Add your **class timetable** in **Google Calendar**, including reminders and recurring events.
+
+📘 *[View Full Instructions →](#)*
+
+---
+
+### 📧 **Topic 2: Email Communication Skills**
+
+**Tasks:**
+
+1. Create a new **email account**.
+2. Send emails using **CC** and **BCC** fields.
+3. Attach documents or media files.
+4. Share files using **Google Drive** links.
+5. Enable **two-step verification** for account security.
+6. Set up a **recovery email and phone number**.
+
+📘 *[View Full Instructions →](../google-workspace/docs/gmail/#10--tasks-learning-to-use-an-email-account)*
+
+---
+
+### 💼 **Topic 3: Professional Networking (LinkedIn)**
+
+**Tasks:**
+
+* Create and optimize your **LinkedIn profile**
+* Connect with professionals in your field
+* Share updates and build your **online presence**
+
+📘 *[View Assignment Details →](../social-media/assignments/linkedin-assign1.md)*
+
+---
 
 **Quizzes for Practice**
 
