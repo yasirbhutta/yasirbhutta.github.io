@@ -16,16 +16,29 @@ breadcrumb:
     url: /google-workspace/
 ---
 
+## Table of Contents
+
+1. [What is Email?](#1-what-is-email)
+2. [Basic Components of an Email](#2-basic-components-of-an-email)
+3. [Basic Features of Email](#3-basic-features-of-email)
+4. [What is Gmail](#4-what-is-gmail)
+5. [Manage your Gmail account](#5-manage-your-gmail-account)
+6. [Read & organize emails](#6-read--organize-emails)
+7. [Settings](#7-settings)
+8. [Tips for Using Email Effectively](#8-tips-for-using-email-effectively)
+9. [Additional Tips](#9-additional-tips)
+10. [Tasks: Learning to Use an Email Account](#10--tasks-learning-to-use-an-email-account)
+
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/email.pdf)
 
 - To access the updated handouts, please click on the following link:
 [https://yasirbhutta.github.io/google-workspace/docs/email.html](https://yasirbhutta.github.io/google-workspace/docs/email.html)
 
-### What is Email?
+## 1. What is Email?
 
 Email, short for electronic mail, is a method of exchanging messages between people electronically. It is one of the most widely used forms of communication today, allowing people to connect with each other quickly and easily, regardless of their location.
 
-### Basic Components of an Email
+## 2. Basic Components of an Email
 
 - **Subject Line:** A brief summary of the email's content.
 - **Recipient:** The person or group you are sending the email to.
@@ -34,7 +47,7 @@ Email, short for electronic mail, is a method of exchanging messages between peo
 - **Closing:** A polite closing phrase, such as "Sincerely," "Best regards," or "Thank you."
 - **Signature:** Your contact information, such as your name, email address, and phone number.
 
-### Basic Features of Email
+## 3. Basic Features of Email
 
 - **Composing and Sending Emails:** You can create new emails, type your message, and then send it to the recipient's email address.
 
@@ -46,7 +59,7 @@ Email, short for electronic mail, is a method of exchanging messages between peo
 
 - **Creating Folders:** You can organize your emails by creating folders and moving emails into those folders.
 
-### What is Gmail
+## 4. What is Gmail
 
 - Gmail is a free email service developed by Google. It is one of the most popular email services in the world, with over 1.5 billion active users worldwide.
 - Gmail is known for its powerful search functionality, its spam filtering, and its ability to integrate with other Google products, such as Google Calendar and Google Drive.
@@ -61,17 +74,17 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 - [Create a Gmail account](https://support.google.com/mail/answer/56256?hl=en&ref_topic=7065107&sjid=17155670430480394991-EU)
 
-#### Manage your Gmail account
+## 5. Manage your Gmail account
 
-##### Sign in or out
+### Sign in or out
 
 - [Sign out of Gmail](https://support.google.com/mail/answer/8154?hl=en&ref_topic=3394217)
 - [Sign in to Gmail](https://support.google.com/mail/answer/8494?hl=en&ref_topic=3394217)
 - [Turn on 2-Step Verification](https://support.google.com/mail/answer/185839?hl=en&ref_topic=3394217)
 
-#### Read & organize emails
+## 6. Read & organize emails
 
-##### Read emails
+### Read emails
 
 - [Delete or recover deleted Gmail messages](https://support.google.com/mail/answer/7401?hl=en&ref_topic=3394652)
 - [Print Gmail messages](https://support.google.com/mail/answer/8255?hl=en&ref_topic=3394652)
@@ -79,14 +92,14 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 - [Archive or mute Gmail messages](https://support.google.com/mail/answer/6576?hl=en&ref_topic=3394652)
 - [Mark or unmark Spam in Gmail](https://support.google.com/mail/answer/1366858?hl=en&ref_topic=3394652)
 
-##### Find emails
+### Find emails
 
 - [Search operators you can use with Gmail](https://support.google.com/mail/answer/7190?hl=en&ref_topic=3394593)
 - [Search in Gmail](https://support.google.com/mail/answer/6593?hl=en&ref_topic=3394593&sjid=17155670430480394991-EU)
 
-#### Send emails
+### Send emails
 
-##### Write an email
+### Write an email
 
 - [Send or unsend Gmail messages](https://support.google.com/mail/answer/2819488?hl=en&ref_topic=3395756)
   
@@ -125,29 +138,29 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 - [Schedule emails to send](https://support.google.com/mail/answer/9214606?hl=en&ref_topic=3395756)
 
-##### Send attachments & images
+### Send attachments & images
 
 - [Send attachments with your Gmail message](https://support.google.com/mail/answer/6584?hl=en&ref_topic=7280128)
 - [Send Google Drive attachments in Gmail](https://support.google.com/mail/answer/2487407?hl=en&ref_topic=7280128)
 
-#### Settings
+## 7. Settings
 
 - [Create a Gmail signature](https://support.google.com/mail/answer/8395?hl=en&ref_topic=3394219)
 - [Use Gmail offline](https://support.google.com/mail/answer/1306849?hl=en&ref_topic=3394219&sjid=17155670430480394991-EU)
 
-#### Change or reset your password
+### Change or reset your password
 
 **See also:**
 
 - [Change or reset your password](https://support.google.com/mail/answer/41078?sjid=17155670430480394991-EU)
   
-#### Block or unsubscribe from emails
+### Block or unsubscribe from emails
 
 **See also:**
 
 - [Block or unsubscribe from emails](https://support.google.com/mail/answer/8151?hl=en&ref_topic=2467017&sjid=17155670430480394991-EU)
 
-### Tips for Using Email Effectively
+## 8. Tips for Using Email Effectively
 
 * **Use a clear and concise subject line:** The subject line should accurately reflect the main topic of the email.
 
@@ -159,7 +172,7 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 * **Avoid sending unnecessary emails:** Only send emails when necessary, as to not overload someone's inbox.
   
-### Additional Tips
+## 9. Additional Tips
 
 * **Use a strong password:** Protect your email account by using a strong password and changing it regularly.
 
@@ -167,11 +180,9 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 * **Avoid phishing scams:** Be aware of phishing scams, which are emails that try to trick you into revealing personal information.
 
-Here’s a clear and organized **task list** for teaching how to use an email account — step by step and suitable for classroom or training use:
-
 ---
 
-## 🧭 **Tasks: Learning to Use an Email Account**
+## 10. 🧭 **Tasks: Learning to Use an Email Account**
 
 ### **Task 1: Create an Email Account**
 
