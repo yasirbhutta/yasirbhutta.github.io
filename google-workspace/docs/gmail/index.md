@@ -70,9 +70,9 @@ Email, short for electronic mail, is a method of exchanging messages between peo
 
 gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
 
-**See also:**
 
-- [Create a Gmail account](https://support.google.com/mail/answer/56256?hl=en&ref_topic=7065107&sjid=17155670430480394991-EU)
+
+- [Tutorial: How to Create a Google Account](how-to-create-google-account.md)
 
 ## 5. Manage your Gmail account
 
@@ -182,7 +182,7 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 
 ---
 
-## 10. 🧭 **Tasks: Learning to Use an Email Account**
+## 10. 🧩 **Tasks: Learning to Use an Email Account**
 
 ### **Task 1: Create an Email Account**
 
@@ -191,6 +191,10 @@ gmail.com, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via W
 * Fill in personal details (name, username, password).
 * Verify your phone number or alternate email (if required).
 * Sign in to your new account.
+
+**See also:**
+
+- [Tutorial: How to Create a Google Account](how-to-create-google-account.md)
 
 ---
 
