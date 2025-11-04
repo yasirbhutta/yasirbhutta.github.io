@@ -47,7 +47,8 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 ## The Internet
 
-- [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf) 
+- [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf)
+- [Google Drive](../google-workspace/docs/drive/) \| [Download PDF](../downloads/google-workspace/drive.pdf)
 - [Collaborative Computing and Social Networking](../social-media/docs/linkedin/) \| [Download PDF](../social-media/docs/linkedin/index.md)
   
 ### Microsoft 365
