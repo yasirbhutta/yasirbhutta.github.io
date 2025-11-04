@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Google Workspace Email Guide – Master Gmail for Business (Setup & Tips)"
-description: Learn how to set up and optimize Google Workspace Email (Gmail) for business. Includes inbox organization, filters, labels, security, and productivity hacks.
-keywords: Google Workspace Email, Gmail for business, Google Workspace Gmail setup, professional email setup, Gmail productivity tips, email filters and labels, Gmail security, business email best practices, Workspace email management, Gmail organization
+title: "Google Drive: Ultimate Cloud Storage & Team Collaboration Guide"
+description: Discover how to use Google Drive to securely store, share, and collaborate on files — from setup to advanced tips for cloud storage, real-time teamwork, and productivity hacks.
+keywords: Google Drive, Google Workspace Drive, cloud storage, file sharing, team collaboration, Google Drive tips, how to use Google Drive, Google Drive guide
 author: Muhammad Yasir Bhutta
 course: google-workspace
-topic: gmail
+topic: drive
 toc: toc/google-workspace.html
 prev: /google-workspace/docs/google-search/
 next: /google-workspace/docs/google-docs/
