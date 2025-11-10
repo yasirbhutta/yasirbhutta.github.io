@@ -33,6 +33,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 
 - [CS-301 Applications of Information and Coom. Technology](/cs301-aict/index.md)
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
+- [Getting Started with CPP](cpp/index.md)
 - [IT-323 Python Programming 3(2-1)](it-323/index.md)
 - [IT-324 Web Development 3(2-1)](it-324/index.md)
 - [Computer Networks Lab](computer-networks/index.md)
