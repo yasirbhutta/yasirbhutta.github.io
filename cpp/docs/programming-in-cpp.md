@@ -116,3 +116,64 @@ Character example 3 (letter): Z
 
 ---
 
+## Interger Overflow and Underflow
+
+Here’s a **beginner-friendly** C++ example to explain the **concept of overflow and underflow** in simple terms 👇
+
+---
+
+**Question:** Write a C++ program to demonstrate the concept of overflow and underflow using integer data type.
+
+---
+
+### ✅ **C++ Program: Overflow and Underflow Example**
+
+```cpp
+#include <iostream>
+#include <limits> // for numeric_limits
+using namespace std;
+
+int main() {
+    // Find the maximum and minimum values an int can hold
+    int maxValue = numeric_limits<int>::max();
+    int minValue = numeric_limits<int>::min();
+
+    cout << "Maximum value of int: " << maxValue << endl;
+    cout << "Minimum value of int: " << minValue << endl;
+
+    // Overflow: adding 1 to the maximum value
+    cout << "\nAfter overflow (maxValue + 1): " << (maxValue + 1) << endl;
+
+    // Underflow: subtracting 1 from the minimum value
+    cout << "After underflow (minValue - 1): " << (minValue - 1) << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 💡 **Explanation for Beginners**
+
+1. `numeric_limits<int>::max()` gives the **largest value** an integer can store.
+2. `numeric_limits<int>::min()` gives the **smallest value** an integer can store.
+3. **Overflow** happens when a value becomes **larger than the maximum limit** — it wraps around to the smallest value.
+4. **Underflow** happens when a value becomes **smaller than the minimum limit** — it wraps around to the largest value.
+
+For more details about 'numeric_limits', See [C++ numeric_limits – Get Min/Max Values for Data Types (Beginner's Guide)](numberic-limits.md)
+
+---
+
+### 🖥️ **Sample Output**
+
+```
+Maximum value of int: 2147483647
+Minimum value of int: -2147483648
+
+After overflow (maxValue + 1): -2147483648
+After underflow (minValue - 1): 2147483647
+```
+
+---
+
+
