@@ -74,15 +74,9 @@ String example (name): Ali
 
 ---
 
-Sure! Here’s a **beginner-friendly example** showing how to use the **character (`char`) data type** in C++ 👇
-
----
+### ✅ **C++ Program: Character Data Type Example**
 
 **Question:** Write a C++ program to demonstrate the use of the `char` (character) data type and display example values.
-
----
-
-### ✅ **C++ Program: Character Data Type Example**
 
 ```cpp
 #include <iostream>
