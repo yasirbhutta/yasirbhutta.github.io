@@ -74,13 +74,51 @@ String example (name): Ali
 
 ---
 
+Sure! Here’s a **beginner-friendly example** showing how to use the **character (`char`) data type** in C++ 👇
 
+---
 
-#### MATLAB Example: Print Numbers from 1 to 5
+**Question:** Write a C++ program to demonstrate the use of the `char` (character) data type and display example values.
 
-**Question:** Write a MATLAB program to print the numbers from 1 to 5, using a for loop.
+---
 
-```matlab
-   for i = 1:5
-       disp(i);
-end
+### ✅ **C++ Program: Character Data Type Example**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Character variable
+    char grade = 'A';
+    char symbol = '#';
+    char letter = 'Z';
+
+    cout << "Character example 1 (grade): " << grade << endl;
+    cout << "Character example 2 (symbol): " << symbol << endl;
+    cout << "Character example 3 (letter): " << letter << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 💡 **Explanation**
+
+* The `char` data type is used to store a **single character**, such as a letter, digit, or symbol.
+* Character values are always enclosed in **single quotes (' ')**.
+* Each character has an **ASCII code** (a numeric value in computer memory).
+
+---
+
+### 🖥️ **Sample Output**
+
+```
+Character example 1 (grade): A
+Character example 2 (symbol): #
+Character example 3 (letter): Z
+```
+
+---
+
