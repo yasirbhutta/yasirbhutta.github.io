@@ -365,14 +365,6 @@ int main() {
 
 ### **Explanation**
 
-1. 
-2. 
-
-
-
-
-### **Explanation**
-
 1. **`#define`**:
 
    * `#define` creates **preprocessor constants** that **cannot be changed** during program execution.
