@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Programming in C++
-description: Learn c++ programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
-keywords: "c++ tutorial for beginners, learn c++ programming, free c++ lessons, c++ pdf tutorials, open-source c++ guide, c++ coding for beginners, c++ exercises and projects, c++ programming basics, downloadable c++ resources, c++ step-by-step guide"
+layout: page
+title: "Programming in C++ – Complete Beginner’s Guide with Examples, Exercises & Downloadable PDFs"
+description: "Learn C++ from scratch with clear explanations, practical code examples, hands-on exercises, and downloadable PDF lessons. Covers variables, data types, operators, control flow, functions, iostream, and common pitfalls—ideal for students and self-learners."
+keywords: C++ tutorial for beginners, learn C++ programming, C++ examples and exercises, downloadable C++ PDFs, C++ data types, C++ operators, iostream tutorial, beginner C++ guide, C++ practice problems, C++ programming basics
 ---
 
 ## Identifier
