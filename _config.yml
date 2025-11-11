@@ -1,6 +1,8 @@
 title: Learn with Yasir
 description: Learn Python, Microsoft 365, Google Workspace and more
 show_downloads: false
+markdown: kramdown
+highlighter: none
 url: "https://yasirbhutta.github.io"
 google_analytics: G-BW2SVN86HD
 #theme: jekyll-theme-time-machine
