@@ -5,6 +5,8 @@ description: "Learn C++ from scratch with clear explanations, practical code exa
 keywords: C++ tutorial for beginners, learn C++ programming, C++ examples and exercises, downloadable C++ PDFs, C++ data types, C++ operators, iostream tutorial, beginner C++ guide, C++ practice problems, C++ programming basics
 ---
 
+[Download PDF](/downloads/programming-in-cpp.pdf)
+
 ## Identifier
 ## Keywords
 ## Data Types
