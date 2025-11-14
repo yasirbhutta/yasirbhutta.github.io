@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: C++ numeric_limits – Get Min/Max Values for Data Types (Beginner's Guide)  
 description: Learn how to use C++ numeric_limits to find minimum and maximum values for different data types like int, float, double, and more. Understand limits, precision, and see practical examples for type checking and validation. Perfect for C++ beginners.  
 keywords: C++ numeric_limits, numeric_limits example, C++ data type limits, INT_MAX, INT_MIN, float limits, double precision, C++ limits header, get max value C++, C++ beginner tutorial, type checking C++
