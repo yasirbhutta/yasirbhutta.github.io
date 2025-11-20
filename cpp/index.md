@@ -19,6 +19,7 @@ keywords: dev c++, install Dev-C++, Dev-C++ Windows 11, install GCC, MinGW setup
 
 - [Input and Output](docs/cpp-input-output.md)
 - [Programming in C++](docs/programming-in-cpp.md)
+- [Conditional Statements](docs/cpp-conditional-struc.md)
 
 ## More Articles
 

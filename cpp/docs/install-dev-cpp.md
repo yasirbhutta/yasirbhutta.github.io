@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: How to Install Dev C++ and Configure the Compiler on Windows 11
 description: Learn c++ programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
 keywords: "c++ tutorial for beginners, learn c++ programming, free c++ lessons, c++ pdf tutorials, open-source c++ guide, c++ coding for beginners, c++ exercises and projects, c++ programming basics, downloadable c++ resources, c++ step-by-step guide"
