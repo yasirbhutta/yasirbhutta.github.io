@@ -35,6 +35,7 @@ breadcrumb:
 ## SAP HCM
 
 - [SAP HCM Ad Hoc Query Guide](posts/sap-hcm-ad-hoc-query-0006.md)
+- [upload biometric data in HCM]
 
 ## 📘 **Related Topics**
 
