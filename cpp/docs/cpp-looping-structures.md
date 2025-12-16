@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Programming in C++ – Looping Structures"
-description: "Learn C++"  
-keywords: 
+description: "Comprehensive guide to C++ looping structures — while, do-while, and for loops — with clear syntax, annotated examples, menu-driven program patterns, and practical tips for beginners."  
+keywords: C++, loops, while loop, do-while loop, for loop, looping structures, control flow, iteration, examples, menu-driven program, beginners, tutorial
 ---
 
 [ Download PDF](/downloads/cpp-looping-structures.pdf)

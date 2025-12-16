@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Programming in C++ – Conditional Structures"
-description: "Learn C++"  
-keywords: 
+description: "Practical guide to C++ conditional structures — if, if-else, nested if and switch statements — with clear syntax, step-by-step examples, sample programs (grade calculator, max-of-three), and tips for beginners."  
+keywords: C++, conditional statements, if statement, if-else, nested if, switch statement, control flow, comparison operators, examples, tutorial, beginners, grade calculator, max of three
 ---
 
 [ Download PDF](/downloads/cpp-conditional-struc.pdf)
