@@ -296,6 +296,221 @@ Sum = 55
 
 ---
 
+### **Example 4: Basic Multiplication Table**
+
+**Question:**
+Write a C++ program that asks the user to enter a number and then displays its multiplication table from 1 to 10 using a **for loop**.
+
+**Example:**
+
+* If the user enters `7`, the program should display:
+
+```
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+...
+7 x 10 = 70
+```
+
+**Requirements:**
+
+1. Use `cin` to take input from the user.
+2. Use a `for` loop to generate the multiplication table.
+3. Display the results in a readable format.
+
+---
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+
+    // Ask the user for the number
+    cout << "Enter a number to display its multiplication table: ";
+    cin >> number;
+
+    // Loop from 1 to 10
+    for (int i = 1; i <= 10; i++) {
+        cout << number << " x " << i << " = " << number * i << endl;
+    }
+
+    return 0;
+}
+```
+
+### ✅ How it works:
+
+1. `cin >> number;` → User inputs the number for which they want the table.
+2. `for (int i = 1; i <= 10; i++)` → Loop runs from 1 to 10.
+3. Inside the loop, `number * i` calculates each multiplication.
+4. `cout` prints the result in a readable format.
+
+**Example Output (if user enters 5):**
+
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+```
+
+---
+
+### **Example 5: Print Even Numbers from 1 to N**
+
+**Question:**
+Write a C++ program that asks the user to enter a positive number `N` and then prints **all even numbers from 1 to N** using a **for loop**.
+
+**Example:**
+
+* Input: `10`
+* Output:
+
+```
+Even numbers from 1 to 10 are: 2 4 6 8 10
+```
+
+**Requirements:**
+
+1. Use `cin` to take input from the user.
+2. Use a `for` loop to iterate from 1 to `N`.
+3. Use an `if` statement to check if a number is even.
+4. Display the even numbers in a single line, separated by spaces.
+
+---
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    // Ask the user for a number
+    cout << "Enter a positive number: ";
+    cin >> n;
+
+    cout << "Even numbers from 1 to " << n << " are: ";
+
+    // For loop to print even numbers
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0) {  // Check if number is even
+            cout << i << " ";
+        }
+    }
+
+    cout << endl;
+    return 0;
+}
+```
+
+---
+
+### ✅ **How it works:**
+
+1. User inputs a number `n`.
+2. Loop `for (int i = 1; i <= n; i++)` runs from 1 to `n`.
+3. `if (i % 2 == 0)` checks if the number is even.
+4. Prints only even numbers.
+
+---
+
+### **Example Output:**
+
+```
+Enter a positive number: 10
+Even numbers from 1 to 10 are: 2 4 6 8 10
+```
+
+---
+
+### **Example 6: Print a Simple Star Pattern**
+
+---
+
+**Question:**
+Write a C++ program that asks the user to enter a positive number `N` and then prints a **right-angled triangle star pattern** with `N` rows using **nested for loops**.
+
+**Example:**
+
+* Input: `5`
+* Output:
+
+```
+*
+**
+***
+****
+*****
+```
+
+**Requirements:**
+
+1. Use `cin` to take input from the user.
+2. Use a **nested for loop**:
+
+   * Outer loop to control the rows.
+   * Inner loop to print stars in each row.
+3. Each row should have an increasing number of stars, starting from 1 star in the first row.
+
+---
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    // Ask the user for the number of rows
+    cout << "Enter the number of rows: ";
+    cin >> n;
+
+    // Outer loop for each row
+    for (int i = 1; i <= n; i++) {
+        // Inner loop to print stars in each row
+        for (int j = 1; j <= i; j++) {
+            cout << "*";
+        }
+        cout << endl; // Move to next row
+    }
+
+    return 0;
+}
+```
+
+---
+
+### ✅ **How it works:**
+
+1. User inputs the number of rows `n`.
+2. Outer loop `for (int i = 1; i <= n; i++)` → Controls the rows.
+3. Inner loop `for (int j = 1; j <= i; j++)` → Prints stars in each row.
+4. Each row has an increasing number of stars.
+
+---
+
+### **Example Output:**
+
+```
+Enter the number of rows: 5
+*
+**
+***
+****
+*****
+```
+
+---
+
+
+
+
 
 
 
