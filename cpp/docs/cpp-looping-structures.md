@@ -189,6 +189,113 @@ int main() {
 
 ---
 
+## for loop
+
+### **Syntax of a for loop:**
+
+```cpp
+for (initialization; condition; update) {
+    // code to execute in each iteration
+}
+```
+
+* **Initialization**: Runs **once** at the start of the loop. Usually used to declare a loop variable.
+* **Condition**: Checked **before each iteration**. If true, the loop continues; if false, the loop stops.
+* **Update**: Runs **after each iteration**. Usually increments/decrements the loop variable.
+
+---
+
+### **Example 1: Print numbers 1 to 5**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) { // i starts at 1, loop until i <= 5, i increments by 1
+        cout << i << " ";
+    }
+    return 0;
+}
+```
+
+**Output:**
+
+```
+1 2 3 4 5
+```
+
+✅ **Explanation:**
+
+* `int i = 1` → start counting from 1
+* `i <= 5` → stop after 5
+* `i++` → increment i by 1 each time
+
+---
+
+### **Example 2: Print even numbers from 2 to 10**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 2; i <= 10; i += 2) { // i increases by 2 each time
+        cout << i << " ";
+    }
+    return 0;
+}
+```
+
+**Output:**
+
+```
+2 4 6 8 10
+```
+
+✅ **Explanation:**
+
+* `i += 2` means **add 2 to i each time**, so we get even numbers.
+
+---
+
+### **Example 3: Sum of first 10 natural numbers**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum = 0;
+    for (int i = 1; i <= 10; i++) {
+        sum += i; // sum = sum + i
+    }
+    cout << "Sum = " << sum;
+    return 0;
+}
+```
+
+**Output:**
+
+```
+Sum = 55
+```
+
+✅ **Explanation:**
+
+* `sum += i` adds each number to the total sum.
+* After the loop finishes, `sum` contains the total.
+
+---
+
+### **Key Points for Beginners**
+
+1. A `for` loop is great for **known number of iterations**.
+2. You can control the start, end, and increment.
+3. The loop can run **forward** (i++) or **backward** (i--).
+
+---
+
 
 
 
