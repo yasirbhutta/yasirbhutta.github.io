@@ -243,7 +243,7 @@ import matplotlib.pyplot as plt
 Example: **Public API for country population**
 
 ```python
-url = "https://restcountries.com/v3.1/all"
+url = "https://restcountries.com/v3.1/all?fields=name,population"
 response = requests.get(url)
 data = response.json()
 ```
@@ -261,21 +261,39 @@ We extract **country name** and **population**.
 countries = []
 population = []
 
-for country in data[:5]:   # first 5 countries (for clarity)
+for country in data: 
     countries.append(country['name']['common'])
     population.append(country['population'])
 ```
 
 ---
-
-##### Step 4: Create Bar Chart
+#### Step 4: Top 5 Countries by Population
 
 ```python
-plt.bar(countries, population)
+# Combine countries and populations into a list of tuples
+country_population_tuples = list(zip(countries, population))
+
+# Sort the list by population in descending order
+country_population_tuples.sort(key=lambda x: x[1], reverse=True)
+
+# Extract the top 5 sorted countries and populations
+top_5_countries = [country for country, pop in country_population_tuples[:5]]
+top_5_population = [pop for country, pop in country_population_tuples[:5]]
+
+print("Top 5 Countries by Population:")
+for i in range(5):
+    print(f"{top_5_countries[i]}: {top_5_population[i]}")
+```
+
+##### Step 5: Create Bar Chart
+
+```python
+plt.bar(top_5_countries, top_5_population)
 plt.xlabel("Country")
 plt.ylabel("Population")
-plt.title("Population by Country")
-
+plt.title("Top 5 Countries by Population")
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
 plt.show()
 ```
 
