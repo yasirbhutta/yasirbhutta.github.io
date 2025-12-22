@@ -33,8 +33,8 @@ breadcrumb:
 
 ### 91. Bar Chart
 
-A **bar chart** (or bar graph) is a visual way to compare **values across different categories** using **rectangular bars**.
-The **length or height of each bar** represents the value of that category. [Learn more...](../docs/plots-python/02-bar-plots/bar-plots/)
+- A **bar chart** (or bar graph) is a visual way to compare **values across different categories** using **rectangular bars**.
+- The **length or height of each bar** represents the value of that category. [Learn more...](../docs/plots-python/02-bar-plots/bar-plots/)
 
 ### 92. Column Chart
 
