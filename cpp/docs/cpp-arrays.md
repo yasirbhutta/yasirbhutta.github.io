@@ -395,8 +395,8 @@ Adds each element to `sum`.
 ```
 Sum of numbers = 150
 ```
-
 ---
+
 
 
 
