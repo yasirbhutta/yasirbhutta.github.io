@@ -233,3 +233,170 @@ int main() {
 
 ---
 
+## 🔹 Example 3: Store and Display Marks of Students
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks[5];   // Declare an array of size 5
+
+    // Taking input
+    cout << "Enter marks of 5 students:" << endl;
+    for(int i = 0; i < 5; i++) {
+        cin >> marks[i];
+    }
+
+    // Displaying output
+    cout << "Marks of students are:" << endl;
+    for(int i = 0; i < 5; i++) {
+        cout << marks[i] << endl;
+    }
+
+    return 0;
+}
+```
+
+---
+
+### 🔍 Explanation (Very Simple)
+
+**1️⃣ Array Declaration**
+
+```cpp
+int marks[5];
+```
+
+* `int` → data type
+* `marks` → array name
+* `5` → size (number of elements)
+
+---
+
+**2️⃣ Taking Input Using `for` Loop**
+
+```cpp
+for(int i = 0; i < 5; i++) {
+    cin >> marks[i];
+}
+```
+
+* `i` is the **index**
+* Index starts from **0**
+* Values are stored one by one
+
+---
+
+**3️⃣ Displaying Array Values**
+
+```cpp
+for(int i = 0; i < 5; i++) {
+    cout << marks[i] << endl;
+}
+```
+
+* Prints each element of the array
+
+---
+
+**📊 How Data is Stored**
+
+| Index | Value              |
+| ----- | ------------------ |
+| 0     | marks of student 1 |
+| 1     | marks of student 2 |
+| 2     | marks of student 3 |
+| 3     | marks of student 4 |
+| 4     | marks of student 5 |
+
+---
+
+## 🔹 Example 4: Find the Sum of Numbers Using an Array
+
+**💡 Problem Statement**
+
+Store **5 numbers** in an array and calculate their **sum**.
+
+---
+
+### ✅ Program:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[5];
+    int sum = 0;
+
+    // Taking input
+    cout << "Enter 5 numbers:" << endl;
+    for(int i = 0; i < 5; i++) {
+        cin >> numbers[i];
+    }
+
+    // Calculating sum
+    for(int i = 0; i < 5; i++) {
+        sum = sum + numbers[i];
+    }
+
+    // Displaying result
+    cout << "Sum of numbers = " << sum << endl;
+
+    return 0;
+}
+```
+
+---
+
+### 🔍 Explanation (Simple Words)
+
+**1️⃣ Array Declaration**
+
+```cpp
+int numbers[5];
+```
+
+Creates an array to store **5 integers**.
+
+---
+
+**2️⃣ Input Using Loop**
+
+* Values stored in:
+
+```cpp
+numbers[0] to numbers[4]
+```
+
+---
+
+**3️⃣ Sum Calculation**
+
+```cpp
+sum = sum + numbers[i];
+```
+
+Adds each element to `sum`.
+
+---
+
+**📊 Example Input / Output**
+
+**Input:**
+
+```
+10 20 30 40 50
+```
+
+**Output:**
+
+```
+Sum of numbers = 150
+```
+
+---
+
+
+
