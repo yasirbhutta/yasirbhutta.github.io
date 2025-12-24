@@ -106,6 +106,7 @@ keywords: CS-301 Applications of Information and Communications Technologies
 2. Assignment #2: [Microsoft Excel Assignment - Sales Sheet, Marks Sheet and Attendance Result](https://yasirbhutta.github.io/ms-excel/assignments/)
 3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](../cs-301/assignments/assign1.md)
 5. Assignment #4: [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](../ms-word/assignments/ms-word-assign2.md)
+6. Assignment #5: [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
 
 
 ---

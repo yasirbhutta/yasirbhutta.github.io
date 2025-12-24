@@ -1,4 +1,11 @@
-# Microsoft Word Assignment: Building a Professional Resume
+---
+layout: page
+title: "Assignment: Building a Professional Resume (Microsoft Word)"
+description: "Step-by-step MS Word assignment to design a professional resume: contact info, summary, education, experience, skills, formatting tips, and export to PDF for job applications."
+keywords: "resume, Microsoft Word, CV, professional resume, resume template, resume formatting, export PDF, job application, MS Word assignment"
+---
+
+## Microsoft Word Assignment: Building a Professional Resume
 
 [Download PDF](ms-word-assign1.pdf)
 

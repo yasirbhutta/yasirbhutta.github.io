@@ -1,3 +1,10 @@
+---
+layout: page
+title: "ICT Presentation Topics — CS-301"
+description: "Curated ICT presentation topics for CS-301 students: AI, IoT, cybersecurity, cloud, programming, and more — suitable for 10-slide narrated PowerPoint assignments."
+keywords: "CS-301, ICT topics, presentation ideas, AI, IoT, cybersecurity, cloud computing, programming, PowerPoint"
+---
+
 # ICT: Presentation Topics
 
 **Current Trends:**

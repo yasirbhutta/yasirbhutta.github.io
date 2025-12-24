@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Assignment: Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT"
+description: "Create a narrated 10-slide PowerPoint explaining a key ICT concept with clear visuals and concise explanations."
+keywords: "CS-301, ICT, PowerPoint, presentation, assignment, slides, narration, visuals, computer literacy"
+---
+
 ## Assignment: ICT
 
 [Download PDF](assign1.pdf)
