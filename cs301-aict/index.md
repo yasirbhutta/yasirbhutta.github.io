@@ -94,8 +94,8 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 ### Quizzes
 
-1. Quiz #1: 
-2. Quiz #2: 
+1. Quiz #1: **Databases and Networks**
+2. Quiz #2: **Microsoft Word**
 3. Quiz #3: **Microsoft Excel: Formulas and Functions**
 
 ---
@@ -104,7 +104,7 @@ keywords: CS-301 Applications of Information and Communications Technologies
 
 1. Assignment #1: [Microsoft Excel Assignment - Excel Functions](../ms-excel/assignments/assign8.md) \| [PDF](/downloads/ms-excel/assignments/assign8.pdf)
 2. Assignment #2: [Microsoft Excel Assignment - Sales Sheet, Marks Sheet and Attendance Result](https://yasirbhutta.github.io/ms-excel/assignments/)
-3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](../cs-301/assignments/assign1.md)Ta
+3. Assignment #3: [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](../cs-301/assignments/assign1.md)
 5. Assignment #4: [Microsoft Word Assignment – Formatting, Reports & Newsletter Design Tasks](../ms-word/assignments/ms-word-assign2.md)
 
 
