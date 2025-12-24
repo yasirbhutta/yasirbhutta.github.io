@@ -1,8 +1,8 @@
 ---
-layout: Pyton Resources- Books, Websites, Tutorials
-title: Python Basics - Beginner-Friendly Tutorials, Examples, and Exercises  
-description: Learn Python basics with beginner-friendly tutorials, examples, and exercises. Master Python programming concepts like print function, variables, comments, indentation and more. Perfect for students and professionals starting their Python journey.  
-keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments Python variables, Python data types, Python programming for beginners, learn Python, Python coding exercises
+layout: page
+title: Python Resources — Books, Websites, Tutorials
+description: "Comprehensive Python learning resources for beginners and intermediate learners: books, tutorials, video courses, examples, and exercises to master Python programming and build projects."
+keywords: "Python resources, learn Python, Python tutorials, Python books, Python exercises, Python examples, Python projects, beginner Python, intermediate Python"
 toc: toc/python.html
 ---
   
