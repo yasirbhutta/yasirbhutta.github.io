@@ -22,6 +22,7 @@ keywords: dev c++, install Dev-C++, Dev-C++ Windows 11, install GCC, MinGW setup
 - [Conditional Statements](docs/cpp-conditional-struc.md)
 - [Looping Structures](docs/cpp-looping-structures.md)
 - [Arrays](docs/cpp-arrays.md)
+- [Structures](docs/cpp-structures.md)
 
 ## More Articles
 

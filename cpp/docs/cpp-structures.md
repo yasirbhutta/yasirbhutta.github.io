@@ -5,6 +5,8 @@ description: "Learn how to define and use struct in C++: syntax, initialization,
 keywords: C++ structures, struct in C++, C++ struct vs class, define struct C++, initialize struct, passing structs C++, struct members, POD struct, nested structs
 ---
 
+[ Download PDF](/downloads/cpp-structures.pdf)
+
 ## 🔷 What is a Structure in C++?
 
 A **structure (`struct`)** in C++ is a **user-defined data type** that allows you to store **different types of data under one name**.
@@ -20,6 +22,8 @@ A **Student** has:
 * Marks (float)
 
 All these can be grouped using a **structure**.
+
+![struct in cpp](https://res.cloudinary.com/da0pjikvw/image/upload/v1766562338/struct-v1_v4wntc.png)
 
 ---
 
