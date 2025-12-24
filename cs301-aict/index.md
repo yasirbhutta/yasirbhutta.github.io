@@ -55,6 +55,11 @@ keywords: CS-301 Applications of Information and Communications Technologies
 - [Google Drive](../google-workspace/docs/drive/) \| [Download PDF](../downloads/google-workspace/drive.pdf)
 - [Collaborative Computing and Social Networking](../social-media/docs/linkedin/) \| [Download PDF](../social-media/docs/linkedin/index.md)
 
+
+## Databases and Networks
+
+- [Database Basics: Introduction to Databases](../computer-basics/docs/database.md)
+- [Computer Networks Explained: Types, Topologies & Protocols (LAN, WAN, TCP/IP)](../computer-basics/docs/networks.md)
   
 ### Microsoft 365
 
