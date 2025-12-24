@@ -398,5 +398,8 @@ Sum of numbers = 150
 ---
 
 
+## 📘 **Related Topics**
 
+- [C++ Array Length — How to Get Array Size with sizeof & std::size](array-length.md)
+- [C++ Structures (struct) — Definition, Initialization & Best Practices](cpp-structures.md)
 
