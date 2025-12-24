@@ -328,9 +328,6 @@ API → JSON Data → Python Lists → Bar Chart
 
 ---
 
-
----
-
 ### Summary
 
 | Term       | Meaning                        |
@@ -343,4 +340,7 @@ API → JSON Data → Python Lists → Bar Chart
 
 ---
 
+## 📘 **Related Topics**
 
+- [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
+- [Pie Chart in Python — Matplotlib Examples & Best Practices](../../03-pie-donut-charts/pie-chart/)

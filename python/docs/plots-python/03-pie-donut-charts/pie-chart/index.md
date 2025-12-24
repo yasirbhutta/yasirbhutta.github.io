@@ -218,3 +218,7 @@ You will see a pie chart showing the distribution of visitor sources:
 
 ---
 
+## 📘 **Related Topics**
+
+- [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
+- [Bar Chart in Python — Matplotlib Examples & Best Practices](../../02-bar-plots/bar-plots/)
