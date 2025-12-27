@@ -26,6 +26,7 @@ Start learning Python today—no sign-up required!
 - [Python Articles](/python/posts/)
 - [Pyton Resources: Books, Websites, Tutorials](resources.md)
 - [Python Posts - Tips, Tutorials, and Guides](posts/)
+- [Free Datasets Download – Open Data for Research & Analysis](/datasets/)
   
 {% assign show_heading = true %}
 {% include toc/python.html show_heading=show_heading%}

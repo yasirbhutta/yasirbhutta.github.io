@@ -15,6 +15,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [45-Day Roadmap to Python Visualization: Line, Bar, Heatmaps & Interactive Plots](python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.md)
 - [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
 - [Python Programming for Mathematics](python/docs/python-mathematics.md)
+
  
 ## Microsoft 365
 

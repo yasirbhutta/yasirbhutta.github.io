@@ -37,18 +37,6 @@ breadcrumb:
 - **Day 16:** `pivot_table()` → *Summarize school exam results* 📚  
 - **Day 17:** `merge()` → *Combine TikTok + Instagram hashtags*  
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ---
 
 ## **📊 Phase 2: Data Wrangling & Visualization (Days 31-60)**  
@@ -78,18 +66,6 @@ breadcrumb:
 **Pandas Integration:**  
 - **Day 43:** `df.plot()` → Customize plots directly in Pandas  
 - **Day 44:** Export to HTML → *Build a simple dashboard*  
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ---
 
@@ -325,3 +301,8 @@ breadcrumb:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## 📘 **Related Topics**
+
+- [Free Datasets Download – Open Data for Research & Analysis](/datasets/)
+- [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
