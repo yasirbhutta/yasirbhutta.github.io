@@ -11,6 +11,8 @@ breadcrumb:
     url: /python/
 ---
 
+![road map 100 days applied statistics](https://res.cloudinary.com/da0pjikvw/image/upload/v1766821632/roadmap-applied-statistics_xdfhfn.png)
+
 ## 🟢 PHASE 1: Statistical Foundations (Days 1–20)
 
 ### Week 1: Introduction to Statistics & Data
