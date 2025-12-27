@@ -58,5 +58,5 @@ breadcrumb:
 
 
 - [Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners](/python/lesson-plans/learn-python-pandas-100-day-bootcamp.md)
-- [45-Day Beginner-Friendly Python Learning Plan](lesson-plans/45-days-beginners-friendly-python.md)
+- [45-Day Beginner-Friendly Python Learning Plan](/python/lesson-plans/45-days-beginners-friendly-python.md)
 - [Free Datasets Download – Open Data for Research & Analysis](/datasets/)
