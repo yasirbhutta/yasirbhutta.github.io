@@ -306,3 +306,5 @@ breadcrumb:
 
 - [Free Datasets Download – Open Data for Research & Analysis](/datasets/)
 - [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
+- [100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics](/python/lesson-plans/100-day-statistics-ds-ml-analytics.md)
+- [45-Day Beginner-Friendly Python Learning Plan](/python/lesson-plans/45-days-beginners-friendly-python.md)
