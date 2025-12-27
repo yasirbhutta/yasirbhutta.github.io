@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics"
-description: Explore 100 practical data visualization types in Python — from basic charts to ML visuals and interactive dashboards — with Matplotlib, Seaborn, Plotly, Bokeh, and Altair examples.
-keywords: python data visualization, python charts, python plots, matplotlib visualizations, seaborn charts, plotly graphs, bokeh visualizations, altair charts, data visualization techniques, 100 python plots, python visualization guide, data science visualization, interactive dashboards python, statistical charts python, machine learning visualizations
+description: Explore the 100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics — a structured roadmap covering foundational statistics, probability, inference, regression, machine learning statistics, and applied analytics with hands-on Python (NumPy, Pandas, Matplotlib, Seaborn, SciPy, Statsmodels, Scikit-Learn) examples and real-world projects.
+keywords: 100 days applied statistics, data science statistics course, machine learning statistics roadmap, analytics with Python, statistics for data science, probability and inference Python, regression and correlation Python, ML preprocessing statistics, Python data analysis bootcamp, NumPy Pandas statistics, Matplotlib Seaborn visualization, SciPy Statsmodels tutorials, Scikit-Learn applied analytics
 show_practice_progress: false
 breadcrumb:
   - title: Home
