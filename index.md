@@ -14,6 +14,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners](python/lesson-plans/learn-python-pandas-100-day-bootcamp.md)
 - [45-Day Roadmap to Python Visualization: Line, Bar, Heatmaps & Interactive Plots](python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.md)
 - [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
+- [100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics](python/lesson-plans/100-day-statistics-ds-ml-analytics.md)
 - [Python Programming for Mathematics](python/docs/python-mathematics.md)
 
  
