@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics"
-description: Explore the 100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics — a structured roadmap covering foundational statistics, probability, inference, regression, machine learning statistics, and applied analytics with hands-on Python (NumPy, Pandas, Matplotlib, Seaborn, SciPy, Statsmodels, Scikit-Learn) examples and real-world projects.
+description: Join the 100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics bootcamp — a structured roadmap covering foundational statistics, probability, inference, regression, machine learning statistics, and applied analytics with hands-on Python (NumPy, Pandas, Matplotlib, Seaborn, SciPy, Statsmodels, Scikit-Learn) examples and real-world projects.
 keywords: 100 days applied statistics, data science statistics course, machine learning statistics roadmap, analytics with Python, statistics for data science, probability and inference Python, regression and correlation Python, ML preprocessing statistics, Python data analysis bootcamp, NumPy Pandas statistics, Matplotlib Seaborn visualization, SciPy Statsmodels tutorials, Scikit-Learn applied analytics
 show_practice_progress: false
 breadcrumb:
@@ -144,7 +144,7 @@ breadcrumb:
 
 ### Week 11: Regression Basics
 
-- **Day 66** – Introduction to Regression
+- **Day 66** – [Introduction to Regression](../docs/statistics/regression-model.md)
 - **Day 67** – Simple Linear Regression
 - **Day 68** – Regression Assumptions
 - **Day 69** – Model Evaluation (R², MSE)
@@ -176,8 +176,8 @@ breadcrumb:
 
 ### Week 14: Classification Statistics
 
-- **Day 81** – Logistic Regression (Statistics View)
-- **Day 82** – Sigmoid Function
+- **Day 81** – [Logistic Regression](../docs/statistics/logistic-regression.md) (Statistics View)
+- **Day 82** – [Sigmoid Function](../docs/statistics/sigmoid-function.md)
 - **Day 83** – Odds & Log-Odds
 - **Day 84** – Confusion Matrix
 - **Day 85** – Precision, Recall, F1-Score
