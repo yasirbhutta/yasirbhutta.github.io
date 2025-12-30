@@ -179,7 +179,7 @@ breadcrumb:
 - **Day 81** – [Logistic Regression](../docs/statistics/logistic-regression.md) (Statistics View)
 - **Day 82** – [Sigmoid Function](../docs/statistics/sigmoid-function.md)
 - **Day 83** – Odds & Log-Odds
-- **Day 84** – Confusion Matrix
+- **Day 84** – [Confusion Matrix](../docs/statistics/confusion-matrix.md)
 - **Day 85** – Precision, Recall, F1-Score
 
 ---

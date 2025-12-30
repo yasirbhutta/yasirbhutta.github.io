@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Sigmoid Function"
-description: Sigmoid Function
-keywords: Sigmoid Function
+title: "Python Sigmoid Function | Definition & Code Examples"
+description: Learn what the sigmoid function is in Python, how it works in machine learning and statistics, and see easy code examples using Python. Perfect for beginners.
+keywords: Python sigmoid function, sigmoid function Python examples, sigmoid activation function, Python statistics sigmoid, machine learning sigmoid, logistic function in Python
 author: Muhammad Yasir Bhutta
 ---
 

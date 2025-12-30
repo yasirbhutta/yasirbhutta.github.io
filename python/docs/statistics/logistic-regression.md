@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Logistic Regression"
-description: Logistic Regression
-keywords: Logistic Regression
+title: "Logistic Regression in Python | Learn Logistic Regression with Examples"
+description: Learn Logistic Regression in Python — what it is, how it works, and how to implement it with practical examples using sklearn.linear_model.LogisticRegression. Perfect for beginners in statistics and machine learning.
+keywords: Logistic Regression Python, Logistic Regression tutorial, Python statistics,
+LogisticRegression sklearn example, binary classification Python,
+sigmoid function Python, logistic vs linear regression, machine learning
 author: Muhammad Yasir Bhutta
 ---
 
@@ -149,5 +151,7 @@ print(model.predict_proba([[2.5]]))
 * Threshold usually **0.5**
 
 ---
+
+## 📘 **Related Topics**
 
 
