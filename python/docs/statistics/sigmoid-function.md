@@ -261,16 +261,11 @@ plt.show()
 
 ---
 
-## 8️⃣ One-Line Definition (For Exams)
+## 8️⃣ One-Line Definition
 
 **“The sigmoid curve is an S-shaped function that converts input values into probabilities between 0 and 1.”**
 
 ---
 
-If you want:
-📊 **Ready-made sigmoid image for notes**
-🧠 **MCQs on sigmoid function**
-📝 **Short/long exam answers**
-🎓 **Student worksheet**
+## 📘 **Related Topics**
 
-Just tell me 👍

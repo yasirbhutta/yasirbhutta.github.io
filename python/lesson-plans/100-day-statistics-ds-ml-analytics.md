@@ -44,7 +44,7 @@ breadcrumb:
 ### Week 3: Data Visualization
 
 - **Day 15** – Why Visualization Matters
-- **Day 16** – Bar Charts, Line Charts
+- **Day 16** – [Bar Charts](../docs/plots-python/02-bar-plots/bar-plots/), Line Charts
 - **Day 17** – Histograms & Density Plots
 - **Day 18** – Box Plots & Violin Plots
 - **Day 19** – Scatter Plots & Pair Plots

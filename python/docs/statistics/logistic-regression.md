@@ -154,4 +154,5 @@ print(model.predict_proba([[2.5]]))
 
 ## 📘 **Related Topics**
 
-
+- [Introduction to Confusion Matrix in Python /| Classification Evaluation](confusion-matrix.md)
+- [Introduction to Regression & Regression Models in Python /| Tutorial & Examples](regression-model.md)

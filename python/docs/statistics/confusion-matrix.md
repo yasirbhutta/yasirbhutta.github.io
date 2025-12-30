@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "confusion matrix"
-description: confusion matrix
-keywords: confusion matrix
+title: "Introduction to Confusion Matrix in Python | Classification Evaluation"
+description: Learn the introduction to the confusion matrix in Python — what a confusion matrix is, how it evaluates classification models, and how to create one with examples using scikit‑learn metrics.
+keywords: Introduction to confusion matrix, confusion matrix Python, confusion matrix tutorial, classification evaluation Python, scikit-learn confusion matrix example, true positive false positive confusion matrix, confusion matrix interpretation
 author: Muhammad Yasir Bhutta
 ---
 
@@ -12,7 +12,7 @@ It shows how many predictions the model got **right** and **wrong** by comparing
 
 ---
 
-## Confusion Table (Binary Classification)
+## Confusion Matrix (Binary Classification)
 
 | Actual \ Predicted | Positive                | Negative                |
 | ------------------ | ----------------------- | ----------------------- |
@@ -208,3 +208,7 @@ print("Recall:", recall_score(y_test, y_pred))
 
 ---
 
+## 📘 **Related Topics**
+
+- [Logistic Regression in Python /| Learn Logistic Regression with Examples](logistic-regression.md)
+- [Introduction to Regression & Regression Models in Python /| Tutorial & Examples](regression-model.md)

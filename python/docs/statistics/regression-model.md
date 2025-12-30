@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Regression model"
-description: regression model
-keywords: regression model, yasir, bhutta
+title: "Introduction to Regression & Regression Models in Python | Tutorial & Examples"
+description: Learn the introduction to regression and regression models in Python. Understand regression concepts, build regression models, and see practical Python examples using scikit-learn and statsmodels.
+keywords: Introduction to Regression, Regression Model Python, Python regression tutorial, Regression modeling in Python, Linear regression Python, Multiple regression Python, Regression analysis Python examples, Scikit-learn regression
 author: Muhammad Yasir Bhutta
 ---
 
@@ -216,4 +216,8 @@ print(model.predict([[6]]))
 
 ---
 
+## 📘 **Related Topics**
 
+- [Logistic Regression in Python /| Learn Logistic Regression with Examples](logistic-regression.md)
+- [Introduction to Confusion Matrix in Python /| Classification Evaluation](confusion-matrix.md)
+  
