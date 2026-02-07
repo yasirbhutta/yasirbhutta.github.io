@@ -7,9 +7,9 @@ keywords: "CS-304 Java lab, object oriented programming, OOP practical tasks, we
 
 ## Course Title: CS-304 Object Oriented Programming Lab 1(0-1) 
 
-**Duration:** 15 Weeks
-**Lectures per Week:** 1
-**Total Lectures:** 15
+- **Duration:** 15 Weeks
+- **Lectures per Week:** 1
+- **Total Lectures:** 15
 
 
 [How to Install Oracle JDK and Configure VS Code for Java Development](../../java/docs/vscode-jdk.md)
