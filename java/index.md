@@ -5,4 +5,5 @@ description: "Comprehensive Java programming guide for beginners including JDK i
 keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Java syntax, JDK installation, Java examples, object oriented programming, Java basics"
 ---
 
+- [Java IDEs for OOP Coding](docs/tools-java.md)
 - [How to Install Oracle JDK and Configure VS Code for Java Development](docs/vscode-jdk.md)
