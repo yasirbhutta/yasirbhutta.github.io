@@ -55,3 +55,7 @@ url: /python/
 ### 100. Normal Distribution
 
 
+- [Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners](/python/lesson-plans/learn-python-pandas-100-day-bootcamp.md)
+- [45-Day Beginner-Friendly Python Learning Plan](/python/lesson-plans/45-days-beginners-friendly-python.md)
+- [100 Days of Applied Statistics for Data Science, Machine Learning, and Analytics](/python/lesson-plans/100-day-statistics-ds-ml-analytics.md)
+- [Free Datasets Download – Open Data for Research & Analysis](/datasets/)
