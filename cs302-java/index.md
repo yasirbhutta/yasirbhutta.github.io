@@ -7,7 +7,7 @@ keywords: CS-302 Object Oriented Programming 3(3-0)
 
 ## [Course Overview]
 
-- [Course Contents](docs/course-overview-cs301-aict.md)
+- [Course Contents](docs/course-contents-cs302.md)
 - [Weekly Schedule of Classes](docs/weekly-schedule-cs302.md)
 - [Lessons Plans](#)
 - [Timetable](#)

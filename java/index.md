@@ -7,3 +7,5 @@ keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Jav
 
 - [Java IDEs for OOP Coding](docs/tools-java.md)
 - [How to Install Oracle JDK and Configure VS Code for Java Development](docs/vscode-jdk.md)
+- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
+  
