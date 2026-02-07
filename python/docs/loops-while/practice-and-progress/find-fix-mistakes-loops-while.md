@@ -1,5 +1,5 @@
 ---
-layout: find-fix-mistakes
+layout: page
 title: "Python While Loops: Find & Fix Mistakes | Debugging Practice"
 description: Enhance your Python while loop debugging skills by identifying and correcting common errors in code. Practice with beginner, intermediate, and advanced challenges.
 keywords: Python, while loops, debugging, fix mistakes, find errors, Python practice, programming, coding, Python exercises, loop errors, syntax errors, indentation errors, problem solving
@@ -12,13 +12,7 @@ next: "/python/docs/loops-while/practice-and-progress/find-fix-mistakes-loops-wh
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loops-while
-    url: /python/docs/loops-while/
+breadcrumb: 
+- title: loops-while
+url: /python/docs/loops-while/
 ---

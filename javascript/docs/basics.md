@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "JavaScript Basics" 
-description: "Master JavaScript fundamentals with this beginner-friendly guide. Learn about variables, functions, user input, DOM manipulation, and external scripts through practical examples and interactive exercises."  
+title: "JavaScript Basics"
+description: "Master JavaScript fundamentals with this beginner-friendly guide. Learn about variables, functions, user input, DOM manipulation, and external scripts through practical examples and interactive exercises."
 keywords: "JavaScript basics, learn JavaScript, JavaScript tutorial, beginner JavaScript, JavaScript variables, JavaScript functions, DOM manipulation, JavaScript user input, external JavaScript, JavaScript examples, interactive JavaScript, JavaScript exercises"
 toc: toc/javascript.html
 topic: "basics"

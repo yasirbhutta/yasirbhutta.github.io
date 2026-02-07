@@ -9,15 +9,9 @@ topic: "loops-while"
 course: "python"
 prev: "/python/docs/loops-while/practice-and-progress/exercises-loops-while.html"
 next: "/python/docs/loops-while/practice-and-progress/review-questions-loops-while.html"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loops-while
-    url: /python/docs/loops-while/
+breadcrumb: 
+- title: loops-while
+url: /python/docs/loops-while/
 ---
 
 To learn more about using the `while loop` statement in Python, please visit **[Control Flow Statements: while loop](../index.md)

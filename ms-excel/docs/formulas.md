@@ -7,11 +7,9 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions
 toc: toc/ms-excel-toc.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 [Download PDF](/downloads/ms-excel/formulas.pdf)

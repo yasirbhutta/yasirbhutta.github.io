@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tips for Python Performance Optimization
+description: Improve your Python code efficiency with practical performance optimization techniques. This guide covers best practices for writing faster, memory-ef...
+keywords: python, performance, tips, optimization, code
+---
 # Tips for Python Performance Optimization
 
 Improve your Python code efficiency with practical performance optimization techniques. This guide covers best practices for writing faster, memory-efficient Python programs, including:  

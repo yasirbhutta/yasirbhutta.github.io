@@ -1,3 +1,9 @@
+---
+layout: page
+title: Matlab and Its Applications in Engineering
+description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Introduction to MATLAB web \| pdf - Constants, Variables and...
+keywords: pdf, matlab, web, download, statements
+---
 
 # Matlab and Its Applications in Engineering
 

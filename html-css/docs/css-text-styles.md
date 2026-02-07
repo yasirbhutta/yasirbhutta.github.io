@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "text, font, style, size, spacing, class, color, line"
 ---
 
 # CSS text Styling

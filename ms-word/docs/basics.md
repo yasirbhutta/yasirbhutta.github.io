@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word - Microsoft 365: Basics
+description: Connect with me: Youtube | LinkedIn | WhatsApp Channel | Web | Facebook | Twitter - Download: Handouts PDF - To access the updated handouts, please cl...
+keywords: document, word, file, click, save
+---
 # Microsoft Word - Microsoft 365: Basics
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)

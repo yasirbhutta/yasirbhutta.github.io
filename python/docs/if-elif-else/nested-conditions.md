@@ -12,15 +12,9 @@ next: /python/docs/functions.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: if-elif-else
-    url: /python/docs/if-elif-else/
+breadcrumb: 
+- title: if-elif-else
+url: /python/docs/if-elif-else/
 ---
 
 ## 🔹 What is **Nested Conditions** in Python?

@@ -1,5 +1,5 @@
 ---
-layout: find-fix-mistakes
+layout: page
 title: Find and Fix Mistakes – Python Inheritance Practice Questions.
 description: Practice Python OOP inheritance by identifying and fixing common mistakes in code examples.
 keywords: python, oop, inheritance, practice questions, find and fix, error correction

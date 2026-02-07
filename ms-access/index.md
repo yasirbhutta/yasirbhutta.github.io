@@ -1,6 +1,7 @@
 ---
-title: Microsoft Access Tutorial – Beginner’s Guide to Databases, Forms & Queries 
-description: Learn Microsoft Access with step-by-step tutorials for creating databases, tables, queries, forms, and reports. Includes practical examples, templates, and best practices for data design, relationships, normalization, and automation with macros. Perfect for students and professionals learning Access for data management.  
+layout: page
+title: Microsoft Access Tutorial – Beginner’s Guide to Databases, Forms & Queries
+description: Learn Microsoft Access with step-by-step tutorials for creating databases, tables, queries, forms, and reports. Includes practical examples, templates, and best practices for data design, relationships, normalization, and automation with macros. Perfect for students and professionals learning Access for data management.
 keywords: Microsoft Access tutorial, Access database tutorial, create Access database, Access queries, Access forms and reports, Access macros, database design, Access normalization, Access templates, learn Microsoft Access, Access for beginners
 author: Muhammad Yasir Bhutta
 ---

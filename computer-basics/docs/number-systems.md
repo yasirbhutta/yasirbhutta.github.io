@@ -9,11 +9,9 @@ topic: number-systems
 toc: toc/computer-basics.html
 prev: /computer-basics/docs/computer.html
 next: /computer-basics/docs/hardware.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Computer Basics
-    url: /computer-basics/
+breadcrumb: 
+- title: Computer Basics
+url: /computer-basics/
 ---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/number-systems.pdf)

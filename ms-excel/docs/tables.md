@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel: Tables
+description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Download PDF - To access the updated handouts, please click o...
+keywords: data, excel, tables, easy, table
+---
 
 # Microsoft Excel: Tables
 

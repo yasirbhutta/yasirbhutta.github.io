@@ -7,11 +7,9 @@ author: Muhammad Yasir Bhutta
 course: computer-basics
 topic: linkedin
 toc: toc/computer-basics.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Social Media
-    url: /social-media/
+breadcrumb: 
+- title: Social Media
+url: /social-media/
 ---
 
 # Social Media: LinkedIn

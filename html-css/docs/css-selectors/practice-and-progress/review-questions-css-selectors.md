@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "class, selector, css, answer, element, example, pseudo, hover"
 ---
 
 ### Review Questions: CSS Selectors

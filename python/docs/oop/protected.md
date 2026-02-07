@@ -6,13 +6,9 @@ keywords: Python OOP, encapsulation in Python, Python access levels, protected v
 author: Muhammad Yasir Bhutta
 course: python
 prev: /python/docs/oop-encapsulation/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: OOP
-    url: /python/docs/oop/
-  - title: OOP
-    url: /python/docs/oop-encapsulation/
+breadcrumb: 
+- title: OOP
+url: /python/docs/oop-encapsulation/
 ---
 
 In Python OOP, **protected access** is a **convention** that suggests a variable or method **should not be accessed directly** from outside the class — but **it still can be**.

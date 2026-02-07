@@ -1,3 +1,9 @@
+---
+layout: page
+title: Powerful Python One-Liners
+description: Here are some powerful Python one-liners with examples to help you understand how they work. 1. Swap Two Variables a, b = 5, 10 a, b = b, a print(a, b...
+keywords: print, output, list, data, one
+---
 # Powerful Python One-Liners
 
 Here are some powerful Python one-liners with examples to help you understand how they work.  

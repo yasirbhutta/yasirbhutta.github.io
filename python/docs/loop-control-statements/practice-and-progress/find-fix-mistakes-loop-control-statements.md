@@ -1,5 +1,5 @@
 ---
-layout: find-fix-mistakes
+layout: page
 title: "Python Loop Control – Find & Fix Code Errors"
 description: Practice debugging Python code with common loop control mistakes. Identify and fix errors using break, continue in realistic scenarios.
 keywords: Python loop debugging, find and fix Python errors, break continue else mistakes, Python loop control errors, Python practice exercises, debug Python code, loop control fix problems, Python loop quiz
@@ -12,13 +12,7 @@ next: "/python/docs/loop-control-statements/practice-and-progress/find-fix-mista
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loop-control-statements
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: loop-control-statements
+url: /python/docs/loop-control-statements/
 ---

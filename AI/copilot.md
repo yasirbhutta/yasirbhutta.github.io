@@ -1,3 +1,9 @@
+---
+layout: page
+title: Copilot
+description: - Copilot Lab See also: - Video: What is a prompt? **Quiz yourself Catch up: Create: Create a short presentation about time management. Write an email...
+keywords: copilot, create, quiz, grade, ideas
+---
 # Copilot
 
 - [Copilot Lab](https://copilot.cloud.microsoft/en-US/prompts)

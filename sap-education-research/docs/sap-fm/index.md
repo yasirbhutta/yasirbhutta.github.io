@@ -10,11 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-fico/
 next: /sap-education-research/docs/sap-gm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 
 ## 📘 What is **SAP FM (Funds Management)?**

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Python Quizzes for Beginners & Advanced | Test Your Skills
 description: Sharpen your Python programming skills with our interactive quizzes covering basic to advanced topics. Perfect for students, developers, and anyone learning Python.
+keywords: "python, quiz, your, test, knowledge, script, adsbygoogle, data"
 ---
 # Python Quizzes – Test Your Knowledge
 

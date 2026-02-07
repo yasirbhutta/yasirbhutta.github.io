@@ -1,3 +1,9 @@
+---
+layout: page
+title: MCQS
+description: *Q. Data generated after the processing of the data is called:* 1. Process 2. Information 3. Command 4. None *Q. The instructions given to the compute...
+keywords: file, computer, none, program, following
+---
 # MCQS
 
 ## Computer Basics- MCQS

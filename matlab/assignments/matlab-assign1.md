@@ -1,3 +1,9 @@
+---
+layout: page
+title: Matlab Assign1
+description: Download PDF Objective: Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in programming fundamentals. Target A...
+keywords: slide, your, concept, topic, key
+---
 ## Assignment: Programming Fundamentals Adventure!
 
 [Download PDF](matlab-assign1.pdf)

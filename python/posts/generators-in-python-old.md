@@ -1,3 +1,9 @@
+---
+layout: page
+title: Process each row
+description: Generators in Python Generators are a powerful tool in Python that allows you to generate a sequence of values on-the-fly, without having to store the...
+keywords: generators, memory, data, file, row
+---
 Generators in Python
 Generators are a powerful tool in Python that allows you to generate a sequence of values on-the-fly, without having to store them all in memory at once.
 

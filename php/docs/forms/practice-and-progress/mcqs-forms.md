@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /ms-excel/docs/functions/what-is-functions.html
 next: /ms-excel/docs/functions/sumif.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 1. **Which HTML tag is used to create a form?**

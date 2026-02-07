@@ -1,3 +1,9 @@
+---
+layout: page
+title: Window Networking Commands: tracert
+description: - Download PDF - To access the updated handouts, please click on the following link: https://yasirbhutta.github.io/windows/docs/tracert.html Here are...
+keywords: route, trace, tracert, command, hops
+---
 # Window Networking Commands: tracert
 
 - [Download PDF](https://yasirbhutta.github.io/windows/docs/tracert.pdf)

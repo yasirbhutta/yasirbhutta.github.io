@@ -12,11 +12,9 @@ show_practice_progress: true
 show_mini_project: null
 prev: /python/docs/control-flow/
 next: /python/docs/loop-control-statements/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Control Flow
-    url: /python/docs/control-flow/
+breadcrumb: 
+- title: Control Flow
+url: /python/docs/control-flow/
 ---
 
 ## **What is Structural Pattern Matching?**  

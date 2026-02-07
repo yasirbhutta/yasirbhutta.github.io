@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word - Microsoft 365
+description: - Online courses and trainings - Microsoft Word Basics - Character Formatting - Paragraph Formatting - Text Editing in Documents - Stylish Formatting...
+keywords: microsoft, formatting, word, features, assignment
+---
 # Microsoft Word - Microsoft 365
 
 - [Online courses and trainings](courses-msword.md)

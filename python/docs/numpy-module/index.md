@@ -11,11 +11,9 @@ toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
 prev: /python/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## NumPy in Python

@@ -4,11 +4,9 @@ title: Top Python Exercises for Beginners to Practice and Improve Coding Skills
 description: Kickstart your coding journey with these beginner-friendly Python exercises. Practice Python with real examples and coding challenges designed to boost your programming confidence.
 keywords: Python exercises for beginners, practice Python, beginner coding exercises, Python coding challenges, learn Python basics
 show_practice_progress: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Learn Python

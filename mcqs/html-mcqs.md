@@ -1,3 +1,9 @@
+---
+layout: page
+title: HTML5 - MCQS
+description: 1. What is HTML? >a. HTML describes the structure of a webpage >b. HTML is the standard markup language mainly used to create web pages >c.  HTML cons...
+keywords: html, web, used, browser, mcqs
+---
 # HTML5 - MCQS
 
 ## # Getting Started with Python - MCQS

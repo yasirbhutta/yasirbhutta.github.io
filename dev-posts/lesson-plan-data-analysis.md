@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here’s a structured **15-week lesson plan** for a course on **Data Analysis Using Python**, designed for 3 lectures per week (45 sessions total). The plan balances theory, hands-on coding, and real-world projects:
+description: Here’s a structured 15-week lesson plan for a course on Data Analysis Using Python, designed for 3 lectures per week (45 sessions total). The plan bal...
+keywords: data, activity, analysis, lectures, tools
+---
 Here’s a structured **15-week lesson plan** for a course on **Data Analysis Using Python**, designed for 3 lectures per week (45 sessions total). The plan balances theory, hands-on coding, and real-world projects:
 
 ---

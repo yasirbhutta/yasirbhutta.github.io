@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Beginner’s Guide to Jekyll: Build a Simple Static Website with Ease
 description: Learn how to create a simple, static website using Jekyll in this beginner-friendly tutorial. Step-by-step instructions on installation, setup, and basic customization.
+keywords: "jekyll, guide, static, your, beginner, build, simple, website"
 ---
 
 # Beginner’s Guide to Jekyll: Build a Simple Static Website with Ease

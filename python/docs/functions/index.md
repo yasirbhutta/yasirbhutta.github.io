@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Functions in Python: Complete Guide with Syntax, Examples, and Practice Tasks" 
-description: Master functions in Python with this beginner-friendly guide. Learn how to define functions, use return statements, default and keyword arguments, and solve practical coding tasks with real-world examples.  
+title: "Functions in Python: Complete Guide with Syntax, Examples, and Practice Tasks"
+description: Master functions in Python with this beginner-friendly guide. Learn how to define functions, use return statements, default and keyword arguments, and solve practical coding tasks with real-world examples.
 keywords: Functions in Python, Python function examples, how to define a function in Python, Python return statement, Python default arguments, Python keyword arguments, Python function tasks, Python beginner exercises, learn Python functions, Python programming basics
 author: Muhammad Yasir Bhutta
 course: python
@@ -12,13 +12,9 @@ show_practice_progress: true
 show_mini_project: null
 prev: /python/docs/list-comprehension/
 next: /python/docs/functions/#return-statement
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /Python/
-  - title: Functions
-    url: /python/docs/functions
+breadcrumb: 
+- title: Functions
+url: /python/docs/functions
 ---
 
 ## Table of Contents

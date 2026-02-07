@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Understanding URL Handling in Jekyll: Filters, Configs, and Best Practices
 description: Learn how to handle URL in jekyll to filters and configure urls of static website.
+keywords: "url, site, href, page, your, jekyll, example, blog"
 ---
 
 # Understanding URL Handling in Jekyll: Filters, Configs, and Best Practices

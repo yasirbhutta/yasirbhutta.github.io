@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel 2000 Key Terms
+description: Microsoft Excel 2000 Key Terms 1	Getting Started with Ms Excel 2	Creating a new work Book 3	Entering Text 4	Enter numbers 5	Formatting the text 5.1.	I...
+keywords: data, chart, cells, format, columns
+---
 
 Microsoft Excel 2000 Key Terms
 

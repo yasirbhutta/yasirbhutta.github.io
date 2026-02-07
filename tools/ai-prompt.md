@@ -1,3 +1,9 @@
+---
+layout: page
+title: ChatGPT Prompt
+description: ChatGPT Prompt 1. Rewrite the text below to fix any grammar and spelling mistakes 2. Ask me Excel quiz questions one at a time. 3. Explain [feature na...
+keywords: chatgpt, prompt, name, rewrite, text
+---
 
 ChatGPT Prompt
 

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Building a Responsive Horizontal Navigation Menu with CSS Flexbox
+description: Create a horizontal navigation bar with five menu items using HTML and CSS. The menu should be visually appealing and responsive. 1. Use an unordered...
+keywords: menu, color, href, padding, background
+---
 # Building a Responsive Horizontal Navigation Menu with CSS Flexbox
 
 ---

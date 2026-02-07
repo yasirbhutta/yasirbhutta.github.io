@@ -10,13 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-mm/
 next: /sap-education-research/docs/sap-ps/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: MM
-    url: /sap-education-research/docs/sap-mm/
+breadcrumb: 
+- title: MM
+url: /sap-education-research/docs/sap-mm/
 ---
 
 In **SAP**, **Material Types** define important controls for how a material is managed, procured, and accounted for. Each material type has specific properties, such as whether it is stock-managed, valuated, or consumed directly. Here’s a breakdown of the most commonly used **Material Types in SAP**:

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Microsoft Excel: Practical Topics" 
-description: "Microsoft Excel: Practical Topics" 
+title: "Microsoft Excel: Practical Topics"
+description: "Microsoft Excel: Practical Topics"
 keywords: Microsoft Excel, Practical Topics
 author: Muhammad Yasir Bhutta
 course: ms-excel

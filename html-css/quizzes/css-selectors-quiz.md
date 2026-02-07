@@ -1,3 +1,9 @@
+---
+layout: page
+title: Cascading Style Sheets(CSS) Quiz: Selectors
+description: Test your knowledge of CSS selectors with this interactive quiz! CSS selectors are essential for targeting and styling elements on a webpage. This qui...
+keywords: css, selectors, quiz, cascading, style
+---
 # Cascading Style Sheets(CSS) Quiz: Selectors
 Test your knowledge of CSS selectors with this interactive quiz! CSS selectors are essential for targeting and styling elements on a webpage. This quiz covers different types of selectors, including element, class, ID, attribute, pseudo-classes, and pseudo-elements. Challenge yourself and see how well you understand CSS selectors!
 

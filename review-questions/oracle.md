@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions
+description: 1. Write note on SQLPlus and Differentiate between SQLPlus and SQL developer? 1. How to connect to oracle database using SQL*Plus and write command to...
+keywords: write, explain, create, table, package
+---
 # Review Questions
 
 ## Oracle

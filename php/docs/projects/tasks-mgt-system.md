@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Mini Project: Personal Task Manager with PHP & MySQL**
+description: Build a web-based task manager where users can: - Create, view, edit, and delete tasks - Mark tasks as complete - Organize tasks by categories (Work,...
+keywords: task, php, category, title, tasks
+---
 # **Mini Project: Personal Task Manager with PHP & MySQL**
 
 ## **Project Title:** Simple Task Management System  

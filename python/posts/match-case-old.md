@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Structural Pattern Matching in Python (`match-case`): A Beginner’s Guide**
+description: Learn how to simplify complex conditional logic with Python’s powerful `match-case` syntax! Introduced in Python 3.10, `match-case` is a modern way to...
+keywords: case, print, match, data, matching
+---
 # **Structural Pattern Matching in Python (`match-case`): A Beginner’s Guide**  
 *Learn how to simplify complex conditional logic with Python’s powerful `match-case` syntax!*
 

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Glossary for Mathematics
+description: - Glossary for Mathematics - Radian - Term 2 - Term 3 A radian is a unit of angular measure used in mathematics, particularly in trigonometry and calc...
+keywords: radian, term, circle, radians, mathematics
+---
 # Glossary for Mathematics
 
 - [Glossary for Mathematics](#glossary-for-mathematics)

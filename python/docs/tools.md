@@ -1,15 +1,13 @@
 ---
 layout: page
 title: Python Tools & Utilities – Essential Developer Resources
-description: Discover must-have Python tools and utilities for developers. Enhance productivity with debugging, testing, and automation tools in Python.  
+description: Discover must-have Python tools and utilities for developers. Enhance productivity with debugging, testing, and automation tools in Python.
 keywords: Python tools, Python utilities, Python developer tools, best Python tools, Python debugging tools, Python testing tools, Python automation tools, Python libraries, Python IDE, Python productivity tools
 toc: toc/python.html
 topic: basics
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 # Python: Tools or IDE

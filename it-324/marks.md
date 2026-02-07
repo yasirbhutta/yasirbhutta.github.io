@@ -1,3 +1,9 @@
+---
+layout: page
+title: Final Term Spring 2025
+description: - JavaScirpt - PHP - Objective Questions – 08 Marks (16 Questions × 0.5 Mark Each): (3x True/False + 3x fill in the blanks + 10x MCQs) - 2x from Numbe...
+keywords: questions, marks, php, each, final
+---
 # Final Term Spring 2025
 
 ## Topics

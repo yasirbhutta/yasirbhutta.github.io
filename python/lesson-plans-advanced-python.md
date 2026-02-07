@@ -1,3 +1,9 @@
+---
+layout: page
+title: Advanced Python Lesson Plan (15 Weeks, 3 Lectures per Week)
+description: To master advanced Python concepts for efficient problem-solving, software development, and data manipulation. - Strong understanding of Python basics...
+keywords: lecture, week, project, class, methods
+---
 # Advanced Python Lesson Plan (15 Weeks, 3 Lectures per Week)
 
 ## Objective

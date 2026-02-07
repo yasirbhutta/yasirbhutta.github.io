@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Parameters and Arguments in Python Functions – Beginner’s Guide with Examples" 
-description: Learn the difference between parameters and arguments in Python functions with this beginner-friendly guide. Discover how to define functions, use return statements, default and keyword arguments, and solve practical coding tasks with real-world examples. Perfect for students and new Python programmers.  
+title: "Parameters and Arguments in Python Functions – Beginner’s Guide with Examples"
+description: Learn the difference between parameters and arguments in Python functions with this beginner-friendly guide. Discover how to define functions, use return statements, default and keyword arguments, and solve practical coding tasks with real-world examples. Perfect for students and new Python programmers.
 keywords: Python function parameters, Python function arguments, define function in Python, Python return statement, Python default arguments, Python keyword arguments, Python function examples, beginner Python functions, learn Python functions, Python programming basics
 author: Muhammad Yasir Bhutta
 course: python
@@ -12,13 +12,9 @@ show_practice_progress: null
 show_mini_project: null
 prev: /python/docs/list-comprehension/
 next: /python/docs/functions/#return-statement
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /Python/
-  - title: Functions
-    url: /python/functions
+breadcrumb: 
+- title: Functions
+url: /python/functions
 ---
 
 ## Table of Contents

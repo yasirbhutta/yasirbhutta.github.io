@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions - Microsoft Word
+description: 1. Set Arial Font For Ghazi University DG Khan, Font Size 14, Set Justify Alignment On Ghazi University DG Khan. 1. Set paragraph Indent (First line 1...
+keywords: set, line, word, paragraph, indent
+---
 # Review Questions - Microsoft Word
 
 1. Set Arial Font For Ghazi University DG Khan, Font Size 14, Set Justify Alignment On Ghazi University DG Khan.

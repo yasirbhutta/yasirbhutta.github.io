@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python for Beginners: Understanding the `__str__` Method
+description: Hey everyone, and welcome back! Today, we're diving into the wonderful world of Python and exploring how to customize object representations using the...
+keywords: title, author, method, str, book
+---
 # Python for Beginners: Understanding the `__str__` Method
 
 ## Introduction

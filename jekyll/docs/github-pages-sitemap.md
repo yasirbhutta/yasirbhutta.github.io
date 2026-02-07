@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: GitHub Pages Sitemap Not Working: Troubleshooting Guide for Google Search Console
 description: Is your GitHub Pages sitemap not being fetched by Google Search Console? This guide provides step-by-step troubleshooting tips to diagnose and fix "Couldn't Fetch" errors, ensuring your site is properly indexed for SEO.
+keywords: "sitemap, your, github, pages, xml, file, google, search"
 ---
 
 # GitHub Pages Sitemap Not Working: Troubleshooting Guide for Google Search Console

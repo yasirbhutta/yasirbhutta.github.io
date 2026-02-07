@@ -1,3 +1,9 @@
+---
+layout: page
+title: HTML: **Difference Between `id` and `name` in Form Submission**
+description: Both `id` and `name` attributes are used in HTML forms, but they serve different purposes. - Purpose: Used for form submission to identify data. - Req...
+keywords: form, name, submission, label, data
+---
 # HTML: **Difference Between `id` and `name` in Form Submission**  
 
 Both `id` and `name` attributes are used in HTML forms, but they serve different purposes.

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Teaching Schedule
+description: | Week     | Lecture No      | Contents to be covered  | Resources             | Remarks     | |----------|-------------|-------------------------|---...
+keywords: lecture, notes, python, week, please
+---
 # Teaching Schedule
 ## IT-323 Python Programming 3(2-1)
 

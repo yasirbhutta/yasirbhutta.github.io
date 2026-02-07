@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here are practical tasks using the netsh command in Windows to help beginners understand and apply its functionality:
+description: Here are practical tasks using the netsh command in Windows to help beginners understand and apply its functionality: 1. View Wireless Network Profile...
+keywords: network, netsh, command, task, goal
+---
 Here are practical tasks using the netsh command in Windows to help beginners understand and apply its functionality:
 
 1. View Wireless Network Profiles

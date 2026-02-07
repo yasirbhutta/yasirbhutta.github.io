@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Python Built-in Functions – Complete Guide with Examples, MCQs, and Practice  
-description: Explore Python built-in functions with this comprehensive guide. Learn how to use functions like zip(), filter(), and map() with clear examples, MCQs, quizzes, and coding exercises. Perfect for beginners and students to master Python programming basics.  
+title: Python Built-in Functions – Complete Guide with Examples, MCQs, and Practice
+description: Explore Python built-in functions with this comprehensive guide. Learn how to use functions like zip(), filter(), and map() with clear examples, MCQs, quizzes, and coding exercises. Perfect for beginners and students to master Python programming basics.
 keywords: Python built-in functions, Python zip function, Python filter function, Python map function, Python MCQs, Python quizzes, Python coding exercises, Python programming for beginners, learn Python functions,
 toc: toc/python.html
 ---

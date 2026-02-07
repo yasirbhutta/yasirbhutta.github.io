@@ -1,3 +1,9 @@
+---
+layout: page
+title: IP at Network Layer
+description: Binary Converting Binary to Decimal Converting Decimal to Binary Hexadecimal Converting Decimal to Hexadecimal 142 IP addresses are divided into diffe...
+keywords: subnet, bits, network, host, hosts
+---
 # IP at Network Layer
 
 ## IP Addressing and Formats

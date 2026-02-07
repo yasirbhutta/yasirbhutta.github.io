@@ -9,13 +9,9 @@ topic: functions
 toc: toc/ms-excel-toc.html
 prev: /ms-excel/docs/functions/more-functions.html
 next: /ms-excel/docs/tables.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 ## Named Cell Reference

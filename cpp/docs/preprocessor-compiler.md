@@ -1,7 +1,7 @@
 ---
 layout: page
-title: C++ Preprocessor vs Compiler – Understand the Compilation Process (Beginner's Guide)  
-description: Learn the difference between C++ preprocessor and compiler in the compilation process. Understand how preprocessor directives (/#include, /#define) work, how the compiler checks syntax and generates machine code, and see the complete compilation flow with examples. Perfect for C++ beginners.  
+title: C++ Preprocessor vs Compiler – Understand the Compilation Process (Beginner's Guide)
+description: Learn the difference between C++ preprocessor and compiler in the compilation process. Understand how preprocessor directives (/#include, /#define) work, how the compiler checks syntax and generates machine code, and see the complete compilation flow with examples. Perfect for C++ beginners.
 keywords: C++ preprocessor, C++ compiler, preprocessor directives, /#include /#define, C++ compilation process, syntax checking, machine code generation, C++ beginner guide, learn C++, compilation steps, C++ tutorial
 ---
 

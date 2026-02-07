@@ -1,3 +1,9 @@
+---
+layout: page
+title: Final Term Spring 2025
+description: - The math module. - String Manipulations - Formatting Strings - Defining and calling user-defined functions, Value-returning functions more - Anonymo...
+keywords: questions, marks, functions, pandas, basics
+---
 # Final Term Spring 2025
 
 ## Topics

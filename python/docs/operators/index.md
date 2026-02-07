@@ -1,27 +1,20 @@
 ---
 layout: page
 title: Python Operators Explained with Examples | Arithmetic, Logical, Comparison & More
-description: Master Python operators with clear examples. Learn how arithmetic, assignment, logical, comparison, identity, membership, and bitwise operators work in Python.  
+description: Master Python operators with clear examples. Learn how arithmetic, assignment, logical, comparison, identity, membership, and bitwise operators work in Python.
 keywords: python operators, python arithmetic operators, logical operators in python, comparison operators, python operator examples, python bitwise operators, assignment operators, identity operators, membership operators, python programming basics, python tutorials
 toc: toc/python.html
 author: Muhammad Yasir Bhutta
 course: python
 topic: operators
 show_toc: true
-toc: toc/python.html
 show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/basics/
 next: /python/docs/operators/practice-and-progress/find-fix-mistakes-variables.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
-  - title: Operators
-    url: /python/docs/operators/
+breadcrumb: 
+- title: Operators
+url: /python/docs/operators/
 ---
 
 ## Table of Contents

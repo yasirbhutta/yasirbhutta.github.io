@@ -1,3 +1,9 @@
+---
+layout: page
+title: Final Term
+description: - Color Theory - Canva - Capcut Total Objective (12 marks 1x12): - 3x from mid topics - 1x MCQS from Color Theory - 2x MCQS Canva - 9x from CapCut - 1...
+keywords: capcut, color, theory, canva, marks
+---
 # Final Term
 
 ## Topics

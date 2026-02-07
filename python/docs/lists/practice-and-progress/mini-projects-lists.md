@@ -12,13 +12,9 @@ next: "/python/docs/lists/practice-and-progress/review-questions-lists.html"
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: lists
-    url: /python/docs/lists/
+breadcrumb: 
+- title: lists
+url: /python/docs/lists/
 ---
 
 ## Mini Projects

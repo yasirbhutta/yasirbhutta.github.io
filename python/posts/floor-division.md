@@ -1,3 +1,9 @@
+---
+layout: page
+title: **What is the `//` Operator in Python?**
+description: The `//` operator in Python is the floor division operator. It divides two numbers and returns the quotient, rounded down to the nearest whole number...
+keywords: print, output, down, full, script
+---
 # **What is the `//` Operator in Python?**
 
 The `//` operator in Python is the **floor division** operator. It divides two numbers and **returns the quotient, rounded down to the nearest whole number (integer if both operands are integers, or a float if at least one operand is a float).**  

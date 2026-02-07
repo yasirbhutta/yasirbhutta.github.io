@@ -1,3 +1,9 @@
+---
+layout: page
+title: MID Term Fall 2025 (BSIT G evening)
+description: - Introduction to Programming - Introduction to C++ - Programming C++ - Input and Output - Conditional Structures (if..else..if Statement) Total Objec...
+keywords: programming, introduction, input, output, conditional
+---
 
 # MID Term Fall 2025 (BSIT G evening)
 

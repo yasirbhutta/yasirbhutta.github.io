@@ -4,11 +4,9 @@ title: 45-Day Beginner-Friendly Python Learning Plan
 description: Learn Python programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
 keywords: python tutorial for beginners, learn python programming, free python lessons, python pdf tutorials, open-source python guide, python coding for beginners, python exercises and projects, python programming basics, downloadable python resources, python step-by-step guide, 45 day python learning free, 45 day python learning plan, 45 day python roadmap, 45 day python learning road map
 show_practice_progress: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## 🧰 Tools Needed

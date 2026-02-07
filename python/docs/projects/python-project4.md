@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Project: Network Intrusion Detection System using Machine Learning
+description: Project Title: Network Intrusion Detection System using Machine Learning Project Domain / Category: Computer Networks / Cybersecurity / Machine Learni...
+keywords: network, model, intrusion, detection, traffic
+---
 # Python Project: Network Intrusion Detection System using Machine Learning
 
 **Project Title:** Network Intrusion Detection System using Machine Learning

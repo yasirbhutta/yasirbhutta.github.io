@@ -1,3 +1,9 @@
+---
+layout: page
+title: Level Up Your Coding Skills: Learn with ChatGPT Prompts!
+description: - 📌 1. "Explain [concept/technology] with examples, demonstrate a practical application, and provide exercises for practice. Include best practices, c...
+keywords: include, concept, technology, questions, feature
+---
 # Level Up Your Coding Skills: Learn with ChatGPT Prompts!
 
 - 📌 1. **"Explain [concept/technology] with examples, demonstrate a practical application, and provide exercises for practice. Include best practices, common mistakes, and tips for mastery."**  

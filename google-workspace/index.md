@@ -12,9 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: null
 next: /google-workspace/docs/google-search/
-breadcrumb:
-  - title: Home
-    url: /
+breadcrumb: 
+- title: Home
+url: /
 ---
 
 ## Google Services

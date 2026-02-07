@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Mini Project: Online Recipe Sharing Platform**
+description: ✅ User authentication (registration/login) ✅ Database relationships (recipes ↔ users) ✅ File uploads (recipe images) ✅ Search functionality ✅ Responsi...
+keywords: recipes, recipe, null, search, categories
+---
 # **Mini Project: Online Recipe Sharing Platform**
 
 ## **Project Title:** Simple Recipe Book

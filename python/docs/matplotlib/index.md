@@ -10,11 +10,9 @@ show_toc: null
 toc: toc/ms-excel-toc.html
 show_practice_progress: null
 show_mini_project: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of Contents

@@ -9,13 +9,9 @@ topic: "dictionaries"
 course: "python"
 prev: "/python/docs/dictionaries/practice-and-progress/exercises-dictionaries.html"
 next: "/python/docs/dictionaries/practice-and-progress/review-questions-dictionaries.html"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Dictionaries
-    url: /python/docs/dictionaries/
+breadcrumb: 
+- title: Dictionaries
+url: /python/docs/dictionaries/
 ---
 
 To learn more about using the `while loop` statement in Python, please visit **[Control Flow Statements: while loop](../index.md)

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Weekly Teaching Schedule for IT-324 Web Development 3(2-1)
+description: - Course Title: Web Development - Course Code: IT-324 - Credit Hours: 3(2-1) Course Objectives: The purpose of this course is to provide a practical i...
+keywords: lecture, web, data, using, script
+---
 # Weekly Teaching Schedule for IT-324 Web Development 3(2-1)
 
 - **Course Title:** Web Development

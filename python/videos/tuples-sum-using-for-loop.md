@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: page
 title: "Python tuples example: Calculate the Sum of a Tuple Using a For Loop"
 description: Calculate the Sum of a Tuple Using a For Loop.
 keywords: calculate the Sum of a Tuple Using a for Loop, python tuples example, python exercises for beginners, python tuple exercises
@@ -8,13 +8,9 @@ course: python
 topic: tuples
 toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Tuples
-    url: /python/docs/tuples/
+breadcrumb: 
+- title: Tuples
+url: /python/docs/tuples/
 ---
 
 {% assign video_type = "video" %}

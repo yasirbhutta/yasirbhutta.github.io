@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Forms and Controls Quiz: Test Your Knowledge of Form Elements.
 description: Challenge your understanding of HTML forms and input controls with this interactive quiz. Perfect for beginners to practice essential topics like text fields, checkboxes, radio buttons, and dropdowns in web development.
+keywords: "forms, html, script, adsbygoogle, data, quiz, controls, your"
 ---
 # HTML Quiz: Forms and Controls
 Test your knowledge of HTML forms and input controls with this interactive quiz! From text fields to checkboxes, radio buttons, and dropdowns, this quiz covers essential form elements used in web development. Whether you're a beginner or upgrading your skills, challenge yourself and see how well you understand HTML forms. Ready to dive in? Let's get started! 🚀

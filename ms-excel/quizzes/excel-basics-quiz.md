@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel Quiz: Basics
+description: To learn more about `Microsoft Excel Basics, please visit Microsoft Excel: Basics Topics Convered: - Introduction to Microsoft Excel - Worksheets and...
+keywords: excel, microsoft, basics, data, script
+---
 # Microsoft Excel Quiz: Basics
 
 To learn more about `Microsoft Excel Basics, please visit **[Microsoft Excel: Basics](../docs/basics.md)**

@@ -9,13 +9,9 @@ topic: functions
 toc: toc/ms-excel-toc.html
 prev: /ms-excel/docs/formulas.html
 next: /ms-excel/docs/functions/what-is-functions.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 [Download PDF](/downloads/ms-excel/functions/cell-references.pdf)

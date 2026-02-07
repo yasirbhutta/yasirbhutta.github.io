@@ -9,13 +9,9 @@ topic: "sets"
 course: "python"
 prev: "/python/docs/sets/practice-and-progress/exercises-sets.html"
 next: "/python/docs/sets/practice-and-progress/review-questions-sets.html"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Sets
-    url: /python/docs/sets/
+breadcrumb: 
+- title: Sets
+url: /python/docs/sets/
 ---
 
 To learn more about using the `while loop` statement in Python, please visit **[Control Flow Statements: while loop](../index.md)

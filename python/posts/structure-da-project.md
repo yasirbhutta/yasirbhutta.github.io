@@ -1,3 +1,9 @@
+---
+layout: page
+title: How to Structure a Data Analysis Project in Python: A Complete Guide
+description: Here's your updated data analysis project structure, incorporating tests and reports with detailed suggestions. mydataanalysis_project/ │── data/ │...
+keywords: data, tests, reports, report, analysis
+---
 # How to Structure a Data Analysis Project in Python: A Complete Guide
 
 Here's your updated **data analysis project structure**, incorporating **tests** and **reports** with detailed suggestions.  

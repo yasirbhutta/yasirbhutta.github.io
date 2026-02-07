@@ -2,6 +2,7 @@
 layout: page
 title: Python Classes Fill-in-the-Blanks Practice.
 description: Test your knowledge of Python classes and objects with these fill-in-the-blank exercises. Learn key concepts like attributes, methods, and the __init__ method with answers provided for self-assessment.
+keywords: "assign, topic, classes, practice-and-progress, docs"
 toc: toc/python.html
 topic: "classes"
 course: "python"

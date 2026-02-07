@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Forms and Controls: Examples and User Input Best Practices.
 description: Learn how to create and manage HTML forms with these examples and best practices. Explore input types, form attributes, and validation techniques to enhance user input handling in web development..
+keywords: "input, type, form, label, name, value, body, option"
 ---
 
 # User Input in HTML: Forms and Controls

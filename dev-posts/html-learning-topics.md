@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here’s a well-organized list of **HTML learning topics**, starting from beginner to advanced levels:
+description: Here’s a well-organized list of HTML learning topics, starting from beginner to advanced levels: 1. What is HTML? - Introduction and purpose of HTML -...
+keywords: html, tags, attributes, list, learning
+---
 Here’s a well-organized list of **HTML learning topics**, starting from beginner to advanced levels:
 
 ---

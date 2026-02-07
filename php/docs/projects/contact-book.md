@@ -1,3 +1,9 @@
+---
+layout: page
+title: 📘 Project: **Contact Book**
+description: Absolutely! Here's a complete Contact Book PHP project using MySQL with HTML and CSS. This project is perfect for beginners and covers full CRUD opera...
+keywords: contact, php, name, email, phone
+---
 Absolutely! Here's a complete **Contact Book PHP project** using **MySQL** with **HTML and CSS**. This project is perfect for beginners and covers full **CRUD operations** (Create, Read, Update, Delete).
 
 ---

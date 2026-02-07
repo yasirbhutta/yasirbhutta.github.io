@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /canva/
 next: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Canva
-    url: /canva/
+breadcrumb: 
+- title: Canva
+url: /canva/
 ---
 
 ## Canva Assignment: Create a YouTube Thumbnail!

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: True or False - Python Functions - Test Your Knowledge.
 description: Test your understanding of Python functions with these true or false questions. Perfect for beginners and intermediates to assess and improve their knowledge of key concepts.
+keywords: "function, answer, python, true, false, keyword, defined, functions"
 ---
 
 ### True or False: Functions in Python

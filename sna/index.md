@@ -1,3 +1,9 @@
+---
+layout: page
+title: System and Network Administration
+description: 1. Lab 1: Setting Up a Virtual Machine with VirtualBox/VMware - Install a virtual machine. 2. Lab 2: Linux Installation and Setup - Install a Linux di...
+keywords: lab, server, permissions, slides, file
+---
 # System and Network Administration
 
 ## **Linux Systems**

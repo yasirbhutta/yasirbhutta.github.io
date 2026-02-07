@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Project: Customer Sales Analysis for a Retail Company
+description: Project Title: Customer Sales Analysis for a Retail Company Project Domain / Category: Data Analysis / Business Intelligence The goal of this project...
+keywords: sales, data, analysis, customer, trends
+---
 # Python Project: Customer Sales Analysis for a Retail Company
 
 **Project Title:** Customer Sales Analysis for a Retail Company

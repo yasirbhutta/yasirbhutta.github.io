@@ -1,3 +1,9 @@
+---
+layout: page
+title: In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1.
+description: Exercise: Random Numbers In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1. Drag the fill handle (the small sq...
+keywords: random, cell, generate, enter, formula
+---
 **Exercise:** Random Numbers
 
 In cell A1, enter the formula =RAND(). This will generate a random number between 0 and 1.

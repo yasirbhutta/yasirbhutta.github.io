@@ -1,3 +1,9 @@
+---
+layout: page
+title: Hugging Face is a company and open-source platform that provides tools and models for natural language processing (NLP), computer vision, audio processing, and other areas of machine learning (ML) and artificial intelligence (AI).
+description: Hugging Face is a company and open-source platform that provides tools and models for natural language processing (NLP), computer vision, audio proces...
+keywords: models, hugging, face, processing, nlp
+---
 Hugging Face is a company and open-source platform that provides tools and models for natural language processing (NLP), computer vision, audio processing, and other areas of machine learning (ML) and artificial intelligence (AI).
 
 Key Highlights:

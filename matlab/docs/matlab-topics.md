@@ -1,3 +1,9 @@
+---
+layout: page
+title: MATLAB Topics for Presentation
+description: 1. MATLAB for Data Analysis: Techniques for importing, analyzing, and visualizing data. 2. Data Analysis with MATLAB. 3. Getting Started with MATLAB....
+keywords: matlab, data, analysis, basic, visualization
+---
 # MATLAB Topics for Presentation
 
 1. MATLAB for Data Analysis: Techniques for importing, analyzing, and visualizing data.

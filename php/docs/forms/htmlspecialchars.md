@@ -1,3 +1,9 @@
+---
+layout: page
+title: The `htmlspecialchars()` function in PHP is used to **convert special characters to HTML entities**. This is commonly used to **prevent Cross-Site Scripting (XSS)** attacks by making sure that HTML tags or JavaScript code entered by users are displayed as text and not executed by the browser.
+description: The `htmlspecialchars()` function in PHP is used to convert special characters to HTML entities. This is commonly used to prevent Cross-Site Scripting...
+keywords: html, htmlspecialchars, used, xss, script
+---
 The `htmlspecialchars()` function in PHP is used to **convert special characters to HTML entities**. This is commonly used to **prevent Cross-Site Scripting (XSS)** attacks by making sure that HTML tags or JavaScript code entered by users are displayed as text and not executed by the browser.
 
 ### 🔐 Why use it?

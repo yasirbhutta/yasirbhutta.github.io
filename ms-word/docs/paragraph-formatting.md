@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word: Paragraph Formatting \|Microsoft 365
+description: - Slides: Paragraph Formatting - Download PDF - To access the updated handouts, please click on the following link: https://yasirbhutta.github.io/ms-w...
+keywords: paragraph, left, text, alignment, line
+---
 # Microsoft Word: Paragraph Formatting \|Microsoft 365
 
 - [Slides: Paragraph Formatting](https://docs.google.com/presentation/d/19eJfCh7-1jiuGKPrB6bUv8vB7JdDVngFhMi4R_2JMbI/edit?usp=sharing)

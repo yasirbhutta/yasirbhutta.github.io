@@ -9,11 +9,9 @@ topic: mysql-php
 toc: toc/php.html
 prev: /php/docs/forms/
 next: /php/docs/projects/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: PHP
-    url: /php/
+breadcrumb: 
+- title: PHP
+url: /php/
 ---
 
 ### WHAT IS MYSQL?

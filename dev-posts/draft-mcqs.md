@@ -1,3 +1,9 @@
+---
+layout: page
+title: Great! Here's a quiz comparing tuple vs list identity using the id() function:
+description: Great! Here's a quiz comparing tuple vs list identity using the id() function: 🚀 Think You Know Python? Test Your Skills! 🚀 What does this code output...
+keywords: output, print, answer, tuple, class
+---
 Great! Here's a quiz comparing tuple vs list identity using the id() function:
 
 

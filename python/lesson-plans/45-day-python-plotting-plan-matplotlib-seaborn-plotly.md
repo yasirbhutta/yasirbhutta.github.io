@@ -4,11 +4,9 @@ title: "45-Day Roadmap to Python Visualization: Line, Bar, Heatmaps & Interactiv
 description: Learn Python data visualization step-by-step in just 45 days! This beginner-friendly plotting course covers Matplotlib, Seaborn, and Plotly with 3 lessons per week, real projects, and practical examples. Perfect for students, developers, and data analysts.
 keywords: python plotting course, 45 day python visualization plan, matplotlib seaborn plotly tutorial, python data visualization roadmap, weekly python plotting guide, learn matplotlib step by step, seaborn and plotly charts, beginner-friendly python plotting, python graph tutorials with projects, interactive charts in python
 show_practice_progress: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## 📅 Week 1: Plotting Foundations

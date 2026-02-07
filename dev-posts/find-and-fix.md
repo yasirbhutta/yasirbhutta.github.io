@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Custom Modules: Find and Fix Mistakes - Beginner Practice Questions
+description: Great! Here's the Find and Fix the Mistakes – Lambda Functions worksheet for beginners, now including: The mistake code A brief issue statement The co...
+keywords: lambda, print, radius, add, code
+---
 Great! Here's the Find and Fix the Mistakes – Lambda Functions worksheet for beginners, now including:
 
 The mistake code

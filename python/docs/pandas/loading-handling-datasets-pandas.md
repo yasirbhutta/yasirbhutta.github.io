@@ -8,13 +8,9 @@ course: python
 toc: toc/python.html
 prev: "/python/docs/pandas/"
 next: "/python/"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Pandas
-    url: /python/docs/pandas/
+breadcrumb: 
+- title: Pandas
+url: /python/docs/pandas/
 ---
 
 ## Table of Contents

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "PHP Basics True or False Questions – Test Your Core PHP Knowledge"
+title: "PHP Basics True or False Questions – Test Your Core PHP Knowledge"
 description: Boost your PHP skills with these essential true or false questions on PHP basics. Perfect for beginners and interview preparation. Test your knowledge now!.
 keywords: PHP basics, PHP quiz, PHP true or false, core PHP questions, PHP test online, PHP interview questions, learn PHP, PHP for beginners, PHP basics quiz, PHP practice test, PHP fundamentals, PHP MCQ, PHP assessment, PHP online quiz, PHP knowledge check
 topic: "basics"

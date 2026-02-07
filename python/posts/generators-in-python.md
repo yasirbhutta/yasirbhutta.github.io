@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Generators: A Beginner's Guide to Memory-Efficient Iteration
+description: - Python Generator Quiz - Test your knowledge In the world of Python programming, efficiency often goes hand-in-hand with effective resource managemen...
+keywords: python, generator, generators, data, memory
+---
 # Python Generators: A Beginner's Guide to Memory-Efficient Iteration
 
 - [Python Generator Quiz - Test your knowledge](../quizzes/python-generators-quiz.md)

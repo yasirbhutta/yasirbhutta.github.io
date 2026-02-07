@@ -1,3 +1,9 @@
+---
+layout: page
+title: Vertical: stacked one below the other
+description: Here’s an example of multiple subplots using PyWaffle, with both horizontal and vertical layouts. This is useful for comparing categorical data across...
+keywords: plt, subplot, values, title, label
+---
 Here’s an example of **multiple subplots** using **PyWaffle**, with both **horizontal and vertical layouts**. This is useful for comparing categorical data across different groups.
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "JavaScript Tutorial for Beginners" 
-description: "Learn JavaScript from scratch with this beginner-friendly tutorial. Understand variables, functions, loops, and DOM manipulation through practical examples and hands-on coding."  
+title: "JavaScript Tutorial for Beginners"
+description: "Learn JavaScript from scratch with this beginner-friendly tutorial. Understand variables, functions, loops, and DOM manipulation through practical examples and hands-on coding."
 keywords: "JavaScript tutorial, learn JavaScript, JavaScript for beginners, JavaScript basics, programming tutorial, coding for beginners, JavaScript guide, beginner JavaScript course, JavaScript syntax, front-end development"
 toc: toc/javascript.html
 topic: "basics"

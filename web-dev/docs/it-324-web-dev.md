@@ -1,3 +1,9 @@
+---
+layout: page
+title: IT-324 Web Development 3(2-1)
+description: - Course Contents - Weekly Lesson Plan - Timetable - Resourses Here’s a structured lesson plan incorporating Email Control, File Control, Reset Button...
+keywords: network, troubleshooting, tools, lesson, plan
+---
 # IT-324 Web Development 3(2-1)
 
 - [Course Contents](#)

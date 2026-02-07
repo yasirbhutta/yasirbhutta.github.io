@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "JavaScript Events Explained: A Beginner's Guide with Examples" 
-description: "Learn what events are in JavaScript and how to use them effectively. This beginner-friendly guide covers click events, keyboard events, and more with simple examples."  
+layout: page
+title: "JavaScript Events Explained: A Beginner's Guide with Examples"
+description: "Learn what events are in JavaScript and how to use them effectively. This beginner-friendly guide covers click events, keyboard events, and more with simple examples."
 keywords: "JavaScript events, JS event handling, JavaScript click event, addEventListener, keyboard event JavaScript, JavaScript for beginners, event listener tutorial"
 toc: toc/javascript.html
 topic: "basics"

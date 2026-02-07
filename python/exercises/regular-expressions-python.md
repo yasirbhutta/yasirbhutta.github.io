@@ -1,3 +1,9 @@
+---
+layout: page
+title: Regular Expressions in Python: Coding Exercises
+description: Write a Python program that asks the user to enter a password and checks whether it is valid based on the following rules: 1. The password must be at...
+keywords: least, contain, one, letter, python
+---
 # Regular Expressions in Python: Coding Exercises
 
 ## Exercise #1

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here’s a **15-week lesson plan** focused specifically on **Data Visualization with Python**, designed for 3 lectures per week (45 sessions total). The plan emphasizes mastering visualization tools, design principles, and storytelling with data:
+description: Here’s a 15-week lesson plan focused specifically on Data Visualization with Python, designed for 3 lectures per week (45 sessions total). The plan em...
+keywords: activity, data, plots, plotly, visualization
+---
 Here’s a **15-week lesson plan** focused specifically on **Data Visualization with Python**, designed for 3 lectures per week (45 sessions total). The plan emphasizes mastering visualization tools, design principles, and storytelling with data:
 
 ---

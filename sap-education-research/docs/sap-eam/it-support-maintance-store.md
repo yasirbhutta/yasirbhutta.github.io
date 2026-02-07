@@ -10,13 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
 next: /sap-education-research/docs/sap-fico/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: EAM
-    url: /sap-education-research/docs/sap-eam/
+breadcrumb: 
+- title: EAM
+url: /sap-education-research/docs/sap-eam/
 ---
 
 ## Table of Contents

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Web Development Articles
+description: - Difference Between `id` and `name` in Form Submission - Building a Responsive Horizontal Navigation Menu with CSS Flexbox - How to make embedded you...
+keywords: web, responsive, youtube, development, articles
+---
 # Web Development Articles
 
 ## HTML

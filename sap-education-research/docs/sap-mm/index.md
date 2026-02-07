@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SAP MM (Materials Management) Guide 2025 - Procurement, Inventory & Supply Chain"
-description: Learn how SAP MM streamlines procurement, inventory control & supply chain operations. Explore key features, transaction codes, and integration with SAP SD/PP modules. 
+description: Learn how SAP MM streamlines procurement, inventory control & supply chain operations. Explore key features, transaction codes, and integration with SAP SD/PP modules.
 keywords: SAP MM, SAP Materials Management, SAP procurement, SAP inventory management, SAP MM transaction codes, SAP purchase order, SAP vendor management, SAP MM configuration, SAP MM vs S/4HANA MM, SAP MM certification, SAP MM training, SAP MRP, SAP MM reports, SAP MM integration, SAP supply chain
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
@@ -11,11 +11,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-hcm/
 next: /sap-education-research/docs/sap-ps/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 ### 📦 What is **SAP MM (Materials Management)?**
 

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Header 1
+description: You can use the editor on GitHub to maintain and preview the content for your website in Markdown files. Whenever you commit to this repository, GitHu...
+keywords: your, markdown, pages, use, github
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yasirbhutta/webdirectory/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

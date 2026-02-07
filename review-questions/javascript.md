@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions
+description: 1. Describe the operation of the alert method in JavaScript. 1. Describe the operation of the prompt() method in JavaScript. 1. Write a program to exe...
+keywords: javascript, html, script, describe, write
+---
 # Review Questions
 
 ## The Basics of JavaScript

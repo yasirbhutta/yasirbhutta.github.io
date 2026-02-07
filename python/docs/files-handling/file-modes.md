@@ -9,11 +9,9 @@ topic: files-handling
 toc: toc/python.html
 prev: /python/docs/modules/numpy.html
 next: /python/docs/modules/scipy.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 Understanding file modes is essential when working with files in Python. File modes determine how you can interact with a file - whether you can read from it, write to it, or both. Let's explore each mode with simple examples.

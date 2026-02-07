@@ -9,11 +9,9 @@ topic: computer
 toc: toc/computer-basics.html
 prev: /cs-301/course-contents.html
 next: /computer-basics/docs/number-systems.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Google Workspace
-    url: /google-workspace/
+breadcrumb: 
+- title: Google Workspace
+url: /google-workspace/
 ---
 
 # Journey into the World Of Computers

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Practical Tasks for Computer Users
+description: 1. Starting and Shutting Down: Learn how to start, restart, and shut down your computer. 2. Using the Start Menu: Explore the Start menu to find and o...
+keywords: using, your, software, computer, files
+---
 # Practical Tasks for Computer Users
 
 ## Basic Tasks

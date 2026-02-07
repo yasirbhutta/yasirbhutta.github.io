@@ -11,13 +11,9 @@ topic: lists
 show_toc: true
 show_practice_progress: null
 show_mini_project: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Tools
-    url: /python/docs/tools.html
+breadcrumb: 
+- title: Tools
+url: /python/docs/tools.html
 ---
 
 ## **📺 Video Tutorial: How to: Install Jupyter Notebook on an Android device | Python Tutorial for Beginners**  

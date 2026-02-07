@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings
+description: Hey everyone, and welcome back! Today, we're diving into one of Python's most powerful and readable string formatting techniques—multi-line f-strings....
+keywords: strings, line, string, multi, formatting
+---
 # Python Multi-Line F-String Tutorial: Creating Readable and Dynamic Strings
 
 ## Introduction

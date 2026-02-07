@@ -1,8 +1,9 @@
 ---
-layout: exercises
+layout: page
 title: "Python OOP Inheritance Coding Exercises for Beginners"
-meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
+description: "<!-- ## 🧪 Practice Time! Create a class Employee with a method work(). Create a class Manager that inherits from Employee and adds a method manage()...."
 keywords: Python OOP exercises, Python inheritance practice, OOP coding problems, Python class inheritance exercises, Python beginner OOP tasks, multiple inheritance Python examples, object-oriented programming challenges, Python coding practice
+meta_description: "Practice Python OOP inheritance with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical inheritance to strengthen your object-oriented programming skills."
 toc: toc/python.html
 topic: "oop-inheritance"
 course: "python"
@@ -11,13 +12,9 @@ next: /python/docs/oop-inheritance/practice-and-progress/mcqs-oop-inheritance.ht
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 

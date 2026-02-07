@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Microsoft Excel Formatting Quiz - Test Your Knowledge  
-description: Test your knowledge of Microsoft Excel formatting with this. Learn about cell formatting, font styles, number formats, shortcuts, and more. Perfect for beginners to enhance their Excel skills.  
+layout: page
+title: Microsoft Excel Formatting Quiz - Test Your Knowledge
+description: Test your knowledge of Microsoft Excel formatting with this. Learn about cell formatting, font styles, number formats, shortcuts, and more. Perfect for beginners to enhance their Excel skills.
 keywords: Microsoft Excel quiz, Excel basics quiz, worksheets and workbooks quiz, Excel data entry practice, beginner Excel quiz, Excel fundamentals test, Microsoft Excel skills assessment, Excel basics practice, Excel quiz for beginners.
 author: Muhammad Yasir Bhutta.
 To learn more about `Microsoft Excel Formatting, please visit **[Microsoft Excel: Formatting](../docs/formatting.md)**

@@ -6,11 +6,9 @@ keywords: CS-301 syllabus, computer science course outline, CS-301 topics, cours
 author: Muhammad Yasir Bhutta
 course: cs-301
 next: /cs-301/resources.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: CS-301
-    url: /cs-301/
+breadcrumb: 
+- title: CS-301
+url: /cs-301/
 ---
 
 - [Resources: Books, Websites, Tutorials](resources.md)

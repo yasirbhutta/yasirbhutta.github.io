@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Microsoft Excel Basics - Exercises for Beginners"
-meta_description: "Practice your Microsoft Excel skills with these beginner-friendly exercises. Learn how to insert, delete, rename, hide, and unhide worksheets to strengthen your understanding of Excel basics."
+description: "Learn about {% assign topic = "basics" %} with this comprehensive guide."
 keywords: "Microsoft Excel basics, Excel exercises for beginners, Excel worksheet management, insert worksheet, delete worksheet, rename worksheet, hide worksheet, unhide worksheet, Excel workbook practice, beginner Excel skills"
+meta_description: "Practice your Microsoft Excel skills with these beginner-friendly exercises. Learn how to insert, delete, rename, hide, and unhide worksheets to strengthen your understanding of Excel basics."
 toc: toc/ms-excel-toc.html
 topic: "basics"
 course: "ms-excel"

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: CSS Selectors Quiz: Test Your Knowledge of CSS Selectors.
 description: Test your understanding of CSS selectors with this interactive quiz. Perfect for beginners to practice targeting elements using class, ID, attribute, pseudo-classes, and pseudo-elements in web development..
+keywords: "css, selectors, quiz, cascading, style, sheets, elements, pseudo"
 ---
 
 # Cascading Style Sheets(CSS) Quiz: Selectors

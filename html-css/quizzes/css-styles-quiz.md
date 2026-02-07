@@ -1,3 +1,9 @@
+---
+layout: page
+title: Cascading Style Sheets(CSS) Quiz: Styles / Properties
+description: Test your knowledge of CSS styles and properties with this interactive quiz! From fundamental styling concepts to advanced CSS techniques, challenge y...
+keywords: css, styling, quiz, your, more
+---
 # Cascading Style Sheets(CSS) Quiz: Styles / Properties
 
 Test your knowledge of CSS styles and properties with this interactive quiz! From fundamental styling concepts to advanced CSS techniques, challenge yourself with questions on selectors, layouts, colors, typography, and more. Whether you're a beginner or an experienced web developer, this quiz will help reinforce your understanding of CSS and its role in modern web design. Ready to put your skills to the test? Start now and see how well you know CSS!

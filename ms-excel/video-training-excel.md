@@ -1,3 +1,9 @@
+---
+layout: page
+title: Excel video training
+description: - Download PDF - To access the updated handouts, please click on the following link: https://yasirbhutta.github.io/ms-excel/resources/video-training-e...
+keywords: excel, video, data, download, workbook
+---
 # Excel video training
 
 

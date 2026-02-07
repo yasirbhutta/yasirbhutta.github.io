@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word: Character Formatting \| Microsoft 365
+description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Slides: Character Formatting - Download PDF - To access the u...
+keywords: font, formatting, text, word, character
+---
 # Microsoft Word: Character Formatting \| Microsoft 365
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)

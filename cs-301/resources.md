@@ -1,3 +1,9 @@
+---
+layout: page
+title: CS-301 - Resources
+description: - Introduction To Computers 7th edition By Peter Norton - Discovering Computers ©2018: Digital Technology, Data, and Devices by Vermaat, Sebok, Freund...
+keywords: computers, resources, introduction, edition, peter
+---
 # CS-301 - Resources
 
 ## Books

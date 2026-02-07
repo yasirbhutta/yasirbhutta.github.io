@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Comprehensive Web Development Guide: HTML, CSS, PHP, and Jekyll Tutorials.
 description: Explore comprehensive web development tutorials on HTML, CSS, PHP, and Jekyll. Perfect for beginners and students looking to build modern websites with ease.
+keywords: "web, development, guide, html, css, php, comprehensive, jek"
 ---
 
 # Comprehensive Web Development Guide: HTML, CSS, PHP, and Jekyll Tutorials

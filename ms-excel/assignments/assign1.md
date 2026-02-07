@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Excel Assignment - Create a Professional Sale Invoice  
-description: Complete this Microsoft Excel assignment to create a professional sale invoice. Learn to apply merge, wrap text, borders, use SUM and AVERAGE functions, and format sheets. Perfect for beginners to enhance their Excel skills.  
+title: Microsoft Excel Assignment - Create a Professional Sale Invoice
+description: Complete this Microsoft Excel assignment to create a professional sale invoice. Learn to apply merge, wrap text, borders, use SUM and AVERAGE functions, and format sheets. Perfect for beginners to enhance their Excel skills.
 keywords: Microsoft Excel assignment, Excel sale invoice, Excel beginner assignment, Excel SUM function, Excel AVERAGE function, Excel formatting tutorial, Excel merge and wrap text, Excel table borders, Excel video assignment, Excel practice for beginners
 author: Muhammad Yasir Bhutta
 course: ms-excel
@@ -11,11 +11,9 @@ show_toc: true
 show_practice_progress: null
 show_mini_project: null
 prev: /ms-excel/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 # Ms Excel - Sale Invoice

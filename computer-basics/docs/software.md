@@ -9,11 +9,9 @@ topic: hardware
 toc: toc/computer-basics.html
 prev: /computer-basics/docs/storage-devices.html
 next: /python/docs/quick-guide.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Computer Basics
-    url: /computer-basics/
+breadcrumb: 
+- title: Computer Basics
+url: /computer-basics/
 ---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/software.pdf)

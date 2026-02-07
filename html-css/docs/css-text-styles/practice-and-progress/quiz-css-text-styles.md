@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: CSS Text and Background Styling Quiz: Test Your Knowledge of CSS Properties.
 description: Challenge your understanding of CSS text and background styling with this interactive quiz. Perfect for beginners and advanced learners to practice key concepts like typography, colors, layouts, and more in web design.
+keywords: "css, styling, quiz, your, more, styles, properties, test"
 ---
 
 # Cascading Style Sheets(CSS) Quiz: Styles / Properties

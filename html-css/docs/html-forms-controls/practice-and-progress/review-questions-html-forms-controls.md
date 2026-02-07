@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Forms and Controls Review Questions: Test Your Knowledge.
 description: --.
+keywords: "form, answer, input, create, use, tag, attribute, field"
 ---
 
 ### Review Questions: HTML Forms and Controls

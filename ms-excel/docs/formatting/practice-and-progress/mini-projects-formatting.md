@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Excel Formatting Mini Project: Create a Professional Dashboard  
-description: Learn Excel formatting techniques with this mini project. Create a professional dashboard using font styles, conditional formatting, charts, and more. Perfect for beginners and data enthusiasts.  
+layout: page
+title: Excel Formatting Mini Project: Create a Professional Dashboard
+description: Learn Excel formatting techniques with this mini project. Create a professional dashboard using font styles, conditional formatting, charts, and more. Perfect for beginners and data enthusiasts.
 keywords: Excel formatting mini project, Excel dashboard creation, Excel conditional formatting, Excel data visualization, Excel beginner project, Excel formatting techniques, professional Excel dashboard
 author: Muhammad Yasir Bhutta.
 ---

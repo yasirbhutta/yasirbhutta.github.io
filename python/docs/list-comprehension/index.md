@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /python/
 next: /python/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of Contents

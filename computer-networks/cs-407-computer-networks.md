@@ -1,3 +1,9 @@
+---
+layout: page
+title: This outline should give beginners a comprehensive introduction to computer networks through hands-on experience. Adjustments can be made based on the specific needs and pace of the learners.
+description: - Lab 1: Basic Networking Concepts - Overview of computer networks, protocols, and topologies. - Hands-on activity: Identify different types of networ...
+keywords: lab, hands, network, activity, introduction
+---
 
 
 ### **Week 1-2: Introduction to Computer Networks**

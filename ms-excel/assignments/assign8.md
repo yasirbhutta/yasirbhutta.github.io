@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Excel Assignment - Excel Functions 
-description: Practice essential Microsoft Excel functions with this beginner-friendly assignment. Learn how to use SUM, SUMIF, MAX, MIN, COUNT, IF, CONCAT, and more for product sales analysis, data entry, formatting, calculations, and data analysis. Perfect for students to master Excel basics and improve productivity.  
+title: Microsoft Excel Assignment - Excel Functions
+description: Practice essential Microsoft Excel functions with this beginner-friendly assignment. Learn how to use SUM, SUMIF, MAX, MIN, COUNT, IF, CONCAT, and more for product sales analysis, data entry, formatting, calculations, and data analysis. Perfect for students to master Excel basics and improve productivity.
 keywords: Microsoft Excel assignment, Excel functions practice, Excel beginner assignment, Excel formulas, Excel product sales analysis, Excel data entry, Excel formatting, Excel calculations, Excel data analysis, Excel productivity tips, Excel syntax examples, Excel hard copy assignment
 author: Muhammad Yasir Bhutta
 course: ms-excel
@@ -11,11 +11,9 @@ show_toc: true
 show_practice_progress: null
 show_mini_project: null
 prev: /ms-excel/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 - [Download PDF](/downloads/ms-excel/assignments/assign8.pdf)  

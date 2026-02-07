@@ -2,8 +2,7 @@
 layout: page
 title: "SymPy Python: Master Symbolic Math for Algebra & Calculus (2025)"
 description: Complete SymPy tutorial for symbolic mathematics in Python. Solve equations, simplify expressions, perform calculus & algebra with practical examples. Perfect for STEM applications.
-keywords: sympy python, symbolic math python, computer algebra system python, 
-sympy tutorial, equation solving python, symbolic computation, sympy examples, symbolic differentiation python, symbolic integration python, matrix operations sympy, latex output sympy, sympy physics,how to solve equations with sympy, simplify math expressions python, learn symbolic programming, sympy for beginners, python algebra library
+keywords: sympy python, symbolic math python, computer algebra system python,
 author: Muhammad Yasir Bhutta
 course: python
 topic: sympy-module
@@ -11,13 +10,9 @@ show_toc: true
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Math
-    url: /python/docs/python-mathematics.html
+breadcrumb: 
+- title: Math
+url: /python/docs/python-mathematics.html
 ---
 
 ## SymPy in Python

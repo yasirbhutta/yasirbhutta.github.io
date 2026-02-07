@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "CS-301 Applications of Information and Communications Technologies | Complete Study Materials & Practical Guides"
 description: CS-301 Applications of Information and Communications Technologies
 keywords: CS-301 Applications of Information and Communications Technologies

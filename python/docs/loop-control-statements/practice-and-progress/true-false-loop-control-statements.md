@@ -1,5 +1,5 @@
 ---
-layout: true-false
+layout: page
 title: "Python True/False Loop Practice – Loop Control Exercises"
 description: Practice Python loop control with true/false exercises. Strengthen your understanding of break, continue, and loop else through guided practice.
 keywords: Python loop exercises, break continue loop practice, loop else examples, true false loop control, Python loop quiz, Python practice problems, loop control statements, programming exercises Python
@@ -12,13 +12,7 @@ next: /python/docs/loop-control-statements/practice-and-progress/fill-blanks-loo
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loop-control-statements
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: loop-control-statements
+url: /python/docs/loop-control-statements/
 ---

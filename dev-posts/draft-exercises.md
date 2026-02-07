@@ -1,3 +1,9 @@
+---
+layout: page
+title: 4. **Combined Operations**
+description: 4. Combined Operations - Given `mixed = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']`: - Extract fruits from 2nd to 2nd last (inclusive)...
+keywords: list, maximum, numbers, output, function
+---
 ### **Intermediate Level Tasks**
 4. **Combined Operations**
    - Given `mixed = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']`:

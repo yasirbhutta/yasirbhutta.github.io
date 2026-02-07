@@ -1,3 +1,9 @@
+---
+layout: page
+title: Lesson Plan: for IT-324 Web Development 3(2-1)
+description: By the end of this session, students will be able to: ✅ Understand and implement various HTML form input controls. ✅ Use email control to validate use...
+keywords: input, form, email, file, html
+---
 
 # Lesson Plan: for IT-324 Web Development 3(2-1)
 

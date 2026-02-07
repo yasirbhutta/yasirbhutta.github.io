@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Python’s None and Constants Explained | Variables Guide" 
+title: "Python’s None and Constants Explained | Variables Guide"
 description: Learn how Python’s built-in None constant works and how to define your own constants. Explore identity checks (is None vs == None), naming conventions, and best practices.
 keywords: python None constant, python built-in None, is None vs == None, python define constants, python NoneType, python constant naming, python constants best practices, python variables constants, python None tutorial, python identity operator None
 toc: toc/python.html
@@ -8,15 +8,9 @@ course: python
 topic: variables
 prev: /python/docs/variables/
 next: /python/docs/variables/none-constant.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
-  - title: Variables
-    url: /python/docs/variables/
+breadcrumb: 
+- title: Variables
+url: /python/docs/variables/
 ---
  
 In Python, `None` is a special constant that represents the absence of a value or a null value. It is an object of its own datatype, called `NoneType`.  

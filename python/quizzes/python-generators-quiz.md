@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Generators Quiz
+description: - Python Quizzes – Test Your Knowledge <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfkYnnTQW347X82x-b46zl9b0R3UA9tYr6Z3A9-nhEr3lzzw/viewfor...
+keywords: script, adsbygoogle, data, python, iframe
+---
 # Python Generators Quiz
 
 - [Python Quizzes – Test Your Knowledge](../quizzes/index.md)

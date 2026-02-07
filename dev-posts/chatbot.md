@@ -1,3 +1,9 @@
+---
+layout: page
+title: Building an FAQ Chatbot Using the ChatGPT API
+description: Let's create a more advanced FAQ chatbot by combining our previous approach with OpenAI's ChatGPT API. This will give us the flexibility of our predef...
+keywords: faq, messages, our, your, answer
+---
 # Building an FAQ Chatbot Using the ChatGPT API
 
 Let's create a more advanced FAQ chatbot by combining our previous approach with OpenAI's ChatGPT API. This will give us the flexibility of our predefined FAQs while leveraging ChatGPT's natural language understanding for more complex queries.

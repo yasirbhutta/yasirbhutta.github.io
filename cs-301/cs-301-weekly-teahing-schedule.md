@@ -1,3 +1,9 @@
+---
+layout: page
+title: Weekly Teaching Schedule for CS-301 - Applications to ICT
+description: - Lecture #1:   Introduction Of Computers - Lecture #2:   Hardware, I/O Devices - Lecture #1:   Memory, Storage Devices, Software’s - Lecture #2:   In...
+keywords: lecture, devices, windows, weekly, teaching
+---
 # Weekly Teaching Schedule for CS-301 - Applications to ICT
 
 ## Week 1

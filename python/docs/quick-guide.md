@@ -9,11 +9,9 @@ topic: quick-quide
 toc: toc/python.html
 prev: /python/
 next: /python/docs/tools.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of the Contents

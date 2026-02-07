@@ -2,6 +2,7 @@
 layout: page
 title: Python Conditional Statements Tutorial - Master if, elif, and else with Examples
 description: Learn Python conditional statements with this comprehensive tutorial. Master if, elif, and else with examples, syntax, and practical tasks for beginners..
+keywords: "print, than, output, number, input, greater, else, script"
 ---
 
 ## Conditional Statements (if, else, elif)

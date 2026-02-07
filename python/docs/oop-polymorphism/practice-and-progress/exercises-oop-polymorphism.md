@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Python OOP polymorphism Coding Exercises for Beginners"
-meta_description: "Practice Python OOP polymorphism with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical polymorphism to strengthen your object-oriented programming skills."
+description: "Learn about {% assign topic = "oop-polymorphism" %} with this comprehensive guide."
 keywords: Python OOP exercises, Python polymorphism practice, OOP coding problems, Python class polymorphism exercises, Python beginner OOP tasks, multiple polymorphism Python examples, object-oriented programming challenges, Python coding practice
+meta_description: "Practice Python OOP polymorphism with hands-on coding exercises. Solve problems on single, multiple, multilevel, and hierarchical polymorphism to strengthen your object-oriented programming skills."
 toc: toc/python.html
 topic: "oop-polymorphism"
 course: "python"

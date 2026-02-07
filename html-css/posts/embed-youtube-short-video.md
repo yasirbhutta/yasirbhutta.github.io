@@ -1,3 +1,9 @@
+---
+layout: page
+title: **How to Embed YouTube Shorts in Your HTML Web Page**
+description: To embed a YouTube Short in an HTML page, follow these steps: 1. Go to the YouTube Short you want to embed. 2. Click on the `Share` button and select...
+keywords: youtube, html, embed, short, iframe
+---
 # **How to Embed YouTube Shorts in Your HTML Web Page**
 
 To embed a YouTube Short in an HTML page, follow these steps:  

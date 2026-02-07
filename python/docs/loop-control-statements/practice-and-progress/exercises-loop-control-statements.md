@@ -1,5 +1,5 @@
 ---
-layout: exercises
+layout: page
 title: "Python Loop Control Exercises – Practice with Code"
 description: Strengthen your Python skills with hands-on loop control exercises. Practice using break, continue, and else to improve logic and flow control.
 keywords: Python loop exercises, loop control practice, break continue else Python, Python programming exercises, Python coding practice, control flow Python, loop control statements, Python hands-on tasks
@@ -12,13 +12,7 @@ next: "/python/docs/loop-control-statements/practice-and-progress/mini-projects-
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: For Loop
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: For Loop
+url: /python/docs/loop-control-statements/
 ---

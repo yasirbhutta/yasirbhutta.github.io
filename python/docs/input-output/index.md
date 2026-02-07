@@ -11,14 +11,9 @@ show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/data-types/
 next: /python/docs/input-output/print.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Input - Output
-    url: /python/docs/input-output/
-
+breadcrumb: 
+- title: Input - Output
+url: /python/docs/input-output/
 ---
 
 ## Table of Contents

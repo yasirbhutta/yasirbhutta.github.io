@@ -9,11 +9,9 @@ topic: oop
 toc: toc/python.html
 prev: /python/docs/decorators.html
 next: /python/docs/classes.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Contents

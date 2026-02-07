@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /artistic-design/
 next: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Artistic Design and Computer Graphics
-    url: /artistic-design/
+breadcrumb: 
+- title: Artistic Design and Computer Graphics
+url: /artistic-design/
 ---
 
 ## Social Media Campaign Design Assignment

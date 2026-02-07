@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "*args and **kwargs in Python – Beginner’s Guide with Examples and Coding Tasks" 
-description: Master the use of *args and **kwargs in Python functions with this beginner-friendly guide. Learn how to handle arbitrary positional and keyword arguments, combine them, and apply unpacking with practical examples and coding exercises. Perfect for students and new Python programmers.  
+title: "*args and **kwargs in Python – Beginner’s Guide with Examples and Coding Tasks"
+description: Master the use of *args and **kwargs in Python functions with this beginner-friendly guide. Learn how to handle arbitrary positional and keyword arguments, combine them, and apply unpacking with practical examples and coding exercises. Perfect for students and new Python programmers.
 keywords: Python *args, Python **kwargs, Python function arguments, arbitrary arguments Python, Python function examples, Python unpacking, beginner Python functions, Python coding tasks, learn Python functions, Python programming
 course: python
 topic: args-kwargs
@@ -11,13 +11,9 @@ show_practice_progress: null
 show_mini_project: null
 prev: /python/docs/local-global/
 next: /python/docs/lambda/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /Python/
-  - title: Functions
-    url: /python/docs/functions
+breadcrumb: 
+- title: Functions
+url: /python/docs/functions
 ---
 
 ## Table of Contents

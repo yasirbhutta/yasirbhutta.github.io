@@ -1,20 +1,17 @@
 ---
-layout: default
+layout: page
 title: "Python Basics: Review Questions"
 description: Test your understanding of fundamental Python concepts with these Python Basics review questions. Perfect for beginners looking to reinforce their skills through practice
+keywords: "python, script, adsbygoogle, data, function, client, pub, ins"
 toc: toc/python.html
 course: python
 topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
+breadcrumb: 
+- title: Basics
+url: /python/docs/basics/
 ---
 
 # Python Basics: Review Questions

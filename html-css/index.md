@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "html, css, web, development, tools, online, courses, lesson"
 ---
 
 # HTML and CSS

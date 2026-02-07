@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Formatting Strings" 
-description: Master Python strings with this guide. Learn  formatting with examples to improve your Python coding skills fast.  
+title: "Formatting Strings"
+description: Master Python strings with this guide. Learn  formatting with examples to improve your Python coding skills fast.
 keywords: ​Python strings, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
 toc: toc/python.html
 topic: "strings"
@@ -11,13 +11,9 @@ show_mini_project: null
 show_toc: true
 prev: /python/docs/strings/strings-manip.html
 next: /python/docs/functions.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Strings
-    url: /python/docs/strings/
+breadcrumb: 
+- title: Strings
+url: /python/docs/strings/
 ---
 
 ## Table of Contents

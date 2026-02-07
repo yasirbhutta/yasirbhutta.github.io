@@ -1,3 +1,9 @@
+---
+layout: page
+title: How to make embedded youtube video responsive
+description: 1. On a computer, go to the YouTube video or playlist you want to embed. 2. Click `SHARE` . 3. From the list of Share options, click `Embed`. 4. From...
+keywords: youtube, video, iframe, width, your
+---
 # How to make embedded youtube video responsive
 
 ## **Step 1:** Embed a video or playlist

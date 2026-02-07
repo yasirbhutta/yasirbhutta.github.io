@@ -1,5 +1,5 @@
 ---
-layout: fill-blanks
+layout: page
 title: "Python Loop Control – Fill in the Blanks Exercise"
 description: Test your knowledge of Python loop control statements with this fill-in-the-blanks exercise. Practice using break, continue, and else effectively.
 keywords: Python loop control, fill in the blanks Python, break continue else, Python loop exercise, loop control statements, Python coding practice, Python programming quiz, Python blanks worksheet
@@ -12,13 +12,7 @@ next: /python/docs/loop-control-statements/practice-and-progress/mcqs-loop-contr
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loop-control-statements
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: loop-control-statements
+url: /python/docs/loop-control-statements/
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "SAP PS (Project System) Guide 2025 - Project Management, WBS & Cost Control"
 description: Master SAP PS for end-to-end project management - from WBS creation to profitability analysis. Learn key structures, integration with SAP FICO/MM, and real-world implementation examples.
-keywords: SAP PS, SAP Project System, WBS in SAP, SAP project management, SAP PS vs PPM, SAP project costing, SAP PS configuration, SAP PS reports, SAP network activities, SAP PS integration, SAP PS certification, SAP PS training, SAP project budgeting, SAP milestone trend analysis, SAP PS transaction codes 
+keywords: SAP PS, SAP Project System, WBS in SAP, SAP project management, SAP PS vs PPM, SAP project costing, SAP PS configuration, SAP PS reports, SAP network activities, SAP PS integration, SAP PS certification, SAP PS training, SAP project budgeting, SAP milestone trend analysis, SAP PS transaction codes
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -10,11 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-mm/
 next: /sap-education-research/docs/sap-scm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 
 ### 📊 What is **SAP PS (Project System)?**

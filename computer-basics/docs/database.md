@@ -9,11 +9,9 @@ topic: database
 toc: toc/computer-basics.html
 prev: /python/docs/quick-guide.html
 next: /computer-basics/docs/networks.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Computer Basics
-    url: /computer-basics/
+breadcrumb: 
+- title: Computer Basics
+url: /computer-basics/
 ---
 
 - [Download PDF](https://yasirbhutta.github.io/computer-basics/docs/database.pdf)

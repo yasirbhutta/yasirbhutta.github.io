@@ -10,13 +10,9 @@ show_toc: null
 toc: toc/ms-excel-toc.html
 show_practice_progress: false
 show_mini_project: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Python Visualization 
-    url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
+breadcrumb: 
+- title: Python Visualization
+url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
 ## Table of Contents

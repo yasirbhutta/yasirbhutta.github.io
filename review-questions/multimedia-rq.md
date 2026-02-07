@@ -1,3 +1,9 @@
+---
+layout: page
+title: Multimedia Systems and Design: Review Questions
+description: Download PDF Short Questions 1. What is Multimedia? 2. What are the main methods used for delivering multimedia content? 3. What is VRML, and what are...
+keywords: multimedia, html, used, web, video
+---
 # Multimedia Systems and Design: Review Questions
 
 [Download PDF](multimedia-rq.pdf)

@@ -7,19 +7,14 @@ author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: basics
 toc: toc/ms-excel-toc.html
-author: Muhammad Yasir Bhutta
-course: ms-excel
-topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: true
 prev: /ms-excel/
 next: /ms-excel/docs/formatting.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 # Microsoft Excel: Basics

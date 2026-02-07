@@ -1,3 +1,9 @@
+---
+layout: page
+title: Weekly Teaching Schedule for IT-323 Python Programming
+description: Course Title: Python Programming Course Code: IT-323 Credit Hours: 3(2-1) Course Objectives: The purpose of this course is to provide a practical intr...
+keywords: lecture, data, using, script, adsbygoogle
+---
 # Weekly Teaching Schedule for IT-323 Python Programming
 
 **Course Title:** Python Programming

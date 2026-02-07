@@ -1,3 +1,9 @@
+---
+layout: page
+title: [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
+description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter a = 5; b = 7; if a < b disp('a is less than b'); end if b > a d...
+keywords: matlab, data, example, disp, code
+---
 
 # [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/)
 

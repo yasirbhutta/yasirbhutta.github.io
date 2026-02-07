@@ -9,11 +9,9 @@ show_practice_progress: false
 toc: toc/blackboard-lms.html
 show_toc: yes
 prev: /blackboard-lms/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Blackboard LMS
-    url: /blackboard-lms/
+breadcrumb: 
+- title: Blackboard LMS
+url: /blackboard-lms/
 ---
 
 ## 🎓 **Purpose**

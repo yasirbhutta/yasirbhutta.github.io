@@ -8,20 +8,13 @@ author: Muhammad Yasir Bhutta
 course: python
 topic: oop-inheritance
 show_toc: true
-toc: toc/python.html
 show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/basics/
 next: /python/docs/operators/practice-and-progress/find-fix-mistakes-variables.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: OOP
-    url: /python/docs/oop/
-  - title: Inheritance
-    url: /python/docs/oop-inheritance/
+breadcrumb: 
+- title: Inheritance
+url: /python/docs/oop-inheritance/
 ---
 
 ## **1. What is Multiple Inheritance?**

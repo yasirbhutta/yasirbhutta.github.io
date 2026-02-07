@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Python Dictionary Methods – Beginner-Friendly Guide with Examples  
-description: Discover the most important Python dictionary methods with clear explanations and real-world examples. Learn how to use get, keys, values, items, update, pop, setdefault, copy, and more to master dictionary operations in Python. Perfect for beginners and students.  
+title: Python Dictionary Methods – Beginner-Friendly Guide with Examples
+description: Discover the most important Python dictionary methods with clear explanations and real-world examples. Learn how to use get, keys, values, items, update, pop, setdefault, copy, and more to master dictionary operations in Python. Perfect for beginners and students.
 keywords: Python dictionary methods, Python dictionaries tutorial, Python get method, Python update dictionary, Python pop method, Python setdefault, Python copy dictionary, beginner Python dictionaries, Python dictionary examples, learn Python dictionaries
 course: python
 topic: dictionaries
@@ -11,11 +11,9 @@ show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/dictionaries/dict-basics.md
 next: /python/docs/list-comprehension/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of Contents

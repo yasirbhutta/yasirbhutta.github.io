@@ -2,7 +2,7 @@
 layout: page
 title: "SAP HCM (Human Capital Management) – Guide, Benefits & Best Practices"
 description: Master SAP HCM – SAP’s end-to-end HR solution for payroll, time management & workforce analytics. Explore key modules, implementation steps, and career opportunities in SAP HR.
-keywords: SAP HCM, SAP HR, Human Capital Management, SAP Payroll, SAP Time Management, SAP Organizational Management, SAP Personnel Administration, SAP SuccessFactors vs HCM, SAP HCM implementation, SAP HCM certification, SAP HR modules, SAP HCM training, SAP ESS MSS, SAP HCM reports, SAP HRIS, SAP HCM integration 
+keywords: SAP HCM, SAP HR, Human Capital Management, SAP Payroll, SAP Time Management, SAP Organizational Management, SAP Personnel Administration, SAP SuccessFactors vs HCM, SAP HCM implementation, SAP HCM certification, SAP HR modules, SAP HCM training, SAP ESS MSS, SAP HCM reports, SAP HRIS, SAP HCM integration
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -10,11 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-gm/
 next: /sap-education-research/docs/sap-mm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 
 ### 👥 What is **SAP HCM (Human Capital Management)?**

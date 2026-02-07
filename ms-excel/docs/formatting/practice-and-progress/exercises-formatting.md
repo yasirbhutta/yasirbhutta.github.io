@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Microsoft Excel Formatting Exercises for Beginners - Hands-On Practice  
-meta_description: Enhance your Microsoft Excel skills with these hands-on formatting exercises. Learn to apply borders, shading, alignment, number formatting, and more. Perfect for beginners to master Excel basics.  
+layout: page
+title: Microsoft Excel Formatting Exercises for Beginners - Hands-On Practice
+description: "1. Open a new Excel workbook. 2. In cell A1, type "Excel Formatting Exercise". 3. Change the font of the text in cell A1 to Arial. 4. Increase the fon..."
 keywords: Microsoft Excel formatting exercises, Excel practice for beginners, Excel hands-on exercises, Excel formatting tips, Excel borders and shading, Excel alignment options, Excel number formatting, Excel beginner guide, Excel worksheet practice, Excel skills improvement
+meta_description: Enhance your Microsoft Excel skills with these hands-on formatting exercises. Learn to apply borders, shading, alignment, number formatting, and more. Perfect for beginners to master Excel basics.
 author: Muhammad Yasir Bhutta
 ---
 

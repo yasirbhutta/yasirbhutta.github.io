@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Exercise for Regular Expressions: Password Validator Program
+description: Objective: Write a Python program that asks the user to enter a password and checks whether it is valid based on the following rules: 1. The password...
+keywords: password, least, one, contain, search
+---
 # Python Exercise for Regular Expressions: Password Validator Program
 
 **Objective:**  

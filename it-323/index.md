@@ -11,11 +11,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /
 next: /it-324/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
+breadcrumb: 
+- title: python
+url: /python/
 ---
 
 ## [Course Overview](docs/course-overview-it-323.md)

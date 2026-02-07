@@ -1,3 +1,9 @@
+---
+layout: page
+title: Usage
+description: In Python, type hints allow you to specify the expected data types of variables, function parameters, and return values. They make the code more reada...
+keywords: type, str, hints, return, alice
+---
 ## Type Hints
 
 In Python, **type hints** allow you to specify the expected data types of variables, function parameters, and return values. They make the code more readable and help developers understand what kind of values are expected.

@@ -12,11 +12,7 @@ next: /python/docs/functions.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: tuples
-    url: /python/docs/tuples/
+breadcrumb: 
+- title: tuples
+url: /python/docs/tuples/
 ---

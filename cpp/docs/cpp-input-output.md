@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Programming in C++ – Input and Output"
-description: "Learn C++ input and output with cin, cout, escape sequences, and manipulators. Includes practical examples, code snippets, and beginner-friendly exercises for taking user input, printing output, and formatting data. Perfect for students mastering C++ basics."  
+description: "Learn C++ input and output with cin, cout, escape sequences, and manipulators. Includes practical examples, code snippets, and beginner-friendly exercises for taking user input, printing output, and formatting data. Perfect for students mastering C++ basics."
 keywords: C++ input output, cin cout, C++ iostream, escape sequences, C++ manipulators, endl setw, C++ user input, standard output, C++ beginner tutorial, C++ examples, C++ practice problems, learn C++
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: Python Exercises for Beginners - Classes and Objects
 description: Practice Python programming with beginner-friendly exercises on classes and objects. Learn to define attributes, methods, and create objects with step-by-step tasks.
+keywords: "book, checked, out, title, author, year, ischeckedout, prints"
 toc: toc/python.html
 topic: "classes"
 course: "python"

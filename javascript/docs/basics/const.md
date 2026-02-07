@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "JavaScript const Explained for Beginners – Easy Guide with Examples" 
-description: "Learn what const means in JavaScript with this simple guide for beginners. Understand how to use const with numbers, arrays, and objects, and why it's useful for writing safer code."  
+layout: page
+title: "JavaScript const Explained for Beginners – Easy Guide with Examples"
+description: "Learn what const means in JavaScript with this simple guide for beginners. Understand how to use const with numbers, arrays, and objects, and why it's useful for writing safer code."
 keywords: "JavaScript const, const in JavaScript, JavaScript variables, JavaScript tutorial for beginners, let vs const, const example JavaScript, beginner JavaScript, ES6 variables, const array JavaScript, JavaScript object const"
 toc: toc/javascript.html
 topic: "basics"

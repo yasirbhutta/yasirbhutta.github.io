@@ -7,13 +7,9 @@ author: Muhammad Yasir Bhutta
 course: python
 topic: tuples
 toc: toc/python.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Data Types
-    url: /python/docs/data-types.html
+breadcrumb: 
+- title: Data Types
+url: /python/docs/data-types.html
 ---
 
 ## Table of the Contents

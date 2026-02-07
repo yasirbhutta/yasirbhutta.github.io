@@ -1,3 +1,9 @@
+---
+layout: page
+title: WhatsApp: How to use effects, filters, and backgrounds (Android)
+description: Use effects, filter, or backgrounds - Step 1: Join a video call or open your camera in WhatsApp. - Step 2: Tap effects <span class="icon-image"> !alt...
+keywords: span, effects, step, tap, whatsapp
+---
 # WhatsApp: How to use effects, filters, and backgrounds (Android)
 
 **Use effects, filter, or backgrounds**

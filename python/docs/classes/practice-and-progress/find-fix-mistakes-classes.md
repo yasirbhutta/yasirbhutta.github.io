@@ -2,6 +2,7 @@
 layout: page
 title: Find and Fix Mistakes in Python Classes - Common Errors Explained.
 description: Learn how to identify and fix common mistakes in Python classes with this beginner-friendly exercise. Perfect for understanding constructors, instance variables, and methods.
+keywords: "name, mistakes, age, greet, self, fix, python, errors"
 toc: toc/python.html
 topic: "classes"
 course: "python"

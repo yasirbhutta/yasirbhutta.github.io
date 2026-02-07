@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Insights: From Basics to Advanced
+description: Welcome to the Python Insights page! Here, you will find insightful and practical articles on various aspects of Python programming, from beginner to...
+keywords: python, page, new, data, script
+---
 # Python Insights: From Basics to Advanced
 
 Welcome to the Python Insights page! Here, you will find insightful and practical articles on various aspects of Python programming, from beginner to advanced levels.

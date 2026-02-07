@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "JavaScript Math.random() Explained" 
-description: "Discover how to use JavaScript’s Math.random() function to generate random numbers. Learn the syntax, beginner-friendly examples, and real-world use cases like simulating dice rolls and random selection."  
+layout: page
+title: "JavaScript Math.random() Explained"
+description: "Discover how to use JavaScript’s Math.random() function to generate random numbers. Learn the syntax, beginner-friendly examples, and real-world use cases like simulating dice rolls and random selection."
 keywords: "JavaScript Math.random, random number JavaScript, JavaScript random function, generate random number, JavaScript dice roll, Math.random examples, JavaScript tutorial for beginners, JavaScript random integer, JavaScript number functions, web development JavaScript"
 toc: toc/javascript.html
 topic: "basics"

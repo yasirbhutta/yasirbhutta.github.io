@@ -1,20 +1,17 @@
 ---
-layout: default
+layout: page
 title: "Python Basics: Coding Exercises"
 description: "Learn Python basics with coding exercises focused on input, print statements, comments, f-strings, and indentation. Improve your coding skills by mastering essential Python concepts for clean, readable code and efficient programming practices."
+keywords: "name, print, age, number, result, solution, following, years"
 toc: toc/python.html
 course: python
 topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
+breadcrumb: 
+- title: Basics
+url: /python/docs/basics/
 ---
 
 ## Print Functions

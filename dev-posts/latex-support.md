@@ -1,3 +1,9 @@
+---
+layout: page
+title: Adding LaTeX Support to GitHub Pages
+description: GitHub Pages doesn't natively support LaTeX rendering, but you can add it using JavaScript libraries. Here are the best methods to enable LaTeX math f...
+keywords: script, frac, latex, katex, mathbf
+---
 # Adding LaTeX Support to GitHub Pages
 
 GitHub Pages doesn't natively support LaTeX rendering, but you can add it using JavaScript libraries. Here are the best methods to enable LaTeX math formula rendering on your GitHub Pages site:

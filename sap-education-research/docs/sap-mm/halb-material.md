@@ -10,15 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-mm/
 next: /sap-education-research/docs/sap-ps/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: MM
-    url: /sap-education-research/docs/sap-mm/
-  - title: Material Types
-    url: /sap-education-research/docs/sap-mm/material-types.html
+breadcrumb: 
+- title: Material Types
+url: /sap-education-research/docs/sap-mm/material-types.html
 ---
 
 In SAP, **HALB** stands for **"Halbfertigprodukt"** in German, which translates to **"semi-finished product"** in English.

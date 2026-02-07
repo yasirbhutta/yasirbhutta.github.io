@@ -1,3 +1,9 @@
+---
+layout: page
+title: Common Errors in Python /| Python for Beginners
+description: Here are some common errors in Python, along with examples: 1. SyntaxError - Description: This occurs when the code is not written correctly according...
+keywords: error, message, description, example, explanation
+---
 # Common Errors in Python /| Python for Beginners
 
 Here are some common errors in Python, along with examples:

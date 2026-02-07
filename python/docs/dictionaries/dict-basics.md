@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Introduction to Python Dictionaries – Concepts, Usage, and Examples  
-description: Learn the basics of Python dictionaries with this beginner-friendly guide. Understand key-value pairs, how to create, access, update, and manipulate dictionaries in Python with practical examples and coding tasks. Perfect for students and professionals to master Python dictionaries.  
+title: Introduction to Python Dictionaries – Concepts, Usage, and Examples
+description: Learn the basics of Python dictionaries with this beginner-friendly guide. Understand key-value pairs, how to create, access, update, and manipulate dictionaries in Python with practical examples and coding tasks. Perfect for students and professionals to master Python dictionaries.
 keywords: Python dictionaries, Python dictionary tutorial, create dictionary in Python, access dictionary values, update dictionary Python, manipulate dictionary Python, Python dictionary examples, beginner Python dictionaries, Python data structures, learn Python
 course: python
 topic: dictionaries
@@ -11,11 +11,9 @@ show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/dictionaries/
 next: /python/docs/dictionaries/dict-methods.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of Contents

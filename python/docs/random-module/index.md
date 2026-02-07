@@ -9,11 +9,9 @@ topic: pandas
 toc: toc/python.html
 prev: /python/docs/modules/numpy.html
 next: /python/docs/modules/scipy.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 The `random` module in Python is used to generate pseudo-random numbers for various probability distributions. It's commonly used in games, simulations, testing, security, and any application that requires randomness.

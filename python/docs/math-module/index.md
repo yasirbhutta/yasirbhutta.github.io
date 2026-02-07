@@ -11,11 +11,9 @@ toc: toc/python.html
 show_practice_progress: true
 show_mini_project: false
 prev: /python/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Table of the Contents

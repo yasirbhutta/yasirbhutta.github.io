@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Python Lambda Functions: True/False Conditions with Examples | Practice Guide"
+title: "Python Lambda Functions: True/False Conditions with Examples | Practice Guide"
 description: Learn how to use Python lambda functions for boolean checks (True/False) with practical examples. Master conditions like even numbers, palindromes, and list filtering for efficient coding.
 keywords: Python lambda functions, True False conditions Python, lambda function examples, boolean checks in Python, Python filter with lambda, lambda for even numbers, check palindrome with lambda, Python one-line conditionals, higher-order functions Python, Python coding practice, lambda function exercises, Python boolean logic, lambda if else Python, Python conditional expressions, lambda function tricks
 topic: "lambda"

@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /ms-excel/docs/functions/what-is-functions.html
 next: /ms-excel/docs/functions/sumif.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScui7F5LUSwBsAo0F7j9ItJNkoDDxUzZXfhdAeLO2e2BIUyHg/viewform?embedded=true" width="100%" height="4610" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

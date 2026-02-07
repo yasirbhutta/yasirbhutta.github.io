@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here's a 15-week teaching schedule for Data Visualization using Python with three lectures per week.
+description: Here's a 15-week teaching schedule for Data Visualization using Python with three lectures per week. Course Title: Data Visualization using Python Dur...
+keywords: lecture, data, week, lab, plots
+---
 Here's a 15-week teaching schedule for Data Visualization using Python with three lectures per week.
 
 

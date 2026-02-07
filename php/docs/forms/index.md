@@ -9,11 +9,9 @@ topic: forms
 toc: toc/php.html
 prev: https://yasirbhutta.github.io/php/docs/control-flow.html
 next: /php/docs/mysql-php/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: PHP
-    url: /php/
+breadcrumb: 
+- title: PHP
+url: /php/
 ---
 
 ## Form PHP

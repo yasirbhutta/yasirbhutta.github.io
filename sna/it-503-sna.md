@@ -1,3 +1,9 @@
+---
+layout: page
+title: IT-503 System and Network Administration
+description: 1. Practical 1: Setting Up a Virtual Machine with VirtualBox/VMware - Install a virtual machine. 2. Practical 2: Linux Installation and Setup - Instal...
+keywords: practical, using, network, explore, file
+---
 # IT-503 System and Network Administration
 
 ### **Week 1: Introduction to Linux Systems**

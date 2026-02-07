@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions
+description: 1. How does a Web server determine whether a requested document includes PHP code? 1. What are the syntax and semantics of the include construct? 1. W...
+keywords: php, code, function, write, array
+---
 # Review Questions
 
 ## Introduction to PHP

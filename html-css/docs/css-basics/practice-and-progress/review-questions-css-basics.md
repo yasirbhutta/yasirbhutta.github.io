@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "css, html, style, class, answer, inline, internal, external"
 ---
 
 ## Review Questions

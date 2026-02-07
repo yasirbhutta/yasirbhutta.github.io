@@ -9,11 +9,9 @@ topic: pandas
 toc: toc/python.html
 prev: /python/docs/modules/numpy.html
 next: /python/docs/modules/scipy.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 The `datetime` module in Python provides classes for manipulating dates and times. It's one of the most commonly used modules for working with dates, times, and time intervals in Python applications.

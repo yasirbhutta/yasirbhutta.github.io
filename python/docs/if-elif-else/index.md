@@ -11,13 +11,9 @@ topic: if-elif-else
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
+breadcrumb: 
+- title: Control Flow
+url: /python/docs/control-flow/
 ---
 
 ## Table of Contents

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Graphic Designing
+description: Introduction to Computer Graphics: * Raster vs. vector graphics * Design software overview (e.g., Adobe Photoshop, Canva) * Basic image editing and ma...
+keywords: design, graphics, graphic, art, designing
+---
 # Graphic Designing
 
 Introduction to Computer Graphics:

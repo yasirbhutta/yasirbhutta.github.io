@@ -1,3 +1,9 @@
+---
+layout: page
+title: Switch-Case Example in PHP: Handling Multiple Cases Together
+description: This PHP example demonstrates how to use the `switch` statement to handle multiple conditions for a variable. It shows how different `case` labels can...
+keywords: case, switch, output, break, php
+---
 
 # Switch-Case Example in PHP: Handling Multiple Cases Together
 

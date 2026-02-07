@@ -3,7 +3,6 @@ layout: page
 title: "C++ One-Dimensional Arrays — Syntax & Examples"
 description: "Beginner-friendly guide to C++ one-dimensional arrays: declaration, initialization, indexing, accessing elements, loops, and practical examples."
 keywords: C++, arrays, one-dimensional array, array initialization, array indexing, accessing elements, array examples, for loop, beginner tutorial, programming basics
-
 ---
 
 [ Download PDF](/downloads/cpp-arrays.pdf)

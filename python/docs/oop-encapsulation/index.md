@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Encapsulation in Python OOP: A Beginner's Guide"  
+title: "Encapsulation in Python OOP: A Beginner's Guide"
 description: "Learn Python OOP encapsulation with Beginner's examples! Understand parent & child classes, method overriding, `super()`, and multilevel encapsulation."
 keywords: Python encapsulation tutorial, Python OOP encapsulation, parent and child classes in Python, method overriding in Python, Python `super()` example, multilevel encapsulation Python, Python OOP basics, Python programming for beginners, Python class encapsulation examples
 toc: toc/python.html
@@ -11,13 +11,9 @@ next: /python/docs/oop-polymorphism/
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: OOP in Python
-    url: /python/docs/oop/
+breadcrumb: 
+- title: OOP in Python
+url: /python/docs/oop/
 ---
 
 ## Table of Contents

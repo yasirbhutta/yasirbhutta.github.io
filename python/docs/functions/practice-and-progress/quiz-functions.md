@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "script, adsbygoogle, data, python, functions, iframe, src, https"
 ---
 
 # Python Function Quiz

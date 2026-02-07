@@ -10,13 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
 next: /sap-education-research/docs/sap-fico/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: EAM
-    url: /sap-education-research/docs/sap-eam/
+breadcrumb: 
+- title: EAM
+url: /sap-education-research/docs/sap-eam/
 ---
 
 In **SAP EAM (Enterprise Asset Management)**, a **PM Notification** is the formal way to record and communicate an issue, malfunction, or maintenance requirement related to a technical object (like equipment, functional location, or asset).

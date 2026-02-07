@@ -1,3 +1,9 @@
+---
+layout: page
+title: Split DataFrame into chunks
+description: Finally—a GIL-free way to speed up your data pipelines! Here’s how to leverage subinterpreters for NumPy, Pandas, and custom data tasks without `multi...
+keywords: subinterpreters, data, channel, import, def
+---
 ### **Parallel Data Processing with Python 3.13 Subinterpreters**  
 **Finally—a GIL-free way to speed up your data pipelines!** Here’s how to leverage subinterpreters for **NumPy, Pandas, and custom data tasks** without `multiprocessing` overhead.  
 

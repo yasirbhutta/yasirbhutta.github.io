@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions
+description: 1. What is a computer? 1. Write the shortcut keys for the following commands? - Copy - Paste - Cut - Undo 1. Explain the difference between the follow...
+keywords: write, computer, explain, software, shortcut
+---
 # Review Questions
 
 ## Computer Basics

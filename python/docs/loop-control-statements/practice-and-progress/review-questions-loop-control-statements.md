@@ -1,5 +1,5 @@
 ---
-layout: review-questions
+layout: page
 title: "Python Loop Control – Review Questions & Answers"
 description: Reinforce your understanding of Python loop control with review questions. Practice concepts like break and continue through thoughtful Q&A.
 keywords: Python loop review questions, break continue practice, Python Q&A, loop control statements, Python loop questions, Python revision, programming review questions, Python coding concepts
@@ -12,13 +12,7 @@ next: /python/docs/functions.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loop-control-statements
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: loop-control-statements
+url: /python/docs/loop-control-statements/
 ---

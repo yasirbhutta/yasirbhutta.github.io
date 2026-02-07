@@ -1,3 +1,9 @@
+---
+layout: page
+title: 🛠️ Project Title: **Mini Job Portal in PHP with MySQL**
+description: Sure! Here's a fully regenerated and detailed beginner PHP project using MySQL as the storage method, with step-by-step instructions, code for every f...
+keywords: job, php, title, html, mysql
+---
 Sure! Here's a fully **regenerated and detailed beginner PHP project using MySQL as the storage method**, with **step-by-step instructions**, **code for every file**, and **project structure**. This is a mini **Job Portal** that includes:
 
 - Job listings from a MySQL database  

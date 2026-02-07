@@ -1,3 +1,9 @@
+---
+layout: page
+title: Different Ports On Computer
+description: Different Ports On Computer On/ Of Switch Power In Mouse Port Keyboard Port USB Ports Parallel Port Serial Ports Video Port Network Port Microphone po...
+keywords: bus, port, expansion, ports, different
+---
 Different Ports On Computer 	
 	
 On/ Of Switch	

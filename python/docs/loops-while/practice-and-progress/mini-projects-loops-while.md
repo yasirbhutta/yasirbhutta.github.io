@@ -12,15 +12,9 @@ next: "/python/docs/loops-while/practice-and-progress/review-questions-loops-whi
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loops-while
-    url: /python/docs/loops-while/
+breadcrumb: 
+- title: loops-while
+url: /python/docs/loops-while/
 ---
 
 ## Mini Projects

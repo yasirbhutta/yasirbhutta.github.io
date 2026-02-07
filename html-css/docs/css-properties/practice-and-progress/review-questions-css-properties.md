@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "assign, true, practice-and-progress, css-properties, docs"
 ---
 
 {% assign show_heading = true %}

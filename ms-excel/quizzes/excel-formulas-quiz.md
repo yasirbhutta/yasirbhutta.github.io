@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel Quiz: Formulas
+description: To learn more about `Formulas in Excel, please visit Microsoft Excel: Formulas Topics Convered: - Formulas in Excel - Structure of a Formula - Arithme...
+keywords: excel, formulas, script, adsbygoogle, topic
+---
 # Microsoft Excel Quiz: Formulas
 
 To learn more about `Formulas in Excel, please visit **[Microsoft Excel: Formulas](../docs/formulas.md)**

@@ -2,18 +2,14 @@
 layout: page
 title: "Type Casting in Python: What It Is & Why You Need It"
 description: Learn what type casting in Python is, why it's used, and how to convert between data types like int, float, str, and bool with examples. Master explicit & implicit type conversion.
-keywords: type casting in Python, Python type conversion, int to string Python, float to int Python, str to int Python, explicit type casting, implicit type conversion, Python data types, type casting examples, Python int(), Python float(), Python str(), Python bool(), convert string to int, convert float to int, why use type casting, Python type handling, dynamic typing Python, user input conversion, string to number Python  
+keywords: type casting in Python, Python type conversion, int to string Python, float to int Python, str to int Python, explicit type casting, implicit type conversion, Python data types, type casting examples, Python int(), Python float(), Python str(), Python bool(), convert string to int, convert float to int, why use type casting, Python type handling, dynamic typing Python, user input conversion, string to number Python
 author: Muhammad Yasir Bhutta
 course: python
 topic: data-types
 toc: toc/python.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Data Types
-    url: /python/docs/data-types.html
+breadcrumb: 
+- title: Data Types
+url: /python/docs/data-types.html
 ---
 
 # Type Casting in Python

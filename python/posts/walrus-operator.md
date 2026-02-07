@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Walrus Operator (`:=`) in Python**
+description: The walrus operator (`:=`) is an assignment expression introduced in Python 3.8. It allows you to assign a value to a variable as part of an expressio...
+keywords: data, print, value, number, script
+---
 # **Walrus Operator (`:=`) in Python**
 
 The **walrus operator** (`:=`) is an **assignment expression** introduced in **Python 3.8**. It allows you to **assign a value to a variable as part of an expression**, making your code more concise and readable.  

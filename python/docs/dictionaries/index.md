@@ -12,11 +12,9 @@ show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/sets/
 next: /python/docs/list-comprehension/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 ## Table of Contents
 

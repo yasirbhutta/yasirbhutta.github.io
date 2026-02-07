@@ -1,3 +1,9 @@
+---
+layout: page
+title: Neworking Projects
+description: Download PDF To establish a small local area network (LAN) by connecting two computers in a workgroup through a wired connection with a network switch...
+keywords: group, domain, network, computer, sharing
+---
 # Neworking Projects
 
 [Download PDF](sna-projects.pdf)

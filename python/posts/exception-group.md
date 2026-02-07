@@ -1,8 +1,8 @@
 ---
-
-# **Exception Groups & `except*` in Python 3.11+**  
-*A Beginner’s Guide to Handling Multiple Errors at Once*  
-
+layout: page
+title: "Raise a group of exceptions"
+description: "In Python 3.11+, ExceptionGroup and except were introduced to simplify handling multiple exceptions raised concurrently** (e.g., in parallel tasks or..."
+keywords: "errors, except, exceptions, valueerror, print, data, multiple, typeerror"
 ---
 
 ## **What Are Exception Groups and `except*`?**  

@@ -10,13 +10,9 @@ show_toc: null
 toc: toc/python.html
 show_practice_progress: null
 show_mini_project: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Python Visualization 
-    url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
+breadcrumb: 
+- title: Python Visualization
+url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
 ### 🧭 What is a **Polar Plot**?

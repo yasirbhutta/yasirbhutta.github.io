@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /python/docs/math-module/
 next: /python/docs/math-module
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Math
-    url: /python/docs/math-module/
+breadcrumb: 
+- title: Math
+url: /python/docs/math-module/
 ---
 
 {% assign topic = "math-module" %}

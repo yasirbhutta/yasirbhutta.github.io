@@ -9,13 +9,9 @@ topic: oop-polymorphism
 toc: toc/python.html
 prev: /python/docs/oop-inheritance/
 next: /python/docs/oop-encapsulation/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: OOP in Python
-    url: /python/docs/oop/
+breadcrumb: 
+- title: OOP in Python
+url: /python/docs/oop/
 ---
 
 ## Table of Contents

@@ -1,3 +1,9 @@
+---
+layout: page
+title: The 10 Most Important Python Libraries for Beginners
+description: Python libraries are collections of pre-written code that help you perform specific tasks more efficiently. Instead of writing code from scratch, you...
+keywords: data, import, does, example, python
+---
 # The 10 Most Important Python Libraries for Beginners
 
 ## What Are Python Libraries?

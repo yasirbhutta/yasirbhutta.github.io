@@ -9,11 +9,9 @@ topic: hardware
 toc: toc/computer-basics.html
 prev: /computer-basics/docs/hardware.html
 next: /computer-basics/docs/software.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Computer Basics
-    url: /computer-basics/
+breadcrumb: 
+- title: Computer Basics
+url: /computer-basics/
 ---
 
 # Computer Basics: Computer Data Storage Devices

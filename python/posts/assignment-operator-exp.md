@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?**
+description: In Python, the assignment operator (`=`) is not an expression but a statement. This means it does not return a value, so using it inside expressions (...
+keywords: data, print, input, num, operator
+---
 # **Why Can’t the Assignment Operator (`=`) Be Used in Expressions in Python?**  
 
 In Python, the **assignment operator (`=`)** is **not an expression** but a **statement**. This means it **does not return a value**, so using it inside expressions (like `if` or `while` conditions) will cause a **SyntaxError**.  

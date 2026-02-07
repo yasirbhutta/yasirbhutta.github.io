@@ -12,15 +12,9 @@ show_practice_progress: true
 show_mini_project: true
 prev: /python/docs/variables/practice-and-progress/fill-blanks-variables.html
 next: /python/docs/variables/practice-and-progress/mcqs-variables.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
-  - title: Variables
-    url: /python/docs/variables/
+breadcrumb: 
+- title: Variables
+url: /python/docs/variables/
 ---
 
 {% assign topic = "variables" %}

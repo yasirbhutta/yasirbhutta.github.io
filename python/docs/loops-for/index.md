@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Python for Loops – Complete Guide with Syntax and Examples
-description: Master Python for loops with this beginner-friendly guide. Learn syntax, how iteration works, loop control statements, and practical examples to build your programming logic. 
+description: Master Python for loops with this beginner-friendly guide. Learn syntax, how iteration works, loop control statements, and practical examples to build your programming logic.
 keywords: Python for loop, Python loop examples, for loop syntax Python, iteration in Python, loop control Python, beginner Python loops, Python range loop, Python programming basics
 toc: toc/python.html
 prev: /python/docs/if-elif-else/truthy-falsy-values.html
@@ -11,13 +11,9 @@ topic: loops-for
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: For Loop
-    url: /python/docs/loops-for/
+breadcrumb: 
+- title: For Loop
+url: /python/docs/loops-for/
 ---
 
 ## Table of Contents

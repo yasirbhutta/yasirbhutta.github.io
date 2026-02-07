@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Project: Animal Species Classification Using Machine Learning
+description: Project Title: Animal Species Classification Using Machine Learning Project Domain / Category: Data Science / Machine Learning The objective of this p...
+keywords: model, image, learning, classification, web
+---
 # Python Project: Animal Species Classification Using Machine Learning
 
 **Project Title:** Animal Species Classification Using Machine Learning

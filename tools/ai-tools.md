@@ -1,3 +1,9 @@
+---
+layout: page
+title: Bard is a large language model (LLM) developed by Google AI. It is trained on a massive dataset of text and code, and can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way.
+description: No, you are not right. Bard is not a search engine. Bard is a large language model (LLM) developed by Google AI. It is trained on a massive dataset of...
+keywords: chatgpt, text, search, bard, like
+---
 
 
 **No, you are not right. Bard is not a search engine.**

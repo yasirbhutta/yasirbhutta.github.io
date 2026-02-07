@@ -11,11 +11,9 @@ toc: toc/html-toc.html
 show_practice_progress: false
 show_mini_project: false
 prev: /it-324/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Web Development
-    url: /it-324/
+breadcrumb: 
+- title: Web Development
+url: /it-324/
 ---
 
 ## HTML Basics: Table of Contents

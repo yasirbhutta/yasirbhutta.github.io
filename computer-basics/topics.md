@@ -1,3 +1,9 @@
+---
+layout: page
+title: 1.1.	What is computer? (Computer is basically a machine meant for computing, it is made up of many electronic and electrical components.)
+description: 1.1.	What is computer? (Computer is basically a machine meant for computing, it is made up of many electronic and electrical components.) What makes a...
+keywords: computer, data, software, system, folder
+---
 
 1.1.	What is computer? (Computer is basically a machine meant for computing, it is made up of many electronic and electrical components.)
 What makes a computer different?

@@ -9,13 +9,9 @@ topic: pandas
 toc: toc/python.html
 prev: /python/docs/pandas/
 next: /python/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Pandas
-    url: /python/docs/pandas/
+breadcrumb: 
+- title: Pandas
+url: /python/docs/pandas/
 ---
 
 **Data alignment** refers to how Pandas handles operations between data structures (such as `Series` or `DataFrames`) with differing indexes. When performing operations like addition, subtraction, or merging, Pandas automatically aligns the data by their index labels to ensure that operations happen between corresponding elements.

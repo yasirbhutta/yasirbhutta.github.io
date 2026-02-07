@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: page
+title: "<h1>Microsoft Excel Articles</h1>"
+description: "<h1>Microsoft Excel Articles</h1> <h2>Beginners</h2> - {{ post.title }} <h2>Intermediate</h2> <h3>Advanced</h3>"
+keywords: "microsoft, excel, articles, beginners, post, title, intermediate, advanced"
 ---
 
 <h1>Microsoft Excel Articles</h1>

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Data Analysis using Python
+description: Course Title: Data Analysis using Python Duration: 15 Weeks (3 lectures per week) Total Lectures: 45 Target Audience: Beginners to Intermediate learne...
+keywords: lecture, data, analysis, week, introduction
+---
 # Data Analysis using Python
 
 Course Title: Data Analysis using Python

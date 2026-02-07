@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Python 3.12 F-String Enhancements (PEP 701) - Beginner's Guide**
+description: F-strings (formatted string literals) are Python's way of embedding expressions inside string literals, introduced in Python 3.6. They are prefixed wi...
+keywords: python, strings, behavior, hello, print
+---
 # **Python 3.12 F-String Enhancements (PEP 701) - Beginner's Guide**
 
 ## **1. What Are F-Strings?**

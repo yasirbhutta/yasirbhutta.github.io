@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft 365: Practical Review Questions
+description: - What are the default file extensions for documents, spreadsheets, and presentations in Microsoft Office (Word, Excel, and PowerPoint)? - What are th...
+keywords: microsoft, word, excel, powerpoint, features
+---
 # Microsoft 365: Practical Review Questions
 
 - What are the default file extensions for documents, spreadsheets, and presentations in Microsoft Office (Word, Excel, and PowerPoint)?

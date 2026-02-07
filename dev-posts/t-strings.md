@@ -1,3 +1,9 @@
+---
+layout: page
+title: Custom function to escape HTML special characters
+description: In Python 3.14, t-strings (template strings) are a newly introduced feature designed to enhance the safety and flexibility of string formatting, parti...
+keywords: template, strings, string, str, name
+---
 In Python 3.14, t-strings (template strings) are a newly introduced feature designed to enhance the safety and flexibility of string formatting, particularly in contexts where security is paramount.  They are defined using the t prefix, similar to how f-strings use the f prefix.  Unlike f-strings, which interpolate expressions immediately, t-strings defer evaluation, allowing for safer handling of user input and integration with templating systems. 
 
 

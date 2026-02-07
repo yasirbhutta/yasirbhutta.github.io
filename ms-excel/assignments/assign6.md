@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Excel Assignment - Sales Analysis with Formulas and Charts  
-description: Complete this Microsoft Excel assignment to analyze sales data. Learn to use formulas like SUM, AVERAGE, and SUMIF, apply conditional formatting, and create charts for data visualization. Perfect for beginners to enhance their Excel skills in data analysis and presentation.  
+title: Microsoft Excel Assignment - Sales Analysis with Formulas and Charts
+description: Complete this Microsoft Excel assignment to analyze sales data. Learn to use formulas like SUM, AVERAGE, and SUMIF, apply conditional formatting, and create charts for data visualization. Perfect for beginners to enhance their Excel skills in data analysis and presentation.
 keywords: Microsoft Excel assignment, Excel sales analysis, Excel beginner assignment, Excel SUM function, Excel AVERAGE function, Excel SUMIF function, Excel conditional formatting, Excel charts, Excel data visualization, Excel practice assignment
 author: Muhammad Yasir Bhutta
 course: ms-excel
@@ -11,11 +11,9 @@ show_toc: true
 show_practice_progress: null
 show_mini_project: null
 prev: /ms-excel/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 ## Microsoft Excel Assignment: Sales Analysis

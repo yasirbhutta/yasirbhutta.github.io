@@ -1,3 +1,9 @@
+---
+layout: page
+title: 3.	Getting Started With Word
+description: 3.	Getting Started With Word 3.1.	Browse Buttons 3.2.	Getting a Different  Perspective 3.2.1.	Normal View 3.2.2.	Web Layout View 3.2.3.	Print Layout V...
+keywords: command, text, using, page, view
+---
 
 3.	Getting Started With Word
 

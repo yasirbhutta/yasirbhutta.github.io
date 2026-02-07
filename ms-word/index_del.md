@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word - Microsoft 365
+description: - Learning roadmap - Assignments - Basics
+keywords: microsoft, word, learning, roadmap, assignments
+---
 # Microsoft Word - Microsoft 365
 
 

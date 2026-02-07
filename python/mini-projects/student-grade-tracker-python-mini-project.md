@@ -10,13 +10,9 @@ show_toc: true
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Mini Projects
-    url: /python/mini-projects/
+breadcrumb: 
+- title: Mini Projects
+url: /python/mini-projects/
 ---
 
 This project uses **lists** and **tuples** to store and manage student records, including their names and grades.  

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Merging DataFrames in Pandas: A Beginner's Guide
+description: Pandas provides several ways to combine DataFrames, with `merge()` being one of the most powerful and commonly used methods. Here's a comprehensive gu...
+keywords: print, data, com, merge, csv
+---
 # Merging DataFrames in Pandas: A Beginner's Guide
 
 Pandas provides several ways to combine DataFrames, with `merge()` being one of the most powerful and commonly used methods. Here's a comprehensive guide with syntax and examples for beginners.

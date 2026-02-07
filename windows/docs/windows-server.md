@@ -1,3 +1,9 @@
+---
+layout: page
+title: Windows Server
+description: slides slides To set file quota and screening using File Manager in Windows Server 2022, you can use File Server Resource Manager (FSRM), which is a f...
+keywords: file, quota, server, screening, manager
+---
 # Windows Server
 
 ## Workgroup and Domain

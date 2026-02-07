@@ -9,11 +9,9 @@ topic: pandas
 toc: toc/python.html
 prev: /python/docs/modules/numpy.html
 next: /python/docs/modules/scipy.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 - [Download PDF](https://yasirbhutta.github.io/python/docs/modules/pandas.pdf)  

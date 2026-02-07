@@ -9,13 +9,9 @@ next: /python/docs/oop-inheritance/
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: OOP in Python
-    url: /python/docs/oop/
+breadcrumb: 
+- title: OOP in Python
+url: /python/docs/oop/
 ---
 
 In Python, an **Abstract Base Class (ABC)** is a class that cannot be instantiated directly. Instead, it serves as a **blueprint** for other classes (child classes) by defining **abstract methods** that must be implemented in the child classes.  

@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /python/docs/python-mathematics.html
 next: /python/docs/mathematics/variables-expressions.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Math
-    url: /python/docs/python-mathematics.html
+breadcrumb: 
+- title: Math
+url: /python/docs/python-mathematics.html
 ---
 
 Basic arithmetic and algebra are foundational topics in mathematics, encompassing essential operations and rules used in everything from basic calculations to more advanced math. Here’s a detailed breakdown of these concepts in Python.

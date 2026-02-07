@@ -12,11 +12,9 @@ show_practice_progress: true
 show_mini_project: true
 prev: /python/docs/loops-for/
 next: /python/docs/loop-control-statements/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Control Flow
-    url: /python/docs/control-flow/
+breadcrumb: 
+- title: Control Flow
+url: /python/docs/control-flow/
 ---
 
 [Click here to view problem statement](https://yasirbhutta.github.io/python/docs/loops-while/practice-and-progress/exercises-loops-while.html)

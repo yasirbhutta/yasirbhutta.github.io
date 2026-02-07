@@ -1,3 +1,9 @@
+---
+layout: page
+title: Ms Word Shortcut Keys
+description: Ms Word Shortcut Keys Change or resize the font Press	To CTRL+SHIFT+F	Change the font CTRL+SHIFT+P	Change the font size CTRL+SHIFT+>	Increase the font...
+keywords: ctrl, shift, arrow, one, press
+---
 Ms Word Shortcut Keys 
 Change or resize the font
 Press	To

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Finding Your Public IP Address: Techniques Using Command Line, PowerShell, and Python
+description: To find your public IP address, you can use several methods. Here are a few tasks you can perform to achieve that: 1. Open Command Prompt. 2. Run the...
+keywords: address, public, opendns, your, com
+---
 # Finding Your Public IP Address: Techniques Using Command Line, PowerShell, and Python
 
 To find your public IP address, you can use several methods. Here are a few tasks you can perform to achieve that:

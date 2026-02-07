@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Excel Formatting Exercises: Find and Fix Common Mistakes  
-description: Test your Excel skills with these find-and-fix mistake exercises on formatting. Learn to identify and correct common errors in font styles, shortcuts, gridlines, and more. Perfect for beginners and Excel enthusiasts.  
+layout: page
+title: Excel Formatting Exercises: Find and Fix Common Mistakes
+description: Test your Excel skills with these find-and-fix mistake exercises on formatting. Learn to identify and correct common errors in font styles, shortcuts, gridlines, and more. Perfect for beginners and Excel enthusiasts.
 keywords: Excel formatting exercises, find and fix mistakes in Excel, Excel practice for beginners, Excel font styles, Excel shortcuts, Excel gridlines, Excel formatting tools, Excel tips and tricks
 author: Muhammad Yasir Bhutta.
 ---

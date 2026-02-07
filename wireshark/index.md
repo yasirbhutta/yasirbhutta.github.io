@@ -9,9 +9,9 @@ show_toc: false
 show_practice_progress: false
 show_mini_project: false
 prev: /
-breadcrumb:
-  - title: Home
-    url: /
+breadcrumb: 
+- title: Home
+url: /
 ---
 
 # Wireshark tasks

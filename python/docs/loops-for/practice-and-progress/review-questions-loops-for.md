@@ -1,5 +1,5 @@
 ---
-layout: review-questions
+layout: page
 title: Python for Loops Review Questions – Strengthen Your Looping Concepts
 description: Review your understanding of Python for loops with structured questions. Cover essential topics like iteration, range, nested loops, and loop control in Python programming.
 keywords: Python for loop review questions, Python loop practice, Python iteration review, beginner Python loops, Python loop control questions, review Python programming, Python range review, for loop coding concepts
@@ -12,13 +12,7 @@ next: /python/docs/functions.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loops-for
-    url: /python/docs/loops-for/
+breadcrumb: 
+- title: loops-for
+url: /python/docs/loops-for/
 ---

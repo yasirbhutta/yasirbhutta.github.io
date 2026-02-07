@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Project: Movie Ratings Analysis and Insights for a Streaming Service
+description: Project Title: Movie Ratings Analysis and Insights for a Streaming Service Project Domain / Category: Data Analysis / Entertainment Industry This proj...
+keywords: ratings, genres, movie, data, movies
+---
 # Python Project: Movie Ratings Analysis and Insights for a Streaming Service
 
 **Project Title:** Movie Ratings Analysis and Insights for a Streaming Service

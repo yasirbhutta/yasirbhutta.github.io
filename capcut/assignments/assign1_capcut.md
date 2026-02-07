@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Search Skill Assignment: Comparing CapCut with Other Video Editing Apps**
+description: The goal of this assignment is to enhance students' ability to search effectively and critically evaluate information. By comparing CapCut with other...
+keywords: students, capcut, other, video, editing
+---
 # **Search Skill Assignment: Comparing CapCut with Other Video Editing Apps**
 
 ## **Objective:**

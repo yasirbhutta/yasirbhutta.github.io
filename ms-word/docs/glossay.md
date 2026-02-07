@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word: Glossary
+description: Document Basics:  Paragraph:** A block of text separated by line breaks.  Sentence:** A complete grammatical unit with a subject and verb.  Line:** A...
+keywords: document, text, within, tool, changes
+---
 # Microsoft Word: Glossary
 
 **Document Basics:**

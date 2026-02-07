@@ -9,13 +9,9 @@ show_practice_progress: false
 toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: SAP User Guides
-    url: /sap-education-research/user-guide/
+breadcrumb: 
+- title: SAP User Guides
+url: /sap-education-research/user-guide/
 ---
 
 ## Popular Articles

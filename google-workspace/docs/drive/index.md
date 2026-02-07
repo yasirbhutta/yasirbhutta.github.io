@@ -9,11 +9,9 @@ topic: drive
 toc: toc/google-workspace.html
 prev: /google-workspace/docs/google-search/
 next: /google-workspace/docs/google-docs/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Google Workspace
-    url: /google-workspace/
+breadcrumb: 
+- title: Google Workspace
+url: /google-workspace/
 ---
 
 ## ☁️ **What is Cloud Storage?**

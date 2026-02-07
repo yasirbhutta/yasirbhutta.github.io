@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here are practical tasks for the telnet command to help beginners understand and apply its functionality:
+description: Here are practical tasks for the telnet command to help beginners understand and apply its functionality: 1. Install and Enable Telnet in Windows Task...
+keywords: telnet, server, port, command, task
+---
 Here are practical tasks for the telnet command to help beginners understand and apply its functionality:
 
 1. Install and Enable Telnet in Windows

@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: page
 title: "SAP Education & Research | Learn SAP for Academia"
 description: Explore SAP solutions for education and research. Access guides, documentation, and insights to integrate SAP in academic and research institutions effectively.
-keywords: SAP education, SAP for universities, SAP research, academic ERP, SAP SLCM, SAP in education sector, SAP campus solutions, SAP documentation, Yasir Bhutta, Learn With Yasir 
+keywords: SAP education, SAP for universities, SAP research, academic ERP, SAP SLCM, SAP in education sector, SAP campus solutions, SAP documentation, Yasir Bhutta, Learn With Yasir
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 prev: /
 next: /sap-education-research/docs/sap-fico/
-breadcrumb:
-  - title: Home
-    url: /
+breadcrumb: 
+- title: Home
+url: /
 ---
 
 **SAP** stands for **Systems, Applications, and Products in Data Processing**. It is a leading **enterprise resource planning (ERP) software** used by businesses to manage operations, streamline processes, and improve efficiency.  

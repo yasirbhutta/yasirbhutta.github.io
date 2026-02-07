@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Basics MCQs: Test Your Knowledge with Multiple-Choice Questions
 description: Challenge your understanding of HTML basics with these multiple-choice questions. Perfect for beginners to test their knowledge of HTML elements, attributes, and best practices.
+keywords: "answer, text, elements, line, block, title, creates, blockquote"
 ---
 
 # HTML Basics MCQs: Test Your Knowledge with Multiple-Choice Questions

@@ -9,11 +9,9 @@ topic: hardware
 toc: toc/computer-basics.html
 prev: /computer-basics/docs/database.html
 next: /google-workspace/docs/gmail/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Computer Basics
-    url: /computer-basics/
+breadcrumb: 
+- title: Computer Basics
+url: /computer-basics/
 ---
 
 # Computer Basics: Networking Basics

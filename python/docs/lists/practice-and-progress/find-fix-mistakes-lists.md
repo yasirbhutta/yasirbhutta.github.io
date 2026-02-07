@@ -1,5 +1,5 @@
 ---
-layout: find-fix-mistakes
+layout: page
 title: Find and Fix Mistakes in Python Lists – Practice Debugging Exercises
 description: Boost your Python skills by identifying and correcting common mistakes in list operations. Practice debugging Python list syntax, indexing errors, and method misuse with hands-on examples.
 keywords: Python list debugging, find and fix Python list errors, Python list mistakes, list troubleshooting Python, Python list error practice, Python syntax errors in lists, beginner Python list debugging, Python list exercises with solutions
@@ -12,11 +12,7 @@ next: "/python/docs/lists/practice-and-progress/find-fix-mistakes-lists.html"
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: lists
-    url: /python/docs/lists/
+breadcrumb: 
+- title: lists
+url: /python/docs/lists/
 ---

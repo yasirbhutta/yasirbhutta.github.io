@@ -9,16 +9,11 @@ topic: sap-mm
 show_practice_progress: false
 show_toc: yes
 toc: toc/sap-education-research.html
-show_practice_progress: false
 show_mini_project: false
 prev: /sap-education-research/docs/sap-mm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: MM
-    url: /sap-education-research/sap-mm
+breadcrumb: 
+- title: MM
+url: /sap-education-research/sap-mm
 ---
 
 In **SAP (Systems, Applications, and Products in Data Processing)**, the terms **Material**, **Equipment**, and **Asset** represent different types of business objects, each with distinct uses and characteristics. Here’s a clear comparison:

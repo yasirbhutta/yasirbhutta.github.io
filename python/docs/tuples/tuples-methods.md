@@ -12,13 +12,9 @@ show_practice_progress: true
 show_mini_project: false
 prev: /python/docs/tuples/tuples-slicing.html
 next: /python/docs/sorting.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Tuples
-    url: /python/docs/tuples/
+breadcrumb: 
+- title: Tuples
+url: /python/docs/tuples/
 ---
 
 # Tuple Methods

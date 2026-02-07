@@ -2,7 +2,7 @@
 layout: page
 title: "SAP FICO: Financial Accounting & Controlling - Modules, Benefits & Training"
 description: Master SAP FICO (Financial Accounting & Controlling) with this complete guide. Learn key modules, benefits, career paths, and how SAP FICO streamlines finance processes.
-keywords: SAP FICO, SAP FI, SAP CO, SAP Financial Accounting, SAP Controlling, SAP FICO modules, SAP FICO training, SAP FICO certification, SAP finance software, ERP finance module, SAP GL accounting, SAP AR AP, SAP cost center accounting, SAP FICO jobs, SAP S/4HANA Finance  
+keywords: SAP FICO, SAP FI, SAP CO, SAP Financial Accounting, SAP Controlling, SAP FICO modules, SAP FICO training, SAP FICO certification, SAP finance software, ERP finance module, SAP GL accounting, SAP AR AP, SAP cost center accounting, SAP FICO jobs, SAP S/4HANA Finance
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -10,12 +10,10 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-eam/
 next: /sap-education-research/docs/sap-fm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
----    
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
+---
 
 ### 💰 What is **SAP FICO (Financial Accounting & Controlling)?**
 

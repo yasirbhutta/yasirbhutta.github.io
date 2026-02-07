@@ -10,13 +10,9 @@ show_toc: true
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Math
-    url: /python/docs/python-mathematics.html
+breadcrumb: 
+- title: Math
+url: /python/docs/python-mathematics.html
 ---
 
 ## SciPy in Python

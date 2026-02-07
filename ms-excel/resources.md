@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel Resources: Books, Trainings and online resources
+description: - Download PDF - Excel video training - Microsoft Support - Microsoft Training - Youtube Playlist to learn excel by Yasir Bhutta
+keywords: microsoft, excel, resources, training, books
+---
 
 # Microsoft Excel Resources: Books, Trainings and online resources
 

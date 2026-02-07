@@ -8,9 +8,9 @@ course: computer-basics
 topic: ""
 toc: toc/computer-basics.html
 next: /social-media/docs/linkedin/
-breadcrumb:
-  - title: Home
-    url: /
+breadcrumb: 
+- title: Home
+url: /
 ---
 
 ## Social Media

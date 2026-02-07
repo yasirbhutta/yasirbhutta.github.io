@@ -1,3 +1,9 @@
+---
+layout: page
+title: Round
+description: Exercise: Rounding - In cell A1, enter a decimal number, e.g., 7.85. - In cell B1, round the number to the nearest whole number using the formula =ROU...
+keywords: round, number, cell, decimal, using
+---
 
 **Exercise:** Rounding
 

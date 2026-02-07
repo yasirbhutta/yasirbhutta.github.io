@@ -1,3 +1,9 @@
+---
+layout: page
+title: Artistic Design: Presentation Topics
+description: 1. Human-Computer Interaction (HCI) and Graphic Design 2. Generative Art: Exploring Algorithms in Creative Design 3. Evolution of Computer Graphics: F...
+keywords: marketing, design, visual, graphics, color
+---
 # Artistic Design: Presentation Topics
 
 1. Human-Computer Interaction (HCI) and Graphic Design

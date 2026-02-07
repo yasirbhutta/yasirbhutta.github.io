@@ -1,3 +1,9 @@
+---
+layout: page
+title: Course Timetable for IT-324 Web Development 3(2-1)
+description: Ramadan Timing | Day        | Time         | Topic                     | |------------|-------------|---------------------------| | Monday     | 10:20...
+keywords: each, course, timetable, web, development
+---
 # Course Timetable for IT-324 Web Development 3(2-1)
 
 ## Spring Semester 2025

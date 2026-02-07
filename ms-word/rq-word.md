@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Word Review Questions
+description: 1. What is the difference between a header and a footer in Microsoft Word? 1. What is Microsoft Word and what is it used for? 2. What is the keyboard...
+keywords: word, microsoft, document, difference, between
+---
 # Microsoft Word Review Questions
 
 ## Short Questions

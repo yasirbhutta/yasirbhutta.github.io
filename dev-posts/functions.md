@@ -1,3 +1,9 @@
+---
+layout: page
+title: function body
+description: See all links See reasoning Functions in Python are reusable blocks of code that perform specific tasks and help in writing modular and efficient prog...
+keywords: functions, python, function, arguments, code
+---
 
 
 See all links

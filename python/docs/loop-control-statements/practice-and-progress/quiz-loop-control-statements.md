@@ -9,15 +9,9 @@ topic: "loop-control-statements"
 course: "python"
 prev: "/python/docs/loop-control-statements/practice-and-progress/exercises-loop-control-statements.html"
 next: "/python/docs/loop-control-statements/practice-and-progress/review-questions-loop-control-statements.html"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: loop-control-statements
-    url: /python/docs/loop-control-statements/
+breadcrumb: 
+- title: loop-control-statements
+url: /python/docs/loop-control-statements/
 ---
 
 To learn use of `break`, `continue` Statements, and `else` Clauses in Loops, please visit **[Control Flow Statements: `break`, `continue` Statements, and `else` Clauses in Loops](../docs/control-flow.md#break)

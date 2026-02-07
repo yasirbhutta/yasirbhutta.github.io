@@ -9,13 +9,9 @@ topic: tuples
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Tuples
-    url: /python/docs/tuples/
+breadcrumb: 
+- title: Tuples
+url: /python/docs/tuples/
 ---
 
 # Table of Contents

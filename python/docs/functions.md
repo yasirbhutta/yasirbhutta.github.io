@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Python Functions Tutorial: From Basics to Advanced Concepts"  
-description: Explore the complete guide to Python functions, including regular and lambda functions, local and global variables, constants, and how to store functions in modules. Ideal for beginners and intermediate learners aiming to write clean, modular Python code.  
+title: "Python Functions Tutorial: From Basics to Advanced Concepts"
+description: Explore the complete guide to Python functions, including regular and lambda functions, local and global variables, constants, and how to store functions in modules. Ideal for beginners and intermediate learners aiming to write clean, modular Python code.
 keywords: Python functions tutorial, functions in Python, Python lambda functions, local and global variables in Python, Python constants, storing functions in modules, Python function basics, Python function guide, Python modular code, Python programming
 toc: toc/python.html
 ---

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Common Python Class Attribute Mistakes and How to Fix Them
+description: Sure! Let's consider another example to illustrate the misuse of class attributes and the correct approach. This time, we'll create a `Library` class...
+keywords: books, library, self, class, name
+---
 # Common Python Class Attribute Mistakes and How to Fix Them
 
 Sure! Let's consider another example to illustrate the misuse of class attributes and the correct approach. This time, we'll create a `Library` class where each library keeps track of its own collection of books.

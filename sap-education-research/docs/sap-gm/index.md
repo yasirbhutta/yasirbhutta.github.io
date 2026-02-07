@@ -2,7 +2,7 @@
 layout: page
 title: "SAP GM (Grants Management) – Guide, Benefits & Best Practices"
 description: Discover how SAP Grant Management streamlines funding allocation, compliance, and reporting for nonprofits & research institutions. Learn key features, integration with SAP FM, and implementation best practices.
-keywords: SAP Grant Management, SAP GM, grant accounting software, SAP for nonprofits, research funding management, SAP fund tracking, grant compliance SAP, SAP GM vs FM, SAP GM implementation, SAP GM reports, award management system, SAP GM certification, SAP GM training, nonprofit ERP solutions, SAP GM best practices  
+keywords: SAP Grant Management, SAP GM, grant accounting software, SAP for nonprofits, research funding management, SAP fund tracking, grant compliance SAP, SAP GM vs FM, SAP GM implementation, SAP GM reports, award management system, SAP GM certification, SAP GM training, nonprofit ERP solutions, SAP GM best practices
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -10,11 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/docs/sap-fm/
 next: /sap-education-research/docs/sap-hcm/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 
 In SAP, **GM** stands for **Grants Management** – a component primarily used in the **public sector** or **nonprofit organizations** to manage grants, sponsored programs, and research funding.

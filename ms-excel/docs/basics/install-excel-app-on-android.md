@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /ms-excel/
 next: /ms-excel/docs/basics/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 ## **📺 Excel App Tutorial in Urdu: Install Excel App on Android Phone**  

@@ -1,20 +1,17 @@
 ---
-layout: default
+layout: page
 title: "Python Basics: True/False Questions"
 description: "Test your Python fundamentals with our comprehensive collection of True/False on basic concepts. Perfect for beginners to practice and reinforce their learning."
+keywords: "answer, python, true, false, print, code, function, error"
 toc: toc/python.html
 course: python
 topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
+breadcrumb: 
+- title: Basics
+url: /python/docs/basics/
 ---
 
 **Answer Key (True/False):**

@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Python Indentation  
-description: Learn Python Indentation  
+title: Python Indentation
+description: Learn Python Indentation
 keywords: Python basics, Python tutorials for beginners, python indentation
 toc: toc/python.html
 topic: basics
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 In Python, indentation refers to the use of whitespace (spaces or tabs) to denote block-level structure in the code. Python uses indentation to define the scope of code blocks, such as:

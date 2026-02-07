@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: "HTML Basics Review Questions: Test Your Knowledge."
 description: Test your understanding of HTML basics with these review questions. Perfect for beginners to reinforce key concepts like tags, attributes, and best practices in web development.
+keywords: "html, answer, tag, create, used, purpose, document, list"
 ---
 
 ### Review Questions: HTML Basics for Beginners

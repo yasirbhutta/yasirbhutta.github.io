@@ -8,11 +8,9 @@ course: google-workspace
 topic: google-docs
 toc: toc/google-workspace.html
 prev: /google-workspace/docs/gmail
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Google Workspace
-    url: /google-workspace/
+breadcrumb: 
+- title: Google Workspace
+url: /google-workspace/
 ---
 
 - [Download PDF](https://yasirbhutta.github.io/google-workspace/docs/google-docs.pdf)

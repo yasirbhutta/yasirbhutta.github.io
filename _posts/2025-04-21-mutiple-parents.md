@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Understanding Python Multiple Inheritance: Concepts, MRO, and Examples"
+description: "Learn about Python multiple inheritance, including syntax, the Method Resolution Order (MRO), the Diamond Problem, and practical use cases like Mixins."
+keywords: "python multiple inheritance, python mro, python mixins, diamond problem, python oop"
+---
 Yes, Python supports **multiple inheritance**, where a child class can inherit from multiple parent classes. Here's a breakdown:
 
 ---

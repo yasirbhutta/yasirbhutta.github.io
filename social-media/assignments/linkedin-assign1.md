@@ -1,3 +1,9 @@
+---
+layout: page
+title: LinkedIn Assignment: Building Your Professional Network
+description: Download PDF Objective: This assignment is designed to introduce you to LinkedIn, a valuable platform for building your professional network. Through...
+keywords: your, linkedin, professional, profile, assignment
+---
 # LinkedIn Assignment: Building Your Professional Network
 
 [Download PDF](https://yasirbhutta.github.io/social-media/assignments/linkedin-assign1.pdf)

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Streamlit
+description: Streamlit is an open-source Python library designed for creating and sharing web applications for data science and machine learning. It makes it easy...
+keywords: streamlit, data, app, write, number
+---
 # Streamlit
 
 Streamlit is an open-source Python library designed for creating and sharing web applications for data science and machine learning. It makes it easy to build interactive, data-driven applications with minimal code and allows you to share them directly with others.

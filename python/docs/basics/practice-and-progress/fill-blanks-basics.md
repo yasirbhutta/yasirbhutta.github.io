@@ -2,19 +2,16 @@
 layout: page
 title: Python Basics: Fill in the Blanks
 description: "Challenge your Python knowledge with engaging fill-in-the-blank exercises on basic concepts. Ideal for beginners to practice and solidify their understanding."
+keywords: "answer, python, used, print, function, code, file, script"
 toc: toc/python.html
 course: python
 topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
+breadcrumb: 
+- title: Basics
+url: /python/docs/basics/
 ---
 
 # Fill in the Blanks: Python Basics

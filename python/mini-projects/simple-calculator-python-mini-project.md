@@ -10,13 +10,9 @@ show_toc: true
 toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Mini Projects
-    url: /python/mini-projects/
+breadcrumb: 
+- title: Mini Projects
+url: /python/mini-projects/
 ---
 
 Write a Python program that allows the user to perform basic arithmetic operations (addition, subtraction, multiplication, and division) until they choose to exit. The program should take two numbers and an operation from the user, perform the calculation, and display the result.

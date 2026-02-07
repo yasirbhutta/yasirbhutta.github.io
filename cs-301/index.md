@@ -1,3 +1,9 @@
+---
+layout: page
+title: CS-301 Intro. to Information and Communication Technologies
+description: - Computer Basics Slides - Microsoft Excel Slides - How to Search on Google - What you can ask Google Assistant <script async src="https://pagead2.goo...
+keywords: script, adsbygoogle, data, slides, google
+---
 # CS-301 Intro. to Information and Communication Technologies
 
 ## Downloads

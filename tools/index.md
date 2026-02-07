@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tools for students and faculty members
+description: - Random Password Generator - https://www.google.com/ - https://chat.openai.com/chat - https://www.typing.com/ - Zamzar: Online file conversion Conver...
+keywords: software, free, your, open, source
+---
 # Tools for students and faculty members
 
 ## General tools

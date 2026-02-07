@@ -1,3 +1,9 @@
+---
+layout: page
+title: (Output value and text for ID and Full Name)
+description: - Personnel Number (Output value and text for ID and Full Name) - Company Code - Employee Group (Acadmic, Non Academic DPL - Employee Subgroup (BPS-18...
+keywords: employee, output, value, text, full
+---
 
 
 

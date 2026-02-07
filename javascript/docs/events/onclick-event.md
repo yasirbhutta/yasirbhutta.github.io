@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "JavaScript onclick Event: Beginner’s Guide with Real-World Examples" 
-description: "Discover how the JavaScript onclick event works and how to use it in real-life projects. Learn with beginner-friendly examples like toggling dark mode, adding items to a cart, and more."  
+layout: page
+title: "JavaScript onclick Event: Beginner’s Guide with Real-World Examples"
+description: "Discover how the JavaScript onclick event works and how to use it in real-life projects. Learn with beginner-friendly examples like toggling dark mode, adding items to a cart, and more."
 keywords: "JavaScript onclick, onclick event example, JavaScript click event, onclick function, real world JavaScript examples, onclick tutorial for beginners, toggle dark mode JavaScript, add to cart JavaScript, JavaScript event handling"
 toc: toc/javascript.html
 topic: "basics"

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Python Lambda Function Exercises - Practice Problems with Solutions"
-meta_description: "Master Python lambda functions with our collection of hands-on exercises. Practice real-world scenarios, from basic syntax to advanced applications with map(), filter(), and reduce(). Includes solutions!"
+description: "Learn about {% assign topic = "lambda" %} with this comprehensive guide."
 keywords: Python lambda exercises, lambda function practice problems, Python anonymous function exercises, lambda coding challenges, Python map filter reduce practice, real-world lambda examples, Python functional programming exercises, lambda syntax practice, Python one-liner exercises, lambda function solutions, Python coding drills, interactive lambda learning, Python higher-order functions, lambda problem sets, Python programming practice
+meta_description: "Master Python lambda functions with our collection of hands-on exercises. Practice real-world scenarios, from basic syntax to advanced applications with map(), filter(), and reduce(). Includes solutions!"
 toc: toc/python.html
 topic: "lambda"
 course: "python"

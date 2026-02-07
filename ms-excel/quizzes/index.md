@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel Quizzes
+description: 1. Microsoft Excel Quiz: Basics 2. Microsoft Excel Quiz: Formatting 3. Microsfot Excel Quiz: Formulas {% assign show_heading = false %} {% include toc...
+keywords: excel, microsoft, quiz, topic, basics
+---
 # Microsoft Excel Quizzes
 
 1. [Microsoft Excel Quiz: Basics](excel-basics-quiz.md)

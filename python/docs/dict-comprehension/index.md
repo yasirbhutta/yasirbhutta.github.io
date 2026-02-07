@@ -1,3 +1,9 @@
+---
+layout: page
+title: Dictionary comprehensions are a powerful and concise way to create dictionaries in Python.
+description: Dictionary comprehensions are a powerful and concise way to create dictionaries in Python. Syntax: {keyexpression: valueexpression for item in iterabl...
+keywords: list, item, answer, expression, create
+---
 
 ## Dict Comprehension
 

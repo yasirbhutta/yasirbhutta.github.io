@@ -1,3 +1,9 @@
+---
+layout: page
+title: "✅ **Online Quizzes for Python ......**"
+description: "- This section provides statements to test your understanding of Python concepts. You determine whether each statement is true or false, helping clari..."
+keywords: "your, python, concepts, exercises, questions, understanding, knowledge, code"
+---
 ## Practice & Progress
 
 ### **1. True/False Statements** 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "List Slicing in Python: Syntax and Examples"
-description: Learn how to use Python list slicing to extract and manipulate parts of lists. This guide provides clear explanations and examples for efficient coding.  
+description: Learn how to use Python list slicing to extract and manipulate parts of lists. This guide provides clear explanations and examples for efficient coding.
 keywords: Python, List, Slicing, Syntax, Examples, Tutorial, Guide, Coding, list slicing in python, list slicing tasks, list slicing exercises, list slicing syntax, list tasks.
 toc: toc/python.html
 prev: /python/docs/lists/lists-basics.html
@@ -11,13 +11,9 @@ topic: lists
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Lists
-    url: /python/docs/lists/
+breadcrumb: 
+- title: Lists
+url: /python/docs/lists/
 ---
 
 **Slicing** a list in Python means extracting a portion (or subsequence) of the list using a specific syntax:

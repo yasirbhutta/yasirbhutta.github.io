@@ -1,3 +1,9 @@
+---
+layout: page
+title: Guard Statement \| Python for Beginners
+description: * "A guard statement is a conditional statement that checks a condition at the beginning of a function or method. If the condition is not met, the fun...
+keywords: guard, function, statement, statements, condition
+---
 # Guard Statement \| Python for Beginners
 
 ## What is Guard statement

@@ -11,13 +11,9 @@ toc: toc/python.html
 show_practice_progress: false
 show_mini_project: false
 prev: /ms-excel/docs/math/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Math
-    url: /python/docs/math-module/
+breadcrumb: 
+- title: Math
+url: /python/docs/math-module/
 ---
 
 Here’s a clear comparison between `math.isinf(x)` and `math.isfinite(x)` in Python:

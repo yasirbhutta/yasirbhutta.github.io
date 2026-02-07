@@ -1,3 +1,9 @@
+---
+layout: page
+title: The best keyboard shortcuts to use with functions and formulas	Help
+description: The best keyboard shortcuts to use with functions and formulas	Help Assistance > Office 2000 > Excel 2000 > Data Applies to Microsoft Excel 2000 If yo...
+keywords: cell, ctrl, function, shift, formula
+---
 The best keyboard shortcuts to use with functions and formulas	Help
 
 Assistance > Office 2000 > Excel 2000 > Data

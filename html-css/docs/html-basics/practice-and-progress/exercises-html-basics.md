@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: --.
 description: --.
+keywords: "create, web, code, page, img, using, tags, display"
 ---
 
 # Coding Exercises 

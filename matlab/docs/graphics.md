@@ -1,3 +1,9 @@
+---
+layout: page
+title: [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/): MATLAB Graphics
+description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Download PDF - To access the updated lecture notes, please cl...
+keywords: plot, function, matlab, title, line
+---
 # [MATLAB for Beginners](https://yasirbhutta.github.io/matlab/): MATLAB Graphics
 
 Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)

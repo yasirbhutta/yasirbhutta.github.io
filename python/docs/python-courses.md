@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Courses
+description: - Python Programming And Numerical Methods: A Guide For Engineers And Scientists - Google's Python Class - Python Code Examples – Sample Script Coding...
+keywords: python, code, tutorial, courses, programming
+---
 # Python Courses
 
 - [Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)

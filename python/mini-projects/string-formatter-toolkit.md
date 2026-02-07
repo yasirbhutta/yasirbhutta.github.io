@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: null
 next: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Mini Projects
-    url: /python/min-projects/
+breadcrumb: 
+- title: Mini Projects
+url: /python/min-projects/
 ---
 
 ## **Objective:**

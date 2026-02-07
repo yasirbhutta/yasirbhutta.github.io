@@ -1,3 +1,9 @@
+---
+layout: page
+title: Customized Packages in Python: A Complete Guide
+description: A customized package is a collection of Python modules organized in a directory hierarchy that you create to solve specific problems or implement part...
+keywords: import, return, package, def, init
+---
 # Customized Packages in Python: A Complete Guide
 
 ## What is a Customized Package in Python?

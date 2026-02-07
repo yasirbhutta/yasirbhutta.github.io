@@ -2,7 +2,7 @@
 layout: page
 title: "SAP EAM (Enterprise Asset Management) – Guide, Benefits & Best Practices"
 description: Learn how SAP EAM optimizes asset maintenance, reduces downtime & boosts efficiency. Explore key features, modules, and industry applications.
-keywords: SAP EAM, Enterprise Asset Management, SAP Plant Maintenance, SAP PM, asset maintenance software, SAP asset management, EAM best practices, SAP maintenance management, predictive maintenance SAP, SAP asset lifecycle, SAP EAM modules, asset performance management, SAP for equipment maintenance, EAM software solutions, SAP asset tracking, industrial asset management 
+keywords: SAP EAM, Enterprise Asset Management, SAP Plant Maintenance, SAP PM, asset maintenance software, SAP asset management, EAM best practices, SAP maintenance management, predictive maintenance SAP, SAP asset lifecycle, SAP EAM modules, asset performance management, SAP for equipment maintenance, EAM software solutions, SAP asset tracking, industrial asset management
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
 topic: sap-eam
@@ -10,11 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
 next: /sap-education-research/docs/sap-fico/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
+breadcrumb: 
+- title: SAP
+url: /sap-education-research/
 ---
 
 ### 🛠️ What is **SAP EAM (Enterprise Asset Management)?**

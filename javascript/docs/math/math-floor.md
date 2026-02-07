@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "JavaScript Math.floor() Explained" 
-description: "Learn how to use JavaScript’s Math.floor() function to round numbers down to the nearest integer. Includes clear examples and real-world use cases for web development and random number generation."  
+layout: page
+title: "JavaScript Math.floor() Explained"
+description: "Learn how to use JavaScript’s Math.floor() function to round numbers down to the nearest integer. Includes clear examples and real-world use cases for web development and random number generation."
 keywords: "JavaScript Math.floor, JavaScript rounding, round down JavaScript, JavaScript number functions, Math.floor tutorial, JavaScript floor example, JavaScript Math methods, JavaScript basics, beginner JavaScript"
 toc: toc/javascript.html
 topic: "basics"

@@ -1,3 +1,9 @@
+---
+layout: page
+title: SHORTCUT KEYS ABCs
+description: SHORTCUT KEYS ABCs Shortcut keys help provide an easier and usually quicker method of navigating and using computer software programs. Shortcut keys a...
+keywords: ctrl, shift, keys, shortcut, text
+---
 ## SHORTCUT KEYS
 
 SHORTCUT KEYS ABCs

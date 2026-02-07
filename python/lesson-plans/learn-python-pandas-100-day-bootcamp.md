@@ -3,11 +3,9 @@ layout: page
 title: Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners
 description: Master Python & Pandas in 100 days with real-world projects! Analyze TikTok trends, Spotify data, and sports stats. Perfect for beginners (15+) – includes cheat sheets, datasets, and career prep. Start today!
 keywords: learn data analysis with Python, Pandas for beginners, 100-day Python course, data analysis projects for students, Python Pandas tutorial, real-world datasets for practice, data visualization with Pandas, coding for teens, analyze TikTok data with Python, best Python projects for beginners, free datasets for data analysis, Python data wrangling, Excel to Python transition, data science for high school students, Jupyter Notebook tutorial, automate data tasks with Python, clean messy data with Pandas, data storytelling for beginners, Python programming for non-coders, Kaggle datasets for learning, data analysis portfolio projects
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## **🌐 Phase 1: Python & Pandas Foundation (Days 1-30)**  

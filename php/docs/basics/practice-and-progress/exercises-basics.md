@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "PHP Basics Coding Exercises – Practice PHP with Hands-On Code Examples"
-meta_description: "Boost your PHP coding skills with beginner-friendly exercises covering core PHP basics. Perfect for learners, students, and interview preparation. Code and learn PHP now!"
+description: "Learn about {% assign topic = "basics" %} with this comprehensive guide."
 keywords: PHP coding exercises, PHP practice problems, PHP basics, learn PHP, PHP code examples, PHP hands-on practice, PHP beginner exercises, PHP programming tasks, PHP for students, PHP training, core PHP coding, PHP interview coding questions
+meta_description: "Boost your PHP coding skills with beginner-friendly exercises covering core PHP basics. Perfect for learners, students, and interview preparation. Code and learn PHP now!"
 toc: toc/php.html
 topic: "basics"
 course: "php"

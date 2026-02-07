@@ -1,3 +1,9 @@
+---
+layout: page
+title: IT Support Skills
+description: - Enable two step verification (mobile, cloud) - Enable Recovery phone (mobile, cloud) - Configure university email account on Outlook - How to apply...
+keywords: mobile, add, cloud, files, configure
+---
 # IT Support Skills
 
 ## Accounts

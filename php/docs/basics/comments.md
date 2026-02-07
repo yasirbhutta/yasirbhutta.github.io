@@ -8,7 +8,7 @@ course: php
 topic: "basics"
 mini_project: tru
 prev: /php/docs/basics/string-functions.html
-next: /php/docs/control-flow.html 
+next: /php/docs/control-flow.html
 ---
 
 In PHP, comments are used to add notes or explanations within the code. These comments are ignored by the PHP interpreter and do not affect the execution of the script. They help programmers document their code, making it easier to understand and maintain. There are two main types of comments in PHP:

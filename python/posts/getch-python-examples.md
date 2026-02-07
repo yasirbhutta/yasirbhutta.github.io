@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Understanding Python's os.getcwd(): Get Current Working Directory with Examples
 description: "Learn how to use Python's os.getcwd() to get the current working directory with examples. Enhance your coding skills with this beginner-friendly guide."
+keywords: "script, current, working, directory, python, getcwd, adsbygoogle, data"
 ---
 
 # Understanding Python's os.getcwd(): Get Current Working Directory with Examples

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SAP User Guide – Common Features and Essential Functions for All"
-description: Discover common features and essential functions in SAP with this user guide. Learn how to log in, change theme settings, and navigate SAP efficiently. Perfect for teachers, students, and key users in education and research.  
+description: Discover common features and essential functions in SAP with this user guide. Learn how to log in, change theme settings, and navigate SAP efficiently. Perfect for teachers, students, and key users in education and research.
 keywords: SAP user guide, SAP common features, SAP essential functions, SAP login guide, SAP theme settings, SAP navigation, SAP for teachers, SAP for students, SAP education and research, SAP training
 author: Muhammad Yasir Bhutta
 course: sap-education-reasearch
@@ -9,13 +9,9 @@ show_practice_progress: false
 toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: SAP User Guides
-    url: /sap-education-research/user-guide/
+breadcrumb: 
+- title: SAP User Guides
+url: /sap-education-research/user-guide/
 ---
 
 ## Popular Articles

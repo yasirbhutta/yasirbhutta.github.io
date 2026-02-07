@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Forms and Controls Exercises: Practice Building Forms.
 description: Practice creating HTML forms with these coding exercises. Learn to build user registration forms, handle input types, and use form attributes like POST, email, and password..
+keywords: "type, form, email, password, button, coding, exercises, create"
 ---
 
 # Coding Exercises

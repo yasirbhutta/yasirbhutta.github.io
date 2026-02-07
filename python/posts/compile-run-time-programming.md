@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Compile Time vs Run Time: Key Differences Explained with Examples
 description: "Understand the differences between compile time and run time in programming. Learn key concepts, errors, and examples to enhance your coding knowledge."
+keywords: "time, run, code, compile, errors, script, adsbygoogle, data"
 ---
 
 # Compile Time vs Run Time: Key Differences Explained with Examples

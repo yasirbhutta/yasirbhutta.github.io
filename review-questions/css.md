@@ -1,3 +1,9 @@
+---
+layout: page
+title: Review Questions
+description: 1. Explain CSS box model? 1. What is a Class selector and how does it differ from an ID selector explain with example? 1. Provide the style rule to di...
+keywords: style, css, display, colour, rule
+---
 # Review Questions
 
 ## Cascading Style Sheets

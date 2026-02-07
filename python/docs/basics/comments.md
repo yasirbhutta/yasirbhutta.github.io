@@ -1,16 +1,13 @@
 ---
 layout: page
-title: Python Comments  
+title: Python Comments
 description: Learn Python Comments
 keywords: Python basics, Python tutorials for beginners, Python examples, Python exercises, Python print function, python comments
-
 toc: toc/python.html
 topic: basics
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## Comments

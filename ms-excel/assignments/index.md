@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Microsoft Excel Assignments - Practice and Master Excel Skills  
-description: Explore a variety of Microsoft Excel assignments to practice and master Excel skills. Learn data entry, formatting, formulas, charts, and data analysis techniques. Perfect for beginners and professionals to enhance productivity and Excel expertise.  
+layout: page
+title: Microsoft Excel Assignments - Practice and Master Excel Skills
+description: Explore a variety of Microsoft Excel assignments to practice and master Excel skills. Learn data entry, formatting, formulas, charts, and data analysis techniques. Perfect for beginners and professionals to enhance productivity and Excel expertise.
 keywords: Microsoft Excel assignments, Excel practice assignments, Excel beginner tutorials, Excel data entry, Excel formatting, Excel formulas and functions, Excel charts, Excel data analysis, Excel productivity tips, Excel skill-building
 author: Muhammad Yasir Bhutta
 ---

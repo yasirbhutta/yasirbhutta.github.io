@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Fill in the Blanks: Python Functions - Test Your Knowledge
 description: Test your understanding of Python functions with these fill-in-the-blank exercises. Perfect for beginners and intermediates to practice key concepts and improve coding skills.
+keywords: "function, answer, used, python, keyword, arguments, default, code"
 ---
 
 ### Fill in the Blanks: Functions in Python

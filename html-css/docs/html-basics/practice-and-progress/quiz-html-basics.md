@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: HTML Basics Quiz: Test Your Knowledge of HTML Fundamentals.
 description: Test your knowledge of HTML fundamentals with this interactive quiz. Perfect for beginners to practice essential topics like HTML elements, tags, attributes, and structure in web development.
+keywords: "html, script, adsbygoogle, data, quiz, basics, your, elements"
 ---
 # HTML Quiz: Basics
 Test your knowledge of HTML fundamentals with this interactive quiz! Whether you're a beginner learning the basics or brushing up on your skills, this quiz covers essential topics like HTML elements, tags, attributes, and structure. Challenge yourself and see how well you understand the building blocks of web development! 🚀

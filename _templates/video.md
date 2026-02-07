@@ -1,3 +1,9 @@
+---
+layout: page
+title: "{% assign video_type = "video" %}"
+description: "This video covers: * ✔️ The basic method for printing the values of a list \[00:08\]. * ✔️ Accessing the index and values of a list \[00:50\]. * ✔️ Mo..."
+keywords: "list, video, values, using, assign, covers, basic, method"
+---
 ## **📺 Video Tutorial: 6 Ways to use List in For loop in Python**  
 **This video covers:**  
 * ✔️ The basic method for printing the values of a list \[[00:08](http://www.youtube.com/watch?v=-FErgsl9njQ&t=8)\].

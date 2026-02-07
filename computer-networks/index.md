@@ -1,3 +1,9 @@
+---
+layout: page
+title: Computer Networks
+description: - Computer Network Notes Lab 1: - Activiation of accounts: University email, eduroam, Microsoft 365 - Join Class in Microsoft Teams - Lab 1: Installat...
+keywords: lab, hands, activity, network, packet
+---
 # Computer Networks
 
 - [Computer Network Notes](docs/computer-networks.md)

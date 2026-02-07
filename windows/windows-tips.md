@@ -1,3 +1,9 @@
+---
+layout: page
+title: Using shortcut keys for My Computer and Windows Explorer
+description: Using shortcut keys for My Computer and Windows Explorer To	Press Close the selected folder and all of its parent folders	SHIFT while clicking the Clo...
+keywords: windows, display, ctrl, alt, shortcut
+---
 Using shortcut keys for My Computer and Windows Explorer
 To	Press
 Close the selected folder and all of its parent folders	SHIFT while clicking the Close button 

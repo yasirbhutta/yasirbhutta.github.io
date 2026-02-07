@@ -1,18 +1,16 @@
 ---
 layout: page
-title: Microsoft SharePoint Document Library Guide – Manage, Organize, and Collaborate on Files  
-description: Learn how to use Microsoft SharePoint Document Library for efficient document management, team collaboration, and workflow automation. Discover step-by-step instructions, best practices, and tips to organize, share, and secure files in SharePoint. Perfect for beginners, students, and professionals.  
+title: Microsoft SharePoint Document Library Guide – Manage, Organize, and Collaborate on Files
+description: Learn how to use Microsoft SharePoint Document Library for efficient document management, team collaboration, and workflow automation. Discover step-by-step instructions, best practices, and tips to organize, share, and secure files in SharePoint. Perfect for beginners, students, and professionals.
 keywords: Microsoft SharePoint document library, SharePoint file management, SharePoint collaboration, SharePoint tutorials, SharePoint best practices, SharePoint organize files, SharePoint workflow, SharePoint for beginners, SharePoint document sharing,
 author: Muhammad Yasir Bhutta
 course: microsoft-sharepoint
 show_practice_progress: false
 show_toc: null
 prev: /microsoft-sharepoint/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SharePoint
-    url: /microsoft-sharepoint/
+breadcrumb: 
+- title: SharePoint
+url: /microsoft-sharepoint/
 ---
 
 Using a **SharePoint Library** for file or document management allows you to store, organize, share, and collaborate on documents within your organization. Here's a **step-by-step guide** to help you get started:

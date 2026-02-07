@@ -1,3 +1,9 @@
+---
+layout: page
+title: Download Images, Audios and Videos etc
+description: - Lorem Ipsum - All the facts - Lipsum generator - https://placeholder.com/ - https://www.freepik.com/ - https://unsplash.com/ - https://sample-videos...
+keywords: https, com, videos, download, images
+---
 # Download Images, Audios and Videos etc
 
 ## Download Sample text

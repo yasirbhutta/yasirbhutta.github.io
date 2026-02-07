@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft Excel Quiz: Formatting
+description: To learn more about `Microsoft Excel Formatting, please visit Microsoft Excel: Formatting Topics Convered: - Basic formatting commands (font, font siz...
+keywords: excel, formatting, format, script, adsbygoogle
+---
 # Microsoft Excel Quiz: Formatting
 
 To learn more about `Microsoft Excel Formatting, please visit **[Microsoft Excel: Formatting](../docs/formatting.md)**

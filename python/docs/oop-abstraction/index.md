@@ -1,20 +1,16 @@
 ---
 layout: page
 title: Abstraction and Interfaces in Python OOP for Beginners
-description: Learn the difference between Abstraction and Interfaces in Python OOP with real-world examples. Perfect for beginners! Understand abstract classes, @abstractmethod, and how to implement interfaces in Python.  
+description: Learn the difference between Abstraction and Interfaces in Python OOP with real-world examples. Perfect for beginners! Understand abstract classes, @abstractmethod, and how to implement interfaces in Python.
 keywords: abstraction in python, interfaces in python, python oop concepts, abstract class python, python abc module, difference between abstraction and interface in python, how to use @abstractmethod in python, python oop tutorial for beginners, real-world examples of abstraction python, when to use abstraction vs interface, python abstract base class, abc module in python, method overriding in python, polymorphism in python, inheritance vs abstraction python, python oop principles, abstractmethod decorator, python interface example, python abstraction explained, learn python oop
 course: python
 topic: oop-abstraction
 toc: toc/python.html
 prev: /python/docs/oop-encapsulation/
 next: /python/docs/oop-inheritance/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: OOP in Python
-    url: /python/docs/oop/
+breadcrumb: 
+- title: OOP in Python
+url: /python/docs/oop/
 ---
 
 ## Understanding Abstraction

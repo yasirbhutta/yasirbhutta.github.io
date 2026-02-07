@@ -1,5 +1,5 @@
 ---
-layout: video
+layout: page
 title: "Python tuples example: Print elements of a tuple using while loop"
 description: Learn how to print elements of a tuple in Python using while loop.
 keywords: Python, tuple, empty tuple, single value tuple, programming, data structures, Python tutorial
@@ -8,13 +8,9 @@ course: python
 topic: tuples
 toc: toc/python.html
 prev: /python/docs/tuples/tuples-basics.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Tuples
-    url: /python/docs/tuples/
+breadcrumb: 
+- title: Tuples
+url: /python/docs/tuples/
 ---
 
 {% assign video_type = "video" %}

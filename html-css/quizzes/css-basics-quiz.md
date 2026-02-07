@@ -1,3 +1,9 @@
+---
+layout: page
+title: Cascading Style Sheets(CSS) Quiz: Basics
+description: Cascading Style Sheets (CSS) Quiz: Basics Test your knowledge of the fundamentals of CSS with this interactive quiz! Covering essential topics such as...
+keywords: css, basics, quiz, cascading, style
+---
 # Cascading Style Sheets(CSS) Quiz: Basics
 
 **Cascading Style Sheets (CSS) Quiz: Basics**  

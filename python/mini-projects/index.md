@@ -2,7 +2,7 @@
 layout: page
 title: "Python Mini Projects"
 description: Explore hands-on Python mini projects designed to practice real concepts with code examples.
-keywords: 
+keywords: "overview, user, input, python, use, find, replace, split"
 author: Muhammad Yasir Bhutta
 course: python
 topic: mini-projects
@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: null
 next: null
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 ## 🔤 Mini Projects

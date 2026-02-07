@@ -1,3 +1,9 @@
+---
+layout: page
+title: IT-401 DATA STRUCTURES & ALGORITHMS 4(3-1)
+description: Download PDF Questions 1. What is Big O notation? - Answer: Big O notation is a mathematical concept used in computer science to describe how the perf...
+keywords: answer, element, time, sort, algorithm
+---
 # IT-401 DATA STRUCTURES & ALGORITHMS 4(3-1)
 
 [Download PDF](dsa-rq.pdf)

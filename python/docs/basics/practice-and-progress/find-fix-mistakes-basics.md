@@ -2,19 +2,16 @@
 layout: page
 title: "Python Basics: Find and Fix Mistakes"
 description: "Sharpen your Python basics by identifying and fixing common coding errors. Perfect for beginners to enhance problem-solving skills and reinforce programming fundamentals."
+keywords: "print, file, error, hello, code, name, task, world"
 toc: toc/python.html
 course: python
 topic: basics
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Basics
-    url: /python/docs/basics/
+breadcrumb: 
+- title: Basics
+url: /python/docs/basics/
 ---
 
 ## Question 1: Fix the Parenthesis Error

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Code Optimization in Python
+description: Optimizing Python code can significantly improve performance and resource efficiency. Here are key strategies and techniques: items = [1, 2, 3, 4, 5]...
+keywords: result, arr, def, return, code
+---
 # Code Optimization in Python
 
 Optimizing Python code can significantly improve performance and resource efficiency. Here are key strategies and techniques:

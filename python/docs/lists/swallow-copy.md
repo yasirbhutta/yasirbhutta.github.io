@@ -11,13 +11,9 @@ topic: lists
 show_toc: true
 show_practice_progress: true
 show_mini_project: false
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
-  - title: Lists
-    url: /python/docs/lists/
+breadcrumb: 
+- title: Lists
+url: /python/docs/lists/
 ---
 
 ## Table of Contents

@@ -9,11 +9,9 @@ topic: pandas
 toc: toc/python.html
 prev: /python/docs/modules/numpy.html
 next: /python/docs/modules/scipy.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Python
-    url: /python/
+breadcrumb: 
+- title: Python
+url: /python/
 ---
 
 Handling CSV (Comma-Separated Values) files is a common task in Python, especially for data analysis, automation, and working with spreadsheets. This guide covers **reading, writing, and manipulating CSV files** with beginner-friendly examples and real-world use cases.

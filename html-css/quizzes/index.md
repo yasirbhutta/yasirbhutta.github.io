@@ -1,3 +1,9 @@
+---
+layout: page
+title: HTML and CSS Quizzes
+description: 1. HTML Quiz: Basics 2. HTML Quiz: Forms and Controls 1. CSS Quiz: Basics 2. CSS Quiz: Selectors 3. CSS Quiz: Styles
+keywords: quiz, css, html, basics, quizzes
+---
 # HTML and CSS Quizzes
 
 ## HTML

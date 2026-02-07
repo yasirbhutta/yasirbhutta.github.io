@@ -12,11 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /google-workspace/docs/google-docs/
 next: /google-workspace/docs/google-search/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Google Workspace
-    url: /google-workspace/    
+breadcrumb: 
+- title: Google Workspace
+url: /google-workspace/
 ---
 
 ## Table of Contents

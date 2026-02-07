@@ -12,13 +12,9 @@ next: "/python/docs/functions/practice-and-progress/review-questions-functions.h
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: functions
-    url: /python/docs/functions/
+breadcrumb: 
+- title: functions
+url: /python/docs/functions/
 ---
 
 ## Mini Projects

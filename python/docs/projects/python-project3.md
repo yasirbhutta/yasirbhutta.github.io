@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Project: IoT Sensor Data Analysis and Anomaly Detection using Machine Learning
+description: Project Title: IoT Sensor Data Analysis and Anomaly Detection using Machine Learning Project Domain / Category: Internet of Things (IoT) / Data Analyt...
+keywords: data, anomaly, sensor, model, detection
+---
 # Python Project: IoT Sensor Data Analysis and Anomaly Detection using Machine Learning
 
 **Project Title:** IoT Sensor Data Analysis and Anomaly Detection using Machine Learning

@@ -10,13 +10,9 @@ toc: toc/sap-education-research.html
 show_toc: yes
 prev: /sap-education-research/
 next: /sap-education-research/docs/sap-fico/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: SAP
-    url: /sap-education-research/
-  - title: EAM
-    url: /sap-education-research/docs/sap-eam/
+breadcrumb: 
+- title: EAM
+url: /sap-education-research/docs/sap-eam/
 ---
 
 In **SAP EAM (Enterprise Asset Management)**, a **Work Center** is a key master data object that represents a **location where maintenance work is carried out**. It can refer to a group of people (like technicians or electricians), a physical place (like a workshop), or a piece of equipment used to perform work.

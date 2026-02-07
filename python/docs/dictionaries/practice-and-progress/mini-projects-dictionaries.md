@@ -12,13 +12,9 @@ next: "/python/docs/dictionaries/practice-and-progress/review-questions-dictiona
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Dictionaries
-    url: /python/docs/dictionaries/
+breadcrumb: 
+- title: Dictionaries
+url: /python/docs/dictionaries/
 ---
 
 ## Mini Projects

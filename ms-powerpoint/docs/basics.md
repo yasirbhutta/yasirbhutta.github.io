@@ -1,3 +1,9 @@
+---
+layout: page
+title: Microsoft PowerPoint
+description: - Download PDF - Set up your mobile apps - PowerPoint is a presentation software developed by Microsoft that allows users to create visual slideshows...
+keywords: slide, powerpoint, animations, text, presentation
+---
 # Microsoft PowerPoint
 
 - [Download PDF](https://yasirbhutta.github.io/ms-powerpoint/docs/basics.pdf)

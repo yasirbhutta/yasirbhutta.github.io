@@ -12,13 +12,9 @@ show_practice_progress: false
 show_mini_project: false
 prev: /ms-excel/docs/functions/what-is-functions.html
 next: /ms-excel/docs/functions/sumif.html
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
-  - title: Functions
-    url: /ms-excel/docs/functions.html
+breadcrumb: 
+- title: Functions
+url: /ms-excel/docs/functions.html
 ---
 
 Write a Python program that reads a CSV file using the pandas library. Include examples to display the first few rows using head(), the last few rows using tail(), and demonstrate how to select specific columns.

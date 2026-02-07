@@ -1,3 +1,9 @@
+---
+layout: page
+title: Here's another real-life example to illustrate concurrency and parallelism, this time using a **coffee shop scenario**:
+description: Here's another real-life example to illustrate concurrency and parallelism, this time using a coffee shop scenario: - Scenario: You’re the only barist...
+keywords: time, multiple, tasks, parallelism, task
+---
 Here's another real-life example to illustrate concurrency and parallelism, this time using a **coffee shop scenario**:
 
 ---

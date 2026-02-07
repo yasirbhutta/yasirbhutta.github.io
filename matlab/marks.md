@@ -1,3 +1,9 @@
+---
+layout: page
+title: Final Term - Spring
+description: - Microsoft Excel - Matrix - Polynomials Total Objective (06 marks 0.5x12): (1x True/False + 2x Fill in the Blanks + 9x MCQs) - 3x from Mid contents -...
+keywords: marks, excel, matrix, polynomials, microsoft
+---
 
 # Final Term - Spring 
 

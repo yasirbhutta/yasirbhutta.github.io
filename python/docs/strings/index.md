@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Python String Tutorial: Learn String Methods & Formatting" 
-description: Master Python strings with this guide. Learn string manipulations, methods, slicing, and formatting with examples to improve your Python coding skills fast.  
+title: "Python String Tutorial: Learn String Methods & Formatting"
+description: Master Python strings with this guide. Learn string manipulations, methods, slicing, and formatting with examples to improve your Python coding skills fast.
 keywords: ​Python strings, string manipulation, string formatting, Python tutorial, string methods, Python basics, string operations, beginner Python, Python string examples, Python string functions, learn with yasir
 toc: toc/python.html
 topic: "strings"
@@ -11,11 +11,9 @@ next: /python/docs/functions.html
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
+breadcrumb: 
+- title: python
+url: /python/
 ---
 
 ## Contents

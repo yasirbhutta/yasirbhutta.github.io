@@ -9,15 +9,9 @@ topic: "if-elif-else"
 course: "python"
 prev: "/python/docs/if-elif-else/practice-and-progress/exercises-if-elif-else.html"
 next: "/python/docs/if-elif-else/practice-and-progress/review-questions-if-elif-else.html"
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Control Flow
-    url: /python/docs/control-flow/
-  - title: if-elif-else
-    url: /python/docs/if-elif-else/
+breadcrumb: 
+- title: if-elif-else
+url: /python/docs/if-elif-else/
 ---
 
 To learn more about using the `if` statement in Python, please visit **[Control Flow Statements: if Statement](../if-elif-else.md)

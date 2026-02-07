@@ -1,3 +1,9 @@
+---
+layout: page
+title: Q: What does CSS stand for?
+description: Q: What does CSS stand for? - Cascading Style Sheet - Creative Style Sheet - Computer Style Sheet * Cascading Style Sheet Q: What is the primary funct...
+keywords: computer, style, sheet, components, cpu
+---
 Q: What does CSS stand for?
 - Cascading Style Sheet
 - Creative Style Sheet

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Final Term Fall 2024 (BS English 1st morning/evening)
+description: Total Objective (04 marks 0.5x8): - Number Systems - Databases - Networks - Microsoft Excel - Microsoft Word Total Objective (08 marks 0.5x16): (3x Tr...
+keywords: microsoft, computer, marks, excel, storage
+---
 # Final Term Fall 2024 (BS English 1st morning/evening)
 
 **Total Objective (04 marks 0.5x8):**

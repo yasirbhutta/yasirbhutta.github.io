@@ -1,3 +1,9 @@
+---
+layout: page
+title: Glossary for Data Analytics
+description: - Glossary for Data Analytics - confusion matrix - nominal column - F1 score - harmonic mean A confusion matrix is a table used to evaluate the perfor...
+keywords: mean, score, precision, recall, harmonic
+---
 # Glossary for Data Analytics
 
 - [Glossary for Data Analytics](#glossary-for-data-analytics)

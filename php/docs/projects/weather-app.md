@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Mini Project: Simple Weather App with API Integration**
+description: ✅ PHP API requests (cURL) ✅ JSON data handling ✅ Form processing ✅ Basic error handling ✅ Simple UI with CSS 1. Search by City - Get current weather d...
+keywords: weather, php, data, city, error
+---
 # **Mini Project: Simple Weather App with API Integration**
 
 ## **Project Title:** Basic Weather Application

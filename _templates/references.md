@@ -1,3 +1,9 @@
+---
+layout: page
+title: "(Note: ✅ Beginner 🟢 | ⚙️ Intermediate 🟡 | 🚀 Advanced 🔵)"
+description: "(Note: ✅ Beginner 🟢 | ⚙️ Intermediate 🟡 | 🚀 Advanced 🔵) 5.2 Conditional Statements — if, else, elif ✅🟢 [PDF] 5.3 Looping Statements — for, while ✅🟢 Th..."
+keywords: "autosum, com, pdf, excel, loop, use, while, https"
+---
 ## Table of Contents  
 (Note: ✅ Beginner 🟢 | ⚙️ Intermediate 🟡 | 🚀 Advanced 🔵)
 

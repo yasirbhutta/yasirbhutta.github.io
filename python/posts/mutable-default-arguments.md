@@ -1,3 +1,9 @@
+---
+layout: page
+title: **Beware of Mutable Default Arguments in Python – A Common Mistake Explained!**
+description: One common mistake in Python is using a mutable default argument like a list (`[]`). When a mutable object is used as a default parameter, it persists...
+keywords: apple, cart, banana, call, data
+---
 # **Beware of Mutable Default Arguments in Python – A Common Mistake Explained!**
 
 ## Understanding Mutable Default Arguments in Python  

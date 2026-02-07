@@ -1,5 +1,5 @@
 ---
-layout: exercises
+layout: page
 title: Learn Python String Methods & Formatting with Coding Exercises.
 description: Test your Python skills with Coding Exercises on string methods and formatting. Great for beginners learning Python strings through hands-on practice.
 keywords: python string methods, python string formatting, python coding exercises, python quiz, learn python strings, string methods in python, python string exercises, python for beginners, python string functions, python interview questions.
@@ -12,11 +12,7 @@ next: "/python/docs/strings/practice-and-progress/mini-projects-strings.html"
 show_practice_progress: true
 show_mini_project: null
 show_toc: true
-breadcrumb:
-  - title: Home
-    url: /
-  - title: python
-    url: /python/
-  - title: Strings
-    url: /python/docs/strings/
+breadcrumb: 
+- title: Strings
+url: /python/docs/strings/
 ---

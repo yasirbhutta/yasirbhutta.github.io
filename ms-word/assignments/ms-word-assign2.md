@@ -10,11 +10,9 @@ show_toc: true
 show_practice_progress: null
 show_mini_project: null
 prev: /ms-word/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Word
-    url: /ms-word/
+breadcrumb: 
+- title: Word
+url: /ms-word/
 ---
 
 ## 🧾 **Task 1: Prepare a Report on “Impact of Social Media on Students**

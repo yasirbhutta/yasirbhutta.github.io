@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Excel Assignment - Create a Task Planner with Formatting and Conditional Formatting  
-description: Complete this Microsoft Excel assignment to create a task planner. Learn to format cells, rename sheets, organize assignments, apply conditional formatting, and track progress. Perfect for beginners to enhance their Excel skills.  
+title: Microsoft Excel Assignment - Create a Task Planner with Formatting and Conditional Formatting
+description: Complete this Microsoft Excel assignment to create a task planner. Learn to format cells, rename sheets, organize assignments, apply conditional formatting, and track progress. Perfect for beginners to enhance their Excel skills.
 keywords: Microsoft Excel assignment, Excel task planner, Excel beginner assignment, Excel conditional formatting, Excel cell formatting, Excel sheet renaming, Excel progress tracking, Excel tutorial for beginners, Excel practice assignment, Excel task management
 author: Muhammad Yasir Bhutta
 course: ms-excel
@@ -11,11 +11,9 @@ show_toc: true
 show_practice_progress: null
 show_mini_project: null
 prev: /ms-excel/
-breadcrumb:
-  - title: Home
-    url: /
-  - title: Excel
-    url: /ms-excel/
+breadcrumb: 
+- title: Excel
+url: /ms-excel/
 ---
 
 # Excel Sheet Assignment: Task Planner

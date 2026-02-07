@@ -1,3 +1,9 @@
+---
+layout: page
+title: PHP
+description: - PHP updated on: 19-Dec-2022 - Download PDF - Download examples code An array is a special variable, which can hold more than one value at a time. In...
+keywords: array, php, arrays, key, cars
+---
 # PHP
 
 - [PHP](../docs/index.md)
