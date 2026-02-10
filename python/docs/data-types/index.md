@@ -12,14 +12,17 @@ toc: toc/python.html
    - [Numeric Types (int, float, complex)](#1-numeric-types-int-float-complex)
    - [Text Type (str)](#2-text-type-str)
    - [Boolean Type (bool)](#3-boolean-type-bool)
-2. [Type Casting](data-types/type-casting.md)
+2. [Type Casting](type-casting.md)
 3. [Immutable vs. Mutable](immutable-mutable.md#immutable-vs-mutable)
    - [Common Mutable Data Types](immutable-mutable.md#common-immutable-data-types)  
    - [Common Immutable Data Types](immutable-mutable.md#common-mutable-data-types) 
 4. [Why Data Types Matter in Python](why-use-data-types.md)
 5. [Type Hints](type-hints.md)
 
+
 ## Key Terms
+
+## ..
 
 ## Fix the error
 
