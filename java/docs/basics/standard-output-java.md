@@ -135,6 +135,7 @@ The program speaks → microphone carries sound → audience hears it.
 
 ## 📘 **Related Topics**
 
-- [Standard Output](standard-output-java.md)
+- [Java Hello World Program Explained for Beginners](first-program-java.md)
+- [Standard Input](docs/basics/standard-input-java.md)
 - [Data Types and Variables](data-types-variables-java.md)
 
