@@ -122,3 +122,8 @@ if (age >= 18) {
 *(Answer: It prints `"Right this way, VIP!"`. The first condition (`age >= 18`) is `false`, so Java skips it. It checks the `else if`, which is `true`, runs that block, and then instantly skips the rest!)*
 
 ---
+
+## 📘 **Related Topics**
+
+- [Type Casting](type-casting.md)
+- [Loops](loops)

@@ -254,8 +254,8 @@ Keep asking user for number until they enter 7.
 
 ---
 
-# ⭐ Beginner Memory Trick
+## 📘 **Related Topics**
 
-Remember loop structure using this phrase:
+- [Type Casting](type-casting.md)
+- [Conditional Statements](conditional-statements.md)
 
-> **Start → Check → Run → Change → Repeat**

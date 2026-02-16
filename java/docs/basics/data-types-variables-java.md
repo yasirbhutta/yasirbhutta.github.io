@@ -217,3 +217,7 @@ Write the exact Java code to create the following variables. Remember to combine
 
 ---
 
+## 📘 **Related Topics**
+
+- [Standard Input](standard-input-java.md)
+- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](expressions/)

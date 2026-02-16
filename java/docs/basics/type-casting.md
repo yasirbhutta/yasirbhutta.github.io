@@ -106,3 +106,8 @@ By casting **one number to double** *before dividing*, Java performs decimal div
 
 ![Java Casting Diagram: Implicit vs Explicit](https://res.cloudinary.com/da0pjikvw/image/upload/v1771235401/type-casting_oto0el.png)
 
+## 📘 **Related Topics**
+
+- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](expressions/)
+- [Conditional Statements](conditional-statements.md)
+

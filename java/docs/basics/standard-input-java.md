@@ -267,3 +267,4 @@ If you try to type a **letter** when the program asks for a `nextDouble()`, the 
 ## 📘 **Related Topics**
 
 - [Standard Output](standard-output-java.md)
+- [Data Types and Variables](data-types-variables-java.md)

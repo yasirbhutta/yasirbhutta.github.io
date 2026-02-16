@@ -319,3 +319,5 @@ int result = 10 + 2 * 3 - 4 / 2;
 ## 📘 **Related Topics**
 
 - [Difference Between Expressions and Statements in Java | Java Basics Explained](expressions-statements.md)
+- [Data Types and Variables](data-types-variables-java.md)
+- [Type Casting](type-casting.md)

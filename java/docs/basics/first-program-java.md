@@ -52,4 +52,5 @@ If you have the Java Development Kit (JDK) installed, you can try this right now
 
 - [Java IDEs for OOP Coding](../tools-java.md)
 - [How to Install Oracle JDK and Configure VS Code for Java Development](../vscode-jdk.md)
+- [Standard Output](standard-output-java.md)
 
