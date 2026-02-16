@@ -7,10 +7,15 @@ keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Jav
 
 - [Java IDEs for OOP Coding](docs/tools-java.md)
 - [How to Install Oracle JDK and Configure VS Code for Java Development](docs/vscode-jdk.md)
-- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
+
   
 ## Basics
 
 - [Java Hello World Program Explained for Beginners](docs/basics/first-program-java.md)
 - [Standard Output](docs/basics/standard-output-java.md)
 - [Standard Input](docs/basics/standard-input.-java.md)
+- [Data Types and Variables](docs/basics/data-types-variables-java.md)
+- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
+- [Type Casting](docs/basics/type-casting.md)
+- [Conditional Statements](docs/basics/conditional-statements.md)
+- [Loops](docs/basics/loops)
