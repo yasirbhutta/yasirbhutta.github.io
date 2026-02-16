@@ -108,6 +108,6 @@ By casting **one number to double** *before dividing*, Java performs decimal div
 
 ## 📘 **Related Topics**
 
-- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](expressions/)
+- [Java Expressions](expressions/)
 - [Conditional Statements](conditional-statements.md)
 
