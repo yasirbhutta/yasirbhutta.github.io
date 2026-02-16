@@ -212,11 +212,8 @@ Oracle JDK + VS Code works!
 
 ---
 
-## 🔹 You’re Now Ready For:
+## 📘 **Related Topics**
 
-* Java **OOP deep dive**
-* Interfaces & design patterns
-* Maven / Gradle projects
-* Spring Boot backend
+- [Java Hello World Program Explained for Beginners](docs/basics/first-program-java.md)
 
 

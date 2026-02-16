@@ -9,3 +9,8 @@ keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Jav
 - [How to Install Oracle JDK and Configure VS Code for Java Development](docs/vscode-jdk.md)
 - [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
   
+## Basics
+
+- [Java Hello World Program Explained for Beginners](docs/basics/first-program-java.md)
+- [Standard Output](docs/basics/standard-output-java.md)
+- [Standard Input](docs/basics/standard-input.-java.md)
