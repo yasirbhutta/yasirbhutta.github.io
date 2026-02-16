@@ -133,3 +133,7 @@ Think of:
 
 The program speaks → microphone carries sound → audience hears it.
 
+## 📘 **Related Topics**
+
+- [Standard Output](standard-output-java.md)
+

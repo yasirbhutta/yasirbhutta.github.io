@@ -263,3 +263,7 @@ Just like in math class, Java follows **PEMDAS** (Parentheses, Exponents, Multip
 ## Common Beginner Mistake: The "Input Bug"
 
 If you try to type a **letter** when the program asks for a `nextDouble()`, the program will crash with an `InputMismatchException`. Java is very strict—if it expects a number, you *must* give it a number!
+
+## 📘 **Related Topics**
+
+- [Standard Output](standard-output-java.md)

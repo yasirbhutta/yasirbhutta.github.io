@@ -13,7 +13,7 @@ keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Jav
 
 - [Java Hello World Program Explained for Beginners](docs/basics/first-program-java.md)
 - [Standard Output](docs/basics/standard-output-java.md)
-- [Standard Input](docs/basics/standard-input.-java.md)
+- [Standard Input](docs/basics/standard-input-java.md)
 - [Data Types and Variables](docs/basics/data-types-variables-java.md)
 - [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
 - [Type Casting](docs/basics/type-casting.md)
