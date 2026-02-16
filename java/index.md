@@ -15,7 +15,7 @@ keywords: "Java programming, Java tutorials, Java for beginners, learn Java, Jav
 - [Standard Output](docs/basics/standard-output-java.md)
 - [Standard Input](docs/basics/standard-input-java.md)
 - [Data Types and Variables](docs/basics/data-types-variables-java.md)
-- [Java Expressions: Types, Examples & Practice Questions | Complete Guide](docs/expressions/)
+- [Expressions](docs/expressions/)
 - [Type Casting](docs/basics/type-casting.md)
 - [Conditional Statements](docs/basics/conditional-statements.md)
 - [Loops](docs/basics/loops)
