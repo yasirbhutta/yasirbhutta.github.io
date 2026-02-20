@@ -125,5 +125,5 @@ if (age >= 18) {
 
 ## 📘 **Related Topics**
 
-- [Type Casting](type-casting.md)
-- [Loops](loops)
+- [Type Casting](type-casting-java.md)
+- [Loops](loops-java.md)

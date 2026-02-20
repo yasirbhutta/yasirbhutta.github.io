@@ -109,5 +109,5 @@ By casting **one number to double** *before dividing*, Java performs decimal div
 ## 📘 **Related Topics**
 
 - [Java Expressions](expressions/)
-- [Conditional Statements](conditional-statements.md)
+- [Conditional Statements](conditional-statements-java.md)
 
