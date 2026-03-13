@@ -88,18 +88,6 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="6296238623"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## 4. Default Arguments
 
    - You can assign default values to parameters, which makes them optional when calling the function.

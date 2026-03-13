@@ -31,6 +31,8 @@ url: /python/
 - [for loop](#for-loop)
 ### Module 5
 - [while loop](#while-loop)
+### Module 6
+- [Defining Functions](#defining-functions)
 
 ## What is Python
 
@@ -292,11 +294,11 @@ is_less_or_equal = 5 <= 5  # True
 
 [Learn more..](operators/)
 
-### Input and Output
+## Input and Output
 
 - Get user input with input() and display output with print().
 
-**Input in Python:**
+### Input in Python:
 
 - **The `input()` function:**
   - Takes a prompt as an argument (optional)
@@ -310,7 +312,7 @@ name = input("Enter your name: ")
 age = int(input("Enter your age: "))  # Convert string input to integer
 ```
 
-**Output in Python:**
+### Output in Python:
 
 - **The `print()` function:**
   - Prints values to the console
@@ -325,7 +327,48 @@ print("Your name is", name, "and you are", age, "years old.")
 print("The answer is:", 42)
 ```
 
-[Learn more ...](input-output/input.md)
+### F-Strings in Python
+
+### 1. What are F-Strings?
+
+F-strings (formatted string literals) are a feature introduced in Python 3.6 that provide a concise and readable way to embed expressions inside string literals. The "f" stands for "formatted" - these strings are evaluated at runtime.
+
+### 2. Why Use F-Strings?
+
+1. **Readability**: Much cleaner syntax compared to older formatting methods
+2. **Performance**: Faster than %-formatting and str.format()
+3. **Expressiveness**: Can include any valid Python expression
+4. **Less Error-Prone**: Fewer moving parts than other formatting methods
+
+### Syntax
+
+The basic syntax is simple - prefix your string with 'f' or 'F' and include expressions in curly braces `{}`:
+
+```python
+f"string text {expression} more text"
+```
+
+### 3. Basic Examples for Beginners
+
+#### 1. Simple variable insertion
+```python
+name = "Alice"
+age = 25
+print(f"My name is {name} and I'm {age} years old.")
+```
+
+#### 2. Simple calculations
+```python
+a = 5
+b = 10
+print(f"The sum of {a} and {b} is {a + b}.")
+```
+
+**See also:**
+
+- [Python `print` Function](input-output/print.md)
+- [F-Strings in Python](input-outpunt/f-string.md)
+- [Python `input()` Function](input-oupt/input.md)
 
 ## Control Flow
 
@@ -456,6 +499,86 @@ while count <= 10:  # Keep counting as long as we're less than or equal to 10
 ```
 
 [Learn more...](loops-while/)
+
+## Defining Functions
+
+### 1. What is a Function?
+
+ A function is a block of reusable code that performs a specific task. It's reusable, which means you can call it multiple times in your program. This helps to organize your code, make it more readable, and avoid repetition.
+
+**Why Do We Use Functions?**
+
+We use functions in Python for several reasons:
+
+- **Code Reusability:** You can call a function multiple times instead of repeating code. This saves time and effort.
+- **Modularity:** Breaking down a large program into smaller, manageable chunks (functions) makes it easier to understand and maintain.
+- **Avoiding Repetition:** Functions prevent you from writing the same code over and over, reducing errors and improving efficiency."
+
+### 2. How to Write a Function
+
+To define a function, you use the `def` keyword followed by the function name, parentheses for parameters, and a colon. The code block that defines the function is indented.
+
+**Syntax:** 
+
+```python
+def function_name(parameters):
+  # Function body
+  # Code to be executed
+```
+
+#### Example 1: Defining and Calling a Function
+
+```python
+def greet(name):
+  print("Hello,", name + "!")
+
+# Calling the function
+greet("Ahmad")  # Output: Hello, Ahmad!
+```
+
+**Explanation:**
+
+- `def greet(name):` defines a function named `greet` that takes one parameter, `name`.
+- `print("Hello,", name + "!")` is the function body, which prints a greeting message using the provided name.
+- `greet("Ahmad")` calls the function with the argument "Ahmad".
+
+**Key Points:**
+
+- **Parameters:** These are variables passed to the function when it's called. For more details, See [Parameters and Arguments in Python Functions](parameters-arguments.md)
+- **Return Value:** A function can optionally return a value using the `return` statement.
+- **Docstrings:** It's good practice to include a docstring (a string that explains the function's purpose) after the function definition.
+
+### 3. Return Statement
+
+   - Functions can return values using the `return` keyword.
+
+#### Example 2: Function with a Return Value
+
+```python
+def add(x, y):
+  return x + y
+
+result = add(3, 5)
+print(result)  # Output: 8
+```
+
+### 4. Default Arguments
+
+   - You can assign default values to parameters, which makes them optional when calling the function.
+
+[Video: Learn How to Use Default Parameters in Function Definition](https://www.youtube.com/watch?v=2z_K1YChX1A&list=PLKYRx0Ibk7Vi-CC7ik98qT0VKK0F7ikja&index=21)
+  
+#### Example 3:
+
+   ```python
+   def greet(name, message="Hello"):
+       print(f"{message}, {name}!")
+
+   greet("Alice")           # Uses default message "Hello"
+   greet("Alice", "Hi")      # Overrides default with "Hi"
+   ```
+
+[for more details, see **Functions in Python:\ Complete Guide with Syntax, Examples, and Practice Tasks**](functions/)
 
 ## Multiple Choice (Select the best answer)
 
