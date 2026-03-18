@@ -100,6 +100,8 @@ s.study()      # Defined in Student
 
 ## 🔹 4. Overriding Methods
 
+If a child class provides its own implementation of a method that is already defined in the parent class, it "overrides" the parent's method.
+
 You can **change** how a method works in the child class.
 
 ```python
@@ -112,10 +114,75 @@ class Student(Person):
 s = Student("Ahmad")
 s.introduce()  # Output: Hello, I'm student Ahmad
 ```
+---
+
+### Example: Method Overriding — Birds That Fly (and One That Doesn't)
+
+```python
+
+# PARENT CLASS (the general rule)
+class Bird:
+    def fly(self):
+        # This is the DEFAULT behavior for all birds
+        print("Most birds can fly.")
+
+# CHILD CLASS 1 — OVERRIDES fly()
+class Penguin(Bird):
+    # Penguin INHERITS everything from Bird,
+    # but it OVERRIDES the fly() method with its own version
+    def fly(self):
+        # This replaces Bird's fly() for any Penguin object
+        print("Penguins cannot fly — they swim!")
+
+# CHILD CLASS 2 — DOES NOT OVERRIDE fly()
+class Sparrow(Bird):
+    # Sparrow inherits from Bird but does NOT define its own fly()
+    # So it will automatically use Bird's fly() method as-is
+    def sing(self):
+        print("Sparrows can sing beautifully!")
+
+# TESTING IT
+print("--- Penguin ---")
+p = Penguin()
+p.fly()     # Uses Penguin's OWN fly() → overriding in action
+            # Output: Penguins cannot fly — they swim!
+
+print("\n--- Sparrow ---")
+s = Sparrow()
+s.fly()     # No fly() in Sparrow, so Python goes UP to Bird and uses that
+            # Output: Most birds can fly.
+s.sing()    # Sparrow's own method, not inherited
+            # Output: Sparrows can sing beautifully!
+
+print("\n--- Bird ---")
+b = Bird()
+b.fly()     # The original, unchanged method
+            # Output: Most birds can fly.
+
+# HOW PYTHON SEARCHES FOR A METHOD (MRO — Method Resolution Order)
+# ----------------------------------------------------------------
+# For p.fly()  → checks Penguin ✔ found → stops here
+# For s.fly()  → checks Sparrow ✖ not found → checks Bird ✔ found → stops here
+# For b.fly()  → checks Bird ✔ found → stops here
+```
+
+---
+
+### Comparison Table
+
+| Class | Has own `fly()`? | Behavior |
+|---|---|---|
+| `Bird` | ✅ Yes (original) | Prints the default message |
+| `Penguin` | ✅ Yes (overridden) | Prints its own custom message |
+| `Sparrow` | ❌ No | **Falls back** to `Bird`'s `fly()` automatically |
+
+> **Key insight:** If a child class does **not** override a method, Python automatically travels **up the inheritance chain** and uses the parent's version. You don't have to do anything — it just works.
 
 ---
 
 ## 🔹 5. Using `super()` to Call the Parent Method
+
+The super() function is used to call methods from the parent class inside the child class. This is most commonly used in the __init__ method to ensure the parent class is properly initialized.
 
 If you override a method, but still want to use the original version from the parent, use `super()`.
 
@@ -136,16 +203,60 @@ s.introduce()
 
 ---
 
-Great example! It's clear and helpful. To make it even more beginner-friendly, I’ll:
+### Example: super() - Person and Teacher Classes
 
-- Use simpler language.
-- Add more comments to guide absolute beginners.
-- Use clearer print outputs for better understanding.
-- Make the explanation even more step-by-step with real-world comparisons.
+```python
+
+# PARENT CLASS
+class Person:
+    def __init__(self, name):
+        # Every Person has a name
+        self.name = name
+
+# CHILD CLASS
+class Teacher(Person):
+    def __init__(self, name, subject):
+        # Step 1: Call Person's __init__() using super()
+        #         This sets self.name — just like Person does
+        #         Without this line, self.name would never be assigned!
+        super().__init__(name)
+
+        # Step 2: Now add Teacher's OWN extra attribute
+        self.subject = subject
+
+# TESTING IT
+t = Teacher("Mr. Ahmed", "Mathematics")
+
+print(t.name)      # Set by Person.__init__() via super()
+                   # Output: Mr. Ahmed
+
+print(t.subject)   # Set by Teacher.__init__() directly
+                   # Output: Mathematics
+```
+
+#### WHAT HAPPENS STEP BY STEP WHEN Teacher("Mr. Ahmed", "Mathematics") IS CALLED?
+
+1. Python calls Teacher.__init__("Mr. Ahmed", "Mathematics")
+2. Inside it, super().__init__("Mr. Ahmed") calls Person.__init__()
+3. Person.__init__() sets self.name = "Mr. Ahmed"
+4. Back in Teacher.__init__(), self.subject = "Mathematics" is set
+5. The Teacher object is now fully initialized with BOTH attributes
 
 ---
 
-## Example: Vehicle and Car Classes
+#### Why Not Just Write `Person.__init__(self, name)` Instead?
+
+You *can*, but `super()` is the better practice:
+
+| Approach | Code | Problem |
+|---|---|---|
+| **Without super()** | `Person.__init__(self, name)` | Hardcodes the parent name — breaks if you rename the class or change inheritance |
+| **With super()** | `super().__init__(name)` | Flexible, clean, and works correctly with multiple inheritance |
+
+> **Simple analogy:** Imagine you're a Teacher filling out a form. Instead of rewriting your personal details from scratch, you say *"copy everything from my Person profile"* and then just add your subject on top. That's exactly what `super()` does.
+---
+
+### Example: super() - Vehicle and Car Classes
 
 ```python
 # Parent class
@@ -194,7 +305,7 @@ print("Model:", car.model)  # Output: Corolla
 
 ---
 
-### 🔍 What's Happening
+#### 🔍 What's Happening
 
 1. **Parent Class - `Vehicle`**
    - Has a `brand` (like "Toyota").
