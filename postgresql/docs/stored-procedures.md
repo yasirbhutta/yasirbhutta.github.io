@@ -27,6 +27,10 @@ Think of it like a **reusable function** stored inside the database.
 * Give output using `OUT` parameters
 * Manage transactions (unlike functions)
 
+### See also
+
+- [Advantages of Using Stored Procedures in PostgreSQL](adv-stored-procedures.md)
+
 ### ❗ Difference between FUNCTION and PROCEDURE
 
 | Feature                                    | FUNCTION | PROCEDURE                             |

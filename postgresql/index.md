@@ -13,4 +13,5 @@ breadcrumb:
 ## Contents
 
 - [Stored Procedures in PostgreSQL (Using dvdrental)](docs/stored-procedures.md)
+  - [Advantages of Using Stored Procedures in PostgreSQL](docs/stored-procedures.md)
 - [Introduction to Triggers in PostgreSQL (Using dvdrental Database)](docs/triggers.md)
