@@ -48,6 +48,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
 - [Matlab for Beginners](/matlab/)
 - [Web Development](/web-dev/)
+- [Getting Started with PostgreSQL](postgresql/)
 
 ## SAP
 

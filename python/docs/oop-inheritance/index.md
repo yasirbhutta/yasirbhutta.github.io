@@ -17,7 +17,7 @@ url: /python/docs/oop/
 ---
 
 ## Table of Contents
-- [What is Inheritiance?](#-what-is-inheritance)
+- [What is Inheritance?](#-what-is-inheritance)
 - [Single Inheritance](#single-inheritance)
 - [Multilevel Inheritance](#multilevel-inheritance-in-python)
   - [Multilevel Inheritance Example: Person, Student, and GraduateStudent in Python](#multilevel-inheritance-example-person-student-and-graduatestudent-in-python)
