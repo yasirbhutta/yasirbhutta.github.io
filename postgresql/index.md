@@ -19,6 +19,10 @@ breadcrumb:
 
 - [Final Project Guidelines for Database](projects/final-dba-project-guidelines.md)
 
+## Assignments
+  
+- [PostgreSQL Python](https://neon.com/postgresql/postgresql-python)
+
 ## See Also
 
 - [PostgreSQL Tutorial](https://neon.com/postgresql/tutorial)
