@@ -14,7 +14,17 @@ breadcrumb:
 
 A **stored procedure** is a saved block of SQL and PL/pgSQL code that performs one or more actions.
 
-Think of it like a **reusable function** stored inside the database.
+In PostgreSQL, a **stored procedure** is a schema object that allows you to group a sequence of SQL statements and procedural logic (like loops and conditionals) into a single, callable unit.
+
+While they are similar to functions, procedures have distinct capabilities, most notably the ability to manage transactions.
+
+### Key Characteristics
+
+**Transaction Control:** Procedures can COMMIT and ROLLBACK transactions internally. This is the primary reason to use a procedure over a function.
+
+**No Return Value:** Procedures do not return a single value. They can, however, return data via INOUT parameters.
+
+**Execution:** They are executed using the CALL command rather than being used in a SELECT statement.
 
 ### ✔ What procedures can do
 
@@ -259,3 +269,10 @@ CALL delete_old_rentals(3000);
 
 ---
 
+## When to Use Procedures
+
+- **Long-running Batch Jobs:** When you need to process millions of rows and want to commit every 10,000 rows to prevent bloat.
+
+- **Complex Business Logic:** Encapsulating multi-step operations that must happen as a single unit of work.
+
+- **Security:** By using procedures, you can grant users permission to CALL the procedure without giving them direct access to the underlying tables.
