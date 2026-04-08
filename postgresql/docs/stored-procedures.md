@@ -172,13 +172,13 @@ CALL update_film_rental_rate(10, 4.99);
 CREATE OR REPLACE PROCEDURE get_film_info(
     IN p_film_id INT,
     OUT film_title VARCHAR,
-    OUT rental_rate NUMERIC
+    OUT rate NUMERIC
 )
 LANGUAGE plpgsql
 AS $$
 BEGIN
     SELECT title, rental_rate
-    INTO film_title, rental_rate
+    INTO film_title, rate
     FROM film
     WHERE film_id = p_film_id;
 END;
@@ -187,8 +187,32 @@ $$;
 
 ### ▶ Run it
 
-```sql
-CALL get_film_info(5);
+### 1. Using a DO Block (Anonymous Code Block)
+
+This is the most common way to use variables in a script-like fashion within pgAdmin. You declare the variables first, call the procedure, and then raise a notice or select the results.
+
+```SQL
+DO $$
+DECLARE
+    -- Define your variables
+    my_title text;
+    my_rate numeric;
+BEGIN
+    -- Call the procedure and pass the variables
+    CALL public.get_film_info(42, my_title, my_rate);
+    
+    -- Display the results in the "Messages" tab
+    RAISE NOTICE 'Film Title: %, Rate: %', my_title, my_rate;
+END $$;
+```
+
+#### 2. Using Bind Variables in pgAdmin
+
+If you want to use a placeholder that prompts you for a value (similar to a template), you can use the colon : syntax. However, note that pgAdmin’s support for this is primarily for Input values.
+
+```SQL
+-- This will prompt you to enter a value for 'id' when you press F5
+CALL public.get_film_info(:id, NULL, NULL);
 ```
 
 (pgAdmin will show OUT parameters in the Data Output panel.)
