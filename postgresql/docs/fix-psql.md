@@ -1,3 +1,15 @@
+---
+layout: page
+title: Fix 'psql' is not recognized on Windows
+description: Solutions to fix the 'psql' is not recognized error on Windows by adding PostgreSQL to PATH or reinstalling PostgreSQL with psql.
+keywords: psql not recognized, PostgreSQL PATH, Windows environment variables, PostgreSQL installation, pgAdmin, psql windows error
+toc: toc/postgresql.html
+topic: postgresql
+breadcrumb: 
+- title: PostgreSQL
+  url: /postgresql/
+---
+
 You are getting the error:
 
 ```
