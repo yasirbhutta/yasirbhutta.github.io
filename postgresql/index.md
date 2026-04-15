@@ -42,6 +42,7 @@ breadcrumb:
 ## 
 
 - [Review Questions](docs/review-questions.md)
+- [Practical Questions](docs/practical-questions.md)
 
 
 ## See Also
