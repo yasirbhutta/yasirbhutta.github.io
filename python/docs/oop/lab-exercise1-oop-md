@@ -1,0 +1,102 @@
+---
+layout: page
+title: "Python OOP Lab Exercise: Build a Library Management System"
+description: Master Python Object-Oriented Programming with this hands-on lab exercise. Build a Library Management System to learn encapsulation, inheritance, and polymorphism through practical coding examples.
+keywords: Python OOP lab exercise, library management system Python, encapsulation inheritance polymorphism, Python class exercise, object oriented programming tutorial, Python beginner project, OOP pillars Python, Python coding practice
+author: Muhammad Yasir Bhutta
+course: python
+prev: /python/docs/oop-encapsulation/
+breadcrumb: 
+- title: OOP
+url: /python/docs/oop-encapsulation/
+---
+
+This lab practical is designed to reinforce the three pillars of Object-Oriented Programming (OOP) by building a **Library Management System**. 
+
+---
+
+### Phase 1: Encapsulation
+**Encapsulation** involves bundling data (attributes) and methods into a single unit and restricting direct access to some components using "private" members (indicated by a double underscore `__`).
+
+1.  **Define the class:** Create a `Book` class.
+2.  **Private Attributes:** Use `__title` and `__author` so they cannot be changed directly from outside the class.
+3.  **Getter/Setter:** Provide methods to access or modify these values securely.
+
+```python
+class Book:
+    def __init__(self, title, author):
+        self.__title = title  # Private attribute
+        self.__author = author
+
+    def get_details(self):
+        return f"'{self.__title}' by {self.__author}"
+
+    # Getter for title
+    def get_title(self):
+        return self.__title
+```
+
+---
+
+### Phase 2: Inheritance
+**Inheritance** allows a class (child) to derive attributes and methods from another class (parent).
+
+1.  **Create a Subclass:** Create a `DigitalBook` class that inherits from `Book`.
+2.  **Super Function:** Use `super().__init__()` to initialize attributes from the parent class.
+3.  **Unique Attributes:** Add a specific attribute like `file_size`.
+
+```python
+class DigitalBook(Book):
+    def __init__(self, title, author, file_size):
+        super().__init__(title, author)
+        self.file_size = file_size
+
+    def get_details(self):
+        # Extending the parent method
+        return f"{super().get_details()} [Size: {self.file_size}MB]"
+```
+
+---
+
+### Phase 3: Polymorphism
+**Polymorphism** allows different classes to be treated as instances of the same general class through the same interface (method name), even if their underlying logic differs.
+
+1.  **Add another subclass:** Create a `PaperBook` class.
+2.  **Consistent Method Names:** Ensure both subclasses use the `get_details()` method name.
+3.  **Demonstrate:** Use a loop to call the same method on different types of objects.
+
+```python
+class PaperBook(Book):
+    def __init__(self, title, author, weight):
+        super().__init__(title, author)
+        self.weight = weight
+
+    def get_details(self):
+        return f"{super().get_details()} [Weight: {self.weight}g]"
+
+# Polymorphism in action
+library = [
+    DigitalBook("Python Crash Course", "Eric Matthes", 5),
+    PaperBook("Automate the Boring Stuff", "Al Sweigart", 500)
+]
+
+for book in library:
+    print(book.get_details())
+```
+
+---
+
+### Summary Table: How they connect
+
+| Concept | Implementation in this Lab |
+| :--- | :--- |
+| **Encapsulation** | Hiding `__title` and using `get_title()` to control access. |
+| **Inheritance** | `DigitalBook` and `PaperBook` reusing code from the `Book` class. |
+| **Polymorphism** | Calling `get_details()` on any book without needing to know its specific type. |
+
+---
+
+### Step-by-Step Exercise Task
+1.  **Modify** the `Book` class to include a private attribute `__is_checked_out` (boolean).
+2.  **Create** a method `toggle_checkout()` that flips this boolean.
+3.  **Override** the `get_details()` method in a new subclass called `ReferenceBook` which always returns "Cannot be checked out" regardless of the status.

@@ -78,5 +78,7 @@ url: /python/
 - **Encapsulation**: [MCQs](../docs/oop-encapsulation/practice-and-progress/mcqs-oop-encapsulation.md) 📝, [Find and Fix Mistakes](../docs/oop-encapsulation/practice-and-progress/find-fix-mistakes-oop-encapsulation.md) 🔍, [Coding Exercises](../docs/oop-encapsulation/practice-and-progress/exercises-oop-encapsulation.md) 🏋️‍♂️
 - **Abstraction and Interfaces**: [MCQs](../docs/oop-abstraction/practice-and-progress/mcqs-oop-abstraction.md) 📝, [Find and Fix Mistakes](../docs/oop-abstraction/practice-and-progress/find-fix-mistakes-oop-abstraction.md) 🔍, [Coding Exercises](../docs/oop-abstraction/practice-and-progress/exercises-oop-abstraction.md) 🏋️‍♂️
 
+- [Python OOP Lab Exercise: Build a Library Management System](../docs/oop/lab-exercise1-oop-md)
+
 **🔧 Mini Project**: Bank Account Manager
 
