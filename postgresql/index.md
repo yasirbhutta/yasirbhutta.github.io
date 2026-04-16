@@ -13,7 +13,7 @@ breadcrumb:
 ## Contents
 
 - [PostgreSQL Sample Database](docs/dvdrental.md)
-- [Fix 'psql' is not recognized on Windows](docs/fix-psql.md)
+- [How to Access and Use psql in Windows](docs/psql/index.md)
 - [Stored Procedures in PostgreSQL (Using dvdrental)](docs/stored-procedures.md)
   - [Advantages of Using Stored Procedures in PostgreSQL](docs/stored-procedures.md)
 - [Introduction to Triggers in PostgreSQL (Using dvdrental Database)](docs/triggers.md)
