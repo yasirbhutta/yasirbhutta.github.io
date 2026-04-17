@@ -95,9 +95,13 @@ account.withdraw(2000)  # ❌ Insufficient balance
 
 ### 🧱 How It Works:
 
-* `__balance` is a **private variable** (name mangling in Python makes it hard to access directly).
+* `__balance` is a **private variable** ([name mangling](../../posts/name-mangling-python.md) in Python makes it hard to access directly).
 * You access it **only through methods** like `get_balance()`, `deposit()`, and `withdraw()`.
 
+### See also:
+
+- [Understanding Name Mangling in Python - Syntax and Purpose](../../posts/name-mangling-python.md)
+  
 ---
 
 ## 🔐 Access Levels in Python:
