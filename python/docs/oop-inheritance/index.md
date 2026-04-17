@@ -28,9 +28,11 @@ url: /python/docs/oop/
 ## 🔷 What is Inheritance?
 
 **Inheritance** is a way to create a new class from an existing class.  
-It helps us **reuse code**, **extend functionality**, and follow the **DRY (Don't Repeat Yourself)** principle.
+It helps us **reuse code**, **extend functionality**, and follow the **[DRY (Don't Repeat Yourself)](../../posts/dry-principal-software-dev.md)** principle.
 
 ![inheritance](/assets/images/python/inheritance.png)
+
+for more details about DRY principle, see [DRY Principle in Software Development: Avoid Code Repetition](../../posts/dry-principal-software-dev.md)
 
 ### ✅ Key Points:
 - The **base class** (or parent class) contains common features.

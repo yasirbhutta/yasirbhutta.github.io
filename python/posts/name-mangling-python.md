@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Understanding Name Mangling in Python: Syntax and Purpose"
-description: Learn what None and NoneType mean in Python. Understand their usage, best practices, and common pitfalls to write cleaner, more reliable code.
-keywords: NoneType, Python None, None in Python, NoneType errors, Python best practices, Python tutorials, Python programming, Python functions, Python beginners, Python debugging
+title: "Python Name Mangling: Protecting Private Attributes in Classes"
+description: Learn how Python name mangling works to protect private attributes in classes. Understand the syntax, purpose, and differences from single underscore conventions with practical examples.
+keywords: Python name mangling, private attributes Python, __variable Python, class encapsulation Python, Python OOP, name decoration Python, protected vs private Python, Python class attributes
 author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "strings"
