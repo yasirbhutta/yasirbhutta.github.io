@@ -13,7 +13,7 @@ breadcrumb:
 url: /python/docs/oop/
 ---
 
-The DRY Principle: A Guide to Efficient Software Development
+![DRY (Don’t Repeat Yourself) principle](https://res.cloudinary.com/da0pjikvw/image/upload/q_auto/f_auto/v1776400961/dry_pinciple_k2vntj.png)
 
 The **DRY (Don’t Repeat Yourself)** principle is a core philosophy in software development aimed at reducing the repetition of information. It was first formulated by Andy Hunt and Dave Thomas in their book *The Pragmatic Programmer*.
 
