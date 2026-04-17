@@ -7,8 +7,10 @@ author: "Muhammad Yasir Bhutta"
 toc: toc/python.html
 topic: "strings"
 course: "python"
-prev: "/python/posts/python-one-liners.html"
-next: "/python/posts/mutable-default-arguments.html"
+show_toc: true
+breadcrumb: 
+- title: OOP in Python
+url: /python/docs/oop/
 ---
 
 In Python, **name mangling** is a mechanism used to protect "private" attributes of a class from being accidentally overwritten by subclasses. It is a way of "hiding" or renaming attributes so they aren't easily accessible from outside the class instance.
