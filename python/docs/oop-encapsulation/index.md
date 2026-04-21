@@ -101,6 +101,7 @@ account.withdraw(2000)  # ❌ Insufficient balance
 ### See also:
 
 - [Understanding Name Mangling in Python - Syntax and Purpose](../../posts/name-mangling-python.md)
+- [Python Comparison Chaining Explained (0 < amount < balance) with Examples](../operators/python-comparison-chaining-explained.md)
   
 ---
 

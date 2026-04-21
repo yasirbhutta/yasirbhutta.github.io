@@ -327,9 +327,13 @@ This code will print the unique identifiers for the variables `x` and `y`. If yo
 1. **Shopping Cart**: Create a shopping cart program. Initialize a total cost as 0. Add the cost of items using `+=` as items are added. Print the total cost when all items have been added.
 2. **Odd or Even Checker**: Write a program that takes a number and uses the modulo operator (`%`) to check if it is even or odd.
 
-## Review Questions
+## *See also:**
+
+- [Python Comparison Chaining Explained (0 < amount < balance) with Examples](python-comparison-chaining-explained.md)
 
 ## References and Bibliography
 
 [1] “Python memory management,” Discussions on Python.org, Apr. 02, 2023. https://discuss.python.org/t/python-memory-management/25391 (accessed Jul. 27, 2024).
+
+
 ‌
