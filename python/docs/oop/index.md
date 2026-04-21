@@ -112,23 +112,6 @@ print(square.area())  # Output: 16
 
 ### **3. Advanced Topics**
 #### **a. Magic Methods (`__str__`, `__eq__`, etc.)**
-- Customize object behavior for built-in operations.
-
-**Example**:
-```python
-class Vector:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-    def __add__(self, other):  # Overload the '+' operator
-        return Vector(self.x + other.x, self.y + other.y)
-
-v1 = Vector(1, 2)
-v2 = Vector(3, 4)
-result = v1 + v2
-print(result.x, result.y)  # Output: 4 6
-```
 
 ---
 
@@ -218,4 +201,7 @@ print(Student.is_adult(20))  # Output: True
 
 ---
 
-By focusing on these steps, practicing with projects, and avoiding common mistakes, you’ll master Python OOP efficiently! 🐍💡
+## **See aslo**
+
+- [Programming Paradigms Explained | Procedural, OOP, Functional & Declarative](../../posts/programming-paradigms.md)
+  

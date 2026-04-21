@@ -121,14 +121,19 @@ class Vector:
     def __str__(self):
         return f"Vector({self.x}, {self.y})"
 
-v1 = Vector(2, 3)
-v2 = Vector(1, 2)
-print(v1 + v2)  # Uses the overloaded + operator
+# Creating vector objects
+v1 = Vector(2, 4)
+v2 = Vector(1, 3)
+
+# This internally calls: v1.__add__(v2)
+v3 = v1 + v2  # Using overloaded + operator
+
+print(v3)
 ```
 
 Output:
 ```
-Vector(3, 5)
+Vector(3, 7)
 ```
 
 ## 4. Real-World Example: Payment Processing System
