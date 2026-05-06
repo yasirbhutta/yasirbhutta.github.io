@@ -27,37 +27,37 @@ url: /python/
 
 ### 🔹 Method Overriding
 
-6. What is method overriding in Python?
-7. How does method overriding support polymorphism?
-8. What happens if a child class does not override a parent method?
-9.  Write an example of method overriding.
+1. What is method overriding in Python?
+2. How does method overriding support polymorphism?
+3. What happens if a child class does not override a parent method?
+4.  Write an example of method overriding.
 
 ---
 
 ### 🔹 Duck Typing
 
-11. What is duck typing in Python?
-12. Explain duck typing with a real-life example.
+1. What is duck typing in Python?
+2. Explain duck typing with a real-life example.
 
 ---
 
-## 🔹 Operator Overloading
+### 🔹 Operator Overloading
 
-16. What is operator overloading?
-17. How does Python support operator overloading?
+1. What is operator overloading?
+2. How does Python support operator overloading?
         
 ---
 
-## 🔹 Application-Based Questions
+### 🔹 Application-Based Questions
 
-25. How is polymorphism used in real-world applications like payment systems?
-26. Explain polymorphism in terms of shapes (e.g., draw method).
+1. How is polymorphism used in real-world applications like payment systems?
+2. Explain polymorphism in terms of shapes (e.g., draw method).
 
 ---
 
-## 🔹 Code-Based Questions
+### 🔹 Code-Based Questions
 
-29. What will be the output?
+1. What will be the output?
 
 ```python
 class Animal:
@@ -74,7 +74,7 @@ obj.speak()
 
 ---
 
-30. What will be the output?
+2. What will be the output?
 
 ```python
 def show(x):
@@ -86,7 +86,7 @@ show("Hi")
 
 ---
 
-31. Identify the concept used:
+3. Identify the concept used:
 
 ```python
 class A:
@@ -103,7 +103,7 @@ def show(obj):
 
 ---
 
-32. What will be the output?
+4. What will be the output?
 
 ```python
 class Test:
@@ -120,10 +120,10 @@ print((t1 + t2).x)
 
 ---
 
-## 🔹 Critical Thinking
+### 🔹 Critical Thinking
 
-33. Compare method overriding and operator overloading.
-34. Can polymorphism exist without inheritance? Explain.
+1. Compare method overriding and operator overloading.
+2. Can polymorphism exist without inheritance? Explain.
 
 
 ---
