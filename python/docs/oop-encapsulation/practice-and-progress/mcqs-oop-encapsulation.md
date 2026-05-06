@@ -274,6 +274,6 @@ What should be done to encapsulate `speed`?
 
 ---
 
-[1]: https://yasirbhutta.github.io/python/docs/oop-encapsulation/?utm_source=chatgpt.com "Encapsulation in Python OOP: A Beginner’s Guide | Learn with Yasir"
-[2]: https://www.geeksforgeeks.org/python/data-abstraction-in-python/?utm_source=chatgpt.com "Data Abstraction in Python - GeeksforGeeks"
-[3]: https://www.boot.dev/blog/python/python-encapsulation-vs-abstraction/?utm_source=chatgpt.com "Python Encapsulation vs Abstraction: What Matters | Boot.dev"
+[1]: https://yasirbhutta.github.io/python/docs/oop-encapsulation/ "Encapsulation in Python OOP: A Beginner’s Guide | Learn with Yasir"
+[2]: https://www.geeksforgeeks.org/python/data-abstraction-in-python/ "Data Abstraction in Python - GeeksforGeeks"
+[3]: https://www.boot.dev/blog/python/python-encapsulation-vs-abstraction/ "Python Encapsulation vs Abstraction: What Matters | Boot.dev"
