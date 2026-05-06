@@ -24,10 +24,10 @@ next: /python/docs/oop-polymorphism/practice-and-progress/find-fix-mistakes-oop-
 
 ### 1. What does polymorphism mean in Python?
 
-A. One function performing one task
-B. One object having one form
-C. Same method behaving differently for different objects
-D. Different methods behaving same
+- A. One function performing one task
+- B. One object having one form
+- C. Same method behaving differently for different objects
+- D. Different methods behaving same
 
 **Answer:** C
 **Explanation:** Polymorphism means “many forms,” allowing the same method to behave differently depending on the object. ([GeeksforGeeks][1])
@@ -36,10 +36,10 @@ D. Different methods behaving same
 
 ### 2. Which of the following best describes polymorphism?
 
-A. Data hiding
-B. Code duplication
-C. Same interface, different implementation
-D. Function recursion
+- A. Data hiding
+- B. Code duplication
+- C. Same interface, different implementation
+- D. Function recursion
 
 **Answer:** C
 
@@ -47,10 +47,10 @@ D. Function recursion
 
 ### 3. What is the main benefit of polymorphism?
 
-A. Increases code complexity
-B. Reduces code reuse
-C. Improves flexibility and reusability
-D. Removes inheritance
+- A. Increases code complexity
+- B. Reduces code reuse
+- C. Improves flexibility and reusability
+- D. Removes inheritance
 
 **Answer:** C ([Learn with Yasir][2])
 
@@ -60,10 +60,10 @@ D. Removes inheritance
 
 ### 4. What is method overriding?
 
-A. Defining multiple methods with same name
-B. Changing method name in child class
-C. Redefining parent class method in child class
-D. Deleting parent method
+- A. Defining multiple methods with same name
+- B. Changing method name in child class
+- C. Redefining parent class method in child class
+- D. Deleting parent method
 
 **Answer:** C ([Learn with Yasir][2])
 
@@ -84,10 +84,10 @@ obj = Dog()
 obj.speak()
 ```
 
-A. Animal speaks
-B. Dog barks
-C. Error
-D. None
+- A. Animal speaks
+- B. Dog barks
+- C. Error
+- D. None
 
 **Answer:** B
 
@@ -95,10 +95,10 @@ D. None
 
 ### 6. Which concept allows subclasses to provide specific implementations?
 
-A. Encapsulation
-B. Abstraction
-C. Method Overriding
-D. Inheritance
+- A. Encapsulation
+- B. Abstraction
+- C. Method Overriding
+- D. Inheritance
 
 **Answer:** C
 
@@ -108,10 +108,10 @@ D. Inheritance
 
 ### 7. What is duck typing in Python?
 
-A. Checking object type explicitly
-B. Ignoring object behavior
-C. Focusing on object behavior instead of type
-D. Using only built-in functions
+- A. Checking object type explicitly
+- B. Ignoring object behavior
+- C. Focusing on object behavior instead of type
+- D. Using only built-in functions
 
 **Answer:** C ([Learn with Yasir][2])
 
@@ -135,10 +135,10 @@ display(A())
 display(B())
 ```
 
-A. A B
-B. B A
-C. Error
-D. None
+- A. A B
+- B. B A
+- C. Error
+- D. None
 
 **Answer:** A
 
@@ -146,10 +146,10 @@ D. None
 
 ### 9. Duck typing follows which principle?
 
-A. Type checking
-B. Behavior checking
-C. Memory allocation
-D. Compilation
+- A. Type checking
+- B. Behavior checking
+- C. Memory allocation
+- D. Compilation
 
 **Answer:** B
 
@@ -159,10 +159,10 @@ D. Compilation
 
 ### 10. What is operator overloading?
 
-A. Using operators incorrectly
-B. Redefining operators for user-defined classes
-C. Removing operators
-D. Limiting operators
+- A. Using operators incorrectly
+- B. Redefining operators for user-defined classes
+- C. Removing operators
+- D. Limiting operators
 
 **Answer:** B ([Learn with Yasir][2])
 
@@ -170,10 +170,10 @@ D. Limiting operators
 
 ### 11. Which method is used to overload the `+` operator?
 
-A. **sum**()
-B. **add**()
-C. **plus**()
-D. **concat**()
+- A. **sum**()
+- B. **add**()
+- C. **plus**()
+- D. **concat**()
 
 **Answer:** B
 
@@ -195,10 +195,10 @@ t3 = t1 + t2
 print(t3.x)
 ```
 
-A. 5
-B. 6
-C. Error
-D. None
+- A. 5
+- B. 6
+- C. Error
+- D. None
 
 **Answer:** A
 
@@ -213,10 +213,10 @@ process_payment()
 ```
 
 This is an example of:
-A. Encapsulation
-B. Polymorphism
-C. Inheritance
-D. Abstraction
+- A. Encapsulation
+- B. Polymorphism
+- C. Inheritance
+- D. Abstraction
 
 **Answer:** B ([Learn with Yasir][2])
 
@@ -224,10 +224,10 @@ D. Abstraction
 
 ### 14. What is the advantage of using a common method like `process_payment()`?
 
-A. Reduces flexibility
-B. Requires type checking
-C. Allows different implementations
-D. Removes classes
+- A. Reduces flexibility
+- B. Requires type checking
+- C. Allows different implementations
+- D. Removes classes
 
 **Answer:** C
 
@@ -237,10 +237,10 @@ D. Removes classes
 
 ### 15. Python does not support traditional method overloading, but it can be achieved using:
 
-A. Loops
-B. Default arguments
-C. Inheritance
-D. Recursion
+- A. Loops
+- B. Default arguments
+- C. Inheritance
+- D. Recursion
 
 **Answer:** B ([Learn with Yasir][2])
 
@@ -255,10 +255,10 @@ def double(x):
 print(double("Hi"))
 ```
 
-A. Hi
-B. HiHi
-C. Error
-D. 2Hi
+- A. Hi
+- B. HiHi
+- C. Error
+- D. 2Hi
 
 **Answer:** B ([Learn with Yasir][2])
 
@@ -266,10 +266,10 @@ D. 2Hi
 
 ### 17. Which of the following shows polymorphism with built-in types?
 
-A. int + int
-B. str + str
-C. list + list
-D. All of the above
+- A. int + int
+- B. str + str
+- C. list + list
+- D. All of the above
 
 **Answer:** D
 
@@ -277,10 +277,10 @@ D. All of the above
 
 ### 18. Which concept allows calling methods without knowing the exact object type?
 
-A. Abstraction
-B. Polymorphism
-C. Encapsulation
-D. Composition
+- A. Abstraction
+- B. Polymorphism
+- C. Encapsulation
+- D. Composition
 
 **Answer:** B ([Learn with Yasir][2])
 
@@ -288,10 +288,10 @@ D. Composition
 
 ### 19. Which of the following is NOT a type of polymorphism in Python?
 
-A. Method Overriding
-B. Duck Typing
-C. Operator Overloading
-D. Function Compilation
+- A. Method Overriding
+- B. Duck Typing
+- C. Operator Overloading
+- D. Function Compilation
 
 **Answer:** D
 
@@ -315,10 +315,10 @@ travel(Bird())
 travel(Car())
 ```
 
-A. Flying Driving
-B. Driving Flying
-C. Error
-D. None
+- A. Flying Driving
+- B. Driving Flying
+- C. Error
+- D. None
 
 **Answer:** A
 
