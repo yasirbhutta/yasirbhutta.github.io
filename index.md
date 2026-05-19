@@ -49,6 +49,7 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [Matlab for Beginners](/matlab/)
 - [Web Development](/web-dev/)
 - [Getting Started with PostgreSQL](postgresql/)
+- [CS-304 Object Oriented Programming Lab 1(0-1) - OOP in Python](cs304-python/)
 
 ## SAP
 

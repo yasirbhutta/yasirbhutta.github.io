@@ -14,6 +14,16 @@ breadcrumb:
 url: /python/
 ---
 
+## ✅ Review Questions – Classes and Objects
+
+## ✅ Review Questions – Class Attribute and Instance Attribue
+
+1. What is a class attribute?
+2. What is an instance attribute?
+3. How are instance attributes created?
+4. Can class attributes be modified?
+5. Which attribute type is shared among objects?
+   
 ## ✅ Review Questions – Polymorphism in Python
 
 ### 🔹 Conceptual Questions

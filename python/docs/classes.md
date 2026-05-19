@@ -155,6 +155,7 @@ class Dog:
 | **Scope**    | Shared by all objects | Unique per object |  
 | **Defined**  | Outside `__init__` | Inside `__init__` |  
 
+for more details, see [Understanding Class and Instance Attributes in Python](classes/class-instance-attribute.md)
 ---  
 
 ## **7. Defining Methods in a Class**  
