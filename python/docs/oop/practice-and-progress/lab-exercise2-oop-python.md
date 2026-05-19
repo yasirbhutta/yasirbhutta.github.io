@@ -1,6 +1,3 @@
-Here is a **complete lab assignment with clear requirements, structure, and expected output** for your University Portal OOP task.
-
----
 
 # 🧪 Lab Task: University Portal System (OOP in Python)
 
