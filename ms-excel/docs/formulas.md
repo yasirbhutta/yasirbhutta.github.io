@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Formulas in Excel"
-description: Formulas in Excel.
-keywords: Excel functions, Excel formulas, Excel tutorial, Excel tips, Excel training, Excel how to, Microsoft Excel, Spreadsheet functions
+title: "Excel Formulas: Create and Use Formulas in Spreadsheets"
+description: "Learn Excel formulas with easy examples covering arithmetic, comparison, text, and reference operators for effective spreadsheet calculations."
+keywords: "Excel functions, Excel formulas, Excel tutorial, Excel tips, Excel training, Excel how to, Microsoft Excel, Spreadsheet functions"
 author: Muhammad Yasir Bhutta
 course: ms-excel
 topic: functions

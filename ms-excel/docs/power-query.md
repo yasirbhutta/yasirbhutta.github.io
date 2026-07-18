@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Power Query
-description: - HTML (DOM) sourced data - datatables.net
+title: "Power Query"
+description: "HTML (DOM) sourced data - datatables.net"
 keywords: power, query, html, dom, sourced
 ---
 

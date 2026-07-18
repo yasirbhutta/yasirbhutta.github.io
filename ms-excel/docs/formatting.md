@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Excel Formatting Guide - Learn Essential Formatting Techniques
-description: Master Microsoft Excel formatting with this comprehensive guide. Learn how to format cells, apply borders, align text, use number formats, and more. Perfect for beginners and professionals to enhance their Excel skills.
+title: "Microsoft Excel Formatting Guide - Learn Essential Formatting Techniques"
+description: "Master Microsoft Excel formatting with this comprehensive guide. Learn how to format cells, apply borders, align text, use number formats, and more. Perfect for beginners and professionals to enhance their Excel skills."
 keywords: Microsoft Excel formatting, Excel formatting guide, Excel cell formatting, Excel borders and shading, Excel text alignment, Excel number formats, Excel beginner tutorial, Excel professional tips, Excel formatting techniques
 author: Muhammad Yasir Bhutta
 course: ms-excel

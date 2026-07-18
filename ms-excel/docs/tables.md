@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Microsoft Excel: Tables
-description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Download PDF - To access the updated handouts, please click o...
+title: "Microsoft Excel Tables: Create, Format, and Use Data Tables"
+description: "Learn how to create and manage Excel tables, format structured data, use filters and slicers, and analyze information efficiently in Microsoft Excel."
 keywords: data, excel, tables, easy, table
 ---
 
 # Microsoft Excel: Tables
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/tables.pdf)
 - To access the updated handouts, please click on the following link:

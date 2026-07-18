@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Excel Functions: Excel Functions: The Complete Guide for Beginners."
-description: Learn about the essential Excel functions and formulas with examples. This guide covers everything from basic to advanced functions.
+title: "Excel Functions and Formulas: Beginner to Advanced Guide"
+description: "Learn Excel functions and formulas with easy tutorials on SUM, IF, COUNT, AVERAGE, TEXT, DATE, and more for data analysis and spreadsheet tasks."
 keywords: Excel functions, Excel formulas, Excel tutorial, Excel tips, Excel training, Excel how to, Microsoft Excel, Spreadsheet functions
 author: Muhammad Yasir Bhutta
 course: ms-excel

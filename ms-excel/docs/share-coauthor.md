@@ -1,12 +1,11 @@
 ---
 layout: page
-title: [Microsoft Excel](../index.md): Share & co-author
-description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Download PDF - To access the updated handouts, please click o...
+title: "Microsoft Excel Share and Co-Author: Protect and Share Workbooks"
+description: "Learn how to share Excel workbooks, co-author with others, protect sheets and workbooks, and secure Excel files for collaborative work."
 keywords: protect, excel, share, workbook, microsoft
 ---
-# [Microsoft Excel](../index.md): Share & co-author
 
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
+# Share & co-author
 
 - [Download PDF](https://yasirbhutta.github.io/ms-excel/docs/share-coauthor.pdf)
 - To access the updated handouts, please click on the following link:
