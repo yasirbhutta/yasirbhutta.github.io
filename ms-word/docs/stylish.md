@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Microsoft Word - Microsoft 365"
-description: - "Slides: Stylish Formatting & Features"
+description: "Slides: Stylish Formatting & Features"
 keywords: microsoft, word, slides, stylish, formatting
 ---
 # Microsoft Word - Microsoft 365

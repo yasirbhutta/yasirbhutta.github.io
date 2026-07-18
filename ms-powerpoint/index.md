@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Key terms Microsoft Powerpoint
-description: - Title Side Layout - Table Slide Layout - Organization chart layout - Text & clip art style layout - Saving the presentation - Create presentation us...
+title: "Key terms Microsoft Powerpoint"
+description: " Title Side Layout - Table Slide Layout - Organization chart layout - Text & clip art style layout - Saving the presentation - Create presentation"
 keywords: slide, show, view, master, layout
 ---
 # Key terms Microsoft Powerpoint
