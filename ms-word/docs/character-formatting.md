@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Microsoft Word: Character Formatting \| Microsoft 365
-description: Connect with me: Youtube \| LinkedIn \| WhatsApp Channel \| Web \| Facebook \| Twitter - Slides: Character Formatting - Download PDF - To access the u...
+title: "Microsoft Word: Character Formatting | Microsoft 365"
+description: "Learn Microsoft Word character formatting with easy tutorials on font, size, style, color, subscript, superscript, strikethrough, and case changes."
 keywords: font, formatting, text, word, character
 ---
 # Microsoft Word: Character Formatting \| Microsoft 365
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) \| [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) \| [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) \| [Web](https://yasirbhutta.github.io/) \| [Facebook](https://www.facebook.com/yasirbhutta786) \| [Twitter](https://twitter.com/yasirbhutta)
 
 - [Slides: Character Formatting](https://docs.google.com/presentation/d/1JP1pVsfH7LCQFsPPylfEDseQY_CEZGdzHc2RC2dRBpg/edit?usp=sharing)
 - [Download PDF](https://yasirbhutta.github.io/ms-word/docs/character-formatting.pdf)  

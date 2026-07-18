@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Word: Practical Topics
-description: Documentation and resources for Microsoft Word: Practical Topics.
+title: "Microsoft Word: Practical Topics"
+description: "Documentation and resources for Microsoft Word: Practical Topics."
 keywords: microsoft, word, practical, topics, docs
 ---
 # Microsoft Word: Practical Topics

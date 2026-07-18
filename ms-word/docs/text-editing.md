@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Word - Microsoft 365
-description: - Slides: Text Editing in Documents
+title: "Microsoft Word - Microsoft 365"
+description: "Text Editing in Documents"
 keywords: microsoft, word, slides, text, editing
 ---
 # Microsoft Word - Microsoft 365

@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Microsoft Word - Microsoft 365
-description: Connect with me: Youtube | LinkedIn | WhatsApp Channel | Web | Facebook | Twitter - Slides: Advance Features - I - Slides: Advance Features - II
+title: "Microsoft Word - Microsoft 365"
+description: "Learn advanced Microsoft Word features with step-by-step tutorials on formatting, templates, collaboration, and productivity tools for better document creation."
 keywords: microsoft, slides, advance, features, word
 ---
 # Microsoft Word - Microsoft 365
-
-Connect with me: [Youtube](https://www.youtube.com/yasirbhutta) | [LinkedIn](https://www.linkedin.com/in/yasirbhutta/) | [WhatsApp Channel](https://whatsapp.com/channel/0029VaC3BC160eBZZSs3CW0c) | [Web](https://yasirbhutta.github.io/) | [Facebook](https://www.facebook.com/yasirbhutta786) | [Twitter](https://twitter.com/yasirbhutta)
 
 ## Microsoft Word - Advance Features
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 4. Microsoft Word - Page Formatting /| Microsoft 365
-description: video: How to insert page numbers in a Word document \| Microsoft video: How to change page margins in Word \| Microsoft video: How to create a Table...
+title: "Microsoft Word - Page Formatting | Microsoft 365"
+description: "Learn Microsoft Word page formatting with tutorials on margins, orientation, size, headers, footers, and page layout for professional documents."
 keywords: page, margins, click, document, header
 ---
 # 4. Microsoft Word - Page Formatting /| Microsoft 365
