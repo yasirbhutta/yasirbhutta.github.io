@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Microsoft Word - Microsoft 365: Basics
-description: Connect with me: Youtube | LinkedIn | WhatsApp Channel | Web | Facebook | Twitter - Download: Handouts PDF - To access the updated handouts, please cl...
+title: "Microsoft Word - Microsoft 365: Basics"
+description: "Connect with me: Youtube | LinkedIn | WhatsApp Channel | Web | Facebook | Twitter - Download: Handouts PDF - To access the updated handouts"
 keywords: document, word, file, click, save
 ---
 # Microsoft Word - Microsoft 365: Basics

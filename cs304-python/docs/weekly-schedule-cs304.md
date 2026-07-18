@@ -7,9 +7,11 @@
 ### Lab Tasks
 
 - [Task #1: Design and Implementation of a Dog Class](../../python/docs/classes/lab-exercise-oop-classes.md)
-- [Task #2: Creating a Student Class with Constructor and Object Methods](../../python/docs/classes/lab-exercise-oop-classes.md))
-
+- [Task #2: Creating a Student Class with Constructor and Object Methods](../../python/docs/classes/lab-exercise-oop-classes.md)
+- [Task #3: Python Class and Instance Attributes](../../python/docs/classes/lab-exercise2-oop-classes.md)
+  
 ### Practice
+
 ## Inheritance in Python
 ### Lab Tasks
 ### Practice
@@ -29,7 +31,7 @@
 ## Abstraction and Interfaces
 
 ### Lab Tasks
-### Lab Practical Exercises
+### Lab Practical Exercise
 
 - [Exercise 1: Animal Class](../../python/docs/oop-abstraction/practice-and-progress/lab-exercise-oop-abstraction.md)
 - [Exercise 2: Shape Program](../../python/docs/oop-abstraction/practice-and-progress/lab-exercise-oop-abstraction.md)
