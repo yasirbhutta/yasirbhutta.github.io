@@ -1,6 +1,9 @@
-Understanding Class and Instance Attributes in Python.
-
-# Understanding Class and Instance Attributes in Python
+---
+layout: page
+title: "Class and Instance Attributes in Python | OOP Basics"
+description: "Learn the difference between class attributes and instance attributes in Python with simple examples and clear explanations for beginners."
+keywords: Python classes, Python OOP, class in Python, Python objects, init method, Python class attributes, Python instance methods, inheritance Python, Python constructor, object-oriented programming Python
+---
 
 ## Introduction
 

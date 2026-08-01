@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Reading and Writing Files in Python: A Beginner's Guide
-description: Working with files is a fundamental skill in Python programming. Whether you're saving user data, reading configuration files, or processing large dat...
-keywords: file, open, line, txt, files
+title: "Reading and Writing Files in Python | Beginner's Guide"
+description: "Learn how to read and write files in Python with simple examples. Master file handling in Python using open(), read(), write(), and with statements."
+keywords: python read file, python write file, file handling in python, open file python, python file examples
 ---
-# Reading and Writing Files in Python: A Beginner's Guide
 
 Working with files is a fundamental skill in Python programming. Whether you're saving user data, reading configuration files, or processing large datasets, file operations are essential. Let's break down the basics with clear examples.
 

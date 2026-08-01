@@ -1,4 +1,9 @@
-# Problem Statement: OOP Abstraction in Python
+---
+layout: page
+title: "OOP Abstraction in Python | Abstract Class Problem Statement"
+description: "Learn abstraction in Python with a practical example using abstract classes and methods. Understand how to design classes for shapes like Rectangle and Circle."
+keywords: Python abstraction, abstract class in Python, OOP abstraction, Python ABC, abstract methods, Python inheritance, object oriented programming Python
+---
 
 Design a Python program to demonstrate the concept of **Abstraction** using abstract classes and methods.
 
