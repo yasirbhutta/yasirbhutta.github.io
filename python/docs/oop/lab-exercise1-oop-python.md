@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Python OOP Lab Exercise: Build a Library Management System"
+title: "OOP Lab Exercise in Python: Build a Library Management System"
 description: "Master Python Object-Oriented Programming with this hands-on lab exercise. Build a Library Management System to learn encapsulation, inheritance, and polymorphism through practical coding examples."
 keywords: Python OOP lab exercise, library management system Python, encapsulation inheritance polymorphism, Python class exercise, object oriented programming tutorial, Python beginner project, OOP pillars Python, Python coding practice
 author: Muhammad Yasir Bhutta

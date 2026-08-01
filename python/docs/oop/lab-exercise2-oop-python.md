@@ -1,5 +1,9 @@
-
-# 🧪 Lab Task: University Portal System (OOP in Python)
+---
+layout: page
+title: "OOP Lab Exercise in Python | University Portal System"
+description: "Practice object-oriented programming in Python with a university portal system lab exercise covering classes, inheritance, encapsulation, and polymorphism."
+keywords: Python OOP lab, Python object-oriented programming exercise, Python inheritance, encapsulation Python, polymorphism Python, Python class exercise
+---
 
 ## 🎯 Objective
 
