@@ -1,0 +1,23 @@
+name: Notify Course Content Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "python/**"
+      - "ms-word/**"
+      - "ms-excel/**"
+      - "ms-powerpoint/**"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger content sync
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: MuhammadBinYasir/YasirBhutta
+          event-type: content-updated
