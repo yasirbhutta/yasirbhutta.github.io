@@ -302,8 +302,6 @@ int main() {
 
 ## Constants
 
-Here’s a **beginner-friendly C++ example** to explain the concept of `const` and `#define` in C++:
-
 ---
 
 **Question:** Write a C++ program to demonstrate the use of `const` and `#define`.
