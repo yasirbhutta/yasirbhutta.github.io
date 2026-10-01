@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PostgreSQL JOIN Tables"
-description: Learn how to use the PostgreSQL WHERE clause in SELECT statements to filter records with comparison operators, logical conditions, and practical SQL examples.
-keywords: PostgreSQL WHERE clause, SQL WHERE clause, SELECT WHERE statement, filter data in PostgreSQL, SQL filtering, PostgreSQL tutorial, SQL conditions, WHERE condition examples, PostgreSQL query examples, SQL for beginners, database filtering, SELECT statement, SQL operators
+title: "PostgreSQL JOIN Tables Tutorial | INNER, LEFT, RIGHT, FULL JOIN"
+description: "Learn how to join tables in PostgreSQL with clear examples. Understand INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and how to combine related data from multiple tables in SQL."
+keywords: PostgreSQL JOIN, PostgreSQL join tables, INNER JOIN PostgreSQL, LEFT JOIN PostgreSQL, RIGHT JOIN PostgreSQL, FULL JOIN PostgreSQL, SQL joins, join tables in SQL, PostgreSQL tutorial, SQL query examples, relational database joins, database join examples, learn SQL joins, PostgreSQL queries
 ---
 
 ## 1. What is a JOIN?
@@ -182,13 +182,11 @@ The important JOIN types in PostgreSQL are:
 6. **SELF JOIN**
 7. **NATURAL JOIN**
 
-We will use the **DVD Rental database** for practical examples.
+**DVD Rental database** will be used for practical examples.
 
 ---
 
 # 6. Table Aliases
-
-Before learning JOINs, students should understand **table aliases**.
 
 An alias gives a table a short name.
 
@@ -597,13 +595,21 @@ In the standard DVD Rental database, customers and payments are related through 
 
 # 15. SELF JOIN
 
-A **SELF JOIN** means joining a table with itself.
+## 15.1. What is a Self Join?
 
-Why would we do this?
+A **Self Join** is a join in which a table is joined with **itself**.
 
-Sometimes records in the same table are related to each other.
+We use a Self Join when we want to compare or connect rows within the **same table**.
 
-A classic example is an employee table:
+### Simple Definition
+
+> **Self Join = Joining a table with itself.**
+
+---
+
+## 15.2. Employee–Manager Example
+
+Consider an `employee` table:
 
 ```text
 employee
@@ -613,82 +619,325 @@ employee_name
 manager_id
 ```
 
+Example data:
+
+| employee_id | employee_name | manager_id |
+| ----------: | ------------- | ---------: |
+|           1 | Ali           |       NULL |
+|           2 | Ahmed         |          1 |
+|           3 | Sara          |          1 |
+|           4 | Bilal         |          2 |
+|           5 | Ayesha        |          2 |
+
 Here:
 
+* `employee_id` identifies an employee.
+* `employee_name` stores the employee's name.
+* `manager_id` stores the `employee_id` of that employee's manager.
+* `NULL` means the employee does not have a manager.
+
+For example:
+
 ```text
-employee.manager_id
+Ahmed → manager_id = 1
+```
+
+Employee ID `1` belongs to **Ali**, so Ali is Ahmed's manager.
+
+---
+
+## 15.3. Why Do We Need a Self Join?
+
+Both the **employee** and the **manager** are stored in the same table.
+
+We need to connect:
+
+```text
+Employee's manager_id
         ↓
-employee.employee_id
+Manager's employee_id
 ```
 
-The same table can represent both:
-
-* employee
-* manager
+Therefore, we join the `employee` table with itself.
 
 ---
 
-## DVD Rental SELF JOIN Example
-
-The DVD Rental `staff` table contains staff members. For a simple demonstration of SELF JOIN, we can compare staff records.
+## 15.4. Basic Self Join Query
 
 ```sql
 SELECT
-    s1.first_name AS staff1,
-    s2.first_name AS staff2
-FROM staff s1
-JOIN staff s2
-    ON s1.store_id = s2.store_id
-WHERE s1.staff_id <> s2.staff_id;
+    e.employee_name AS employee,
+    m.employee_name AS manager
+FROM employee AS e
+JOIN employee AS m
+    ON e.manager_id = m.employee_id;
 ```
 
-### What is happening?
+## Example Output
 
-We use the same table twice:
-
-```text
-staff s1
-   +
-staff s2
-```
-
-The aliases `s1` and `s2` allow PostgreSQL to treat the same table as two different references.
+| employee | manager |
+| -------- | ------- |
+| Ahmed    | Ali     |
+| Sara     | Ali     |
+| Bilal    | Ahmed   |
+| Ayesha   | Ahmed   |
 
 ---
 
-# 16. Another SELF JOIN Example
+## 15.5. Understand the Query
 
-Find pairs of staff members working at the same store:
+### Step 1: First copy of the table
+
+```sql
+employee AS e
+```
+
+`e` represents the employee.
+
+### Step 2: Second copy of the table
+
+```sql
+employee AS m
+```
+
+`m` represents the manager.
+
+Although both `e` and `m` come from the same table, we give them different aliases so that we can distinguish them.
+
+```text
+employee table
+       ↓
+ ┌─────────────┐
+ │      e      │ → Employee
+ └─────────────┘
+
+       JOIN
+
+ ┌─────────────┐
+ │      m      │ → Manager
+ └─────────────┘
+```
+
+### Step 3: Connect employee with manager
+
+```sql
+ON e.manager_id = m.employee_id
+```
+
+This means:
+
+> Find the employee whose `manager_id` matches the manager's `employee_id`.
+
+---
+
+## 15.6. How the Self Join Works
+
+Consider Ahmed:
+
+| employee_id | employee_name | manager_id |
+| ----------: | ------------- | ---------: |
+|           2 | Ahmed         |          1 |
+
+Ahmed's `manager_id` is `1`.
+
+Now look for:
+
+```text
+employee_id = 1
+```
+
+The table contains:
+
+| employee_id | employee_name |
+| ----------: | ------------- |
+|           1 | Ali           |
+
+Therefore:
+
+```text
+Ahmed → Ali
+Employee → Manager
+```
+
+---
+
+## 15.7. Important Point About Table Aliases
+
+We use aliases because the same table appears twice.
+
+```sql
+employee AS e
+employee AS m
+```
+
+Here:
+
+* `e` = employee
+* `m` = manager
+
+Therefore:
+
+```sql
+e.employee_name
+```
+
+means the employee's name.
+
+And:
+
+```sql
+m.employee_name
+```
+
+means the manager's name.
+
+---
+
+## 15.8. Self Join with Employee ID
+
+We can also display the IDs:
 
 ```sql
 SELECT
-    s1.first_name AS staff_member_1,
-    s2.first_name AS staff_member_2,
-    s1.store_id
-FROM staff s1
-JOIN staff s2
-    ON s1.store_id = s2.store_id
-WHERE s1.staff_id < s2.staff_id;
+    e.employee_id,
+    e.employee_name AS employee,
+    m.employee_id AS manager_id,
+    m.employee_name AS manager
+FROM employee AS e
+JOIN employee AS m
+    ON e.manager_id = m.employee_id;
 ```
 
-Why use:
+### Output
 
-```sql
-s1.staff_id < s2.staff_id
-```
-
-?
-
-To avoid getting duplicate pairs such as:
-
-```text
-Mike - Jon
-Jon - Mike
-```
-
-We only want one pair.
+| employee_id | employee | manager_id | manager |
+| ----------: | -------- | ---------: | ------- |
+|           2 | Ahmed    |          1 | Ali     |
+|           3 | Sara     |          1 | Ali     |
+|           4 | Bilal    |          2 | Ahmed   |
+|           5 | Ayesha   |          2 | Ahmed   |
 
 ---
+
+## 1.9. INNER JOIN vs LEFT JOIN
+
+The previous query uses:
+
+```sql
+JOIN
+```
+
+which means `INNER JOIN`.
+
+It does **not** display employees who do not have a manager.
+
+If we want to display **all employees**, including the top-level manager, use `LEFT JOIN`.
+
+```sql
+SELECT
+    e.employee_name AS employee,
+    m.employee_name AS manager
+FROM employee AS e
+LEFT JOIN employee AS m
+    ON e.manager_id = m.employee_id;
+```
+
+### Output
+
+| employee | manager |
+| -------- | ------- |
+| Ali      | NULL    |
+| Ahmed    | Ali     |
+| Sara     | Ali     |
+| Bilal    | Ahmed   |
+| Ayesha   | Ahmed   |
+
+Ali appears because `LEFT JOIN` keeps all employees.
+
+---
+
+## 15.10. Key Concept
+
+The most important part of this Self Join is:
+
+```sql
+ON e.manager_id = m.employee_id
+```
+
+Think of it as:
+
+```text
+Employee's manager_id
+          ↓
+          =
+          ↓
+Manager's employee_id
+```
+
+### Remember
+
+**Self Join is useful when rows in the same table have a relationship with other rows in that same table.**
+ 
+Common examples include:
+
+* Employee → Manager
+* Employee → Supervisor
+* Employee → Department Head
+* Category → Parent Category
+* Employee → Mentor
+
+---
+
+## 15.11. Create Employee Table
+
+Use the following PostgreSQL query to create the `employee` table for the Self Join example:
+
+```sql
+CREATE TABLE employee (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(50),
+    manager_id INT
+);
+```
+
+### Insert Sample Data
+
+```sql
+INSERT INTO employee (employee_id, employee_name, manager_id)
+VALUES
+    (1, 'Ali', NULL),
+    (2, 'Ahmed', 1),
+    (3, 'Sara', 1),
+    (4, 'Bilal', 2),
+    (5, 'Ayesha', 2);
+```
+
+### Check the Table
+
+```sql
+SELECT * FROM employee;
+```
+
+### Result
+
+| employee_id | employee_name | manager_id |
+| ----------: | ------------- | ---------: |
+|           1 | Ali           |       NULL |
+|           2 | Ahmed         |          1 |
+|           3 | Sara          |          1 |
+|           4 | Bilal         |          2 |
+|           5 | Ayesha        |          2 |
+
+Now you can practice the Self Join:
+
+```sql
+SELECT
+    e.employee_name AS employee,
+    m.employee_name AS manager
+FROM employee AS e
+LEFT JOIN employee AS m
+    ON e.manager_id = m.employee_id;
+```
 
 # 17. CROSS JOIN
 
