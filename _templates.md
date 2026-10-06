@@ -130,6 +130,7 @@ Advanced: Challenging problems that require in-depth understanding and optimizat
 
 ## References and Bibliography
 
+
 For more details, see Appendix A.
 
 ## **Appendices**
