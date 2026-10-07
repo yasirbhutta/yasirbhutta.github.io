@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "C++ cout Tutorial: Learn Standard Output with Examples"
+title: "Standard Output in C++ Using `cout`"
 description: "Learn how to use C++ cout for standard output with clear examples. Understand cout syntax, printing text, variables, and formatted output in beginner-friendly C++ programs."
 keywords: C++ cout, cout in C++, standard output in C++, C++ output, cout syntax, C++ print, C++ iostream, C++ beginner tutorial, C++ examples, C++ program output, learn C++ output, display output in C++
 ---
-
-# Standard Output in C++ Using `cout`
 
 ## 1. What is Standard Output?
 

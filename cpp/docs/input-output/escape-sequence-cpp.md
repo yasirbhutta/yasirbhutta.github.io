@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "C++ Escape Sequences Tutorial: Learn \n, \t, \", and More"
+title: "C++ Escape Sequences Tutorial"
 description: "Learn C++ escape sequences with practical examples. Understand newline, tab, quote, backslash, and other special characters used in output strings and beginner C++ programs."
 keywords: C++ escape sequences, C++ newline escape sequence, C++ tab escape, C++ backslash escape, escape characters in C++, C++ string special characters, C++ output formatting, learn C++ escape sequences, C++ tutorial, C++ examples
 ---

@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "C++ cin Input Tutorial: Learn Standard Input with Examples"
+title: "Standard Input in C++ Using `cin`"
 description: "Learn how to use C++ cin for standard input with beginner-friendly examples. Understand cin >> syntax, multiple inputs, user input, and simple C++ programs for reading integers, floats, chars, and strings."
 keywords: C++ cin, cin in C++, C++ input, standard input in C++, cin >>, C++ user input, input output in C++, C++ program examples, C++ beginner tutorial, learn C++ input, C++ string input, C++ integer input
 ---
-
-# Standard Input in C++ Using `cin`
 
 ## 1. What is Standard Input?
 
