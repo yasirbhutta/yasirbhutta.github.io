@@ -375,3 +375,89 @@ const int MAX = 100;
 **`const` = constant variable with a type**
 
 **`#define` = preprocessor symbolic constant**
+
+## Examples
+
+## Example 1: const and define
+
+**Question:** Write a C++ program to demonstrate the use of `const` and `#define`.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// 1. Using #define to define a constant value
+#define PI 3.14159
+
+int main() {
+    // 2. Using const to declare a constant variable
+    const int DAYS_IN_WEEK = 7;
+
+    // Trying to change a const variable will cause an error
+    // DAYS_IN_WEEK = 8; // ❌ Uncommenting this line will give an error
+
+    cout << "Value of PI using #define: " << PI << endl;
+    cout << "Days in a week using const: " << DAYS_IN_WEEK << endl;
+
+    // Example usage in calculation
+    float radius = 5.0;
+    float area = PI * radius * radius; // Using #define constant
+    cout << "Area of circle with radius " << radius << " is: " << area << endl;
+
+    return 0;
+}
+```
+
+
+### Example: #define
+
+---
+
+**Question:** Write a C++ program to demonstrate the use of `#define` for constants.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// Using #define to create a constant
+#define PI 3.14159
+#define GREETING "Hello, World!"
+
+int main() {
+    // Using the defined constant
+    float radius = 5.0;
+    float area = PI * radius * radius; // Using #define constant
+
+    cout << GREETING << endl; // Using #define string literal
+    cout << "Radius: " << radius << endl;
+    cout << "Area of circle: " << area << endl;
+
+    return 0;
+}
+```
+
+---
+
+### **Explanation**
+
+1. **`#define`**:
+
+   * `#define` creates **preprocessor constants** that **cannot be changed** during program execution.
+   * The compiler **replaces the name with the value** before compilation.
+   * Examples in code:
+  
+     * `#define PI 3.14159` → used for numeric constant
+     * `#define GREETING "Hello, World!"` → used for string constant
+     * **Key Tip:** `#define` **does not have a data type**, unlike `const`.
+
+2. **`const`**:
+
+   * Declares a **read-only variable** whose value **cannot be changed** during program execution.
+   * Example: `const int DAYS_IN_WEEK = 7;`
+
+3. **Key Difference**:
+
+   * `#define` is handled by the **preprocessor**, not the compiler.
+   * `const` is handled by the **compiler**, so it has a type and can be used like a normal variable.
+
+---

@@ -328,3 +328,52 @@ Parentheses make the order clear and reduce mistakes.
 ### Golden Rule ⭐
 
 > **First check parentheses, then higher-precedence operators, and when operators have equal precedence, follow their associativity (commonly left-to-right for arithmetic operators).**
+
+## Examples
+
+### C++ Example: Operator Prcedence
+
+**Question:** Write a C++ program to demonstrate the concept of operator precedence in C++.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 5, c = 2;
+
+    // Without parentheses
+    int result1 = a + b * c; 
+    // Multiplication (*) has higher precedence than addition (+)
+    cout << "Result without parentheses (a + b * c): " << result1 << endl;
+
+    // With parentheses
+    int result2 = (a + b) * c; 
+    // Parentheses change the order of evaluation
+    cout << "Result with parentheses ((a + b) * c): " << result2 << endl;
+
+    // Combining multiple operators
+    int result3 = a + b - c * 2 / 2;
+    // Operator precedence: *, / first, then +, -
+    cout << "Result of a + b - c * 2 / 2: " << result3 << endl;
+
+    return 0;
+}
+```
+
+---
+
+### **Explanation:**
+
+1. **Operator Precedence** determines the **order in which operators are evaluated** in an expression.
+2. **Higher precedence operators** are evaluated **first**.
+
+   * Example: `*` and `/` have higher precedence than `+` and `-`.
+3. **Parentheses `()`** can be used to **override the default precedence**.
+4. **Example:**
+
+   * `a + b * c` → multiplication happens first: `5 * 2 = 10`, then `a + 10 = 20`
+   * `(a + b) * c` → parentheses first: `10 + 5 = 15`, then `15 * 2 = 30`
+
+---
+

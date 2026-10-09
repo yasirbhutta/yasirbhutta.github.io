@@ -796,3 +796,175 @@ Used to increase or decrease a value by 1.
 ++  --
 ```
 
+## Examples
+
+### C++ Example: Prefix and Postfix Increment Operators
+
+---
+
+**Question:** Write a C++ program to demonstrate the difference between prefix (`++a`) and postfix (`a++`) increment operators.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+    int b = 5;
+
+    cout << "Initial values: a = " << a << ", b = " << b << endl;
+
+    // 1. Prefix increment: ++a
+    // The value is incremented first, then used
+    int prefixResult = ++a;
+    cout << "After prefix increment (++a): a = " << a << ", result = " << prefixResult << endl;
+
+    // 2. Postfix increment: b++
+    // The value is used first, then incremented
+    int postfixResult = b++;
+    cout << "After postfix increment (b++): b = " << b << ", result = " << postfixResult << endl;
+
+    return 0;
+}
+```
+
+---
+
+#### **Explanation:**
+
+1. **Prefix Increment (`++a`)**:
+
+   * Increments the value of the variable **before** using it in an expression.
+   * Example: `++a` → first increase `a` by 1, then use the new value.
+
+2. **Postfix Increment (`a++`)**:
+
+   * Uses the current value of the variable in an expression **first**, then increments it.
+   * Example: `a++` → use the value of `a`, then increase it by 1.
+
+3. **Output Understanding:**
+
+   ```
+   Initial values: a = 5, b = 5
+   After prefix increment (++a): a = 6, result = 6
+   After postfix increment (b++): b = 6, result = 5
+   ```
+
+---
+
+### C++ Example: Arithmetic Operators
+
+---
+
+**Question:** Write a C++ program to demonstrate the use of arithmetic operators in C++.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 15;
+    int b = 4;
+
+    cout << "Values: a = " << a << ", b = " << b << endl;
+
+    // 1. Addition (+)
+    cout << "a + b = " << a + b << endl;
+
+    // 2. Subtraction (-)
+    cout << "a - b = " << a - b << endl;
+
+    // 3. Multiplication (*)
+    cout << "a * b = " << a * b << endl;
+
+    // 4. Division (/)
+    cout << "a / b = " << a / b << " (integer division)" << endl;
+
+    // 5. Modulus (%) - remainder of division
+    cout << "a % b = " << a % b << endl;
+
+    // 6. Increment (++) - increases value by 1
+    a++;
+    cout << "After increment, a = " << a << endl;
+
+    // 7. Decrement (--) - decreases value by 1
+    b--;
+    cout << "After decrement, b = " << b << endl;
+
+    return 0;
+}
+```
+
+---
+
+#### **Explanation for Beginners:**
+
+1. **Arithmetic operators** are used to perform **mathematical operations** on numbers.
+2. Operators used in the example:
+
+   * `+` Addition
+   * `-` Subtraction
+   * `*` Multiplication
+   * `/` Division
+   * `%` Modulus (remainder)
+   * `++` Increment
+   * `--` Decrement
+3. **Integer division** truncates the decimal part. Example: `15 / 4 = 3`.
+
+---
+
+### C++ Example: Assignment Operator and Arithmetic Assignment Operators
+
+---
+
+**Question:** Write a C++ program to demonstrate the use of assignment operators in C++.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10; // Simple assignment (=)
+    int b = 5;
+
+    cout << "Initial values: a = " << a << ", b = " << b << endl;
+
+    // 1. Addition assignment (+=)
+    a += b; // equivalent to a = a + b
+    cout << "After a += b, a = " << a << endl;
+
+    // 2. Subtraction assignment (-=)
+    a -= b; // equivalent to a = a - b
+    cout << "After a -= b, a = " << a << endl;
+
+    // 3. Multiplication assignment (*=)
+    a *= b; // equivalent to a = a * b
+    cout << "After a *= b, a = " << a << endl;
+
+    // 4. Division assignment (/=)
+    a /= b; // equivalent to a = a / b
+    cout << "After a /= b, a = " << a << endl;
+
+    // 5. Modulus assignment (%=)
+    a %= b; // equivalent to a = a % b
+    cout << "After a %= b, a = " << a << endl;
+
+    return 0;
+}
+```
+
+---
+
+#### **Explanation for Beginners:**
+
+1. **Assignment operators** are used to **store values in variables** and optionally perform an operation at the same time.
+2. Examples:
+
+   * `=` → simple assignment
+   * `+=` → add right value to left variable and assign result
+   * `-=` → subtract right value from left variable and assign result
+   * `*=` → multiply left variable by right value and assign result
+   * `/=` → divide left variable by right value and assign result
+   * `%=` → find remainder and assign result
+
+---
