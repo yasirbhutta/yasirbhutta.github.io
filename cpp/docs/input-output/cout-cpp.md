@@ -524,7 +524,7 @@ cout << "Hello\n";
 
 ---
 
-# Practice Questions
+## Coding Exercises
 
 ### Practice 1 – Student Information
 

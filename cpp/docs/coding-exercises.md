@@ -5,7 +5,7 @@ description: "Practice C++ programming with coding exercises covering variables,
 keywords: C++ coding exercises, C++ programming exercises, C++ practice exercises, C++ exercises for beginners, C++ programming practice, C++ problem solving, beginner C++ exercises, C++ coding practice
 ---
 
-## 1. Constants
+## 1. C++ Basics
 
 ### Problem Statement 1: `const` and `#define`
 
@@ -31,9 +31,7 @@ Area of circle with radius 5 is: 78.5397
 
 ---
 
-## 2. Type Casting
-
-### Problem Statement 1: Explicit Type Casting
+### Problem Statement 2: Explicit Type Casting
 
 Write a C++ program that:
 
@@ -49,4 +47,84 @@ Write a C++ program that:
 2.5
 ```
 
+---
 
+## 2. Input and Output
+
+### Problem Statement 1: – Student Information
+
+Write a C++ program that takes the student's **name, age, and marks** as input and displays them using `cout`.
+
+---
+
+### Problem Statement 2: – Calculate Total
+
+Write a C++ program that takes the prices of three items from the user, calculates the total, and displays the result.
+
+---
+
+### Problem Statement 3: – Calculate Rectangle Perimeter
+
+Write a C++ program that takes the length and width of a rectangle and calculates:
+
+```text
+Perimeter = 2 × (Length + Width)
+```
+
+Display the result using `cout`.
+
+---
+
+### Problem Statement 4: – Calculate Average
+
+Write a C++ program that takes marks of three subjects, calculates the average, and displays the result.
+
+---
+
+### Problem Statement 5: – Student Age
+
+Write a C++ program that asks the user to enter their age and displays:
+
+```text
+Your age is: 20
+```
+
+---
+
+### Problem Statement 6: – Two Numbers
+
+Write a C++ program that takes two integers from the user and displays their:
+
+* Sum
+* Difference
+* Product
+
+---
+
+### Problem Statement 7: – Student Marks
+
+Write a C++ program that takes marks of three subjects and displays the total marks.
+
+### Problem Statement 8: – Rectangle
+
+Write a C++ program that takes the length and width of a rectangle and calculates its area.
+
+Formula:
+
+```text
+Area = Length × Width
+```
+---
+
+### Problem Statement 9: – Student Information
+
+Write a C++ program that takes the following information from the user:
+
+* Name
+* Age
+* Department
+* Marks
+
+Then display all the information using `cout`.
+
+---

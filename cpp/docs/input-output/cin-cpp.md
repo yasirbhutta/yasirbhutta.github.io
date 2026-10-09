@@ -560,7 +560,7 @@ cout → Output → Program → Screen
 
 ---
 
-# Practice Questions
+# Coding Exercises
 
 ### Practice 1 – Student Age
 
