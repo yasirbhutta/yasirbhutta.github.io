@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "Programming in C++ – Looping Structures"
-description: "Comprehensive guide to C++ looping structures — while, do-while, and for loops — with clear syntax, annotated examples, menu-driven program patterns, and practical tips for beginners."
-keywords: C++, loops, while loop, do-while loop, for loop, looping structures, control flow, iteration, examples, menu-driven program, beginners, tutorial
+title: "C++ Loop Applications: Factorials, Digits, and Menus"
+description: "Apply C++ loops to solve beginner problems: calculate factorials and sums, count or reverse digits, and build a simple menu-driven program with examples."
+keywords: C++ loop applications, factorial program in C++, sum of digits in C++, reverse a number in C++, count digits using loops, menu-driven program in C++, C++ loop examples, for loop applications, while loop exercises, programming fundamentals students
 ---
-
-[ Download PDF](/downloads/cpp-looping-structures.pdf)
 
 ## While Loop
 

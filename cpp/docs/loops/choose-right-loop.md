@@ -1,5 +1,9 @@
-# Lecture 7: Choosing the Right Loop in C++ and Solving Mixed Problems
-
+---
+layout: page
+title: "Choosing the Right C++ Loop for Beginners | for vs while"
+description: "Learn how to choose the correct C++ loop for each problem, with beginner-friendly comparisons of for, while, and do-while loops and real examples."
+keywords: choose loop in C++, C++ for loop, C++ while loop, C++ do while loop, C++ loop comparison, C++ programming basics, beginner C++ tutorial, decision making in code, C++ loops explained, programming fundamentals
+---
 ## 1. Learning Objectives
 
 By the end of this lecture, students will be able to:

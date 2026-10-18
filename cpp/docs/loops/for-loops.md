@@ -1,6 +1,10 @@
-# C++ Lecture 4: The `for` Loop
-
-Subject: Programming Fundamentals | Level: Beginner
+---
+layout: page
+title: "C++ for Loop Tutorial for Beginners | Loops Explained"
+description: "Learn C++ for loops with beginner-friendly examples, syntax, and practical exercises. Understand counting, repetition, and common loop patterns used in beginner programming."
+keywords: C++ for loop, for loop in C++, C++ loops for beginners, C++ tutorial, C++ programming basics, beginner C++ exercises, loop syntax in C++, counting loops in C++, C++ repetition structure, programming fundamentals
+---
+---
 
 ## 1. Learning Objectives
 

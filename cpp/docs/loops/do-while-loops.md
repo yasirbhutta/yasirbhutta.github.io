@@ -1,6 +1,9 @@
-# C++ Lecture 3: The `do-while` Loop
-
-Subject: Programming Fundamentals | Level: Beginner
+---
+layout: page
+title: "C++ do-while Loop Tutorial for Beginners | Loop Example"
+description: "Learn the C++ do-while loop with beginner-friendly syntax, examples, and comparison to while loops. Understand when to use do-while in C++ programs and exercises."
+keywords: C++ do while loop, do while loop in C++, C++ while loop, C++ loops for beginners, C++ tutorial, beginner C++ programming, loop syntax in C++, programming fundamentals, do while example, C++ beginner exercises
+---
 
 ## 1. Learning Objectives
 

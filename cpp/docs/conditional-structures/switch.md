@@ -1,6 +1,9 @@
-# C++ Lecture Notes: `switch` Statements and Common Patterns
-
-Subject: Programming Fundamentals Topic: Decision-Making Using `switch` Level: Beginner
+---
+layout: page
+title: "C++ switch Statement Tutorial for Beginners | Decision Making in C++"
+description: "Learn how to use the C++ switch statement with clear syntax, examples, and real-world decision-making logic. Master switch case in C++ with beginner-friendly explanations and code snippets."
+keywords: "C++ switch statement, switch case in C++, C++ decision making, C++ conditional statements, learn C++ switch, C++ tutorial for beginners, C++ programming basics, switch statement example, beginner C++ coding, C++ syntax"
+---
 
 ## 1. What is a `switch` Statement?
 

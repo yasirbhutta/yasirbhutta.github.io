@@ -1,6 +1,9 @@
-# C++ Lecture Notes — Lesson 1: Introduction to Loops
-
-Course: Programming Fundamentals | Level: Beginner | Language: C++
+---
+layout: page
+title: "C++ Loops: Introduction, Uses, and Beginner Examples"
+description: "Learn what loops are in C++, why programmers use them, and how repetition, conditions, and stopping rules work through beginner-friendly examples."
+keywords: C++ loops, introduction to loops, loop programming basics, why use loops in C++, repetition in programming, loop conditions, beginner C++ examples, programming fundamentals, C++ for university students, repetitive tasks in code
+---
 
 ## Learning Objectives
 

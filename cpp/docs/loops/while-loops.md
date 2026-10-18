@@ -1,6 +1,9 @@
-# C++ Lecture 2: The `while` Loop
-
-Subject: Programming Fundamentals | Language: C++ | Level: Beginner
+---
+layout: page
+title: "C++ while Loops: Syntax, Examples, and Common Errors"
+description: "Learn C++ while loops with clear examples of syntax, conditions, counters, loop tracing, sums, input validation, and how to avoid common infinite-loop errors."
+keywords: C++ while loop, while loop syntax, C++ loop examples, while loop condition, C++ counter loop, loop tracing in C++, summing numbers with loops, input validation loop, infinite loop errors, C++ programming for beginners
+---
 
 ## 1. Learning Objectives
 

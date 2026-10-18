@@ -1,8 +1,8 @@
 ---
 layout: page
-title: C++ Tutorial for Beginners – Free, Downloadable PDFs, and Open Source
-description: Learn c++ programming from scratch with our free, beginner-friendly tutorials. Access open-source content, download PDF lessons, and start coding today!.
-keywords: "c++ tutorial for beginners, learn c++ programming, free c++ lessons, c++ pdf tutorials, open-source c++ guide, c++ coding for beginners, c++ exercises and projects, c++ programming basics, downloadable c++ resources, c++ step-by-step guide"
+title: "C++ iostream Tutorial for Beginners | Input and Output in C++"
+description: "Learn how to use iostream in C++ for input and output operations. Understand std::cin, std::cout, and C++ stream basics with beginner-friendly examples."
+keywords: "C++ iostream, iostream in C++, std::cin, std::cout, C++ input output, beginner C++ tutorial, C++ stream library, C++ basics for beginners, learn C++ programming, C++ tutorial for beginners"
 ---
 
 Including **`<iostream>`** in C++ plays a **vital role in input and output (I/O) operations**.
@@ -10,7 +10,7 @@ Let’s break it down simply 👇
 
 ---
 
-### 🔹 **Meaning of `#include <iostream>`**
+##🔹 **Meaning of `#include <iostream>`**
 
 The directive
 
@@ -22,7 +22,7 @@ tells the compiler to include the **Input/Output Stream** library — a **standa
 
 ---
 
-### 🔹 **What Does “iostream” Mean?**
+## 🔹 **What Does “iostream” Mean?**
 
 * **“io”** → Input/Output
 * **“stream”** → A flow of data
@@ -32,7 +32,7 @@ tells the compiler to include the **Input/Output Stream** library — a **standa
 
 ---
 
-### 🔹 **Main Objects Provided by `<iostream>`**
+## 🔹 **Main Objects Provided by `<iostream>`**
 
 | Object      | Type          | Purpose                                   |
 | ----------- | ------------- | ----------------------------------------- |
@@ -43,7 +43,7 @@ tells the compiler to include the **Input/Output Stream** library — a **standa
 
 ---
 
-### 🔹 **Example**
+## 🔹 **Example**
 
 ```cpp
 #include <iostream>
@@ -66,7 +66,7 @@ int main() {
 
 ---
 
-### 🔹 **Without `<iostream>`**
+## 🔹 **Without `<iostream>`**
 
 If you don’t include `<iostream>`, the compiler won’t recognize `cout`, `cin`, `cerr`, or `clog`, and you’ll get **errors like:**
 
@@ -76,7 +76,7 @@ error: 'cout' was not declared in this scope
 
 ---
 
-### 🔹 **Namespace Reminder**
+## 🔹 **Namespace Reminder**
 
 All these objects (`cout`, `cin`, `cerr`, etc.) belong to the **`std` namespace**, so you either:
 
@@ -93,7 +93,7 @@ std::cin >> x;
 
 ---
 
-### ✅ **In Short**
+## ✅ **In Short**
 
 `#include <iostream>` gives your program the ability to:
 

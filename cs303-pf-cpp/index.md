@@ -67,7 +67,7 @@ keywords: CS-303 Programming Fundamentals
 - [Loop Control and Applications](../cpp/docs/loops/loop-applications.md)
 - [Choosing the Right Loop in C++ and Solving Mixed Problems](../cpp/docs/loops/choose-right-loop.md)
   
-## Practice and Program
+## Practice and Progress
 
 ---
 

@@ -1,8 +1,9 @@
-# C++ Lecture 5: Nested Loops and Patterns
-
-Programming Fundamentals | Beginner Level
-
-This lecture builds on the `for` loop and helps students understand how to use one loop inside another to create star patterns, number patterns, and tables. It also introduces `break` and `continue`.
+---
+layout: page
+title: "C++ Nested Loops: Patterns, Examples, and Tracing"
+description: "Learn C++ nested loops by tracing outer and inner iterations, printing star and number patterns, and using break and continue in beginner-friendly examples."
+keywords: C++ nested loops, nested for loops, C++ loop patterns, star patterns in C++, number patterns in C++, nested loop examples, outer and inner loops, trace nested loops, break and continue in C++, C++ programming for beginners
+---
 
 ## 1. Learning Objectives
 

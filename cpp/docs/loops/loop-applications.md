@@ -1,8 +1,9 @@
-# C++ Lecture 6: Loop Applications and Problem-Solving
-
-Subject: Programming Fundamentals | Level: Beginner
-
-This lecture applies `for`, `while`, and `do-while` loops to practical programming problems, including factorials, number sums, digit counting, and menu-driven programs.
+---
+layout: page
+title: "C++ Loop Applications: Factorials, Digits, and Menus"
+description: "Apply C++ loops to solve beginner problems: calculate factorials and sums, count or reverse digits, and build a simple menu-driven program with examples."
+keywords: C++ loop applications, factorial program in C++, sum of digits in C++, reverse a number in C++, count digits using loops, menu-driven program in C++, C++ loop examples, for loop applications, while loop exercises, programming fundamentals students
+---
 
 ## 1. Learning Objectives
 
