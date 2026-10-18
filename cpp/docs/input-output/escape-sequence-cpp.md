@@ -36,7 +36,7 @@ It is similar to using `endl`.
 
 Write a C++ program that prints two lines of text using the newline escape sequence `\n`.
 
-### Example
+### Example 1
 
 ```cpp
 #include <iostream>
@@ -86,7 +86,7 @@ It is useful for creating simple columns in output.
 
 Write a C++ program that displays a list of items and their prices using `\t` to separate the columns.
 
-### Example
+### Example 2
 
 ```cpp
 #include <iostream>
@@ -143,7 +143,7 @@ If we want to **display an actual backslash**, we use two backslashes:
 
 Write a C++ program that displays a Windows file path containing backslashes.
 
-### Example
+### Example 3
 
 ```cpp
 #include <iostream>
@@ -197,7 +197,7 @@ If we want to display a double quotation mark **inside a string**, we use:
 
 Write a C++ program that prints a sentence containing double quotation marks.
 
-### Example
+### Example 4
 
 ```cpp
 #include <iostream>
@@ -243,9 +243,73 @@ The `\'` escape sequence can be used to display a **single quotation mark**.
 
 Write a C++ program that prints a character enclosed in single quotation marks.
 
-### Example
+### Example 5
 
 ```cpp
 #include <iostream>
 using namespac
 ```
+
+# 6. Carriage Return – `\r`
+
+In C++, `\r` means carriage return. It moves the cursor to the beginning of the current line without moving to a new line.
+
+### Example 6
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello\rWorld";
+    return 0;
+}
+```
+
+Understand the Code
+
+* `Hello` is printed on the screen.
+
+* `\r` moves the cursor to the beginning of the same line.
+
+* `World` is printed from the beginning, overwriting the existing characters where applicable.
+
+The output is typically:
+
+```text
+World
+```
+
+### Example 7: Easy-to-Understand Demonstration
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "ABCDEF\rXYZ";
+    return 0;
+}
+```
+
+Output:
+
+```text
+XYZDEF
+```
+
+Here, `\r` returns the cursor to the beginning. `XYZ` replaces the first three characters, while `DEF` remains.
+
+### Remember the Difference
+
+| Escape sequence | Meaning                                    |
+| --------------- | ------------------------------------------ |
+| \\n             | Moves to a new line                        |
+| \\r             | Moves to the beginning of the current line |
+| \\t             | Adds a horizontal tab                      |
+
+
+Tip: The visible result of `\r` can vary depending on the console or terminal. It is often used to update progress messages on the same line.
+

@@ -30,7 +30,7 @@ In this lesson, we will learn two commonly used manipulators:
 cout << "Text" << endl;
 ```
 
-### Example
+### Example 1
 
 **Question:**
 Write a C++ program that prints two lines of text using the manipulator `endl`.
@@ -109,7 +109,7 @@ This gives the output field a width of **10 characters**.
 
 ---
 
-## Example: Using `setw` to Create a Table
+## Example 2: Using `setw` to Create a Table
 
 **Question:**
 Write a C++ program that prints a simple table of numbers using `setw` to align the output in columns.
@@ -205,9 +205,9 @@ cout << setw(10) << 25
 
 ---
 
-# Practice Questions
+# Coding Exercises
 
-### Practice 1 – `endl`
+### Task 1 – `endl`
 
 Write a C++ program that displays your:
 
@@ -217,7 +217,7 @@ Write a C++ program that displays your:
 
 Use `endl` to print each item on a separate line.
 
-### Practice 2 – `setw`
+### Task 2 – `setw`
 
 Write a C++ program to display the following table using `setw(10)`:
 
@@ -229,7 +229,7 @@ Number    Cube
 5         125
 ```
 
-### Practice 3 – Both Manipulators
+### Task 3 – Both Manipulators
 
 Write a C++ program that uses both `endl` and `setw()` to display a simple student information table containing:
 
