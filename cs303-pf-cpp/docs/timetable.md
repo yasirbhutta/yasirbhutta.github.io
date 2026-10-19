@@ -1,14 +1,19 @@
 ---
 layout: page
-title: "Course Contents | Applications of Information & Communication Technologies (CS-301)"
-description: "This page details the CS-301 course “Applications of Information and Communication Technologies” (3 credit hours). It includes course description, learning outcomes, syllabus topics (ICT tools, cloud storage, LMS, e-commerce, digital citizenship, ethics), and practical requirements."
-keywords: CS-301, Applications of ICT, ICT tools, Information and Communication Technologies, cloud storage, online learning management systems, digital citizenship, e-commerce, ICT in education, ICT in health, ethical use of ICT
-course: cs301-aict
-topic: course-contents
-show_practice_progress: null
-show_mini_project: null
-prev: /cs301-aict/
-breadcrumb: 
-- title: CS-301
-url: /cs301-aict/
+title: "Classes Timetable Fall Semester 2026 | Programming Fundamentals (CS-303)"
+description: "Class timetable for the CS-303 Programming Fundamentals course in Fall Semester 2026. Includes weekly lecture and lab schedule details for BS-IT, BS-SE, BS-DS, and BS-AI sections."
+keywords: CS-303, Programming Fundamentals timetable, C++ classes schedule, Fall Semester 2026, BS-IT timetable, BS-SE timetable, BS-DS timetable, BS-AI timetable, programming fundamentals lab, C++ course schedule, university timetable
 ---
+
+## Class Timetable
+
+| Course Code | Subject | Class | Day | Time | Room |
+|---|---|---|---|---|---|
+| CS-303 | Programming Fundamentals | BS-IT-C | Wednesday | 08:50 AM – 10:00 AM | Room 10 (New Campus) |
+| CS-303 | Programming Fundamentals | BS-SE + BS-DS | Wednesday | 10:00 AM – 11:00 AM | Room 3 (New Campus) |
+| CS-303 | Programming Fundamentals | BS-AI-C | Wednesday | 11:00 AM – 12:30 PM | Room 10 (New Campus) |
+| CS-303 | Programming Fundamentals | BS-IT-C | Thursday | 08:50 AM – 10:00 AM | Room 10 (New Campus) |
+| CS-303 | Programming Fundamentals | BS-SE + BS-DS | Thursday | 10:00 AM – 11:00 AM | Room 3 (New Campus) |
+| CS-303 | Programming Fundamentals | BS-AI-C | Thursday | 11:00 AM – 12:30 PM | Room 10 (New Campus) |
+| CS-305 | Programming Fundamentals Lab | BS-SE + BS-DS | Friday | 10:00 AM – 11:30 AM | Room 8 (New Building - City Campus) |
+| CS-305 | Programming Fundamentals Lab | BS-IT-C + BS-AI-C | Friday | 11:30 AM – 01:00 PM | Room 8 (New Building - City Campus) |
