@@ -1,93 +1,89 @@
 ---
 layout: page
-title: "CS-301 Applications of ICT – Key Topics, Learning Outcomes & Study Materials"
-description: Explore the complete CS-301 course syllabus, including key topics, learning objectives, and study resources. Ideal for computer science students and educators.
-keywords: CS-301 syllabus, computer science course outline, CS-301 topics, course contents, computer science curriculum, study materials, learning outcomes, programming concepts, algorithms, data structures, software engineering, exam preparation, lecture notes, academic resources, university course guide
-author: Muhammad Yasir Bhutta
-course: cs-301
-next: /cs-301/resources.html
-breadcrumb: 
-- title: CS-301
-url: /cs-301/
+title: "CS-303 Programming Fundamentals – Course Outline, Learning Outcomes & Study Materials"
+description: "Explore the CS-303 Programming Fundamentals course outline, including learning outcomes, problem-solving techniques, programming concepts, course assessment, and reference materials."
+keywords: CS-303, Programming Fundamentals, course outline, programming concepts, problem solving, algorithms, C++ programming, variables, data types, control structures, loops, functions, arrays, pointers, file handling, learning outcomes, lecture notes, study materials
 ---
 
-- [Resources: Books, Websites, Tutorials](resources.md)
+# CS-303 Programming Fundamentals
 
-## Computer Definitions & Concepts
+## Course Information
 
-- [Computer](../computer-basics/docs/computer.md)
+- **Course Title:** Programming Fundamentals
+- **Course Code:** CS-303
+- **Credit Hours:** 3 (3-0)
 
-## Internet: Browsers and Search Engines
+## Course Learning Outcomes (CLOs)
 
-- [Google Search](../google-workspace/docs/google-search/) \| [Download PDF](../google-workspace/docs/google-search/google-search.pdf)
+By the end of this course, students will be able to:
 
-## Hardware
+1. Understand basic problem-solving steps and programming logic constructs.
+2. Apply fundamental programming concepts to solve computational problems.
+3. Design and implement algorithms to solve real-world problems.
 
-- [Number Systems](../computer-basics/docs/number-systems.md)
-- [Computer Systems & Components](../computer-basics/docs/hardware.md) \| [PDF](../computer-basics/docs/hardware.pdf)
-- [Storage Devices](../computer-basics/docs/storage-devices.md) \| [PDF](../computer-basics/docs/storage-devices.pdf)
+## Course Contents
 
-## Software
+### 1. Introduction to Computing and Programming
+- Introduction to problem-solving
+- Brief review of Von Neumann architecture
+- Introduction to programming
+- Role of compiler and linker
+- Introduction to algorithms
 
-- [Software](../computer-basics/docs/software.md) \| [PDF](../computer-basics/docs/software.pdf)
+### 2. Programming Fundamentals
+- Basic data types and variables
+- Input and output operations
+- Arithmetic, comparison, and logical operators
 
-## Introduction to Programming
+### 3. Control Structures
+- Conditional statements
+- Execution flow of conditional statements
+- Repetitive statements (loops)
+- Execution flow of repetitive statements
 
-- [Python: Quick Guide](../python/docs/quick-guide.md) \| [PDF](../python/docs/quick-guide.pdf)
+### 4. Lists and Memory Organization
+- Lists and their memory organization
+- Multidimensional lists
 
-## Databases and Information Systems
+### 5. Functions and Modular Programming
+- Introduction to modular programming
+- Function definition and function calls
+- Function stack: calling, rolling, and unrolling
 
-- [Introduction to Database](../computer-basics/docs/database.md) \| [PDF](../computer-basics/docs/database.pdf)
+### 6. Strings and Memory Management
+- Strings and string operations
+- Pointers and references
+- Static and dynamic memory allocation
 
-## Networks, Data Communication
+### 7. File Handling
+- File input and output (File I/O) operations
 
-- [Networking Basics](../computer-basics/docs/networks.md) \| [PDF](../computer-basics/docs/networks.pdf)
+## Teaching Methodology
 
-## The Internet
+- Lectures
+- Written assignments
+- Practical laboratory sessions
+- Semester project
+- Student presentations
 
-- [Email](../google-workspace/docs/gmail/) \| [Download PDF](../google-workspace/docs/gmail/email.pdf) 
-- [Collaborative Computing and Social Networking](../social-media/docs/linkedin/) \| [Download PDF](../social-media/docs/linkedin/index.md)
-- E-Commerce
-- IT Security
+## Course Assessment
 
-## Microsoft Office
+Sessional Exam, Home Assignments, Quizzes, Project, Presentations, Final Exam
 
-### [Microsoft Excel](../ms-excel/index.md)
+| Assessment Component | Weightage |
+|---|---:|
+| Midterm Examination | 30% |
+| Sessional Assessment | 10% |
+| Final Examination | 60% |
+| **Total** | **100%** |
 
-- [Excel Basics](../ms-excel/docs/basics.md) \| [PDF](../ms-excel/docs/basics.pdf)
-- [Formatting in excel](../ms-excel/docs/formatting.md) \| [PDF](../ms-excel/docs/formatting.pdf)
-- [Formulas in excel](../ms-excel/docs/formulas.md) \| [PDF](../ms-excel/docs/formulas.pdf)
-- [Functions in excel](../ms-excel/docs/functions.md) \| [PDF](../ms-excel/docs/functions.pdf)
-- [Excel Practical Topics](../ms-excel/docs/excel-practicals.md) \| [PDF](../ms-excel/docs/excel-practicals.pdf)
-  
-### [Microsoft Word](../ms-word/index.md)
+## Reference Materials
 
-- [Microsoft Word Basics](../ms-word/docs/basics.md)
-- [Character Formatting](../ms-word/docs/character-formatting.md)
-- [Paragraph Formatting](../ms-word/docs/paragraph-formatting.md)
-- [Page Formatting](../ms-word/docs/page-formatting.md)
-- [Text Editing in Documents](../ms-word/docs/stylish.md)
-- [Word Practical Topics](../ms-word/docs/word-practical.md) \| [PDF](../ms-word/docs/word-practical.pdf)
-
-## Microsoft Powerpoint
-  - [Microsoft Powerpoint Basics](../ms-powerpoint/docs/basics.md)
-  - [Powerpoint Practical Topics](../ms-powerpoint/docs/powerpoint-practical.md)
-
-## Assignments
-
-- [Create a dynamic and engaging Microsoft PowerPoint presentation explaining a key concept in ICT](assignments/assign1.md)
-- [LinkedIn Assignment: Building Your Professional Network](../social-media/assignments/linkedin-assign1.md)
-- [Microsoft Word Assignment: Building a Professional Resume](../ms-word/assignments/ms-word-assign1.md)
-- [Microsoft Excel: Assignments](../ms-excel/)
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1602443888929206"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-1602443888929206"
-     data-ad-slot="7879511511"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+1. *Starting Out with Python*, 4th Edition — Tony Gaddis.
+2. *Starting Out with Programming Logic and Design*, 4th Edition — Tony Gaddis.
+3. *The C Programming Language*, 2nd Edition — Brian W. Kernighan and Dennis M. Ritchie.
+4. *Object-Oriented Programming in C++* — Robert Lafore.
+5. *Introduction to Computation and Programming Using Python: With Application to Understanding Data*, 2nd Edition — John V. Guttag.
+6. *Practice of Computing Using Python*, 3rd Edition — William Punch and Richard Enbody.
+7. *C How to Program*, 7th Edition — Paul Deitel and Harvey Deitel.
+8. *Problem Solving and Program Design in C++*, 7th Edition — Jeri R. Hanly and Elliot B. Koffman.
