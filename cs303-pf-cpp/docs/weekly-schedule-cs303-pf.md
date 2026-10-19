@@ -49,7 +49,7 @@ keywords: CS-303, Programming Fundamentals, C++, weekly teaching schedule, C++ p
 ### Week 9
 
 * **Lecture 1:** Loops in C++: Introduction to the `for` Loop with Syntax and Examples.
-* **Lecture 2:** 
+* **Lecture 2:** Nested Loops and Loop Control (`break` and `continue`)
 ### Week 10
 
 * **Lecture 1:** 
