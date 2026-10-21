@@ -234,7 +234,81 @@ Display **"Registration Allowed"** only if all three requirements are satisfied.
 
 ---
 
-### Problem Statement 9: Day Type Checker Using `switch`
+### Problem Statement 9: Driving Eligibility (`&&` — AND)
+
+**Problem Statement**
+
+Write a C++ program to determine whether a person is eligible to drive. A person must be at least 18 years old and have a valid driving licence.
+
+### Requirements
+1. Input the person's age and whether they have a valid driving licence.
+2. Use the logical AND operator (`&&`) in an `if-else` statement.
+3. Display `Allowed to drive` if both conditions are true; otherwise, display `Not allowed to drive`.
+4. Test the program with different ages and licence statuses.
+
+---
+
+### Problem Statement 10: Examination Hall Entry (`||` — OR)
+
+**Problem Statement**
+
+Write a C++ program to determine whether a student is allowed to enter an examination hall. A student may enter if they have a valid admit card or special permission from the examination authorities.
+
+### Requirements
+1. Input whether the student has a valid admit card and whether they have special permission.
+2. Use the logical OR operator (`||`) in an `if-else` statement.
+3. Display `Entry allowed` if at least one condition is true; otherwise, display `Entry denied`.
+4. Test all four combinations of admit card and special permission statuses.
+
+---
+
+### Problem Statement 11: Free Delivery (`&&` — AND)
+
+**Problem Statement**
+
+Write a C++ program to determine whether a customer qualifies for free delivery. Free delivery is available only when the order amount is Rs. 3,000 or more and the customer's address is within the delivery area.
+
+### Requirements
+1. Input the order amount and whether the customer's address is within the delivery area.
+2. Use the logical AND operator (`&&`) in an `if-else` statement.
+3. Display `Free delivery` if both conditions are true; otherwise, display `Delivery charges apply`.
+4. Test the program with order amounts below, equal to, and above Rs. 3,000, using both delivery-area statuses.
+
+---
+
+### Problem Statement 12: Library Account Status (`!` — NOT)
+
+**Problem Statement**
+
+Write a C++ program to determine whether a student's library account is active or blocked. Use a Boolean variable named `isBlocked` to indicate whether the student's account has been blocked.
+
+### Requirements
+1. Declare a Boolean variable named `isBlocked`.
+2. Assign `true` if the account is blocked and `false` if the account is not blocked.
+3. Use the logical NOT operator (`!`) in an `if-else` statement to check the account status.
+4. Display `Account active` if the account is not blocked; otherwise, display `Account blocked`.
+5. Test the program with both `true` and `false` values.
+
+---
+
+### Problem Statement 13: University Admission Eligibility (`&&` and `||` — Mixed Operators)
+
+**Problem Statement**
+
+Write a C++ program to determine whether a student is eligible for university admission. The student must score at least 60 marks and must have either a valid entry test result or an approved entry test exemption.
+
+### Requirements
+1. Input the student's marks, whether their entry test result is valid, and whether an exemption has been approved.
+2. Use the logical AND (`&&`) and OR (`||`) operators together in an `if-else` statement.
+3. Display `Eligible for admission` if the student scores at least 60 marks and either has a valid entry test result or an approved exemption.
+4. Otherwise, display `Not eligible`.
+5. Test at least four combinations, including:
+   - Marks below 60 with a valid entry test result.
+   - Marks of 60 or above with a valid entry test result.
+   - Marks of 60 or above with an approved exemption but no valid entry test result.
+   - Marks of 60 or above with neither a valid entry test result nor an approved exemption.
+
+### Problem Statement 14: Day Type Checker Using `switch`
 
 Write a C++ program that asks the user to enter a day number from 1 to 7. Use a `switch` statement to determine whether the entered day is a Weekday or a Weekend.
 
@@ -265,7 +339,7 @@ Invalid day number
 
 ---
 
-### Problem Statement 10: Simple Calculator Using `switch`
+### Problem Statement 15: Simple Calculator Using `switch`
 
 Write a C++ program that asks the user to enter two numbers of type `double` and an arithmetic operator (`+`, `-`, `*`, `/`, or `%`). Use a `switch` statement to perform the selected arithmetic operation and display the result.
 
@@ -327,7 +401,7 @@ Invalid operator
 
 ---
 
-### Problem Statement 11: Vowel Checker Using `switch`
+### Problem Statement 16: Vowel Checker Using `switch`
 
 Write a C++ program that asks the user to enter a single character. Use a `switch` statement to check whether the entered character is a vowel (`a`, `e`, `i`, `o`, or `u`). The program should recognize both lowercase and uppercase vowels.
 
@@ -367,7 +441,7 @@ Not a vowel
 
 ---
 
-### Problem Statement 12: Student Management System Using `switch`
+### Problem Statement 17: Student Management System Using `switch`
 
 Write a C++ program to display a menu for a simple Student Management System. Ask the user to enter a choice from the menu and use a `switch` statement to perform the corresponding action.
 
@@ -424,7 +498,7 @@ Invalid choice.
 
 ---
 
-### Problem Statement 13: Grade Evaluation Using `switch`
+### Problem Statement 18: Grade Evaluation Using `switch`
 
 Write a C++ program that asks the user to enter a letter grade (`A`, `B`, `C`, `D`, or `F`). Use a `switch` statement to display the corresponding performance message.
 
@@ -462,7 +536,7 @@ Invalid grade
 ```
 ---
 
-### Problem Statement 14: Number of Days in a Month Using `switch`
+### Problem Statement 19: Number of Days in a Month Using `switch`
 
 Write a C++ program that asks the user to enter a month number (1–12). Use a `switch` statement to display the number of days in the corresponding month.
 
@@ -507,7 +581,7 @@ Invalid month number
 
 ---
 
-### Problem Statement 15: ATM Menu System Using `switch`
+### Problem Statement 20: ATM Menu System Using `switch`
 
 **Difficulty Level:** Advanced
 
