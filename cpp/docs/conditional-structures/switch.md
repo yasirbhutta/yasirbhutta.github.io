@@ -459,7 +459,7 @@ Remember: `switch` is suitable for selecting a menu option or matching a grade. 
 
 ## 4. Practice Coding Exercises
 
-Solve [Coding Exercises 9–14](https://www.yasirbhutta.com/cs303-pf-cpp/cpp/coding-exercises-cpp) in the Conditional Structures category. Write, run, and test each C++ program to verify the output.
+Solve [Coding Exercises 9–14](https://www.yasirbhutta.com/cs303-pf-cpp/cpp/coding-exercises-cpp) in the `Conditional Structures` category. Write, run, and test each C++ program to verify the output.
 
 
 ## 5. Common Mistakes to Avoid
