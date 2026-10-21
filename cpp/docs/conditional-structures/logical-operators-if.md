@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Logical Operators in `if` Statements"
-description: "Learn how to combine conditions in C++ if statements using the logical AND (&&), OR (||), and NOT (!) operators, with beginner-friendly examples and practical programs."
-keywords: C++ logical operators, logical AND operator in C++, logical OR operator in C++, logical NOT operator in C++, && operator in C++, || operator in C++, ! operator in C++, combining conditions in C++, logical operators in if statements, C++ conditional expressions, C++ decision making, C++ tutorial for beginners
+description: "Learn how to use C++ conditional statements like if, if-else, else-if, and nested if with clear examples, syntax, and real-world decision-making logic."
+keywords: C++ if statement, C++ if else statement, else if in C++, nested if in C++, C++ conditional statements, C++ comparison operators, C++ decision making, C++ tutorial, learn C++ conditions, C++ beginner programming
 ---
 
 ## 1. Learning Objectives
@@ -30,7 +30,7 @@ OR
 
 At least one condition must be true.
 
-Example: marks >= 90 || attendance == 100
+**Example:** marks >= 90 || attendance == 100
 
 # !
 
@@ -38,7 +38,7 @@ NOT
 
 Reverses a condition from true to false or false to true.
 
-Example: !(marks >= 50)
+**Example:** !(marks >= 50)
 
 ## Example 1: Student Pass or Fail Using AND (`&&`)
 
@@ -57,7 +57,7 @@ Both conditions must be true for the student to pass.
 
 ### Step 2 — Write the code
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -103,41 +103,13 @@ TRUE && TRUE
 
 TRUE
 
-Output
+**Output**
 
 Pass
 
 ### Step 5 — Modify the code
 
 Change only the variable values and predict the output.
-
-### Experiment with marks and attendance
-
-Marks
-
-## 65
-
-0
-
-50
-
-100
-
-Attendance (%)
-
-## 80%
-
-0%
-
-75%
-
-100%
-
-Condition: marks >= 50 && attendance >= 75
-
-Output: Pass
-
-Marks condition: True; Attendance condition: True.
 
 Your task: Set marks to `70` and attendance to `60`. Explain why the output is `Fail`.
 
@@ -154,7 +126,7 @@ Both conditions must be satisfied:
 
 ### Step 2 — Write the code
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -209,7 +181,7 @@ Only one condition needs to be true.
 
 ### Step 2 — Write the code
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -260,7 +232,7 @@ Problem: Display a message if a student is not registered.
 
 ### Step 1 — Write the code
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -315,74 +287,7 @@ Registration complete
 
 Learning point: The NOT operator reverses the Boolean value.
 
-## 5. Independent Practice Exercises
-
-Write each program yourself. Follow the steps: Understand the problem → Write the code → Trace the conditions → Modify the code → Test the output.
-
-## Exercise 1 — Driving Eligibility
-
-AND · Easy
-
-A person can drive if their age is at least 18 and they have a valid driving licence.
-
-Tasks
-
-1. Declare `age` and `hasLicence`.
-2. Use `&&` in an `if-else` statement.
-3. Display `Allowed to drive` or `Not allowed to drive`.
-4. Test with age 20 and a valid licence, then age 17 and a valid licence.
-
-## Exercise 2 — Exam Admission
-
-OR · Easy
-
-A student can enter an examination hall if they have an admit card OR special permission.
-
-Tasks
-
-1. Declare two Boolean variables: `hasAdmitCard` and `hasPermission`.
-2. Use `||` in an `if-else` statement.
-3. Display `Entry allowed` or `Entry denied`.
-4. Test all four combinations of `true` and `false`.
-
-## Exercise 3 — Free Delivery
-
-AND · Intermediate
-
-An online store offers free delivery when the order amount is at least Rs. 3,000 and the customer lives within the delivery area.
-
-Tasks
-
-1. Input the order amount.
-2. Input whether the customer is in the delivery area.
-3. Use `&&` to check both conditions.
-4. Display `Free delivery` or `Delivery charges apply`.
-
-## Exercise 4 — Library Access
-
-NOT · Intermediate
-
-Display `Account active` if the student's library account is not blocked.
-
-Tasks
-
-1. Declare `bool isBlocked = false;`.
-2. Use `!` inside the `if` statement.
-3. Display `Account active` or `Account blocked`.
-4. Change `isBlocked` to `true` and observe the output.
-
-## Exercise 5 — University Admission
-
-Mixed operators · Challenge
-
-A student qualifies if their marks are at least 60 and they have either a valid entry test result OR an approved exemption.
-
-Tasks
-
-1. Declare variables for marks, entry test status, and exemption status.
-2. Combine `&&` and `||` in one `if` condition.
-3. Display `Eligible for admission` or `Not eligible`.
-4. Test at least four combinations of values.
+## 5. Practice Coding Exercises
 
 
 **Important:** When combining `&&` and `||` in the same condition, use parentheses to make the intended logic clear. For example:
