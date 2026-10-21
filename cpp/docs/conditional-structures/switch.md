@@ -7,20 +7,24 @@ keywords: "C++ switch statement, switch case in C++, C++ decision making, C++ co
 
 ## 1. What is a `switch` Statement?
 
-The `switch` statement is a decision-making statement in C++ that allows a program to select one option from multiple choices.
+The `switch` statement is a decision-making (Control flow) statement in C++ that used to execute different blocks of code based on the value of a single variable or expression. 
 
-Real-life example: A university student selects an option from a menu:
+It serves as a cleaner, more readable alternative to a long chain of `if-else` statements when comparing a single variable against multiple discrete constant values.
 
+Real-life example: A university student selects an option from a `menu`:
+
+```
 1. View Student Profile
 2. View Semester Result
 3. Check Fee Status
 4. Exit
+```
 
 Instead of writing many `if-else-if` conditions, we can use a `switch` statement.
 
 ## 2. Basic Syntax
 
-```
+```cpp
 switch (expression)
 {
     case value1:
@@ -47,7 +51,7 @@ Important keywords
 
 ### Example 1: Day Selection
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -108,7 +112,7 @@ A `switch` statement can select an arithmetic operation.
 
 ### Example 2: Addition, Subtraction, Multiplication and Division
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -189,7 +193,7 @@ When multiple choices should produce the same output, we can group cases togethe
 
 ### Example 3: Weekend or Weekday
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -244,7 +248,7 @@ Menu-driven programs are common in university systems, banking applications and 
 
 ### Example 4: Student Management Menu
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -316,7 +320,8 @@ A `switch` statement can also select a message based on a character grade.
 
 ### Example 5: Grade Notification
 
-```
+```cpp
+
 #include <iostream>
 using namespace std;
 
@@ -378,7 +383,7 @@ You can combine `switch` with `if-else` when a menu option requires additional c
 
 ### Example 6: Fee Payment Status
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -454,50 +459,8 @@ Remember: `switch` is suitable for selecting a menu option or matching a grade. 
 
 ## 4. Practice Coding Exercises
 
-Try solving these exercises without copying the examples.
+Solve [Coding Exercises 9–14](https://www.yasirbhutta.com/cs303-pf-cpp/cpp/coding-exercises-cpp) in the Conditional Structures category. Write, run, and test each C++ program to verify the output.
 
-
-1\. Day of the Week
-
-Easy
-
-Input a number from 1 to 7 and display the corresponding day.
-
-2\. Simple Calculator
-
-Easy
-
-Input two numbers and an operator. Perform the selected operation.
-
-3\. Vowel or Consonant
-
-Medium
-
-Input a character and use switch cases to identify a, e, i, o, or u as vowels. Handle uppercase letters too.
-
-4\. University Menu
-
-Medium
-
-Create a menu with options for Profile, Result, Fee Status, Attendance and Exit.
-
-5\. Grade Notification
-
-Medium
-
-Input a character grade and display a suitable student notification.
-
-6\. Month Days
-
-Advanced
-
-Input a month number and display the number of days. For February, display 28 days and mention that leap years are not considered.
-
-7\. ATM Menu
-
-Advanced
-
-Create a menu for Balance Inquiry, Deposit, Withdrawal and Exit. Use switch to process the user's selection.
 
 ## 5. Common Mistakes to Avoid
 
