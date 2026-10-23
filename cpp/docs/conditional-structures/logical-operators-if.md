@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Logical Operators in `if` Statements"
-description: "Learn how to use C++ conditional statements like if, if-else, else-if, and nested if with clear examples, syntax, and real-world decision-making logic."
-keywords: C++ if statement, C++ if else statement, else if in C++, nested if in C++, C++ conditional statements, C++ comparison operators, C++ decision making, C++ tutorial, learn C++ conditions, C++ beginner programming
+title: "C++ Logical Operators in `if` Statements: &&, ||, and !"
+description: "Learn to combine and reverse conditions in C++ if statements using the logical AND (&&), OR (||), and NOT (!) operators, with examples and practice exercises."
+keywords: C++ logical operators, logical AND operator C++, logical OR operator C++, logical NOT operator C++, && in C++, || in C++, ! in C++, logical operators in if statements, combine conditions in C++, C++ Boolean conditions
 ---
 
 ## 1. Learning Objectives
@@ -16,7 +16,7 @@ After completing this lesson, you will be able to:
 
 ## 2. Quick Revision: Logical Operators
 
-# &&
+### &&
 
 AND
 
@@ -24,7 +24,7 @@ Both conditions must be true.
 
 **Example:** marks >= 50 && attendance >= 75
 
-# ||
+### ||
 
 OR
 
@@ -32,7 +32,7 @@ At least one condition must be true.
 
 **Example:** marks >= 90 || attendance == 100
 
-# !
+### !
 
 NOT
 
