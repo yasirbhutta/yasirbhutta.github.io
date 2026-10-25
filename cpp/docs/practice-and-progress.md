@@ -14,7 +14,8 @@ Practice `data types`, `operators`, `comments`, `constants`, `type casting`
 |---|---|
 | [Output Practice](./basics/practice-and-progress/output-practice.md) | Predict the output of C++ programs. |
 | [Find and Fix Mistakes](./basics/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in C++ code. |
-| [Coding Exercises](./basics/practice-and-progress/coding-exercises.md) | Write programs using conditional statements. |
+| [Coding Exercises](./basics/practice-and-progress/coding-exercises.md) | Write programs using Basics C++. |
+| [Review Questions](./basics/practice-and-progress/review-questions.md) | Review Questions |
 
 ## 2. Input & Output
 
@@ -25,6 +26,7 @@ Practice `cout`, `cin`, `escape sequence` and `manipulators`
 | [Output Practice](./input-output/practice-and-progress/output-practice.md) | Predict the output of C++ programs. |
 | [Find and Fix Mistakes](./input-output/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in C++ code. |
 | [Coding Exercises](./input-output/practice-and-progress/coding-exercises.md) | Write programs using conditional statements. |
+| [Review Questions](./input-output/practice-and-progress/review-questions.md) | Review Questions |
 
 ## 3. Conditional Structures
 
@@ -35,6 +37,7 @@ Practice `if`, `if-else`, `else-if`, nested `if-else`, and `switch` statements.
 | [Output Practice](./conditional-structures/practice-and-progress/output-practice.md) | Predict the output of C++ programs. |
 | [Find and Fix Mistakes](./conditional-structures/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in C++ code. |
 | [Coding Exercises](./conditional-structures/practice-and-progress/coding-exercises.md) | Write programs using conditional statements. |
+| [Review Questions](./conditional-structures/practice-and-progress/review-questions.md) | Review Questions |
 
 ## 4. Loops
 
@@ -45,6 +48,7 @@ Practice `for`, `while`, and `do-while` loops.
 | [Output Practice](./loops/practice-and-progress/output-practice.md) | Predict the output of loop-based programs. |
 | [Find and Fix Mistakes](./loops/practice-and-progress/find-fix-mistakes.md) | Identify and correct errors in loops. |
 | [Coding Exercises](./loops/practice-and-progress/coding-exercises.md) | Solve programming problems using loops. |
+| [Review Questions](./loops/practice-and-progress/review-questions.md) | Review Questions |
 
 ## 5. Functions
 
@@ -55,6 +59,6 @@ Practice function declaration, definition, parameters, arguments, and return val
 | [Output Practice](./functions/practice-and-progress/output-practice.md) | Trace function calls and predict output. |
 | [Find and Fix Mistakes](./functions/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in functions. |
 | [Coding Exercises](./functions/practice-and-progress/coding-exercises.md) | Write programs using functions. |
+| [Review Questions](./functions/practice-and-progress/review-questions.md) | Review Questions |
 
-- Conditional Structures: [Output Practice](./conditional-structures/practice-and-progress/output-practice.md) |\ [Fix the Mistakes](./conditional-structures/practice-and-progress/find-fix-mistakes.md)   [Coding Exercises](./conditional-structures/practice-and-progress/coding-exercises.md)
 
