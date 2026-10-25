@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "C++ Conditional Structures: Fix the Mistake"
+title: "C++ Conditional Structures: Fix the Mistakes"
 description: "Practice identifying and correcting common C++ beginner mistakes in syntax, variables, operators, and output with simple debugging exercises."
 keywords: C++ debugging exercises, fix C++ mistakes, common C++ errors, beginner C++ practice, C++ syntax errors, variable mistakes in C++, output mistakes in C++, C++ programming exercises, learning C++ by debugging, C++ basics practice
 ---
@@ -56,7 +56,7 @@ if x > 5
 
 ---
 
-## Question 1:
+## Question 3:
 
 **Task:** Find and fix the mistake in the following program.
 
@@ -74,8 +74,9 @@ else (marks < 50)
     cout << "Fail";
 }
 ```
+---
 
-## Question 1:
+## Question 4:
 
 **Task:** The program should print Eligible for people aged 18 or older.
 
@@ -97,7 +98,7 @@ cout << "Eligible";
 
 ---
 
-## Question 1:
+## Question 5:
 
 **Task:** The program should print Pass when marks are 50 or above. Identify the mistake.
 
@@ -119,7 +120,7 @@ else
 
 ---
 
-## Question 1:
+## Question 6:
 
 **Task:**  The program should print the greater number. What is the mistake?
 
@@ -141,7 +142,7 @@ else
 
 ---
 
-## Question 1:
+## Question 7:
 
 **Task:** The program should print `Even` for an even number. What is the mistake?
 

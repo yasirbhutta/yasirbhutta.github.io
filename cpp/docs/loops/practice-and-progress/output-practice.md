@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "C++ Looping Structures: Output Practice Questions"
+title: "C++ Loops: Output Practice Questions"
 description: "Practice C++ output basics with beginner-friendly questions on cout, variables, arithmetic expressions, and predicting console output in simple programs."
 keywords: C++ output basics, cout in C++, C++ console output, predicting output in C++, print variable values in C++, arithmetic output in C++, beginner C++ exercises, C++ programming practice, output practice questions, C++ tutorial for beginners
 ---
@@ -15,23 +15,17 @@ keywords: C++ output basics, cout in C++, C++ console output, predicting output 
 6. Modify the code and predict the new output.
 
 ---
-# Section 1: Basic Output
 
-## Question 1: Displaying Text
 
-**Task:** Predict the output of the following program.
+## Question 1: 
+
+**Task:** Predict the output.
 
 ### Code
 
 ```cpp
-#include <iostream>
-using namespace std;
+int x = 10;
 
-int main()
-{
-    cout << "Hello World";
-
-    return 0;
-}
+if (x > 5)
+    cout << "Yes";
 ```
-
