@@ -32,7 +32,7 @@ A `while` loop works in a similar way:
 
 ## 3. Syntax of the `while` Loop
 
-```
+```cpp
 while (condition)
 {
     // Statements to repeat
@@ -41,7 +41,7 @@ while (condition)
 
 Example:
 
-```
+```cpp
 int i = 1;
 
 while (i <= 5)
@@ -87,7 +87,7 @@ When `i` becomes 6, the condition is false, so the loop ends.
 
 ## 5. Example 1: Print a Message Five Times
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -115,7 +115,7 @@ Modify the code:
 
 ## 6. Example 2: Print Numbers from 1 to 10
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -141,7 +141,7 @@ Output:
 
 Understand the code: The counter begins at 1. Each repetition prints the current number and increases it by 1. The loop stops when the counter reaches 11.
 
-Modify the code:
+**Modify the code:**
 
 - Print numbers from 1 to 20.
 - Print numbers from 5 to 15.
@@ -149,7 +149,7 @@ Modify the code:
 
 ## 7. Example 3: Print Even Numbers from 2 to 20
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -175,7 +175,7 @@ Output:
 
 Understand the code: The counter starts at 2 and increases by 2 after each repetition. Therefore, only even numbers are displayed.
 
-Modify the code:
+**Modify the code:**
 
 - Print odd numbers from 1 to 19.
 - Print even numbers from 10 to 30.
@@ -183,7 +183,7 @@ Modify the code:
 
 ## 8. Example 4: Countdown from 10 to 1
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -214,13 +214,13 @@ Understand the code:
 - `i--` decreases the counter by 1.
 - The loop stops when `i` becomes 0.
 
-Modify the code: Change the countdown to start from 20 and stop at 1.
+**Modify the code:** Change the countdown to start from 20 and stop at 1.
 
 ## 9. Example 5: Sum of Numbers from 1 to 5
 
 A loop can do more than display numbers. It can also calculate their sum.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -264,7 +264,7 @@ Sum = 15
 | 4   | 6 + 4       | 10        |
 | 5   | 10 + 5      | 15        |
 
-Modify the code:
+**Modify the code:**
 
 - Calculate the sum from 1 to 10.
 - Calculate the sum from 1 to 100.
@@ -274,7 +274,7 @@ Modify the code:
 
 Suppose the user enters a number, and the program displays all numbers from 1 up to that number.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -305,7 +305,7 @@ Enter a number: 5
 
 Understand the code: The value of `n` comes from the user. If the user enters 5, the loop displays numbers from 1 to 5. If the user enters 8, it displays numbers from 1 to 8.
 
-Modify the code: Display numbers from `n` down to 1.
+**Modify the code:** Display numbers from `n` down to 1.
 
 ## 11. Common Mistakes in a `while` Loop
 
@@ -313,7 +313,7 @@ Modify the code: Display numbers from `n` down to 1.
 
 Incorrect:
 
-```
+```cpp
 int i = 1;
 
 while (i <= 5)
@@ -326,7 +326,7 @@ Problem: The value of `i` never changes. The condition remains true, so the loop
 
 Correct:
 
-```
+```cpp
 int i = 1;
 
 while (i <= 5)
@@ -338,7 +338,7 @@ while (i <= 5)
 
 ### Mistake 2: Using the wrong condition
 
-```
+```cpp
 int i = 1;
 
 while (i >= 5)
@@ -354,7 +354,7 @@ Problem: The condition is false from the beginning because 1 is not greater than
 
 Incorrect:
 
-```
+```cpp
 while (i <= 5);
 {
     cout << i;
@@ -366,7 +366,7 @@ Problem: The semicolon creates an empty loop. It may cause an infinite loop if t
 
 Correct:
 
-```
+```cpp
 while (i <= 5)
 {
     cout << i;
@@ -374,71 +374,9 @@ while (i <= 5)
 }
 ```
 
-## 12. Classroom Practice
+## 4. Practice Coding Exercises
 
-Student checklist
-
-0 of 6
-
-1\. Repeat a message
-
-Write a program to display your name five times.
-
-2\. Print a sequence
-
-Display numbers from 1 to 50.
-
-3\. Print odd numbers
-
-Display odd numbers from 1 to 25.
-
-4\. Countdown
-
-Display numbers from 50 down to 1.
-
-5\. Calculate a sum
-
-Calculate the sum of numbers from 1 to 20.
-
-6\. User input
-
-Ask the user for a number and display its multiplication table from 1 to 10.
-
-## 13. Quick Revision Quiz
-
-Try to answer before checking the solutions.
-
-1\. What happens when a \`while\` condition is false at the beginning?
-
-The loop executes once
-
-The loop body does not execute
-
-The program always crashes
-
-
-
-2\. What does \`i++\` do?
-
-Adds 2 to i
-
-Subtracts 1 from i
-
-Adds 1 to i
-
-
-
-3\. Which statement is important to prevent an unintended infinite loop?
-
-Update the counter when needed
-
-Use \`cout\` twice
-
-Always start at zero
-
-
-
-Check Answers
+Solve [Coding Exercises 1–5](./practice-and-progress/coding-exercises.md) in the `while loop` section. Write, run, and test each C++ program to verify the output.
 
 ## 14. Summary
 

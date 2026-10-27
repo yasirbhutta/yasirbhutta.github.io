@@ -36,7 +36,7 @@ Suppose we want to display a message five times.
 
 Without a loop:
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -74,7 +74,7 @@ We can solve this problem using a loop.
 
 We will use a `while` loop to display the same message five times.
 
-```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -112,7 +112,7 @@ Let's understand the program in simple language.
 
 ### Step 1: Create a variable
 
-```
+```cpp
 int i = 1;
 ```
 
@@ -124,7 +124,7 @@ Think of `i` as a counter that keeps track of how many times we have repeated th
 
 ### Step 2: Check the condition
 
-```
+```cpp
 while (i <= 5)
 ```
 
@@ -135,7 +135,7 @@ The condition checks whether `i` is less than or equal to 5.
 
 ### Step 3: Execute the instruction
 
-```
+```cpp
 cout << "Welcome to Ghazi University!" << endl;
 ```
 
@@ -143,7 +143,7 @@ This statement displays the message.
 
 ### Step 4: Update the counter
 
-```
+```cpp
 i++;
 ```
 
@@ -151,13 +151,13 @@ This increases `i` by 1.
 
 For example:
 
-```
+```cpp
 i++;
 ```
 
 is equivalent to:
 
-```
+```cpp
 i = i + 1;
 ```
 
@@ -176,7 +176,7 @@ A trace table helps us understand how a program executes step by step.
 | 5         | 5            | True               | Display message |
 | End check | 6            | False              | Stop the loop   |
 
-Notice that the loop checks the condition again after each update. When `i` becomes 6, the condition is false, so the program exits the loop.
+Notice that the loop checks the condition again after each update. When `i` becomes **6**, the condition is `false`, so the program exits the loop.
 
 ## 6. Understand Loops Through a Simple Analogy
 
@@ -184,158 +184,26 @@ Imagine placing five books on a table, one by one.
 
 [Closed book on desk by blackboard](https://images.openai.com/static-rsc-4/Q1rE4qNHPpftN5H5wcbPVpihHSqJWjQk-bovs4qoHd-5eVp8-hvpYoQLpYsDn1SzQVQJUELZBa5jMjSbIiOjJHYKGdCVutVn8fxMqaPy4u4TDyf5_mJhd7dHL8pOi3MN9JevPJAXtcol-nWcT_EtpnJxD1fcj_HQMHnabqobpuzFn8JX0jOsoBvwFHSdlMDa?purpose=inline)
 
-1\. Initialization
+1. Initialization
 
 Start counting from book number 1.
 
 [Books on the desk](https://images.openai.com/static-rsc-4/wMKk2MGC1Dwam05YJj6UtGluCMpAadNSDSIIPakgvGSXgKuBqkhhVVxHXHwqhfJhRxLEhehhpxpAShWYNZJk31MP4mVUNEQac5bHMcFmarauG8DnE5S1X9Pr3IB9MWR6HRHZ-plRj5CxbM1JbB5a9Km1qJC_ozL5TK3a_KqB9Hk1gEJNp0AC04Uu-gOIAEi_?purpose=inline)
 
-2\. Condition
+2. Condition
 
 Ask: Have we placed five books or fewer?
 
 [a diligent boy sits at a Desk and puts books on stacks.](https://images.openai.com/static-rsc-4/2avBCyQGROrskvRD89P8dbo_YqyWPADCaGuiOlWeudu1ZsLDSnY2Msbuz91tNnn1zvfbrsDJKViChlIFtzkgl9OZjxbbUDQXPK7-PHQXNBwwG2S0r6ebyH5fOEguhV-aghBMyNwVRjKNMHIq2UEg8GTWnaTW05VQvMec5DmzcIgW0Ff_CCV0scCaTVvM9Ia2?purpose=inline)
 
-3\. Repetition and update
+3. Repetition and update
 
 Place another book and increase the count.
 
 [Business Research Methods – Online Course – FutureLearn](https://images.openai.com/static-rsc-4/TJwS5_Pnf5B00BC59WsOk34BkamjBkJayxvkg8hDbs_eosoHCK72KmDCV11jZvUcrFNR0QvD2pNPZpex8NKCR88bDsd_eWSbDyeiv6Ddg-PmD7VNUSbLurp87NJdkb1WqNd9fGYwwGCEY9gE7H3RCEa5YuxL9y3VJOe7UeqGtGw?purpose=inline)
 
-4\. Stop
+4. Stop
 
 Stop when five books have been placed.
 
 The same idea applies to programming: check, execute, update, and repeat until the condition becomes false.
-
-## 7. Modify the Code
-
-Start with the following program.
-
-```
-
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int i = 1;
-
-    while (i <= 5)
-    {
-        cout << "Hello Students!" << endl;
-        i++;
-    }
-
-    return 0;
-}
-
-```
-
-Complete these activities in order.
-
-Modification checklist
-
-0 of 5
-
-Change the repetition count
-
-Change i <= 5 to i <= 3. How many times will the message appear?
-
-Change the message
-
-Replace Hello Students! with Welcome to the Programming Lab!
-
-Change the starting value
-
-Change int i = 1 to int i = 2. Keep the condition i <= 5. How many times will the message appear?
-
-Change the update
-
-Replace i++ with i = i + 2. Keep the starting value 1 and condition i <= 5. Predict the number of messages.
-
-Display a counter
-
-Replace the message with cout << i << endl;. Predict the output before running the program.
-
-## 8. Practice Coding Exercises
-
-Students should attempt these exercises independently.
-
-Exercise 1 — Easy
-
-Display a message
-
-Write a C++ program that displays `I am learning C++` five times using a `while` loop.
-
-Exercise 2 — Easy
-
-Print numbers
-
-Write a program to display numbers from 1 to 10.
-
-Exercise 3 — Easy
-
-Countdown
-
-Write a program to display numbers from 10 down to 1.
-
-Exercise 4 — Intermediate
-
-Even numbers
-
-Write a program to display even numbers from 2 to 20.
-
-Exercise 5 — Intermediate
-
-User-controlled repetition
-
-Ask the user to enter a number `N`. Display `Welcome!` exactly `N` times.
-
-## 9. Common Mistakes
-
-- Forgetting the update: The loop may never stop.
-- Using the wrong condition: The program may repeat too many or too few times.
-- Incorrect initialization: Starting from 0 instead of 1 can change the number of repetitions.
-- Confusing `i++` with `i = i + 2`: The first increases the value by 1; the second increases it by 2.
-- Forgetting braces: Use braces to clearly group multiple statements in the loop body.
-
-## 10. Quick Revision Questions
-
-1. What is a loop in C++?
-2. Why do we use loops instead of writing the same statement repeatedly?
-3. What is the purpose of the variable `i`?
-4. What does the condition `i <= 5` mean?
-5. What is the purpose of `i++`?
-6. What is an infinite loop?
-7. How many times will the following loop execute?
-
-```
-int i = 1;
-
-while (i <= 4)
-{
-    cout << i << endl;
-    i++;
-}
-```
-
-Expected output:
-
-```
-1
-2
-3
-4
-```
-
-## Lesson Summary
-
-Students should remember these four concepts:
-
-- Initialization: Where repetition starts.
-- Condition: Determines whether the loop continues.
-- Loop body: The statements that repeat.
-- Update: Changes the variable to move the loop toward termination.
-
-The next lesson should cover the `while` loop in detail, including user input, number sequences, sums, trace tables, and exercises.

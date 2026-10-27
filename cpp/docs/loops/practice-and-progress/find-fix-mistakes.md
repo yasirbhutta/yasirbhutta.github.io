@@ -20,7 +20,7 @@ For each question:
 **Important:** Try to find the mistake yourself before checking the solution.
 
 
-# Section 1: `if` Statement
+# Section 1: `while` Loop
 
 ## Question 1: Missing Semicolon
 
@@ -29,136 +29,361 @@ For each question:
 ### Incorrect Code
 
 ```cpp
-int x = 10;
+int i = 1
 
-if (x > 5);
+while (i <= 5)
 {
-    cout << "Greater";
+    cout << i << endl;
+    i++;
 }
 ```
 
----
+## Question 2: Incorrect Condition
 
-## Question 2:
-
-**Task:** Find and fix the mistake in the following program.
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 5.
 
 ### Incorrect Code
 
 ```cpp
-int x = 10;
+int i = 1;
 
-if x > 5
+while (i >= 5)
 {
-    cout << "Greater";
+    cout << i << endl;
+    i++;
 }
 ```
 
----
+## Question 3: Missing Update Statement
 
-## Question 3:
-
-**Task:** Find and fix the mistake in the following program.
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 5 and terminates.
 
 ### Incorrect Code
 
 ```cpp
-int marks = 60;
+int i = 1;
 
-if (marks >= 50)
+while (i <= 5)
 {
-    cout << "Pass";
-}
-else (marks < 50)
-{
-    cout << "Fail";
+    cout << i << endl;
 }
 ```
----
 
-## Question 4:
+## Question 4: Incorrect Initialization
 
-**Task:** The program should print Eligible for people aged 18 or older.
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 10.
 
 ### Incorrect Code
 
 ```cpp
-int age = 16;
+int i = 0;
 
-if (age >= 18)
+while (i <= 10)
 {
-    cout << "Eligible";
+    cout << i << endl;
+    i++;
+}
+```
+
+## Question 5: Incorrect Increment
+
+**Task:** Find and fix the mistake so the program displays even numbers from 2 to 10.
+
+### Incorrect Code
+
+```cpp
+int i = 2;
+
+while (i <= 10)
+{
+    cout << i << endl;
+    i = i + 1;
+}
+```
+
+## Question 6: Incorrect Decrement
+
+**Task:** Find and fix the mistake so the program displays numbers from 10 down to 1.
+
+### Incorrect Code
+
+```cpp
+int i = 10;
+
+while (i >= 1)
+{
+    cout << i << endl;
+    i++;
+}
+```
+
+## Question 7: Incorrect Comparison Operator
+
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 5.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+
+while (i < 5)
+{
+    cout << i << endl;
+    i++;
+}
+```
+
+## Question 8: Incorrect Loop Variable
+
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 5.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+
+while (i <= 5)
+{
+    cout << i << endl;
+    j++;
+}
+```
+
+## Question 9: Incorrect Sum Calculation
+
+**Task:** Find and fix the mistake so the program calculates the sum of numbers from 1 to 5. The expected sum is `15`.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+int sum = 0;
+
+while (i <= 5)
+{
+    sum = i;
+    i++;
+}
+
+cout << "Sum = " << sum;
+```
+
+## Question 10: Incorrect Condition for Odd Numbers
+
+**Task:** Find and fix the mistake so the program displays odd numbers from 1 to 9.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+
+while (i <= 9)
+{
+    cout << i << endl;
+    i = i + 2;
+}
+```
+
+## Question 11: Incorrect Input Condition
+
+**Task:** Find and fix the mistake so the program continues asking for a number until the user enters `0`.
+
+### Incorrect Code
+
+```cpp
+int num;
+
+cout << "Enter a number: ";
+cin >> num;
+
+while (num == 0)
+{
+    cout << "Enter a number: ";
+    cin >> num;
+}
+```
+
+## Question 12: Incorrect Counter Update
+
+**Task:** Find and fix the mistake so the program counts from 1 to 10 and displays the correct count.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+int count = 0;
+
+while (i <= 10)
+{
+    count++;
+    i++;
+}
+
+cout << "Count = " << i;
+```
+
+## Question 13: Incorrect Factorial Calculation
+
+**Task:** Find and fix the mistake so the program calculates the factorial of 5. The expected result is `120`.
+
+### Incorrect Code
+
+```cpp
+int n = 5;
+int fact = 0;
+
+while (n >= 1)
+{
+    fact = fact * n;
+    n--;
+}
+
+cout << "Factorial = " << fact;
+```
+
+## Question 14: Incorrect Average Calculation
+
+**Task:** Find and fix the mistake so the program calculates the average of the numbers 10, 20, and 30. The expected average is `20`.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+int sum = 0;
+
+while (i <= 3)
+{
+    sum = sum + i * 10;
+    i++;
+}
+
+double average = sum / 2;
+cout << "Average = " << average;
+```
+
+## Question 15: Incorrect Digit Counting
+
+**Task:** Find and fix the mistake so the program counts the digits in `12345`. The expected result is `5`.
+
+### Incorrect Code
+
+```cpp
+int num = 12345;
+int count = 0;
+
+while (num > 0)
+{
+    num = num / 10;
+    count = 1;
+}
+
+cout << "Digits = " << count;
+```
+
+## Question 16: Incorrect Reverse Number Logic
+
+**Task:** Find and fix the mistake so the program reverses `1234` and displays `4321`.
+
+### Incorrect Code
+
+```cpp
+int num = 1234;
+int reverse = 0;
+
+while (num > 0)
+{
+    int digit = num % 10;
+    reverse = reverse + digit;
+    num = num / 10;
+}
+
+cout << "Reverse = " << reverse;
+```
+
+## Question 17: Incorrect Multiple Condition
+
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 20 that are divisible by both 2 and 3.
+
+### Incorrect Code
+
+```cpp
+int i = 1;
+
+while (i <= 20)
+{
+    if (i % 2 == 0 && i % 3 == 0);
+    {
+        cout << i << endl;
+    }
+
+    i++;
+}
+```
+
+## Question 18: Incorrect Prime Number Check
+
+**Task:** Find and fix the mistake so the program correctly checks whether `7` is a prime number.
+
+### Incorrect Code
+
+```cpp
+int num = 7;
+int i = 2;
+bool isPrime = true;
+
+while (i < num)
+{
+    if (num % i == 0)
+    {
+        isPrime = false;
+    }
+
+    i++;
+}
+
+if (isPrime = true)
+{
+    cout << "Prime";
 }
 else
 {
-    cout << "Not Eligible";
+    cout << "Not Prime";
 }
-cout << "Eligible";
 ```
 
----
+## Question 19: Incorrect Power Calculation
 
-## Question 5:
-
-**Task:** The program should print Pass when marks are 50 or above. Identify the mistake.
-
+**Task:** Find and fix the mistake so the program calculates \\(2^5\\). The expected result is `32`.
 
 ### Incorrect Code
 
 ```cpp
-int marks = 50;
+int base = 2;
+int exponent = 5;
+int result = 0;
+int i = 1;
 
-if (marks > 50)
+while (i <= exponent)
 {
-    cout << "Pass";
+    result = result * base;
+    i++;
 }
-else
-{
-    cout << "Fail";
-}
+
+cout << "Result = " << result;
 ```
 
----
+## Question 20: Incorrect Termination Condition
 
-## Question 6:
-
-**Task:**  The program should print the greater number. What is the mistake?
+**Task:** Find and fix the mistake so the program displays numbers from 1 to 100 in steps of 10 and terminates correctly.
 
 ### Incorrect Code
 
 ```cpp
-int a = 10;
-int b = 20;
+int i = 1;
 
-if (a > b)
+while (i != 100)
 {
-    cout << b;
-}
-else
-{
-    cout << a;
+    cout << i << endl;
+    i = i + 10;
 }
 ```
-
----
-
-## Question 7:
-
-**Task:** The program should print `Even` for an even number. What is the mistake?
-
-### Incorrect Code
-
-```cpp
-int n = 7;
-
-if (n % 2 == 1)
-{
-    cout << "Even";
-}
-else
-{
-    cout << "Odd";
-}
-```
-
----
