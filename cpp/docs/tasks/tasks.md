@@ -64,7 +64,7 @@ keywords: CS-303 Programming Fundamentals
 ### Tasks
 
 1. **Learn:** Understand the purpose of the `switch` in C++.
-2. **Practice:** Write and run Examples 1–6 and complete [Coding Exercises 9–14](https://www.yasirbhutta.com/cs303-pf-cpp/cpp/coding-exercises-cpp) in the `Conditional Structure` category.
+2. **Practice:** Write and run Examples 1–6 and complete [Coding Exercises 9–14](../conditional-structures/practice-and-progress/coding-exercises.md) in the `Conditional Structure` category.
 3. **Modify:** Change the code and observe how the output changes.
 4. **Verify Output:** Make sure each program compiles and produces the expected output.
 
@@ -72,6 +72,24 @@ keywords: CS-303 Programming Fundamentals
 
 - **Due Date:** 22 October 2026
 - **Checking:** All 6 examples and 7 coding exercises will be checked on your mobile phone or laptop.
+
+**Note:** Complete all tasks before the due date and keep your programs ready for checking.
+
+---
+
+## Topic 4: `while` Loop 
+
+### Tasks
+
+1. **Learn:** Understand the purpose of the `switch` in C++.
+2. **Practice:** Write and run `Examples 1–5`. Then complete the `Output Practice` and `Fix the Mistakes` exercises.
+3. **Modify:** Change the code and observe how the output changes.
+4. **Verify Output:** Make sure each program compiles and produces the expected output.
+
+### Submission and Checking
+
+**Due Date:** 29 October 2026
+**Submission:** Write all examples, output practice questions with answers, and find-the-mistake questions with corrections in your notebook. Also, write and run the programs on your mobile phone or laptop.
 
 **Note:** Complete all tasks before the due date and keep your programs ready for checking.
 

@@ -307,7 +307,107 @@ Understand the code: The value of `n` comes from the user. If the user enters 5,
 
 **Modify the code:** Display numbers from `n` down to 1.
 
-## 11. Common Mistakes in a `while` Loop
+Suggested title: **Types of `while` Loops: Counter-Controlled and Sentinel-Controlled**
+
+Here is the improved version of your student notes, using simple English and clear examples.
+
+## 11 Types of `while` Loops
+
+A `while` loop can be used in different ways depending on how the repetition is controlled. Two common types are **counter-controlled loops** and **sentinel-controlled loops**.
+
+### 1. Counter-Controlled Loop
+
+A **counter-controlled loop** repeats a specific number of times. A counter variable keeps track of the number of repetitions.
+
+**Example: Display numbers from 1 to 5**
+
+**Code**
+
+```cpp
+int i = 1;
+
+while (i <= 5)
+{
+    cout << i << endl;
+    i++;
+}
+```
+
+### How It Works
+
+- **Initialization:** `int i = 1;` sets the starting value of the counter.
+- **Condition:** `i <= 5` allows the loop to continue while `i` is less than or equal to 5.
+- **Update:** `i++` increases the counter by 1 after each repetition.
+- **Termination:** The loop stops when `i` becomes 6 because the condition becomes false.
+
+### Output
+
+```text
+1
+2
+3
+4
+5
+```
+
+**Remember:** A counter-controlled loop is used when the number of repetitions is known in advance.
+
+### 2. Sentinel-Controlled Loop
+
+A **sentinel-controlled loop** repeats until a special value, called a **sentinel value**, is entered or encountered. This value signals the loop to stop.
+
+**Example: Accept numbers until the user enters 0**
+
+**Code**
+
+```cpp
+int num;
+
+cout << "Enter a number (0 to stop): ";
+cin >> num;
+
+while (num != 0)
+{
+    cout << "You entered: " << num << endl;
+
+    cout << "Enter a number (0 to stop): ";
+    cin >> num;
+}
+```
+
+#### How It Works
+
+- **Input:** The user enters a number.
+- **Condition:** `num != 0` checks whether the entered number is not 0.
+- **Repetition:** If the number is not 0, the loop displays it and asks for another number.
+- **Termination:** When the user enters 0, the condition becomes false, and the loop stops.
+
+#### Sample Output
+
+```text
+Enter a number (0 to stop): 10
+You entered: 10
+Enter a number (0 to stop): 25
+You entered: 25
+Enter a number (0 to stop): 7
+You entered: 7
+Enter a number (0 to stop): 0
+```
+
+**Remember:** A sentinel-controlled loop is used when the number of repetitions is not known in advance. The loop continues until the sentinel value is entered.
+
+### 3. Key Differences
+
+| Feature | Counter-Controlled Loop | Sentinel-Controlled Loop |
+|---|---|---|
+| Purpose | Repeats a specific number of times | Repeats until a special value is entered |
+| Control | Counter variable | Sentinel value |
+| Repetitions | Usually known in advance | Not known in advance |
+| Stopping condition | Counter reaches its limit | Sentinel value is entered |
+| Example | Display numbers from 1 to 10 | Accept numbers until 0 is entered |
+
+
+## 12. Common Mistakes in a `while` Loop
 
 ### Mistake 1: Forgetting to update the counter
 
@@ -374,9 +474,10 @@ while (i <= 5)
 }
 ```
 
-## 4. Practice Coding Exercises
 
-Solve [Coding Exercises 1–5](./practice-and-progress/coding-exercises.md) in the `while loop` section. Write, run, and test each C++ program to verify the output.
+## 13. Practice Coding Exercises
+
+Solve [Coding Exercises 1–6](./practice-and-progress/coding-exercises.md) in the `while loop` section. Write, run, and test each C++ program to verify the output.
 
 ## 14. Summary
 

@@ -657,7 +657,321 @@ while (n <= 50)
 cout << count;
 ```
 
-# Section 2: Nested Loops
+# Section 1: `do-while` Loop
+
+<!-- ## Beginner Level -->
+
+**## Question 1:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 2;
+
+do
+{
+    cout << i * i << " ";
+    i++;
+}
+while (i <= 6);
+```
+
+**## Question 2:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+
+do
+{
+    cout << i << " ";
+    i += 2;
+}
+while (i <= 9);
+```
+
+**## Question 3:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 5;
+
+do
+{
+    cout << i << " ";
+    i--;
+}
+while (i >= 1);
+```
+
+**## Question 4:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int sum = 0;
+
+do
+{
+    sum += i;
+    i++;
+}
+while (i <= 4);
+
+cout << sum;
+```
+
+**## Question 5:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 2;
+
+do
+{
+    cout << i * 3 << " ";
+    i += 2;
+}
+while (i <= 10);
+```
+
+**## Question 6:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 10;
+
+do
+{
+    cout << i << " ";
+    i -= 3;
+}
+while (i > 0);
+```
+
+**## Question 7:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+
+do
+{
+    cout << i * i * i << " ";
+    i++;
+}
+while (i <= 4);
+```
+
+**## Question 8:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int count = 0;
+
+do
+{
+    count++;
+    i += 2;
+}
+while (i <= 10);
+
+cout << count;
+```
+
+<!-- ## Intermediate Level -->
+
+**## Question 9:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int sum = 0;
+
+do
+{
+    if (i % 2 == 0)
+    {
+        sum += i;
+    }
+
+    i++;
+}
+while (i <= 6);
+
+cout << sum;
+```
+
+**## Question 10:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 5;
+
+do
+{
+    if (i % 2 == 0)
+    {
+        cout << i << " ";
+    }
+
+    i--;
+}
+while (i >= 1);
+```
+
+**## Question 11:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int x = 2;
+
+do
+{
+    x += i;
+    cout << x << " ";
+    i++;
+}
+while (i <= 4);
+```
+
+**## Question 12:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int sum = 0;
+
+do
+{
+    sum += i;
+    i += 2;
+}
+while (i <= 7);
+
+cout << sum;
+```
+
+**## Question 13:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int n = 10;
+
+do
+{
+    cout << n - i << " ";
+    i += 2;
+}
+while (i <= 5);
+```
+
+**## Question 14:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int n = 246;
+int count = 0;
+
+do
+{
+    count++;
+    n /= 10;
+}
+while (n > 0);
+
+cout << count;
+```
+
+**## Question 15:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int result = 0;
+
+do
+{
+    result = result * 10 + i;
+    i++;
+}
+while (i <= 4);
+
+cout << result;
+```
+
+**## Question 16:**
+
+**Task:** Predict the output.
+
+**### Code**
+
+```cpp
+int i = 1;
+int sum = 0;
+
+do
+{
+    if (i % 3 == 0)
+    {
+        sum += i;
+    }
+
+    i++;
+}
+while (i <= 10);
+
+cout << sum;
+```
+
+# Section 3: Nested Loops
 
 ## Question 1:
 

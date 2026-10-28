@@ -29,7 +29,7 @@ The menu must appear at least once before the program can ask whether the user w
 
 ## 3. Syntax of the `do-while` Loop
 
-```
+```cpp
 do
 {
     // Statements to execute
@@ -48,7 +48,7 @@ The execution order is:
 
 ## 4. Example 1: Display a Message Five Times
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -94,7 +94,7 @@ Welcome to Ghazi University!
 
 ## 5. Example 2: Print Numbers from 1 to 10
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -136,7 +136,7 @@ Hint for descending numbers: start from 10, use `i >= 1`, and decrease the count
 
 This is the most important example for understanding `do-while`.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -181,7 +181,7 @@ Although the condition was false, the message was displayed once because the con
 
 Write a program that asks the user to enter a number and then displays the numbers from 1 up to that number.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -225,7 +225,7 @@ However, if the user enters 0, the program still displays `1` once. Why? Because
 
 ## 8. Example 5: Calculate the Sum of Numbers
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -279,7 +279,7 @@ Sum = 15
 
 A menu-driven program allows a user to select an option. The menu is displayed again until the user chooses to exit.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -336,7 +336,32 @@ int main()
 3. Change the exit option from 3 to 5. Update all relevant conditions.
 4. Add a message for invalid choices.
 
-## 10. Difference Between `while` and `do-while`
+## 10. Example 7: Loop Runs At Least Once (Important Concept)
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 10;
+
+    do {
+        cout << "This will print once\n";
+    } while (i < 5);
+
+    return 0;
+}
+```
+
+**Explanation:**
+
+* Condition is **false**
+* Still, the message prints **once**
+* This is the main difference from `while` loop
+
+---
+
+## 11. Difference Between `while` and `do-while`
 
 | Feature                   | `while` loop                    | `do-while` loop                                  |
 | ------------------------- | ------------------------------- | ------------------------------------------------ |
@@ -349,7 +374,7 @@ Compare these programs.
 
 Using `while`:
 
-```
+```cpp
 int i = 10;
 
 while (i <= 5)
@@ -362,7 +387,7 @@ Output: Nothing.
 
 Using `do-while`:
 
-```
+```cpp
 int i = 10;
 
 do
@@ -378,13 +403,13 @@ Output:
 10
 ```
 
-## 11. Common Mistakes
+## 12. Common Mistakes
 
-Mistake 1: Forgetting the semicolon
+### Mistake 1: Forgetting the semicolon
 
 Incorrect:
 
-```
+```cpp
 do
 {
     cout << "Hello";
@@ -394,7 +419,7 @@ while (i <= 5)
 
 Correct:
 
-```
+```cpp
 do
 {
     cout << "Hello";
@@ -402,66 +427,17 @@ do
 while (i <= 5);
 ```
 
-Mistake 2: Forgetting to update the counter
+### Mistake 2: Forgetting to update the counter
 
 If the condition remains true and the counter never changes, the loop may run indefinitely.
 
-Mistake 3: Expecting zero executions
+### Mistake 3: Expecting zero executions
 
 A `do-while` loop always executes its body at least once, even when its condition is initially false.
 
-## 12. Coding Exercises
+## 13. Practice Coding Exercises
 
-Students should solve these exercises independently.
-
-### Exercise 1 — Basic Practice
-
-1. Display your name five times.
-2. Print numbers from 1 to 20.
-3. Print numbers from 20 down to 1.
-4. Print even numbers from 2 to 50.
-   ### Exercise 2 — Input and Calculations
-5. Ask the user for a number and display its multiplication table.
-6. Calculate the sum of numbers from 1 to `n`.
-7. Ask the user for a number and display all odd numbers from 1 up to that number.
-   ### Exercise 3 — Problem Solving
-8. Create a menu that repeats until the user selects Exit.
-9. Ask the user to enter a positive number. Keep asking while the number is not positive.
-10. Create a simple calculator menu with addition, subtraction, and exit options. Repeat the menu until Exit is selected.
-
-## 13. Quick Revision Quiz
-
-1\. When is the condition checked in a \`do-while\` loop?
-
-Before the body
-
-After the body
-
-Only once at the start
-
-
-
-2\. How many times does a \`do-while\` body execute if the condition is initially false?
-
-Zero times
-
-One time
-
-Five times
-
-
-
-3\. Which symbol must appear after the \`while\` condition in a \`do-while\` loop?
-
-Colon \`:\`
-
-Semicolon \`;\`
-
-Comma \`,\`
-
-
-
-Check Answers
+Solve [Coding Exercises 7–16](./practice-and-progress/coding-exercises.md) in the `do-while loop` section. Write, run, and test each C++ program to verify the output.
 
 ## 14. Lesson Summary
 
