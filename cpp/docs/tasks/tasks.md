@@ -81,7 +81,7 @@ keywords: CS-303 Programming Fundamentals
 
 ### Tasks
 
-1. **Learn:** Understand the purpose of the `switch` in C++.
+1. **Learn:** Understand the purpose of the `while` in C++.
 2. **Practice:** Write and run `Examples 1–5`. Then complete the `Output Practice` and `Fix the Mistakes` exercises.
 3. **Modify:** Change the code and observe how the output changes.
 4. **Verify Output:** Make sure each program compiles and produces the expected output.
