@@ -22,11 +22,11 @@ Enbody
 8. Problem Solving and Program Design in C++, 7th Edition by Jeri R. Hanly & Elliot
 B. Koffman
 
-## Lecture Slides
+## Slides
 
 - [Control Structures](https://docs.google.com/presentation/d/1Twx2nhvja52RydJMDTDxuMuZ7wCEvhceuVNJroVode4/edit?usp=sharing)
 - [Introduction to Loops](https://docs.google.com/presentation/d/1BXLu89sDK2634OhFxgM2ZBnxhpwAFAjoB1Pn2yKzDkg/edit?usp=sharing)
-- [while Loop](https://docs.google.com/presentation/d/1S4NHIRcF_htQcwbys2AEDp9KCH7qZyJ54MFBVORBfIo/edit?usp=sharing)
+- [while Loop](https://docs.google.com/presentation/d/1cC1k0teEwrThl4LzFAoAL--vEWNGso3DxvAnFn_OEn0/edit?usp=sharing)
   
 
 ## Lecture Videos
