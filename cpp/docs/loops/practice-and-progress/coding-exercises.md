@@ -214,7 +214,79 @@ Enter a positive integer: 15
 Odd numbers: 1 3 5 7 9 11 13 15
 ```
 
-## Problem Statement 14: Repeating Menu
+## Problem Statement 14: Sum of Even Numbers
+
+**Task:** Write a C++ program that asks the user to enter a positive integer `n` and calculates the sum of all even numbers from `1` to `n` using a `do-while` loop. Use an `if` statement to check whether each number is even.
+
+**Hint:** Use `if (number % 2 == 0)` to identify even numbers, add them to `sum`, and increment `number` in each iteration.
+
+**Sample Input:**
+```text
+100
+```
+
+**Expected Output:**
+```text
+Enter a positive integer: 100
+Sum of even numbers from 1 to 100 = 2550
+```
+
+---
+
+## Problem Statement 15: Sum of Odd Numbers
+
+**Task:** Write a C++ program that asks the user to enter a positive integer `n` and calculates the sum of all odd numbers from `1` to `n` using a `do-while` loop. Use an `if` statement to check whether each number is odd.
+
+**Hint:** Use `if (number % 2 != 0)` to identify odd numbers, add them to `sum`, and increment `number` in each iteration.
+
+**Sample Input:**
+```text
+100
+```
+
+**Expected Output:**
+```text
+Enter a positive integer: 100
+Sum of odd numbers from 1 to 100 = 2500
+```
+
+---
+
+## Problem Statement 16: Identify Even and Odd Numbers
+
+**Task:** Write a C++ program that asks the user to enter a positive integer `n` and displays every number from `1` to `n` with its status, `Even` or `Odd`, using a `do-while` loop and an `if-else` statement.
+
+**Hint:** Use `if (number % 2 == 0)` to identify even numbers and `else` to identify odd numbers.
+
+**Sample Input:**
+```text
+100
+```
+
+**Expected Output (first 10 and last 5 lines shown):**
+```text
+Enter a positive integer: 100
+
+1 is Odd
+2 is Even
+3 is Odd
+4 is Even
+5 is Odd
+6 is Even
+7 is Odd
+8 is Even
+9 is Odd
+10 is Even
+...
+96 is Even
+97 is Odd
+98 is Even
+99 is Odd
+100 is Even
+```
+*Note: Your program must display all numbers from 1 to 100, not just the numbers shown above.*
+
+## Problem Statement 17: Repeating Menu
 
 **Task:** Write a C++ program that displays the following menu repeatedly using a `do-while` loop until the user selects Exit (option 3).
 
@@ -268,7 +340,7 @@ Enter your choice: 3
 Program terminated.
 ```
 
-## Problem Statement 15: Validate Positive Input
+## Problem Statement 18: Validate Positive Input
 
 **Task:** Write a C++ program that asks the user to enter a positive number. If the number is zero or negative, keep asking until the user enters a positive number.
 
@@ -287,7 +359,11 @@ Enter a positive number: 8
 Valid number entered: 8
 ```
 
-## Problem Statement 16: Simple Calculator Menu
+## Problem Statement 19: Simple Calculator Menu
+
+**Exercise ID:** `LOOP-COD-019`
+
+**Solution:** [View Solution](../../solutions/loops/do-while-solutions.md#loop-cod-019)
 
 **Task:** Write a C++ program that repeatedly displays a calculator menu using a `do-while` loop until the user selects Exit.
 
