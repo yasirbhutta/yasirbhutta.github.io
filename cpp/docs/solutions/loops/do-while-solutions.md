@@ -186,7 +186,7 @@ int main()
 
 Let's understand the important parts of the program.
 
-A. Declare variables
+### A. Declare variables
 
 ```cpp
 int choice;
@@ -198,7 +198,7 @@ float num1, num2;
 - `num2` stores the second number.
 - `float` allows the calculator to work with decimal numbers.
 
-B. The do-while loop
+### B. The do-while loop
 
 ```cpp
 do
@@ -214,7 +214,7 @@ Here, `choice != 3` means the loop continues as long as the user does not select
 
 When the user enters `3`, the condition becomes false, and the loop terminates.
 
-C. Display the menu
+### C. Display the menu
 
 ```cpp
 cout << "\n===== Simple Calculator =====" << endl;
@@ -225,7 +225,7 @@ cout << "3. Exit" << endl;
 
 These statements display the calculator menu each time the loop executes.
 
-D. Get the user's choice
+### D. Get the user's choice
 
 ```cpp
 cout << "Enter your choice: ";
@@ -234,7 +234,7 @@ cin >> choice;
 
 The program asks the user to select an option and stores it in the `choice` variable.
 
-E. Use the switch statement
+### E. Use the switch statement
 
 ```cpp
 switch (choice)
@@ -247,7 +247,7 @@ The `switch` statement checks the selected menu option and executes the matching
 - `case 3`: Displays the closing message.
 - `default`: Handles invalid choices.
 
-F. Perform addition
+### F. Perform addition
 
 ```cpp
 cin >> num1 >> num2;
@@ -256,7 +256,7 @@ cout << "Sum = " << num1 + num2 << endl;
 
 The program takes two numbers and adds them using the `+` operator.
 
-G. Perform subtraction
+### G. Perform subtraction
 
 ```cpp
 cin >> num1 >> num2;
@@ -265,7 +265,7 @@ cout << "Difference = " << num1 - num2 << endl;
 
 The program subtracts the second number from the first using the `-` operator.
 
-H. Understand the break statement
+### H. Understand the break statement
 
 ```
 break;
