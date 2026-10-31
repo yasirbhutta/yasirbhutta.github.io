@@ -21,26 +21,26 @@ The task is to develop a menu-driven calculator using a `do-while` loop.
 
 The program should repeatedly display a menu and allow the user to perform addition or subtraction until the user selects Exit.
 
-Input:
+**Input:**
 
 - User's menu choice (`1`, `2`, or `3`).
 - Two numbers for addition or subtraction.
 
-Processing:
+**Processing:**
 
 - If the choice is `1`, add the two numbers.
 - If the choice is `2`, subtract the second number from the first.
 - If the choice is `3`, terminate the loop.
 - For any other choice, display an error message.
 
-Output:
+**Output:**
 
 - Sum of two numbers.
 - Difference between two numbers.
 - Error message for an invalid choice.
 - `Calculator closed.` when the user exits.
 
-Programming concepts required:
+**Programming concepts required:**
 
 - `do-while` loop
 - `switch` statement
