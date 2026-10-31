@@ -80,6 +80,10 @@ Sum = 210
 
 ## Problem Statement 6: Multiplication Table
 
+**Exercise ID:** `LOOP-COD-006`
+
+**Solution:** [View Solution](../../solutions/loops/while-solutions.md#loop-cod-006)
+
 **Task:** Write a C++ program that asks the user to enter an integer and displays its multiplication table from 1 to 10 using a `while` loop.
 
 **Sample Input:**
@@ -120,7 +124,7 @@ Hamza
 Hamza
 ```
 
-*Note: Replace `Yasir` with your own name.*
+*Note: Replace `Hamza` with your own name.*
 
 ## Problem Statement 8: Print Numbers from 1 to 20
 

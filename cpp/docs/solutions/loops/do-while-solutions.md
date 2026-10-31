@@ -13,7 +13,7 @@ keywords: C++ do-while loop solutions, C++ do-while examples, do-while loop exer
 
 <a id="loop-cod-019"></a>
 
-## LOOP-COD-019: Simple Calculator Menu
+## Solution: LOOP-COD-019 - Simple Calculator Menu
 
 ## 1. Problem Analysis
 
