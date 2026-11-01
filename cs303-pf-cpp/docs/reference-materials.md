@@ -27,6 +27,7 @@ B. Koffman
 - [Control Structures](https://docs.google.com/presentation/d/1Twx2nhvja52RydJMDTDxuMuZ7wCEvhceuVNJroVode4/edit?usp=sharing)
 - [Introduction to Loops](https://docs.google.com/presentation/d/1BXLu89sDK2634OhFxgM2ZBnxhpwAFAjoB1Pn2yKzDkg/edit?usp=sharing)
 - [while Loop](https://docs.google.com/presentation/d/1cC1k0teEwrThl4LzFAoAL--vEWNGso3DxvAnFn_OEn0/edit?usp=sharing)
+- [do while Loop](https://docs.google.com/presentation/d/1H6hu-iwHY7X71JrkNabe2q64YrrzviJ5DM4A6fk7DV4/edit?usp=sharing)
   
 
 ## Lecture Videos
