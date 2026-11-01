@@ -7,6 +7,17 @@ keywords: C++ coding exercises, C++ programming exercises, C++ practice exercise
 
 Practice C++ programming topic by topic. Each topic includes three types of activities to help you understand code, identify mistakes, and develop problem-solving skills.
 
+## Contents
+
+- [Basics of C++](#basics)
+- [Input & Output](#input-output)
+- [Conditional Structures](#conditional-structures)
+- [Loops](#loops)
+  
+---
+
+<a id="basics"></a>
+
 ## 1. Basics of C++
 Practice `data types`, `operators`, `comments`, `constants`, `type casting`
 
@@ -16,6 +27,8 @@ Practice `data types`, `operators`, `comments`, `constants`, `type casting`
 | [Find and Fix Mistakes](./basics/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in C++ code. |
 | [Coding Exercises](./basics/practice-and-progress/coding-exercises.md) | Write programs using Basics C++. |
 | [Review Questions](./basics/practice-and-progress/review-questions.md) | Review Questions |
+
+<a id="input-output"></a>
 
 ## 2. Input & Output
 
@@ -28,6 +41,8 @@ Practice `cout`, `cin`, `escape sequence` and `manipulators`
 | [Coding Exercises](./input-output/practice-and-progress/coding-exercises.md) | Write programs using conditional statements. |
 | [Review Questions](./input-output/practice-and-progress/review-questions.md) | Review Questions |
 
+<a id="conditional-structures"></a>
+
 ## 3. Conditional Structures
 
 Practice `if`, `if-else`, `else-if`, nested `if-else`, and `switch` statements.
@@ -38,6 +53,8 @@ Practice `if`, `if-else`, `else-if`, nested `if-else`, and `switch` statements.
 | [Find and Fix Mistakes](./conditional-structures/practice-and-progress/find-fix-mistakes.md) | Identify and correct mistakes in C++ code. |
 | [Coding Exercises](./conditional-structures/practice-and-progress/coding-exercises.md) | Write programs using conditional statements. |
 | [Review Questions](./conditional-structures/practice-and-progress/review-questions.md) | Review Questions |
+
+<a id="loops"></a>
 
 ## 4. Loops
 
