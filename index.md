@@ -38,10 +38,9 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [CS-301 Applications of Information and Coom. Technology](/cs301-aict/index.md)
 - [CS-301 Introduction to Information and Comm. Technology](cs-301/index.md)
 - [CS-302 Object Oriented Programming 3(3-0)](cs302-java/)
-- [CS-303 Programming Fundamentals 3(3-0)](cs303-pf-cpp/)
+- [CS-303 Programming Fundamentals 3(3-0)](https://www.yasirbhutta.com/cs303-pf-cpp)
 - [CS-304 Object Oriented Programming Lab 1(0-1)](cs304-java/)
 - [Learn Java Programming: Beginner's](java/)
-- [Getting Started with CPP](cpp/index.md)
 - [IT-323 Python Programming 3(2-1)](it-323/index.md)
 - [IT-324 Web Development 3(2-1)](it-324/index.md)
 - [Computer Networks Lab](computer-networks/index.md)
@@ -49,12 +48,12 @@ Tutorials, Roadmaps, Bootcamps & Visualization Projects
 - [Artistic Design and Computer Graphics](artistic-design/index.md)
 - [Matlab for Beginners](/matlab/)
 - [Web Development](/web-dev/)
-- [Getting Started with PostgreSQL](postgresql/)
+- [Getting Started with PostgreSQL](https://www.yasirbhutta.com/postgresql)
 - [CS-304 Object Oriented Programming Lab 1(0-1) - OOP in Python](cs304-python/)
 
 ## SAP
 
-- [SAP for Education and Research](sap-education-research/)
+- [SAP for Education and Research](https://www.yasirbhutta.com/sap)
   
 
 ## Learn Management System (LMS)
