@@ -28,6 +28,7 @@ B. Koffman
 - [Introduction to Loops](https://docs.google.com/presentation/d/1BXLu89sDK2634OhFxgM2ZBnxhpwAFAjoB1Pn2yKzDkg/edit?usp=sharing)
 - [while Loop](https://docs.google.com/presentation/d/1cC1k0teEwrThl4LzFAoAL--vEWNGso3DxvAnFn_OEn0/edit?usp=sharing)
 - [do while Loop](https://docs.google.com/presentation/d/1H6hu-iwHY7X71JrkNabe2q64YrrzviJ5DM4A6fk7DV4/edit?usp=sharing)
+- [for Loop](https://docs.google.com/presentation/d/1ka6NiNtNJzbwq5E9Mz56A6M9wCtoHaKofyB_8TjdVQ8/edit?usp=sharing)
   
 
 ## Lecture Videos
