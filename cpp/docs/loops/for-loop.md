@@ -4,7 +4,6 @@ title: "C++ for Loop Tutorial for Beginners | Loops Explained"
 description: "Learn C++ for loops with beginner-friendly examples, syntax, and practical exercises. Understand counting, repetition, and common loop patterns used in beginner programming."
 keywords: C++ for loop, for loop in C++, C++ loops for beginners, C++ tutorial, C++ programming basics, beginner C++ exercises, loop syntax in C++, counting loops in C++, C++ repetition structure, programming fundamentals
 ---
----
 
 ## 1. Learning Objectives
 
@@ -26,7 +25,7 @@ A `for` loop is especially useful when the repetition follows a clear counting p
 
 ## 3. Syntax of the `for` Loop
 
-```
+```cpp
 for (initialization; condition; update)
 {
     // Statements to repeat
@@ -41,11 +40,11 @@ There are three main parts:
 | Condition      | Determines whether to continue | `i <= 5`    |
 | Update         | Changes the counter            | `i++`       |
 
-Remember the order: Initialize → Check condition → Execute body → Update → Check again.
+**Remember the order:** Initialize → Check condition → Execute body → Update → Check again.
 
 ## 4. Example 1: Print Numbers from 1 to 5
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -60,7 +59,7 @@ int main()
 }
 ```
 
-Output:
+**Output:**
 
 ```
 1
@@ -86,7 +85,7 @@ Output:
 
 ## 5. Example 2: Print Numbers in Descending Order
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -101,7 +100,7 @@ int main()
 }
 ```
 
-Output:
+**Output:**
 
 ```
 10 9 8 7 6 5 4 3 2 1
@@ -121,7 +120,7 @@ Output:
 
 ## 6. Example 3: Print Even Numbers from 2 to 20
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -136,7 +135,7 @@ int main()
 }
 ```
 
-Output:
+**Output:**
 
 ```
 2 4 6 8 10 12 14 16 18 20
@@ -156,7 +155,7 @@ The counter starts at 2 and increases by 2 each time. Therefore, only even numbe
 
 ## 7. Example 4: Calculate the Sum from 1 to 10
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -175,7 +174,7 @@ int main()
 }
 ```
 
-Output:
+**Output:**
 
 ```
 Sum = 55
@@ -207,7 +206,7 @@ For example:
 
 ## 8. Example 5: Multiplication Table
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -259,7 +258,7 @@ Enter a number: 5
 
 ## 9. Example 6: Take User Input and Print a Sequence
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -296,11 +295,11 @@ The user decides how many numbers to print. If the user enters 7, the loop print
 2. Ask the user for a number and print its countdown to 1.
 3. Ask the user for a number and print all even numbers up to that number.
 
-## 10. Example 7: Nested `for` Loops — Star Pattern
+## 10. Example 7: Nested `for` Loops – Printing a Rectangle Pattern
 
 A nested loop is a loop placed inside another loop.
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -329,6 +328,8 @@ Output:
 * * * * *
 ```
 
+**Code Explanation:** [Read the complete solution with algorithm, pseudocode, dry run, and line-by-line explanation →](../solutions/loops/for-code-explanations.md#loop-for-exp-007)
+
 ### Understand the Code
 
 - The outer loop controls the rows. It runs 4 times.
@@ -340,33 +341,14 @@ Output:
 
 Try changing the program to produce these patterns.
 
-Pattern A — Right-angle triangle
-
-```
-*
-* *
-* * *
-* * * *
-* * * * *
-```
-
-Pattern B — Increasing numbers
-
-```
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-```
-
-Pattern C — Rectangle of numbers
+**Pattern A — Rectangle of numbers**
 
 ```
 1 2 3 4
 1 2 3 4
 1 2 3 4
 ```
+
 
 ## 11. Difference Between `while`, `do-while`, and `for`
 
@@ -381,9 +363,9 @@ All three loops can solve many of the same problems. Choose the loop that makes 
 
 ## 12. Common Mistakes
 
-Mistake 1: Using the wrong condition
+**Mistake 1: Using the wrong condition**
 
-```
+```cpp
 for (int i = 1; i >= 5; i++)
 {
     cout << i;
@@ -392,9 +374,9 @@ for (int i = 1; i >= 5; i++)
 
 The condition is false at the beginning, so the body does not execute.
 
-Mistake 2: Forgetting the update
+**Mistake 2: Forgetting the update**
 
-```
+```cpp
 for (int i = 1; i <= 5; )
 {
     cout << i;
@@ -403,9 +385,9 @@ for (int i = 1; i <= 5; )
 
 The counter never changes, so the condition stays true and the loop does not end normally.
 
-Mistake 3: Adding an unnecessary semicolon
+**Mistake 3: Adding an unnecessary semicolon**
 
-```
+```cpp
 for (int i = 1; i <= 5; i++);
 {
     cout << "Hello";
@@ -414,76 +396,12 @@ for (int i = 1; i <= 5; i++);
 
 The semicolon creates an empty loop. The block after it is not the loop body.
 
-## 13. Coding Exercises
+## 13. Practice Coding Exercises
 
-Solve these tasks independently, without copying the examples.
-
-Level 1 — Basic
-
-1. Print your name 10 times.
-2. Print numbers from 1 to 100.
-3. Print numbers from 100 down to 1.
-4. Print all odd numbers from 1 to 49.
-
-Level 2 — Intermediate
-
-5. Calculate the sum of numbers from 1 to `n`, where `n` is entered by the user.
-6. Display the multiplication table of a user-entered number.
-7. Count how many numbers between 1 and 100 are divisible by 5.
-8. Calculate the sum of all even numbers from 2 to 100.
-
-Level 3 — Problem Solving
-
-9. Ask the user for five numbers and calculate their total.
-10. Ask the user for a number and calculate its factorial. For example, \\(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\\).
-11. Print a right-angle triangle of stars with the number of rows entered by the user.
-12. Print a multiplication table for every number from 1 to 5.
-
-## 14. Quick Revision Quiz
-
-1\. Which part of a \`for\` loop changes the counter?
-
-Initialization
-
-Condition
-
-Update
+Solve [Coding Exercises 20–31](./practice-and-progress/coding-exercises.md#for-loop) in the `for loop` section. Write, run, and test each C++ program to verify the output.
 
 
-
-2\. How many times does this loop run: \`for (int i = 1; i <= 5; i++)\`?
-
-4 times
-
-5 times
-
-6 times
-
-
-
-3\. Which loop executes its body at least once?
-
-while
-
-do-while
-
-for
-
-
-
-4\. In a nested loop, which loop controls the rows in our star-pattern example?
-
-Outer loop
-
-Inner loop
-
-Both always control the same thing
-
-
-
-Check Answers
-
-## 15. Lesson Summary
+## 14. Lesson Summary
 
 - A `for` loop is useful for repeating statements, especially when counting.
 - Initialization sets the starting value.

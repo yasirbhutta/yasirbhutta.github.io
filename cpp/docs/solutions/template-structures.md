@@ -61,6 +61,8 @@ The second part identifies what students need to do.
 | `MOD` | Code Modification | Modify existing code     |
 | `PRA` | General Practice  | Solve practice questions |
 | `PRO` | Problem Solving   | Solve real-life problems |
+| `EXP` | Code Explanation  | Examples |
+
 
 For example:
 

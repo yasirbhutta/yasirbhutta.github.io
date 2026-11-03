@@ -437,7 +437,7 @@ A `do-while` loop always executes its body at least once, even when its conditio
 
 ## 13. Practice Coding Exercises
 
-Solve [Coding Exercises 7–16](./practice-and-progress/coding-exercises.md) in the `do-while loop` section. Write, run, and test each C++ program to verify the output.
+Solve [Coding Exercises 7–16](./practice-and-progress/coding-exercises.md#do-while-loop) in the `do-while loop` section. Write, run, and test each C++ program to verify the output.
 
 ## 14. Lesson Summary
 

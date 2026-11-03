@@ -477,7 +477,7 @@ while (i <= 5)
 
 ## 13. Practice Coding Exercises
 
-Solve [Coding Exercises 1–6](./practice-and-progress/coding-exercises.md) in the `while loop` section. Write, run, and test each C++ program to verify the output.
+Solve [Coding Exercises 1–6](./practice-and-progress/coding-exercises.md#while-loop) in the `while loop` section. Write, run, and test each C++ program to verify the output.
 
 ## 14. Summary
 

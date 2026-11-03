@@ -143,6 +143,15 @@ Include:
 - Short code explanation
 - Sample output
 
+Level 1a: code explanation for examples
+- Problem analysis
+- Algorithm
+- pseudocode
+- Dry run table
+- Complete C++ code
+- detailed code explanation line by line
+- Sample output
+
 Level 2: Intermediate Exercises
 
 Detailed explanation
