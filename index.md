@@ -10,7 +10,7 @@ keywords: Learn Python, Python tutorials for beginners, Microsoft Excel tutorial
 Tutorials, Roadmaps, Bootcamps & Visualization Projects
 
 - [Python Tutorial for Beginners](https://www.yasirbhutta.com/python)
-- [45-Day Beginner-Friendly Python Learning Plan](python/lesson-plans/45-days-beginners-friendly-python.md)
+- [45-Day Beginner-Friendly Python Learning Plan](https://www.yasirbhutta.com/python-45-days)
 - [Learn Data Analysis with Python & Pandas – 100-Day Bootcamp for Beginners](python/lesson-plans/learn-python-pandas-100-day-bootcamp.md)
 - [45-Day Roadmap to Python Visualization: Line, Bar, Heatmaps & Interactive Plots](python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.md)
 - [100 Ways to Visualize Data Using Python — Complete Guide](python/lesson-plans/100-data-viz-python.md)
