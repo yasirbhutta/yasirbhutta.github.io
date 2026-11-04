@@ -27,3 +27,11 @@ keywords: C++ loop review questions, C++ loops questions, C++ while loop questio
 1. What is the difference between a `while` loop and a `do-while` loop?
 2. Why does a do-while loop execute at least once?
 3. Can a do-while loop execute when its condition is initially false? Explain with an example.
+
+# Section 2: `for` Loop
+
+1. What are the three parts of a for loop header?
+2. What is the output of for (int i = 1; i <= 3; i++) cout << i << " ";
+3. Why does for (int i = 1; i >= 5; i++) print nothing?
+4. What does a semicolon directly after the loop header do?
+
