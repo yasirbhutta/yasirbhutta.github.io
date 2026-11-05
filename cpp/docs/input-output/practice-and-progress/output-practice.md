@@ -58,3 +58,20 @@ Welcome to C++ Programming
 ```
 
 ---
+
+## Question 5: Displaying Boolean Values
+
+**Task:** Predict the output.
+
+### Code
+
+```cpp
+bool isPassed = true;
+bool isAbsent = false;
+
+cout << isPassed << endl;
+cout << isAbsent << endl;
+
+cout << boolalpha << isPassed << endl;
+cout << isAbsent;
+```

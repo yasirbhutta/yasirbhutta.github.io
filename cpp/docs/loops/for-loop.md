@@ -295,7 +295,74 @@ The user decides how many numbers to print. If the user enters 7, the loop print
 2. Ask the user for a number and print its countdown to 1.
 3. Ask the user for a number and print all even numbers up to that number.
 
-## 10. Example 7: Nested `for` Loops – Printing a Rectangle Pattern
+## 10. Example 7: Multiple variables in a `for` loop
+
+```cpp
+for (int i = 1, j = 10; i <= 5; i++, j--)
+{
+    cout << i << " " << j << endl;
+}
+```
+
+Output:
+
+```
+1 10
+2 9
+3 8
+4 7
+5 6
+```
+
+## 11. Example 8: Leave initialization outside the loop
+
+```cpp
+int i = 1;
+
+for (; i <= 5; i++)
+{
+    cout << i << endl;
+}
+```
+
+## 12. Example 9: Leave update statement inside the loop
+
+```cpp
+for (int i = 1; i <= 5; )
+{
+    cout << i << endl;
+    i++;
+}
+```
+
+## 13. Example 10: Infinite `for` loop
+
+```cpp
+for (;;)
+{
+    cout << "Hello World" << endl;
+}
+```
+
+This loop runs continuously until it is stopped using `break` or another termination mechanism.
+
+## 14. Example 11: `for` loop with conditional statement
+
+```cpp
+for (int i = 1; i <= 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        cout << i << " is Even" << endl;
+    }
+    else
+    {
+        cout << i << " is Odd" << endl;
+    }
+}
+```
+
+## 15. Example 12: Nested `for` Loops – Printing a Rectangle Pattern
 
 A nested loop is a loop placed inside another loop.
 
@@ -350,7 +417,7 @@ Try changing the program to produce these patterns.
 ```
 
 
-## 11. Difference Between `while`, `do-while`, and `for`
+## 16. Difference Between `while`, `do-while`, and `for`
 
 | Feature                   | `while`                         | `do-while`                   | `for`                      |
 | ------------------------- | ------------------------------- | ---------------------------- | -------------------------- |
@@ -361,7 +428,7 @@ Try changing the program to produce these patterns.
 
 All three loops can solve many of the same problems. Choose the loop that makes the program easiest to understand.
 
-## 12. Common Mistakes
+## 17. Common Mistakes
 
 **Mistake 1: Using the wrong condition**
 
@@ -396,12 +463,12 @@ for (int i = 1; i <= 5; i++);
 
 The semicolon creates an empty loop. The block after it is not the loop body.
 
-## 13. Practice Coding Exercises
+## 18. Practice Coding Exercises
 
 Solve [Coding Exercises 20–31](./practice-and-progress/coding-exercises.md#for-loop) in the `for loop` section. Write, run, and test each C++ program to verify the output.
 
 
-## 14. Lesson Summary
+## 19. Lesson Summary
 
 - A `for` loop is useful for repeating statements, especially when counting.
 - Initialization sets the starting value.

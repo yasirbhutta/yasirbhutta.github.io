@@ -161,4 +161,58 @@ else
 }
 ```
 
----
+## Question 8: Incorrect Logical Operator
+
+**Task:** A student passes only if marks are at least 50 and attendance is at least 75.
+
+### Incorrect Code
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int marks = 60;
+    int attendance = 80;
+
+    if (marks >= 50 || attendance >= 75)
+    {
+        cout << "Pass";
+    }
+    else
+    {
+        cout << "Fail";
+    }
+
+    return 0;
+}
+```
+
+## Question 20: Incorrect Comparison Operator
+
+**Task:** The program should check whether two numbers are equal.
+
+### Incorrect Code
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 20;
+    int b = 20;
+
+    if (a = b)
+    {
+        cout << "Numbers are not equal";
+    }
+    else
+    {
+        cout << "Numbers are equal";
+    }
+
+    return 0;
+}
+```
