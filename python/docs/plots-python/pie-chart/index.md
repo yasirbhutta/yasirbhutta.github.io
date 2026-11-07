@@ -4,15 +4,6 @@ title: "Pie Chart in Python — Matplotlib Examples & Best Practices"
 description: Learn how to create clear, publication-ready pie and donut charts in Python using Matplotlib, pandas and Plotly. Includes examples for labeling, percentages, exploded slices, donut charts, CSV input, and best practices for when to (and when not to) use pie charts.
 keywords: pie chart, pie charts, donut chart, Python, Matplotlib, pandas, Plotly, data visualization, autopct, explode, labels, tutorial, example, CSV, charts
 author: Muhammad Yasir Bhutta
-course: python
-topic: plots-python
-show_toc: null
-toc: toc/python.html
-show_practice_progress: null
-show_mini_project: null
-breadcrumb: 
-- title: Python Visualization
-url: /python/lesson-plans/45-day-python-plotting-plan-matplotlib-seaborn-plotly.html
 ---
 
 ## 🥧 What Is a Pie Chart?

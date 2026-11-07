@@ -86,7 +86,7 @@ plt.title('Sales Data Bar Chart')
 plt.show()
 ```
 
-## Bar Chart Example for Beginners in Python
+## Bar Chart Examples
 
 ### Example 1: Sales by Product
 
