@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab: Views and Materialized Views in PostgreSQL
+title: "Lab: Views and Materialized Views in PostgreSQL"
 description: Practical laboratory exercises for creating, retrieving, modifying, refreshing, and deleting Views and Materialized Views in PostgreSQL using the DVD Rental sample database.
 keywords: PostgreSQL lab, Views, Materialized Views, CREATE VIEW, CREATE MATERIALIZED VIEW, REFRESH MATERIALIZED VIEW, DVD Rental database, SQL practical
 ---
