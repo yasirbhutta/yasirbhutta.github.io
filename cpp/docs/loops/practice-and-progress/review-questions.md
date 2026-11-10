@@ -5,7 +5,7 @@ description: "Review C++ loop structures with questions about while loops, loop 
 keywords: C++ loop review questions, C++ loops questions, C++ while loop questions, loop structures in C++, C++ iteration review, loop conditions, loop counters, loop increment, infinite loops in C++, C++ programming practice
 ---
 
-# Section 1: `while` Loop
+## Section 1: `while` Loop
 
 1. What is a loop in C++?
 2. Why do we use loops instead of writing the same statement repeatedly?
@@ -22,13 +22,13 @@ keywords: C++ loop review questions, C++ loops questions, C++ while loop questio
 12. Can a `while` loop execute zero times? Explain with an example.
 13. Identify three common mistakes students make when writing `while` loops and explain how to correct them.
 
-# Section 2: `do-while` Loop
+## Section 2: `do-while` Loop
 
 1. What is the difference between a `while` loop and a `do-while` loop?
 2. Why does a do-while loop execute at least once?
 3. Can a do-while loop execute when its condition is initially false? Explain with an example.
 
-# Section 2: `for` Loop
+## Section 2: `for` Loop
 
 1. What are the three parts of a for loop header?
 2. What is the output of for (int i = 1; i <= 3; i++) cout << i << " ";
