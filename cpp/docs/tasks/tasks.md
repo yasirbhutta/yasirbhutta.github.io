@@ -140,3 +140,33 @@ keywords: CS-303 Programming Fundamentals
 - **Due Date:** 05 November 2026
 - **Submission:** Write all coding exercises, in your notebook. Also, write and run the programs on your mobile phone or laptop.
 - **Note:** Complete all tasks before the due date and keep your programs ready for checking.
+
+## Topic 7: `for` Loop 
+
+### Tasks
+
+1. **Learn:** Understand the purpose of the `for loop` in C++.
+2. **Practice:** Write and run [Coding Exercises 20-28 ](../loops/practice-and-progress/coding-exercises.md#for-loop) in the `for Loop` section.
+3. **Modify:** Change the code and observe how the output changes.
+4. **Verify Output:** Make sure each program compiles and produces the expected output.
+
+### Submission and Checking
+
+- **Due Date:** 05 November 2026
+- **Submission:** Write all coding exercises, in your notebook. Also, write and run the programs on your mobile phone or laptop.
+- **Note:** Complete all tasks before the due date and keep your programs ready for checking.
+
+## Topic 8: `break` and `continue`
+
+### Tasks
+
+1. **Learn:** Understand the purpose of the `break` and `continue` in C++.
+2. **Practice:** Write and run [Coding Exercises 32-33](../loops/practice-and-progress/coding-exercises.md#break-continue) in the `for Loop` section.
+3. **Modify:** Change the code and observe how the output changes.
+4. **Verify Output:** Make sure each program compiles and produces the expected output.
+
+### Submission and Checking
+
+- **Due Date:** 11 November 2026
+- **Submission:** Write all coding exercises, in your notebook. Also, write and run the programs on your mobile phone or laptop.
+- **Note:** Complete all tasks before the due date and keep your programs ready for checking.
