@@ -28,10 +28,78 @@ keywords: C++ loop review questions, C++ loops questions, C++ while loop questio
 2. Why does a do-while loop execute at least once?
 3. Can a do-while loop execute when its condition is initially false? Explain with an example.
 
-## Section 2: `for` Loop
+## Section 3: `for` Loop
 
 1. What are the three parts of a for loop header?
 2. What is the output of for (int i = 1; i <= 3; i++) cout << i << " ";
 3. Why does for (int i = 1; i >= 5; i++) print nothing?
 4. What does a semicolon directly after the loop header do?
 
+## Section 4: `break` and `continue` Loop
+
+1. What is the purpose of the `break` statement?
+2. What is the purpose of the `continue` statement?
+3. What happens when `break` is executed inside a loop?
+4. Does `continue` terminate a loop?
+5. What is the difference between `break` and `continue`?
+6. Can we use `break` and `continue` in a while loop?
+7. What happens when `continue` is used before updating the loop-control variable in a while loop?
+
+**Answer:**
+
+When `continue` is used before updating the loop-control variable in a `while` loop, the update statement may be skipped. As a result, the loop-control variable may never change, causing an infinite loop.
+
+**Example:**
+
+```cpp
+int i = 1;
+
+while (i <= 5)
+{
+    if (i == 3)
+    {
+        continue;
+    }
+
+    cout << i << " ";
+    i++;
+}
+```
+
+**Explanation:**
+
+- The loop prints 1 and 2.
+- When `i` becomes 3, the `continue` statement executes.
+- The remaining statements, including `i++`, are skipped.
+- The value of `i` remains 3.
+- The loop repeatedly checks the same condition and never terminates.
+
+Correct approach:
+
+```cpp
+int i = 1;
+
+while (i <= 5)
+{
+    if (i == 3)
+    {
+        i++;
+        continue;
+    }
+
+    cout << i << " ";
+    i++;
+}
+```
+
+**Output:**
+
+```
+1 2 4 5
+```
+
+**Remember:** Always ensure that the loop-control variable is updated appropriately before `continue` in a `while` loop to avoid an infinite loop.
+
+---
+
+8. How do `break` and `continue` behave in nested loops?

@@ -362,60 +362,6 @@ for (int i = 1; i <= 10; i++)
 }
 ```
 
-## 15. Example 12: Nested `for` Loops – Printing a Rectangle Pattern
-
-A nested loop is a loop placed inside another loop.
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    for (int i = 1; i <= 4; i++)
-    {
-        for (int j = 1; j <= 5; j++)
-        {
-            cout << "* ";
-        }
-
-        cout << endl;
-    }
-
-    return 0;
-}
-```
-
-Output:
-
-```
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-```
-
-**Code Explanation:** [Read the complete solution with algorithm, pseudocode, dry run, and line-by-line explanation →](../solutions/loops/for-code-explanations.md#loop-for-exp-007)
-
-### Understand the Code
-
-- The outer loop controls the rows. It runs 4 times.
-- The inner loop controls the stars in each row. It prints 5 stars.
-- After the inner loop finishes, `cout << endl;` starts a new row.
-- The inner loop completes all five repetitions for every single outer-loop repetition.
-
-### Modify the Code
-
-Try changing the program to produce these patterns.
-
-**Pattern A — Rectangle of numbers**
-
-```
-1 2 3 4
-1 2 3 4
-1 2 3 4
-```
-
 
 ## 16. Difference Between `while`, `do-while`, and `for`
 

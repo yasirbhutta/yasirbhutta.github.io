@@ -10,8 +10,9 @@ keywords: C++ coding exercises, C++ programming exercises, C++ practice exercise
 - [while Loop - Coding Exercises](#while-loop)
 - [do-while Loop - Coding Exercises](#do-while-loop)
 - [for Loop - Coding Exercises](#for-loop)
-
-
+- [Nested Loop](#nested-loop)
+- [Break and Continue](#break-continue)
+  
 <a id="while-loop"></a>
 
 # Section 1: `while` Loop 
@@ -592,6 +593,10 @@ Enter number 5: 50
 Total of five numbers = 150
 ```
 
+<a id="nested-loop"></a>
+
+# Section 4: Nested Loop
+
 ## Problem Statement 29: Calculate the Factorial of a Number
 
 **Task:** Write a C++ program that asks the user to enter a non-negative integer `n` and calculates its factorial using a loop. The factorial is the product of all positive integers from 1 to `n`. The factorial of 0 is 1.
@@ -667,7 +672,64 @@ Multiplication Table of 5
 ...
 5 x 10 = 50
 ```
+<a id="break-continue"></a>
 
+# Section 5: `break` and `continue`
 
+## Problem Statement 32: Print Numbers Using an Infinite `for` Loop and `break`
+
+Write a C++ program that uses an infinite `for` loop to print numbers from 1 to 4. Use the `break` statement to terminate the loop after printing 4.
+
+**Requirements:**
+
+1. Use an infinite `for` loop (`for(;;)`).
+2. Start printing numbers from 1.
+3. Use the `break` statement to terminate the loop when the number reaches 4.
+4. Display each number on a separate line.
+
+**Expected Output:**
+
+```
+1
+2
+3
+4
+```
+### Problem Statement 33: Use `continue` in Nested `for` Loops
+
+Write a C++ program using nested `for` loops with the following requirements:
+
+1. The outer loop (`i`) should execute 5 times (from 1 to 5).
+2. The inner loop (`j`) should execute 5 times (from 1 to 5).
+3. Use the `continue` statement to skip the current inner loop iteration when `j == 3`.
+4. Continue executing the remaining iterations of the inner loop.
+5. The outer loop must complete all 5 iterations.
+
+**Expected Output:**
+
+```
+i = 1
+j = 1
+====
+i = 1
+j = 2
+====
+i = 1
+j = 4
+====
+i = 1
+j = 5
+====
+i = 2
+j = 1
+====
+...
+...
+i = 5
+j = 5
+====
+```
+
+Note: The `continue` statement skips only the current iteration of the inner loop. It does not terminate the outer loop.
 
 
