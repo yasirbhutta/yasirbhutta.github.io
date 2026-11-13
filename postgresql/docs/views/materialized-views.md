@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Materialized Views in PostgreSQL"
-description: Learn how to create, refresh, and use materialized views in PostgreSQL to store query results for faster reporting and analytics.
+title: "PostgreSQL Materialized Views: Creating, Refreshing, and Managing Data"
+description: Learn how to create, query, refresh, and manage materialized views in PostgreSQL with practical SQL examples and exercises.
 keywords: PostgreSQL materialized view, CREATE MATERIALIZED VIEW, SQL materialized view, database performance, PostgreSQL tutorial, query caching, virtual table, refresh materialized view, reporting queries, PostgreSQL analytics, SQL optimization
 ---
 

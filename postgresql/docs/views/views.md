@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "PostgreSQL Views Tutorial"
-description: Learn how to create, query, and use PostgreSQL views to simplify complex SQL, secure data, and reuse virtual tables in your database.
+title: "PostgreSQL Views: Creating, Querying, Updating, and Managing Views"
+description: Learn how to create, query, update, replace, rename, and delete views in PostgreSQL with practical SQL examples and exercises.
 keywords: PostgreSQL views, CREATE VIEW, SQL views, virtual table in PostgreSQL, PostgreSQL tutorial, SQL query reuse, database view examples, create view syntax, PostgreSQL SELECT from view, SQL beginners, database security, PostgreSQL queries
 ---
 
