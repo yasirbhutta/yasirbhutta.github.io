@@ -299,7 +299,7 @@ $$;
 ### ▶ Run it
 
 ```sql
-CALL delete_old_rentals(3000);
+CALL delete_old_rentals(8000);
 ```
 for more details abot `INTERVA`, see [PostgreSQL INTERVAL - Syntax, Examples and Practical Use](../data-types/date-time-data-types/interval.md)
 
