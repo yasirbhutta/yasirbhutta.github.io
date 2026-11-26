@@ -1185,6 +1185,91 @@ We want to arrange them in ascending order:
 
 [Explore Bubble Sort – Interactive Step-by-Step Animation](https://algomaster.io/animations/dsa/bubble-sort)
 
+### **Dry Run – Bubble Sort (Step-by-Step)**
+
+Let's understand how Bubble Sort arranges an array in **ascending order** by comparing and swapping adjacent elements.
+
+**Initial Array:**
+
+`50, 20, 40, 10, 30`
+
+**Step 1: First Pass**
+
+In the first pass, compare each pair of adjacent elements. If the left element is greater than the right element, swap their positions.
+
+| Step | Comparison | Action | Array After Comparison |
+| ---- | ---------- | ------ | ---------------------- |
+| 1    | 50 and 20  | Swap   | 20, 50, 40, 10, 30     |
+| 2    | 50 and 40  | Swap   | 20, 40, 50, 10, 30     |
+| 3    | 50 and 10  | Swap   | 20, 40, 10, 50, 30     |
+| 4    | 50 and 30  | Swap   | 20, 40, 10, 30, 50     |
+
+End of Pass 1
+
+Array after the first pass:
+
+`20, 40, 10, 30, 50`
+
+**What happened?**
+
+- Four comparisons were performed.
+- Four swaps were made.
+- The largest element, `50`, moved to the last position.
+- The last position is now sorted.
+
+**Step 2: Second Pass**
+
+Now compare the remaining unsorted elements. There is no need to compare the last element because `50` is already in its correct position.
+
+| Step | Comparison | Action  | Array After Comparison |
+| ---- | ---------- | ------- | ---------------------- |
+| 1    | 20 and 40  | No Swap | 20, 40, 10, 30, 50     |
+| 2    | 40 and 10  | Swap    | 20, 10, 40, 30, 50     |
+| 3    | 40 and 30  | Swap    | 20, 10, 30, 40, 50     |
+
+End of Pass 2
+
+Array after the second pass:
+
+`20, 10, 30, 40, 50`
+
+**What happened?**
+
+- Three comparisons were performed.
+- Two swaps were made.
+- The second-largest element, `40`, reached its correct position.
+
+**Step 3: Third Pass**
+
+Compare the remaining unsorted elements.
+
+| Step | Comparison | Action  | Array After Comparison |
+| ---- | ---------- | ------- | ---------------------- |
+| 1    | 20 and 10  | Swap    | 10, 20, 30, 40, 50     |
+| 2    | 20 and 30  | No Swap | 10, 20, 30, 40, 50     |
+
+End of Pass 3
+
+Array after the third pass:
+
+`10, 20, 30, 40, 50`
+
+**Step 4: Fourth Pass**
+
+Compare the remaining two elements.
+
+| Step | Comparison | Action  | Array After Comparison |
+| ---- | ---------- | ------- | ---------------------- |
+| 1    | 10 and 20  | No Swap | 10, 20, 30, 40, 50     |
+
+End of Pass 4
+
+**Final Sorted Array**
+
+**10, 20, 30, 40, 50**
+
+The array is now sorted in ascending order.
+
 ### **Complete C++ Code**
 
 ```cpp
@@ -1231,9 +1316,8 @@ Bubble Sort uses two loops.
 for (int i = 0; i < 4; i++)
 ```
 
-The outer loop controls the number of passes.
-
-For five elements, we need at most four passes.
+- The outer loop controls the number of passes.
+- For five elements, we need at most four passes.
 
 **Step 2: Inner loop**
 
@@ -1241,7 +1325,9 @@ For five elements, we need at most four passes.
 for (int j = 0; j < 4 - i; j++)
 ```
 
-The inner loop compares adjacent elements.
+- Compares adjacent elements.
+- The number of comparisons decreases after each pass.
+- The already sorted elements at the end do not need to be compared again.
 
 **Step 3: Compare two elements**
 
@@ -1284,24 +1370,6 @@ AFTER
 
 **50**
 
-### **Dry Run – First Pass**
-
-Initial array:
-
-`50, 20, 40, 10, 30`
-
-| Comparison | Action | Array              |
-| ---------- | ------ | ------------------ |
-| 50 and 20  | Swap   | 20, 50, 40, 10, 30 |
-| 50 and 40  | Swap   | 20, 40, 50, 10, 30 |
-| 50 and 10  | Swap   | 20, 40, 10, 50, 30 |
-| 50 and 30  | Swap   | 20, 40, 10, 30, 50 |
-
-After the first pass, the largest element reaches the last position.
-
-After all passes:
-
-`10, 20, 30, 40, 50`
 
 ### **10.5 Modify the Code**
 

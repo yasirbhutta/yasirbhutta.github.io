@@ -58,12 +58,12 @@ keywords: CS-303, Programming Fundamentals, C++, weekly teaching schedule, C++ p
 
 ### Week 11
 
-* **Lecture 1:** 
-* **Lecture 2:** 
+* **Lecture 1:** Arrays: Real-life example, what is array , indexes, initialization and accessing elements
+* **Lecture 2:** Arrays: `for` loop, user input, displaying elements and calculating sum 
 
 ### Week 12
 
-* **Lecture 1:** 
+* **Lecture 1:** Arrays examples: Find the Largest and Smallest Element, Search an Element in an Array (Linear Search) 
 * **Lecture 2:** 
   
 ### Week 13

@@ -13,7 +13,7 @@ A function in PostgreSQL is a reusable block of SQL statements that performs a s
 
 You can create a function once and use it whenever you need it.
 
-For example:
+**For example:**
 
 - Calculate the total price of products.
 - Calculate the age of a student.
@@ -38,17 +38,12 @@ Functions are useful because they:
 
 ### 1.3 How Does a Function Work?
 
-Call the Function
-
-Provide required input values
-
-Execute Function
-
-Perform the required operations
-
-Return Result
-
-Return a value or a table
+- Call the Function
+- Provide required input values
+- Execute Function
+- Perform the required operations
+- Return Result
+- Return a value or a table
 
 ### 1.4 Function vs. Normal SQL Query
 
@@ -759,34 +754,7 @@ WHERE rental_rate > 3;
 
 We can create functions to reuse similar queries and calculations.
 
-### Example 1: Return a Welcome Message
-
-Create a function that returns a welcome message for the DVD Rental database.
-
-```sql
-CREATE OR REPLACE FUNCTION get_welcome_message()
-RETURNS TEXT
-LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN 'Welcome to DVD Rental Database!';
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT get_welcome_message();
-```
-
-Expected output:
-
-| get_welcome_message             |
-| ------------------------------- |
-| Welcome to DVD Rental Database! |
-
-### Example 2: Count Total Films
+### Example 1: Count Total Films
 
 Create a function that returns the total number of films in the database.
 
@@ -819,7 +787,7 @@ Explanation:
 - `INTO v_total` stores the count in a variable.
 - `RETURN v_total` returns the total number of films.
 
-### Example 3: Get Customer Details by Customer ID
+### Example 2: Get Customer Details by Customer ID
 
 Create a function that accepts a customer ID and returns the customer's full name.
 
@@ -850,7 +818,7 @@ Call the function:
 SELECT get_customer_name(1);
 ```
 
-### Example 4: Calculate Total Payments of a Customer
+### Example 3: Calculate Total Payments of a Customer
 
 Create a function that accepts a customer ID and returns the total amount paid by that customer.
 
@@ -874,7 +842,11 @@ END;
 $$;
 ```
 
-Call the function:
+`COALESCE()` is a PostgreSQL function that returns the first non-NULL value from a list of expressions.
+
+for more detail about `COALESCE()`, see [COALESCE() Function in PostgreSQL](../built-in-functions/conditional-expressions-and-null-handling/coalesce.md)
+
+**Call the function:**
 
 ```sql
 SELECT get_customer_total_payment(1);
@@ -887,37 +859,8 @@ Explanation:
 - `COALESCE()` returns zero if no payment records are found.
 - The function returns the total payment.
 
-### Example 5: Calculate Film Rental Amount
 
-Create a function that calculates the rental amount based on the rental rate and number of days.
-
-```sql
-CREATE OR REPLACE FUNCTION calculate_rental_amount(
-    p_rental_rate NUMERIC,
-    p_days INTEGER
-)
-RETURNS NUMERIC
-LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN p_rental_rate * p_days;
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT calculate_rental_amount(2.99, 5);
-```
-
-Expected output:
-
-| calculate_rental_amount |
-| ----------------------- |
-| 14.95                   |
-
-### Example 6: Return Total Rentals of a Customer
+### Example 5: Return Total Rentals of a Customer
 
 Create a function that returns the total number of rentals made by a customer.
 
@@ -947,7 +890,7 @@ Call the function:
 SELECT get_customer_rental_count(1);
 ```
 
-### Example 3: Return Film Rental Duration
+### Example 6: Return Film Rental Duration
 
 Create a function that returns the rental duration of a film in days.
 
@@ -976,55 +919,7 @@ Call the function:
 ```sql
 SELECT get_film_rental_duration(1);
 ```
-
-### Example 4: Check Whether a Film Is Available for Rental
-
-Create a function that checks whether at least one copy of a film is currently available.
-
-```sql
-CREATE OR REPLACE FUNCTION is_film_available(
-    p_film_id INTEGER
-)
-RETURNS BOOLEAN
-LANGUAGE plpgsql
-AS $$
-DECLARE
-    v_available BOOLEAN;
-BEGIN
-    SELECT EXISTS (
-        SELECT 1
-        FROM inventory AS i
-        WHERE i.film_id = p_film_id
-        AND NOT EXISTS (
-            SELECT 1
-            FROM rental AS r
-            WHERE r.inventory_id = i.inventory_id
-            AND r.return_date IS NULL
-        )
-    )
-    INTO v_available;
-
-    RETURN v_available;
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT is_film_available(1);
-```
-
-Output: `true` or `false`.
-
-Explanation:
-
-- `inventory` contains copies of films available at stores.
-- `rental` contains rental transactions.
-- `return_date IS NULL` identifies a copy that has not yet been returned.
-- `EXISTS` checks whether at least one available copy exists.
-
-### Example 5: Get All Films
+### Example 7: Get All Films
 
 Create a function that returns film details.
 
@@ -1054,124 +949,6 @@ Call the function:
 
 ```sql
 SELECT * FROM get_all_films();
-```
-
-### Example 6: Get Customer Payment History
-
-Create a function that accepts a customer ID and returns all payment records for that customer.
-
-```sql
-CREATE OR REPLACE FUNCTION get_customer_payments(
-    p_customer_id INTEGER
-)
-RETURNS TABLE (
-    payment_id INTEGER,
-    payment_date TIMESTAMP WITH TIME ZONE,
-    amount NUMERIC
-)
-LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN QUERY
-    SELECT
-        p.payment_id,
-        p.payment_date,
-        p.amount
-    FROM payment AS p
-    WHERE p.customer_id = p_customer_id
-    ORDER BY p.payment_date DESC;
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT * FROM get_customer_payments(1);
-```
-
-### Example 7: Get Films by Category
-
-Create a function that accepts a category ID and returns all films belonging to that category.
-
-```sql
-CREATE OR REPLACE FUNCTION get_films_by_category(
-    p_category_id INTEGER
-)
-RETURNS TABLE (
-    film_id INTEGER,
-    title VARCHAR,
-    rental_rate NUMERIC,
-    category_name VARCHAR
-)
-LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN QUERY
-    SELECT
-        f.film_id,
-        f.title,
-        f.rental_rate,
-        c.name
-    FROM film AS f
-    INNER JOIN film_category AS fc
-        ON f.film_id = fc.film_id
-    INNER JOIN category AS c
-        ON fc.category_id = c.category_id
-    WHERE c.category_id = p_category_id
-    ORDER BY f.title;
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT * FROM get_films_by_category(1);
-```
-
-### Example 8: Get Customer Rental History
-
-Create a function that returns the rental history of a particular customer.
-
-```sql
-CREATE OR REPLACE FUNCTION get_customer_rental_history(
-    p_customer_id INTEGER
-)
-RETURNS TABLE (
-    rental_id INTEGER,
-    customer_name TEXT,
-    film_title VARCHAR,
-    rental_date TIMESTAMP WITH TIME ZONE,
-    return_date TIMESTAMP WITH TIME ZONE
-)
-LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN QUERY
-    SELECT
-        r.rental_id,
-        c.first_name || ' ' || c.last_name,
-        f.title,
-        r.rental_date,
-        r.return_date
-    FROM rental AS r
-    INNER JOIN customer AS c
-        ON r.customer_id = c.customer_id
-    INNER JOIN inventory AS i
-        ON r.inventory_id = i.inventory_id
-    INNER JOIN film AS f
-        ON i.film_id = f.film_id
-    WHERE r.customer_id = p_customer_id
-    ORDER BY r.rental_date DESC;
-END;
-$$;
-```
-
-Call the function:
-
-```sql
-SELECT * FROM get_customer_rental_history(1);
 ```
 
 ## 9. Practice Exercises

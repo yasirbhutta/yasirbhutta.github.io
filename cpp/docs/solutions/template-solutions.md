@@ -143,6 +143,15 @@ Include:
 - Short code explanation
 - Sample output
 
+for examples
+level o
+
+Problem analysis
+Complete Program: Working C++ example.
+Understand the Code: Explanation of important statements.
+Dry Run: Execute the code step by step.
+Modify the Code: Change the existing program to learn more.
+
 Level 1a: code explanation for examples
 - Problem analysis
 - Algorithm
