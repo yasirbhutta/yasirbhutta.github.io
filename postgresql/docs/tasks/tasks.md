@@ -34,3 +34,35 @@ Your program should:
 
 ---
 
+## **Topic: PostgreSQL Triggers**
+
+### **Task 1: Practical Implementation (pgAdmin)**
+
+Write and execute all the trigger examples discussed in the class using **PostgreSQL and pgAdmin**.
+
+**Requirements:**
+
+1. Create the required tables.
+2. Create and implement all trigger examples.
+3. Execute the SQL statements to activate each trigger.
+4. Test each trigger to verify that it is working properly.
+5. Verify the results by checking the affected table records.
+6. Correct any errors and ensure that all triggers work as expected.
+
+### **Task 2: Notebook Practice**
+
+Write **any three examples of PostgreSQL triggers** in your notebook.
+
+For each example, include:
+
+1. Purpose of the trigger.
+2. SQL code to create the trigger function.
+3. SQL code to create the trigger.
+4. A practical example showing how it works.
+
+**Note:** Students must complete both tasks. Practical implementation will be checked in pgAdmin, and notebook work will be checked in class.
+
+### Submission
+
+- **Due Date:** Monday, 30 November 2026.
+
