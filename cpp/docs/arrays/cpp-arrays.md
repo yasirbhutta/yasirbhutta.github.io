@@ -928,7 +928,7 @@ Both counters start from zero.
 
 **Step 2: Traverse the array**
 
-```
+```cpp
 for (int i = 0; i < 6; i++)
 ```
 
@@ -1375,8 +1375,32 @@ AFTER
 
 1. Change ascending order to descending order.
 2. Take five numbers from the user.
-3. Sort student marks instead of ordinary numbers.
-4. Find the highest marks after sorting.
+3. Find the highest marks after sorting.
+
+## 19. **Example 11: Finding Array Length and Copying an Array in Reverse Order**
+
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+ int first[7] = {10, 20, 30, 40, 50, 60, 70};
+ int second[7];
+ int arr_size = sizeof(first)/sizeof(first[0]);
+ cout << "Array Size = " << arr_size << endl;
+ for (int i = 0; i < arr_size; i++)
+ {
+ second[i] = first[arr_size-1-i];
+ }
+ cout << "Copied Array: ";
+ for (int i = 0; i < arr_size; i++)
+ {
+ cout << second[i] << " ";
+ }
+ return 0;
+}
+```
+for more detail about `Array Length`, see [C++ Array Length — How to Get Array Size with sizeof ](cpp-array-length.md)
 
 
 ## 📘 **Related Topics**
