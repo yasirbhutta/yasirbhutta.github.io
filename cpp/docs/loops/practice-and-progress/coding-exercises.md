@@ -621,7 +621,7 @@ Expected Output:
 
 **Solution:** [View Solution](../../solutions/loops/for-solutions.md#loop-cod-030)
 
-Task: Write a C++ program that asks the user to enter a positive integer representing the number of rows and displays a right-angled triangle pattern of stars (`*`) using nested loops.
+**Task:** Write a C++ program that asks the user to enter a positive integer representing the number of rows and displays a right-angled triangle pattern of stars (`*`) using nested loops.
 
 Each row should contain stars equal to its row number. For example, the first row should contain 1 star, the second row 2 stars, and so on.
 
