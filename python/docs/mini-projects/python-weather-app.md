@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Mini Project: Simple Weather App with API Integration"
-description: Learn how to use the SUM function and AutoSum in Microsoft Excel to quickly add values across cells, columns, or rows. Includes syntax, examples, and tips for efficient usage.
-keywords: Excel SUM function, how to use SUM in Excel, Excel functions guide, Excel SUM formula, Excel add cells, Excel basics, Excel tutorials, Microsoft Excel functions, SUM formula examples
+description: Build a simple Python weather application using the OpenWeatherMap API. Learn to send HTTP requests, process JSON responses, handle errors, and display city weather details.
+keywords: Python weather app, Python weather project, OpenWeatherMap API, Python API integration, requests library, JSON in Python, weather mini project, Python beginner project, HTTP requests in Python, API error handling
 ---
 
 **Learning focus:**

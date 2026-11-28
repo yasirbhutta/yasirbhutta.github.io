@@ -3,18 +3,6 @@ layout: page
 title: "Python Mini Projects"
 description: Explore hands-on Python mini projects designed to practice real concepts with code examples.
 keywords: "overview, user, input, python, use, find, replace, split"
-author: Muhammad Yasir Bhutta
-course: python
-topic: mini-projects
-show_toc: true
-toc: toc/ms-excel-toc.html
-show_practice_progress: false
-show_mini_project: false
-prev: null
-next: null
-breadcrumb: 
-- title: Python
-url: /python/
 ---
 
 ## 🔤 Mini Projects
@@ -46,3 +34,7 @@ url: /python/
 ### [Guess the Number Game](guess-number-game.md)
 
 **📝 Overview:** To create a simple "Guess the Number" game in Python using a `while` loop, demonstrating core programming concepts such as random number generation, user input, conditional statements (`if-elif-else`), and iteration.
+
+## [Simple Weather App with API Integration](python-weather-app.md)
+
+Develop a Python-based Weather Application that retrieves real-time weather information for a city using the OpenWeatherMap API. The application displays temperature, weather conditions, humidity, and wind speed while handling invalid inputs and API errors.
